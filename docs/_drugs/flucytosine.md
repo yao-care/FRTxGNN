@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Flucytosine : nouvelle indication prédite, Maladie osseuse de Paget (bone Paget disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "FLUCYTOSINE"
 predicted_indications: ["bone Paget disease"]
@@ -93,12 +93,38 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Justification :**
 La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible.
 
+<!-- review:begin fr-lic-20261106-flucytosine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible. De plus, les AMM françaises sont toutes annulées et le profil hématologique, rénal et hépatique du médicament appelle à la prudence. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flucytosine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) et hypothèse biologique reliant la flucytosine à la maladie de Paget
 - Notice officielle de l'ANSM (mises en garde et contre-indications), indispensable avant tout examen de sécurité
 - Études précliniques ou revue de la littérature apportant un premier signal d'efficacité
 - Clarification de l'indication d'origine et de la situation réglementaire actuelle
 - Évaluation de la compatibilité des voies d'administration pour la nouvelle indication
+
+<!-- review:begin fr-lic-20261106-flucytosine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification de l'indication d'origine et de la situation réglementaire actuelle (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flucytosine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées et le profil hématologique, rénal et hépatique du médicament appelle à la prudence » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

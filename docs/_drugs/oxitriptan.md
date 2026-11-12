@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 568
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Oxitriptan : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
 monitor_inn: "OXITRIPTAN"
 predicted_indications: ["insomnia (disease)"]
@@ -91,6 +91,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prédiction (score de 0,9989) n'est étayée par aucun essai clinique ni aucune publication (niveau L5). Ses indications sont vides, et les données de sécurité propres au produit sont manquantes alors que les interactions médicamenteuses sont nombreuses.
 
+<!-- review:begin fr-lic-20261106-oxitriptan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'unique AMM française est annulée et ses indications sont vides, et les données de sécurité propres au produit sont manquantes alors que les interactions médicamenteuses sont nombreuses. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-oxitriptan-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank)
@@ -98,6 +104,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Documenter l'indication d'origine et la similarité avec la nouvelle indication
 - Examiner en détail le risque de syndrome sérotoninergique et les interactions majeures
 - Évaluer la compatibilité des voies d'administration
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'unique AMM française est annulée et s » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

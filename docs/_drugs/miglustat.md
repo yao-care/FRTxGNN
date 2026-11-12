@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 description: "Miglustat : nouvelle indication prédite, Autosomal ichthyosis syndrome with fatal disease course (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -62,6 +62,12 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 Dans la maladie de Tay-Sachs, un déficit en hexosaminidase A provoque l'accumulation du ganglioside GM2 dans les neurones. En réduisant la synthèse en amont des glycosphingolipides, miglustat pourrait diminuer la quantité de substrat à dégrader. Il traverse aussi la barrière hémato-encéphalique, ce qui est pertinent pour une maladie neuronopathique. La logique mécanistique est donc cohérente avec l'indication d'origine.
 
 Les données disponibles tempèrent toutefois cet espoir. Une étude de cas de deux patients atteints de la forme infantile n'a pas montré d'arrêt de la détérioration neurologique, malgré une concentration significative du médicament dans le liquide céphalorachidien. Une revue de 2026 évoque d'ailleurs les « limites du repositionnement ».
+
+<!-- review:begin fr-lic-20261106-miglustat-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Deux autres AMM annulées existent (OPFOLDA 65 mg, YARGESA 100 mg). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-miglustat-1 -->
 
 ## Preuves d'Essais Cliniques
 
@@ -129,12 +135,32 @@ Les neuf autres candidates n'ont ni essai clinique ni publication associés (niv
 - Pour la maladie de Tay-Sachs, la justification mécanistique est solide et un programme clinique existe. Toutefois, les essais sont petits (5 à 30 patients), centrés sur la pharmacocinétique et la tolérance, ou arrêtés précocement. Les données de cas disponibles ne montrent pas d'arrêt de la progression neurologique. Le niveau L1 attribué par la grille repose sur la présence d'un essai de phase 3 terminé, mais cet essai n'est pas confirmatoire ; le niveau de preuve réel est inférieur.
 - La sécurité n'a pas pu être évaluée à partir de la notice (lacune bloquante).
 
+<!-- review:begin fr-lic-20261106-miglustat-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 7 AMM françaises sont toutes annulées, et la sécurité n'a pas pu être évaluée à partir de la notice (lacune bloquante). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-miglustat-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération des mises en garde et contre-indications officielles (notice ANSM)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Analyse des résultats de l'ECR de 2009 et de la revue systématique de 2023 sur l'efficacité réelle dans les gangliosidoses à GM2
 - Clarification du statut réglementaire en France (raisons des annulations d'AMM, accès éventuel par autorisation d'accès compassionnel)
 - Évaluation du profil de tolérance (effets digestifs, neuropathie périphérique, fonction rénale) dans les populations pédiatriques ciblées
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Deux autres AMM annulées existent (OPFOLDA 65 mg, YARGESA 100 mg) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es 7 AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

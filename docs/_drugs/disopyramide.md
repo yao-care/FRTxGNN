@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Disopyramide : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (médicament antiaryth…"
 monitor_inn: "DISOPYRAMIDE"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
@@ -41,6 +41,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 Disopyramide est un antiarythmique de classe Ia (bloqueur des canaux sodiques à activité anticholinergique).
 Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Gilles de la Tourette**, avec un score très élevé.
 Toutefois, **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette prédiction : il s'agit d'une prédiction du modèle uniquement.
+
+<!-- review:begin fr-lic-20261106-disopyramide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Disopyramide est un antiarythmique de classe Ia (bloqueur des canaux sodiques à activité anticholinergique), dont les spécialités françaises sont aujourd'hui toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 4 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-disopyramide-1 -->
 
 ## Aperçu Rapide
 
@@ -100,12 +106,39 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible. Le profil de sécurité (cardiaque et anticholinergique) est défavorable pour cette indication.
 - Les autres prédictions du même médicament présentent le même manque de preuves (TDAH, trichotillomanie, etc.). Les seules plus plausibles au niveau de la classe pharmacologique (flutter auriculaire néonatal, tachycardie auriculaire multifocale) restent indirectes (niveau L4) et sans données dédiées.
 
+<!-- review:begin fr-lic-20261106-disopyramide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible, et le médicament n'a plus d'AMM valide en France. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 4 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-disopyramide-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice (mises en garde, contre-indications), actuellement bloquante pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action (par ex. via DrugBank)
 - Études précliniques démontrant un effet sur les circuits cholinergiques ou dopaminergiques impliqués dans les tics
 - Clarification du statut réglementaire
 - Évaluation du rapport bénéfice/risque cardiaque pour une population jeune
+
+<!-- review:begin fr-lic-20261106-disopyramide-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire, les AMM étant toutes annulées » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 4 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-disopyramide-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « dont les spécialités françaises sont aujourd'hui toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et le médicament n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « les AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

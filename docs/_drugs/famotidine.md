@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -115,6 +115,12 @@ Point de vigilance : plusieurs essais suggèrent que la famotidine est **inféri
 - **Contre-indications issues du graphe de connaissances** (associations du graphe, et non texte de la notice) : maladie rénale, insuffisance rénale, maladie hépatique, maladie de la vésicule biliaire, lithiase rénale, néphrocalcinose, hypercalcémie, hyperparathyroïdie, sarcoïdose, diarrhée, constipation, cancer gastrique (adénocarcinome, linite plastique). Ces éléments doivent être confirmés par la notice officielle.
 - **Interactions médicamenteuses** : 100 interactions recensées. Parmi les premières listées, la majorité sont de niveau modéré (abiratérone, acalabrutinib, tramadol, amiodarone, amitriptyline, aripiprazole, salbutamol, alfuzosine, aminophylline, etc.) et quelques-unes de niveau mineur (acide alendronique, hydroxyde d'aluminium).
 
+<!-- review:begin fr-lic-20261106-famotidine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM sont annulées (laboratoire EG Labo). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-famotidine-1 -->
+
 Les mises en garde et contre-indications officielles de la notice ne sont pas disponibles. Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ---
@@ -132,6 +138,26 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Vérifier la disponibilité réelle et les formulations en France.
 - Comparer systématiquement la famotidine aux IPP dans les populations visées (aspirine, thiénopyridines, prophylaxie de stress).
 - Pour les autres prédictions (reflux duodéno-gastrique, ulcère gastro-jéjunal, gastroduodénite), niveau de preuve faible à modéré : à conserver en « Hold » ou « question de recherche ». Les prédictions « obstruction duodénale », « anomalie de la sécrétion de glucagon » et « acné » ne reposent que sur le score du modèle.
+
+<!-- review:begin fr-lic-20261106-famotidine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier la disponibilité réelle et les formulations en France, puisque les deux AMM sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-famotidine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux AMM sont annulées (laboratoire EG Labo) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « puisque les deux AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

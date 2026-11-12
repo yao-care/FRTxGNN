@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 489
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Methylergometrine : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (usage utérotonique s…"
 monitor_inn: "methylergometrine"
 predicted_indications: ["hypertrichosis (disease)", "pulmonary hypertension", "migraine disorder", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "kyphoscoliotic heart disease", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -96,11 +96,30 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - La prédiction principale (hypertrichose) repose uniquement sur le modèle (niveau L5), sans mécanisme plausible, essai ni publication. La migraine (niveau L4) peut au mieux constituer une question de recherche, mais elle est désavantagée par le risque cardiovasculaire et par l'existence d'alternatives approuvées.
 
+<!-- review:begin fr-lic-20261106-methylergometrine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction principale (hypertrichose) repose uniquement sur le modèle (niveau L5), sans mécanisme plausible, essai ni publication. Le profil de sécurité vasculaire de la classe et la seule AMM française annulée renforcent la recommandation de ne pas poursuivre. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-methylergometrine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mécanisme d'action détaillé (DrugBank)
 - Mises en garde et contre-indications de la notice (ANSM), actuellement bloquantes pour le criblage de sécurité
 - Indication originale documentée dans l'AMM
 - Pour la migraine : données précliniques ou cliniques directes et évaluation du rapport bénéfice/risque cardiovasculaire par rapport aux traitements existants
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le profil de sécurité vasculaire de la classe et la seule AMM française annulée renforcent la recommandation de ne pas poursuivre » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

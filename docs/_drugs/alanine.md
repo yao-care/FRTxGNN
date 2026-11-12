@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Alanine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "ALANINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -41,6 +41,12 @@ Niveau de preuve: **L5** | Indications prédites: **1**
 L'alanine est un acide aminé non essentiel, présent dans de nombreux produits de nutrition parentérale et de dialyse péritonéale commercialisés en France.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **gastroparésie**, mais cette prédiction repose uniquement sur un score informatique.
 Aucun essai clinique n'est enregistré, et les **3 publications** retrouvées ne traitent ni de l'alanine comme traitement ni de la gastroparésie comme critère de résultat.
+
+<!-- review:begin fr-lic-20261106-alanine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'alanine est un acide aminé non essentiel, présent dans de nombreux produits de nutrition parentérale et de dialyse péritonéale commercialisés en France (aujourd'hui tous annulés). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-alanine-1 -->
 
 ---
 
@@ -90,6 +96,12 @@ Ces publications sont indirectes : aucune n'étudie l'alanine comme traitement d
 
 Les textes d'indication ne sont pas disponibles. Voici les 5 premières :
 
+<!-- review:begin fr-lic-20261106-alanine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM sont annulées. Les textes d'indication ne sont pas disponibles. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-alanine-2 -->
+
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 64728712 | ABUFENE 400 mg, comprimé | comprimé | Non disponible |
@@ -123,6 +135,20 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Rechercher des études précliniques ou cliniques ciblant directement l'alanine dans la gastroparésie
 - Vérifier la compatibilité de la voie d'administration et de la forme pharmaceutique avec cette indication
 - Évaluer les contre-indications rénales et cardiovasculaires, fréquentes chez les patients gastroparétiques diabétiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (aujourd'hui tous annulés) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les 20 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

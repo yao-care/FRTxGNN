@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
 description: "Resorcinol : nouvelle indication prédite, Acné chéloïdienne (acne keloid) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -91,11 +91,30 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Les données de sécurité officielles sont absentes.
 
+<!-- review:begin fr-lic-20261106-resorcinol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données de sécurité officielles sont absentes et les deux AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-resorcinol-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice officielle de l'ANSM (mises en garde et contre-indications) afin de permettre le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (par ex. via DrugBank)
 - Réaliser une revue de la littérature et des registres d'essais sur le résorcinol dans l'acné chéloïdienne
 - Évaluer l'absorption systémique et le risque de méthémoglobinémie, en particulier pour les peaux lésées et les populations pédiatriques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

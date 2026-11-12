@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 285
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Entecavir : nouvelle indication prédite, Infection chronique par le virus de l'hépatite C (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite B"
 monitor_inn: "entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
@@ -95,6 +95,12 @@ Ces publications portent sur la co-infection et la prévention de la réactivati
 
 Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-entecavir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes au statut « annulée ». Le texte d'indication approuvée n'est pas renseigné dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-entecavir-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 69469719 | BARACLUDE 0,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
@@ -130,6 +136,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Vérification de la disponibilité du produit en France, 20 AMM valides, médicament commercialisé
 
 **Remarque sur les autres indications prédites :** l'hépatite B (rang 2) est l'indication d'origine (niveau L1, Proceed with Guardrails ; surveillance de l'acidose lactique, de la thrombocytopénie, des poussées post-traitement, adaptation de la dose en cas d'insuffisance rénale). L'infection par le VIH (rang 3, L3) relève d'une question de recherche, l'entécavir ne devant pas être utilisé comme traitement du VIH en raison du risque de sélection de la mutation M184V. Les autres prédictions (hépatites A et E, modèles animaux, trouble neurodéveloppemental rare) sont de niveau L4-L5 et restent en Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes au statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
 description: "Dimenhydrinate : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -63,6 +63,12 @@ L'urticaire est une affection médiée par la libération d'histamine par les ma
 
 Il faut toutefois nuancer : les recommandations actuelles privilégient les antihistaminiques H1 de seconde génération, non sédatifs. Un agent sédatif de première génération apporte peu d'avantage, et le statut commercial limite l'intérêt pratique d'un développement.
 
+<!-- review:begin fr-lic-20261106-dimenhydrinate-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Un agent sédatif de première génération apporte peu d'avantage, et le statut commercial (AMM toutes annulées) limite l'intérêt pratique d'un développement. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 4 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dimenhydrinate-1 -->
+
 La seconde prédiction, l'**urticaire au froid** (score 0,9924), repose sur la même logique mécanistique mais ne dispose d'aucun essai ni d'aucune publication. Elle reste au niveau L5 avec une décision Hold.
 
 ## Preuves d'Essais Cliniques
@@ -106,6 +112,19 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Des preuves cliniques directes (essais ou études observationnelles) dans l'urticaire
 - Une comparaison avec les antihistaminiques H1 de seconde génération
 - Une évaluation de la faisabilité réglementaire, compte tenu de l'absence d'AMM valide
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

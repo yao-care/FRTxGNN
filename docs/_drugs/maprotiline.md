@@ -7,7 +7,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 predicted_indications: []
 ---
 
@@ -74,6 +74,12 @@ Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour la Mapr
 
 > Une vérification auprès de la base de données publique de l'ANSM est recommandée pour confirmer le statut réglementaire actuel.
 
+<!-- review:begin fr-lic-20261106-maprotiline-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « > **Note :** Des AMM historiques ont pu exister et avoir été retirées ou expirées. Une vérification auprès de la base de données publique de l'ANSM est recommandée pour confirmer le statut réglementaire actuel. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-maprotiline-1 -->
+
 ---
 
 ## Considérations de Sécurité
@@ -96,6 +102,26 @@ L'absence totale de prédictions TxGNN combinée aux lacunes critiques dans les 
 - **Analyser la notice ANSM** pour extraire les avertissements, contre-indications et interactions médicamenteuses
 - **Vérifier le statut réglementaire historique** en France via la base transparence ANSM
 - **Relancer le pipeline d'evidence gathering** une fois les données de base complétées (Phase 5 — collecte d'essais cliniques et de littérature)
+
+<!-- review:begin fr-lic-20261106-maprotiline-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « **Analyser la notice ANSM/TFDA** pour extraire les avertissements, contre-indications et interactions médicamenteuses / **Vérifier le statut réglementaire historique** en France via la base transparence ANSM (AMM potentiellement retirées ou expirées) » Supprimé : texte résiduel du modèle taïwanais (TFDA), sans objet pour cette page. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-maprotiline-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « **Note :** Des AMM historiques ont pu exister et avoir été retirées ou expirées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « /TFDA (AMM potentiellement retirées ou expirées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

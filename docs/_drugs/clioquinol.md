@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Clioquinol : nouvelle indication prédite, Ectothrix infectious disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -96,12 +96,38 @@ Veuillez consulter la notice pour les informations de sécurité complètes : le
 **Justification :**
 - La prédiction est mécanistiquement plausible, mais elle ne repose que sur le modèle et sur une publication ancienne et indirecte, sans essai clinique.
 
+<!-- review:begin fr-lic-20261106-clioquinol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction est mécanistiquement plausible, mais elle ne repose que sur le modèle et sur une publication ancienne et indirecte, sans essai clinique. De plus, l'autorisation française est annulée et les données de sécurité officielles sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clioquinol-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, étape bloquante pour le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Générer des données *in vitro* directes sur les espèces de *Candida*, puis des données précliniques cutanées
 - Vérifier la compatibilité de la voie d'administration (topique) et la faisabilité réglementaire
 - Évaluer le risque de neurotoxicité et d'absorption systémique pour une formulation topique
+
+<!-- review:begin fr-lic-20261106-clioquinol-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier la compatibilité de la voie d'administration (topique) et la faisabilité réglementaire, l'AMM étant annulée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clioquinol-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, l'autorisation française est annulée et les données de sécurité officielles sont absentes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

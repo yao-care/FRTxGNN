@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab : nouvelle indication prédite, Malignant cutaneous granular cell skin tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -148,12 +148,24 @@ Veuillez consulter la notice pour les mises en garde et les contre-indications, 
 - Des preuves randomisées solides (dont un essai de phase 3 de 3270 patients et plusieurs ECR publiés) soutiennent le trastuzumab dans le cancer du sein HER2-positif, y compris les tumeurs à récepteurs hormonaux positifs. Il s'agit cependant d'un sous-groupe de l'indication d'origine plutôt que d'un véritable repositionnement.
 - Le bénéfice est limité aux tumeurs HER2-positives. Les données de sécurité de la notice sont absentes.
 
+<!-- review:begin fr-lic-20261106-trastuzumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les autorisations françaises recensées sont toutes annulées, et les données de sécurité de la notice sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-trastuzumab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Confirmation obligatoire du statut HER2 avant tout traitement (garde-fou principal)
 - Récupération et analyse de la notice (mises en garde et contre-indications), qui bloque l'évaluation de sécurité
 - Données détaillées sur le mécanisme d'action
 - Clarification du statut réglementaire en France
 - Plan de surveillance cardiaque (FEVG) avant et pendant le traitement
+
+<!-- review:begin fr-lic-20261106-trastuzumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (AMM annulées, produits éventuellement autorisés par procédure centralisée européenne) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-trastuzumab-2 -->
 
 ---
 
@@ -162,6 +174,20 @@ Veuillez consulter la notice pour les mises en garde et les contre-indications, 
 - **Sous-type de type normal du carcinome mammaire** (L4, Hold) : pas de justification mécanistique claire, tumeur généralement HER2-négative.
 - **Tumeur cutanée granulaire maligne, ectomésenchymome, tumeur liée à l'HHV-8, tumeur neuroendocrine de l'oreille moyenne** (L5, Hold) : prédictions du modèle uniquement, sans preuve clinique ni bibliographique.
 - **Carcinome urothélial sarcomatoïde du bassinet rénal et carcinome urothélial de l'urètre prostatique** (L5, question de recherche) : hypothèse plausible en cas de surexpression de HER2, mais aucune donnée à l'appui.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es autorisations françaises recensées sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées, produits éventuellement autorisés par procédure centralisée européenne) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

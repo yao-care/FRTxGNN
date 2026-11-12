@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -77,6 +77,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune publication ne traite spécifiquement de l'épilepsie visuelle. Les références ci-dessous sont des publications générales sur l'épilepsie et le pérampanel, à valeur contextuelle uniquement.
 
+<!-- review:begin fr-lic-20261106-perampanel-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « (2 autres AMM annulées existent : FYCOMPA 8 mg et FYCOMPA 4 mg.) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-perampanel-1 -->
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
 | [37378757](https://pubmed.ncbi.nlm.nih.gov/37378757/) | 2023 | Revue systématique / méta-analyse en réseau | J Neurol | Comparaison de l'efficacité et de la sécurité des antiépileptiques dans les épilepsies généralisées idiopathiques |
@@ -124,10 +130,22 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - Les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-perampanel-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-perampanel-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications) pour l'évaluation de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action.
 - Rechercher des données spécifiques à l'épilepsie photosensible/visuelle (modèles précliniques, séries de cas).
+
+<!-- review:begin fr-lic-20261106-perampanel-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Rechercher des données spécifiques à l'épilepsie photosensible/visuelle (modèles précliniques, séries de cas). / Clarifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-perampanel-3 -->
 
 ---
 
@@ -138,6 +156,21 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 | Déficit en bêta-cétothiolase | 0,9979 | L5 | Hold |
 
 Parmi ces candidates, l'**état de mal épileptique** dispose des preuves les plus solides (4 essais cliniques, dont un essai de phase 2 de prophylaxie post-arrêt cardiaque encore en recrutement, et des études rétrospectives), mais les deux essais de phase 3/4 ont été arrêtés après l'inclusion d'un seul patient chacun.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (2 autres AMM annulées existent : FYCOMPA 8 mg et FYCOMPA 4 mg.) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

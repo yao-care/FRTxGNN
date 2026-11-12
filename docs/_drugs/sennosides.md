@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 698
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sennosides : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Non renseignée dans les données de l'AMM"
 monitor_inn: "SENNOSIDES"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia"]
@@ -87,12 +87,38 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Les prédictions reposent uniquement sur le score du modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible.
 - Les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-sennosides-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La seule AMM française est annulée, et les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sennosides-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications).
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Identifier une hypothèse biologique plausible reliant les sennosides à la biologie du follicule pileux, avec des données précliniques à l'appui.
 - Évaluer la compatibilité des voies d'administration (voie orale actuelle vs voie topique ou autre nécessaire pour les indications envisagées).
 - Vérifier le statut réglementaire actuel des sennosides en France.
+
+<!-- review:begin fr-lic-20261106-sennosides-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier le statut réglementaire actuel des sennosides en France (AMM annulée uniquement). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sennosides-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « a seule AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée uniquement) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

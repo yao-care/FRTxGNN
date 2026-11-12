@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant : nouvelle indication prédite, Serpinopathy with toxic serpin polymerization (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -114,6 +114,12 @@ L'extension à la forme acquise du déficit est cohérente sur le plan mécanist
 
 Au total, 7 AMM sont recensées.
 
+<!-- review:begin fr-lic-20261106-icatibant-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 7 AMM sont recensées, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-icatibant-1 -->
+
 ---
 
 ## Considérations de Sécurité
@@ -138,7 +144,27 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Clarification du statut réglementaire français et du texte d'indication
 - Plan de gestion des interactions avec les IEC
 
+<!-- review:begin fr-lic-20261106-icatibant-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire français (AMM toutes annulées) et du texte d'indication » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-icatibant-2 -->
+
 **Autres prédictions (niveau L5, décision : Hold) :** les six autres indications prédites (serpinopathie avec polymérisation toxique, pseudo-maladie de von Willebrand, trouble de la sécrétion plaquettaire, myopathie nécrosante à médiation immune, syndrome des antisynthétases, thrombasthénie de Glanzmann) ne reposent sur aucun essai ni publication.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

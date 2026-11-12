@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine : nouvelle indication prédite, Thiamine-responsive dysfunction syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -141,6 +141,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Définir un plan de surveillance de l'hypoglycémie et des interactions médicamenteuses pertinentes.
 
+<!-- review:begin fr-lic-20261106-insulin_glulisine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Compléter les données sur le mécanisme d'action via DrugBank. / Clarifier les raisons de l'annulation des AMM et la disponibilité réelle du produit en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-insulin_glulisine-1 -->
+
 ---
 
 ## Autres Indications Prédites (Information Complémentaire)
@@ -157,6 +163,18 @@ Les neuf autres indications prédites ne reposent sur aucun essai clinique ni pu
 | 8 | Lipodystrophie localisée d'origine médicamenteuse | 0,9915 | L5 | L'insuline est une cause connue, non un traitement |
 | 9 | Lipodystrophie centrifuge | 0,9911 | L5 | Aucune justification thérapeutique |
 | 10 | Lipoatrophie localisée induite par la pression | 0,9910 | L5 | L'insuline peut provoquer la lipoatrophie, non la traiter |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et la disponibilité réelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

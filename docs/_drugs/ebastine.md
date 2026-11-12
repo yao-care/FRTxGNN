@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 267
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
 description: "Ebastine : nouvelle indication prédite, Maladie coronarienne (coronary artery disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -95,12 +95,38 @@ Point d'attention lié à la nouvelle indication : l'allongement possible de l'i
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle TxGNN (deep learning, niveau L5), sans essai clinique ni publication. Les deux indications cardiovasculaires prédites sont probablement corrélées, et le risque d'allongement du QT plaide pour la prudence. Le médicament est commercialisé en France.
 
+<!-- review:begin fr-lic-20261106-ebastine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le médicament est commercialisé en France (16 AMM valides sur 16). » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 15 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ebastine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (consultation de DrugBank) et analyse du lien mécanistique avec la pathologie coronarienne
 - Notice officielle de l'ANSM (mises en garde et contre-indications), indispensable avant toute évaluation de sécurité
 - Revue de la littérature préclinique et clinique sur l'histamine, les mastocytes et la maladie coronarienne
 - Évaluation de la sécurité cardiaque (QT) de l'ebastine et de la carébastine
 - Clarification du statut réglementaire en France : médicament commercialisé
+
+<!-- review:begin fr-lic-20261106-ebastine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France : médicament commercialisé, 16 AMM valides sur 16 » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 15 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ebastine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (16 AMM valides sur 16) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « 16 AMM valides sur 16 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 520
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "nabumetone"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis"]
 description: "Nabumetone : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseigné…"
@@ -70,6 +70,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement.
 
+<!-- review:begin fr-lic-20261106-nabumetone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM, détenues par EXPANSCIENCE, sont annulées : il n'existe actuellement aucune présentation commercialisée en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nabumetone-1 -->
+
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
@@ -94,6 +100,12 @@ Les textes de mises en garde et de contre-indications de la notice n'ont pas pu 
 - Aucune preuve clinique ou publiée ne soutient cette prédiction, et aucun lien mécanistique plausible n'existe : la COX n'intervient pas dans le défaut génétique de *GDF5*.
 - Le profil de sécurité (risques cardiovasculaires, rénaux, hépatiques et gastro-intestinaux) est peu favorable pour une maladie génétique rare du développement.
 
+<!-- review:begin fr-lic-20261106-nabumetone-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le médicament n'a plus d'AMM valide en France, et le profil de sécurité (risques cardiovasculaires, rénaux, hépatiques et gastro-intestinaux) est peu favorable pour une maladie génétique rare du développement. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nabumetone-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (DrugBank).
 - Mises en garde et contre-indications officielles de la notice ANSM.
@@ -101,6 +113,20 @@ Les textes de mises en garde et de contre-indications de la notice n'ont pas pu 
 
 **Autres prédictions du modèle (pour information) :**
 Parmi les dix premières prédictions, deux relèvent du niveau L4 (« question de recherche ») : la **susceptibilité aux spondylarthropathies** (les AINS sont un traitement de première ligne, mais l'argument ne repose que sur l'effet de classe) et la **nodulose rhumatoïde** (proximité avec l'indication approuvée dans la polyarthrite rhumatoïde, sans preuve spécifique). Parmi les prédictions squelettiques, la **pseudoachondroplasie** est la plus plausible sur le plan biologique, mais uniquement pour un soulagement symptomatique de la douleur articulaire secondaire. Les autres prédictions (brachyolmie, syndrome brachydactylie-syndactylie, myosclérose, syndrome de WHIM, etc.) n'ont aucun fondement mécanistique identifié.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux AMM, détenues par EXPANSCIENCE, sont annulées : il n'existe actuellement aucune présentation commercialisée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « e médicament n'a plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

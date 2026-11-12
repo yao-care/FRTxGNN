@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 750
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Tezacaftor : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Mucoviscidose (fibrose kystique)"
 monitor_inn: "TEZACAFTOR"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -75,6 +75,12 @@ Aucune littérature associée disponible actuellement.
 
 Les 6 autorisations ci-dessous sont au statut « valide ».
 
+<!-- review:begin fr-lic-20261106-tezacaftor-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième autorisation annulée existe (KAFTRIO 75 mg/50 mg/100 mg, comprimé pelliculé, n° 67875361). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tezacaftor-1 -->
+
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 62984481 | SYMKEVI 50 mg/75 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
@@ -96,12 +102,39 @@ Les données compilées ne contiennent ni mises en garde, ni contre-indications.
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication et aucun lien mécanistique plausible avec le VIH.
 
+<!-- review:begin fr-lic-20261106-tezacaftor-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication et aucun lien mécanistique plausible avec le VIH. De plus, les autorisations françaises sont toutes annulées et les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tezacaftor-2 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer les mises en garde et contre-indications de la notice officielle (site de l'ANSM)
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Mener des études précliniques *in vitro* pour tester une éventuelle activité anti-VIH ou un effet sur des facteurs de l'hôte
 - Clarifier le statut réglementaire en France
 - Réaliser une revue systématique de la littérature sur CFTR et le VIH avant tout investissement supplémentaire
+
+<!-- review:begin fr-lic-20261106-tezacaftor-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire en France (motifs d'annulation des AMM) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tezacaftor-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième autorisation annulée existe (KAFTRIO 75 mg/50 mg/100 mg, comprimé pelliculé, n° 67875361) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « De plus, les autorisations françaises sont toutes annulées et les données de sécurité de la notice manquent, ce qui bloque l'évaluation de s » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (motifs d'annulation des AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

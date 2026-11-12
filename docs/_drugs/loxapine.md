@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Loxapine : nouvelle indication prédite, Retinal dystrophy with or without extraocular anomalies (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -119,6 +119,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - La manie bipolaire correspond à l'indication d'origine de la loxapine, et la littérature (revues, méta-analyse, analyse de deux ECR de phase 3 sur la forme inhalée) est cohérente avec cette direction. Aucun essai clinique n'est enregistré.
 
+<!-- review:begin fr-lic-20261106-loxapine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La seule AMM française recensée est annulée, et aucun essai clinique n'est enregistré. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-loxapine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le dépistage de sécurité.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
@@ -126,7 +132,27 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Examiner les ECR primaires de la loxapine dans la manie aiguë, au-delà des revues.
 - Établir un plan de surveillance de sécurité (syndrome malin des neuroleptiques, dyskinésie tardive, effets cardiovasculaires, interactions anticholinergiques et dépresseurs du SNC).
 
+<!-- review:begin fr-lic-20261106-loxapine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire actuel (AMM annulée) et la formulation visée (orale, injectable ou inhalée). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-loxapine-2 -->
+
 **Autres prédictions du modèle (rangs 2 à 10) :** dystrophie rétinienne, hydranencéphalie, myopies génétiques, trouble congénital de la glycosylation, maladie de Charcot-Marie-Tooth de type 1G, polymicrogyrie, encéphalopathie à glycine atypique. Niveau de preuve L5, décision **Hold**.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « La seule MM française recensée est annulée, et a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan : nouvelle indication prédite, Renal-hepatic-pancreatic dysplasia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -66,6 +66,12 @@ Réserve importante : les essais pivots (TEMPO 3:4, REPRISE) ont été menés da
 
 Aucun essai clinique associé enregistré actuellement.
 
+<!-- review:begin fr-lic-20261106-tolvaptan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « (5 AMM présentées sur 17 au total, toutes annulées.) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tolvaptan-1 -->
+
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
@@ -114,6 +120,19 @@ Aucun essai clinique associé enregistré actuellement.
 - Un plan de surveillance hépatique (bilan hépatique régulier).
 
 **Autres indications prédites (non recommandées à ce stade) :** dysplasie rénale-hépatique-pancréatique, néphrite interstitielle caryomégalique, malformation thoracique, syndrome de Joubert avec atteinte rénale (question de recherche, niveau L4), syndrome néphronophtise-quadriparésie spastique de l'adulte, hypertrichose et autres syndromes malformatifs : preuves absentes ou très indirectes (niveaux L4-L5), décision **Hold**.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (5 AMM présentées sur 17 au total, toutes annulées.) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 795
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
 description: "Turoctocog Alfa : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans…"
@@ -81,6 +81,12 @@ Aucune littérature associée disponible actuellement.
 
 Le titulaire est NOVO NORDISK (Danemark) pour l'ensemble des AMM.
 
+<!-- review:begin fr-lic-20261106-turoctocog_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM (68274043, NOVOEIGHT 500 UI) est également annulée. Le titulaire est NOVO NORDISK (Danemark) pour l'ensemble des AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-turoctocog_alfa-1 -->
+
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité. Aucune interaction médicamenteuse n'a été retrouvée dans les données compilées pour ce rapport.
@@ -97,6 +103,26 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une revue ciblée de la littérature et des registres d'essais pour le déficit acquis en facteur de coagulation, seule piste plausible
 - La clarification de l'entité « flood factor deficiency » et une évaluation du risque thrombotique
+
+<!-- review:begin fr-lic-20261106-turoctocog_alfa-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La clarification de l'entité « flood factor deficiency » et une évaluation du risque thrombotique / La confirmation de la disponibilité du produit, compte tenu du statut « annulé uniquement » » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-turoctocog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième AMM (68274043, NOVOEIGHT 500 UI) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « La confirmation de la disponibilité du produit, compte tenu du statut « annulé uniquement » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

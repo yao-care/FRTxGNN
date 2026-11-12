@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
 description: "Fluorouracil : nouvelle indication prédite, Botryoid-type embryonal rhabdomyosarcoma of the vagina (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -86,6 +86,12 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 Ces références ne permettent pas de distinguer l'effet du fluorouracile de celui des protocoles multi-agents standard.
 
+<!-- review:begin fr-lic-20261106-fluorouracil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM (FLUOROURACILE ACCORD 50 mg/mL, solution à diluer pour perfusion, n° 65502207) est également annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fluorouracil-1 -->
+
 ---
 
 ## Informations de Marché en France
@@ -134,6 +140,26 @@ Les mises en garde et contre-indications officielles de la notice n'étant pas d
 - Études précliniques ou cliniques spécifiques au fluorouracile dans le rhabdomyosarcome, permettant d'isoler son effet de celui des protocoles standards
 - Clarification du statut réglementaire et de la disponibilité de la voie d'administration requise
 - Comparaison avec les protocoles de référence (VAC) pour justifier tout intérêt additionnel
+
+<!-- review:begin fr-lic-20261106-fluorouracil-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire (AMM annulées) et de la disponibilité de la voie d'administration requise » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fluorouracil-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième AMM (FLUOROURACILE ACCORD 50 mg/mL, solution à diluer pour perfusion, n° 65502207) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

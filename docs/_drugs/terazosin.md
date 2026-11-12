@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 742
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Terazosin : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypertension artérielle…"
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
@@ -100,6 +100,12 @@ Veuillez consulter la notice pour les mises en garde détaillées, qui ne sont p
 - L'indication principale prédite (hypotrichose simple du cuir chevelu) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible.
 - Les pistes les plus intéressantes sont la maladie de Raynaud (niveau L3, « Research Question ») et la migraine (niveau L4, « Research Question »), mais les preuves sont anciennes et de faible qualité.
 
+<!-- review:begin fr-lic-20261106-terazosin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'indication principale prédite (hypotrichose simple du cuir chevelu) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans mécanisme plausible. Les produits français sont en outre tous annulés. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-terazosin-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
 - Les données détaillées sur le mécanisme d'action (DrugBank)
@@ -107,6 +113,19 @@ Veuillez consulter la notice pour les mises en garde détaillées, qui ne sont p
 - Pour la migraine : des données contrôlées modernes avant toute considération au-delà de la génération d'hypothèses
 - Une étude préclinique ou mécanistique sur les follicules pileux avant d'envisager une indication capillaire
 - Une clarification du statut réglementaire, puisque les 2 AMM françaises sur 2 sont valides
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les produits français sont en outre tous annulés » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

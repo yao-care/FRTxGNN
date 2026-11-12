@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan : nouvelle indication prédite, Angor de Prinzmetal (Prinzmetal angina) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -135,6 +135,25 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Rechercher des données précliniques ou cliniques sur l'olmésartan dans le vasospasme coronarien.
 - Piste alternative à approfondir : la **migraine** (L3). Analyser en détail les études de 2006 et la revue de 2019, en tenant compte du biais lié à la baisse de la pression artérielle. Le candésartan dispose d'un meilleur soutien par essais randomisés dans cette classe.
 - Clarifier le statut réglementaire actuel.
+
+<!-- review:begin fr-lic-20261106-olmesartan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire actuel (raisons de l'annulation des AMM et disponibilité éventuelle de génériques). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 20 AMM pour ce médicament, dont 20 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-olmesartan-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM et disponibilité éventuelle de génériques) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

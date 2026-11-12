@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
 description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -94,6 +94,12 @@ Aucune littérature associée disponible actuellement pour l'indication principa
 
 Le texte d'indication approuvée n'est pas disponible dans les données compilées. Principales AMM :
 
+<!-- review:begin fr-lic-20261106-galantamine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 16 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas disponible dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-galantamine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 62031593 | GALANTAMINE TEVA SANTE LP 8 mg | Gélule à libération prolongée | Active |
@@ -124,12 +130,32 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans lien mécanistique établi avec les troubles du mouvement psychogènes.
 - Le médicament est commercialisé en France, mais les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-galantamine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le médicament est commercialisé en France (16 AMM valides sur 16), mais les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-galantamine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour le criblage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Établir un lien mécanistique ou des données précliniques/cliniques pour l'indication ciblée.
 - Si l'axe « troubles du mouvement » est poursuivi, évaluer d'abord le signal de sécurité des inhibiteurs de cholinestérase (aggravation de mouvements anormaux).
 - Clarifier les raisons de l'annulation des AMM et la possibilité de disposer d'une formulation commercialisée.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 16 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (16 AMM valides sur 16) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

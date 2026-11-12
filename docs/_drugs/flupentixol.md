@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 340
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "flupentixol"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "hydranencephaly (disease)", "myopia X-linked", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Flupentixol : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication d'or…"
@@ -90,12 +90,38 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun lien mécanistique plausible avec la dystrophie rétinienne.
 - Les données de sécurité de la notice sont manquantes, ce qui empêche toute évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-flupentixol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'AMM française est annulée et les données de sécurité de la notice sont manquantes, ce qui empêche toute évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flupentixol-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), étape bloquante pour l'évaluation de sécurité
 - Compléter les données sur le mécanisme d'action (par exemple via l'API DrugBank)
 - Établir une hypothèse mécanistique reliant le blocage dopaminergique à la physiopathologie des dystrophies rétiniennes
 - Mener des études précliniques (modèles de dégénérescence rétinienne) avant toute envisagée clinique
 - Clarifier la voie d'administration
+
+<!-- review:begin fr-lic-20261106-flupentixol-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la voie d'administration et la faisabilité de la formulation, au vu de l'AMM annulée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flupentixol-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et la faisabilité de la formulation, au vu de l'AMM annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

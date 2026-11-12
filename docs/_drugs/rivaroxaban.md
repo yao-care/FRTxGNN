@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Rivaroxaban : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -80,6 +80,12 @@ Aucune de ces publications n'évalue le rivaroxaban comme traitement de la polya
 
 Aucun texte d'indication n'est disponible. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-rivaroxaban-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes annulées ; aucun texte d'indication n'est disponible. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-rivaroxaban-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 60474483 | RIVAROXABAN EVOLUGEN 20 mg | Comprimé pelliculé | Non renseignée |
@@ -109,12 +115,32 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - Le score TxGNN est très élevé (0,9957), mais il n'existe ni essai clinique ni publication évaluant l'efficacité du rivaroxaban dans la polyarthrite rhumatoïde (niveau L5). Les données de sécurité officielles sont absentes.
 
+<!-- review:begin fr-lic-20261106-rivaroxaban-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données de sécurité officielles sont absentes et le médicament n'a plus d'AMM valide en France. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-rivaroxaban-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications, indications) pour le dépistage de sécurité
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Mener des études précliniques ou observationnelles sur le lien entre génération de thrombine et activité de la polyarthrite
 - Clarifier le statut réglementaire en France, 20 AMM valides étant recensées et le médicament étant commercialisé
 - Évaluer le rapport bénéfice/risque hémorragique chez des patients souvent sous corticoïdes ou AINS
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 MM recensées sont toutes annulées ; a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et le médicament n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

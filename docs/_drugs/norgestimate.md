@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -73,6 +73,18 @@ Aucune littérature associée disponible actuellement.
 
 Le texte d'indication approuvée n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-norgestimate-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 7 autorisations recensées sont toutes annulées ; aucune n'est en cours de validité. Le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-norgestimate-1 -->
+
+<!-- review:begin fr-lic-20261106-norgestimate-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Deux autres autorisations, également annulées, ne sont pas détaillées ici : TRIAFEMI CONTINU (69090320) et FEMI (69140061). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-norgestimate-2 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 65464991 | NARAVELA 250 µg/35 µg, comprimé | Comprimé | Active |
@@ -100,6 +112,20 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Les données sur le mécanisme d'action, à interroger dans DrugBank
 - Une justification clinique de la pertinence de l'indication prédite, puis une revue de la littérature sur les estrogènes/progestatifs et le zinc plasmatique
 - L'évaluation de la similarité avec les indications d'origine et de la compatibilité des voies d'administration
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 7 autorisations recensées sont toutes annulées ; aucune n'est en cours de validité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Deux autres autorisations, également annulées, ne sont pas détaillées ici : TRIAFEMI CONTINU (69090320) et FEMI (69140061) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

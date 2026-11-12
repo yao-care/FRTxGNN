@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 816
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Vinorelbine : nouvelle indication prédite, Sarcome d'Ewing (niveau de preuve L2). Indication d'origine : Cancer bronchique non à petites cellules"
 monitor_inn: "vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
@@ -62,6 +62,12 @@ Le sarcome d'Ewing est une tumeur à petites cellules rondes très proliférativ
 
 La relation avec l'indication d'origine est donc surtout mécanistique : le même effet antimitotique, démontré dans le cancer du poumon, pourrait s'appliquer à une tumeur osseuse à forte prolifération. Il s'agit d'un lien plausible, mais indirect.
 
+<!-- review:begin fr-lic-20261106-vinorelbine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 8 AMM sont recensées, toutes annulées : 6 capsules molles (voie orale) et 2 solutions à diluer pour perfusion (ARROW et ACCORD, 10 mg/mL). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vinorelbine-1 -->
+
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
@@ -115,6 +121,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - Un essai de phase 2 de vinorélbine + cyclophosphamide inclut explicitement les tumeurs d'Ewing, et la littérature (essai de phase 2 pédiatrique, revue de 2026 sur l'essai INTER-EWING-1) soutient ce schéma. Les preuves restent toutefois indirectes (populations mixtes, résultats de l'essai principal non disponibles), d'où le niveau L2 et la nécessité de garde-fous.
 
+<!-- review:begin fr-lic-20261106-vinorelbine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les preuves restent toutefois indirectes (populations mixtes, résultats de l'essai principal non disponibles), d'où le niveau L2 et la nécessité de garde-fous. / Toutes les AMM françaises de vinorélbine sont annulées, ce qui complique l'accès local. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vinorelbine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice (ANSM) : lacune bloquante pour le dépistage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
@@ -122,7 +134,28 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Clarification du statut réglementaire en France et des voies d'administration disponibles
 - Plan de surveillance hématologique et gestion des interactions (notamment inhibiteurs du CYP3A4 comme la clarithromycine)
 
+<!-- review:begin fr-lic-20261106-vinorelbine-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (AMM annulées) et des voies d'administration disponibles » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vinorelbine-3 -->
+
 **Note sur les autres indications prédites :** le cancer bronchique à petites cellules (L1, Proceed with Guardrails) repose sur des essais portant surtout sur le cancer bronchique non à petites cellules, donc sur l'indication d'origine. Le néoplasme du sillon pulmonaire et la tumeur germinale du poumon relèvent de questions de recherche (L3). Les autres prédictions (fibromatose gingivale, fibrome, hamartome et néoplasme bénin du poumon, carcinome du hile, blastome pulmonaire) sont à mettre en attente (Hold), faute de preuves ou de justification thérapeutique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Au total, 8 AMM sont recensées, toutes annulées : 6 capsules molles (voie orale) et 2 solutions à diluer pour perfusion (ARROW et ACCORD, 10 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Toutes les AMM françaises de vinorélbine sont annulées, ce qui complique l'accès local » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

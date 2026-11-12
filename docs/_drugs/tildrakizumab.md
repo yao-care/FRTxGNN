@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tildrakizumab : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (niveau de preuve L5). Indication d'origine : Non disponible dans les données compilées"
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -111,6 +111,25 @@ Chez des patients diabétiques, une immunosuppression systémique nécessiterait
 - Mener une revue de la littérature préclinique sur le rôle de l'IL-23/IL-17 dans la rétinopathie diabétique
 - Évaluer la compatibilité des voies d'administration (injectable systémique vs voies oculaires) et le profil de sécurité infectieuse chez les patients diabétiques
 - Clarifier la situation réglementaire en France
+
+<!-- review:begin fr-lic-20261106-tildrakizumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire en France (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tildrakizumab-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

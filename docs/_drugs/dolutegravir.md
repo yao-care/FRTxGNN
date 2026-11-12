@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 253
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "dolutegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Dolutegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseigné…"
@@ -97,6 +97,12 @@ Les publications les plus pertinentes sont listées ci-dessous (10 sur 13). Aucu
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
+<!-- review:begin fr-lic-20261106-dolutegravir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 8 AMM associées au dolutégravir sont toutes annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dolutegravir-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 64510425 | TIVICAY 10 mg | Comprimé pelliculé | Active |
@@ -133,6 +139,26 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Mises en garde et contre-indications issues de la notice ANSM (étape bloquante pour le criblage de sécurité)
 - Clarification du statut réglementaire en France et de la disponibilité actuelle du produit
 - Reformulation de la question de recherche : le SIV et le FIV étant des modèles animaux, il est préférable de les utiliser comme outils de recherche plutôt que comme cibles d'un repositionnement
+
+<!-- review:begin fr-lic-20261106-dolutegravir-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (AMM annulées) et de la disponibilité actuelle du produit » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dolutegravir-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 8 AMM associées au dolutégravir sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

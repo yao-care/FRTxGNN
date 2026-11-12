@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 160
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
 description: "Chlorambucil : nouvelle indication prédite, ALK-positive large B-cell lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -118,6 +118,12 @@ Pour les mises en garde officielles, veuillez consulter la notice.
 **Justification :**
 - Les preuves pour le lymphome pulmonaire primitif (L3) sont anciennes, rétrospectives et indirectes, sans essai clinique enregistré. Le chlorambucil est largement remplacé par des thérapies ciblées. Les données de sécurité de la notice sont manquantes, ce qui bloque le passage au criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-chlorambucil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le chlorambucil n'a plus d'AMM valide en France et est largement remplacé par des thérapies ciblées. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-chlorambucil-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles issues de la notice de l'ANSM
 - Données détaillées sur le mécanisme d'action (MOA)
@@ -125,7 +131,27 @@ Pour les mises en garde officielles, veuillez consulter la notice.
 - Évaluation du risque de seconds cancers et plan de surveillance hématologique
 - Clarification du statut réglementaire
 
+<!-- review:begin fr-lic-20261106-chlorambucil-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire, l'AMM unique étant annulée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-chlorambucil-2 -->
+
 **Note sur les autres prédictions :** les prédictions de rang 1 et 2 (LLC/LL avec hypermutation somatique IGHV et LLC/LL pré-centre germinatif) sont de proche parenté avec les indications d'origine mais sans preuve spécifique (niveau L4, Hold). Le lymphome B à grand cellules ALK-positif, l'adénocarcinome fœtal pulmonaire bien différencié et le blastome pulmonaire (niveau L5) reposent uniquement sur la prédiction du modèle. La leucémie lymphoblastique aiguë est déjà une indication d'origine. Le carcinome pulmonaire à petites cellules (L3, Hold) repose sur des données anciennes et précliniques sans rôle évident dans la pratique actuelle.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « n'a plus d'AMM valide en France et » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM unique étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

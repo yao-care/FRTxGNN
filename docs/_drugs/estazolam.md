@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 300
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ESTAZOLAM"
 predicted_indications: ["visual epilepsy", "alcohol withdrawal delirium", "restless legs syndrome", "myofascial pain syndrome", "eating seizures", "orgasm-induced seizures", "audiogenic seizures", "startle epilepsy", "thinking seizures"]
 description: "Estazolam : nouvelle indication prédite, Visual epilepsy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -121,6 +121,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 - L'insomnie correspond à l'usage hypnotique classique de l'estazolam, soutenu par des essais cliniques et une revue ancienne. Il ne s'agit donc pas d'un repositionnement au sens strict.
 - Les preuves récentes sont surtout indirectes (estazolam comme comparateur ou traitement de fond).
 
+<!-- review:begin fr-lic-20261106-estazolam-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les preuves récentes sont surtout indirectes (estazolam comme comparateur ou traitement de fond), et le produit n'a plus d'AMM valide en France. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-estazolam-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
 - Les données détaillées sur le mécanisme d'action (à compléter via DrugBank)
@@ -128,6 +134,19 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 - Un plan de surveillance pour les risques de dépendance, de sédation et de dépression respiratoire, notamment en cas d'association avec des opioïdes
 
 **Autres indications prédites (à titre d'information) :** les autres prédictions reposent surtout sur le modèle seul. L'épilepsie visuelle et les crises audiogéniques (niveau L4) ne s'appuient que sur des études animales indirectes, et sont à considérer comme des questions de recherche. Le delirium de sevrage alcoolique, le syndrome des jambes sans repos, le syndrome myofascial et les épilepsies réflexes rares (niveau L5) sont en attente (Hold), sans preuve spécifique à l'estazolam.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et le produit n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

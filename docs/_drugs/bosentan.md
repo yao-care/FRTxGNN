@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Bosentan : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -82,6 +82,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Les données compilées indiquent 13 AMM pour des spécialités à base de bosentan (Tracleer, Bosentan Sun, Stragen, Accord, Arrow, Viatris), sous forme de comprimés pelliculés, pelliculés sécables et dispersibles. Les textes d'indication ne sont pas renseignés dans les données locales. Les données de statut disponibles sont incohérentes entre les champs; le statut de chaque AMM doit donc être vérifié auprès de l'ANSM.
 
+<!-- review:begin fr-lic-20261106-bosentan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données de statut disponibles sont incohérentes entre les champs (le statut de marché indique « commercialisé » alors que les licences sont décrites comme annulées) ; le statut de chaque AMM doit donc être vérifié auprès de l'ANSM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 13 AMM pour ce médicament, dont 13 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-bosentan-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications possibles (relations de bases de données, hors texte de la notice)** : insuffisance hépatique, maladie hépatique, lésion hépatique d'origine médicamenteuse, maladie de la vésicule biliaire, thrombopénie, anémie, insuffisance cardiaque congestive, hyperbilirubinémie (dont syndrome de Gilbert), œdème pulmonaire, maladie veino-occlusive pulmonaire.
@@ -101,6 +107,19 @@ Aucune étude ne porte directement sur l'effet du bosentan dans la polyarthrite 
 - Des données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications issues de la notice de l'ANSM
 - Une évaluation du profil de sécurité (notamment hépatique et hématologique) dans cette population
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (le statut de marché indique « commercialisé » alors que les licences sont décrites comme annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

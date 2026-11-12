@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 570
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Paclitaxel : nouvelle indication prédite, Parameningeal embryonal rhabdomyosarcoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -156,12 +156,38 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - Plusieurs essais de phase 3 terminés (par exemple NCT00667251, NCT00006459, NCT00553358, NCT01822314) et de nombreuses études de phase 2 soutiennent le paclitaxel dans le cancer du sein, ce qui correspond à un niveau de preuve L1. Toutefois, il s'agit d'un usage déjà établi.
 
+<!-- review:begin fr-lic-20261106-paclitaxel-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Toutefois, il s'agit d'un usage déjà établi, et les 12 AMM françaises sont toutes annulées, ce qui impose des garde-fous réglementaires. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 12 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-paclitaxel-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Vérifier la situation réglementaire actuelle en France et récupérer les indications approuvées.
 - Obtenir les mises en garde et contre-indications de la notice (ANSM), actuellement manquantes et bloquantes pour le criblage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Définir un plan de surveillance hématologique, neurologique et d'hypersensibilité, ainsi qu'un examen des interactions médicamenteuses.
 - Pour les indications à faible niveau de preuve (carcinome du mamelon, carcinome bilatéral, rhabdomyosarcomes), ne pas avancer sans données cliniques supplémentaires.
+
+<!-- review:begin fr-lic-20261106-paclitaxel-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier la situation réglementaire actuelle en France (raisons de l'annulation des AMM, éventuelles autorisations par d'autres procédures) et récupérer les indications approuvées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 12 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-paclitaxel-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les 12 AMM françaises sont toutes annulées, ce qui impose des garde-fous réglementaires » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, éventuelles autorisations par d'autres procédures) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

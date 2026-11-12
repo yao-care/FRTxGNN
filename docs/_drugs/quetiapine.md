@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Quetiapine : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (niveau de preuve L5). Indication d'origine : Troubles bipolaires, trouble affectif majeur, mani…"
 monitor_inn: "quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
@@ -83,6 +83,12 @@ Aucune littérature associée disponible actuellement.
 
 Les cinq premières sont listées ci-dessous (toutes en comprimé à libération prolongée, sans texte d'indication renseigné).
 
+<!-- review:begin fr-lic-20261106-quetiapine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Les cinq premières sont listées ci-dessous (toutes en comprimé à libération prolongée, sans texte d'indication renseigné). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-quetiapine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 67357301 | QUETIAPINE VIATRIS LP 400 mg | Comprimé à libération prolongée | Active |
@@ -123,6 +129,26 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - Des études précliniques (modèles de dégénérescence rétinienne) avant toute étude clinique
 - Une clarification du statut réglementaire en France
 - Une évaluation séparée de la **trichotillomanie**, seule indication prédite disposant de littérature, qui nécessiterait au minimum un essai pilote ou contrôlé
+
+<!-- review:begin fr-lic-20261106-quetiapine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une clarification du statut réglementaire en France (annulation de toutes les AMM) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-quetiapine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (annulation de toutes les AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

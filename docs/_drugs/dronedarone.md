@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 261
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -117,7 +117,26 @@ L'association avec l'AVC repose essentiellement sur une prédiction du modèle T
 - Définir les populations exclues (fibrillation atriale permanente, insuffisance cardiaque) et un plan de gestion des interactions, notamment avec les anticoagulants oraux directs
 - Clarifier la situation réglementaire en France
 
+<!-- review:begin fr-lic-20261106-dronedarone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire en France, l'AMM étant annulée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dronedarone-1 -->
+
 Les autres indications prédites (par exemple les amyloses, la sarcoglycanopathie, le syndrome de Wildervanck, l'obstruction duodénale) n'ont ni essai ni publication ni lien mécanistique plausible : elles restent en Hold. Le syndrome du sinus malade de type 2 soulève de plus un risque d'aggravation de la bradycardie.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sotatercept : nouvelle indication prédite, Leucémie lymphoblastique aiguë (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
@@ -88,6 +88,12 @@ Aucune littérature associée disponible actuellement.
 
 Titulaire : Merck Sharp & Dohme (Pays-Bas).
 
+<!-- review:begin fr-lic-20261106-sotatercept-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Titulaire : Merck Sharp & Dohme (Pays-Bas). Les deux autorisations sont au statut « annulée ». » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sotatercept-1 -->
+
 ---
 
 ## Autres Indications Prédites (pour information)
@@ -121,12 +127,39 @@ Veuillez consulter la notice pour les informations de sécurité.
 - La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai clinique, sans publication et sans mécanisme d'action documenté.
 - Les données de sécurité sont absentes.
 
+<!-- review:begin fr-lic-20261106-sotatercept-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données de sécurité sont absentes et les deux AMM françaises sont annulées, ce qui bloque l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sotatercept-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Télécharger et analyser la notice officielle sur le site de l'ANSM (mises en garde et contre-indications)
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Clarifier l'indication originale
 - Rechercher des études précliniques ou cliniques reliant la signalisation activine/GDF/BMP à la leucémie lymphoblastique aiguë
 - Évaluer en priorité l'ostéoporose d'origine médicamenteuse, mécanistiquement plus plausible, avant d'engager des ressources sur d'autres indications
+
+<!-- review:begin fr-lic-20261106-sotatercept-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier l'indication originale et les raisons de l'annulation des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sotatercept-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux autorisations sont au statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées, ce qui bloque l'évaluation de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

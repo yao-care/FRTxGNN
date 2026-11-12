@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 829
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "ZIDOVUDINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Zidovudine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
@@ -97,6 +97,12 @@ Aucun essai randomisé n'est disponible. Les publications les plus pertinentes s
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-zidovudine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les neuf AMM de la zidovudine (seule ou en association) sont annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. » Supprimé : l'indication de médicaments monocomposants ou en association ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zidovudine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 60132743 | RETROVIR 10 mg/ml | Solution à diluer pour perfusion | Active |
@@ -127,11 +133,31 @@ Les informations issues de la notice (mises en garde, contre-indications) ne son
 - La prédiction pour le syndrome d'immunodéficience acquise féline (score de 0,9996) repose uniquement sur des études animales ou vétérinaires, sans essai clinique. Il s'agit d'une maladie animale, d'une pertinence limitée pour le repositionnement chez l'humain.
 - Les indications prédites ayant un niveau de preuve plus élevé (complexe lié au SIDA, VIH congénital, niveau L1) recoupent largement l'indication d'origine. Il s'agit d'une redécouverte plus que d'un véritable repositionnement.
 
+<!-- review:begin fr-lic-20261106-zidovudine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Il s'agit d'une maladie animale, d'une pertinence limitée pour le repositionnement chez l'humain, et les 9 AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zidovudine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Définir si l'objectif est vétérinaire ou humain, car la pertinence réglementaire et clinique diffère.
 - Obtenir les données détaillées sur le mécanisme d'action.
 - Récupérer et analyser la notice (mises en garde, contre-indications) auprès de l'ANSM.
 - Pour toute piste humaine, plan de surveillance de la toxicité hématologique (anémie, neutropénie).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les neuf AMM de la zidovudine (seule ou en association) sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les 9 AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

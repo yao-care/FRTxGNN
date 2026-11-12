@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ivosidenib"
 predicted_indications: ["bulbar polio"]
 description: "Ivosidenib : nouvelle indication prédite, Poliomyélite bulbaire (bulbar polio) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -137,11 +137,30 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 **Justification :**
 - La prédiction pour la poliomyélite bulbaire repose uniquement sur le modèle (niveau L5). Elle n'a aucun essai ni publication à l'appui et aucun lien mécanistique plausible.
 
+<!-- review:begin fr-lic-20261106-ivosidenib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Elle n'a aucun essai ni publication à l'appui et aucun lien mécanistique plausible. L'AMM française est de plus annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ivosidenib-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'évaluation de sécurité)
 - Compléter les données sur le mécanisme d'action (via DrugBank)
 - Pour la poliomyélite bulbaire : une justification biologique indépendante, faute de quoi la piste devrait être abandonnée
 - Pour les LAM/SMD liés à la radiothérapie ou aux agents alkylants : évaluer la piste comme sous-groupe défini par le statut mutationnel IDH1, avec recherche d'études spécifiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

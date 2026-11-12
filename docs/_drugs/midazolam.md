@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 499
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -87,6 +87,12 @@ Les publications directement pertinentes sont anciennes (1981-1990). Les autres 
 
 Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
+<!-- review:begin fr-lic-20261106-midazolam-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 8 AMM sont annulées. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-midazolam-2 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 63020895 | MIDAZOLAM AGUETTANT 5 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM active) |
@@ -118,6 +124,33 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 - Comparer le midazolam aux hypnotiques actuellement disponibles, au regard de la balance bénéfice-risque.
 - Vérifier la compatibilité des voies d'administration avec l'usage hypnotique.
 - Évaluer, avec les données récentes, la pertinence d'un nouveau dossier réglementaire.
+
+<!-- review:begin fr-lic-20261031-midazolam-1 -->
+
+> **Correction de vérification (2026-10-31)**: Texte initial : « Évaluer, avec les données récentes, la pertinence d'un nouveau dossier réglementaire, compte tenu du statut « uniquement annulé ». » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-10-31). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261031-midazolam-1 -->
+
+<!-- review:begin fr-lic-20261106-midazolam-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier la compatibilité des voies d'administration avec l'usage hypnotique, les AMM annulées étant essentiellement injectables. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-midazolam-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Supprimé : « compte tenu du statut « uniquement annulé » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les 8 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « les AMM annulées étant essentiellement injectables » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

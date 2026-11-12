@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Fulvestrant : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -66,6 +66,12 @@ Le score très élevé du modèle TxGNN (deep learning) (0,9991) peut refléter 
 
 Aucun essai clinique associé n'est enregistré actuellement pour l'infection par le VIH.
 
+<!-- review:begin fr-lic-20261106-fulvestrant-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 10 AMM sont au statut « annulée ». » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fulvestrant-1 -->
+
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
@@ -117,6 +123,26 @@ Les autres indications prédites ne sont pas plus solides :
 - Données détaillées sur le mécanisme d'action (à obtenir via DrugBank)
 - Études précliniques supplémentaires sur la modulation de ERα dans la latence du VIH, avant d'envisager un essai clinique
 - Évaluation du rapport bénéfice/risque d'une hormonothérapie anti-œstrogène dans une population atteinte du VIH
+
+<!-- review:begin fr-lic-20261106-fulvestrant-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Données détaillées sur le mécanisme d'action (à obtenir via DrugBank) / Indications approuvées des AMM, et clarification de la situation réglementaire des produits annulés » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fulvestrant-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 10 AMM sont au statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Indications approuvées des AMM, et clarification de la situation réglementaire des produits annulés » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 235
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DIAZOXIDE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality"]
 description: "Diazoxide : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -108,11 +108,30 @@ Publications relatives à l'hypertrichose (indication prédite en rang 7), qui m
 **Justification :**
 - Les prédictions sont à fort score mais reposent surtout sur une association de phénotype (l'hypertrichose, effet indésirable). Aucun essai clinique n'existe ; le seul signal favorable est préclinique (macaque, alopécie, niveau L4). Pour l'hypertrichose et le syndrome d'Ambras, la prédiction est contradictoire et représente plutôt un signal de sécurité. Le profil de sécurité systémique est défavorable.
 
+<!-- review:begin fr-lic-20261106-diazoxide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de sécurité systémique est défavorable et les AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-diazoxide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour l'examen de sécurité)
 - Les données détaillées sur le mécanisme d'action (MOA) via DrugBank
 - Si l'alopécie est poursuivie : une formulation topique uniquement, avec des études précliniques de pénétration cutanée et d'exposition systémique, puis un essai de phase 2 chez l'humain
 - Pour l'hyperinsulinisme dû à un déficit en Kir6.2 : évaluation par rapport aux données existantes sur l'hyperinsulinisme congénital, car les formes dominantes répondent souvent mal au diazoxide
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

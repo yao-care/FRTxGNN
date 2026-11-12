@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib : nouvelle indication prédite, Uterine corpus perivascular epithelioid cell tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -84,6 +84,18 @@ Aucune littérature associée disponible actuellement.
 
 Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
+<!-- review:begin fr-lic-20261106-ruxolitinib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 6 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ruxolitinib-1 -->
+
+<!-- review:begin fr-lic-20261106-ruxolitinib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM (JAKAVI 10 mg, comprimé, n° 65584250) est également annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ruxolitinib-2 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
 |---------|------|------|-----------|
 | 65291824 | JAKAVI 5 mg, comprimé | Comprimé | Novartis Europharm (Irlande) |
@@ -124,6 +136,12 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être intégr
 - L'indication prédite (PEComa utérin) repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication.
 - Les données de sécurité de la notice ne sont pas disponibles.
 
+<!-- review:begin fr-lic-20261106-ruxolitinib-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'indication prédite (PEComa utérin) repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. / Toutes les AMM françaises du ruxolitinib sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ruxolitinib-3 -->
+
 À titre de comparaison, parmi les autres candidats prédits :
 - **Syndrome hémophagocytaire associé à une infection** : le mieux documenté. Il s'appuie sur des modèles murins, des séries de cas et une étude de traitement stratifié pédiatrique. Il est classé L3, avec la recommandation « Research Question ».
 - **Liposarcome** : classé L4, avec deux études précliniques sur la voie JAK-STAT dans le liposarcome myxoïde.
@@ -134,6 +152,28 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être intégr
 - Mises en garde et contre-indications de la notice ANSM, obtenues en téléchargeant et analysant le PDF de la notice.
 - Clarification du statut réglementaire en France et de la voie d'administration requise.
 - Comparaison avec le traitement de référence (inhibiteurs de mTOR) avant toute décision de développement.
+
+<!-- review:begin fr-lic-20261106-ruxolitinib-4 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (AMM annulées) et de la voie d'administration requise. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ruxolitinib-4 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 6 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Une sixième AMM (JAKAVI 10 mg, comprimé, n° 65584250) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Toutes les AMM françaises du ruxolitinib sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

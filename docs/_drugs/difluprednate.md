@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DIFLUPREDNATE"
 predicted_indications: ["familial adrenal hypoplasia with absent pituitary luteinizing hormone", "seborrheic keratosis", "PAGOD syndrome", "vulvar inverted follicular keratosis", "adrenocortical insufficiency", "seborrheic dermatitis", "46,XY disorder of sex development", "necrobiosis lipoidica", "nephrotic syndrome", "iris disease"]
 description: "Difluprednate : nouvelle indication prédite, Familial adrenal hypoplasia with absent pituitary luteinizing hormone (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
@@ -40,6 +40,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 Le difluprednate est un corticoïde de synthèse puissant, utilisé en ophtalmologie pour traiter l'inflammation et la douleur après chirurgie oculaire ainsi que l'uvéite antérieure.
 Le modèle TxGNN place en tête de classement la **forme familiale d'hypoplasie surrénalienne avec absence de LH hypophysaire** (score de 0,9996), mais cette prédiction n'est soutenue par aucune donnée clinique. La piste la plus plausible sur le plan biologique est la **maladie de l'iris**, soutenue par **0 essai clinique** et **1 publication** préclinique.
+
+<!-- review:begin fr-lic-20261106-difluprednate-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le difluprednate est un corticoïde de synthèse puissant, utilisé en ophtalmologie pour traiter l'inflammation et la douleur après chirurgie oculaire ainsi que l'uvéite antérieure. La seule AMM française recensée (une crème dermatologique) est aujourd'hui annulée et ne mentionne aucune indication. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-difluprednate-1 -->
 
 ## Aperçu Rapide
 
@@ -96,12 +102,32 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 - Toutes les prédictions reposent sur le score du modèle seul (L5), sauf la maladie de l'iris (L4) qui ne dispose que d'une étude préclinique chez l'animal. Aucun essai clinique n'existe.
 - Les données de sécurité de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-difluprednate-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Aucun essai clinique n'existe, et le produit n'est plus commercialisé en France (AMM annulée). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-difluprednate-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Définir précisément l'indication « maladie de l'iris » et rechercher des données cliniques sur l'uvéite antérieure ou l'iridocyclite avec le difluprednate.
 - Vérifier la compatibilité des voies d'administration (formulation ophtalmique contre voie requise pour chaque indication).
 - Pour les indications systémiques (insuffisance surrénalienne, syndrome néphrotique), comparer aux traitements établis, car le difluprednate ne dispose d'aucune donnée de dosage systémique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « La seule AMM française recensée (une crème dermatologique) est aujourd'hui annulée et ne mentionne aucune indication » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et le produit n'est plus commercialisé en France (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Dutasteride : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie bénigne de la prostate"
 monitor_inn: "dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -73,6 +73,12 @@ Aucune littérature associée disponible actuellement pour l'indication principa
 
 Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM :
 
+<!-- review:begin fr-lic-20261106-dutasteride-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est disponible dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dutasteride-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 60051234 | AVODART 0,5 mg (GlaxoSmithKline) | Capsule molle | Active |
@@ -102,6 +108,19 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données précliniques ou cliniques spécifiques à l'hypertrichose d'Ambras
 - Évaluation du risque tératogène et de la disponibilité du produit en France (AMM annulées)
 - Réexamen d'autres candidats plus plausibles, car le lien avec l'alopécie androgénétique n'est pas transposable à l'alopécie en aires
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

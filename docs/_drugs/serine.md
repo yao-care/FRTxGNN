@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 699
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
 description: "Serine : nouvelle indication prédite, Myopathie viscérale familiale (familial visceral myopathy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -85,6 +85,12 @@ Aucune littérature associée disponible actuellement pour la myopathie viscéra
 
 Aucun texte d'indication approuvée n'est renseigné. Cinq exemples :
 
+<!-- review:begin fr-lic-20261106-serine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes annulées. Aucun texte d'indication approuvée n'est renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-serine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Non renseignée |
@@ -117,6 +123,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Établir un lien mécanistique plausible entre la sérine et la physiopathologie de la myopathie viscérale familiale.
 - Rechercher des études précliniques ou cliniques ciblées, puis évaluer la compatibilité des voies d'administration et de la formulation.
 - Vérifier le statut réglementaire : le médicament est commercialisé, avec 19 AMM valides.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

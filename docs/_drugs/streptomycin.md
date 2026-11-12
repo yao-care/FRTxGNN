@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 714
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
 description: "Streptomycin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -113,12 +113,31 @@ Les mises en garde et contre-indications officielles issues de la notice ne sont
 - La prédiction repose sur un score élevé du modèle, mais sans essai clinique et avec une littérature indirecte, ancienne ou vétérinaire (niveau L4). Les alternatives topiques sont la norme en ophtalmologie.
 - Les autres indications prédites ne sont pas plus solides : otite externe (L3, données historiques de 1947 et risque d'ototoxicité), uréthrale infectieuse et maladie de Lyme (L4, preuves indirectes), et plusieurs prédictions sans aucune preuve (L5). Pour l'otite interne infectieuse, les données montrent plutôt une toxicité.
 
+<!-- review:begin fr-lic-20261106-streptomycin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les alternatives topiques sont la norme en ophtalmologie, et l'AMM disponible est annulée et homéopathique. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-streptomycin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications), un point bloquant pour le criblage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
 - Vérifier la disponibilité d'une formulation ophtalmique adaptée et la compatibilité de voie d'administration.
 - Mener des études cliniques ou des comparaisons directes avec les traitements topiques de référence si l'indication est poursuivie, en ciblant éventuellement les conjonctivites à pathogènes spécifiques (tularémie, brucellose, tuberculose).
 - Évaluer le profil bénéfice-risque, notamment la toxicité rénale et cochléovestibulaire.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'AMM disponible est annulée et homéopathique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

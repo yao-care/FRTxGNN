@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Ivabradine : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données disponibles"
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L5** | Indications prédites: **6**
 
 L'ivabradine est un médicament dont l'indication originale n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**, mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellement cette direction.
+
+<!-- review:begin fr-lic-20261106-ivabradine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'ivabradine est un médicament dont l'indication originale n'est pas renseignée dans les données compilées pour ce rapport (les trois AMM françaises recensées sont toutes annulées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ivabradine-1 -->
 
 ## Apercu Rapide
 
@@ -100,6 +106,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 - Rechercher des études précliniques ou des cas rapportés reliant l'ivabradine à l'hypertrichose ou aux affections prédites.
 - Évaluer la compatibilité de la voie d'administration avec l'indication visée.
 - Réévaluer la pertinence de la prédiction : l'absence de lien biologique plausible justifie de ne pas investir davantage sans nouvelles preuves.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (les trois AMM françaises recensées sont toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

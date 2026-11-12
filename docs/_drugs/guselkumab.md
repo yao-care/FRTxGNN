@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Guselkumab : nouvelle indication prédite, Ostéoporose médicamenteuse (première prédiction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (textes d'indication…"
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
@@ -170,6 +170,25 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 - Pour l'ostéoporose médicamenteuse : mener une revue de littérature préclinique sur l'axe IL-23/IL-17 et le remodelage osseux avant toute étude clinique.
 - Pour la rectocolite hémorragique et le psoriasis : confirmer s'il s'agit d'indications déjà approuvées afin de les écarter du périmètre du repositionnement.
 - Pour une population à risque (grossesse, allaitement, infections chroniques), prévoir un plan de surveillance de sécurité.
+
+<!-- review:begin fr-lic-20261106-guselkumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier le statut réglementaire réel de Tremfya en France, les AMM disponibles étant toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-guselkumab-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « les AMM disponibles étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

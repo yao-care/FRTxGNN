@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -74,6 +74,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
+<!-- review:begin fr-lic-20261106-isoniazid-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les cinq AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-isoniazid-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 63644987 | RIMIFON 50 mg, comprimé | Comprimé | Active |
@@ -102,6 +108,19 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Mener une revue de la littérature pour rechercher un lien entre l'isoniazide et les atteintes oculaires (par exemple la kératoconjonctivite phlycténulaire).
 - Évaluer la compatibilité des voies d'administration (une voie topique oculaire n'existe pas dans les formes recensées).
 - Examiner le profil de sécurité, notamment hépatique et neurologique, au regard d'une éventuelle nouvelle population cible.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les cinq AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

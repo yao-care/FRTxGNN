@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide : nouvelle indication prédite, Well-differentiated fetal adenocarcinoma of the lung (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -65,6 +65,12 @@ Il faut cependant noter que, dans la plupart des essais, l'étoposide est utilis
 ## Preuves d'Essais Cliniques
 
 Sélection parmi les 33 essais associés au sarcome d'Ewing (principaux essais de phase 3 et de phase 2 pertinents) :
+
+<!-- review:begin fr-lic-20261106-etoposide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Trois autres AMM annulées existent (ETOPOSIDE ACCORD 20 mg/mL, ETOPOPHOS 100 mg, ETOPOSIDE VIATRIS 20 mg/ml). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etoposide-1 -->
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
 |---------|------|------|------|---------|
@@ -138,6 +144,26 @@ Veuillez consulter les mises en garde et précautions de la notice pour les dét
 - Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
 - Préciser la contribution propre de l'étoposide au sein des polychimiothérapies.
 - Établir un plan de surveillance de la sécurité (hématologique, hépatique, rénale, pulmonaire, interactions médicamenteuses) pour les populations pédiatriques et adultes concernées.
+
+<!-- review:begin fr-lic-20261106-etoposide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank. / Clarifier le statut réglementaire : les 8 AMM sont annulées, il faut vérifier la disponibilité réelle du produit en France (autres circuits, autorisations en vigueur). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etoposide-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Trois autres AMM annulées existent (ETOPOSIDE ACCORD 20 mg/mL, ETOPOPHOS 100 mg, ETOPOSIDE VIATRIS 20 mg/ml) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier le statut réglementaire : les 8 AMM sont annulées, il faut vérifier la disponibilité réelle du produit en France (autres circuits, » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

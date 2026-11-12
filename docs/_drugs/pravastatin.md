@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 623
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin : nouvelle indication prédite, HIV infectious disease (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -121,6 +121,12 @@ Les mises en garde issues de la notice ne sont pas disponibles : veuillez consul
 **Justification :**
 - Aucune étude ne teste directement la pravastatine dans la HFHo, et la physiopathologie de cette maladie (récepteurs du LDL peu ou pas fonctionnels) laisse prévoir une efficacité limitée.
 
+<!-- review:begin fr-lic-20261106-pravastatin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Aucune étude ne teste directement la pravastatine dans la HFHo, et la physiopathologie de cette maladie (récepteurs du LDL peu ou pas fonctionnels) laisse prévoir une efficacité limitée. Les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pravastatin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de mécanisme d'action détaillées (DrugBank)
 - Mises en garde et contre-indications officielles de la notice (ANSM)
@@ -128,6 +134,19 @@ Les mises en garde issues de la notice ne sont pas disponibles : veuillez consul
 - Clarification du statut réglementaire en France (AMM annulées)
 
 **Remarque complémentaire :** parmi les autres prédictions, l'**hypercholestérolémie familiale** (forme hétérozygote, niveau L3) présente des preuves plus solides, notamment des données pédiatriques sur la pravastatine, mais il s'agit d'un usage cliniquement établi plutôt que d'un véritable repositionnement. L'infection par le VIH (niveau L2) soutient surtout la prise en charge des dyslipidémies associées, pas le traitement de l'infection elle-même.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

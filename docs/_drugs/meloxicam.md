@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée…"
@@ -116,7 +116,26 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Justification biologique reliant le médicament à la physiopathologie de la dysplasie, ou données précliniques.
 - Clarification du statut réglementaire en France.
 
+<!-- review:begin fr-lic-20261106-meloxicam-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (AMM toutes annulées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 12 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-meloxicam-1 -->
+
 **Remarque sur les autres candidats prédits :** les autres prédictions du classement sont également pour la plupart sans preuve (L5). Les entrées « spondylarthropathie, susceptibilité », « nodulose rhumatoïde » et « arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde positif » sont des variantes d'indications déjà existantes et ne constituent pas de véritables repositionnements. Pour cette dernière, la seule publication disponible (registre de phase 4, 2014) porte sur la sécurité du célécoxib et des AINS non sélectifs dans l'AJI, sans être spécifique au méloxicam.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

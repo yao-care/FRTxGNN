@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 586
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Pemigatinib : nouvelle indication prédite, Néoplasie endocrinienne multiple (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "pemigatinib"
 predicted_indications: ["multiple endocrine neoplasia", "amenorrhea (disease)", "HER2 positive breast carcinoma", "cytomegalovirus infection", "infectious bovine rhinotracheitis", "malignant catarrh", "amyotrophic lateral sclerosis", "amyotrohpic lateral sclerosis type 22", "axial spondylometaphyseal dysplasia"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L5** | Indications prédites: **9**
 
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endocrinienne multiple**, mais il s'agit d'une prédiction pure du modèle.
 Aucun essai clinique et aucune publication ne soutiennent cette direction (**0 essai clinique**, **0 publication**).
+
+<!-- review:begin fr-lic-20261106-pemigatinib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le pémigatinib est un inhibiteur sélectif des récepteurs FGFR1 à 3, dont les autorisations de mise sur le marché françaises (AMM) sont aujourd'hui toutes annulées et dont l'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport. / Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endocrinienne multiple**, mais il s'agit d'une prédiction pure du modèle. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pemigatinib-1 -->
 
 ## Aperçu Rapide
 
@@ -128,6 +134,26 @@ Les autres indications prédites présentent toutes un niveau de preuve L5 et un
 - Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank.
 - Clarifier l'indication d'origine.
 - Rechercher des preuves précliniques ou cliniques spécifiques reliant la signalisation FGFR à la néoplasie endocrinienne multiple, ou réorienter l'évaluation vers des indications oncologiques à rationnel biologique plus solide.
+
+<!-- review:begin fr-lic-20261106-pemigatinib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier l'indication d'origine et les raisons de l'annulation des AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pemigatinib-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le pémigatinib est un inhibiteur sélectif des récepteurs FGFR1 à 3, dont les autorisations de mise sur le marché françaises (AMM) sont aujou » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

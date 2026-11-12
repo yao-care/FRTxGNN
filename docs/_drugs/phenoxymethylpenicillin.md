@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
 description: "Phenoxymethylpenicillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -114,12 +114,31 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication directe. L'épiglottite est une urgence nécessitant un traitement parentéral à large spectre, ce qui s'accorde mal avec une pénicilline orale à spectre étroit.
 - Les données de sécurité de la notice manquent. Cette lacune bloque l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-phenoxymethylpenicillin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'AMM française est abrogée et les données de sécurité de la notice manquent. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-phenoxymethylpenicillin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Rechercher des études cliniques ou observationnelles sur la pénicilline V dans l'épiglottite, ainsi que des données de sensibilité des germes en cause.
 - Évaluer la compatibilité de la voie d'administration (orale contre parentérale) avec les besoins de cette indication.
 - Pour la laryngite, rechercher des preuves directes, car la seule publication disponible concerne l'érythromycine.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'AMM française est abrogée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

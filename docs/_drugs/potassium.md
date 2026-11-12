@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 618
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Potassium : nouvelle indication prédite, Trouble hypertensif (hypertension artérielle) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "POTASSIUM"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
@@ -97,6 +97,12 @@ Parmi les essais recensés, seuls ceux dont l'intervention est le potassium lui-
 
 Aucune n'a de texte d'indication renseigné. Les cinq premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-potassium-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 19 AMM recensées sont annulées. Aucune n'a de texte d'indication renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 19 AMM pour ce médicament, dont 19 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-potassium-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 63010506 | NATI-K 500 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
@@ -128,6 +134,19 @@ Les éléments suivants, issus de l'analyse des preuves, appellent une vigilance
 - Confirmer l'efficacité par des essais contrôlés de plus grande taille centrés sur le potassium.
 - Établir un plan de surveillance de la kaliémie et de la fonction rénale, avec exclusion ou encadrement des patients sous inhibiteurs du SRAA ou diurétiques épargneurs de potassium.
 - Tenir compte du fait que le médicament est commercialisé en France, avec 19 AMM valides sur 19.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 19 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
 description: "Lonoctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -100,6 +100,12 @@ Aucune littérature associée disponible actuellement.
 
 Seules les 5 premières sont listées ici.
 
+<!-- review:begin fr-lic-20261106-lonoctocog_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 7 AMM (titulaire : CSL Behring, Allemagne) sont annulées ; seules les 5 premières sont listées ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lonoctocog_alfa-1 -->
+
 ---
 
 ## Considérations de Sécurité
@@ -121,6 +127,26 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Rechercher activement des cas cliniques, études observationnelles ou données précliniques sur le FVIII dans la pseudo-maladie de von Willebrand
 - Clarifier la situation réglementaire du produit
 - Évaluer la compatibilité des voies d'administration, aujourd'hui non analysée
+
+<!-- review:begin fr-lic-20261106-lonoctocog_alfa-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire du produit (raisons de l'annulation des AMM, disponibilité éventuelle sous un autre statut) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lonoctocog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 7 AMM (titulaire : C L Behring, Allemagne) sont annulées ; s » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, disponibilité éventuelle sous un autre statut) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

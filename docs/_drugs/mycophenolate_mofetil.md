@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 519
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 description: "Mycophenolate Mofetil : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -129,6 +129,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Les données de sécurité officielles sont absentes. Il n'est donc pas possible de passer à l'étape de criblage de sécurité.
 - L'immunosuppression et la longue liste de contre-indications issues du graphe de connaissances appellent à la prudence dans cette population.
 
+<!-- review:begin fr-lic-20261106-mycophenolate_mofetil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 13 AMM françaises sont toutes annulées, et les données de sécurité officielles sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 13 AMM pour ce médicament, dont 13 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mycophenolate_mofetil-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) depuis le site de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (via l'API DrugBank)
@@ -136,9 +142,29 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Examiner de façon critique les ECR et études PK/PD existants (notamment 15353978 et 15871638) pour juger de l'effet virologique réel
 - Définir un plan de surveillance de la sécurité (infections opportunistes, hémogramme) pour les patients VIH+
 
+<!-- review:begin fr-lic-20261106-mycophenolate_mofetil-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier l'indication d'origine et la situation réglementaire actuelle (AMM toutes annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 13 AMM pour ce médicament, dont 13 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mycophenolate_mofetil-2 -->
+
 ---
 
 *Remarque : parmi les autres indications prédites, la **sclérose en plaques** (score 0,9954, niveau L2) dispose de davantage de données cliniques directes (essais de phase 2 et 2/3, revue Cochrane). Elle pourrait faire l'objet d'un rapport distinct.*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es 13 AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

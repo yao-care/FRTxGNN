@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 604
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PIMOZIDE"
 predicted_indications: ["trichotillomania", "manic bipolar affective disorder", "insomnia (disease)", "major affective disorder", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "Malan overgrowth syndrome", "attention deficit hyperactivity disorder, inattentive type", "agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Pimozide : nouvelle indication prédite, Trichotillomanie (trichotillomania) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -121,12 +121,38 @@ Les autres prédictions disposent de preuves plus faibles et sont toutes en stat
 **Justification :**
 - Les preuves en faveur de la trichotillomanie se limitent à une petite étude de 1992 et à des revues, sans essai enregistré (niveau L3). Le profil de risque (QT, nombreuses interactions) et le retrait du marché français pèsent contre un repositionnement immédiat.
 
+<!-- review:begin fr-lic-20261106-pimozide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de risque (QT, nombreuses interactions) et le retrait du marché français (AMM annulées) pèsent contre un repositionnement immédiat. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pimozide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données de sécurité officielles de l'ANSM (mises en garde et contre-indications de la notice), actuellement manquantes
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Essai contrôlé randomisé dans la trichotillomanie, avec comparaison aux options établies
 - Plan de surveillance cardiaque (ECG, QT, kaliémie) et gestion des interactions CYP3A4/CYP2D6
 - Clarification du statut réglementaire en France
+
+<!-- review:begin fr-lic-20261106-pimozide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (AMM annulées, disponibilité du produit) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pimozide-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées, disponibilité du produit) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

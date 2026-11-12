@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Domperidone : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM (usage clinique connu : …"
 monitor_inn: "domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -74,6 +74,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte de l'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-domperidone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 12 AMM recensées sont toutes annulées ; le texte de l'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 12 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-domperidone-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 69742865 | MOTILIUM 1 mg/ml, suspension buvable (Janssen Cilag) | Suspension buvable | Annulée |
@@ -103,6 +109,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Rechercher des données précliniques ou des cas rapportés reliant la dompéridone à la régulation de la vasopressine ou au NSIAD
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine (en attente)
 - Clarifier le rapport bénéfice-risque cardiaque pour une éventuelle population de patients atteints de NSIAD
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es 12 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

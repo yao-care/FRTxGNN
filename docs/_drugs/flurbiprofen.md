@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5)."
@@ -86,6 +86,18 @@ Aucune littérature associée disponible actuellement.
 
 Les textes d'indication approuvée ne sont pas disponibles pour ces AMM.
 
+<!-- review:begin fr-lic-20261106-flurbiprofen-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les sept AMM du flurbiprofène sont annulées. Les textes d'indication approuvée ne sont pas disponibles pour ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flurbiprofen-1 -->
+
+<!-- review:begin fr-lic-20261106-flurbiprofen-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Deux autres AMM annulées ne figurent pas dans ce tableau : STREFEN 8,75 mg orange sans sucre (pastille) et CEBUTID LP 200 mg (gélule à libération prolongée). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flurbiprofen-2 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 64161831 | CEBUTID 50 mg, comprimé enrobé | Comprimé enrobé | Active |
@@ -113,10 +125,31 @@ Les mises en garde du texte officiel de la notice n'étant pas disponibles, veui
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme plausible. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises entre maladies apparentées, non une preuve biologique.
 - Le profil de risque des AINS (digestif, rénal, cardiovasculaire) n'est pas justifié par un bénéfice attendu.
 
+<!-- review:begin fr-lic-20261106-flurbiprofen-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées, et le profil de risque des AINS (digestif, rénal, cardiovasculaire) n'est pas justifié par un bénéfice attendu. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flurbiprofen-3 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données sur le mécanisme d'action du flurbiprofène et sur un éventuel lien avec la voie GDF5/BMP.
 - Des données précliniques ou des cas cliniques étayant un effet dans cette dysplasie.
 - Les mises en garde et contre-indications officielles de la notice de l'ANSM.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les sept AMM du flurbiprofène sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Deux autres AMM annulées ne figurent pas dans ce tableau : STREFEN 8,75 mg orange sans sucre (pastille) et CEBUTID LP 200 mg (gélule à libér » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

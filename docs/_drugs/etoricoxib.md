@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Etoricoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -92,6 +92,12 @@ Aucune publication ne teste directement l'étoricoxib dans la migraine. Les publ
 
 Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-etoricoxib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 14 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etoricoxib-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 66514714 | ETORICOXIB BIOGARAN 30 mg | Comprimé pelliculé | Non renseignée (AMM active) |
@@ -118,12 +124,39 @@ Les mises en garde et contre-indications officielles ne sont pas disponibles dan
 - Aucun essai clinique ne soutient la migraine, la preuve se limite à une prédiction du modèle, à des données précliniques et à une revue indirecte (niveau L4). Les données de sécurité officielles sont absentes, ce qui bloque le passage à l'évaluation de sécurité.
 - Le signal le plus solide concerne des phénotypes de céphalées spécifiques (céphalée poignardante, céphalée de toux, céphalées sensibles à l'indométacine), mais uniquement sous forme de cas cliniques.
 
+<!-- review:begin fr-lic-20261106-etoricoxib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les produits n'ont plus d'AMM valide en France, et les données de sécurité officielles sont absentes, ce qui bloque le passage à l'évaluation de sécurité. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etoricoxib-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), ce qui constitue un point bloquant.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Vérifier si l'étoricoxib reste disponible par un autre circuit.
 - Mener une revue systématique ou un essai randomisé ciblant la migraine ou les céphalées sensibles aux AINS.
 - Établir un plan d'évaluation du risque cardiovasculaire, rénal (hyperkaliémie) et cérébrovasculaire avant toute évaluation clinique.
+
+<!-- review:begin fr-lic-20261106-etoricoxib-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Élucider les raisons de l'annulation des 14 AMM, et vérifier si l'étoricoxib reste disponible par un autre circuit. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etoricoxib-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 14 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es produits n'ont plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Élucider les raisons de l'annulation des 14 AMM, et v » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 214
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -113,12 +113,31 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 **Justification :**
 - Plusieurs essais de phase 3 terminés (prophylaxie et traitement de la pneumocystose) et des méta-analyses en réseau récentes soutiennent l'usage de la dapsone dans cette indication, ce qui correspond au niveau de preuve L1. Le profil de risque (hémolyse, méthémoglobinémie, déficit en G6PD) impose toutefois des garde-fous, et la dapsone reste un traitement de seconde intention après le TMP-SMX.
 
+<!-- review:begin fr-lic-20261106-dapsone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de risque (hémolyse, méthémoglobinémie, déficit en G6PD) impose toutefois des garde-fous, et la dapsone reste un traitement de seconde intention après le TMP-SMX. / Le statut réglementaire français est défavorable : la seule AMM identifiée est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dapsone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications officielles), ce qui bloque actuellement le criblage de sécurité.
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Vérifier le statut réglementaire actuel de la dapsone en France et la disponibilité d'une spécialité commercialisée.
 - Mettre en place un dépistage du déficit en G6PD avant traitement, ainsi qu'une surveillance de la méthémoglobinémie, de l'hémolyse (NFS) et de la fonction hépatique.
 - Évaluer la pertinence d'un dépistage HLA-B*1301 selon les résultats de l'essai NCT02550080.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le statut réglementaire français est défavorable : la seule AMM identifiée est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 806
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Varenicline : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignee dans les donnees d'AMM compilees (le texte d'indicatio…"
 monitor_inn: "varenicline"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "congenital hypotrichosis milia", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "alopecia", "open-angle glaucoma", "primary hereditary glaucoma", "headache disorder", "pulmonary hypertension"]
@@ -78,6 +78,12 @@ Pour la categorie voisine « trouble cephalalgique » (13 publications), les art
 
 Le texte d'indication approuvee n'est pas renseigne.
 
+<!-- review:begin fr-lic-20261106-varenicline-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 3 AMM listees ci-dessous sont toutes **annulees**. Le texte d'indication approuvee n'est pas renseigne. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-varenicline-1 -->
+
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 66287152 | CHAMPIX 0,5 mg et 1 mg, comprime pellicule | Comprime pellicule | Non renseignee |
@@ -100,12 +106,39 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 - La prediction est au niveau L5 (modele seul) : aucun essai clinique, aucune etude therapeutique, et un profil d'effets indesirables (cephalees) allant a l'encontre d'un benefice. Les donnees de securite de la notice sont absentes.
 - Les autres indications predites (alopecie, glaucome, hypertension pulmonaire, etc.) sont egalement au niveau L5 sans preuve.
 
+<!-- review:begin fr-lic-20261106-varenicline-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM francaises sont toutes annulees, et les donnees de securite de la notice sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-varenicline-2 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Recuperer les mises en garde et contre-indications de la notice aupres de l'ANSM (point bloquant pour le criblage de securite)
 - Obtenir les donnees de mecanisme d'action detaillees (DrugBank)
 - Obtenir des donnees precliniques ou cliniques specifiques a la migraine
 - Clarifier le statut reglementaire et l'indication originale
 - Evaluer la contre-indication potentielle liee aux troubles psychiatriques et cardiovasculaires dans la population migraineuse
+
+<!-- review:begin fr-lic-20261106-varenicline-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut reglementaire (AMM annulees) et l'indication originale » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-varenicline-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 3 AMM listees ci-dessous sont toutes **annulees** » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es AMM francaises sont toutes annulees, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulees) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 186
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "CLOMIPRAMINE"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
 description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -117,12 +117,38 @@ Les informations de la notice (mises en garde, contre-indications) ne sont pas d
 **Justification :**
 - Les meta-analyses et recommandations dans le trouble panique, ainsi que plusieurs etudes cliniques anciennes dans le trouble panique et l'agoraphobie, soutiennent un benefice plausible. Toutefois, les essais enregistres sont centres sur le TOC. Le niveau L1 est donc a interpreter avec prudence.
 
+<!-- review:begin fr-lic-20261106-clomipramine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Toutefois, les essais enregistres sont centres sur le TOC, et les AMM francaises sont toutes annulees. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clomipramine-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Les mises en garde et contre-indications officielles de la notice ANSM (lacune bloquante pour le criblage de securite)
 - Les donnees detaillees sur le mecanisme d'action (DrugBank)
 - Des essais controles contemporains de la clomipramine dans les troubles anxieux (trouble panique), versus ISRS
 - Verification du statut reglementaire en France
 - Un plan de surveillance cardiaque, hematologique et du risque suicidaire, avec precaution pour les patients presentant les contre-indications listees
+
+<!-- review:begin fr-lic-20261106-clomipramine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Verification du statut reglementaire en France, toutes les AMM etant annulees, y compris la voie d'acces possible » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clomipramine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM francaises sont toutes annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « toutes les AMM etant annulees, y compris la voie d'acces possible » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

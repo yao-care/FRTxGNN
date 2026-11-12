@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "nafarelin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "pelvic organ prolapse", "syndrome with a Dandy-Walker malformation as major feature", "physiological sexual disorder", "female genital tuberculosis", "isolated genetic hair shaft abnormality", "dysplasia of cervix"]
 description: "Nafarelin : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) (niveau de preuve L5). Indication d'origine : Non rens…"
@@ -92,11 +92,30 @@ Veuillez consulter la notice pour les informations de sécurité complètes (mis
 **Justification :**
 - La prédiction est de niveau L5 : aucun essai clinique, aucune publication, et aucun mécanisme plausible pour une maladie génétique congénitale.
 
+<!-- review:begin fr-lic-20261106-nafarelin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction est de niveau L5 : aucun essai clinique, aucune publication, et aucun mécanisme plausible pour une maladie génétique congénitale. De plus, l'AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nafarelin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données du mécanisme d'action détaillé (DrugBank)
 - Les mises en garde et contre-indications officielles de la notice ANSM
 - Une justification biologique reliant l'agonisme GnRH au syndrome d'Ambras, ou des études précliniques
 - Une réévaluation des autres candidats prédits, en particulier ceux présentant un meilleur support mécanistique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

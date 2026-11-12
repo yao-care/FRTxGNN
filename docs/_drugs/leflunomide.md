@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Leflunomide : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -84,6 +84,12 @@ Aucune littérature associée disponible actuellement.
 
 Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-leflunomide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 13 AMM recensées sont toutes annulées. Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 13 AMM pour ce médicament, dont 13 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-leflunomide-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 66218213 | ARAVA 100 mg | Comprimé pelliculé | Active |
@@ -121,6 +127,19 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Obtenir les données sur le mécanisme d'action depuis DrugBank et analyser un éventuel lien avec la physiopathologie du syndrome.
 - Réaliser une revue de la littérature et des registres d'essais pour détecter toute preuve préclinique ou clinique.
 - Évaluer la pertinence d'un traitement systémique chez la population concernée, au vu du profil de sécurité, et clarifier la voie d'administration requise.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 13 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

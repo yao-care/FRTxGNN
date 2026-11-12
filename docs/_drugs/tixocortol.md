@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 767
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tixocortol : nouvelle indication prédite, Lymphome T cutané primitif (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées pour ce rapport"
 monitor_inn: "TIXOCORTOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "acute lymphoblastic leukemia (disease)"]
@@ -90,11 +90,37 @@ Veuillez consulter la notice pour les informations de sécurité.
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication spécifiques au tixocortol. Les données de sécurité de la notice sont manquantes, ce qui bloque toute évaluation de sécurité.
 - La piste de la leucémie aiguë lymphoblastique est pharmacologiquement peu crédible pour un corticoïde à action locale.
 
+<!-- review:begin fr-lic-20261106-tixocortol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM françaises sont annulées, et les données de sécurité de la notice sont manquantes, ce qui bloque toute évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tixocortol-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue de la littérature sur le pivalate de tixocortol dans le lymphome T cutané, et comparaison avec les corticoïdes topiques déjà établis
 - Évaluation de la compatibilité de la voie d'administration (formulation nasale actuelle contre besoin d'une application cutanée)
+
+<!-- review:begin fr-lic-20261106-tixocortol-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluation de la compatibilité de la voie d'administration (formulation nasale actuelle contre besoin d'une application cutanée) / Justification de l'intérêt d'un médicament dont les AMM sont annulées par rapport aux alternatives disponibles » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tixocortol-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Justification de l'intérêt d'un médicament dont les AMM sont annulées par rapport aux alternatives disponibles » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

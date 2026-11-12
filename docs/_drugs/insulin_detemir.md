@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Detemir : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -126,6 +126,12 @@ Parmi les essais compilés, voici les plus pertinents (essais de phase 3 randomi
   - les autres antidiabétiques (metformine, pioglitazone, alogliptine, albiglutide) ;
   - l'acétazolamide, l'hydrochlorothiazide, la doxycycline, l'alpélisib et l'éthanol.
 
+<!-- review:begin fr-lic-20261106-insulin_detemir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les trois AMM sont annulées, ce qui limite la disponibilité pratique du produit en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-insulin_detemir-1 -->
+
   Quelques interactions mineures concernent des corticoïdes topiques (hydrocortisone, alclométasone).
 
 Pour les mises en garde et contre-indications, veuillez consulter la notice.
@@ -145,6 +151,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Mises en garde et contre-indications issues de la notice officielle (ANSM)
 - Clarification de la raison du retrait des AMM et de l'existence d'alternatives commercialisées (autres insulines basales)
 - Plan de surveillance de l'hypoglycémie et des interactions médicamenteuses, notamment avec les antidiabétiques et les sympathomimétiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les trois AMM sont annulées, ce qui limite la disponibilité pratique du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

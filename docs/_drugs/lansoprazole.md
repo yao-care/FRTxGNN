@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -117,6 +117,25 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Une revue de la littérature ciblée sur les IPP dans le reflux biliaire/duodéno-gastrique
 - Des études cliniques ou observationnelles spécifiques à cette indication
 - La clarification de la situation réglementaire et de la disponibilité du produit en France
+
+<!-- review:begin fr-lic-20261106-lansoprazole-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La clarification de la situation réglementaire (AMM toutes annulées) et de la disponibilité du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lansoprazole-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

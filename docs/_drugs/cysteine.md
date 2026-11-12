@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 205
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cysteine : nouvelle indication prédite, Syndrome de l'œil sec (dry eye syndrome) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM (texte d'indication vide pour t…"
 monitor_inn: "cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -95,6 +95,12 @@ Les autres publications retrouvées concernent le syndrome de Sjögren (généti
 
 Au total, 8 AMM sont recensées. Les 3 autres sont les émulsions NUMETAH G13 % E PREMATURES, G16 % E et G19 % E (Baxter).
 
+<!-- review:begin fr-lic-20261106-cysteine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 8 AMM sont recensées, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cysteine-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues de la base de connaissances** (relations médicament-maladie, et non texte de notice) : ulcère gastroduodénal (y compris actif), trouble hypotensif, insuffisance respiratoire, asthme, maladie bronchique, varices œsophagiennes, phénylcétonurie et trouble du métabolisme de la phénylalanine.
@@ -115,6 +121,26 @@ Les mises en garde et contre-indications issues des notices officielles n'ont pa
 - Évaluer la faisabilité d'une voie d'administration oculaire topique, la compatibilité avec les formes injectables existantes n'ayant pas été établie
 - Mener des études précliniques directes de la cystéine (et non de ses dérivés) dans un modèle d'œil sec
 - Clarifier les indications d'origine
+
+<!-- review:begin fr-lic-20261106-cysteine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier les indications d'origine, les AMM étant toutes annulées et sans texte d'indication » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cysteine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « les AMM étant toutes annulées et sans texte d'indication » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

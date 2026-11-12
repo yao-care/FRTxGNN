@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LIOTHYRONINE"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Liothyronine : nouvelle indication prédite, Hypoplasie/aplasie rénale (renal hypodysplasia/aplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
 ---
 
@@ -77,6 +77,12 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 Cette AMM correspond à un produit associant deux principes actifs (100 µg/20 µg) ; elle ne décrit pas l'autorisation de la liothyronine seule.
 
+<!-- review:begin fr-lic-20261106-liothyronine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Cette AMM correspond à un produit associant deux principes actifs (100 µg/20 µg) ; elle ne décrit pas l'autorisation de la liothyronine seule. Le statut de cette AMM est enregistré comme annulé dans les données locales. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-liothyronine-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications à surveiller (relations de contre-indication issues des données de modélisation, hors texte de notice)** : hypertension artérielle, déficits hypophysaires (hypopituitarisme, syndrome de Sheehan, déficit en hormone de croissance), hypogonadisme hypogonadotrope (dont syndrome de Kallmann), ostéoporose (y compris post-ménopausique), diabète et acidocétose diabétique, maladie coronarienne et infarctus du myocarde, maladie du thymus.
@@ -96,6 +102,19 @@ La prédiction repose uniquement sur le modèle, sans essai clinique ni publicat
 - Études précliniques ou cliniques portant directement sur cette maladie
 - Mises en garde et contre-indications issues de la notice officielle (ANSM)
 - Données détaillées sur le mécanisme d'action
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le statut de cette AMM est enregistré comme annulé dans les données locales » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

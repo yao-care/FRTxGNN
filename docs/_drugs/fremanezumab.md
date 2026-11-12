@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 351
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "fremanezumab"
 predicted_indications: ["atrophoderma vermiculata"]
 description: "Fremanezumab : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -103,13 +103,39 @@ Les données de sécurité issues de la notice (mises en garde, contre-indicatio
 - La prédiction repose surtout sur la proximité des indications dans l'ontologie des maladies. Il n'existe aucun essai clinique pour la migraine avec aura du tronc cérébral, le niveau de preuve est L4 et les données de sécurité de la notice sont absentes (lacune bloquante pour le criblage de sécurité).
 - Une donnée préclinique suggère un effet limité sur les mécanismes de l'aura.
 
+<!-- review:begin fr-lic-20261106-fremanezumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Il n'existe aucun essai clinique pour la migraine avec aura du tronc cérébral, le niveau de preuve est L4, l'AMM française est annulée et les données de sécurité de la notice sont absentes (lacune bloquante pour le criblage de sécurité). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fremanezumab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des données cliniques spécifiques à la migraine avec aura du tronc cérébral (séries de cas, registres, essais)
 - Clarifier la situation réglementaire en France
 
+<!-- review:begin fr-lic-20261106-fremanezumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire en France (AMM annulée) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fremanezumab-2 -->
+
 *Remarque : la seconde indication prédite, l'atrophodermie vermiculée (score 0,9904), n'a ni essai clinique, ni publication, ni lien mécanistique plausible. Elle est classée niveau L5 avec une recommandation Hold et n'est pas retenue dans ce rapport.*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

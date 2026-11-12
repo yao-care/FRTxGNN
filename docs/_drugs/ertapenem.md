@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -91,6 +91,12 @@ Publications relatives à l'arthrite bactérienne :
 
 Aucun essai randomisé n'est disponible. Pour l'infection à *S. aureus*, la littérature (séries de cas, cohortes, données in vitro) soutient l'association céfazoline + ertapénème dans la bactériémie persistante à SASM (par ex. [31773134](https://pubmed.ncbi.nlm.nih.gov/31773134/), [38946294](https://pubmed.ncbi.nlm.nih.gov/38946294/)).
 
+<!-- review:begin fr-lic-20261106-ertapenem-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM (60926401, ERTAPENEM QILU 1 g) est également annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ertapenem-1 -->
+
 ## Informations de Marché en France
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
@@ -123,6 +129,26 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Disposer d'études comparatives ou d'essais prospectifs dans les infections ostéo-articulaires
 - Suivre les résultats des essais NCT04886284 et NCT07148960 : l'indication *S. aureus* (en association avec la céfazoline, niveau L3) constitue une piste de recherche plus solide à examiner séparément
+
+<!-- review:begin fr-lic-20261106-ertapenem-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Obtenir les données détaillées sur le mécanisme d'action (DrugBank) / Clarifier la raison de l'annulation des AMM et la disponibilité réelle de l'ertapénème en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ertapenem-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième AMM (60926401, ERTAPENEM QILU 1 g) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier la raison de l'annulation des AMM et la disponibilité réelle de l'ertapénème en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

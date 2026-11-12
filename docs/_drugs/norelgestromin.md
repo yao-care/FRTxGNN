@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Norelgestromin : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM"
 monitor_inn: "norelgestromin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -109,12 +109,31 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - La seule forme connue est un patch contraceptif combiné, ce qui limite toute voie de développement.
 - Les données de sécurité de la notice, nécessaires au criblage de sécurité, sont manquantes.
 
+<!-- review:begin fr-lic-20261106-norelgestromin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'AMM française est annulée, et la seule forme connue est un patch contraceptif combiné, ce qui limite toute voie de développement. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-norelgestromin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications).
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Préciser l'indication d'origine de l'AMM.
 - Rechercher des études cliniques ou observationnelles sur les progestatifs dans l'aménorrhée.
 - Évaluer la compatibilité de la voie d'administration et la pertinence d'une formulation sans œstrogène.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

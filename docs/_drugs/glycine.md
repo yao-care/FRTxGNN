@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 369
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Glycine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Rhinite allergique, rhinite vasomotrice, pharyngite, rhume…"
 monitor_inn: "GLYCINE"
 predicted_indications: ["nasal cavity disease"]
@@ -76,6 +76,12 @@ Le seul élément en faveur de la prédiction est un recoupement de territoire t
 
 Aucune ne comporte de texte d'indication. Les cinq premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-glycine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes annulées. Aucune ne comporte de texte d'indication. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-glycine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 60840614 | Magnesium Glycocolle Lafarge, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
@@ -109,6 +115,19 @@ Aucune donnée d'interaction médicamenteuse n'a été retrouvée.
 - Revue de la littérature ciblée sur la glycine dans les maladies nasales et rhinopharyngées
 - Évaluation de la compatibilité des voies d'administration : les formes autrefois autorisées (comprimé, perfusion, dialyse péritonéale) ne correspondent pas à un usage nasal ou pharyngé
 - Clarification de la pertinence de la prédiction de laryngopharyngite aiguë, aujourd'hui sans aucune preuve
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

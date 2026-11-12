@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Nevirapine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
@@ -94,6 +94,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Au total, 11 AMM sont répertoriées; seules les 5 principales sont listées ci-dessus.
 
+<!-- review:begin fr-lic-20261106-nevirapine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 11 AMM sont répertoriées, toutes annulées ; seules les 5 principales sont listées ci-dessus. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nevirapine-1 -->
+
 ---
 
 ## Cytotoxicité
@@ -118,6 +124,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - La prédiction repose uniquement sur le modèle et sur une étude préclinique unique dont le résultat pour la névirapine n'est pas confirmé. Il s'agit d'une indication vétérinaire, sans pertinence pour un développement clinique chez l'humain. Le médicament présente un profil de sécurité préoccupant (hépatotoxicité, réactions cutanées sévères).
 
+<!-- review:begin fr-lic-20261106-nevirapine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le médicament n'a plus d'AMM valide en France et présente un profil de sécurité préoccupant (hépatotoxicité, réactions cutanées sévères). » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nevirapine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Consulter le texte complet de la publication 38031646 afin de déterminer l'activité réelle de la névirapine sur la transcriptase inverse du FIV
 - Obtenir les données détaillées sur le mécanisme d'action
@@ -131,6 +143,20 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 Deux autres prédictions ont été examinées et ne justifient pas d'avancer :
 - **Infection par le virus de l'immunodéficience simienne** (score 0,9985, niveau L4, Hold) : la littérature indique que le SIV est intrinsèquement résistant aux INNTI. Seules les chimères SHIV portant la transcriptase inverse du VIH-1 sont sensibles, ce qui les rend utiles comme modèles animaux. Plusieurs articles récupérés ne sont que faiblement liés au sujet.
 - **Trouble neurodéveloppemental avec démarche ataxique, absence de parole et diminution de la substance blanche corticale** (score 0,9982, niveau L5, Hold) : aucun lien mécanistique, aucun essai et aucune publication.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « t n'a plus d'AMM valide en France e » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

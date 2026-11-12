@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -87,6 +87,12 @@ Ces publications ne documentent pas l'efficacité de la phéniramine dans l'urti
 
 Au total, 9 AMM sont recensées. Il s'agit exclusivement d'associations fixes (paracétamol, vitamine C, phéniramine) destinées à l'état grippal.
 
+<!-- review:begin fr-lic-20261106-pheniramine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 9 AMM sont recensées et toutes sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pheniramine-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : hypertension, insuffisance hépatique et maladies hépatiques, maladie rénale, épilepsie, insomnie, BPCO, bronchite, ulcère gastrique ou peptique, gastrite, pancréatite, maladies de la vésicule biliaire, thrombocytopénie, hyperglycémie, diabète et acidocétose diabétique, hypothyroïdie et myxœdème, maladie inflammatoire de l'intestin, troubles psychotiques et autres troubles mentaux, hypertrophie bénigne de la prostate, dermatite herpétiforme.
@@ -107,6 +113,26 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données de mécanisme d'action (par exemple via DrugBank).
 - Rechercher des essais contrôlés ou des revues systématiques de la phéniramine dans l'urticaire allergique.
 - Évaluer si l'indication présente un intérêt réel au-delà des indications déjà connues.
+
+<!-- review:begin fr-lic-20261106-pheniramine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Rechercher des essais contrôlés ou des revues systématiques de la phéniramine dans l'urticaire allergique. / Clarifier les raisons de l'annulation des AMM et vérifier la disponibilité de formes (notamment injectables ou orales en monothérapie) compatibles avec l'usage visé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pheniramine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et toutes sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et vérifier la disponibilité de formes (notamment injectables ou orales en monothérapie) compa » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

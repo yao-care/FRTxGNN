@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 705
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "SIMOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
 description: "Simoctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -104,6 +104,12 @@ Aucune littérature associée disponible actuellement.
 
 Trois autres AMM annulées existent (NUWIQ 2500, 3000 et 2000 UI) et ne sont pas détaillées ici.
 
+<!-- review:begin fr-lic-20261106-simoctocog_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-simoctocog_alfa-1 -->
+
 ---
 
 ## Considérations de Sécurité
@@ -127,6 +133,19 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 - Données sur le mécanisme d'action depuis DrugBank
 - Revue de la littérature et des registres d'essais pour les indications prédites
 - Si une piste est poursuivie, priorité à l'hémophilie A acquise (rang 5) et à l'hémophilie A avec anomalie vasculaire (rang 9), comme questions de recherche et non comme candidats au repositionnement
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

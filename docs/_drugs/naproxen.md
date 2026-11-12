@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -86,6 +86,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-naproxen-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 12 AMM du naproxène en France sont toutes annulées. Le texte des indications approuvées n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 12 AMM pour ce médicament, dont 12 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-naproxen-1 -->
+
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 61990606 | Naproxène sodique Arrow 550 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
@@ -118,6 +124,26 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Une justification biologique reliant l'inhibition des COX à la physiopathologie du syndrome ciblé
 - Des données précliniques ou cliniques, ou une revue de la littérature, pour dépasser le niveau L5
 - Une évaluation de la compatibilité des voies d'administration et de la situation réglementaire
+
+<!-- review:begin fr-lic-20261106-naproxen-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une évaluation de la compatibilité des voies d'administration et de la situation réglementaire (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 12 AMM pour ce médicament, dont 12 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-naproxen-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 12 AMM du naproxène en France sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

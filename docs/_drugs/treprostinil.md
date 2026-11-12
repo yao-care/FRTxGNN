@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 description: "Treprostinil : nouvelle indication prédite, Pulmonary arteriovenous malformation (disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -114,6 +114,25 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Évaluer spécifiquement le risque de shunt droite-gauche dans l'HTAP-CC et obtenir des données comparatives plus robustes
 - Pour les autres prédictions : celle des connectivites (L2, « Proceed with Guardrails ») pourrait être avancée avec une revue d'efficacité par sous-groupe ; les prédictions de L5 (malformation artérioveineuse pulmonaire, hypotrichoses, hypertrichose, syndromes malformatifs dentaires) sont probablement des artefacts du réseau et ne justifient pas de poursuite en l'état.
+
+<!-- review:begin fr-lic-20261106-treprostinil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, et clarifier la raison de l'annulation des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-treprostinil-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et clarifier la raison de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

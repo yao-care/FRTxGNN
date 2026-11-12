@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 328
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "FLAVOXATE"
 predicted_indications: ["attention deficit hyperactivity disorder, inattentive type", "irritable bowel syndrome", "specific developmental disorder", "attention deficit-hyperactivity disorder", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "peptic ulcer disease"]
 description: "Flavoxate : nouvelle indication prédite, Attention deficit hyperactivity disorder, inattentive type (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -100,12 +100,31 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai ni publication.
 - Le syndrome de l'intestin irritable est l'hypothèse la plus cohérente, mais elle reste à confirmer. Les prédictions neuropsychiatriques (TDAH) ne sont pas étayées.
 
+<!-- review:begin fr-lic-20261106-flavoxate-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai ni publication. De plus, l'AMM française est annulée et son indication d'origine n'est pas documentée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-flavoxate-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
 - Données sur le mécanisme d'action (via DrugBank)
 - Revue de la littérature et des registres d'essais pour le flavoxate dans le syndrome de l'intestin irritable
 - Réévaluation de la sécurité à la lumière des contre-indications (obstruction intestinale, ulcère actif) et des effets anticholinergiques cumulés
 - Remplacement du terme obsolète « vessie neurogène » par un terme actuel avant toute évaluation
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et son indication d'origine n'est pas documentée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

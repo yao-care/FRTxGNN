@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 753
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Thiocolchicoside : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées"
 monitor_inn: "THIOCOLCHICOSIDE"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -85,6 +85,12 @@ Aucune littérature associée n'est disponible actuellement.
 
 Le texte des indications approuvées n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-thiocolchicoside-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 9 AMM recensées sont toutes annulées. Le texte des indications approuvées n'est pas renseigné dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-thiocolchicoside-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 69999429 | THIOCOLCHICOSIDE EG 4 mg | Comprimé sécable | Active |
@@ -116,6 +122,26 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Données détaillées sur le mécanisme d'action (via DrugBank)
 - Études précliniques ou cliniques justifiant un bénéfice réel dans l'insomnie, avec évaluation du risque convulsivant
 - Aucune poursuite n'est recommandée pour le delirium de sevrage alcoolique en l'état, compte tenu du risque mécanistique
+
+<!-- review:begin fr-lic-20261106-thiocolchicoside-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Données détaillées sur le mécanisme d'action (via DrugBank) / Clarification de l'indication d'origine et des raisons de l'annulation des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-thiocolchicoside-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 9 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarification de l'indication d'origine et des raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

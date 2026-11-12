@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 818
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "vitamin a"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
 description: "Vitamin A : nouvelle indication prédite, Déficit congénital en prothrombine (congenital prothrombin deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -100,7 +100,26 @@ Veuillez consulter la notice pour les mises en garde officielles.
 - Une revue de la notice de l'ANSM (mises en garde et contre-indications), actuellement manquante.
 - Une réévaluation du statut réglementaire.
 
+<!-- review:begin fr-lic-20261106-vitamin_a-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une réévaluation du statut réglementaire, puisque l'AMM est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vitamin_a-1 -->
+
 **Remarque :** parmi les autres prédictions du modèle, la **maladie périnatale** (score de 0,9963) est de loin la mieux étayée. Elle repose sur plusieurs méta-analyses Cochrane de la supplémentation en vitamine A chez les nourrissons de très faible poids de naissance, avec un bénéfice modeste sur la dysplasie bronchopulmonaire. Cette piste mériterait d'être évaluée en priorité, avec des garde-fous (voie d'administration, dosage, sécurité). L'indication « blessure » dispose également d'un essai randomisé de phase 1/2 (NCT01203488, 807 nourrissons), mais ses résultats portent sur la morbidité néonatale plutôt que sur les blessures en général.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « puisque l'AMM est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

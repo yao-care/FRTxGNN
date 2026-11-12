@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PENTAMIDINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "exposure keratitis", "non-human animal disease", "congenital analbuminemia"]
 description: "Pentamidine : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -94,12 +94,31 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme d'action est inconnu, et le profil de risque (cardiaque, rénal, glycémique, hématologique) est préoccupant.
 
+<!-- review:begin fr-lic-20261106-pentamidine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le mécanisme d'action est inconnu, la seule AMM française est annulée, et le profil de risque (cardiaque, rénal, glycémique, hématologique) est préoccupant. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pentamidine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante pour le criblage de sécurité).
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Mener une revue de la littérature et des registres d'essais sur la pentamidine dans les kératites et kératoconjonctivites infectieuses.
 - Évaluer la faisabilité d'une formulation et d'une voie d'administration oculaires, ainsi que la tolérance locale.
 - Réévaluer les indications prédites secondaires, qui paraissent peu plausibles.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

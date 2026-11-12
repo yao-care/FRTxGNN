@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 768
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin : nouvelle indication prédite, Kératite d'exposition (exposure keratitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -94,6 +94,12 @@ Aucune de ces publications n'étudie directement l'efficacité de la tobramycine
 
 Les 12 AMM de la tobramycine sont valides (12 sur 12) et le médicament est commercialisé. Le texte des indications approuvées n'est pas disponible dans les données compilées.
 
+<!-- review:begin fr-lic-20261106-tobramycin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 7 autres AMM annulées concernent des formes injectables (NEBCINE) et inhalées (TOBI, TOBI PODHALER, génériques Zentiva et Sun). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 12 AMM pour ce médicament, dont 12 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tobramycin-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 61621356 | TOBREX 0,3 %, pommade ophtalmique | Pommade | Active |
@@ -129,6 +135,19 @@ Les 12 AMM de la tobramycine sont valides (12 sur 12) et le médicament est comm
 ---
 
 *Remarque : les autres indications prédites (otite externe, notamment) ont également été examinées. L'otite externe, avec un niveau de preuve L4 et surtout des études de microbiologie et de résistance, constitue une piste de recherche secondaire, mais elle n'est pas détaillée ici.*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 7 autres AMM annulées concernent des formes injectables (NEBCINE) et inhalées (TOBI, TOBI PODHALER, génériques Zentiva et Sun) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

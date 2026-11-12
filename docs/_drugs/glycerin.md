@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 368
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "glycerin"
 predicted_indications: ["cauda equina syndrome", "open-angle glaucoma", "primary hereditary glaucoma", "alopecia", "congenital hypotrichosis milia", "irritable bowel syndrome", "hypotrichosis simplex of the scalp", "diffuse alopecia areata", "migraine disorder", "migraine with brainstem aura"]
 description: "Glycerin : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -88,6 +88,12 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans mécanisme plausible pour la voie d'administration usuelle.
 
+<!-- review:begin fr-lic-20261106-glycerin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication, et sans mécanisme plausible pour la voie d'administration usuelle. Le seul produit autorisé en France est une AMM annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-glycerin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de la glycérine, afin d'analyser tout lien mécanistique
 - Mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour l'évaluation de sécurité)
@@ -95,6 +101,19 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 - Évaluation de la compatibilité des voies d'administration
 
 **Remarque sur les autres indications prédites :** le glaucome à angle ouvert (rang 2, niveau L4) repose sur un effet osmotique transitoire sur la pression intraoculaire. Il s'agit d'un lien plausible mais indirect, surtout pertinent pour le glaucome aigu par fermeture de l'angle et non pour la prise en charge chronique ; les publications retrouvées ne fournissent pas de preuve directe. Le syndrome de l'intestin irritable (rang 6) est mécanistiquement proche de l'indication d'origine, mais reste sans preuve (L5). Toutes les autres prédictions classées (glaucome héréditaire primaire, alopécies, hypotrichoses, migraines) restent au niveau L5 ou sans évidence d'efficacité, avec une recommandation Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le seul produit autorisé en France est une AMM annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

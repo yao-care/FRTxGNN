@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
 description: "Nitisinone : nouvelle indication prédite, Acidose tubulaire rénale (renal tubular acidosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -111,12 +111,38 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le lien mécanistique est indirect, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-nitisinone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le lien mécanistique est indirect, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité. Par ailleurs, les 9 AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nitisinone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
 - Confirmer le mécanisme d'action via DrugBank
 - Réaliser une revue ciblée de la littérature sur l'atteinte tubulaire rénale sous nitisinone, et sur l'acidose tubulaire rénale primaire
 - Examiner les contre-indications issues du graphe (maladie rénale, hypophosphatémie), potentiellement pertinentes pour une indication rénale
 - Clarifier la situation réglementaire et la disponibilité du médicament en France
+
+<!-- review:begin fr-lic-20261106-nitisinone-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire (AMM annulées) et la disponibilité du médicament en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nitisinone-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Par ailleurs, les 9 AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

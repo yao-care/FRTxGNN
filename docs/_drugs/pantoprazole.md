@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -135,12 +135,38 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Le pantoprazole agit sur un mécanisme bien établi (inhibition de la pompe à protons) et l'ulcère peptique actif correspond à son usage d'origine ; plusieurs essais de Phases 3 et 4 soutiennent son usage dans les ulcères. Ce n'est donc pas un repositionnement au sens strict.
 - Les données de sécurité issues de la notice sont absentes, d'où la nécessité de garde-fous.
 
+<!-- review:begin fr-lic-20261106-pantoprazole-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'unique AMM française est annulée, et les données de sécurité issues de la notice sont absentes, d'où la nécessité de garde-fous. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pantoprazole-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Confirmer le rôle du pantoprazole (bras testé ou comparateur) dans l'essai NCT02084420.
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Confirmer les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Vérifier le statut réglementaire et les formulations disponibles en France et selon les régions.
 - Établir un plan de gestion des interactions (notamment CYP2C19 / clopidogrel, atazanavir, acalabrutinib) et de surveillance des risques d'un traitement prolongé (ostéoporose, fractures, carence en vitamine B12).
+
+<!-- review:begin fr-lic-20261106-pantoprazole-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier le statut réglementaire et les formulations disponibles en France (AMM annulée) et selon les régions. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pantoprazole-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'unique AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

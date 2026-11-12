@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital : nouvelle indication prédite, Tumeur du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -90,6 +90,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Le médicament est commercialisé : 11 AMM valides sur 11 identifiées. Le texte d'indication approuvée n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-phenobarbital-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Six autres AMM annulées (Gardenal 200 mg/4 ml, Gardenal 50 mg, Alepsal 15, 50, 100 et 150 mg) ne sont pas détaillées ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-phenobarbital-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 63019074 | PHENOBARBITALUM BOIRON (dilutions 4CH–30CH / 8DH–60DH) | Comprimé, solution, granules, poudre, pommade | Active |
@@ -119,6 +125,26 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Démontrer un rationnel biologique pour une activité antitumorale, avant toute étude
 - Pour les épilepsies réflexes (rangs 2 à 8) et la névralgie du trijumeau, réaliser une revue ciblée de la littérature, qui relèvent davantage de questions de recherche que de véritables repositionnements
 - Clarifier le statut réglementaire avant toute perspective de développement
+
+<!-- review:begin fr-lic-20261106-phenobarbital-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire (AMM annulées) avant toute perspective de développement » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-phenobarbital-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Six autres AMM annulées (Gardenal 200 mg/4 ml, Gardenal 50 mg, Alepsal 15, 50, 100 et 150 mg) ne sont pas détaillées ici » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

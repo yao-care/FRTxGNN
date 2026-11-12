@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 737
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase : nouvelle indication prédite, Congenital coronary artery anomaly (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -80,6 +80,12 @@ Aucune littérature associée disponible actuellement pour l'infarctus postéro-
 
 À titre indicatif, pour des prédictions voisines de rang inférieur, des publications indirectes existent (par exemple, l'étude de faisabilité de la ténectéplase intracoronaire lors d'une angioplastie primaire, [PMID 31870492](https://pubmed.ncbi.nlm.nih.gov/31870492/), 2020, pour la sténose coronaire). Aucune ne teste la ténectéplase dans l'infarctus postéro-inférieur en tant qu'indication distincte.
 
+<!-- review:begin fr-lic-20261106-tenecteplase-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM, détenues par Boehringer Ingelheim International, sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tenecteplase-1 -->
+
 ---
 
 ## Informations de Marché en France
@@ -110,12 +116,32 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 **Justification :**
 - La prédiction ne repose sur aucune preuve spécifique (L5) et reprend l'indication de l'infarctus du myocarde, déjà connue.
 
+<!-- review:begin fr-lic-20261106-tenecteplase-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction ne repose sur aucune preuve spécifique (L5) et reprend l'indication de l'infarctus du myocarde, déjà connue. De plus, les deux AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tenecteplase-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications issues de la notice ANSM (données bloquantes pour l'évaluation de sécurité)
 - Les données sur le mécanisme d'action, à compléter via DrugBank
 - Une clarification du statut réglementaire actuel du produit en France
 - Des données cliniques spécifiques au sous-type postéro-inférieur, si une exploration est jugée pertinente
 - Parmi les autres prédictions, seule la sténose coronaire (niveau L3, question de recherche) présente une littérature indirecte à approfondir ; les autres prédictions sont à écarter faute de plausibilité mécanistique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux AMM, détenues par Boehringer Ingelheim International, sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

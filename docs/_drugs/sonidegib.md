@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 709
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sonidegib : nouvelle indication prédite, Médulloblastome avec nodularité extensive (niveau de preuve L5). Indication d'origine : Carcinome basocellulaire (carcinome cutané)"
 monitor_inn: "sonidegib"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "trichothiodystrophy photosensitive", "cutaneous adenocystic carcinoma", "benign neoplasm of sweat gland", "eccrine carcinoma", "obsolete cataract, microcephaly, failure to thrive, kyphoscoliosis syndrome"]
@@ -128,6 +128,25 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Mises en garde et contre-indications officielles de l'ANSM (notice non exploitée à ce jour).
 - Vérification du statut de commercialisation en France.
 - Données détaillées sur le mécanisme d'action issues de DrugBank.
+
+<!-- review:begin fr-lic-20261106-sonidegib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérification du statut de commercialisation en France, la seule AMM étant abrogée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sonidegib-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « la seule AMM étant abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

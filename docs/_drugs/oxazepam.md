@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 565
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Oxazepam : nouvelle indication prédite, Insomnie (niveau de preuve L3). Indication d'origine : Anxiété"
 monitor_inn: "oxazepam"
 predicted_indications: ["insomnia (disease)"]
@@ -124,6 +124,25 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Réaliser une revue systématique ciblée de l'oxazépam dans l'insomnie, ou un essai contrôlé récent, avec comparaison aux hypnotiques actuels
 - Évaluer la compatibilité de la voie d'administration et la sécurité chez les populations à risque (personnes âgées, insuffisance respiratoire, hépatique ou rénale)
+
+<!-- review:begin fr-lic-20261106-oxazepam-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Obtenir les données détaillées sur le mécanisme d'action (DrugBank) / Clarifier la raison de l'annulation des AMM et le statut réglementaire actuel » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-oxazepam-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Clarifier la raison de l'annulation des AMM et le statut réglementaire actuel » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

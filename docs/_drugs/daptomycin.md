@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Daptomycin : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (les textes d'indicat…"
 monitor_inn: "daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -102,6 +102,12 @@ Publication préclinique la plus pertinente, pour la polyarthrite rhumatoïde :
 
 Le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-daptomycin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes **annulées** ; le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-daptomycin-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 66921973 | Daptomycine Medac 500 mg | Poudre pour solution injectable ou pour perfusion | Non renseignée |
@@ -138,6 +144,19 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 - Données détaillées sur le mécanisme d'action (MOA)
 - Pour la polyarthrite rhumatoïde : confirmation de l'effet anti-inflammatoire dans d'autres modèles précliniques, évaluation de la faisabilité (voie IV, durée de traitement) et de la sécurité musculaire
 - Clarification du statut commercial en France (médicament commercialisé, 20 AMM valides)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es 20 AMM recensées sont toutes **annulées** ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

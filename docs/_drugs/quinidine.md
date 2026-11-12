@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 644
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "quinidine"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Quinidine : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) (niveau de preuve L5). Indication d'origine : Non rense…"
@@ -90,12 +90,31 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible avec la physiopathologie du SNAI.
 
+<!-- review:begin fr-lic-20261106-quinidine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible avec la physiopathologie du SNAI. De plus, la seule AMM française est annulée et le profil de sécurité (risque de QT long, nombreuses interactions majeures) est préoccupant. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-quinidine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (par ex. via DrugBank)
 - Mises en garde et contre-indications officielles issues de la notice de l'ANSM (bloquant pour le criblage de sécurité)
 - Études précliniques ou de mécanisme évaluant un effet sur le récepteur V2 ou la gestion rénale de l'eau
 - Revue de la littérature pour identifier d'éventuels rapports de cas ou données in vitro
 - Évaluation de la compatibilité des voies d'administration et de la similarité avec les indications d'origine
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et le profil de sécurité (risque de QT long, nombreuses interactions majeures) est préoccupant » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 807
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Velpatasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite C (le texte d'indicati…"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -114,12 +114,38 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Justification :**
 - Le score TxGNN est très élevé, mais il ne repose sur aucun mécanisme plausible (absence de NS5A chez le VHB) ni sur aucune étude testant velpatasvir contre le VHB. Les preuves se limitent à des données VHC et de co-infection (L4).
 
+<!-- review:begin fr-lic-20261106-velpatasvir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les preuves se limitent à des données VHC et de co-infection (L4). / Les 5 AMM françaises sont toutes annulées, ce qui limite aussi la faisabilité réglementaire locale. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-velpatasvir-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de velpatasvir, et analyse de son éventuelle activité sur le VHB
 - Études précliniques in vitro sur des modèles d'infection par le VHB
 - Notice officielle de l'ANSM (mises en garde et contre-indications)
 
+<!-- review:begin fr-lic-20261106-velpatasvir-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Notice officielle de l'ANSM (mises en garde et contre-indications) / Clarification du statut des AMM annulées et de la disponibilité actuelle du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-velpatasvir-2 -->
+
 **Autres prédictions du modèle :** les prédictions suivantes sont toutes de niveau L4 ou L5, sans soutien mécanistique ni clinique, et également en « Hold » : hépatite E, hépatite A, hépatite virale animale, fièvre hémorragique d'Omsk, maladie de la forêt de Kyasanur, infection par le VIH, infection par le virus de l'immunodéficience simienne, syndrome d'immunodéficience acquise féline et un trouble neurodéveloppemental génétique. Pour le VIH, les données portent uniquement sur le traitement du VHC chez des personnes vivant avec le VIH.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 5 AMM françaises sont toutes annulées, ce qui limite aussi la faisabilité réglementaire locale » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarification du statut des AMM annulées et de la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

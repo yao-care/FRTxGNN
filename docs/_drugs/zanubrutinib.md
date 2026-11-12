@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 827
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ZANUBRUTINIB"
 predicted_indications: ["myeloid leukemia", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "Ewing sarcoma", "neuroblastoma"]
 description: "Zanubrutinib : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -129,11 +129,37 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prédiction pour la leucémie myéloïde repose uniquement sur le modèle (niveau L4) : le seul essai associé est indirect et la littérature concerne des maladies lymphoïdes.
 
+<!-- review:begin fr-lic-20261106-zanubrutinib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction pour la leucémie myéloïde repose uniquement sur le modèle (niveau L4) : le seul essai associé est indirect et la littérature concerne des maladies lymphoïdes. De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zanubrutinib-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec la leucémie myéloïde
 - Données précliniques ou cliniques directes du zanubrutinib dans la leucémie myéloïde
 - Mises en garde et contre-indications issues de la notice ANSM
 - Évaluation des interactions majeures pour un éventuel usage en association
+
+<!-- review:begin fr-lic-20261106-zanubrutinib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Mises en garde et contre-indications issues de la notice ANSM / Évaluation de l'impact du statut annulé de l'AMM en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zanubrutinib-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Évaluation de l'impact du statut annulé de l'AMM en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

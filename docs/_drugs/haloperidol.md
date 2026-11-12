@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol : nouvelle indication prédite, Congenital disorder of glycosylation with defective fucosylation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -74,6 +74,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
+<!-- review:begin fr-lic-20261106-haloperidol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les cinq AMM du halopéridol (laboratoire ESSENTIAL PHARMA (M), Malte) sont **annulées** ; aucune n'est actuellement en vigueur. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-haloperidol-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 61490049 | HALDOL 1 mg, comprimé | Comprimé | Active |
@@ -102,6 +108,12 @@ Les mentions de la notice (mises en garde et contre-indications officielles) ne 
 - La prédiction pour le trouble congénital de la glycosylation avec défaut de fucosylation repose uniquement sur le score du modèle (niveau L5). Il n'existe aucun essai, aucune publication ni lien mécanistique plausible.
 - Le profil de sécurité du halopéridol est notable (risque cardiaque, hématologique, neurologique).
 
+<!-- review:begin fr-lic-20261106-haloperidol-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de sécurité du halopéridol est notable (risque cardiaque, hématologique, neurologique), et toutes ses AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-haloperidol-2 -->
+
 **Remarque sur les autres prédictions du modèle :**
 - *Dystrophie rétinienne* (L4) : deux études précliniques chez le rat (modèle de rétinite pigmentaire) montrent une modulation des réponses visuelles des cellules ganglionnaires rétiniennes. Ce résultat est indirect et ne démontre aucun effet modificateur de la maladie.
 
@@ -109,6 +121,20 @@ Les mentions de la notice (mises en garde et contre-indications officielles) ne 
 - Données détaillées sur le mécanisme d'action (MOA) et analyse d'un éventuel lien avec la voie de la fucosylation.
 - Données précliniques (modèles cellulaires ou animaux) justifiant une hypothèse biologique pour cette maladie.
 - Récupération et analyse de la notice officielle de l'ANSM (mises en garde, contre-indications) pour un examen de sécurité complet.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les cinq AMM du halopéridol (laboratoire ESSENTIAL PHARMA (M), Malte) sont **annulées** ; aucune n'est actuellement en vigueur » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et toutes ses AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

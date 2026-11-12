@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 727
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Susoctocog Alfa : nouvelle indication prédite, Trouble de libération plaquettaire primaire (niveau de preuve L5). Indication d'origine : Hémophilie acquise (l'indication approuvée n'est pas renseigné…"
 monitor_inn: "SUSOCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor XIII deficiency", "adenosine deaminase deficiency"]
@@ -108,12 +108,38 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 - Le déficit acquis en facteur de coagulation (Proceed with Guardrails, L3) correspond en pratique à l'indication d'origine, et non à un véritable repositionnement. L'hémophilie (L3, Research Question) ne dispose que d'une étude de surveillance post-commercialisation et de publications surtout centrées sur la forme acquise.
 - Les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-susoctocog_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La seule AMM française est annulée, et les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-susoctocog_alfa-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications) : lacune bloquante.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Confirmer la disponibilité du produit en France.
 - Pour toute piste dans l'hémophilie congénitale avec inhibiteurs, évaluer les données de phase 3 existantes. Garde-fous : suivi de l'activité FVIII, surveillance des événements thrombotiques et dosage des anticorps anti-porcins.
 - Abandonner ou déprioriser les prédictions plaquettaires et non coagulantes, faute de justification mécanistique.
+
+<!-- review:begin fr-lic-20261106-susoctocog_alfa-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Confirmer la disponibilité du produit en France, l'AMM étant annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-susoctocog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « a seule AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

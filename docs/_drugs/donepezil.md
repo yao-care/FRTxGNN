@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
 description: "Donepezil : nouvelle indication prédite, Psychogenic movement disorders (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -80,6 +80,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Le donépézil dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).
 
+<!-- review:begin fr-lic-20261031-donepezil-1 -->
+
+> **Correction de vérification (2026-10-31)**: Texte initial : « Aucune AMM n'est enregistrée pour le donépézil dans les données compilées pour ce rapport (statut : non commercialisé, 0 AMM). Ce point est à vérifier auprès de l'ANSM, car le donépézil est habituellement disponible en France. » Corrigé : l'affirmation ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-10-31) et a été remplacée par le texte actuel. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261031-donepezil-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de notice) : épilepsie, asthme (y compris asthme intrinsèque et allergique), obstruction du col vésical, ulcère gastroduodénal actif, maladie du sinus, maladie du sinus familiale, bloc auriculo-ventriculaire.
@@ -103,6 +109,19 @@ Pour les mises en garde officielles, veuillez consulter la notice.
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Essai randomisé contrôlé contre placebo dans les tics / syndrome de Gilles de la Tourette, avec évaluation préalable de la sécurité (troubles du mouvement, bradycardie, contre-indications du graphe de connaissances)
 - Analyse de la pertinence des publications indirectes (revues Cochrane sur la dyskinésie tardive) et des interactions majeures (bupropion)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Aucune AMM n'est enregistrée pour le donépézil dans les données compilées pour ce rapport (statut : non commercialisé, 0 AMM). Ce point est | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

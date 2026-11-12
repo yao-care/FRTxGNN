@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 511
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "MOGAMULIZUMAB"
 predicted_indications: ["prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant", "renal pelvis papillary urothelial carcinoma", "human herpesvirus 8-related tumor", "ectomesenchymoma", "malignant cutaneous granular cell skin tumor"]
 description: "Mogamulizumab : nouvelle indication prédite, Carcinome urothélial de l'urètre prostatique (prostatic urethra urothelial carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans le…"
@@ -104,12 +104,38 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un mécanisme spéculatif.
 - Les mises en garde et contre-indications de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-mogamulizumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'AMM française est annulée et les mises en garde et contre-indications de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mogamulizumab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour permettre le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Vérifier l'expression de CCR4 et la présence de Treg dans les tumeurs urothéliales (études précliniques)
 - Rechercher des études publiées ou en cours sur l'anti-CCR4 dans les cancers urothéliaux
 - Clarifier le statut réglementaire actuel du produit en France
+
+<!-- review:begin fr-lic-20261106-mogamulizumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire actuel du produit en France (AMM annulée) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mogamulizumab-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

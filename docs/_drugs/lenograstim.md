@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 443
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "lenograstim"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease", "severe nonproliferative diabetic retinopathy"]
 description: "Lenograstim : nouvelle indication prédite, Trouble de libération plaquettaire primaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -107,12 +107,38 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre un G-CSF et les troubles de la fonction plaquettaire.
 - Les données de sécurité de la notice sont absentes, ce qui bloque toute évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-lenograstim-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le médicament n'a plus d'AMM valide en France, et les données de sécurité de la notice sont absentes, ce qui bloque toute évaluation de sécurité. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lenograstim-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde, contre-indications, indications d'origine).
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Réaliser une recherche bibliographique ciblée pour identifier d'éventuelles données précliniques ou cliniques sur le G-CSF et la fonction plaquettaire.
 - Clarifier la situation réglementaire et la faisabilité d'un développement ou d'un accès au produit.
 - Si une piste est poursuivie, privilégier des études de mécanisme avant toute étude clinique.
+
+<!-- review:begin fr-lic-20261106-lenograstim-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire (AMM annulées) et la faisabilité d'un développement ou d'un accès au produit. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lenograstim-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « e médicament n'a plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

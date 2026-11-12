@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib : nouvelle indication prédite, Epiglottis neoplasm (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -74,6 +74,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte d'indication approuvée n'est pas renseigné pour ces autorisations.
 
+<!-- review:begin fr-lic-20261106-niraparib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les trois AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné pour ces autorisations. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-niraparib-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 61096104 | ZEJULA 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
@@ -109,12 +115,39 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - La prédiction pour le néoplasme de l'épiglotte repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme documenté.
 - Les mises en garde et contre-indications de la notice ne sont pas disponibles : le dépistage de sécurité ne peut donc pas être mené.
 
+<!-- review:begin fr-lic-20261106-niraparib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction pour le néoplasme de l'épiglotte repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication ni mécanisme documenté. / Les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-niraparib-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Mener une revue ciblée de la littérature sur les inhibiteurs de PARP dans les cancers de la tête et du cou, avec recherche de biomarqueurs de déficience de réparation de l'ADN (HRD).
 
+<!-- review:begin fr-lic-20261106-niraparib-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Mener une revue ciblée de la littérature sur les inhibiteurs de PARP dans les cancers de la tête et du cou, avec recherche de biomarqueurs de déficience de réparation de l'ADN (HRD). / Clarifier la situation réglementaire : les AMM sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-niraparib-3 -->
+
 **Remarque :** parmi les autres prédictions, la « tumeur kystique » (2ᵉ rang, niveau L2) dispose de données plus solides. Elle est soutenue par un essai de phase 2 en recrutement (NCT04716686, niraparib en monothérapie dans le carcinome séreux de l'endomètre). Il s'agit toutefois surtout d'une extension des indications ovariennes existantes plutôt que d'une indication réellement nouvelle. Elle pourrait être évaluée séparément.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les trois AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier la situation réglementaire : les AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

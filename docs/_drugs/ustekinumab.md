@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 800
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -84,6 +84,12 @@ Il convient aussi de noter que le score élevé du modèle TxGNN (apprentissage 
 
 Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma).
 
+<!-- review:begin fr-lic-20261106-ustekinumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma), toutes au statut annulé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ustekinumab-1 -->
+
 ## Considérations de Sécurité
 
 - **Interactions Médicamenteuses** : 333 interactions sont recensées. Les principales, de niveau modéré, concernent les corticoïdes (hydrocortisone, triamcinolone, dexaméthasone, bétaméthasone, budésonide, prednisone, prednisolone), la simvastatine, les anticoagulants (apixaban, warfarine, rivaroxaban, dicoumarol) et des radiopharmaceutiques (iobenguane I-131, ibritumomab tiuxétan, tositumomab). Les sels de zinc présentent des interactions mineures.
@@ -97,12 +103,32 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Justification :**
 Deux essais de phase 2 testent directement ustékinumab dans la dermatite atopique, mais ils sont de petite taille et l'adéquation mécanistique est partielle (voie Th2 dominante). Le score TxGNN est gonflé par un terme très général et les données de sécurité de la notice manquent.
 
+<!-- review:begin fr-lic-20261106-ustekinumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le score TxGNN est gonflé par un terme très général, les AMM françaises sont toutes annulées et les données de sécurité de la notice manquent. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ustekinumab-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats détaillés des essais NCT01945086 et NCT01806662 (efficacité et sécurité)
 - Notice de l'ANSM (mises en garde et contre-indications) pour lever la lacune de sécurité bloquante
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Précision de la population « dermatite » visée (atopique, de contact, autre)
 - Clarification du statut réglementaire actuel en France (AMM annulées)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

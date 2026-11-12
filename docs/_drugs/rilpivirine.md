@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 668
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée…"
@@ -110,11 +110,30 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - Les preuves se limitent à des études précliniques chez le macaque, surtout sur des combinaisons, sans essai clinique. L'infection par le VIS n'est pas une indication humaine.
 
+<!-- review:begin fr-lic-20261106-rilpivirine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'infection par le VIS n'est pas une indication humaine, et les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-rilpivirine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (le criblage de sécurité ne peut pas être effectué sans elles)
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une définition claire de la question de recherche : un modèle animal du VIH ne constitue pas une nouvelle indication, et la piste du VIH congénital ou de la grossesse nécessiterait des données de sécurité et de pharmacocinétique spécifiques à la rilpivirine
 - Les textes d'indication des AMM et la clarification de leur statut d'annulation
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

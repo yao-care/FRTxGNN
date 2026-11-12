@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 509
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide : nouvelle indication prédite, Agoraphobie (agoraphobia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -100,17 +100,43 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - Deux ECR (1999) soutiennent l'usage du moclobémide dans le trouble panique avec agoraphobie, mais aucun essai clinique n'est enregistré. Les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-moclobemide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Deux ECR (1999) soutiennent l'usage du moclobémide dans le trouble panique avec agoraphobie, mais aucun essai clinique n'est enregistré et le produit n'a plus qu'une AMM annulée en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-moclobemide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
 - Compléter les données sur le mécanisme d'action via DrugBank
 - Clarifier le statut réglementaire et la disponibilité d'une formulation commercialisée
 - Évaluer la pertinence actuelle des ECR de 1999 et envisager de nouveaux essais spécifiques à l'agoraphobie
 
+<!-- review:begin fr-lic-20261106-moclobemide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire (AMM annulée) et la disponibilité d'une formulation commercialisée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-moclobemide-2 -->
+
 ---
 
 ### Note sur la deuxième prédiction
 
 La seconde prédiction du modèle, le **torticolis paroxystique bénin du nourrisson** (score 0,9930), n'a ni essai clinique ni publication associés, et aucun lien mécanistique n'a été identifié. Le moclobémide n'est pas établi en usage pédiatrique. Il s'agit d'une prédiction purement computationnelle (niveau L5, décision Hold).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et le produit n'a plus qu'une AMM annulée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Hexetidine : nouvelle indication prédite, Anévrisme du septum interventriculaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (antiseptique buccal local)"
 monitor_inn: "hexetidine"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
@@ -71,6 +71,12 @@ Aucune littérature associée disponible actuellement pour l'anévrisme du septu
 
 À titre indicatif, une seule publication a été retrouvée pour une autre prédiction du modèle (trouble de la synthèse des fucoglycanes). Il s'agit d'une revue générale sur les agents antiplaque, sans lien avec cette maladie :
 
+<!-- review:begin fr-lic-20261106-hexetidine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Deux autres AMM annulées existent au total (7 au total), dont Hextril 0,1 pour cent en pâte dentifrice et Hexetidine Teva Conseil 0,1 %. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-hexetidine-1 -->
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
 | [12974527](https://pubmed.ncbi.nlm.nih.gov/12974527/) | 2003 | Revue | Oral Diseases | Revue des agents antiplaque dans la prévention des maladies buccales liées au biofilm (caries, maladies parodontales) ; usage en hygiène buccale, sans rapport avec l'indication prédite |
@@ -104,6 +110,19 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Démonstration d'un lien biologique plausible et d'une compatibilité de voie d'administration (usage local vs systémique) avant toute étude préclinique
 - Éventuellement, examen d'indications plus cohérentes avec le profil antiseptique buccal du médicament
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Deux autres AMM annulées existent au total (7 au total), dont Hextril 0,1 pour cent en pâte dentifrice et Hexetidine Teva Conseil 0,1 % » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

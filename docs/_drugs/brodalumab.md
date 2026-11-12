@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Brodalumab : nouvelle indication prédite, Strongyloïdose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "BRODALUMAB"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "chronic relapsing inflammatory optic neuropathy", "optic perineuritis", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "episcleritis periodica fugax", "nodular episcleritis"]
@@ -113,12 +113,31 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme biologiquement douteux.
 - Les autres prédictions du top 10 (maladie oculaire, névrites optiques, épisclérites, etc.) sont également en Hold : preuves absentes ou très faibles, certaines suggérant même un signal de sécurité.
 
+<!-- review:begin fr-lic-20261106-brodalumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme biologiquement douteux. De plus, l'AMM française est annulée et le profil de sécurité n'est pas documenté. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-brodalumab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Indication originale documentée
 - Données précliniques ou cliniques spécifiques à la strongyloïdose, ou choix d'une indication plus plausible sur le plan mécanistique
 - Évaluation de la compatibilité des voies d'administration et de la similarité avec l'indication originale
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et le profil de sécurité n'est pas documenté » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

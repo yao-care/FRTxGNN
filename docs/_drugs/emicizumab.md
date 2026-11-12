@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 279
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "emicizumab"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "thrombotic thrombocytopenic purpura", "fetal and neonatal alloimmune thrombocytopenia", "flood factor deficiency"]
 description: "Emicizumab : nouvelle indication prédite, Pseudo-von Willebrand disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -111,6 +111,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, non 
 - Pour l'hémophilie A acquise, les preuves sont substantielles (études prospectives de phases II/III à un seul bras, cohortes, consensus), mais elles sont non randomisées et ne couvrent pas l'ensemble des déficits acquis en facteurs de coagulation. L'ensemble des autres prédictions repose uniquement sur le modèle (L5) ou sur un lien indirect (L4).
 - Les données de sécurité de la notice (ANSM) sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-emicizumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données de sécurité de la notice (ANSM) sont manquantes, ce qui bloque le passage à l'étape de criblage de sécurité, et les deux AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-emicizumab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Télécharger et analyser la notice ANSM (mises en garde et contre-indications)
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
@@ -118,6 +124,26 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, non 
 - Préciser le statut réglementaire actuel d'emicizumab en France
 - Redéfinir l'indication cible comme « hémophilie A acquise » plutôt que « déficit acquis en facteur de coagulation »
 - Vérifier le terme « flood factor deficiency » dans l'ontologie source, probablement une erreur de données
+
+<!-- review:begin fr-lic-20261106-emicizumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Préciser le statut réglementaire actuel d'emicizumab en France (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-emicizumab-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

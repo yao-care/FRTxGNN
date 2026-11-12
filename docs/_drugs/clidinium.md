@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "CLIDINIUM"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
 description: "Clidinium : nouvelle indication prédite, Syndrome de la queue de cheval (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -112,6 +112,12 @@ L'usage chez le nouveau-né (myasthénie néonatale) et chez les patients attein
 **Justification :**
 - Le syndrome de la queue de cheval, malgré un score TxGNN élevé, n'est soutenu par aucun essai ni publication, et le rationnel n'est que symptomatique. Pour l'ulcère peptique, les preuves sont favorables mais confondues (associations, anciennes, sans conception contrôlée moderne), le traitement de référence actuel est différent.
 
+<!-- review:begin fr-lic-20261106-clidinium-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Pour l'ulcère peptique, les preuves sont favorables mais confondues (associations, anciennes, sans conception contrôlée moderne), le traitement de référence actuel est différent et les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clidinium-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité de la notice (mises en garde, contre-indications) : lacune bloquante pour le criblage de sécurité
 - Les données détaillées sur le mécanisme d'action (DrugBank)
@@ -119,6 +125,26 @@ L'usage chez le nouveau-né (myasthénie néonatale) et chez les patients attein
 - Des études contrôlées modernes testant le clidinium seul, plutôt qu'en association avec le chlordiazépoxide
 - L'abandon ou une réévaluation approfondie des prédictions sans lien mécanistique (myasthénies, maladies auto-immunes périphériques, catégories génériques)
 - La clarification de la situation réglementaire
+
+<!-- review:begin fr-lic-20261106-clidinium-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La clarification de la situation réglementaire, les deux AMM étant annulées » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clidinium-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « les deux AMM étant annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

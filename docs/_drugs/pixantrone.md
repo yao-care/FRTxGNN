@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 description: "Pixantrone : nouvelle indication prédite, Cataracte diabétique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "PIXANTRONE"
 predicted_indications: ["diabetic cataract"]
@@ -97,12 +97,31 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans lien mécanistique plausible entre un cytotoxique et la cataracte diabétique.
 - Les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité initiale.
 
+<!-- review:begin fr-lic-20261106-pixantrone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'autorisation française est annulée, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité initiale. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 0 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pixantrone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice ANSM (mises en garde et contre-indications)
 - Données sur le mécanisme d'action issues de DrugBank
 - Données précliniques ou mécanistiques reliant la pixantrone à la physiopathologie de la cataracte diabétique
 - Évaluation du rapport bénéfice-risque (cardiotoxicité, myélosuppression) pour une affection chronique non maligne
 - Analyse de la compatibilité des voies d'administration (voie perfusion uniquement, non adaptée à une atteinte oculaire chronique)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'autorisation française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

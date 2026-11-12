@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Glimepiride : nouvelle indication prédite, Syndrome de la personne raide classique (classic stiff person syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
@@ -71,6 +71,12 @@ Aucune littérature associée disponible actuellement.
 
 Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-glimepiride-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-glimepiride-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 67054585 | Glimépiride Arrow Génériques 2 mg | Comprimé sécable | Active |
@@ -93,6 +99,12 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique plausible n'est identifié.
 
+<!-- review:begin fr-lic-20261106-glimepiride-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et aucun lien mécanistique plausible n'est identifié. De plus, toutes les AMM françaises du glimépiride sont annulées et les données de sécurité de la notice sont manquantes, ce qui empêche l'étape de dépistage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-glimepiride-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice de l'ANSM (mises en garde et contre-indications).
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
@@ -100,6 +112,20 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 - Clarifier la situation réglementaire en France (AMM annulées) et la compatibilité des voies d'administration.
 
 **Autres prédictions du modèle (toutes de niveau L5, décision Hold) :** syndrome du membre raide focal, opsismodysplasie, syndrome de dysfonctionnement répondant à la thiamine, lipodystrophie localisée induite par médicament, lipodystrophie centrifuge, lipoatrophie localisée induite par pression, lipodystrophie localisée idiopathique et agénésie pancréatique. Pour l'agénésie pancréatique, le mécanisme est même contradictoire : sans cellules bêta fonctionnelles, un sulfamide hypoglycémiant ne peut être efficace. Seule une publication non pertinente a été retrouvée pour cette dernière.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « De plus, toutes les AMM françaises du glimépiride sont annulées et les données de sécurité de la notice sont manquantes, ce qui empêche l'ét » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

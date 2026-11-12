@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 484
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Methadone : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L4** | Indications prédites: **7**
 
 La méthadone est un agoniste opioïde puissant, commercialisé en France sous forme de sirop et de gélules par l'AP-HP. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées pour ce rapport.
 Le modèle TxGNN la prédit comme potentiellement efficace pour le **Syndrome de Gilles de la Tourette**, mais **aucun essai clinique** n'est enregistré et seule **une publication ancienne (1992)** décrit directement cet usage.
+
+<!-- review:begin fr-lic-20261106-methadone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le texte de l'indication approuvée n'est pas renseigné dans les données compilées pour ce rapport, et les deux AMM sont aujourd'hui annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-methadone-1 -->
 
 ## Aperçu Rapide
 
@@ -94,6 +100,12 @@ Aucun essai clinique associé enregistré actuellement.
 **Justification :**
 - La prédiction repose sur un seul rapport ancien (1992) sans essai clinique enregistré (niveau L4). Le profil de sécurité (risque cardiaque lié à l'allongement du QT, dépression respiratoire, nombreuses interactions) est exigeant pour une indication neuropsychiatrique non validée.
 
+<!-- review:begin fr-lic-20261106-methadone-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM françaises sont annulées, et le profil de sécurité (risque cardiaque lié à l'allongement du QT, dépression respiratoire, nombreuses interactions) est exigeant pour une indication neuropsychiatrique non validée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-methadone-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), étape bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
@@ -101,6 +113,20 @@ Aucun essai clinique associé enregistré actuellement.
 - Clarifier le statut réglementaire, 2 AMM valides sur 2 existant actuellement pour ces présentations commercialisées
 
 **Remarque sur les autres indications prédites :** le trouble bipolaire maniaque (L3, étude de 1982 sur de petits effectifs, non confirmatoire) reste une question de recherche. Les céphalées (L4), l'autre candidat céphalalgique (céphalée trigémino-autonomique, L4, signal de **risque** d'aggravation) et le rhume banal (L5, sans lien) sont à mettre en attente. Le syndrome néphrogénique d'antidiurèse inappropriée et la trichotillomanie (L5, aucune donnée, mécanisme opposé à celui des antagonistes opioïdes) ne sont soutenus par aucune preuve.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les deux AMM sont aujourd'hui annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

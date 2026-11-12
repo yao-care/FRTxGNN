@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "L-Lysine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "L-LYSINE"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 
 La L-lysine est un acide aminé essentiel, présent dans des solutions de nutrition parentérale et de dialyse péritonéale.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **gastroparésie**, mais cette prédiction repose uniquement sur le calcul : **aucun essai clinique** et **1 publication** non pertinente (une étude préclinique sur des cellules souches) sont disponibles.
+
+<!-- review:begin fr-lic-20261106-l-lysine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La L-lysine est un acide aminé essentiel, présent dans des solutions de nutrition parentérale et de dialyse péritonéale. Les deux autorisations françaises recensées sont aujourd'hui annulées et ne mentionnent aucune indication. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-l-lysine-1 -->
 
 ## Aperçu Rapide
 
@@ -95,12 +101,32 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication pertinente, aucun lien mécanistique démontré.
 
+<!-- review:begin fr-lic-20261106-l-lysine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication pertinente, aucun lien mécanistique démontré. De plus, les deux autorisations françaises sont annulées et les données de sécurité des notices manquent (lacune bloquante). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-l-lysine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser les notices (mises en garde, contre-indications) auprès de l'ANSM
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Rechercher une justification biologique plausible entre la L-lysine et la gastroparésie, puis des études précliniques ou cliniques ciblées
 - Évaluer la pertinence des contre-indications rénales, cardiaques et calciques signalées par le graphe de connaissances
 - Clarifier l'indication originale et la compatibilité de voie d'administration
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux autorisations françaises recensées sont aujourd'hui annulées et ne mentionnent aucune indication » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « De plus, les deux autorisations françaises sont annulées et les données de sécurité des notices manquent (lacune bloquante) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

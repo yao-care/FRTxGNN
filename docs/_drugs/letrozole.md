@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole : nouvelle indication prédite, Carcinome du mamelon (nipple carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -80,7 +80,13 @@ Aucune de ces publications n'évalue le létrozole dans le carcinome du mamelon.
 
 ## Informations de Marché en France
 
-Le létrozole est commercialisé en France sous forme de comprimés pelliculés. Les 20 AMM enregistrées sont valides ; voici les 5 principales :
+Le létrozole est commercialisé en France sous forme de comprimés pelliculés. Voici les 5 principales :
+
+<!-- review:begin fr-lic-20261112-letrozole-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « Les 20 AMM enregistrées sont valides ; voici les 5 principales : » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 20 AMM pour ce médicament, dont 18 valides et 2 annulées ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-letrozole-1 -->
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
@@ -119,6 +125,18 @@ La prédiction repose uniquement sur le score du modèle (0,9976), sans essai cl
 - Mises en garde et contre-indications issues de la notice
 - Données montrant l'expression des récepteurs hormonaux dans le carcinome du mamelon
 - Études cliniques ou séries de cas évaluant le létrozole dans cette maladie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Supprimé : « Les 20 AMM enregistrées sont valides ; » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

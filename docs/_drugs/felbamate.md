@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 318
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "FELBAMATE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Felbamate : nouvelle indication prédite, Trigeminal nerve neoplasm (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -98,11 +98,37 @@ Les mises en garde et contre-indications de la notice française n'ont pas pu ê
 **Justification :**
 - Le score TxGNN est très élevé, mais les preuves se limitent à un rapport de cas de 1995 et à du contexte indirect, sans aucun essai clinique (niveau L4). Le profil de risque du felbamate (anémie aplasique, hépatotoxicité) est défavorable alors que des alternatives plus sûres existent. La prédiction « néoplasme du nerf trijumeau » n'a aucune base et ne doit pas être poursuivie.
 
+<!-- review:begin fr-lic-20261106-felbamate-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de risque du felbamate (anémie aplasique, hépatotoxicité) est défavorable alors que des alternatives plus sûres existent, et toutes ses AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-felbamate-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice (mises en garde et contre-indications) auprès de l'ANSM
 - Compléter les données de mécanisme d'action via DrugBank
 - Lire le texte intégral du rapport de 1995 et mener une revue systématique de la littérature
 - Réaliser une analyse bénéfice-risque, limitée aux cas réfractaires avec surveillance hématologique et hépatique stricte
+
+<!-- review:begin fr-lic-20261106-felbamate-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Réaliser une analyse bénéfice-risque, limitée aux cas réfractaires avec surveillance hématologique et hépatique stricte / Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-felbamate-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et toutes ses AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

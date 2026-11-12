@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 679
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ROPINIROLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Ropinirole : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -100,6 +100,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Justification :**
 - Le niveau de preuve est L3 : un cas clinique, des revues et une publication de 2026 qui semble être un essai randomisé, mais dont le design et les résultats ne sont pas vérifiés. Aucun essai enregistré n'existe, et les données de sécurité officielles manquent, ce qui bloque le passage au criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-ropinirole-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Aucun essai enregistré n'existe, et les données de sécurité officielles manquent, ce qui bloque le passage au criblage de sécurité. Le produit n'a plus d'AMM valide en France. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ropinirole-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM
 - Obtenir les données sur le mécanisme d'action auprès de DrugBank
@@ -108,12 +114,32 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Évaluer la sécurité en population pédiatrique, notamment les risques psychiatriques et de troubles du contrôle des impulsions
 - Clarifier la situation réglementaire et la voie d'administration
 
+<!-- review:begin fr-lic-20261106-ropinirole-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire (AMM annulée) et la voie d'administration » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ropinirole-2 -->
+
 ### Autres prédictions (information complémentaire)
 
 Les autres indications prédites n'ont aucun soutien clinique et sont toutes classées « Hold » :
 
 - **Schizophrénie** (L4) : les preuves sont surtout précliniques ; un agoniste dopaminergique pourrait aggraver la psychose, et la schizophrénie figure parmi les contre-indications issues du graphe de connaissances.
 - **Syndrome facio-digito-génital, polymicrogyrie périsylvienne avec hypoplasie cérébelleuse et arthrogrypose, dystrophie rétinienne, myopie liée à l'X (deux entrées), anomalie congénitale de glycosylation avec fucosylation défective, encéphalopathie glycinique atypique, maladie de Charcot-Marie-Tooth démyélinisante de type 1G** (L5) : prédictions du modèle uniquement, sans lien mécanistique identifié avec l'agonisme dopaminergique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

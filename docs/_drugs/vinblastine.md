@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 813
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcoma (disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -110,12 +110,38 @@ Pour les sous-types predits suivants, la litterature est tres limitee : le rhabd
 - La prediction est tres bien classee par le modele (0.9986), mais les preuves restent de niveau L4 : aucun essai enregistre, uniquement des cas cliniques anciens ou recents en association, et des etudes precliniques.
 - Les donnees de securite de la notice sont absentes, ce qui bloque le passage a un criblage de securite.
 
+<!-- review:begin fr-lic-20261106-vinblastine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La seule AMM francaise est annulee, et les donnees de securite de la notice sont absentes, ce qui bloque le passage a un criblage de securite. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vinblastine-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Recuperer et analyser la notice (mises en garde et contre-indications) aupres de l'ANSM
 - Obtenir les donnees detaillees sur le mecanisme d'action (DrugBank)
 - Rechercher des essais cliniques pertinents (rhabdomyosarcome, y compris pediatriques) et des donnees comparant la vinblastine a la vincristine, deja etablie dans cette indication
 - Etablir un plan de surveillance hematologique, hepatique et neurologique
 - Pour les autres predictions (sous-types de rhabdomyosarcome, foie, leucemie monocytaire, neuroblastome), les preuves sont insuffisantes ou indirectes ; la leucemie monocytaire (niveau L3) repose sur des series anciennes des annees 1970 et ne justifie, a ce stade, qu'une question de recherche.
+
+<!-- review:begin fr-lic-20261106-vinblastine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Rechercher des essais cliniques pertinents (rhabdomyosarcome, y compris pediatriques) et des donnees comparant la vinblastine a la vincristine, deja etablie dans cette indication / Evaluer la disponibilite actuelle du produit en France, compte tenu de l'annulation de l'AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vinblastine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « a seule AMM francaise est annulee, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Evaluer la disponibilite actuelle du produit en France, compte tenu de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

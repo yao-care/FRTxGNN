@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
 description: "Vancomycin : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -109,12 +109,31 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication pertinente, et sans lien mécanistique plausible entre un antibiotique ciblant la paroi bactérienne et une maladie fibrosante auto-immune.
 - Les données de sécurité officielles (mises en garde, contre-indications) sont manquantes, ce qui empêche toute évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-vancomycin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'AMM française est annulée, et les données de sécurité officielles (mises en garde, contre-indications) sont manquantes, ce qui empêche toute évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vancomycin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle auprès de l'ANSM (mises en garde, contre-indications) pour permettre l'évaluation de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Démontrer un lien biologique crédible avec la sclérodermie diffuse (études précliniques) avant toute étude clinique
 
 **Remarque sur les autres indications prédites :** parmi les dix prédictions du modèle, la plupart n'ont aucun support (fièvres paratyphoïde et typhoïde, salmonellose : bactéries Gram négatif naturellement résistantes à la vancomycine ; analbuminémie congénitale, syndrome d'hyperviscosité polyclonale, hyperamylasémie, incompatibilité de groupe sanguin, maladie hématologique prémaligne). La seule piste biologiquement plausible est la **pneumonie à streptocoques** (niveau L4) : la vancomycine y est active sur les souches Gram positif et sert de recours pour les souches très résistantes à la pénicilline. Elle correspond toutefois à un usage déjà existant plutôt qu'à un véritable repositionnement, et les 20 publications associées sont des revues et des études d'épidémiologie de la résistance, sans données d'essai spécifiques à la vancomycine.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

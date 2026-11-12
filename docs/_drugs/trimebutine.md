@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 790
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Trimebutine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "trimebutine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -87,6 +87,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Le texte des indications approuvées n'est pas renseigné. Cinq AMM sont présentées ci-dessous à titre d'illustration.
 
+<!-- review:begin fr-lic-20261106-trimebutine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes au statut « abrogé/annulé ». Le texte des indications approuvées n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-trimebutine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 68816348 | Trimébutine Cristers 200 mg | Comprimé | Non renseignée |
@@ -118,6 +124,19 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 - Clarifier la raison de l'annulation des AMM et la disponibilité réelle du produit en France
 - Définir l'hypothèse à tester : trimébutine en adjuvant d'un triptan, plutôt qu'en traitement antimigraineux autonome
 - La prédiction pour la « migraine avec aura du tronc cérébral » (niveau L5, sans aucune étude) n'est soutenue que par le modèle et reste en attente
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes au statut « abrogé/annulé » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

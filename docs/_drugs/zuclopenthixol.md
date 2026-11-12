@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ZUCLOPENTHIXOL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Zuclopenthixol : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication …"
@@ -82,6 +82,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
+<!-- review:begin fr-lic-20261106-zuclopenthixol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM annulée existe (n° 69902540, Clopixol Action Prolongée 200 mg/1 ml, Difarmed, Espagne). Le texte d'indication approuvée n'est pas renseigné pour ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zuclopenthixol-1 -->
+
 ## Considérations de Sécurité
 
 Veuillez consulter la notice pour les informations de sécurité.
@@ -101,6 +107,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Mener une revue de littérature ciblée sur la dopamine rétinienne et les dystrophies rétiniennes
 - Évaluer la pertinence de la voie d'administration et le profil de risque neurologique (effets extrapyramidaux) pour cette population
 - Réexaminer les autres indications prédites (myopie, etc.), qui présentent aussi un niveau de preuve L5, et noter que l'antagonisme dopaminergique irait probablement dans le sens défavorable
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième AMM annulée existe (n° 69902540, Clopixol Action Prolongée 200 mg/1 ml, Difarmed, Espagne) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

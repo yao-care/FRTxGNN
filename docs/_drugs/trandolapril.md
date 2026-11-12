@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -133,6 +133,25 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Rechercher des études cliniques ou observationnelles chez l'humain sur l'hypertension rénovasculaire et rénale maligne.
 - Clarifier la pertinence du repositionnement, vu le chevauchement avec l'indication d'origine, ainsi que la situation réglementaire.
 - Évaluer le risque rénal (sténose bilatérale des artères rénales) et l'hyperkaliémie avant toute progression.
+
+<!-- review:begin fr-lic-20261106-trandolapril-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la pertinence du repositionnement, vu le chevauchement avec l'indication d'origine, ainsi que la situation réglementaire (AMM annulées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-trandolapril-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

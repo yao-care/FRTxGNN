@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 635
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "propafenone"
 predicted_indications: ["manic bipolar affective disorder", "periodic paralysis with transient compartment-like syndrome", "Prinzmetal angina", "arrhythmogenic right ventricular cardiomyopathy", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania"]
 description: "Propafenone : nouvelle indication prédite, Manic bipolar affective disorder (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -113,11 +113,23 @@ Les données de la notice (mises en garde, contre-indications) ne sont pas dispo
 - La TVPC est la prédiction la mieux soutenue : mécanisme plausible via l'inhibition de RyR2, études précliniques concordantes et un cas de traitement prolongé efficace. Le niveau de preuve reste toutefois L3, sans essai enregistré, et la flécaïnide demeure la référence.
 - Les données de sécurité officielles sont absentes. Cela justifie de n'avancer que dans un cadre strictement encadré, au stade de question de recherche.
 
+<!-- review:begin fr-lic-20261106-propafenone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La propafénone n'est plus commercialisée en France (AMM annulée), et les données de sécurité officielles sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-propafenone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM, car l'étape de criblage de sécurité ne peut être franchie sans elle.
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
 - Comparer à la flécaïnide (efficacité et tolérance) et rechercher ou concevoir des études cliniques prospectives dans la TVPC.
 - Évaluer le risque proarythmique.
+
+<!-- review:begin fr-lic-20261106-propafenone-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluer le risque proarythmique et les contre-indications cardiaques (QT long, cardiopathie structurelle, cardiopathie ischémique), ainsi que la faisabilité d'un accès au médicament malgré l'AMM annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-propafenone-2 -->
 
 ## Autres prédictions du modèle (non retenues)
 
@@ -129,6 +141,19 @@ Les données de la notice (mises en garde, contre-indications) ne sont pas dispo
 | 6 | Cardiomyopathie arythmogène du ventricule droit | 0,9942 | L4 | Hold : signaux de sécurité (proarythmie) |
 | 7 | Syndrome néphrogénique d'antidiurèse inappropriée | 0,9923 | L5 | Hold : aucune donnée |
 | 8 | Trichotillomanie | 0,9917 | L5 | Hold : aucune donnée |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « a propafénone n'est plus commercialisée en France (AMM annulée), et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les contre-indications cardiaques (QT long, cardiopathie structurelle, cardiopathie ischémique), ainsi que la faisabilité d'un accès au m » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

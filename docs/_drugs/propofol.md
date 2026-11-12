@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 636
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Propofol : nouvelle indication prédite, Migraine (« migraine disorder ») (niveau de preuve L2). Indication d'origine : Non renseignée dans les données d'AMM compilées (usage anesthésique c…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -97,6 +97,12 @@ L'usage reste cependant limité à un cadre surveillé (service d'urgences) en r
 
 Au total, 11 AMM sont recensées; seules les 5 premières sont listées ici.
 
+<!-- review:begin fr-lic-20261106-propofol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 11 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-propofol-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (associations médicament-maladie, et non texte de notice) : épilepsie, trouble hypotensif, insuffisance respiratoire, artériosclérose intracrânienne, trouble héréditaire du métabolisme lipidique, hyperlipidémie familiale.
@@ -125,6 +131,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Angor de Prinzmetal : Hold (L5), les publications décrivent des spasmes coronariens induits par l'anesthésie, soit un signal de sécurité défavorable
 - Syndrome néphrogénique d'antidiurèse inappropriée : Hold (L5), aucun lien mécanistique ni preuve
 - Syndrome de Gilles de la Tourette : Hold (L4), seul un usage procédural en sédation lors d'une chirurgie de stimulation cérébrale profonde est documenté
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

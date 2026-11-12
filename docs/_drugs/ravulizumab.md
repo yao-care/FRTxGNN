@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 description: "Ravulizumab : nouvelle indication prédite, Neutropénie congénitale sévère autosomique récessive par déficit en G6PC3 (autosomal recessive severe congenital neutro… (niveau de preuve L5). Indication d…"
@@ -93,12 +93,38 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai ni publication ne la soutient, et aucun lien mécanistique plausible n'est établi.
 - Le risque infectieux lié à l'inhibition de C5 est défavorable dans un contexte de neutropénie.
 
+<!-- review:begin fr-lic-20261106-ravulizumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le risque infectieux lié à l'inhibition de C5 est défavorable dans un contexte de neutropénie. / Les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ravulizumab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une justification mécanistique ou des données précliniques reliant l'inhibition de C5 à la maladie ciblée
 - Une revue de la littérature et des registres d'essais pour confirmer l'absence ou l'existence de preuves
 - La clarification du statut réglementaire en France et de la compatibilité des voies d'administration
+
+<!-- review:begin fr-lic-20261106-ravulizumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La clarification du statut réglementaire en France (AMM annulées) et de la compatibilité des voies d'administration » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ravulizumab-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

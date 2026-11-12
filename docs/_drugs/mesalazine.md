@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine : nouvelle indication prédite, Hypotrichose congénitale avec dystrophie maculaire juvénile (congenital hypotrichosis with juvenile macular dystrophy) (niveau de preuve L5). Indication d'or…"
@@ -89,6 +89,12 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose congé
 
 Le texte des indications approuvées n'est pas renseigné. Principales AMM :
 
+<!-- review:begin fr-lic-20261106-mesalazine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 19 AMM recensées sont toutes annulées ; le texte des indications approuvées n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 19 AMM pour ce médicament, dont 19 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mesalazine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 62289729 | PENTASA 500 mg, comprimé | Comprimé | Non renseignée |
@@ -120,11 +126,31 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - La prédiction repose uniquement sur le score du modèle (niveau de preuve L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec un défaut génétique de la cadhérine (CDH3).
 - Les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-mesalazine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées et les données de sécurité officielles sont absentes, ce qui bloque l'étape de criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 19 AMM pour ce médicament, dont 19 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mesalazine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM.
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
 - Démontrer un lien biologique entre la mésalazine et la voie de la cadhérine/le développement rétinien et folliculaire, par des études précliniques.
 - Pour les autres candidats (arthrose, polyarthrite rhumatoïde), si une piste est jugée prioritaire, réaliser une revue de la littérature clinique ciblée et évaluer le profil de sécurité rénale.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es 19 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication d'…"
@@ -88,6 +88,12 @@ Aucune littérature associée n'est disponible actuellement pour la dystrophie r
 
 Le texte des indications approuvées n'est pas renseigné. Principales AMM :
 
+<!-- review:begin fr-lic-20261106-paliperidone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 17 AMM recensées sont toutes annulées. Le texte des indications approuvées n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-paliperidone-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 69642982 | TREVICTA 263 mg | Suspension injectable à libération prolongée | Non renseignée |
@@ -117,6 +123,19 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 - Justification biologique d'un lien entre la palipéridone et les voies rétiniennes, avec études précliniques le cas échéant
 - Vérification du statut commercial actuel de la palipéridone en France
 - Réorientation éventuelle vers une question de recherche plus cohérente, comme la schizophrénie résistante (rang 10, niveau L4), qui reste toutefois une sous-population de l'indication d'origine
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 17 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

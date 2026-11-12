@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
 description: "Ticagrelor : nouvelle indication prédite, Artériosclérose intracrânienne (intracranial arteriosclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -108,6 +108,12 @@ Pour les mises en garde détaillées, veuillez consulter la notice.
 - L'hypothèse mécanistique est cohérente et un essai de Phase 3 de grande taille est en cours, mais sans résultats ; le ticagrélor n'est pas l'unique agent testé et les données directes restent limitées.
 - Le statut réglementaire français et le risque hémorragique, notamment intracrânien, imposent la prudence.
 
+<!-- review:begin fr-lic-20261106-ticagrelor-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le statut réglementaire français (toutes AMM annulées) et le risque hémorragique, notamment intracrânien, imposent la prudence. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ticagrelor-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats de CAPTIVA (fin prévue en janvier 2027), en particulier le bras ticagrélor.
 - Données détaillées sur le mécanisme d'action.
@@ -115,6 +121,19 @@ Pour les mises en garde détaillées, veuillez consulter la notice.
 - Critères de sélection des patients (statut CYP2C19, risque hémorragique) et plan de surveillance des saignements.
 
 **Note sur les autres prédictions :** l'« maladie ischémique » (rang 4, L1) correspond essentiellement à l'usage cardiovasculaire déjà établi du ticagrélor et ne constitue pas un véritable repositionnement. Les autres indications prédites (artériosclérose de Mönckeberg, priapisme, syndrome de May-Thurner, livedo reticularis, occlusion vasculaire mésentérique, ectasie vasculaire, angiodysplasie, thromboembolie veineuse) ne disposent pas de preuves suffisantes (L4-L5) et sont à mettre en attente. L'angiodysplasie, source de saignements digestifs, est en outre en contradiction avec le profil de sécurité d'un antiagrégant.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 349
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "fosinopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Fosinopril : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
@@ -92,6 +92,12 @@ Aucune littérature soutenant l'indication principale (maladie rénale hypertens
 
 Au total, 10 AMM figurent dans la base.
 
+<!-- review:begin fr-lic-20261106-fosinopril-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 10 AMM figurent dans la base, toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fosinopril-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : angiœdème (acquis, héréditaire, induit par les bloqueurs du système rénine-angiotensine), insuffisance rénale, maladie hépatique et encéphalopathie hépatique, pancréatite, maladie de la vésicule biliaire, sténose aortique, hypotension, lupus érythémateux systémique et maladies du tissu conjonctif, diabète et acidocétose diabétique, déficit en potassium, neutropénie et agranulocytose, hyperparathyroïdie, maladies osseuses.
@@ -112,6 +118,26 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une recherche ciblée d'essais cliniques et de littérature sur l'atteinte rénale de l'hypertension maligne
 - Une clarification : cette indication est-elle un véritable repositionnement ou un sous-type de l'hypertension déjà traitée ?
+
+<!-- review:begin fr-lic-20261106-fosinopril-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une clarification : cette indication est-elle un véritable repositionnement ou un sous-type de l'hypertension déjà traitée ? / Une évaluation de la faisabilité réglementaire, compte tenu de l'annulation de toutes les AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fosinopril-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Une évaluation de la faisabilité réglementaire, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

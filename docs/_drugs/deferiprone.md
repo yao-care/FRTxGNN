@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 220
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -65,6 +65,12 @@ Ces éléments restent précliniques ou indirects. Aucune donnée humaine n'est 
 
 Aucun essai clinique associé enregistré actuellement.
 
+<!-- review:begin fr-lic-20261106-deferiprone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM annulée existe (66508896, DEFERIPRONE LIPOMED 500 mg, comprimé pelliculé). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-deferiprone-1 -->
+
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
@@ -100,6 +106,26 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Mener une revue de littérature ciblée sur la chélation du fer dans les porphyries, notamment la porphyrie cutanée tardive
 - Évaluer la faisabilité d'une étude clinique exploratoire si les données précliniques sont confirmées
+
+<!-- review:begin fr-lic-20261106-deferiprone-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Mener une revue de littérature ciblée sur la chélation du fer dans les porphyries, notamment la porphyrie cutanée tardive / Clarifier les raisons de l'annulation des AMM en France et les voies d'accès possibles au médicament » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-deferiprone-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième AMM annulée existe (66508896, DEFERIPRONE LIPOMED 500 mg, comprimé pelliculé) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM en France et les voies d'accès possibles au médicament » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 425
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac : nouvelle indication prédite, Headache disorder (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -123,7 +123,26 @@ Parmi les 17 essais recensés, les plus pertinents sont listés ci-dessous.
 - Clarification de la voie d'administration : les preuves concernent les formes IV, IM et nasale.
 - Plan de surveillance pour les populations à risque (sujets âgés, insuffisants rénaux, patients sous lithium, anticoagulants ou autres AINS) et limitation de la durée de traitement.
 
+<!-- review:begin fr-lic-20261106-ketorolac-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification de la voie d'administration : les preuves concernent les formes IV, IM et nasale, alors que la seule AMM française recensée est un collyre annulé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ketorolac-1 -->
+
 **Note sur les autres prédictions :** la conjonctivite rosacée (score 0,9940) ne dispose d'aucun essai ni publication (niveau L5, décision Hold). La céphalalgie autonomique trigéminale (score 0,9939) n'a qu'un essai retiré sans inclusion et une littérature indirecte (niveau L4, question de recherche).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « alors que la seule AMM française recensée est un collyre annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

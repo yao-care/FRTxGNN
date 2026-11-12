@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 621
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Prasterone : nouvelle indication prédite, Déficience en cofacteur II de l'héparine (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "prasterone"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "severe nonproliferative diabetic retinopathy", "thrombophilia due to protein S deficiency, autosomal recessive", "scleroderma (disease)", "complement component 4a deficiency", "pseudo-von Willebrand disease", "primary release disorder of platelets"]
@@ -89,12 +89,31 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans mécanisme plausible, et avec un risque thrombotique potentiel.
 
+<!-- review:begin fr-lic-20261106-prasterone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans mécanisme plausible, et avec un risque thrombotique potentiel. Le produit n'a plus d'AMM en vigueur en France. » Supprimé : l'affirmation contredisait les données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-prasterone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank), pour analyser un éventuel lien avec la voie de la coagulation
 - Mises en garde et contre-indications de la notice ANSM, indispensables à l'évaluation de sécurité
 - Revue systématique de la littérature sur la DHEA et l'hémostase/la thrombose
 - Évaluation de la compatibilité de la voie d'administration (ovule vaginal) avec les indications visées
 - Réévaluation éventuelle de pistes plus plausibles sur le plan mécanistique, comme la sclérodermie, après revue de la littérature
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM en vigueur en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

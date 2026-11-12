@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 182
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Clobetasol : nouvelle indication prédite, Lymphome cutané primitif à cellules T (niveau de preuve L3). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "clobetasol"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -87,6 +87,12 @@ Les études les plus pertinentes figurent ci-dessous (priorité aux cohortes, pu
 
 Le médicament est commercialisé. Le texte d'indication approuvée n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-clobetasol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 9 AMM recensées sont toutes valides et le médicament est commercialisé. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clobetasol-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 60490256 | Clobétasol Substipharm 500 µg/g | Shampooing | Non renseignée |
@@ -114,6 +120,26 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Données détaillées sur le mécanisme d'action (DrugBank).
 - Essais contrôlés comparant le clobétasol à d'autres traitements topiques dirigés contre la peau.
 - Plan de surveillance des effets locaux et systémiques lors d'un usage prolongé ou étendu (atrophie cutanée, axe corticotrope).
+
+<!-- review:begin fr-lic-20261106-clobetasol-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Essais contrôlés comparant le clobétasol à d'autres traitements topiques dirigés contre la peau. / Statut réglementaire : médicament commercialisé, avec 9 AMM valides sur 9 ; vérifier la disponibilité actuelle des spécialités concernées. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clobetasol-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es 9 AMM recensées sont toutes valides et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Statut réglementaire : médicament commercialisé, avec 9 AMM valides sur 9 ; vérifier la disponibilité actuelle des spécialités concernées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

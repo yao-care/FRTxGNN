@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 113
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Brentuximab Vedotin : nouvelle indication prédite, Lymphome folliculaire (niveau de preuve L3). Indication d'origine : Lymphome de Hodgkin (lymphome de Hodgkin classique)"
 monitor_inn: "brentuximab vedotin"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -134,6 +134,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Le rationnel mecanistique est limite (le lymphome folliculaire est le plus souvent CD30 faible ou negatif), la plupart des essais ont ete retires ou arretes avec tres peu de patients, et la litterature ne soutient pas directement cette indication. Le seul essai direct (NCT04587687, n=23) est en cours, sans resultats.
 - Les donnees de securite de la notice sont manquantes, ce qui empeche une evaluation de securite complete.
 
+<!-- review:begin fr-lic-20261106-brentuximab_vedotin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'AMM francaise est annulee et les donnees de securite de la notice sont manquantes, ce qui empeche une evaluation de securite complete. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-brentuximab_vedotin-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Resultats de l'essai NCT04587687 (brentuximab vedotin + bendamustine dans le lymphome folliculaire en rechute/refractaire)
 - Donnees d'expression de CD30 dans le lymphome folliculaire pour definir une population cible
@@ -141,11 +147,31 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Donnees detaillees sur le mecanisme d'action
 - Clarification du statut reglementaire en France
 
+<!-- review:begin fr-lic-20261106-brentuximab_vedotin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut reglementaire en France (AMM annulee) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-brentuximab_vedotin-2 -->
+
 ---
 
 ### Note sur les autres indications predites
 
 Parmi les autres predictions, seule la **neoplasie a cellules B** (score 0,9960, niveau L2) presente des preuves plus solides, avec des essais de phase 2 acheves (dont NCT01421667, n=176) et une recommandation « Proceed with Guardrails » conditionnee a l'expression de CD30. Elle merite une evaluation separee. Les autres predictions (leucemie myeloide, leucemie lymphoblastique aigue, LLC/lymphome lymphocytique, syndrome de Richter, lymphome du manteau, ganglioneuroblastome, syndrome rare a anomalies vertebrales) reposent sur des preuves indirectes ou uniquement sur le score du modele : recommandation « Hold » ou « Research Question ».
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'AMM francaise est annulee et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulee) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

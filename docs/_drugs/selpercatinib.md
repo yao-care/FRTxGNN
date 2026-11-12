@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 697
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Selpercatinib : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (texte d'indication vide po…"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -39,6 +39,12 @@ Niveau de preuve: **L5** | Indications prédites: **3**
 ## Résumé en Une Phrase
 
 Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent directement (les 3 publications retrouvées portent sur d'autres sujets).
+
+<!-- review:begin fr-lic-20261106-selpercatinib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisations françaises (RETSEVMO) sont aujourd'hui toutes annulées. Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pulmonaire**, mais cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutiennent directement (les 3 publications retrouvées portent sur d'autres sujets). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-selpercatinib-1 -->
 
 ## Aperçu Rapide
 
@@ -116,6 +122,19 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 - Données précliniques ou mécanistiques sur le rôle de RET dans l'hypertension pulmonaire, avec la direction de l'effet
 - Revue de la littérature sur les signaux de toxicité pulmonaire ou vasculaire des inhibiteurs de kinases
 - Clarification du statut réglementaire actuel et de l'indication d'origine
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisations françaises (RETSEVMO) sont aujourd'hui toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

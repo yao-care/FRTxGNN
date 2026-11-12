@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ginseng : nouvelle indication prédite, Ostéoporose médicamenteuse (drug-induced osteoporosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM"
 monitor_inn: "ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "craniostenosis cataract"]
@@ -110,6 +110,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prédiction pour l'ostéoporose médicamenteuse repose uniquement sur le score du modèle (niveau L5), sans essai ni publication. Son indication d'origine n'est pas documentée.
 
+<!-- review:begin fr-lic-20261106-ginseng-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le produit n'a plus d'AMM en vigueur et son indication d'origine n'est pas documentée. » Supprimé : l'affirmation contredisait les données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ginseng-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les informations de sécurité de la notice ANSM (mises en garde, contre-indications), actuellement manquantes et bloquantes pour l'étape de screening de sécurité.
 - Les données sur le mécanisme d'action, par exemple via DrugBank, pour analyser le lien mécanistique avec le métabolisme osseux.
@@ -117,6 +123,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Une clarification de la pertinence des données du ginseng (extraits) pour une préparation homéopathique diluée.
 
 **Remarque :** parmi les autres prédictions, la **rétinopathie diabétique** dispose de la base de preuves la plus riche (20 publications, niveau L4). Elle comprend surtout des études précliniques et des revues, ainsi qu'une étude prospective randomisée en double aveugle de 2026 sur le ginseng rouge coréen. Elle mérite une évaluation distincte, sous réserve de la confirmation des résultats cliniques.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM en vigueur et s » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

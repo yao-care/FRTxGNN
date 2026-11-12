@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 791
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -109,6 +109,25 @@ Les mises en garde officielles de la notice ne sont pas disponibles. Veuillez co
 - Les données sur le mécanisme d'action et son lien avec l'étiologie de la kératoconjonctivite ponctuée épithéliale
 - Des données cliniques ou précliniques spécifiques à cette indication
 - La confirmation de la disponibilité actuelle d'une formulation ophtalmique
+
+<!-- review:begin fr-lic-20261106-trimethoprim-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La confirmation de la disponibilité actuelle d'une formulation ophtalmique, puisque aucune AMM n'est en vigueur en France » Supprimé : l'affirmation contredisait les données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-trimethoprim-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « puisque aucune AMM n'est en vigueur en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

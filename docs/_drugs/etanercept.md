@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Etanercept : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -109,6 +109,12 @@ La plupart de ces publications décrivent des vascularites **induites** par les 
 
 Au total, 17 AMM sont recensées.
 
+<!-- review:begin fr-lic-20261106-etanercept-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 17 AMM sont recensées, toutes annulées (Enbrel, Benepali, Erelzi, Nepexto). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etanercept-1 -->
+
 ---
 
 ## Considérations de Sécurité
@@ -140,6 +146,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité)
 - Études cliniques directes de l'étanercept dans la vascularite rhumatoïde
 - Pour les indications déjà reconnues : mesures standard des anti-TNF (dépistage de la tuberculose et des infections, surveillance de l'uvéite et des maladies inflammatoires de l'intestin, suivi pédiatrique et vaccinal)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées (Enbrel, Benepali, Erelzi, Nepexto) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

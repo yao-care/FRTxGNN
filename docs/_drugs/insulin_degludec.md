@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -144,6 +144,25 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Récupérer les mises en garde et contre-indications de la notice officielle.
 - Obtenir les données détaillées sur le mécanisme d'action (via DrugBank).
 - Confirmer le rôle de la dégludec (traitement évalué ou simple traitement de fond) dans les essais dont les titres sont tronqués ou indirects.
+
+<!-- review:begin fr-lic-20261106-insulin_degludec-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier le statut réglementaire actuel en France (le statut « annulé » peut refléter un problème de qualité des données ou un changement d'AMM) auprès de l'ANSM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-insulin_degludec-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (le statut « annulé » peut refléter un problème de qualité des données ou un changement d'AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

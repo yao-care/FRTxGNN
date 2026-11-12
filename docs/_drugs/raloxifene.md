@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 646
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
 description: "Raloxifene : nouvelle indication prédite, Ulcère duodénal (duodenal ulcer (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -90,12 +90,38 @@ Les mises en garde et contre-indications de la notice ANSM n'ont pas pu être ex
 **Justification :**
 La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans publication ni lien mécanistique établi.
 
+<!-- review:begin fr-lic-20261106-raloxifene-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans publication ni lien mécanistique établi. De plus, la seule AMM française est annulée et le profil de sécurité (risques thromboemboliques et cardiovasculaires notamment) n'a pas pu être vérifié à partir de la notice. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 0 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-raloxifene-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications), étape bloquante pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Revue de la littérature et des registres d'essais sur le raloxifène dans l'ulcère duodénal
 - Études précliniques permettant d'évaluer la plausibilité biologique
 - Clarification du statut réglementaire
+
+<!-- review:begin fr-lic-20261106-raloxifene-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire, l'AMM étant annulée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 0 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-raloxifene-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et le profil de sécurité (risques thromboemboliques et cardiovasculaires notamment) n'a pas pu ê » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

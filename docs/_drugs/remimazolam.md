@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 660
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Remimazolam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "remimazolam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -90,12 +90,38 @@ Les informations sur les mises en garde et contre-indications de la notice ne so
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai clinique ni publication. La durée d'action ultra-courte ainsi que la voie exclusivement intraveineuse rendent l'usage dans l'insomnie peu réaliste. Les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-remimazolam-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'AMM française est annulée, et la durée d'action ultra-courte ainsi que la voie exclusivement intraveineuse rendent l'usage dans l'insomnie peu réaliste. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-remimazolam-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice auprès de l'ANSM (lacune bloquante).
 - Compléter les données sur le mécanisme d'action (DrugBank).
 - Rechercher des études précliniques ou cliniques sur l'insomnie et le delirium de sevrage alcoolique.
 - Évaluer la compatibilité de la voie d'administration (intraveineuse uniquement) et de la pharmacocinétique avec ces indications.
 - Clarifier le statut réglementaire en France et l'indication d'origine.
+
+<!-- review:begin fr-lic-20261106-remimazolam-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire en France (AMM annulée) et l'indication d'origine. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-remimazolam-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

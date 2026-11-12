@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
@@ -99,12 +99,31 @@ Les mises en garde et contre-indications issues de la notice officielle n'ont pa
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme anti-androgénique ne correspond pas à l'origine héréditaire de l'hypotrichose simple.
 
+<!-- review:begin fr-lic-20261106-spironolactone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le mécanisme anti-androgénique ne correspond pas à l'origine héréditaire de l'hypotrichose simple, et les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-spironolactone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, ce qui bloque actuellement l'évaluation de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action
 - Réaliser une revue de la littérature et des registres d'essais pour l'hypotrichose simple et l'hypotrichose congénitale avec milia
 - Évaluer la compatibilité des voies d'administration (seules des formes orales sont connues) et la pertinence d'une formulation adaptée
 - Clarifier la situation réglementaire (raison de l'annulation des AMM) avant toute démarche
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

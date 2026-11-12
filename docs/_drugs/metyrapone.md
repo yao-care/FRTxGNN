@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Metyrapone : nouvelle indication prédite, Hyperthermie maligne d'effort (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles (usage connu : test diagnosti…"
 monitor_inn: "metyrapone"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
@@ -104,12 +104,38 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible avec la physiopathologie de l'hyperthermie maligne (RYR1).
 - Les données de sécurité de la notice sont absentes.
 
+<!-- review:begin fr-lic-20261106-metyrapone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le produit n'a plus d'AMM valide en France, et les données de sécurité de la notice sont absentes. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-metyrapone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice ANSM (mises en garde, contre-indications), un manque bloquant pour toute étape de sécurité.
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Démontrer un lien biologique entre l'inhibition de CYP11B1 et la voie RYR1/calcium, par exemple par des études précliniques.
 - Réexaminer les autres indications prédites ; la paralysie périodique familiale (L4) est la seule disposant d'un signal bibliographique, mais indirect et ancien.
 - Clarifier le statut réglementaire et la disponibilité d'autres spécialités à base de métyrapone.
+
+<!-- review:begin fr-lic-20261106-metyrapone-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire (AMM annulée) et la disponibilité d'autres spécialités à base de métyrapone. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-metyrapone-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « e produit n'a plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

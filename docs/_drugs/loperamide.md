@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
 description: "Loperamide : nouvelle indication prédite, Acute contagious conjunctivitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -71,6 +71,12 @@ Aucune littérature associée disponible actuellement pour la conjonctivite cont
 
 À titre d'information, deux publications concernent la deuxième prédiction (dysenterie amibienne) :
 
+<!-- review:begin fr-lic-20261106-loperamide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM sont annulées : aucune présentation n'est actuellement commercialisée sous ces autorisations. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-loperamide-1 -->
+
 | PMID | Annee | Type | Revue | Resultats Principaux |
 |------|-----|------|------|---------|
 | [17241255](https://pubmed.ncbi.nlm.nih.gov/17241255/) | 2007 | Rapport de cas | Journal of Travel Medicine | Colite amibienne fulminante chez un patient ayant largement utilisé du lopéramide ; l'évolution a pu être aggravée par le ralentissement du transit |
@@ -104,6 +110,19 @@ La prédiction pour la conjonctivite aiguë contagieuse repose uniquement sur le
 - Démontrer une activité oculaire ou anti-infectieuse par des études précliniques avant toute évaluation clinique
 - Évaluer la compatibilité de la voie d'administration (les formes existantes sont orales ; une voie ophtalmique serait nécessaire)
 - Clarifier le statut réglementaire du produit en France
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux AMM sont annulées : aucune présentation n'est actuellement commercialisée sous ces autorisations » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 415
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Isoleucine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (texte d'indication vide pour…"
 monitor_inn: "ISOLEUCINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -83,6 +83,12 @@ Aucune littérature associée disponible actuellement.
 
 Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-isoleucine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Les 5 premières sont listées ci-dessous. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-isoleucine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Non renseignée |
@@ -115,6 +121,19 @@ Veuillez consulter la notice pour les informations de sécurité propres au prod
 - Rechercher des études cliniques ou précliniques sur l'isoleucine ou les acides aminés ramifiés dans la gastroparésie
 - Évaluer la compatibilité des voies d'administration (perfusion ou orale) avec la prise en charge de la gastroparésie
 - Déterminer l'indication d'origine réelle des produits à base d'isoleucine
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

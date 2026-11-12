@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Cetrorelix : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (selon les données pharmacologi…"
 monitor_inn: "cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -69,6 +69,12 @@ Les autres prédictions du modèle appellent le même constat, car la plupart n'
 - **Syndrome d'excès d'aromatase** : le défaut primaire est l'aromatisation périphérique, pour laquelle les inhibiteurs de l'aromatase constituent le traitement mécanistiquement direct.
 - **Puberté précoce centrale** et **puberté précoce familiale limitée au sexe masculin** : ce sont les prédictions les plus plausibles biologiquement (niveau L4, « question de recherche »). Pour la puberté précoce centrale, le blocage du récepteur de la GnRH est cohérent, mais le traitement de référence repose sur les agonistes. Pour la forme familiale masculine (mutations activatrices de LHCGR), un antagoniste de la GnRH ne bloquerait pas l'activité constitutive du récepteur. Dans les deux cas, la demi-vie courte, les administrations fréquentes, le manque de données pédiatriques.
 
+<!-- review:begin fr-lic-20261106-cetrorelix-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Dans les deux cas, la demi-vie courte, les administrations fréquentes, le manque de données pédiatriques et l'annulation des AMM limitent l'intérêt pratique. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cetrorelix-1 -->
+
 ---
 
 ## Preuves d'Essais Cliniques
@@ -108,11 +114,31 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Toutes les prédictions reposent uniquement sur le modèle (L5), ou sur un raisonnement mécanistique indirect (L4 pour les deux formes de puberté précoce), sans essai ni publication. Le mécanisme est faible ou absent pour l'hypertrichose.
 - Les données de sécurité issues de la notice manquent, ce qui bloque le passage au criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-cetrorelix-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le mécanisme est faible ou absent pour l'hypertrichose, et les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cetrorelix-2 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer et analyser la notice (mises en garde, contre-indications) sur le site de l'ANSM.
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Réaliser une revue de la littérature et des registres d'essais pour l'hypertrichose, et surtout pour la puberté précoce centrale, seule piste à étudier comme question de recherche.
 - Évaluer la faisabilité pratique (demi-vie courte, voie injectable, population pédiatrique, statut commercial) avant tout développement.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'annulation des AMM limitent l'intérêt pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

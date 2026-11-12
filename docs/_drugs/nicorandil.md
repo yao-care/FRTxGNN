@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 535
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Nicorandil : nouvelle indication prédite, Hyperplasie bénigne de la prostate (niveau de preuve L4). Indication d'origine : Angor chronique stable (d'après les données pharmacologiques"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -77,6 +77,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
+<!-- review:begin fr-lic-20261106-nicorandil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le médicament est commercialisé en France : 14 AMM valides sur 14 ; le texte de l'indication approuvée n'est pas renseigné dans les données compilées. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 12 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nicorandil-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 64614712 | NICORANDIL EG 10 mg | Comprimé sécable | Active |
@@ -86,6 +92,12 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 | 61786176 | IKOREL 20 mg | Comprimé | Annulée |
 
 Au total, 14 AMM figurent dans les données.
+
+<!-- review:begin fr-lic-20261106-nicorandil-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 14 AMM figurent dans les données (toutes en monothérapie et toutes annulées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 12 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nicorandil-2 -->
 
 ## Considérations de Sécurité
 
@@ -99,6 +111,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - L'hypothèse repose uniquement sur une étude animale et deux revues, sans aucun essai clinique, et le médicament est commercialisé en France. Le niveau de preuve (L4) ne permet pas d'aller plus loin pour l'instant.
+
+<!-- review:begin fr-lic-20261106-nicorandil-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'hypothèse repose uniquement sur une étude animale et deux revues, sans aucun essai clinique, et le médicament est commercialisé en France (14 AMM valides sur 14). » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 12 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nicorandil-3 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité)
@@ -117,6 +135,20 @@ Les autres prédictions n'ont aucune preuve clinique ni bibliographique dans les
 | Hypotrichose congénitale avec milium | 0,9951 | Score issu du modèle TxGNN (deep learning), pouvant refléter des similarités apprises entre maladies proches, et non une preuve biologique |
 | Pelade diffuse | 0,9948 | Maladie auto-immune, mécanisme du nicorandil non adapté |
 | Arthrose | 0,9940 | Lien spéculatif via les canaux K-ATP ou le NO, non étayé |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « e médicament est commercialisé en France : 14 AMM valides sur 14 ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (toutes en monothérapie et toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (14 AMM valides sur 14) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

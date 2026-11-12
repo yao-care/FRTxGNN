@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
 description: "Desonide : nouvelle indication prédite, Polyp of vocal cord (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -107,11 +107,37 @@ Les informations de la notice (mises en garde, contre-indications) ne sont pas d
 - La prediction repose uniquement sur le modele (L5), sans essai clinique ni publication. Il n'existe pas de voie d'administration etablie pour une creme topique vers le larynx.
 - Les donnees de securite de la notice sont manquantes, ce qui empeche de passer a l'etape de criblage de securite.
 
+<!-- review:begin fr-lic-20261106-desonide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Il n'existe pas de voie d'administration etablie pour une creme topique vers le larynx, et toutes les AMM francaises sont annulees. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-desonide-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Recuperer la notice de l'ANSM (mises en garde et contre-indications) et le texte des indications approuvees
 - Obtenir les donnees sur le mecanisme d'action aupres de DrugBank
 - Realiser une revue de la litterature sur les corticoides dans les polypes des cordes vocales et d'autres polypes de sites cutanes ou cutaneo-muqueux
 - Evaluer la faisabilite de la voie d'administration (formulation adaptee au site cible), en priorite pour le conduit auditif externe
+
+<!-- review:begin fr-lic-20261106-desonide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Evaluer la faisabilite de la voie d'administration (formulation adaptee au site cible), en priorite pour le conduit auditif externe / Examiner l'interet reel d'une relance, compte tenu de l'annulation de toutes les AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-desonide-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et toutes les AMM francaises sont annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Examiner l'interet reel d'une relance, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

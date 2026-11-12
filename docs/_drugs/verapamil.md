@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 809
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
 description: "Verapamil : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -97,12 +97,31 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme est douteux (le bloc de branche est un trouble de conduction infranodal, et le terme est obsolète). Le vérapamil n'a par ailleurs plus d'AMM valide en France.
 
+<!-- review:begin fr-lic-20261106-verapamil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le vérapamil n'a par ailleurs plus d'AMM valide en France (5 AMM annulées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-verapamil-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Vérifier la validité du terme d'ontologie et envisager de privilégier les prédictions plus plausibles (hypertension maligne avec atteinte rénale)
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Récupérer les mises en garde et contre-indications de la notice (site de l'ANSM), étape bloquante pour le dépistage de sécurité
 - Rechercher des études cliniques ou observationnelles spécifiques au vérapamil dans l'indication retenue
 - Clarifier le statut réglementaire : le médicament est commercialisé, avec 5 AMM valides sur 5
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (5 AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

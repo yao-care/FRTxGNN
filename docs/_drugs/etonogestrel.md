@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 307
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "etonogestrel"
 predicted_indications: ["amenorrhea (disease)", "breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia"]
 description: "Etonogestrel : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -68,6 +68,12 @@ Les autres indications prédites (maladie fibrokystique du sein : 0.9961, adéno
 
 Aucun essai clinique associé enregistré actuellement.
 
+<!-- review:begin fr-lic-20261106-etonogestrel-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le médicament est commercialisé : 6 AMM valides sur 6. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etonogestrel-1 -->
+
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
@@ -104,6 +110,26 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 - Préciser si l'aménorrhée visée est une indication thérapeutique réelle (par exemple une aménorrhée pathologique) ou un simple effet de la contraception
 - Vérifier les indications d'origine et le statut réglementaire actuel des produits
 - Rechercher des études spécifiques à l'étonogestrel dans l'aménorrhée et les pathologies bénignes du sein
+
+<!-- review:begin fr-lic-20261106-etonogestrel-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier les indications d'origine et le statut réglementaire actuel des produits (6 AMM valides sur 6) » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-etonogestrel-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le médicament est commercialisé : 6 AMM valides sur 6 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (6 AMM valides sur 6) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 251
 evidence_level: L2
 indication_count: 7
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
 description: "Docetaxel : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -89,7 +89,13 @@ Dans le sarcome d'Ewing, le docétaxel est utilisé principalement en associatio
 
 ## Informations de Marché en France
 
-Le docétaxel est commercialisé en France. Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion. Le texte d'indication n'est pas renseigné dans ces enregistrements.
+Le docétaxel est commercialisé en France. Les données compilées recensent 11 AMM, sous forme de solution à diluer pour perfusion. Le texte d'indication n'est pas renseigné dans ces enregistrements.
+
+<!-- review:begin fr-lic-20261112-docetaxel-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion. » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-docetaxel-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -127,6 +133,18 @@ Plusieurs essais de phase 2 achevés et des publications cliniques évaluent le 
 - Les mises en garde et contre-indications de la notice, ainsi que les données sur le mécanisme d'action
 - Des données d'efficacité spécifiques au sarcome d'Ewing, idéalement dans un essai comparatif
 - Un plan de surveillance hématologique, hépatique et neurologique, avec prise en compte des interactions majeures (notamment la clarithromycine)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-12 | Supprimé : « valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

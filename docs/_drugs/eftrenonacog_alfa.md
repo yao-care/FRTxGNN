@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "eftrenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
 description: "Eftrenonacog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -79,6 +79,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement.
 
+<!-- review:begin fr-lic-20261106-eftrenonacog_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les cinq AMM, détenues par Swedish Orphan Biovitrum (Suède), sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eftrenonacog_alfa-1 -->
+
 ---
 
 ## Informations de Marché en France
@@ -112,6 +118,26 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 - Obtenir les données sur le mécanisme d'action via DrugBank
 - Rechercher des données précliniques ou cliniques pertinentes pour la pseudo-maladie de von Willebrand
 - Clarifier le statut réglementaire du produit en France et la voie d'administration
+
+<!-- review:begin fr-lic-20261106-eftrenonacog_alfa-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire du produit en France (AMM annulées) et la voie d'administration » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eftrenonacog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les cinq AMM, détenues par Swedish Orphan Biovitrum (Suède), sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

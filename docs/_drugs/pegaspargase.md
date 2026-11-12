@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase : nouvelle indication prédite, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
@@ -126,12 +126,38 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Les essais de phase 3 menés dans la LAL, avec des schémas contenant de l'asparaginase, et la littérature clinique abondante soutiennent cette indication. Elle est cependant déjà établie, et non un repositionnement nouveau.
 - Le profil de toxicité exige un encadrement strict.
 
+<!-- review:begin fr-lic-20261106-pegaspargase-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de toxicité exige un encadrement strict. / L'AMM française est annulée, ce qui limite l'accès commercial local. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pegaspargase-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications officielles de la notice (source ANSM), actuellement manquantes et bloquantes pour l'évaluation de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Plan de surveillance de la sécurité pour les populations à risque (adultes de plus de 40 ans, patients obèses)
 
+<!-- review:begin fr-lic-20261106-pegaspargase-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Données détaillées sur le mécanisme d'action (DrugBank) / Clarification du statut réglementaire en France et de la disponibilité du produit après l'annulation de l'AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pegaspargase-2 -->
+
 **Remarque sur les autres prédictions :** les autres indications prédites sont, pour la plupart, soit l'indication d'origine (LAL, L1), soit sans preuve (leucémie lymphoïde chronique, lymphome folliculaire, déficit en méthylcobalamine cblE : L5, Hold). Le lymphome lymphoïde au sens large et le lymphome de Hodgkin (L3) reposent surtout sur des données de lymphomes NK/T extranodaux, ce qui ne soutient pas directement ces prédictions.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'AMM française est annulée, ce qui limite l'accès commercial local » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarification du statut réglementaire en France et de la disponibilité du produit après l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

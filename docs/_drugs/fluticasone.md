@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Fluticasone : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (les textes d'indication des…"
 monitor_inn: "fluticasone"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
@@ -87,6 +87,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Les textes d'indication ne sont pas renseignés. Les cinq premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-fluticasone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Les textes d'indication ne sont pas renseignés. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fluticasone-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 61748649 | Flixonase 50 µg/dose, suspension nasale en flacon pulvérisateur avec pompe doseuse | Suspension | Non renseignée |
@@ -121,6 +127,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Recherche de preuves précliniques ou observationnelles reliant la fluticasone à la migraine.
 - Évaluation de la compatibilité de la voie d'administration avec la migraine.
 - Clarification du statut réglementaire actuel (AMM annulées).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

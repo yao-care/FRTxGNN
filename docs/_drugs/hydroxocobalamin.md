@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 description: "Hydroxocobalamin : nouvelle indication prédite, Esophageal varices without bleeding (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -91,11 +91,30 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et le mécanisme d'action est inconnu dans les données disponibles.
 - Une contre-indication hypertensive est signalée, ce qui est un point de vigilance dans l'hypertension portale et les contextes hémorragiques.
 
+<!-- review:begin fr-lic-20261106-hydroxocobalamin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM françaises sont annulées, et une contre-indication hypertensive est signalée, ce qui est un point de vigilance dans l'hypertension portale et les contextes hémorragiques. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-hydroxocobalamin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) auprès de l'ANSM, élément bloquant pour le criblage de sécurité.
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
 - Mener une revue de la littérature sur le piégeage du NO/H₂S et l'hypertension portale, puis des études précliniques si elle est concluante.
 - Évaluer la compatibilité des voies d'administration et la pertinence par rapport aux traitements de référence.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux AMM françaises sont annulées, et u » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

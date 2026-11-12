@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
 description: "Dantrolene : nouvelle indication prédite, Moderate multiminicore disease with hand involvement (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -87,6 +87,12 @@ Sélection des publications les plus pertinentes pour l'indication prédite (rec
 
 Le texte d'indication approuvée n'est pas disponible.
 
+<!-- review:begin fr-lic-20261106-dantrolene-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les trois AMM suivantes sont toutes annulées ; le texte d'indication approuvée n'est pas disponible. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dantrolene-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 65074386 | DANTRIUM INTRAVEINEUX | Lyophilisat pour préparation injectable | Non disponible |
@@ -110,6 +116,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Justification :**
 - Le lien mécanistique est direct et le dantrolène est le traitement de référence de l'hyperthermie maligne, soutenu par des recommandations et des revues. Le niveau L3 sous-estime probablement la certitude clinique, un essai randomisé étant impraticable. Cependant, la prédiction recoupe l'indication d'origine et les données de sécurité officielles manquent.
 
+<!-- review:begin fr-lic-20261106-dantrolene-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Cependant, la prédiction recoupe l'indication d'origine, aucune AMM n'est en vigueur en France et les données de sécurité officielles manquent. » Supprimé : l'affirmation contredisait les données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dantrolene-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
 - Compléter les données sur le mécanisme d'action depuis DrugBank.
@@ -118,6 +130,20 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Autres indications prédites (à titre indicatif) :**
 - Syndrome de King-Denborough, myopathie à cores centraux et myopathie centronucléaire (niveau L4, question de recherche) : soutien indirect, centré sur le risque d'hyperthermie maligne et non sur le traitement de la myopathie.
 - Maladie multi-minicore avec atteinte des mains, myopathie multicore avec ophtalmoplégie externe, paralysies périodiques hypokaliémique et thyrotoxique (niveaux L4-L5, Hold) : prédictions purement computationnelles ou à données très limitées, sans bénéfice démontré.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es trois AMM suivantes sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « aucune AMM n'est en vigueur en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

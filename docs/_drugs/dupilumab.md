@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 264
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -128,6 +128,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Aucune preuve directe n'existe pour la bronchite : l'unique essai concerne la rhinosinusite chronique sans polypes, et la littérature porte sur l'asthme et la BPCO. La plausibilité biologique est réelle, mais le niveau de preuve ne justifie pas d'avancer.
 - Les informations de sécurité de la notice (mises en garde, contre-indications) manquent.
 
+<!-- review:begin fr-lic-20261106-dupilumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées, et les informations de sécurité de la notice (mises en garde, contre-indications) manquent. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 4 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dupilumab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications
 - Compléter les données sur le mécanisme d'action (DrugBank)
@@ -135,11 +141,31 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Obtenir des essais contrôlés ciblant ce phénotype
 - Clarifier le statut réglementaire en France
 
+<!-- review:begin fr-lic-20261106-dupilumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire en France (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 4 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dupilumab-2 -->
+
 ---
 
 ### Note sur les autres prédictions
 
 Les prédictions (chéloïde acnéique, exanthème, dermatomyosites, rétinopathie diabétique, etc.) présentent des preuves faibles ou nulles et sont classées en « Research Question » ou « Hold ».
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

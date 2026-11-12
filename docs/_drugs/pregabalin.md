@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin : nouvelle indication prédite, Tendinitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -93,6 +93,12 @@ Une étude préclinique chez le rat sur un extrait végétal (PMID 39703364) a a
 
 Le texte d'indication approuvée n'est pas renseigné. Cinq exemples :
 
+<!-- review:begin fr-lic-20261106-pregabalin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pregabalin-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 66368704 | PREGABALINE EVOLUGEN PHARMA 50 mg | Gélule | Non renseignée (AMM active) |
@@ -141,6 +147,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 | Myosite à inclusions | 0,9952 | L5 | Hold | Prédiction seule |
 
 La migraine est l'indication prédite la mieux étayée (L2). Elle mérite une évaluation distincte.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

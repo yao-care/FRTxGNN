@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "isavuconazonium"
 predicted_indications: ["pneumocystosis", "mycetoma"]
 description: "Isavuconazonium : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -113,11 +113,30 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 **Justification :**
 - La prédiction pour la pneumocystose repose uniquement sur le score du modèle (L5), sans essai ni publication, et son fondement biologique est faible (absence d'ergostérol chez *Pneumocystis*, traitement de référence différent).
 
+<!-- review:begin fr-lic-20261106-isavuconazonium-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction pour la pneumocystose repose uniquement sur le score du modèle (L5), sans essai ni publication, et son fondement biologique est faible (absence d'ergostérol chez *Pneumocystis*, traitement de référence différent). / En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-isavuconazonium-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant.
 - Compléter les données sur le mécanisme d'action via DrugBank.
 - Pour la pneumocystose : données précliniques ou cliniques démontrant une activité de l'isavuconazole sur *Pneumocystis*.
 - Pour le mycétome (piste secondaire plus plausible) : recherche ciblée de données in vitro ou cliniques sur l'eumycétome et clarification du statut réglementaire en France.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

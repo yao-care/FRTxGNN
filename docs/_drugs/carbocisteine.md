@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Carbocisteine : nouvelle indication prédite, Goutte (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (les textes d'indication de…"
 monitor_inn: "carbocisteine"
 predicted_indications: ["gout"]
@@ -82,6 +82,12 @@ Aucune littérature associée disponible actuellement.
 
 Les 20 AMM recensées sont des spécialités à base de carbocistéine seule. Les textes d'indication approuvée ne sont pas disponibles. Les 5 premières :
 
+<!-- review:begin fr-lic-20261106-carbocisteine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont des spécialités à base de carbocistéine seule, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-carbocisteine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 66781076 | Carbocistéine Teva Conseil 2 % Enfants sans sucre | Solution buvable | Non renseignée |
@@ -114,6 +120,26 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Clarifier l'indication d'origine, absente des AMM
 - Réaliser une revue de littérature et des études précliniques pour tester l'hypothèse antioxydante/anti-inflammatoire dans la goutte
 - Évaluer la compatibilité des voies d'administration (voie orale uniquement connue)
+
+<!-- review:begin fr-lic-20261106-carbocisteine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluer la compatibilité des voies d'administration (voie orale uniquement connue) et la pertinence d'une réintroduction, étant donné le statut annulé des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-carbocisteine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et la pertinence d'une réintroduction, étant donné le statut annulé des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "verteporfin"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 description: "Verteporfin : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative p… (niveau de preuve L5). Indication d…"
@@ -94,12 +94,31 @@ Aucune littérature associée disponible actuellement.
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le mécanisme est incertain et potentiellement défavorable.
 
+<!-- review:begin fr-lic-20261106-verteporfin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le mécanisme est incertain et potentiellement défavorable, et il n'existe plus d'AMM valide en France. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-verteporfin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications officielles de la notice (ANSM), élément bloquant pour le criblage de sécurité.
 - Les données détaillées sur le mécanisme d'action (DrugBank).
 - Des études précliniques évaluant l'effet de la vertéporfine sur la fonction mitochondriale, notamment le risque d'aggravation par le stress oxydatif.
 - Une revue de la littérature et des registres d'essais pour cette indication.
 - Une évaluation de la faisabilité de la voie d'administration (perfusion avec activation lumineuse) pour une maladie systémique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et il n'existe plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 204
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine : nouvelle indication prédite, Granulomatose septique chronique, autosomique récessive (granulomatous disease, chronic, autosomal recessive) (niveau de preuve L4). Indication d'origine :…"
@@ -109,11 +109,30 @@ Le contexte de la granulomatose septique chronique (risque infectieux déjà él
 - Études précliniques ou cliniques évaluant directement la ciclosporine dans cette maladie
 - Clarification du statut réglementaire et de la voie d'administration envisagée
 
+<!-- review:begin fr-lic-20261106-cyclosporine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire (AMM toutes annulées) et de la voie d'administration envisagée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cyclosporine-1 -->
+
 ### Note sur les autres prédictions
 
 Les autres indications prédites ont également une recommandation « Hold » :
 - **Anévrisme cérébral** (score 0,9950, niveau L3) : la ciclosporine a été étudiée dans l'hémorragie sous-arachnoïdienne pour prévenir le vasospasme, mais il s'agit de petites études anciennes sur une complication et non sur l'anévrisme lui-même ; une étude préclinique de 2017 montre que la fonction des lymphocytes T n'est pas nécessaire à la formation de l'anévrisme.
 - **Syndrome colobomateux microphtalmie-dysplasie rhizomélique, érythrodermie ichtyosiforme congénitale, érythroblastose fœtale, syndrome brachydactylie-syndactylie, prolapsus de la glande lacrymale** (scores 0,9908 à 0,9939, niveau L5) : aucune preuve clinique, extrapolations spéculatives uniquement.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

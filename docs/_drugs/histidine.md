@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 380
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Histidine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (les textes d'indication des…"
 monitor_inn: "HISTIDINE"
 predicted_indications: ["gastroparesis (disease)", "sclerosing cholangitis"]
@@ -39,6 +39,12 @@ Niveau de preuve: **L5** | Indications prédites: **2**
 ## Résumé en Une Phrase
 
 Le modèle TxGNN la prédit comme potentiellement efficace pour la **gastroparésie**, mais **aucun essai clinique** et **une seule publication** (sans lien direct avec l'histidine) soutiennent cette piste.
+
+<!-- review:begin fr-lic-20261106-histidine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'histidine est un acide aminé présent dans de nombreuses solutions de nutrition parentérale et de conservation d'organes, dont les autorisations françaises sont aujourd'hui toutes annulées. / Le modèle TxGNN la prédit comme potentiellement efficace pour la **gastroparésie**, mais **aucun essai clinique** et **une seule publication** (sans lien direct avec l'histidine) soutiennent cette piste. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-histidine-1 -->
 
 ---
 
@@ -122,6 +128,19 @@ Aucune donnée d'interaction médicamenteuse n'a été trouvée. Pour les mises 
 La deuxième indication prédite, la **cholangite sclérosante** (score 0,9927, niveau L4), est étayée par des études précliniques indirectes. L'histidine est le substrat de l'histidine décarboxylase, qui produit l'histamine. Or l'histamine dérivée des mastocytes favorise la prolifération biliaire et la fibrose dans les modèles murins (PMID 27351144, 35799467). La suppression de l'histidine décarboxylase (PMID 32054995) ou le blocage des récepteurs H1/H2 (PMID 29601088) réduit les lésions.
 
 L'effet attendu d'un apport en histidine est donc **incertain, voire défavorable** : les données soutiennent l'inhibition de la voie de l'histamine, non l'administration d'histidine. Aucun essai clinique n'existe. Cette piste reste une question de recherche et non une recommandation de développement.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'histidine est un acide aminé présent dans de nombreuses solutions de nutrition parentérale et de conservation d'organes, dont les autorisa » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

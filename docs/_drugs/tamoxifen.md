@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 731
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen : nouvelle indication prédite, Mammary Paget disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -102,6 +102,12 @@ Pour la maladie de Paget mammaire (rang 1), le seul essai associé (NCT00002920,
 
 Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Cinq AMM sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-tamoxifen-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 14 AMM recensées sont annulées. Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tamoxifen-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 61003801 | TAMOXIFENE SANDOZ 20 mg | Comprimé pelliculé | Non renseignée (AMM active) |
@@ -136,12 +142,39 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Le tamoxifène dispose de plusieurs essais de phase 3 et d'un essai randomisé contre placebo (TAM-01, suivi à 10 ans) dans le CCIS RE-positif. Il s'agit toutefois d'un usage oncologique établi, proche de l'indication d'origine.
 - Les autres prédictions sont soit sans données (carcinome cribriforme intracanalaire, carcinome mammaire sébacé), soit fondées sur des cas isolés (Paget), soit contraires à la biologie (basal-like, rhabdomyosarcome), soit précliniques (Ehrlich).
 
+<!-- review:begin fr-lic-20261106-tamoxifen-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les autres prédictions sont soit sans données (carcinome cribriforme intracanalaire, carcinome mammaire sébacé), soit fondées sur des cas isolés (Paget), soit contraires à la biologie (basal-like, rhabdomyosarcome), soit précliniques (Ehrlich). / Les 14 AMM françaises sont toutes annulées, ce qui constitue un frein réglementaire important. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tamoxifen-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir la notice ANSM (mises en garde, contre-indications, indications approuvées) : lacune bloquante pour le criblage de sécurité.
 - Compléter les données sur le mécanisme d'action (via DrugBank).
 - Clarifier la situation réglementaire en France.
 - Limiter l'usage aux maladies RE-positives et définir un plan de surveillance des risques thromboemboliques et endométriens, avec prise en compte du statut CYP2D6 et de la charge d'interactions.
 - Pour la maladie de Paget mammaire, disposer d'études spécifiques avant toute décision.
+
+<!-- review:begin fr-lic-20261106-tamoxifen-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire en France (raisons de l'annulation des AMM, éventuelles autres présentations disponibles). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 14 AMM pour ce médicament, dont 14 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tamoxifen-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 14 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les 14 AMM françaises sont toutes annulées, ce qui constitue un frein réglementaire important » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, éventuelles autres présentations disponibles) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

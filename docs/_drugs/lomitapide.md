@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide : nouvelle indication prédite, Marcothrombocytopenia with mitral valve insufficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -113,10 +113,36 @@ Les mises en garde et contre-indications détaillées de l'ANSM ne sont pas disp
 - La prédiction est de niveau L5 : elle repose uniquement sur le score du modèle, sans essai clinique, sans publication et sans lien mécanistique plausible. Le score élevé ne suffit pas à justifier une poursuite.
 - Le profil de sécurité est contraignant (toxicité hépatique, nombreuses interactions).
 
+<!-- review:begin fr-lic-20261106-lomitapide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de sécurité est contraignant (toxicité hépatique, nombreuses interactions) et les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lomitapide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de mécanisme d'action (MOA) du médicament, pour analyser un éventuel lien avec la pathologie plaquettaire ou valvulaire.
 - Les mises en garde et contre-indications de la notice ANSM, nécessaires pour tout dépistage de sécurité.
 - Des preuves précliniques ou cliniques reliant l'inhibition de la MTP à la macrothrombocytopénie, ou le choix d'une autre indication prédite mieux étayée.
+
+<!-- review:begin fr-lic-20261106-lomitapide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Des preuves précliniques ou cliniques reliant l'inhibition de la MTP à la macrothrombocytopénie, ou le choix d'une autre indication prédite mieux étayée. / La confirmation de la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lomitapide-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « La confirmation de la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

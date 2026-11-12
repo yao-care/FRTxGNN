@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Cabotegravir : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -95,12 +95,31 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun lien mécanistique plausible entre un inhibiteur de l'intégrase du VIH-1 et la polyarthrite rhumatoïde.
 
+<!-- review:begin fr-lic-20261106-cabotegravir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, et aucun lien mécanistique plausible entre un inhibiteur de l'intégrase du VIH-1 et la polyarthrite rhumatoïde. Les deux AMM françaises sont par ailleurs annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cabotegravir-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Obtenir les données détaillées sur le mécanisme d'action depuis DrugBank
 - Rechercher des données précliniques ou mécanistiques reliant le cabotégravir à la voie inflammatoire de la polyarthrite rhumatoïde
 - Clarifier l'indication originale et le statut réglementaire actuel du produit en France
 - Évaluer la compatibilité des voies d'administration (formes orale et injectable à libération prolongée) avec l'indication visée
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux AMM françaises sont par ailleurs annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

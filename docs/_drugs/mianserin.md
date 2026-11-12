@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -64,6 +64,12 @@ Actuellement, les données détaillées sur le mécanisme d'action ne sont pas d
 
 Le torticolis paroxystique bénin du nourrisson est un trouble pédiatrique de type canalopathie (souvent lié au gène CACNA1A), apparenté au spectre des migraines. Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente.
 
+<!-- review:begin fr-lic-20261106-mianserin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente. De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nourrisson. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mianserin-1 -->
+
 Il faut donc considérer cette prédiction comme une hypothèse issue du modèle TxGNN (deep learning), dont le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. D'autres prédictions du même modèle sont nettement plus plausibles, car proches de l'indication d'origine :
 - **Trouble névrotique** (0.9902, L3) : études comparatives propres à la mianserine (vs imipramine, vs clomipramine), mais anciennes et de petite taille.
 - **Agoraphobie** (0.9940, L4) : une seule publication, portant sur les IMAO-A réversibles, donc très indirecte.
@@ -121,11 +127,38 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - Les indications voisines (dysthymie, mélancolie, dépression névrotique) relèvent plutôt d'une extension de l'indication d'origine que d'un véritable repositionnement ; elles pourraient faire l'objet de questions de recherche (niveau L3-L4), mais avec des preuves indirectes ou anciennes.
 
+<!-- review:begin fr-lic-20261106-mianserin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « **Justification :** / La prédiction pour le torticolis paroxystique bénin du nourrisson repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, avec un lien mécanistique spéculatif, une population nourrisson sans données de sécurité et une AMM annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mianserin-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer le texte de la notice (mises en garde, contre-indications) auprès de l'ANSM : ce point est bloquant pour tout dépistage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Pour le torticolis du nourrisson : établir un lien mécanistique documenté (par exemple avec CACNA1A et la physiopathologie migraineuse) et disposer de données de sécurité pédiatriques avant toute évaluation.
 - Pour les indications dépressives voisines : rechercher des essais contrôlés spécifiques à la mianserine, plus récents que les études actuelles.
+
+<!-- review:begin fr-lic-20261106-mianserin-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank). / Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mianserin-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nour » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « La prédiction pour le torticolis paroxystique bénin du nourrisson repose uniquement sur le score du modèle (niveau L5), sans essai ni public » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

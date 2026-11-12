@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 729
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "TADALAFIL"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "kyphoscoliotic heart disease", "migraine with brainstem aura"]
 description: "Tadalafil : nouvelle indication prédite, Ambras type hypertrichosis universalis congenita (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -79,6 +79,12 @@ A titre d'information, pour une autre prediction (migraine avec aura du tronc ce
 
 Le texte des indications approuvees n'est pas renseigne. Les cinq premieres sont listees ci-dessous.
 
+<!-- review:begin fr-lic-20261106-tadalafil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensees sont toutes annulees. Le texte des indications approuvees n'est pas renseigne. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tadalafil-1 -->
+
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 63324624 | TADALAFIL BIOGARAN 10 mg | Comprime pelllicule | Active |
@@ -101,11 +107,31 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Justification :**
 - La prediction repose uniquement sur le modele (L5), sans essai ni publication, et sans lien mecanistique plausible entre l'inhibition de la PDE5 et l'hypertrichose d'Ambras. Le statut reglementaire en France complique encore toute perspective de developpement.
 
+<!-- review:begin fr-lic-20261106-tadalafil-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le statut reglementaire en France (toutes les AMM annulees) complique encore toute perspective de developpement. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tadalafil-2 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Donnees sur le mecanisme d'action issues de DrugBank
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de securite)
 - Donnees precliniques demontrant un role de la voie PDE5/GMPc dans le follicule pileux
 - Reevaluation d'autres candidats plus plausibles, car la direction de la prediction pour l'hypertrichose est discutable
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensees sont toutes annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (toutes les AMM annulees) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

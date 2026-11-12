@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 817
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Vismodegib : nouvelle indication prédite, Médulloblastome avec nodularité extensive (niveau de preuve L5). Indication d'origine : Carcinome basocellulaire (et autres cancers cutanés ou annexiels)"
 monitor_inn: "vismodegib"
 predicted_indications: ["medulloblastoma with extensive nodularity", "xeroderma pigmentosum", "annular epidermolytic ichthyosis", "epidermolysis bullosa simplex with mottled pigmentation", "Brenner tumor", "cutaneous adenocystic carcinoma", "prostate leiomyoma", "benign neoplasm of sweat gland"]
@@ -118,6 +118,12 @@ Pour les mises en garde et contre-indications détaillées, veuillez consulter l
 **Justification :**
 - Le lien mécanistique (inhibition de SMO dans un médulloblastome dépendant de Hedgehog) est plausible. Mais l'indication repose uniquement sur le score du modèle, sans essai ni publication.
 
+<!-- review:begin fr-lic-20261106-vismodegib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Mais l'indication repose uniquement sur le score du modèle, sans essai ni publication, et l'unique AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vismodegib-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Une recherche ciblée de données précliniques et cliniques sur le médulloblastome du sous-groupe SHH traité par inhibiteurs de SMO.
 - Les données détaillées sur le mécanisme d'action.
@@ -125,7 +131,27 @@ Pour les mises en garde et contre-indications détaillées, veuillez consulter l
 - Une évaluation de la sécurité pédiatrique (tératogénicité, effets sur la croissance).
 - Une clarification du statut réglementaire en France.
 
+<!-- review:begin fr-lic-20261106-vismodegib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une clarification du statut réglementaire en France, l'AMM étant annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vismodegib-2 -->
+
 À titre d'orientation complémentaire, parmi les autres indications prédites, le **xeroderma pigmentosum** est la mieux documentée (trois publications, dont deux cas cliniques de traitement par vismodégib de carcinomes basocellulaires associés). L'effet est cependant indirect : il traite la complication tumorale et non le défaut de réparation de l'ADN.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'unique AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

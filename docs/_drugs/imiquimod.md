@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
 description: "Imiquimod : nouvelle indication prédite, Néoplasme prémalin (pre-malignant neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -125,6 +125,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - Les données compilées classent le niveau de preuve en L1 pour le néoplasme prémalin, mais ce classement est fragile : seuls 2 essais de phase 3 existent (l'un terminé, ouvert, n = 20 ; l'autre arrêté, n = 9), et ils ne constituent pas deux essais randomisés complets et concluants. L'indication recoupe surtout la kératose actinique déjà connue. Il est donc raisonnable d'avancer avec prudence, sans conclure à un repositionnement nouveau.
 
+<!-- review:begin fr-lic-20261106-imiquimod-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Il est donc raisonnable d'avancer avec prudence, sans conclure à un repositionnement nouveau. / Les deux AMM françaises sont annulées : aucune spécialité n'est actuellement commercialisée en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-imiquimod-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mécanisme d'action détaillé (DrugBank) et texte officiel des mises en garde et contre-indications (notice ANSM)
 - Définition précise du sous-type de lésion prémaligne visé (kératose actinique, néoplasies intraépithéliales anale, vulvaire ou cervicale) afin de distinguer l'indication connue de l'extension réelle
@@ -133,6 +139,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Plan de surveillance de sécurité (photosensibilité, maladies auto-immunes, réactions locales)
 
 **Autres indications prédites (non retenues) :** les néoplasmes bénins de la muqueuse buccale (L4, question de recherche, aucun essai, signal de sécurité) et le kyste odontogène (L4, preuves indirectes via le syndrome de Gorlin-Goltz) relèvent de la recherche. Les autres prédictions classées (neuroblastome cervical, néoplasme bénin de la langue, tératome nasopharyngé, néoplasme kystique, néoplasme de l'oreille interne, néoplasme des glandes salivaires majeures, schwannome du foramen jugulaire) sont en niveau L5, sans preuve exploitable : Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les deux AMM françaises sont annulées : aucune spécialité n'est actuellement commercialisée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

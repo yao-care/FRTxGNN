@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Methoxsalen : nouvelle indication prédite, Réticulose pagétoïde localisée (niveau de preuve L5). Indication d'origine : Lymphome cutané primitif à cellules T (non hodgkinien)"
 monitor_inn: "methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
@@ -130,6 +130,25 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les données sur le mécanisme d'action (DrugBank)
 - Le texte de la notice de l'ANSM (mises en garde, contre-indications), bloquant pour l'évaluation de sécurité
 - Un plan de surveillance du risque de cancers cutanés et de photosensibilité, ainsi qu'une revue des interactions médicamenteuses
+
+<!-- review:begin fr-lic-20261106-methoxsalen-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le texte de la notice de l'ANSM (mises en garde, contre-indications), bloquant pour l'évaluation de sécurité / La clarification des indications autorisées pour les AMM annulées et de l'existence d'une présentation disponible en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-methoxsalen-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « La clarification des indications autorisées pour les AMM annulées et de l'existence d'une présentation disponible en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

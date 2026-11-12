@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 193
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "COBICISTAT"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Cobicistat : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
@@ -61,6 +61,12 @@ Le syndrome d'immunodéficience acquise féline est causé par le virus de l'imm
 
 Tout bénéfice dépendrait de la co-administration avec un antirétroviral actif contre le FIV, et aucune association de ce type n'est étayée par les données disponibles. Le statut commercial et les 100 interactions médicamenteuses recensées compliquent en outre tout usage vétérinaire.
 
+<!-- review:begin fr-lic-20261106-cobicistat-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le statut commercial (AMM annulées) et les 100 interactions médicamenteuses recensées compliquent en outre tout usage vétérinaire. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cobicistat-1 -->
+
 **Autres prédictions du modèle (même niveau de preuve L5) :**
 - **Infection par le virus de l'immunodéficience simienne** (score 0,9992) : le SIV est un modèle primate non humain du VIH. Le cobicistat n'aurait d'intérêt que comme composant d'un schéma combiné, et seulement comme piste de recherche préclinique pharmacocinétique.
 
@@ -97,12 +103,32 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le cobicistat n'a pas d'activité antivirale propre.
 
+<!-- review:begin fr-lic-20261106-cobicistat-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le cobicistat n'a pas d'activité antivirale propre, et ses AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cobicistat-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action, à compléter via DrugBank.
 - Mises en garde et contre-indications issues de la notice ANSM (données bloquantes pour le criblage de sécurité).
 - Justification biologique de l'association avec un antirétroviral actif contre le FIV.
 - Études précliniques pharmacocinétiques (par exemple en modèle primate SIV) avant toute considération clinique.
 - Évaluation de la faisabilité vétérinaire (voies d'administration, formes disponibles), actuellement non déterminée.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et ses AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 219
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 description: "Deferasirox : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -87,6 +87,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas disponible.
 
+<!-- review:begin fr-lic-20261106-deferasirox-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont abrogées. Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas disponible. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-deferasirox-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 63539616 | Deferasirox Sandoz 360 mg | Comprimé pelliculé | Non renseignée |
@@ -119,7 +125,27 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Études précliniques supplémentaires déterminant si la chélation du fer favorise ou freine la réplication du VIH
 - Clarification du statut réglementaire en France
 
+<!-- review:begin fr-lic-20261106-deferasirox-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (AMM toutes abrogées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-deferasirox-2 -->
+
 **Remarque sur les autres prédictions :** les quatre autres indications prédites (hépatite C chronique, trouble neurodéveloppemental rare, hyperlipidémie familiale combinée obsolète, dermatofibrosarcome protubérant) ont un niveau de preuve L5 et une décision Hold. Elles ne disposent d'aucun essai clinique, et au plus d'une publication méthodologique indirecte (hépatite C).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont abrogées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM toutes abrogées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

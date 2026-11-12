@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 210
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "dalteparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets", "pseudo-von Willebrand disease", "atypical hemolytic-uremic syndrome with thrombomodulin anomaly", "neuropathy, painful"]
 description: "Dalteparin : nouvelle indication prédite, Thrombophilie par déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency… (niveau de preuve L5). Indication d'origine : Non r…"
@@ -107,7 +107,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle TxGNN (apprentissage profond, niveau L5), sans essai ni publication. Le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le médicament est commercialisé en France (9 AMM valides sur 9) ; les données de sécurité officielles sont absentes.
+- La prédiction repose uniquement sur le modèle TxGNN (apprentissage profond, niveau L5), sans essai ni publication. Le score peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Le médicament est commercialisé en France ; les données de sécurité officielles sont absentes.
+
+<!-- review:begin fr-lic-20261112-dalteparin-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « Le médicament est commercialisé en France (9 AMM valides sur 9) ; les données de sécurité officielles sont absentes. » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 9 AMM pour ce médicament, dont 7 valides et 2 annulées ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-dalteparin-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), préalable indispensable au criblage de sécurité
@@ -115,6 +121,26 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Réaliser une revue de la littérature sur l'héparine de bas poids moléculaire dans le déficit en protéine C et le purpura fulminans
 - Clarifier le statut réglementaire et la disponibilité réelle du produit en France
 - Évaluer la compatibilité des voies d'administration et la place éventuelle en traitement complémentaire du remplacement de la protéine C
+
+<!-- review:begin fr-lic-20261106-dalteparin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire (AMM annulées) et la disponibilité réelle du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dalteparin-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Supprimé : « (9 AMM valides sur 9) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

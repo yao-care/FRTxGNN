@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 726
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -95,6 +95,12 @@ Deux publications du jeu de données (PMID 38717131 sur le sarcome myofibroblast
 
 Au total, 20 AMM de médicaments génériques (Viatris, Accord, Biogaran, Zentiva, Teva, Sandoz, EG) sont recensées.
 
+<!-- review:begin fr-lic-20261106-sunitinib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 20 AMM de médicaments génériques (Viatris, Accord, Biogaran, Zentiva, Teva, Sandoz, EG) sont recensées, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sunitinib-1 -->
+
 ## Cytotoxicité
 
 | Élément | Contenu |
@@ -135,6 +141,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Extraire les résultats spécifiques au liposarcome des études NCT00400569 et PMID 21154746 (taux de réponse, survie sans progression)
 - Définir un plan de surveillance cardiaque, hépatique et hématologique
 
+<!-- review:begin fr-lic-20261106-sunitinib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Extraire les résultats spécifiques au liposarcome des études NCT00400569 et PMID 21154746 (taux de réponse, survie sans progression) / Vérifier la disponibilité réelle du sunitinib en France, compte tenu de l'annulation de toutes les AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sunitinib-2 -->
+
 ## Autres Indications Prédites (Pour Information)
 
 | Rang | Indication | Score TxGNN | Niveau de Preuve | Recommandation |
@@ -145,6 +157,20 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 | 10 | Fibrosarcome cardiaque | 0,9963 | L5 | Hold |
 
 Parmi ces pistes, le carcinome rénal non classé (rang 4) est la mieux étayée sur le plan clinique : essai randomisé de phase 2 (NCT03541902) et plusieurs études de phase 2 dont ASPEN et ESPN, avec une efficacité du sunitinib plus faible que dans les formes à cellules claires. Elle reste proche de l'indication d'origine et ne constitue pas un repositionnement éloigné.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Vérifier la disponibilité réelle du sunitinib en France, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

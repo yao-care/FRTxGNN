@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
 description: "Indomethacin : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -79,6 +79,12 @@ Aucune littérature associée disponible actuellement pour le syndrome brachydac
 
 À titre indicatif, pour l'arthrite juvénile idiopathique (prédiction alternative de rang 8), les publications les plus pertinentes sont :
 
+<!-- review:begin fr-lic-20261106-indomethacin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM (69668450, INDOBIOTIC, collyre unidose) est également annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-indomethacin-1 -->
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
 | [362571](https://pubmed.ncbi.nlm.nih.gov/362571/) | 1978 | ECR | S Afr Med J | Comparaison en double aveugle croisée kétoprofène vs indométacine chez 30 enfants atteints d'arthrite chronique juvénile : les deux sûrs et efficaces, l'indométacine étant le produit préféré |
@@ -123,6 +129,26 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Un lien biologique plausible entre l'inhibition des COX et la physiopathologie du syndrome ciblé, avant toute étude précliniques
 - Si la piste de l'arthrite juvénile est retenue: une revue comparative avec les traitements actuels, et une clarification du statut réglementaire
+
+<!-- review:begin fr-lic-20261106-indomethacin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Si la piste de l'arthrite juvénile est retenue : une revue comparative avec les traitements actuels, et une clarification du statut réglementaire (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-indomethacin-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième AMM (69668450, INDOBIOTIC, collyre unidose) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

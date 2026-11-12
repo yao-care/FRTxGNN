@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 581
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PAZOPANIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "heart fibrosarcoma", "fibroblastic neoplasm", "kidney fibrosarcoma", "dermatofibrosarcoma protuberans"]
 description: "Pazopanib : nouvelle indication prédite, Liposarcoma (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -105,12 +105,24 @@ Aucun essai clinique associé enregistré actuellement.
 **Justification :**
 - Les preuves (une phase II prospective à bras unique et plusieurs cohortes rétrospectives) soutiennent une activité du pazopanib dans les carcinomes rénaux non à cellules claires, sans essai randomisé ni essai enregistré. Le niveau L3 et l'hétérogénéité histologique imposent la prudence. L'accès en France est limité.
 
+<!-- review:begin fr-lic-20261106-pazopanib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises étant toutes annulées, l'accès en France est limité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pazopanib-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice de l'ANSM (données bloquantes pour le dépistage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Essais prospectifs ou randomisés spécifiques au carcinome rénal non classé
 - Clarification du statut réglementaire et de l'accessibilité du pazopanib en France
 - Plan de surveillance de la sécurité (hépatique, cardiovasculaire, tension artérielle) et revue des interactions, notamment avec les antiacides et inhibiteurs de la pompe à protons
+
+<!-- review:begin fr-lic-20261106-pazopanib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire et de l'accessibilité du pazopanib en France (AMM annulées, génériques éventuels) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pazopanib-2 -->
 
 ---
 
@@ -123,6 +135,20 @@ Aucun essai clinique associé enregistré actuellement.
 | 10 | Dermatofibrosarcome protubérant | 0,9929 | L2 | Proceed with Guardrails |
 
 Pour les indications de niveau L2, les données compilées comprennent des essais de phase II dédiés (liposarcome : NCT01506596 ; dermatofibrosarcome : NCT01059656, terminé prématurément avec 23 patients, et étude de phase II publiée PMID 32956651). Les indications de niveau L5 ne disposent d'aucun essai ni d'aucune publication.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es AMM françaises étant toutes annulées, l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées, génériques éventuels) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

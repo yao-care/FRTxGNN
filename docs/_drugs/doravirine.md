@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 256
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DORAVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Doravirine : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L5). Indication d'origine : Non renseignée …"
@@ -92,11 +92,30 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et la seule publication liée porte sur un autre médicament. Les INNTI sont en outre généralement peu actifs contre le VIS. Le VIS est par ailleurs un modèle animal plutôt qu'une indication humaine.
 
+<!-- review:begin fr-lic-20261106-doravirine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les INNTI sont en outre généralement peu actifs contre le VIS, et le médicament n'a plus d'AMM valide en France. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-doravirine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Tests *in vitro* de l'activité de la doravirine sur la transcriptase inverse du VIS, puis éventuellement des études chez le macaque
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice de l'ANSM (bloquant pour l'évaluation de sécurité)
 - Clarification de la pertinence de l'indication (modèle animal ou usage vétérinaire) et du statut réglementaire en France
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et le médicament n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

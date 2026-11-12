@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -105,11 +105,30 @@ Les mises en garde et contre-indications issues de la notice française ne sont 
 - Pour l'arthrose, les preuves se limitent à des études précliniques (niveau L4), sans essai clinique ni donnée d'efficacité chez l'humain. Les neuf autres candidates n'ont aucune preuve (L5) ou correspondent à une indication déjà existante.
 - La notice française n'est pas disponible, ce qui bloque l'évaluation de sécurité.
 
+<!-- review:begin fr-lic-20261106-sulfasalazine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La notice française n'est pas disponible, ce qui bloque l'évaluation de sécurité, et la seule AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sulfasalazine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Télécharger et analyser la notice de l'ANSM (mises en garde et contre-indications)
 - Obtenir des données détaillées sur le mécanisme d'action (DrugBank)
 - Réaliser ou identifier des essais cliniques de phase 2 sur l'arthrose, avec une évaluation de la voie d'administration (par exemple, formulation intra-articulaire avec acide hyaluronique)
 - Évaluer le rapport bénéfice/risque, vu les contre-indications hématologiques, hépatiques et rénales et le nombre élevé d'interactions
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

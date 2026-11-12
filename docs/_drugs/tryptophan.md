@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 794
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 description: "Tryptophan : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -40,6 +40,12 @@ Niveau de preuve: **L3** | Indications prédites: **8**
 
 La tryptophane est un acide aminé essentiel, précurseur de la sérotonine et de la mélatonine.
 Le modèle TxGNN prédit qu'elle pourrait être utile dans le **syndrome des jambes sans repos**, mais **aucun essai clinique** n'est enregistré et seules **6 publications** (anciennes, indirectes ou de petite taille) existent à ce jour.
+
+<!-- review:begin fr-lic-20261106-tryptophan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La tryptophane est un acide aminé essentiel, précurseur de la sérotonine et de la mélatonine. En France, elle entre dans la composition de produits de nutrition parentérale et de solutions de conservation d'organes, dont les autorisations sont aujourd'hui toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tryptophan-1 -->
 
 ---
 
@@ -90,6 +96,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucun texte d'indication approuvée n'est disponible. Les 5 premières sont présentées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-tryptophan-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM sont annulées. Aucun texte d'indication approuvée n'est disponible. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tryptophan-2 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 68491709 | PERISOC, solution de cardioplégie/solution pour conservation d'organe | Solution cardioplégique | Non renseignée |
@@ -138,6 +150,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 | Méthémoglobinémie de type alpha | 0,9918 | L5 | Hold (prédiction seule) |
 | Déficit en méthémoglobine réductase | 0,9908 | L5 | Hold (prédiction seule) |
 | Déficit congénital en prothrombine | 0,9901 | L5 | Hold (prédiction seule, sans mécanisme plausible) |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « En France, elle entre dans la composition de produits de nutrition parentérale et de solutions de conservation d'organes, dont les autorisat » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les 20 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

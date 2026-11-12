@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 258
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
 description: "Doxorubicin : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
@@ -130,6 +130,12 @@ Les données de mises en garde et de contre-indications issues de la notice ne s
 **Justification :**
 Plusieurs essais randomisés de phase 3 et de grandes publications incluent la doxorubicine dans le traitement standard du sarcome d'Ewing, ce qui soutient fortement la prédiction (niveau L1). Toutefois, la doxorubicine y est administrée en association, son rôle propre n'est pas isolé et les données de sécurité de la notice sont absentes.
 
+<!-- review:begin fr-lic-20261106-doxorubicin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Toutefois, la doxorubicine y est administrée en association, son rôle propre n'est pas isolé, les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-doxorubicin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde, contre-indications) auprès de l'ANSM, lacune bloquante pour le dépistage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
@@ -137,7 +143,27 @@ Plusieurs essais randomisés de phase 3 et de grandes publications incluent la d
 - Confirmer la contribution propre de la doxorubicine dans les schémas VDC/IE à partir des résultats des essais de phase 3
 - Établir un plan de surveillance cardiaque (limite de dose cumulée, évaluation de la FEVG, cardioprotection) et de la myélosuppression, notamment en pédiatrie
 
+<!-- review:begin fr-lic-20261106-doxorubicin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire en France (AMM annulées) et identifier une présentation disponible, par exemple une autre spécialité de doxorubicine » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-doxorubicin-2 -->
+
 **Remarque sur les autres indications prédites :** le rhabdomyosarcome (niveau L1, Proceed with Guardrails) est également soutenu par des essais de phase 3 sur les sarcomes des tissus mous, mais ceux-ci ne sont pas spécifiques du rhabdomyosarcome. Les autres prédictions (adénocarcinome fœtal du poumon, lymphome pulmonaire primitif, blastome pulmonaire, leucémie myéloïde chronique BCR-ABL1, leucémie monocytaire, rhabdomyosarcome embryonnaire vaginal ou paraméningé, ganglioneuroblastome) reposent sur des preuves limitées ou indirectes (Hold ou question de recherche).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

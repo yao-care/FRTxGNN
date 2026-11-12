@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
 description: "Eculizumab : nouvelle indication prédite, Cyclic hematopoiesis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -107,12 +107,31 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prediction repose uniquement sur le modele (L5), sans essai ni publication, et sans lien mecanistique plausible avec une inhibition de C5.
 
+<!-- review:begin fr-lic-20261106-eculizumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prediction repose uniquement sur le modele (L5), sans essai ni publication, et sans lien mecanistique plausible avec une inhibition de C5. De plus, les trois AMM francaises sont annulees. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eculizumab-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Donnees detaillees sur le mecanisme d'action (MOA)
 - Informations de securite issues de la notice (mises en garde et contre-indications) : lacune bloquante pour tout depistage de securite
 - Hypothese physiopathologique demontrant un role du complement dans l'hematopoiese cyclique
 - Etudes precliniques ou series de cas soutenant l'usage d'eculizumab dans cette indication
 - Clarification du statut reglementaire actuel en France et des textes d'indication
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, les trois AMM francaises sont annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

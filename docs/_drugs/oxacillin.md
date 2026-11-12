@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "oxacillin"
 predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
 description: "Oxacillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -94,12 +94,31 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 **Justification :**
 - La prédiction pour l'épiglottite repose uniquement sur le modèle (L5), sans essai ni publication. Le spectre de l'oxacilline couvre mal les principaux agents de cette infection.
 
+<!-- review:begin fr-lic-20261106-oxacillin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le spectre de l'oxacilline couvre mal les principaux agents de cette infection, et les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-oxacillin-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM, un point bloquant pour le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Rechercher des données microbiologiques et cliniques sur l'épiglottite à *S. aureus*
 - Vérifier la disponibilité réelle du produit en France
 - Piste à approfondir : l'arthrite bactérienne (score 0,9950, niveau L4), étroitement liée à l'indication staphylococcique existante, mérite d'être traitée comme question de recherche, tandis que la laryngite et l'infection urinaire (probabilité clinique limitée) restent en attente
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

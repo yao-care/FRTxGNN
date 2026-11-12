@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Benazepril : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
@@ -74,6 +74,12 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 Le bénazépril dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).
 
+<!-- review:begin fr-lic-20261031-benazepril-1 -->
+
+> **Correction de vérification (2026-10-31)**: Texte initial : « Aucune AMM n'est enregistrée en France pour le bénazépril dans les données compilées : le médicament apparaît comme non commercialisé. » Corrigé : l'affirmation ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-10-31) et a été remplacée par le texte actuel. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261031-benazepril-1 -->
+
 ## Considerations de Securite
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : insuffisance hépatique, encéphalopathie hépatique, maladie rénale, anurie, pancréatite, maladie de la vésicule biliaire, angio-œdème (acquis, héréditaire, induit par les bloqueurs du système rénine-angiotensine-aldostérone), lupus érythémateux systémique, carence en potassium, diabète et acidocétose diabétique, neutropénie, agranulocytose, hypotension, hyperparathyroïdie, connectivites, ictère néonatal, entre autres.
@@ -109,6 +115,19 @@ Remarques : les scores identiques ou quasi identiques des rangs 1 et 2 (et 3 et 
 - Effectuer une recherche ciblée d'essais cliniques et de publications sur le bénazépril dans la néphropathie hypertensive maligne ;
 - Définir un plan de surveillance de la fonction rénale et de la kaliémie ;
 - Clarifier la situation réglementaire en France (absence d'AMM).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Aucune AMM n'est enregistrée en France pour le bénazépril dans les données compilées : le médicament apparaît comme non commercialisé. | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

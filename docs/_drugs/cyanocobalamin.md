@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 description: "Cyanocobalamin : nouvelle indication prédite, Maladie métabolique de la biotine (niveau de preuve L5). Indication d'origine : Carence en vitamine B12 et anémies carentielles (anémie pernicieuse…"
 monitor_inn: "cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -83,6 +83,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Seules 5 des 10 AMM sont listées.
 
+<!-- review:begin fr-lic-20261106-cyanocobalamin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Seules 5 des 10 AMM sont listées. Les 10 AMM sont valides. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cyanocobalamin-1 -->
+
 ## Considérations de Sécurité
 
 - **Interactions Médicamenteuses** : 313 interactions sont recensées dans les données compilées pour ce rapport. Parmi les premières entrées :
@@ -99,12 +105,32 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - La prédiction repose uniquement sur le score du modèle (niveau L5). Aucun essai clinique ni publication pertinente ne la soutient, et le lien mécanistique reste spéculatif.
 - Le traitement de référence des maladies métaboliques de la biotine est la biotine.
 
+<!-- review:begin fr-lic-20261106-cyanocobalamin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le traitement de référence des maladies métaboliques de la biotine est la biotine. De plus, toutes les AMM françaises de la cyanocobalamine sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cyanocobalamin-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (MOA) de la cyanocobalamine
 - Données de sécurité issues de la notice (mises en garde et contre-indications) auprès de l'ANSM
 - Études précliniques ou de mécanisme démontrant un lien entre la B12 et la voie de la biotine
 - Revue de la littérature ciblée sur la B12 dans les déficits en biotinidase ou en holocarboxylase synthétase
 - Clarification du statut réglementaire actuel des présentations de B12 en France
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 10 AMM sont valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « De plus, toutes les AMM françaises de la cyanocobalamine sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

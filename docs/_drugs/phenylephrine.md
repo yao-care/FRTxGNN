@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 600
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Phenylephrine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L4). Indication d'origine : Non précisée dans les AMM"
 monitor_inn: "phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -100,6 +100,12 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 **Justification :**
 - La prédiction repose sur des preuves indirectes (niveau L4), sans essai clinique enregistré. Elle recoupe largement des indications déjà connues. Les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l'étape de dépistage de sécurité.
 
+<!-- review:begin fr-lic-20261106-phenylephrine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Elle recoupe largement des indications déjà connues, et les deux AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-phenylephrine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications).
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
@@ -110,6 +116,19 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 
 - **Laryngopharyngite aiguë** (score 0,9997, niveau L5, Hold) : aucune preuve clinique ni bibliographique ; plausible seulement par analogie avec la pharyngite et la rhinopharyngite.
 - **Céphalée autonomique trigéminale** (score 0,9930, niveau L4, Hold) : la littérature (1987-1996 et un cas en 2010) utilise la phényléphrine comme sonde pharmacologique de la fonction sympathique pupillaire dans la céphalée en grappe, l'hémicrânie paroxystique et le SUNCT. Elle n'apporte aucune preuve thérapeutique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

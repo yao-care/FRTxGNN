@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Isoflurane : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "ISOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -96,12 +96,31 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Justification :**
 La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Le profil de sécurité soulève des signaux défavorables (vol coronarien, hypotension, interaction majeure avec l'épinéphrine), et l'usage d'un anesthésique général inhalé est peu réaliste pour un angor chronique.
 
+<!-- review:begin fr-lic-20261106-isoflurane-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de sécurité soulève des signaux défavorables (vol coronarien, hypotension, interaction majeure avec l'épinéphrine), et l'usage d'un anesthésique général inhalé est peu réaliste pour un angor chronique. Les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-isoflurane-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle (mises en garde et contre-indications) via le site de l'ANSM, qui constitue actuellement un point bloquant pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Études précliniques et mécanistiques sur le vasospasme coronarien
 - Évaluation de la faisabilité de la voie d'administration et de la population cible
 - Si une piste doit être poursuivie, la migraine réfractaire (niveau L4) constitue une question de recherche plus étayée que l'angor de Prinzmetal
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

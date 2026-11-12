@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 57
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Aminophylline : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "AMINOPHYLLINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "Prinzmetal angina", "pulmonary hypertension", "sciatic neuropathy", "hyperthyroidism", "kyphoscoliotic heart disease"]
@@ -111,6 +111,12 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Justification :**
 - Le niveau de preuve est L4 : aucun essai clinique n'est enregistré pour la migraine, la littérature est indirecte. La donnée de sécurité de la notice, bloquante, manque également.
 
+<!-- review:begin fr-lic-20261106-aminophylline-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le niveau de preuve est L4 : aucun essai clinique n'est enregistré pour la migraine, la littérature est indirecte, et la seule AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-aminophylline-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indication d'origine), donnée bloquante pour le dépistage de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action via DrugBank.
@@ -130,6 +136,19 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 | Hyperthyroïdie | 0,9906 | L4 | Hold : risque de sécurité plus plausible qu'un bénéfice |
 
 Les autres prédictions (atrophodermie vermiculée, ulérythème ophryogène, cardiopathie cyphoscoliotique) sont de niveau L5 (prédiction du modèle seule) et restent en Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

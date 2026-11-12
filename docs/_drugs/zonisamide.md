@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 832
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Zonisamide : nouvelle indication prédite, Syndrome de Gilles de la Tourette (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles (les textes d'indi…"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -99,6 +99,12 @@ Aucune littérature associée n'est disponible pour le syndrome de Gilles de la 
 
 Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont :
 
+<!-- review:begin fr-lic-20261106-zonisamide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est disponible. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 20 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zonisamide-1 -->
+
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
 |---------|------|------|-----------|
 | 64122807 | ZONEGRAN 100 mg (AMDIPHARM) | Gélule | Non renseignée |
@@ -127,11 +133,31 @@ Veuillez consulter la notice pour les mises en garde officielles, qui ne sont pa
 - La prédiction principale (syndrome de Gilles de la Tourette) repose uniquement sur le modèle (L5), sans essai ni publication, et la littérature disponible évoque plutôt un risque de tics induits. Aucune donnée de sécurité issue de la notice n'est disponible.
 - L'épilepsie-absence (L3) reste une question de recherche, car des traitements de première intention (éthosuximide, valproate) sont mieux documentés.
 
+<!-- review:begin fr-lic-20261106-zonisamide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction principale (syndrome de Gilles de la Tourette) repose uniquement sur le modèle (L5), sans essai ni publication, et la littérature disponible évoque plutôt un risque de tics induits. Le médicament est commercialisé en France, avec 20 AMM valides sur 20. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 20 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zonisamide-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Clarifier les raisons de l'annulation des AMM et le statut réglementaire actuel du produit.
 - Pour toute indication retenue, rechercher des essais contrôlés randomisés ou des études observationnelles de qualité, avec évaluation du risque de tics, de manie et de symptômes obsessionnels.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Le médicament est commercialisé en France, avec 20 AMM valides sur 20 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

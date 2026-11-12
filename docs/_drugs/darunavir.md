@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 217
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Darunavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée d…"
@@ -97,6 +97,12 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 Les 17 AMM recensées sont des génériques à base de darunavir seul.
 
+<!-- review:begin fr-lic-20261106-darunavir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 17 AMM recensées sont des génériques à base de darunavir seul, toutes au statut annulé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-darunavir-1 -->
+
 ---
 
 ## Considérations de Sécurité
@@ -122,6 +128,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Mises en garde et contre-indications issues des notices de l'ANSM, indispensables avant tout examen de sécurité
 - Études précisant la contribution spécifique du darunavir dans les schémas testés chez le macaque
 - Clarification de la pertinence de la cible : une indication de modèle animal ne constitue pas une cible de repositionnement humain
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

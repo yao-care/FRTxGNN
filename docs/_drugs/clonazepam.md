@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 187
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -128,6 +128,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Examiner le contenu de la recommandation de l'AASM 2025 et de la revue Cochrane pour déterminer la place réelle du clonazépam par rapport aux agonistes dopaminergiques.
 - Évaluer le rapport bénéfice/risque (dépendance, sédation diurne, dépression respiratoire) et la disponibilité d'une forme commercialisée en France.
 
+<!-- review:begin fr-lic-20261106-clonazepam-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluer le rapport bénéfice/risque (dépendance, sédation diurne, dépression respiratoire) et la disponibilité d'une forme commercialisée en France, puisque les trois AMM sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-clonazepam-1 -->
+
 ---
 
 ### Autres Indications Prédites (pour information)
@@ -136,6 +142,18 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 |---|---|---|---|---|
 | 2 | Insomnie | 0,9932 | L4 | Hold : mécanisme plausible (modulation GABA-A), mais demi-vie longue (somnolence résiduelle) et absence de preuve directe dans les données fournies |
 | 3 | Tumeur du nerf trijumeau | 0,9930 | L5 | Hold : aucun lien mécanistique crédible ni aucune publication ; le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « puisque les trois AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

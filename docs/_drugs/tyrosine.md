@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 796
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Tyrosine : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Non disponible (aucun texte d'indication renseigné dans les AMM)"
 monitor_inn: "TYROSINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "angle-closure glaucoma", "hyperthyroidism", "postural orthostatic tachycardia syndrome", "hyperthyroxinemia", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "traumatic glaucoma", "aqueous misdirection", "neovascular glaucoma"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 
 La tyrosine est un acide aminé, précurseur des catécholamines et des hormones thyroïdiennes. Elle est présente dans des spécialités de nutrition parentérale et d'acides aminés.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de la queue de cheval**, mais **aucun essai clinique** et **aucune publication** ne soutiennent cette prédiction. Le niveau de preuve est le plus faible (L5).
+
+<!-- review:begin fr-lic-20261106-tyrosine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Elle est présente dans des spécialités de nutrition parentérale et d'acides aminés, aujourd'hui toutes annulées en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tyrosine-1 -->
 
 ## Aperçu Rapide
 
@@ -113,6 +119,19 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 - Une évaluation de la pertinence biologique de la prédiction, avec des études précliniques ou mécanistiques
 - Une analyse de la compatibilité des voies d'administration, de la similarité avec l'indication originale et des indications d'origine
 - Un réexamen des indications prédites mieux soutenues sur le plan biologique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « aujourd'hui toutes annulées en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

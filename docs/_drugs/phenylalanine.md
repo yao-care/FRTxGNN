@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 599
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 description: "Phenylalanine : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM (texte d'indication vide)"
 monitor_inn: "phenylalanine"
 predicted_indications: ["sclerosing cholangitis", "congenital prothrombin deficiency"]
@@ -85,6 +85,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Au total, 20 AMM sont recensées; seules les 5 premières sont listées ici.
 
+<!-- review:begin fr-lic-20261106-phenylalanine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 20 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-phenylalanine-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (associations du graphe, et non texte de notice) : maladie rénale (dont insuffisance rénale chronique et terminale), néphrolithiase, néphrocalcinose, hypercalcémie, sarcoïdose, maladies cardiovasculaires, fibrillation ventriculaire, intoxication digitalique, **phénylcétonurie** et troubles du métabolisme de la phénylalanine, ainsi que des troubles du métabolisme du phosphore.
@@ -105,6 +111,19 @@ Veuillez consulter la notice pour les informations de securité complémentaires
 - Notice ANSM (mises en garde et contre-indications) pour permettre l'évaluation de sécurité
 - Études précliniques ou observationnelles ciblées montrant un effet de la phénylalanine sur la cholangite sclérosante
 - Clarification du statut réglementaire : le médicament est commercialisé, avec 19 AMM valides
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

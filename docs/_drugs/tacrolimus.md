@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 728
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus : nouvelle indication prédite, Dermatite séborrhéique (seborrheic dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -126,6 +126,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Un essai de phase 3 terminé (n = 120) et un essai de phase 4 terminé (n = 104) portent directement sur la pommade de tacrolimus dans la dermatite séborrhéique, avec une étude clinique publiée à l'appui. Le niveau de preuve est donc L2 selon la grille (un seul essai de phase 3 : le niveau L1 n'est pas atteint). Le mécanisme est plausible.
 - Les données de sécurité officielles sont absentes.
 
+<!-- review:begin fr-lic-20261106-tacrolimus-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Toutes les AMM françaises du tacrolimus sont annulées, et les données de sécurité officielles sont absentes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tacrolimus-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser les notices de l'ANSM (mises en garde et contre-indications), bloquant pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
@@ -136,6 +142,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 ---
 
 *Remarque : la parapsoriasis (rang 2, niveau L4, uniquement des cas rapportés) et la dermatite au sens large (rang 3, essentiellement l'indication d'origine) ne sont pas développées ici, la nouvelle indication retenue étant la dermatite séborrhéique.*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Toutes les AMM françaises du tacrolimus sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 770
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Tocofersolan : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée"
 monitor_inn: "TOCOFERSOLAN"
 predicted_indications: ["amenorrhea (disease)", "acne (disease)"]
@@ -87,12 +87,38 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication.
 
+<!-- review:begin fr-lic-20261106-tocofersolan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. L'AMM unique est annulée, l'indication d'origine et le mécanisme d'action sont inconnus, et les informations de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tocofersolan-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) pour permettre le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank)
 - Clarifier l'indication d'origine du produit
 - Réaliser une revue systématique de la littérature sur la vitamine E / TPGS dans l'aménorrhée et l'acné
 - Évaluer la compatibilité des voies d'administration pour les indications envisagées
+
+<!-- review:begin fr-lic-20261106-tocofersolan-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier l'indication d'origine du produit et les raisons de l'annulation de l'AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-tocofersolan-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'AMM unique est annulée, l'indication d'origine et le mécanisme d'action sont inconnus, et les informations de sécurité de la notice sont m » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les raisons de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

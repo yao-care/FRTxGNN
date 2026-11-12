@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 574
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Palonosetron : nouvelle indication prédite, Migraine (« migraine disorder ») (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -115,12 +115,38 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 - Le score TxGNN est élevé, mais la prédiction repose sur aucun essai clinique et sur un seul rapport de cas indiquant un possible effet délétère (niveau de preuve L4). Les autres indications prédites sont de niveau L5.
 - Les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-palonosetron-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-palonosetron-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications, indication autorisée).
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank).
 - Examiner la littérature sur les antagonistes 5-HT3 dans la migraine pour déterminer si l'effet est protecteur ou aggravant.
 - Évaluer le risque d'allongement du QT et des interactions majeures chez les patients migraineux, notamment avec les triptans.
 - Clarifier la situation réglementaire et la compatibilité de la voie d'administration (injectable) avec un usage dans la migraine.
+
+<!-- review:begin fr-lic-20261106-palonosetron-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire (AMM annulées) et la compatibilité de la voie d'administration (injectable) avec un usage dans la migraine. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-palonosetron-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

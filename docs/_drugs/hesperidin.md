@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Hesperidin : nouvelle indication prédite, Néoplasie myéloproliférative (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 L'hespéridine est un flavonoïde (flavanone glycosylée) commercialisé en France sous forme de comprimés pelliculés (FLAVONOIDES ZENTIVA CONSEIL). Les données compilées ne précisent aucune indication d'origine.
 Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **néoplasie myéloproliférative**, mais **aucun essai clinique** et **une seule publication** (étude in silico) soutiennent actuellement cette direction.
+
+<!-- review:begin fr-lic-20261106-hesperidin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données compilées ne précisent aucune indication d'origine, et ces autorisations sont aujourd'hui annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-hesperidin-1 -->
 
 ---
 
@@ -103,12 +109,39 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Justification :**
 La prédiction repose uniquement sur le modèle TxGNN (niveau L5) et sur une seule étude in silico, sans essai clinique. Les informations de sécurité sont absentes, ce qui empêche de passer au criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-hesperidin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les autorisations françaises sont annulées et les informations de sécurité sont absentes, ce qui empêche de passer au criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-hesperidin-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), point bloquant
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Obtenir une validation expérimentale *in vitro* sur des modèles de néoplasie myéloproliférative
 - Évaluer la biodisponibilité et la faisabilité d'atteindre des concentrations efficaces par voie orale
 - Clarifier l'indication d'origine
+
+<!-- review:begin fr-lic-20261106-hesperidin-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier l'indication d'origine et la raison de l'annulation des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-hesperidin-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et ces autorisations sont aujourd'hui annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es autorisations françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et la raison de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

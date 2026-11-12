@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -113,11 +113,30 @@ Pour la contre-indication rénale, le risque est particulièrement pertinent ici
 **Justification :**
 - Le mécanisme uricosurique du probénécide aggraverait l'hypouricémie rénale au lieu de la corriger. La prédiction est probablement un faux positif, sans essai clinique.
 
+<!-- review:begin fr-lic-20261106-probenecid-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction est probablement un faux positif, sans essai clinique, et l'AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-probenecid-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les avertissements et contre-indications de la notice officielle de l'ANSM (données bloquantes pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une revue de la pertinence des publications retrouvées, dont la pertinence reste à évaluer
 - Une réévaluation des prédictions alternatives (Lesch-Nyhan, déficit partiel en HPRT) uniquement si des preuves cliniques apparaissent, sachant que l'allopurinol reste le traitement de référence
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

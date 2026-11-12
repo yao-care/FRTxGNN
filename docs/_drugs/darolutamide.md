@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 216
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Darolutamide : nouvelle indication prédite, Hypercholestérolémie familiale homozygote (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "DAROLUTAMIDE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "multiple endocrine neoplasia", "HIV infectious disease"]
@@ -117,6 +117,12 @@ Pour les autres informations de sécurité (mises en garde, contre-indications),
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et aucun lien mécanistique plausible n'est identifié.
 
+<!-- review:begin fr-lic-20261106-darolutamide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (L5), sans essai ni publication, et aucun lien mécanistique plausible n'est identifié. De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-darolutamide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
 - Données détaillées sur le mécanisme d'action (via DrugBank)
@@ -131,6 +137,18 @@ Pour les autres informations de sécurité (mises en garde, contre-indications),
 |------|------|------|------|------|
 | Néoplasie endocrinienne multiple | 0,9906 | L5 | Hold | Deux essais retrouvés (NCT07795177, NCT03878524), en réalité centrés sur le cancer de la prostate et la médecine de précision en oncologie, associés par une terminologie large. Aucune donnée spécifique à cette indication. |
 | Infection par le VIH | 0,9904 | L5 | Hold | Prédiction purement computationnelle, sans lien mécanistique direct. Les nombreuses interactions médicamenteuses (CYP3A4/P-gp) poseraient un problème pratique avec les antirétroviraux. |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

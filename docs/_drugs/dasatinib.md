@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 218
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -97,6 +97,12 @@ Ce lien est plausible, mais il n'a pas été confirmé en clinique. Une revue de
 
 Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-dasatinib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dasatinib-1 -->
+
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 60926629 | DASATINIB SANDOZ 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
@@ -147,6 +153,19 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 ---
 
 *Les indications des rangs 3 à 10 reposent sur des preuves précliniques ou sur la seule prédiction du modèle.*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es 20 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

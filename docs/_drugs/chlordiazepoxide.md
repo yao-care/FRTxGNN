@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
 description: "Chlordiazepoxide : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -107,12 +107,38 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Aucune preuve clinique directe : pas d'essai enregistré et pas d'ECR de la chlordiazépoxide seule dans l'insomnie. Le niveau de preuve est L4 et la littérature est indirecte ou ancienne.
 - Les risques (dépendance, chutes, troubles cognitifs) ainsi que les nombreuses contre-indications et interactions pèsent contre cet usage.
 
+<!-- review:begin fr-lic-20261106-chlordiazepoxide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées, et les risques (dépendance, chutes, troubles cognitifs) ainsi que les nombreuses contre-indications et interactions pèsent contre cet usage. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-chlordiazepoxide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir la notice officielle de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le criblage de sécurité
 - Compléter les données sur le mécanisme d'action (DrugBank)
 - Réaliser une revue systématique ou un essai randomisé spécifique à la chlordiazépoxide dans l'insomnie, par rapport aux hypnotiques actuels
 
+<!-- review:begin fr-lic-20261106-chlordiazepoxide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Réaliser une revue systématique ou un essai randomisé spécifique à la chlordiazépoxide dans l'insomnie, par rapport aux hypnotiques actuels / Évaluer la pertinence d'une réintroduction sur le marché, compte tenu de l'annulation des AMM et de l'existence d'alternatives mieux documentées » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-chlordiazepoxide-2 -->
+
 **Autres prédictions (sans preuve clinique suffisante, toutes en Hold) :** trouble du sommeil (initiation et maintien), syndrome de la queue de cheval, vessie neurogène (terme obsolète), TDAH de type inattentif, trouble spécifique du développement, abus de barbituriques, de hallucinogènes et d'antidépresseurs, syndrome myofascial douloureux. Pour le trouble spécifique du développement, la seule étude retrouvée est préclinique et évoque un signal de risque neurodéveloppemental plutôt qu'un bénéfice.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Évaluer la pertinence d'une réintroduction sur le marché, compte tenu de l'annulation des AMM et de l'existence d'alternatives mieux documen » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

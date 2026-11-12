@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 69
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 description: "Aprepitant : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "aprepitant"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "hypertrichosis (disease)", "pulmonary hypertension", "leprosy", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "kyphoscoliotic heart disease", "syndrome with a Dandy-Walker malformation as major feature", "subarachnoid hemorrhage (disease)", "isolated genetic hair shaft abnormality"]
@@ -83,6 +83,12 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM (5 sur 20) :
 
+<!-- review:begin fr-lic-20261106-aprepitant-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Aucun texte d'indication approuvée n'est disponible dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-aprepitant-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 65314130 | Aprepitant Evolugen 125 mg et 80 mg | Gélule | Active |
@@ -125,6 +131,19 @@ Les neuf autres prédictions du classement (hypertrichose, hypertension pulmonai
 - Réaliser une revue de littérature préclinique ciblée sur NK1, vasopressine et AVPR2.
 - Clarifier l'indication d'origine et la situation réglementaire (annulation des AMM).
 - Réévaluer d'autres indications plus plausibles (par exemple l'hémorragie sous-arachnoïdienne) avant tout investissement.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

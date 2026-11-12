@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 560
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "omeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Omeprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -108,6 +108,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 - Les preuves se limitent à de petites études cliniques et à des études animales, sans essai randomisé évaluant l'oméprazole dans le reflux duodéno-gastrique ; le mécanisme ne cible pas la cause du reflux biliaire, et un signal de cancérogenèse chez l'animal est préoccupant. Le seul essai clinique recensé est diagnostique.
 - Le statut réglementaire français et l'absence de données de notice empêchent aussi de passer à l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-omeprazole-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le statut réglementaire français (toutes AMM annulées) et l'absence de données de notice empêchent aussi de passer à l'étape de criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-omeprazole-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) sur le site de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
@@ -120,6 +126,19 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 ### Note sur la seconde prédiction (obstruction duodénale)
 
 L'obstruction duodénale (score TxGNN 0,9964) est classée au niveau **L5** avec la décision **Hold** : il s'agit d'une affection mécanique ou structurelle (atrésie, sténose, tumeur, pancréas annulaire) relevant d'une prise en charge chirurgicale ou endoscopique, sans lien mécanistique clair avec l'oméprazole. L'unique essai associé (NCT00557921, phase 3, terminé prématurément, 5 000 participants) porte sur l'association clopidogrel + oméprazole pour réduire les événements gastro-intestinaux hauts et ne permet pas d'étayer cette indication.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

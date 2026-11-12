@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 298
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "eslicarbazepine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Eslicarbazepine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -40,6 +40,12 @@ Niveau de preuve: **L2** | Indications prédites: **5**
 
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine (traitement préventif)**,
 avec **1 essai clinique** de phase 2 terminé et **aucune publication** portant directement sur l'eslicarbazépine dans la migraine.
+
+<!-- review:begin fr-lic-20261106-eslicarbazepine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'eslicarbazépine est un antiépileptique (anticonvulsivant) dont les autorisations françaises sont aujourd'hui toutes annulées, et dont le texte d'indication d'origine n'est pas renseigné dans les données compilées pour ce rapport. / Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine (traitement préventif)**, » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eslicarbazepine-1 -->
 
 ## Aperçu Rapide
 
@@ -99,11 +105,38 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Les autres indications prédites (sous-types de migraine, insomnie, affections dermatologiques rares) reposent sur le modèle seul ou sur des données indirectes. Pour l'insomnie, la seule publication suggère plutôt un effet indésirable sur le sommeil.
 - Les données de sécurité de la notice font défaut.
 
+<!-- review:begin fr-lic-20261106-eslicarbazepine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées et les données de sécurité de la notice font défaut. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eslicarbazepine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Retrouver les résultats publiés ou enregistrés de l'essai NCT01820559 (efficacité et tolérance)
 - Obtenir la notice (mises en garde, contre-indications) auprès de l'ANSM
 - Compléter les données sur le mécanisme d'action
 - Regrouper les entrées de migraine apparentées (sous-types, terme de susceptibilité génétique) sous une seule indication
+
+<!-- review:begin fr-lic-20261106-eslicarbazepine-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Compléter les données sur le mécanisme d'action / Clarifier les raisons de l'annulation des AMM et le statut de marché actuel » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eslicarbazepine-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'eslicarbazépine est un antiépileptique (anticonvulsivant) dont les autorisations françaises sont aujourd'hui toutes annulées, et dont le t » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et le statut de marché actuel » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

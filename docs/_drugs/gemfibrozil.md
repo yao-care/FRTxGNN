@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 359
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "GEMFIBROZIL"
 predicted_indications: ["rheumatoid arthritis", "multiple endocrine neoplasia", "HIV infectious disease", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "methemoglobinemia, alpha type", "sclerosing cholangitis", "methemoglobin reductase deficiency"]
 description: "Gemfibrozil : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -96,6 +96,12 @@ Les mises en garde et contre-indications de la notice française n'ont pas pu ê
 **Justification :**
 - La prédiction repose sur un score de modèle élevé, mais les preuves se limitent à des études précliniques, dont une seule sur le gemfibrozil. Il n'y a ni essai clinique ni donnée humaine contrôlée.
 
+<!-- review:begin fr-lic-20261106-gemfibrozil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Il n'y a ni essai clinique ni donnée humaine contrôlée, et la seule AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-gemfibrozil-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), donnée bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
@@ -110,6 +116,19 @@ Parmi les autres indications prédites, deux présentent un niveau de preuve L2 
 - **Hypoalphalipoprotéinémie** : plusieurs petites études (1989-2000) montrent des effets sur le HDL-cholestérol, mais cette indication est proche de l'indication lipidique d'origine.
 
 Ces deux pistes pourraient être évaluées en priorité si l'objectif est d'identifier une indication mieux étayée que la polyarthrite rhumatoïde.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

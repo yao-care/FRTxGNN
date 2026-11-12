@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone : nouvelle indication prédite, Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loc…"
@@ -113,12 +113,31 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - Malgré un score TxGNN très élevé, aucune preuve clinique ou bibliographique ne soutient cette indication (niveau L5). L'effet attendu serait au mieux symptomatique.
 
+<!-- review:begin fr-lic-20261106-entacapone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'effet attendu serait au mieux symptomatique, et les AMM françaises sont toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-entacapone-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice (blocage pour le criblage de sécurité), à obtenir sur le site de l'ANSM.
 - Les données sur le mécanisme d'action, à obtenir via DrugBank.
 - Une revue de la littérature et des données précliniques sur l'entacapone dans les phénotypes dystonie-parkinsonisme de la PLAN.
 - Une clarification du statut réglementaire en France, le médicament étant commercialisé avec 20 AMM valides.
 - À titre de comparaison, une priorisation éventuelle de la démence à corps de Lewy (niveau L4, soutien préclinique indirect) comme question de recherche.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Chlorobutanol : nouvelle indication prédite, Dysfonction érectile (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM compilées (formes bain de bouche…"
 monitor_inn: "chlorobutanol"
 predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
@@ -112,6 +112,25 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Notice de l'ANSM (mises en garde, contre-indications) pour pouvoir réaliser un criblage de sécurité
 - Recherche systématique d'études précliniques ou cliniques pertinentes
 - Évaluation de la compatibilité des voies d'administration (aucune voie systémique ou adaptée n'est disponible)
+
+<!-- review:begin fr-lic-20261106-chlorobutanol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluation de la compatibilité des voies d'administration (aucune voie systémique ou adaptée n'est disponible) / Clarification du statut réglementaire après l'annulation des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 13 AMM pour ce médicament, dont 13 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-chlorobutanol-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Clarification du statut réglementaire après l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

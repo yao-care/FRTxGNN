@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "MIZOLASTINE"
 predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
 description: "Mizolastine : nouvelle indication prédite, Porphyrie aiguë intermittente (acute intermittent porphyria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -89,12 +89,38 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, aucun lien mécanistique plausible.
 
+<!-- review:begin fr-lic-20261106-mizolastine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, aucune publication, aucun lien mécanistique plausible. De plus, les deux AMM françaises sont annulées et les données de sécurité de la notice sont manquantes. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mizolastine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM) : élément bloquant pour tout examen de sécurité
 - Obtenir les données sur le mécanisme d'action (DrugBank) afin d'analyser d'éventuels liens mécanistiques
 - Mener une revue de littérature et des études précliniques ciblées pour déterminer si une hypothèse biologique crédible existe pour la porphyrie aiguë intermittente
 - Clarifier la disponibilité du produit en France
 - Évaluer, parmi les autres indications prédites, s'il en existe une avec un fondement mécanistique plus solide
+
+<!-- review:begin fr-lic-20261106-mizolastine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la disponibilité du produit en France, les AMM étant toutes annulées » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-mizolastine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées et les données de sécurité de la notice sont manquantes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « les AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

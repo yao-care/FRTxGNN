@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "cetuximab"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
 description: "Cetuximab : nouvelle indication prédite, Bronchial adenomas/carcinoids childhood (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -140,12 +140,38 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 **Justification :**
 - La prédiction principale (adénomes/carcinoïdes bronchiques de l'enfant) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans lien mécanistique démontré.
 
+<!-- review:begin fr-lic-20261106-cetuximab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction principale (adénomes/carcinoïdes bronchiques de l'enfant) repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, et sans lien mécanistique démontré. Par ailleurs, la seule AMM française recensée est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cetuximab-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), car l'absence de ces données bloque le criblage de sécurité.
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Établir un lien biologique entre l'EGFR et les carcinoïdes bronchiques pédiatriques (expression de l'EGFR, études précliniques).
 - Envisager de prioriser les indications mieux documentées (lésions prémalignes des voies aéro-digestives supérieures, tumeurs des glandes salivaires/carcinome adénoïde kystique), en obtenant les résultats d'efficacité des essais NCT00524017 et NCT01192087.
 - Clarifier la situation réglementaire en France et la disponibilité réelle du produit.
+
+<!-- review:begin fr-lic-20261106-cetuximab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire en France (AMM annulée) et la disponibilité réelle du produit. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cetuximab-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Par ailleurs, la seule AMM française recensée est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

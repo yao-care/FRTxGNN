@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -125,12 +125,31 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les données de sécurité de la notice sont absentes (lacune bloquante). Les contre-indications du graphe de connaissances, notamment cardiaques et hépatiques, ainsi que les 65 interactions, appellent à la prudence.
 - La prédiction relative au SIV peut être considérée comme une question de recherche (niveau L4). Celle relative au trouble neurodéveloppemental n'a aucun fondement mécanistique identifié.
 
+<!-- review:begin fr-lic-20261106-lopinavir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes (lacune bloquante). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lopinavir-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, afin de lever la lacune bloquante de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Réaliser une revue de la littérature spécifique sur l'activité du lopinavir contre la protéase du FIV.
 - Confirmer le rôle exact du lopinavir dans les trois études sur macaques.
 - Clarifier le cadre d'usage : les indications prédites relèvent surtout de la médecine vétérinaire ou de modèles animaux, et non d'une indication thérapeutique humaine.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

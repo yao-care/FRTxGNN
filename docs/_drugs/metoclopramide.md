@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-12
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide : nouvelle indication prédite, Gastroduodénite (gastroduodenitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -97,6 +97,18 @@ Aucune étude ne teste la métoclopramide dans la gastroduodénite (niveau de pr
 - Les mises en garde et contre-indications de la notice de l'ANSM
 - Des données détaillées sur le mécanisme d'action
 - Une démonstration d'un bénéfice au-delà du soulagement des symptômes de motilité (effet sur l'inflammation muqueuse)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Supprimé : « Le médicament n'est pas commercialisé en France (Not marketed) » | N'apparaît plus après la régénération du rapport (2026-11-12 : le rapport a été régénéré en novembre 2026 et ne contient plus cette affirmation ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

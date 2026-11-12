@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (ganglioneuroblastoma (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -126,12 +126,38 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Pour le ganglioneuroblastome, la prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication. Les données de sécurité de la notice sont absentes, ce qui empêche le passage au criblage de sécurité.
 - Les pistes les plus étayées sont le neuroblastome (L4, essais de protocoles non spécifiques à la vindésine) et la leucémie myéloïde (L3, études anciennes et de petite taille, largement supplantées par les inhibiteurs de tyrosine kinase). Elles relèvent au mieux de questions de recherche.
 
+<!-- review:begin fr-lic-20261106-vindesine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La seule AMM française est annulée, et les données de sécurité de la notice sont absentes, ce qui empêche le passage au criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vindesine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), donnée bloquante
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Vérifier, dans les protocoles de neuroblastome, si la vindésine figure réellement dans un bras de traitement
 - Rechercher des données précliniques ou cliniques spécifiques au ganglioneuroblastome
 - Évaluer la faisabilité d'une voie d'administration et d'un approvisionnement, la compatibilité de voie n'étant pas évaluée
+
+<!-- review:begin fr-lic-20261106-vindesine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluer la faisabilité d'une voie d'administration et d'un approvisionnement, la compatibilité de voie n'étant pas évaluée et le produit n'étant plus commercialisé en France » Supprimé : la description des spécialités ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vindesine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « a seule AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et le produit n'étant plus commercialisé en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

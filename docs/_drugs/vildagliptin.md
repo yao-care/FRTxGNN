@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 812
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 monitor_inn: "vildagliptin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Vildagliptin : nouvelle indication prédite, Syndrome de la personne raide classique (classic stiff person syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
@@ -71,6 +71,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-vildagliptin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 18 AMM recensées sont toutes annulées. Le texte d'indication approuvée n'est pas renseigné pour ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 18 AMM pour ce médicament, dont 18 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vildagliptin-1 -->
+
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Titulaire | Statut |
 |---------|------|------|------|------|
 | 67520378 | GALVUS 50 mg | Comprimé | Novartis Europharm (Irlande) | Active |
@@ -90,6 +96,12 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5). Aucun essai clinique ni publication ne la soutient, et aucun lien mécanistique plausible n'a pu être établi.
 
+<!-- review:begin fr-lic-20261106-vildagliptin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Aucun essai clinique ni publication ne la soutient, et aucun lien mécanistique plausible n'a pu être établi. / Le médicament n'a plus d'AMM valide en France, ce qui limite aussi sa disponibilité pratique. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 18 AMM pour ce médicament, dont 18 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-vildagliptin-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données mécanistiques détaillées, et notamment une hypothèse biologique crédible reliant l'inhibition de la DPP-4 à la physiopathologie du syndrome de la personne raide.
 - Des données précliniques ou des séries de cas dans cette maladie.
@@ -97,6 +109,20 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Une clarification du statut réglementaire du produit.
 
 **Remarque :** parmi les autres indications prédites pour la vildagliptine, le diabète de type 1 dispose de preuves nettement plus étoffées, de niveau L2. Elles comprennent un essai de phase 2 randomisé en double aveugle (rapamycine plus vildagliptine) et un essai de phase 3 de petite taille et de statut inconnu. Cette piste mérite une évaluation distincte.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 18 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Le médicament n'a plus d'AMM valide en France, ce qui limite aussi sa disponibilité pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

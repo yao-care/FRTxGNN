@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 23
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Acitretin : nouvelle indication prédite, Acné (disease) (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM"
 monitor_inn: "acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -131,12 +131,31 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Le niveau de preuve est L3, fondé sur un seul essai de phase 4 comparant l'acitrétine à un autre traitement dans l'hidradénite suppurée (sans résultats disponibles) et sur des revues ou rapports de cas. Aucune preuve directe ne concerne l'acné vulgaire.
 - Le profil de sécurité est lourd (tératogénicité, toxicité hépatique, osseuse et lipidique), et la notice n'a pas pu être exploitée, ce qui bloque le passage à l'étape de sécurité.
 
+<!-- review:begin fr-lic-20261106-acitretin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de sécurité est lourd (tératogénicité, toxicité hépatique, osseuse et lipidique), les AMM françaises sont toutes annulées, et la notice n'a pas pu être exploitée, ce qui bloque le passage à l'étape de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-acitretin-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Obtenir et analyser la notice ANSM (mises en garde, contre-indications), élément bloquant.
 - Compléter les données sur le mécanisme d'action, par exemple via DrugBank.
 - Obtenir les résultats de l'essai NCT07708480 et rechercher des ECR spécifiques à l'acné vulgaire ou à l'hidradénite suppurée.
 - Préciser s'il faut cibler l'acné vulgaire ou l'hidradénite suppurée, puisque le nœud TxGNN recouvre les deux.
 - Définir un programme de prévention de la grossesse et un plan de surveillance (bilans hépatique et lipidique) avant toute évaluation clinique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

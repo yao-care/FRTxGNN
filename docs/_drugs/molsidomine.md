@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-09
+last_modified_at: 2026-11-12
 monitor_inn: "MOLSIDOMINE"
 predicted_indications: ["alopecia", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection", "hypotrichosis simplex of the scalp", "visceral calciphylaxis", "neurogenic thoracic outlet syndrome", "hemangioendothelioma", "congenital hypotrichosis milia"]
 description: "Molsidomine : nouvelle indication prédite, Alopecia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -122,7 +122,13 @@ Les mises en garde, contre-indications et interactions médicamenteuses ne sont 
 **Décision : Hold**
 
 **Justification :**
-- La maladie vasculaire est la seule prédiction avec un soutien réel (un essai de phase 4 terminé et de la littérature pharmacologique et clinique), mais les preuves restent de niveau L3, souvent anciennes, et l'indication est trop large. Aucune donnée de sécurité n'est disponible, et les 8 AMM françaises (sur 8) sont valides. La prédiction d'alopécie, bien que classée première, n'a aucun appui.
+- La maladie vasculaire est la seule prédiction avec un soutien réel (un essai de phase 4 terminé et de la littérature pharmacologique et clinique), mais les preuves restent de niveau L3, souvent anciennes, et l'indication est trop large. Aucune donnée de sécurité n'est disponible. La prédiction d'alopécie, bien que classée première, n'a aucun appui.
+
+<!-- review:begin fr-lic-20261112-molsidomine-1 -->
+
+> **Correction de vérification (2026-11-12)**: Texte initial : « Aucune donnée de sécurité n'est disponible, et les 8 AMM françaises (sur 8) sont valides. » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 8 AMM pour ce médicament, dont 7 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261112-molsidomine-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications, indication approuvée) afin de lever le blocage de sécurité
@@ -130,6 +136,26 @@ Les mises en garde, contre-indications et interactions médicamenteuses ne sont 
 - Obtenir les résultats publiés de l'essai NCT01363661 (fonction endothéliale)
 - Définir une indication vasculaire précise (par exemple dysfonction endothéliale, angor après intervention coronarienne) plutôt qu'une catégorie générale
 - Évaluer la compatibilité de la voie d'administration avec l'indication visée
+
+<!-- review:begin fr-lic-20261106-molsidomine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Définir une indication vasculaire précise (par exemple dysfonction endothéliale, angor après intervention coronarienne) plutôt qu'une catégorie générale / Clarifier les raisons de l'annulation des AMM (réglementaires, commerciales ou de sécurité) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-molsidomine-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM (réglementaires, commerciales ou de sécurité) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Supprimé : « et les 8 AMM françaises (sur 8) sont valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

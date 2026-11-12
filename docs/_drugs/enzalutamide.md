@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide : nouvelle indication prédite, Prostate leiomyoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -128,12 +128,38 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Justification :**
 - La prédiction de rang 1 correspond à une catégorie de susceptibilité génétique, non traitable, sans lien mécanistique avec le cancer du cerveau ; les autres prédictions (tumeurs bénignes de la prostate, tumeur de Brenner) n'ont aucune preuve (L5). Le niveau L1 du rang 6 provient des essais de phase 3 dans le cancer de la prostate, indication déjà établie : il ne démontre aucune nouvelle opportunité de repositionnement.
 
+<!-- review:begin fr-lic-20261106-enzalutamide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le niveau L1 du rang 6 provient des essais de phase 3 dans le cancer de la prostate, indication déjà établie : il ne démontre aucune nouvelle opportunité de repositionnement. De plus, la seule AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-enzalutamide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde, contre-indications), lacune bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Identifier une indication réellement nouvelle et traitable, avec une justification biologique de la dépendance à la voie AR (par exemple, cancers non prostatiques exprimant l'AR)
 - Compléter l'analyse des 36 essais et 20 publications (seule une partie a été examinée)
 - Clarifier le statut réglementaire en France et la compatibilité des voies d'administration
+
+<!-- review:begin fr-lic-20261106-enzalutamide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier le statut réglementaire en France (AMM annulée) et la compatibilité des voies d'administration » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-enzalutamide-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

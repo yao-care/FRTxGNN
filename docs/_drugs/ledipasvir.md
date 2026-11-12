@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 440
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ledipasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L2). Indication d'origine : Infection chronique par le virus de l'hépatite C (le texte de l'indic…"
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
@@ -107,11 +107,37 @@ Une étude de phase 2 chez des patients monoinfectés par le VHB (publication de
 - Les preuves directes se limitent à de petites études de phase 2 (n = 21) sans ECR de phase 3. Le mécanisme d'action du lédipasvir (inhibition de NS5A, spécifique du VHC) n'explique pas un effet anti-VHB, et le principal signal de sécurité est la réactivation du VHB.
 - Les autres indications prédites (hépatite E, hépatite A, VIH, flavivirus, etc.) reposent sur des preuves encore plus faibles (L4-L5) et ne constituent pas de véritables pistes de repositionnement.
 
+<!-- review:begin fr-lic-20261106-ledipasvir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le produit n'a plus d'AMM active en France. Les autres indications prédites (hépatite E, hépatite A, VIH, flavivirus, etc.) reposent sur des preuves encore plus faibles (L4-L5) et ne constituent pas de véritables pistes de repositionnement. » Supprimé : l'affirmation contredisait les données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ledipasvir-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action et les mises en garde/contre-indications de la notice ANSM, actuellement absentes.
 - Des résultats détaillés de l'étude de phase 2 (NCT03312023 / PMID 36045503), notamment la baisse de l'HBsAg et de l'ADN du VHB, avec distinction entre effet direct et effet lié à l'élimination du VHC.
 - Un essai contrôlé de plus grande taille chez des patients monoinfectés par le VHB, avec un plan de surveillance de la réactivation et de prophylaxie du VHB.
 - Une clarification du statut réglementaire en France.
+
+<!-- review:begin fr-lic-20261106-ledipasvir-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une clarification du statut réglementaire en France, puisque l'unique AMM est abrogée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ledipasvir-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM active en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « puisque l'unique AMM est abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

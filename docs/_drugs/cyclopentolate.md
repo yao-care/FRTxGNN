@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 202
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "CYCLOPENTOLATE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Cyclopentolate : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -97,6 +97,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication. Le rationnel mécanistique reste théorique pour un collyre sans usage systémique, et les contre-indications du graphe sont nombreuses.
 
+<!-- review:begin fr-lic-20261106-cyclopentolate-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucune publication, et le produit n'est plus commercialisé en France (AMM annulée). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cyclopentolate-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Compléter les données sur le mécanisme d'action (DrugBank)
@@ -104,6 +110,19 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Reclasser le terme obsolète « vessie neurogène » vers « hyperactivité neurogène du détrusor » avant toute évaluation
 - Évaluer la compatibilité de voie d'administration (collyre vs voie systémique) et l'exposition systémique requise
 - Comparer avec les antimuscariniques déjà établis (oxybutynine, toltérodine, dicyclomine) pour juger de l'intérêt réel
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et le produit n'est plus commercialisé en France (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

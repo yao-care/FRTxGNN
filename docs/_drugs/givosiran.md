@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
 description: "Givosiran : nouvelle indication prédite, Hepatoportal sclerosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -103,12 +103,38 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Le rationnel mécanistique est cohérent, mais les preuves directes se limitent à deux rapports de cas contradictoires. Il n'existe aucun essai clinique dans cette indication, et le niveau de preuve est L4.
 - Les neuf autres prédictions (sclérose hépatoportale, cirrhose associée au cuivre, hypertension portale familiale non cirrhotique, thrombose portale primitive, syndrome hépatopulmonaire, hépatites C et B chroniques, déficit hépatique en glycogène synthase, trouble du métabolisme de la phénylalanine) sont de niveau L5, sans preuve et sans lien mécanistique plausible. Elles restent en **Hold**.
 
+<!-- review:begin fr-lic-20261106-givosiran-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Il n'existe aucun essai clinique dans cette indication, et le niveau de preuve est L4. L'AMM française est par ailleurs annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-givosiran-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (données bloquantes pour le dépistage de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Analyse systématique des cas ADP traités par givosiran, avec dosage de l'ALA et du PBG, pour préciser la contribution érythroïde
 - Clarification du statut réglementaire en France
 - Évaluation de l'interaction majeure avec l'éliglustat avant toute utilisation envisagée
+
+<!-- review:begin fr-lic-20261106-givosiran-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire en France (motif de l'annulation de l'AMM et accès actuel au produit) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-givosiran-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'AMM française est par ailleurs annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (motif de l'annulation de l'AMM et accès actuel au produit) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 352
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "frovatriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Frovatriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -85,6 +85,12 @@ Aucune de ces publications ne traite spécifiquement de la migraine avec aura du
 
 Le texte des indications approuvées n'est pas disponible.
 
+<!-- review:begin fr-lic-20261106-frovatriptan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les cinq AMM identifiées sont toutes annulées ; le texte des indications approuvées n'est pas disponible. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-frovatriptan-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 65235238 | FROVATRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Active |
@@ -107,11 +113,38 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - Le niveau de preuve est L4 : aucun essai clinique, et aucune publication ne traite directement de la migraine avec aura du tronc cérébral. Le score TxGNN élevé reflète surtout la proximité avec la migraine. De plus, les contre-indications théoriques (vasoconstriction, insuffisance vertébro-basilaire).
 
+<!-- review:begin fr-lic-20261106-frovatriptan-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « De plus, les contre-indications théoriques (vasoconstriction, insuffisance vertébro-basilaire) et l'annulation de toutes les AMM françaises appellent à la prudence. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-frovatriptan-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications), l'absence de ces données bloquant l'examen de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Revue de la littérature ciblée sur l'usage des triptans dans la migraine avec aura du tronc cérébral et son profil de risque vasculaire
 - Si le projet se poursuit, envisager une étude exploratoire avec des critères d'exclusion cardiovasculaires et cérébrovasculaires stricts
+
+<!-- review:begin fr-lic-20261106-frovatriptan-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Revue de la littérature ciblée sur l'usage des triptans dans la migraine avec aura du tronc cérébral et son profil de risque vasculaire / Clarifier les raisons de l'annulation des AMM et la disponibilité actuelle du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-frovatriptan-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es cinq AMM identifiées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et l'annulation de toutes les AMM françaises appellent à la prudence » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

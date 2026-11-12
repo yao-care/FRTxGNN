@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 674
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée d…"
@@ -112,7 +112,26 @@ Les mises en garde et contre-indications issues des notices ANSM ne sont pas dis
 - Notices ANSM (mises en garde et contre-indications) pour l'évaluation de sécurité
 - Définition d'une finalité réaliste (par exemple usage comme modèle de recherche préclinique) plutôt qu'un développement clinique humain
 
+<!-- review:begin fr-lic-20261106-ritonavir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Définition d'une finalité réaliste (par exemple usage comme modèle de recherche préclinique) plutôt qu'un développement clinique humain / Vérification du statut réglementaire actuel du ritonavir en France, compte tenu de l'annulation de toutes les AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ritonavir-1 -->
+
 Les deux autres prédictions de rang inférieur (SIDA félin et un trouble neurodéveloppemental rare avec ataxie) reposent uniquement sur le modèle (niveau L5), sans essai ni publication, et ne présentent pas de lien mécanistique plausible avec la pharmacologie connue du ritonavir ; elles restent en **Hold**.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Vérification du statut réglementaire actuel du ritonavir en France, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

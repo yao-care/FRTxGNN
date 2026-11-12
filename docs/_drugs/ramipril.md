@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -92,6 +92,12 @@ Seules les publications présentant un lien avec l'indication ou le mécanisme s
 
 Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées :
 
+<!-- review:begin fr-lic-20261106-ramipril-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont annulées. Le texte d'indication approuvée n'est pas renseigné dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ramipril-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 65671495 | RAMIPRIL BIOGARAN 1,25 mg | comprimé | Non renseignée |
@@ -125,6 +131,19 @@ Les mises en garde et contre-indications de la notice ANSM n'ont pas pu être ob
 - Notice ANSM (mises en garde et contre-indications) pour lever le blocage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Études précliniques récentes et confirmatoires sur l'hypertension pulmonaire hypoxique, puis des données humaines (étude pilote ou essai de phase 2)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

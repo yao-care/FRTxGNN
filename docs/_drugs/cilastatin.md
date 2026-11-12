@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 169
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
 description: "Cilastatin : nouvelle indication prédite, Infection à Staphylococcus aureus (staphylococcus aureus infection) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
@@ -88,6 +88,12 @@ Aucun ECR n'est disponible pour cette indication ; les publications les plus per
 
 Le texte d'indication n'est pas disponible pour ces autorisations.
 
+<!-- review:begin fr-lic-20261106-cilastatin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les neuf AMM recensées sont annulées ; le texte d'indication n'est pas disponible pour ces autorisations. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cilastatin-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 69426034 | IMIPENEM CILASTATINE VIATRIS 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
@@ -112,13 +118,40 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être consult
 - L'activité anti-staphylococcique documentée est celle de l'imipénème ; la cilastatine n'a aucun effet antibactérien propre. Il s'agit d'un artéfact de co-formulation et non d'un véritable repositionnement.
 - Les preuves sont de niveau L3 (études observationnelles, cas cliniques, données précliniques), sans ECR dédié.
 
+<!-- review:begin fr-lic-20261106-cilastatin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les preuves sont de niveau L3 (études observationnelles, cas cliniques, données précliniques), sans ECR dédié, et les neuf AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cilastatin-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action
 - Des preuves cliniques distinguant la contribution de la cilastatine de celle de l'imipénème, ou la reformulation de la question en repositionnement de l'association imipénème/cilastatine
 - Une clarification du statut réglementaire actuel en France
 
+<!-- review:begin fr-lic-20261106-cilastatin-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une clarification du statut réglementaire actuel en France (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 9 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cilastatin-3 -->
+
 **Note sur les autres prédictions :** Parmi les neuf autres prédictions, la **pneumonie** dispose du soutien le plus solide (niveau L1, plusieurs ECR de phase 3 dont RESTORE-IMI 2), mais elle recoupe les indications d'origine, et l'efficacité est attribuable à l'imipénème. La bronchite et la salmonellose sont de niveau L3 (Hold) ; la sinusite est de niveau L4 (Hold). Les autres prédictions (rhinosinusite chronique, sinusite ethmoïdale chronique, néoplasme des sinus paranasaux, fièvre paratyphoïde, sclérodermie diffuse) reposent uniquement sur le modèle (L5, Hold), sans plausibilité mécanistique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es neuf AMM recensées sont annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les neuf AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

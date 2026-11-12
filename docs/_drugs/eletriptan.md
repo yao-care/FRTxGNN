@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -98,6 +98,12 @@ Aucune de ces publications ne porte spécifiquement sur la migraine avec aura du
 
 Aucune indication approuvée n'est renseignée dans les données compilées. Principales AMM :
 
+<!-- review:begin fr-lic-20261106-eletriptan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 16 AMM sont annulées, et aucune indication approuvée n'est renseignée dans les données compilées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eletriptan-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 69046879 | ELETRIPTAN BGR 40 mg (Biogaran) | Comprimé pelliculé | Non renseignée (AMM active) |
@@ -130,6 +136,26 @@ Les mises en garde et contre-indications issues de la notice officielle n'ont pa
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Examiner les données de sécurité des triptans dans la migraine avec aura du tronc cérébral (risque vasculaire)
 - Mener, si pertinent, une étude spécifique à ce sous-type de migraine avant toute décision de développement
+
+<!-- review:begin fr-lic-20261106-eletriptan-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Examiner les données de sécurité des triptans dans la migraine avec aura du tronc cérébral (risque vasculaire) / Clarifier les raisons de l'annulation des AMM françaises et la disponibilité réelle du produit » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-eletriptan-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 16 MM sont annulées, et a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM françaises et la disponibilité réelle du produit » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

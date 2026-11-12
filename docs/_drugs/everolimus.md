@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 311
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
@@ -122,7 +122,26 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Plan de surveillance de sécurité (hématologique, métabolique, hépatique, rénal, pulmonaire) et gestion des interactions, notamment avec les inhibiteurs du CYP3A4
 
+<!-- review:begin fr-lic-20261106-everolimus-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Données détaillées sur le mécanisme d'action (DrugBank) / Clarification de la disponibilité commerciale en France, compte tenu de l'annulation de toutes les AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-everolimus-1 -->
+
 **Autres indications prédites (à titre informatif) :** le rhabdomyosarcome (rang 7) présente un niveau L2, avec deux essais pédiatriques précoces en population mixte, sans efficacité spécifique démontrée. Le dermatofibrosarcome protubérant relève du niveau L4 (littérature préclinique non spécifique à l'évérolimus). Les autres prédictions (sous-types rares de liposarcome et de rhabdomyosarcome, carcinomes rénaux rares) relèvent du niveau L5, sans essai ni publication, et sont à maintenir en Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Clarification de la disponibilité commerciale en France, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

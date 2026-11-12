@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
 description: "Topiramate : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -96,6 +96,12 @@ Ces publications soutiennent l'efficacité générale du topiramate dans l'épil
 
 Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
 
+<!-- review:begin fr-lic-20261106-topiramate-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 17 AMM recensées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-topiramate-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 68906660 | TOPIRAMATE VIATRIS 200 mg | Comprimé pelliculé | Non renseignée (AMM active) |
@@ -130,6 +136,19 @@ Les mises en garde officielles de la notice ne sont pas disponibles : veuillez c
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Pour le néoplasme du nerf trijumeau : définir une hypothèse biologique précise (effet antitumoral ou simple contrôle symptomatique) et rechercher des données précliniques ou cliniques.
 - Les épilepsies réflexes (épilepsie visuelle, audiogène, de lecture, crises de pensée) pourraient être étudiées comme questions de recherche, mais elles recoupent les indications existantes ; clarifier le statut réglementaire du topiramate en France.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es 17 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

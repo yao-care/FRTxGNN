@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 335
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Fluindione : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "FLUINDIONE"
 predicted_indications: ["rheumatoid arthritis"]
@@ -60,6 +60,12 @@ Aucun lien mécanistique n'est étayé par les données disponibles entre cette 
 
 Il faut aussi noter que l'exposition chronique à un anticoagulant comporte un risque hémorragique et une marge thérapeutique étroite. Ces éléments plaident contre un repositionnement sans preuves solides.
 
+<!-- review:begin fr-lic-20261106-fluindione-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Il faut aussi noter que le médicament n'a plus d'AMM valide en France et que l'exposition chronique à un anticoagulant comporte un risque hémorragique et une marge thérapeutique étroite. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fluindione-1 -->
+
 ## Preuves d'Essais Cliniques
 
 Aucun essai clinique associé enregistré actuellement.
@@ -87,12 +93,32 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme n'est pas documenté et le profil de risque hémorragique est défavorable.
 
+<!-- review:begin fr-lic-20261106-fluindione-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le mécanisme n'est pas documenté, l'AMM est annulée et le profil de risque hémorragique est défavorable. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-fluindione-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Notice officielle de l'ANSM (mises en garde et contre-indications) pour permettre un criblage de sécurité
 - Revue de la littérature préclinique sur le lien entre la voie de la coagulation et la polyarthrite rhumatoïde
 - Données précliniques ou observationnelles montrant un signal d'efficacité avant tout essai clinique
 - Évaluation du rapport bénéfice/risque hémorragique face aux alternatives déjà disponibles
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « que le médicament n'a plus d'AMM valide en France et » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

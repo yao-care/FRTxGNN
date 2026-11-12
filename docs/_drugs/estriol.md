@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 302
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-12
 description: "Estriol : nouvelle indication prédite, Aménorrhée (niveau de preuve L3). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "ESTRIOL"
 predicted_indications: ["amenorrhea (disease)"]
@@ -66,6 +66,12 @@ Une étude chez l'humain publiée en 2012 a rapporté que l'administration d'est
 
 Aucun essai clinique associé enregistré actuellement.
 
+<!-- review:begin fr-lic-20261106-estriol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Deux autres AMM annulées existent (PHYSIOGINE 0,5 mg ovule ; TROPHIGIL gélule vaginale). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-estriol-1 -->
+
 ## Preuves de la Litterature
 
 | PMID | Annee | Type | Revue | Resultats Principaux |
@@ -107,6 +113,26 @@ Veuillez consulter la notice pour les informations de sécurité (mises en garde
 - Clarifier l'indication originale
 - Examiner en détail l'étude de 2012 et la revue de 2023, puis évaluer la faisabilité d'un essai clinique contrôlé dans l'AHF
 - Vérifier la compatibilité des voies d'administration (vaginale/orale) avec l'indication visée
+
+<!-- review:begin fr-lic-20261106-estriol-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier l'indication originale et les raisons de l'annulation des AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-estriol-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Deux autres AMM annulées existent (PHYSIOGINE 0,5 mg ovule ; TROPHIGIL gélule vaginale) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

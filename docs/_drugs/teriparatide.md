@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide : nouvelle indication prédite, Ulcère duodénal (duodenal ulcer (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -73,6 +73,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces autorisations. Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-teriparatide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 8 AMM recensées sont toutes annulées. Le texte de l'indication approuvée n'est pas renseigné pour ces autorisations. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-teriparatide-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
 |---------|------|------|------|------|
 | 68877066 | Teriparatide Teva 20 µg/80 µL, stylo prérempli | Solution injectable | Teva (Pays-Bas) | Active |
@@ -103,6 +109,18 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 - Les données détaillées sur le mécanisme d'action.
 - Les mises en garde et contre-indications de la notice ANSM, à télécharger depuis le site de l'ANSM.
 - La vérification du statut réglementaire actuel du tériparatide en France (8 AMM valides sur 8, médicament commercialisé).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 8 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

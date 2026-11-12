@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 579
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Parecoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L3). Indication d'origine : Non renseignée (texte d'indication vide dans l'AMM)"
 monitor_inn: "parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
@@ -114,6 +114,12 @@ Le parécoxib étant un inhibiteur de la COX-2, un déséquilibre de la balance 
 **Justification :**
 - La seule publication clinique (étude pilote, schéma non confirmé) et l'absence d'essai enregistré donnent un niveau de preuve L3. Le profil de sécurité est inconnu faute de notice. À ce stade, il s'agit d'une question de recherche plutôt que d'une candidature prête à avancer.
 
+<!-- review:begin fr-lic-20261106-parecoxib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le profil de sécurité est inconnu faute de notice, et l'AMM annulée avec une forme uniquement injectable limite la faisabilité pratique. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-parecoxib-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) : lacune bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
@@ -121,6 +127,26 @@ Le parécoxib étant un inhibiteur de la COX-2, un déséquilibre de la balance 
 - Clarifier l'indication d'origine du parécoxib
 - Évaluer la compatibilité de la voie d'administration (injectable uniquement) avec la prise en charge des crises de migraine
 - Rechercher des essais contrôlés randomisés supplémentaires et évaluer le risque cardiovasculaire de la COX-2
+
+<!-- review:begin fr-lic-20261106-parecoxib-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier l'indication d'origine du parécoxib et la raison de l'annulation de l'AMM » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-parecoxib-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'AMM annulée avec une forme uniquement injectable limite la faisabilité pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et la raison de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

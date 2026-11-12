@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide : nouvelle indication prédite, Manic bipolar affective disorder (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -39,6 +39,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 ## Résumé en Une Phrase
 
 Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble migraineux** (migraine disorder), avec **4 essais cliniques** et **16 publications** soutenant actuellement cette direction.
+
+<!-- review:begin fr-lic-20261106-lacosamide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Lacosamide est un antiépileptique, dont les autorisations françaises recensées sont toutes annulées. / Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble migraineux** (migraine disorder), avec **4 essais cliniques** et **16 publications** soutenant actuellement cette direction. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lacosamide-1 -->
 
 > Remarque : l'indication prédite en première position par TxGNN est le trouble bipolaire maniaque (score de 0,9996), mais les preuves disponibles sont faibles (niveau L3, études observationnelles et cas isolés). Ce rapport se concentre sur la migraine, l'indication la mieux étayée parmi les dix prédictions, avec un score de 0,9987.
 
@@ -96,6 +102,12 @@ Cette plausibilité mécanistique est cohérente avec la prédiction du modèle,
 
 Au total, 20 AMM sont recensées; seules les 5 premières sont listées ici.
 
+<!-- review:begin fr-lic-20261106-lacosamide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 20 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lacosamide-2 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances (non issues de la notice)** : arythmies et troubles de la conduction (fibrillation auriculaire, flutter auriculaire, bloc auriculo-ventriculaire, maladie du sinus), maladie coronarienne, ischémie myocardique, hypotension orthostatique, syndrome de tachycardie orthostatique posturale, atrophie multisystématisée, maladie hépatique, maladie de la vésicule biliaire.
@@ -123,6 +135,20 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Le syndrome myofascial (L2, « Research Question ») repose sur un essai de phase 2 sans résultats fournis, dont l'intitulé porte sur la fibromyalgie.
 - La migraine avec aura du tronc cérébral est classée « Research Question » (L4), sans donnée directe.
 - Le syndrome de Gilles de la Tourette, la trichotillomanie, le SIAD néphrogénique, l'insomnie, le TOC et la conjonctivite papillaire restent en « Hold » (L4-L5), sans preuve de soutien.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Lacosamide est un antiépileptique, dont les autorisations françaises recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

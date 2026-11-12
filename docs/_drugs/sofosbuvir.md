@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 708
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sofosbuvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L3). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -111,6 +111,12 @@ Les autres essais compilés (programmes de dépistage et de traitement du VHC, p
 
 Au total, 7 AMM sont enregistrées. Les deux autres sont EPCLUSA 400 mg/100 mg (63434686) et VOSEVI 400 mg/100 mg/100 mg (61932485).
 
+<!-- review:begin fr-lic-20261106-sofosbuvir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 7 AMM sont enregistrées, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sofosbuvir-1 -->
+
 ---
 
 ## Considérations de Sécurité
@@ -139,7 +145,27 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 - Mises en garde et contre-indications issues de la notice de l'ANSM, actuellement manquantes
 - Clarification de la situation réglementaire en France
 
+<!-- review:begin fr-lic-20261106-sofosbuvir-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification de la situation réglementaire en France (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sofosbuvir-2 -->
+
 **Note sur les autres indications prédites :** parmi les autres pistes, l'**hépatite E** présente les preuves les plus directes (essai pilote de phase 2 NCT03282474, 10 patients, avec baisse initiale de la charge virale mais sans réponse virologique soutenue, et émergence de variants associés à la résistance). Elle mériterait une évaluation distincte. Les autres pistes (hépatite A, fièvre hémorragique d'Omsk, maladie de la forêt de Kyasanur, VIH) reposent sur des données précliniques, une simple prédiction ou des études de co-infection, et sont à mettre en attente.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Thyrotropin Alfa : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "thyrotropin alfa"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
@@ -106,12 +106,31 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - Toutes les prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication, et sans lien mécanistique plausible. Certaines (hyperthyroïdie, tachycardie orthostatique, hypertension pulmonaire) soulèvent des inquiétudes de sécurité.
 
+<!-- review:begin fr-lic-20261106-thyrotropin_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Certaines (hyperthyroïdie, tachycardie orthostatique, hypertension pulmonaire) soulèvent des inquiétudes de sécurité. De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-thyrotropin_alfa-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications, indication approuvée)
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Établir une hypothèse biologique crédible reliant la signalisation TSH/TSHR à la migraine, avant toute étude
 - Réaliser une revue de la littérature et des registres d'essais cliniques ciblée
 - Évaluer la compatibilité de la voie d'administration (injectable) avec toute indication envisagée
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

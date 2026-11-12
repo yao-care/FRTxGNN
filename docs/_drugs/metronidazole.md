@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -106,6 +106,12 @@ Le médicament est commercialisé en France, avec 20 AMM valides ; le texte d'in
 
 Au total, 20 AMM sont recensées (comprimés, gels, crèmes, ovules, suspension buvable, solutions injectables et associations avec la spiramycine).
 
+<!-- review:begin fr-lic-20261106-metronidazole-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 20 AMM sont recensées (comprimés, gels, crèmes, ovules, suspension buvable, solutions injectables et associations avec la spiramycine), toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-metronidazole-1 -->
+
 ---
 
 ## Considerations de Securite
@@ -131,6 +137,19 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 - Démontrer une activité in vitro ou précliniques sur *Pneumocystis*, sans quoi l'indication ne devrait pas être poursuivie
 
 **Autres pistes plus plausibles parmi les prédictions du modèle** (niveau L4, à étudier comme questions de recherche) : la polypose en capuchon (*cap polyposis*, hypothèse anti-inflammatoire/dysbiose) et l'ulcération vulvaire (maladie de Crohn vulvaire, amibiase génitale), ainsi que la rectosigmoïdite ulcéreuse et la myiase (rôle d'appoint seulement).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

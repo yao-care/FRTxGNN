@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 823
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Voxilaprevir : nouvelle indication prédite, Infection par le virus de l'hépatite B (hepatitis B virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -103,6 +103,12 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 **Justification :**
 - Aucune cible commune plausible n'existe entre la protéase NS3/4A du VHC et le VHB, et aucun essai ni aucune publication ne teste le voxilaprevir contre l'hépatite B. Le score élevé de TxGNN reflète vraisemblablement une proximité dans le réseau de connaissances.
 
+<!-- review:begin fr-lic-20261106-voxilaprevir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le score élevé de TxGNN reflète vraisemblablement une proximité dans le réseau de connaissances. / La seule AMM française est annulée, ce qui limite aussi la faisabilité d'un repositionnement en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-voxilaprevir-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action du voxilaprevir
 - Données de sécurité issues de la notice (mises en garde et contre-indications)
@@ -110,6 +116,19 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 - Vérification du statut réglementaire actuel du produit en France
 
 **Autres pistes prédites (pour information) :** les autres indications prédites (hépatite E, hépatite A, fièvre hémorragique d'Omsk, maladie de la forêt de Kyasanur, VIH, hépatite B chronique, VIS, SIDA félin) reposent sur la prédiction seule ou sur une littérature qui ne démontre aucune activité contre la maladie ciblée. Elles ne justifient pas, en l'état, de recommandation autre que « Hold ». Pour le VIH, la littérature concerne le traitement du VHC chez des patients co-infectés, et non une activité anti-VIH.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « La seule AMM française est annulée, ce qui limite aussi la faisabilité d'un repositionnement en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

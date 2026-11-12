@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -109,6 +109,18 @@ La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai cliniq
 - Études précliniques ou cliniques portant directement sur la malformation respiratoire
 - Mises en garde et contre-indications issues de la notice
 - Évaluation de la compatibilité des voies d'administration
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-10-31 | Supprimé : « au vu du statut uniquement annulé » | N'apparaît plus après la régénération du rapport (2026-11-12 : le rapport a été régénéré en novembre 2026 et ne contient plus cette affirmation ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

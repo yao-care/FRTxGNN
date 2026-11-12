@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "droperidol"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
 description: "Droperidol : nouvelle indication prédite, Syndrome de Gilles de la Tourette (Tourette syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -123,6 +123,12 @@ Aucune littérature associée n'est disponible actuellement pour le syndrome de 
 
 Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées.
 
+<!-- review:begin fr-lic-20261106-droperidol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 10 AMM identifiées sont toutes annulées. Le texte des indications approuvées n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 9 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-droperidol-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 68810459 | DROPERIDOL AGUETTANT 5 mg/2 ml (I.M.) | Solution injectable | Non renseignée |
@@ -162,6 +168,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Clarifier l'indication originale et les raisons de l'annulation des AMM.
 - Pour la migraine : analyse critique des ECR publiés (PMID 12552051 et 11781912) et évaluation du rapport bénéfice/risque cardiaque (QT) à faible dose.
 - Pour le syndrome de Gilles de la Tourette : revue ciblée de la littérature, puis évaluation de la sécurité cardiaque en usage répété avant tout essai.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 10 AMM identifiées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

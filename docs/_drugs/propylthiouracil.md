@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 638
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Propylthiouracil : nouvelle indication prédite, Résistance aux hormones thyroïdiennes due à une mutation du récepteur bêta des hormones thyroïdiennes (niveau de preuve L4). Indication d'origine : Hyperthyroïdie, maladie de Basedow…"
 monitor_inn: "propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
@@ -104,6 +104,12 @@ La notice officielle n'a pas pu être exploitée : veuillez la consulter pour le
 - Le niveau de preuve est L4 (modèles précliniques et cas isolés), sans essai clinique, et le mécanisme suggère un risque d'aggravation plutôt qu'un bénéfice dans cette affection.
 - Le profil de sécurité (hépatotoxicité, atteintes hématologiques) est défavorable.
 
+<!-- review:begin fr-lic-20261106-propylthiouracil-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le produit n'est plus commercialisé en France (AMM annulée) et le profil de sécurité (hépatotoxicité, atteintes hématologiques) est défavorable. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-propylthiouracil-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (mises en garde et contre-indications) auprès de l'ANSM
 - Données détaillées sur le mécanisme d'action (DrugBank)
@@ -115,6 +121,19 @@ La notice officielle n'a pas pu être exploitée : veuillez la consulter pour le
 
 - **Thyrotoxicose néonatale** : le mécanisme est cohérent avec l'indication d'origine, mais la littérature (revues et cohortes) porte sur l'usage maternel d'antithyroïdiens pendant la grossesse, soit une preuve indirecte. Aucun essai enregistré. Le PTU présente un avertissement d'hépatotoxicité sévère et, chez l'enfant, d'autres agents sont généralement préférés. Cela ne soutient pas un usage néonatal direct.
 - **Hyperthyroxinémie** (score 0,9908, niveau L5, Hold) : prédiction purement computationnelle, sans essai ni publication. Le libellé est non spécifique et recouvre des situations où réduire la T4 serait inapproprié ; l'indication devrait être redéfinie selon l'étiologie.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « e produit n'est plus commercialisé en France (AMM annulée) et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 825
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Yohimbine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "YOHIMBINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L4** | Indications prédites: **9**
 
 La yohimbine est un antagoniste des récepteurs alpha-2 adrénergiques. Elle a été commercialisée en France sous le nom YOCORAL 5 mg, mais l'indication approuvée n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN la prédit comme potentiellement efficace pour la **migraine**, avec un score élevé, mais **aucun essai clinique** et **8 publications exclusivement précliniques ou générales** (sans étude clinique d'efficacité) soutiennent cette direction.
+
+<!-- review:begin fr-lic-20261106-yohimbine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Elle a été commercialisée en France sous le nom YOCORAL 5 mg, mais l'indication approuvée n'est pas renseignée dans les données compilées pour ce rapport, et l'autorisation est aujourd'hui annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-yohimbine-1 -->
 
 ## Aperçu Rapide
 
@@ -123,6 +129,19 @@ Les mises en garde et contre-indications de la notice officielle de l'ANSM n'ont
 - Compléter les données sur le mécanisme d'action depuis DrugBank.
 - Clarifier le sens de l'effet (antagonisme vs agonisme alpha-2) par des études précliniques dédiées à la migraine.
 - Évaluer le risque cardiovasculaire et anxiogène avant toute étude clinique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'autorisation est aujourd'hui annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

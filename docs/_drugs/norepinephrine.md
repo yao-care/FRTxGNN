@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 545
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -94,6 +94,12 @@ Aucune étude clinique contrôlée n'a été retrouvée. Les publications les pl
 
 Au total, 7 AMM sont recensées; aucun produit n'est actuellement commercialisé sous ces AMM.
 
+<!-- review:begin fr-lic-20261106-norepinephrine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 7 AMM sont recensées, toutes annulées ; aucun produit n'est actuellement commercialisé sous ces AMM. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-norepinephrine-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : trouble hypertensif, hypertension, maladie thrombotique.
@@ -114,7 +120,27 @@ Au total, 7 AMM sont recensées; aucun produit n'est actuellement commercialisé
 - Analyse de la compatibilité des voies d'administration (seules des formes pour perfusion/injection existent) et du rapport bénéfice/risque cardiovasculaire
 - Clarification du statut réglementaire
 
+<!-- review:begin fr-lic-20261106-norepinephrine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-norepinephrine-2 -->
+
 **Remarque sur les autres prédictions :** la « malformation respiratoire » (niveau L5) ne repose que sur un lien indirect avec le contrôle central de la respiration et ne relève pas d'une correction pharmacologique plausible ; le « syndrome de Rienhoff » (niveau L5) ne dispose d'aucun essai ni publication. Les deux sont en Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

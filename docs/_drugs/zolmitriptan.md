@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Zolmitriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -87,6 +87,12 @@ Aucune des publications ci-dessous n'étudie spécifiquement la migraine avec au
 
 Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.
 
+<!-- review:begin fr-lic-20261106-zolmitriptan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM compilées sont annulées. Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 20 AMM pour ce médicament, dont 20 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zolmitriptan-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 67038894 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé orodispersible | Active |
@@ -117,7 +123,27 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Réaliser une revue ciblée de la littérature sur les triptans dans la migraine avec aura du tronc cérébral
 - Évaluer spécifiquement le risque vasculaire (vasoconstriction) dans ce sous-type, avec avis neurologique et cardiovasculaire
 
+<!-- review:begin fr-lic-20261106-zolmitriptan-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluer spécifiquement le risque vasculaire (vasoconstriction) dans ce sous-type, avec avis neurologique et cardiovasculaire / Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 20 AMM pour ce médicament, dont 20 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-zolmitriptan-2 -->
+
 Les deux autres prédictions (atrophodermie vermiculée et uléryhème ophryogène) ne reposent sur aucun lien mécanistique ni preuve clinique ; elles sont à maintenir en statut Hold (niveau L5).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM compilées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

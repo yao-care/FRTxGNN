@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 724
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Sulprostone : nouvelle indication prédite, Cataracte tétanique (tetanic cataract) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "SULPROSTONE"
 predicted_indications: ["tetanic cataract", "diabetes mellitus type 2 associated cataract", "immature cataract", "craniostenosis cataract", "mature cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "diabetic retinopathy"]
@@ -41,6 +41,12 @@ Niveau de preuve: **L5** | Indications prédites: **10**
 Sulprostone est un agoniste sélectif des récepteurs EP1/EP3 de la prostaglandine E2, dont l'indication d'origine n'est pas documentée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cataracte tétanique**, avec un score élevé mais **aucun essai clinique** et **aucune publication** à l'appui.
 Cette prédiction repose donc uniquement sur le modèle.
+
+<!-- review:begin fr-lic-20261106-sulprostone-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Sulprostone est un agoniste sélectif des récepteurs EP1/EP3 de la prostaglandine E2, dont l'indication d'origine n'est pas documentée dans les données compilées pour ce rapport (son autorisation française est aujourd'hui annulée). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sulprostone-1 -->
 
 ## Aperçu Rapide
 
@@ -104,12 +110,32 @@ Veuillez consulter la notice pour les informations de sécurité. Les données c
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non plausible en l'état.
 - L'absence de données de sécurité issues de la notice constitue un point bloquant pour toute évaluation ultérieure.
 
+<!-- review:begin fr-lic-20261106-sulprostone-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non plausible en l'état. Le produit n'est plus commercialisé en France (AMM annulée) et n'a aucun historique de développement ophtalmologique. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-sulprostone-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde, contre-indications, indications d'origine).
 - Obtenir les données sur le mécanisme d'action (par exemple via DrugBank) afin d'évaluer un lien mécanistique.
 - Mener une revue de la littérature préclinique sur les récepteurs EP1/EP3 dans le cristallin et l'œil.
 - Évaluer la compatibilité de la voie d'administration (parentérale actuellement, alors que les affections oculaires nécessiteraient probablement une voie locale).
 - Prioriser éventuellement les indications oculaires où un rationnel biologique est plus plausible, tout en évaluant le risque d'aggravation.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (son autorisation française est aujourd'hui annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Le produit n'est plus commercialisé en France (AMM annulée) et n'a aucun historique de développement ophtalmologique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

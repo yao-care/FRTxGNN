@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline : nouvelle indication prédite, Chronic rhinosinusitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -81,6 +81,12 @@ Ces données sont anciennes, portent sur des associations et laissent la contrib
 
 Les formes disponibles sont à usage ophtalmique et auriculaire. Aucune n'est conçue pour une administration nasale ou sinusienne, ce qui soulève une question de voie d'administration pour la nouvelle indication.
 
+<!-- review:begin fr-lic-20261106-oxytetracycline-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM sont annulées, et les formes disponibles sont à usage ophtalmique et auriculaire. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-oxytetracycline-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (ne provenant pas du texte de la notice) : maladie rénale, insuffisance rénale, urémie, glomérulonéphrite, maladie hépatique, maladie de la vésicule biliaire, colite à *Clostridium difficile*, entérocolite nécrosante périnatale, déficit en G6PD, fibrillation auriculaire, bloc auriculo-ventriculaire, syndrome d'Adams-Stokes, syndrome de Wolff-Parkinson-White, insuffisance respiratoire, déficit en potassium, glycogénose, cystinurie, galactosémie, pyo-uretère.
@@ -98,12 +104,32 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni aucune publication ne la soutiennent, le mécanisme d'action n'est pas documenté.
 
+<!-- review:begin fr-lic-20261106-oxytetracycline-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique ni aucune publication ne la soutiennent, le mécanisme d'action n'est pas documenté et le médicament n'a plus d'AMM valide en France. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-oxytetracycline-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données sur le mécanisme d'action (DrugBank) pour analyser le lien mécanistique.
 - Les mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité).
 - Une revue de la littérature ciblée sur l'oxytétracycline ou les tétracyclines dans la rhinosinusite chronique.
 - Une évaluation de la compatibilité de la voie d'administration (aucune forme nasale ou sinusienne disponible).
 - Éventuellement, une évaluation séparée de l'otite externe, seule indication prédite disposant de publications cliniques.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es deux AMM sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et le médicament n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

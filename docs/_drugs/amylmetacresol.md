@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Amylmetacresol : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (antiseptique local pour la g…"
 monitor_inn: "amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -73,6 +73,12 @@ Aucune littérature associée disponible actuellement.
 
 Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées).
 
+<!-- review:begin fr-lic-20261106-amylmetacresol-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 16 AMM recensées sont toutes annulées. Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-amylmetacresol-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 69742210 | Strepsils Miel Citron, pastille à sucer (BB Farma) | Pastille à sucer | Non renseignée |
@@ -93,11 +99,31 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune donnée
 - La prédiction repose uniquement sur le modèle (L5) : aucun essai, aucune publication, aucun mécanisme plausible. Le produit est utilisé par voie locale oropharyngée.
 - Les données de sécurité des notices manquent, ce qui bloque le passage à l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-amylmetacresol-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le produit est utilisé par voie locale oropharyngée et toutes ses AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-amylmetacresol-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse des notices ANSM (mises en garde, contre-indications)
 - Données sur le mécanisme d'action (par exemple via DrugBank)
 - Évaluation de la pertinence de voies d'administration autres que la voie oropharyngée
 - Réexamen d'indications alternatives mieux étayées, car aucune des 10 prédictions actuelles ne dispose de preuves cliniques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 16 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et toutes ses AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

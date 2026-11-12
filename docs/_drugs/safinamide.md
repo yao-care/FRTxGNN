@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 689
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -92,12 +92,38 @@ Les mises en garde et contre-indications de la notice n'étant pas disponibles, 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique spéculatif. De plus, les données de sécurité de la notice sont manquantes.
 
+<!-- review:begin fr-lic-20261106-safinamide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « De plus, le médicament n'a plus d'AMM en vigueur en France et les données de sécurité de la notice sont manquantes. » Supprimé : l'affirmation contredisait les données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-safinamide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), préalable indispensable à toute évaluation de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par ex. via DrugBank)
 - Réaliser une revue de la littérature préclinique sur safinamide dans l'encéphalite de Rasmussen
 - Clarifier la situation réglementaire et la faisabilité d'une voie d'accès au médicament
 - Si une piste est poursuivie, envisager en priorité la neurodégénérescence associée à PLA2G6 pour un usage symptomatique, la plus plausible biologiquement
+
+<!-- review:begin fr-lic-20261106-safinamide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire (AMM annulées) et la faisabilité d'une voie d'accès au médicament » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-safinamide-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « le médicament n'a plus d'AMM en vigueur en France et » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

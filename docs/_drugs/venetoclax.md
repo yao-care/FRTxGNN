@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "venetoclax"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax : nouvelle indication prédite, Hodgkins lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -104,11 +104,23 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - Aucune donnée clinique ou bibliographique spécifique à ce sous-type, et le score élevé reflète l'indication déjà connue dans la LLC plutôt qu'un repositionnement nouveau. Le statut français et l'absence de données de sécurité issues de la notice (lacune bloquante) empêchent aussi d'avancer.
 
+<!-- review:begin fr-lic-20261106-venetoclax-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le statut français (AMM toutes annulées) et l'absence de données de sécurité issues de la notice (lacune bloquante) empêchent aussi d'avancer. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-venetoclax-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle de l'ANSM (mises en garde et contre-indications) pour la revue de sécurité
 - Données détaillées sur le mécanisme d'action
 - Données cliniques spécifiques aux sous-types IGHV de la LLC/SLL
 - Clarification du statut réglementaire actuel en France
+
+<!-- review:begin fr-lic-20261106-venetoclax-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarification du statut réglementaire actuel en France (AMM annulées) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-venetoclax-2 -->
 
 ---
 
@@ -124,6 +136,20 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 | 9 | Spiradénome malin | 0,9912 | L5 | Hold |
 
 Il s'agit toutefois d'un usage déjà standard (vénétoclax + azacitidine chez les patients âgés ou inéligibles à la chimiothérapie intensive), donc non novateur. Les garde-fous seraient : interactions avec les inhibiteurs forts du CYP3A, surveillance du syndrome de lyse tumorale et de la myélosuppression, et vigilance face aux résistances.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

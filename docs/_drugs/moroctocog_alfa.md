@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 description: "Moroctocog Alfa : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans…"
@@ -116,12 +116,31 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle, sans essai clinique ni publication, et le mécanisme du facteur VIII ne correspond pas aux défauts plaquettaires visés. Les données de sécurité sont absentes.
 
+<!-- review:begin fr-lic-20261106-moroctocog_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Aucune AMM n'est en vigueur en France et les données de sécurité sont absentes. » Supprimé : l'affirmation contredisait les données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-moroctocog_alfa-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications issues de la notice de l'ANSM (lacune bloquante pour tout examen de sécurité)
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Vérification de l'entité « flood factor deficiency » avant toute évaluation
 - Pour la piste la plus plausible (déficit acquis en facteur de coagulation) : revue de la littérature et évaluation de l'impact des inhibiteurs
 - Données précliniques ou cliniques démontrant un bénéfice dans l'une des indications prédites
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Aucune AMM n'est en vigueur en France et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

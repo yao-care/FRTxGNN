@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Manidipine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "MANIDIPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
@@ -41,6 +41,12 @@ Niveau de preuve: **L5** | Indications prédites: **8**
 Manidipine est un inhibiteur calcique de la famille des dihydropyridines, dont l'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport.
 Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*migraine disorder*), mais **aucun essai clinique** et **aucune publication** ne soutiennent directement cette direction.
 La prédiction repose donc uniquement sur le modèle (niveau de preuve L5).
+
+<!-- review:begin fr-lic-20261106-manidipine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Manidipine est un inhibiteur calcique de la famille des dihydropyridines, dont l'indication d'origine n'est pas renseignée dans les données compilées pour ce rapport (les AMM françaises sont toutes annulées et sans texte d'indication). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-manidipine-1 -->
 
 ---
 
@@ -97,6 +103,12 @@ Aucune littérature associée à la migraine disponible actuellement.
 
 Les 16 AMM recensées sont des génériques sous forme de comprimés. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-manidipine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 16 AMM recensées sont des génériques sous forme de comprimés, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-manidipine-2 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 67985231 | MANIDIPINE ZYDUS 20 mg, comprimé | Comprimé | Non renseignée (AMM active) |
@@ -127,6 +139,27 @@ Pour les mises en garde, contre-indications et interactions médicamenteuses, ve
 - Obtenir les données de mécanisme d'action détaillées (DrugBank)
 - Lancer une recherche bibliographique ciblée sur la manidipine dans la migraine, et dans l'angor de Prinzmetal, la piste mécanistiquement la plus cohérente
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine (actuellement en attente)
+
+<!-- review:begin fr-lic-20261106-manidipine-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Lancer une recherche bibliographique ciblée sur la manidipine dans la migraine, et dans l'angor de Prinzmetal, la piste mécanistiquement la plus cohérente / Clarifier les raisons de l'annulation des AMM françaises et l'indication d'origine » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-manidipine-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « (les AMM françaises sont toutes annulées et sans texte d'indication) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM françaises et l'indication d'origine » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

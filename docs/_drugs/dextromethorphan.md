@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 233
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-12
 monitor_inn: "dextromethorphan"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "trigeminal autonomic cephalalgia", "cervical disc degenerative disorder", "allergic urticaria"]
 description: "Dextromethorphan : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -93,6 +93,12 @@ Aucune littérature associée disponible actuellement.
 
 Le texte des indications approuvées n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-dextromethorphan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Deux autres AMM annulées existent (NODEX ADULTES, sirop unidose ; TUSSIDANE 30 mg, comprimé pelliculé sécable). Le texte des indications approuvées n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dextromethorphan-1 -->
+
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : hypertension, syndrome du QT long (y compris familial), torsades de pointes, insuffisance hépatique, épilepsie, bronchopneumopathie chronique obstructive, bronchite, ulcère gastrique ou peptique, maladie rénale, pancréatite, maladie hépatique, maladie de la vésicule biliaire, thrombocytopénie, insuffisance surrénalienne (maladie d'Addison), hypothyroïdie, maladie inflammatoire de l'intestin, diabète et acidocétose diabétique, hyperplasie bénigne de la prostate, trouble hypotensif, entre autres.
@@ -107,12 +113,32 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Elle recoupe probablement des indications déjà existantes.
 
+<!-- review:begin fr-lic-20261106-dextromethorphan-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Elle recoupe probablement des indications déjà existantes. Par ailleurs, le médicament est commercialisé en France : 7 AMM valides sur 7. » Supprimé : le nombre ou le statut des AMM indiqué ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 7 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dextromethorphan-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (DrugBank) pour évaluer le lien mécanistique
 - Mises en garde et contre-indications officielles de la notice (ANSM), actuellement manquantes et bloquantes pour l'évaluation de sécurité
 - Revue de la littérature et des registres d'essais pour la maladie de la cavité nasale
 - Clarification de la nouveauté réelle de l'indication par rapport aux indications déjà couvertes
 - Évaluation de la voie d'administration et du profil d'interactions avant toute étude
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Deux autres AMM annulées existent (NODEX ADULTES, sirop unidose ; TUSSIDANE 30 mg, comprimé pelliculé sécable) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Par ailleurs, le médicament est commercialisé en France : 7 AMM valides sur 7 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

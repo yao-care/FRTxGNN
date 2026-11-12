@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "PIBRENTASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Pibrentasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (hepatitis B virus infection) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -98,14 +98,40 @@ Veuillez consulter la notice pour les informations de sécurité. Les données d
 **Justification :**
 La prédiction pour l'hépatite B repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication la soutenant. Le mécanisme d'action de pibrentasvir, un inhibiteur de NS5A sans cible équivalente chez le VHB, ne plaide pas en faveur du repositionnement.
 
+<!-- review:begin fr-lic-20261106-pibrentasvir-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le mécanisme d'action de pibrentasvir, un inhibiteur de NS5A sans cible équivalente chez le VHB, ne plaide pas en faveur du repositionnement. De plus, les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pibrentasvir-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), actuellement bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
 - Réaliser des études précliniques *in vitro* testant l'activité de pibrentasvir contre le VHB
 
+<!-- review:begin fr-lic-20261106-pibrentasvir-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Réaliser des études précliniques *in vitro* testant l'activité de pibrentasvir contre le VHB / Clarifier les raisons de l'annulation des AMM françaises » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-pibrentasvir-2 -->
+
 ### Remarque sur les autres indications prédites
 
 Aucune des autres indications prédites ne justifie une priorité plus élevée. Pour l'infection par le VIH (L4), les essais de phase 3 portent sur la guérison du VHC chez des patients co-infectés et ne démontrent pas d'effet anti-VIH. Les hépatites E et A, l'hépatite virale animale, les fièvres hémorragiques d'Omsk et de la forêt de Kyasanur, les infections virales animales (VIF, VIS) et le trouble neurodéveloppemental rare n'ont aucun lien mécanistique plausible ou aucune preuve disponible. Elles restent toutes en **Hold**.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécur » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM françaises » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

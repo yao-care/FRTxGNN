@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
 description: "Ranibizumab : nouvelle indication prédite, Immature cataract (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -65,6 +65,12 @@ La littérature comprend des analyses post hoc des essais de phase 3 RIDE/RISE m
 
 Aucun essai clinique associé enregistré actuellement pour cette indication.
 
+<!-- review:begin fr-lic-20261106-ranibizumab-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM annulée existe (RIMMYRAH 10 mg/ml, solution injectable, n° 61190863). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ranibizumab-1 -->
+
 ## Preuves de la Littérature
 
 | PMID | Année | Type | Revue | Résultats Principaux |
@@ -109,9 +115,29 @@ Pour le reste, veuillez consulter la notice pour les informations de sécurité.
 - Obtenir la notice (mises en garde, contre-indications) auprès de l'ANSM
 - Obtenir les données sur le mécanisme d'action
 
+<!-- review:begin fr-lic-20261106-ranibizumab-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Vérifier la disponibilité et le statut réglementaire actuels en France (AMM annulées ; autres procédures éventuelles) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ranibizumab-2 -->
+
 ## Autres indications prédites (non retenues)
 
 Décision : **Hold**. À noter, un cas de syndrome de blocage capsulaire après injection de ranibizumab a été rapporté (effet indésirable, pas un bénéfice thérapeutique).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Une sixième AMM annulée existe (RIMMYRAH 10 mg/ml, solution injectable, n° 61190863) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées ; autres procédures éventuelles) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

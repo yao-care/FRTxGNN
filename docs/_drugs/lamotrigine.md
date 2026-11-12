@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -89,6 +89,12 @@ Ces deux publications portent sur la névralgie du trijumeau et ne constituent p
 
 Sur les 20 AMM recensées, 5 sont présentées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-lamotrigine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Sur les 20 AMM recensées, 5 sont présentées ci-dessous. Toutes sont annulées et aucune n'a de texte d'indication renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lamotrigine-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 65667034 | LAMICTAL 200 mg (GlaxoSmithKline) | Comprimé dispersible ou à croquer | Non renseignée |
@@ -115,11 +121,31 @@ Les mises en garde et contre-indications officielles de la notice ne figurent pa
 **Justification :**
 - La prédiction repose uniquement sur le modèle (L5). Aucun essai clinique n'existe et la littérature retrouvée concerne la névralgie du trijumeau, non le néoplasme.
 
+<!-- review:begin fr-lic-20261106-lamotrigine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Aucun essai clinique n'existe et la littérature retrouvée concerne la névralgie du trijumeau, non le néoplasme. / Toutes les AMM françaises de la lamotrigine sont annulées, ce qui limite aussi la faisabilité réglementaire. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lamotrigine-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Des données précoces (précliniques ou mécanistiques) montrant un effet antitumoral de la lamotrigine sur les tumeurs du nerf trijumeau, ou une confirmation que la prédiction reflète en réalité la névralgie du trijumeau
 - Les données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications de la notice officielle de l'ANSM
 - Une réorientation de l'évaluation vers la **névralgie du trijumeau** (Phase 2/3 contre carbamazépine, 21 patients, niveau L2, « Proceed with Guardrails »), qui dispose de preuves nettement plus solides
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Toutes sont annulées et aucune n'a de texte d'indication renseigné » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Toutes les AMM françaises de la lamotrigine sont annulées, ce qui limite aussi la faisabilité réglementaire » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

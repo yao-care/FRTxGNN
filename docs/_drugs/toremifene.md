@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 775
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Toremifene : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "toremifene"
 predicted_indications: ["HIV infectious disease"]
@@ -100,12 +100,38 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5). La seule publication est préclinique, concerne la cryptococcose et non le VIH, et aucun essai clinique n'existe. Les données de sécurité officielles sont absentes.
 
+<!-- review:begin fr-lic-20261106-toremifene-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données de sécurité officielles sont absentes, et l'AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-toremifene-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications) afin de réaliser le criblage de sécurité
 - Obtenir les données sur le mécanisme d'action (DrugBank) et la ou les indications d'origine
 - Générer des preuves directes d'activité anti-VIH (études in vitro sur la réplication virale), ou reformuler l'hypothèse vers la cryptococcose associée au VIH
 - Évaluer le risque de QT et les interactions chez les patients VIH polymédiqués
 - Clarifier la faisabilité d'approvisionnement
+
+<!-- review:begin fr-lic-20261106-toremifene-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la faisabilité d'approvisionnement, l'AMM française étant annulée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-toremifene-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM française étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

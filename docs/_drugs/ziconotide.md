@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 828
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ziconotide : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "ZICONOTIDE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "obesity disorder", "transient ischemic attack (disease)", "open-angle glaucoma", "obsolete neurogenic bladder (disease)", "primary hereditary glaucoma", "preeclampsia"]
@@ -113,11 +113,37 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Justification :**
 - La preuve se limite à un rapport de cas et à des revues, sans aucun essai clinique. La voie intrathécale invasive présente un rapport bénéfice-risque défavorable pour la migraine. Les données de sécurité officielles sont absentes, ce qui bloque le passage au criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-ziconotide-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le produit n'a plus d'AMM valide en France (autorisation annulée) et la voie intrathécale invasive présente un rapport bénéfice-risque défavorable pour la migraine. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ziconotide-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), donnée bloquante.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Réaliser une étude prospective ou une série de cas plus large chez des patients migraineux réfractaires, avec un plan de surveillance neuropsychiatrique.
 - Comparer le ziconotide aux alternatives non invasives (anti-CGRP, par exemple) pour justifier l'intérêt clinique.
+
+<!-- review:begin fr-lic-20261106-ziconotide-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Obtenir les données détaillées sur le mécanisme d'action (DrugBank). / Confirmer l'indication originale de l'AMM annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ziconotide-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « e produit n'a plus d'AMM valide en France (autorisation annulée) et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Confirmer l'indication originale de l'AMM annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

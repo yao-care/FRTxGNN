@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "NARATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Naratriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -107,6 +107,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - La prédiction repose uniquement sur le modèle et sur un raisonnement par classe pharmacologique, sans essai clinique ni étude directe sur ce sous-type. Les triptans sont de plus traditionnellement déconseillés dans la migraine avec aura du tronc cérébral. Le dossier de sécurité (données de notice absentes) est bloquant à ce stade.
 
+<!-- review:begin fr-lic-20261106-naratriptan-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les triptans sont de plus traditionnellement déconseillés dans la migraine avec aura du tronc cérébral, et l'AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-naratriptan-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice (ANSM).
 - Compléter les données sur le mécanisme d'action.
@@ -114,7 +120,27 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Rechercher des études cliniques ou observationnelles ciblant spécifiquement la migraine avec aura du tronc cérébral.
 - Clarifier la situation réglementaire.
 
+<!-- review:begin fr-lic-20261106-naratriptan-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire, l'AMM étant annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-naratriptan-2 -->
+
 *Autres prédictions (niveau L5, Hold) : l'atrophodermie vermiculée (score 0,9974) et l'ulérythème ophryogène (score 0,9947) n'ont aucun essai, aucune publication et aucun lien mécanistique identifié ; elles relèvent d'une prédiction purement computationnelle.*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

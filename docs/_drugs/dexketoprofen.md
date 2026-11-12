@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
 description: "Dexketoprofen : nouvelle indication prédite, Tendinitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -63,6 +63,12 @@ Cette action sur les prostaglandines et l'inflammation neurogène est impliquée
 
 L'étape de décision est limitée à S2 car aucune indication autorisée et actuellement commercialisée n'est établie.
 
+<!-- review:begin fr-lic-20261106-dexketoprofen-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « **Réserves :** les essais sont de phase 4 (post-commercialisation) et non de phase 3 ; plusieurs sont des comparaisons avec un traitement actif aux urgences ; et le statut de marché « annulé » impose de vérifier le contexte réglementaire et la disponibilité. L'étape de décision est limitée à S2 car aucune indication autorisée et actuellement commercialisée n'est établie. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dexketoprofen-1 -->
+
 ## Preuves d'Essais Cliniques
 
 | Numéro d'Essai | Phase | Statut | Inscription | Résultats Principaux |
@@ -109,11 +115,38 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Justification :**
 - Plusieurs essais randomisés (dont un essai de phase 4 contrôlé contre placebo) et une méta-analyse soutiennent l'usage de la dexkétoprofène dans la crise de migraine aiguë. Toutefois, il s'agit d'essais de phase 4, souvent contre comparateur actif et les données de sécurité de la notice manquent. La prudence s'impose.
 
+<!-- review:begin fr-lic-20261106-dexketoprofen-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Toutefois, il s'agit d'essais de phase 4, souvent contre comparateur actif, les AMM françaises sont toutes annulées et les données de sécurité de la notice manquent. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dexketoprofen-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir et analyser la notice ANSM (mises en garde, contre-indications), une lacune bloquante pour l'évaluation de sécurité
 - Compléter les données sur le mécanisme d'action (DrugBank)
 - Confirmer l'efficacité par un essai de phase 3 ou une analyse critique de la méta-analyse, dont les conclusions sont décrites comme controversées
 - Définir la voie d'administration adaptée (la compatibilité des voies n'est pas encore évaluée)
+
+<!-- review:begin fr-lic-20261106-dexketoprofen-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Compléter les données sur le mécanisme d'action (DrugBank) / Vérifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-dexketoprofen-3 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « **Réserves :** les essais sont de phase 4 (post-commercialisation) et non de phase 3 ; plusieurs sont des comparaisons avec un traitement ac » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Vérifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 681
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin : nouvelle indication prédite, Cholesterol-ester transfer protein deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -146,6 +146,25 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 - Les données détaillées sur le mécanisme d'action.
 - La vérification de la disponibilité réelle des produits.
 - Un plan de surveillance : CPK, transaminases, fonction rénale, gestion des interactions (notamment fénofibrate et atazanavir), et posologie adaptée à l'enfant.
+
+<!-- review:begin fr-lic-20261106-rosuvastatin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « La vérification de la disponibilité réelle des produits, les 20 AMM étant toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-rosuvastatin-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « les 20 AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

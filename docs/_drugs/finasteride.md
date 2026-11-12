@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-12
 monitor_inn: "finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) (niveau de preuve L5). Indication d'origine : Non re…"
@@ -92,6 +92,12 @@ Pour la deuxième prédiction (hypertrichose, score 0,9999), quatre publications
 
 Le texte d'indication n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-finasteride-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensées sont toutes **annulées** (voici les 5 premières). Le texte d'indication n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-finasteride-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 67836928 | FINASTERIDE EG 1 mg | Comprimé pelliculé | Non renseignée |
@@ -126,6 +132,19 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Rechercher des données précliniques ou des rapports de cas sur la finastéride dans les hypertrichoses congénitales, et vérifier les résumés des revues indirectes
 - Évaluer la faisabilité de la voie d'administration et les risques développementaux (effets sur le fœtus masculin)
 - Clarifier le statut réglementaire (médicament commercialisé, 20 AMM valides)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes **annulées** (voici les 5 premières) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

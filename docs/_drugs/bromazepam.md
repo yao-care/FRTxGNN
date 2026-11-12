@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Bromazepam : nouvelle indication prédite, Migraine (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "bromazepam"
 predicted_indications: ["migraine disorder"]
@@ -83,6 +83,12 @@ Aucune littérature associée disponible actuellement.
 
 Les 5 premières sont listées ci-dessous.
 
+<!-- review:begin fr-lic-20261106-bromazepam-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 10 AMM recensées sont toutes annulées. Les 5 premières sont listées ci-dessous. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-bromazepam-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 64416164 | Bromazepam Viatris 6 mg | Comprimé quadrisécable | Active |
@@ -116,6 +122,26 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank).
 - Mener une revue de la littérature sur les benzodiazépines dans la migraine.
 - Évaluer la compatibilité de la voie d'administration et la similarité avec l'indication d'origine.
+
+<!-- review:begin fr-lic-20261106-bromazepam-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Mener une revue de la littérature sur les benzodiazépines dans la migraine. / Clarifier les raisons de l'annulation des AMM et l'indication originale approuvée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-bromazepam-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Les 10 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et l'indication originale approuvée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

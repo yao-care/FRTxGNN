@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "MINOCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -96,12 +96,31 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 - La prédiction repose uniquement sur le score du modèle (0,9963), sans aucun essai clinique ni publication. Le niveau de preuve est L5.
 - Les données de sécurité issues de la notice sont manquantes (lacune bloquante), le mécanisme d'action n'est pas documenté.
 
+<!-- review:begin fr-lic-20261106-minocycline-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les données de sécurité issues de la notice sont manquantes (lacune bloquante), le mécanisme d'action n'est pas documenté, et la seule AMM française est annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-minocycline-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) pour permettre le dépistage de sécurité.
 - Obtenir les données de mécanisme d'action (par exemple via DrugBank).
 - Réaliser une revue systématique de la littérature et des registres d'essais sur la minocycline dans les atteintes de la surface oculaire.
 - Évaluer la compatibilité de la voie d'administration (orale actuelle vs oculaire) et la disponibilité réelle du produit en France.
 - Démontrer la pertinence préclinique de l'effet anti-MMP et anti-inflammatoire dans la kératoconjonctivite épithéliale ponctuée.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

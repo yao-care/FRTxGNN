@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-12
 description: "Erdafitinib : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -94,6 +94,12 @@ Ce lien repose uniquement sur le score de prédiction TxGNN. De plus, l'inhibiti
 **Justification :**
 La prédiction repose uniquement sur le score TxGNN (niveau de preuve L5), sans essai clinique ni publication spécifique. Les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité.
 
+<!-- review:begin fr-lic-20261106-erdafitinib-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les AMM françaises sont toutes annulées et les données de sécurité de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 3 AMM pour ce médicament, dont 3 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-erdafitinib-1 -->
+
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) depuis le site de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank)
@@ -114,6 +120,18 @@ Toutes ces prédictions sont de niveau L5 avec une décision **Hold**.
 | 4 | Polyarthrite rhumatoïde | 0,9925 | Hypothèse plausible mais non validée (activation des fibroblastes synoviaux, angiogenèse) ; la seule publication (PMID [31862477](https://pubmed.ncbi.nlm.nih.gov/31862477/), revue générale de 2020 sur les inhibiteurs de kinases approuvés par la FDA) est un contexte indirect |
 | 5 | Sclérose latérale amyotrophique | 0,9906 | Sens de l'effet incertain, l'inhibition de FGFR pouvant être neutre ou délétère ; pénétration du SNC non caractérisée |
 | 6 | Syndrome brachydactylie-syndactylie | 0,9903 | Lien conceptuel avec le développement des membres ; questions de sécurité importantes (effets squelettiques, développementaux, grossesse) |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 206
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
 description: "Cytarabine : nouvelle indication prédite, Small cell lung carcinoma (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
@@ -75,6 +75,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 Sélection des publications les plus pertinentes parmi celles recensées (aucune n'est un essai randomisé portant sur le carcinome à petites cellules) :
 
+<!-- review:begin fr-lic-20261106-cytarabine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Ces 5 AMM sont annulées, comme les 6 autres (11 au total, y compris VYXEOS LIPOSOMAL, CYTARABINE KABI, CYTARABINE ACCORD 100 mg/ml, ARACYTINE 2 g et deux autres présentations CYTARABINE SANDOZ). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-cytarabine-1 -->
+
 | PMID | Année | Type | Revue | Résultats Principaux |
 |------|-----|------|------|---------|
 | [3030547](https://pubmed.ncbi.nlm.nih.gov/3030547/) | 1987 | Non classé | Cancer Treat Rep | Cytarabine à haute dose dans le cancer pulmonaire à petites cellules ; résumé non disponible |
@@ -140,6 +146,19 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 ### Note sur les autres indications prédites
 
 Parmi les autres indications examinées, aucune n'atteint un niveau de preuve supérieur à L4, à l'exception de la neuroblastome (L3, recommandation « question de recherche ») : elle repose sur des données précliniques in vitro (par exemple le priming par la CPEC pour la toxicité de la cytarabine) et sur trois essais précoces dont le lien avec la cytarabine n'est pas confirmé. Le lymphome pulmonaire primitif (L4) repose sur des données indirectes issues de lymphomes du système nerveux central. Les autres indications (adénocarcinome fœtal bien différencié du poumon, blastome pulmonaire, ganglioneuroblastome, syndrome malformatif vertébral avec dysfonction endocrinienne et des lymphocytes T) ne reposent que sur la prédiction du modèle (L5).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « Ces 5 AMM sont annulées, comme les 6 autres (11 au total, y compris VYXEOS LIPOSOMAL, CYTARABINE KABI, CYTARABINE ACCORD 100 mg/ml, ARACYTIN » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

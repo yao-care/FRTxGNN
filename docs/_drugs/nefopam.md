@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "nefopam"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
 description: "Nefopam : nouvelle indication prédite, Craniostenosis cataract (niveau de preuve L5)."
@@ -86,6 +86,12 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - La prédiction repose uniquement sur le score du modèle (niveau L5). Il n'y a ni essai clinique, ni publication, ni mécanisme plausible reliant le néfopam à cette maladie rare.
 - Les informations de sécurité issues de la notice sont indisponibles.
 
+<!-- review:begin fr-lic-20261106-nefopam-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'unique AMM française est abrogée, et les informations de sécurité issues de la notice sont indisponibles. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nefopam-1 -->
+
 **Piste alternative à noter :** parmi les prédictions moins bien classées, la **sténose lombaire** (score 0,9997) est la seule qui dispose de publications (4 références, niveau L3). Il s'agit d'études sur le néfopam périopératoire : douleur postopératoire, dysesthésies et épargne des opioïdes en chirurgie du rachis. Elles concernent le contrôle des symptômes et non la modification de la maladie. Une étude randomisée en double aveugle de 2023 (73 patients) pourrait justifier un niveau L2 si son design est confirmé. Un cas de **crises convulsives / état de mal épileptique** attribué au néfopam impose une évaluation attentive de la sécurité. Cette piste, davantage plausible sur le plan pharmacologique, mérite d'être évaluée séparément.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
@@ -93,6 +99,26 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank) pour analyser un éventuel lien mécanistique.
 - Pour la cataracte avec craniosténose : une justification biologique préclinique avant tout investissement clinique.
 - Pour la sténose lombaire : confirmer le design des études (essai randomisé ou non), puis réaliser une revue de sécurité centrée sur le risque convulsif.
+
+<!-- review:begin fr-lic-20261106-nefopam-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Récupérer la notice officielle (ANSM) pour les mises en garde et contre-indications, et clarifier le statut réglementaire de l'AMM abrogée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-nefopam-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « 'unique AMM française est abrogée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « et clarifier le statut réglementaire de l'AMM abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

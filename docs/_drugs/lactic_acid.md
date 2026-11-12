@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Lactic Acid : nouvelle indication prédite, Coarctation atypique de l'aorte (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM (texte d'indication vide)"
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -40,6 +40,12 @@ Niveau de preuve: **L5** | Indications prédites: **5**
 
 Le modèle TxGNN le prédit comme potentiellement efficace pour la **coarctation atypique de l'aorte**, avec un score élevé (0,9959).
 Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et **aucune publication** ne la soutient pour cette indication.
+
+<!-- review:begin fr-lic-20261106-lactic_acid-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « L'acide lactique est un métabolite endogène, commercialisé en France sous forme de préparations homéopathiques (Lacticum acidum Lehning et Boiron), dont les deux autorisations sont aujourd'hui annulées et sans indication approuvée renseignée. / Le modèle TxGNN le prédit comme potentiellement efficace pour la **coarctation atypique de l'aorte**, avec un score élevé (0,9959). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lactic_acid-1 -->
 
 ## Aperçu Rapide
 
@@ -94,6 +100,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Aucun lien mécanistique plausible n'est identifié entre l'acide lactique et une malformation aortique congénitale.
 
+<!-- review:begin fr-lic-20261106-lactic_acid-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Aucun lien mécanistique plausible n'est identifié entre l'acide lactique et une malformation aortique congénitale. Les deux AMM françaises sont annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-lactic_acid-2 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action de l'acide lactique, afin d'analyser un éventuel lien mécanistique.
 - Mises en garde et contre-indications issues de la notice officielle de l'ANSM (bloquant pour toute étape de sécurité).
@@ -110,6 +122,20 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 | 5 | Syndrome de l'œil sec | 0,9913 | L4 | Question de recherche |
 
 Parmi elles, seul le syndrome de l'œil sec présente un indice indirect : l'acide lactique est un composant normal du film lacrymal et des altérations métaboliques sont décrites dans le syndrome de Sjögren. Les études disponibles portent cependant sur des probiotiques ou d'autres agents, et non sur l'acide lactique lui-même. Cette piste reste une hypothèse de recherche (pH ou osmolarité de la surface oculaire), sans soutien clinique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « L'acide lactique est un métabolite endogène, commercialisé en France sous forme de préparations homéopathiques (Lacticum acidum Lehning et B » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

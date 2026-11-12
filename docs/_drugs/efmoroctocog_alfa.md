@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Efmoroctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie (forme symptomatique de l'hémophilie chez les porteuses)"
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -97,6 +97,12 @@ Aucune littérature associée disponible actuellement.
 
 Les 8 autorisations, toutes détenues par Swedish Orphan Biovitrum International (Suède), sont **valides**. Le texte des indications approuvées n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-efmoroctocog_alfa-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « *Trois autres AMM (500, 3000 et 4000 UI) sont également annulées.* » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-efmoroctocog_alfa-1 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 69349794 | ELOCTA 1500 UI | Poudre et solvant pour solution injectable | Active |
@@ -128,6 +134,26 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 - Les données détaillées sur le mécanisme d'action (via DrugBank)
 - Une revue de la littérature et des registres d'essais pour les indications les plus plausibles (déficit acquis en facteur de coagulation, hémophilie A avec anomalie vasculaire)
 - Une clarification de la situation réglementaire
+
+<!-- review:begin fr-lic-20261106-efmoroctocog_alfa-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Une clarification de la situation réglementaire (raisons de l'annulation des AMM, disponibilité éventuelle du produit) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 8 AMM pour ce médicament, dont 8 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-efmoroctocog_alfa-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « *Trois autres AMM (500, 3000 et 4000 UI) sont également annulées.* » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, disponibilité éventuelle du produit) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

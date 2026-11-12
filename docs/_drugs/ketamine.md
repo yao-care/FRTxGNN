@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 422
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 description: "Ketamine : nouvelle indication prédite, Céphalée (headache disorder) (niveau de preuve L1). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -111,6 +111,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Justification :**
 - Les essais dans les céphalées sont nombreux mais de petite taille, hétérogènes (sous-types, voies d'administration, comparateurs) et l'essai de Phase 3 en cours n'a pas encore de résultats.
 
+<!-- review:begin fr-lic-20261106-ketamine-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les essais dans les céphalées sont nombreux mais de petite taille, hétérogènes (sous-types, voies d'administration, comparateurs) et l'essai de Phase 3 en cours n'a pas encore de résultats. De plus, les AMM françaises sont toutes annulées et les données de sécurité issues de la notice manquent (lacune bloquante), ce qui empêche de passer à l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ketamine-1 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM
 - Compléter les données sur le mécanisme d'action via DrugBank
@@ -118,6 +124,26 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Préciser le sous-type de céphalée visé (aiguë aux urgences ou chronique réfractaire) et la voie d'administration
 - Clarifier la situation réglementaire et la faisabilité d'une voie d'administration adaptée
 - Évaluer le profil de risque cardiovasculaire, cérébrovasculaire et d'abus potentiel dans la population cible
+
+<!-- review:begin fr-lic-20261106-ketamine-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Clarifier la situation réglementaire (AMM annulées) et la faisabilité d'une voie d'administration adaptée » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ketamine-2 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées et les données de sécurité issues de la notice manquent (lacune bloquante), ce qui empêche  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-12
 monitor_inn: "ticarcillin"
 predicted_indications: ["lymph node palisaded myofibroblastoma", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "sacrum chordoma", "disease of retroperitoneum", "urethral disease", "disease of uterine broad ligament", "disease of peritoneum", "pelvic varices"]
 description: "Ticarcillin : nouvelle indication prédite, Lymph node palisaded myofibroblastoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
@@ -67,6 +67,12 @@ La relation avec la nouvelle indication est de nature **infectieuse** et non pas
 
 À noter : ce rationnel est une extension de l'usage antibactérien existant. Les recommandations modernes privilégient d'autres agents.
 
+<!-- review:begin fr-lic-20261106-ticarcillin-1 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les recommandations modernes privilégient d'autres agents, et l'association n'est plus commercialisée en France. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ticarcillin-1 -->
+
 ---
 
 ## Preuves d'Essais Cliniques
@@ -100,6 +106,12 @@ Aucun essai randomisé n'figure parmi ces publications. Il s'agit surtout d'étu
 
 Le texte d'indication approuvée n'est pas renseigné.
 
+<!-- review:begin fr-lic-20261106-ticarcillin-2 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les deux AMM sont annulées. Le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ticarcillin-2 -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
 | 67951898 | CLAVENTIN 3 g/200 mg | Poudre pour solution injectable (I.V.) | Active |
@@ -131,10 +143,38 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 - La prédiction pour la maladie du péritoine correspond à une extension de l'usage antibactérien existant (péritonite et infections intra-abdominales) et non à un repositionnement nouveau. Les preuves se limitent à des études anciennes (1978-1991) non randomisées, sans essai enregistré.
 - Les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité. Les autres prédictions du classement n'ont aucune preuve (niveau L5).
 
+<!-- review:begin fr-lic-20261106-ticarcillin-3 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le produit n'est plus commercialisé en France (AMM annulées) et les données de sécurité de la notice sont manquantes, ce qui bloque l'évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ticarcillin-3 -->
+
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications)
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Examiner les textes complets des études sur la péritonite et comparer avec les antibiotiques actuellement recommandés
+
+<!-- review:begin fr-lic-20261106-ticarcillin-4 -->
+
+> **Correction de vérification (2026-11-06)**: Texte initial : « Examiner les textes complets des études sur la péritonite et comparer avec les antibiotiques actuellement recommandés / Vérifier la pertinence d'un développement pour un produit dont l'AMM est annulée, y compris la disponibilité d'une formulation » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+
+<!-- review:end fr-lic-20261106-ticarcillin-4 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-06 | Supprimé : « et l'association n'est plus commercialisée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les deux AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « e produit n'est plus commercialisé en France (AMM annulées) et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Vérifier la pertinence d'un développement pour un produit dont l'AMM est annulée, y compris la disponibilité d'une formulation » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
