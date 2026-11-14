@@ -8,6 +8,11 @@ description: "Candidats de niveau L5 dans FRTxGNN : prédiction du modèle uniqu
 
 # Prédiction du modèle uniquement (L5)
 
+<!-- page-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
+{% assign pd_m = site.data.drug_stats.level_counts.L5 %}
+Cette page présente **{{ pd_m }}** des **{{ site.data.drug_stats.total_drugs }}** médicaments ayant un rapport publié sur ce site ({{ pd_m | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }} %). Définition des niveaux : [Méthodologie]({{ '/methodology/' | relative_url }}).
+<!-- page-data:end -->
+
 <p style="font-size: 1.25rem; color: #666; margin-bottom: 1.5rem;">
 Candidats reposant uniquement sur la prédiction du modèle, sans preuve chez l'humain à ce jour
 </p>
