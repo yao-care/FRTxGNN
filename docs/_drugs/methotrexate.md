@@ -158,8 +158,27 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les données sur le mécanisme d'action depuis DrugBank
 - Vérifier l'existence de cas publiés ou de données précliniques sur le blastome pulmonaire (et le carcinome fœtal bien différencié du poumon)
 - Confirmer la population réellement incluse dans les études de méthotrexate classées sous rhabdomyosarcome
-- Clarifier le statut réglementaire en France (AMM annulées) et la faisabilité de la voie d'administration
+- Clarifier le statut réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées) et la faisabilité de la voie d'administration
 - Établir un plan de surveillance de la sécurité (hématologique, hépatique, rénale, pulmonaire)
+
+<!-- review:begin fr-lic-20261115-methotrexate-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarifier le statut réglementaire en France (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant MÉTHOTREXATE comptent 71 AMM, dont 63 actives et 8 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-methotrexate-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-15 | « Clarifier le statut réglementaire en France (AMM a » → « Clarifier le statut réglementaire en France (la pl » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

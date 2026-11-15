@@ -131,7 +131,13 @@ Les mises en garde issues de la notice ne sont pas disponibles : veuillez consul
 - Données de mécanisme d'action détaillées (DrugBank)
 - Mises en garde et contre-indications officielles de la notice (ANSM)
 - Études cliniques évaluant directement la pravastatine chez des patients atteints de HFHo
-- Clarification du statut réglementaire en France (AMM annulées)
+- Clarification du statut réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)
+
+<!-- review:begin fr-lic-20261115-pravastatin-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarification du statut réglementaire en France (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant PRAVASTATINE SODIQUE comptent 45 AMM, dont 36 actives et 9 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-pravastatin-1 -->
 
 **Remarque complémentaire :** parmi les autres prédictions, l'**hypercholestérolémie familiale** (forme hétérozygote, niveau L3) présente des preuves plus solides, notamment des données pédiatriques sur la pravastatine, mais il s'agit d'un usage cliniquement établi plutôt que d'un véritable repositionnement. L'infection par le VIH (niveau L2) soutient surtout la prise en charge des dyslipidémies associées, pas le traitement de l'infection elle-même.
 
@@ -144,6 +150,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Clarification du statut réglementaire en France (A » → « Clarification du statut réglementaire en France (l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

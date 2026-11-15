@@ -118,8 +118,27 @@ Les mises en garde de la notice n'ont pas pu être consultées ; veuillez consul
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications) pour permettre l'évaluation de sécurité.
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Rechercher des études spécifiques au valsartan (précliniques puis cliniques) dans la maladie rénale hypertensive maligne.
-- Clarifier la situation réglementaire en France (AMM annulées) et la compatibilité des voies d'administration.
+- Clarifier la situation réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées) et la compatibilité des voies d'administration.
 - Envisager l'hypertension rénovasculaire maligne comme piste de suivi, en tenant compte de la précaution liée à la sténose bilatérale des artères rénales.
+
+<!-- review:begin fr-lic-20261115-valsartan-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarifier la situation réglementaire en France (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant VALSARTAN comptent 130 AMM, dont 124 actives et 6 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-valsartan-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-15 | « Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

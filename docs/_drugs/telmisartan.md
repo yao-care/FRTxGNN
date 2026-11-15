@@ -157,7 +157,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Données détaillées sur le mécanisme d'action
 - Examen des résultats détaillés de TRIDENT pour évaluer la contribution propre de telmisartan
 - Essais cliniques humains ciblant directement l'indication retenue
-- Clarification du statut réglementaire (AMM annulées) et de la disponibilité commerciale du médicament en France
+- Clarification du statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées) et de la disponibilité commerciale du médicament en France
+
+<!-- review:begin fr-lic-20261115-telmisartan-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarification du statut réglementaire (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant TELMISARTAN comptent 64 AMM, dont 61 actives et 3 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-telmisartan-1 -->
 
 <!-- review:begin log -->
 
@@ -168,6 +174,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-15 | « Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

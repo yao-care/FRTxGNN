@@ -94,7 +94,6 @@ Sélection des publications les plus pertinentes pour l'ictère obstructif :
 | 62608575 | LACTULOSE BIOGARAN 66,5 %, solution buvable | Solution buvable | Non renseignée (AMM active) |
 | 64834085 | LAEVOLAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM active) |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (associations médicament-maladie, et non texte de la notice) : diabète sucré, acidocétose diabétique, appendicite, galactosémie, glycogénose, déficit en G6PD, cystinurie, malabsorption du glucose-galactose.
@@ -113,9 +112,28 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications)
 - Obtenir les données détaillées sur le mécanisme d'action via DrugBank
 - Consulter les textes complets des études clés (notamment PMID 2032107 et 3768644) pour confirmer le design, la randomisation et les résultats
-- Clarifier le statut réglementaire (AMM annulées) et la faisabilité d'une voie d'accès
+- Clarifier le statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées) et la faisabilité d'une voie d'accès
 - Évaluer un essai clinique contemporain sur la dysfonction rénale périopératoire dans l'ictère obstructif
 - Examiner les contre-indications du graphe de connaissances (diabète, galactosémie, etc.) dans la population cible
+
+<!-- review:begin fr-lic-20261115-lactulose-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarifier le statut réglementaire (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant LACTULOSE comptent 19 AMM, dont 18 actives et 1 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-lactulose-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-15 | « Clarifier le statut réglementaire (AMM annulées) » → « Clarifier le statut réglementaire (la plupart des  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

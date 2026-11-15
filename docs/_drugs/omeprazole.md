@@ -117,9 +117,15 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice (mises en garde et contre-indications) sur le site de l'ANSM
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
-- Vérifier le statut commercial actuel de l'oméprazole en France (AMM annulées vs produits réellement disponibles)
+- Vérifier le statut commercial actuel de l'oméprazole en France (AMM actives ou abrogées vs produits réellement commercialisés ; la plupart des AMM sont actives)
 - Mener ou identifier des essais contrôlés sur le reflux biliaire/duodéno-gastrique avec critères cliniques
 - Évaluer le risque de cancérogenèse gastrique lié à l'inhibition acide prolongée en présence de reflux biliaire
+
+<!-- review:begin fr-lic-20261115-omeprazole-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « (AMM annulées vs produits réellement disponibles) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant OMÉPRAZOLE comptent 48 AMM, dont 46 actives et 2 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-omeprazole-1 -->
 
 ---
 
@@ -136,6 +142,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « (AMM annulées vs produits réellement disponibles) » → « (AMM actives ou abrogées vs produits réellement co » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

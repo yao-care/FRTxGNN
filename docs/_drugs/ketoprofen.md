@@ -91,7 +91,13 @@ Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premi�
 | 69159834 | KETUM 100 mg | Comprimé pelliculé | Active |
 | 66771790 | PROFENID 100 mg | Comprimé pelliculé | Active |
 
-Le kétoprofène existe aussi sous forme injectable, suppositoire, gélule, solution pour perfusion et gel topique (AMM annulées).
+Le kétoprofène existe aussi sous forme injectable, suppositoire, gélule, solution pour perfusion et gel topique.
+
+<!-- review:begin fr-lic-20261115-ketoprofen-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « solution pour perfusion et gel topique (AMM annulées). » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant KÉTOPROFÈNE comptent 32 AMM, dont 29 actives et 3 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-ketoprofen-1 -->
 
 ## Considérations de Sécurité
 
@@ -132,6 +138,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées, ce qui limite la pertinence pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « solution pour perfusion et gel topique (AMM annulé » → « solution pour perfusion et gel topique. » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

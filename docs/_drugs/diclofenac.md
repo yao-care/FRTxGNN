@@ -123,7 +123,26 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Les données détaillées sur le mécanisme d'action (DrugBank)
 - Une évaluation de la pertinence des études pédiatriques, avec un classement du type d'étude pour les publications non classées
 - Une comparaison avec les AINS et traitements de fond actuellement recommandés dans l'AJI
-- La clarification du statut réglementaire (AMM annulées) et de la voie d'administration adaptée à une population pédiatrique
+- La clarification du statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées) et de la voie d'administration adaptée à une population pédiatrique
+
+<!-- review:begin fr-lic-20261115-diclofenac-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « La clarification du statut réglementaire (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant DICLOFÉNAC DE DIÉTHYLAMINE, DICLOFÉNAC SODIQUE comptent 68 AMM, dont 62 actives et 6 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-diclofenac-1 -->
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-15 | « La clarification du statut réglementaire (AMM annu » → « La clarification du statut réglementaire (la plupa » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

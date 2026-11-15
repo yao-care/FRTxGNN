@@ -137,7 +137,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Vérifier la conception et les résultats de NCT02004860 et NCT01591070
 - Confirmer la compatibilité de voie d'administration : les preuves concernent la forme topique, alors que la fiche de référence ADVAGRAF est une forme orale à libération prolongée
-- Clarifier le statut réglementaire actuel en France (AMM annulées) et prévoir un plan de surveillance de sécurité à long terme (malignité, infections)
+- Clarifier le statut réglementaire actuel en France et prévoir un plan de surveillance de sécurité à long terme (malignité, infections)
+
+<!-- review:begin fr-lic-20261115-tacrolimus-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarifier le statut réglementaire actuel en France (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant TACROLIMUS MONOHYDRATÉ, TACROLIMUS comptent 25 AMM, dont 25 actives ; aucune n’est abrogée ou archivée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-tacrolimus-1 -->
 
 ---
 
@@ -152,6 +158,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Toutes les AMM françaises du tacrolimus sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

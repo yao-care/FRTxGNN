@@ -146,9 +146,15 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Résultats de l'essai NCT00464620 propres au sous-groupe sarcome d'Ewing
 - Données prospectives sur les associations (par exemple le schéma RIST), idéalement dans un essai contrôlé
-- Texte de la notice ANSM (mises en garde, contre-indications) et clarification du statut réglementaire des AMM annulées
+- Texte de la notice ANSM (mises en garde, contre-indications) et clarification du statut réglementaire
 - Données détaillées sur le mécanisme d'action
 - Plan de surveillance de sécurité (hématologique, cardiaque, épanchements), notamment en population pédiatrique
+
+<!-- review:begin fr-lic-20261115-dasatinib-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « clarification du statut réglementaire des AMM annulées » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant DASATINIB comptent 45 AMM, dont 45 actives ; aucune n’est abrogée ou archivée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-dasatinib-1 -->
 
 ---
 
@@ -163,6 +169,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 20 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « clarification du statut réglementaire des AMM annu » → « clarification du statut réglementaire » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

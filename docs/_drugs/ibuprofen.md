@@ -119,8 +119,14 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action, afin d'analyser un éventuel lien mécanistique
 - Mises en garde et contre-indications de la notice (ANSM), préalable indispensable à l'évaluation de sécurité
-- Éclaircissement du statut réglementaire (AMM annulées) et des textes d'indication
+- Éclaircissement du statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées) et des textes d'indication
 - Études précliniques ou observationnelles, en priorité pour la pseudoachondroplasie (soulagement symptomatique), avant toute évaluation clinique
+
+<!-- review:begin fr-lic-20261115-ibuprofen-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Éclaircissement du statut réglementaire (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant IBUPROFÈNE comptent 104 AMM, dont 94 actives et 10 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-ibuprofen-1 -->
 
 <!-- review:begin log -->
 
@@ -131,6 +137,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Éclaircissement du statut réglementaire (AMM annul » → « Éclaircissement du statut réglementaire (la plupar » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 
