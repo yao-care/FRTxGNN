@@ -109,7 +109,13 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 - Obtenir et analyser la notice de l'ANSM (mises en garde et contre-indications).
 - Compléter les données sur le mécanisme d'action (par exemple via DrugBank).
 - Mener une recherche bibliographique et d'essais ciblée sur le glimépiride dans le syndrome de la personne raide ; à défaut de signal, ne pas poursuivre.
-- Clarifier la situation réglementaire en France (AMM annulées) et la compatibilité des voies d'administration.
+- Clarifier la situation réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées) et la compatibilité des voies d'administration.
+
+<!-- review:begin fr-lic-20261115-glimepiride-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarifier la situation réglementaire en France (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant GLIMÉPIRIDE comptent 51 AMM, dont 48 actives et 3 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-glimepiride-1 -->
 
 **Autres prédictions du modèle (toutes de niveau L5, décision Hold) :** syndrome du membre raide focal, opsismodysplasie, syndrome de dysfonctionnement répondant à la thiamine, lipodystrophie localisée induite par médicament, lipodystrophie centrifuge, lipoatrophie localisée induite par pression, lipodystrophie localisée idiopathique et agénésie pancréatique. Pour l'agénésie pancréatique, le mécanisme est même contradictoire : sans cellules bêta fonctionnelles, un sulfamide hypoglycémiant ne peut être efficace. Seule une publication non pertinente a été retrouvée pour cette dernière.
 
@@ -123,6 +129,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « De plus, toutes les AMM françaises du glimépiride sont annulées et les données de sécurité de la notice sont manquantes, ce qui empêche l'ét » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

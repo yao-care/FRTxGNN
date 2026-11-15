@@ -16687,6 +16687,556 @@
    ],
    "checked": "2026-11-13",
    "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+  },
+  {
+   "id": "fr-lic-20261115-alprazolam-1",
+   "drug": "alprazolam",
+   "file": "alprazolam.md",
+   "action": "correct",
+   "claim": "de la situation réglementaire des produits (AMM annulées).",
+   "replacement": "de la situation réglementaire des produits (la plupart des AMM sont actives ; certaines sont abrogées ou archivées).",
+   "summary": "« de la situation réglementaire des produits (AMM an » → « de la situation réglementaire des produits (la plu »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant ALPRAZOLAM comptent 29 AMM, dont 28 actives et 1 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：29 張，有效 28、廢止／歸檔 1。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-dasatinib-1",
+   "drug": "dasatinib",
+   "file": "dasatinib.md",
+   "action": "correct",
+   "claim": "clarification du statut réglementaire des AMM annulées",
+   "replacement": "clarification du statut réglementaire",
+   "summary": "« clarification du statut réglementaire des AMM annu » → « clarification du statut réglementaire »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant DASATINIB comptent 45 AMM, dont 45 actives ; aucune n’est abrogée ou archivée.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：45 張，有效 45、廢止／歸檔 0。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；沒有任何註銷，拿掉",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-desogestrel-1",
+   "drug": "desogestrel",
+   "file": "desogestrel.md",
+   "action": "correct",
+   "claim": "Une clarification de la situation réglementaire (AMM annulées)",
+   "replacement": "Une clarification de la situation réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Une clarification de la situation réglementaire (A » → « Une clarification de la situation réglementaire (l »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant DÉSOGESTREL, ÉTHINYLESTRADIOL comptent 127 AMM, dont 106 actives et 21 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：127 張，有效 106、廢止／歸檔 21。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-diclofenac-1",
+   "drug": "diclofenac",
+   "file": "diclofenac.md",
+   "action": "correct",
+   "claim": "La clarification du statut réglementaire (AMM annulées)",
+   "replacement": "La clarification du statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« La clarification du statut réglementaire (AMM annu » → « La clarification du statut réglementaire (la plupa »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant DICLOFÉNAC DE DIÉTHYLAMINE, DICLOFÉNAC SODIQUE comptent 68 AMM, dont 62 actives et 6 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：68 張，有效 62、廢止／歸檔 6。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-dutasteride-1",
+   "drug": "dutasteride",
+   "file": "dutasteride.md",
+   "action": "correct",
+   "claim": "de la disponibilité du produit en France (AMM annulées)",
+   "replacement": "de la disponibilité du produit en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« de la disponibilité du produit en France (AMM annu » → « de la disponibilité du produit en France (la plupa »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant DUTASTÉRIDE comptent 27 AMM, dont 26 actives et 1 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：27 張，有效 26、廢止／歸檔 1。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-entecavir-1",
+   "drug": "entecavir",
+   "file": "entecavir.md",
+   "action": "correct",
+   "claim": "Une présentation en solution buvable (BARACLUDE 0,05 mg/ml) figure également parmi les AMM annulées.",
+   "replacement": "Une présentation en solution buvable (BARACLUDE 0,05 mg/ml) est également autorisée (AMM active dans la BDPM).",
+   "summary": "« Une présentation en solution buvable (BARACLUDE 0, » → « Une présentation en solution buvable (BARACLUDE 0, »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant ENTÉCAVIR MONOHYDRATÉ, ENTÉCAVIR comptent 26 AMM, dont 24 actives et 2 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：26 張，有效 24、廢止／歸檔 2。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-fluconazole-1",
+   "drug": "fluconazole",
+   "file": "fluconazole.md",
+   "action": "correct",
+   "claim": "Les autres formes concernées par des AMM annulées : poudre pour suspension buvable et solution pour perfusion.",
+   "replacement": "Les autres formes concernées par des AMM abrogées : poudre pour suspension buvable et gélule.",
+   "summary": "« Les autres formes concernées par des AMM annulées  » → « Les autres formes concernées par des AMM abrogées  »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant FLUCONAZOLE comptent 60 AMM, dont 55 actives et 5 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：60 張，有效 55、廢止／歸檔 5。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-fluticasone-1",
+   "drug": "fluticasone",
+   "file": "fluticasone.md",
+   "action": "correct",
+   "claim": "Clarification du statut réglementaire actuel (AMM annulées).",
+   "replacement": "Clarification du statut réglementaire actuel (la plupart des AMM sont actives ; certaines sont abrogées ou archivées).",
+   "summary": "« Clarification du statut réglementaire actuel (AMM  » → « Clarification du statut réglementaire actuel (la p »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant PROPIONATE DE FLUTICASONE comptent 58 AMM, dont 54 actives et 4 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：58 張，有效 54、廢止／歸檔 4。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-glimepiride-1",
+   "drug": "glimepiride",
+   "file": "glimepiride.md",
+   "action": "correct",
+   "claim": "Clarifier la situation réglementaire en France (AMM annulées)",
+   "replacement": "Clarifier la situation réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant GLIMÉPIRIDE comptent 51 AMM, dont 48 actives et 3 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：51 張，有效 48、廢止／歸檔 3。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-ibuprofen-1",
+   "drug": "ibuprofen",
+   "file": "ibuprofen.md",
+   "action": "correct",
+   "claim": "Éclaircissement du statut réglementaire (AMM annulées)",
+   "replacement": "Éclaircissement du statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Éclaircissement du statut réglementaire (AMM annul » → « Éclaircissement du statut réglementaire (la plupar »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant IBUPROFÈNE comptent 104 AMM, dont 94 actives et 10 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：104 張，有效 94、廢止／歸檔 10。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-ketoconazole-1",
+   "drug": "ketoconazole",
+   "file": "ketoconazole.md",
+   "action": "correct",
+   "claim": "commercialisée en France, compte tenu des AMM annulées",
+   "replacement": "commercialisée en France",
+   "summary": "« commercialisée en France, compte tenu des AMM annu » → « commercialisée en France »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant KÉTOCONAZOLE comptent 23 AMM, dont 22 actives et 1 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：23 張，有效 22、廢止／歸檔 1。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-ketoprofen-1",
+   "drug": "ketoprofen",
+   "file": "ketoprofen.md",
+   "action": "correct",
+   "claim": "solution pour perfusion et gel topique (AMM annulées).",
+   "replacement": "solution pour perfusion et gel topique.",
+   "summary": "« solution pour perfusion et gel topique (AMM annulé » → « solution pour perfusion et gel topique. »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant KÉTOPROFÈNE comptent 32 AMM, dont 29 actives et 3 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：32 張，有效 29、廢止／歸檔 3。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-lactulose-1",
+   "drug": "lactulose",
+   "file": "lactulose.md",
+   "action": "correct",
+   "claim": "Clarifier le statut réglementaire (AMM annulées)",
+   "replacement": "Clarifier le statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Clarifier le statut réglementaire (AMM annulées) » → « Clarifier le statut réglementaire (la plupart des  »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant LACTULOSE comptent 19 AMM, dont 18 actives et 1 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：19 張，有效 18、廢止／歸檔 1。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-levodopa-1",
+   "drug": "levodopa",
+   "file": "levodopa.md",
+   "action": "correct",
+   "claim": "clarifier la situation réglementaire (AMM annulées)",
+   "replacement": "clarifier la situation réglementaire",
+   "summary": "« clarifier la situation réglementaire (AMM annulées » → « clarifier la situation réglementaire »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant CARBIDOPA MONOHYDRATE, LÉVODOPA comptent 67 AMM, dont 67 actives ; aucune n’est abrogée ou archivée.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：67 張，有效 67、廢止／歸檔 0。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；沒有任何註銷，拿掉",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-methotrexate-1",
+   "drug": "methotrexate",
+   "file": "methotrexate.md",
+   "action": "correct",
+   "claim": "Clarifier le statut réglementaire en France (AMM annulées)",
+   "replacement": "Clarifier le statut réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Clarifier le statut réglementaire en France (AMM a » → « Clarifier le statut réglementaire en France (la pl »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant MÉTHOTREXATE comptent 71 AMM, dont 63 actives et 8 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：71 張，有效 63、廢止／歸檔 8。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-omeprazole-1",
+   "drug": "omeprazole",
+   "file": "omeprazole.md",
+   "action": "correct",
+   "claim": "(AMM annulées vs produits réellement disponibles)",
+   "replacement": "(AMM actives ou abrogées vs produits réellement commercialisés ; la plupart des AMM sont actives)",
+   "summary": "« (AMM annulées vs produits réellement disponibles) » → « (AMM actives ou abrogées vs produits réellement co »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant OMÉPRAZOLE comptent 48 AMM, dont 46 actives et 2 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：48 張，有效 46、廢止／歸檔 2。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-piperacillin-1",
+   "drug": "piperacillin",
+   "file": "piperacillin.md",
+   "action": "correct",
+   "claim": "Clarification du statut réglementaire (AMM annulées)",
+   "replacement": "Clarification du statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart  »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant PIPÉRACILLINE, PIPÉRACILLINE SODIQUE, TAZOBACTAM SODIQUE comptent 23 AMM, dont 22 actives et 1 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：23 張，有效 22、廢止／歸檔 1。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-pravastatin-1",
+   "drug": "pravastatin",
+   "file": "pravastatin.md",
+   "action": "correct",
+   "claim": "Clarification du statut réglementaire en France (AMM annulées)",
+   "replacement": "Clarification du statut réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Clarification du statut réglementaire en France (A » → « Clarification du statut réglementaire en France (l »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant PRAVASTATINE SODIQUE comptent 45 AMM, dont 36 actives et 9 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：45 張，有效 36、廢止／歸檔 9。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-tacrolimus-1",
+   "drug": "tacrolimus",
+   "file": "tacrolimus.md",
+   "action": "correct",
+   "claim": "Clarifier le statut réglementaire actuel en France (AMM annulées)",
+   "replacement": "Clarifier le statut réglementaire actuel en France",
+   "summary": "« Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant TACROLIMUS MONOHYDRATÉ, TACROLIMUS comptent 25 AMM, dont 25 actives ; aucune n’est abrogée ou archivée.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：25 張，有效 25、廢止／歸檔 0。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；沒有任何註銷，拿掉",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-telmisartan-1",
+   "drug": "telmisartan",
+   "file": "telmisartan.md",
+   "action": "correct",
+   "claim": "Clarification du statut réglementaire (AMM annulées)",
+   "replacement": "Clarification du statut réglementaire (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart  »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant TELMISARTAN comptent 64 AMM, dont 61 actives et 3 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：64 張，有效 61、廢止／歸檔 3。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-ustekinumab-1",
+   "drug": "ustekinumab",
+   "file": "ustekinumab.md",
+   "action": "correct",
+   "claim": "Clarification du statut réglementaire actuel en France (AMM annulées)",
+   "replacement": "Clarification du statut réglementaire actuel en France",
+   "summary": "« Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant USTÉKINUMAB comptent 17 AMM, dont 17 actives ; aucune n’est abrogée ou archivée.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：17 張，有效 17、廢止／歸檔 0。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；沒有任何註銷，拿掉",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
+  },
+  {
+   "id": "fr-lic-20261115-valsartan-1",
+   "drug": "valsartan",
+   "file": "valsartan.md",
+   "action": "correct",
+   "claim": "Clarifier la situation réglementaire en France (AMM annulées)",
+   "replacement": "Clarifier la situation réglementaire en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)",
+   "summary": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la »",
+   "note": "D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant VALSARTAN comptent 130 AMM, dont 124 actives et 6 abrogées ou archivées.",
+   "finding": "2026-11-15 以 BDPM 全量（證據包與事實層只收前 20 張，partial）依成分代碼重算：130 張，有效 124、廢止／歸檔 6。原句是 AI 依舊證據包（狀態全標註銷）寫的「(AMM annulées)」，讀起來像本藥 AMM 已註銷；改成大多數有效、部分廢止或歸檔",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt",
+     "accessed": "2026-11-15"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt",
+     "accessed": "2026-11-15"
+    }
+   ],
+   "checked": "2026-11-15",
+   "method": "2026-11-15 人工查核（BDPM 全量依成分代碼）"
   }
  ]
 }

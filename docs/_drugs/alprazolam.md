@@ -128,10 +128,29 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 - Les données sur le mécanisme d'action (DrugBank).
 - Les mises en garde et contre-indications de la notice ANSM, nécessaires au dépistage de sécurité.
 - Des essais contrôlés randomisés évaluant l'alprazolam dans l'insomnie, comparés aux traitements de référence.
-- Une évaluation du rapport bénéfice/risque (dépendance, sevrage, chutes, cognition) et de la situation réglementaire des produits (AMM annulées).
+- Une évaluation du rapport bénéfice/risque (dépendance, sevrage, chutes, cognition) et de la situation réglementaire des produits (la plupart des AMM sont actives ; certaines sont abrogées ou archivées).
+
+<!-- review:begin fr-lic-20261115-alprazolam-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « de la situation réglementaire des produits (AMM annulées). » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant ALPRAZOLAM comptent 29 AMM, dont 28 actives et 1 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-alprazolam-1 -->
 
 **Note sur les autres indications prédites :**
 - **Torticolis paroxystique bénin du nourrisson** (score 0,9961, niveau L5) : aucune donnée clinique, et l'usage des benzodiazépines chez le nourrisson soulève des préoccupations de sécurité majeures (dépression respiratoire, effets sur le neurodéveloppement). Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-15 | « de la situation réglementaire des produits (AMM an » → « de la situation réglementaire des produits (la plu » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

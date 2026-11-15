@@ -106,8 +106,14 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Données sur le mécanisme d'action (DrugBank) et analyse du lien mécanistique avec TRPS1
 - Mises en garde et contre-indications officielles de la notice (ANSM), actuellement bloquantes pour le criblage de sécurité
 - Données précliniques ou cliniques spécifiques à l'hypertrichose d'Ambras
-- Évaluation du risque tératogène et de la disponibilité du produit en France (AMM annulées)
+- Évaluation du risque tératogène et de la disponibilité du produit en France (la plupart des AMM sont actives ; certaines sont abrogées ou archivées)
 - Réexamen d'autres candidats plus plausibles, car le lien avec l'alopécie androgénétique n'est pas transposable à l'alopécie en aires
+
+<!-- review:begin fr-lic-20261115-dutasteride-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « de la disponibilité du produit en France (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant DUTASTÉRIDE comptent 27 AMM, dont 26 actives et 1 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-dutasteride-1 -->
 
 <!-- review:begin log -->
 
@@ -118,6 +124,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « de la disponibilité du produit en France (AMM annu » → « de la disponibilité du produit en France (la plupa » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

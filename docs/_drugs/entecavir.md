@@ -109,7 +109,13 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 | 65228610 | ENTECAVIR VIATRIS 1 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
 | 61115501 | ENTECAVIR EVOLUGEN 1 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
 
-Une présentation en solution buvable (BARACLUDE 0,05 mg/ml) figure également parmi les AMM annulées.
+Une présentation en solution buvable (BARACLUDE 0,05 mg/ml) est également autorisée (AMM active dans la BDPM).
+
+<!-- review:begin fr-lic-20261115-entecavir-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Une présentation en solution buvable (BARACLUDE 0,05 mg/ml) figure également parmi les AMM annulées. » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant ENTÉCAVIR MONOHYDRATÉ, ENTÉCAVIR comptent 26 AMM, dont 24 actives et 2 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-entecavir-1 -->
 
 ---
 
@@ -146,6 +152,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes au statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Une présentation en solution buvable (BARACLUDE 0, » → « Une présentation en solution buvable (BARACLUDE 0, » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

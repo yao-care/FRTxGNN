@@ -126,7 +126,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Données détaillées sur le mécanisme d'action (DrugBank).
 - Recherche de preuves précliniques ou observationnelles reliant la fluticasone à la migraine.
 - Évaluation de la compatibilité de la voie d'administration avec la migraine.
-- Clarification du statut réglementaire actuel (AMM annulées).
+- Clarification du statut réglementaire actuel (la plupart des AMM sont actives ; certaines sont abrogées ou archivées).
+
+<!-- review:begin fr-lic-20261115-fluticasone-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarification du statut réglementaire actuel (AMM annulées). » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant PROPIONATE DE FLUTICASONE comptent 58 AMM, dont 54 actives et 4 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-fluticasone-1 -->
 
 <!-- review:begin log -->
 
@@ -137,6 +143,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Clarification du statut réglementaire actuel (AMM  » → « Clarification du statut réglementaire actuel (la p » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

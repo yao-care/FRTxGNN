@@ -114,7 +114,13 @@ Deux essais de phase 2 testent directement ustékinumab dans la dermatite atopiq
 - Notice de l'ANSM (mises en garde et contre-indications) pour lever la lacune de sécurité bloquante
 - Données détaillées sur le mécanisme d'action (DrugBank)
 - Précision de la population « dermatite » visée (atopique, de contact, autre)
-- Clarification du statut réglementaire actuel en France (AMM annulées)
+- Clarification du statut réglementaire actuel en France
+
+<!-- review:begin fr-lic-20261115-ustekinumab-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Clarification du statut réglementaire actuel en France (AMM annulées) » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant USTÉKINUMAB comptent 17 AMM, dont 17 actives ; aucune n’est abrogée ou archivée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-ustekinumab-1 -->
 
 <!-- review:begin log -->
 
@@ -126,6 +132,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 

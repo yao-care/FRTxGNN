@@ -98,7 +98,13 @@ Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas rense
 | 63206323 | FLUCONAZOLE PFIZER 150 mg | Gélule | Active |
 | 64080646 | TRIFLUCAN 50 mg | Gélule | Active |
 
-Les autres formes concernées par des AMM annulées : poudre pour suspension buvable et solution pour perfusion.
+Les autres formes concernées par des AMM abrogées : poudre pour suspension buvable et gélule.
+
+<!-- review:begin fr-lic-20261115-fluconazole-1 -->
+
+> **Correction de vérification (2026-11-15)**: Texte initial : « Les autres formes concernées par des AMM annulées : poudre pour suspension buvable et solution pour perfusion. » D’après la BDPM complète (CIS_bdpm et CIS_COMPO_bdpm, 2026-11-15), les spécialités contenant FLUCONAZOLE comptent 60 AMM, dont 55 actives et 5 abrogées ou archivées. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt).
+
+<!-- review:end fr-lic-20261115-fluconazole-1 -->
 
 ---
 
@@ -137,6 +143,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-15 | « Les autres formes concernées par des AMM annulées  » → « Les autres formes concernées par des AMM abrogées  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 
 <!-- review:end log -->
 
