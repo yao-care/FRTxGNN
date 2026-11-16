@@ -1,55 +1,16 @@
 ---
-noindex: true
+layout: id_redirect
+permalink: /drugs/aciclovir/
 sitemap: false
-layout: default
-title: Aciclovir
-parent: Usages connus uniquement (aucune nouvelle prédiction)
-nav_order: 22
-last_modified_at: 2026-10-31
-predicted_indications: []
-indication_count: 0
-evidence_level: N/A
+search_exclude: true
+nav_exclude: true
 ---
-
-# Aciclovir
-{: .fs-9 }
-
-Niveau de preuve: **N/A** | Indications prédites: **0** 
-{: .fs-6 .fw-300 }
-
----
-
-## Table des matières
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
-<div id="pharmacist" markdown="1">
-
-## Rapport d'évaluation pharmaceutique
-
-</div>
-
-## Aciclovir
-{: .text-alpha }
-
-## Aperçu Rapide
-
-| Élément | Contenu |
-|------|------|
-| Indication Originale | Non renseignée dans les données locales |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
-| Nombre d'AMM | au moins 20 |
-
----
-
-## Avertissement
-
-Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
-Une validation clinique est requise avant toute application clinique.
-
----
-
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Redirecting&hellip;</title>
+<link rel="canonical" href="{{ site.url }}/drugs/acyclovir/">
+<meta http-equiv="refresh" content="0; url=/drugs/acyclovir/">
+<script>location="/drugs/acyclovir/"</script>
+<a href="/drugs/acyclovir/">/drugs/acyclovir/</a>
+</html>
