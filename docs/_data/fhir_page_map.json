@@ -366,6 +366,7 @@
     "db00125": {
       "page": "arginine",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "UkTxGNN",
@@ -384,6 +385,7 @@
     "db00134": {
       "page": "methionine",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "UkTxGNN",
@@ -811,6 +813,7 @@
     "db00261": {
       "page": "anagrelide",
       "sources": [
+        "BrTxGNN",
         "CHTxGNN",
         "CaTxGNN",
         "DETxGNN",
@@ -818,6 +821,7 @@
         "FITxGNN",
         "HkTxGNN",
         "ITTxGNN",
+        "KrTxGNN",
         "NOTxGNN",
         "NZTxGNN",
         "SgTxGNN",
@@ -873,6 +877,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "NZTxGNN",
         "UkTxGNN"
       ]
     },
@@ -906,6 +911,7 @@
         "CaTxGNN",
         "HkTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN"
@@ -935,6 +941,7 @@
       "sources": [
         "CaTxGNN",
         "HkTxGNN",
+        "KrTxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -1259,6 +1266,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "KrTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UkTxGNN",
@@ -1304,6 +1312,7 @@
         "AuTxGNN",
         "CaTxGNN",
         "HkTxGNN",
+        "ITTxGNN",
         "NlTxGNN",
         "SgTxGNN",
         "UkTxGNN"
@@ -1326,6 +1335,7 @@
       "page": "levonorgestrel",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -1640,6 +1650,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "JpTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "SgTxGNN",
@@ -1794,6 +1805,7 @@
       "page": "lenalidomide",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -1940,6 +1952,7 @@
         "ESTxGNN",
         "HkTxGNN",
         "JpTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "SgTxGNN",
         "UsTxGNN",
@@ -2042,12 +2055,14 @@
     "db00542": {
       "page": "benazepril",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "DETxGNN",
         "ESTxGNN",
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "SATxGNN",
         "UsTxGNN",
         "ZaTxGNN"
@@ -2135,6 +2150,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "MyTxGNN",
         "NOTxGNN",
         "NZTxGNN",
         "SATxGNN",
@@ -2215,6 +2231,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "FITxGNN",
         "HkTxGNN",
         "SgTxGNN",
         "ZaTxGNN"
@@ -2395,6 +2412,7 @@
     "db00640": {
       "page": "adenosine",
       "sources": [
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -3025,6 +3043,8 @@
       "page": "alfentanil",
       "sources": [
         "HkTxGNN",
+        "KrTxGNN",
+        "MyTxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -3093,6 +3113,7 @@
       "page": "acetazolamide",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -3338,6 +3359,7 @@
         "KrTxGNN",
         "NZTxGNN",
         "SATxGNN",
+        "SETxGNN",
         "SgTxGNN",
         "UkTxGNN",
         "UsTxGNN",
@@ -3610,6 +3632,7 @@
         "AuTxGNN",
         "CaTxGNN",
         "HkTxGNN",
+        "SETxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -3800,7 +3823,6 @@
     "db01050": {
       "page": "ibuprofen",
       "sources": [
-        "ARTxGNN",
         "AuTxGNN",
         "CHTxGNN",
         "COTxGNN",
@@ -3910,6 +3932,7 @@
       "page": "atorvastatin",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -3918,6 +3941,8 @@
         "ITTxGNN",
         "InTxGNN",
         "JpTxGNN",
+        "KrTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "SgTxGNN",
@@ -3984,6 +4009,7 @@
       "sources": [
         "ARTxGNN",
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -4018,6 +4044,7 @@
         "ITTxGNN",
         "InTxGNN",
         "JpTxGNN",
+        "KrTxGNN",
         "NZTxGNN",
         "SATxGNN",
         "SgTxGNN",
@@ -4126,6 +4153,7 @@
       "page": "bicalutamide",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CaTxGNN",
         "HkTxGNN",
         "NlTxGNN",
@@ -4472,6 +4500,7 @@
         "AuTxGNN",
         "CaTxGNN",
         "HkTxGNN",
+        "SETxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -4543,6 +4572,7 @@
       "sources": [
         "CaTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -4738,6 +4768,7 @@
       "sources": [
         "ARTxGNN",
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -4981,6 +5012,7 @@
       "sources": [
         "CHTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "NZTxGNN",
         "ZaTxGNN"
       ]
@@ -5104,7 +5136,9 @@
     "db01616": {
       "page": "alverine",
       "sources": [
-        "HkTxGNN"
+        "HkTxGNN",
+        "KrTxGNN",
+        "MyTxGNN"
       ]
     },
     "db01620": {
@@ -5161,6 +5195,7 @@
       "sources": [
         "CaTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "UkTxGNN"
       ]
     },
@@ -5475,7 +5510,8 @@
       "page": "glatiramer",
       "sources": [
         "AuTxGNN",
-        "CaTxGNN"
+        "CaTxGNN",
+        "KrTxGNN"
       ]
     },
     "db05294": {
@@ -5649,6 +5685,7 @@
       "page": "teriparatide",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -5712,6 +5749,7 @@
     "db06594": {
       "page": "agomelatine",
       "sources": [
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "DETxGNN",
@@ -5822,6 +5860,7 @@
     "db06697": {
       "page": "artemether",
       "sources": [
+        "SETxGNN",
         "ZaTxGNN"
       ]
     },
@@ -5852,6 +5891,7 @@
     "db06736": {
       "page": "aceclofenac",
       "sources": [
+        "BrTxGNN",
         "COTxGNN",
         "ESTxGNN",
         "ITTxGNN",
@@ -6116,6 +6156,7 @@
         "HkTxGNN",
         "ITTxGNN",
         "InTxGNN",
+        "KrTxGNN",
         "NOTxGNN",
         "NZTxGNN",
         "SATxGNN",
@@ -6126,6 +6167,7 @@
     "db08879": {
       "page": "belimumab",
       "sources": [
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -6212,6 +6254,7 @@
     "db08903": {
       "page": "bedaquiline",
       "sources": [
+        "BrTxGNN",
         "DETxGNN",
         "ESTxGNN",
         "FITxGNN",
@@ -6283,8 +6326,11 @@
     "db09009": {
       "page": "articaine",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
-        "HkTxGNN"
+        "HkTxGNN",
+        "KrTxGNN",
+        "MyTxGNN"
       ]
     },
     "db09027": {
@@ -6379,6 +6425,7 @@
         "DETxGNN",
         "FITxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "NOTxGNN"
       ]
     },
@@ -6429,6 +6476,7 @@
       "page": "palbociclib",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CaTxGNN",
         "DkTxGNN",
         "HkTxGNN"
@@ -6480,6 +6528,7 @@
         "AuTxGNN",
         "CaTxGNN",
         "HkTxGNN",
+        "MyTxGNN",
         "SgTxGNN",
         "UkTxGNN"
       ]
@@ -6507,7 +6556,8 @@
     "db09090": {
       "page": "pinaverium",
       "sources": [
-        "CaTxGNN"
+        "CaTxGNN",
+        "MyTxGNN"
       ]
     },
     "db09101": {
@@ -6738,6 +6788,7 @@
       "page": "atezolizumab",
       "sources": [
         "AuTxGNN",
+        "BrTxGNN",
         "CHTxGNN",
         "COTxGNN",
         "CaTxGNN",
@@ -6832,6 +6883,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "DETxGNN",
         "DkTxGNN",
         "HkTxGNN"
       ]
@@ -6893,6 +6945,7 @@
     "db11799": {
       "page": "bictegravir",
       "sources": [
+        "BrTxGNN",
         "CaTxGNN",
         "DETxGNN",
         "FITxGNN",
@@ -7010,6 +7063,7 @@
         "ESTxGNN",
         "FITxGNN",
         "HkTxGNN",
+        "KrTxGNN",
         "NOTxGNN",
         "SATxGNN",
         "SgTxGNN"
@@ -7352,6 +7406,7 @@
       "sources": [
         "AuTxGNN",
         "CaTxGNN",
+        "FITxGNN",
         "HkTxGNN"
       ]
     },
