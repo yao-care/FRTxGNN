@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Uric Acid : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Non renseignée dans les autorisations françaises"
 monitor_inn: "uric acid"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "bronchitis"]
+drugbank_id: DB08844
 ---
 
 # Uric Acid

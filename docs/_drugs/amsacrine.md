@@ -9,6 +9,7 @@ monitor_inn: "AMSACRINE"
 predicted_indications: ["hyperthyroidism", "plasma cell myeloma", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "bronchitis"]
 last_modified_at: 2026-11-12
 description: "Amsacrine : nouvelle indication prédite, Hyperthyroïdie (hyperthyroidism) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+drugbank_id: DB00276
 ---
 
 # Amsacrine

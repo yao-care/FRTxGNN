@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Tiapride : nouvelle indication prédite, Migraine (niveau de preuve L3). Indication d'origine : Non disponible (texte d'indication vide dans les AMM)"
 monitor_inn: "TIAPRIDE"
 predicted_indications: ["migraine disorder"]
+drugbank_id: DB13025
 ---
 
 # Tiapride

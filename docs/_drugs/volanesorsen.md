@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Volanesorsen : nouvelle indication prédite, Anémie mégaloblastique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "volanesorsen"
 predicted_indications: ["megaloblastic anemia (disease)", "sclerosing cholangitis", "sickle cell disease and related diseases", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "meningococcal infection", "paroxysmal nocturnal hemoglobinuria"]
+drugbank_id: DB15067
 ---
 
 # Volanesorsen

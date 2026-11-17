@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Pixantrone : nouvelle indication prédite, Cataracte diabétique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "PIXANTRONE"
 predicted_indications: ["diabetic cataract"]
+drugbank_id: DB06193
 ---
 
 # Pixantrone

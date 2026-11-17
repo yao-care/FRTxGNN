@@ -9,6 +9,7 @@ last_modified_at: 2026-11-04
 monitor_inn: "dihydralazine"
 predicted_indications: ["heart disease", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "Jeune syndrome situs inversus", "disorder of fucoglycosan synthesis", "pulmonary valve disease", "partial deletion of the long arm of chromosome 22"]
 description: "Dihydralazine : nouvelle indication prédite, Maladie cardiaque (heart disease) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+drugbank_id: DB12945
 ---
 
 # Dihydralazine

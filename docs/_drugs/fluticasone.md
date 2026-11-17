@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Fluticasone : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (les textes d'indication des…"
 monitor_inn: "fluticasone"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
+drugbank_id: DB13867
 ---
 
 # Fluticasone

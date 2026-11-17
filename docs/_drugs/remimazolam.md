@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Remimazolam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "remimazolam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
+drugbank_id: DB12404
 ---
 
 # Remimazolam

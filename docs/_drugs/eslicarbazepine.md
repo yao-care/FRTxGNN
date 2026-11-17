@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 monitor_inn: "eslicarbazepine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Eslicarbazepine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+drugbank_id: DB14575
 ---
 
 # Eslicarbazepine

@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Fluindione : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "FLUINDIONE"
 predicted_indications: ["rheumatoid arthritis"]
+drugbank_id: DB13136
 ---
 
 # Fluindione

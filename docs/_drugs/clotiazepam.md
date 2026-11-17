@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Clotiazepam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "clotiazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
+drugbank_id: DB01559
 ---
 
 # Clotiazepam

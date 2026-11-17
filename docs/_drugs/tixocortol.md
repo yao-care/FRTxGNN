@@ -9,6 +9,7 @@ last_modified_at: 2026-11-12
 description: "Tixocortol : nouvelle indication prédite, Lymphome T cutané primitif (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées pour ce rapport"
 monitor_inn: "TIXOCORTOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "acute lymphoblastic leukemia (disease)"]
+drugbank_id: DB09091
 ---
 
 # Tixocortol

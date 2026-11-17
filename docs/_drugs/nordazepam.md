@@ -9,6 +9,7 @@ last_modified_at: 2026-11-03
 monitor_inn: "nordazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
 description: "Nordazepam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+drugbank_id: DB14028
 ---
 
 # Nordazepam

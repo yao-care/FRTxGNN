@@ -9,6 +9,7 @@ last_modified_at: 2026-11-03
 monitor_inn: "NITRENDIPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 description: "Nitrendipine : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+drugbank_id: DB01054
 ---
 
 # Nitrendipine
