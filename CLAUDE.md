@@ -36,3 +36,17 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
 2026-11-12 正文許可證張數／狀態對事實層與證據包的掃描，以 10 筆 `fr-lic-20261112-*` 更正：fluvastatin、povidone、riluzole、ezetimibe（有效張數）、moxonidine（寫全註銷，實為全有效）、travoprost、simoctocog_alfa、finasteride（11-06 刪句後留下「也已註銷」的殘句）、primaquine（寫已無有效 AMM）、panobinostat（下一步的「(AMM annulées)」）。證據包只收前 20 張（partial）的頁在「下一步」寫「(AMM annulées)」的約 15 頁，前 20 張全 active、其餘未收，無法證明錯，未改。
 2026-11-15 下載 BDPM 全量（CIS_bdpm、CIS_COMPO_bdpm）依成分代碼重算這批頁：22 頁以 `fr-lic-20261115-*` 更正——dasatinib、levodopa、tacrolimus、ustekinumab 全部 AMM 有效，拿掉「(AMM annulées)」；其餘大多數有效、少數廢止／歸檔，改成「(la plupart des AMM sont actives ; certaines sont abrogées ou archivées)」；entecavir（BARACLUDE 口服液實為有效）、fluconazole（廢止的是懸浮粉劑與膠囊，不是輸注液）、ketoprofen（列的劑型不是廢止的那些）照 BDPM 改寫。histidine、levetiracetam 講「已註銷 AMM」的待辦句確有廢止產品，不改。
 2026-11-12 許可證表格列狀態對事實層（母目錄 check_drug_page.py --row-status）：20 列 BDPM「Autorisation active」的號碼格標成「(annulée)／(abrogée)」（拿掉標註）、10 列寫 active 但 BDPM 為「Autorisation archivée／abrogée」（改成原文 archivée／abrogée），以 30 筆 `fr-row-20261112-*` correct 紀錄更正（依證據包原始狀態逐列確認）。
+
+## 新資料查不到的許可證（2026-11-17）
+
+11-16 每週排程列出 40 張「新資料查不到」的 CIS（涵蓋 99.3%，沒開 issue）。2026-11-17 用戶要求確認實際狀態：下載 BDPM 同日全部公開檔逐號比對——
+40 張都不在 CIS_bdpm.txt，但全在 CIS_CIP_bdpm.txt（包裝層級，Présentation active、有 Déclaration de commercialisation），BDPM 產品頁
+（https://base-donnees-publique.medicaments.gouv.fr/medicament/<CIS>/extrait，「Dernière mise à jour le 03/11/2026」）40 張都寫「Statut de l'autorisation : Valide」，
+證據包原本就是 Autorisation active，所以頁面不用改。CIS_bdpm.txt 本身不完整：同日 CIS_CIP 另有 478 個 CIS 不在 CIS_bdpm。
+兩份檔與產品頁都沒有的號 0 張。
+- `scripts/license_adapter.py`：下載網址改成 https 的 /download/file/<檔名>（舊的 index.php 路徑 301 到 http，雲端環境走不通）；另下載 CIS_CIP_bdpm.txt，
+  只在 CIS_CIP 的本站 CIS 逐張讀產品頁，寫 Valide 的收成「Autorisation active」，其他寫法不收（包裝狀態不等於 AMM 狀態：兩份都有的 CIS 裡 593 個
+  Autorisation abrogée 仍有 Présentation active，所以不拿包裝狀態推定）。兩份檔都沒有、產品頁 404 的本站 CIS 由 preprocess 標
+  `license_status: cancelled`＋`bdpm_not_listed`（第一次發現日；BDPM 連 abrogée／archivée 都收，整個不收＝已不是現行許可），又出現就取消；
+  任一份檔下載失敗、兩份合計少於 15,000 個 CIS、或產品頁讀不到時不判定。`confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」，不算「查不到」。
+- 2026-11-17 排程：新資料涵蓋 100%（5,820 張），狀態變動 0、改頁 0。
