@@ -1,15 +1,25 @@
 {
-  "fetched_at": "2026-11-18T13:45:33.055745+00:00",
+  "fetched_at": "2026-11-18T21:46:43.977468+00:00",
   "source": "Google News Health RSS",
-  "count": 92,
+  "count": 82,
   "articles": [
     {
-      "id": "b1d040013325",
-      "title": "Des médicaments moins efficaces à cause de votre ADN - Franceinfo",
+      "id": "652096a7ba6e",
+      "title": "Cancer du sein : un traitement réduit le risque de décès de 19 %, une avancée majeure après six ans d'études - Futura, le média qui explore le monde",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa0pCc0cweC1ZUmplZDd3ZlU0eTVDMVIzcWxtSjZQUXZxSW95TmNwT0dJTDRrUEIxY3hIWnVCemtITV9uS1NGdk5LeldUbV82N2VjRUhra19HSmR3cDRmV1BaNTYwWFYwMF9qNUpVRFQ1b0tRZlVEUjBGbjd3UEM2ZHlZSW9TYXZZOUJ1RzFUbmNOSDltbHd1Ukk2bm04Q29lR0JydjkzOGdWd0ZQOGZOTXR1LUlTR0V3aEVMTmkxY0xQc0FKdnFhZU1PeXFCTGVtNk43aVIwSlNLZm5TTjhMZWl4NzhRTVhpS1B1Yg?oc=5",
+      "published": "2026-11-17T17:00:00+00:00",
+      "source": {
+        "name": "Futura, le média qui explore le monde",
+        "url": "https://www.futura-sciences.com"
+      }
+    },
+    {
+      "id": "3e9822bacf90",
+      "title": "Des médicaments moins efficaces à cause de votre ADN - franceinfo",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQblVJb3NNbWVJZ0M2cnJQMXpvdFV3cGxVdnluNExBdHJvMnpjek5VRVVqSXZ1eDVWR0pfTGpiRUViNWwxUmd2ODFpYWRFQWhlQ0ZPTkFNeEdJbDJMZTkxcmJLVUV0bXlMSTdMUloybFQ3OTlKaHBuMTAyVHlUXzhDTHlLR0FPSFFoMFkxV2lJMWVxTTFSN0dkUzh0SXFOdw?oc=5",
       "published": "2026-11-18T05:00:02+00:00",
       "source": {
-        "name": "Franceinfo",
+        "name": "franceinfo",
         "url": "https://www.franceinfo.fr"
       }
     },
@@ -24,23 +34,13 @@
       }
     },
     {
-      "id": "1f6627910a09",
-      "title": "Résistance des bactéries aux médicaments : l’OMS note des progrès, mais appelle à redoubler d’efforts - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOT2JPUTdieVpOMnFJQkQtanB4WnhSLUE0WS1XS3NRdGk2RkQxWUxfN1M2ckJBYTliTWN6clN0NUd3VUM3Zi05anVUQ3VfZy1KRWxpaWd0R2tfalZzWlhzSUVCa3pQMUtscnp3bVBUT2hLTmRLLWtnbG9vdV92aUFwcGtWRVg4aU5ISlZETmcwcEFhZzZxU3dWaWY4ajBZcVBCZ0x1VlpxUUpKdnVza1pmUzZmamprTk82ZXU1RE9MSXFxMVRxYmZtTEk3c3FVaWhkX0oyc0dwYlFRVVVYMDh5Sy1Rbl9jcVpqMGlHWjFYU2dkclJJTG1RaF80UQ?oc=5",
-      "published": "2026-11-16T09:47:06+00:00",
+      "id": "8930fb0e50eb",
+      "title": "Cancer du pancréas : un nouveau traitement prometteur autorisé dans l’Union européenne après une procédure accélérée - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxON1BtV3NoN0lhbDNkSzVwZDFjZVpCYkh5cGdSOXkzcTVfWkpkSVVpRkdadUZ0Rl9EUVZNaV8tbUlqcF9EV2dNNlZtVmpKNlVLYklfMXpWSmhNeG5nR09wZnpNN2MyWmZrQkJlcUJKU3VqSUs4UDlqemwyR0U3a3NiWVl2dzBYbnBRMjB2LVhkZ08wZlJsSWFoVnIwaHpUbG9UNklucktvbC1Qakp5eGNPSjlnZFMxX2NQT0g1UXZrd2ZwYVpFdDN3emFlcWV4UmttRl94RjFPd1RxMnpBeTgzWHBzby1lb3cyaXJnQ1JmU3RqRnJaZkFsM3NXVWZjU0Fkcm5qZ2Q1UFFDQ18tMy1ubktWSlFkZw?oc=5",
+      "published": "2026-11-18T14:56:36+00:00",
       "source": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
-      }
-    },
-    {
-      "id": "652096a7ba6e",
-      "title": "Cancer du sein : un traitement réduit le risque de décès de 19 %, une avancée majeure après six ans d'études - Futura, le média qui explore le monde",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOa0pCc0cweC1ZUmplZDd3ZlU0eTVDMVIzcWxtSjZQUXZxSW95TmNwT0dJTDRrUEIxY3hIWnVCemtITV9uS1NGdk5LeldUbV82N2VjRUhra19HSmR3cDRmV1BaNTYwWFYwMF9qNUpVRFQ1b0tRZlVEUjBGbjd3UEM2ZHlZSW9TYXZZOUJ1RzFUbmNOSDltbHd1Ukk2bm04Q29lR0JydjkzOGdWd0ZQOGZOTXR1LUlTR0V3aEVMTmkxY0xQc0FKdnFhZU1PeXFCTGVtNk43aVIwSlNLZm5TTjhMZWl4NzhRTVhpS1B1Yg?oc=5",
-      "published": "2026-11-17T17:00:00+00:00",
-      "source": {
-        "name": "Futura, le média qui explore le monde",
-        "url": "https://www.futura-sciences.com"
+        "name": "Ouest-France",
+        "url": "https://sante.ouest-france.fr"
       }
     },
     {
@@ -54,23 +54,43 @@
       }
     },
     {
-      "id": "1eaa63f4f54a",
-      "title": "89 médicaments vendus en France « plus dangereux qu'utiles » selon la revue Prescrire, la Sécu en rembourse encore - JeChange",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ1hUZ1Jkd1RXcG9FRWF6R0xpSzdCZTRSTWc2WER3eUdRT2c0N0RWRUlMQm14RDN5Q1A2NEtvSVA3TENEVmQ1ZUJsZDN4djBOSTZEXzdaZnRweHhBOVFKaE9qNDBvMUx6ek55VlZtdm5NS2pPWlFvbUVwREFuN2tsNFNtaEVncnRNUExOTzBtSnBETmcwSjg5TWZUN285TFM3aVM4ZURsREQ3MTZSMXdRQV9UbU1hSHRDTjZpWWNxNmNWdE0?oc=5",
-      "published": "2026-11-16T14:35:00+00:00",
-      "source": {
-        "name": "JeChange",
-        "url": "https://www.jechange.fr"
-      }
-    },
-    {
-      "id": "fcf19f2f5896",
-      "title": "Notre ADN peut modifier l'efficacité de médicaments très couramment prescrits : c'est le résultat d'une étude sur 100 000 personnes - Science et vie",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOMHNRQmFaR3BUVzZpYTRxYWc2V01fWmZGeTcxeEMzWWVnMThuNkE5b1hnRGlLOXBHWEdYLVlNckpHQkNseFdvN2wxYWRoYnlKVFBjc2Q1ZVAzVzJhYko2LWV4VEZ3SGc3N2YzTUdaX2ZWTTZETjVRSmxaa1c2MHY1MzFDam0wSVJ0RlZHQjY2b0lNN1k0ckFGY2g3NWRMNnBwalVRZ091VTJxUGVJOHdScXNfdzZ0Rm9aajg4cUlkeUtuRzJXVlJzZjUtRHZMU3BybFR1OGs4RThpcUhkZVFZOUhXR014LWRieHJ0Q096emVXcENqY1FwbzVOUlFpckxFczJTQ0lEVnFTNlZLMjhzZGJ3?oc=5",
-      "published": "2026-11-17T10:30:00+00:00",
+      "id": "911b8cbcc2b7",
+      "title": "Des chercheurs américains ont créé un interrupteur à ARN permettant d'activer ou d'ajuster une thérapie génique avec un médicament - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNWHNfcDhfOVYxZHFWU0hfTzhCTHlUNHJ4M3pTQkx6NHozNHpzUWJhQXVack40X1ltb2tpR1VwY1BXLXNmREFSa2JHT1NoNmZrblFyWjN4WFF2dHJ1TFpJa0dyQkFscmcyeHVUWUpyUmZIY3JROXZRRl93TE1qQ2hxS080LWF2S0xubzdQV2ZsR2l5U1I1Y1J2NzhNWlM5UE9VUXVfZC1RdGVPMmhRR3NSVHZjQXRBcEhkRjJLeC1xMmhtMHlESEhpLVBxVkIzWHYxNXlLYWY4aWNHcDEzYW9jTmNTYnZkNjc5TzBEQld1dGF4d01vNnh5d1hLaWkxazZES2drS0NWUFdxOWJua095VmV0QlQ?oc=5",
+      "published": "2026-11-18T14:00:27+00:00",
       "source": {
         "name": "Science et vie",
         "url": "https://www.science-et-vie.com"
+      }
+    },
+    {
+      "id": "1f6627910a09",
+      "title": "Résistance des bactéries aux médicaments : l’OMS note des progrès, mais appelle à redoubler d’efforts - Le Monde.fr",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOT2JPUTdieVpOMnFJQkQtanB4WnhSLUE0WS1XS3NRdGk2RkQxWUxfN1M2ckJBYTliTWN6clN0NUd3VUM3Zi05anVUQ3VfZy1KRWxpaWd0R2tfalZzWlhzSUVCa3pQMUtscnp3bVBUT2hLTmRLLWtnbG9vdV92aUFwcGtWRVg4aU5ISlZETmcwcEFhZzZxU3dWaWY4ajBZcVBCZ0x1VlpxUUpKdnVza1pmUzZmamprTk82ZXU1RE9MSXFxMVRxYmZtTEk3c3FVaWhkX0oyc0dwYlFRVVVYMDh5Sy1Rbl9jcVpqMGlHWjFYU2dkclJJTG1RaF80UQ?oc=5",
+      "published": "2026-11-16T09:47:06+00:00",
+      "source": {
+        "name": "Le Monde.fr",
+        "url": "https://www.lemonde.fr"
+      }
+    },
+    {
+      "id": "694d046c8409",
+      "title": "Actualité - Tensions en furosémide 20 et 40 mg : l’ANSM met en place de nouvelles mesures pour permettre la continuité de traitement des patients - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOT2d4LUMxdjY0ZFBHd3FsNnNneFd6UkxwWjdDR1I5Smk5V1llNEhFelJwTzNVOGNtdDl6MGdxd3hDVGM4WEoyX1IwY0J5Mkxfb1VxTGZMMUFvbHIwVVpIbnhNYjVIb1RRci1BV2tURmpFZVVGQVF0WVl3amxNR1VzdE5iRUNhNHJpSG90SFplbEhGRXpXTTNkZzNteFFFVWkybEwwaVdGSkdDSEVxZVJYMGkwLVhVdjBUc1BtZFhVdG5Sdi1Sc2hvVW1WVGRtRlFnT0NsT3JObFM3aXdhQ2ExWW92WWdfY2NSVXp6VFpKMXJ6OGtTX2c?oc=5",
+      "published": "2026-11-18T14:03:34+00:00",
+      "source": {
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
+      }
+    },
+    {
+      "id": "55fcb1c6f08b",
+      "title": "Cancer du sein avancé : Roche obtient le feu vert américain pour son nouveau traitement Wilserdly - Whatsupdoc-lemag.fr",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjNIaVZPcWFqTTNQYjJnVXF2c0pnSXJNYVhFXzVvWFdWQks5WGk5TVA1aTVkUFAtQmVBQ25nUDc2X0FEbzRpSV9UYUZSZDh1RWg4MTcwVGVCdk54NVQwQTQ4ZVk2RjFzcEcwcmZPV0E3dmxHVTFrSWpuVlYxdW5KVE96ejF1MWNSNF9DTnFDLU0tNmRLNXpUZGZ4SjdkUFlxYTZvVTFoTEhQd1lmenJ4VVExY205X0VXWTVoa1B6NmVTeWc?oc=5",
+      "published": "2026-11-17T16:08:00+00:00",
+      "source": {
+        "name": "Whatsupdoc-lemag.fr",
+        "url": "https://www.whatsupdoc-lemag.fr"
       }
     },
     {
@@ -84,26 +104,6 @@
       }
     },
     {
-      "id": "df83b5c0fca5",
-      "title": "Prix des médicaments : France Assos Santé salue le vote du Sénat et appelle le gouvernement à préserver cette avancée - France Assos Santé",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNQkxRMkZHSno5ajg5S1NaNFN2WXRBeUxMSzY4X2prQ2txM2s4VHlCb2lFLWRfUUN2TXZoS3ZxaWZpS2RFVmRHZlhycTZVUEFNMkcwUVNDNEx5VXRtUjBYMEZoRU1fN3NQZVJ3Qk1RVWNDWkc4TnN0am5zdXpzenlWYnBzNV9kZTBmUGJNY1ZBcnNackNReFg5ZzZJLUY4WGpSWFRUc0JrMTNmNlJMd2taY21WajhHU0JXaW90ejMzSHJkYmVhSHZXaHJ3SGhCal9kX3RaS0NXV0M2RGg3d3VUd3BNdldHUnlCVXV2dQ?oc=5",
-      "published": "2026-11-17T13:44:19+00:00",
-      "source": {
-        "name": "France Assos Santé",
-        "url": "https://france-assos-sante.org"
-      }
-    },
-    {
-      "id": "b12a20e930ae",
-      "title": "TDAH : ces deux médicaments ne seront plus remboursés sans ce document - ma-sante.news",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ2JjOVJKN091UWtIX282V0pOZDlYRXk3ZlM2X1JSd0ZHU2ZRQ1BGeDM1c24wVTlTMktLTkZHbFNva19FLVdadVdNODVkSUNOTlFsai11Q09OcU5JZnVkaWZIZ2tOek9yVU5oQnd4a3AwQkpVMmhCQ1hZQWZrREVRV0lvbmoxX0hhNFE?oc=5",
-      "published": "2026-11-17T10:23:00+00:00",
-      "source": {
-        "name": "ma-sante.news",
-        "url": "https://ma-sante.news"
-      }
-    },
-    {
       "id": "b976028e122a",
       "title": "Antibiotiques dans nos rivières : 7 idées reçues sur les bactéries résistantes - Santé sur le Net",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUGFCN0xTbnJOUjRVUFhuSkFiMU52T3NBQkxvM3JTUVhjeks1emhqQml4MUF1S2RSWVk0MnFjNG5rVmpQNl9XVkd1NHFqTW5fUUtIeXhKa2hmb1U2NFBSelZpTWtzQ0NETVVNSmczWjVJck5VSGpiWlpMZzAwdi1qSi1ROXh5dU5RR0NGQl9BRzcyOXNUd0xEbXFxRmpoWEFqSF82TC1iRjI1V19PbEhrM0ZaVEFFUHFmb05TYjZEa1BiQQ?oc=5",
@@ -114,43 +114,13 @@
       }
     },
     {
-      "id": "099a73b281b3",
-      "title": "Disponibilité des médicaments en ville et à l'hôpital (semaines 46 et 47) - VIDAL",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRTZTMGwtRThlTEhZTUtKNXJVM1lOWGY4SXZOQ2xVUzJBNzFGb2NkUEJHb1BYWUZMdlRXdnBDcnV6ZHRQbDZ3T0dUblpMWG5vcTRfUDVMSWlkb0lhbExkM0ZsVXN4a0JvY1ZsR2U0RGVRalBtd3N4ZDhZdjRnaHVZenhNYm5leDlYTS1tTG15WDg4YTdnNmNKU2xJZXRGX25mdDEzd0kycHVncUlKcnpiTDktalg?oc=5",
-      "published": "2026-11-17T17:25:11+00:00",
+      "id": "cf310fcbab03",
+      "title": "Médicaments innovants : « L'écart de prix entre la France et les Etats-Unis ne prouve pas nécessairement que la France doit payer plus cher - Les Echos",
+      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPOGp3Nkx5aF9fTm1ERHMyUF9sd3ZrcU5VcW5uVUNyaElBai13dmlYUm85dmlGZk95cl8wd1ZRMmlhQ3UwcmRablNhR2NvRkpsUDRyd19KN1VhV1JlRnVOTFdudThNczFWcTV1ZlpoM0lrSTNZUEtYSVFXMDh6VjNORV9leGFsVU8tSWVyby13Q3pScXNSdTY0TmpEdFBVanA5eUpfU25ZV21wMUZidXIyM3VnSXE4ZVJQWlY4NkNhZTE2UmY5eXc3QlpPNDV6MUtNNnpzWWpZRjlFNVhibWxCbHEzRzJNWGY3Tnd4OUlpSGhZLUx1cUxoRHp2SjlfSEJHMkl5SHlGOVB0Q3dFUmljOVF2RGw?oc=5",
+      "published": "2026-11-17T13:05:10+00:00",
       "source": {
-        "name": "VIDAL",
-        "url": "https://www.vidal.fr"
-      }
-    },
-    {
-      "id": "3beb663f0828",
-      "title": "Un grand espoir? Un nouveau médicament contre le cancer du pancréas autorisé par l'UE - RMC",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQT1ZyZGEtT0hsTDdTb05QMF9SZC1qb3FiQWRsMW5DeGZ6SzRoMno1V2UtcVFTYVZRak90SVdwT3VCME1UVEtNTFFuanpJc0ZSWlZWTUI0OWtGOU9obTNEc1RqdDM3Rk42Si1jcHFEelBOWXVFWVNaejFKSkZBOFNCQjlwM19JWTZmNkJZS2xiOGRhRE9vZmlFTGxVaTNLd2ZFcXRFUGNZZ04zdzhvMzJwbTQxTGo0anVlNXFhMDFLRUpqVE5PYk5qNUg5c3dKbllkQ0lSem56bG9MdW9sVERGWGp0WExPMjg?oc=5",
-      "published": "2026-11-18T10:24:55+00:00",
-      "source": {
-        "name": "RMC",
-        "url": "https://rmc.bfmtv.com"
-      }
-    },
-    {
-      "id": "0aaaa8330faf",
-      "title": "Antibiotiques : ces idées reçues qu'il faut arrêter de croire - Harmonie Santé",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWWZuc0NLaDg2Z1B2aTdONFVCdEtzR1liRlM0cUR3bmRFT2R3WW8yZUFnLWhEdENTUEE4STN2dVFITmZkMDlIM1JNVkFZbWQ0OXo0M0l2VUhNb1FybUtib25DcVlZVkgyOVpESEJ2OFBXOThza0NqYWtSbDhTVzlhNmtWeFZFWFdtZ3pHMS1iV2M1eDk1X3hOb0FlOXpnYXotaC1BVi1zcDdjZUhhcXRDMENMaUgtU2QwWUE?oc=5",
-      "published": "2026-11-18T08:00:00+00:00",
-      "source": {
-        "name": "Harmonie Santé",
-        "url": "https://www.harmonie-sante.fr"
-      }
-    },
-    {
-      "id": "588036166280",
-      "title": "Montpellier : le CHU inaugure un nouveau site pour faciliter le retrait des médicaments spécialisés - Echo des Tribunes",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNXhRZURhV1RjYi1ycDZuNWdaZW5mM2NHYWNVSmxjVVRGMndudFJDdmZubENMbzVPRGl4em02VXNuVXRoVjJweHdndHo5Tnk3dENUZG55NnpUdTJ4U2xvMGJLdndkNE1CM1pBNklWejRkeTdjWVFyR3h2NnI4Vnl4UldDNnVSREtfWTZuYzFLVy1ETWRCeTRZWncwMGt1ZmFCNURFd1AxNDRJYmdHY0tYNGdfTjRyOWJEYms1LVhBQWlRdzAxNkZodXFCaXpLb1h4YXZhbVdfcjRpa1ZmeUs3ZFJZVnNDSHM?oc=5",
-      "published": "2026-11-18T09:49:00+00:00",
-      "source": {
-        "name": "Echo des Tribunes",
-        "url": "https://echo-des-tribunes.com"
+        "name": "Les Echos",
+        "url": "https://www.lesechos.fr"
       }
     },
     {
@@ -164,13 +134,43 @@
       }
     },
     {
-      "id": "cf310fcbab03",
-      "title": "Médicaments innovants : « L'écart de prix entre la France et les Etats-Unis ne prouve pas nécessairement que la France doit payer plus cher - Les Echos",
-      "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxPOGp3Nkx5aF9fTm1ERHMyUF9sd3ZrcU5VcW5uVUNyaElBai13dmlYUm85dmlGZk95cl8wd1ZRMmlhQ3UwcmRablNhR2NvRkpsUDRyd19KN1VhV1JlRnVOTFdudThNczFWcTV1ZlpoM0lrSTNZUEtYSVFXMDh6VjNORV9leGFsVU8tSWVyby13Q3pScXNSdTY0TmpEdFBVanA5eUpfU25ZV21wMUZidXIyM3VnSXE4ZVJQWlY4NkNhZTE2UmY5eXc3QlpPNDV6MUtNNnpzWWpZRjlFNVhibWxCbHEzRzJNWGY3Tnd4OUlpSGhZLUx1cUxoRHp2SjlfSEJHMkl5SHlGOVB0Q3dFUmljOVF2RGw?oc=5",
-      "published": "2026-11-17T13:05:10+00:00",
+      "id": "0aaaa8330faf",
+      "title": "Antibiotiques : ces idées reçues qu'il faut arrêter de croire - Harmonie Santé",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWWZuc0NLaDg2Z1B2aTdONFVCdEtzR1liRlM0cUR3bmRFT2R3WW8yZUFnLWhEdENTUEE4STN2dVFITmZkMDlIM1JNVkFZbWQ0OXo0M0l2VUhNb1FybUtib25DcVlZVkgyOVpESEJ2OFBXOThza0NqYWtSbDhTVzlhNmtWeFZFWFdtZ3pHMS1iV2M1eDk1X3hOb0FlOXpnYXotaC1BVi1zcDdjZUhhcXRDMENMaUgtU2QwWUE?oc=5",
+      "published": "2026-11-18T08:00:00+00:00",
       "source": {
-        "name": "Les Echos",
-        "url": "https://www.lesechos.fr"
+        "name": "Harmonie Santé",
+        "url": "https://www.harmonie-sante.fr"
+      }
+    },
+    {
+      "id": "3beb663f0828",
+      "title": "Un grand espoir? Un nouveau médicament contre le cancer du pancréas autorisé par l'UE - RMC",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQT1ZyZGEtT0hsTDdTb05QMF9SZC1qb3FiQWRsMW5DeGZ6SzRoMno1V2UtcVFTYVZRak90SVdwT3VCME1UVEtNTFFuanpJc0ZSWlZWTUI0OWtGOU9obTNEc1RqdDM3Rk42Si1jcHFEelBOWXVFWVNaejFKSkZBOFNCQjlwM19JWTZmNkJZS2xiOGRhRE9vZmlFTGxVaTNLd2ZFcXRFUGNZZ04zdzhvMzJwbTQxTGo0anVlNXFhMDFLRUpqVE5PYk5qNUg5c3dKbllkQ0lSem56bG9MdW9sVERGWGp0WExPMjg?oc=5",
+      "published": "2026-11-18T10:24:55+00:00",
+      "source": {
+        "name": "RMC",
+        "url": "https://rmc.bfmtv.com"
+      }
+    },
+    {
+      "id": "588036166280",
+      "title": "Montpellier : le CHU inaugure un nouveau site pour faciliter le retrait des médicaments spécialisés - Echo des Tribunes",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNXhRZURhV1RjYi1ycDZuNWdaZW5mM2NHYWNVSmxjVVRGMndudFJDdmZubENMbzVPRGl4em02VXNuVXRoVjJweHdndHo5Tnk3dENUZG55NnpUdTJ4U2xvMGJLdndkNE1CM1pBNklWejRkeTdjWVFyR3h2NnI4Vnl4UldDNnVSREtfWTZuYzFLVy1ETWRCeTRZWncwMGt1ZmFCNURFd1AxNDRJYmdHY0tYNGdfTjRyOWJEYms1LVhBQWlRdzAxNkZodXFCaXpLb1h4YXZhbVdfcjRpa1ZmeUs3ZFJZVnNDSHM?oc=5",
+      "published": "2026-11-18T09:49:00+00:00",
+      "source": {
+        "name": "Echo des Tribunes",
+        "url": "https://echo-des-tribunes.com"
+      }
+    },
+    {
+      "id": "4010319f9eb8",
+      "title": "Une production entre la France et l’Allemagne : Sanofi progresse sur la relocalisation en Europe d’une immunothérapie innovante contre le diabète de type 1 jusque-là fabriquée aux Etats-Unis - L'Usine Nouvelle",
+      "link": "https://news.google.com/rss/articles/CBMi-AJBVV95cUxQZFBaV21VeUNzbTQ4U3NNSFVtWEFIem5mVDJibnhsUGdLaG42TnJyM0dmVktWSHp5R0F4MC01Q2ZZUUM2UW5LTHl0N3EyT2FZZjE4Z3QwM0ZGSjNyc3lXdFQxU2EwRHRldl9ySkE1TUQxakhSWHVkS1ROU3FwdzJXWXRDQ2wxME1FNEV0Y3N4WkEtYnFuWC1SY0Q3aFI0aVhicENlbmV3a0VmRW5sRUZ0bk5kZ1VhME8wX0hMcEZ5ek9HbHluSmc2SmduMWlMempUR1RyVXlKNzlEdGI0YkVBZkR2YkYybUU3Rlh5MFBZUTVBeDgxVWRDbVhrR1puR3ptcEMwQ1k5b0w5eENlU1JlZ1ZaSHBqN041SVc5RjcxUGZXejI0Qm0telNRdnpTNEtSUTE5SlhpdGlMazhRVzRpUlhCRloxU05DYjBqUXpHQVZVdU5wYTgzVEcyWEo5ZzlvaVZLYWtnMjgyUE9qcmhzdkZVU0JhNHZR?oc=5",
+      "published": "2026-11-18T15:00:00+00:00",
+      "source": {
+        "name": "L'Usine Nouvelle",
+        "url": "https://www.usinenouvelle.com"
       }
     },
     {
@@ -194,63 +194,13 @@
       }
     },
     {
-      "id": "17f33aec33cb",
-      "title": "Le CHU de Montpellier inaugure son nouveau site unique de rétrocession de médicaments - Hospitalia.fr",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmNfWVY4bVp5b0dzSVFCM3YyNC13OUZ4N3BPa0J5OGZkd19rdEtxdklDUXRMMFRCdzdRRUxzWGE5TDNrSll1SUZWV0lmTGJBbUo5ZVdGYS00SnJZSVR3Wi1iSDgzRmRrV20zSlFOMjdYMURGS1JPYnVOdzNCRk9EMDlEclhDM21TNnNNN2VRNXFjSjlYS2dPbTZVMGRPMHUzbzZabFJMemh0Zkt4OUwzalNmU3pCdU9HZVd0STE1NA?oc=5",
-      "published": "2026-11-17T20:58:56+00:00",
-      "source": {
-        "name": "Hospitalia.fr",
-        "url": "https://www.hospitalia.fr"
-      }
-    },
-    {
-      "id": "b0d4ec6b7cd9",
-      "title": "Wegovy ou Mounjaro : pourquoi certains perdent beaucoup moins de poids que d’autres ? La réponse se trouve dans votre ADN - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZHdtUGd3ODhxckpwRDhUNTFxcDI0TndQN3B0VmhCQXRuVDVOTVdfOGx6TV91QWhQVnFBbU9ycDBES3FWbXZDZGh2YktXQThESUFpbkJoYmw1VFd1THd1X3VsUXBZNkp1dWxLYktDcVpwNUotVFJidkRoNFlKZEFfRHRabnlpQU9Zd3RiRmxVVFZiZlFBOTFQRDZ6M3FMQTc4UUFCUlREUXV3LWJDeFFqYXFhdVJXTXdIbVd5Z2lUMDRkRGxRY0dtUXc4LTdiYmNyaWViYkJaamJIUW11VkdrYWRpNktXUnpuN0Q4cTlyWkk5ZWQ3MkVwcDdjSEE2bHhmNjNRSEFVUFZHQQ?oc=5",
-      "published": "2026-11-18T10:33:25+00:00",
+      "id": "ad27b9ea7d2e",
+      "title": "Cancer du pancréas : ce comprimé « révolutionnaire » validé en un temps record par l’Europe fait bondir la survie - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPVFpIN3NSZGhOUHFPRGdScXJMQm9KUmlIdFlDNXFzR2h3NEo5RG5FaFBUNFlielVCYms0VEVTUGtqaHExM0U5VVI4X1ZRa3JsMkoySGhfVmxpb3hDQ3pWeVlQLVJHa292VnpJZmhuQmMwS2wxWklZWW1lTUJiVHRSWWZWTmtWeXR6WTJ4Nmx4OEI3OGpoekVaazhKS25vMGFpZXM5Z1U3ajQwQmdncmtUejl3RGNNQU9NS1RCWm5LYUtoRFNMcW4xMHl2X3I3ZTdzcTA0aUdGUW05ekhXTFprajFlNVA5SDE0RkdCOHp0YnhYZw?oc=5",
+      "published": "2026-11-18T15:26:34+00:00",
       "source": {
         "name": "Doctissimo",
         "url": "https://www.doctissimo.fr"
-      }
-    },
-    {
-      "id": "8dad47ee9b4a",
-      "title": "Relocaliser le médicament, une ambition qui se heurte à la question du prix - L'Hémicycle",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcERHTTVXNlozeEJROUlfQmNaWDVsWlpDaWtIVkxKdjEydlJrUjdJMk1yeTg0V0F6Nno1YzdLSDB5UzJjT1llLU00aTBaVUo2eWtXRC1waG9naVhfM1JVOWV1SHNjb1ZNMExZbHlOMHVCS0JDZndsM3RfcXV1NmhaS085ci1DSVhqS0lVNkktV2xmSDVTNHNfVGVHWWFYRGU4bUg5eUx5VmxUcTJBRkE?oc=5",
-      "published": "2026-11-17T13:43:00+00:00",
-      "source": {
-        "name": "L'Hémicycle",
-        "url": "https://lhemicycle.com"
-      }
-    },
-    {
-      "id": "6183fb67200a",
-      "title": "Cancer du pancréas : la Commission européenne donne son feu vert à un nouveau traitement - Le Monde.fr",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRURRc1Y5SlRiR3J6Ujh3SUN0NGtJZmY0MlZiejZjVVBvaGhuY2RaZXdwOEFIOXlxNzBNOUJtOExsY1NNMWl2WWlxRFNDNlpmQmpMUzJXejZ6ZEFkVUZNWjhzYjRuRXNXazBGeUpzMmZVc2ZpR2NPTW8wYnJJNFBmWURoQmMzdVRnbjg5R2plVjVKOEVRRG53SERJZ2Y2anVwQmtXOVR1bjc1aUtfWEg0ODBtS3ZaSlRTTGZCQ0dZUkxwa1ViTVJPUWlTTG51Zy1jeWJrdkI4dDRpckdQVElYb0k4bXRRTnVrT1JB?oc=5",
-      "published": "2026-11-17T20:21:40+00:00",
-      "source": {
-        "name": "Le Monde.fr",
-        "url": "https://www.lemonde.fr"
-      }
-    },
-    {
-      "id": "7bfd89a8515d",
-      "title": "Cancer du pancréas : le médicament de l’espoir validé par l’UE - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVk9zcW90TlE5WHN0QV8wRnZGel8zSTg4WURNOVpROF9ZeUtjd1B2aUYzTFNzbjU2WWQyUmxZTU9WMlZ4aVIzRGZiMlRkdVUzYVVUc25FazBZUXVSOFZ1QmRLQ192b0x4TFhkbXNXLUlyOWg0a01BU1VuMkVLQ1M2NEZxUXNGMVFqQUxLSW1zaUFzZmxreTFQQjFsWUdJNjVXTmxuX0JOQnkwSEtZdUE?oc=5",
-      "published": "2026-11-18T13:25:00+00:00",
-      "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
-      }
-    },
-    {
-      "id": "c7e927406156",
-      "title": "Hôpital : état de disponibilité de plusieurs spécialités hospitalières (semaines 46 et 47) - VIDAL",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSHlKME9kSUpVV201ai1YeWtqbzY4bGxvaUFvZUdqU001MElSS2dpYzJGV21pZGxaTXlSSGZXazdWR3ExRzY2M243dGNaRnMxNHBpSERTdFFOMFpFZG15ajA3dnZWa0FyLVNXTFVUY0NhUFlxVUd6UjRYZWpNUmR1Z3dxVm1fTkZJUUZldm1DbFg5SW5Jc1h2SFBvOUFCOGdBSjhXU3F3ZnpxOERUeTc0NmE3Y3NvaDkwZGhxNHR3QmtMcmZpX1NtYQ?oc=5",
-      "published": "2026-11-17T17:25:11+00:00",
-      "source": {
-        "name": "VIDAL",
-        "url": "https://www.vidal.fr"
       }
     },
     {
@@ -264,13 +214,23 @@
       }
     },
     {
-      "id": "0d9976431807",
-      "title": "Le médicament AR1001, de la même famille que Viagra, pourrait ralentir la maladie d'Alzheimer - Yahoo Actualités",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYm9CcUVzay02NG1LMGZZbks3ZnVCZGpBTWJSM2pDdzhVVE51UzI1dkJxX2RnaUl3S1dvbmQzRS13ZlZqMExxQXhtdVptU2NuXzQtVjdvc0NJYXBNaW8tMnBsekZ5cmh3eEpPQzZHdHl2ZTlzNzliOFBGTHduUFZveWF0blM1VFV2M1J5VUNHRHBlQQ?oc=5",
-      "published": "2026-11-18T10:04:09+00:00",
+      "id": "fcf19f2f5896",
+      "title": "Notre ADN peut modifier l'efficacité de médicaments très couramment prescrits : c'est le résultat d'une étude sur 100 000 personnes - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOMHNRQmFaR3BUVzZpYTRxYWc2V01fWmZGeTcxeEMzWWVnMThuNkE5b1hnRGlLOXBHWEdYLVlNckpHQkNseFdvN2wxYWRoYnlKVFBjc2Q1ZVAzVzJhYko2LWV4VEZ3SGc3N2YzTUdaX2ZWTTZETjVRSmxaa1c2MHY1MzFDam0wSVJ0RlZHQjY2b0lNN1k0ckFGY2g3NWRMNnBwalVRZ091VTJxUGVJOHdScXNfdzZ0Rm9aajg4cUlkeUtuRzJXVlJzZjUtRHZMU3BybFR1OGs4RThpcUhkZVFZOUhXR014LWRieHJ0Q096emVXcENqY1FwbzVOUlFpckxFczJTQ0lEVnFTNlZLMjhzZGJ3?oc=5",
+      "published": "2026-11-17T10:30:00+00:00",
       "source": {
-        "name": "Yahoo Actualités",
-        "url": "https://fr.news.yahoo.com"
+        "name": "Science et vie",
+        "url": "https://www.science-et-vie.com"
+      }
+    },
+    {
+      "id": "b0d4ec6b7cd9",
+      "title": "Wegovy ou Mounjaro : pourquoi certains perdent beaucoup moins de poids que d’autres ? La réponse se trouve dans votre ADN - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZHdtUGd3ODhxckpwRDhUNTFxcDI0TndQN3B0VmhCQXRuVDVOTVdfOGx6TV91QWhQVnFBbU9ycDBES3FWbXZDZGh2YktXQThESUFpbkJoYmw1VFd1THd1X3VsUXBZNkp1dWxLYktDcVpwNUotVFJidkRoNFlKZEFfRHRabnlpQU9Zd3RiRmxVVFZiZlFBOTFQRDZ6M3FMQTc4UUFCUlREUXV3LWJDeFFqYXFhdVJXTXdIbVd5Z2lUMDRkRGxRY0dtUXc4LTdiYmNyaWViYkJaamJIUW11VkdrYWRpNktXUnpuN0Q4cTlyWkk5ZWQ3MkVwcDdjSEE2bHhmNjNRSEFVUFZHQQ?oc=5",
+      "published": "2026-11-18T10:33:25+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
       }
     },
     {
@@ -284,63 +244,13 @@
       }
     },
     {
-      "id": "55fcb1c6f08b",
-      "title": "Cancer du sein avancé : Roche obtient le feu vert américain pour son nouveau traitement Wilserdly - Whatsupdoc-lemag.fr",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjNIaVZPcWFqTTNQYjJnVXF2c0pnSXJNYVhFXzVvWFdWQks5WGk5TVA1aTVkUFAtQmVBQ25nUDc2X0FEbzRpSV9UYUZSZDh1RWg4MTcwVGVCdk54NVQwQTQ4ZVk2RjFzcEcwcmZPV0E3dmxHVTFrSWpuVlYxdW5KVE96ejF1MWNSNF9DTnFDLU0tNmRLNXpUZGZ4SjdkUFlxYTZvVTFoTEhQd1lmenJ4VVExY205X0VXWTVoa1B6NmVTeWc?oc=5",
-      "published": "2026-11-17T16:08:00+00:00",
+      "id": "1eaa63f4f54a",
+      "title": "89 médicaments vendus en France « plus dangereux qu'utiles » selon la revue Prescrire, la Sécu en rembourse encore - JeChange",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQQ1hUZ1Jkd1RXcG9FRWF6R0xpSzdCZTRSTWc2WER3eUdRT2c0N0RWRUlMQm14RDN5Q1A2NEtvSVA3TENEVmQ1ZUJsZDN4djBOSTZEXzdaZnRweHhBOVFKaE9qNDBvMUx6ek55VlZtdm5NS2pPWlFvbUVwREFuN2tsNFNtaEVncnRNUExOTzBtSnBETmcwSjg5TWZUN285TFM3aVM4ZURsREQ3MTZSMXdRQV9UbU1hSHRDTjZpWWNxNmNWdE0?oc=5",
+      "published": "2026-11-16T14:35:00+00:00",
       "source": {
-        "name": "Whatsupdoc-lemag.fr",
-        "url": "https://www.whatsupdoc-lemag.fr"
-      }
-    },
-    {
-      "id": "cd100f922bae",
-      "title": "Les Français consomment-ils moins d'antibiotiques ? - Univadis",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSnVieUt3M05HOVB6cVN0UFZMcVcyRXBzUjdQN0lIWUhzQ0tST2NDbGNTdzJUQThHOFctcUVaVGVGSlJYUktOTXNxeVY4QUJhRmJ1UFdsVFZzTlFQb2d5SV9zeWk3aDRsT3JLTUppVG1IczlsVDNQdDhXbXdYZU93X2lNZk5JWWJVU05rbWhqbUZ2RnZqTFNNX0lLS2dEZ241ZXl3UmNsOGNXQQ?oc=5",
-      "published": "2026-11-18T10:21:22+00:00",
-      "source": {
-        "name": "Univadis",
-        "url": "https://www.univadis.fr"
-      }
-    },
-    {
-      "id": "bda42eea4704",
-      "title": "Cancer du pancréas : comment fonctionne le daraxonrasib, ce nouveau traitement qui double l'espérance de vie des patients - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbkNfTDRwOUNuOU1vRmF6VXFUdmtTNVRvVld2MlpVSXlLajNNeElqS08ycjlFekFGd0xwS19ocklWM0p0eVhmTVdUY3doVGpPUE82Mlp4ZEs3dW5fUTJTSElJMG00RkpsWjIwWkwyZ3NVNGNjLXA0YWVRb0Y0QnBDTUVidVJ3WVItUW5JYVRJUWlsOGRBdnhPYUVVUWQ2dUlxcDg2TkEyVFNxdVRaQUppQkM5RnVsTUN0RmRDdVFlZE1VNkh3bjQyV2JoWmk4cDhZMFFWVGtzc3B3eEYtbUtHazZvWWduUnBhX2Q2QjlUUERYVW8?oc=5",
-      "published": "2026-11-18T11:41:44+00:00",
-      "source": {
-        "name": "Femme Actuelle",
-        "url": "https://www.femmeactuelle.fr"
-      }
-    },
-    {
-      "id": "6306de2759fc",
-      "title": "La pharma délaisse les patients les plus pauvres de la planète - SWI swissinfo.ch",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOb19mYTJIcG91NjJCOVdNWTlFVzJXYWdNcTB1Wm5sTDhCcEcxM0l0NHlyREJtVm5JUjhwdWhfLWNPVjFUc1NGWnVBTHlMSmZ0a2JDN29VSXlmaGdHU1BRaWw3UjluRFE4RnZSZ1BzWmhDTkRnOXJXR2RxU3EwVkZXWHlCb0t0YkIxaEVqdTZnRV9mZlA5emZkaWpKTUhKdXNfQTExalZyTzYxcG55QTdWb1RkT3JGN3pUOFpkZktxajhmZWo5ZG9FbDR5YnY?oc=5",
-      "published": "2026-11-18T07:21:15+00:00",
-      "source": {
-        "name": "SWI swissinfo.ch",
-        "url": "https://www.swissinfo.ch"
-      }
-    },
-    {
-      "id": "5ce665b5b5f1",
-      "title": "Cancer du pancréas et espérance de vie doublée : désormais autorisé en UE, le daraxonrasib va-t-il bientôt arriver en France - Marie Claire",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT290c244NWpmVVVCbC1vek53Nzh6X25FY1k5RUJqQy04M3p6Y3BWcloxeWFHeC14ZW5iYVY3cVcwMHdDR0UzNDJEVE1yQmg3UmhlbmdNUFJzdm1YcG94UEJiRDByZmtuLW13SkpZNF9VZEp2dUh2MVlMRXFUclNfSjY0ZUNoOWNqMThrZkstUzY2SW16eHlQYm9SdHRYRjN3aE1TdURiRXJLZUVvcnFwU0dpWWhRM2EyLUl2c2hDaw?oc=5",
-      "published": "2026-11-18T10:32:00+00:00",
-      "source": {
-        "name": "Marie Claire",
-        "url": "https://www.marieclaire.fr"
-      }
-    },
-    {
-      "id": "18e341d9d2ec",
-      "title": "Pendant 25 ans, des médecins ont suivi des patients souffrant de maladie coronarienne stable : ils ont mesuré les effets à long terme des stents sur les infarctus - Science et vie",
-      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNS3RfOUwtbnR4LTRRQ0lyT3FmcGMxQ0ptSktsYmgzNXBZdXc4dmVoWFdWcmpSSmZad0JTOGpISVpWMkV6SmVOazRFaTVlM1ZvRG1scnhHcUJiLWtIQXNFazhXZGxqNmIzYWtYX2FXQlZKTGJPT2xFRU9aaE9TRWVIN1pBMFl3U05GTkRSMmJqeVVxYmtMOHo3UFFEVDRjbXB1bGt0RC1Md2dqRWVaUVZTd2NJeGt0REQySzhjM0pyYW1XRlpJTmFxb0pndXZwVnVSVUdUd3RQTTJuVFZLcWRIY3dlbUdaUFFSNFBqU2Y3bVJlMU1yUU1YVGMyd3VEY0xxNjNJUDdOSnVkb0RYbmEyZEVPdUpQcUlUeFdhaDVGTGpVanVESHdxaldJY01UZzhuQ25xd3FEQWZLaWxEQkE?oc=5",
-      "published": "2026-11-17T19:00:14+00:00",
-      "source": {
-        "name": "Science et vie",
-        "url": "https://www.science-et-vie.com"
+        "name": "JeChange",
+        "url": "https://www.jechange.fr"
       }
     },
     {
@@ -354,53 +264,73 @@
       }
     },
     {
-      "id": "0556a80e8d64",
-      "title": "Bourgogne-Franche-Comté. Un violentomètre va apparaître sur vos sachets de médicaments : à quoi ça sert ? - Le Bien Public",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0FxRzduUGhwdjg3dkM4SjZMNU1WZjhtRlN0Tm5oS21qd3A1cUtGc00xVlp2VkpOWFl2ZEJYVWVwWXN3QVhXX1ppTTllU0U1X0xiNFZvTG1uaXNRZ1pLOFd1eGdQb3lLMGUxVktHT3F2UzN2MDFydkswbnNvbk0wSXlZTE5nRzFTQ203Wk1yYnhuNFNZU2w2cmFLeTNQT2U4SDc2QlJuSk5XUjdoU3BPNGZwaldYbHp0YXcyTlZSbXVEWU0wUFA2eUV4Zm5tU19j?oc=5",
-      "published": "2026-11-17T16:33:11+00:00",
+      "id": "daf1544296ef",
+      "title": "Obésité : testé dès 6 ans, le Wegovy fait sortir 38 % des enfants de l'obésité, mais il reste réservé aux 12 ans et plus - JeChange",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSkRJcm5HbXBHaVRmNDR5dFFZczFnTjVxc002cGhRQkprcFZZa1RoRzUyUjFGeTA4V1F2eE85X1lWal9ubnp2QjhXUXZuOFpvTmszdHlxYjFJT1p1dW5xTUh1eTlzR01nNFZsV29oV2hRbm9rRjExX2hEOFlVYmpzUGFOV0ZGV0ttUVdLVTNOdS16RF9idkUwNWRWRU83QkZuYlFDNDl3bGpVLUlGbFZSYk5jeUdueWQ1?oc=5",
+      "published": "2026-11-18T16:50:00+00:00",
       "source": {
-        "name": "Le Bien Public",
-        "url": "https://www.bienpublic.com"
+        "name": "JeChange",
+        "url": "https://www.jechange.fr"
       }
     },
     {
-      "id": "7aad0da22ce8",
-      "title": "En un an, les prescriptions d'antibiotiques chutent de près de 14% en France - Top Santé",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSGluMmZjcl9CMU9HdVFnOENONjk0M0ZuWTNhUDU0NXRpb25uM1o0Z0xab0tZY1ZINlBLSGJsbEhlWnlVVjV4cHM0eUozMk9YMmp2a2RnZmluUGZiS2FwTDViZHdYd0R3a3dPSG96elZIR3k2emFZSWJkM29WV283Rmo5TURlMlQtejFsOGZHV19JZjZJUk9Eb3NsNVpYUTZUN2FsNHlmd1hnQnlndi1jN2JHYndId215c25fMkhfMkZ4V1FiSzdFRXdSNDVDaDVZTVF6X1lGR3BsYzV6Q0dMWThMY3RlUzZkZ1dsSWlOWQ?oc=5",
-      "published": "2026-11-17T20:15:20+00:00",
+      "id": "0d9976431807",
+      "title": "Le médicament AR1001, de la même famille que Viagra, pourrait ralentir la maladie d'Alzheimer - Yahoo Actualités",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPYm9CcUVzay02NG1LMGZZbks3ZnVCZGpBTWJSM2pDdzhVVE51UzI1dkJxX2RnaUl3S1dvbmQzRS13ZlZqMExxQXhtdVptU2NuXzQtVjdvc0NJYXBNaW8tMnBsekZ5cmh3eEpPQzZHdHl2ZTlzNzliOFBGTHduUFZveWF0blM1VFV2M1J5VUNHRHBlQQ?oc=5",
+      "published": "2026-11-18T10:04:09+00:00",
       "source": {
-        "name": "Top Santé",
-        "url": "https://www.topsante.com"
+        "name": "Yahoo Actualités",
+        "url": "https://fr.news.yahoo.com"
       }
     },
     {
-      "id": "cfe4fde0d13b",
-      "title": "Spasfon, Smecta, Zopiclone… la liste des centaines de médicaments moins bien remboursés en 2027 - Actu.fr",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPN2hWcnpZcHRyVW9wMnFrUjZtU09HNExYaGNGNVZkOFgxOF84bjJEN2NkckFIejdUMjN2d05QTXFrVU93NkNTaTM4VVotOURGVTN2enh0ckNLUkdQb1cyZDBxMWJybGxYVE9YSDBuRnR5SHhxcFk4NE1rTE1NaDdfMWpMRmFoSmFqMk5tLWFFTnB3Y1V2dkUwRVVUYU04c29ETDZNSTkyM1JtYmwtaVVnSkJtUFR3THp1cVZLekJJR040UUxKN2Q0UQ?oc=5",
-      "published": "2026-11-17T05:02:02+00:00",
+      "id": "7bfd89a8515d",
+      "title": "Cancer du pancréas : le médicament de l’espoir validé par l’UE - Pourquoi Docteur",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVk9zcW90TlE5WHN0QV8wRnZGel8zSTg4WURNOVpROF9ZeUtjd1B2aUYzTFNzbjU2WWQyUmxZTU9WMlZ4aVIzRGZiMlRkdVUzYVVUc25FazBZUXVSOFZ1QmRLQ192b0x4TFhkbXNXLUlyOWg0a01BU1VuMkVLQ1M2NEZxUXNGMVFqQUxLSW1zaUFzZmxreTFQQjFsWUdJNjVXTmxuX0JOQnkwSEtZdUE?oc=5",
+      "published": "2026-11-18T13:25:00+00:00",
       "source": {
-        "name": "Actu.fr",
-        "url": "https://actu.fr"
+        "name": "Pourquoi Docteur",
+        "url": "https://www.pourquoidocteur.fr"
       }
     },
     {
-      "id": "6b9e37361c33",
-      "title": "À quoi servent les antibiotiques ? - Franceinfo",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnNmSDA3NTJhd000dFRFcW5qcmZtMktBOEptdzBEQ0VIZEl3d3hQX2NFbWlGbkw4RnV4OUNIM1hyRGdUNkpDOV95T1UtYmMyd1V2THU2TDJkUEJNempCalowQVNnTVlaVjVwS0dzVkJkUW5Zd202aUV0WjBadmJOVE1aQ0pCbV8xTW92NGtQdlNFUEg2WWRoVlJ5ZTFNSWFaZ2M2U1dwOGZQY1U?oc=5",
-      "published": "2026-11-17T12:24:20+00:00",
+      "id": "17f33aec33cb",
+      "title": "Le CHU de Montpellier inaugure son nouveau site unique de rétrocession de médicaments - Hospitalia.fr",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdmNfWVY4bVp5b0dzSVFCM3YyNC13OUZ4N3BPa0J5OGZkd19rdEtxdklDUXRMMFRCdzdRRUxzWGE5TDNrSll1SUZWV0lmTGJBbUo5ZVdGYS00SnJZSVR3Wi1iSDgzRmRrV20zSlFOMjdYMURGS1JPYnVOdzNCRk9EMDlEclhDM21TNnNNN2VRNXFjSjlYS2dPbTZVMGRPMHUzbzZabFJMemh0Zkt4OUwzalNmU3pCdU9HZVd0STE1NA?oc=5",
+      "published": "2026-11-17T20:58:56+00:00",
       "source": {
-        "name": "Franceinfo",
-        "url": "https://www.franceinfo.fr"
+        "name": "Hospitalia.fr",
+        "url": "https://www.hospitalia.fr"
       }
     },
     {
-      "id": "3117eb045c73",
-      "title": "Antibiotiques : encore trop automatiques - TF1 Info",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVROc2ZydVptV3UxTC1OMzIzX3RyMFFFX01Db2FCM0xYdFpweEx3VUswUGFiNm9zSmotTXpFU3RSenZLMjFPbFRpa1Mya2E4aS1GaWVMV0pSaDJLOExVUl9ac3pBNFpwTFpVR2xRRFhLdDloUmo1U1lWUkdmTkx6dERPZGwxaDRjeXZEQ3NOR2YtS3gyNkdWU0NkRHFmTHc?oc=5",
-      "published": "2026-11-17T20:55:15+00:00",
+      "id": "bda42eea4704",
+      "title": "Cancer du pancréas : comment fonctionne le daraxonrasib, ce nouveau traitement qui double l'espérance de vie des patients - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNbkNfTDRwOUNuOU1vRmF6VXFUdmtTNVRvVld2MlpVSXlLajNNeElqS08ycjlFekFGd0xwS19ocklWM0p0eVhmTVdUY3doVGpPUE82Mlp4ZEs3dW5fUTJTSElJMG00RkpsWjIwWkwyZ3NVNGNjLXA0YWVRb0Y0QnBDTUVidVJ3WVItUW5JYVRJUWlsOGRBdnhPYUVVUWQ2dUlxcDg2TkEyVFNxdVRaQUppQkM5RnVsTUN0RmRDdVFlZE1VNkh3bjQyV2JoWmk4cDhZMFFWVGtzc3B3eEYtbUtHazZvWWduUnBhX2Q2QjlUUERYVW8?oc=5",
+      "published": "2026-11-18T11:41:44+00:00",
       "source": {
-        "name": "TF1 Info",
-        "url": "https://www.tf1info.fr"
+        "name": "Femme Actuelle",
+        "url": "https://www.femmeactuelle.fr"
+      }
+    },
+    {
+      "id": "5ce665b5b5f1",
+      "title": "Cancer du pancréas et espérance de vie doublée : désormais autorisé en UE, le daraxonrasib va-t-il bientôt arriver en France - Marie Claire",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT290c244NWpmVVVCbC1vek53Nzh6X25FY1k5RUJqQy04M3p6Y3BWcloxeWFHeC14ZW5iYVY3cVcwMHdDR0UzNDJEVE1yQmg3UmhlbmdNUFJzdm1YcG94UEJiRDByZmtuLW13SkpZNF9VZEp2dUh2MVlMRXFUclNfSjY0ZUNoOWNqMThrZkstUzY2SW16eHlQYm9SdHRYRjN3aE1TdURiRXJLZUVvcnFwU0dpWWhRM2EyLUl2c2hDaw?oc=5",
+      "published": "2026-11-18T10:32:00+00:00",
+      "source": {
+        "name": "Marie Claire",
+        "url": "https://www.marieclaire.fr"
+      }
+    },
+    {
+      "id": "b12a20e930ae",
+      "title": "TDAH : ces deux médicaments ne seront plus remboursés sans ce document - ma-sante.news",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ2JjOVJKN091UWtIX282V0pOZDlYRXk3ZlM2X1JSd0ZHU2ZRQ1BGeDM1c24wVTlTMktLTkZHbFNva19FLVdadVdNODVkSUNOTlFsai11Q09OcU5JZnVkaWZIZ2tOek9yVU5oQnd4a3AwQkpVMmhCQ1hZQWZrREVRV0lvbmoxX0hhNFE?oc=5",
+      "published": "2026-11-17T10:23:00+00:00",
+      "source": {
+        "name": "ma-sante.news",
+        "url": "https://ma-sante.news"
       }
     },
     {
@@ -414,43 +344,43 @@
       }
     },
     {
-      "id": "0bbaa00a38d2",
-      "title": "Galenica: Verfora acquiert 51% d’un distributeur pharmaceutique polonais - agefi.com",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLXV3Nk1SZGt1bl9XSWpyUXZDdGtiaG9ScDdPbzZDcUcwenFfMEZKTUt5Vlk5dDRidmdZSk52Wll2NVY2RHFBZGdmTWdGU1RhdXNOUTlsMTFFMmkwVDZKbEJZVl93LTA3akxrRUgzVWFieXhDaVJXQVQ5c1hsWjlkbWVicE5zZWp5WWp4VUNZNFZ2dUZGS1JXU0F2eUdxaW9pY1FtYUNLODB0c05IRnJj?oc=5",
-      "published": "2026-11-18T07:02:00+00:00",
+      "id": "723f1c1cd84f",
+      "title": "À quoi servent les antibiotiques ? - franceinfo",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcnNmSDA3NTJhd000dFRFcW5qcmZtMktBOEptdzBEQ0VIZEl3d3hQX2NFbWlGbkw4RnV4OUNIM1hyRGdUNkpDOV95T1UtYmMyd1V2THU2TDJkUEJNempCalowQVNnTVlaVjVwS0dzVkJkUW5Zd202aUV0WjBadmJOVE1aQ0pCbV8xTW92NGtQdlNFUEg2WWRoVlJ5ZTFNSWFaZ2M2U1dwOGZQY1U?oc=5",
+      "published": "2026-11-17T12:24:20+00:00",
       "source": {
-        "name": "agefi.com",
-        "url": "https://agefi.com"
+        "name": "franceinfo",
+        "url": "https://www.franceinfo.fr"
       }
     },
     {
-      "id": "6d8a4bc10fdd",
-      "title": "Attention au mélange magnésium et antibiotiques : le Dr Gérald Kierzek explique pourquoi l'heure de prise est vitale - Doctissimo",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPU1FubTBGUHhmd19wN2NsTl9VRm5fNGZjLUVEamhrbnNuRk40dEhwRlN6RmI4c0FXWHlCOTAzWkQwTDI0OFlsWmZhZlBkeURKaGxYdTZpODRSaEl5ZDFUb1hBM0lUalFvNEkzVW1odDl6WWhWSEVHaFhpRHk2RWxobmZ2Tk1qYlVqLTU4N1ZvZkJ5cDdBX2JRbVFyb1NRMlA5LU1DWGFhN2ZiTGdjYnZGbFZNcUpIZlZETUdRblE3aDRlOE16WWcxc2ExbFR3WHVOMkRVQXpNdHpKckt3ZVNiZFU0eGJhZUlVclo4MjZZeHMtYUVubFVGQi1aWQ?oc=5",
-      "published": "2026-11-17T18:55:33+00:00",
+      "id": "0556a80e8d64",
+      "title": "Bourgogne-Franche-Comté. Un violentomètre va apparaître sur vos sachets de médicaments : à quoi ça sert ? - Le Bien Public",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPY0FxRzduUGhwdjg3dkM4SjZMNU1WZjhtRlN0Tm5oS21qd3A1cUtGc00xVlp2VkpOWFl2ZEJYVWVwWXN3QVhXX1ppTTllU0U1X0xiNFZvTG1uaXNRZ1pLOFd1eGdQb3lLMGUxVktHT3F2UzN2MDFydkswbnNvbk0wSXlZTE5nRzFTQ203Wk1yYnhuNFNZU2w2cmFLeTNQT2U4SDc2QlJuSk5XUjdoU3BPNGZwaldYbHp0YXcyTlZSbXVEWU0wUFA2eUV4Zm5tU19j?oc=5",
+      "published": "2026-11-17T16:33:31+00:00",
       "source": {
-        "name": "Doctissimo",
-        "url": "https://www.doctissimo.fr"
+        "name": "Le Bien Public",
+        "url": "https://www.bienpublic.com"
       }
     },
     {
-      "id": "17ebf34c8921",
-      "title": "En 2025, la consommation d’antibiotiques est repartie à la baisse - Ouest-France",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNWdLUjBjOXNNN2NQMzdIQi1fWVdiWFdBMTk1QUVJRWFOT0pTWGk5R1pRdzU1MnpOT1lqZFJlV3ZzNEh1Q0lKS1RxaVh4S2g2SENlVHBmVWF6M05rZ3ZxN01Fdkx5Wnc0Nk1pYV9RNXEzWldSSEJDNWY2dmZBOUwwMGw3OEx5eFZrTU12S3hueFAtb0FmWk5tbkNTcWFHRGx6Tl9NUllCaXpXMkVXSE1RVWlSck5SQTY1QWtZUVdNZFozYXlQQkstcGNIYVBhUW8xZzNwdWwtMFE?oc=5",
-      "published": "2026-11-17T08:00:13+00:00",
+      "id": "a45eeb61d911",
+      "title": "La Suède va mettre fin au remboursement du cannabis médical - Newsweed",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBUYURDWmpzUUd2ZXlyTzUtQXFjSlN1dXNqN0Zob05KVGxrTWdZQVBGWEN5OXgzOEl5Y1FjUnZEaXRnUnViZzMwUTVfd1hMMlpGcTZOUWtlbklhN1p6dENiUDJKM1ZYcXhJdlYzeE45UzhPU1E?oc=5",
+      "published": "2026-11-18T16:35:40+00:00",
       "source": {
-        "name": "Ouest-France",
-        "url": "https://sante.ouest-france.fr"
+        "name": "Newsweed",
+        "url": "https://www.newsweed.fr"
       }
     },
     {
-      "id": "43295f0213f6",
-      "title": "\"Les antibiotiques, c’est pas automatique !\" : une journée d’information sur le bon usage de ces médicaments à l’hôpital de Niort - lanouvellerepublique.fr",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQd3M1MHlLNmluRkItOGxBQXBsQ2JrTTctcm1zWXdDSXFrNWZvWThNQkg4aFQyYVVaejM2OURLNlA5YUlFcVZjcU1MM296bjdjMGNRWUdBdFhSaExHOTN4YjVLaFlzU1c1Q3IzZmlqbVEzd1IzRmRqQlpwQUY3elNXaHFiMHFONEdueU5JSXlEUUdvUXBaQ2otLVhST0xOV3gtczd5MlQtdHBIY2RVSlNfSkljdm8zbk5aWWJfc0p6R1JDZWdmWnRzMEhseE5MSnItUzdxd0hweFpYNDBkeUxuRlZtTGZqaV9BM25KeWxDZlFqYlllN19vaXZkXzJNOGNZZ21uY1VR?oc=5",
-      "published": "2026-11-17T16:00:05+00:00",
+      "id": "18e341d9d2ec",
+      "title": "Pendant 25 ans, des médecins ont suivi des patients souffrant de maladie coronarienne stable : ils ont mesuré les effets à long terme des stents sur les infarctus - Science et vie",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNS3RfOUwtbnR4LTRRQ0lyT3FmcGMxQ0ptSktsYmgzNXBZdXc4dmVoWFdWcmpSSmZad0JTOGpISVpWMkV6SmVOazRFaTVlM1ZvRG1scnhHcUJiLWtIQXNFazhXZGxqNmIzYWtYX2FXQlZKTGJPT2xFRU9aaE9TRWVIN1pBMFl3U05GTkRSMmJqeVVxYmtMOHo3UFFEVDRjbXB1bGt0RC1Md2dqRWVaUVZTd2NJeGt0REQySzhjM0pyYW1XRlpJTmFxb0pndXZwVnVSVUdUd3RQTTJuVFZLcWRIY3dlbUdaUFFSNFBqU2Y3bVJlMU1yUU1YVGMyd3VEY0xxNjNJUDdOSnVkb0RYbmEyZEVPdUpQcUlUeFdhaDVGTGpVanVESHdxaldJY01UZzhuQ25xd3FEQWZLaWxEQkE?oc=5",
+      "published": "2026-11-17T19:00:14+00:00",
       "source": {
-        "name": "lanouvellerepublique.fr",
-        "url": "https://www.lanouvellerepublique.fr"
+        "name": "Science et vie",
+        "url": "https://www.science-et-vie.com"
       }
     },
     {
@@ -484,23 +414,83 @@
       }
     },
     {
-      "id": "5482fd36e987",
-      "title": "Réduire l'alcool à l'approche des fêtes : le centre gratuit et les traitements remboursés de 15 à 65 % - Selectra",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPYUE0Y0NWN2lQTFhGV3M0V1ZyTVBJQlQ2OFVkUHVxdHhmeE9PeUxwV0VhUVBCQlk2ZTVzeVJTYjBBT2lEOGpiSmxid1pscVlPTmtXbkxqQVQtUmo0UFRDZXpWcEVJSjc0ellpVUx0d3NGMXllRlJMZjdsTnBwampOYnEzTUpSakVoRm1yV1hKaGtMRFlyTjVRTVZvSFh6UQ?oc=5",
-      "published": "2026-11-16T17:00:42+00:00",
+      "id": "7aad0da22ce8",
+      "title": "En un an, les prescriptions d'antibiotiques chutent de près de 14% en France - Top Santé",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQSGluMmZjcl9CMU9HdVFnOENONjk0M0ZuWTNhUDU0NXRpb25uM1o0Z0xab0tZY1ZINlBLSGJsbEhlWnlVVjV4cHM0eUozMk9YMmp2a2RnZmluUGZiS2FwTDViZHdYd0R3a3dPSG96elZIR3k2emFZSWJkM29WV283Rmo5TURlMlQtejFsOGZHV19JZjZJUk9Eb3NsNVpYUTZUN2FsNHlmd1hnQnlndi1jN2JHYndId215c25fMkhfMkZ4V1FiSzdFRXdSNDVDaDVZTVF6X1lGR3BsYzV6Q0dMWThMY3RlUzZkZ1dsSWlOWQ?oc=5",
+      "published": "2026-11-17T20:15:20+00:00",
       "source": {
-        "name": "Selectra",
-        "url": "https://selectra.info"
+        "name": "Top Santé",
+        "url": "https://www.topsante.com"
       }
     },
     {
-      "id": "73d055eac5bf",
-      "title": "En France, moins d’antibiotiques pour lutter contre l’antibiorésistance - La Croix",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLXlqT25wQ3ZwSDZnS2dpUzQ5YkNJQU9XZ0Q1RmUyY2p5T3M4enViS2pvX3BfQUdtUFF6UERqNG5reUlUamQ5Uld6ZHl4ZEUzb1BCN1hYMHdxa2xmbThiMHNlajRuV3BxSjVzbUxIMTg0SDYybnZ2Y09XLUJWU0RHUkpxNHV1YUMxUkE3dVJYM1d5cmlzWUNxOF85V1pOaWNyeWlvMlVrb2V6U1JsaGc?oc=5",
-      "published": "2026-11-17T17:19:51+00:00",
+      "id": "0bbaa00a38d2",
+      "title": "Galenica: Verfora acquiert 51% d’un distributeur pharmaceutique polonais - agefi.com",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLXV3Nk1SZGt1bl9XSWpyUXZDdGtiaG9ScDdPbzZDcUcwenFfMEZKTUt5Vlk5dDRidmdZSk52Wll2NVY2RHFBZGdmTWdGU1RhdXNOUTlsMTFFMmkwVDZKbEJZVl93LTA3akxrRUgzVWFieXhDaVJXQVQ5c1hsWjlkbWVicE5zZWp5WWp4VUNZNFZ2dUZGS1JXU0F2eUdxaW9pY1FtYUNLODB0c05IRnJj?oc=5",
+      "published": "2026-11-18T07:02:00+00:00",
       "source": {
-        "name": "La Croix",
-        "url": "https://www.la-croix.com"
+        "name": "agefi.com",
+        "url": "https://agefi.com"
+      }
+    },
+    {
+      "id": "2e33530ae1ad",
+      "title": "La SFDA et la MHRA renforcent leur coopération en faveur de l’innovation médicale - وكالة الأنباء السعودية",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kaVRQWk9ITXJacFd2dWVDMHdGdlpQLUFkUlQyUjk0ck9pYWNheWh6MmozQlRqY3hlQm9fRlNZRmZ5S19qbUhUaVhR?oc=5",
+      "published": "2026-11-18T05:18:09+00:00",
+      "source": {
+        "name": "وكالة الأنباء السعودية",
+        "url": "https://www.spa.gov.sa"
+      }
+    },
+    {
+      "id": "43295f0213f6",
+      "title": "\"Les antibiotiques, c’est pas automatique !\" : une journée d’information sur le bon usage de ces médicaments à l’hôpital de Niort - lanouvellerepublique.fr",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQd3M1MHlLNmluRkItOGxBQXBsQ2JrTTctcm1zWXdDSXFrNWZvWThNQkg4aFQyYVVaejM2OURLNlA5YUlFcVZjcU1MM296bjdjMGNRWUdBdFhSaExHOTN4YjVLaFlzU1c1Q3IzZmlqbVEzd1IzRmRqQlpwQUY3elNXaHFiMHFONEdueU5JSXlEUUdvUXBaQ2otLVhST0xOV3gtczd5MlQtdHBIY2RVSlNfSkljdm8zbk5aWWJfc0p6R1JDZWdmWnRzMEhseE5MSnItUzdxd0hweFpYNDBkeUxuRlZtTGZqaV9BM25KeWxDZlFqYlllN19vaXZkXzJNOGNZZ21uY1VR?oc=5",
+      "published": "2026-11-17T16:00:05+00:00",
+      "source": {
+        "name": "lanouvellerepublique.fr",
+        "url": "https://www.lanouvellerepublique.fr"
+      }
+    },
+    {
+      "id": "6d8a4bc10fdd",
+      "title": "Attention au mélange magnésium et antibiotiques : le Dr Gérald Kierzek explique pourquoi l'heure de prise est vitale - Doctissimo",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPU1FubTBGUHhmd19wN2NsTl9VRm5fNGZjLUVEamhrbnNuRk40dEhwRlN6RmI4c0FXWHlCOTAzWkQwTDI0OFlsWmZhZlBkeURKaGxYdTZpODRSaEl5ZDFUb1hBM0lUalFvNEkzVW1odDl6WWhWSEVHaFhpRHk2RWxobmZ2Tk1qYlVqLTU4N1ZvZkJ5cDdBX2JRbVFyb1NRMlA5LU1DWGFhN2ZiTGdjYnZGbFZNcUpIZlZETUdRblE3aDRlOE16WWcxc2ExbFR3WHVOMkRVQXpNdHpKckt3ZVNiZFU0eGJhZUlVclo4MjZZeHMtYUVubFVGQi1aWQ?oc=5",
+      "published": "2026-11-17T18:55:33+00:00",
+      "source": {
+        "name": "Doctissimo",
+        "url": "https://www.doctissimo.fr"
+      }
+    },
+    {
+      "id": "17ebf34c8921",
+      "title": "En 2025, la consommation d’antibiotiques est repartie à la baisse - Ouest-France",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNWdLUjBjOXNNN2NQMzdIQi1fWVdiWFdBMTk1QUVJRWFOT0pTWGk5R1pRdzU1MnpOT1lqZFJlV3ZzNEh1Q0lKS1RxaVh4S2g2SENlVHBmVWF6M05rZ3ZxN01Fdkx5Wnc0Nk1pYV9RNXEzWldSSEJDNWY2dmZBOUwwMGw3OEx5eFZrTU12S3hueFAtb0FmWk5tbkNTcWFHRGx6Tl9NUllCaXpXMkVXSE1RVWlSck5SQTY1QWtZUVdNZFozYXlQQkstcGNIYVBhUW8xZzNwdWwtMFE?oc=5",
+      "published": "2026-11-17T08:00:13+00:00",
+      "source": {
+        "name": "Ouest-France",
+        "url": "https://sante.ouest-france.fr"
+      }
+    },
+    {
+      "id": "6a13cd063a1f",
+      "title": "Médicaments : moins consommer pour prendre soin de sa santé - Ameli",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZGd3NzJTS2Y4RDRtRWs2UkxYRFd3WGJiM2xlVG8tMlVwYkpfVWFTLWxSNERFaTdqdEhDZE5qX1BRQjhwendsX3hEUUd0c3UtcDVzUnJ5YTNLNTlKbHg1WFp2MER4eEZHdXlzNk10dW9FN0lKS1dtVk1TVFZaczh3Rm1EUjJUczBybGtRaFd6Z0FTQ2FZTjRFRUlib0JBUQ?oc=5",
+      "published": "2026-11-17T22:43:06+00:00",
+      "source": {
+        "name": "Ameli",
+        "url": "https://www.ameli.fr"
+      }
+    },
+    {
+      "id": "3117eb045c73",
+      "title": "Antibiotiques : encore trop automatiques - TF1 Info",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPYVROc2ZydVptV3UxTC1OMzIzX3RyMFFFX01Db2FCM0xYdFpweEx3VUswUGFiNm9zSmotTXpFU3RSenZLMjFPbFRpa1Mya2E4aS1GaWVMV0pSaDJLOExVUl9ac3pBNFpwTFpVR2xRRFhLdDloUmo1U1lWUkdmTkx6dERPZGwxaDRjeXZEQ3NOR2YtS3gyNkdWU0NkRHFmTHc?oc=5",
+      "published": "2026-11-17T20:55:15+00:00",
+      "source": {
+        "name": "TF1 Info",
+        "url": "https://www.tf1info.fr"
       }
     },
     {
@@ -514,33 +504,23 @@
       }
     },
     {
-      "id": "4a59ab07ae74",
-      "title": "TDAH de l'adulte : Xurta remboursé depuis le 7 novembre, mais seulement avec ce formulaire du médecin - Selectra",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc1NSQkdHWXFiYTFzTWN6RFhxTHRBQW5EOXNwbHEwek5ZRENMZ09CNHBBZjJPM0paaEwwdzdpZjNsOE9HM2FENVJDR09VLVdneUdjRzJnZTNBQjZLVV8zSGF4LWphclhmNGd1UzJmQXJmTXBjS01xeUhXUXRKSTBSU09NRzBDeXAzQ0F6ckpvX1NLUEFnVDFuT000XzA?oc=5",
-      "published": "2026-11-16T08:20:20+00:00",
+      "id": "2a5a90d96eb9",
+      "title": "Actualité - L’ANSM active le plan 2026-2027 de suivi des médicaments et des dispositifs médicaux de l’hiver - ANSM",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUHRxVWwyQUk5OTNwVVRSZ2JTcWVfSjdQUFk1TmxGOU5WNHhHZnVVRDJFQng1ZTVYc1hjV2ZCaFo3NkxRVG1Oemw1dm54OW50SHNlZ0lkMklFSkFKZ0tIbjdQUmk2Rmp4cG9nd1ItdWotNncyWUNJQUJ0SjQ2MnVMVDRjNExTU3czUmxYdGdKMWNNakNPd2dhR190N3lfVlFDd1pwOExIdzBKZHRaM3BRUlJNdE5VdDNWNm5QTTZIaVljQzdU?oc=5",
+      "published": "2026-10-13T07:00:00+00:00",
       "source": {
-        "name": "Selectra",
-        "url": "https://selectra.info"
+        "name": "ANSM",
+        "url": "https://ansm.sante.fr"
       }
     },
     {
-      "id": "96380ca298fc",
-      "title": "TDAH : les psychiatres réclament le remboursement des médicaments chez les adultes - Le Spécialiste",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZzR0anNjNUgwQmpJZzJGSnhwZGd6X0pXR2pidUVQTlZTeFNfNHBVSk5LMEtnSTdlVTh5ZTd5QkhtMHp3LURKUml4Q1pDUU5SNnBaTHc2R2J3b3JYU0NydjIxdV82eEZkYUtMQ095NkhKNnBVSDVQbTgxQUhfWTIyTE5KajlseU5GZHhkeFprWGFIejZoYjh5ZURGejRoV1liOW9mbGUzbDlkZDVycldRS3l1aEY4RWlF?oc=5",
-      "published": "2026-11-17T18:43:10+00:00",
+      "id": "2c278f304a27",
+      "title": "Antibiotiques : moins de consommation, plus de résistance - Sciences et Avenir",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPN1Y2T0N0WWJDQW1nOVk3NmF2REVNaGRTOW1fTDF3SlZ6MThzQjVWNHVOanQ0aTFKOU5jVUMydTF0RlIwMTE5Y2I1WHowd1NFT3psb29LdFRyc3EtTUQyOE5aV0tRTDJZSmpMOHFKYmtmWnJEVzBZXzc1ekJwSE14NVFjc1FWb2Q2dE5qS0ZUa3RjdUFJQUZCaGdoNTc3UnhXcUZXRkVqVk9FRmhaeVFZNnFoZnpjdTdEWTBrbkQzSEJUS3FmN0dDLVdMSWFoaEpUcE5tcmh3?oc=5",
+      "published": "2026-11-17T09:04:16+00:00",
       "source": {
-        "name": "Le Spécialiste",
-        "url": "https://www.lespecialiste.be"
-      }
-    },
-    {
-      "id": "4592add1eb85",
-      "title": "Les patients atteints de BPCO qui ont interrompu leur traitement préventif depuis de nombreuses années sont dans un état critique. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX0VEeDJhaEt6LURyQUhrdXExeWJVZ3RIU0QxOXREMEdoekk4ek1VUG91LVRveFdMUjF3QnFlSk1qVVIyclc2TzlMYmt1c3RvNHZwdnlCbEI0LURhdlh4OWxfY1dPQWM4Und5cTJhdkt0ajh6c0wxZ01xbGhTdmNZQ0Z1eHdKSE9Z?oc=5",
-      "published": "2026-11-18T11:13:12+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "Sciences et Avenir",
+        "url": "https://www.sciencesetavenir.fr"
       }
     },
     {
@@ -554,43 +534,13 @@
       }
     },
     {
-      "id": "68a90616769a",
-      "title": "Les bienfaits de l’alimentation sur l’immunothérapie - Avantages",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZjdxQmxJNm1DYmdSR24wQ0lTS2hTOGxaUlczSXJxLVZsWUlxQ3o5ejlJcEZLc0l1SnBUbTlqNkxqeGhaVjZFRFcxS2p3N3FSU240VUQ5cHBiYnlRSnJJYTRQaUxkaXl6QldDVm1tbnhpdlg1MlItSlN2NGtDeWhwOEswVzBvVXdzYUE?oc=5",
-      "published": "2026-11-17T10:46:29+00:00",
+      "id": "9c1658268e9c",
+      "title": "Cancer du pancréas : l’Union européenne autorise un nouveau traitement porteur d’espoir pour les patients - RTBF",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRURnLS0tbnN6SlBUUVk1Q19YM3BqYnVLUGhpQWpQM0JqdXk3TVlPa1JnVmZTME54Z280eDNUaGdDbmJtN0RMbFJJcGJ5WGxSc2pFX1A4c0NzRmoweUdIRnZ6LVdwTkpEMHZvX0FsalhQcm9EQ0pTWDk2UHppNTM2SGJHT2RocV9iSlBSeHBRaXVNOFViMW0waG1BVlVOQ2VHSkplTXQ0NFYyTjVlcDhWb2UtRkQ4MWNTUEt2eVdZX3VRc25SQ0xDYnJaWFFpZVoyTE5TZFJIdw?oc=5",
+      "published": "2026-11-17T13:01:49+00:00",
       "source": {
-        "name": "Avantages",
-        "url": "https://www.avantages.ca"
-      }
-    },
-    {
-      "id": "7c069f55a992",
-      "title": "Arthrose : ce médicament connu pourrait-il protéger le cartilage ? - Pourquoi Docteur",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVURvRG4wc21OcDhIeGxocFl4M19xU0F3SzNUYS1tdzJUYmhWOHoxeW5hSDRFNm9TdXhVcUJrX2VSaEtwTWFGbE1vZmxlUXgzb1ZhS2dkckFoYkpmdDFxdGhwYkpFa1FYYTRCU3ZWalpCM0ZkbnBUY212NkJfWjFYR1dnNERlb0dQaFk3emlCbjNNWUlLdWJ0MzB4WVFFU3Z1a0lSYVhRQ0hJUmlrZ0IwYW9QdVVwSnQ0VVE?oc=5",
-      "published": "2026-11-17T09:25:00+00:00",
-      "source": {
-        "name": "Pourquoi Docteur",
-        "url": "https://www.pourquoidocteur.fr"
-      }
-    },
-    {
-      "id": "359662288245",
-      "title": "L'OMS avertit que 300 000 Vietnamiens pourraient mourir de résistance aux médicaments - Laodong.vn",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNc0dFc2hQY1V4UTNodk9OdVBzME1YMnhkYlB1SFhZaUJfU2xiQlJ0bWppdHVTX01KQ09zTmZmTklsM0U0Rm9Kd01jdE13ZmJidE9IUkNXUmxlRFdqcDFLb3VERl90OVJ0akQ4alVIY0FkSzIwNUtzZUdxQVZNTG40cF9sVWUtYVhyQ25neE81WllldjdwMGRVUDFxTkE5dzh6cEVzRDBnWGc0QlE?oc=5",
-      "published": "2026-11-18T08:10:17+00:00",
-      "source": {
-        "name": "Laodong.vn",
-        "url": "https://fr.laodong.vn"
-      }
-    },
-    {
-      "id": "487fabd76f76",
-      "title": "Le directeur adjoint du département de la santé de Hô Chi Minh-Ville met en garde contre l'habitude d'acheter des antibiotiques dès qu'une personne tousse ou a de la fièvre. - Vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSVZJV3lPeTAtZHUzU3FCWDNTSDA3S29QQmlYTGdIS0NrbUhLWDdOc0piaVlCZmxFeVZWdVp0UGwzWU9OTkpXQ1RQVmd1cVdaaVZzNHR3cFVaOWhUMk51SmZGZlo5eUJVb3ktVTVwZTBHYU1WQnl2cXVqcTh4VEpHeXdnVXpFSFVYc1VrRmE2M1ZFT05EWFZxYzZXVlQ?oc=5",
-      "published": "2026-11-18T08:55:39+00:00",
-      "source": {
-        "name": "Vietnam.vn",
-        "url": "https://www.vietnam.vn"
+        "name": "RTBF",
+        "url": "https://www.rtbf.be"
       }
     },
     {
@@ -604,36 +554,6 @@
       }
     },
     {
-      "id": "2e33530ae1ad",
-      "title": "La SFDA et la MHRA renforcent leur coopération en faveur de l’innovation médicale - وكالة الأنباء السعودية",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kaVRQWk9ITXJacFd2dWVDMHdGdlpQLUFkUlQyUjk0ck9pYWNheWh6MmozQlRqY3hlQm9fRlNZRmZ5S19qbUhUaVhR?oc=5",
-      "published": "2026-11-17T11:23:04+00:00",
-      "source": {
-        "name": "وكالة الأنباء السعودية",
-        "url": "https://www.spa.gov.sa"
-      }
-    },
-    {
-      "id": "9c1658268e9c",
-      "title": "Cancer du pancréas : l’Union européenne autorise un nouveau traitement porteur d’espoir pour les patients - RTBF",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRURnLS0tbnN6SlBUUVk1Q19YM3BqYnVLUGhpQWpQM0JqdXk3TVlPa1JnVmZTME54Z280eDNUaGdDbmJtN0RMbFJJcGJ5WGxSc2pFX1A4c0NzRmoweUdIRnZ6LVdwTkpEMHZvX0FsalhQcm9EQ0pTWDk2UHppNTM2SGJHT2RocV9iSlBSeHBRaXVNOFViMW0waG1BVlVOQ2VHSkplTXQ0NFYyTjVlcDhWb2UtRkQ4MWNTUEt2eVdZX3VRc25SQ0xDYnJaWFFpZVoyTE5TZFJIdw?oc=5",
-      "published": "2026-11-17T12:59:37+00:00",
-      "source": {
-        "name": "RTBF",
-        "url": "https://www.rtbf.be"
-      }
-    },
-    {
-      "id": "2a5a90d96eb9",
-      "title": "Actualité - L’ANSM active le plan 2026-2027 de suivi des médicaments et des dispositifs médicaux de l’hiver - ANSM",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUHRxVWwyQUk5OTNwVVRSZ2JTcWVfSjdQUFk1TmxGOU5WNHhHZnVVRDJFQng1ZTVYc1hjV2ZCaFo3NkxRVG1Oemw1dm54OW50SHNlZ0lkMklFSkFKZ0tIbjdQUmk2Rmp4cG9nd1ItdWotNncyWUNJQUJ0SjQ2MnVMVDRjNExTU3czUmxYdGdKMWNNakNPd2dhR190N3lfVlFDd1pwOExIdzBKZHRaM3BRUlJNdE5VdDNWNm5QTTZIaVljQzdU?oc=5",
-      "published": "2026-10-13T07:00:00+00:00",
-      "source": {
-        "name": "ANSM",
-        "url": "https://ansm.sante.fr"
-      }
-    },
-    {
       "id": "698784f434ae",
       "title": "Résistance aux antimicrobiens : l'OMS alerte sur les risques liés à l'usage abusif des médicaments - Webmanagercenter",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQYzZxSVgzMElrNFJ5WmJTZlA4QlVVSDJUZVgwR2VlcHJiY0N1RDJETk9YTllNZ1JrRGZLenJuN05lTnJaa1MxZ1l3U1dSZklTUmtTTDVQVkMzWlNBXzRrdHFuQVByQXhGSlRFWmVEMF9DcG41ejBjZ0tjTzk4ZTNWTmExZjZJa3VlZ003eGlKWjRvbWczSU9MeUVDczA4Z0Z4SFd2ZzdfVUhzYXd5cmZZazhnZUY1bEdWd3d3ZGE3WnFwSWk1VzcxLThEODRYcWFRdDh2dk1iYXJUWDBpRTJj?oc=5",
@@ -641,16 +561,6 @@
       "source": {
         "name": "Webmanagercenter",
         "url": "https://www.webmanagercenter.com"
-      }
-    },
-    {
-      "id": "5e6969b550eb",
-      "title": "Le ministère de la Santé réajuste les prix de 300 médicaments - Leconomiste Maghrebin",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeXBGVTEwN1FPQWo4Z1k5WllqeE1pd0c4ajBpM3RhSEZRUjZmNjhUMy0xXzRwVk9fLWwyYldNUjBuTHpZb3RRM3plbUloU0MydmVkSVA2dktmckRTOGtadGRqYjd4YzJLTGM0NVRFcjl0a1h3MElvMFVjRXNLYzcxNlhDdnJqY05PVDRJWWxSaVR5Vi0yRkxFeDRB?oc=5",
-      "published": "2026-11-16T10:36:06+00:00",
-      "source": {
-        "name": "Leconomiste Maghrebin",
-        "url": "https://www.leconomistemaghrebin.com"
       }
     },
     {
@@ -674,6 +584,16 @@
       }
     },
     {
+      "id": "53fe7818134f",
+      "title": "Des experts et des responsables sanitaires appellent à intégrer la valeur sociale et environnementale dans l’achat de médicaments - Demócrata",
+      "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPT3FTTE14ZWFaTjlmVmZXZkJmTzU5T1ltdzgtZUJCTW9lTnpsNUFJdVF5UHAzazkyOUJzMjBCRlpWR3pyWjdxa3ZMaTU5bk83TXhiaXZIY2NzOVI5c09TV21lN09xUTVHbWgtNkIzTG93dy1TVmFiQWtrUHlOaGRNY050a2hvdVNMaGZfLXdfNVlyTXVreXUwNnZSNXRLR0tRdXZwZklhYlBPc0JkWVJYNERQejF0M20tOUN0UVFKUEZEXzIzMVE0QUo4UzhTQWxLV0djMkdzbkY3U1lsZGJQMm5pbWZxVVlWejdHc3Q1ZWN3bWVMeFJV0gH8AUFVX3lxTE5wT2pPTXVDb1VIMjItVnZKVS1sYnllR2loNWtQdnk1NWdFME81MHUzVExHSWJNRVRMMUl4emVtV1RMVUJ0MElOZEowb3JUNTNYN2RubGtrcUphNUJJUThnaGZtNVdrUmpzaUxleUtNVTlwWTFXMGRXZ3Z2VTVaR1kxQ2E0QmpIRG9iVGJqc1VPTWY3VzNHWnA2dm8tUXVsY2V4WVJaWXMwMDgxVHZwY3FUVGJLaDBONG9JWDY1cXVsa1p5SndhU2VEa194eEZSM0ZjNXRzWk5qd2JsWjc3bjBnOUo4cUxiN3poM0xqUEt6ZkZDM0ZSYjZfanNpWQ?oc=5",
+      "published": "2026-11-18T17:25:06+00:00",
+      "source": {
+        "name": "Demócrata",
+        "url": "https://www.democrata.es"
+      }
+    },
+    {
       "id": "139c55bff9e3",
       "title": "Actualité - Tensions en collyres : bien les prescrire pour préserver les stocks disponibles - ANSM",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTnRCcVltOXNsZ1ZESHphU0F3b3gzNVVxNlUzNnNNWHFXWV9laUZ6YjBPbG5RTExMd3NfUWhhNjRPRXRVTjhSNmg2Smp5SzdyZVVfVUFKd1hYOXM5NGJnOWtlRVZWVElvN2tjWUwwWWFkRmpJV3B1YW9IM1g2ZmJOek5MNVRpU3VZM3gyb0ltU3puQ2RkTHUtT0VDX25GdE00S3A4NlZ2OWJEQWRJSlJB?oc=5",
@@ -681,16 +601,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "bc9d81bd1646",
-      "title": "Les personnes qui prennent des médicaments contre l'hypertension artérielle doivent faire attention aux 3 groupes d'aliments suivants - Laodong.vn",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM1FVSmF1NzBWeW90TXZISjFxWmE2dm1zc0pqaHh0NXFnZ3RPUERkWWdwNzVFdjIzTG5CcFQ5N1laNjBhNTdJVTNiSFVNOW1mTEFzWER1RFhfMGZQa0NuSUVOQmVDRkRWemZlQ1FGNktoZnplU1FUNlVCbF9WLXdFbFhwNTFoQklBLVU5a3Y5dDYtUFdhWFhBRENpcUljdWVf?oc=5",
-      "published": "2026-11-18T06:28:00+00:00",
-      "source": {
-        "name": "Laodong.vn",
-        "url": "https://fr.laodong.vn"
       }
     },
     {
@@ -751,16 +661,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "ab4562fc6ece",
-      "title": "Médicaments : moins consommer pour prendre soin de sa santé - Ameli",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcTNOR2dWSmNqcEZVUHN1aE9uLXF5MUxTMnVzTWZkSzFOd0NfTEJ5RWFfdzktZ3l4X0xFbkVwb2ZERjBkQVVmSkU5VHNWUmRVOTRhSXY2M0JnWkdWVUN6YXVhVFdCWG5qVnlWLXhhV3RHdk5aLS1ob1JDazlEWTZ1U0dyNHpKZGxRY2xMdURZRUQzYnE3Yk8w?oc=5",
-      "published": "2024-11-06T19:20:07+00:00",
-      "source": {
-        "name": "Ameli",
-        "url": "https://www.ameli.fr"
       }
     },
     {
@@ -844,20 +744,20 @@
       }
     },
     {
-      "id": "13b280abba77",
-      "title": "Médicaments du diabète de type 2 : la HAS actualise son évaluation des gliflozines - Haute Autorité de Santé",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLWVxR0FnZjNNaExsamNTUnhaelBGMjNGcUJSdG9HNWFkRVpwc3hMQjVhWlJIYW54dVQ2ZUFnYlNfVVJtblRSMFdRRzQ1S3J6ZUo3bG53S21jNzhqR2xweXJEQ2NHOWpvd2dxUkNMdENFSEtwd2RqUVN1Q0FSdnV1Y2VaRVdDWGV2ckNyMlUyay01WE5POS1lTEttTHJyVWl1ckMxUksxdXFXLXdNN0NpVlVFNlR4QTJxalFVSjZKNXc?oc=5",
-      "published": "2020-12-16T08:00:00+00:00",
+      "id": "7bd81e1d3cb2",
+      "title": "Médicaments – Sécuriser leur administration en établissement de santé - Haute Autorité de Santé",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcDRYM29janBNMFAxZzM0VzlaZEsydG91ejZ6YkxfNE01WU9uQ0hFTTVvVkwyY25FaU9leVpZUHc2bkxGTGNzcUg2aFc1LW5YYTQ2Y1hfNTFlQjJTOVN6dWgxYVNCN0lnYk5ZejFtQTc4REVKOVZ5azlEUGpBR0k0VEpEdDFSUXZsLTZYTG9mNS1CZWp0S1J5a1REQUlPcUpTTUpKMUE4dWgtQncxLU5PTjNuaw?oc=5",
+      "published": "2019-06-12T07:00:00+00:00",
       "source": {
         "name": "Haute Autorité de Santé",
         "url": "https://www.has-sante.fr"
       }
     },
     {
-      "id": "7bd81e1d3cb2",
-      "title": "Médicaments – Sécuriser leur administration en établissement de santé - Haute Autorité de Santé",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcDRYM29janBNMFAxZzM0VzlaZEsydG91ejZ6YkxfNE01WU9uQ0hFTTVvVkwyY25FaU9leVpZUHc2bkxGTGNzcUg2aFc1LW5YYTQ2Y1hfNTFlQjJTOVN6dWgxYVNCN0lnYk5ZejFtQTc4REVKOVZ5azlEUGpBR0k0VEpEdDFSUXZsLTZYTG9mNS1CZWp0S1J5a1REQUlPcUpTTUpKMUE4dWgtQncxLU5PTjNuaw?oc=5",
-      "published": "2019-06-12T07:00:00+00:00",
+      "id": "13b280abba77",
+      "title": "Médicaments du diabète de type 2 : la HAS actualise son évaluation des gliflozines - Haute Autorité de Santé",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLWVxR0FnZjNNaExsamNTUnhaelBGMjNGcUJSdG9HNWFkRVpwc3hMQjVhWlJIYW54dVQ2ZUFnYlNfVVJtblRSMFdRRzQ1S3J6ZUo3bG53S21jNzhqR2xweXJEQ2NHOWpvd2dxUkNMdENFSEtwd2RqUVN1Q0FSdnV1Y2VaRVdDWGV2ckNyMlUyay01WE5POS1lTEttTHJyVWl1ckMxUksxdXFXLXdNN0NpVlVFNlR4QTJxalFVSjZKNXc?oc=5",
+      "published": "2020-12-16T08:00:00+00:00",
       "source": {
         "name": "Haute Autorité de Santé",
         "url": "https://www.has-sante.fr"
@@ -884,6 +784,16 @@
       }
     },
     {
+      "id": "b011fd2e78ae",
+      "title": "Médicaments biosimilaires – L’essentiel en 6 points et 2 témoignages - Haute Autorité de Santé",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcE95cmpNS1N1UGU5RnVqNU9uOEp1ejBSMDZ6OW96R2pqQm9mb29xVDVFVFlsVW1mMm5BbE9zamx0S1p6cUpSTkpvNlU2THI2blNsbFVidXRjSGo2YzlBbldpczZ4RFVuRjhNTC13U0xLSkFUR05jRUc4eHVaNXh6WHpsTUx0aHhUTWRSTkNGWE5Yd2ZMQVVmbFRoeURheDZQTkhnX3RvMnFyYlNGbHVYUm93?oc=5",
+      "published": "2018-02-20T08:00:00+00:00",
+      "source": {
+        "name": "Haute Autorité de Santé",
+        "url": "https://www.has-sante.fr"
+      }
+    },
+    {
       "id": "c87586f90456",
       "title": "Médicaments utilisés dans les formes très actives de sclérose en plaques récurrente - Haute Autorité de Santé",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONmg5RTlSOUNZU1dMVWJsZlhSS0M4U2RfR2NEaFZsd1kzU0VhSUlOZHRwNUJOUHRtUl9BN0ZET2M4aVZzeDVkU2VMblk2OXFlNzJTS19Kb2s0Yk9XOC1wbFdBamROMlBYR0xkQ0ZfTnllUVdjY0VxVHQxdjNHTjRxbFY0bGtVUDY1YUZmUHdGU3NGMk9PVGd1TXl5d0pUdGxjM3JPdTFWdzY2WVNSOVNTVHlHbXdOazg5YnFFMzJiRnczMGww?oc=5",
@@ -894,10 +804,10 @@
       }
     },
     {
-      "id": "b011fd2e78ae",
-      "title": "Médicaments biosimilaires – L’essentiel en 6 points et 2 témoignages - Haute Autorité de Santé",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcE95cmpNS1N1UGU5RnVqNU9uOEp1ejBSMDZ6OW96R2pqQm9mb29xVDVFVFlsVW1mMm5BbE9zamx0S1p6cUpSTkpvNlU2THI2blNsbFVidXRjSGo2YzlBbldpczZ4RFVuRjhNTC13U0xLSkFUR05jRUc4eHVaNXh6WHpsTUx0aHhUTWRSTkNGWE5Yd2ZMQVVmbFRoeURheDZQTkhnX3RvMnFyYlNGbHVYUm93?oc=5",
-      "published": "2018-02-20T08:00:00+00:00",
+      "id": "8a554485185d",
+      "title": "Médicaments de la maladie d’Alzheimer : un intérêt médical insuffisant pour justifier leur prise en charge par la solidarité nationale - Haute Autorité de Santé",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNdHdTbjNwWTNzUzBaNkhkeEd2c3Y3OG9lQk5scHprYmlSTXRCay1IS2hrdTl6Wmwyc0RHQmNYeFJ6dEVlUVNMWE05dEEyZm9kMmYtYkxZZ09ITFhCVFFFYlVtYWdkTVJRVlZ5ckhFQjlJLUU3Y0pBdXJ2V2xzcV9OS2Y3bkpKNVJwdGctaTZNZlRXbmtyVDFXUzQ5OUVkUlVydWgwbGxITjZEQ3NydVg2cm9GZEdZakh4MGRfaW1QRm1vQ0hLSnlIZ1B1WHlvbDlVblFTZ0c2UDhEZ21XT1gzRlgwd2xtTUFVOEM2ajEtU1VYSk95Z0gyaDVyUmNJY0pMOUVxbXRB?oc=5",
+      "published": "2016-10-21T07:00:00+00:00",
       "source": {
         "name": "Haute Autorité de Santé",
         "url": "https://www.has-sante.fr"
@@ -911,16 +821,6 @@
       "source": {
         "name": "ANSM",
         "url": "https://ansm.sante.fr"
-      }
-    },
-    {
-      "id": "8a554485185d",
-      "title": "Médicaments de la maladie d’Alzheimer : un intérêt médical insuffisant pour justifier leur prise en charge par la solidarité nationale - Haute Autorité de Santé",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNdHdTbjNwWTNzUzBaNkhkeEd2c3Y3OG9lQk5scHprYmlSTXRCay1IS2hrdTl6Wmwyc0RHQmNYeFJ6dEVlUVNMWE05dEEyZm9kMmYtYkxZZ09ITFhCVFFFYlVtYWdkTVJRVlZ5ckhFQjlJLUU3Y0pBdXJ2V2xzcV9OS2Y3bkpKNVJwdGctaTZNZlRXbmtyVDFXUzQ5OUVkUlVydWgwbGxITjZEQ3NydVg2cm9GZEdZakh4MGRfaW1QRm1vQ0hLSnlIZ1B1WHlvbDlVblFTZ0c2UDhEZ21XT1gzRlgwd2xtTUFVOEM2ajEtU1VYSk95Z0gyaDVyUmNJY0pMOUVxbXRB?oc=5",
-      "published": "2016-10-21T07:00:00+00:00",
-      "source": {
-        "name": "Haute Autorité de Santé",
-        "url": "https://www.has-sante.fr"
       }
     }
   ]
