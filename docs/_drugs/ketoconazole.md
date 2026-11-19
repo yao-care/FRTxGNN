@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 423
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-15
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"

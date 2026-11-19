@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-04
 monitor_inn: "NITRENDIPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 description: "Nitrendipine : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"

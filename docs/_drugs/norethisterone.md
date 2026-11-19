@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 546
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-13
 monitor_inn: "norethisterone"
 description: "Norethisterone : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []

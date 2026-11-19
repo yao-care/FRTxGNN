@@ -5,7 +5,7 @@ layout: default
 title: Aluminium
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 50
-last_modified_at: 2026-10-29
+last_modified_at: 2026-11-13
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
