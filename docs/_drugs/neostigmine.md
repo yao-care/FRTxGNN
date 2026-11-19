@@ -60,7 +60,7 @@ Il s'agit donc d'une prédiction fondée uniquement sur le modèle, plus proche 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des connaissances pharmacologiques établies, la néostigmine inhibe l'acétylcholinestérase, ce qui augmente l'acétylcholine disponible au niveau de la jonction neuromusculaire. Cela compense en partie la réduction des récepteurs fonctionnels observée dans la myasthénie grave.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Neostigmine (traduction non officielle) : « Le méthylsulfate de néostigmine est un inhibiteur compétitif de la cholinestérase. En réduisant la dégradation de l'acétylcholine, le méthylsulfate de néostigmine induit une augmentation de l'acétylcholine dans la fente synaptique, laquelle entre en compétition pour le même site de liaison que les curares non dépolarisants, et lève le bloc neuromusculaire. » Texte original en anglais : "Neostigmine methylsulfate is a competitive cholinesterase inhibitor. By reducing the breakdown of acetylcholine, neostigmine methylsulfate induces an increase in acetylcholine in the synaptic cleft which competes for the same binding site as nondepolarizing neuromuscular blocking agents, and reverses the neuromuscular blockade." ([DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90), version du 2023-05-15 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, la néostigmine inhibe l'acétylcholinestérase, ce qui augmente l'acétylcholine disponible au niveau de la jonction neuromusculaire. Cela compense en partie la réduction des récepteurs fonctionnels observée dans la myasthénie grave.
 
 L'hyperplasie du thymus est un sous-type fréquent de myasthénie grave. Le mécanisme symptomatique est donc le même que pour l'indication d'origine, et la prédiction est cohérente avec ce mécanisme.
 
@@ -134,12 +134,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'unique AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée, disponibilité d'autres présentations) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: neostigmine prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=95fb1b3d-be9a-fdb4-e053-2a95a90a5e90) |
 
 <!-- review:end log -->
 

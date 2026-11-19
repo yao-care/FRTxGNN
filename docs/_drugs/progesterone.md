@@ -56,7 +56,7 @@ mais aucun essai clinique n'est enregistré et les **20 publications** recensée
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la progestérone est l'hormone naturelle qui, avec les œstrogènes, régule la croissance et la maturation de la glande mammaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Progesterone (traduction non officielle) : « La progestérone est un stéroïde naturel sécrété par l'ovaire, le placenta et la glande surrénale. En présence d'une quantité adéquate d'œstrogènes, la progestérone transforme un endomètre prolifératif en endomètre sécrétoire. » Texte original en anglais : "Progesterone is a naturally occurring steroid that is secreted by the ovary, placenta, and adrenal gland. In the presence of adequate estrogen, progesterone transforms a proliferative endometrium into a secretory endometrium." ([DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1), version du 2026-10-05 ; consulté le 2026-11-19). Sur la base des informations connues, la progestérone est l'hormone naturelle qui, avec les œstrogènes, régule la croissance et la maturation de la glande mammaire.
 
 L'hypothèse avancée dans la littérature est celle d'un déficit relatif en progestérone en phase lutéale (rapport œstradiol/progestérone élevé), qui favoriserait la prolifération du tissu conjonctif et épithélial et les douleurs mammaires (PMID 31168213, 3511705, 6481706). Cette hypothèse est biologiquement plausible.
 
@@ -112,6 +112,18 @@ La prédiction repose sur une hypothèse hormonale plausible, mais aucun essai c
 - Des données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications officielles issues de la notice de l'ANSM
 - Une évaluation de la sécurité mammaire des progestatifs dans cette population, ainsi que du choix de la voie d'administration
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

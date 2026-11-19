@@ -56,7 +56,7 @@ Remarque : le premier résultat du modèle est l'hypertension pulmonaire d'origi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, la félodipine est un inhibiteur des canaux calciques de type L, de la classe des dihydropyridines. Elle relâche le muscle lisse vasculaire et réduit ainsi les résistances périphériques, ce qui explique son effet antihypertenseur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Felodipine (traduction non officielle) : « La félodipine appartient à la classe des dihydropyridines parmi les antagonistes calciques (inhibiteurs des canaux calciques). Elle entre en compétition de manière réversible avec la nitrendipine et/ou d'autres inhibiteurs des canaux calciques pour les sites de liaison des dihydropyridines, bloque les courants Ca ++ voltage-dépendants dans le muscle lisse vasculaire et dans des cellules auriculaires de lapin en culture, et bloque la contracture induite par le potassium de la veine porte de rat. » Texte original en anglais : "Felodipine is a member of the dihydropyridine class of calcium channel antagonists (calcium channel blockers). It reversibly competes with nitrendipine and/or other calcium channel blockers for dihydropyridine binding sites, blocks voltage-dependent Ca ++ currents in vascular smooth muscle and cultured rabbit atrial cells, and blocks potassium-induced contracture of the rat portal vein." ([DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115), version du 2024-08-07 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la félodipine est un inhibiteur des canaux calciques de type L, de la classe des dihydropyridines. Elle relâche le muscle lisse vasculaire et réduit ainsi les résistances périphériques, ce qui explique son effet antihypertenseur.
 
 L'angor de Prinzmetal est causé par un spasme des artères coronaires. Le même mécanisme de relaxation du muscle lisse vasculaire s'applique, et les inhibiteurs calciques sont une classe thérapeutique établie pour cette maladie. Plusieurs études cliniques de 1989 à 1995 ont testé directement la félodipine dans l'angor variant.
 
@@ -118,11 +118,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Felopdipine (felodipine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=129c48eb-29f2-462b-ad8a-b3bf1b193115) |
 
 <!-- review:end log -->
 

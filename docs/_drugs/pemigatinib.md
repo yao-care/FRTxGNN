@@ -61,7 +61,7 @@ Aucun essai clinique et aucune publication ne soutiennent cette direction (**0 e
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. D'après les informations connues, le pémigatinib est un inhibiteur sélectif des récepteurs FGFR1, FGFR2 et FGFR3, une classe de thérapies ciblées en oncologie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pemigatinib (traduction non officielle) : « Le pémigatinib est un inhibiteur de kinase de petite taille moléculaire qui cible FGFR1, 2 et 3 avec des valeurs de CI 50 inférieures à 2 nM. Le pémigatinib a également inhibé FGFR4 in vitro à une concentration environ 100 fois supérieure à celles qui inhibent FGFR1, 2 et 3. » Texte original en anglais : "Pemigatinib is a small molecule kinase inhibitor that targets FGFR1, 2 and 3 with IC 50 values of less than 2 nM. Pemigatinib also inhibited FGFR4 in vitro at a concentration approximately 100 times higher than those that inhibit FGFR1, 2, and 3." ([DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4), version du 2026-06-09 ; consulté le 2026-11-19). D'après les informations connues, le pémigatinib est un inhibiteur sélectif des récepteurs FGFR1, FGFR2 et FGFR3, une classe de thérapies ciblées en oncologie.
 
 Les syndromes de néoplasie endocrinienne multiple (NEM) sont principalement liés à des altérations de *MEN1* et de *RET*. Aucun mécanisme dépendant de FGFR n'est établi pour ces syndromes. Le score élevé (0,9971) provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -145,12 +145,13 @@ Les autres indications prédites présentent toutes un niveau de preuve L5 et un
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le pémigatinib est un inhibiteur sélectif des récepteurs FGFR1 à 3, dont les autorisations de mise sur le marché françaises (AMM) sont aujou » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pemazyre (pemigatinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e1f2222-1d89-4e63-989c-ccebe2ab1eb4) |
 
 <!-- review:end log -->
 

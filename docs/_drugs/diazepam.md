@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans l'**insomnie (insomnia)
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le diazépam est un modulateur allostérique positif des récepteurs GABA-A : il amplifie l'effet inhibiteur du GABA, ce qui produit des effets sédatifs, anxiolytiques, anticonvulsivants et myorelaxants.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Diazepam (traduction non officielle) : « On pense que le mécanisme d'action du diazépam dans les indications mentionnées implique une potentialisation de l'acide gamma-aminobutyrique (GABA), un neurotransmetteur inhibiteur, résultant de la liaison au site des benzodiazépines du récepteur GABA A. » Texte original en anglais : "The mechanism of action of diazepam for the listed indications is thought to involve potentiation of gamma aminobutyric acid (GABA), an inhibitory neurotransmitter, resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6), version du 2026-10-06 ; consulté le 2026-11-19). Sur la base des informations connues, le diazépam est un modulateur allostérique positif des récepteurs GABA-A : il amplifie l'effet inhibiteur du GABA, ce qui produit des effets sédatifs, anxiolytiques, anticonvulsivants et myorelaxants.
 
 Cette action sédative-hypnotique rend l'application à l'insomnie mécanistiquement plausible, et les benzodiazépines sont utilisées en clinique dans les troubles du sommeil. Toutefois, la littérature recueillie est surtout composée de revues, d'aperçus pharmacologiques et d'articles sur des approches à base de plantes ou d'acupuncture, avec peu de données spécifiques au diazépam.
 
@@ -109,6 +109,18 @@ Le niveau de preuve est L2, appuyé par un seul essai comparatif en double aveug
 - Des données détaillées sur le mécanisme d'action
 - Des essais contrôlés récents, idéalement contre placebo, évaluant le diazépam dans l'insomnie
 - Une comparaison avec les alternatives actuelles (thérapie cognitivo-comportementale de l'insomnie, antagonistes des récepteurs de l'orexine)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Valium (diazepam) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=260e2041-2bb3-482f-850e-b5d47a7bdbe6) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

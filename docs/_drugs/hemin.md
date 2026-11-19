@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **purpura throm
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'hémine induit l'hème oxygénase-1 et freine la biosynthèse de l'hème (enzyme ALA synthase) dans la porphyrie. C'est ce qui explique son efficacité dans la porphyrie aiguë intermittente.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Hemin (traduction non officielle) : « L'hème agit en limitant la synthèse hépatique et/ou médullaire de porphyrine. Cette action est probablement due à l'inhibition de la δ-aminolévulinique acide synthétase, l'enzyme qui limite la vitesse de la voie de biosynthèse des porphyrines/de l'hème. » Texte original en anglais : "Heme acts to limit the hepatic and/or marrow synthesis of porphyrin. This action is likely due to the inhibition of δ-aminolevulinic acid synthetase, the enzyme which limits the rate of the porphyrin/heme biosynthetic pathway." ([DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691), version du 2026-02-26 ; consulté le 2026-11-19). Sur la base des informations connues, l'hémine induit l'hème oxygénase-1 et freine la biosynthèse de l'hème (enzyme ALA synthase) dans la porphyrie. C'est ce qui explique son efficacité dans la porphyrie aiguë intermittente.
 
 Aucun lien mécanistique avec le purpura thrombopénique (immunologique ou thrombotique) n'est établi dans les données compilées pour ce rapport. Le score élevé du modèle reflète probablement une proximité dans le réseau de connaissances, et non une raison pharmacologique démontrée.
 
@@ -112,11 +112,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Panhematin (hemin) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9984267a-4d57-4444-9bb5-16bca7dea691) |
 
 <!-- review:end log -->
 

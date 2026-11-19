@@ -60,7 +60,7 @@ avec **0 essai clinique** enregistré et **20 publications** identifiées (dont 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, le clonazépam fait partie de la classe des benzodiazépines : c'est un modulateur allostérique positif du récepteur GABA-A. Son efficacité dans l'épilepsie et l'anxiété est établie.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clonazepam (traduction non officielle) : « Le mécanisme précis par lequel le clonazépam exerce ses effets antiépileptiques et antipaniques est inconnu, bien qu'on pense qu'il soit lié à sa capacité à renforcer l'activité de l'acide gamma-aminobutyrique (GABA), le principal neurotransmetteur inhibiteur du système nerveux central. » Texte original en anglais : "The precise mechanism by which clonazepam exerts its antiseizure and antipanic effects is unknown, although it is believed to be related to its ability to enhance the activity of gamma aminobutyric acid (GABA), the major inhibitory neurotransmitter in the central nervous system." ([DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1), version du 2025-12-01 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le clonazépam fait partie de la classe des benzodiazépines : c'est un modulateur allostérique positif du récepteur GABA-A. Son efficacité dans l'épilepsie et l'anxiété est établie.
 
 Dans le syndrome des jambes sans repos, cette action pourrait apporter un bénéfice symptomatique : effet sédatif, réduction de la fragmentation du sommeil et des mouvements périodiques des membres. Ce mécanisme reste symptomatique et ne traite pas la physiopathologie sous-jacente (voie dopaminergique, carence en fer).
 
@@ -147,11 +147,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « puisque les trois AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Klonopin (clonazepam) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cfa0d79a-843c-4b88-95a1-e9511d649ca1) |
 
 <!-- review:end log -->
 

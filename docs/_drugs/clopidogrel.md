@@ -58,7 +58,7 @@ Ce rapport retient la **migraine** (« migraine disorder », rang 2 de TxGNN) co
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le clopidogrel est un inhibiteur du récepteur plaquettaire P2Y12, dont l'efficacité dans le syndrome coronarien aigu est établie ; mécanistiquement, il pourrait être applicable à certaines formes de migraine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clopidogrel (traduction non officielle) : « Le clopidogrel est un inhibiteur de l'activation et de l'agrégation plaquettaires par la liaison irréversible de son métabolite actif à la classe P2Y 12 des récepteurs de l'ADP sur les plaquettes. » Texte original en anglais : "Clopidogrel is an inhibitor of platelet activation and aggregation through the irreversible binding of its active metabolite to the P2Y 12 class of ADP receptors on platelets." ([DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227), version du 2025-05-30 ; consulté le 2026-11-19). Sur la base des informations connues, le clopidogrel est un inhibiteur du récepteur plaquettaire P2Y12, dont l'efficacité dans le syndrome coronarien aigu est établie ; mécanistiquement, il pourrait être applicable à certaines formes de migraine.
 
 L'hypothèse est la suivante : chez les patients porteurs d'un foramen ovale perméable ou d'un shunt droite-gauche, des micro-emboles ou des médiateurs libérés par les plaquettes (par exemple la sérotonine) pourraient déclencher la dépression corticale envahissante à l'origine de l'aura. En réduisant l'activation plaquettaire, le clopidogrel pourrait diminuer ces déclencheurs. Des études précliniques chez la souris suggèrent aussi un rôle des récepteurs P2Y12 dans des modèles de migraine.
 
@@ -137,11 +137,12 @@ Les mises en garde de la notice ne sont pas disponibles : veuillez consulter la 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Plavix (clopidogrel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de8b0b67-eb25-4684-83b5-7ad785314227) |
 
 <!-- review:end log -->
 

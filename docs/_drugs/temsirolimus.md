@@ -62,7 +62,7 @@ Ces preuves restent indirectes : aucune étude ne porte spécifiquement sur le l
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. Sur la base des connaissances générales, le temsirolimus est un analogue de la rapamycine qui inhibe mTOR, une kinase centrale de la croissance et de la prolifération cellulaires. Son efficacité a été établie dans le carcinome rénal avancé et le lymphome à cellules du manteau.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Temsirolimus (traduction non officielle) : « Le temsirolimus est un inhibiteur de mTOR (cible de la rapamycine chez les mammifères). Le temsirolimus se lie à une protéine intracellulaire (FKBP-12), et le complexe protéine-médicament inhibe l’activité de mTOR, qui contrôle la division cellulaire. L’inhibition de l’activité de mTOR a entraîné un arrêt de croissance en phase G1 dans les cellules tumorales traitées. » Texte original en anglais : "Temsirolimus is an inhibitor of mTOR (mammalian target of rapamycin). Temsirolimus binds to an intracellular protein (FKBP-12), and the protein-drug complex inhibits the activity of mTOR that controls cell division. Inhibition of mTOR activity resulted in a G1 growth arrest in treated tumor cells." ([DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736), version du 2020-03-30 ; consulté le 2026-11-19). Sur la base des connaissances générales, le temsirolimus est un analogue de la rapamycine qui inhibe mTOR, une kinase centrale de la croissance et de la prolifération cellulaires. Son efficacité a été établie dans le carcinome rénal avancé et le lymphome à cellules du manteau.
 
 La voie PI3K/AKT/mTOR est fréquemment activée dans les sarcomes des tissus mous. Dans les liposarcomes bien différenciés et dédifférenciés, amplifiés pour MDM2/CDK4, une dépendance aux signaux mTOR et IGF-1R a été évoquée. Cela fournit une justification mécanistique plausible, et l'association avec le cixutumumab (anti-IGF-1R) cible l'amont du même axe.
 
@@ -152,12 +152,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a seule AMM française est abrogée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 60443413 (TORISEL 30 mg) est active, non abrogée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
 
 <!-- review:end log -->
 

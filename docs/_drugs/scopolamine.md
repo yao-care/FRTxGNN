@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la scopolamine est un antagoniste muscarinique aux effets antispasmodiques et anticholinergiques sur les muscles lisses. Son efficacité est reconnue dans plusieurs indications (mal des transports, troubles digestifs spastiques, uvéite, cycloplégie).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Scopolamine (traduction non officielle) : « La scopolamine, un alcaloïde de la belladone, est un anticholinergique. La scopolamine agit : i) comme inhibiteur compétitif au niveau des sites récepteurs muscariniques postganglionnaires du système nerveux parasympathique, et ii) sur les muscles lisses qui répondent à l’acétylcholine mais sont dépourvus d’innervation cholinergique. » Texte original en anglais : "Scopolamine, a belladonna alkaloid, is an anticholinergic. Scopolamine acts: i) as a competitive inhibitor at postganglionic muscarinic receptor sites of the parasympathetic nervous system, and ii) on smooth muscles that respond to acetylcholine but lack cholinergic innervation." ([DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88), version du 2025-06-10 ; consulté le 2026-11-19). Sur la base des informations connues, la scopolamine est un antagoniste muscarinique aux effets antispasmodiques et anticholinergiques sur les muscles lisses. Son efficacité est reconnue dans plusieurs indications (mal des transports, troubles digestifs spastiques, uvéite, cycloplégie).
 
 Le lien plausible avec le syndrome de la queue de cheval concerne uniquement la prise en charge du dysfonctionnement vésical secondaire, par réduction de l'hyperactivité du détrusor. La scopolamine ne traiterait en aucun cas la cause sous-jacente (la compression nerveuse), qui nécessite une décompression chirurgicale.
 
@@ -119,11 +119,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Transderm Scop (scopolamine) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b877a694-a1d0-4280-937a-a06820b12a88) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Remarque : le texte d'indication approuvée n'est pas renseigné dans les AMM co
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature, zolmitriptan est un agoniste sélectif des récepteurs 5-HT1B/1D à action centrale et périphérique. Son efficacité dans la crise de migraine avec ou sans aura a été démontrée dans des essais randomisés contre placebo, avec un début d'action d'environ 45 minutes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Zolmitriptan (traduction non officielle) : « Le zolmitriptan se lie avec une forte affinité aux récepteurs 5-HT 1D et 5-HT 1B recombinants humains, et avec une affinité modérée aux récepteurs 5-HT 1A. Le métabolite N-déméthylé présente également une forte affinité pour les récepteurs 5-HT 1B/1D et une affinité modérée pour les récepteurs 5-HT 1A. » Texte original en anglais : "Zolmitriptan binds with high affinity to human recombinant 5-HT 1D and 5-HT 1B receptors, and moderate affinity for 5-HT 1A receptors. The N-desmethyl metabolite also has high affinity for 5-HT 1B/1D and moderate affinity for 5-HT 1A receptors." ([DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4), version du 2026-01-29 ; consulté le 2026-11-19). D'après la littérature, zolmitriptan est un agoniste sélectif des récepteurs 5-HT1B/1D à action centrale et périphérique. Son efficacité dans la crise de migraine avec ou sans aura a été démontrée dans des essais randomisés contre placebo, avec un début d'action d'environ 45 minutes.
 
 La migraine avec aura du tronc cérébral est un sous-type de migraine. Elle partage avec l'indication d'origine une physiopathologie commune (activation trigémino-vasculaire, libération de CGRP, dépression corticale envahissante). Le lien biologique est donc plausible.
 
@@ -135,12 +135,13 @@ Les deux autres prédictions (atrophodermie vermiculée et uléryhème ophryogè
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM compilées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
 
 <!-- review:end log -->
 

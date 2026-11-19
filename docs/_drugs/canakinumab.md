@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour l'**infarctus hépatiqu
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le canakinumab neutralise l'IL-1β, une cytokine pro-inflammatoire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Canakinumab (traduction non officielle) : « Le canakinumab est un anticorps monoclonal humain anti-IL-1β humaine d'isotype IgG1/κ. Le canakinumab se lie à l'IL-1β humaine et neutralise son activité en bloquant son interaction avec les récepteurs de l'IL-1, mais il ne se lie pas à l'IL-1α ni à l'antagoniste du récepteur de l'IL-1 (IL-1ra). » Texte original en anglais : "Canakinumab is a human monoclonal anti-human IL-1β antibody of the IgG1/κ isotype. Canakinumab binds to human IL-1β and neutralizes its activity by blocking its interaction with IL-1 receptors, but it does not bind IL-1α or IL-1 receptor antagonist (IL-1ra)." ([DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e), version du 2026-06-08 ; consulté le 2026-11-19). D'après les informations connues, le canakinumab neutralise l'IL-1β, une cytokine pro-inflammatoire.
 
 Une hypothèse purement spéculative serait que l'inflammation dépendante de l'IL-1β après une lésion ischémique contribue aux dégâts tissulaires hépatiques, et que son blocage pourrait en limiter l'ampleur. Aucune donnée fournie ne confirme ce lien.
 
@@ -95,6 +95,19 @@ La prédiction pour l'infarctus hépatique n'est soutenue par aucun essai ni auc
 - Mises en garde et contre-indications issues de la notice ANSM
 - Données précliniques ou observationnelles reliant l'IL-1β à l'infarctus hépatique
 - Revue de la littérature ciblée sur l'ischémie hépatique et l'inhibition de l'IL-1
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ilaris (canakinumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7d271f3b-e4f9-4d80-8dcf-28d49123f80e) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

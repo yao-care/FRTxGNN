@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*mi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'aminophylline est un antagoniste non sélectif des récepteurs de l'adénosine et un inhibiteur des phosphodiestérases. Son usage historique concerne le bronchospasme, et elle a aussi été utilisée dans les céphalées post-ponction durale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Aminophylline (traduction non officielle) : « La théophylline exerce deux actions distinctes sur les voies aériennes des patients présentant une obstruction réversible : la relaxation des muscles lisses (c.-à-d. la bronchodilatation) et la suppression de la réponse des voies aériennes aux stimuli (c.-à-d. des effets prophylactiques non bronchodilatateurs). » Texte original en anglais : "Theophylline has two distinct actions in the airways of patients with reversible obstruction; smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., nonbronchodilator prophylactic effects)." ([DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d), version du 2026-05-26 ; consulté le 2026-11-19). Sur la base des informations connues, l'aminophylline est un antagoniste non sélectif des récepteurs de l'adénosine et un inhibiteur des phosphodiestérases. Son usage historique concerne le bronchospasme, et elle a aussi été utilisée dans les céphalées post-ponction durale.
 
 Le lien avec la migraine repose sur la signalisation de l'adénosine, impliquée dans la vasodilatation cérébrale et la nociception trigémino-vasculaire. Un cas d'épisode de migraine hémiplégique déclenché par le régadénoson (agoniste A2A de l'adénosine) va dans ce sens. Une revue de 2023 discute aussi l'aminophylline dans la douleur et la migraine.
 
@@ -141,11 +141,12 @@ Les autres prédictions (atrophodermie vermiculée, ulérythème ophryogène, ca
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: aminophylline prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52bbc6cd-4baf-7859-e063-6394a90ac87d) |
 
 <!-- review:end log -->
 

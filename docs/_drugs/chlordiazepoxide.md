@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**insomnie**. Au
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la chlordiazépoxide est une benzodiazépine qui renforce la signalisation du récepteur GABA-A, ce qui produit des effets sédatifs, anxiolytiques et hypnotiques.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Chlordiazepoxide (traduction non officielle) : « Le chlordiazépoxide HCl exerce des actions anxiolytique, sédative, orexigène et faiblement analgésique. Le mécanisme d'action précis n'est pas connu. Le médicament bloque l'éveil EEG induit par la stimulation de la formation réticulée du tronc cérébral. » Texte original en anglais : "Chlordiazepoxide HCl has antianxiety, sedative, appetite-stimulating and weak analgesic actions. The precise mechanism of action is not known. The drug blocks EEG arousal from stimulation of the brain stem reticular formation." ([DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937), version du 2026-11-05 ; consulté le 2026-11-19). Sur la base des connaissances générales, la chlordiazépoxide est une benzodiazépine qui renforce la signalisation du récepteur GABA-A, ce qui produit des effets sédatifs, anxiolytiques et hypnotiques.
 
 L'anxiété et l'insomnie sont fréquemment associées, et les benzodiazépines sont utilisées comme hypnotiques. Le lien mécanistique est donc plausible. Toutefois, la littérature retrouvée est surtout composée de revues générales sur la pharmacocinétique des anxiolytiques et sur les hypnotiques benzodiazépiniques chez la personne âgée, ainsi que d'anciennes études sur l'anxiété. Aucun essai randomisé portant spécifiquement sur la chlordiazépoxide dans l'insomnie n'a été identifié.
 
@@ -130,12 +130,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Évaluer la pertinence d'une réintroduction sur le marché, compte tenu de l'annulation des AMM et de l'existence d'alternatives mieux documen » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: chlordiazepoxide hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cbd7cee-c4d7-4c95-93d8-09428169b937) |
 
 <!-- review:end log -->
 

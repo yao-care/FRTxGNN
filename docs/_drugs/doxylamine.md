@@ -59,7 +59,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, la doxylamine est un antagoniste des récepteurs H1 de première génération, doté également d'effets anticholinergiques et sédatifs. Dans l'urticaire allergique, la libération d'histamine par les mastocytes provoque la papule et l'érythème : le blocage des récepteurs H1 est donc mécanistiquement plausible.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg (association contenant Doxylamine) (traduction non officielle) : « Le mécanisme d'action du succinate de doxylamine et du chlorhydrate de pyridoxine est inconnu. » Texte original en anglais : "The mechanism of action of doxylamine succinate and pyridoxine hydrochloride is unknown." ([DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b), version du 2026-08-24 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la doxylamine est un antagoniste des récepteurs H1 de première génération, doté également d'effets anticholinergiques et sédatifs. Dans l'urticaire allergique, la libération d'histamine par les mastocytes provoque la papule et l'érythème : le blocage des récepteurs H1 est donc mécanistiquement plausible.
 
 L'urticaire et l'angio-œdème figurent déjà parmi les indications d'origine de ce médicament.
 
@@ -124,11 +124,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la faisabilité réglementaire, compte tenu du statut « annulé » des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Doxylamine Succinate And Pyridoxine Hydrochloride (doxylamine succinate and pyridoxine hydrochloride, delayed release tablets 10 mg/10 mg) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de265fd1-bc22-4da1-aab5-b5fedd649c8b) |
 
 <!-- review:end log -->
 

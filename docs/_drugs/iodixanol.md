@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'iodixanol est un produit de contraste iodé non ionique et iso-osmolaire, utilisé pour visualiser des structures en imagerie radiographique. Il n'a pas d'action connue modifiant l'évolution d'une maladie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Iodixanol (traduction non officielle) : « L'injection intravasculaire d'iodixanol opacifie les vaisseaux situés sur le trajet du flux du produit de contraste, permettant la visualisation des structures internes. Lors de l'imagerie du corps, les produits de contraste iodés diffusent de l'espace vasculaire vers l'espace extravasculaire. » Texte original en anglais : "Intravascular injection of iodixanol opacifies vessels in the path of flow of the contrast agent, permitting visualization of internal structures. In imaging of the body, iodinated contrast agents diffuse from the vascular into the extravascular space." ([DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e), version du 2026-10-16 ; consulté le 2026-11-19). L'iodixanol est un produit de contraste iodé non ionique et iso-osmolaire, utilisé pour visualiser des structures en imagerie radiographique. Il n'a pas d'action connue modifiant l'évolution d'une maladie.
 
 La littérature retrouvée le montre uniquement comme outil d'imagerie : scanner du cartilage avec agents de contraste, modélisation du transport de solutés à travers l'interface os-cartilage, et vérification in vitro de sa compatibilité avec le plasma riche en plaquettes. Aucune de ces études n'évalue un effet thérapeutique sur l'arthrose.
 
@@ -128,6 +128,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Des études précliniques démontrant un effet thérapeutique articulaire
 - Les mises en garde et contre-indications de la notice, pour l'évaluation de sécurité
 - Les indications approuvées figurant dans les AMM
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Visipaque (iodixanol) prescribing information, GE Healthcare Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d964c13-88ad-43be-88d4-a3a7ea4d5b5e) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

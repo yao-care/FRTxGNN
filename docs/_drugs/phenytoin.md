@@ -60,7 +60,7 @@ Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refl�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, la phénytoïne bloque les canaux sodiques voltage-dépendants et limite les décharges neuronales répétitives soutenues, ce qui explique son efficacité dans l'épilepsie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Phenytoin (traduction non officielle) : « Le mécanisme précis par lequel la phénytoïne exerce son effet thérapeutique n'a pas été établi, mais on pense qu'il implique un blocage voltage-dépendant des canaux sodiques membranaires, entraînant une réduction des décharges neuronales soutenues à haute fréquence. » Texte original en anglais : "The precise mechanism by which phenytoin exerts its therapeutic effect has not been established but is thought to involve the voltage-dependent blockade of membrane sodium channels resulting in a reduction in sustained high-frequency neuronal discharges." ([DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353), version du 2026-06-25 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la phénytoïne bloque les canaux sodiques voltage-dépendants et limite les décharges neuronales répétitives soutenues, ce qui explique son efficacité dans l'épilepsie.
 
 Ce mécanisme est pertinent pour la **névralgie du trijumeau** (douleur due à des décharges aberrantes de la racine nerveuse), pour laquelle la phénytoïne est utilisée comme option de recours, notamment par voie intraveineuse lors des crises aiguës. Le score élevé du modèle pour la tumeur du nerf trijumeau (0.9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique.
 
@@ -130,11 +130,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
 
 <!-- review:end log -->
 

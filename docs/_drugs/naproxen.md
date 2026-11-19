@@ -60,7 +60,7 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette pr�
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le naproxène est un inhibiteur non sélectif des cyclooxygénases (COX), dont l'efficacité a été établie dans les douleurs et les maladies inflammatoires de l'appareil locomoteur. Ce point n'est toutefois pas documenté dans les données compilées pour ce rapport.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Naproxen (traduction non officielle) : « Le naproxène possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. Le mécanisme d'action de NAPRELAN, comme celui des autres AINS, n'est pas entièrement élucidé, mais implique une inhibition de la cyclooxygénase (COX-1 et COX-2). » Texte original en anglais : "Naproxen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of NAPRELAN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893), version du 2026-01-08 ; consulté le 2026-11-19). D'après les connaissances générales, le naproxène est un inhibiteur non sélectif des cyclooxygénases (COX), dont l'efficacité a été établie dans les douleurs et les maladies inflammatoires de l'appareil locomoteur. Ce point n'est toutefois pas documenté dans les données compilées pour ce rapport.
 
 Le syndrome de brachydactylie-syndactylie est une malformation congénitale rare des membres, d'origine vraisemblablement développementale et génétique. Les effets anti-inflammatoires et antalgiques de l'inhibition des COX n'ont pas de pertinence évidente pour sa physiopathologie. Le seul lien concevable, le soulagement symptomatique de douleurs musculo-squelettiques, ne modifierait pas l'évolution de la maladie et n'est pas étayé ici.
 
@@ -135,12 +135,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 12 AMM du naproxène en France sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Naprelan (naproxen sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b8a51c9a-488e-4377-a041-436f6a2f8893) |
 
 <!-- review:end log -->
 

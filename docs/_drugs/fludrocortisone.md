@@ -57,7 +57,7 @@ Le modèle TxGNN le prédit comme potentiellement utile pour les **maladies ocul
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, fludrocortisone est un minéralocorticoïde doté d'une activité glucocorticoïde mineure. Son efficacité a été établie dans l'hypotension orthostatique et l'insuffisance surrénalienne, et mécanistiquement il pourrait être applicable à certaines affections oculaires.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fludrocortisone (traduction non officielle) : « On pense que les corticostéroïdes agissent, au moins en partie, en contrôlant la vitesse de synthèse des protéines. Bien qu'il existe un certain nombre de cas dans lesquels il est établi que la synthèse de protéines spécifiques est induite par les corticostéroïdes, les liens entre les actions initiales des hormones et les effets métaboliques finaux n'ont pas été complètement élucidés. […] L'action physiologique de l'acétate de fludrocortisone est similaire à celle de l'hydrocortisone. » Texte original en anglais : "Corticosteroids are thought to act at least in part, by controlling the rate of synthesis of proteins. Although there are a number of instances in which the synthesis of specific proteins is known to be induced by corticosteroids, the links between the initial actions of the hormones and the final metabolic effects have not been completely elucidated. […] The physiologic action of fludrocortisone acetate is similar to that of hydrocortisone." ([DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2), version du 2026-06-24 ; consulté le 2026-11-19). Sur la base des informations connues, fludrocortisone est un minéralocorticoïde doté d'une activité glucocorticoïde mineure. Son efficacité a été établie dans l'hypotension orthostatique et l'insuffisance surrénalienne, et mécanistiquement il pourrait être applicable à certaines affections oculaires.
 
 Deux pistes ressortent de la littérature. La première est une étude préclinique de 2021 (PMID 34509498) rapportant des propriétés anti-inflammatoires et neuroprotectrices dans la dégénérescence rétinienne, avec une action sur l'expression de cytokines par les cellules de Müller. La seconde est un essai de phase 1B de 2022 (PMID 36161841) évaluant la tolérance de la fludrocortisone en injection intravitréenne dans l'atrophie géographique liée à la DMLA. Par ailleurs, des revues évoquent son usage par certains médecins dans le glaucome, pour corriger les chutes de pression artérielle (PMID 17998043, 23430676, 11008895).
 
@@ -126,11 +126,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es cinq AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: fludrocortisone acetate prescribing information, Major Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=933e28ef-05e8-419e-a786-21eab67f33a2) |
 
 <!-- review:end log -->
 

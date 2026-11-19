@@ -56,7 +56,7 @@ Cette prédiction repose uniquement sur le modèle TxGNN (apprentissage profond)
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base. D'après les connaissances pharmacologiques générales, la nabumétone est un AINS à préférence pour la COX-2, dont l'effet passe par son métabolite actif, la 6-MNA. Son efficacité est établie dans les affections articulaires inflammatoires et dégénératives (polyarthrite rhumatoïde, arthrose).
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Nabumetone est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase-2 » Texte original en anglais : "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la nabumétone est un AINS à préférence pour la COX-2, dont l'effet passe par son métabolite actif, la 6-MNA. Son efficacité est établie dans les affections articulaires inflammatoires et dégénératives (polyarthrite rhumatoïde, arthrose).
 
 La dysplasie acromésomélique de type Hunter-Thompson est une maladie squelettique rare, due à des mutations avec perte de fonction de *CDMP1/GDF5* qui perturbent la formation du cartilage. L'inhibition des COX ne corrige pas ce défaut génétique. **Aucun lien mécanistique établi n'a été identifié.**
 
@@ -118,12 +118,13 @@ Parmi les dix premières prédictions, deux relèvent du niveau L4 (« question 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM, détenues par EXPANSCIENCE, sont annulées : il n'existe actuellement aucune présentation commercialisée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « e médicament n'a plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1070 (nabumetone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1070) |
 
 <!-- review:end log -->
 

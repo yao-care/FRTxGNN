@@ -56,7 +56,7 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'oxytétracycline fait partie de la classe des tétracyclines. Son efficacité antibactérienne est établie dans de nombreuses infections, et elle pourrait mécanistiquement être applicable à la rhinosinusite chronique.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Oxytetracycline est (traduction non officielle) : « Inhibiteur du ribosome bactérien 70S » Texte original en anglais : "Bacterial 70S ribosome inhibitor" ([ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'oxytétracycline fait partie de la classe des tétracyclines. Son efficacité antibactérienne est établie dans de nombreuses infections, et elle pourrait mécanistiquement être applicable à la rhinosinusite chronique.
 
 Les tétracyclines sont connues pour leur activité antibactérienne et, selon la littérature générale sur la classe, pour des propriétés anti-inflammatoires (inhibition des métalloprotéinases matricielles, MMP). Ces propriétés pourraient avoir un lien avec l'inflammation sinusienne chronique, et la doxycycline, une autre tétracycline, a été explorée dans ce contexte.
 
@@ -121,12 +121,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et le médicament n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1517 (oxytetracycline): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1517) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ avec **33 essais cliniques** et **19 publications** soutenant actuellement cette
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'étoposide est un inhibiteur de la topoisomérase II : il provoque des cassures de l'ADN et bloque la division des cellules tumorales. Son efficacité est établie dans le cancer bronchique à petites cellules et dans les tumeurs germinales.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Etoposide (traduction non officielle) : « L'étoposide induit des cassures des brins d'ADN par une interaction avec l'ADN-topoisomérase II ou par la formation de radicaux libres, entraînant un arrêt du cycle cellulaire, principalement au stade G2 du cycle cellulaire, et la mort cellulaire. » Texte original en anglais : "Etoposide causes the induction of DNA strand breaks by an interaction with DNA-topoisomerase II or the formation of free radicals, leading to cell cycle arrest, primarily at the G2 stage of the cell cycle, and cell death." ([DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059), version du 2026-10-07 ; consulté le 2026-11-19). Sur la base des informations connues, l'étoposide est un inhibiteur de la topoisomérase II : il provoque des cassures de l'ADN et bloque la division des cellules tumorales. Son efficacité est établie dans le cancer bronchique à petites cellules et dans les tumeurs germinales.
 
 Le sarcome d'Ewing est une tumeur maligne de l'os et des tissus mous, très sensible aux agents génotoxiques. Les données compilées citent notamment une étude publiée dans *Nature* (2018) décrivant cette sensibilité à l'étoposide. L'association ifosfamide + étoposide fait partie des protocoles établis (alternance VDC/IE), ce qui rend la prédiction cohérente sur le plan pharmacologique.
 
@@ -155,12 +155,13 @@ Veuillez consulter les mises en garde et précautions de la notice pour les dét
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Trois autres AMM annulées existent (ETOPOSIDE ACCORD 20 mg/mL, ETOPOPHOS 100 mg, ETOPOSIDE VIATRIS 20 mg/ml) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier le statut réglementaire : les 8 AMM sont annulées, il faut vérifier la disponibilité réelle du produit en France (autres circuits, » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Avopef (etoposide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acc1e443-ef7b-486f-a638-710a20e81059) |
 
 <!-- review:end log -->
 

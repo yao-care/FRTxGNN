@@ -56,7 +56,7 @@ Le niveau L4 correspond à celui attribué dans les données compilées ; il rep
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances sur la classe, naratriptan est un agoniste sélectif des récepteurs 5-HT1B/1D, approuvé pour le traitement de la crise de migraine aiguë.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Naratriptan (traduction non officielle) : « Le naratriptan se lie avec une forte affinité aux récepteurs 5-HT 1B/1D humains clonés. Les migraines sont probablement dues à une vasodilatation crânienne locale et/ou à la libération de neuropeptides sensoriels (notamment la substance P et le peptide lié au gène de la calcitonine) par les terminaisons nerveuses du système trigéminal. » Texte original en anglais : "Naratriptan binds with high affinity to human cloned 5-HT 1B/1D receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (including substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938), version du 2026-08-07 ; consulté le 2026-11-19). Sur la base des connaissances sur la classe, naratriptan est un agoniste sélectif des récepteurs 5-HT1B/1D, approuvé pour le traitement de la crise de migraine aiguë.
 
 La migraine avec aura du tronc cérébral est un sous-type de migraine. Une voie trigémino-vasculaire commune est donc plausible, ce qui explique le score très élevé du modèle.
 
@@ -132,12 +132,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: naratriptan prescribing information, ASCLEMED USA INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63ea356f-0895-4540-b242-8e611eacd938) |
 
 <!-- review:end log -->
 

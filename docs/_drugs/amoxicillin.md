@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hyperamylasémie 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'amoxicilline est une bêta-lactamine bactéricide : elle inhibe la synthèse de la paroi bactérienne et agit donc sur des infections.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Amoxicillin (traduction non officielle) : « L'amoxicilline est un médicament antibactérien. […] L'amoxicilline est similaire à la pénicilline par son action bactéricide sur les bactéries sensibles pendant la phase de multiplication active. Elle agit par inhibition de la biosynthèse de la paroi cellulaire, ce qui entraîne la mort des bactéries. » Texte original en anglais : "Amoxicillin is an antibacterial drug. […] Amoxicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77), version du 2026-11-13 ; consulté le 2026-11-19). Sur la base des informations connues, l'amoxicilline est une bêta-lactamine bactéricide : elle inhibe la synthèse de la paroi bactérienne et agit donc sur des infections.
 
 L'hyperamylasémie, elle, est une anomalie biologique (origine pancréatique, salivaire ou rénale) et non une maladie infectieuse. Aucun lien mécanistique plausible n'a été identifié entre l'action antibactérienne du médicament et cette anomalie.
 
@@ -101,6 +101,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Données détaillées sur le mécanisme d'action et justification biologique d'un effet sur l'hyperamylasémie
 - Études précliniques ou observationnelles évaluant directement cette association
 - Récupération des mises en garde et contre-indications de la notice ANSM pour l'évaluation de la sécurité
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

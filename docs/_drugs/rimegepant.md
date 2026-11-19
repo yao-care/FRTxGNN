@@ -60,7 +60,7 @@ Il s'agit donc plutôt d'une extension au sein de la même classe d'indication q
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le rimégépant est un antagoniste oral de petite taille du récepteur du CGRP (classe des gépants), approuvé pour le traitement de la crise de migraine avec ou sans aura et pour la prévention de la migraine épisodique chez l'adulte.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rimegepant (traduction non officielle) : « Le rimégépant est un antagoniste des récepteurs du peptide lié au gène de la calcitonine. » Texte original en anglais : "Rimegepant is a calcitonin gene-related peptide receptor antagonist." ([DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d), version du 2026-06-04 ; consulté le 2026-11-19). Sur la base des informations connues, le rimégépant est un antagoniste oral de petite taille du récepteur du CGRP (classe des gépants), approuvé pour le traitement de la crise de migraine avec ou sans aura et pour la prévention de la migraine épisodique chez l'adulte.
 
 La migraine avec aura du tronc cérébral est un sous-type de migraine. La voie du CGRP, impliquée dans la physiopathologie neurovasculaire de la migraine, constitue donc un fondement mécanistique cohérent, et le score élevé du modèle est compatible avec l'indication déjà connue du médicament.
 
@@ -143,12 +143,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es données réglementaires sont lacunaires : l'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nurtec Odt (rimegepant sulfate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ef08e09-1098-35cc-e053-2a95a90a3e1d) |
 
 <!-- review:end log -->
 

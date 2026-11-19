@@ -60,7 +60,7 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le pentosane polysulfate est un polysaccharide sulfaté dont les propriétés ressemblent à celles de l'héparine : il possède une activité anticoagulante et un effet antiplaquettaire faible. Son efficacité dans la cystite interstitielle est l'indication d'origine.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pentosan Polysulfate (traduction non officielle) : « Le mécanisme d'action du polysulfate de pentosane sodique dans la cystite interstitielle n'est pas connu. » Texte original en anglais : "The mechanism of action of pentosan polysulfate sodium in interstitial cystitis is not known." ([DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593), version du 2024-09-18 ; consulté le 2026-11-19). Sur la base des informations connues, le pentosane polysulfate est un polysaccharide sulfaté dont les propriétés ressemblent à celles de l'héparine : il possède une activité anticoagulante et un effet antiplaquettaire faible. Son efficacité dans la cystite interstitielle est l'indication d'origine.
 
 **La plausibilité biologique de cette prédiction est faible.** Un composé à action anticoagulante et antiplaquettaire devrait plutôt aggraver un défaut de sécrétion plaquettaire qu'en améliorer l'évolution. L'association retrouvée par le modèle reflète probablement une proximité dans le réseau de connaissances (nœuds communs de coagulation et de fonction plaquettaire) plutôt qu'une véritable relation thérapeutique.
 
@@ -129,11 +129,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est en outre annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**acrodermatite 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la bupivacaïne est un anesthésique local de type amide qui bloque les canaux sodiques voltage-dépendants et inhibe ainsi la conduction nerveuse.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bupivacaine (traduction non officielle) : « Les anesthésiques locaux bloquent la génération et la conduction de l'influx nerveux, vraisemblablement en augmentant le seuil d'excitation électrique du nerf, en ralentissant la propagation de l'influx nerveux et en réduisant la vitesse de montée du potentiel d'action. En général, la progression de l'anesthésie est liée au diamètre, à la myélinisation et à la vitesse de conduction des fibres nerveuses touchées. » Texte original en anglais : "Local anesthetics block the generation and the conduction of nerve impulses presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential. In general, the progression of anesthesia is related to the diameter, myelination, and conduction velocity of affected nerve fibers." ([DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66), version du 2026-11-09 ; consulté le 2026-11-19). D'après les connaissances générales, la bupivacaïne est un anesthésique local de type amide qui bloque les canaux sodiques voltage-dépendants et inhibe ainsi la conduction nerveuse.
 
 Cette prédiction est **difficile à justifier sur le plan mécanistique**. L'acrodermatite chronique atrophiante est une manifestation cutanée tardive de l'infection par *Borrelia*, traitée par antibiotiques. Un bloqueur des canaux sodiques n'a pas de rôle plausible de modification de la maladie. Le score élevé (0,9923) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -117,6 +117,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Recherche ciblée d'études précliniques ou observationnelles justifiant un lien avec l'indication prédite
 - Vérification de la compatibilité de la voie d'administration avec la nouvelle indication
 - Clarification de la pertinence de l'indication d'origine « dermatite » (aucun texte d'indication dans les AMM)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Exparel (bupivacaine) prescribing information, Pacira Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bb5a9e59-0f51-11df-8a39-0800200c9a66) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

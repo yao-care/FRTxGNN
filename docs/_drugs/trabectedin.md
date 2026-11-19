@@ -56,7 +56,7 @@ avec **1 essai clinique** (non démonstratif d'efficacité) et **20 publications
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations d'origine. D'après les données compilées pour ce rapport et la littérature, la trabectédine se lie au petit sillon de l'ADN et alkyle la guanine en position N2, provoquant des cassures de l'ADN. Les cellules présentant un déficit de recombinaison homologue (par exemple, cancers du sein porteurs de mutations BRCA1/2) y seraient particulièrement sensibles.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Trabectedin (traduction non officielle) : « La trabectédine est un médicament alkylant qui se lie aux résidus guanine dans le petit sillon de l'ADN, formant des adduits et entraînant une courbure de l'hélice d'ADN vers le grand sillon. La formation d'adduits déclenche une cascade d'événements pouvant affecter l'activité ultérieure des protéines de liaison à l'ADN, y compris certains facteurs de transcription, et des voies de réparation de l'ADN, entraînant une perturbation du cycle cellulaire et, à terme, la mort cellulaire. » Texte original en anglais : "Trabectedin is an alkylating drug that binds guanine residues in the minor groove of DNA, forming adducts and resulting in a bending of the DNA helix towards the major groove. Adduct formation triggers a cascade of events that can affect the subsequent activity of DNA binding proteins, including some transcription factors, and DNA repair pathways, resulting in perturbation of the cell cycle and eventual cell death." ([DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea), version du 2026-06-29 ; consulté le 2026-11-19). D'après les données compilées pour ce rapport et la littérature, la trabectédine se lie au petit sillon de l'ADN et alkyle la guanine en position N2, provoquant des cassures de l'ADN. Les cellules présentant un déficit de recombinaison homologue (par exemple, cancers du sein porteurs de mutations BRCA1/2) y seraient particulièrement sensibles.
 
 Des travaux précliniques suggèrent aussi qu'elle module le microenvironnement tumoral en réduisant les macrophages associés aux tumeurs, et qu'elle pourrait potentialiser des approches immunitaires (par exemple l'IL-12 dans le cancer du sein triple négatif). Le cancer de l'ovaire et le cancer du sein partagent un contexte gynécologique et, pour certains sous-types, une biologie de déficit de réparation de l'ADN, ce qui rend l'hypothèse plausible, notamment pour les formes BRCA-déficientes et triple négatives.
 
@@ -145,12 +145,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Vérifier la raison de l'annulation des AMM et le statut commercial réel en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
 
 <!-- review:end log -->
 

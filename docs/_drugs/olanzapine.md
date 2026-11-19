@@ -58,7 +58,7 @@ Pour l'agoraphobie, les données compilées pour ce rapport recensent **aucun es
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'olanzapine appartient à la classe des antipsychotiques atypiques ; son efficacité dans la schizophrénie et les épisodes maniaques a été établie, et elle agit par antagonisme des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A/5-HT2C.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Olanzapine (traduction non officielle) : « Le mécanisme d'action de l'olanzapine dans les indications mentionnées n'est pas élucidé. Toutefois, l'efficacité de l'olanzapine dans la schizophrénie pourrait être médiée par une combinaison d'un antagonisme dopaminergique et d'un antagonisme sérotoninergique de type 2 (5HT 2 ). » Texte original en anglais : "The mechanism of action of olanzapine, in the listed indications, is unclear. However, the efficacy of olanzapine in schizophrenia could be mediated through a combination of dopamine and serotonin type 2 (5HT 2 ) antagonism." ([DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c), version du 2026-10-26 ; consulté le 2026-11-19). Sur la base des informations connues, l'olanzapine appartient à la classe des antipsychotiques atypiques ; son efficacité dans la schizophrénie et les épisodes maniaques a été établie, et elle agit par antagonisme des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A/5-HT2C.
 
 L'agoraphobie est généralement associée au trouble panique. L'antagonisme 5-HT2A/5-HT2C et D2, ainsi que l'effet sur les circuits de l'anxiété, offrent une justification plausible pour une utilisation en traitement d'appoint dans le trouble panique résistant aux traitements.
 
@@ -89,7 +89,6 @@ Aucun essai clinique associé enregistré actuellement.
 | 60217108 | OLANZAPINE ARROW 5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
 | 65448204 | OLANZAPINE SANDOZ 5 mg, comprimé orodispersible | Comprimé orodispersible | Non renseignée (AMM active) |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (relations médicament-maladie, et non texte de la notice) : insuffisance et maladies hépatiques, cirrhose, diabète et acidocétose diabétique, hyperglycémie, hypertriglycéridémie et hyperlipidémie, obésité, neutropénie et agranulocytose, hypotension orthostatique, épilepsie, accident vasculaire cérébral et infarctus du myocarde, hyperplasie bénigne de la prostate, maladie de la vésicule biliaire, troubles de la coagulation, cancer du sein chez la femme.
@@ -108,6 +107,19 @@ Aucun essai clinique associé enregistré actuellement.
 - Mises en garde et contre-indications officielles de la notice (ANSM), éléments bloquants pour le criblage de sécurité
 - Essais randomisés contrôlés dans le trouble panique/agoraphobie résistant aux traitements
 - Plan de surveillance métabolique et de la sédation pour une utilisation prolongée
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Weltruza (olanzapine) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a23e99c7-fb76-46d2-95af-e03d5a4d1f2c) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

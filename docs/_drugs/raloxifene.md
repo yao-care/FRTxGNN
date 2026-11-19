@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le raloxifène est un SERM : il exerce une activité agoniste œstrogénique sur l'os et une activité antagoniste dans le sein et l'utérus. Son efficacité dans l'ostéoporose postménopausique est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Raloxifene (traduction non officielle) : « Le raloxifène est un agoniste/antagoniste des œstrogènes, communément appelé modulateur sélectif des récepteurs aux œstrogènes (SERM). Les actions biologiques du raloxifène s'exercent en grande partie par la liaison aux récepteurs aux œstrogènes. Cette liaison entraîne l'activation des voies œstrogéniques dans certains tissus (agonisme) et le blocage des voies œstrogéniques dans d'autres (antagonisme). » Texte original en anglais : "Raloxifene is an estrogen agonist/antagonist, commonly referred to as a selective estrogen receptor modulator (SERM). The biological actions of raloxifene are largely mediated through binding to estrogen receptors. This binding results in activation of estrogenic pathways in some tissues (agonism) and blockade of estrogenic pathways in others (antagonism)." ([DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9), version du 2026-02-11 ; consulté le 2026-11-19). Sur la base des connaissances générales, le raloxifène est un SERM : il exerce une activité agoniste œstrogénique sur l'os et une activité antagoniste dans le sein et l'utérus. Son efficacité dans l'ostéoporose postménopausique est établie.
 
 Aucun lien mécanistique n'est démontré entre cette action et l'ulcère duodénal. Une éventuelle implication de la signalisation des récepteurs des œstrogènes dans la protection de la muqueuse gastroduodénale reste purement spéculative et n'est pas appuyée par les données disponibles. Le score élevé (0,9972) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un signal thérapeutique confirmé.
 
@@ -119,13 +119,14 @@ La prédiction repose uniquement sur le modèle (L5), sans essai clinique, sans 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et le profil de sécurité (risques thromboemboliques et cardiovasculaires notamment) n'a pas pu ê » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-13 | Tableau : l'AMM 69445593 (OPTRUMA) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
 
 <!-- review:end log -->
 

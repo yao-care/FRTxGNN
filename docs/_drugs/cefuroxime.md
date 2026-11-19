@@ -57,7 +57,7 @@ Le modèle TxGNN a placé en tête de liste l'**hyperamylasémie**, mais cette p
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, la céfuroxime est une céphalosporine de deuxième génération, bactéricide, qui inhibe la synthèse de la paroi bactérienne. Son efficacité est reconnue dans les infections respiratoires, ORL et d'autres infections bactériennes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cefuroxime (traduction non officielle) : « La céfuroxime est un agent bactéricide qui agit par inhibition de la synthèse de la paroi cellulaire bactérienne. La céfuroxime est active en présence de certaines bêta-lactamases, à la fois des pénicillinases et des céphalosporinases, de bactéries à Gram négatif et à Gram positif. » Texte original en anglais : "Cefuroxime is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefuroxime has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c), version du 2025-03-27 ; consulté le 2026-11-19). D'après les connaissances établies, la céfuroxime est une céphalosporine de deuxième génération, bactéricide, qui inhibe la synthèse de la paroi bactérienne. Son efficacité est reconnue dans les infections respiratoires, ORL et d'autres infections bactériennes.
 
 Pour l'**infection urinaire**, le lien mécanistique est solide : la céfuroxime est active sur de nombreuses entérobactéries responsables d'infections urinaires et a été utilisée en clinique pour la pyélonéphrite. Il s'agit donc d'une confirmation ou d'une extension de l'usage antibactérien existant, et non d'un repositionnement au sens strict.
 
@@ -102,7 +102,6 @@ Les autres publications retrouvées sont surtout des études de sensibilité ou 
 | 67104586 | CEFUROXIME VIATRIS 250 mg | Comprimé enrobé | Non renseignée |
 | 64292072 | ZINNAT 1,5 g | Poudre pour solution pour perfusion | Non renseignée |
 
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : maladie rénale, pyourètre, maladie hépatique, maladie de la vésicule biliaire, troubles de la coagulation, colite à *Clostridium difficile*, entérocolite nécrosante périnatale, déficit congénital en prothrombine.
@@ -125,6 +124,19 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Vérifier la pertinence réelle de l'indication infection urinaire par rapport aux indications déjà approuvées et à la disponibilité de produits commercialisés.
 - Si l'infection urinaire est retenue, rechercher des essais comparatifs spécifiques à la céfuroxime et examiner les profils de résistance actuels.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: cefuroxime sodium prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a145288-733a-4966-b7ae-dc96eb103d8c) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

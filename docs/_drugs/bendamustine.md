@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **lymphome à c
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la bendamustine est un agent alkylant avec des propriétés d'analogue purique, actif contre les hémopathies malignes à cellules B. Son action repose sur des lésions de l'ADN des cellules B malignes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bendamustine (traduction non officielle) : « La bendamustine est un dérivé bifonctionnel de la méchloréthamine contenant un noyau benzimidazole de type purine. La méchloréthamine et ses dérivés forment des groupements alkyles électrophiles. Ces groupements forment des liaisons covalentes avec des fragments nucléophiles riches en électrons, ce qui entraîne la formation de pontages interbrins de l'ADN. » Texte original en anglais : "Bendamustine is a bifunctional mechlorethamine derivative containing a purine-like benzimidazole ring. Mechlorethamine and its derivatives form electrophilic alkyl groups. These groups form covalent bonds with electron-rich nucleophilic moieties, resulting in interstrand DNA crosslinks." ([DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f), version du 2026-10-28 ; consulté le 2026-11-19). Sur la base des informations connues, la bendamustine est un agent alkylant avec des propriétés d'analogue purique, actif contre les hémopathies malignes à cellules B. Son action repose sur des lésions de l'ADN des cellules B malignes.
 
 Le lymphome à cellules du manteau est un lymphome B mature, proche des autres lymphomes B indolents traités par bendamustine. Le mécanisme de lésion de l'ADN est donc potentiellement transposable. L'association bendamustine-rituximab est un schéma de référence, et de récents essais la combinent à des inhibiteurs de BTK (ibrutinib, acalabrutinib, orelabrutinib).
 
@@ -127,6 +127,19 @@ Plusieurs essais de phase 3 randomisés terminés, dont BRIGHT et l'essai de pre
 - Obtenir les données détaillées sur le mécanisme d'action
 - Vérifier le statut réglementaire des deux AMM et leurs indications approuvées
 - Définir un plan de surveillance hématologique, hépatique et rénale
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

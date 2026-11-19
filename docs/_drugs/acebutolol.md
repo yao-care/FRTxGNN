@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **néphropathie hype
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'acebutolol est un bêta-bloquant bêta-1 sélectif avec activité sympathomimétique intrinsèque. Le blocage bêta-adrénergique abaisse la pression artérielle et réduit la libération de rénine, un mécanisme plausiblement pertinent pour l'atteinte rénale d'origine hypertensive.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Acebutolol (traduction non officielle) : « L'acébutolol est un agent bloquant des récepteurs β-adrénergiques cardiosélectif, qui possède une légère activité sympathomimétique intrinsèque (ASI) dans sa plage de doses thérapeutiquement efficaces. » Texte original en anglais : "Acebutolol is a cardioselective, β-adrenoreceptor blocking agent, which possesses mild intrinsic sympathomimetic activity (ISA) in its therapeutically effective dose range." ([DailyMed: acebutolol hydrochloride prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa40a564-a579-15c1-e053-6294a90ad8e9), version du 2026-01-13 ; consulté le 2026-11-19). D'après les connaissances générales, l'acebutolol est un bêta-bloquant bêta-1 sélectif avec activité sympathomimétique intrinsèque. Le blocage bêta-adrénergique abaisse la pression artérielle et réduit la libération de rénine, un mécanisme plausiblement pertinent pour l'atteinte rénale d'origine hypertensive.
 
 Cependant, la néphropathie hypertensive maligne correspond à une urgence hypertensive, habituellement prise en charge par des médicaments administrés par voie parentérale ; les bêta-bloquants n'en sont pas le traitement de première intention. Le score de 0.9910 provient d'une inférence du modèle et ne remplace pas une preuve clinique. Le lien reste donc théorique.
 
@@ -93,6 +93,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Obtenir les données détaillées sur le mécanisme d'action
 - Rechercher des études cliniques ou publiées portant directement sur la néphropathie hypertensive maligne
 - Évaluer la compatibilité de la voie d'administration (solution buvable) avec une urgence hypertensive
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acebutolol hydrochloride prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa40a564-a579-15c1-e053-6294a90ad8e9) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques connues, lanadelumab cible la kallikréine plasmatique (gène KLKB1) et bloque ainsi l'axe kallikréine-bradykinine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lanadelumab (traduction non officielle) : « Le lanadelumab-flyo est un anticorps monoclonal entièrement humain (IgG1/chaîne légère κ) qui se lie à la kallicréine plasmatique et inhibe son activité protéolytique. La kallicréine plasmatique est une protéase qui clive le kininogène de haut poids moléculaire (HMWK) pour générer du HMWK clivé (cHMWK) et de la bradykinine, un puissant vasodilatateur qui augmente la perméabilité vasculaire, entraînant le gonflement et la douleur associés à l'AOH. » Texte original en anglais : "Lanadelumab-flyo is a fully human monoclonal antibody (IgG1/κ-light chain) that binds plasma kallikrein and inhibits its proteolytic activity. Plasma kallikrein is a protease that cleaves high-molecular-weight-kininogen (HMWK) to generate cleaved HMWK (cHMWK) and bradykinin, a potent vasodilator that increases vascular permeability resulting in swelling and pain associated with HAE." ([DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8), version du 2026-09-18 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, lanadelumab cible la kallikréine plasmatique (gène KLKB1) et bloque ainsi l'axe kallikréine-bradykinine.
 
 Le lien évoqué par le modèle semble reposer sur une biologie commune des serpines (par exemple SERPING1 et l'inhibiteur de la C1 estérase). Or la polymérisation toxique des serpines est un mécanisme de protéotoxicité, et non un mécanisme dépendant de la kallikréine. Inhiber la kallikréine plasmatique n'a donc pas de justification claire dans cette maladie.
 
@@ -98,6 +98,18 @@ La prédiction repose uniquement sur le modèle (score 0,9999), sans essai clini
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Études précliniques démontrant un rôle de la kallikréine plasmatique dans cette pathologie
 - Évaluation de la pertinence biologique avant toute étude clinique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Takhzyro (lanadelumab-flyo) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=15f99d8c-efe7-4f7d-aa20-0d0f1e30c6e8) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

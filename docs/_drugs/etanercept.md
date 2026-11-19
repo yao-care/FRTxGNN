@@ -62,7 +62,7 @@ Cette prédiction repose sur **1 essai clinique** (sans lien direct avec l'indic
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'étanercept est une protéine de fusion composée du récepteur soluble du TNF (p75) et d'un fragment Fc d'IgG1. Elle neutralise le TNF-alpha, cytokine pro-inflammatoire centrale dans plusieurs maladies auto-immunes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Etanercept (traduction non officielle) : « Le TNF est une cytokine naturelle impliquée dans les réponses inflammatoires et immunitaires normales. Il joue un rôle important dans les processus inflammatoires de la PR, de l'AJI polyarticulaire, du RPso et de la SA, ainsi que dans l'atteinte articulaire qui en résulte. […] L'étanercept est une forme soluble dimérique du récepteur p75 du TNF capable de se lier aux molécules de TNF. » Texte original en anglais : "TNF is a naturally occurring cytokine that is involved in normal inflammatory and immune responses. It plays an important role in the inflammatory processes of RA, polyarticular JIA, PsA, and AS and the resulting joint pathology. […] Etanercept is a dimeric soluble form of the p75 TNF receptor that can bind TNF molecules." ([DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f), version du 2026-05-11 ; consulté le 2026-11-19). Sur la base des connaissances générales, l'étanercept est une protéine de fusion composée du récepteur soluble du TNF (p75) et d'un fragment Fc d'IgG1. Elle neutralise le TNF-alpha, cytokine pro-inflammatoire centrale dans plusieurs maladies auto-immunes.
 
 La vascularite rhumatoïde est une complication extra-articulaire sévère de la polyarthrite rhumatoïde, indication déjà reconnue de l'étanercept. L'inflammation médiée par le TNF y joue un rôle, ce qui rend le blocage du TNF biologiquement plausible.
 
@@ -151,11 +151,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées (Enbrel, Benepali, Erelzi, Nepexto) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
 
 <!-- review:end log -->
 

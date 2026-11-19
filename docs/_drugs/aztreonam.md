@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'aztréonam est un monobactame qui inhibe la protéine de liaison à la pénicilline 3 (PBP3) des bactéries à Gram négatif, ce qui bloque la synthèse de leur paroi.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Aztreonam (traduction non officielle) : « L'aztréonam est un agent bactéricide qui agit par inhibition de la synthèse de la paroi cellulaire bactérienne. L'aztréonam est actif en présence de certaines bêta-lactamases, à la fois pénicillinases et céphalosporinases, des bactéries à Gram négatif et à Gram positif. » Texte original en anglais : "Aztreonam is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Aztreonam has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6), version du 2024-06-03 ; consulté le 2026-11-19). D'après les connaissances générales, l'aztréonam est un monobactame qui inhibe la protéine de liaison à la pénicilline 3 (PBP3) des bactéries à Gram négatif, ce qui bloque la synthèse de leur paroi.
 
 Aucun lien mécanistique plausible n'est identifié entre cette action antibactérienne et l'hyperamylasémie, qui est une anomalie biologique (élévation de l'amylase sérique) et non une infection. L'aztréonam n'a pas d'effet connu sur le métabolisme ou la clairance de l'amylase.
 
@@ -96,6 +96,19 @@ La prédiction repose uniquement sur le score du modèle (0,9973), sans essai cl
 - Des données de mécanisme d'action détaillées
 - Les mises en garde et contre-indications issues des notices officielles de l'ANSM
 - Toute étude (précliniques ou cliniques) étudiant directement l'hyperamylasémie avec l'aztréonam
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: aztreonam prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d4500795-3b07-4a7d-b432-73cafbb3dbc6) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

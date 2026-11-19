@@ -56,7 +56,7 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette dir
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le carvedilol est un bêtabloquant non sélectif qui bloque aussi les récepteurs alpha-1 adrénergiques, ce qui abaisse la pression artérielle.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Carvedilol (traduction non officielle) : « COREG est un mélange racémique dans lequel l'activité bêta-bloquante non sélective est présente dans l'énantiomère S(-) et l'activité de blocage des récepteurs α1-adrénergiques est présente dans les deux énantiomères R(+) et S(-), avec une puissance égale. COREG n'a pas d'activité sympathomimétique intrinsèque. » Texte original en anglais : "COREG is a racemic mixture in which nonselective β-adrenoreceptor blocking activity is present in the S(-) enantiomer and α1-adrenergic blocking activity is present in both R(+) and S(-) enantiomers at equal potency. COREG has no intrinsic sympathomimetic activity." ([DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39), version du 2026-07-31 ; consulté le 2026-11-19). Sur la base des informations connues, le carvedilol est un bêtabloquant non sélectif qui bloque aussi les récepteurs alpha-1 adrénergiques, ce qui abaisse la pression artérielle.
 
 Le lien avec la nouvelle indication est indirect : en réduisant la pression artérielle, le carvedilol pourrait en principe limiter l'atteinte rénale d'origine hypertensive. Le score élevé reflète probablement la proximité du modèle avec l'usage antihypertenseur déjà connu, plus qu'un véritable signal de repositionnement.
 
@@ -99,6 +99,19 @@ La prédiction repose uniquement sur le score du modèle, sans essai clinique ni
 - Mises en garde et contre-indications issues de la notice ANSM
 - Études précliniques ou cliniques portant directement sur la maladie rénale hypertensive maligne
 - Évaluation de la sécurité du traitement dans ce contexte aigu
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Coreg (carvedilol) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=07c619c6-4a0c-445e-94fa-664a54f68a39) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

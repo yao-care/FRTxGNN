@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'aprépitant est un antagoniste des récepteurs NK1 (substance P/neurokinine 1).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Aprepitant (traduction non officielle) : « L'aprépitant est un antagoniste sélectif de haute affinité des récepteurs humains de la substance P/neurokinine 1 (NK 1 ). L'aprépitant a une affinité faible ou nulle pour les récepteurs de la sérotonine (5-HT 3 ), de la dopamine et des corticostéroïdes. Il a été démontré dans des modèles animaux que l'aprépitant inhibe les vomissements induits par les agents chimiothérapeutiques cytotoxiques, tels que le cisplatine, par des actions centrales. » Texte original en anglais : "Aprepitant is a selective high-affinity antagonist of human substance P/neurokinin 1 (NK 1 ) receptors. Aprepitant has little or no affinity for serotonin (5-HT 3 ), dopamine, and corticosteroid receptors. Aprepitant has been shown in animal models to inhibit emesis induced by cytotoxic chemotherapeutic agents, such as cisplatin, via central actions." ([DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4), version du 2026-04-01 ; consulté le 2026-11-19). Sur la base des informations connues, l'aprépitant est un antagoniste des récepteurs NK1 (substance P/neurokinine 1).
 
 Le signal substance P/NK1 a été relié, dans des modèles précliniques, à la régulation de la vasopressine et de l'équilibre hydrique. Cela fournit un argument de plausibilité, mais celui-ci reste spéculatif.
 
@@ -136,11 +136,12 @@ Les neuf autres prédictions du classement (hypertrichose, hypertension pulmonai
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cinvanti (aprepitant) prescribing information, Heron Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c218d3a-a508-4abc-9ed8-a6e8e191d1b4) |
 
 <!-- review:end log -->
 

@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **néoplasie fi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature, la pirfénidone est un agent antifibrosant non cytotoxique qui inhibe l'action de facteurs de croissance tels que le TGF-β1, le PDGF, l'EGF et le FGF, réduisant la prolifération des fibroblastes et la synthèse de collagène.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pirfenidone (traduction non officielle) : « Le mécanisme d'action de la pirfénidone dans le traitement de la FPI n'a pas été établi. » Texte original en anglais : "The mechanism of action of pirfenidone in the treatment of IPF has not been established." ([DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e), version du 2025-12-05 ; consulté le 2026-11-19). D'après la littérature, la pirfénidone est un agent antifibrosant non cytotoxique qui inhibe l'action de facteurs de croissance tels que le TGF-β1, le PDGF, l'EGF et le FGF, réduisant la prolifération des fibroblastes et la synthèse de collagène.
 
 Le lien avec l'indication prédite est la biologie des fibroblastes. Des études in vitro sur des fibroblastes issus de la maladie de Dupuytren montrent que la pirfénidone diminue l'activité des fibroblastes stimulée par le TGF-β1, y compris par des voies non-SMAD. La maladie de Dupuytren est toutefois une affection fibroproliférative **bénigne** : ces résultats soutiennent un mécanisme anti-fibroblastique, mais pas une efficacité contre des néoplasmes fibroblastiques malins.
 
@@ -128,12 +128,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 17 AMM sont au statut **annulé** » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des 17 AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
 
 <!-- review:end log -->
 

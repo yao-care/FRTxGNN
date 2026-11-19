@@ -56,7 +56,7 @@ avec **7 essais cliniques** (dont 2 directement pertinents) et **1 publication**
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, melphalan est un agent alkylant bifonctionnel : il crée des ponts entre les brins d'ADN, ce qui bloque la division des cellules tumorales et induit leur mort.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Melphalan (traduction non officielle) : « Le melphalan est un agent alkylant de type bischloroéthylamine. Par conséquent, sa cytotoxicité semble liée à l'étendue de ses pontages interbrins avec l'ADN, probablement par liaison en position N 7 de la guanine. » Texte original en anglais : "Melphalan is an alkylating agent of the bischloroethylamine type. As a result, its cytotoxicity appears to be related to the extent of its interstrand cross-linking with DNA, probably by binding at the N 7 position of guanine." ([DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c), version du 2026-09-15 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, melphalan est un agent alkylant bifonctionnel : il crée des ponts entre les brins d'ADN, ce qui bloque la division des cellules tumorales et induit leur mort.
 
 Les tumeurs germinales sont connues pour leur forte chimiosensibilité aux agents endommageant l'ADN. Les indications originales de melphalan comprennent déjà des tumeurs germinales de l'ovaire (tumeur du sac vitellin, tumeurs germinales malignes non dysgerminomateuses, choriocarcinome ovarien primitif). La nouvelle indication prédite est donc proche de l'indication d'origine, ce qui rend la prédiction plausible sur le plan biologique.
 
@@ -140,12 +140,13 @@ Les mises en garde et contre-indications issues de la notice française ne sont 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et la voie d'administration, étant donné l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Evomela (melphalan) prescribing information, Acrotech Biopharma Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69f55869-dc11-408e-8fc7-47634269a52c) |
 
 <!-- review:end log -->
 

@@ -58,7 +58,7 @@ Réserve : le niveau L1 suppose au moins deux essais de Phase 3 terminés. Pour 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances établies, le pantoprazole inhibe de façon irréversible l'H+/K+-ATPase gastrique (pompe à protons) des cellules pariétales. Il doit être activé en milieu acide avant d'agir, ce qui lui confère une sélectivité pour le compartiment acide de la cellule pariétale. Il en résulte une suppression prolongée de la sécrétion acide.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pantoprazole (traduction non officielle) : « Le pantoprazole est un IPP qui inhibe l'étape finale de la production d'acide gastrique en se liant de manière covalente au système enzymatique (H +, K + )-ATPase à la surface sécrétoire de la cellule pariétale gastrique. Cet effet entraîne une inhibition de la sécrétion d'acide gastrique basale et stimulée, quel que soit le stimulus. » Texte original en anglais : "Pantoprazole is a PPI that suppresses the final step in gastric acid production by covalently binding to the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. This effect leads to inhibition of both basal and stimulated gastric acid secretion irrespective of the stimulus." ([DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b), version du 2026-11-06 ; consulté le 2026-11-19). Sur la base des connaissances établies, le pantoprazole inhibe de façon irréversible l'H+/K+-ATPase gastrique (pompe à protons) des cellules pariétales. Il doit être activé en milieu acide avant d'agir, ce qui lui confère une sélectivité pour le compartiment acide de la cellule pariétale. Il en résulte une suppression prolongée de la sécrétion acide.
 
 L'ulcère peptique actif est directement lié à l'acidité gastrique. L'indication prédite recoupe donc l'indication d'origine (maladie ulcéreuse peptique), et la prédiction du modèle est cohérente avec l'usage établi de cette classe de médicaments. La publication de revue sur l'efficacité du pantoprazole (cicatrisation plus rapide que les anti-H2, efficacité sur les ulcères résistants) va dans le même sens.
 
@@ -158,12 +158,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'unique AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Protonix I.V. (pantoprazole sodium) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cde88e6-28f2-4cbe-8c3f-770b05cc0e1b) |
 
 <!-- review:end log -->
 

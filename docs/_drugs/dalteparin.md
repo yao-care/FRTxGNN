@@ -60,7 +60,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la daltéparine est une héparine de bas poids moléculaire : elle potentialise l'antithrombine et inhibe le facteur Xa.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dalteparin (traduction non officielle) : « La daltéparine est une héparine de bas poids moléculaire dotée de propriétés antithrombotiques. Elle agit en renforçant l'inhibition du facteur Xa et de la thrombine par l'antithrombine. Chez l'homme, la daltéparine potentialise préférentiellement l'inhibition du facteur Xa de la coagulation, tout en n'affectant que légèrement le temps de céphaline activée (TCA). » Texte original en anglais : "Dalteparin is a low molecular weight heparin with antithrombotic properties. It acts by enhancing the inhibition of Factor Xa and thrombin by antithrombin. In humans, dalteparin potentiates preferentially the inhibition of coagulation Factor Xa, while only slightly affecting the activated partial thromboplastin time (APTT)." ([DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7), version du 2025-09-30 ; consulté le 2026-11-19). Sur la base des connaissances générales, la daltéparine est une héparine de bas poids moléculaire : elle potentialise l'antithrombine et inhibe le facteur Xa.
 
 Le déficit homozygote en protéine C supprime une voie anticoagulante naturelle et crée un état prothrombotique. Le purpura fulminans, déjà parmi les indications d'origine, en est la présentation sévère classique. Le lien biologique est donc cohérent : une anticoagulation pourrait contrebalancer l'excès de thrombose.
 
@@ -132,12 +132,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Supprimé : « (9 AMM valides sur 9) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fragmin (dalteparin sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=23527b8b-9b28-4e6d-9751-33b143975ac7) |
 
 <!-- review:end log -->
 

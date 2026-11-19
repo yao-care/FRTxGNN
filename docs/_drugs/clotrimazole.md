@@ -56,7 +56,7 @@ Les preuves restent très minces : **1 essai clinique** (une association de troi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le clotrimazole est un antifongique azolé qui inhibe la synthèse de l'ergostérol fongique (enzyme CYP51). Des activités antibactérienne et anti-inflammatoire ont aussi été décrites.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clotrimazole (traduction non officielle) : « Le clotrimazole est un agent antifongique à large spectre qui inhibe la croissance des levures pathogènes en modifiant la perméabilité des membranes cellulaires. L'action du clotrimazole est fongistatique à des concentrations de médicament allant jusqu'à 20 mcg/mL et peut être fongicide in vitro contre Candida albicans et d'autres espèces du genre Candida à des concentrations plus élevées. » Texte original en anglais : "Clotrimazole is a broad-spectrum antifungal agent that inhibits the growth of pathogenic yeasts by altering the permeability of cell membranes. The action of clotrimazole is fungistatic at concentrations of drug up to 20 mcg/mL and may be fungicidal in vitro against Candida albicans and other species of the genus Candida at higher concentrations." ([DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f), version du 2025-03-27 ; consulté le 2026-11-19). D'après les connaissances générales, le clotrimazole est un antifongique azolé qui inhibe la synthèse de l'ergostérol fongique (enzyme CYP51). Des activités antibactérienne et anti-inflammatoire ont aussi été décrites.
 
 Ces propriétés pourraient avoir un lien avec la physiopathologie de l'acné (implication de *Cutibacterium acnes* et de *Malassezia*, inflammation). Ce lien reste toutefois indirect et hypothétique.
 
@@ -97,6 +97,18 @@ La prédiction repose uniquement sur le modèle. Le seul essai est suspendu et p
 - Les données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications issues de la notice officielle
 - Une évaluation de la voie d'administration et de la tolérance cutanée pour cet usage
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: clotrimazole prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=980736aa-751a-4642-ab85-a309435fd02f) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

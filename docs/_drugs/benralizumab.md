@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le bénralizumab cible la sous-unité alpha du récepteur de l'IL-5 (IL5RA) et déplète les éosinophiles et les basophiles par cytotoxicité cellulaire dépendante des anticorps (ADCC).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Benralizumab (traduction non officielle) : « Le benralizumab est un anticorps monoclonal humanisé afucosylé (IgG1, kappa) qui se lie directement à la sous-unité alpha du récepteur humain de l'interleukine-5 (IL-5Rα) avec une constante de dissociation de 11 pM. Le récepteur de l'IL-5 est exprimé à la surface des éosinophiles et des basophiles. » Texte original en anglais : "Benralizumab is a humanized afucosylated, monoclonal antibody (IgG1, kappa) that directly binds to the alpha subunit of the human interleukin-5 receptor (IL-5Rα) with a dissociation constant of 11 pM. The IL-5 receptor is expressed on the surface of eosinophils and basophils." ([DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784), version du 2026-05-13 ; consulté le 2026-11-19). D'après les informations connues, le bénralizumab cible la sous-unité alpha du récepteur de l'IL-5 (IL5RA) et déplète les éosinophiles et les basophiles par cytotoxicité cellulaire dépendante des anticorps (ADCC).
 
 La thrombopénie immunitaire repose sur la destruction des plaquettes par des auto-anticorps et des lymphocytes T. Aucun lien mécanistique clair avec la déplétion des éosinophiles n'est établi dans les données disponibles. Le score élevé du modèle reste donc une indication computationnelle à interpréter avec prudence, et la plausibilité biologique de cette prédiction est faible en l'état.
 
@@ -93,6 +93,19 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 - Études précliniques ou observationnelles portant directement sur cette maladie
 - Mises en garde et contre-indications issues de la notice ANSM
 - Évaluation de sécurité chez des patients ayant une thrombopénie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fasenra (benralizumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da6aca1a-19ed-44a4-abb7-696c7d58b784) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

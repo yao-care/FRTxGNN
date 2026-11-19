@@ -60,7 +60,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le fluconazole est un antifongique azolé qui inhibe la lanostérol 14-alpha-déméthylase fongique (CYP51), ce qui perturbe la synthèse de l'ergostérol, composant essentiel de la membrane des champignons. Son efficacité dans les infections à *Candida* et à *Cryptococcus* est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fluconazole (traduction non officielle) : « Le fluconazole est un inhibiteur hautement sélectif de l'enzyme fongique dépendante du cytochrome P450, la lanostérol 14-α-déméthylase. Cette enzyme a pour fonction de convertir le lanostérol en ergostérol. La perte consécutive des stérols normaux est corrélée à l'accumulation de 14-α-méthylstérols chez les champignons et pourrait être responsable de l'activité fongistatique du fluconazole. » Texte original en anglais : "Fluconazole is a highly selective inhibitor of fungal cytochrome P450 dependent enzyme lanosterol 14-α-demethylase. This enzyme functions to convert lanosterol to ergosterol. The subsequent loss of normal sterols correlates with the accumulation of 14-α-methyl sterols in fungi and may be responsible for the fungistatic activity of fluconazole." ([DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204), version du 2026-04-02 ; consulté le 2026-11-19). Sur la base des connaissances générales, le fluconazole est un antifongique azolé qui inhibe la lanostérol 14-alpha-déméthylase fongique (CYP51), ce qui perturbe la synthèse de l'ergostérol, composant essentiel de la membrane des champignons. Son efficacité dans les infections à *Candida* et à *Cryptococcus* est établie.
 
 Le seul soutien à la prédiction est le score élevé du modèle (0,9924). Un lien plausible, mais non vérifié, serait que le modèle associe les kératoconjonctivites d'origine fongique ou infectieuse à l'activité antifongique. Or la kératoconjonctivite épithéliale ponctuée est souvent d'origine virale (par exemple adénovirus) ou liée à une atteinte de la surface oculaire ; dans ces situations, un antifongique n'agirait pas sur la cause.
 
@@ -138,12 +138,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Les autres formes concernées par des AMM annulées  » → « Les autres formes concernées par des AMM abrogées  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Diflucan (fluconazole) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f694c617-3383-416c-91b6-b94fda371204) |
 
 <!-- review:end log -->
 

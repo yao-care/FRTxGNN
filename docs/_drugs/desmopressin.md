@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour le **déficit congén
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la desmopressine active le récepteur V2 et provoque la libération du facteur VIII et du facteur de von Willebrand depuis les réserves endothéliales.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Desmopressin (traduction non officielle) : « L'acétate de desmopressine augmente les taux plasmatiques d'activité du facteur VIII chez les patients atteints d'hémophilie et de maladie de von Willebrand de type I. Les effets antidiurétiques de l'acétate de desmopressine sont médiés par la stimulation des récepteurs de la vasopressine 2 (V2), augmentant ainsi la réabsorption de l'eau dans le rein, et réduisant par conséquent la production d'urine. L'acétate de desmopressine est une hormone de substitution de l'hormone antidiurétique dans le traitement du diabète insipide central. » Texte original en anglais : "Desmopressin acetate increases plasma levels of factor VIII activity in patients with hemophilia and von Willebrand's disease Type I. The antidiuretic effects of desmopressin acetate are mediated by stimulation of vasopressin 2 (V2) receptors, thereby increasing water re-absorption in the kidney, and hence reducing urine production. Desmopressin acetate is a replacement hormone for antidiuretic hormone in the treatment of central diabetes insipidus." ([DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244), version du 2022-09-28 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la desmopressine active le récepteur V2 et provoque la libération du facteur VIII et du facteur de von Willebrand depuis les réserves endothéliales.
 
 Ce mécanisme ne concerne pas la prothrombine (facteur II). Il n'existe aucun effet direct connu de la desmopressine sur son taux. Le lien mécanistique est donc faible.
 
@@ -101,6 +101,18 @@ Au moins 20 AMM figurent dans les données compilées (la liste peut être parti
 - Recherche d'études précliniques ou de cas cliniques spécifiques à cette maladie
 - Mises en garde et contre-indications issues de la notice
 - Évaluation de la sécurité, notamment du risque d'hyponatrémie et des événements thrombotiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ddavp (desmopressin acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=651f6fee-a2c7-431b-8d5d-58b156c72244) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

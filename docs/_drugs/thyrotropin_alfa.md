@@ -55,7 +55,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour la **migraine** 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la thyrotropine alfa est une TSH recombinante qui agit sur le récepteur de la TSH (TSHR) du tissu thyroïdien. Elle est utilisée comme agent de stimulation en contexte de diagnostic et de suivi thyroïdien.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Thyrotropin Alfa (traduction non officielle) : « La thyréotropine (TSH) est une hormone hypophysaire qui stimule la glande thyroïde pour qu'elle produise l'hormone thyroïdienne. La liaison de la thyrotropine alfa aux récepteurs de la TSH sur les cellules épithéliales thyroïdiennes normales ou sur le tissu de cancer thyroïdien bien différencié stimule la captation et l'organification de l'iode, ainsi que la synthèse et la sécrétion de thyroglobuline (Tg), de triiodothyronine (T3) et de thyroxine (T4). » Texte original en anglais : "Thyrotropin (TSH) is a pituitary hormone that stimulates the thyroid gland to produce thyroid hormone. Binding of thyrotropin alfa to TSH receptors on normal thyroid epithelial cells or on well-differentiated thyroid cancer tissue stimulates iodine uptake and organification, and synthesis and secretion of thyroglobulin (Tg), triiodothyronine (T3) and thyroxine (T4)." ([DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b), version du 2023-02-24 ; consulté le 2026-11-19). Sur la base des informations connues, la thyrotropine alfa est une TSH recombinante qui agit sur le récepteur de la TSH (TSHR) du tissu thyroïdien. Elle est utilisée comme agent de stimulation en contexte de diagnostic et de suivi thyroïdien.
 
 **En l'état, la prédiction n'est pas plausible sur le plan biologique.** Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. L'indication d'origine et le mécanisme n'étant pas documentés, la prédiction ne peut pas être vérifiée mécanistiquement.
 
@@ -129,12 +129,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 68937442 (THYROGEN 0) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
 
 <!-- review:end log -->
 

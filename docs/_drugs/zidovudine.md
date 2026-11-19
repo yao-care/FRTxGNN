@@ -60,7 +60,7 @@ Cette prédiction repose sur **aucun essai clinique** et **19 publications**, to
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la zidovudine appartient à la classe des inhibiteurs nucléosidiques de la transcriptase inverse. Son efficacité dans l'infection par le VIH est établie, et elle pourrait être applicable mécanistiquement à d'autres rétrovirus.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Zidovudine (traduction non officielle) : « La zidovudine est un agent antirétroviral. […] La zidovudine est un analogue nucléosidique de synthèse. Dans la cellule, la zidovudine est phosphorylée en son métabolite actif 5′-triphosphate, la zidovudine triphosphate (ZDV-TP). Le principal mode d'action de la ZDV-TP est l'inhibition de la transcriptase inverse (TI) par terminaison de la chaîne d'ADN après incorporation de l'analogue nucléotidique. » Texte original en anglais : "Zidovudine is an antiretroviral agent. […] Zidovudine is a synthetic nucleoside analogue. Intracellularly, zidovudine is phosphorylated to its active 5′-triphosphate metabolite, zidovudine triphosphate (ZDV-TP). The principal mode of action of ZDV-TP is inhibition of reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84), version du 2024-11-13 ; consulté le 2026-11-19). D'après les informations connues, la zidovudine appartient à la classe des inhibiteurs nucléosidiques de la transcriptase inverse. Son efficacité dans l'infection par le VIH est établie, et elle pourrait être applicable mécanistiquement à d'autres rétrovirus.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la transcriptase inverse est proche de celle du VIH. Ce lien mécanistique est plausible, et le chat est un modèle animal classique du VIH. Plusieurs études décrivent une baisse de la charge virale plasmatique sous zidovudine chez le chat infecté.
 
@@ -149,12 +149,13 @@ Les informations issues de la notice (mises en garde, contre-indications) ne son
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les neuf AMM de la zidovudine (seule ou en association) sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les 9 AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Retrovir (zidovudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6df09f15-b102-431c-adde-d7aeef6f5d84) |
 
 <!-- review:end log -->
 

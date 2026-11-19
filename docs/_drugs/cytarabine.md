@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **carcinome pul
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la cytarabine est un analogue nucléosidique pyrimidique qui inhibe la synthèse de l'ADN des cellules en prolifération. Son efficacité dans les leucémies aiguës est établie, et mécanistiquement elle pourrait être applicable à des tumeurs à croissance rapide comme le carcinome pulmonaire à petites cellules.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cytarabine (traduction non officielle) : « Bien que le mécanisme d'action ne soit pas entièrement élucidé, il semble que la cytarabine agisse par inhibition de l'ADN polymérase. Une incorporation limitée, mais significative, de la cytarabine dans l'ADN et l'ARN a également été rapportée. » Texte original en anglais : "Although the mechanism of action is not completely understood, it appears that cytarabine acts through the inhibition of DNA polymerase. A limited, but significant, incorporation of cytarabine into both DNA and RNA has also been reported." ([DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd), version du 2026-10-19 ; consulté le 2026-11-19). Sur la base des informations connues, la cytarabine est un analogue nucléosidique pyrimidique qui inhibe la synthèse de l'ADN des cellules en prolifération. Son efficacité dans les leucémies aiguës est établie, et mécanistiquement elle pourrait être applicable à des tumeurs à croissance rapide comme le carcinome pulmonaire à petites cellules.
 
 Cependant, ce raisonnement reste théorique. La littérature retrouvée porte principalement sur le cancer bronchique non à petites cellules (anciens essais de phase II associant cytarabine et cisplatine, avec un taux de réponse global d'environ 14 à 18 %) et sur d'autres antimétabolites (gemcitabine, décitabine, pémétrexed, topotécan). Une publication de 1987 sur la cytarabine à haute dose dans le cancer à petites cellules est identifiée, mais son résumé n'est pas disponible. Le score élevé de TxGNN est une prédiction computationnelle uniquement.
 
@@ -151,11 +151,12 @@ Parmi les autres indications examinées, aucune n'atteint un niveau de preuve su
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Ces 5 AMM sont annulées, comme les 6 autres (11 au total, y compris VYXEOS LIPOSOMAL, CYTARABINE KABI, CYTARABINE ACCORD 100 mg/ml, ARACYTIN » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: cytarabine prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3a8c0e9-19ed-49b7-8464-11e8806f47fd) |
 
 <!-- review:end log -->
 

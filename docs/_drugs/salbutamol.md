@@ -60,7 +60,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le salbutamol appartient à la classe des bêta-2 agonistes. Son efficacité dans l'asthme et les maladies bronchiques est établie, et il pourrait être mécanistiquement applicable à la conjonctivite papillaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Salbutamol (traduction non officielle) : « Le sulfate de salbutamol est un agoniste bêta 2 -adrénergique. Les effets pharmacologiques du sulfate de salbutamol sont attribuables à l'activation des récepteurs bêta 2 -adrénergiques du muscle lisse des voies respiratoires. L'activation des récepteurs bêta 2 -adrénergiques entraîne l'activation de l'adénylcyclase et une augmentation de la concentration intracellulaire d'adénosine monophosphate cyclique-3', 5' (AMP cyclique). » Texte original en anglais : "Albuterol sulfate is a beta 2 -adrenergic agonist. The pharmacologic effects of albuterol sulfate are attributable to activation of beta 2 -adrenergic receptors on airway smooth muscle. Activation of beta 2 -adrenergic receptors leads to the activation of adenylcyclase and to an increase in the intracellular concentration of cyclic-3', 5’-adenosine monophosphate (cyclic AMP)." ([DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d), version du 2024-12-20 ; consulté le 2026-11-19). Sur la base des informations connues, le salbutamol appartient à la classe des bêta-2 agonistes. Son efficacité dans l'asthme et les maladies bronchiques est établie, et il pourrait être mécanistiquement applicable à la conjonctivite papillaire.
 
 Les données compilées indiquent que les bêta-2 agonistes ont montré, dans des modèles précliniques, des effets anti-inflammatoires et de stabilisation des mastocytes dans le tissu conjonctival. Une inflammation conjonctivale de nature allergique pourrait donc, en théorie, y être sensible.
 
@@ -108,6 +108,19 @@ Les notices de l'ANSM n'ont pas pu être exploitées : les mises en garde et con
 **Remarque :** d'autres indications prédites disposent de preuves plus solides que la conjonctivite papillaire :
 - l'**anaphylaxie** et le **rhume** (niveau L3) ;
 - les **maladies pulmonaires obstructives** (niveau L1, mais cette indication recoupe l'indication originale et n'est pas un véritable repositionnement).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Albuterol Sulfate Inhalation (albuterol sulfate) prescribing information, Amneal Pharmaceuticals NY LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e449282-ee58-4e36-b983-85c4e6f0864d) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

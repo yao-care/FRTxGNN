@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **laryngite (laryn
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'ampicilline est une bêta-lactamine active sur certaines bactéries, dont *Haemophilus influenzae* et les streptocoques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ampicillin (traduction non officielle) : « L'ampicilline est semblable à la pénicilline par son action bactéricide sur les bactéries sensibles pendant la phase de multiplication active. Elle agit en inhibant la biosynthèse de la paroi cellulaire, ce qui entraîne la mort des bactéries. » Texte original en anglais : "Ampicillin is similar to penicillin in its bactericidal action against susceptible bacteria during the stage of active multiplication. It acts through the inhibition of cell wall biosynthesis that leads to the death of the bacteria." ([DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1), version du 2026-07-27 ; consulté le 2026-11-19). D'après les connaissances générales, l'ampicilline est une bêta-lactamine active sur certaines bactéries, dont *Haemophilus influenzae* et les streptocoques.
 
 Ces germes sont impliqués dans les infections bactériennes du larynx, notamment la supraglottite (épiglottite) et les infections profondes du cou. Un mécanisme antibactérien est donc plausible, mais seulement pour une minorité de cas : la plupart des laryngites sont d'origine virale, et les antibiotiques n'y ont pas de rôle.
 
@@ -110,6 +110,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Données sur le mécanisme d'action et sur les mises en garde et contre-indications de la notice
 - Études cliniques contrôlées de l'ampicilline dans les laryngites bactériennes documentées
 - Précision des sous-groupes concernés (par exemple supraglottite bactérienne) et prise en compte de la résistance d'*H. influenzae*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: ampicillin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4134cd79-c895-4e6e-b1d5-8e01c38bf2d1) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

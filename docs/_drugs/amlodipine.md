@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** n'est actuellement assoc
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'amlodipine bloque les canaux calciques de type L et provoque une relaxation du muscle lisse vasculaire, ce qui abaisse la pression artérielle.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Amlodipine (traduction non officielle) : « L'amlodipine est un antagoniste calcique de la famille des dihydropyridines (antagoniste des ions calcium ou inhibiteur des canaux lents) qui inhibe l'influx transmembranaire des ions calcium dans le muscle lisse vasculaire et le muscle cardiaque. Les données expérimentales suggèrent que l'amlodipine se lie à la fois aux sites de liaison dihydropyridiniques et non dihydropyridiniques. » Texte original en anglais : "Amlodipine is a dihydropyridine calcium antagonist (calcium ion antagonist or slow-channel blocker) that inhibits the transmembrane influx of calcium ions into vascular smooth muscle and cardiac muscle. Experimental data suggest that amlodipine binds to both dihydropyridine and nondihydropyridine binding sites." ([DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487), version du 2026-09-28 ; consulté le 2026-11-19). D'après les connaissances générales, l'amlodipine bloque les canaux calciques de type L et provoque une relaxation du muscle lisse vasculaire, ce qui abaisse la pression artérielle.
 
 Le modèle s'appuie probablement sur la proximité entre l'infarctus du tronc cérébral et d'autres atteintes cérébrovasculaires ischémiques pour lesquelles le contrôle tensionnel et la vasodilatation sont pertinents. Cette hypothèse reste théorique : aucune donnée directe ne soutient l'usage de l'amlodipine dans l'infarctus du tronc cérébral.
 
@@ -109,11 +109,12 @@ La prédiction repose uniquement sur le score du modèle (0,9994), sans essai cl
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->
 

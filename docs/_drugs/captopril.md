@@ -56,7 +56,7 @@ Cette piste repose sur **0 essai clinique** et **1 publication**, un rapport de 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le captopril appartient à la classe des inhibiteurs de l'ECA. Il bloque la transformation de l'angiotensine I en angiotensine II, un puissant vasoconstricteur, et réduit ainsi la pression artérielle.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Captopril (traduction non officielle) : « Le mécanisme d'action des comprimés de captopril n'a pas encore été entièrement élucidé. Ses effets bénéfiques dans l'hypertension et l'insuffisance cardiaque semblent résulter principalement de la suppression du système rénine-angiotensine-aldostérone. » Texte original en anglais : "The mechanism of action of captopril tablets have not yet been fully elucidated. Its beneficial effects in hypertension and heart failure appear to result primarily from suppression of the renin-angiotensin-aldosterone system." ([DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017), version du 2026-11-11 ; consulté le 2026-11-19). D'après les connaissances générales, le captopril appartient à la classe des inhibiteurs de l'ECA. Il bloque la transformation de l'angiotensine I en angiotensine II, un puissant vasoconstricteur, et réduit ainsi la pression artérielle.
 
 La néphropathie hypertensive maligne (néphrosclérose maligne) s'accompagne d'une forte activation du système rénine-angiotensine (SRA). Bloquer ce système est donc plausible sur le plan mécanistique, et cela peut expliquer le score élevé attribué par le modèle.
 
@@ -98,6 +98,19 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 - La notice officielle (mises en garde et contre-indications) pour permettre un examen de sécurité
 - Des études précliniques ou cliniques portant directement sur la néphropathie hypertensive maligne
 - Une évaluation de la sécurité rénale chez les patients concernés (risque d'insuffisance rénale, hyperkaliémie)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: captopril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ccbffd30-4b21-4522-bdb8-abba8d592017) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

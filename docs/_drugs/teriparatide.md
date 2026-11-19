@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ulcère duodéna
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. On sait toutefois que le tériparatide est un fragment actif de la PTH humaine, qui se lie au récepteur PTH1R (et, dans les bases pharmacologiques, au PTH2R). Administré de façon intermittente, il stimule la formation osseuse. C'est ce qui justifie son usage dans l'ostéoporose chez les patients à haut risque de fracture.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Teriparatide (traduction non officielle) : « L'hormone parathyroïdienne (PTH) endogène de 84 acides aminés est le principal régulateur du métabolisme du calcium et du phosphate dans l'os et le rein. Les actions physiologiques de la PTH comprennent la régulation du métabolisme osseux, la réabsorption tubulaire rénale du calcium et du phosphate, et l'absorption intestinale du calcium. […] Les actions biologiques de la PTH et du tériparatide sont médiées par la liaison à des récepteurs spécifiques de haute affinité situés à la surface des cellules. » Texte original en anglais : "Endogenous 84-amino acid parathyroid hormone (PTH) is the primary regulator of calcium and phosphate metabolism in bone and kidney. Physiological actions of PTH include regulation of bone metabolism, renal tubular reabsorption of calcium and phosphate, and intestinal calcium absorption. […] The biological actions of PTH and teriparatide are mediated through binding to specific high-affinity cell-surface receptors." ([DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c), version du 2026-08-31 ; consulté le 2026-11-19). On sait toutefois que le tériparatide est un fragment actif de la PTH humaine, qui se lie au récepteur PTH1R (et, dans les bases pharmacologiques, au PTH2R). Administré de façon intermittente, il stimule la formation osseuse. C'est ce qui justifie son usage dans l'ostéoporose chez les patients à haut risque de fracture.
 
 Ce mécanisme est centré sur le remodelage osseux. Aucun lien mécanistique plausible n'a été identifié avec l'ulcère duodénal, qui relève de l'agression de la muqueuse gastro-duodénale (acidité, *Helicobacter pylori*, anti-inflammatoires), et non du métabolisme osseux. Le score élevé (0.9986) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique.
 
@@ -114,11 +114,12 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 8 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Bonsity (teriparatide) prescribing information, Alvogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d0c89a2-3849-adf6-007d-aeca21cf417c) |
 
 <!-- review:end log -->
 

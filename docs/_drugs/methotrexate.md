@@ -60,7 +60,7 @@ Parmi les 10 indications prédites, seules quelques-unes disposent de données r
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le méthotrexate est un antifolate : il inhibe la dihydrofolate réductase et freine la synthèse de l'ADN dans les cellules à division rapide. Son efficacité est établie dans les hémopathies lymphoïdes (leucémie lymphoblastique aiguë, lymphome non hodgkinien).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Methotrexate (traduction non officielle) : « Le méthotrexate inhibe la dihydrofolate réductase. Les dihydrofolates doivent être réduits en tétrahydrofolates par cette enzyme avant de pouvoir être utilisés comme transporteurs de groupements monocarbonés dans la synthèse des nucléotides puriques et du thymidylate. » Texte original en anglais : "Methotrexate inhibits dihydrofolic acid reductase. Dihydrofolates must be reduced to tetrahydrofolates by this enzyme before they can be utilized as carriers of one-carbon groups in the synthesis of purine nucleotides and thymidylate." ([DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e), version du 2026-11-05 ; consulté le 2026-11-19). Sur la base des informations connues, le méthotrexate est un antifolate : il inhibe la dihydrofolate réductase et freine la synthèse de l'ADN dans les cellules à division rapide. Son efficacité est établie dans les hémopathies lymphoïdes (leucémie lymphoblastique aiguë, lymphome non hodgkinien).
 
 Le blastome pulmonaire est une tumeur embryonnaire rare et agressive du poumon. Une activité antiprolifératice est plausible, mais rien dans les données compilées ne la démontre. La prédiction reflète probablement une proximité dans le réseau de connaissances (tumeurs de type embryonnaire) plutôt qu'une sensibilité aux antifolates démontrée.
 
@@ -171,11 +171,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-15 | « Clarifier le statut réglementaire en France (AMM a » → « Clarifier le statut réglementaire en France (la pl » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Jylamvo (methotrexate) prescribing information, SHORLA ONCOLOGY INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=96e931f5-51ae-4bdf-a441-bb0dd26d4c0e) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré et aucune étude ne teste l'épirubicine 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'épirubicine est une anthracycline, épimère de la doxorubicine, qui inhibe la topoisomérase II et s'intercale dans l'ADN. Elle agit surtout sur les cellules en prolifération.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Epirubicin (traduction non officielle) : « L'épirubicine est un agent cytotoxique de la classe des anthracyclines. Bien qu'il soit connu que les anthracyclines peuvent interférer avec un certain nombre de fonctions biochimiques et biologiques au sein des cellules eucaryotes, les mécanismes précis des propriétés cytotoxiques et/ou antiprolifératives de l'épirubicine n'ont pas été complètement élucidés. » Texte original en anglais : "Epirubicin is an anthracycline cytotoxic agent. Although it is known that anthracyclines can interfere with a number of biochemical and biological functions within eukaryotic cells, the precise mechanisms of epirubicin's cytotoxic and/or antiproliferative properties have not been completely elucidated." ([DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42), version du 2026-07-24 ; consulté le 2026-11-19). D'après les connaissances générales, l'épirubicine est une anthracycline, épimère de la doxorubicine, qui inhibe la topoisomérase II et s'intercale dans l'ADN. Elle agit surtout sur les cellules en prolifération.
 
 Les anthracyclines entrent dans la composition de schémas thérapeutiques utilisés dans les lymphomes (de type CHOP, ou VEBEP dans la maladie de Hodgkin). Une activité dans les hémopathies lymphoïdes est donc plausible sur le plan mécanistique.
 
@@ -119,6 +119,18 @@ Pour les mises en garde détaillées, veuillez consulter la notice.
 - Des données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications issues de la notice
 - Une comparaison avec les schémas standard à base de doxorubicine
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

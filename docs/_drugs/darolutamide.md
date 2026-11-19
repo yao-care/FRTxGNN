@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestéro
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, darolutamide est un antagoniste non stéroïdien du récepteur des androgènes, utilisé dans les cancers de la prostate hormonodépendants. Son indication d'origine n'a toutefois pas pu être confirmée à partir du texte d'AMM disponible.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Darolutamide (traduction non officielle) : « Le darolutamide est un inhibiteur du récepteur des androgènes (AR). Le darolutamide inhibe de manière compétitive la liaison des androgènes, la translocation nucléaire de l'AR et la transcription médiée par l'AR. Un métabolite majeur, le kétodarolutamide, a présenté une activité in vitro similaire à celle du darolutamide. » Texte original en anglais : "Darolutamide is an androgen receptor (AR) inhibitor. Darolutamide competitively inhibits androgen binding, AR nuclear translocation, and AR-mediated transcription. A major metabolite, ketodarolutamide, exhibited similar in vitro activity to darolutamide." ([DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e), version du 2026-09-28 ; consulté le 2026-11-19). Sur la base des informations connues, darolutamide est un antagoniste non stéroïdien du récepteur des androgènes, utilisé dans les cancers de la prostate hormonodépendants. Son indication d'origine n'a toutefois pas pu être confirmée à partir du texte d'AMM disponible.
 
 Aucun lien mécanistique plausible n'apparaît entre l'antagonisme du récepteur des androgènes et le dysfonctionnement du récepteur du LDL, cause de l'hypercholestérolémie familiale homozygote. Le score élevé (0,9911) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -142,11 +142,12 @@ Pour les autres informations de sécurité (mises en garde, contre-indications),
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nubeqa (darolutamide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a7cb212-56e4-4b9d-a73d-bfee7fe4735e) |
 
 <!-- review:end log -->
 

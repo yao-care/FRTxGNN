@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient toutefois cette prédicti
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales sur la classe, le sécnidazole est un 5-nitroimidazole. Son groupement nitro est activé par réduction chez les micro-organismes anaérobies et les protozoaires, ce qui endommage leur ADN. Son efficacité est établie dans les infections vaginales d'origine microbienne ou parasitaire.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Secnidazole (traduction non officielle) : « SOLOSEC est un médicament antimicrobien de la classe des nitroimidazolés. […] Le secnidazole, comme les autres 5-nitroimidazolés, pénètre dans les cellules bactériennes et de Trichomonas, où le groupement nitro est réduit par une ou plusieurs enzymes nitroréductases, ce qui conduit à la production d'anions radicalaires et d'une série d'intermédiaires, à une déplétion en thiols, à des lésions de l'ADN et à la mort des isolats sensibles de bactéries à Gram positif, de bactéries à Gram négatif et de T. vaginalis. » Texte original en anglais : "SOLOSEC is a nitroimidazole antimicrobial drug. […] Secnidazole, like other 5-nitroimidazoles, enters the bacterial and Trichomonas cells where the nitro group is reduced by nitroreductase enzyme(s) leading to the production of radical anions and a series of intermediates, depletion of thiols, DNA damage, and death of susceptible isolates of Gram positive bacteria, Gram negative bacteria and T. vaginalis." ([DailyMed: Solosec (secnidazole) prescribing information, Evofem Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=056485b6-8bba-4a21-ae00-cdb4e7ae4bfa), version du 2026-10-30 ; consulté le 2026-11-19). D'après les connaissances générales sur la classe, le sécnidazole est un 5-nitroimidazole. Son groupement nitro est activé par réduction chez les micro-organismes anaérobies et les protozoaires, ce qui endommage leur ADN. Son efficacité est établie dans les infections vaginales d'origine microbienne ou parasitaire.
 
 Le score élevé du modèle reflète vraisemblablement la proximité, dans le réseau de connaissances, avec les indications vaginales déjà reconnues (vaginite, vulvovaginite). Cette proximité anatomique ne constitue pas un argument pharmacologique. La vaginite atrophique est causée par la carence en œstrogènes après la ménopause, et non par une infection. L'activité antimicrobienne du sécnidazole n'a donc pas de lien mécanistique plausible avec la physiopathologie de cette maladie.
 
@@ -128,13 +128,14 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La seule AMM connue est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Solosec (secnidazole) prescribing information, Evofem Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=056485b6-8bba-4a21-ae00-cdb4e7ae4bfa) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le candésartan cilexétil appartient à la classe des antagonistes des récepteurs AT1 de l'angiotensine II, qui bloquent le système rénine-angiotensine (SRA).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Candesartan Cilexetil (traduction non officielle) : « L'angiotensine II est formée à partir de l'angiotensine I par une réaction catalysée par l'enzyme de conversion de l'angiotensine (ECA, kininase II). L'angiotensine II est le principal agent presseur du système rénine-angiotensine, ses effets comprenant une vasoconstriction, une stimulation de la synthèse et de la libération d'aldostérone, une stimulation cardiaque et une réabsorption rénale du sodium. […] Le candésartan bloque les effets vasoconstricteurs et stimulants de la sécrétion d'aldostérone de l'angiotensine II en bloquant sélectivement la liaison de l'angiotensine II au récepteur AT 1 dans de nombreux tissus, tels que le muscle lisse vasculaire et la glande surrénale. » Texte original en anglais : "Angiotensin II is formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the principal pressor agent of the renin-angiotensin system, with effects that include vasoconstriction, stimulation of synthesis and release of aldosterone, cardiac stimulation, and renal reabsorption of sodium. […] Candesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor in many tissues, such as vascular smooth muscle and the adrenal gland." ([DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10), version du 2025-12-22 ; consulté le 2026-11-19). Sur la base des connaissances générales, le candésartan cilexétil appartient à la classe des antagonistes des récepteurs AT1 de l'angiotensine II, qui bloquent le système rénine-angiotensine (SRA).
 
 Le blocage du SRA est pertinent pour les atteintes rénales liées à l'hypertension, et les sartans sont utilisés pour la protection rénale dans d'autres contextes. Cette prédiction est donc plausible sur le plan pharmacologique. Elle correspond toutefois à une forme sévère d'une atteinte hypertensive déjà connue : elle reprend en grande partie une pharmacologie établie et ne constitue pas un véritable signal de repositionnement nouveau.
 
@@ -100,6 +100,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Extraction des mises en garde et contre-indications de la notice ANSM
 - Études cliniques ou observationnelles portant directement sur la maladie rénale hypertensive maligne
 - Évaluation de la place du candésartan par rapport aux traitements aigus habituels de cette situation
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Atacand (candesartan cilexetil) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94a59260-d2b6-464a-b5b9-bbc599e57e10) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

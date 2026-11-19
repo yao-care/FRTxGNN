@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**épilepsie vis
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'oxcarbazépine (via son métabolite actif, le MHD) bloque les canaux sodiques voltage-dépendants, et son efficacité dans les crises focales est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Oxcarbazepine (traduction non officielle) : « L'activité pharmacologique de TRILEPTAL s'exerce principalement par l'intermédiaire du métabolite 10-monohydroxylé (MHD) de l'oxcarbazépine. Le mécanisme précis par lequel l'oxcarbazépine et le MHD exercent leur effet anticonvulsivant est inconnu ; toutefois, des études électrophysiologiques in vitro indiquent qu'ils bloquent les canaux sodiques voltage-dépendants, ce qui entraîne une stabilisation des membranes neuronales hyperexcitées, une inhibition des décharges neuronales répétitives et une diminution de la propagation des influx synaptiques. » Texte original en anglais : "The pharmacological activity of TRILEPTAL is primarily exerted through the 10-monohydroxy metabolite (MHD) of oxcarbazepine. The precise mechanism by which oxcarbazepine and MHD exert their anti-seizure effect is unknown; however, in vitro electrophysiological studies indicate that they produce blockade of voltage-sensitive sodium channels, resulting in stabilization of hyperexcited neural membranes, inhibition of repetitive neuronal firing, and diminution of propagation of synaptic impulses." ([DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b), version du 2026-10-28 ; consulté le 2026-11-19). Sur la base des informations connues, l'oxcarbazépine (via son métabolite actif, le MHD) bloque les canaux sodiques voltage-dépendants, et son efficacité dans les crises focales est établie.
 
 L'épilepsie visuelle (occipitale ou photosensible) est un phénotype de crises focales ou réflexes. Un mécanisme de blocage des canaux sodiques est donc plausible, par extension de l'indication originale dans l'épilepsie partielle.
 
@@ -123,11 +123,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM en France et la disponibilité actuelle du médicament » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Trileptal (oxcarbazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4c5c86c8-ab7f-4fcf-bc1b-5a0b1fd0691b) |
 
 <!-- review:end log -->
 

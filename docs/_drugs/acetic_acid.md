@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'acide acétique est un antiseptique et acidifiant topique doté d'une activité antibactérienne.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Acetic Acid (traduction non officielle) : « L'acide acétique est antibactérien et antifongique ; le propylène glycol est hydrophile et confère une faible tension superficielle ; le chlorure de benzéthonium est un agent tensioactif qui favorise le contact de la solution avec les tissus. » Texte original en anglais : "Acetic acid is antibacterial and antifungal; propylene glycol is hydrophilic and provides a low surface tension; benzethonium chloride is a surface active agent that promotes contact of the solution with tissues." ([DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d), version du 2026-03-18 ; consulté le 2026-11-19). Sur la base des informations connues, l'acide acétique est un antiseptique et acidifiant topique doté d'une activité antibactérienne.
 
 Un lien plausible avec les troubles post-bactériens (séquelles d'une infection bactérienne) n'est étayé par aucune donnée récupérée. Il s'agit d'une prédiction purement computationnelle, malgré un score très élevé. La similarité avec l'indication d'origine reste à évaluer.
 
@@ -99,6 +99,19 @@ Le score TxGNN est très élevé (0,9998), mais il repose uniquement sur le calc
 - Une définition clinique précise du « trouble post-bactérien » et un lien mécanistique documenté avec l'acide acétique
 - Études précliniques ou cliniques portant directement sur cette indication
 - Évaluation de la compatibilité des voies d'administration
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **néoplasme fi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'éribuline est un inhibiteur de la dynamique des microtubules (agent anti-tubuline). Son efficacité dans le liposarcome est reconnue, et elle est également utilisée comme chimiothérapie de deuxième ligne dans les sarcomes des tissus mous.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Eribulin (traduction non officielle) : « L'éribuline inhibe la phase de croissance des microtubules sans affecter la phase de raccourcissement et séquestre la tubuline en agrégats non productifs. L'éribuline exerce ses effets via un mécanisme antimitotique basé sur la tubuline, entraînant un blocage du cycle cellulaire en phase G 2 /M, une désorganisation des fuseaux mitotiques et, finalement, une mort cellulaire par apoptose après un blocage mitotique prolongé. » Texte original en anglais : "Eribulin inhibits the growth phase of microtubules without affecting the shortening phase and sequesters tubulin into nonproductive aggregates. Eribulin exerts its effects via a tubulin-based antimitotic mechanism leading to G 2 /M cell-cycle block, disruption of mitotic spindles, and, ultimately, apoptotic cell death after prolonged mitotic blockage." ([DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822), version du 2025-11-07 ; consulté le 2026-11-19). Sur la base des informations connues, l'éribuline est un inhibiteur de la dynamique des microtubules (agent anti-tubuline). Son efficacité dans le liposarcome est reconnue, et elle est également utilisée comme chimiothérapie de deuxième ligne dans les sarcomes des tissus mous.
 
 Le liposarcome et les néoplasmes fibroblastiques (dont la tumeur fibreuse solitaire et le fibrosarcome) sont tous deux des tumeurs mésenchymateuses. Une activité antimitotique est donc plausible. Les travaux précliniques sur des lignées de fibrosarcome (HT1080) montrent une sensibilité à l'éribuline, des mécanismes de résistance, ainsi qu'une synergie avec la méthioninase recombinante. Des modèles de xénogreffes de tumeur fibreuse solitaire suggèrent aussi un potentiel de l'éribuline.
 
@@ -134,11 +134,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées vs. produits commercialisés) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Halaven (eribulin mesylate) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=31ce4750-ded5-4a0b-95e9-f229fa6bc822) |
 
 <!-- review:end log -->
 

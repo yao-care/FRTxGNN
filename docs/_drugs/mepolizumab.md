@@ -56,7 +56,7 @@ mais cette prédiction ne s'appuie actuellement que sur **1 publication** (un ra
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le mépolizumab est un anticorps monoclonal anti-IL-5 qui réduit le nombre d'éosinophiles. Son efficacité a été étudiée dans les pathologies à éosinophiles, ce qui correspond à son indication d'origine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mepolizumab (traduction non officielle) : « Le mépolizumab est un antagoniste de l'IL-5 (IgG1 kappa). L'IL-5 est la principale cytokine responsable de la croissance et de la différenciation, du recrutement, de l'activation et de la survie des éosinophiles. Le mépolizumab se lie à l'IL-5 avec une constante de dissociation de 100 pM, inhibant l'activité biologique de l'IL-5 en bloquant sa liaison à la chaîne alpha du complexe récepteur de l'IL-5 exprimé à la surface des éosinophiles. » Texte original en anglais : "Mepolizumab is an IL-5 antagonist (IgG1 kappa). IL-5 is the major cytokine responsible for the growth and differentiation, recruitment, activation, and survival of eosinophils. Mepolizumab binds to IL-5 with a dissociation constant of 100 pM, inhibiting the bioactivity of IL-5 by blocking its binding to the alpha chain of the IL-5 receptor complex expressed on the eosinophil cell surface." ([DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea), version du 2025-08-06 ; consulté le 2026-11-19). Sur la base des informations connues, le mépolizumab est un anticorps monoclonal anti-IL-5 qui réduit le nombre d'éosinophiles. Son efficacité a été étudiée dans les pathologies à éosinophiles, ce qui correspond à son indication d'origine.
 
 Le lien avec la thrombopénie immunitaire est indirect : une dysrégulation immunitaire liée aux éosinophiles pourrait contribuer à la destruction des plaquettes dans certains contextes d'hyperéosinophilie ou de résistance aux corticoïdes. La seule publication disponible décrit un cas d'hyperéosinophilie résistante aux corticoïdes ayant régressé sous mépolizumab, avec une amélioration d'une microangiopathie thrombotique mixte.
 
@@ -117,11 +117,12 @@ La prédiction repose sur un score computationnel élevé et sur un seul rapport
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nucala (mepolizumab) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fefb887c-e4ac-431e-8893-e9d1a5a63fea) |
 
 <!-- review:end log -->
 

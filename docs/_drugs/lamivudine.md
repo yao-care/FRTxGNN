@@ -60,7 +60,7 @@ Cette prédiction correspond essentiellement à une extension vétérinaire de l
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la lamivudine est un analogue nucléosidique inhibiteur de la transcriptase inverse du VIH-1 et de la polymérase du VHB. Son efficacité dans l'infection par le VIH et l'hépatite B chronique est établie.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lamivudine (traduction non officielle) : « La lamivudine est un agent antirétroviral. […] La lamivudine est un analogue nucléosidique synthétique. Au niveau intracellulaire, la lamivudine est phosphorylée en son métabolite actif 5′-triphosphate, le triphosphate de lamivudine (3TC-TP). Le principal mode d'action du 3TC-TP est l'inhibition de la transcriptase inverse (TI) du VIH-1 par terminaison de la chaîne d'ADN après incorporation de l'analogue nucléotidique. » Texte original en anglais : "Lamivudine is an antiretroviral agent. […] Lamivudine is a synthetic nucleoside analogue. Intracellularly, lamivudine is phosphorylated to its active 5′-triphosphate metabolite, lamivudine triphosphate (3TC-TP). The principal mode of action of 3TC-TP is inhibition of HIV-1 reverse transcriptase (RT) via DNA chain termination after incorporation of the nucleotide analogue." ([DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8), version du 2024-08-15 ; consulté le 2026-11-19). Sur la base des informations connues, la lamivudine est un analogue nucléosidique inhibiteur de la transcriptase inverse du VIH-1 et de la polymérase du VHB. Son efficacité dans l'infection par le VIH et l'hépatite B chronique est établie.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la transcriptase inverse est proche de celle du VIH. Le chat infecté par le FIV est d'ailleurs utilisé comme modèle animal de l'infection par le VIH. Une base mécanistique existe donc : plusieurs inhibiteurs de la transcriptase inverse actifs contre le VIH le sont aussi contre le FIV.
 
@@ -129,11 +129,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->
 

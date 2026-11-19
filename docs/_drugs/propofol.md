@@ -56,7 +56,7 @@ avec **3 essais cliniques** et **19 publications** soutenant actuellement cette 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des informations connues, le propofol est un modulateur allostérique positif du récepteur GABA-A. Il renforce l'inhibition GABAergique, ce qui pourrait atténuer la signalisation nociceptive trigémino-vasculaire et l'hyperexcitabilité corticale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Propofol (traduction non officielle) : « Le mécanisme d'action, comme celui de tous les anesthésiques généraux, est mal compris. Cependant, on pense que le propofol produit ses effets sédatifs/anesthésiques par la modulation positive de la fonction inhibitrice du neurotransmetteur GABA via les récepteurs GABA A, canaux ioniques activés par un ligand. » Texte original en anglais : "The mechanism of action, like all general anesthetics, is poorly understood. However, propofol is thought to produce its sedative/anesthetic effects by the positive modulation of the inhibitory function of the neurotransmitter GABA through the ligand-gated GABA A receptors." ([DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538), version du 2025-09-11 ; consulté le 2026-11-19). Sur la base des informations connues, le propofol est un modulateur allostérique positif du récepteur GABA-A. Il renforce l'inhibition GABAergique, ce qui pourrait atténuer la signalisation nociceptive trigémino-vasculaire et l'hyperexcitabilité corticale.
 
 L'indication originale (anesthésie et sédation) et la migraine n'ont pas de lien direct de type « même maladie ». Le rapprochement repose sur le mécanisme : des travaux précliniques montrent que l'hémisuccinate de propofol supprime la dépression corticale envahissante, considérée comme le substrat physiologique de l'aura migraineuse. Cela offre une justification plausible.
 
@@ -136,11 +136,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
 
 <!-- review:end log -->
 

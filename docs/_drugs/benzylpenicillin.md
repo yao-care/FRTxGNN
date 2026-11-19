@@ -56,7 +56,7 @@ mais aucun essai clinique ni aucune publication ne soutient actuellement cette d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la benzylpénicilline appartient à la classe des pénicillines, antibiotiques actifs sur les streptocoques et sur de nombreuses bactéries anaérobies de la bouche.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Benzylpenicillin (traduction non officielle) : « Les pénicillines se lient aux protéines sériques, principalement à l'albumine. Des concentrations thérapeutiques de pénicillines sont facilement atteintes, dans des circonstances normales, dans le liquide extracellulaire et la plupart des autres tissus de l'organisme. Les pénicillines se distribuent à des degrés divers dans les liquides pleural, péricardique, péritonéal, d'ascite, synovial et interstitiel. » Texte original en anglais : "Penicillins bind to serum proteins, mainly albumin. Therapeutic levels of the penicillins are easily achieved under normal circumstances in extracellular fluid and most other body tissues. Penicillins are distributed in varying degrees into pleural, pericardial, peritoneal, ascitic, synovial, and interstitial fluids." ([DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2), version du 2026-11-04 ; consulté le 2026-11-19). Sur la base des informations connues, la benzylpénicilline appartient à la classe des pénicillines, antibiotiques actifs sur les streptocoques et sur de nombreuses bactéries anaérobies de la bouche.
 
 La péricoronarite est une infection polymicrobienne (anaérobies mixtes et streptocoques) des tissus mous autour d'une dent partiellement sortie. L'activité antibactérienne de la benzylpénicilline rend donc la prédiction plausible sur le plan biologique, et les pénicillines sont déjà utilisées dans les infections d'origine dentaire.
 
@@ -99,6 +99,19 @@ Veuillez consulter la notice pour les autres informations de sécurité (mises e
 - Compléter les données sur le mécanisme d'action.
 - Rechercher des essais cliniques ou des publications portant directement sur la benzylpénicilline dans la péricoronarite.
 - Vérifier la compatibilité de la voie d'administration (parentérale) avec cette infection buccale.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pfizerpen (penicillin g potassium) prescribing information, Roerig](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efef4846-9497-41af-8dd6-518f86eca7f2) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

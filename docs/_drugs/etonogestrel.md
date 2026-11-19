@@ -56,7 +56,7 @@ Cette prédiction repose donc uniquement sur le modèle, sans preuve réelle.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'étonogestrel est un progestatif puissant qui freine l'ovulation et provoque une atrophie de l'endomètre. Ces effets expliquent que l'aménorrhée soit un phénomène bien connu chez les utilisatrices de l'implant.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Etonogestrel (traduction non officielle) : « L'effet contraceptif de NEXPLANON est obtenu par la suppression de l'ovulation, l'augmentation de la viscosité de la glaire cervicale et des modifications de l'endomètre. » Texte original en anglais : "The contraceptive effect of NEXPLANON is achieved by suppression of ovulation, increased viscosity of the cervical mucus, and alterations in the endometrium." ([DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594), version du 2026-05-28 ; consulté le 2026-11-19). Sur la base des informations connues, l'étonogestrel est un progestatif puissant qui freine l'ovulation et provoque une atrophie de l'endomètre. Ces effets expliquent que l'aménorrhée soit un phénomène bien connu chez les utilisatrices de l'implant.
 
 Cependant, l'aménorrhée est ici un **effet attendu, ou une modification du profil de saignements, liée à la contraception**, et non une maladie à traiter. Le lien avec une véritable indication thérapeutique est donc faible. Dans les aménorrhées d'origine hypothalamique ou fonctionnelle, une suppression purement progestative ne constituerait pas un traitement de fond adapté.
 
@@ -121,12 +121,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le médicament est commercialisé : 6 AMM valides sur 6 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (6 AMM valides sur 6) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nexplanon (etonogestrel) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=487f8a62-e142-457c-97cc-2e398fde7594) |
 
 <!-- review:end log -->
 

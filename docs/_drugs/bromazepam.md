@@ -59,7 +59,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine**,
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le bromazépam appartient à la classe des benzodiazépines, qui agissent comme modulateurs allostériques positifs des récepteurs GABA-A.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Bromazepam est (traduction non officielle) : « Modulateur allostérique positif de la sous-unité alpha-2 du récepteur GABA » Texte original en anglais : "GABA receptor alpha-2 subunit positive allosteric modulator" ([ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, le bromazépam appartient à la classe des benzodiazépines, qui agissent comme modulateurs allostériques positifs des récepteurs GABA-A.
 
 Sur le plan théorique, cette action pourrait réduire l'hyperexcitabilité corticale et la tension musculaire, et atténuer l'anxiété qui accompagne ou déclenche parfois les migraines. C'est le seul lien mécanistique plausible à ce stade.
 
@@ -133,12 +133,13 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 10 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et l'indication originale approuvée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL277062 (bromazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL277062) |
 
 <!-- review:end log -->
 

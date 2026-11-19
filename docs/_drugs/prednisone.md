@@ -56,7 +56,7 @@ avec **aucun essai clinique enregistré** mais **20 publications** soutenant act
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la prednisone est un glucocorticoïde systémique dont les effets immunosuppresseurs et anti-inflammatoires sont larges.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Prednisone (traduction non officielle) : « Les corticostéroïdes naturels (hydrocortisone et cortisone), qui possèdent également des propriétés de rétention sodée, sont utilisés comme traitement substitutif dans les états d'insuffisance corticosurrénalienne. Leurs analogues synthétiques, tels que la prednisone, sont principalement utilisés pour leurs puissants effets anti-inflammatoires dans les troubles de nombreux systèmes d'organes. » Texte original en anglais : "Naturally occurring corticosteroids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs, such as prednisone, are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a), version du 2026-09-23 ; consulté le 2026-11-19). Sur la base des connaissances générales, la prednisone est un glucocorticoïde systémique dont les effets immunosuppresseurs et anti-inflammatoires sont larges.
 
 L'alopécie areata est une attaque auto-immune, médiée par les lymphocytes T, dirigée contre le follicule pileux. Un traitement qui freine la réponse immunitaire peut donc, en théorie, limiter cette agression. Cette logique est cohérente avec l'usage de la prednisone dans d'autres maladies auto-immunes.
 
@@ -111,6 +111,18 @@ Un essai randomisé récent et plusieurs études cliniques et séries de cas sou
 - Mises en garde et contre-indications issues de la notice ANSM
 - Essais contrôlés confirmant l'efficacité de la prednisone seule, avec suivi des rechutes à l'arrêt
 - Plan de surveillance de sécurité pour les cures prolongées et les populations à risque (hypertension, diabète, infections)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Prednisone Delayed Release (prednisone) prescribing information, Dr. Reddys Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01bdc479-1f1f-af94-837c-12e7e861321a) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **bloc de branc
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'adénosine est connue pour ralentir la conduction du nœud auriculo-ventriculaire, ce qui est le principe de son usage dans certains troubles du rythme.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Adenosine (traduction non officielle) : « L'adénosine injectable ralentit le temps de conduction à travers le nœud auriculo-ventriculaire, peut interrompre les voies de réentrée passant par le nœud auriculo-ventriculaire et peut rétablir un rythme sinusal normal chez les patients atteints de tachycardie supraventriculaire paroxystique (TSVP), y compris la TSVP associée au syndrome de Wolff-Parkinson-White. L'adénosine injectable est antagonisée de manière compétitive par les méthylxanthines telles que la caféine et la théophylline, et potentialisée par les inhibiteurs du transport des nucléosides tels que le dipyridamole. » Texte original en anglais : "Adenosine Injection slows conduction time through the A-V node, can interrupt the reentry pathways through the A-V node, and can restore normal sinus rhythm in patients with paroxysmal supraventricular tachycardia (PSVT), including PSVT associated with Wolff-Parkinson-White Syndrome. Adenosine Injection is antagonized competitively by methylxanthines such as caffeine and theophylline, and potentiated by blockers of nucleoside transport such as dipyridamole." ([DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30), version du 2026-08-31 ; consulté le 2026-11-19). Sur la base des informations connues, l'adénosine est connue pour ralentir la conduction du nœud auriculo-ventriculaire, ce qui est le principe de son usage dans certains troubles du rythme.
 
 Le lien avec un bloc de branche est toutefois peu plausible. Le bloc de branche est un défaut de conduction situé en aval du nœud (système de His-Purkinje), que l'adénosine n'est pas censée corriger ; elle pourrait même aggraver des troubles de conduction. Le terme de la maladie est en outre signalé comme obsolète, ce qui suggère un artefact d'ontologie plutôt qu'une piste thérapeutique réelle.
 
@@ -96,6 +96,19 @@ La prédiction repose uniquement sur le modèle, sans essai ni publication, et l
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice ANSM
 - Toute étude clinique ou publication portant directement sur cette maladie avant de reconsidérer la décision
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: adenosine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9508caf5-0e3a-4d32-909d-bff7ea40ec30) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

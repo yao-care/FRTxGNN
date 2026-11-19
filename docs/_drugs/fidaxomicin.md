@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la fidaxomicine est un antibiotique macrocyclique à spectre étroit qui inhibe l'ARN polymérase bactérienne. Son efficacité dans la colite à *C. difficile* est établie. Une activité *in vitro* contre certains germes à Gram positif, dont certaines souches de *Staphylococcus aureus*, est plausible, ce qui pourrait expliquer le lien établi par le modèle.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fidaxomicin (traduction non officielle) : « La fidaxomicine est un médicament antibactérien. […] La fidaxomicine est un produit de fermentation obtenu à partir de l'actinomycète Dactylosporangium aurantiacum. La fidaxomicine est un antibactérien de la famille des macrolides qui inhibe la synthèse de l'ARN en se liant aux ARN polymérases. La fidaxomicine est bactéricide contre C. difficile in vitro et présente un effet post-antibiotique de 6 à 10 heures vis-à-vis de C. difficile. » Texte original en anglais : "Fidaxomicin is an antibacterial drug. […] Fidaxomicin is a fermentation product obtained from the Actinomycete Dactylosporangium aurantiacum. Fidaxomicin is a macrolide antibacterial drug that inhibits RNA synthesis by binding to RNA polymerases. Fidaxomicin is bactericidal against C. difficile in vitro, and demonstrates a post-antibiotic effect vs. C. difficile of 6-10 hrs." ([DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb), version du 2024-10-16 ; consulté le 2026-11-19). D'après les connaissances générales, la fidaxomicine est un antibiotique macrocyclique à spectre étroit qui inhibe l'ARN polymérase bactérienne. Son efficacité dans la colite à *C. difficile* est établie. Une activité *in vitro* contre certains germes à Gram positif, dont certaines souches de *Staphylococcus aureus*, est plausible, ce qui pourrait expliquer le lien établi par le modèle.
 
 Toutefois, cette prédiction reste fragile. La fidaxomicine est très peu absorbée par voie systémique : elle agit dans la lumière digestive et il est peu probable qu'elle atteigne les sites d'infection producteurs de toxines ou la circulation sanguine, ce qui serait nécessaire dans le syndrome de la peau ébouillantée staphylococcique. Aucune preuve clinique ou bibliographique ne vient étayer cet usage.
 
@@ -129,11 +129,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Dificid (fidaxomicin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd966338-c820-4270-b704-09ef75fa3ceb) |
 
 <!-- review:end log -->
 

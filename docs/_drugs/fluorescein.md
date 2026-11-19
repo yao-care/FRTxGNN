@@ -54,7 +54,7 @@ La fluorescéine est un colorant fluorescent à usage diagnostique, utilisé en 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La fluorescéine est un colorant diagnostique fluorescent, utilisé pour visualiser la surface oculaire et la vascularisation rétinienne. Elle n'est pas connue pour avoir une action thérapeutique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fluorescein (traduction non officielle) : « La fluorescéine sodique réagit aux rayonnements électromagnétiques et à la lumière de longueurs d'onde comprises entre 465 et 490 nm et émet une fluorescence, c'est-à-dire qu'elle émet de la lumière à des longueurs d'onde de 520 à 530 nm. Ainsi, l'hydrocarbure est excité par la lumière bleue et émet une lumière qui apparaît vert jaunâtre. » Texte original en anglais : "Fluorescein sodium responds to electromagnetic radiation and light between the wavelengths of 465 to 490 nm and fluoresces, i.e., emits light at wavelengths of 520 to 530 nm. Thus, the hydrocarbon is excited by blue light and emits light that appears yellowish green." ([DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0), version du 2026-02-26 ; consulté le 2026-11-19). La fluorescéine est un colorant diagnostique fluorescent, utilisé pour visualiser la surface oculaire et la vascularisation rétinienne. Elle n'est pas connue pour avoir une action thérapeutique.
 
 Le lien mécanistique avec l'angor de Prinzmetal n'est **pas établi** : la fluorescéine n'a aucune action vasodilatatrice ou anti-vasospastique connue. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou une plausibilité pharmacologique. Cette prédiction doit donc être considérée avec une grande prudence.
 
@@ -104,11 +104,12 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es trois AMM françaises sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ak-Fluor (fluorescein) prescribing information, Long Grove Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73511e79-c050-4dc0-aa2f-a79ed320b5b0) |
 
 <!-- review:end log -->
 

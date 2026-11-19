@@ -61,7 +61,7 @@ Remarque : le texte de l'indication approuvée n'est pas renseigné dans l'AMM f
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances établies, elbasvir est un inhibiteur de la protéine NS5A du virus de l'hépatite C. Il est associé au grazoprévir (inhibiteur de la protéase NS3/4A) dans la spécialité Zepatier. Son efficacité dans l'hépatite C chronique est bien documentée.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Elbasvir est (traduction non officielle) : « Inhibiteur de la protéine non structurale 5A » Texte original en anglais : "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances établies, elbasvir est un inhibiteur de la protéine NS5A du virus de l'hépatite C. Il est associé au grazoprévir (inhibiteur de la protéase NS3/4A) dans la spécialité Zepatier. Son efficacité dans l'hépatite C chronique est bien documentée.
 
 Le lien mécanistique avec l'hépatite B est **faible** : le virus de l'hépatite B ne possède pas d'homologue de NS5A. Le score élevé du modèle reflète probablement la proximité, dans le réseau de connaissances, entre des virus à tropisme hépatique, plutôt qu'une raison pharmacologique précise.
 
@@ -143,11 +143,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3039514 (elbasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039514) |
 
 <!-- review:end log -->
 

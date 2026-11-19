@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, siltuximab est un anticorps monoclonal dirigé contre l'interleukine-6 (IL-6). Son efficacité dans la maladie de Castleman, caractérisée par une forte production d'IL-6, est le fondement de son usage d'origine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Siltuximab (traduction non officielle) : « Le siltuximab se lie à l'IL-6 humaine et empêche la liaison de l'IL-6 aux récepteurs de l'IL-6 solubles et membranaires. Il a été démontré que l'IL-6 intervient dans divers processus physiologiques normaux tels que l'induction de la sécrétion d'immunoglobulines. » Texte original en anglais : "Siltuximab binds human IL-6 and prevents the binding of IL-6 to both soluble and membrane-bound IL-6 receptors. IL-6 has been shown to be involved in diverse normal physiologic processes such as induction of immunoglobulin secretion." ([DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b), version du 2024-08-27 ; consulté le 2026-11-19). Sur la base des informations connues, siltuximab est un anticorps monoclonal dirigé contre l'interleukine-6 (IL-6). Son efficacité dans la maladie de Castleman, caractérisée par une forte production d'IL-6, est le fondement de son usage d'origine.
 
 Pour le mastocytome extracutané, aucun lien direct avec la biologie des mastocytes n'est établi dans les données compilées. L'IL-6 pourrait contribuer à la prolifération mastocytaire ou à la signalisation inflammatoire, mais cette hypothèse reste spéculative. Le score élevé de TxGNN est une prédiction du modèle TxGNN (apprentissage profond) ; il peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique, sans corroboration clinique.
 
@@ -136,12 +136,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (annulation des AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sylvant (siltuximab) prescribing information, Recordati Rare Diseases, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d663642-f52e-49c0-a023-2da083fdfc0b) |
 
 <!-- review:end log -->
 

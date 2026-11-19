@@ -56,7 +56,7 @@ Le modèle TxGNN la prédit comme potentiellement utile dans l'**alopécie mucin
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la dexaméthasone appartient à la classe des glucocorticoïdes. Elle freine les voies inflammatoires et la réponse immunitaire, notamment en réduisant la production de cytokines pro-inflammatoires et le recrutement des cellules immunitaires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dexamethasone (traduction non officielle) : « La dexaméthasone est un corticostéroïde doté d'effets anti-inflammatoires et d'une faible activité minéralocorticoïde. Le mécanisme d'action précis dans le myélome multiple est inconnu. La dexaméthasone induit l'apoptose des cellules de myélome multiple. » Texte original en anglais : "Dexamethasone is a corticosteroid with anti-inflammatory effects and low mineralocorticoid activity. The precise mechanism of action in multiple myeloma is unknown. Dexamethasone induces apoptosis of multiple myeloma cells." ([DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129), version du 2026-01-09 ; consulté le 2026-11-19). D'après les connaissances générales, la dexaméthasone appartient à la classe des glucocorticoïdes. Elle freine les voies inflammatoires et la réponse immunitaire, notamment en réduisant la production de cytokines pro-inflammatoires et le recrutement des cellules immunitaires.
 
 L'alopécie mucineuse (mucinose folliculaire) est une atteinte inflammatoire du follicule pileux, avec dépôt de mucine dans les structures folliculaires. Un raisonnement anti-inflammatoire par glucocorticoïde est donc plausible sur le plan théorique, ce qui peut expliquer le score élevé du modèle.
 
@@ -101,6 +101,18 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Les mises en garde et contre-indications issues de la notice (ANSM)
 - Une évaluation de la voie d'administration adaptée (topique, intralésionnelle ou systémique) et de sa compatibilité avec les formes disponibles
 - Un plan de surveillance de sécurité pour les populations concernées
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Hemady (dexamethasone) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6b9cf32c-6d60-4853-bbfd-2304ffc2c129) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

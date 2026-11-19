@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Iopromide est un agent de contraste iodé non ionique : il sert à rendre visibles les structures anatomiques à l'imagerie et n'a pas d'activité pharmacologique connue sur les maladies articulaires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Iopromide (traduction non officielle) : « L'injection intravasculaire d'iopromide opacifie les vaisseaux dans lesquels le produit de contraste est présent, permettant la visualisation radiographique des structures internes par atténuation des photons. Lors de l'imagerie du corps, les produits de contraste iodés diffusent des vaisseaux vers l'espace extravasculaire. » Texte original en anglais : "Intravascular injection of iopromide opacifies those vessels where the contrast agent is present, permitting radiographic visualization of the internal structures through attenuation of photons. In imaging of the body, iodinated contrast agents diffuse from the vessels into the extravascular space." ([DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325), version du 2026-03-02 ; consulté le 2026-11-19). Iopromide est un agent de contraste iodé non ionique : il sert à rendre visibles les structures anatomiques à l'imagerie et n'a pas d'activité pharmacologique connue sur les maladies articulaires.
 
 Le score élevé du modèle TxGNN (deep learning) (0,9953) provient du modèle et peut refléter des similarités apprises par le modèle entre maladies apparentées (maladies articulaires ou squelettiques), et non une justification biologique. L'usage du produit en arthrographie est un acte diagnostique, pas un effet thérapeutique.
 
@@ -108,6 +108,19 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Obtenir les données sur le mécanisme d'action (DrugBank).
 - Identifier des études précliniques ou cliniques portant directement sur l'arthrose, avant toute réévaluation.
 - Évaluer la compatibilité de la voie d'administration (actuellement en attente) avec un usage thérapeutique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ultravist (iopromide) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df917c3a-59a2-4ed1-8470-8a5394c73325) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

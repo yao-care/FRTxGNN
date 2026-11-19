@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myél
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, zanubrutinib fait partie de la classe des inhibiteurs de BTK de nouvelle génération. Son efficacité dans les hémopathies malignes à cellules B est établie, et la voie de signalisation BTK est active dans ces maladies.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Zanubrutinib (traduction non officielle) : « Le zanubrutinib est un inhibiteur de petite molécule de la tyrosine kinase de Bruton (BTK). Le zanubrutinib forme une liaison covalente avec un résidu cystéine du site actif de la BTK, ce qui entraîne une inhibition de l'activité de la BTK. La BTK est une molécule de signalisation des voies du récepteur de l'antigène des lymphocytes B (BCR) et des récepteurs des cytokines. » Texte original en anglais : "Zanubrutinib is a small-molecule inhibitor of Bruton's tyrosine kinase (BTK). Zanubrutinib forms a covalent bond with a cysteine residue in the BTK active site, leading to inhibition of BTK activity. BTK is a signaling molecule of the B-cell antigen receptor (BCR) and cytokine receptor pathways." ([DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902), version du 2026-09-04 ; consulté le 2026-11-19). Sur la base des informations connues, zanubrutinib fait partie de la classe des inhibiteurs de BTK de nouvelle génération. Son efficacité dans les hémopathies malignes à cellules B est établie, et la voie de signalisation BTK est active dans ces maladies.
 
 Le rôle de cette voie dans la leucémie myéloïde est plausible mais non démontré : BTK est exprimée dans certains blastes myéloïdes et dans le microenvironnement myéloïde. Aucune donnée clinique directe ne soutient toutefois l'activité du zanubrutinib lui-même dans cette maladie.
 
@@ -151,12 +151,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Évaluation de l'impact du statut annulé de l'AMM en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Brukinsa (zanubrutinib) prescribing information, BeOne Medicines USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e08fe23-d70e-424c-bc51-1222e320f902) |
 
 <!-- review:end log -->
 

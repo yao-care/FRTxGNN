@@ -59,7 +59,7 @@ Il s'agit en pratique d'un usage déjà établi plutôt que d'un repositionnemen
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le paclitaxel fait partie de la classe des taxanes. Il stabilise les microtubules et empêche le désassemblage du fuseau mitotique, ce qui provoque un arrêt du cycle cellulaire en phase G2/M puis l'apoptose des cellules à division rapide.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Paclitaxel (traduction non officielle) : « Les particules de paclitaxel liées à des protéines pour suspension injectable (liées à l'albumine) sont un inhibiteur des microtubules qui favorise l'assemblage des microtubules à partir des dimères de tubuline et stabilise les microtubules en empêchant leur dépolymérisation. Cette stabilité entraîne l'inhibition de la réorganisation dynamique normale du réseau de microtubules, qui est essentielle aux fonctions cellulaires vitales en interphase et en mitose. » Texte original en anglais : "Paclitaxel protein-bound particles for injectable suspension (albumin-bound) is a microtubule inhibitor that promotes the assembly of microtubules from tubulin dimers and stabilizes microtubules by preventing depolymerization. This stability results in the inhibition of the normal dynamic reorganization of the microtubule network that is essential for vital interphase and mitotic cellular functions." ([DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c), version du 2025-09-17 ; consulté le 2026-11-19). Sur la base des informations connues, le paclitaxel fait partie de la classe des taxanes. Il stabilise les microtubules et empêche le désassemblage du fuseau mitotique, ce qui provoque un arrêt du cycle cellulaire en phase G2/M puis l'apoptose des cellules à division rapide.
 
 Ce mécanisme antimitotique ne dépend ni du type d'organe ni du statut des récepteurs hormonaux. Le cancer de l'ovaire, indication d'origine, et le cancer du sein sont tous deux des tumeurs solides sensibles à ce type de cytotoxique, ce qui rend la prédiction du modèle cohérente.
 
@@ -179,12 +179,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les 12 AMM françaises sont toutes annulées, ce qui impose des garde-fous réglementaires » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, éventuelles autorisations par d'autres procédures) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Paclitaxel Protein-Bound Particles For Injectable Suspension (Albumin-Bound) (paclitaxel) prescribing information, NorthStar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e9d5093-fbfc-470a-8520-811c46a8870c) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**insomnie**, ma
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données consultée. Sur la base des connaissances pharmacologiques générales, le remimazolam est un modulateur allostérique positif du récepteur GABA-A, comme les benzodiazépines hypnotiques établies. Un lien mécanistique avec l'insomnie est donc plausible.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Remimazolam (traduction non officielle) : « BYFAVO est une benzodiazépine. BYFAVO se lie aux sites benzodiazépiniques cérébraux (récepteurs de l'acide gamma-aminobutyrique de type A [GABA A ]), tandis que son métabolite acide carboxylique (CNS7054) présente une affinité 300 fois plus faible pour le récepteur. » Texte original en anglais : "BYFAVO is a benzodiazepine. BYFAVO binds to brain benzodiazepine sites (gamma amino butyric acid type A [GABA A ] receptors), while its carboxylic acid metabolite (CNS7054) has a 300 times lower affinity for the receptor." ([DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f), version du 2025-02-20 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le remimazolam est un modulateur allostérique positif du récepteur GABA-A, comme les benzodiazépines hypnotiques établies. Un lien mécanistique avec l'insomnie est donc plausible.
 
 Cependant, plusieurs éléments limitent cette plausibilité. Son hydrolyse très rapide par les estérases tissulaires (principalement la carboxylestérase 1) donne une durée d'action trop courte pour maintenir le sommeil. De plus, il n'existe que sous forme intraveineuse, destinée à la sédation procédurale et à l'anesthésie. Le score très élevé de TxGNN (0,9991) reflète probablement une similarité de classe avec les hypnotiques GABAergiques plutôt qu'une preuve propre à ce médicament.
 
@@ -114,12 +114,13 @@ Les informations sur les mises en garde et contre-indications de la notice ne so
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Byfavo (remimazolam besylate) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e1838f2-b999-41a7-a761-d94f09aa531f) |
 
 <!-- review:end log -->
 

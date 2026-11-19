@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**aménorrhée**
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la norelgestromine est un progestatif, agoniste du récepteur de la progestérone, et le métabolite actif principal du norgestimate.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour norelgestromin and ethinyl estradiol (association contenant Norelgestromin) (traduction non officielle) : « La NGMN est le progestatif actif principalement responsable de l'activité progestative observée chez la femme après application du dispositif transdermique de norelgestromine et d'éthinylestradiol. » Texte original en anglais : "NGMN is the active progestin largely responsible for the progestational activity that occurs in women following application of norelgestromin and ethinyl estradiol transdermal system." ([DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02), version du 2026-04-16 ; consulté le 2026-11-19). Sur la base des informations connues, la norelgestromine est un progestatif, agoniste du récepteur de la progestérone, et le métabolite actif principal du norgestimate.
 
 Les progestatifs sont utilisés pour provoquer un saignement de privation dans l'aménorrhée secondaire. L'effet progestatif sur l'endomètre constitue donc un lien mécanistique plausible avec cette indication.
 
@@ -126,11 +126,12 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: norelgestromin and ethinyl estradiol prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10fa1458-c8ed-4197-922a-1ba7271d2b02) |
 
 <!-- review:end log -->
 

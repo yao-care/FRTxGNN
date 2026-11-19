@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour la **maladie de la ca
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la guaifénésine est un expectorant : elle est réputée fluidifier le mucus des voies respiratoires et en faciliter l'élimination.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Guaifenesin est (traduction non officielle) : « Inconnu » Texte original en anglais : "Unknown" ([ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la guaifénésine est un expectorant : elle est réputée fluidifier le mucus des voies respiratoires et en faciliter l'élimination.
 
 Un lien avec les affections de la cavité nasale est envisageable par l'intermédiaire de cette action sur le mucus. Il s'agit toutefois d'une inférence et non d'un mécanisme documenté. Le score élevé (0,9998) est une prédiction informatique et ne constitue pas une preuve d'efficacité.
 
@@ -99,6 +99,18 @@ La prédiction repose uniquement sur le modèle, sans essai clinique ni étude t
 - Documenter le mécanisme d'action de la guaifénésine
 - Obtenir des études directement centrées sur la maladie de la cavité nasale (essais cliniques ou séries observationnelles)
 - Préciser le lien avec les indications déjà connues du médicament
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL980 (guaifenesin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL980) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -60,7 +60,7 @@ Le bumétanide inhibe le cotransporteur Na-K-2Cl (NKCC2) dans la branche ascenda
 
 Dans le cœur pulmonaire aigu, la surcharge volumique du ventricule droit et la congestion systémique pourraient être soulagées par la diurèse, selon le même principe que dans l'insuffisance cardiaque congestive. Le lien est donc plausible, mais indirect : la littérature disponible concerne l'insuffisance cardiaque gauche, aiguë et chronique, et la pharmacologie générale des diurétiques de l'anse, pas le cœur pulmonaire aigu en lui-même.
 
-Une prudence particulière s'impose : une défaillance ventriculaire droite dépendante de la précharge (par exemple dans une embolie pulmonaire massive) peut s'aggraver en cas de diurèse excessive. Le score très élevé du modèle est une prédiction computationnelle ; il reflète probablement la proximité avec l'insuffisance cardiaque plutôt qu'une preuve indépendante. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport.
+Une prudence particulière s'impose : une défaillance ventriculaire droite dépendante de la précharge (par exemple dans une embolie pulmonaire massive) peut s'aggraver en cas de diurèse excessive. Le score très élevé du modèle est une prédiction computationnelle ; il reflète probablement la proximité avec l'insuffisance cardiaque plutôt qu'une preuve indépendante. Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bumetanide (traduction non officielle) : « Le bumétanide inhibe principalement la réabsorption du sodium et du chlorure dans les tubules proximal et distal et dans l'anse de Henlé. L'importante diurèse est en grande partie due au site d'action unique. L'action sur le tubule distal est indépendante de tout effet inhibiteur sur l'anhydrase carbonique et l'aldostérone. » Texte original en anglais : "Bumetanide primarily inhibits the reabsorption of sodium and chloride in the proximal and distal tubules and in the loop of Henle. The high degree of diuresis is largely due to the unique site of action. The action on the distal tubule is independent of any inhibitory effect on carbonic anhydrase and aldosterone." ([DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f), version du 2026-08-27 ; consulté le 2026-11-19).
 
 ## Preuves d'Essais Cliniques
 
@@ -105,6 +105,19 @@ La prédiction repose uniquement sur le modèle : aucun essai ni aucune publicat
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Définition des populations à exclure (notamment défaillance ventriculaire droite dépendante de la précharge)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Enbumyst (bumetanide) prescribing information, Corstasis USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6f752c5-d2bd-4f77-9611-ca2110066d1f) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

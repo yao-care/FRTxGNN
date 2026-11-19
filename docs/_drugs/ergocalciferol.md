@@ -56,7 +56,7 @@ Aucun essai clinique ni publication ne soutient actuellement cette prédiction.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'ergocalciférol est une forme de vitamine D qui intervient dans l'homéostasie du calcium et du phosphore et dans la minéralisation osseuse.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ergocalciferol (traduction non officielle) : « La synthèse in vivo des principaux métabolites biologiquement actifs de la vitamine D s'effectue en deux étapes. La première hydroxylation de l'ergocalciférol a lieu dans le foie (en 25-hydroxyvitamine D) et la seconde dans les reins (en 1, 25-dihydroxyvitamine D). » Texte original en anglais : "The in vivo synthesis of the major biologically active metabolites of vitamin D occurs in two steps. The first hydroxylation of ergocalciferol takes place in the liver (to 25-hydroxyvitamin D) and the second in the kidneys (to 1, 25-dihydroxyvitamin D)." ([DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210), version du 2026-11-02 ; consulté le 2026-11-19). L'ergocalciférol est une forme de vitamine D qui intervient dans l'homéostasie du calcium et du phosphore et dans la minéralisation osseuse.
 
 Pour la dysplasie acromésomélique de type Campailla-Martinelli, aucun lien mécanistique n'a été identifié. Il s'agit d'une dysplasie squelettique rare d'origine génétique, touchant la signalisation de la croissance du squelette. Il est peu probable qu'une supplémentation en vitamine D2 corrige un tel défaut. Le score élevé semble provenir de la proximité du médicament avec des maladies osseuses dans le réseau du modèle, et non d'un mécanisme défini. Cette prédiction doit donc être considérée avec une grande prudence.
 
@@ -95,6 +95,18 @@ La prédiction principale, bien que très bien classée par le modèle, ne repos
 - Données détaillées sur le mécanisme d'action de l'ergocalciférol
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Toute étude (précliniqué ou clinique) reliant la vitamine D2 à cette dysplasie squelettique, afin de justifier une évaluation plus poussée
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vitamin D (ergocalciferol) prescribing information, Preferred Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba2076ef-1650-45e1-b092-a4c449dd6210) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

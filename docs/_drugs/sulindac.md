@@ -56,7 +56,7 @@ Cependant, **aucun essai clinique** et **aucune publication** ne soutiennent act
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le sulindac fait partie de la classe des AINS et agit par inhibition des cyclooxygénases (COX), ce qui réduit la production de prostaglandines inflammatoires. Son efficacité symptomatique dans les affections articulaires inflammatoires est établie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Sulindac est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase » Texte original en anglais : "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL15770 (sulindac): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15770), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le sulindac fait partie de la classe des AINS et agit par inhibition des cyclooxygénases (COX), ce qui réduit la production de prostaglandines inflammatoires. Son efficacité symptomatique dans les affections articulaires inflammatoires est établie.
 
 La dysplasie acromésomélique de type Hunter-Thompson est une dysplasie squelettique rare liée à CDMP1/GDF5, impliquant la voie de signalisation des BMP. Aucun lien mécanistique clair n'existe entre l'inhibition de la COX et cette voie. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, par exemple des phénotypes squelettiques ou articulaires communs, et non une preuve biologique.
 
@@ -108,11 +108,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, le profil de contre-indications est lourd et il n'existe plus d'AMM active en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL15770 (sulindac): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL15770) |
 
 <!-- review:end log -->
 

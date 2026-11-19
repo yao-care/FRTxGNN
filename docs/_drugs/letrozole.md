@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du ma
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après ce que l'on sait de cette classe, le létrozole inhibe l'aromatase et diminue ainsi les œstrogènes circulants.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Letrozole (traduction non officielle) : « La croissance de certains cancers du sein est stimulée ou entretenue par les œstrogènes. Le traitement du cancer du sein considéré comme hormonosensible (c'est-à-dire avec récepteurs aux œstrogènes et/ou à la progestérone positifs ou statut des récepteurs inconnu) a fait appel à diverses approches visant à diminuer les taux d'œstrogènes (ovariectomie, surrénalectomie, hypophysectomie) ou à inhiber les effets des œstrogènes (antiœstrogènes et agents progestatifs). […] Le létrozole est un inhibiteur compétitif non stéroïdien du système enzymatique de l'aromatase ; il inhibe la conversion des androgènes en œstrogènes. » Texte original en anglais : "The growth of some cancers of the breast is stimulated or maintained by estrogens. Treatment of breast cancer thought to be hormonally responsive (i.e., estrogen and/or progesterone receptor positive or receptor unknown) has included a variety of efforts to decrease estrogen levels (ovariectomy, adrenalectomy, hypophysectomy) or inhibit estrogen effects (antiestrogens and progestational agents). […] Letrozole is a nonsteroidal competitive inhibitor of the aromatase enzyme system; it inhibits the conversion of androgens to estrogens." ([DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406), version du 2026-06-11 ; consulté le 2026-11-19). D'après ce que l'on sait de cette classe, le létrozole inhibe l'aromatase et diminue ainsi les œstrogènes circulants.
 
 Si la tumeur du mamelon exprime des récepteurs hormonaux, une inhibition de l'aromatase pourrait théoriquement s'appliquer, comme dans d'autres carcinomes mammaires. Cette hypothèse reste cependant un raisonnement par analogie : aucun document fourni ne montre une efficacité du létrozole dans cette maladie. Le score TxGNN est élevé, mais il s'agit d'une prédiction du modèle, pas d'une preuve clinique.
 
@@ -130,11 +130,12 @@ La prédiction repose uniquement sur le score du modèle (0,9976), sans essai cl
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Supprimé : « Les 20 AMM enregistrées sont valides ; » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
 
 <!-- review:end log -->
 

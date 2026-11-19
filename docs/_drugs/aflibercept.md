@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Ésotropie (esot
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'aflibercept se fixe sur VEGF-A, VEGF-B et PlGF et bloque leur action sur les vaisseaux sanguins.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Aflibercept (traduction non officielle) : « Le facteur de croissance de l'endothélium vasculaire A (VEGF-A) et le facteur de croissance placentaire (PlGF) sont des membres de la famille VEGF des facteurs angiogéniques, qui peuvent agir comme facteurs mitogènes, chimiotactiques et de perméabilité vasculaire pour les cellules endothéliales. Le VEGF agit par l'intermédiaire de deux récepteurs à activité tyrosine kinase, VEGFR-1 et VEGFR-2, présents à la surface des cellules endothéliales. […] Les produits à base d'aflibercept agissent comme un récepteur leurre soluble qui lie le VEGF-A et le PlGF, et peuvent ainsi inhiber la liaison et l'activation de ces récepteurs apparentés du VEGF. » Texte original en anglais : "Vascular endothelial growth factor-A (VEGF-A) and placental growth factor (PlGF) are members of the VEGF family of angiogenic factors that can act as mitogenic, chemotactic, and vascular permeability factors for endothelial cells. VEGF acts via two receptor tyrosine kinases, VEGFR-1 and VEGFR-2, present on the surface of endothelial cells. […] Aflibercept products act as a soluble decoy receptor that binds VEGF - A and PlGF, and thereby can inhibit the binding and activation of these cognate VEGF receptors." ([DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06), version du 2026-10-29 ; consulté le 2026-11-19). D'après les connaissances générales, l'aflibercept se fixe sur VEGF-A, VEGF-B et PlGF et bloque leur action sur les vaisseaux sanguins.
 
 Le lien avec l'ésotropie reste très incertain. L'ésotropie est un trouble de l'alignement oculaire, lié aux muscles oculomoteurs, au contrôle nerveux ou à des facteurs réfractifs et accommodatifs. Aucune voie mécanistique directe entre l'inhibition du VEGF et ce trouble n'est documentée dans les données disponibles.
 
@@ -99,6 +99,19 @@ La prédiction repose uniquement sur le score du modèle (0.9938), sans essai cl
 - Revue de la littérature sur le lien entre anti-VEGF et strabisme/ésotropie, pour distinguer effet thérapeutique et simple co-occurrence
 - Mises en garde et contre-indications issues de la notice officielle (ANSM)
 - Toute étude, même précoce, portant directement sur l'ésotropie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

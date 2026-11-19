@@ -61,7 +61,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour le **Syndrome de
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, la méthadone est un agoniste des récepteurs opioïdes mu et un antagoniste des récepteurs NMDA. Ce profil est utilisé en pratique dans le traitement de la dépendance aux opioïdes et dans la prise en charge de la douleur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Methadone (traduction non officielle) : « Le chlorhydrate de méthadone est un agoniste mu ; un opioïde de synthèse aux actions multiples qualitativement similaires à celles de la morphine, dont la plus importante concerne le système nerveux central et les organes composés de muscle lisse. Le syndrome de sevrage à la méthadone, bien que qualitativement similaire à celui de la morphine, s'en distingue par un début plus lent, une évolution plus prolongée et des symptômes moins sévères. » Texte original en anglais : "Methadone hydrochloride is a mu-agonist; a synthetic opioid with multiple actions qualitatively similar to those of morphine, the most prominent of which involves the central nervous system and organs composed of smooth muscle. The methadone withdrawal syndrome, although qualitatively similar to that of morphine, differs in that the onset is slower, the course is more prolonged, and the symptoms are less severe." ([DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05), version du 2026-08-04 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la méthadone est un agoniste des récepteurs opioïdes mu et un antagoniste des récepteurs NMDA. Ce profil est utilisé en pratique dans le traitement de la dépendance aux opioïdes et dans la prise en charge de la douleur.
 
 La modulation opioïde des circuits dopaminergiques et striataux a été proposée comme pouvant influencer les tics. Un rapport de 1992 (PMID 1728167) décrit un traitement par méthadone d'un trouble de Gilles de la Tourette. Une revue de 2007 mentionne également que des opiacés sont efficaces dans le syndrome de Gilles de la Tourette et le TOC réfractaires.
 
@@ -118,12 +118,13 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les deux AMM sont aujourd'hui annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
 
 <!-- review:end log -->
 

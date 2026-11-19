@@ -56,7 +56,7 @@ mais aucun essai clinique n'est enregistré et seules **2 publications** précli
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, fulvestrant est un antagoniste pur du récepteur des œstrogènes (ER) qui favorise aussi sa dégradation. Son efficacité a été établie dans le cancer du sein HR+/HER2-, seul ou en association (par exemple avec le ribociclib ou l'alpélisib).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fulvestrant (traduction non officielle) : « De nombreux cancers du sein possèdent des récepteurs aux œstrogènes (RE) et la croissance de ces tumeurs peut être stimulée par les œstrogènes. Le fulvestrant est un antagoniste des récepteurs aux œstrogènes qui se lie au récepteur aux œstrogènes de manière compétitive avec une affinité comparable à celle de l'estradiol et qui régule à la baisse la protéine RE dans les cellules de cancer du sein humain. » Texte original en anglais : "Many breast cancers have estrogen receptors (ER) and the growth of these tumors can be stimulated by estrogen. Fulvestrant is an estrogen receptor antagonist that binds to the estrogen receptor in a competitive manner with affinity comparable to that of estradiol and downregulates the ER protein in human breast cancer cells." ([DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a), version du 2026-10-16 ; consulté le 2026-11-19). Sur la base des informations connues, fulvestrant est un antagoniste pur du récepteur des œstrogènes (ER) qui favorise aussi sa dégradation. Son efficacité a été établie dans le cancer du sein HR+/HER2-, seul ou en association (par exemple avec le ribociclib ou l'alpélisib).
 
 Le lien avec le VIH reste une hypothèse. Le récepteur ERα est exprimé dans les lymphocytes T CD4+, et une étude de 2026 (PMID 42430506) examine l'effet de ligands du récepteur, dont le fulvestrant, et d'agents de réversion de la latence du VIH sur ERα. Bloquer ou dégrader ce récepteur pourrait théoriquement moduler la latence virale. Cette idée n'a été explorée qu'in vitro, et aucune donnée clinique n'existe.
 
@@ -134,12 +134,13 @@ Les autres indications prédites ne sont pas plus solides :
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 10 AMM sont au statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Indications approuvées des AMM, et clarification de la situation réglementaire des produits annulés » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ésotropie**, ma
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, dibotermin alfa est une protéine morphogénétique osseuse de type 2 (BMP-2) recombinante. Elle agit sur les voies ostéoinductrices et stimule la formation osseuse lorsqu'elle est implantée localement sur une matrice.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Dibotermin Alfa est (traduction non officielle) : « Agoniste du récepteur de type 1A des protéines morphogénétiques osseuses ; agoniste du récepteur de type 2B de l'activine ; agoniste du récepteur de type 2 des protéines morphogénétiques osseuses ; agoniste du récepteur de type 1B des protéines morphogénétiques osseuses » Texte original en anglais : "Bone morphogenetic protein receptor type-1A agonist; Activin receptor type-2B agonist; Bone morphogenetic protein receptor type-2 agonist; Bone morphogenetic protein receptor type-1B agonist" ([ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, dibotermin alfa est une protéine morphogénétique osseuse de type 2 (BMP-2) recombinante. Elle agit sur les voies ostéoinductrices et stimule la formation osseuse lorsqu'elle est implantée localement sur une matrice.
 
 L'ésotropie est un trouble de l'alignement moteur oculaire. Aucun lien mécanistique plausible n'a été identifié entre une protéine ostéoinductrice et ce trouble. Le score élevé de TxGNN reflète une prédiction du modèle TxGNN (apprentissage profond), sans élément clinique ou bibliographique à l'appui. Cette prédiction doit donc être considérée avec une grande prudence.
 
@@ -112,11 +112,12 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'unique AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2109171 (dibotermin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2109171) |
 
 <!-- review:end log -->
 

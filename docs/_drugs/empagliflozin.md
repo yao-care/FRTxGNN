@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, l'empagliflozine est un inhibiteur du SGLT2 qui abaisse la glycémie en bloquant la réabsorption rénale du glucose, indépendamment de l'insuline. Son efficacité dans le diabète de type 2 est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Empagliflozin (traduction non officielle) : « L'empagliflozine est un inhibiteur du SGLT2, le principal transporteur responsable de la réabsorption du glucose du filtrat glomérulaire vers la circulation. En inhibant le SGLT2, l'empagliflozine réduit la réabsorption rénale du glucose filtré et abaisse le seuil rénal du glucose, augmentant ainsi l'excrétion urinaire de glucose. » Texte original en anglais : "Empagliflozin is an inhibitor of SGLT2, the predominant transporter responsible for reabsorption of glucose from the glomerular filtrate back into the circulation. By inhibiting SGLT2, empagliflozin reduces renal reabsorption of filtered glucose and lowers the renal threshold for glucose, and thereby increases urinary glucose excretion." ([DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565), version du 2026-11-10 ; consulté le 2026-11-19). D'après les informations connues, l'empagliflozine est un inhibiteur du SGLT2 qui abaisse la glycémie en bloquant la réabsorption rénale du glucose, indépendamment de l'insuline. Son efficacité dans le diabète de type 2 est établie.
 
 Aucun lien mécanistique solide n'a été identifié avec le syndrome de la personne raide, une maladie neurologique auto-immune généralement associée aux anticorps anti-GAD65, avec une altération de l'inhibition GABAergique. Une piste spéculative est la co-occurrence fréquente de ce syndrome avec le diabète auto-immun (type 1), ce qui pourrait expliquer le rapprochement fait par le modèle. Il s'agit d'une association de comorbidité et non d'un argument thérapeutique : l'inhibition du SGLT2 n'a aucun effet connu sur la signalisation GABA ni sur la pathologie auto-immune.
 
@@ -109,11 +109,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (les AMM compilées sont toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Jardiance (empagliflozin) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=faf3dd6a-9cd0-39c2-0d2e-232cb3f67565) |
 
 <!-- review:end log -->
 

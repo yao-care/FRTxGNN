@@ -56,7 +56,7 @@ Les données compilées pour ce rapport comptent **9 essais cliniques**, mais il
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'albendazole fait partie des benzimidazolés, dont l'effet attendu repose sur l'inhibition de la bêta-tubuline des parasites.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Albendazole (traduction non officielle) : « ALBENZA (albendazole) est un médicament anthelminthique de synthèse de la classe des benzimidazoles. […] ALBENZA se lie au site sensible à la colchicine de la β-tubuline, inhibant sa polymérisation en microtubules. La diminution des microtubules dans les cellules intestinales des parasites réduit leur fonction d'absorption, en particulier l'absorption du glucose par les formes adultes et larvaires des parasites, et épuise également les réserves de glycogène. » Texte original en anglais : "ALBENZA (albendazole) is a synthetic, antihelminthic drug of the class benzimidazole. […] ALBENZA binds to the colchicine-sensitive site of β-tubulin inhibiting their polymerization into microtubules. The decrease in microtubules in the intestinal cells of the parasites decreases their absorptive function, especially the uptake of glucose by the adult and larval forms of the parasites, and also depletes glycogen storage." ([DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5), version du 2019-09-23 ; consulté le 2026-11-19). Sur la base des informations connues, l'albendazole fait partie des benzimidazolés, dont l'effet attendu repose sur l'inhibition de la bêta-tubuline des parasites.
 
 La cénurose est causée par le stade larvaire de *Taenia multiceps* (et d'espèces voisines du genre *Taenia*). Ces larves de ténia sont proches de celles de *Taenia solium*, contre lesquelles l'albendazole est étudié dans la neurocysticercose. Le mécanisme pourrait donc être transposable.
 
@@ -107,6 +107,18 @@ Aucun essai ni aucune publication ne porte directement sur la cénurose : les es
 - Données détaillées sur le mécanisme d'action
 - Avertissements et contre-indications issus de la notice de l'ANSM
 - Évaluation de la sécurité hématologique et hépatique pour un traitement prolongé, ainsi que des interactions médicamenteuses
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Albenza (albendazole) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1977a867-0ee1-44c0-8da3-fe59c48699f5) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -56,7 +56,7 @@ Une seconde prédiction, l'**infection à *Staphylococcus aureus***, est mieux �
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'ertapénème est un carbapénème qui inhibe la synthèse de la paroi bactérienne en se liant aux protéines de liaison à la pénicilline (PLP). Son efficacité dans la pneumonie bactérienne et les infections à anaérobies a été établie.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ertapenem (traduction non officielle) : « L'ertapénem sodique est un antibiotique de la classe des carbapénèmes. […] L'ertapénem possède une activité in vitro contre les bactéries aérobies et anaérobies à Gram positif et à Gram négatif. L'activité bactéricide de l'ertapénem résulte de l'inhibition de la synthèse de la paroi cellulaire et est médiée par la liaison de l'ertapénem aux protéines de liaison aux pénicillines (PLP). » Texte original en anglais : "Ertapenem sodium is a carbapenem antibiotic. […] Ertapenem has in vitro activity against Gram-positive and Gram-negative aerobic and anaerobic bacteria. The bactericidal activity of ertapenem results from the inhibition of cell wall synthesis and is mediated through ertapenem binding to penicillin binding proteins (PBPs)." ([DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22), version du 2026-02-04 ; consulté le 2026-11-19). Sur la base des informations connues, l'ertapénème est un carbapénème qui inhibe la synthèse de la paroi bactérienne en se liant aux protéines de liaison à la pénicilline (PLP). Son efficacité dans la pneumonie bactérienne et les infections à anaérobies a été établie.
 
 Les infections ostéo-articulaires à entérobactéries sensibles et à anaérobies relèvent d'un spectre de pathogènes qui recoupe celui des indications d'origine. Le mécanisme est donc biologiquement plausible.
 
@@ -140,12 +140,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM (60926401, ERTAPENEM QILU 1 g) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier la raison de l'annulation des AMM et la disponibilité réelle de l'ertapénème en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Invanz (ertapenem sodium) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33f3b99b-fa82-42e0-26bf-f49891ae3d22) |
 
 <!-- review:end log -->
 

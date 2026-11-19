@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**urticaire allergi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la méclozine est un antihistaminique H1 de première génération doté d'une activité anticholinergique centrale. Son efficacité dans le vertige et le mal des transports repose sur cette action centrale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Meclizine (traduction non officielle) : « Le mécanisme précis par lequel la méclizine exerce son effet thérapeutique est inconnu, mais on présume qu'il implique un antagonisme du récepteur H1 de l'histamine. » Texte original en anglais : "The precise mechanism by which meclizine exerts its therapeutic effect is unknown but is presumed to involve antagonism of the histamine H1 receptor." ([DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588), version du 2026-10-06 ; consulté le 2026-11-19). Sur la base des informations connues, la méclozine est un antihistaminique H1 de première génération doté d'une activité anticholinergique centrale. Son efficacité dans le vertige et le mal des transports repose sur cette action centrale.
 
 L'urticaire allergique est une affection médiée par l'histamine, et le blocage des récepteurs H1 est le mécanisme établi du soulagement symptomatique. La prédiction est donc plausible par effet de classe. Le même raisonnement s'applique à l'urticaire au froid, également prédite (score de 0,9922), pour laquelle les antihistaminiques H1 sont le traitement de première intention.
 
@@ -128,12 +128,13 @@ Veuillez consulter la notice pour les informations de sécurité complètes.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée, ce qui limite toute voie réglementaire immédiate » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Meclizine Hydrochloride (meclizine) prescribing information, St. Mary's Medical Park Pharmacy](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5d2ff762-041d-74ed-e063-6394a90ac588) |
 
 <!-- review:end log -->
 

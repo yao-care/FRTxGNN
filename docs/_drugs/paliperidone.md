@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie r�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la palipéridone (9-hydroxyrispéridone) est un antagoniste des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A, dont l'efficacité dans la schizophrénie est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Paliperidone (traduction non officielle) : « La palipéridone est le principal métabolite actif de la rispéridone. Le mécanisme d'action de la palipéridone dans la schizophrénie n'est pas clairement établi. Cependant, l'effet thérapeutique du médicament dans la schizophrénie pourrait s'exercer par une combinaison d'antagonisme des récepteurs centraux dopaminergiques de type 2 (D 2 ) et sérotoninergiques de type 2 (5HT 2A ). » Texte original en anglais : "Paliperidone is the major active metabolite of risperidone. The mechanism of action of paliperidone in schizophrenia is unclear. However, the drug's therapeutic effect in schizophrenia could be mediated through a combination of central dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2A ) receptor antagonism." ([DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916), version du 2025-01-31 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la palipéridone (9-hydroxyrispéridone) est un antagoniste des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A, dont l'efficacité dans la schizophrénie est établie.
 
 **Aucun lien mécanistique plausible n'a été identifié** entre ce profil pharmacologique et les voies impliquées dans les dystrophies rétiniennes héréditaires. Le score élevé (0,9992) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique. Cette prédiction doit donc être considérée comme purement exploratoire.
 
@@ -128,11 +128,12 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 17 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
 
 <!-- review:end log -->
 

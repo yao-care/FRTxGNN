@@ -55,7 +55,7 @@ Le modèle TxGNN prédit en premier rang la **kératoconjonctivite épithéliale
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la lidocaïne est un anesthésique local de type bloqueur des canaux sodiques, ce qui peut soulager la douleur et la transmission sensitive à la surface de l'œil.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lidocaine (traduction non officielle) : « Le chlorhydrate de lidocaïne exerce un effet antiarythmique en augmentant le seuil de stimulation électrique du ventricule pendant la diastole. Aux doses thérapeutiques habituelles, le chlorhydrate de lidocaïne ne produit aucune modification de la contractilité myocardique, de la pression artérielle systémique ou de la période réfractaire absolue. » Texte original en anglais : "Lidocaine hydrochloride exerts an antiarrhythmic effect by increasing the electrical stimulation threshold of the ventricle during diastole. In usual therapeutic doses, lidocaine hydrochloride produces no change in myocardial contractility, in systemic arterial pressure, or in absolute refractory period." ([DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0), version du 2026-02-20 ; consulté le 2026-11-19). Sur la base des informations connues, la lidocaïne est un anesthésique local de type bloqueur des canaux sodiques, ce qui peut soulager la douleur et la transmission sensitive à la surface de l'œil.
 
 Le score de la prédiction provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; la relation entre les usages connus (douleur neuropathique, dermatite, prurit) et la prédiction est au mieux symptomatique. La kératoconjonctivite épithéliale ponctuée est le plus souvent inflammatoire ou infectieuse (par exemple adénovirale) : la lidocaïne n'agirait pas sur la cause. Les anesthésiques topiques comportent en outre un risque de toxicité épithéliale cornéenne.
 
@@ -117,6 +117,19 @@ Pour le reste, veuillez consulter la notice : les mises en garde et contre-indic
 - Les données détaillées sur le mécanisme d'action
 - Des études directes de la lidocaïne dans la pathologie conjonctivo-cornéenne visée, avec évaluation de la tolérance épithéliale
 - La vérification de la compatibilité des voies d'administration et des formes disponibles avec un usage ophtalmique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lidocaine Hydrochloride And Dextrose (lidocaine hydrochloride) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f21512ea-c7c3-4766-b976-b2c0b5616bf0) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

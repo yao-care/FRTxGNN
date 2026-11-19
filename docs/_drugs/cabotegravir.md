@@ -54,7 +54,7 @@ Le cabotégravir est un inhibiteur de l'intégrase du VIH-1, connu en France sou
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le cabotégravir est un inhibiteur de transfert de brin de l'intégrase (INSTI) du VIH-1. L'intégrase est une enzyme virale sans équivalent humain connu qui soit pertinent pour l'inflammation articulaire auto-immune.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cabotegravir (traduction non officielle) : « Le cabotégravir est un médicament antirétroviral anti-VIH-1. […] Le cabotégravir inhibe l'intégrase du VIH en se liant au site actif de l'intégrase et en bloquant l'étape de transfert de brin de l'intégration de l'acide désoxyribonucléique (ADN) rétroviral, qui est essentielle au cycle de réplication du VIH. La valeur moyenne de la concentration inhibitrice à 50 % (CI 50 ) du cabotégravir dans un essai de transfert de brin utilisant l'intégrase recombinante purifiée du VIH-1 était de 3,0 nM. » Texte original en anglais : "Cabotegravir is an HIV-1 antiretroviral drug. […] Cabotegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral deoxyribonucleic acid (DNA) integration that is essential for the HIV replication cycle. The mean 50% inhibitory concentration (IC 50 ) value of cabotegravir in a strand transfer assay using purified recombinant HIV-1 integrase was 3.0 nM." ([DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3), version du 2025-04-11 ; consulté le 2026-11-19). D'après les connaissances générales, le cabotégravir est un inhibiteur de transfert de brin de l'intégrase (INSTI) du VIH-1. L'intégrase est une enzyme virale sans équivalent humain connu qui soit pertinent pour l'inflammation articulaire auto-immune.
 
 **Aucun lien mécanistique n'est établi** entre l'activité antivirale du cabotégravir et la polyarthrite rhumatoïde. Le score élevé (0,9945) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'est étayé par aucun essai ni aucune publication. La similarité avec l'indication originale reste à évaluer.
 
@@ -112,11 +112,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM françaises sont par ailleurs annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vocabria (cabotegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66d450fb-cca4-476c-b0c7-c0730e3e4cf3) |
 
 <!-- review:end log -->
 

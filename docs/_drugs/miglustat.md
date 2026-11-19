@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie de Tay-
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, miglustat inhibe la glucosylcéramide synthase (gène UGCG), enzyme clé de la synthèse des glycosphingolipides. Son efficacité dans la maladie de Gaucher de type 1 est établie. C'est le principe de la thérapie par réduction de substrat.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Miglustat (traduction non officielle) : « La maladie de Gaucher de type 1 est causée par un déficit fonctionnel en glucocérébrosidase, l'enzyme qui assure la dégradation du glycosphingolipide glucosylcéramide. Le miglustat agit comme un inhibiteur compétitif et réversible de l'enzyme glucosylcéramide synthase, l'enzyme initiale d'une série de réactions aboutissant à la synthèse de la plupart des glycosphingolipides. » Texte original en anglais : "Type 1 Gaucher disease is caused by a functional deficiency of glucocerebrosidase, the enzyme that mediates the degradation of the glycosphingolipid glucosylceramide. Miglustat functions as a competitive and reversible inhibitor of the enzyme glucosylceramide synthase, the initial enzyme in a series of reactions which results in the synthesis of most glycosphingolipids." ([DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87), version du 2025-12-17 ; consulté le 2026-11-19). Sur la base des informations connues, miglustat inhibe la glucosylcéramide synthase (gène UGCG), enzyme clé de la synthèse des glycosphingolipides. Son efficacité dans la maladie de Gaucher de type 1 est établie. C'est le principe de la thérapie par réduction de substrat.
 
 Dans la maladie de Tay-Sachs, un déficit en hexosaminidase A provoque l'accumulation du ganglioside GM2 dans les neurones. En réduisant la synthèse en amont des glycosphingolipides, miglustat pourrait diminuer la quantité de substrat à dégrader. Il traverse aussi la barrière hémato-encéphalique, ce qui est pertinent pour une maladie neuronopathique. La logique mécanistique est donc cohérente avec l'indication d'origine.
 
@@ -152,12 +152,13 @@ Les neuf autres candidates n'ont ni essai clinique ni publication associés (niv
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Deux autres AMM annulées existent (OPFOLDA 65 mg, YARGESA 100 mg) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es 7 AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Yargesa (miglustat) prescribing information, Edenbridge Pharmaceuticals LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b371dfe-e2b0-47fe-b677-a7bde7149f87) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la bacitracine est un antibiotique polypeptidique qui inhibe la synthèse de la paroi cellulaire bactérienne (blocage de la déphosphorylation de l'undécaprényl pyrophosphate). Elle est surtout active contre les bactéries à Gram positif, comme les staphylocoques.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Bacitracin est (traduction non officielle) : « Inhibiteur du pyrophosphate de C55-isoprényle » Texte original en anglais : "C55-isoprenyl pyrophosphate inhibitor" ([ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, la bacitracine est un antibiotique polypeptidique qui inhibe la synthèse de la paroi cellulaire bactérienne (blocage de la déphosphorylation de l'undécaprényl pyrophosphate). Elle est surtout active contre les bactéries à Gram positif, comme les staphylocoques.
 
 La kératoconjonctivite épithéliale ponctuée touche la surface de l'œil, comme d'autres atteintes oculaires de surface pour lesquelles les antibactériens topiques sont utilisés. Ce rapprochement reste indirect : cette affection est souvent d'origine virale ou non infectieuse, situation où un antibactérien apporterait peu de bénéfice.
 
@@ -99,6 +99,19 @@ Aucun essai clinique ni publication ne porte sur la kératoconjonctivite épith�
 - Mises en garde et contre-indications de la notice ANSM
 - Études (essais ou publications) portant directement sur cette affection
 - Vérification de la voie d'administration et de la formulation, la seule AMM locale étant un patch pour test épicutané
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1200558 (bacitracin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200558) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

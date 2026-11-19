@@ -60,7 +60,7 @@ Ces preuves restent indirectes : aucune étude ne démontre directement l'effica
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le désogestrel est un progestatif de type gonane qui freine la sécrétion des gonadotrophines. Associé à l'éthinylestradiol, il apporte des stéroïdes sexuels exogènes.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Desogestrel est (traduction non officielle) : « Agoniste des récepteurs de la progestérone » Texte original en anglais : "Progesterone receptor agonist" ([ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le désogestrel est un progestatif de type gonane qui freine la sécrétion des gonadotrophines. Associé à l'éthinylestradiol, il apporte des stéroïdes sexuels exogènes.
 
 Dans l'aménorrhée hypothalamique fonctionnelle ou l'oligo-aménorrhée, une pilule combinée remplace l'œstrogène et le progestatif manquants, et peut contribuer à préserver la densité osseuse. Le lien est donc plausible.
 
@@ -139,11 +139,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-15 | « Une clarification de la situation réglementaire (A » → « Une clarification de la situation réglementaire (l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1533 (desogestrel): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1533) |
 
 <!-- review:end log -->
 

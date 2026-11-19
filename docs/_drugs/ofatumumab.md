@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace dans le **lymphome follic
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'ofatumumab est un anticorps monoclonal entièrement humain dirigé contre CD20. Il se fixe sur un épitope distinct, proche de la membrane cellulaire. Cette fixation favorise une forte cytotoxicité dépendante du complément et une cytotoxicité cellulaire dépendante des anticorps.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ofatumumab (traduction non officielle) : « Le mécanisme précis par lequel l'ofatumumab exerce ses effets thérapeutiques dans la sclérose en plaques est inconnu, mais on suppose qu'il implique une liaison au CD20, un antigène de surface cellulaire présent sur les lymphocytes pré-B et B matures. Après sa liaison à la surface cellulaire des lymphocytes B, l'ofatumumab entraîne une cytolyse cellulaire dépendante des anticorps et une lyse médiée par le complément. » Texte original en anglais : "The precise mechanism by which ofatumumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ofatumumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3), version du 2026-04-01 ; consulté le 2026-11-19). Sur la base des informations connues, l'ofatumumab est un anticorps monoclonal entièrement humain dirigé contre CD20. Il se fixe sur un épitope distinct, proche de la membrane cellulaire. Cette fixation favorise une forte cytotoxicité dépendante du complément et une cytotoxicité cellulaire dépendante des anticorps.
 
 Le lymphome folliculaire est une hémopathie maligne à cellules B exprimant CD20. La cible est donc présente directement sur les cellules tumorales. Cette biologie est proche de celle des hémopathies B associées à l'ofatumumab dans la base de connaissances (leucémie lymphoblastique aiguë, syndrome de Richter). Elle soutient la plausibilité de la prédiction, y compris dans les maladies réfractaires au rituximab.
 
@@ -149,6 +149,19 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 - Obtenir les résultats de l'essai de phase 3 NCT01077518 (terminé prématurément) et du CALGB 50904 pour évaluer l'efficacité comparative.
 - Vérifier la disponibilité en France d'une présentation et d'une voie d'administration adaptées au traitement du lymphome folliculaire.
 - Établir un plan de surveillance de l'hématotoxicité et du risque infectieux, en particulier en association avec une chimiothérapie ou d'autres immunosuppresseurs.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Kesimpta (ofatumumab) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a8a3f53-2062-48ff-9dbe-b939df133ca3) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

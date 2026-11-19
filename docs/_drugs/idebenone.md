@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **porphyrie hé
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'idébénone est un analogue synthétique de la benzoquinone à chaîne courte, apparenté à la coenzyme Q10. Elle agit comme antioxydant et transporteur d'électrons dans la chaîne respiratoire mitochondriale. Son efficacité dans la neuropathie optique héréditaire de Leber, une maladie mitochondriale, est l'indication de référence du médicament.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Idebenone est (traduction non officielle) : « Antioxydant et transporteur d'électrons mitochondrial » Texte original en anglais : "Antioxidant and mitochondrial electron carrier" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'idébénone est un analogue synthétique de la benzoquinone à chaîne courte, apparenté à la coenzyme Q10. Elle agit comme antioxydant et transporteur d'électrons dans la chaîne respiratoire mitochondriale. Son efficacité dans la neuropathie optique héréditaire de Leber, une maladie mitochondriale, est l'indication de référence du médicament.
 
 Un lien avec la porphyrie hépatique reste spéculatif : le stress oxydant et le dysfonctionnement mitochondrial pourraient intervenir dans les troubles de la synthèse de l'hème. Cette hypothèse n'est étayée par aucune donnée compilée pour ce rapport.
 
@@ -139,12 +139,13 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a seule AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
 
 <!-- review:end log -->
 

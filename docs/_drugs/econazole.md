@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection ectoth
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales sur la classe, les imidazolés inhibent la lanostérol 14-alpha-déméthylase des champignons et perturbent la synthèse de l'ergostérol. Ce mécanisme n'est pas confirmé par les données fournies.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Econazole (traduction non officielle) : « Ecoza mousse topique est un antifongique azolé. […] Le nitrate d'éconazole, un agent antifongique azolé, inhibe l'enzyme 14 alpha-lanostérol déméthylase fongique dépendante du cytochrome P-450. Cette enzyme a pour fonction de convertir le lanostérol en ergostérol. L'accumulation de 14 alpha-méthylstérols est corrélée à la perte consécutive d'ergostérol dans la paroi cellulaire fongique et pourrait être responsable de l'activité fongistatique de l'éconazole. » Texte original en anglais : "Ecoza topical foam is an azole antifungal. […] Econazole nitrate, an azole antifungal agent, inhibits fungal cytochrome P-450-mediated 14 alpha-lanosterol demethylase enzyme. This enzyme functions to convert lanosterol to ergosterol. The accumulation of 14 alpha-methyl sterols correlates with the subsequent loss of ergosterol in the fungal cell wall and may be responsible for the fungistatic activity of econazole." ([DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577), version du 2023-12-04 ; consulté le 2026-11-19). D'après les connaissances générales sur la classe, les imidazolés inhibent la lanostérol 14-alpha-déméthylase des champignons et perturbent la synthèse de l'ergostérol. Ce mécanisme n'est pas confirmé par les données fournies.
 
 L'infection ectothrix est une infection dermatophytique du cheveu, où les arthroconidies forment un manchon à l'extérieur de la tige pilaire. Son score de 0.9997 provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -100,6 +100,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Études de pénétration de l'éconazole dans le follicule et la tige pilaire
 - Recherche d'essais cliniques ou de publications portant sur les teignes ectothrix et endothrix traitées par éconazole
 - Évaluation de la compatibilité des voies d'administration (actuellement non évaluée)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ecoza (econazole nitrate) prescribing information, Resilia Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0bb5fa27-32ed-ed13-e063-6394a90a1577) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -60,7 +60,7 @@ Le SIV est un modèle animal du VIH et non une maladie humaine : cette prédicti
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le dolutégravir est un inhibiteur de l'intégrase par transfert de brin (INSTI). Son efficacité dans l'infection par le VIH est établie, et mécanistiquement il pourrait être applicable à des lentivirus apparentés.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dolutegravir (traduction non officielle) : « Le dolutégravir est un agent antirétroviral anti-VIH-1. […] Le dolutégravir inhibe l'intégrase du VIH en se liant au site actif de l'intégrase et en bloquant l'étape de transfert de brin de l'intégration de l'ADN rétroviral, essentielle au cycle de réplication du VIH. Des essais biochimiques de transfert de brin utilisant l'intégrase purifiée du VIH-1 et de l'ADN substrat pré-traité ont donné des valeurs de CI 50 de 2,7 nM et 12,6 nM. » Texte original en anglais : "Dolutegravir is an HIV-1 antiretroviral agent. […] Dolutegravir inhibits HIV integrase by binding to the integrase active site and blocking the strand transfer step of retroviral DNA integration which is essential for the HIV replication cycle. Strand transfer biochemical assays using purified HIV-1 integrase and pre-processed substrate DNA resulted in IC 50 values of 2.7 nM and 12.6 nM." ([DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922), version du 2026-08-25 ; consulté le 2026-11-19). D'après les informations connues, le dolutégravir est un inhibiteur de l'intégrase par transfert de brin (INSTI). Son efficacité dans l'infection par le VIH est établie, et mécanistiquement il pourrait être applicable à des lentivirus apparentés.
 
 Le SIV est un lentivirus très proche du VIH, dont il est le précurseur biologique. Son intégrase est homologue : les structures des intasomes VIH/SIV (PMID 32506843) soutiennent une liaison conservée des INSTI. Des études chez le macaque montrent que le dolutégravir a une activité antivirale contre le SIV et sélectionne des mutations de résistance (PMID 30381490). D'autres INSTI (bictégravir, cabotégravir) sont actifs contre le SIVmac239 (PMID 28923862).
 
@@ -150,12 +150,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 8 AMM associées au dolutégravir sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tivicay (dolutegravir sodium) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=63df5af3-b8ac-4e76-9830-2dbb340af922) |
 
 <!-- review:end log -->
 

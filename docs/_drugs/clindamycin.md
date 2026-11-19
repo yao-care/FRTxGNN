@@ -55,7 +55,7 @@ Le modèle TxGNN (apprentissage profond) prédit qu'elle pourrait être efficace
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la clindamycine est un antibiotique lincosamide actif surtout contre les bactéries à Gram positif (dont *Staphylococcus aureus*) et les anaérobies. Son efficacité dans les infections bactériennes cutanées, respiratoires et gynécologiques est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clindamycin (traduction non officielle) : « La clindamycine inhibe la synthèse protéique bactérienne en se liant à l'ARN 23S de la sous-unité 50S du ribosome. La clindamycine est bactériostatique. » Texte original en anglais : "Clindamycin inhibits bacterial protein synthesis by binding to the 23S RNA of the 50S subunit of the ribosome. Clindamycin is bacteriostatic." ([DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a), version du 2026-09-16 ; consulté le 2026-11-19). Sur la base des informations connues, la clindamycine est un antibiotique lincosamide actif surtout contre les bactéries à Gram positif (dont *Staphylococcus aureus*) et les anaérobies. Son efficacité dans les infections bactériennes cutanées, respiratoires et gynécologiques est établie.
 
 Le lien avec la nouvelle indication reste faible. La kératopathie épithéliale ponctuée est souvent non infectieuse (sécheresse oculaire, causes toxiques ou virales), et un antibactérien n'a alors pas de justification claire. Un bénéfice ne serait envisageable que pour une composante bactérienne, par exemple une blépharoconjonctivite staphylococcique, ce qui n'est pas établi ici.
 
@@ -104,6 +104,19 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 - Des données précliniques ou cliniques de la clindamycine dans la kératoconjonctivite épithéliale ponctuée, notamment dans une composante bactérienne à staphylocoques.
 - Une évaluation de la compatibilité des voies d'administration (une formulation ophtalmique n'est pas disponible dans les AMM recensées).
 - Une analyse du risque de résistance (notamment SARM à résistance inductible à la clindamycine).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cleocin Hydrochloride (clindamycin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df9a2a41-b132-4f43-8940-b2d773b1369a) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

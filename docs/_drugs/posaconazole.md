@@ -57,7 +57,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocysto
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, le posaconazole est un triazole qui inhibe la lanostérol 14-alpha-déméthylase (CYP51) et bloque ainsi la synthèse de l'ergostérol, constituant essentiel de la membrane des champignons.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Posaconazole (traduction non officielle) : « Le posaconazole est un agent antifongique azolé. […] Le posaconazole bloque la synthèse de l'ergostérol, un composant essentiel de la membrane cellulaire fongique, par inhibition de l'enzyme lanostérol 14α-déméthylase dépendante du cytochrome P-450, responsable de la conversion du lanostérol en ergostérol dans la membrane cellulaire fongique. Il en résulte une accumulation de précurseurs stéroliques méthylés et une déplétion en ergostérol au sein de la membrane cellulaire, ce qui affaiblit la structure et la fonction de la membrane cellulaire fongique. » Texte original en anglais : "Posaconazole is an azole antifungal agent. […] Posaconazole blocks the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14α-demethylase responsible for the conversion of lanosterol to ergosterol in the fungal cell membrane. This results in an accumulation of methylated sterol precursors and a depletion of ergosterol within the cell membrane thus weakening the structure and function of the fungal cell membrane." ([DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84), version du 2026-02-13 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le posaconazole est un triazole qui inhibe la lanostérol 14-alpha-déméthylase (CYP51) et bloque ainsi la synthèse de l'ergostérol, constituant essentiel de la membrane des champignons.
 
 Le score très élevé du modèle (0,9977) semble refléter la proximité du posaconazole avec d'autres antifongiques et maladies fongiques dans le réseau de connaissances, plutôt qu'une réelle adéquation mécanistique. *Pneumocystis jirovecii* ne possède pratiquement pas d'ergostérol dans sa membrane (il utilise du cholestérol), de sorte que le mécanisme azolé n'est pas censé être efficace. Le traitement de référence reste l'association triméthoprime-sulfaméthoxazole.
 
@@ -91,7 +91,6 @@ Ces publications sont générales (diagnostic, lignes directrices, pharmacociné
 | 63689562 | POSACONAZOLE ZENTIVA 100 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
 | 62713448 | POSACONAZOLE FRESENIUS KABI 100 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
 
-
 ## Considérations de Sécurité
 
 - **Interactions médicamenteuses** : 100 interactions sont recensées dans les données compilées. Parmi les principales :
@@ -112,6 +111,19 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Études précliniques ou cliniques spécifiques au posaconazole dans la pneumocystose
 - Mises en garde et contre-indications issues de la notice (ANSM), nécessaires avant toute évaluation de sécurité
 - Clarification du statut réglementaire et de la disponibilité des formes (comprimé, suspension, perfusion)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Noxafil (posaconazole) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b073b082-7b57-4423-8c06-4fd4263d6f84) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

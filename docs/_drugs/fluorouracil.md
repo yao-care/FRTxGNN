@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **rhabdomyosarcom
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le fluorouracile est un antimétabolite inhibiteur de la thymidylate synthase : il perturbe la synthèse de l'ADN et de l'ARN dans les cellules à division rapide. Son efficacité est établie dans plusieurs cancers digestifs et cutanés.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fluorouracil (traduction non officielle) : « Le fluorouracile est un inhibiteur métabolique nucléosidique qui interfère avec la synthèse de l'acide désoxyribonucléique (ADN) et, dans une moindre mesure, inhibe la formation de l'acide ribonucléique (ARN) ; ces effets touchent les cellules à croissance rapide et peuvent entraîner la mort cellulaire. Le fluorouracile est converti en trois principaux métabolites actifs : le 5-fluoro-2′-désoxyuridine-5′-monophosphate (FdUMP), le 5-fluorouridine-5′triphosphate (FUTP) et le 5-fluoro-2′-désoxyuridine-5′-triphosphate (FdUTP). » Texte original en anglais : "Fluorouracil is a nucleoside metabolic inhibitor that interferes with the synthesis of deoxyribonucleic acid (DNA) and to a lesser extent inhibits the formation of ribonucleic acid (RNA); these affect rapidly growing cells and may lead to cell death. Fluorouracil is converted to three main active metabolites: 5-fluoro-2′-deoxyuridine-5′-monophosphate (FdUMP), 5-fluorouridine-5′triphosphate (FUTP) and 5-fluoro-2′-deoxyuridine-5′-triphosphate (FdUTP)." ([DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b), version du 2026-10-23 ; consulté le 2026-11-19). Sur la base des informations connues, le fluorouracile est un antimétabolite inhibiteur de la thymidylate synthase : il perturbe la synthèse de l'ADN et de l'ARN dans les cellules à division rapide. Son efficacité est établie dans plusieurs cancers digestifs et cutanés.
 
 Un tel mécanisme est plausible pour une tumeur proliférative comme le rhabdomyosarcome. Toutefois, le traitement de référence de cette tumeur repose sur des associations de type VAC (vincristine, dactinomycine, cyclophosphamide), et le fluorouracile n'en est pas un composant reconnu.
 
@@ -151,12 +151,13 @@ Les mises en garde et contre-indications officielles de la notice n'étant pas d
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM (FLUOROURACILE ACCORD 50 mg/mL, solution à diluer pour perfusion, n° 65502207) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Favlyxa (fluorouracil) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1daf714b-704c-4bcc-b6e0-6f0eb2bfe66b) |
 
 <!-- review:end log -->
 

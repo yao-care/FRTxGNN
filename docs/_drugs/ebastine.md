@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations générales connues, l'ebastine est un antihistaminique H1 de deuxième génération. Son efficacité dans les affections allergiques est établie, mais ce rapport ne dispose d'aucune donnée sur son mécanisme dans le domaine cardiovasculaire.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ebastine est (traduction non officielle) : « Agoniste inverse des récepteurs H1 de l'histamine » Texte original en anglais : "Histamine H1 receptor inverse agonist" ([ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations générales connues, l'ebastine est un antihistaminique H1 de deuxième génération. Son efficacité dans les affections allergiques est établie, mais ce rapport ne dispose d'aucune donnée sur son mécanisme dans le domaine cardiovasculaire.
 
 Un lien hypothétique, non vérifié, pourrait être le rôle de l'histamine et des mastocytes dans le vasospasme coronarien, l'inflammation de l'athérosclérose et les lésions d'ischémie-reperfusion, que le blocage des récepteurs H1 pourrait moduler. Ce raisonnement est spéculatif et n'est étayé par aucune des données compilées pour ce rapport.
 
@@ -118,12 +118,13 @@ Point d'attention lié à la nouvelle indication : l'allongement possible de l'i
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (16 AMM valides sur 16) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « 16 AMM valides sur 16 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL305660 (ebastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL305660) |
 
 <!-- review:end log -->
 

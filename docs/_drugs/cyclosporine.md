@@ -56,7 +56,7 @@ mais cette prédiction ne repose que sur **1 publication** (une cohorte sur la g
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la ciclosporine est un inhibiteur de la calcineurine qui freine l'activation des lymphocytes T. Son efficacité dans des maladies à composante immunitaire (polyarthrite rhumatoïde, atteintes de la surface oculaire, syndrome de Sjögren) est reconnue.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cyclosporine (traduction non officielle) : « La ciclosporine est un agent immunosuppresseur puissant qui, chez l'animal, prolonge la survie des greffes allogéniques de peau, de rein, de foie, de cœur, de pancréas, de moelle osseuse, d'intestin grêle et de poumon. Il a été démontré que la ciclosporine supprime une partie de l'immunité humorale et, dans une plus large mesure, les réactions immunitaires à médiation cellulaire telles que le rejet d'allogreffe, l'hypersensibilité retardée, l'encéphalomyélite allergique expérimentale, l'arthrite à l'adjuvant de Freund et la maladie du greffon contre l'hôte chez de nombreuses espèces animales et pour divers organes. » Texte original en anglais : "Cyclosporine is a potent immunosuppressive agent that in animals prolongs survival of allogeneic transplants involving skin, kidney, liver, heart, pancreas, bone marrow, small intestine, and lung. Cyclosporine has been demonstrated to suppress some humoral immunity and to a greater extent, cell-mediated immune reactions such as allograft rejection, delayed hypersensitivity, experimental allergic encephalomyelitis, Freund’s adjuvant arthritis, and graft versus host disease in many animal species for a variety of organs." ([DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f), version du 2026-09-10 ; consulté le 2026-11-19). Sur la base des connaissances générales, la ciclosporine est un inhibiteur de la calcineurine qui freine l'activation des lymphocytes T. Son efficacité dans des maladies à composante immunitaire (polyarthrite rhumatoïde, atteintes de la surface oculaire, syndrome de Sjögren) est reconnue.
 
 Dans la granulomatose septique chronique, le défaut de base touche la NADPH oxydase des phagocytes, ce qui provoque des infections récurrentes et une inflammation granulomateuse. La ciclosporine pourrait théoriquement moduler cette inflammation granulomateuse, mais aucun lien mécanistique ou clinique direct n'est établi.
 
@@ -125,11 +125,12 @@ Les autres indications prédites ont également une recommandation « Hold » :
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
 
 <!-- review:end log -->
 

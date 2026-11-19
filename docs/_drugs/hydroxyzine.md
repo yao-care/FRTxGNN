@@ -55,7 +55,7 @@ Aucun essai clinique n'est enregistré pour cette indication ; **19 publications
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'hydroxyzine fait partie des antihistaminiques H1 de première génération. Son efficacité dans les maladies allergiques cutanées et respiratoires est établie, et elle pourrait mécanistiquement s'appliquer à l'urticaire allergique.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Hydroxyzine (traduction non officielle) : « L'hydroxyzine n'est pas un dépresseur cortical, mais son action pourrait être due à une suppression de l'activité dans certaines régions clés de la zone sous-corticale du système nerveux central. Une relaxation primaire des muscles squelettiques a été démontrée expérimentalement. » Texte original en anglais : "Hydroxyzine is not a cortical depressant, but its action may be due to a suppression of activity in certain key regions of the subcortical area of the central nervous system. Primary skeletal muscle relaxation has been demonstrated experimentally." ([DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1), version du 2026-11-12 ; consulté le 2026-11-19). Sur la base des informations connues, l'hydroxyzine fait partie des antihistaminiques H1 de première génération. Son efficacité dans les maladies allergiques cutanées et respiratoires est établie, et elle pourrait mécanistiquement s'appliquer à l'urticaire allergique.
 
 L'urticaire est portée par la libération d'histamine par les mastocytes, que le blocage des récepteurs H1 vient contrecarrer. Le lien mécanistique est donc très plausible. L'urticaire et l'angioedème figurent déjà parmi les indications d'origine : la prédiction confirme l'usage existant plus qu'elle n'ouvre une voie nouvelle.
 
@@ -124,11 +124,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: hydroxyzine hydrochloride prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a3e389f-391d-4f37-9e34-ce3c6f5fe8c1) |
 
 <!-- review:end log -->
 

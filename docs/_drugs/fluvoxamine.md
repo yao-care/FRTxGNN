@@ -60,7 +60,7 @@ Aucun essai clinique n'est enregistré pour cette maladie et **5 publications** 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la fluvoxamine appartient à la classe des ISRS. Elle agit en augmentant la disponibilité de la sérotonine dans le cerveau.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fluvoxamine (traduction non officielle) : « Le mécanisme d'action du maléate de fluvoxamine dans le trouble obsessionnel compulsif serait lié à son inhibition spécifique de la recapture de la sérotonine dans les neurones cérébraux. Il a été démontré dans des études précliniques, in vitro et in vivo, que la fluvoxamine est un puissant inhibiteur du transporteur de recapture de la sérotonine. » Texte original en anglais : "The mechanism of action of fluvoxamine maleate in obsessive compulsive disorder is presumed to be linked to its specific serotonin reuptake inhibition in brain neurons. Fluvoxamine has been shown to be a potent inhibitor of the serotonin reuptake transporter in preclinical studies, both in vitro and in vivo." ([DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c), version du 2026-10-26 ; consulté le 2026-11-19). Sur la base des informations connues, la fluvoxamine appartient à la classe des ISRS. Elle agit en augmentant la disponibilité de la sérotonine dans le cerveau.
 
 Le score très élevé du modèle s'explique probablement par la proximité de cette maladie avec des troubles psychiatriques déjà traités par les ISRS. Aucune donnée ne montre un lien mécanistique direct entre la fluvoxamine et le trouble de la personnalité schizotypique.
 
@@ -117,6 +117,18 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Des études cliniques, au minimum exploratoires, testant la fluvoxamine directement dans le trouble de la personnalité schizotypique.
 - La notice officielle (mises en garde et contre-indications) pour une évaluation de sécurité.
 - Un plan de gestion des interactions médicamenteuses, en particulier avec les neuroleptiques associés.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: fluvoxamine maleate prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9972efbb-46cd-45b7-b71c-35032311b70c) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

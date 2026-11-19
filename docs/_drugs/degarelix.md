@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertrichos
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, le dégarélix bloque le récepteur de la GnRH et réduit la sécrétion de LH et de FSH, ce qui diminue la production d'androgènes par les gonades.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Degarelix (traduction non officielle) : « Le dégarélix est un antagoniste des récepteurs de la GnRH. Il se lie de manière réversible aux récepteurs hypophysaires de la GnRH, réduisant ainsi la libération des gonadotrophines et, par conséquent, de la testostérone. » Texte original en anglais : "Degarelix is a GnRH receptor antagonist. It binds reversibly to the pituitary GnRH receptors, thereby reducing the release of gonadotropins and consequently testosterone." ([DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b), version du 2024-01-30 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le dégarélix bloque le récepteur de la GnRH et réduit la sécrétion de LH et de FSH, ce qui diminue la production d'androgènes par les gonades.
 
 Le lien avec l'hypertrichose est **faible et spéculatif**. Contrairement à l'hirsutisme, l'hypertrichose n'est généralement pas liée aux androgènes : freiner l'axe hormonal n'a donc pas de justification mécanistique claire. Le score très élevé (0,9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il ne s'appuie sur aucun appui clinique ni bibliographique.
 
@@ -118,11 +118,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Firmagon (degarelix) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ab11dd8a-0fd9-4013-89ab-e114557c7e4b) |
 
 <!-- review:end log -->
 

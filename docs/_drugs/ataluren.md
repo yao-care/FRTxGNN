@@ -60,7 +60,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'ataluren agit en favorisant la translecture ribosomale des codons stop prématurés, c'est-à-dire des mutations non-sens.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ataluren est (traduction non officielle) : « Modulateur du ribosome 80S » Texte original en anglais : "80S Ribosome modulator" ([ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, l'ataluren agit en favorisant la translecture ribosomale des codons stop prématurés, c'est-à-dire des mutations non-sens.
 
 La cholestase intrahépatique récurrente bénigne est liée à des mutations des gènes ATP8B1 (BRIC1) ou ABCB11 (BRIC2). Une partie des patients pourrait porter des variants non-sens. Pour ce seul sous-groupe, un mécanisme de translecture est théoriquement plausible.
 
@@ -111,6 +111,19 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5) :
 - Identification de patients atteints de cholestase intrahépatique récurrente bénigne porteurs de variants non-sens (ATP8B1, ABCB11)
 - Données précliniques ou séries de cas appuyant la translecture dans cette maladie
 - Clarification du statut réglementaire, toutes les AMM françaises étant annulées
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

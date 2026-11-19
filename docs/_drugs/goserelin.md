@@ -60,7 +60,7 @@ Les données compilées pour ce rapport comptent **1 essai clinique** (de pertin
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations structurées. Sur la base des connaissances pharmacologiques établies, la goséréline est un agoniste de la GnRH : une administration continue désensibilise les récepteurs de la GnRH de l'hypophyse, ce qui réduit la sécrétion de LH et de FSH puis la production d'œstradiol par les ovaires. Il en résulte une aménorrhée réversible.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Goserelin (traduction non officielle) : « ZOLADEX est un analogue décapeptidique synthétique de la GnRH. ZOLADEX agit comme un inhibiteur de la sécrétion hypophysaire de gonadotrophines lorsqu'il est administré sous forme de formulation biodégradable. Dans les études chez l'animal et in vitro, l'administration de goséréline a entraîné la régression ou l'inhibition de la croissance de la tumeur mammaire hormonosensible induite par le diméthylbenzanthracène (DMBA) chez le rat et de la tumeur prostatique Dunning R3327. » Texte original en anglais : "ZOLADEX is a synthetic decapeptide analogue of GnRH. ZOLADEX acts as an inhibitor of pituitary gonadotropin secretion when administered in the biodegradable formulation. In animal and in vitro studies, administration of goserelin resulted in the regression or inhibition of growth of the hormonally sensitive dimethylbenzanthracene (DMBA)-induced rat mammary tumor and Dunning R3327 prostate tumor." ([DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3), version du 2026-03-24 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, la goséréline est un agoniste de la GnRH : une administration continue désensibilise les récepteurs de la GnRH de l'hypophyse, ce qui réduit la sécrétion de LH et de FSH puis la production d'œstradiol par les ovaires. Il en résulte une aménorrhée réversible.
 
 Cet effet est bien documenté dans le cancer du sein de la femme non ménopausée (suppression ou ablation ovarienne) et dans l'endométriose, l'indication d'origine. L'aménorrhée est donc ici une conséquence attendue du traitement, et non une maladie que le médicament guérirait. Elle pourrait servir à supprimer les menstruations (saignements abondants, contexte de chimiothérapie, protection ovarienne).
 
@@ -143,12 +143,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas ét�
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zoladex (goserelin) prescribing information, TerSera Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=294b168b-6e5f-4db9-bf70-d599271458b3) |
 
 <!-- review:end log -->
 

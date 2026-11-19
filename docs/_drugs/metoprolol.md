@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie rénale
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le métoprolol est un bêtabloquant bêta-1 sélectif : il diminue la fréquence cardiaque et la pression artérielle, et réduit la libération de rénine par le rein.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Metoprolol (traduction non officielle) : « Le métoprolol est un agent bloquant des récepteurs adrénergiques bêta 1 -sélectif (cardiosélectif). Cet effet préférentiel n'est toutefois pas absolu et, à des concentrations plasmatiques plus élevées, le métoprolol inhibe également les adrénorécepteurs bêta 2, situés principalement dans la musculature bronchique et vasculaire. » Texte original en anglais : "Metoprolol is a beta 1 -selective (cardioselective) adrenergic receptor blocking agent. This preferential effect is not absolute, however, and at higher plasma concentrations, metoprolol also inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a), version du 2026-03-03 ; consulté le 2026-11-19). D'après les connaissances générales, le métoprolol est un bêtabloquant bêta-1 sélectif : il diminue la fréquence cardiaque et la pression artérielle, et réduit la libération de rénine par le rein.
 
 L'hypertension et la maladie rénale hypertensive maligne appartiennent au même spectre pathologique. Réduire la pression artérielle et la sécrétion de rénine est plausible dans une atteinte rénale hypertensive.
 
@@ -114,6 +114,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Données sur le mécanisme d'action (MOA)
 - Mises en garde et contre-indications officielles issues de la notice de l'ANSM
 - Analyse de la compatibilité des voies d'administration (voie orale vs voie intraveineuse requise en urgence)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Toprol Xl (metoprolol succinate) prescribing information, Melinta Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=496ddfaa-7c9c-4888-b747-a210249b367a) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

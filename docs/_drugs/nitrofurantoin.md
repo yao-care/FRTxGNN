@@ -56,7 +56,7 @@ Les **9 publications** retrouvées décrivent surtout des effets indésirables (
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la nitrofurantoïne est un antibactérien utilisé dans les infections urinaires. Aucun mécanisme anti-inflammatoire ou immunomodulateur utile dans la polyarthrite rhumatoïde n'est documenté dans les données compilées.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nitrofurantoin (traduction non officielle) : « La nitrofurantoïne est un médicament antibactérien. […] La nitrofurantoïne est réduite par un large éventail d'enzymes, notamment les flavoprotéines bactériennes, en intermédiaires réactifs qui endommagent les macromolécules telles que l'ADN et les protéines. » Texte original en anglais : "Nitrofurantoin is an antibacterial drug. […] Nitrofurantoin is reduced by a wide range of enzymes including bacterial flavoproteins to reactive intermediates which are damaging to macromolecules such as DNA and proteins." ([DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5), version du 2026-01-22 ; consulté le 2026-11-19). Sur la base des informations connues, la nitrofurantoïne est un antibactérien utilisé dans les infections urinaires. Aucun mécanisme anti-inflammatoire ou immunomodulateur utile dans la polyarthrite rhumatoïde n'est documenté dans les données compilées.
 
 La littérature associe la nitrofurantoïne à la polyarthrite rhumatoïde uniquement sous l'angle des effets indésirables : fibrose pulmonaire médicamenteuse, interaction avec le méthotrexate provoquant une fibrose pulmonaire irréversible, et une étude sur l'utilisation d'antibiotiques et les poussées de la maladie. Le score élevé du modèle reflète probablement une association dans le réseau de connaissances (traitements ou comorbidités de la polyarthrite), et non un effet thérapeutique.
 
@@ -121,11 +121,12 @@ Pour toute information de sécurité faisant foi, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: nitrofurantoin prescribing information, Somerset Therapeutics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd99ba40-edff-47c3-9ee4-7e5b7774e5b5) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ avec **0 essai clinique** et **5 publications** (dont une étude pédiatrique ou
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le donépézil appartient à la classe des inhibiteurs de la cholinestérase : il augmente la disponibilité de l'acétylcholine dans le système nerveux central, ce qui est la base de son efficacité dans la maladie d'Alzheimer.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Donepezil (traduction non officielle) : « Les théories actuelles sur la pathogenèse des signes et symptômes cognitifs de la maladie d'Alzheimer attribuent certains d'entre eux à un déficit de la neurotransmission cholinergique. Le chlorhydrate de donépézil exercerait son effet thérapeutique en renforçant la fonction cholinergique. » Texte original en anglais : "Current theories on the pathogenesis of the cognitive signs and symptoms of Alzheimer’s disease attribute some of them to a deficiency of cholinergic neurotransmission. Donepezil hydrochloride is postulated to exert its therapeutic effect by enhancing cholinergic function." ([DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975), version du 2021-12-30 ; consulté le 2026-11-19). Sur la base des informations connues, le donépézil appartient à la classe des inhibiteurs de la cholinestérase : il augmente la disponibilité de l'acétylcholine dans le système nerveux central, ce qui est la base de son efficacité dans la maladie d'Alzheimer.
 
 Une dysfonction cholinergique striatale est évoquée dans les tics et le TDAH. La modulation cholinergique des circuits des noyaux gris centraux pourrait donc influencer l'expression des tics. Des travaux précliniques chez la souris (réduction de la réponse de secousses de tête induite par le DOI, modèle de tics) vont dans ce sens.
 
@@ -114,11 +114,12 @@ Pour les mises en garde officielles, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Aucune AMM n'est enregistrée pour le donépézil dans les données compilées pour ce rapport (statut : non commercialisé, 0 AMM). Ce point est | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aricept (donepezil hydrochloride) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e451e1-e4d7-4439-a675-c5457ba20975) |
 
 <!-- review:end log -->
 

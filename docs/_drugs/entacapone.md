@@ -59,7 +59,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **neurodégé
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'entacapone est un inhibiteur de la catéchol-O-méthyltransférase (COMT) : il prolonge l'effet de la lévodopa en ralentissant sa dégradation périphérique. Son efficacité a été établie dans la maladie de Parkinson, comme traitement d'appoint.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Entacapone (traduction non officielle) : « L'entacapone est un inhibiteur sélectif et réversible de la COMT. Chez les mammifères, la COMT est distribuée dans différents organes, les activités les plus élevées étant observées dans le foie et le rein. La COMT est également présente dans le cœur, les poumons, les muscles lisses et squelettiques, le tractus intestinal, les organes reproducteurs, diverses glandes, le tissu adipeux, la peau, les cellules sanguines et les tissus neuronaux, en particulier dans les cellules gliales. » Texte original en anglais : "Entacapone is a selective and reversible inhibitor of COMT. In mammals, COMT is distributed throughout various organs with the highest activities in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells, and neuronal tissues, especially in glial cells." ([DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd), version du 2026-02-16 ; consulté le 2026-11-19). Sur la base des informations connues, l'entacapone est un inhibiteur de la catéchol-O-méthyltransférase (COMT) : il prolonge l'effet de la lévodopa en ralentissant sa dégradation périphérique. Son efficacité a été établie dans la maladie de Parkinson, comme traitement d'appoint.
 
 La neurodégénérescence associée à PLA2G6 (PLAN) comprend des phénotypes de dystonie-parkinsonisme, ce qui rend un lien dopaminergique plausible. Toutefois, l'effet attendu serait au mieux symptomatique : l'entacapone ne modifierait pas la pathologie sous-jacente, liée au métabolisme lipidique et à la neurodégénérescence.
 
@@ -130,11 +130,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: entacapone prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee02a04a-4b42-4cfa-8d9d-b1459c0ee9fd) |
 
 <!-- review:end log -->
 

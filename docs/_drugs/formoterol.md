@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour la **malformation respi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le formotérol appartient à la classe des bêta-2 agonistes de longue durée d'action : il provoque une bronchodilatation en stimulant les récepteurs bêta-2 adrénergiques des voies aériennes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Formoterol (traduction non officielle) : « Le fumarate de formotérol est un agoniste des récepteurs bêta 2 -adrénergiques (bêta 2 -agoniste) de longue durée d'action. Le fumarate de formotérol inhalé agit localement dans le poumon en tant que bronchodilatateur. Des études in vitro ont montré que le formotérol possède une activité agoniste plus de 200 fois supérieure sur les récepteurs bêta 2 que sur les récepteurs bêta 1 . » Texte original en anglais : "Formoterol fumarate is a long-acting, beta 2 -adrenergic receptor agonist (beta 2 -agonist). Inhaled formoterol fumarate acts locally in the lung as a bronchodilator. In vitro studies have shown that formoterol has more than 200-fold greater agonist activity at beta 2 -receptors than at beta 1 -receptors." ([DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79), version du 2025-12-10 ; consulté le 2026-11-19). D'après les informations connues, le formotérol appartient à la classe des bêta-2 agonistes de longue durée d'action : il provoque une bronchodilatation en stimulant les récepteurs bêta-2 adrénergiques des voies aériennes.
 
 En théorie, cette bronchodilatation pourrait soulager des symptômes d'obstruction bronchique secondaire chez des patients porteurs d'une anomalie structurelle des voies respiratoires. Il ne s'agit toutefois pas d'un effet modifiant l'évolution d'une malformation congénitale. Le lien mécanistique reste donc hypothétique, et le score élevé du modèle (0,9992) ne constitue pas une preuve clinique.
 
@@ -114,11 +114,12 @@ La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai cliniq
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Supprimé : « au vu du statut uniquement annulé » | N'apparaît plus après la régénération du rapport (2026-11-12 : le rapport a été régénéré en novembre 2026 et ne contient plus cette affirmation ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Formoterol Fumarate Inhalation Solution (formoterol fumarate dihydrate) prescribing information, Ritedose Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d9bf685-8886-4865-834b-2748af124b79) |
 
 <!-- review:end log -->
 

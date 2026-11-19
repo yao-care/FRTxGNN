@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent directeme
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, l'aciclovir est activé par la thymidine kinase virale, puis inhibe l'ADN polymérase des herpèsvirus.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Acyclovir (traduction non officielle) : « L'aciclovir est un analogue nucléosidique purique de synthèse doté d'une activité inhibitrice in vitro et in vivo contre les virus herpès simplex de types 1 (HSV-1) et 2 (HSV-2) et le virus varicelle-zona (VZV). L'activité inhibitrice de l'aciclovir est hautement sélective en raison de son affinité pour l'enzyme thymidine kinase (TK) codée par le HSV et le VZV. » Texte original en anglais : "Acyclovir is a synthetic purine nucleoside analogue with in vitro and in vivo inhibitory activity against herpes simplex virus types 1 (HSV-1), 2 (HSV-2), and varicella-zoster virus (VZV). The inhibitory activity of acyclovir is highly selective due to its affinity for the enzyme thymidine kinase (TK) encoded by HSV and VZV." ([DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4), version du 2026-06-26 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'aciclovir est activé par la thymidine kinase virale, puis inhibe l'ADN polymérase des herpèsvirus.
 
 Une kératite ponctuée épithéliale peut avoir une cause herpétique ou adénovirale. Un lien plausible n'existe donc que pour les cas d'origine herpétique. Pour les formes adénovirales, l'aciclovir n'est pas actif.
 
@@ -107,6 +107,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les données détaillées sur le mécanisme d'action
 - Récupérer les mises en garde et contre-indications de la notice
 - Évaluer la voie d'administration adaptée (par exemple ophtalmique) par rapport aux formes disponibles
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acyclovir prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=499c6a98-0614-4ded-8526-909942bae8a4) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

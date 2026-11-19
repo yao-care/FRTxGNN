@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, elosulfase alfa remplace l'enzyme GALNS, qui dégrade le sulfate de kératane et le chondroïtine-6-sulfate.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Elosulfase Alfa (traduction non officielle) : « Les mucopolysaccharidoses constituent un groupe de maladies lysosomales de surcharge causées par le déficit en enzymes lysosomales spécifiques nécessaires au catabolisme des glycosaminoglycanes (GAG). La mucopolysaccharidose de type IVA (MPS IVA, syndrome de Morquio A) se caractérise par l'absence ou la réduction marquée de l'activité de la N-acétylgalactosamine-6-sulfatase. […] La captation de l'élosulfase alfa par les cellules dans les lysosomes est médiée par la liaison des chaînes oligosaccharidiques terminées par le mannose-6-phosphate de l'élosulfase alfa aux récepteurs du mannose-6-phosphate. » Texte original en anglais : "Mucopolysaccharidoses comprise a group of lysosomal storage disorders caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis IVA (MPS IVA, Morquio A Syndrome) is characterized by the absence or marked reduction in N -acetylgalactosamine-6-sulfatase activity. […] Elosulfase alfa uptake by cells into lysosomes is mediated by the binding of mannose-6-phosphate-terminated oligosaccharide chains of elosulfase alfa to mannose-6-phosphate receptors." ([DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc), version du 2025-10-30 ; consulté le 2026-11-19). Sur la base des informations connues, elosulfase alfa remplace l'enzyme GALNS, qui dégrade le sulfate de kératane et le chondroïtine-6-sulfate.
 
 Le syndrome de Scheie (forme atténuée de la mucopolysaccharidose de type I) est dû à un déficit en alpha-L-iduronidase, entraînant l'accumulation de sulfate de dermatane et de sulfate d'héparane. Les enzymes et les substrats concernés sont donc différents de ceux d'elosulfase alfa.
 
@@ -93,6 +93,18 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice ANSM
 - Données précliniques ou cliniques étudiant directement l'effet d'elosulfase alfa dans le syndrome de Scheie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vimizim (elosulfase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0caa2565-12b2-0ad0-1f9a-273e81c3d4cc) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

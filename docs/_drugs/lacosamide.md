@@ -64,7 +64,7 @@ Sur le niveau de preuve : trois essais de phase 3 sont recensés (NCT05632133, N
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations de la littérature, lacosamide renforce l'inactivation lente des canaux sodiques voltage-dépendants et module la protéine CRMP2. Ce sont des mécanismes partagés avec des anticonvulsivants établis.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lacosamide (traduction non officielle) : « Le mécanisme précis par lequel Lacosamide solution buvable exerce ses effets antiépileptiques chez l'homme reste à élucider complètement. Des études électrophysiologiques in vitro ont montré que le lacosamide renforce sélectivement l'inactivation lente des canaux sodiques voltage-dépendants, entraînant une stabilisation des membranes neuronales hyperexcitables et une inhibition des décharges neuronales répétitives. » Texte original en anglais : "The precise mechanism by which Lacosamide oral solution exerts its antiepileptic effects in humans remains to be fully elucidated. In vitro electrophysiological studies have shown that lacosamide selectively enhances slow inactivation of voltage-gated sodium channels, resulting in stabilization of hyperexcitable neuronal membranes and inhibition of repetitive neuronal firing." ([DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738), version du 2026-09-09 ; consulté le 2026-11-19). D'après les informations de la littérature, lacosamide renforce l'inactivation lente des canaux sodiques voltage-dépendants et module la protéine CRMP2. Ce sont des mécanismes partagés avec des anticonvulsivants établis.
 
 La migraine et l'épilepsie sont deux troubles de l'hyperexcitabilité neuronale, et plusieurs antiépileptiques (topiramate, par exemple) sont déjà utilisés en prévention de la migraine. Une hypothèse avance que lacosamide, via CRMP2, inhibe la libération du CGRP (peptide lié au gène de la calcitonine) dans le système trigéminal. Une étude chez la souris montre en outre un effet sur la dépression corticale envahissante, mécanisme reconnu de la migraine.
 
@@ -140,12 +140,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Lacosamide est un antiépileptique, dont les autorisations françaises recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lacosamide Oral Solution (lacosamide) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b10986e-0809-b6d1-e063-6394a90a5738) |
 
 <!-- review:end log -->
 

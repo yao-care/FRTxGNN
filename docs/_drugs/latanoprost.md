@@ -56,12 +56,11 @@ Latanoprost est un analogue de la prostaglandine F2-alpha, initialement utilisé
 
 *Remarque : les données compilées classent cette piste en niveau L4 (question de recherche), en raison de la plausibilité mécanistique. En l'absence de toute étude de mécanisme, d'essai ou de publication fournie, le niveau L5 est retenu ici selon les règles de détermination.*
 
-
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. D'après les connaissances pharmacologiques établies, le latanoprost est un analogue de la prostaglandine F2-alpha qui abaisse la pression intraoculaire (PIO) en augmentant l'écoulement uvéoscléral de l'humeur aqueuse.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Latanoprost (traduction non officielle) : « Le latanoprost est un analogue de la prostaglandine F 2α dont on pense qu'il réduit la pression intraoculaire (PIO) en augmentant l'écoulement de l'humeur aqueuse. Des études chez l'animal et chez l'homme suggèrent que le principal mécanisme d'action est une augmentation de l'écoulement uvéoscléral. » Texte original en anglais : "Latanoprost is a prostaglandin F 2α analogue that is believed to reduce the intraocular pressure (IOP) by increasing the outflow of aqueous humor. Studies in animals and man suggest that the main mechanism of action is increased uveoscleral outflow." ([DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded), version du 2025-12-18 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, le latanoprost est un analogue de la prostaglandine F2-alpha qui abaisse la pression intraoculaire (PIO) en augmentant l'écoulement uvéoscléral de l'humeur aqueuse.
 
 Le glaucome héréditaire primaire (congénital ou juvénile) se caractérise par une PIO élevée liée à une dysgénésie des voies d'écoulement. Un médicament qui abaisse la PIO est donc biologiquement plausible dans cette situation.
 
@@ -133,6 +132,19 @@ Les autres pistes prédites présentent des scores TxGNN élevés (0,9967 à 0,9
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Rechercher des essais cliniques et des publications sur le latanoprost dans le glaucome congénital/juvénile, notamment pédiatriques
 - Évaluer la compatibilité des voies d'administration (analyse en attente)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xelpros (latanoprost) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34ad5cf6-4df0-4104-bddd-4c7631133ded) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'emtricitabine appartient à la classe des inhibiteurs nucléosidiques de la transcriptase inverse (INTI) : elle interrompt l'élongation de l'ADN viral. Son efficacité dans l'infection par le VIH est établie.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Emtricitabine (traduction non officielle) : « L'emtricitabine est un médicament antirétroviral. […] La FTC, un analogue nucléosidique synthétique de la cytidine, est phosphorylée par des enzymes cellulaires pour former l'emtricitabine 5'-triphosphate (FTC-TP), qui inhibe l'activité de la transcriptase inverse (RT) du VIH-1 en entrant en compétition avec le substrat naturel, la désoxycytidine 5'-triphosphate, et en étant incorporée dans l'ADN viral naissant, ce qui entraîne une terminaison de chaîne. La FTC-TP est un faible inhibiteur des ADN polymérases α, β, ε des mammifères et de l'ADN polymérase mitochondriale γ. » Texte original en anglais : "Emtricitabine is an antiretroviral drug. […] FTC, a synthetic nucleoside analog of cytidine, is phosphorylated by cellular enzymes to form emtricitabine 5'-triphosphate (FTC-TP), which inhibits the activity of the HIV-1 reverse transcriptase (RT) by competing with the natural substrate deoxycytidine 5'-triphosphate and by being incorporated into nascent viral DNA resulting in chain termination. FTC-TP is a weak inhibitor of mammalian DNA polymerases α, β, ε, and mitochondrial DNA polymerase γ." ([DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f), version du 2026-11-06 ; consulté le 2026-11-19). Sur la base des informations connues, l'emtricitabine appartient à la classe des inhibiteurs nucléosidiques de la transcriptase inverse (INTI) : elle interrompt l'élongation de l'ADN viral. Son efficacité dans l'infection par le VIH est établie.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la transcriptase inverse est apparentée à celle du VIH-1. Un mécanisme commun est donc biologiquement plausible. Le score très élevé du modèle reflète probablement la proximité avec l'indication VIH/SIDA déjà connue.
 
@@ -110,6 +110,19 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Examiner le résumé complet de l'étude 37112803 pour isoler la contribution de l'emtricitabine
 - Confirmer si une indication vétérinaire constitue un objectif pertinent ; sinon, réorienter l'évaluation vers des indications humaines
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Emtriva (emtricitabine) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6599395-3944-44f9-97f2-e0424c6b6a1f) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

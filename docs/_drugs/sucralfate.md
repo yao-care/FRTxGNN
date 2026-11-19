@@ -60,7 +60,7 @@ Aucun essai clinique n'est enregistré, mais **10 publications** sont associées
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, le sucralfate forme une barrière protectrice adhérente sur la muqueuse gastrique et œsophagienne lésée, et fixe les acides biliaires et la pepsine.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sucralfate (traduction non officielle) : « Bien que le mécanisme par lequel le sucralfate accélère la cicatrisation des ulcères duodénaux reste à définir complètement, on sait qu’il exerce son effet par une action locale plutôt que systémique. Les observations suivantes semblent également pertinentes : 1. » Texte original en anglais : "Although the mechanism of sucralfate's ability to accelerate healing of duodenal ulcers remains to be fully defined, it is known that it exerts its effect through a local, rather than systemic, action. The following observations also appear pertinent: 1." ([DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9), version du 2026-01-06 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le sucralfate forme une barrière protectrice adhérente sur la muqueuse gastrique et œsophagienne lésée, et fixe les acides biliaires et la pepsine.
 
 L'ulcère duodénal repose sur la protection de la muqueuse. Le reflux duodéno-gastrique provoque une lésion de la muqueuse par le contenu duodénal (bile). Un agent qui protège la muqueuse et fixe les acides biliaires pourrait donc réduire ces lésions. Ce lien reste une hypothèse fondée sur des connaissances générales, et non sur les données fournies.
 
@@ -139,11 +139,12 @@ Les informations de la notice n'ont pas pu être exploitées. Veuillez consulter
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sucralfate Oral Suspension (sucralfate) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e595c2a-edd0-43f7-a2db-69553b9557d9) |
 
 <!-- review:end log -->
 

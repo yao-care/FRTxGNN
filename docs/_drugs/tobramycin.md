@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **kératite d'expo
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la tobramycine fait partie des aminoglycosides, antibiotiques à large spectre actifs notamment contre *Pseudomonas aeruginosa* et *Staphylococcus aureus*. Son efficacité dans les infections oculaires bactériennes est établie, et elle pourrait mécanistiquement s'appliquer à une kératite d'exposition surinfectée.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tobramycin (traduction non officielle) : « La tobramycine est un antibactérien de la famille des aminosides. […] La tobramycine est un antibactérien de la famille des aminosides produit par Streptomyces tenebrarius. Elle agit principalement en perturbant la synthèse protéique, ce qui entraîne une altération de la perméabilité de la membrane cellulaire, une désorganisation progressive de l'enveloppe cellulaire et, finalement, la mort cellulaire. » Texte original en anglais : "Tobramycin is an aminoglycoside antibacterial. […] Tobramycin is an aminoglycoside antibacterial produced by Streptomyces tenebrarius. It acts primarily by disrupting protein synthesis leading to altered cell membrane permeability, progressive disruption of the cell envelope, and eventual cell death." ([DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a), version du 2026-04-15 ; consulté le 2026-11-19). Sur la base des informations connues, la tobramycine fait partie des aminoglycosides, antibiotiques à large spectre actifs notamment contre *Pseudomonas aeruginosa* et *Staphylococcus aureus*. Son efficacité dans les infections oculaires bactériennes est établie, et elle pourrait mécanistiquement s'appliquer à une kératite d'exposition surinfectée.
 
 La kératite d'exposition survient lorsque la cornée n'est pas protégée correctement, par exemple chez un patient qui ne peut pas fermer les paupières. La cornée fragilisée peut alors se surinfecter, ce qui rend une couverture antibactérienne plausible. Le lien avec l'indication d'origine est donc surtout l'infection bactérienne secondaire, et non la kératite d'exposition elle-même.
 
@@ -140,11 +140,12 @@ Les 12 AMM de la tobramycine sont valides (12 sur 12) et le médicament est comm
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 7 autres AMM annulées concernent des formes injectables (NEBCINE) et inhalées (TOBI, TOBI PODHALER, génériques Zentiva et Sun) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tobi Podhaler (tobramycin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4b5bb1f-e158-4ac1-9c35-e98a416c743a) |
 
 <!-- review:end log -->
 

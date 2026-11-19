@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'efavirenz fait partie de la classe des inhibiteurs non nucléosidiques de la transcriptase inverse (INNTI), actifs contre la transcriptase inverse du VIH-1. Son efficacité dans l'infection par le VIH est établie.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Efavirenz (traduction non officielle) : « L'éfavirenz est un médicament antiviral. […] L'éfavirenz est un INNTI du VIH-1. L'activité de l'éfavirenz est principalement médiée par une inhibition non compétitive de la transcriptase inverse du VIH-1. La transcriptase inverse du VIH-2 et les ADN polymérases cellulaires humaines α, β, γ et δ ne sont pas inhibées par l'éfavirenz. » Texte original en anglais : "Efavirenz is an antiviral drug. […] Efavirenz is an NNRTI of HIV-1. Efavirenz activity is mediated predominantly by noncompetitive inhibition of HIV-1 reverse transcriptase. HIV-2 reverse transcriptase and human cellular DNA polymerases α,β, γ, and δ are not inhibited by efavirenz." ([DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358), version du 2024-06-28 ; consulté le 2026-11-19). Sur la base des informations connues, l'efavirenz fait partie de la classe des inhibiteurs non nucléosidiques de la transcriptase inverse (INNTI), actifs contre la transcriptase inverse du VIH-1. Son efficacité dans l'infection par le VIH est établie.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus apparenté au VIH, ce qui explique le score élevé du modèle. Toutefois, sa transcriptase inverse diffère structurellement de celle du VIH-1. Les INNTI sont généralement peu actifs contre les transcriptases inverses de lentivirus autres que le VIH-1, et l'efavirenz ne devrait donc pas être un inhibiteur puissant du FIV. La seule étude disponible (2023) compare des INNTI (névirapine, efavirenz, rilpivirine) sur les plans biochimique et structural contre le FIV et le VIH : il s'agit d'une preuve préclinique indirecte.
 
@@ -119,11 +119,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-13 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **3 publications précliniques/mécanistiques**
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues dans la littérature récupérée, le fénofibrate est un agoniste de PPARα qui augmente le cholestérol HDL et abaisse les triglycérides, en partie en stimulant l'expression de l'ApoA-I et de la protéine de transfert des phospholipides (PLTP).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fenofibrate (traduction non officielle) : « La fraction active d'Antara est l'acide fénofibrique. Les effets pharmacologiques de l'acide fénofibrique chez l'animal et chez l'homme ont été étudiés par l'administration orale de fénofibrate. Les effets modificateurs des lipides de l'acide fénofibrique observés en pratique clinique ont été expliqués in vivo chez des souris transgéniques et in vitro dans des cultures d'hépatocytes humains par l'activation du récepteur PPAR alpha. » Texte original en anglais : "The active moiety of Antara is fenofibric acid. The pharmacological effects of fenofibric acid in both animals and humans have been studied through oral administration of fenofibrate. The lipid-modifying effects of fenofibric acid seen in clinical practice have been explained in vivo in transgenic mice and in vitro in human hepatocyte cultures by the activation of PPAR alpha receptor." ([DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce), version du 2025-10-01 ; consulté le 2026-11-19). Sur la base des informations connues dans la littérature récupérée, le fénofibrate est un agoniste de PPARα qui augmente le cholestérol HDL et abaisse les triglycérides, en partie en stimulant l'expression de l'ApoA-I et de la protéine de transfert des phospholipides (PLTP).
 
 Le lien avec la déficience en CETP reste indirect. Cette maladie se caractérise par un HDL-cholestérol très élevé et un transfert altéré des esters de cholestérol. Les travaux retrouvés portent sur l'association d'un agonisme PPARα et d'une inhibition de CETP chez la souris (PMID 20332533) et sur l'induction de PLTP à l'origine de l'élargissement des HDL (PMID 11342537). Ils donnent un lien biologique plausible, mais non démontré chez les patients.
 
@@ -107,6 +107,19 @@ Aucun essai clinique ni étude directe sur la déficience en CETP n'existe ; seu
 - Mises en garde et contre-indications officielles issues de la notice ANSM
 - Preuves cliniques ou observationnelles chez des patients ayant une déficience en CETP
 - Justification clinique d'un bénéfice dans une maladie à HDL élevé
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Antara (fenofibrate) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=24790a18-0291-4b88-a724-acac43b616ce) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

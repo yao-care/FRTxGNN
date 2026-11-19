@@ -58,7 +58,7 @@ Le modèle TxGNN prédit en première position un effet potentiel sur le **troub
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, susoctocog alfa est un facteur VIII (FVIII) recombinant de séquence porcine, délété du domaine B. Son efficacité dans l'hémophilie acquise a été démontrée. Il apporte une activité FVIII tout en réagissant peu avec les auto-anticorps dirigés contre le FVIII humain.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Susoctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation » Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, susoctocog alfa est un facteur VIII (FVIII) recombinant de séquence porcine, délété du domaine B. Son efficacité dans l'hémophilie acquise a été démontrée. Il apporte une activité FVIII tout en réagissant peu avec les auto-anticorps dirigés contre le FVIII humain.
 
 **Prédiction n°1 (trouble de libération plaquettaire primaire)** : ce trouble est un défaut de la fonction plaquettaire, et non un déficit en FVIII. Le lien mécanistique est faible. Le score élevé semble refléter la proximité générale, dans le réseau de connaissances, entre les maladies hémorragiques. Il en va de même pour les autres prédictions plaquettaires ou hors coagulation : pseudo-maladie de von Willebrand, thrombasthénie de Glanzmann, syndrome de Scott, défaut du récepteur du collagène, thrombopénie constitutionnelle, déficit en facteur XIII et déficit en adénosine désaminase. Aucune ne dispose d'essai ni de publication.
 
@@ -131,12 +131,13 @@ Veuillez consulter la notice pour les informations de sécurité. Les mises en g
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a seule AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL5315075 (susoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5315075) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Sebelipase alfa est une enzyme recombinante de remplacement, qui apporte la lipa
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sebelipase alfa est une enzyme de remplacement qui compense l'absence de lipase acide lysosomale, enzyme qui dégrade les esters de cholestérol et les triglycérides.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Sebelipase Alfa est (traduction non officielle) : « Enzyme hydrolysant les esters de cholestérol ; enzyme hydrolysant les triglycérides » Texte original en anglais : "Cholesterol ester hydrolytic enzyme; Triglyceride hydrolytic enzyme" ([ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537), CC BY-SA 3.0 ; consulté le 2026-11-19). Sebelipase alfa est une enzyme de remplacement qui compense l'absence de lipase acide lysosomale, enzyme qui dégrade les esters de cholestérol et les triglycérides.
 
 Le syndrome de Scheie (forme atténuée de la mucopolysaccharidose de type I) est dû à un déficit en alpha-L-iduronidase, une enzyme différente avec un substrat différent. Les deux maladies sont des maladies lysosomales, mais aucun lien mécanistique direct n'unit le médicament à cette maladie.
 
@@ -92,6 +92,18 @@ La prédiction pour le syndrome de Scheie repose uniquement sur le score du mod�
 - Les données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications issues de la notice de l'ANSM
 - Une analyse de comparaison avec les thérapies enzymatiques déjà disponibles pour la mucopolysaccharidose de type I
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3039537 (sebelipase alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3039537) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

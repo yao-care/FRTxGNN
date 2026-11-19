@@ -54,7 +54,7 @@ Le fremanézumab est un anticorps monoclonal humanisé dirigé contre le CGRP, i
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances publiées, le fremanézumab est un anticorps monoclonal humanisé qui cible le ligand CGRP (peptide lié au gène de la calcitonine). Son efficacité dans la prévention de la migraine est établie, et il pourrait mécanistiquement être applicable à d'autres sous-types de migraine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fremanezumab (traduction non officielle) : « Le frémanezumab-vfrm est un anticorps monoclonal humanisé qui se lie au ligand du peptide relié au gène de la calcitonine (CGRP) et bloque sa liaison au récepteur. » Texte original en anglais : "Fremanezumab-vfrm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b), version du 2026-06-05 ; consulté le 2026-11-19). D'après les connaissances publiées, le fremanézumab est un anticorps monoclonal humanisé qui cible le ligand CGRP (peptide lié au gène de la calcitonine). Son efficacité dans la prévention de la migraine est établie, et il pourrait mécanistiquement être applicable à d'autres sous-types de migraine.
 
 La migraine avec aura du tronc cérébral est un sous-type de migraine. Les indications d'origine (migraine, migraine avec ou sans aura) constituent la catégorie parente de ce sous-type, ce qui explique en grande partie le score TxGNN très élevé. La voie trigéminovasculaire médiée par le CGRP est commune aux différents sous-types de migraine.
 
@@ -127,12 +127,13 @@ Les données de sécurité issues de la notice (mises en garde, contre-indicatio
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ajovy (fremanezumab-vfrm) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e344ea-5916-4947-b6f2-4a76ccc04b6b) |
 
 <!-- review:end log -->
 

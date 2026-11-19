@@ -56,7 +56,7 @@ Les autres prédictions, majoritairement des sous-types de rhabdomyosarcome, rel
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations générales, la dactinomycine est un agent intercalant de l'ADN qui inhibe la transcription, avec un potentiel cytotoxique et immunosuppresseur. Son efficacité est établie dans plusieurs tumeurs pédiatriques et germinales.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dactinomycin (traduction non officielle) : « La dactinomycine est une actinomycine cytotoxique qui se lie à l'ADN et inhibe la synthèse de l'ARN. L'activité cytotoxique de la dactinomycine a été démontrée dans des modèles animaux de différents cancers humains. » Texte original en anglais : "Dactinomycin is a cytotoxic actinomycin that binds DNA and inhibits RNA synthesis. The cytotoxic activity of dactinomycin has been demonstrated in animal models of different human cancers." ([DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc), version du 2024-06-18 ; consulté le 2026-11-19). Sur la base des informations générales, la dactinomycine est un agent intercalant de l'ADN qui inhibe la transcription, avec un potentiel cytotoxique et immunosuppresseur. Son efficacité est établie dans plusieurs tumeurs pédiatriques et germinales.
 
 Un lien théorique avec une maladie à médiation immunitaire comme la sclérose en plaques est concevable, car un effet immunosuppresseur pourrait en principe réduire l'activité inflammatoire. Toutefois, ce lien reste hypothétique : aucune donnée de l'étude ne le confirme.
 
@@ -137,11 +137,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: dactinomycin prescribing information, Eugia US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5da55538-2602-4704-a9da-603c9f7ff7dc) |
 
 <!-- review:end log -->
 

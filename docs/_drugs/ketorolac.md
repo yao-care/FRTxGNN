@@ -56,7 +56,7 @@ avec **17 essais cliniques** et **19 publications** soutenant actuellement cette
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques établies, le kétorolac fait partie de la classe des AINS : c'est un inhibiteur non sélectif des cyclooxygénases COX-1 et COX-2, qui réduit la synthèse des prostaglandines.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ketorolac (traduction non officielle) : « Le kétorolac trométamol est un anti-inflammatoire non stéroïdien (AINS) qui présente une activité analgésique dans les modèles animaux. Le mécanisme d'action du kétorolac, comme celui des autres AINS, n'est pas complètement élucidé, mais pourrait être lié à l'inhibition de la prostaglandine synthétase. » Texte original en anglais : "Ketorolac tromethamine is a nonsteroidal anti-inflammatory drug (NSAID) that exhibits analgesic activity in animal models. The mechanism of action of ketorolac, like that of other NSAIDs, is not completely understood but may be related to prostaglandin synthetase inhibition." ([DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f), version du 2026-11-13 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, le kétorolac fait partie de la classe des AINS : c'est un inhibiteur non sélectif des cyclooxygénases COX-1 et COX-2, qui réduit la synthèse des prostaglandines.
 
 Dans l'indication d'origine (conjonctivites allergiques), cette inhibition limite l'inflammation de la surface oculaire. Dans la migraine et les céphalées de tension, les prostaglandines participent à la sensibilisation périphérique et centrale, à l'inflammation neurogène et à la transmission de la douleur. Le même mécanisme anti-prostaglandine peut donc expliquer un effet analgésique dans les céphalées aiguës.
 
@@ -135,11 +135,12 @@ Parmi les 17 essais recensés, les plus pertinents sont listés ci-dessous.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « alors que la seule AMM française recensée est un collyre annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Toronova Ii Suik (ketorolac tromethamine) prescribing information, Advanced Rx of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49dd153c-10e8-505b-e063-6394a90a595f) |
 
 <!-- review:end log -->
 

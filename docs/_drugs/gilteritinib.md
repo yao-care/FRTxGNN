@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **poliomyélite b
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, gilteritinib est un inhibiteur de kinases FLT3/AXL, développé pour la LMA avec mutation FLT3.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Gilteritinib (traduction non officielle) : « Le gilteritinib est une petite molécule qui inhibe plusieurs récepteurs à activité tyrosine kinase, dont la tyrosine kinase 3 de type FMS (FLT3). Le gilteritinib a démontré sa capacité à inhiber la signalisation du récepteur FLT3 et la prolifération dans des cellules exprimant de manière exogène FLT3, notamment FLT3-ITD, les mutations du domaine tyrosine kinase (TKD) FLT3-D835Y et FLT3-ITD-D835Y, et il a induit l'apoptose dans des cellules leucémiques exprimant FLT3-ITD. » Texte original en anglais : "Gilteritinib is a small molecule that inhibits multiple receptor tyrosine kinases, including FMS-like tyrosine kinase 3 (FLT3). Gilteritinib demonstrated the ability to inhibit FLT3 receptor signaling and proliferation in cells exogenously expressing FLT3 including FLT3-ITD, tyrosine kinase domain mutations (TKD) FLT3-D835Y and FLT3-ITD-D835Y, and it induced apoptosis in leukemic cells expressing FLT3-ITD." ([DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383), version du 2026-10-01 ; consulté le 2026-11-19). Sur la base des informations connues, gilteritinib est un inhibiteur de kinases FLT3/AXL, développé pour la LMA avec mutation FLT3.
 
 Aucun lien mécanistique crédible n'a été établi avec la poliomyélite bulbaire. Cette maladie est une infection virale des motoneurones du tronc cérébral causée par le poliovirus ; sa prévention repose sur la vaccination et sa prise en charge sur les soins de support. Aucune voie biologique identifiée (effet sur la réplication du poliovirus, l'entrée dans la cellule hôte ou la neuroprotection) ne justifie l'usage d'un inhibiteur de kinase.
 
@@ -117,11 +117,12 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xospata (gilteritinib) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5ff59aa-9c0d-49a8-9053-1f179b482383) |
 
 <!-- review:end log -->
 

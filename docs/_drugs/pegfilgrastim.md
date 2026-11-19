@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le pégfilgrastim est un analogue pégylé du G-CSF : il stimule la production de neutrophiles en se liant au récepteur du G-CSF.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pegfilgrastim (traduction non officielle) : « Les produits à base de pegfilgrastim sont des facteurs de croissance hématopoïétiques (facteurs stimulant les colonies) qui agissent sur les cellules hématopoïétiques en se liant à des récepteurs spécifiques de surface cellulaire, stimulant ainsi la prolifération, la différenciation, l'engagement et l'activation fonctionnelle des cellules terminales. » Texte original en anglais : "Pegfilgrastim products are colony-stimulating factor that acts on hematopoietic cells by binding to specific cell surface receptors, thereby stimulating proliferation, differentiation, commitment, and end cell functional activation." ([DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83), version du 2026-10-29 ; consulté le 2026-11-19). Sur la base des informations connues, le pégfilgrastim est un analogue pégylé du G-CSF : il stimule la production de neutrophiles en se liant au récepteur du G-CSF.
 
 Un lien plausible, mais non testé, serait la mobilisation de cellules progénitrices endothéliales issues de la moelle osseuse, qui pourrait soutenir la réparation vasculaire dans les rétinopathies ischémiques.
 
@@ -112,11 +112,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 10 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
 
 <!-- review:end log -->
 

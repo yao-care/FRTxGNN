@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, l'héparine potentialise l'antithrombine et inhibe la thrombine ainsi que le facteur Xa. Son efficacité a été reconnue dans des états thrombotiques comme l'embolie pulmonaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Heparin (traduction non officielle) : « L'héparine interagit avec une protéine plasmatique naturellement présente, l'antithrombine III, pour induire un changement de conformation qui augmente nettement l'activité inhibitrice de sérine protéase de l'antithrombine III, inhibant ainsi les facteurs de coagulation activés impliqués dans la séquence finale, en particulier les facteurs Xa et IIa. De faibles quantités d'héparine inhibent le facteur Xa, et des quantités plus importantes inhibent la thrombine (facteur IIa). » Texte original en anglais : "Heparin interacts with the naturally occurring plasma protein, antithrombin III, to induce a conformational change, which markedly enhances the serine protease activity of antithrombin III, thereby inhibiting the activated coagulation factors involved in the closing sequence, particularly Xa and IIa. Small amounts of heparin inhibit Factor Xa, and larger amounts inhibit thrombin (Factor IIa)." ([DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e), version du 2026-05-25 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, l'héparine potentialise l'antithrombine et inhibe la thrombine ainsi que le facteur Xa. Son efficacité a été reconnue dans des états thrombotiques comme l'embolie pulmonaire.
 
 Le déficit en protéine C entraîne la perte d'une voie anticoagulante naturelle et un état d'hypercoagulabilité. Une anticoagulation par héparine pourrait, en principe, compenser ce déséquilibre. Le lien avec l'indication d'origine est notable : le purpura fulminans est une manifestation typique du déficit sévère en protéine C.
 
@@ -116,11 +116,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Heparin Sodium And Dextrose (heparin sodium) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eede8a0c-5ae6-4166-84b3-12081405f08e) |
 
 <!-- review:end log -->
 

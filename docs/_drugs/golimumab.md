@@ -60,7 +60,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace dans la **vascularite rhu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le golimumab neutralise le TNF-alpha, une cytokine clé de l'inflammation dans la polyarthrite rhumatoïde. Son efficacité dans cette maladie est établie, et mécanistiquement il pourrait être applicable à la vascularite rhumatoïde.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Golimumab (traduction non officielle) : « Le golimumab est un anticorps monoclonal humain qui se lie aux formes bioactives, solubles et transmembranaires, du TNFα humain. Cette interaction empêche la liaison du TNFα à ses récepteurs, inhibant ainsi l'activité biologique du TNFα (une protéine de type cytokine). » Texte original en anglais : "Golimumab is a human monoclonal antibody that binds to both the soluble and transmembrane bioactive forms of human TNFα. This interaction prevents the binding of TNFα to its receptors, thereby inhibiting the biological activity of TNFα (a cytokine protein)." ([DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00), version du 2026-11-02 ; consulté le 2026-11-19). Sur la base des informations connues, le golimumab neutralise le TNF-alpha, une cytokine clé de l'inflammation dans la polyarthrite rhumatoïde. Son efficacité dans cette maladie est établie, et mécanistiquement il pourrait être applicable à la vascularite rhumatoïde.
 
 La vascularite rhumatoïde est une complication extra-articulaire grave de la polyarthrite rhumatoïde. Elle survient plus souvent chez les patients séropositifs, et son incidence a diminué depuis l'arrivée des biothérapies anti-TNF. Il existe donc un lien biologique plausible entre l'indication d'origine et la nouvelle indication prédite.
 
@@ -146,12 +146,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 4 AMM, détenues par JANSSEN CILAG INTERNATIONAL NV, sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Simponi (golimumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f86cb4a7-c358-4136-ae57-b32bda9bba00) |
 
 <!-- review:end log -->
 

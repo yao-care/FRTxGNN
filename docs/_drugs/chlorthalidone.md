@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome hér
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la chlortalidone est un diurétique de type thiazidique, dont l'efficacité dans l'hypertension et l'insuffisance cardiaque est établie. Elle agit en réduisant le volume plasmatique et la pression artérielle.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Chlorthalidone (traduction non officielle) : « La chlortalidone est un diurétique oral à longue durée d'action doté d'une activité antihypertensive. Les effets diurétiques de la chlortalidone et des diurétiques benzothiadiaziniques (thiazidiques) semblent découler de mécanismes similaires, et l'effet maximal de la chlortalidone et des thiazidiques semble être similaire. » Texte original en anglais : "Chlorthalidone is a long-acting oral diuretic with antihypertensive activity. The diuretic effects of chlorthalidone and the benzothiadiazine (thiazide) diuretics appear to arise from similar mechanisms and the maximal effect of chlorthalidone and the thiazides appear to be similar." ([DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15), version du 2026-06-25 ; consulté le 2026-11-19). Sur la base des informations connues, la chlortalidone est un diurétique de type thiazidique, dont l'efficacité dans l'hypertension et l'insuffisance cardiaque est établie. Elle agit en réduisant le volume plasmatique et la pression artérielle.
 
 Un lien théorique avec le glaucome pourrait passer par des modifications de l'équilibre hydro-électrolytique ou par une inhibition de l'anhydrase carbonique (décrite pour la chlortalidone), qui pourrait abaisser la pression intraoculaire. Cette hypothèse reste toutefois spéculative et n'est étayée par aucune donnée fournie.
 
@@ -110,11 +110,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Thalitone (chlorthalidone) prescribing information, Casper Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc5a0299-115b-4e60-bb3f-c75a95c51c15) |
 
 <!-- review:end log -->
 

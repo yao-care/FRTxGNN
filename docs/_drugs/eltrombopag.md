@@ -60,7 +60,7 @@ Cette prédiction doit être interprétée avec prudence : elle concerne vraisem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. Sur la base des connaissances générales sur la classe, l'eltrombopag est un agoniste du récepteur de la thrombopoïétine (TPO-R) : il stimule la prolifération et la différenciation des mégacaryocytes et augmente ainsi la production de plaquettes. Son efficacité dans la thrombopénie auto-immune est la base de son indication d'origine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Eltrombopag (traduction non officielle) : « L'eltrombopag est un agoniste du récepteur de la TPO qui interagit avec le domaine transmembranaire du récepteur humain de la TPO (également connu sous le nom de cMpl) et déclenche des cascades de signalisation qui induisent la prolifération et la différenciation des mégacaryocytes, entraînant une augmentation de la production plaquettaire. » Texte original en anglais : "Eltrombopag is a TPO-receptor agonist that interacts with the transmembrane domain of the human TPO-receptor (also known as cMpl) and initiates signaling cascades that induce proliferation and differentiation of megakaryocytes leading to increased platelet production." ([DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46), version du 2026-05-20 ; consulté le 2026-11-19). Sur la base des connaissances générales sur la classe, l'eltrombopag est un agoniste du récepteur de la thrombopoïétine (TPO-R) : il stimule la prolifération et la différenciation des mégacaryocytes et augmente ainsi la production de plaquettes. Son efficacité dans la thrombopénie auto-immune est la base de son indication d'origine.
 
 Dans l'infection par le VIH, la thrombopénie est une complication fréquente. Elle résulte d'une destruction plaquettaire immuno-médiée, d'une altération de la mégacaryopoïèse par effet viral direct sur les progéniteurs, et de comorbidités (atteinte hépatique liée au VHC, myélosuppression due aux traitements antiviraux). Comme le TPO-R agit sur le déficit de production quelle que soit la cause, le lien mécanistique est plausible pour la **thrombopénie associée au VIH**.
 
@@ -126,6 +126,19 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Rechercher des essais et publications spécifiques à la thrombopénie associée au VIH, et préciser si l'indication visée est la complication hématologique plutôt que l'infection.
 - Clarifier les raisons de l'annulation des AMM et la situation réglementaire actuelle de l'eltrombopag en France.
 - Évaluer, pour une population VIH, les contre-indications issues du graphe (notamment atteinte hépatique et thromboses) et les interactions avec les traitements antirétroviraux.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Eltrombopag Olamine (eltrombopag) prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4af8f855-f710-e96f-e063-6294a90abb46) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

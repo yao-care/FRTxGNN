@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication n'a été trouvé pour cette indicati
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'adalimumab bloque le TNF alpha, ce qui réduit l'inflammation médiée par cette cytokine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Adalimumab (traduction non officielle) : « Les produits à base d'adalimumab se lient spécifiquement au TNF-alpha et bloquent son interaction avec les récepteurs du TNF p55 et p75 de la surface cellulaire. Les produits à base d'adalimumab lysent également in vitro les cellules exprimant le TNF à leur surface en présence du complément. » Texte original en anglais : "Adalimumab products bind specifically to TNF-alpha and block its interaction with the p55 and p75 cell surface TNF receptors. Adalimumab products also lyse surface TNF expressing cells in vitro in the presence of complement." ([DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc), version du 2026-11-11 ; consulté le 2026-11-19). D'après les connaissances générales, l'adalimumab bloque le TNF alpha, ce qui réduit l'inflammation médiée par cette cytokine.
 
 Le lien avec l'hypermobilité du coccyx reste faible. Cette affection est surtout mécanique ou traumatique, et on ne lui connaît pas de mécanisme inflammatoire clairement dépendant du TNF. Le score élevé de 0.9977 reflète probablement une proximité avec des pathologies inflammatoires axiales dans les données du modèle, et non une preuve biologique ou clinique.
 
@@ -106,6 +106,19 @@ La prédiction repose uniquement sur le score du modèle (0.9977), sans essai cl
 - Revue de la littérature montrant une composante inflammatoire dépendante du TNF dans l'hypermobilité du coccyx
 - Données de sécurité issues de la notice (mises en garde et contre-indications)
 - Étude préclinique ou observationnelle préalable avant tout essai clinique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Simlandi (adalimumab-ryvk) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12f609c9-2088-bb05-e063-6394a90a9ecc) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

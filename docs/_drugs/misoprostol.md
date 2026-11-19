@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**aménorrhée**, 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le misoprostol est un analogue de la prostaglandine E1 qui provoque des contractions utérines et la maturation du col de l'utérus.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour diclofenac sodium and misoprostol (association contenant Misoprostol) (traduction non officielle) : « Misoprostol Le misoprostol est un analogue synthétique de la PGE1 doté de propriétés antisécrétoires gastriques et protectrices de la muqueuse. Le misoprostol peut augmenter la production de bicarbonate et de mucus, mais il a été démontré que cela se produit à des doses de 200 mcg et plus, qui sont également antisécrétoires. » Texte original en anglais : "Misoprostol Misoprostol is a synthetic PGE1 analog with gastric antisecretory and mucosal protective properties. Misoprostol can increase bicarbonate and mucus production, but it has been shown at doses 200 mcg and above that are also antisecretory." ([DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3), version du 2026-08-31 ; consulté le 2026-11-19). Sur la base des informations connues, le misoprostol est un analogue de la prostaglandine E1 qui provoque des contractions utérines et la maturation du col de l'utérus.
 
 Le lien avec l'aménorrhée n'est plausible que dans un sens restreint : régulation des menstruations, évacuation de produits de conception retenus ou interruption d'une grossesse très précoce. Il s'agirait alors d'une absence de règles d'origine gravidique, et non du traitement d'une aménorrhée primaire ou secondaire.
 
@@ -113,6 +113,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 ---
 
 **Note complémentaire** : la 2ᵉ prédiction (coarctation atypique de l'aorte, score 0,9930, niveau L5) ne dispose d'aucune preuve ni d'aucun lien mécanistique clair ; elle est classée **Hold** et n'est pas développée ici.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: diclofenac sodium and misoprostol prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a7701e8c-4e16-4165-8b83-de2c08d5ded3) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

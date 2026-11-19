@@ -60,7 +60,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le mogamulizumab est un anticorps monoclonal dirigé contre le récepteur de chimiokine CCR4. Il élimine les cellules CCR4+, dont les lymphocytes T régulateurs (Treg), par cytotoxicité cellulaire dépendante des anticorps (ADCC). Son efficacité a été établie dans les lymphomes T cutanés.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mogamulizumab (traduction non officielle) : « Le mogamulizumab-kpkc est un anticorps monoclonal IgG1 kappa humanisé et défucosylé qui se lie au CCR4, un récepteur couplé aux protéines G des chimiokines CC impliqué dans le trafic des lymphocytes vers divers organes. Des études non cliniques in vitro démontrent que la liaison du mogamulizumab-kpkc cible une cellule pour la cytotoxicité cellulaire dépendante des anticorps (ADCC), entraînant une déplétion des cellules cibles. » Texte original en anglais : "Mogamulizumab-kpkc is a defucosylated, humanized IgG1 kappa monoclonal antibody that binds to CCR4, a G protein-coupled receptor for CC chemokines that is involved in the trafficking of lymphocytes to various organs. Non-clinical in vitro studies demonstrate mogamulizumab-kpkc binding targets a cell for antibody-dependent cellular cytotoxicity (ADCC) resulting in depletion of the target cells." ([DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f), version du 2026-03-02 ; consulté le 2026-11-19). Sur la base des informations connues, le mogamulizumab est un anticorps monoclonal dirigé contre le récepteur de chimiokine CCR4. Il élimine les cellules CCR4+, dont les lymphocytes T régulateurs (Treg), par cytotoxicité cellulaire dépendante des anticorps (ADCC). Son efficacité a été établie dans les lymphomes T cutanés.
 
 Le lien théorique avec le carcinome urothélial serait la déplétion des Treg dans le microenvironnement tumoral, afin de renforcer l'immunité antitumorale. Ce raisonnement reste **spéculatif** : aucune donnée ne montre que CCR4 soit exprimé ou pertinent dans cette tumeur, et la similarité avec l'indication d'origine n'a pas été évaluée.
 
@@ -127,12 +127,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Poteligeo (mogamulizumab-kpkc) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53960ab-42a1-40d1-9c7d-eb013fe7f18f) |
 
 <!-- review:end log -->
 

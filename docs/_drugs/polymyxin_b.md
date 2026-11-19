@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **bronchite**, 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la polymyxine B agit en désorganisant la membrane externe des bactéries à Gram négatif et possède une activité bactéricide.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Polymyxin B (traduction non officielle) : « Le sulfate de polymyxine B exerce une action bactéricide contre presque tous les bacilles à Gram négatif, à l'exception du groupe Proteus. Les polymyxines augmentent la perméabilité de la membrane cellulaire bactérienne, entraînant la mort de la cellule. Toutes les bactéries à Gram positif, les champignons et les cocci à Gram négatif sont résistants à la polymyxine B. Pour des informations spécifiques concernant les critères d'interprétation des tests de sensibilité ainsi que les méthodes d'essai et les normes de contrôle de qualité associées reconnues par la FDA pour ce médicament, veuillez consulter : www.fda.gov/STIC. » Texte original en anglais : "Polymyxin B sulfate has a bactericidal action against almost all gram-negative bacilli except the Proteus group. Polymyxins increase the permeability of bacterial cell membrane leading to death of the cell. All gram positive bacteria, fungi, and gram-negative cocci are resistant to polymyxin B. For specific information regarding susceptibility test criteria and associated test methods and quality control standards recognized by FDA for this drug, please see: www.fda.gov/STIC." ([DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6), version du 2026-06-22 ; consulté le 2026-11-19). D'après les connaissances générales, la polymyxine B agit en désorganisant la membrane externe des bactéries à Gram négatif et possède une activité bactéricide.
 
 Un lien plausible existe donc avec les bronchites ou trachéo-bronchites bactériennes dues à des germes à Gram négatif multirésistants (*Pseudomonas aeruginosa*, *Acinetobacter baumannii*). Des séries de cas et des études de cohorte portent sur la polymyxine B inhalée dans ces infections respiratoires, mais elles concernent surtout des pneumopathies ou des trachéo-bronchites associées à la ventilation, et non la bronchite au sens large.
 
@@ -129,6 +129,19 @@ Les 9 AMM sont radiées.
 ### Autres indications prédites (pour information)
 
 - **Laryngotrachéite** (score 0,9962, niveau L5, Hold) : seule la prédiction du modèle la soutient, sans essai ni publication. Cette pathologie est surtout virale, donc l'intérêt d'un antibactérien actif sur les Gram négatifs est faible.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Polymyxin B (polymyxin b sulfate) prescribing information, Xellia Pharmaceuticals USA LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56f18c0-ef5e-4ed9-a5af-f79f3cd189b6) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

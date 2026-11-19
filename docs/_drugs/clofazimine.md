@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, la clofazimine est une riminophénazine dotée d'une activité antimycobactérienne et anti-inflammatoire. Son efficacité est reconnue dans la lèpre, et elle est également utilisée dans les schémas contre la tuberculose résistante à la rifampicine.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clofazimine (traduction non officielle) : « LAMPRENE est un médicament antimycobactérien. […] La clofazimine exerce un effet bactéricide lent sur Mycobacterium leprae (bacille de Hansen). La clofazimine inhibe la croissance mycobactérienne et se lie préférentiellement à l'ADN mycobactérien. La clofazimine exerce également des propriétés anti-inflammatoires dans le traitement des réactions d'érythème noueux lépreux. » Texte original en anglais : "LAMPRENE is an anti-mycobacterial drug. […] Clofazimine exerts a slow bactericidal effect on Mycobacterium leprae (Hansen’s bacillus). Clofazimine inhibits mycobacterial growth and binds preferentially to mycobacterial DNA. Clofazimine also exerts anti-inflammatory properties in treating erythema nodosum leprosum reactions." ([DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250), version du 2026-08-17 ; consulté le 2026-11-19). D'après les connaissances générales, la clofazimine est une riminophénazine dotée d'une activité antimycobactérienne et anti-inflammatoire. Son efficacité est reconnue dans la lèpre, et elle est également utilisée dans les schémas contre la tuberculose résistante à la rifampicine.
 
 Le lien avec la pneumocystose est en revanche **faible**. *Pneumocystis* est un organisme fongique : l'activité antimycobactérienne ne se transpose pas à ce type d'agent. Le score élevé de TxGNN (0,9990) reste une prédiction informatique, sans soutien clinique dans les données compilées pour ce rapport.
 
@@ -130,11 +130,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lamprene (clofazimine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e07448f-f888-4747-80ab-570c1b621250) |
 
 <!-- review:end log -->
 

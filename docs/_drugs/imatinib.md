@@ -62,7 +62,7 @@ Les données compilées pour ce rapport ne contiennent que **1 publication** ass
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances publiées, l'imatinib inhibe les kinases ABL, KIT et PDGFR. Son efficacité est établie dans la leucémie myéloïde chronique, les GIST et le dermatofibrosarcome protubérant (DFSP).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Imatinib (traduction non officielle) : « Le mésylate d'imatinib est un inhibiteur de protéine-tyrosine kinase qui inhibe la tyrosine kinase BCR-ABL, la tyrosine kinase anormale constitutive créée par l'anomalie du chromosome Philadelphie dans la LMC. L'imatinib inhibe la prolifération et induit l'apoptose dans les lignées cellulaires BCR-ABL positives ainsi que dans les cellules leucémiques fraîches de leucémie myéloïde chronique à chromosome Philadelphie positif. » Texte original en anglais : "Imatinib mesylate is a protein-tyrosine kinase inhibitor that inhibits the BCR-ABL tyrosine kinase, the constitutive abnormal tyrosine kinase created by the Philadelphia chromosome abnormality in CML. Imatinib inhibits proliferation and induces apoptosis in BCR-ABL positive cell lines as well as fresh leukemic cells from Philadelphia chromosome positive chronic myeloid leukemia." ([DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b), version du 2026-07-13 ; consulté le 2026-11-19). D'après les connaissances publiées, l'imatinib inhibe les kinases ABL, KIT et PDGFR. Son efficacité est établie dans la leucémie myéloïde chronique, les GIST et le dermatofibrosarcome protubérant (DFSP).
 
 Le DFSP est souvent lié à la fusion COL1A1-PDGFB, qui active en continu le récepteur PDGFR-bêta, cible de l'imatinib. Le score élevé de TxGNN reflète probablement la proximité, dans le réseau de connaissances, entre le fibrosarcome cardiaque et le DFSP.
 
@@ -152,12 +152,13 @@ La notice officielle (mises en garde et contre-indications) n'a pas pu être exp
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et clarification du statut des AMM annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Gleevec (imatinib mesylate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=211ef2da-2868-4a77-8055-1cb2cd78e24b) |
 
 <!-- review:end log -->
 

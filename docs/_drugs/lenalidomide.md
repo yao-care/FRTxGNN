@@ -56,7 +56,7 @@ avec **42 essais cliniques** et **19 publications** associés à cette direction
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de référence. D'après les connaissances pharmacologiques établies, le lénalidomide est un modulateur de la ligase E3 céréblon : il provoque la dégradation d'IKZF1/IKZF3 et de CK1α (cette dernière expliquant la réponse dans les SMD avec délétion 5q), et exerce des effets immunomodulateurs (activation des lymphocytes T et NK).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lenalidomide (traduction non officielle) : « Le lénalidomide est un analogue du thalidomide doté de propriétés immunomodulatrices, antiangiogéniques et antinéoplasiques. Les activités cellulaires du lénalidomide sont médiées par sa cible, le céréblon, un composant d'un complexe enzymatique E3 ubiquitine ligase à anneau cullin. » Texte original en anglais : "Lenalidomide is an analogue of thalidomide with immunomodulatory, antiangiogenic, and antineoplastic properties. Cellular activities of lenalidomide are mediated through its target cereblon, a component of a cullin ring E3 ubiquitin ligase enzyme complex." ([DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be), version du 2023-03-24 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, le lénalidomide est un modulateur de la ligase E3 céréblon : il provoque la dégradation d'IKZF1/IKZF3 et de CK1α (cette dernière expliquant la réponse dans les SMD avec délétion 5q), et exerce des effets immunomodulateurs (activation des lymphocytes T et NK).
 
 Le myélome et les syndromes myélodysplasiques sont des hémopathies malignes où le médicament a déjà montré son utilité. La leucémie myéloïde aiguë (LAM) partage avec les SMD une origine dans le compartiment myéloïde et un risque de transformation fréquent, ce qui rend plausible l'extension du mécanisme.
 
@@ -141,6 +141,19 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Clarifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France.
 - Examiner les résultats détaillés des essais de phase 2/3 en LAM (en particulier NCT01358734, NCT01301820, NCT01522976) et rechercher des essais randomisés.
 - Définir un plan de surveillance hématologique (neutropénie, thrombopénie) et de prévention des thromboembolies, ainsi que la gestion des interactions avec les statines.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

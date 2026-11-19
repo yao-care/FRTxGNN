@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (s
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la doxazosine est un antagoniste des récepteurs alpha-1 adrénergiques, dont l'efficacité dans l'hypertension et l'hyperplasie bénigne de la prostate est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Doxazosin (traduction non officielle) : « Hyperplasie bénigne de la prostate (HBP) Les symptômes associés à l'hyperplasie bénigne de la prostate (HBP), tels que la pollakiurie, la nycturie, la faiblesse du jet, la dysurie d'attente et la vidange incomplète, sont liés à deux composantes, anatomique (statique) et fonctionnelle (dynamique). La composante statique est liée à une augmentation du volume de la prostate causée, en partie, par une prolifération des cellules musculaires lisses du stroma prostatique. […] Des études chez des sujets humains sains ont montré que la doxazosine antagonisait de manière compétitive les effets presseurs de la phényléphrine (un agoniste alpha 1) et l'effet presseur systolique de la noradrénaline. » Texte original en anglais : "Benign Prostatic Hyperplasia (BPH) The symptoms associated with benign prostatic hyperplasia (BPH), such as urinary frequency, nocturia, weak stream, hesitancy, and incomplete emptying are related to two components, anatomical (static) and functional (dynamic). The static component is related to an increase in prostate size caused, in part, by a proliferation of smooth muscle cells in the prostatic stroma. […] Studies in normal human subjects have shown that doxazosin competitively antagonized the pressor effects of phenylephrine (an alpha 1 agonist) and the systolic pressor effect of norepinephrine." ([DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82), version du 2023-10-15 ; consulté le 2026-11-19). Sur la base des informations connues, la doxazosine est un antagoniste des récepteurs alpha-1 adrénergiques, dont l'efficacité dans l'hypertension et l'hyperplasie bénigne de la prostate est établie.
 
 Le lien possible avec la migraine passe par la modulation du tonus adrénergique et vasculaire, ainsi que de la signalisation sympathique impliquée dans la vasoréactivité cérébrale. C'est l'argument développé dans l'unique article retrouvé (1997) sur les alpha-1 bloquants dans la prophylaxie de la migraine.
 
@@ -125,12 +125,13 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM (Doxazosine Teva LP 4 mg, n° 67970560) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cardura (doxazosin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5e1f5e49-2da1-43ab-9795-228a8bcc5a82) |
 
 <!-- review:end log -->
 

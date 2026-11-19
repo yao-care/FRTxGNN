@@ -56,7 +56,7 @@ avec **1 essai clinique** (où l'hydrocortisone sert de comparateur) et plusieur
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'hydrocortisone est un corticostéroïde de faible puissance qui freine l'activité immunitaire locale et l'inflammation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Hydrocortisone (traduction non officielle) : « L'hydrocortisone est un glucocorticoïde. Les glucocorticoïdes, stéroïdes corticosurrénaliens, entraînent des effets métaboliques variés. En outre, ils modifient les réponses immunitaires de l'organisme à divers stimuli.. » Texte original en anglais : "Hydrocortisone is a glucocorticoid. Glucocorticoids, adrenocortical steroids, cause varied metabolic effects. In addition, they modify the body's immune responses to diverse stimuli.." ([DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682), version du 2026-04-21 ; consulté le 2026-11-19). Sur la base des connaissances générales, l'hydrocortisone est un corticostéroïde de faible puissance qui freine l'activité immunitaire locale et l'inflammation.
 
 L'alopécie areata est une maladie auto-immune, médiée par les lymphocytes T, qui touche le follicule pileux. Les corticostéroïdes, par leur action immunosuppressive, constituent donc une piste cohérente sur le plan mécanistique.
 
@@ -110,6 +110,18 @@ Un essai randomisé de phase 3 chez l'enfant, directement centré sur l'alopéci
 - Les données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications issues des notices
 - Le choix de la voie d'administration (topique ou intralésionnelle) et de la population cible
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

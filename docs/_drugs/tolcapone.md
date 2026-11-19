@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**encéphalite sub
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, tolcapone est un inhibiteur de la COMT, enzyme qui dégrade les catécholamines dont la lévodopa. Son efficacité dans la maladie de Parkinson repose sur le prolongement de l'action de la dopamine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tolcapone (traduction non officielle) : « La tolcapone est un inhibiteur sélectif et réversible de la catéchol- O -méthyltransférase (COMT). Chez les mammifères, la COMT est distribuée dans divers organes. Les activités les plus élevées se trouvent dans le foie et le rein. La COMT est également présente dans le cœur, le poumon, les muscles lisses et squelettiques, le tractus intestinal, les organes reproducteurs, diverses glandes, le tissu adipeux, la peau, les cellules sanguines et les tissus neuronaux, en particulier dans les cellules gliales. » Texte original en anglais : "Tolcapone is a selective and reversible inhibitor of catechol- O -methyltransferase (COMT). In mammals, COMT is distributed throughout various organs. The highest activities are in the liver and kidney. COMT also occurs in the heart, lung, smooth and skeletal muscles, intestinal tract, reproductive organs, various glands, adipose tissue, skin, blood cells and neuronal tissues, especially in glial cells." ([DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736), version du 2020-10-02 ; consulté le 2026-11-19). Sur la base des informations connues, tolcapone est un inhibiteur de la COMT, enzyme qui dégrade les catécholamines dont la lévodopa. Son efficacité dans la maladie de Parkinson repose sur le prolongement de l'action de la dopamine.
 
 Pour l'encéphalite de Rasmussen, aucun lien mécanistique n'est étayé. Cette maladie est une encéphalite focale chronique à médiation immunitaire, et l'inhibition de la COMT n'y a pas de rôle établi. Le score élevé du modèle reflète une prédiction computationnelle, non une preuve biologique ou clinique.
 
@@ -116,11 +116,12 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et le produit n'est plus commercialisé en France (AMM annulée) avec un risque hépatique connu » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tasmar (tolcapone) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0e47a9d-78e7-4523-983a-aa259f221736) |
 
 <!-- review:end log -->
 

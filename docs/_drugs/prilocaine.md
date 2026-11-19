@@ -62,7 +62,7 @@ Parmi les autres indications prédites, la **névralgie** (notamment post-zosté
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la prilocaïne est un anesthésique local de la famille des amides, utilisé seul ou en association avec la lidocaïne (EMLA, Fortacin). Elle bloque les canaux sodiques voltage-dépendants, ce qui réduit la transmission de la douleur et la sensibilité cutanée ou muqueuse. Cet effet est cohérent avec ses usages d'origine (anesthésie de surface, retard de l'éjaculation par réduction de la sensibilité).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Prilocaine (traduction non officielle) : « La prilocaïne stabilise la membrane neuronale en inhibant les flux ioniques nécessaires à l'initiation et à la conduction des influx, produisant ainsi une action anesthésique locale. » Texte original en anglais : "Prilocaine stabilizes the neuronal membrane by inhibiting the ionic fluxes required for the initiation and conduction of impulses, thereby effecting local anesthetic action." ([DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41), version du 2021-11-10 ; consulté le 2026-11-19). Sur la base des informations connues, la prilocaïne est un anesthésique local de la famille des amides, utilisé seul ou en association avec la lidocaïne (EMLA, Fortacin). Elle bloque les canaux sodiques voltage-dépendants, ce qui réduit la transmission de la douleur et la sensibilité cutanée ou muqueuse. Cet effet est cohérent avec ses usages d'origine (anesthésie de surface, retard de l'éjaculation par réduction de la sensibilité).
 
 Pour la conjonctivite papillaire, le lien est **spéculatif** : un blocage des canaux sodiques pourrait atténuer les symptômes de surface oculaire, mais la prilocaïne n'est pas un agent ophtalmique et rien ne soutient son effet sur la maladie inflammatoire sous-jacente.
 
@@ -138,6 +138,19 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Pour la conjonctivite papillaire : une justification mécanistique et des données précliniques ou cliniques, en tenant compte de l'absence de formulation ophtalmique de la prilocaïne.
 - Pour la névralgie : des essais contrôlés isolant la contribution de la prilocaïne par rapport à la lidocaïne seule.
 - Un plan de surveillance de la méthémoglobinémie, notamment chez les enfants, les patients à barrière cutanée altérée et ceux recevant des médicaments interagissant.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Citanest Plain (prilocaine hydrochloride) prescribing information, Dentsply Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=db23a56f-1e41-4843-9220-1b2e3059db41) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

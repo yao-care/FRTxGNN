@@ -56,7 +56,7 @@ Les données compilées pour ce rapport montrent aussi que les autres prédictio
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, certolizumab pegol est un fragment d'anticorps humanisé pégylé qui neutralise le TNF-alpha. Son efficacité dans la polyarthrite rhumatoïde a été démontrée et, mécanistiquement, il pourrait être applicable à une complication de cette maladie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Certolizumab Pegol (traduction non officielle) : « Le certolizumab pegol se lie au TNFα humain avec une KD de 90pM. Le TNFα est une cytokine pro-inflammatoire clé jouant un rôle central dans les processus inflammatoires. Le certolizumab pegol neutralise sélectivement le TNFα (CI 90 de 4 ng/mL pour l'inhibition du TNFα humain dans le test de cytotoxicité in vitro sur fibrosarcome murin L929), mais ne neutralise pas la lymphotoxine α (TNFβ). » Texte original en anglais : "Certolizumab pegol binds to human TNFα with a KD of 90pM. TNFα is a key pro-inflammatory cytokine with a central role in inflammatory processes. Certolizumab pegol selectively neutralizes TNFα (IC 90 of 4 ng/mL for inhibition of human TNFα in the in vitro L929 murine fibrosarcoma cytotoxicity assay) but does not neutralize lymphotoxin α (TNFβ)." ([DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d), version du 2026-10-29 ; consulté le 2026-11-19). Sur la base des informations connues, certolizumab pegol est un fragment d'anticorps humanisé pégylé qui neutralise le TNF-alpha. Son efficacité dans la polyarthrite rhumatoïde a été démontrée et, mécanistiquement, il pourrait être applicable à une complication de cette maladie.
 
 La vascularite rhumatoïde est une complication de la polyarthrite rhumatoïde sévère, et le TNF-alpha est un moteur inflammatoire commun. Ce lien est plausible sur le papier.
 
@@ -131,12 +131,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et le statut réglementaire en France est « annulé » pour les deux AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cimzia (certolizumab pegol) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4c2c9dc-a0bb-4d64-a667-a67ebe88392d) |
 
 <!-- review:end log -->
 

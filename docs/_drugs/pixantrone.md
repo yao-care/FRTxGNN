@@ -56,7 +56,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cataracte d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, la pixantrone est une aza-anthracènedione qui agit comme inhibiteur de la topoisomérase II et agent intercalant de l'ADN. C'est un médicament cytotoxique destiné au traitement de cancers.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Pixantrone est (traduction non officielle) : « Agent de pontage de l'ADN » Texte original en anglais : "DNA cross-linking agent" ([ChEMBL CHEMBL167731 (pixantrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL167731), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, la pixantrone est une aza-anthracènedione qui agit comme inhibiteur de la topoisomérase II et agent intercalant de l'ADN. C'est un médicament cytotoxique destiné au traitement de cancers.
 
 Aucun lien mécanistique plausible avec la cataracte diabétique n'apparaît. Cette maladie fait intervenir l'activation de la voie des polyols, l'aldose réductase, le stress oxydatif et la glycation des protéines du cristallin. Un agent cytotoxique qui endommage l'ADN n'est pas biologiquement cohérent avec une atteinte chronique non maligne du cristallin.
 
@@ -115,12 +115,13 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'autorisation française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL167731 (pixantrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL167731) |
 
 <!-- review:end log -->
 

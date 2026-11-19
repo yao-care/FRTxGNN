@@ -56,7 +56,7 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, la quinidine est un antiarythmique de classe Ia qui bloque les canaux sodiques et potassiques, avec une activité anticholinergique et alpha-adrénergique bloquante. Son efficacité dans la fibrillation auriculaire et le paludisme est connue.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Quinidine (traduction non officielle) : « Chez les patients atteints de paludisme, la quinidine agit principalement comme schizonticide intra-érythrocytaire, avec peu d'effet sur les sporozoïtes ou sur les parasites pré-érythrocytaires. La quinidine est gamétocide pour Plasmodium vivax et P. malariae, mais pas pour P. falciparum. » Texte original en anglais : "In patients with malaria, quinidine acts primarily as an intra-erythrocytic schizonticide, with little effect upon sporozites or upon pre-erythrocytic parasites. Quinidine is gametocidal to Plasmodium vivax and P. malariae, but not to P. falciparum." ([DailyMed: quinidine gluconate prescribing information, Golden State Medical Supply](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ad2ad985-cca2-25b5-e053-2995a90a402f), version du 2024-08-27 ; consulté le 2026-11-19). D'après les connaissances générales, la quinidine est un antiarythmique de classe Ia qui bloque les canaux sodiques et potassiques, avec une activité anticholinergique et alpha-adrénergique bloquante. Son efficacité dans la fibrillation auriculaire et le paludisme est connue.
 
 Le SNAI est causé par des mutations gain de fonction du récepteur V2 de la vasopressine (AVPR2), entraînant une rétention d'eau et une hyponatrémie indépendamment de la vasopressine. Aucune voie établie ne relie les actions pharmacologiques de la quinidine à la signalisation d'AVPR2 ou à la gestion rénale de l'eau. Le lien mécanistique reste donc purement spéculatif.
 
@@ -107,11 +107,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et le profil de sécurité (risque de QT long, nombreuses interactions majeures) est préoccupant » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: quinidine gluconate prescribing information, Golden State Medical Supply](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ad2ad985-cca2-25b5-e053-2995a90a402f) |
 
 <!-- review:end log -->
 

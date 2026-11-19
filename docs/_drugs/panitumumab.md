@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations générales connues, le panitumumab est un anticorps monoclonal dirigé contre le récepteur de l'EGFR, dont l'efficacité dans le cancer colorectal métastatique est établie. Les données compilées pour ce rapport ne permettent pas de construire un lien mécanistique avec l'ostéoporose médicamenteuse.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Panitumumab (traduction non officielle) : « L'EGFR est une glycoprotéine transmembranaire appartenant à une sous-famille de récepteurs à activité tyrosine kinase de type I, comprenant EGFR, HER2, HER3 et HER4. L'EGFR est exprimé de manière constitutive dans les tissus épithéliaux normaux, notamment la peau et les follicules pileux. […] Le panitumumab se lie spécifiquement à l'EGFR des cellules normales comme des cellules tumorales et inhibe de manière compétitive la liaison des ligands de l'EGFR. » Texte original en anglais : "The EGFR is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases, including EGFR, HER2, HER3, and HER4. EGFR is constitutively expressed in normal epithelial tissues, including the skin and hair follicle. […] Panitumumab binds specifically to EGFR on both normal and tumor cells, and competitively inhibits the binding of ligands for EGFR." ([DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2), version du 2026-06-23 ; consulté le 2026-11-19). Sur la base des informations générales connues, le panitumumab est un anticorps monoclonal dirigé contre le récepteur de l'EGFR, dont l'efficacité dans le cancer colorectal métastatique est établie. Les données compilées pour ce rapport ne permettent pas de construire un lien mécanistique avec l'ostéoporose médicamenteuse.
 
 La signalisation de l'EGFR a été évoquée dans la régulation du remodelage osseux (ostéoblastes et ostéoclastes), mais il s'agit d'un contexte général, non d'une preuve issue des données fournies. Le score élevé du modèle TxGNN (apprentissage profond) pour l'ostéoporose médicamenteuse (0,9913) reste une prédiction computationnelle, qui peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -126,12 +126,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 66403621 (VECTIBIX 20 mg/ml) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vectibix (panitumumab) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e0fa4bca-f245-4d92-ae29-b0c630a315c2) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Le frovatriptan est un triptan (agoniste des récepteurs sérotoninergiques 5-HT
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature, le frovatriptan est un triptan de seconde génération dont l'action est attribuée à l'agonisme des récepteurs 5-HT1B et 5-HT1D. Il inhibe la vasodilatation des artères intracrâniennes et extracérébrales, avec une possible action anti-inflammatoire. Sa demi-vie d'élimination est longue (environ 26 heures).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Frovatriptan (traduction non officielle) : « Le frovatriptan se lie avec une forte affinité aux récepteurs 5-HT 1B/1D. On pense que l'activité thérapeutique du succinate de frovatriptan est due aux effets agonistes au niveau des récepteurs 5-HT 1B/1D situés sur les vaisseaux sanguins intracrâniens (y compris les anastomoses artério-veineuses) et sur les nerfs sensitifs du système trigéminal, effets qui entraînent une constriction des vaisseaux crâniens et une inhibition de la libération de neuropeptides pro-inflammatoires. » Texte original en anglais : "Frovatriptan binds with high affinity to 5-HT 1B/1D receptors. The therapeutic activity of frovatriptan succinate is thought to be due to the agonist effects at the 5-HT 1B/1D receptors on intracranial blood vessels (including the arterio-venous anastomoses) and sensory nerves of the trigeminal system which result in cranial vessel constriction and inhibition of pro-inflammatory neuropeptide release." ([DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd), version du 2026-06-27 ; consulté le 2026-11-19). D'après la littérature, le frovatriptan est un triptan de seconde génération dont l'action est attribuée à l'agonisme des récepteurs 5-HT1B et 5-HT1D. Il inhibe la vasodilatation des artères intracrâniennes et extracérébrales, avec une possible action anti-inflammatoire. Sa demi-vie d'élimination est longue (environ 26 heures).
 
 La migraine avec aura du tronc cérébral est un sous-type de la migraine avec aura. Les voies sérotoninergique et trigémino-vasculaire sont partagées, ce qui rend le lien mécanistique plausible. Une publication (PMID 25916333) compare le frovatriptan à d'autres triptans dans la migraine avec aura.
 
@@ -135,13 +135,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es cinq AMM identifiées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et l'annulation de toutes les AMM françaises appellent à la prudence » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: frovatriptan succinate prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d303af88-e0c1-4fb2-ba8e-83b7e6d163cd) |
 
 <!-- review:end log -->
 

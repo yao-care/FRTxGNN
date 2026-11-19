@@ -58,7 +58,7 @@ Le rang 4 a été retenu comme candidat principal en raison de la qualité relat
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le chlorambucil est un agent alkylant (moutarde azotée) qui réticule l'ADN des cellules lymphoïdes, avec une efficacité établie dans plusieurs hémopathies B.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Chlorambucil (traduction non officielle) : « Le chlorambucil, un dérivé aromatique de la moutarde azotée, est un agent alkylant. Le chlorambucil interfère avec la réplication de l'ADN et induit l'apoptose cellulaire par l'accumulation de p53 cytosolique et l'activation subséquente de Bax, un promoteur de l'apoptose. » Texte original en anglais : "Chlorambucil, an aromatic nitrogen mustard derivative, is an alkylating agent. Chlorambucil interferes with DNA replication and induces cellular apoptosis via the accumulation of cytosolic p53 and subsequent activation of Bax, an apoptosis promoter." ([DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213), version du 2025-01-08 ; consulté le 2026-11-19). D'après les informations connues, le chlorambucil est un agent alkylant (moutarde azotée) qui réticule l'ADN des cellules lymphoïdes, avec une efficacité établie dans plusieurs hémopathies B.
 
 Le lymphome pulmonaire primitif correspond le plus souvent à un lymphome de la zone marginale de type MALT, un lymphome B indolent extranodal. Cette tumeur est proche, par sa nature de lymphome B de bas grade, des indications d'origine (lymphome folliculaire, néoplasme des cellules B matures). Les alkylants comme le chlorambucil ont été utilisés dans les lymphomes MALT, y compris dans des recommandations de prise en charge des lymphomes extranodaux et dans des séries rétrospectives.
 
@@ -143,12 +143,13 @@ Pour les mises en garde officielles, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « n'a plus d'AMM valide en France et » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM unique étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Leukeran (chlorambucil) prescribing information, Waylis Therapeutics LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58a3c995-5ad6-465d-8437-5970c9088213) |
 
 <!-- review:end log -->
 

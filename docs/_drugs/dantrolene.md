@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré ; **18 publications** (revues, recommanda
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les publications disponibles, le dantrolène agit sur le récepteur de la ryanodine de type 1 (RYR1), le canal qui libère le calcium du réticulum sarcoplasmique dans le muscle squelettique, et réduit cette libération. Une étude de 2017 (PMID 28373535) indique en outre que son action nécessite la présence de magnésium (Mg2+).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dantrolene (traduction non officielle) : « Dans une préparation nerf-muscle isolée, il a été démontré que le dantrolène produit un relâchement en agissant sur la réponse contractile du muscle à un site situé au-delà de la jonction neuromusculaire. Dans le muscle squelettique, le dantrolène dissocie le couplage excitation-contraction, probablement en interférant avec la libération de Ca ++ par le réticulum sarcoplasmique. » Texte original en anglais : "In isolated nerve-muscle preparation, dantrolene has been shown to produce relaxation by affecting the contractile response of the muscle at a site beyond the myoneural junction. In skeletal muscle, dantrolene dissociates the excitation-contraction coupling, probably by interfering with the release of Ca ++ from the sarcoplasmic reticulum." ([DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698), version du 2024-10-30 ; consulté le 2026-11-19). D'après les publications disponibles, le dantrolène agit sur le récepteur de la ryanodine de type 1 (RYR1), le canal qui libère le calcium du réticulum sarcoplasmique dans le muscle squelettique, et réduit cette libération. Une étude de 2017 (PMID 28373535) indique en outre que son action nécessite la présence de magnésium (Mg2+).
 
 L'hyperthermie maligne est un trouble pharmacogénétique du muscle squelettique, dû principalement à des variants de RYR1 (plus rarement de CACNA1S) qui provoquent une libération incontrôlée de calcium en présence d'anesthésiques volatils ou de succinylcholine. Le lien mécanistique est donc direct. Il faut toutefois souligner que la « nouvelle » indication prédite correspond à l'indication d'origine : la prédiction est cohérente, mais elle n'apporte pas de nouvelle piste thérapeutique.
 
@@ -135,12 +135,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es trois AMM suivantes sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « aucune AMM n'est en vigueur en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ryanodex Dantrolene Sodium (dantrolene sodium) prescribing information, Eagle Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7b3ac0-604d-4c78-b545-5e0f8ea3d698) |
 
 <!-- review:end log -->
 

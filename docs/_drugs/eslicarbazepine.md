@@ -62,7 +62,7 @@ avec **1 essai clinique** de phase 2 terminé et **aucune publication** portant 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'eslicarbazépine appartient à la classe des antiépileptiques bloqueurs des canaux sodiques voltage-dépendants : elle stabilise l'état inactivé du canal et réduit l'hyperexcitabilité neuronale. Ce lien est déduit de la classe pharmacologique et n'est pas documenté dans les données compilées.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Eslicarbazepine (traduction non officielle) : « APTIOM est largement converti en eslicarbazépine, qui est considérée comme responsable des effets thérapeutiques chez l'homme. Le ou les mécanismes précis par lesquels l'eslicarbazépine exerce son activité anticonvulsivante sont inconnus, mais on pense qu'ils impliquent une inhibition des canaux sodiques voltage-dépendants. » Texte original en anglais : "APTIOM is extensively converted to eslicarbazepine, which is considered to be responsible for therapeutic effects in humans. The precise mechanism(s) by which eslicarbazepine exerts anticonvulsant activity is unknown but is thought to involve inhibition of voltage-gated sodium channels." ([DailyMed: Aptiom (eslicarbazepine acetate) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d0c9554-eaeb-4694-8089-00133fcadce3), version du 2023-11-10 ; consulté le 2026-11-19). Sur la base des informations connues, l'eslicarbazépine appartient à la classe des antiépileptiques bloqueurs des canaux sodiques voltage-dépendants : elle stabilise l'état inactivé du canal et réduit l'hyperexcitabilité neuronale. Ce lien est déduit de la classe pharmacologique et n'est pas documenté dans les données compilées.
 
 Une hyperexcitabilité corticale et la dépression corticale envahissante sont impliquées dans la physiopathologie de la migraine. D'autres antiépileptiques (topiramate, valproate) sont des traitements préventifs établis, ce qui rend l'hypothèse plausible. Le score TxGNN très élevé (0,9978) est cohérent avec ce raisonnement de classe.
 
@@ -128,13 +128,14 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'eslicarbazépine est un antiépileptique (anticonvulsivant) dont les autorisations françaises sont aujourd'hui toutes annulées, et dont le t » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et le statut de marché actuel » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aptiom (eslicarbazepine acetate) prescribing information, Sumitomo Pharma America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d0c9554-eaeb-4694-8089-00133fcadce3) |
 
 <!-- review:end log -->
 

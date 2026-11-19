@@ -60,7 +60,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la levodopa est un précurseur de la dopamine, généralement associé à un inhibiteur de la décarboxylase (carbidopa ou bensérazide) et parfois à l'entacapone. Son efficacité dans la maladie de Parkinson est établie : elle compense le déficit en dopamine dans les voies nigrostriatales.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Levodopa (traduction non officielle) : « La lévodopa, précurseur métabolique de la dopamine, traverse la barrière hémato-encéphalique et est vraisemblablement convertie en dopamine dans le cerveau. On pense que c'est par ce mécanisme que la lévodopa soulage les symptômes de la maladie de Parkinson. » Texte original en anglais : "Levodopa, the metabolic precursor of dopamine, crosses the blood-brain barrier and presumably is converted to dopamine in the brain. This is thought to be the mechanism whereby levodopa relieves symptoms of Parkinson's disease." ([DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb), version du 2026-07-20 ; consulté le 2026-11-19). Sur la base des informations connues, la levodopa est un précurseur de la dopamine, généralement associé à un inhibiteur de la décarboxylase (carbidopa ou bensérazide) et parfois à l'entacapone. Son efficacité dans la maladie de Parkinson est établie : elle compense le déficit en dopamine dans les voies nigrostriatales.
 
 L'encéphalite de Rasmussen est une maladie inflammatoire cérébrale rare, généralement unilatérale, à médiation lymphocytaire T. Elle provoque une épilepsie focale pharmacorésistante, une atrophie progressive d'un hémisphère et un déficit neurologique. Le lien avec l'indication d'origine reste hypothétique : le modèle a pu rapprocher les deux maladies par des phénotypes neurologiques communs (troubles moteurs, atteinte des noyaux gris centraux, hémiparésie ou hémiatrophie, comme dans le syndrome d'hémiparkinsonisme-hémiatrophie).
 
@@ -130,11 +130,12 @@ Les mises en garde et contre-indications issues des notices ne sont pas disponib
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-15 | « clarifier la situation réglementaire (AMM annulées » → « clarifier la situation réglementaire » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Inbrija (levodopa) prescribing information, Merz Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=077c0f39-a3a2-4b2b-a184-09131889dcfb) |
 
 <!-- review:end log -->
 

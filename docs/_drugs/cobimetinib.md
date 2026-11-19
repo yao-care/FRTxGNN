@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le cobimétinib appartient à la classe des inhibiteurs de MEK1/2, qui bloquent la voie MAPK/ERK. Son efficacité dans le mélanome métastatique (généralement en association avec un inhibiteur de BRAF) relève de cette classe pharmacologique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cobimetinib (traduction non officielle) : « Le cobimétinib est un inhibiteur réversible de la protéine kinase activée par les mitogènes (MAPK)/kinase 1 régulée par les signaux extracellulaires (MEK1) et de MEK2. Les protéines MEK sont des régulateurs en amont de la voie de la kinase régulée par les signaux extracellulaires (ERK), qui favorise la prolifération cellulaire. » Texte original en anglais : "Cobimetinib is a reversible inhibitor of mitogen-activated protein kinase (MAPK)/extracellular signal regulated kinase 1 (MEK1) and MEK2. MEK proteins are upstream regulators of the extracellular signal-related kinase (ERK) pathway, which promotes cellular proliferation." ([DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6), version du 2026-07-29 ; consulté le 2026-11-19). Sur la base des informations connues, le cobimétinib appartient à la classe des inhibiteurs de MEK1/2, qui bloquent la voie MAPK/ERK. Son efficacité dans le mélanome métastatique (généralement en association avec un inhibiteur de BRAF) relève de cette classe pharmacologique.
 
 L'activation de la voie MAPK/ERK a été évoquée dans la neuroinflammation et les réponses de stress des motoneurones dans la SLA. Un lien plausible existe donc, mais il n'est pas validé. Le score TxGNN est très élevé (0,9973), sans aucun essai ni publication dans les données fournies.
 
@@ -128,12 +128,13 @@ Les mises en garde et contre-indications officielles ne sont pas disponibles ; v
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée, et les données de sécurité de la notice manquent (point bloquant) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier la pertinence de l'AMM annulée (disponibilité du produit en France) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cotellic (cobimetinib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c387579e-cee0-4334-bd1e-73f93ac1bde6) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension ré
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'irbésartan est un antagoniste du récepteur AT1 de l'angiotensine II. Son efficacité dans l'hypertension et la néphropathie diabétique est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Irbesartan (traduction non officielle) : « L'angiotensine II est un puissant vasoconstricteur formé à partir de l'angiotensine I au cours d'une réaction catalysée par l'enzyme de conversion de l'angiotensine (ECA, kininase II). L'angiotensine II est la principale hormone vasoactive du système rénine-angiotensine et un élément important de la physiopathologie de l'hypertension. […] L'irbésartan bloque les effets vasoconstricteurs et les effets de sécrétion d'aldostérone de l'angiotensine II en se liant sélectivement au récepteur AT 1 de l'angiotensine II présent dans de nombreux tissus (par exemple, le muscle lisse vasculaire, la glande surrénale). » Texte original en anglais : "Angiotensin II is a potent vasoconstrictor formed from angiotensin I in a reaction catalyzed by angiotensin-converting enzyme (ACE, kininase II). Angiotensin II is the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. […] Irbesartan blocks the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively binding to the AT 1 angiotensin II receptor found in many tissues (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98), version du 2026-08-24 ; consulté le 2026-11-19). Sur la base des connaissances générales, l'irbésartan est un antagoniste du récepteur AT1 de l'angiotensine II. Son efficacité dans l'hypertension et la néphropathie diabétique est établie.
 
 L'hypertension rénovasculaire est en grande partie liée à l'activation du système rénine-angiotensine. Le blocage du récepteur AT1 est donc biologiquement plausible. Cependant, les ARA II sont généralement contre-indiqués ou à utiliser avec grande prudence en cas de sténose bilatérale des artères rénales, en raison du risque d'insuffisance rénale aiguë.
 
@@ -121,11 +121,12 @@ La notice (mises en garde et contre-indications officielles) n'a pas pu être an
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le niraparib appartient à la classe des inhibiteurs de PARP1/2. Ces médicaments exploitent la « létalité synthétique » : les cellules tumorales dont la réparation de l'ADN par recombinaison homologue est déficiente ne survivent pas lorsque PARP est bloquée.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Niraparib (traduction non officielle) : « Le niraparib est un inhibiteur des enzymes PARP, notamment PARP-1 et PARP-2, qui jouent un rôle dans la réparation de l'ADN. Des études in vitro ont montré que la cytotoxicité induite par le niraparib pourrait impliquer l'inhibition de l'activité enzymatique des PARP et une formation accrue de complexes PARP-ADN, entraînant des lésions de l'ADN, l'apoptose et la mort cellulaire. » Texte original en anglais : "Niraparib is an inhibitor of PARP enzymes, including PARP-1 and PARP-2, that play a role in DNA repair. In vitro studies have shown that niraparib-induced cytotoxicity may involve inhibition of PARP enzymatic activity and increased formation of PARP-DNA complexes resulting in DNA damage, apoptosis, and cell death." ([DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d), version du 2026-07-28 ; consulté le 2026-11-19). D'après les connaissances générales, le niraparib appartient à la classe des inhibiteurs de PARP1/2. Ces médicaments exploitent la « létalité synthétique » : les cellules tumorales dont la réparation de l'ADN par recombinaison homologue est déficiente ne survivent pas lorsque PARP est bloquée.
 
 Les indications d'origine (cancer de l'ovaire, carcinome péritonéal primitif, tumeur desmoplastique à petites cellules rondes) sont des tumeurs pour lesquelles cette vulnérabilité est bien décrite. Le passage vers une tumeur de l'épiglotte reposerait sur l'hypothèse que certaines tumeurs de la tête et du cou présenteraient aussi un déficit de réparation de l'ADN.
 
@@ -138,13 +138,14 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les trois AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier la situation réglementaire : les AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zejula (niraparib) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7f675e2-159c-490c-b6f4-3f16d9492b7d) |
 
 <!-- review:end log -->
 

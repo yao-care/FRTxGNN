@@ -59,7 +59,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome n�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le mannitol est un agent osmotique qui favorise la diurèse hydrique et pourrait, en théorie, faire augmenter la natrémie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mannitol (traduction non officielle) : « Le mannitol, lorsqu'il est administré par voie intraveineuse, exerce son effet diurétique osmotique en tant que soluté de taille moléculaire relativement petite, confiné en grande partie à l'espace extracellulaire. Le mannitol entrave la réabsorption tubulaire de l'eau et augmente l'excrétion du sodium et du chlorure en élevant l'osmolarité du filtrat glomérulaire. » Texte original en anglais : "Mannitol, when administered intravenously, exerts its osmotic diuretic effect as a solute of relatively small molecular size being largely confined to the extracellular space. Mannitol hinders tubular reabsorption of water and enhances excretion of sodium and chloride by elevating the osmolarity of the glomerular filtrate." ([DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc), version du 2025-08-26 ; consulté le 2026-11-19). Sur la base des informations connues, le mannitol est un agent osmotique qui favorise la diurèse hydrique et pourrait, en théorie, faire augmenter la natrémie.
 
 Cependant, le syndrome néphrogénique d'antidiurèse inappropriée est causé par des mutations avec gain de fonction du récepteur V2 de la vasopressine (AVPR2). Le mannitol n'agit pas sur cette voie. La seule publication associée est une revue générale sur les pièges de l'évaluation de l'hyponatrémie, qui ne contient aucune donnée spécifique au mannitol.
 
@@ -134,11 +134,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Osmitrol (mannitol) prescribing information, Baxter Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d914965-7001-45cb-ba51-d7c5964b05bc) |
 
 <!-- review:end log -->
 

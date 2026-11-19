@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **maladie de la ca
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la cétirizine appartient à la classe des antagonistes des récepteurs H1 de l'histamine, qui bloquent la liaison de l'histamine sur les terminaisons nerveuses, les muscles lisses et les cellules glandulaires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cetirizine (traduction non officielle) : « Le chlorhydrate de cétirizine, un métabolite humain de l'hydroxyzine, est un antihistaminique ; ses principaux effets sont médiés par l'inhibition sélective des récepteurs H 1 périphériques. L'activité antihistaminique du chlorhydrate de cétirizine a été clairement documentée dans divers modèles animaux et humains. » Texte original en anglais : "Cetirizine hydrochloride, a human metabolite of hydroxyzine, is an antihistamine; its principal effects are mediated via selective inhibition of peripheral H 1 -receptors. The antihistaminic activity of cetirizine hydrochloride has been clearly documented in a variety of animal and human models." ([DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d), version du 2026-09-22 ; consulté le 2026-11-19). Sur la base des connaissances générales, la cétirizine appartient à la classe des antagonistes des récepteurs H1 de l'histamine, qui bloquent la liaison de l'histamine sur les terminaisons nerveuses, les muscles lisses et les cellules glandulaires.
 
 La catégorie « maladie de la cavité nasale » est large et peu spécifique. Les revues citées (PMID 11291777) soutiennent un bénéfice des antihistaminiques dans la rhinite allergique, mais pour les autres affections nasales ou sinusiennes, le lien mécanistique reste indirect. Le score élevé reflète probablement un recoupement avec les usages allergiques déjà connus plutôt qu'une véritable nouvelle utilisation.
 
@@ -105,6 +105,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Rechercher des essais cliniques ou publications ciblant cette sous-indication avec la cétirizine
 - Obtenir les données détaillées sur le mécanisme d'action
 - Récupérer les mises en garde et contre-indications de la notice officielle pour l'évaluation de sécurité
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

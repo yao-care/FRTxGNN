@@ -56,7 +56,7 @@ avec **aucun essai clinique** et **1 publication** (une étude in vitro) soutena
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, l'abacavir est un INTI : il est converti dans la cellule en carbovir triphosphate, qui interrompt l'élongation de l'ADN viral.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour abacavir and lamivudine (association contenant Abacavir) (traduction non officielle) : « L'abacavir et la lamivudine est un agent antirétroviral actif contre le VIH-1. » Texte original en anglais : "Abacavir and lamivudine is an antiretroviral agent with activity against HIV-1." ([DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c), version du 2026-09-18 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'abacavir est un INTI : il est converti dans la cellule en carbovir triphosphate, qui interrompt l'élongation de l'ADN viral.
 
 Le virus de l'immunodéficience simienne (SIV) est un lentivirus proche du VIH, qui utilise une transcriptase inverse homologue. Sur le plan mécanistique, la plausibilité est donc élevée.
 
@@ -100,6 +100,19 @@ Seule une étude in vitro indirecte soutient cette prédiction, sans essai clini
 - Mises en garde et contre-indications issues de la notice officielle
 - Définition d'un intérêt thérapeutique réel (humain ou vétérinaire) justifiant un développement
 - Études précliniques dédiées à l'abacavir seul contre le SIV
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: abacavir and lamivudine prescribing information, Laurus Labs Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12e80eb-906c-4932-bb03-b4060ba1d31c) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -60,7 +60,7 @@ Pour la prédiction suivante, le **carcinome endocervical**, on dénombre **2 es
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'atézolizumab est un inhibiteur de point de contrôle immunitaire qui bloque PD-L1 et peut ainsi restaurer l'activité antitumorale des lymphocytes T.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Atezolizumab (traduction non officielle) : « PD L1 peut être exprimé sur les cellules tumorales et/ou les cellules immunitaires infiltrant la tumeur et peut contribuer à l'inhibition de la réponse immunitaire antitumorale dans le microenvironnement tumoral. La liaison de PD L1 aux récepteurs PD 1 et B7.1 présents sur les lymphocytes T et les cellules présentatrices d'antigène supprime l'activité des lymphocytes T cytotoxiques, la prolifération des lymphocytes T et la production de cytokines. […] L'atézolizumab est un anticorps monoclonal qui se lie à PD L1 et bloque ses interactions avec les récepteurs PD 1 et B7.1. » Texte original en anglais : "PD L1 may be expressed on tumor cells and/or tumor infiltrating immune cells and can contribute to the inhibition of the anti-tumor immune response in the tumor microenvironment. Binding of PD L1 to the PD 1 and B7.1 receptors found on T cells and antigen presenting cells suppresses cytotoxic T-cell activity, T-cell proliferation and cytokine production. […] Atezolizumab is a monoclonal antibody that binds to PD L1 and blocks its interactions with both PD 1 and B7.1 receptors." ([DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee), version du 2026-10-13 ; consulté le 2026-11-19). D'après les connaissances générales, l'atézolizumab est un inhibiteur de point de contrôle immunitaire qui bloque PD-L1 et peut ainsi restaurer l'activité antitumorale des lymphocytes T.
 
 La relation avec l'indication d'origine (carcinome urothélial) repose sur ce principe : de nombreuses tumeurs solides expriment PD-L1. Un adénocarcinome gynécologique pourrait donc, en théorie, répondre à un blocage de cette voie.
 
@@ -151,6 +151,19 @@ Ces interactions concernent surtout les immunosuppresseurs et les vaccins vivant
 - Des données d'expression de PD-L1 et des études spécifiques aux histologies gynécologiques rares concernées
 - Les résultats d'efficacité des essais NCT02921269 et NCT03738228 pour évaluer le carcinome endocervical
 - Les textes d'indication des AMM pour confirmer les usages approuvés
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tecentriq (atezolizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa682c9-a312-4932-9831-f286908660ee) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

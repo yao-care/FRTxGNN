@@ -54,7 +54,7 @@ La rispéridone est un antipsychotique atypique. Le modèle TxGNN prédit qu'ell
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la rispéridone est un antipsychotique atypique dont l'action repose sur l'antagonisme des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Risperidone (traduction non officielle) : « Le mécanisme d'action de la rispéridone dans la schizophrénie n'est pas clair. L'activité thérapeutique du médicament dans la schizophrénie pourrait être médiée par une combinaison d'antagonisme des récepteurs dopaminergiques de type 2 (D 2 ) et sérotoninergiques de type 2 (5HT 2 ). » Texte original en anglais : "The mechanism of action of risperidone in schizophrenia is unclear. The drug's therapeutic activity in schizophrenia could be mediated through a combination of dopamine Type 2 (D 2 ) and serotonin Type 2 (5HT 2 ) receptor antagonism." ([DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0), version du 2026-10-23 ; consulté le 2026-11-19). D'après les connaissances générales, la rispéridone est un antipsychotique atypique dont l'action repose sur l'antagonisme des récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A.
 
 Pour la maladie prédite, aucun lien mécanistique crédible n'est identifiable. Il s'agit d'un trouble génétique rare (lié à ROBO3) affectant le guidage des axones dans le tronc cérébral postérieur. L'antagonisme D2/5-HT2A n'a pas de pertinence connue pour cette pathologie. Le score élevé du modèle TxGNN reflète une prédiction algorithmique seule, sans étude clinique ni publication à l'appui. Cette prédiction doit donc être considérée comme très spéculative.
 
@@ -100,6 +100,18 @@ La prédiction repose uniquement sur le score du modèle (0,9976), sans essai cl
 - Des données précliniques ou des observations cliniques dans cette maladie
 - Les données de mécanisme d'action détaillées
 - Les mises en garde et contre-indications issues de la notice
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Risperdal (risperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e117c7e-02fc-4343-92a1-230061dfc5e0) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

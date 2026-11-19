@@ -60,7 +60,7 @@ Il s'agit donc d'une prédiction purement computationnelle, à ce stade.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, la colchicine se lie à la tubuline et perturbe la polymérisation des microtubules. Son efficacité dans la goutte et la fièvre méditerranéenne familiale repose sur cet effet : réduction de la chimiotaxie des neutrophiles et de l'activation de l'inflammasome, avec diminution de l'inflammation dépendante de l'IL-1β.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Colchicine (traduction non officielle) : « L'efficacité de la colchicine dans le traitement de la goutte serait due à sa capacité à bloquer les réponses inflammatoires médiées par les neutrophiles, induites par les cristaux d'urate monosodique dans le liquide synovial. La colchicine perturbe la polymérisation de la β-tubuline en microtubules, empêchant ainsi l'activation, la dégranulation et la migration des neutrophiles vers les sites d'inflammation. » Texte original en anglais : "Colchicine’s effectiveness as a treatment for gout has been postulated to be due to its ability to block neutrophil-mediated inflammatory responses induced by monosodium urate crystals in synovial fluid. Colchicine disrupts the polymerization of β-tubulin into microtubules, thereby preventing the activation, degranulation, and migration of neutrophils to sites of inflammation." ([DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2), version du 2026-10-16 ; consulté le 2026-11-19). D'après les connaissances générales, la colchicine se lie à la tubuline et perturbe la polymérisation des microtubules. Son efficacité dans la goutte et la fièvre méditerranéenne familiale repose sur cet effet : réduction de la chimiotaxie des neutrophiles et de l'activation de l'inflammasome, avec diminution de l'inflammation dépendante de l'IL-1β.
 
 *Plasmodium falciparum* dépend des microtubules pour la formation du fuseau mitotique et la division cellulaire. Un médicament ciblant la tubuline est donc biologiquement plausible. Toutefois, le lien avec l'indication originale (maladies inflammatoires) est indirect : il s'agit d'une hypothèse de mécanisme, et non d'une similarité entre maladies.
 
@@ -135,11 +135,12 @@ Pour les mises en garde officielles, veuillez consulter la notice, car les donn�
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Mitigare (colchicine) prescribing information, Hikma Specialty USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb5f9d85-6b81-49f8-bcd6-17b7bfbc10f2) |
 
 <!-- review:end log -->
 

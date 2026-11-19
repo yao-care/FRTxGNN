@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la tétrabénazine est un inhibiteur réversible du transporteur vésiculaire des monoamines de type 2 (VMAT2) : elle déplète les monoamines présynaptiques (dopamine notamment) et soulage ainsi de façon symptomatique les mouvements hyperkinétiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tetrabenazine (traduction non officielle) : « Le mécanisme précis par lequel XENAZINE (tétrabénazine) exerce ses effets anti-chorée est inconnu, mais on pense qu'il est lié à son effet de déplétion réversible des monoamines (telles que la dopamine, la sérotonine, la noradrénaline et l'histamine) des terminaisons nerveuses. La tétrabénazine inhibe de manière réversible le transporteur vésiculaire des monoamines humain de type 2 (VMAT2) (K i ≈ 100 nM), ce qui entraîne une diminution de la recapture des monoamines dans les vésicules synaptiques et une déplétion des réserves de monoamines. » Texte original en anglais : "The precise mechanism by which XENAZINE (tetrabenazine) exerts its anti-chorea effects is unknown but is believed to be related to its effect as a reversible depletor of monoamines (such as dopamine, serotonin, norepinephrine, and histamine) from nerve terminals. Tetrabenazine reversibly inhibits the human vesicular monoamine transporter type 2 (VMAT2) (K i ≈ 100 nM), resulting in decreased uptake of monoamines into synaptic vesicles and depletion of monoamine stores." ([DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda), version du 2026-11-06 ; consulté le 2026-11-19). D'après les connaissances générales, la tétrabénazine est un inhibiteur réversible du transporteur vésiculaire des monoamines de type 2 (VMAT2) : elle déplète les monoamines présynaptiques (dopamine notamment) et soulage ainsi de façon symptomatique les mouvements hyperkinétiques.
 
 La relation entre l'indication originale (trouble moteur neurologique) et la nouvelle indication (maladie rénale/hépatique kystique d'origine génétique, de type ciliopathie) n'est pas évidente. Aucun lien mécanistique plausible entre l'inhibition de VMAT2 et la physiopathologie de la polykystose rénale n'a été identifié.
 
@@ -111,11 +111,12 @@ Veuillez consulter la notice pour les informations de sécurité détaillées (m
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xenazine (tetrabenazine) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac768bab-8afa-4446-bc7f-caeeffec0cda) |
 
 <!-- review:end log -->
 

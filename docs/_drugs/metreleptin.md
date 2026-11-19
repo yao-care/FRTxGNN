@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **lentiginose g
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la metreleptine est un analogue de la leptine : elle corrige le déficit en leptine observé dans les lipodystrophies, où le tissu adipeux est absent ou insuffisant.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Metreleptin (traduction non officielle) : « Les adipocytes stockent les lipides afin de répondre aux besoins énergétiques des tissus non adipeux pendant le jeûne. Chez les patients atteints de lipodystrophie généralisée, le déficit en tissu adipeux entraîne une hypertriglycéridémie et un dépôt ectopique de graisse dans les tissus non adipeux tels que le foie et le muscle, contribuant à des anomalies métaboliques, notamment une insulinorésistance. […] MYALEPT (métréleptine) pour injection exerce sa fonction en se liant au récepteur humain de la leptine (ObR) et en l'activant ; ce récepteur appartient à la famille des récepteurs de cytokines de classe I, qui transmet son signal par la voie de transduction JAK/STAT. » Texte original en anglais : "Adipocytes store lipids to meet the fuel requirements of non-adipose tissues during fasting. In patients with generalized lipodystrophy, the deficiency of adipose tissue leads to hypertriglyceridemia and ectopic deposition of fat in non-adipose tissues such as liver and muscle, contributing to metabolic abnormalities including insulin resistance. […] MYALEPT (metreleptin) for injection exerts its function by binding to and activating the human leptin receptor (ObR), which belongs to the Class I cytokine family of receptors that signals through the JAK/STAT transduction pathway." ([DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc), version du 2024-03-25 ; consulté le 2026-11-19). Sur la base des informations connues, la metreleptine est un analogue de la leptine : elle corrige le déficit en leptine observé dans les lipodystrophies, où le tissu adipeux est absent ou insuffisant.
 
 Le lien avec la lentiginose généralisée familiale, un trouble pigmentaire rare, n'est pas évident. Aucun mécanisme plausible reliant la voie de la leptine à ce trouble n'a pu être identifié à partir des données compilées. Le score élevé reflète vraisemblablement une proximité dans le réseau de connaissances (annotations communes de maladies rares, notamment génodermatoses) plutôt qu'une réalité biologique.
 
@@ -124,11 +124,12 @@ Titulaire : CHIESI FARMACEUTICI.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Myalept (metreleptin) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d3b50bbd-140b-425c-b5ec-d4682aad62bc) |
 
 <!-- review:end log -->
 

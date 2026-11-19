@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'atazanavir fait partie des inhibiteurs de protéase du VIH, et pourrait, mécanistiquement, être applicable à une infection voisine.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Atazanavir (traduction non officielle) : « L'atazanavir est un médicament antirétroviral anti-VIH-1. […] L'atazanavir (ATV) est un inhibiteur azapeptidique de la protéase (IP) du VIH-1. Le composé inhibe sélectivement la maturation spécifique au virus des polyprotéines virales Gag et Gag-Pol dans les cellules infectées par le VIH-1, empêchant ainsi la formation de virions matures. » Texte original en anglais : "Atazanavir is an HIV-1 antiretroviral drug. […] Atazanavir (ATV) is an azapeptide HIV-1 protease inhibitor (PI). The compound selectively inhibits the virus-specific processing of viral Gag and Gag-Pol polyproteins in HIV-1-infected cells, thus preventing formation of mature virions." ([DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8), version du 2024-12-05 ; consulté le 2026-11-19). Sur la base des informations connues, l'atazanavir fait partie des inhibiteurs de protéase du VIH, et pourrait, mécanistiquement, être applicable à une infection voisine.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la protéase est apparentée à celle du VIH-1. Un inhibiteur de protéase comme l'atazanavir pourrait donc, en théorie, agir sur cette cible. Le score élevé du modèle reflète probablement cette similarité avec le VIH.
 
@@ -97,6 +97,19 @@ La prédiction repose uniquement sur le modèle, sans essai ni publication, et i
 - Études in vitro ou vétérinaires sur l'activité contre la protéase du FIV
 - Évaluation de la pertinence vétérinaire et de la faisabilité (voie d'administration, tolérance chez le chat)
 - Mises en garde et contre-indications issues de la notice officielle
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Reyataz (atazanavir) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=165cff62-b284-4a27-a65d-9ec8a5bfcdd8) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

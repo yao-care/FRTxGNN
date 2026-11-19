@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acrom
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'ibuprofène est un inhibiteur non sélectif des cyclooxygénases (COX) : il réduit la production de prostaglandines, ce qui explique ses effets anti-inflammatoire et antalgique dans les affections rhumatologiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ibuprofen (traduction non officielle) : « L'ibuprofène possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. Le mécanisme d'action de CALDOLOR, comme celui des autres AINS, n'est pas complètement élucidé, mais implique une inhibition de la cyclooxygénase (COX-1 et COX-2). » Texte original en anglais : "Ibuprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of CALDOLOR, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684), version du 2026-01-29 ; consulté le 2026-11-19). Sur la base des informations connues, l'ibuprofène est un inhibiteur non sélectif des cyclooxygénases (COX) : il réduit la production de prostaglandines, ce qui explique ses effets anti-inflammatoire et antalgique dans les affections rhumatologiques.
 
 Dans le cas présent, **aucun lien mécanistique n'est établi**. La dysplasie acromésomélique de type Hunter-Thompson est due à des variants entraînant une perte de fonction de *CDMP1/GDF5*, qui altèrent la signalisation de croissance du cartilage et de l'os. L'inhibition des COX n'a pas de rapport connu avec cette voie. Le score élevé (0,9974) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une justification biologique.
 
@@ -132,12 +132,13 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Éclaircissement du statut réglementaire (AMM annul » → « Éclaircissement du statut réglementaire (la plupar » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Caldolor (ibuprofen) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1eaa7790-f1a1-4f51-b10a-cbbaf033f684) |
 
 <!-- review:end log -->
 

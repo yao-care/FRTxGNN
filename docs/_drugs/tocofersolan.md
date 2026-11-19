@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, tocofersolan est un dérivé hydrosoluble de la vitamine E (TPGS). Son indication d'origine n'étant pas renseignée dans les données réglementaires françaises, aucune comparaison directe avec la nouvelle indication n'est possible.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Tocofersolan est (traduction non officielle) : « Support nutritionnel » Texte original en anglais : "Nutritional support" ([ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, tocofersolan est un dérivé hydrosoluble de la vitamine E (TPGS). Son indication d'origine n'étant pas renseignée dans les données réglementaires françaises, aucune comparaison directe avec la nouvelle indication n'est possible.
 
 Une hypothèse purement spéculative serait que les effets antioxydants de la vitamine E, ou l'amélioration de l'absorption des vitamines liposolubles et de certaines hormones, puissent jouer un rôle dans l'aménorrhée. Cette hypothèse n'est étayée par aucune des données fournies.
 
@@ -110,12 +110,13 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM unique est annulée, l'indication d'origine et le mécanisme d'action sont inconnus, et les informations de sécurité de la notice sont m » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2108106 (tocofersolan): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108106) |
 
 <!-- review:end log -->
 

@@ -1,4 +1,1422 @@
 {
  "_doc": "藥物頁待查清單（2026-11-12 建，比照 TwTxGNN docs/_data/drug_reviews_uncertain.json）。項目不刪：查清標 status: resolved（附 record_ids，指向 docs/_data/drug_reviews.json 的紀錄），查不出定論標 status: unresolvable（附 searched、unresolvable_reason）。",
- "items": []
+ "items": [
+  {
+   "file": "aceclofenac.md",
+   "drug": "aceclofenac",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'aceclofenac' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'aceclofenac'"
+  },
+  {
+   "file": "alanine.md",
+   "drug": "alanine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'alanine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'alanine'"
+  },
+  {
+   "file": "alfentanil.md",
+   "drug": "alfentanil",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'alfentanil' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL634 has no mechanism entry"
+  },
+  {
+   "file": "alimemazine.md",
+   "drug": "alimemazine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'alimemazine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'alimemazine'"
+  },
+  {
+   "file": "alverine.md",
+   "drug": "alverine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'alverine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'alverine'"
+  },
+  {
+   "file": "ambroxol.md",
+   "drug": "ambroxol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ambroxol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ambroxol'"
+  },
+  {
+   "file": "ammonium_chloride.md",
+   "drug": "ammonium_chloride",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ammonium' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ammonium'"
+  },
+  {
+   "file": "amylmetacresol.md",
+   "drug": "amylmetacresol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'amylmetacresol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'amylmetacresol'"
+  },
+  {
+   "file": "arginine.md",
+   "drug": "arginine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no INN; no approved ChEMBL molecule named ''"
+  },
+  {
+   "file": "articaine.md",
+   "drug": "articaine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'articaine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1093 has no mechanism entry"
+  },
+  {
+   "file": "avibactam.md",
+   "drug": "avibactam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'avibactam' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1689063 has no mechanism entry"
+  },
+  {
+   "file": "benzocaine.md",
+   "drug": "benzocaine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'benzocaine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'benzocaine'"
+  },
+  {
+   "file": "benzoic_acid.md",
+   "drug": "benzoic_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'benzoic acid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'benzoic acid'"
+  },
+  {
+   "file": "biotin.md",
+   "drug": "biotin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'biotin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL857 has no mechanism entry"
+  },
+  {
+   "file": "calcipotriol.md",
+   "drug": "calcipotriol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'calcipotriol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'calcipotriol'"
+  },
+  {
+   "file": "camphor.md",
+   "drug": "camphor",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'camphor' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'camphor'"
+  },
+  {
+   "file": "carbocisteine.md",
+   "drug": "carbocisteine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'carbocisteine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'carbocisteine'"
+  },
+  {
+   "file": "ceftolozane.md",
+   "drug": "ceftolozane",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ceftolozane' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL2103872 has no mechanism entry"
+  },
+  {
+   "file": "chlorobutanol.md",
+   "drug": "chlorobutanol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'chlorobutanol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'chlorobutanol'"
+  },
+  {
+   "file": "cinchocaine.md",
+   "drug": "cinchocaine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'cinchocaine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'cinchocaine'"
+  },
+  {
+   "file": "clidinium.md",
+   "drug": "clidinium",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'clidinium' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL620 has no mechanism entry"
+  },
+  {
+   "file": "cortisone.md",
+   "drug": "cortisone",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'cortisone' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'cortisone'"
+  },
+  {
+   "file": "danaparoid.md",
+   "drug": "danaparoid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'danaparoid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'danaparoid'"
+  },
+  {
+   "file": "dexpanthenol.md",
+   "drug": "dexpanthenol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'dexpanthenol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1200979 has no mechanism entry"
+  },
+  {
+   "file": "diethylcarbamazine.md",
+   "drug": "diethylcarbamazine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'diethylcarbamazine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL684 has no mechanism entry"
+  },
+  {
+   "file": "dihydralazine.md",
+   "drug": "dihydralazine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'dihydralazine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'dihydralazine'"
+  },
+  {
+   "file": "dihydrocodeine.md",
+   "drug": "dihydrocodeine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'dihydrocodeine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1595 has no mechanism entry"
+  },
+  {
+   "file": "estramustine.md",
+   "drug": "estramustine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'estramustine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'estramustine'"
+  },
+  {
+   "file": "ethinylestradiol.md",
+   "drug": "ethinylestradiol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ethinylestradiol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ethinylestradiol'"
+  },
+  {
+   "file": "flubendazole.md",
+   "drug": "flubendazole",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'flubendazole' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'flubendazole'"
+  },
+  {
+   "file": "fluindione.md",
+   "drug": "fluindione",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'fluindione' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL24924 has no mechanism entry"
+  },
+  {
+   "file": "flupentixol.md",
+   "drug": "flupentixol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'flupentixol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'flupentixol'"
+  },
+  {
+   "file": "framycetin.md",
+   "drug": "framycetin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'framycetin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'framycetin'"
+  },
+  {
+   "file": "gemeprost.md",
+   "drug": "gemeprost",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'gemeprost' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1908315 has no mechanism entry"
+  },
+  {
+   "file": "ginseng.md",
+   "drug": "ginseng",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ginseng' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'ginseng'"
+  },
+  {
+   "file": "glycerin.md",
+   "drug": "glycerin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'glycerin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL692 has no mechanism entry"
+  },
+  {
+   "file": "glycine.md",
+   "drug": "glycine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'glycine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL773 has no mechanism entry"
+  },
+  {
+   "file": "grazoprevir.md",
+   "drug": "grazoprevir",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'grazoprevir' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'grazoprevir'"
+  },
+  {
+   "file": "hesperidin.md",
+   "drug": "hesperidin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'hesperidin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'hesperidin'"
+  },
+  {
+   "file": "hexetidine.md",
+   "drug": "hexetidine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'hexetidine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL144673 has no mechanism entry"
+  },
+  {
+   "file": "histidine.md",
+   "drug": "histidine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'histidine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'histidine'"
+  },
+  {
+   "file": "hymecromone.md",
+   "drug": "hymecromone",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'hymecromone' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'hymecromone'"
+  },
+  {
+   "file": "indacaterol.md",
+   "drug": "indacaterol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'indacaterol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1095777 has no mechanism entry"
+  },
+  {
+   "file": "inotersen.md",
+   "drug": "inotersen",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'inotersen' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL4297770 has no mechanism entry"
+  },
+  {
+   "file": "isoleucine.md",
+   "drug": "isoleucine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'isoleucine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'isoleucine'"
+  },
+  {
+   "file": "l-lysine.md",
+   "drug": "l-lysine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'l' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'l'"
+  },
+  {
+   "file": "levocarnitine.md",
+   "drug": "levocarnitine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'levocarnitine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1149 has no mechanism entry"
+  },
+  {
+   "file": "lormetazepam.md",
+   "drug": "lormetazepam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'lormetazepam' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL22097 has no mechanism entry"
+  },
+  {
+   "file": "manidipine.md",
+   "drug": "manidipine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'manidipine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'manidipine'"
+  },
+  {
+   "file": "methionine.md",
+   "drug": "methionine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'methionine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'methionine'"
+  },
+  {
+   "file": "methylergometrine.md",
+   "drug": "methylergometrine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'methylergometrine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'methylergometrine'"
+  },
+  {
+   "file": "mianserin.md",
+   "drug": "mianserin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'mianserin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL6437 has no mechanism entry"
+  },
+  {
+   "file": "naftidrofuryl.md",
+   "drug": "naftidrofuryl",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'naftidrofuryl' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'naftidrofuryl'"
+  },
+  {
+   "file": "naphazoline.md",
+   "drug": "naphazoline",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'naphazoline' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL761 has no mechanism entry"
+  },
+  {
+   "file": "nefopam.md",
+   "drug": "nefopam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'nefopam' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL465026 has no mechanism entry"
+  },
+  {
+   "file": "nicorandil.md",
+   "drug": "nicorandil",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'nicorandil' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL284906 has no mechanism entry"
+  },
+  {
+   "file": "nitrazepam.md",
+   "drug": "nitrazepam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'nitrazepam' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL13209 has no mechanism entry"
+  },
+  {
+   "file": "nitrendipine.md",
+   "drug": "nitrendipine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'nitrendipine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'nitrendipine'"
+  },
+  {
+   "file": "nordazepam.md",
+   "drug": "nordazepam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'nordazepam' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'nordazepam'"
+  },
+  {
+   "file": "olmesartan.md",
+   "drug": "olmesartan",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'olmesartan' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'olmesartan'"
+  },
+  {
+   "file": "oxalic_acid.md",
+   "drug": "oxalic_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'oxalic acid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'oxalic acid'"
+  },
+  {
+   "file": "oxitriptan.md",
+   "drug": "oxitriptan",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'oxitriptan' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'oxitriptan'"
+  },
+  {
+   "file": "panobinostat.md",
+   "drug": "panobinostat",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'panobinostat' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL483254 has no mechanism entry"
+  },
+  {
+   "file": "pentamidine.md",
+   "drug": "pentamidine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pentamidine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL55 has no mechanism entry"
+  },
+  {
+   "file": "pentoxyverine.md",
+   "drug": "pentoxyverine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pentoxyverine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'pentoxyverine'"
+  },
+  {
+   "file": "perindopril.md",
+   "drug": "perindopril",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'perindopril' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1581 has no mechanism entry"
+  },
+  {
+   "file": "pheniramine.md",
+   "drug": "pheniramine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pheniramine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1193 has no mechanism entry"
+  },
+  {
+   "file": "phenol.md",
+   "drug": "phenol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'phenol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL14060 has no mechanism entry"
+  },
+  {
+   "file": "phenylalanine.md",
+   "drug": "phenylalanine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'phenylalanine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'phenylalanine'"
+  },
+  {
+   "file": "pinaverium.md",
+   "drug": "pinaverium",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pinaverium' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1909324 has no mechanism entry"
+  },
+  {
+   "file": "piperacillin.md",
+   "drug": "piperacillin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'piperacillin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL702 has no mechanism entry"
+  },
+  {
+   "file": "piperaquine.md",
+   "drug": "piperaquine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'piperaquine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'piperaquine'"
+  },
+  {
+   "file": "piribedil.md",
+   "drug": "piribedil",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'piribedil' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'piribedil'"
+  },
+  {
+   "file": "polysorbate_80.md",
+   "drug": "polysorbate_80",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'polysorbate 80' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'polysorbate 80'"
+  },
+  {
+   "file": "potassium.md",
+   "drug": "potassium",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no INN; no approved ChEMBL molecule named ''"
+  },
+  {
+   "file": "povidone.md",
+   "drug": "povidone",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'povidone' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL2108139 has no mechanism entry"
+  },
+  {
+   "file": "pristinamycin.md",
+   "drug": "pristinamycin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pristinamycin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'pristinamycin'"
+  },
+  {
+   "file": "pseudoephedrine.md",
+   "drug": "pseudoephedrine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'pseudoephedrine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1590 has no mechanism entry"
+  },
+  {
+   "file": "resorcinol.md",
+   "drug": "resorcinol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'resorcinol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'resorcinol'"
+  },
+  {
+   "file": "roxithromycin.md",
+   "drug": "roxithromycin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'roxithromycin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'roxithromycin'"
+  },
+  {
+   "file": "rutin.md",
+   "drug": "rutin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'rutin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'rutin'"
+  },
+  {
+   "file": "sennosides.md",
+   "drug": "sennosides",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'sennosides' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'sennosides'"
+  },
+  {
+   "file": "serine.md",
+   "drug": "serine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'serine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'serine'"
+  },
+  {
+   "file": "serotonin.md",
+   "drug": "serotonin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'serotonin' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'serotonin'"
+  },
+  {
+   "file": "sorbitol.md",
+   "drug": "sorbitol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'sorbitol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1682 has no mechanism entry"
+  },
+  {
+   "file": "streptomycin.md",
+   "drug": "streptomycin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'streptomycin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL372795 has no mechanism entry"
+  },
+  {
+   "file": "succinic_acid.md",
+   "drug": "succinic_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'succinic acid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'succinic acid'"
+  },
+  {
+   "file": "sulprostone.md",
+   "drug": "sulprostone",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'sulprostone' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'sulprostone'"
+  },
+  {
+   "file": "tenoxicam.md",
+   "drug": "tenoxicam",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tenoxicam' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'tenoxicam'"
+  },
+  {
+   "file": "tertatolol.md",
+   "drug": "tertatolol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tertatolol' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL434200 has no mechanism entry"
+  },
+  {
+   "file": "thiamine.md",
+   "drug": "thiamine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'thiamine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1588 has no mechanism entry"
+  },
+  {
+   "file": "thiocolchicoside.md",
+   "drug": "thiocolchicoside",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'thiocolchicoside' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'thiocolchicoside'"
+  },
+  {
+   "file": "thiopental.md",
+   "drug": "thiopental",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'thiopental' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL441 has no mechanism entry"
+  },
+  {
+   "file": "threonine.md",
+   "drug": "threonine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'threonine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'threonine'"
+  },
+  {
+   "file": "thymol.md",
+   "drug": "thymol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'thymol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'thymol'"
+  },
+  {
+   "file": "tiapride.md",
+   "drug": "tiapride",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tiapride' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'tiapride'"
+  },
+  {
+   "file": "ticarcillin.md",
+   "drug": "ticarcillin",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'ticarcillin' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL1449 has no mechanism entry"
+  },
+  {
+   "file": "tixocortol.md",
+   "drug": "tixocortol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tixocortol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'tixocortol'"
+  },
+  {
+   "file": "trimebutine.md",
+   "drug": "trimebutine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'trimebutine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'trimebutine'"
+  },
+  {
+   "file": "tryptophan.md",
+   "drug": "tryptophan",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tryptophan' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL54976 has no mechanism entry"
+  },
+  {
+   "file": "tyrosine.md",
+   "drug": "tyrosine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'tyrosine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL925 has no mechanism entry"
+  },
+  {
+   "file": "uric_acid.md",
+   "drug": "uric_acid",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'uric acid' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'uric acid'"
+  },
+  {
+   "file": "valine.md",
+   "drug": "valine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'valine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'valine'"
+  },
+  {
+   "file": "valpromide.md",
+   "drug": "valpromide",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'valpromide' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'valpromide'"
+  },
+  {
+   "file": "vindesine.md",
+   "drug": "vindesine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'vindesine' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL238071 has no mechanism entry"
+  },
+  {
+   "file": "vitamin_a.md",
+   "drug": "vitamin_a",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'vitamin a' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'vitamin a'"
+  },
+  {
+   "file": "volanesorsen.md",
+   "drug": "volanesorsen",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'volanesorsen' with a mechanism or clinical pharmacology section in openFDA; ChEMBL CHEMBL3544994 has no mechanism entry"
+  },
+  {
+   "file": "yohimbine.md",
+   "drug": "yohimbine",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'yohimbine' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'yohimbine'"
+  },
+  {
+   "file": "zuclopenthixol.md",
+   "drug": "zuclopenthixol",
+   "source": "mechanism of action",
+   "status": "open",
+   "added": "2026-11-19",
+   "issue": "Page says mechanism-of-action data is not available; no citable source found",
+   "searched": [
+    "openFDA drug label (US prescribing information)",
+    "ChEMBL drug mechanism"
+   ],
+   "reason": "no single-ingredient US prescription label for 'zuclopenthixol' with a mechanism or clinical pharmacology section in openFDA; no approved ChEMBL molecule named 'zuclopenthixol'"
+  }
+ ]
 }

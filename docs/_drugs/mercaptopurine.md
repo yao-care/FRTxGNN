@@ -54,7 +54,7 @@ La mercaptopurine est un antimétabolite purique utilisé en oncohématologie. L
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, la mercaptopurine est un analogue de purine : ses métabolites actifs (nucléotides de thioguanine) s'incorporent à l'ADN et à l'ARN et inhibent la synthèse de novo des purines. Cette action est cytotoxique pour les cellules en prolifération rapide, notamment les myéloblastes leucémiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mercaptopurine (traduction non officielle) : « La mercaptopurine est un analogue des purines qui subit un transport et une activation intracellulaires pour former des métabolites, notamment des nucléotides thioguaniniques (TGN). L'incorporation des TGN dans l'ADN ou l'ARN entraîne un arrêt du cycle cellulaire et la mort cellulaire. » Texte original en anglais : "Mercaptopurine is a purine analog that undergoes intracellular transport and activation to form metabolites including thioguanine nucleotides (TGNs). Incorporation of TGNs into DNA or RNA results in cell-cycle arrest and cell death." ([DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15), version du 2026-07-22 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la mercaptopurine est un analogue de purine : ses métabolites actifs (nucléotides de thioguanine) s'incorporent à l'ADN et à l'ARN et inhibent la synthèse de novo des purines. Cette action est cytotoxique pour les cellules en prolifération rapide, notamment les myéloblastes leucémiques.
 
 Dans la leucémie myéloïde, les données portent surtout sur la mercaptopurine comme élément de schémas combinés : traitement d'entretien oral par 6-MP et méthotrexate dans la LAM, consolidation de type LAL dans la LAM de l'enfant, entretien de la leucémie aiguë promyélocytaire. L'effet propre de la mercaptopurine ne peut donc pas être isolé. Plusieurs essais de phase 3 sont listés, mais rien n'indique qu'ils testent la mercaptopurine comme variable étudiée.
 
@@ -125,6 +125,18 @@ Les données de leucémie myéloïde reposent sur une cohorte et une étude pilo
 - Mises en garde et contre-indications issues de la notice ANSM
 - Étude comparative évaluant la mercaptopurine comme variable étudiée dans la LAM
 - Plan de surveillance hématologique et pharmacogénétique (TPMT/NUDT15)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: mercaptopurine prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a366cf3-91f0-4aa4-8f34-a7a27cad8f15) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

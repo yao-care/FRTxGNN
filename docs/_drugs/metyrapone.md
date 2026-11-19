@@ -56,7 +56,7 @@ La seule publication identifiée pour l'ensemble des indications prédites conce
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Selon les informations pharmacologiques connues, le métyrapone inhibe la 11-bêta-hydroxylase (CYP11B1) et, dans une moindre mesure, CYP11B2, ce qui réduit la synthèse du cortisol.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Metyrapone (traduction non officielle) : « L'effet pharmacologique de Metopirone consiste à réduire la production de cortisol et de corticostérone en inhibant la réaction de 11-bêta-hydroxylation dans le cortex surrénalien. La suppression du puissant mécanisme de rétrocontrôle inhibiteur exercé par le cortisol entraîne une augmentation de la production d'hormone adrénocorticotrope (ACTH) par l'hypophyse. » Texte original en anglais : "The pharmacological effect of Metopirone is to reduce cortisol and corticosterone production by inhibiting the 11-beta-hydroxylation reaction in the adrenal cortex. Removal of the strong inhibitory feedback mechanism exerted by cortisol results in an increase in adrenocorticotropic hormone (ACTH) production by the pituitary." ([DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f), version du 2026-05-19 ; consulté le 2026-11-19). Selon les informations pharmacologiques connues, le métyrapone inhibe la 11-bêta-hydroxylase (CYP11B1) et, dans une moindre mesure, CYP11B2, ce qui réduit la synthèse du cortisol.
 
 **Cette prédiction est mécanistiquement peu plausible.** L'hyperthermie maligne est principalement liée à des variants de RYR1 ou CACNA1S, qui provoquent une libération incontrôlée de calcium par le réticulum sarcoplasmique. L'inhibition de la stéroïdogenèse surrénalienne ne cible pas cette voie. Le score élevé provient du modèle TxGNN (apprentissage profond) et reflète très probablement des similarités apprises par le modèle entre maladies apparentées (myopathies, hyperthermie), et non une preuve biologique ou une justification pharmacologique.
 
@@ -127,12 +127,13 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e produit n'a plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Metopirone (metyrapone) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4046b167-7a46-8f4a-e063-6394a90a147f) |
 
 <!-- review:end log -->
 

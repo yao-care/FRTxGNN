@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, pibrentasvir fait partie de l'association glécaprévir/pibrentasvir, où il agit comme inhibiteur de NS5A. Son efficacité dans l'hépatite C a été démontrée, mais son applicabilité mécanistique à l'hépatite B reste à établir.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Pibrentasvir est (traduction non officielle) : « Inhibiteur de la protéine non structurale 5A » Texte original en anglais : "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, pibrentasvir fait partie de l'association glécaprévir/pibrentasvir, où il agit comme inhibiteur de NS5A. Son efficacité dans l'hépatite C a été démontrée, mais son applicabilité mécanistique à l'hépatite B reste à établir.
 
 Le lien mécanistique est en réalité faible. Le VHB ne possède pas d'homologue de NS5A, de sorte qu'aucun lien direct avec la cible de pibrentasvir n'est établi. Le score élevé reflète probablement la proximité dans le réseau de connaissances avec d'autres hépatites virales, et non une cible commune.
 
@@ -123,12 +123,13 @@ Aucune des autres indications prédites ne justifie une priorité plus élevée.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées, et les données de sécurité de la notice sont absentes, ce qui bloque l'évaluation de sécur » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM françaises » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3545123 (pibrentasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545123) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le ramucirumab est un antagoniste du récepteur VEGFR-2 : il bloque l'angiogenèse induite par le VEGF. Son efficacité a été établie dans des tumeurs solides dépendantes de l'angiogenèse, comme l'adénocarcinome gastrique, le cancer bronchique non à petites cellules et le carcinome hépatocellulaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ramucirumab (traduction non officielle) : « Le ramucirumab est un antagoniste du VEGFR2 qui se lie spécifiquement au VEGFR2 et bloque la liaison des ligands du VEGFR, le VEGF-A, le VEGF-C et le VEGF-D. En conséquence, le ramucirumab inhibe l'activation du VEGFR2 stimulée par les ligands, inhibant ainsi la prolifération et la migration des cellules endothéliales humaines induites par les ligands. Le ramucirumab a inhibé l'angiogenèse dans un modèle animal in vivo. » Texte original en anglais : "Ramucirumab is a VEGFR2 antagonist that specifically binds VEGFR2 and blocks binding of VEGFR ligands, VEGF-A, VEGF-C, and VEGF-D. As a result, ramucirumab inhibits ligand-stimulated activation of VEGFR2, thereby inhibiting ligand-induced proliferation, and migration of human endothelial cells. Ramucirumab inhibited angiogenesis in an in vivo animal model." ([DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4), version du 2026-06-09 ; consulté le 2026-11-19). Sur la base des connaissances générales, le ramucirumab est un antagoniste du récepteur VEGFR-2 : il bloque l'angiogenèse induite par le VEGF. Son efficacité a été établie dans des tumeurs solides dépendantes de l'angiogenèse, comme l'adénocarcinome gastrique, le cancer bronchique non à petites cellules et le carcinome hépatocellulaire.
 
 Les adénocarcinomes gynécologiques (ligament utérin, col de l'utérus) dépendent souvent aussi de l'angiogenèse. Le blocage de la voie VEGF/VEGFR-2 a d'ailleurs un rôle établi dans le cancer du col avancé, avec une autre molécule anti-angiogénique (le bévacizumab). Cela offre un raisonnement plausible, mais indirect, au niveau de la classe thérapeutique.
 
@@ -128,12 +128,13 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cyramza (ramucirumab) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6080942-dee6-423e-b688-1272c2ae90d4) |
 
 <!-- review:end log -->
 

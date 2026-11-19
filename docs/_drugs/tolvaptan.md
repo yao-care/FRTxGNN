@@ -56,7 +56,7 @@ avec **0 essai clinique** enregistré et **20 publications** associées (dont 2 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, tolvaptan est un antagoniste sélectif du récepteur V2 de la vasopressine. Dans la polykystose rénale, l'augmentation de la signalisation par l'AMPc favorise la croissance des kystes et la sécrétion de liquide ; le blocage des récepteurs V2 réduit l'AMPc rénal et ralentit l'expansion des kystes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tolvaptan (traduction non officielle) : « Le tolvaptan est un antagoniste sélectif des récepteurs V 2 de la vasopressine dont l'affinité pour le récepteur V 2 est 1,8 fois celle de l'arginine vasopressine (AVP) native. L'affinité du tolvaptan pour le récepteur V 2 est 29 fois celle pour le récepteur V 1a. » Texte original en anglais : "Tolvaptan is a selective vasopressin V 2 -receptor antagonist with an affinity for the V 2 -receptor that is 1.8 times that of native arginine vasopressin (AVP). Tolvaptan affinity for the V 2 -receptor is 29 times that for the V 1a -receptor." ([DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4), version du 2026-09-30 ; consulté le 2026-11-19). Sur la base des informations connues, tolvaptan est un antagoniste sélectif du récepteur V2 de la vasopressine. Dans la polykystose rénale, l'augmentation de la signalisation par l'AMPc favorise la croissance des kystes et la sécrétion de liquide ; le blocage des récepteurs V2 réduit l'AMPc rénal et ralentit l'expansion des kystes.
 
 La polykystose de type 3 (liée à GANAB) partage ce mécanisme de kystogenèse avec la polykystose autosomique dominante (ADPKD), pour laquelle tolvaptan est déjà un traitement établi. Il s'agit donc, en pratique, d'une indication proche de l'indication d'origine plutôt que d'un véritable repositionnement.
 
@@ -125,11 +125,12 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (5 AMM présentées sur 17 au total, toutes annulées.) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Jynarque (tolvaptan) prescribing information, Otsuka America Pharmaceutical, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3febc0a1-9e5a-4ce0-843d-210f21d862c4) |
 
 <!-- review:end log -->
 

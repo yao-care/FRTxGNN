@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le bévacizumab neutralise le VEGF-A, un acteur central de l'angiogenèse tumorale. En limitant la formation de nouveaux vaisseaux, il peut freiner la croissance de tumeurs dépendantes de leur vascularisation. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport ; cette description repose sur les connaissances générales sur la molécule.
+Le bévacizumab neutralise le VEGF-A, un acteur central de l'angiogenèse tumorale. En limitant la formation de nouveaux vaisseaux, il peut freiner la croissance de tumeurs dépendantes de leur vascularisation. Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bevacizumab (traduction non officielle) : « Les produits à base de bévacizumab se lient au VEGF et empêchent l'interaction du VEGF avec ses récepteurs (Flt-1 et KDR) à la surface des cellules endothéliales. L'interaction du VEGF avec ses récepteurs entraîne la prolifération des cellules endothéliales et la formation de nouveaux vaisseaux sanguins dans des modèles in vitro d'angiogenèse. » Texte original en anglais : "Bevacizumab products bind VEGF and prevent the interaction of VEGF to its receptors (Flt-1 and KDR) on the surface of endothelial cells. The interaction of VEGF with its receptors leads to endothelial cell proliferation and new blood vessel formation in in vitro models of angiogenesis." ([DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe), version du 2026-08-21 ; consulté le 2026-11-19).
 
 Les tumeurs de la tête et du cou, dont la région de l'épiglotte, peuvent dépendre de l'angiogenèse, ce qui rend l'hypothèse biologiquement plausible. Cependant, aucun essai clinique ni aucune publication n'a été fourni pour cette indication précise. Le score élevé (0,9990) reste une prédiction du modèle et ne constitue pas une preuve clinique.
 
@@ -115,6 +115,19 @@ La prédiction pour la tumeur de l'épiglotte repose uniquement sur le score du 
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice (ANSM)
 - Évaluation de la compatibilité des voies d'administration et de la pertinence par rapport aux indications existantes
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vegzelma (bevacizumab-adcd) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4cdcccda-7b9a-49d0-ac50-f4605a3c0ebe) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

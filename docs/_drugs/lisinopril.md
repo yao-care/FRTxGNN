@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infarctus du myo
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, lisinopril fait partie de la classe des IEC. Son efficacité dans l'hypertension et l'infarctus du myocarde est établie, et il agit par blocage du système rénine-angiotensine-aldostérone (SRAA), ce qui limite le remodelage ventriculaire après infarctus.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lisinopril (traduction non officielle) : « Le lisinopril inhibe l'enzyme de conversion de l'angiotensine (ECA) chez l'homme et l'animal. L'ECA est une peptidyl dipeptidase qui catalyse la conversion de l'angiotensine I en une substance vasoconstrictrice, l'angiotensine II. L'angiotensine II stimule également la sécrétion d'aldostérone par le cortex surrénalien. » Texte original en anglais : "Lisinopril inhibits angiotensin-converting enzyme (ACE) in human subjects and animals. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c), version du 2025-12-16 ; consulté le 2026-11-19). Sur la base des informations connues, lisinopril fait partie de la classe des IEC. Son efficacité dans l'hypertension et l'infarctus du myocarde est établie, et il agit par blocage du système rénine-angiotensine-aldostérone (SRAA), ce qui limite le remodelage ventriculaire après infarctus.
 
 L'infarctus du myocarde postéro-inférieur est un sous-type anatomique de l'infarctus du myocarde, indication déjà reconnue pour ce médicament. Aucune donnée propre à ce sous-type n'a été fournie.
 
@@ -119,11 +119,12 @@ Veuillez consulter la notice pour les informations de sécurité (mises en garde
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Vérifier le statut réglementaire : l'unique AMM identifiée est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Qbrelis (lisinopril) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6e4e57-a489-4b36-b093-b93865d3717c) |
 
 <!-- review:end log -->
 

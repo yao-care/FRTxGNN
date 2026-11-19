@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **une seule publication indirecte** (une série
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le trihexyphénidyle est un antagoniste muscarinique central à préférence M1, qui module l'équilibre cholinergique-dopaminergique dans les noyaux gris centraux. C'est ce mécanisme qui explique son usage dans la maladie de Parkinson et les dystonies.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Trihexyphenidyl (traduction non officielle) : « Le chlorhydrate de trihexyphénidyle est le sel de pipéridine substitué, chlorhydrate de 3-(1-pipéridyl)- 1-phénylcyclohexyl-1-propanol, qui exerce un effet inhibiteur direct sur le système nerveux parasympathique. Il a également un effet relaxant sur la musculature lisse, exercé à la fois directement sur le tissu musculaire lui-même et indirectement par un effet inhibiteur sur le système nerveux parasympathique. » Texte original en anglais : "Trihexyphenidyl Hydrochloride is the substituted piperidine salt, 3-(1-piperidyl)- 1-phenylcyclohexyl-1-propanol hydrochloride, which exerts a direct inhibitory effect upon the parasympathetic nervous system. It also has a relaxing effect on smooth musculature; exerted both directly upon the muscle tissue itself and indirectly through an inhibitory effect upon the parasympathetic nervous system." ([DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af), version du 2026-07-23 ; consulté le 2026-11-19). D'après les connaissances générales, le trihexyphénidyle est un antagoniste muscarinique central à préférence M1, qui module l'équilibre cholinergique-dopaminergique dans les noyaux gris centraux. C'est ce mécanisme qui explique son usage dans la maladie de Parkinson et les dystonies.
 
 Le TDAH implique une dérégulation des signaux dopaminergiques et cholinergiques dans les circuits fronto-striataux ; un lien théorique existe donc. Toutefois, il reste purement hypothétique : la seule publication retrouvée porte sur des tics associés à une dystonie, un phénotype voisin mais distinct, et ne fournit aucune preuve directe d'efficacité dans le TDAH.
 
@@ -105,6 +105,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Évaluer le risque cognitif anticholinergique, notamment chez l'enfant.
 
 **Note sur les autres candidats :** parmi les neuf autres indications prédites, la **neurodégénérescence associée à PLA2G6** (score 0,9958, niveau L4) est la plus cohérente biologiquement, en raison de ses phénotypes de dystonie-parkinsonisme. Les preuves se limitent toutefois à un cas clinique et le bénéfice serait uniquement symptomatique ; elle relève d'une question de recherche. Les autres candidats (syndrome faciodigitogénital, TDAH de type inattentif, encéphalite de Rasmussen, déficit de glycosylation, polymicrogyrie, dystrophie rétinienne, myélite, maladie de Charcot-Marie-Tooth 1G) ne disposent d'aucune preuve directe ou plausible et restent en Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

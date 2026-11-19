@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour **l'élévation du z
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le norgestimate est un progestatif utilisé en association avec un estrogène dans les contraceptifs oraux. Son usage est établi pour la contraception ; les prédictions du modèle TxGNN (apprentissage profond) peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour norgestimate and ethinyl estradiol (association contenant Norgestimate) (traduction non officielle) : « Bien que l'association d'éthinylestradiol et de norgestimate augmente la globuline liant les hormones sexuelles (SHBG) et diminue la testostérone libre, la relation entre ces modifications et une diminution de la sévérité de l'acné faciale chez les femmes par ailleurs en bonne santé présentant cette affection cutanée n'a pas été établie. » Texte original en anglais : "While the combination of ethinyl estradiol and norgestimate increases sex hormone-binding globulin (SHBG) and decreases free testosterone, the relationship between these changes and a decrease in the severity of facial acne in otherwise healthy women with this skin condition has not been established." ([DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923), version du 2026-10-12 ; consulté le 2026-11-19). Sur la base des informations connues, le norgestimate est un progestatif utilisé en association avec un estrogène dans les contraceptifs oraux. Son usage est établi pour la contraception ; les prédictions du modèle TxGNN (apprentissage profond) peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.
 
 Le seul soutien à cette prédiction est un score élevé du modèle. Les produits contenant des estrogènes peuvent influencer les protéines circulantes qui lient le zinc et le cuivre, mais cette association est indirecte et spéculative. Elle ne démontre pas que le médicament traite ou corrige un excès de zinc plasmatique.
 
@@ -117,12 +117,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 7 autorisations recensées sont toutes annulées ; aucune n'est en cours de validité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Deux autres autorisations, également annulées, ne sont pas détaillées ici : TRIAFEMI CONTINU (69090320) et FEMI (69140061) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tri-Sprintec (norgestimate and ethinyl estradiol) prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1f8b9aad-f31f-4cda-861d-c08a977fc923) |
 
 <!-- review:end log -->
 

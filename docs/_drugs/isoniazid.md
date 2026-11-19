@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, l'isoniazide est une prodrogue activée par l'enzyme KatG des mycobactéries ; elle inhibe ensuite InhA et donc la synthèse des acides mycoliques de la paroi bactérienne. Cette action est spécifique des mycobactéries.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Isoniazid (traduction non officielle) : « L'isoniazide inhibe la synthèse des acides mycoliques, un composant essentiel de la paroi cellulaire bactérienne. À des concentrations thérapeutiques, l'isoniazide est bactéricide contre les organismes de Mycobacterium tuberculosis intracellulaires et extracellulaires en croissance active. » Texte original en anglais : "Isoniazid inhibits the synthesis of mycoloic acids, an essential component of the bacterial cell wall. At therapeutic levels isoniazid is bactericidal against actively growing intracellular and extracellular Mycobacterium tuberculosis organisms." ([DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b), version du 2026-09-04 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'isoniazide est une prodrogue activée par l'enzyme KatG des mycobactéries ; elle inhibe ensuite InhA et donc la synthèse des acides mycoliques de la paroi bactérienne. Cette action est spécifique des mycobactéries.
 
 Ce mécanisme n'a pas de lien établi avec les causes usuelles de la conjonctivite (virales, bactériennes, allergiques). Un lien avec la tuberculose est concevable, par exemple la kératoconjonctivite phlycténulaire, une réaction d'hypersensibilité aux antigènes mycobactériens, mais il reste spéculatif et n'est étayé par aucune donnée disponible.
 
@@ -113,11 +113,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les cinq AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: isoniazid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6dab7b7b-a3a9-47ef-b423-134bc6970d8b) |
 
 <!-- review:end log -->
 

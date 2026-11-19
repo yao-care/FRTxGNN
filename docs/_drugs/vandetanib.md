@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans le **carcinome à cellu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la pharmacologie connue du vandétanib, il inhibe VEGFR2, EGFR et RET.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Vandetanib (traduction non officielle) : « In vitro, des études ont montré que le vandétanib inhibe l'activité tyrosine kinase des familles EGFR et VEGFR, de RET, BRK, TIE2, ainsi que de membres des familles des récepteurs EPH et des kinases Src. Ces récepteurs à activité tyrosine kinase sont impliqués à la fois dans la fonction cellulaire normale et dans des processus pathologiques tels que l'oncogenèse, la formation de métastases, l'angiogenèse tumorale et le maintien du microenvironnement tumoral. » Texte original en anglais : "In vitro studies have shown that vandetanib inhibits the tyrosine kinase activity of the EGFR and VEGFR families, RET, BRK, TIE2, and members of the EPH receptor and Src kinase families. These receptor tyrosine kinases are involved in both normal cellular function and pathologic processes such as oncogenesis, metastasis, tumor angiogenesis, and maintenance of the tumor microenvironment." ([DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03), version du 2026-10-30 ; consulté le 2026-11-19). D'après la pharmacologie connue du vandétanib, il inhibe VEGFR2, EGFR et RET.
 
 Dans le carcinome à cellules rénales, l'angiogenèse dépendante de la voie VEGF est une cible validée : des inhibiteurs de tyrosine kinases ciblant VEGFR sont utilisés dans cette maladie. Dans la forme à cellules claires, la perte de VHL active la voie HIF/VEGF, ce qui rend l'inhibition de VEGFR2 plausible.
 
@@ -119,6 +119,18 @@ Le niveau de preuve est L3 : l'essai de phase 2 dans la maladie de von Hippel-Li
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice
 - Évaluation du rapport bénéfice/risque cardiovasculaire dans une population rénale
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Caprelsa (vandetanib) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e5721cb8-4185-47b9-bbb3-1c587e558a03) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

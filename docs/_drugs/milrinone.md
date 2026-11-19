@@ -56,7 +56,7 @@ Parmi les autres prédictions, seules l'**insuffisance cardiaque congestive** et
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le jeu de données. D'après les informations pharmacologiques connues, milrinone inhibe la PDE3 (cibles PDE3A et PDE3B), ce qui élève l'AMPc intracellulaire. Il en résulte un effet inotrope positif et une vasodilatation (effet « inodilatateur »), d'où son usage dans l'insuffisance cardiaque décompensée.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Milrinone (traduction non officielle) : « La milrinone est un agent inotrope positif et vasodilatateur, doté d'une faible activité chronotrope, dont la structure et le mode d'action diffèrent de ceux des glycosides digitaliques et des catécholamines. » Texte original en anglais : "Milrinone is a positive inotrope and vasodilator, with little chronotropic activity different in structure and mode of action from either the digitalis glycosides or catecholamines." ([DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964), version du 2021-08-25 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, milrinone inhibe la PDE3 (cibles PDE3A et PDE3B), ce qui élève l'AMPc intracellulaire. Il en résulte un effet inotrope positif et une vasodilatation (effet « inodilatateur »), d'où son usage dans l'insuffisance cardiaque décompensée.
 
 Pour l'alopécie, le lien mécanistique est **faible et spéculatif**. On pourrait invoquer une amélioration de la perfusion du cuir chevelu par vasodilatation, mais aucune donnée ne l'appuie. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Les autres prédictions capillaires (hypotrichose simple du cuir chevelu, hypotrichose congénitale avec milia, alopécie areata diffuse) sont dans la même situation : pathologies génétiques ou auto-immunes (voie JAK/IFN-γ pour l'alopécie areata) sans lien PDE3 établi.
 
@@ -138,11 +138,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Milrinone Lactate In Dextrose (milrinone lactate) prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=838da14b-c070-4c09-b088-99e7c64d9964) |
 
 <!-- review:end log -->
 

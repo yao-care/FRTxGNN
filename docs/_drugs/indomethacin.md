@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome brac
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'indométacine est un inhibiteur non sélectif des cyclooxygénases (COX-1 et COX-2) : elle réduit la synthèse des prostaglandines, médiateurs de l'inflammation, de la douleur et de la fièvre. Son efficacité dans les rhumatismes inflammatoires repose sur ce mécanisme.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Indomethacin (traduction non officielle) : « L'indométacine possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. Le mécanisme d'action d'INDOCIN, comme celui des autres AINS, n'est pas complètement élucidé mais implique une inhibition de la cyclooxygénase (COX-1 et COX-2). » Texte original en anglais : "Indomethacin has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of INDOCIN, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da), version du 2024-12-16 ; consulté le 2026-11-19). D'après les connaissances générales, l'indométacine est un inhibiteur non sélectif des cyclooxygénases (COX-1 et COX-2) : elle réduit la synthèse des prostaglandines, médiateurs de l'inflammation, de la douleur et de la fièvre. Son efficacité dans les rhumatismes inflammatoires repose sur ce mécanisme.
 
 **Pour la prédiction principale, aucun lien mécanistique n'est établi.** Le syndrome brachydactylie-syndactylie est une malformation squelettique du développement des membres. Rien dans les données disponibles ne relie l'inhibition des prostaglandines à la physiopathologie de cette malformation.
 
@@ -140,12 +140,13 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM (69668450, INDOBIOTIC, collyre unidose) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Indocin (indomethacin) prescribing information, Zyla Life Sciences US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=73878376-1d24-423b-9f37-3666e83c95da) |
 
 <!-- review:end log -->
 

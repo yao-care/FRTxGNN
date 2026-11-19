@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **tumeur de la 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la bléomycine est un cytotoxique qui casse les brins d'ADN, utilisé dans des protocoles de tumeurs germinales.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bleomycin (traduction non officielle) : « Bien que le mécanisme d'action exact de la bléomycine soit inconnu, les données disponibles indiquent que le principal mode d'action est l'inhibition de la synthèse de l'ADN, avec certaines données en faveur d'une inhibition moindre de la synthèse de l'ARN et des protéines. La bléomycine est connue pour provoquer des cassures simple brin et, dans une moindre mesure, double brin de l'ADN. » Texte original en anglais : "Although the exact mechanism of action of bleomycin is unknown, available evidence indicates that the main mode of action is the inhibition of DNA synthesis with some evidence of lesser inhibition of RNA and protein synthesis. Bleomycin is known to cause single, and to a lesser extent, double-stranded breaks in DNA." ([DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee), version du 2026-04-17 ; consulté le 2026-11-19). D'après les connaissances générales, la bléomycine est un cytotoxique qui casse les brins d'ADN, utilisé dans des protocoles de tumeurs germinales.
 
 Le seul lien documenté avec la prédiction est indirect : une étude rétrospective sur la radiothérapie de germinomes du système nerveux central en rechute après une chimiothérapie comprenant carboplatine, étoposide et bléomycine. Cette étude ne concerne ni la tumeur de la queue de cheval ni l'efficacité propre de la bléomycine.
 
@@ -106,6 +106,18 @@ La prédiction repose uniquement sur le score du modèle (0.9930). Aucun essai n
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice française
 - Évaluation de la faisabilité d'une administration locale ou intrathécale et du risque de toxicité pulmonaire
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Bleomycin (bleomycin sulfate) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=640602f9-a7df-46f0-a9b1-19c471008bee) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

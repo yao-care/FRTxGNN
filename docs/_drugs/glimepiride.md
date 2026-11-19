@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le glimépiride est un sulfamide hypoglycémiant qui bloque les canaux potassiques ATP-dépendants (K-ATP) des cellules bêta pancréatiques et stimule ainsi la sécrétion d'insuline. Son efficacité dans le diabète de type 2 est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Glimepiride (traduction non officielle) : « Le glimépiride diminue la glycémie principalement en stimulant la libération d'insuline par les cellules bêta du pancréas. Les sulfonylurées se lient au récepteur des sulfonylurées situé dans la membrane plasmique des cellules bêta du pancréas, ce qui entraîne la fermeture du canal potassique sensible à l'ATP et stimule ainsi la libération d'insuline. » Texte original en anglais : "Glimepiride primarily lowers blood glucose by stimulating the release of insulin from pancreatic beta cells. Sulfonylureas bind to the sulfonylurea receptor in the pancreatic beta-cell plasma membrane, leading to closure of the ATP-sensitive potassium channel, thereby stimulating the release of insulin." ([DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa), version du 2024-08-20 ; consulté le 2026-11-19). Sur la base des connaissances générales, le glimépiride est un sulfamide hypoglycémiant qui bloque les canaux potassiques ATP-dépendants (K-ATP) des cellules bêta pancréatiques et stimule ainsi la sécrétion d'insuline. Son efficacité dans le diabète de type 2 est établie.
 
 Le syndrome de la personne raide est une maladie auto-immune liée aux anticorps anti-GAD65, avec une altération de la signalisation GABAergique. **Aucun lien mécanistique n'est établi** avec le blocage des canaux K-ATP. Le seul rapprochement plausible est la fréquente association du syndrome avec le diabète de type 1 (auto-immunité GAD commune), ce qui ne justifie pas un rôle thérapeutique du glimépiride.
 
@@ -123,13 +123,14 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « De plus, toutes les AMM françaises du glimépiride sont annulées et les données de sécurité de la notice sont manquantes, ce qui empêche l'ét » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Glimepiride 3 Mg (glimepiride) prescribing information, Lifsa Drugs LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51157849-7990-4a8b-ae50-eda1baf93cfa) |
 
 <!-- review:end log -->
 

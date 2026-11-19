@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le nébivolol est un bêta-bloquant bêta-1 sélectif, dont l'effet vasodilatateur passe par la voie du monoxyde d'azote (NO). Son efficacité dans l'hypertension artérielle est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nebivolol (traduction non officielle) : « Le mécanisme d'action de la réponse antihypertensive de BYSTOLIC n'a pas été établi de manière définitive. Les facteurs possiblement impliqués comprennent : la diminution de la fréquence cardiaque, la diminution de la contractilité myocardique, la réduction du tonus sympathique efférent des centres vasomoteurs cérébraux vers la périphérie, la suppression de l'activité de la rénine, ainsi que la vasodilatation et la diminution de la résistance vasculaire périphérique. » Texte original en anglais : "The mechanism of action of the antihypertensive response of BYSTOLIC has not been definitively established. Possible factors that may be involved include: decreased heart rate, decreased myocardial contractility, diminution of tonic sympathetic outflow to the periphery from cerebral vasomotor centers, suppression of renin activity and vasodilation and decreased peripheral vascular resistance." ([DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8), version du 2024-08-01 ; consulté le 2026-11-19). Sur la base des connaissances générales, le nébivolol est un bêta-bloquant bêta-1 sélectif, dont l'effet vasodilatateur passe par la voie du monoxyde d'azote (NO). Son efficacité dans l'hypertension artérielle est établie.
 
 La maladie rénale hypertensive maligne est une atteinte rénale secondaire à une hypertension sévère. Sur le plan théorique, une baisse de la pression artérielle pourrait limiter les lésions rénales.
 
@@ -116,12 +116,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée, absence de produit valide) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Bystolic (nebivolol hydrochloride) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8b8ad213-1dc8-454e-a524-075685c0e1a8) |
 
 <!-- review:end log -->
 

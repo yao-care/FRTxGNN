@@ -54,7 +54,7 @@ L'aripiprazole est un antipsychotique atypique, agoniste partiel des récepteurs
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base de la pharmacologie générale, l'aripiprazole est un agoniste partiel des récepteurs dopaminergiques D2/D3 et sérotoninergiques 5-HT1A, doté d'un antagonisme 5-HT2A.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Aripiprazole (traduction non officielle) : « Le mécanisme d'action de l'aripiprazole dans le traitement de la schizophrénie et du trouble bipolaire de type I est inconnu. L'efficacité de l'aripiprazole pourrait être médiée par une combinaison d'une activité agoniste partielle au niveau des récepteurs dopaminergiques D 2 et sérotoninergiques 5-HT 1A et d'une activité antagoniste au niveau des récepteurs 5-HT 2A. » Texte original en anglais : "The mechanism of action of aripiprazole in the treatment of schizophrenia and bipolar I disorder is unknown. The efficacy of aripiprazole could be mediated through a combination of partial agonist activity at dopamine D 2 and serotonin 5-HT 1A receptors and antagonist activity at 5-HT 2A receptors." ([DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be), version du 2025-04-04 ; consulté le 2026-11-19). Sur la base de la pharmacologie générale, l'aripiprazole est un agoniste partiel des récepteurs dopaminergiques D2/D3 et sérotoninergiques 5-HT1A, doté d'un antagonisme 5-HT2A.
 
 Ce profil est plausiblement lié à la potentialisation de la réponse aux antidépresseurs dans la dépression majeure, par modulation du tonus dopaminergique et sérotoninergique. Les troubles de l'humeur partagent des circuits neurobiologiques communs, ce qui rend ce mécanisme transposable. Ce lien est déduit de la pharmacologie générale et non d'une donnée de mécanisme documentée.
 
@@ -127,6 +127,19 @@ Plusieurs essais de phase 3 randomisés, en double aveugle et contre placebo, ai
 - Compléter les données sur le mécanisme d'action (DrugBank)
 - Vérifier les textes d'indication des AMM
 - Définir un plan de surveillance (paramètres métaboliques, numération formule sanguine, tension orthostatique) et une stratégie de gestion des interactions, notamment avec le bupropion
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Abilify Asimtufii (aripiprazole) prescribing information, Otsuka America Pharmaceutical, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=da4c07fd-1130-4341-bb44-63acfa4162be) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

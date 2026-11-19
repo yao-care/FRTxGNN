@@ -56,7 +56,7 @@ Aucun essai clinique enregistré n'est disponible, mais **8 publications** ont �
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. D'après les connaissances générales, le ropinirole est un agoniste dopaminergique des récepteurs D2/D3, utilisé dans la maladie de Parkinson et le syndrome des jambes sans repos.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ropinirole (traduction non officielle) : « Le ropinirole est un agoniste dopaminergique non ergoté. Le mécanisme d’action précis du ropinirole dans le traitement de la maladie de Parkinson est inconnu, bien qu’on pense qu’il soit lié à sa capacité à stimuler les récepteurs dopaminergiques D 2 au sein du noyau caudé-putamen dans le cerveau. » Texte original en anglais : "Ropinirole is a non-ergoline dopamine agonist. The precise mechanism of action of ropinirole as a treatment for Parkinson’s disease is unknown, although it is thought to be related to its ability to stimulate dopamine D 2 receptors within the caudate-putamen in the brain." ([DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da), version du 2026-11-06 ; consulté le 2026-11-19). D'après les connaissances générales, le ropinirole est un agoniste dopaminergique des récepteurs D2/D3, utilisé dans la maladie de Parkinson et le syndrome des jambes sans repos.
 
 Le TDAH implique un dysfonctionnement dopaminergique, et il est fréquemment associé au syndrome des jambes sans repos. Traiter les troubles du sommeil liés à ce syndrome et le déficit dopaminergique pourrait donc, en théorie, améliorer les symptômes du TDAH.
 
@@ -131,12 +131,13 @@ Les autres indications prédites n'ont aucun soutien clinique et sont toutes cla
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: ropinirole prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e9ba4108-7095-4771-840e-bf1e08b5f4da) |
 
 <!-- review:end log -->
 

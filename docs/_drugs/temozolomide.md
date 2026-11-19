@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **néoplasme de l
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, le témozolomide est un agent alkylant oral qui méthyle l'ADN (positions O6 et N7 de la guanine, N3 de l'adénine). Ces lésions sont cytotoxiques et entraînent l'apoptose des cellules tumorales, surtout lorsque l'expression de MGMT est faible. Il traverse la barrière hémato-encéphalique et diffuse dans le liquide céphalorachidien.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Temozolomide (traduction non officielle) : « Le témozolomide n'est pas directement actif mais subit une conversion non enzymatique rapide au pH physiologique en composé réactif, le 5-(3-méthyltriazén-1-yl)-imidazole-4-carboxamide (MTIC). La cytotoxicité du MTIC serait principalement due à l'alkylation de l'ADN, essentiellement aux positions O 6 et N 7 de la guanine, qui provoque des cassures double brin de l'ADN et entraîne une mort cellulaire programmée. » Texte original en anglais : "Temozolomide is not directly active but undergoes rapid nonenzymatic conversion at physiologic pH to the reactive compound 5-(3-methyltriazen-1-yl)-imidazole-4-carboxamide (MTIC). The cytotoxicity of MTIC is thought to be primarily due to DNA alkylation, mainly at the O 6 and N 7 positions of guanine, which causes DNA double strand breaks and results in programmed cell death." ([DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56), version du 2026-02-20 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le témozolomide est un agent alkylant oral qui méthyle l'ADN (positions O6 et N7 de la guanine, N3 de l'adénine). Ces lésions sont cytotoxiques et entraînent l'apoptose des cellules tumorales, surtout lorsque l'expression de MGMT est faible. Il traverse la barrière hémato-encéphalique et diffuse dans le liquide céphalorachidien.
 
 Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. La queue de cheval fait partie du système nerveux central bas, et certaines tumeurs de cette région, comme l'épendymome myxopapillaire, sont des tumeurs primitives du système nerveux central. Un effet sur ces tumeurs est donc plausible sur le plan biologique.
 
@@ -120,6 +120,19 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - Réaliser une revue systématique de la littérature sur les tumeurs de la queue de cheval (épendymome myxopapillaire notamment)
 - Établir le statut du promoteur de MGMT dans ces tumeurs
 - Si pertinent, planifier une étude observationnelle ou un essai de phase 2
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Temodar (temozolomide) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=046a9011-3911-4d3f-a15f-fbb56d5aad56) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

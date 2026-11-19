@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertrichose 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la finastéride est un inhibiteur de la 5-alpha-réductase de type II : elle réduit la production de dihydrotestostérone (DHT), hormone qui influence les follicules pileux sensibles aux androgènes. Son efficacité dans l'hyperplasie bénigne de la prostate est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Finasteride (traduction non officielle) : « Le développement et l'augmentation de volume de la prostate dépendent d'un androgène puissant, la 5α-dihydrotestostérone (DHT). La 5α-réductase de type II métabolise la testostérone en DHT dans la prostate, le foie et la peau. […] Le finastéride est un inhibiteur compétitif et spécifique de la 5α-réductase de type II, avec laquelle il forme lentement un complexe enzymatique stable. » Texte original en anglais : "The development and enlargement of the prostate gland is dependent on the potent androgen, 5α-dihydrotestosterone (DHT). Type II 5α-reductase metabolizes testosterone to DHT in the prostate gland, liver and skin. […] Finasteride is a competitive and specific inhibitor of Type II 5α-reductase with which it slowly forms a stable enzyme complex." ([DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b), version du 2026-03-18 ; consulté le 2026-11-19). Sur la base des connaissances générales, la finastéride est un inhibiteur de la 5-alpha-réductase de type II : elle réduit la production de dihydrotestostérone (DHT), hormone qui influence les follicules pileux sensibles aux androgènes. Son efficacité dans l'hyperplasie bénigne de la prostate est établie.
 
 Le lien avec l'hypertrichose de type Ambras est **faible et spéculatif**. Ce syndrome est une hypertrichose congénitale d'origine génétique (remaniements du chromosome 8q affectant la régulation de TRPS1), sans dépendance androgénique clairement démontrée. Le score élevé du modèle ne repose sur aucune donnée clinique ou publiée.
 
@@ -143,12 +143,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes **annulées** (voici les 5 premières) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | FINCREZO : AMM active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Proscar (finasteride) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6f988153-fc74-4ca4-b29a-111f750c4a4b) |
 
 <!-- review:end log -->
 

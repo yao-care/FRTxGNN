@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, la nélarabine est une prodrogue de l'ara-G, un analogue de la désoxyguanosine. Elle est convertie en ara-GTP, qui s'incorpore à l'ADN et provoque l'apoptose des lymphoblastes, avec une sélectivité particulière pour les lymphocytes T.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nelarabine (traduction non officielle) : « La nélarabine est une prodrogue de l'analogue de la désoxyguanosine 9-β- D -arabinofuranosylguanine (ara-G), un inhibiteur métabolique nucléosidique. La nélarabine est déméthylée par l'ADA en ara-G, monophosphorylée par la désoxyguanosine kinase et la désoxycytidine kinase, puis convertie en 5'-triphosphate actif, l'ara-GTP. » Texte original en anglais : "Nelarabine is a prodrug of the deoxyguanosine analogue 9-β- D -arabinofuranosylguanine (ara-G), a nucleoside metabolic inhibitor. Nelarabine is demethylated by ADA to ara-G, mono-phosphorylated by deoxyguanosine kinase and deoxycytidine kinase, and subsequently converted to the active 5’-triphosphate, ara-GTP." ([DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca), version du 2025-03-31 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la nélarabine est une prodrogue de l'ara-G, un analogue de la désoxyguanosine. Elle est convertie en ara-GTP, qui s'incorpore à l'ADN et provoque l'apoptose des lymphoblastes, avec une sélectivité particulière pour les lymphocytes T.
 
 Un lien plausible, mais non vérifié, avec la sclérose en plaques récurrente-rémittente serait la déplétion sélective de lymphocytes pathogènes, comme pour la cladribine, un analogue de purine approuvé dans la SEP. Cette hypothèse n'est étayée par aucune donnée compilée.
 
@@ -117,11 +117,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Arranon (nelarabine) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9051de-5c4d-4c0f-8c19-e15214498cca) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette pr�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le carboplatine appartient à la classe des dérivés du platine. Ces médicaments se fixent sur l'ADN des cellules tumorales, ce qui bloque leur division et provoque leur mort. Ce mécanisme n'est pas spécifique d'un organe.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Carboplatin (traduction non officielle) : « Le carboplatine est un médicament à base de platine qui se lie à l'ADN et forme des pontages de l'ADN. Ces pontages inhibent la réplication et la transcription de l'ADN et déclenchent des processus cytotoxiques qui entraînent la mort cellulaire. » Texte original en anglais : "Carboplatin is a platinum-based drug that binds to DNA and forms DNA cross-links. These crosslinks inhibit DNA replication and transcription and trigger cytotoxic processes that lead to cell death." ([DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b), version du 2026-11-09 ; consulté le 2026-11-19). Sur la base des connaissances générales, le carboplatine appartient à la classe des dérivés du platine. Ces médicaments se fixent sur l'ADN des cellules tumorales, ce qui bloque leur division et provoque leur mort. Ce mécanisme n'est pas spécifique d'un organe.
 
 Le modèle semble avoir fait ce rapprochement à partir de l'histologie « mucineuse » que cette tumeur partage avec des cancers déjà traités par le carboplatine. Il s'agit d'une inférence statistique du modèle. Aucune donnée mécanistique propre aux tumeurs rectales n'a été fournie.
 
@@ -109,6 +109,19 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5). Aucun ess
 - Des données détaillées sur le mécanisme d'action et sa pertinence pour les tumeurs rectales mucineuses
 - Les mises en garde et contre-indications de la notice, à récupérer sur le site de l'ANSM
 - Une analyse de la comparaison avec les traitements de référence actuels du cancer du rectum
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Kyxata (carboplatin) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f91c48da-68d1-4aa7-89b8-d84a3e8b629b) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

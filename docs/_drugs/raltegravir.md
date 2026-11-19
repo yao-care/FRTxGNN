@@ -56,7 +56,7 @@ avec **0 essai clinique** et **15 publications** précliniques, essentiellement 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le raltégravir appartient à la classe des inhibiteurs de transfert de brin de l'intégrase (INSTI) du VIH-1. Il bloque l'intégration de l'ADN viral dans le génome de la cellule hôte.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Raltegravir (traduction non officielle) : « Le raltégravir est un médicament antiviral anti-VIH-1. […] Le raltégravir inhibe l'activité catalytique de l'intégrase du VIH-1, une enzyme codée par le VIH-1 nécessaire à la réplication virale. L'inhibition de l'intégrase empêche l'insertion covalente, ou intégration, de l'ADN linéaire non intégré du VIH-1 dans le génome de la cellule hôte, empêchant ainsi la formation du provirus du VIH-1. » Texte original en anglais : "Raltegravir is an HIV-1 antiviral drug. […] Raltegravir inhibits the catalytic activity of HIV-1 integrase, an HIV-1 encoded enzyme that is required for viral replication. Inhibition of integrase prevents the covalent insertion, or integration, of unintegrated linear HIV-1 DNA into the host cell genome preventing the formation of the HIV-1 provirus." ([DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2), version du 2026-09-16 ; consulté le 2026-11-19). Sur la base des informations connues, le raltégravir appartient à la classe des inhibiteurs de transfert de brin de l'intégrase (INSTI) du VIH-1. Il bloque l'intégration de l'ADN viral dans le génome de la cellule hôte.
 
 Le virus de l'immunodéficience simienne (SIV) est un lentivirus très proche du VIH. Son intégrase est suffisamment conservée pour être inhibée par le raltégravir, comme le montrent des travaux in vitro et dans des modèles de macaques infectés par SIVmac251 ou SIVmac239. Le score élevé du modèle est cohérent avec ce chevauchement biologique.
 
@@ -116,6 +116,18 @@ Les preuves se limitent à des études précliniques chez le macaque et in vitro
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Études comparatives précisant l'activité du raltégravir sur l'intégrase du SIV
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

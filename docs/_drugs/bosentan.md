@@ -56,7 +56,7 @@ Les données compilées pour ce rapport ne contiennent **aucun essai clinique** 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier. D'après les connaissances générales, le bosentan bloque les récepteurs ETA et ETB de l'endothéline-1, un peptide vasoconstricteur également impliqué dans l'inflammation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bosentan (traduction non officielle) : « Le bosentan est un antagoniste spécifique et compétitif des récepteurs de l'endothéline de types ET A et ET B. Le bosentan présente une affinité légèrement plus élevée pour les récepteurs ET A que pour les récepteurs ET B. L'impact clinique du double blocage de l'endothéline est inconnu. » Texte original en anglais : "Bosentan is a specific and competitive antagonist at endothelin receptor types ET A and ET B. Bosentan has a slightly higher affinity for ET A receptors than for ET B receptors. The clinical impact of dual endothelin blockage is unknown." ([DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c), version du 2025-11-17 ; consulté le 2026-11-19). D'après les connaissances générales, le bosentan bloque les récepteurs ETA et ETB de l'endothéline-1, un peptide vasoconstricteur également impliqué dans l'inflammation.
 
 L'endothéline-1 contribue à l'inflammation synoviale, à l'angiogenèse et à la libération de cytokines (TNF-alpha, IL-17, LTB4). Chez la souris, le bosentan a atténué l'arthrite induite par le collagène, via une voie liée au TNF-α (PMID 22249931). Une autre étude chez la souris montre aussi l'implication des endothélines dans l'arthrite induite par le zymosan (PMID 18515326).
 
@@ -112,11 +112,12 @@ Aucune étude ne porte directement sur l'effet du bosentan dans la polyarthrite 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (le statut de marché indique « commercialisé » alors que les licences sont décrites comme annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tracleer (bosentan) prescribing information, Actelion Pharmaceuticals US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=749e42fb-2fe0-45dd-9268-b43bb3f4081c) |
 
 <!-- review:end log -->
 

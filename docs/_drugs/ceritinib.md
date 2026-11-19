@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gin
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, ceritinib est un inhibiteur de tyrosine kinase ciblant ALK (et, selon la littérature, également IGF-1R, FAK et ROS1). Son efficacité a été démontrée dans le CBNPC avec réarrangement ALK, notamment dans l'essai de phase 3 ASCEND-4.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ceritinib (traduction non officielle) : « Le céritinib est un inhibiteur de kinases. Les cibles de l'inhibition par le céritinib identifiées dans des essais biochimiques ou cellulaires à des concentrations cliniquement pertinentes comprennent ALK, le récepteur du facteur de croissance analogue à l'insuline de type 1 (IGF-1R), le récepteur de l'insuline (InsR) et ROS1. » Texte original en anglais : "Ceritinib is a kinase inhibitor. Targets of ceritinib inhibition identified in either biochemical or cellular assays at clinically relevant concentrations include ALK, insulin-like growth factor 1 receptor (IGF-1R), insulin receptor (InsR), and ROS1." ([DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e), version du 2026-10-28 ; consulté le 2026-11-19). Sur la base des informations connues, ceritinib est un inhibiteur de tyrosine kinase ciblant ALK (et, selon la littérature, également IGF-1R, FAK et ROS1). Son efficacité a été démontrée dans le CBNPC avec réarrangement ALK, notamment dans l'essai de phase 3 ASCEND-4.
 
 Pour la fibromatose gingivale, **aucun lien mécanistique n'est étayé par les données compilées**. Le score élevé du modèle (0,9986) est une prédiction seule. La voie ALK n'a pas de rôle documenté dans cette maladie, qui est une affection gingivale héréditaire. La similarité avec l'indication d'origine n'a pas été évaluée.
 
@@ -122,12 +122,13 @@ Les mises en garde et contre-indications officielles n'ont pas pu être récupé
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et le profil d'interactions est lourd, ce qui rend difficile de justifier un traitement systémique par  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zykadia (ceritinib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fff5d805-4ffd-4e8e-8e63-6f129697563e) |
 
 <!-- review:end log -->
 

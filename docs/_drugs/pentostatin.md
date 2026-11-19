@@ -56,7 +56,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la pentostatine inhibe l'adénosine désaminase, ce qui entraîne une déplétion lymphocytaire. Son efficacité est établie dans la leucémie à tricholeucocytes, une hémopathie lymphoïde.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pentostatin (traduction non officielle) : « La pentostatine est un puissant inhibiteur de l'état de transition de l'enzyme adénosine désaminase (ADA). L'activité la plus élevée de l'ADA est observée dans les cellules du système lymphoïde, les lymphocytes T présentant une activité plus élevée que les lymphocytes B, et les hémopathies malignes à lymphocytes T présentant une activité de l'ADA plus élevée que les hémopathies malignes à lymphocytes B. » Texte original en anglais : "Pentostatin is a potent transition state inhibitor of the enzyme adenosine deaminase (ADA). The greatest activity of ADA is found in cells of the lymphoid system with T-cells having higher activity than B-cells, and T-cell malignancies having higher ADA activity than B-cell malignancies." ([DailyMed: Nipent (pentostatin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=674e0e6d-46ed-4868-9196-04019d667716), version du 2026-10-19 ; consulté le 2026-11-19). D'après les connaissances générales, la pentostatine inhibe l'adénosine désaminase, ce qui entraîne une déplétion lymphocytaire. Son efficacité est établie dans la leucémie à tricholeucocytes, une hémopathie lymphoïde.
 
 Aucune donnée ne relie l'inhibition de l'ADA à la biologie du rhabdomyosarcome, un sarcome solide, principalement pédiatrique. Le score élevé (0.9954) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (d'autres sous-types de rhabdomyosarcome), et non une preuve biologique. La similarité avec l'indication originale n'a pas été évaluée.
 
@@ -135,12 +135,13 @@ Les mises en garde et contre-indications du texte de la notice ANSM n'ont pas pu
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e médicament n'a plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nipent (pentostatin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=674e0e6d-46ed-4868-9196-04019d667716) |
 
 <!-- review:end log -->
 

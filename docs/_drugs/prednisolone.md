@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré, mais **20 publications** soutiennent act
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la prednisolone est un glucocorticoïde de synthèse. Son efficacité dans plusieurs maladies auto-immunes et inflammatoires est établie, et sur le plan mécanistique elle pourrait être applicable à la pelade.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Prednisolone (traduction non officielle) : « La prednisolone est un médicament stéroïde corticosurrénalien de synthèse doté de propriétés principalement glucocorticoïdes. Certaines de ces propriétés reproduisent les actions physiologiques des glucocorticostéroïdes endogènes, mais d'autres ne reflètent pas nécessairement l'une quelconque des fonctions normales des hormones surrénaliennes ; elles ne sont observées qu'après l'administration de fortes doses thérapeutiques du médicament. » Texte original en anglais : "Prednisolone is a synthetic adrenocortical steroid drug with predominantly glucocorticoid properties. Some of these properties reproduce the physiological actions of endogenous glucocorticosteroids, but others do not necessarily reflect any of the adrenal hormones' normal functions; they are seen only after administration of large therapeutic doses of the drug." ([DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1), version du 2025-06-03 ; consulté le 2026-11-19). Sur la base des informations connues, la prednisolone est un glucocorticoïde de synthèse. Son efficacité dans plusieurs maladies auto-immunes et inflammatoires est établie, et sur le plan mécanistique elle pourrait être applicable à la pelade.
 
 La pelade est une maladie auto-immune où les lymphocytes T attaquent les follicules pileux, avec effondrement du privilège immun folliculaire. La prednisolone freine l'activation des lymphocytes T et la signalisation des cytokines pro-inflammatoires, ce qui correspond au mécanisme de la maladie et aux indications auto-immunes existantes du médicament. Une étude de la littérature suggère aussi une baisse du TNF-α sous corticothérapie pulsée.
 
@@ -125,6 +125,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 | Effluvium télogène | 0,9998 | L5 | Hold |
 
 Le syndrome néphrotique corticosensible présente le niveau de preuve le plus élevé (L1), mais la littérature fournie porte surtout sur les formes corticorésistantes. Cette indication mérite une évaluation distincte.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

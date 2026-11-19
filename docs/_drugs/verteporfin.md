@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble de la
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, la vertéporfine est un photosensibilisant activé par une lumière rouge non thermique (environ 689 nm). Il génère des espèces réactives de l'oxygène dans les tissus néovasculaires, ce qui explique son usage dans la dégénérescence maculaire. Des travaux précliniques rapportent aussi une inhibition de l'interaction YAP-TEAD, indépendante de la lumière.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Verteporfin est (traduction non officielle) : « Inhibiteur de l'ADN » Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, la vertéporfine est un photosensibilisant activé par une lumière rouge non thermique (environ 689 nm). Il génère des espèces réactives de l'oxygène dans les tissus néovasculaires, ce qui explique son usage dans la dégénérescence maculaire. Des travaux précliniques rapportent aussi une inhibition de l'interaction YAP-TEAD, indépendante de la lumière.
 
 Aucun lien mécanistique direct n'est établi entre ces propriétés et les troubles de la phosphorylation oxydative (OXPHOS) liés à l'ADN nucléaire. Une connexion via les voies du stress mitochondrial ou oxydatif est plausible, mais non vérifiée.
 
@@ -111,11 +111,12 @@ Aucune littérature associée disponible actuellement.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et il n'existe plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL5314346 (verteporfin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL5314346) |
 
 <!-- review:end log -->
 

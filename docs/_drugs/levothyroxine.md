@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypoplasie/apl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la lévothyroxine est une forme synthétique de la thyroxine (T4), dont l'efficacité dans l'hypothyroïdie est établie. Les hormones thyroïdiennes jouent un rôle général dans le développement et la maturation de plusieurs organes, dont le rein.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Levothyroxine (traduction non officielle) : « Les hormones thyroïdiennes exercent leurs actions physiologiques par le contrôle de la transcription de l'ADN et de la synthèse des protéines. La triiodothyronine (T3) et la L-thyroxine (T4) diffusent dans le noyau cellulaire et se lient aux protéines réceptrices thyroïdiennes fixées à l'ADN. » Texte original en anglais : "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174), version du 2026-11-06 ; consulté le 2026-11-19). Sur la base des informations connues, la lévothyroxine est une forme synthétique de la thyroxine (T4), dont l'efficacité dans l'hypothyroïdie est établie. Les hormones thyroïdiennes jouent un rôle général dans le développement et la maturation de plusieurs organes, dont le rein.
 
 Cependant, ce lien reste très faible. L'hypoplasie/aplasie rénale est un défaut du développement, le plus souvent d'origine génétique (par exemple PAX2, HNF1B, RET), qu'une hormone administrée après la naissance ne peut pas raisonnablement corriger. Le score élevé du modèle (0.9967) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées (rénales et thyroïdiennes), et non une preuve biologique ni un mécanisme thérapeutique validé.
 
@@ -100,6 +100,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Preuves précliniques ou cliniques directement liées à l'hypoplasie/aplasie rénale
 - Justification mécanistique expliquant comment une hormone thyroïdienne pourrait agir sur un défaut de développement rénal
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

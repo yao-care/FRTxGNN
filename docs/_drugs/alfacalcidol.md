@@ -60,7 +60,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Alfacalcidol est un analogue de la vitamine D hydroxylé en position 1-alpha, transformé dans le foie en calcitriol, la forme active de la vitamine D. Il intervient dans l'équilibre du calcium et du phosphate et dans la minéralisation osseuse.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Alfacalcidol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D » Texte original en anglais : "Vitamin D receptor agonist" ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0 ; consulté le 2026-11-19). Alfacalcidol est un analogue de la vitamine D hydroxylé en position 1-alpha, transformé dans le foie en calcitriol, la forme active de la vitamine D. Il intervient dans l'équilibre du calcium et du phosphate et dans la minéralisation osseuse.
 
 Les relations enregistrées dans le graphe de connaissances (hyperparathyroïdie, ostéodystrophie rénale, etc.) concernent des troubles du métabolisme phosphocalcique et osseux. La conodysplasie crânio-faciale est une dysplasie squelettique. Le modèle a probablement établi le rapprochement à partir de phénotypes osseux communs.
 
@@ -115,6 +115,19 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Études précliniques ou de mécanisme si une piste biologique est identifiée
 
 **Remarque sur une autre prédiction :** pour l'**acidose tubulaire rénale** (3e prédiction, score de 0,9927), les données compilées contiennent 5 rapports de cas. Ils décrivent l'ostéomalacie associée à cette acidose, dans certains cas traitée avec un dérivé actif de la vitamine D. Ils ne portent pas sur une efficacité démontrée dans l'acidose tubulaire elle-même. L'alfacalcidol y agirait plutôt comme traitement adjuvant des complications osseuses. Cette piste pourrait être explorée séparément comme question de recherche.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

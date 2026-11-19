@@ -56,7 +56,7 @@ mais seule **1 publication** (une revue pédiatrique) est associée à cette dir
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'érythromycine appartient à la classe des macrolides, qui inhibent la synthèse protéique bactérienne et possèdent également des effets anti-inflammatoires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Erythromycin (traduction non officielle) : « L'érythromycine agit par inhibition de la synthèse protéique en se liant aux sous-unités ribosomiques 50S des organismes sensibles. Elle n'affecte pas la synthèse des acides nucléiques. » Texte original en anglais : "Erythromycin acts by inhibition of protein synthesis by binding 50S ribosomal subunits of susceptible organisms. It does not affect nucleic acid synthesis." ([DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd), version du 2018-12-04 ; consulté le 2026-11-19). Sur la base des informations connues, l'érythromycine appartient à la classe des macrolides, qui inhibent la synthèse protéique bactérienne et possèdent également des effets anti-inflammatoires.
 
 La kératoconjonctivite épithéliale ponctuée accompagne souvent la blépharokératoconjonctivite chronique, pour laquelle les macrolides sont utilisés afin d'agir sur le bord palpébral et la surface oculaire. Le lien est plausible sur le plan pharmacologique.
 
@@ -102,6 +102,18 @@ La prédiction repose uniquement sur le score du modèle (0,9989) et sur une seu
 - Données sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice ANSM
 - Évaluation de la compatibilité des voies d'administration (ophtalmique) avec les formes disponibles
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ery-Tab (erythromycin) prescribing information, Arbor Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fda44eb6-7901-4b80-ba0b-216f6cacf3fd) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

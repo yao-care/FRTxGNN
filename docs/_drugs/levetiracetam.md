@@ -57,7 +57,7 @@ Ce rapport porte donc sur l'état de mal épileptique, qui dispose des preuves l
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le lévétiracétam se lie à la protéine de la vésicule synaptique SV2A et module la libération des neurotransmetteurs, ce qui réduit l'hyperexcitabilité neuronale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Levetiracetam (traduction non officielle) : « Le ou les mécanismes précis par lesquels le lévétiracétam exerce son effet antiépileptique sont inconnus. Un site de liaison neuronal saturable et stéréosélectif a été décrit pour le lévétiracétam dans le tissu cérébral de rat. Les données expérimentales indiquent que ce site de liaison est la protéine des vésicules synaptiques SV2A, qui serait impliquée dans la régulation de l'exocytose des vésicules. » Texte original en anglais : "The precise mechanism(s) by which levetiracetam exerts its antiepileptic effect is unknown. A saturable and stereoselective neuronal binding site in rat brain tissue has been described for levetiracetam. Experimental data indicate that this binding site is the synaptic vesicle protein SV2A, thought to be involved in the regulation of vesicle exocytosis." ([DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e), version du 2026-11-11 ; consulté le 2026-11-19). Sur la base des informations connues, le lévétiracétam se lie à la protéine de la vésicule synaptique SV2A et module la libération des neurotransmetteurs, ce qui réduit l'hyperexcitabilité neuronale.
 
 L'épilepsie partielle et l'état de mal épileptique relèvent du même spectre : une activité épileptique excessive et soutenue. Un médicament qui contrôle les crises dans l'épilepsie partielle peut donc plausiblement interrompre des crises prolongées, notamment en deuxième ligne après les benzodiazépines.
 
@@ -140,11 +140,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Keppra (levetiracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6d5784d-abf9-45fe-ac5a-d5c53bd50f7e) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**ostéoporose
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le trastuzumab déruxtécan est un anticorps-médicament conjugué dirigé contre HER2, portant une charge utile inhibitrice de la topoisomérase I (déruxtécan, dérivé de l'exatécan). Son usage concerne les cancers exprimant HER2.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Trastuzumab Deruxtecan (traduction non officielle) : « Le fam-trastuzumab déruxtécan-nxki est un conjugué anticorps-médicament dirigé contre HER2. L'anticorps est une IgG1 anti-HER2 humanisée. La petite molécule, le DXd, est un inhibiteur de la topoisomérase I fixé à l'anticorps par un lieur clivable. » Texte original en anglais : "Fam-trastuzumab deruxtecan-nxki is a HER2-directed antibody-drug conjugate. The antibody is a humanized anti-HER2 IgG1. The small molecule, DXd, is a topoisomerase I inhibitor attached to the antibody by a cleavable linker." ([DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6), version du 2026-05-15 ; consulté le 2026-11-19). Sur la base des informations connues, le trastuzumab déruxtécan est un anticorps-médicament conjugué dirigé contre HER2, portant une charge utile inhibitrice de la topoisomérase I (déruxtécan, dérivé de l'exatécan). Son usage concerne les cancers exprimant HER2.
 
 **Cette prédiction n'est pas étayée sur le plan biologique.** Les voies du métabolisme osseux (RANK/RANKL, Wnt/sclérostine, régulation des ostéoblastes et ostéoclastes) ne sont pas des cibles connues de ce médicament. Le score très élevé (0,9931) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -126,12 +126,13 @@ Beaucoup concernent des immunosuppresseurs ou des agents myélosuppresseurs, ave
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Enhertu (fam-trastuzumab deruxtecan-nxki) prescribing information, Daiichi Sankyo Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e67e73e-ddf4-4e4d-8b50-09d7514910b6) |
 
 <!-- review:end log -->
 

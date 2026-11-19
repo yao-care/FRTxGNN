@@ -56,7 +56,7 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5).
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le cidofovir est un analogue nucléotidique inhibiteur de l'ADN polymérase virale, actif contre des virus à ADN (CMV, adénovirus, HPV). Son indication d'origine n'étant pas renseignée dans les données d'AMM, la relation avec la nouvelle indication ne peut pas être établie à partir de ces données.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cidofovir (traduction non officielle) : « Le cidofovir supprime la réplication du cytomégalovirus (CMV) par inhibition sélective de la synthèse de l'ADN viral. Les données biochimiques confirment l'inhibition sélective de l'ADN polymérase du CMV par le diphosphate de cidofovir, le métabolite intracellulaire actif du cidofovir. » Texte original en anglais : "Cidofovir suppresses cytomegalovirus (CMV) replication by selective inhibition of viral DNA synthesis. Biochemical data support selective inhibition of CMV DNA polymerase by cidofovir diphosphate, the active intracellular metabolite of cidofovir." ([DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9), version du 2021-04-15 ; consulté le 2026-11-19). Sur la base des informations connues, le cidofovir est un analogue nucléotidique inhibiteur de l'ADN polymérase virale, actif contre des virus à ADN (CMV, adénovirus, HPV). Son indication d'origine n'étant pas renseignée dans les données d'AMM, la relation avec la nouvelle indication ne peut pas être établie à partir de ces données.
 
 Le lien mécanistique avec la cholangite sclérosante n'est pas étayé. Une connexion théorique ténue existe via les cholangiopathies associées au SIDA ou à une infection virale (CMV), mais elle n'est démontrée par aucune donnée fournie. Le score élevé (0,9994) est une prédiction de modèle et doit être interprété avec prudence.
 
@@ -138,12 +138,13 @@ Ces interactions évoquent surtout un risque additif de néphrotoxicité, point 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et la raison de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cidofovir (cidofovir anhydrous) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56541229-8c1a-4550-8951-2415ed08e7e9) |
 
 <!-- review:end log -->
 

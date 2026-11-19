@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome**, m
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, la rivastigmine est un inhibiteur de l'acétylcholinestérase et de la butyrylcholinestérase. Son efficacité dans la maladie d'Alzheimer repose sur l'augmentation de la transmission cholinergique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rivastigmine (traduction non officielle) : « Bien que le mécanisme d'action précis de la rivastigmine soit inconnu, on pense qu'elle exerce son effet thérapeutique en renforçant la fonction cholinergique. Ceci est obtenu par l'augmentation de la concentration d'acétylcholine via l'inhibition réversible de son hydrolyse par la cholinestérase. » Texte original en anglais : "Although the precise mechanism of action of rivastigmine is unknown, it is thought to exert its therapeutic effect by enhancing cholinergic function. This is accomplished by increasing the concentration of acetylcholine through reversible inhibition of its hydrolysis by cholinesterase." ([DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d), version du 2025-11-11 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la rivastigmine est un inhibiteur de l'acétylcholinestérase et de la butyrylcholinestérase. Son efficacité dans la maladie d'Alzheimer repose sur l'augmentation de la transmission cholinergique.
 
 Dans l'œil, une activité cholinergique accrue pourrait contribuer à abaisser la pression intraoculaire (PIO), en favorisant la contraction du muscle ciliaire et l'écoulement par le trabéculum. Ce mécanisme est comparable à celui des agents miotiques comme la pilocarpine et la physostigmine. Une étude chez le lapin normotendu a montré que la rivastigmine appliquée par voie topique réduisait la PIO, et une revue récente sur les agents cholinergiques et la PIO apporte un contexte mécanistique favorable.
 
@@ -132,11 +132,12 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (5 AMM présentées sur 11, toutes annulées.) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
 
 <!-- review:end log -->
 

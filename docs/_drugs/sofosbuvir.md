@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances établies, le sofosbuvir est un analogue nucléotidique qui inhibe l'ARN polymérase ARN-dépendante NS5B du virus de l'hépatite C. Son efficacité dans l'hépatite C est démontrée.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sofosbuvir (traduction non officielle) : « Le sofosbuvir est un agent antiviral à action directe contre le virus de l'hépatite C. […] Le sofosbuvir est un inhibiteur de l'ARN polymérase ARN-dépendante NS5B du VHC, qui est essentielle à la réplication virale. Le sofosbuvir est une prodrogue nucléotidique qui subit un métabolisme intracellulaire pour former l'analogue triphosphate d'uridine pharmacologiquement actif (GS-461203), qui peut être incorporé dans l'ARN du VHC par la polymérase NS5B et agit comme terminateur de chaîne. » Texte original en anglais : "Sofosbuvir is a direct-acting antiviral agent against the hepatitis C virus. […] Sofosbuvir is an inhibitor of the HCV NS5B RNA-dependent RNA polymerase, which is essential for viral replication. Sofosbuvir is a nucleotide prodrug that undergoes intracellular metabolism to form the pharmacologically active uridine analog triphosphate (GS-461203), which can be incorporated into HCV RNA by the NS5B polymerase and acts as a chain terminator." ([DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf), version du 2024-12-26 ; consulté le 2026-11-19). D'après les connaissances établies, le sofosbuvir est un analogue nucléotidique qui inhibe l'ARN polymérase ARN-dépendante NS5B du virus de l'hépatite C. Son efficacité dans l'hépatite C est démontrée.
 
 Pour l'hépatite B, la plausibilité mécanistique est **faible**. Le VHB se réplique par une transcriptase inverse à partir d'une matrice d'ADN, et non par une ARN polymérase ARN-dépendante. Un effet antiviral direct est donc peu vraisemblable. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (par exemple la co-infection VHC/VHB), et non une preuve biologique.
 
@@ -157,12 +157,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sovaldi (sofosbuvir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=80beab2c-396e-4a37-a4dc-40fdb62859cf) |
 
 <!-- review:end log -->
 

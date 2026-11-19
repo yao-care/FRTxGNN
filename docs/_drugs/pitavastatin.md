@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, la pitavastatine est un inhibiteur de l'HMG-CoA réductase, qui réduit le LDL-cholestérol et tend à augmenter le HDL-cholestérol.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pitavastatin (traduction non officielle) : « La pitavastatine est un inhibiteur de la 3-hydroxy-3-méthylglutaryl-coenzyme A (HMG-CoA) réductase, l'enzyme qui catalyse la conversion de l'HMG-CoA en mévalonate, une étape limitante de la voie de biosynthèse du cholestérol. En conséquence, l'expression des récepteurs des LDL, suivie de la captation des LDL du sang vers le foie, est accélérée, puis le CT plasmatique diminue. » Texte original en anglais : "Pitavastatin is an inhibitor of 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase, the enzyme that catalyzes the conversion of HMG-CoA to mevalonate, a rate-limiting step in the biosynthetic pathway for cholesterol. As a result, the expression of LDL-receptors followed by the uptake of LDL from blood to liver is accelerated and then the plasma TC decreases." ([DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2), version du 2026-03-31 ; consulté le 2026-11-19). D'après les connaissances générales, la pitavastatine est un inhibiteur de l'HMG-CoA réductase, qui réduit le LDL-cholestérol et tend à augmenter le HDL-cholestérol.
 
 La déficience en CETP se caractérise par un HDL-cholestérol très élevé et un métabolisme lipoprotéique modifié. Il existe donc un lien plausible avec la voie des lipides. Cependant, cette maladie s'accompagne typiquement d'un HDL élevé, et le traitement par statine n'y est pas un besoin établi.
 
@@ -103,6 +103,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Revue de la littérature sur les statines dans la déficience en CETP
 - Texte de la notice (mises en garde et contre-indications) via l'ANSM
 - Évaluation de la pertinence clinique et des besoins thérapeutiques réels dans cette maladie rare
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Livalo (pitavastatin calcium) prescribing information, Kowa Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44dcbf97-99ec-427c-ba50-207e0069d6d2) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

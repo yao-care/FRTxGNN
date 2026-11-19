@@ -60,7 +60,7 @@ Les données compilées indiquent même que ce score provient du modèle TxGNN (
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Selon les connaissances pharmacologiques générales, le sotalol est un bêta-bloquant doté d'une activité antiarythmique de classe III (blocage des canaux potassiques). Il ralentit la fréquence sinusale et la conduction auriculo-ventriculaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sotalol (traduction non officielle) : « Le sotalol possède à la fois des propriétés antiarythmiques de blocage des récepteurs bêta-adrénergiques (classe II de Vaughan Williams) et d'allongement de la durée du potentiel d'action cardiaque (classe III de Vaughan Williams). Les deux isomères du sotalol ont des effets antiarythmiques de classe III similaires, tandis que l'isomère l est responsable de la quasi-totalité de l'activité bêta-bloquante. » Texte original en anglais : "Sotalol has both beta-adrenoreceptor blocking (Vaughan Williams Class II) and cardiac action potential duration prolongation (Vaughan Williams Class III) antiarrhythmic properties. The two isomers of sotalol have similar Class III antiarrhythmic effects, while the l-isomer is responsible for virtually all of the beta-blocking activity." ([DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee), version du 2024-12-16 ; consulté le 2026-11-19). Selon les connaissances pharmacologiques générales, le sotalol est un bêta-bloquant doté d'une activité antiarythmique de classe III (blocage des canaux potassiques). Il ralentit la fréquence sinusale et la conduction auriculo-ventriculaire.
 
 **La prédiction ne paraît pas plausible sur le plan mécanistique.** Dans le syndrome du sinus malade, ces effets constituent un problème de sécurité (bradycardie, pauses sinusales) et non un mécanisme thérapeutique. La forme autosomique dominante est liée à des variants du canal HCN4, et rien ne relie le sotalol à la correction de ce défaut. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises entre maladies apparentées (troubles du rythme cardiaque), et non une preuve biologique ; il ne doit pas être interprété comme un soutien thérapeutique.
 
@@ -119,6 +119,19 @@ Les données issues de la notice n'étant pas disponibles, les éléments ci-des
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Réexaminer les autres indications prédites, en particulier l'**AVC** (score 0,9944, niveau L4) : un essai de phase 3 (NCT00007605, 706 participants, terminé) a évalué le sotalol et l'amiodarone dans le maintien du rythme sinusal en fibrillation auriculaire, mais pas la prévention de l'AVC. Ce lien reste indirect, la prévention de l'AVC reposant sur l'anticoagulation.
 - Les autres prédictions (syndrome de Wildervanck, sarcoglycanopathie, trouble bipolaire maniaque, syndrome macrocéphalie-dysmorphie-retard psychomoteur, susceptibilité obsolète à l'AVC ischémique) n'ont aucun soutien clinique. Dans le cas du trouble bipolaire, la littérature disponible signale uniquement des risques d'interaction (QT, torsades de pointes) avec les antipsychotiques.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

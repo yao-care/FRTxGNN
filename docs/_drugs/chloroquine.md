@@ -60,7 +60,7 @@ mais **aucun essai clinique** n'est enregistré et une seule publication (une co
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la chloroquine appartient à la classe des antipaludiques de la famille des 4-aminoquinoléines. Son efficacité dans la polyarthrite rhumatoïde et le lupus est établie, et elle pourrait mécanistiquement être applicable à la nouvelle indication.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Chloroquine (traduction non officielle) : « La chloroquine, une 4-aminoquinoléine, est un agent antiprotozoaire. Le mécanisme précis par lequel la chloroquine exerce son activité n'est pas connu. La chloroquine pourrait exercer son effet contre les espèces de Plasmodium en se concentrant dans les vésicules acides du parasite et en inhibant la polymérisation de l'hème. » Texte original en anglais : "Chloroquine, a 4-aminoquinoline, is an anti-protozoal agent. The precise mechanism by which chloroquine exhibits activity is not known. Chloroquine, may exert its effect against Plasmodium species by concentrating in the acid vesicles of the parasite and by inhibiting polymerization of heme." ([DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570), version du 2026-10-21 ; consulté le 2026-11-19). Sur la base des informations connues, la chloroquine appartient à la classe des antipaludiques de la famille des 4-aminoquinoléines. Son efficacité dans la polyarthrite rhumatoïde et le lupus est établie, et elle pourrait mécanistiquement être applicable à la nouvelle indication.
 
 Ses effets immunomodulateurs (inhibition de la fonction lysosomale, réduction de la présentation antigénique, diminution de la signalisation des cytokines pro-inflammatoires) constituent un lien plausible avec l'arthrite juvénile idiopathique polyarticulaire à facteur rhumatoïde positif, qui ressemble à la polyarthrite rhumatoïde de l'adulte.
 
@@ -110,6 +110,19 @@ Les mises en garde et contre-indications figurant dans la notice n'ont pas pu ê
 - Rechercher des données cliniques spécifiques à la chloroquine dans l'arthrite juvénile idiopathique, notamment pédiatriques
 - Évaluer la place de la chloroquine face aux traitements actuels (DMARD, biothérapies)
 - Réaliser une revue de sécurité ciblée : toxicité rétinienne, effets cardiaques (QT/conduction, un cas de bloc auriculo-ventriculaire de 3e degré rapporté), et gestion des 467 interactions médicamenteuses
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: chloroquine phosphate prescribing information, Rising Pharma Holdings, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c69e2b-211b-4746-9f3a-f86d36520570) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

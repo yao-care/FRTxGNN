@@ -60,7 +60,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. L'ipilimumab est un anticorps anti-CTLA-4 qui lève un frein de l'activation des lymphocytes T et amplifie la réponse immunitaire antitumorale. Son efficacité est établie dans le mélanome.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ipilimumab (traduction non officielle) : « CTLA-4 est un régulateur négatif de l'activité des lymphocytes T. L'ipilimumab est un anticorps monoclonal qui se lie à CTLA-4 et bloque l'interaction de CTLA-4 avec ses ligands, CD80/CD86. Il a été démontré que le blocage de CTLA-4 augmente l'activation et la prolifération des lymphocytes T, y compris l'activation et la prolifération des lymphocytes T effecteurs infiltrant la tumeur. » Texte original en anglais : "CTLA-4 is a negative regulator of T-cell activity. Ipilimumab is a monoclonal antibody that binds to CTLA-4 and blocks the interaction of CTLA-4 with its ligands, CD80/CD86. Blockade of CTLA-4 has been shown to augment T-cell activation and proliferation, including the activation and proliferation of tumor infiltrating T-effector cells." ([DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66), version du 2026-08-20 ; consulté le 2026-11-19). L'ipilimumab est un anticorps anti-CTLA-4 qui lève un frein de l'activation des lymphocytes T et amplifie la réponse immunitaire antitumorale. Son efficacité est établie dans le mélanome.
 
 **En pratique, cette prédiction n'est pas étayée sur le plan mécanistique.** La choroïdérémie est une maladie monogénique liée à l'X, causée par la perte de fonction du gène *CHM* (REP1). Elle se caractérise par la dégénérescence progressive de l'épithélium pigmentaire rétinien, des photorécepteurs et de la choroïde. Aucun mécanisme dépendant des points de contrôle immunitaires n'est établi dans cette maladie.
 
@@ -141,12 +141,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 66532840 (YERVOY 5 mg/mL) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré, mais **9 publications** (essentiellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le pimozide est un antagoniste dopaminergique D2 de la classe des diphénylbutylpipéridines, dont l'efficacité dans le syndrome de Gilles de la Tourette est établie.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pimozide (traduction non officielle) : « Actions pharmacodynamiques Le pimozide en comprimés est un médicament antipsychotique actif par voie orale qui partage avec les autres antipsychotiques la capacité de bloquer les récepteurs dopaminergiques des neurones du système nerveux central. Bien que son mode d'action exact n'ait pas été établi, la capacité du pimozide à supprimer les tics moteurs et vocaux dans le syndrome de Gilles de la Tourette serait liée à son activité de blocage dopaminergique. » Texte original en anglais : "Pharmacodynamic Actions Pimozide tablets, are an orally active antipsychotic drug product which shares with other antipsychotics the ability to blockade dopaminergic receptors on neurons in the central nervous system. Although its exact mode of action has not been established, the ability of pimozide to suppress motor and phonic tics in Tourette’s Disorder is thought to be a function of its dopaminergic blocking activity." ([DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280), version du 2026-08-12 ; consulté le 2026-11-19). Sur la base des informations connues, le pimozide est un antagoniste dopaminergique D2 de la classe des diphénylbutylpipéridines, dont l'efficacité dans le syndrome de Gilles de la Tourette est établie.
 
 La trichotillomanie, les tics et le trouble obsessionnel-compulsif partagent des comportements répétitifs et stéréotypés, impliquant probablement une dérégulation dopaminergique des circuits cortico-striato-thalamiques. Cette proximité phénoménologique et thérapeutique rend le signal du modèle plausible sur le plan mécanistique.
 
@@ -144,12 +144,13 @@ Les autres prédictions disposent de preuves plus faibles et sont toutes en stat
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées, disponibilité du produit) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: pimozide prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=70b079e2-a1f7-4a93-8685-d60a4d7c1280) |
 
 <!-- review:end log -->
 

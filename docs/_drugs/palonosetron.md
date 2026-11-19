@@ -59,7 +59,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le palonosétron fait partie de la classe des antagonistes des récepteurs 5-HT3 (sétrons), utilisés comme antiémétiques, et son blocage de la sérotonine au niveau de ces récepteurs pourrait, sur le plan théorique, être lié à la physiopathologie de la migraine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Palonosetron (traduction non officielle) : « Le palonosétron est un antagoniste des récepteurs 5-HT 3 doté d'une forte affinité de liaison pour ce récepteur et d'une affinité faible ou nulle pour les autres récepteurs. La chimiothérapie anticancéreuse peut être associée à une incidence élevée de nausées et de vomissements, en particulier lorsque certains agents, tels que le cisplatine, sont utilisés. » Texte original en anglais : "Palonosetron is a 5-HT 3 receptor antagonist with a strong binding affinity for this receptor and little or no affinity for other receptors. Cancer chemotherapy may be associated with a high incidence of nausea and vomiting, particularly when certain agents, such as cisplatin, are used." ([DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7), version du 2025-04-29 ; consulté le 2026-11-19). Sur la base des informations connues, le palonosétron fait partie de la classe des antagonistes des récepteurs 5-HT3 (sétrons), utilisés comme antiémétiques, et son blocage de la sérotonine au niveau de ces récepteurs pourrait, sur le plan théorique, être lié à la physiopathologie de la migraine.
 
 Le lien est plausible mais non démontré. Les voies sérotoninergiques et trigémino-vasculaires interviennent dans la migraine, et les nausées et vomissements en sont une comorbidité fréquente. Le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -138,12 +138,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Posfrea (palonosetron) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13a201ba-c86d-48c5-a0e1-a3e0b4e6a2a7) |
 
 <!-- review:end log -->
 

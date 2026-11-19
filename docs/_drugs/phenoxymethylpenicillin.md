@@ -60,7 +60,7 @@ Une seconde indication prédite, la laryngite, dispose d'une seule publication, 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la phénoxyméthylpénicilline est une pénicilline à spectre étroit qui inhibe la synthèse de la paroi bactérienne en se liant aux protéines de liaison aux pénicillines. Son efficacité est établie dans les infections streptococciques et respiratoires hautes.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Phenoxymethylpenicillin (traduction non officielle) : « La pénicilline V exerce une action bactéricide contre les micro-organismes sensibles à la pénicilline pendant la phase de multiplication active. Elle agit par inhibition de la biosynthèse du mucopeptide de la paroi cellulaire. Elle n'est pas active contre les bactéries productrices de pénicillinase, parmi lesquelles figurent de nombreuses souches de staphylocoques. » Texte original en anglais : "Penicillin V exerts a bactericidal action against penicillin-sensitive microorganisms during the stage of active multiplication. It acts through the inhibition of biosynthesis of cell-wall mucopeptide. It is not active against the penicillinase-producing bacteria, which include many strains of staphylococci." ([DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea), version du 2026-11-12 ; consulté le 2026-11-19). Sur la base des connaissances générales, la phénoxyméthylpénicilline est une pénicilline à spectre étroit qui inhibe la synthèse de la paroi bactérienne en se liant aux protéines de liaison aux pénicillines. Son efficacité est établie dans les infections streptococciques et respiratoires hautes.
 
 L'épiglottite est une infection bactérienne aiguë des structures supraglottiques. Depuis la vaccination, elle est plus souvent due à *Streptococcus pyogenes*, *Streptococcus pneumoniae* et *Staphylococcus aureus* qu'à *Haemophilus influenzae* de type b. La couverture streptococcique de la pénicilline V est donc cohérente avec la prédiction, ce qui explique en partie le score élevé.
 
@@ -131,11 +131,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est abrogée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: penicillin v potassium prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ceddc406-4a17-471f-917e-63b4b03779ea) |
 
 <!-- review:end log -->
 

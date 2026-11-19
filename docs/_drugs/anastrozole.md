@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'anastrozole appartient à la classe des inhibiteurs de l'aromatase, qui agissent en diminuant la synthèse des œstrogènes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Anastrozole (traduction non officielle) : « La croissance de nombreux cancers du sein est stimulée ou entretenue par les estrogènes. Chez les femmes ménopausées, les estrogènes proviennent principalement de l'action de l'enzyme aromatase, qui convertit les androgènes surrénaliens (principalement l'androstènedione et la testostérone) en estrone et en estradiol. […] L'anastrozole est un inhibiteur non stéroïdien sélectif de l'aromatase. » Texte original en anglais : "The growth of many cancers of the breast is stimulated or maintained by estrogens. In postmenopausal women, estrogens are mainly derived from the action of the aromatase enzyme, which converts adrenal androgens (primarily androstenedione and testosterone) to estrone and estradiol. […] Anastrozole is a selective non-steroidal aromatase inhibitor." ([DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de), version du 2026-03-02 ; consulté le 2026-11-19). Sur la base des informations connues, l'anastrozole appartient à la classe des inhibiteurs de l'aromatase, qui agissent en diminuant la synthèse des œstrogènes.
 
 Pour le neuroblastome, aucun lien mécanistique clair n'a été identifié dans les données compilées pour ce rapport. Il s'agit d'une tumeur pédiatrique de la crête neurale, qui n'est généralement pas considérée comme dépendante des œstrogènes ; l'inhibition de l'aromatase n'a donc pas de justification évidente.
 
@@ -101,6 +101,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Mises en garde et contre-indications issues de la notice ANSM
 - Données précliniques ou études de mécanisme indiquant un rôle des œstrogènes ou de l'aromatase dans le neuroblastome
 - Toute étude clinique ou publication portant directement sur le neuroblastome
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

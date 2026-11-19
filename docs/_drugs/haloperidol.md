@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, le halopéridol est un antipsychotique typique (butyrophénone) qui agit principalement par antagonisme des récepteurs dopaminergiques D2, avec une liaison aux récepteurs sigma. Son efficacité dans la schizophrénie et les troubles psychotiques est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Haloperidol (traduction non officielle) : « Le mécanisme d'action du décanoate d'halopéridol dans le traitement de la schizophrénie chez l'adulte n'est pas clairement établi. Toutefois, son effet dans la schizophrénie pourrait s'exercer par l'intermédiaire de son activité antagoniste au niveau des récepteurs dopaminergiques centraux de type 2. » Texte original en anglais : "The mechanism of action of haloperidol decanoate for the treatment of schizophrenia in adults is unclear. However, its effect in schizophrenia could be mediated through its activity as an antagonist at central dopamine type 2 receptors." ([DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c), version du 2026-11-03 ; consulté le 2026-11-19). D'après les connaissances générales, le halopéridol est un antipsychotique typique (butyrophénone) qui agit principalement par antagonisme des récepteurs dopaminergiques D2, avec une liaison aux récepteurs sigma. Son efficacité dans la schizophrénie et les troubles psychotiques est établie.
 
 **Aucun lien mécanistique n'a pu être identifié** entre ce mécanisme et un défaut de fucosylation, c'est-à-dire un trouble métabolique rare de la glycosylation des protéines. La similarité avec l'indication originale (maladie psychiatrique) n'est pas établie non plus.
 
@@ -126,12 +126,13 @@ Les mentions de la notice (mises en garde et contre-indications officielles) ne 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les cinq AMM du halopéridol (laboratoire ESSENTIAL PHARMA (M), Malte) sont **annulées** ; aucune n'est actuellement en vigueur » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et toutes ses AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: haloperidol decanoate prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3d011250-a517-4c27-8ce3-d59d441ea61c) |
 
 <!-- review:end log -->
 

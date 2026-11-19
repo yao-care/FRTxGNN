@@ -60,7 +60,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour le **néoplasme 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques établies, la lamotrigine bloque les canaux sodiques voltage-dépendants et réduit la libération de glutamate. Son efficacité dans l'épilepsie est reconnue. Ce mécanisme peut soulager certaines douleurs neuropathiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lamotrigine (traduction non officielle) : « Le ou les mécanismes précis par lesquels la lamotrigine exerce son action anticonvulsivante sont inconnus. Dans des modèles animaux conçus pour détecter une activité anticonvulsivante, la lamotrigine s'est montrée efficace pour prévenir la propagation des crises dans les tests de l'électrochoc maximal (MES) et du pentylènetétrazole (scMet), et a prévenu les crises dans les tests de post-décharge évoquée visuellement et électriquement (EEAD) de l'activité antiépileptique. » Texte original en anglais : "The precise mechanism(s) by which lamotrigine exerts its anticonvulsant action are unknown. In animal models designed to detect anticonvulsant activity, lamotrigine was effective in preventing seizure spread in the maximum electroshock (MES) and pentylenetetrazol (scMet) tests, and prevented seizures in the visually and electrically evoked after-discharge (EEAD) tests for antiepileptic activity." ([DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4), version du 2026-10-12 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, la lamotrigine bloque les canaux sodiques voltage-dépendants et réduit la libération de glutamate. Son efficacité dans l'épilepsie est reconnue. Ce mécanisme peut soulager certaines douleurs neuropathiques.
 
 Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies voisines, notamment avec la **névralgie du trijumeau**, pour laquelle la lamotrigine est utilisée, et non une preuve biologique. Rien n'indique que le médicament agisse sur la tumeur elle-même. Le lien avec l'indication d'origine (épilepsie) est donc indirect et repose sur un symptôme neurologique voisin, non sur un effet antitumoral.
 
@@ -137,12 +137,13 @@ Les mises en garde et contre-indications officielles de la notice ne figurent pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Toutes sont annulées et aucune n'a de texte d'indication renseigné » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Toutes les AMM françaises de la lamotrigine sont annulées, ce qui limite aussi la faisabilité réglementaire » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lamotrigine Kit (lamotrigine) prescribing information, OWP Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=474fb321-575c-4b97-9dbe-080061652ee4) |
 
 <!-- review:end log -->
 

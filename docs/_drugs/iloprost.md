@@ -56,7 +56,7 @@ En revanche, des sous-groupes de l'HTAP (notamment l'HTAP associée aux cardiopa
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'iloprost est un analogue stable de la prostacycline : il active les récepteurs IP, augmente l'AMPc, provoque une vasodilatation, inhibe l'agrégation plaquettaire et exerce des effets antiprolifératifs. C'est la base de son usage dans l'HTAP.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Iloprost (traduction non officielle) : « L'iloprost est un analogue synthétique de la prostacycline PGI 2. L'iloprost est un vasodilatateur et inhibe l'agrégation plaquettaire. » Texte original en anglais : "Iloprost is a synthetic analog of prostacyclin PGI 2. Iloprost is a vasodilator and inhibits platelet aggregation." ([DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4), version du 2026-08-13 ; consulté le 2026-11-19). D'après les connaissances générales, l'iloprost est un analogue stable de la prostacycline : il active les récepteurs IP, augmente l'AMPc, provoque une vasodilatation, inhibe l'agrégation plaquettaire et exerce des effets antiprolifératifs. C'est la base de son usage dans l'HTAP.
 
 Pour l'hypotrichose simple du cuir chevelu, **aucun lien mécanistique direct n'est établi**. Il s'agit d'un trouble génétique du follicule pileux (variants de CDSN, APCDD1, RPL21). Une amélioration théorique de la perfusion du cuir chevelu ne suffit pas à justifier un effet sur une maladie d'origine génétique. Le score élevé (0.9945) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique ou clinique.
 
@@ -123,11 +123,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « car les 3 AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aurlumyn (iloprost) prescribing information, BTG International Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=34036fc0-6832-d066-e063-6394a90a18a4) |
 
 <!-- review:end log -->
 

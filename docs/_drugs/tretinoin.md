@@ -56,7 +56,7 @@ Pour cette prédiction, **aucun essai clinique** et **aucune publication** ne la
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la trétinoïne fait partie de la classe des rétinoïdes (dérivés de la vitamine A). Son efficacité a été établie dans l'acné et dans la leucémie aiguë promyélocytaire, et elle agit sur la différenciation cellulaire et la kératinisation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tretinoin (traduction non officielle) : « La trétinoïne induit une cytodifférenciation et une diminution de la prolifération des cellules de LAP en culture et in vivo. Chez les patients atteints de LAP, le traitement par la trétinoïne entraîne une maturation initiale des promyélocytes primitifs issus du clone leucémique, suivie d'un repeuplement de la moelle osseuse et du sang périphérique par des cellules hématopoïétiques normales et polyclonales chez les patients obtenant une rémission complète (RC). » Texte original en anglais : "Tretinoin induces cytodifferentiation and decreased proliferation of APL cells in culture and in vivo. In APL patients, tretinoin treatment produces an initial maturation of the primitive promyelocytes derived from the leukemic clone, followed by a repopulation of the bone marrow and peripheral blood by normal, polyclonal hematopoietic cells in patients achieving complete remission (CR)." ([DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9), version du 2026-08-20 ; consulté le 2026-11-19). Sur la base des informations connues, la trétinoïne fait partie de la classe des rétinoïdes (dérivés de la vitamine A). Son efficacité a été établie dans l'acné et dans la leucémie aiguë promyélocytaire, et elle agit sur la différenciation cellulaire et la kératinisation.
 
 Un lien hypothétique, non vérifié, serait une modulation de la signalisation immunitaire et inflammatoire par les récepteurs de l'acide rétinoïque (par exemple des effets sur la différenciation des lymphocytes T). Rien dans les données compilées pour ce rapport ne soutient ce lien pour la nodulose rhumatoïde.
 
@@ -124,11 +124,12 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Deux autres AMM annulées existent (ERYLIK, gel ; ZANEA 10 mg/0,25 mg par g, gel), pour un total de 7 AMM, toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: tretinoin prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c4ae9d9-c2a0-4995-a27a-e3f0f0284db9) |
 
 <!-- review:end log -->
 

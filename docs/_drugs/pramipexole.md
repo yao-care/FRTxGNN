@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble défici
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, le pramipexole est un agoniste dopaminergique non ergoté, à affinité préférentielle pour les récepteurs D3. Son efficacité dans la maladie de Parkinson et le syndrome des jambes sans repos repose sur la stimulation dopaminergique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pramipexole (traduction non officielle) : « Le pramipexole est un agoniste dopaminergique non ergoté présentant une spécificité relative in vitro élevée et une activité intrinsèque complète au niveau de la sous-famille D 2 des récepteurs dopaminergiques, se liant avec une affinité plus élevée aux sous-types de récepteurs D 3 qu'aux sous-types D 2 ou D 4. Maladie de Parkinson Le mécanisme d'action précis du pramipexole dans le traitement de la maladie de Parkinson est inconnu, bien que l'on pense qu'il soit lié à sa capacité à stimuler les récepteurs dopaminergiques dans le striatum. » Texte original en anglais : "Pramipexole is a non-ergot dopamine agonist with high relative in vitro specificity and full intrinsic activity at the D 2 subfamily of dopamine receptors, binding with higher affinity to D 3 than to D 2 or D 4 receptor subtypes. Parkinson’s Disease The precise mechanism of action of pramipexole as a treatment for Parkinson's disease is unknown, although it is believed to be related to its ability to stimulate dopamine receptors in the striatum." ([DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c), version du 2026-09-09 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le pramipexole est un agoniste dopaminergique non ergoté, à affinité préférentielle pour les récepteurs D3. Son efficacité dans la maladie de Parkinson et le syndrome des jambes sans repos repose sur la stimulation dopaminergique.
 
 Une dérégulation dopaminergique est impliquée dans le TDAH, ce qui fournit un lien mécanistique plausible. Toutefois, ce lien reste théorique : aucun essai n'est enregistré, et la littérature retrouvée est surtout indirecte (revues sur le syndrome des jambes sans repos, essai randomisé dans le syndrome de Gilles de la Tourette, travaux sur l'hétéromérisation des récepteurs D4). Le score TxGNN très élevé est une prédiction du modèle et ne remplace pas une preuve clinique.
 
@@ -137,11 +137,12 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
 
 <!-- review:end log -->
 

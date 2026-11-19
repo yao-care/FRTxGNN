@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **fibromatose gin
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, lorlatinib est un inhibiteur de ALK et ROS1, dont l'efficacité dans le CBNPC ALK-positif a été démontrée, notamment par l'essai de phase 3 CROWN.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lorlatinib (traduction non officielle) : « Le lorlatinib est un inhibiteur de kinases présentant une activité in vitro contre ALK et ROS1 ainsi que contre TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2 et ACK. Le lorlatinib a démontré une activité in vitro contre de multiples formes mutantes de l'enzyme ALK, y compris certaines mutations détectées dans des tumeurs au moment de la progression de la maladie sous crizotinib et d'autres inhibiteurs d'ALK. » Texte original en anglais : "Lorlatinib is a kinase inhibitor with in vitro activity against ALK and ROS1 as well as TYK1, FER, FPS, TRKA, TRKB, TRKC, FAK, FAK2, and ACK. Lorlatinib demonstrated in vitro activity against multiple mutant forms of the ALK enzyme, including some mutations detected in tumors at the time of disease progression on crizotinib and other ALK inhibitors." ([DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d), version du 2026-06-26 ; consulté le 2026-11-19). D'après les connaissances établies, lorlatinib est un inhibiteur de ALK et ROS1, dont l'efficacité dans le CBNPC ALK-positif a été démontrée, notamment par l'essai de phase 3 CROWN.
 
 En revanche, **aucun lien mécanistique n'a été identifié** avec la fibromatose gingivale : aucune pathologie dépendante d'ALK n'est établie dans cette maladie. Le score élevé du modèle (0,9981) est une prédiction purement computationnelle, non étayée par des essais ou des publications. Cette prédiction doit donc être considérée comme très spéculative.
 
@@ -125,12 +125,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées et les données de sécurité officielles sont absentes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lorbrena (lorlatinib) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2b34d62d-e02a-4af3-bc0d-1571dd4ee76d) |
 
 <!-- review:end log -->
 

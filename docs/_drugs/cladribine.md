@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **rhabdomyosarcom
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la cladribine est un analogue de la purine résistant à l'adénosine désaminase. Elle s'accumule sous forme de triphosphate dans les cellules ayant un rapport élevé désoxycytidine kinase / 5'-nucléotidase, ce qui provoque des cassures de l'ADN et l'apoptose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cladribine (traduction non officielle) : « Le mécanisme par lequel la cladribine exerce ses effets thérapeutiques chez les patients atteints de sclérose en plaques n'a pas été entièrement élucidé, mais il impliquerait des effets cytotoxiques sur les lymphocytes B et T par altération de la synthèse de l'ADN, entraînant une déplétion lymphocytaire. » Texte original en anglais : "The mechanism by which cladribine exerts its therapeutic effects in patients with multiple sclerosis has not been fully elucidated but is thought to involve cytotoxic effects on B and T lymphocytes through impairment of DNA synthesis, resulting in depletion of lymphocytes." ([DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144), version du 2026-05-27 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la cladribine est un analogue de la purine résistant à l'adénosine désaminase. Elle s'accumule sous forme de triphosphate dans les cellules ayant un rapport élevé désoxycytidine kinase / 5'-nucléotidase, ce qui provoque des cassures de l'ADN et l'apoptose.
 
 Ce rapport enzymatique est caractéristique des cellules lymphoïdes, ce qui explique son efficacité dans la leucémie à tricholeucocytes et son intérêt dans la sclérose en plaques. Il n'est pas caractéristique du rhabdomyosarcome, une tumeur solide mésenchymateuse. Le lien mécanistique est donc faible et non étayé par les données récupérées.
 
@@ -114,6 +114,19 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Des données précliniques : sensibilité de lignées de rhabdomyosarcome à la cladribine et expression de la désoxycytidine kinase par rapport à la 5'-nucléotidase.
 - Une revue de la littérature ciblée sur la cladribine dans les sarcomes pédiatriques, ainsi qu'une recherche d'essais enregistrés.
 - Une évaluation du rapport bénéfice/risque comparée aux schémas standards (vincristine, actinomycine D, cyclophosphamide).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Mavenclad (cladribine) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9c75e30a-a410-40f1-b653-04d532bd9144) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

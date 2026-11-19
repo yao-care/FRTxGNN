@@ -56,7 +56,7 @@ La prédiction repose donc essentiellement sur le modèle.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, delamanid est un promédicament nitroimidazolé qui inhibe la synthèse des acides mycoliques chez *Mycobacterium tuberculosis*. Son efficacité dans la tuberculose multirésistante est établie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Delamanid est (traduction non officielle) : « Inhibiteur de Mycobacterium tuberculosis H37Rv » Texte original en anglais : "Mycobacterium tuberculosis H37Rv inhibitor" ([ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, delamanid est un promédicament nitroimidazolé qui inhibe la synthèse des acides mycoliques chez *Mycobacterium tuberculosis*. Son efficacité dans la tuberculose multirésistante est établie.
 
 *Mycobacterium bovis*, agent de la tuberculose bovine et de la tuberculose zoonotique humaine, appartient au même complexe *M. tuberculosis*. Une activité est donc plausible sur le plan mécanistique. Toutefois, la sensibilité de *M. bovis* à delamanid n'a pas été établie dans les données disponibles.
 
@@ -117,11 +117,12 @@ Le même modèle a prédit d'autres indications, toutes sans preuve solide.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL218650 (delamanid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL218650) |
 
 <!-- review:end log -->
 

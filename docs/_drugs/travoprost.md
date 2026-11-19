@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **calciphylaxie v
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, travoprost est un agoniste du récepteur FP des prostaglandines. Son efficacité dans le glaucome repose sur la baisse de la pression intraoculaire, principalement par augmentation de l'écoulement uvéoscléral.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Travoprost (traduction non officielle) : « L'acide libre du travoprost, un analogue des prostaglandines, est un agoniste sélectif du récepteur prostanoïde FP, qui réduirait la PIO en augmentant l'écoulement uvéoscléral. Le mécanisme d'action exact est inconnu à ce jour. » Texte original en anglais : "Travoprost free acid, a prostaglandin analog is a selective FP prostanoid receptor agonist, which is believed to reduce IOP by increasing uveoscleral outflow. The exact mechanism of action is unknown at this time." ([DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5), version du 2026-09-28 ; consulté le 2026-11-19). Sur la base des connaissances générales, travoprost est un agoniste du récepteur FP des prostaglandines. Son efficacité dans le glaucome repose sur la baisse de la pression intraoculaire, principalement par augmentation de l'écoulement uvéoscléral.
 
 Pour la calciphylaxie viscérale, le lien mécanistique reste très spéculatif. Une hypothèse de vasodilatation ou de remodelage vasculaire pourrait être avancée, mais aucune donnée clinique ou bibliographique ne l'étaye. De plus, l'administration oculaire topique est peu susceptible de produire une exposition systémique pertinente.
 
@@ -118,11 +118,12 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Les 15 autres AMM ne sont pas toutes annulées : 14 actives, 1 abrogée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Travoprost Ophthalmic Soluton (travoprost) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498a376e-a74e-48d8-a022-ad15a1ecadb5) |
 
 <!-- review:end log -->
 

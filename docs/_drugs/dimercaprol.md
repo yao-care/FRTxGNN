@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, ma
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, le dimercaprol est un chélateur dithiol : ses groupements sulfhydryles se lient aux métaux lourds (mercure, arsenic, plomb) et favorisent leur élimination.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Dimercaprol est (traduction non officielle) : « Agent chélateur des métaux lourds » Texte original en anglais : "Heavy metals chelating agent" ([ChEMBL CHEMBL1597 (dimercaprol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1597), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, le dimercaprol est un chélateur dithiol : ses groupements sulfhydryles se lient aux métaux lourds (mercure, arsenic, plomb) et favorisent leur élimination.
 
 Le seul lien plausible avec la bronchite est indirect. Le rapport de cas de 1963 décrit une bronchite causée par l'inhalation aiguë de mercure. Dans ce contexte précis, chélater le mercure pourrait traiter la toxicité sous-jacente. Ce bénéfice potentiel serait donc limité aux bronchites d'origine toxique par métaux, et ne s'étendrait pas aux bronchites infectieuses, allergiques ou obstructives chroniques.
 
@@ -115,12 +115,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e produit n'a plus d'AMM valide en France et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et la disponibilité du produit en France après l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1597 (dimercaprol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1597) |
 
 <!-- review:end log -->
 

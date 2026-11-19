@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **mastocytose syst
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, la cimétidine est un antagoniste compétitif des récepteurs H2 de l'histamine qui réduit la sécrétion d'acide gastrique, basale comme stimulée.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cimetidine (traduction non officielle) : « La cimétidine en comprimés inhibe de manière compétitive l'action de l'histamine au niveau des récepteurs H 2 de l'histamine des cellules pariétales et est donc un antagoniste des récepteurs H 2 de l'histamine. La cimétidine n'est pas un agent anticholinergique. Des études ont montré que la cimétidine en comprimés inhibe la sécrétion acide gastrique basale diurne et nocturne. » Texte original en anglais : "Cimetidine tablets competitively inhibits the action of histamine at the histamine H 2 receptors of the parietal cells and thus is a histamine H 2 -receptor antagonist. Cimetidine is not an anticholinergic agent. Studies have shown that cimetidine tablets inhibit both daytime and nocturnal basal gastric acid secretion." ([DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43), version du 2026-07-15 ; consulté le 2026-11-19). D'après les connaissances établies, la cimétidine est un antagoniste compétitif des récepteurs H2 de l'histamine qui réduit la sécrétion d'acide gastrique, basale comme stimulée.
 
 Le graphe de connaissances associe déjà la cimétidine à la mastocytose systémique, où la libération de médiateurs mastocytaires (dont l'histamine) provoque une hypersécrétion gastrique. Le score élevé du modèle reflète probablement cette proximité avec une indication déjà reconnue. La forme indolente (smouldering) est un sous-type de cette maladie.
 
@@ -117,11 +117,12 @@ La prédiction pour la mastocytose systémique indolente repose uniquement sur l
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la cimétidine n'a plus qu'une AMM annulée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: cimetidine prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=06c0a509-026f-44e0-9975-a94a8de51d43) |
 
 <!-- review:end log -->
 

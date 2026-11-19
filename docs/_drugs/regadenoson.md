@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**anaphylaxie**, m
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de référence. Les données de pharmacologie indiquent toutefois que le régadénoson se lie aux récepteurs de l'adénosine A1, A2A, A2B et A3, et qu'il est utilisé comme agent diagnostique pour l'imagerie de perfusion myocardique. Il est décrit comme un agoniste sélectif du récepteur A2A.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Regadenoson (traduction non officielle) : « Le régadénoson est un agoniste de faible affinité (K i ≈ 1,3 µM) du récepteur A 2A de l'adénosine, avec une affinité au moins 10 fois plus faible pour le récepteur A 1 de l'adénosine (K i > 16,5 µM), et une affinité faible, voire nulle, pour les récepteurs A 2B et A 3 de l'adénosine. L'activation du récepteur A 2A de l'adénosine par le régadénoson produit une vasodilatation coronaire et augmente le débit sanguin coronaire (DSC). » Texte original en anglais : "Regadenoson is a low affinity agonist (K i ≈ 1.3 µM) for the A 2A adenosine receptor, with at least 10-fold lower affinity for the A 1 adenosine receptor (K i > 16.5 µM), and weak, if any, affinity for the A 2B and A 3 adenosine receptors. Activation of the A 2A adenosine receptor by regadenoson produces coronary vasodilation and increases coronary blood flow (CBF)." ([DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16), version du 2018-12-21 ; consulté le 2026-11-19). Les données de pharmacologie indiquent toutefois que le régadénoson se lie aux récepteurs de l'adénosine A1, A2A, A2B et A3, et qu'il est utilisé comme agent diagnostique pour l'imagerie de perfusion myocardique. Il est décrit comme un agoniste sélectif du récepteur A2A.
 
 Le lien mécanistique théorique est le suivant : la signalisation A2A peut freiner la dégranulation des mastocytes et la libération de médiateurs inflammatoires dans des modèles précliniques. Cela offrirait une piste plausible, mais non validée, vers l'anaphylaxie. Le même raisonnement vaut, de façon plus hypothétique encore, pour la pseudo-allergie (activation mastocytaire non médiée par les IgE).
 
@@ -107,6 +107,19 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 - Données précliniques montrant un effet de l'agonisme A2A sur la dégranulation mastocytaire dans des modèles d'anaphylaxie, avec évaluation du risque hypotenseur.
 - Évaluation de la compatibilité de voie d'administration (bolus IV unique vs besoin thérapeutique) et de la similarité avec l'indication originale.
 - Revue de la littérature et des registres d'essais pour confirmer l'absence ou l'existence de preuves.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lexiscan (regadenoson) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=057289f4-2e18-4c1e-bed4-6c1858e2ef16) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

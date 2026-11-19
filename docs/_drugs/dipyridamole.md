@@ -56,7 +56,7 @@ Cette prédiction repose uniquement sur le score du modèle : **aucun essai clin
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances pharmacologiques générales, le dipyridamole augmente l'adénosine extracellulaire et exerce ainsi un effet antiagrégant et vasodilatateur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dipyridamole (traduction non officielle) : « Le dipyridamole inhibe la captation de l'adénosine dans les plaquettes, les cellules endothéliales et les érythrocytes in vitro et in vivo ; l'inhibition se produit de manière dose-dépendante aux concentrations thérapeutiques (0,5 à 1,9 mcg/mL). Cette inhibition entraîne une augmentation des concentrations locales d'adénosine, qui agit sur le récepteur A 2 plaquettaire, stimulant ainsi l'adénylate cyclase plaquettaire et augmentant les taux plaquettaires d'adénosine monophosphate cyclique-3',5' (AMPc). » Texte original en anglais : "Dipyridamole inhibits the uptake of adenosine into platelets, endothelial cells and erythrocytes in vitro and in vivo; the inhibition occurs in a dose-dependent manner at therapeutic concentrations (0.5 to 1.9 mcg/mL). This inhibition results in an increase in local concentrations of adenosine which acts on the platelet A 2 -receptor thereby stimulating platelet adenylate cyclase and increasing platelet cyclic-3',5'-adenosine monophosphate (cAMP) levels." ([DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5), version du 2026-04-29 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le dipyridamole augmente l'adénosine extracellulaire et exerce ainsi un effet antiagrégant et vasodilatateur.
 
 Ce mécanisme ne plaide pas clairement en faveur de la nouvelle indication. L'adénosine ralentit la conduction du nœud sinusal et du nœud auriculo-ventriculaire. Un médicament qui augmente son taux pourrait donc, en théorie, aggraver une dysfonction du nœud sinusal plutôt que la traiter.
 
@@ -102,6 +102,18 @@ La prédiction n'est soutenue que par le score du modèle (niveau de preuve L5).
 - Des données précliniques ou cliniques portant directement sur cette pathologie.
 - Les mises en garde et contre-indications issues de la notice, afin de réaliser le dépistage de sécurité.
 - Les données détaillées sur le mécanisme d'action.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: dipyridamole prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=226099e2-70bb-4b9b-bb52-c20fbca2aec5) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

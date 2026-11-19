@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **néphropathie hype
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'aténolol appartient à la classe des bêtabloquants β1-sélectifs. En bloquant les récepteurs β1, il diminue la fréquence cardiaque, le débit cardiaque et la libération de rénine.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Atenolol (traduction non officielle) : « TENORMIN est un bêtabloquant adrénergique bêta 1 -sélectif (cardiosélectif) dépourvu d'activité stabilisatrice de membrane et d'activité sympathomimétique intrinsèque (agoniste partiel). Cet effet préférentiel n'est cependant pas absolu et, à des doses plus élevées, TENORMIN inhibe les adrénorécepteurs bêta 2 , principalement situés dans la musculature bronchique et vasculaire. » Texte original en anglais : "TENORMIN is a beta 1 -selective (cardioselective) beta-adrenergic receptor blocking agent without membrane stabilizing or intrinsic sympathomimetic (partial agonist) activities. This preferential effect is not absolute, however, and at higher doses, TENORMIN inhibits beta 2 -adrenoreceptors, chiefly located in the bronchial and vascular musculature." ([DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a), version du 2025-09-18 ; consulté le 2026-11-19). Sur la base des informations connues, l'aténolol appartient à la classe des bêtabloquants β1-sélectifs. En bloquant les récepteurs β1, il diminue la fréquence cardiaque, le débit cardiaque et la libération de rénine.
 
 Ces effets pourraient, en théorie, contribuer à abaisser la pression artérielle dans une hypertension maligne avec atteinte rénale. Le score très élevé (0,9985) reflète probablement une grande proximité avec les affections hypertensives dans les données du modèle, et non une preuve d'efficacité.
 
@@ -99,6 +99,19 @@ La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai ni pub
 - Mises en garde et contre-indications issues de la notice (ANSM)
 - Études cliniques ou observationnelles ciblant directement cette maladie
 - Comparaison avec les traitements de référence de l'hypertension maligne
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tenormin (atenolol) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e850b1e-28a4-4ff8-8ed7-bb0b29faa28a) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

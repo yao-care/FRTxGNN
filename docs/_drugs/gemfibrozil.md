@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rh
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le gemfibrozil appartient à la classe des fibrates, agonistes du récepteur PPAR-alpha, et son efficacité sur les triglycérides est établie.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Gemfibrozil (traduction non officielle) : « Le gemfibrozil est un hypolipémiant qui diminue les triglycérides sériques et le cholestérol des lipoprotéines de très basse densité (VLDL), et augmente le cholestérol des lipoprotéines de haute densité (HDL). Bien que de légères diminutions du cholestérol total et du cholestérol des lipoprotéines de basse densité (LDL) puissent être observées sous traitement par gemfibrozil, le traitement des patients présentant des triglycérides élevés dus à une hyperlipoprotéinémie de type IV entraîne souvent une augmentation du LDL-cholestérol. » Texte original en anglais : "Gemfibrozil is a lipid regulating agent which decreases serum triglycerides and very low density lipoprotein (VLDL) cholesterol, and increases high density lipoprotein (HDL) cholesterol. While modest decreases in total and low density lipoprotein (LDL) cholesterol may be observed with gemfibrozil therapy, treatment of patients with elevated triglycerides due to Type IV hyperlipoproteinemia often results in a rise in LDL-cholesterol." ([DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725), version du 2026-11-10 ; consulté le 2026-11-19). Sur la base des informations connues, le gemfibrozil appartient à la classe des fibrates, agonistes du récepteur PPAR-alpha, et son efficacité sur les triglycérides est établie.
 
 L'activation de PPAR-alpha pourrait exercer des effets anti-inflammatoires et immunomodulateurs, par exemple une baisse des cytokines pro-inflammatoires et une action sur la différenciation des lymphocytes T. Ces mécanismes sont pertinents dans une maladie auto-immune inflammatoire comme la polyarthrite rhumatoïde.
 
@@ -121,11 +121,12 @@ Ces deux pistes pourraient être évaluées en priorité si l'objectif est d'ide
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: gemfibrozil prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5501438d-5247-4f2a-8e15-085276d01725) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Les données compilées pour ce rapport comptent **19 publications** (essentiell
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature citée, le danazol est un androgène synthétique, dérivé de l'éthinyl-testostérone, qui inhibe les gonadotrophines hypophysaires (LH/FSH) et freine la stéroïdogenèse ovarienne et surrénalienne. Il se lie à des protéines de transport des stéroïdes et à des récepteurs tissulaires spécifiques.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Danazol (traduction non officielle) : « Le danazol inhibe l'axe hypophyso-ovarien. » Texte original en anglais : "Danazol suppresses the pituitary-ovarian axis." ([DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b), version du 2024-10-10 ; consulté le 2026-11-19). D'après la littérature citée, le danazol est un androgène synthétique, dérivé de l'éthinyl-testostérone, qui inhibe les gonadotrophines hypophysaires (LH/FSH) et freine la stéroïdogenèse ovarienne et surrénalienne. Il se lie à des protéines de transport des stéroïdes et à des récepteurs tissulaires spécifiques.
 
 Cette suppression hormonale entraîne une atrophie de l'endomètre et une aménorrhée. Une revue de 2006 sur l'endométriose rappelle d'ailleurs que les lésions régressent pendant les états de freination ovarienne, comme l'aménorrhée. L'induction volontaire d'une aménorrhée est donc un prolongement plausible de ce mécanisme.
 
@@ -109,6 +109,18 @@ Le niveau de preuve est L3 : une cohorte rétrospective récente étudie directe
 - Données détaillées sur le mécanisme d'action
 - Essai prospectif ou comparatif sur la suppression des règles avec évaluation des effets androgéniques
 - Évaluation du rapport bénéfice/risque face aux alternatives (contraceptifs continus, analogues de la GnRH)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: danazol prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=55ad6325-16f6-4f0c-a1dc-734847052d0b) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

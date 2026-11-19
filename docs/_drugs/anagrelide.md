@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **thrombocytose r
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances publiées, l'anagrélide diminue le nombre de plaquettes en inhibant la maturation des mégacaryocytes, un effet largement documenté dans la thrombocythémie essentielle, un trouble clonal.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Anagrelide (traduction non officielle) : « Le mécanisme précis par lequel l'anagrélide réduit la numération plaquettaire sanguine est inconnu. Dans des études sur cultures cellulaires, l'anagrélide a supprimé l'expression de facteurs de transcription, notamment GATA-1 et FOG-1, nécessaires à la mégacaryocytopoïèse, ce qui conduit en fin de compte à une diminution de la production de plaquettes. » Texte original en anglais : "The precise mechanism by which anagrelide reduces blood platelet count is unknown. In cell culture studies, anagrelide suppressed expression of transcription factors including GATA-1 and FOG-1 required for megakaryocytopoiesis, ultimately leading to reduced platelet production." ([DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219), version du 2026-04-08 ; consulté le 2026-11-19). D'après les connaissances publiées, l'anagrélide diminue le nombre de plaquettes en inhibant la maturation des mégacaryocytes, un effet largement documenté dans la thrombocythémie essentielle, un trouble clonal.
 
 La thrombocytose réactive (secondaire) a une origine différente : elle est provoquée par des causes externes telles qu'une inflammation, une carence en fer ou une splénectomie. Elle se traite généralement en prenant en charge la cause sous-jacente, et le risque thrombotique y est habituellement faible. Le mécanisme de baisse des plaquettes est donc biologiquement plausible, mais l'intérêt clinique d'un agent cytoréducteur dans un contexte non clonal est faible.
 
@@ -139,12 +139,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le profil de sécurité (nombreuses contre-indications cardiovasculaires dans le graphe, interactions majeures) et l'AMM française annulée ren » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Agrylin (anagrelide hydrochloride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb960074-99c1-4a73-941f-f0644a7ec219) |
 
 <!-- review:end log -->
 

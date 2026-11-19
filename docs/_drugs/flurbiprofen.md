@@ -60,7 +60,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Le flurbiprofène est un inhibiteur non sélectif des cyclo-oxygénases (COX-1 et COX-2). Il réduit la production de prostaglandines, ce qui explique son effet anti-inflammatoire et antalgique dans les rhumatismes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Flurbiprofen (traduction non officielle) : « Le flurbiprofène possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. Le mécanisme d'action du flurbiprofène, comme celui des autres AINS, n'est pas complètement élucidé, mais implique une inhibition de la cyclo-oxygénase (COX-1 et COX-2). » Texte original en anglais : "Flurbiprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of flurbiprofen, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763), version du 2026-10-05 ; consulté le 2026-11-19). Le flurbiprofène est un inhibiteur non sélectif des cyclo-oxygénases (COX-1 et COX-2). Il réduit la production de prostaglandines, ce qui explique son effet anti-inflammatoire et antalgique dans les rhumatismes.
 
 Pour cette prédiction précise, **aucun lien mécanistique plausible n'a pu être établi**. La dysplasie acromésomélique de type Hunter-Thompson est une dysplasie squelettique génétique rare, liée à la voie CDMP1/GDF5. Le flurbiprofène n'a pas d'action connue sur la signalisation BMP/GDF5, et l'inhibition des COX ne corrige pas une anomalie du développement du squelette.
 
@@ -140,13 +140,14 @@ Les mises en garde du texte officiel de la notice n'étant pas disponibles, veui
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les sept AMM du flurbiprofène sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Deux autres AMM annulées ne figurent pas dans ce tableau : STREFEN 8,75 mg orange sans sucre (pastille) et CEBUTID LP 200 mg (gélule à libér » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lurbiro (flurbiprofen) prescribing information, IPG Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7ebf7427-eaae-4035-a6b2-0ea6381e8763) |
 
 <!-- review:end log -->
 

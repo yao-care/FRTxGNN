@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des connaissances générales, denosumab est un inhibiteur de RANKL (ligand du récepteur activateur du facteur nucléaire kappa-B), qui freine la résorption osseuse en bloquant la voie RANKL/RANK/OPG. C'est ce mécanisme qui sous-tend son usage dans l'ostéoporose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Denosumab (traduction non officielle) : « Les produits à base de dénosumab se lient au RANKL, une protéine transmembranaire ou soluble essentielle à la formation, à la fonction et à la survie des ostéoclastes, les cellules responsables de la résorption osseuse. Les produits à base de dénosumab empêchent le RANKL d'activer son récepteur, RANK, à la surface des ostéoclastes et de leurs précurseurs. » Texte original en anglais : "Denosumab products bind to RANKL, a transmembrane or soluble protein essential for the formation, function, and survival of osteoclasts, the cells responsible for bone resorption. Denosumab products prevent RANKL from activating its receptor, RANK, on the surface of osteoclasts and their precursors." ([DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd), version du 2026-11-04 ; consulté le 2026-11-19). Sur la base des connaissances générales, denosumab est un inhibiteur de RANKL (ligand du récepteur activateur du facteur nucléaire kappa-B), qui freine la résorption osseuse en bloquant la voie RANKL/RANK/OPG. C'est ce mécanisme qui sous-tend son usage dans l'ostéoporose.
 
 La relation avec la rétinopathie diabétique est hypothétique. La voie RANKL/RANK/OPG a été associée à l'inflammation et à la calcification vasculaire, ce qui pourrait se rattacher à la pathologie inflammatoire et microvasculaire de la rétinopathie diabétique. On ignore toutefois si un blocage de RANKL, par voie systémique ou intravitréenne, agit sur la maladie microvasculaire rétinienne : ce raisonnement repose sur des connaissances générales et non sur les données compilées pour ce rapport.
 
@@ -118,6 +118,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 - Obtenir les données sur le mécanisme d'action depuis DrugBank.
 - Réaliser une revue systématique de la littérature (modèles précliniques rétiniens, données observationnelles chez des patients diabétiques traités par denosumab).
 - Clarifier la voie d'administration envisagée (systémique ou intravitréenne) et sa compatibilité avec les formes disponibles.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

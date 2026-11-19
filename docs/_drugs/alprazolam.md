@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'alprazolam fait partie de la classe des benzodiazépines. Ces molécules renforcent la signalisation du récepteur GABA-A, ce qui produit des effets sédatifs et anxiolytiques. Son efficacité dans les troubles anxieux est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alprazolam (traduction non officielle) : « L'alprazolam est une 1,4 benzodiazépine. L'alprazolam exerce son effet dans le traitement du trouble panique en se liant au site des benzodiazépines des récepteurs de l'acide gamma‑aminobutyrique de type A (GABA A ) dans le cerveau et renforce l'inhibition synaptique médiée par le GABA. » Texte original en anglais : "Alprazolam is a 1,4 benzodiazepine. Alprazolam exerts its effect for the treatment of panic disorder through binding to the benzodiazepine site of gamma‑aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3), version du 2025-02-11 ; consulté le 2026-11-19). Sur la base des informations connues, l'alprazolam fait partie de la classe des benzodiazépines. Ces molécules renforcent la signalisation du récepteur GABA-A, ce qui produit des effets sédatifs et anxiolytiques. Son efficacité dans les troubles anxieux est établie.
 
 Sur le plan mécanistique, un effet sédatif pourrait raccourcir le délai d'endormissement. Cela explique en partie le score élevé du modèle. L'anxiété et l'insomnie sont d'ailleurs fréquemment associées en pratique clinique.
 
@@ -143,11 +143,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-15 | « de la situation réglementaire des produits (AMM an » → « de la situation réglementaire des produits (la plu » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Alprazolam Xr (alprazolam) prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1338d1c9-7c75-42ed-95f3-9eb1b6fc51d3) |
 
 <!-- review:end log -->
 

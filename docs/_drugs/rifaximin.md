@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **candidose buc
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la rifaximine est un antibactérien oral faiblement absorbé, dont l'action se concentre dans l'intestin. Son efficacité dans l'encéphalopathie hépatique repose sur la réduction de la flore bactérienne intestinale.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rifaximin (traduction non officielle) : « La rifaximine est un médicament antibactérien. […] La rifaximine est un dérivé semi-synthétique de la rifampicine et agit en se liant à la sous-unité bêta de l'ARN polymérase ADN-dépendante bactérienne, bloquant l'une des étapes de la transcription. Il en résulte une inhibition de la synthèse des protéines bactériennes et, par conséquent, une inhibition de la croissance des bactéries. » Texte original en anglais : "Rifaximin is an antibacterial drug. […] Rifaximin is a semi-synthetic derivative of rifampin and acts by binding to the beta-subunit of bacterial DNA-dependent RNA polymerase blocking one of the steps in transcription. This results in inhibition of bacterial protein synthesis and consequently inhibits the growth of bacteria." ([DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b), version du 2025-08-27 ; consulté le 2026-11-19). Sur la base des informations connues, la rifaximine est un antibactérien oral faiblement absorbé, dont l'action se concentre dans l'intestin. Son efficacité dans l'encéphalopathie hépatique repose sur la réduction de la flore bactérienne intestinale.
 
 **La prédiction ne repose sur aucun lien mécanistique solide.** La rifaximine n'a pas d'activité antifongique connue. Le score élevé du modèle semble refléter des associations au sein du réseau de connaissances plutôt qu'un bénéfice clinique démontré. La seule publication rattachée suggère même l'inverse : l'usage de la rifaximine a été associé à des infections à *Candida* résistantes à la micafungine chez des receveurs de greffe allogénique de cellules souches hématopoïétiques, ce qui évoque une perturbation du microbiote intestinal favorisant *Candida*.
 
@@ -137,11 +137,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'unique AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xifaxan (rifaximin) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7afafa63-3236-4212-9589-045db6b01c0b) |
 
 <!-- review:end log -->
 

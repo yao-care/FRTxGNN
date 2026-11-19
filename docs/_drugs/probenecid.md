@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré, et **20 publications** ont été retrouv
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. D'après les connaissances pharmacologiques établies, le probénécide inhibe le transporteur URAT1 (SLC22A12) ainsi que OAT1 et OAT3. Il réduit ainsi la réabsorption tubulaire rénale de l'urate et augmente son excrétion urinaire, ce qui explique son usage dans la goutte.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Probenecid (traduction non officielle) : « Le probénécide est un agent uricosurique et un agent bloquant tubulaire rénal. » Texte original en anglais : "Probenecid is a uricosuric and renal tubular blocking agent." ([DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069), version du 2026-11-06 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, le probénécide inhibe le transporteur URAT1 (SLC22A12) ainsi que OAT1 et OAT3. Il réduit ainsi la réabsorption tubulaire rénale de l'urate et augmente son excrétion urinaire, ce qui explique son usage dans la goutte.
 
 Le lien avec l'hypouricémie rénale est donc évident sur le plan du réseau de connaissances : la maladie résulte d'une perte de fonction d'URAT1 (ou de GLUT9), avec une excrétion excessive d'urate et une uricémie basse. Le score élevé reflète probablement cette proximité (métabolisme de l'acide urique, transporteur URAT1) et non un bénéfice thérapeutique.
 
@@ -129,11 +129,12 @@ Pour la contre-indication rénale, le risque est particulièrement pertinent ici
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: probenecid prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65b4888c-d49a-433f-9bfd-17880ae40069) |
 
 <!-- review:end log -->
 

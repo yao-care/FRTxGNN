@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'adapalène est un rétinoïde topique de troisième génération qui se lie sélectivement aux récepteurs de l'acide rétinoïque (RAR-bêta et RAR-gamma) et module la différenciation des kératinocytes ainsi que l'inflammation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Adapalene (traduction non officielle) : « L'adapalène se lie à des récepteurs nucléaires spécifiques de l'acide rétinoïque, mais ne se lie pas à la protéine réceptrice cytosolique. Des études de profil biochimique et pharmacologique ont démontré que l'adapalène est un modulateur de la différenciation cellulaire, de la kératinisation et des processus inflammatoires. » Texte original en anglais : "Adapalene binds to specific retinoic acid nuclear receptors but does not bind to cytosolic receptor protein. Biochemical and pharmacological profile studies have demonstrated that adapalene is a modulator of cellular differentiation, keratinization, and inflammatory processes." ([DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec), version du 2023-12-27 ; consulté le 2026-11-19). Sur la base des informations connues, l'adapalène est un rétinoïde topique de troisième génération qui se lie sélectivement aux récepteurs de l'acide rétinoïque (RAR-bêta et RAR-gamma) et module la différenciation des kératinocytes ainsi que l'inflammation.
 
 Aucun lien mécanistique établi n'a été identifié avec l'homéostasie du zinc plasmatique (absorption, transport par les transporteurs ZIP/ZnT, régulation des métallothionéines). Toute connexion, par exemple un effet des rétinoïdes sur des protéines liant le zinc ou sur l'expression de gènes du métabolisme du zinc, resterait spéculative et sans donnée à l'appui.
 
@@ -93,6 +93,19 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5), 
 - Mises en garde et contre-indications issues de la notice ANSM
 - Études précliniques ou observationnelles reliant les rétinoïdes au métabolisme du zinc
 - Justification de la pertinence clinique de cette cible et de la voie d'administration topique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

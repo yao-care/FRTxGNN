@@ -60,7 +60,7 @@ Il s'agit d'une prédiction purement computationnelle, sans soutien clinique ré
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'imiglucérase est une bêta-glucocérébrosidase (GBA1) recombinante qui hydrolyse le glucosylcéramide ; son efficacité dans la maladie de Gaucher est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Imiglucerase (traduction non officielle) : « La maladie de Gaucher se caractérise par un déficit de l'activité de la β-glucocérébrosidase, qui entraîne une accumulation de glucocérébroside dans divers tissus, notamment le foie, la rate et la moelle osseuse. Les sucres mannose de l'imiglucérase assurent la liaison aux cellules, notamment aux macrophages, et l'internalisation par celles-ci. » Texte original en anglais : "Gaucher disease is characterized by a deficiency of β-glucocerebrosidase activity, which results in accumulation of glucocerebroside in various tissues including liver, spleen, and bone marrow. The mannose sugars on imiglucerase mediate binding to and internalization by cells including macrophages." ([DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38), version du 2026-08-27 ; consulté le 2026-11-19). Sur la base des informations connues, l'imiglucérase est une bêta-glucocérébrosidase (GBA1) recombinante qui hydrolyse le glucosylcéramide ; son efficacité dans la maladie de Gaucher est établie.
 
 Le syndrome de Hurler (MPS I) est causé par un déficit en alpha-L-iduronidase, entraînant l'accumulation de glycosaminoglycanes (sulfate de dermatane et d'héparane). Il s'agit d'une enzyme et de substrats différents : une substitution enzymatique directe n'est donc **pas plausible mécanistiquement**. Une accumulation secondaire de glycolipides (gangliosides GM2/GM3) existe dans les MPS, mais rien n'indique que l'apport de glucocérébrosidase la corrige.
 
@@ -125,11 +125,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'unique AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cerezyme (imiglucerase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=df60f030-866b-4374-a31f-8ae3f6b45c38) |
 
 <!-- review:end log -->
 

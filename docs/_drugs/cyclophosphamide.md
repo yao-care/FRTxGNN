@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le cyclophosphamide est un agent alkylant à effet cytotoxique et immunosuppresseur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cyclophosphamide (traduction non officielle) : « Le mécanisme d'action n'a pas été entièrement caractérisé. Cependant, une réticulation de l'ADN des cellules tumorales pourrait être impliquée. Les métabolites alkylants actifs du cyclophosphamide interfèrent avec la croissance des cellules malignes sensibles à prolifération rapide. » Texte original en anglais : "The mechanism of action has not been fully characterized. However, cross-linking of tumor cell DNA may be involved. The active alkylating metabolites of cyclophosphamide interfere with the growth of susceptible rapidly proliferating malignant cells." ([DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e), version du 2026-08-26 ; consulté le 2026-11-19). D'après les informations connues, le cyclophosphamide est un agent alkylant à effet cytotoxique et immunosuppresseur.
 
 Aucun lien mécanistique n'a pu être établi avec cette pathologie. Il s'agit d'un syndrome congénital rare associant anomalies vertébrales, troubles endocriniens variables et dysfonction des lymphocytes T. Un agent alkylant cytotoxique n'est pas un candidat évident pour ce type d'affection. Le score élevé du modèle reste une simple prédiction, sans étude réelle pour la corroborer. La similarité avec les indications d'origine n'a pas été évaluée.
 
@@ -108,6 +108,18 @@ La prédiction repose uniquement sur le modèle (L5) : aucun essai ni publicatio
 - Mises en garde et contre-indications issues de la notice officielle
 - Hypothèse biologique justifiant l'intérêt d'un agent alkylant dans cette pathologie, puis revue de la littérature ciblée
 - Évaluation de la compatibilité des voies d'administration
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

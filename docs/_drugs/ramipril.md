@@ -60,7 +60,7 @@ mais **aucun essai clinique** n'est enregistré et seule **1 étude animale anci
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le ramipril appartient à la classe des IEC : il bloque la transformation de l'angiotensine I en angiotensine II, un puissant vasoconstricteur, et réduit ainsi la vasoconstriction et le remodelage vasculaire dépendants de l'angiotensine II.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ramipril (traduction non officielle) : « Le ramipril et le ramiprilate inhibent l'ECA chez l'homme et chez l'animal. L'enzyme de conversion de l'angiotensine est une peptidyl-dipeptidase qui catalyse la conversion de l'angiotensine I en substance vasoconstrictrice, l'angiotensine II. L'angiotensine II stimule également la sécrétion d'aldostérone par le cortex surrénalien. » Texte original en anglais : "Ramipril and ramiprilat inhibit ACE in human subjects and animals. Angiotensin converting enzyme is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II. Angiotensin II also stimulates aldosterone secretion by the adrenal cortex." ([DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59), version du 2026-11-11 ; consulté le 2026-11-19). Sur la base des connaissances générales, le ramipril appartient à la classe des IEC : il bloque la transformation de l'angiotensine I en angiotensine II, un puissant vasoconstricteur, et réduit ainsi la vasoconstriction et le remodelage vasculaire dépendants de l'angiotensine II.
 
 La relation avec l'indication originale est celle d'une atteinte vasculaire commune. L'hypertension systémique et l'hypertension pulmonaire impliquent toutes deux une vasoconstriction et un remodelage de la paroi des vaisseaux. Il est donc biologiquement plausible qu'un blocage du système rénine-angiotensine atténue ces phénomènes dans la circulation pulmonaire.
 
@@ -136,11 +136,12 @@ Les mises en garde et contre-indications de la notice ANSM n'ont pas pu être ob
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: ramipril prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=245d3580-77c6-4c0f-b324-c8514b792c59) |
 
 <!-- review:end log -->
 

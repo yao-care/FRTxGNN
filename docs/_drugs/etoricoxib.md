@@ -56,7 +56,7 @@ Le niveau de preuve est donc faible : la prédiction repose essentiellement sur 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations pharmacologiques connues, l'étoricoxib cible la COX-2 (gène PTGS2) et réduit la synthèse des prostaglandines, notamment la PGE2.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Etoricoxib est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase-2 » Texte original en anglais : "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, l'étoricoxib cible la COX-2 (gène PTGS2) et réduit la synthèse des prostaglandines, notamment la PGE2.
 
 La PGE2 intervient dans l'inflammation neurogène et la sensibilisation trigémino-vasculaire de la migraine. Un lien mécanistique plausible existe donc entre l'indication d'origine (douleur inflammatoire) et la migraine. Une étude préclinique chez le rat (PMID 29209105) a examiné l'effet d'AINS, dont l'étoricoxib, sur la libération de CGRP et de PGE2 par les ganglions trigéminés, ce qui soutient indirectement cette hypothèse.
 
@@ -147,13 +147,14 @@ Les mises en garde et contre-indications officielles ne sont pas disponibles dan
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 14 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es produits n'ont plus d'AMM valide en France, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Élucider les raisons de l'annulation des 14 AMM, et v » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL416146 (etoricoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416146) |
 
 <!-- review:end log -->
 

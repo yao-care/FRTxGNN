@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypoalphalipop
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la prucalopride est un agoniste sélectif des récepteurs 5-HT4 (gène HTR4) agissant sur la motilité gastro-intestinale. Son usage établi est le traitement de la constipation chronique chez l'adulte lorsque les laxatifs sont inefficaces.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Prucalopride (traduction non officielle) : « Le prucalopride, un agoniste sélectif des récepteurs sérotoninergiques de type 4 (5-HT 4 ), est un agent prokinétique gastro-intestinal (GI) qui stimule le péristaltisme colique (contractions propagées de grande amplitude [HAPC]), ce qui augmente la motilité intestinale. Le prucalopride a été dépourvu d'effets médiés par les récepteurs 5-HT 2A, 5-HT 2B, 5-HT 3, de la motiline ou CCK-A in vitro à des concentrations dépassant d'un facteur 150 ou plus l'affinité pour le récepteur 5-HT 4. » Texte original en anglais : "Prucalopride, a selective serotonin type 4 (5-HT 4 ) receptor agonist, is a gastrointestinal (GI) prokinetic agent that stimulates colonic peristalsis (high-amplitude propagating contractions [HAPCs]), which increases bowel motility. Prucalopride was devoid of effects mediated via 5-HT 2A, 5-HT 2B, 5-HT 3, motilin or CCK-A receptors in vitro at concentrations exceeding 5-HT 4 receptor affinity by 150-fold or greater." ([DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b), version du 2025-07-17 ; consulté le 2026-11-19). Sur la base des informations connues, la prucalopride est un agoniste sélectif des récepteurs 5-HT4 (gène HTR4) agissant sur la motilité gastro-intestinale. Son usage établi est le traitement de la constipation chronique chez l'adulte lorsque les laxatifs sont inefficaces.
 
 **Cette prédiction n'est pas étayée mécanistiquement.** Aucun lien crédible n'est identifié entre l'agonisme 5-HT4 et le métabolisme des HDL ou la régulation de l'ApoA-I. Le score élevé du modèle TxGNN est une prédiction purement computationnelle, sans essai ni publication à l'appui. La similarité avec l'indication d'origine n'a pas été évaluée.
 
@@ -104,6 +104,19 @@ Les mises en garde et contre-indications de la notice ANSM ne sont pas disponibl
 - Données détaillées sur le mécanisme d'action (via DrugBank)
 - Une hypothèse biologique crédible reliant le récepteur 5-HT4 au métabolisme lipidique, avec des données précliniques
 - Si une piste symptomatique est explorée, étudier en priorité la dysmotilité digestive liée à l'amylose comme question de recherche, et non l'hypoalphalipoprotéinémie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Motegrity (prucalopride) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bca1e4c6-4b2b-4876-8ab3-654629c4ff1b) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

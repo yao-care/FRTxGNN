@@ -60,7 +60,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (tro
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues dans l'analyse de la prédiction, le ziconotide est un bloqueur sélectif des canaux calciques voltage-dépendants de type N (Cav2.2). Il réduit la libération de neurotransmetteurs impliqués dans la nociception (substance P, CGRP, glutamate) au niveau de la corne dorsale de la moelle épinière et des voies trigéminales.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ziconotide (traduction non officielle) : « Le ziconotide se lie aux canaux calciques de type N situés sur les nerfs afférents nociceptifs primaires (A-δ et C) dans les couches superficielles (lames I et II de Rexed) de la corne dorsale de la moelle épinière. Bien que le mécanisme d'action du ziconotide n'ait pas été établi chez l'homme, les résultats obtenus chez l'animal suggèrent que sa liaison bloque les canaux calciques de type N, ce qui entraîne un blocage de la libération des neurotransmetteurs excitateurs à partir des terminaisons nerveuses afférentes primaires ainsi qu'une antinociception. » Texte original en anglais : "Ziconotide binds to N-type calcium channels located on the primary nociceptive (A-δ and C) afferent nerves in the superficial layers (Rexed laminae I and II) of the dorsal horn in the spinal cord. Although the mechanism of action of ziconotide has not been established in humans, results in animals suggest that its binding blocks N-type calcium channels, which leads to a blockade of excitatory neurotransmitter release from the primary afferent nerve terminals and antinociception." ([DailyMed: Prialt (ziconotide acetate) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57376a5b-4530-9018-e063-6394a90a9afe), version du 2026-09-15 ; consulté le 2026-11-19). Sur la base des informations connues dans l'analyse de la prédiction, le ziconotide est un bloqueur sélectif des canaux calciques voltage-dépendants de type N (Cav2.2). Il réduit la libération de neurotransmetteurs impliqués dans la nociception (substance P, CGRP, glutamate) au niveau de la corne dorsale de la moelle épinière et des voies trigéminales.
 
 La migraine implique l'activation du système trigémino-vasculaire et la libération de CGRP. Il existe donc un lien mécanistique plausible : moduler la transmission nociceptive pourrait, en théorie, soulager des migraines chroniques réfractaires.
 
@@ -136,12 +136,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e produit n'a plus d'AMM valide en France (autorisation annulée) et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Confirmer l'indication originale de l'AMM annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Prialt (ziconotide acetate) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57376a5b-4530-9018-e063-6394a90a9afe) |
 
 <!-- review:end log -->
 

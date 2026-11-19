@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ostéoporose mé
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, selinexor est un inhibiteur sélectif de l'export nucléaire qui bloque XPO1 (exportine-1) et retient dans le noyau des protéines suppresseurs de tumeur. Cette description n'a pas été vérifiée à partir du dossier fourni.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Selinexor (traduction non officielle) : « Dans des études non cliniques, le sélinexor inhibe de manière réversible l'export nucléaire des protéines suppresseurs de tumeurs (TSP), des régulateurs de croissance et des ARNm de protéines oncogènes en bloquant l'exportine 1 (XPO1). L'inhibition de XPO1 par le sélinexor entraîne une accumulation des TSP dans le noyau et une diminution de plusieurs oncoprotéines, telles que c-myc et la cycline D1, un arrêt du cycle cellulaire et l'apoptose des cellules cancéreuses. » Texte original en anglais : "In nonclinical studies, selinexor reversibly inhibits nuclear export of tumor suppressor proteins (TSPs), growth regulators, and mRNAs of oncogenic proteins by blocking exportin 1 (XPO1). XPO1 inhibition by selinexor leads to accumulation of TSPs in the nucleus and reductions in several oncoproteins, such as c-myc and cyclin D1, cell cycle arrest, and apoptosis of cancer cells." ([DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8), version du 2026-05-12 ; consulté le 2026-11-19). D'après les connaissances générales, selinexor est un inhibiteur sélectif de l'export nucléaire qui bloque XPO1 (exportine-1) et retient dans le noyau des protéines suppresseurs de tumeur. Cette description n'a pas été vérifiée à partir du dossier fourni.
 
 Un lien avec la biologie osseuse est plausible mais non démontré : l'inhibition de XPO1 pourrait moduler les voies NF-κB et Wnt/β-caténine, ainsi que l'activité des ostéoclastes et des ostéoblastes. Des travaux précliniques dans l'atteinte osseuse du myélome multiple suggèrent un effet possible sur le remodelage osseux, mais ces éléments ne figurent pas dans les données compilées.
 
@@ -141,12 +141,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xpovio (selinexor) prescribing information, Karyopharm Therapeutics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6dd2682-75a6-4863-90a8-a3197f6f78a8) |
 
 <!-- review:end log -->
 

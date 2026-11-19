@@ -55,7 +55,7 @@ Les données compilées font état de **0 essai clinique** enregistré et de **8
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues et la littérature, l'étodolac est un AINS à sélectivité préférentielle pour la cyclo-oxygénase-2 (COX-2). Il réduit la production de prostaglandines, médiateurs de l'inflammation et de la douleur.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Etodolac (traduction non officielle) : « Le mécanisme d'action des comprimés à libération prolongée d'étodolac, comme celui des autres AINS, n'est pas complètement élucidé, mais pourrait être lié à une inhibition de la prostaglandine synthétase. » Texte original en anglais : "The mechanism of action of etodolac extended-release tablets, like that of other NSAIDs, is not completely understood, but may be related to prostaglandin synthetase inhibition." ([DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331), version du 2024-12-31 ; consulté le 2026-11-19). D'après les informations connues et la littérature, l'étodolac est un AINS à sélectivité préférentielle pour la cyclo-oxygénase-2 (COX-2). Il réduit la production de prostaglandines, médiateurs de l'inflammation et de la douleur.
 
 **Une mise en garde importante :** les scores TxGNN les plus élevés (dysplasie acromésomélique, syndrome brachyolmie-amélogenèse imparfaite, myosclérose, brachyolmie, pseudoachondroplasie) concernent des maladies génétiques rares du squelette ou du tissu conjonctif. Aucun lien mécanistique crédible n'a été identifié : l'inhibition de la COX ne corrige pas un défaut de signalisation de facteurs de croissance. Ces scores proviennent du modèle TxGNN (apprentissage profond) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une relation pharmacologique réelle ni une preuve biologique. L'hypermobilité du coccyx n'offre, au mieux, qu'un soulagement symptomatique générique, sans preuve spécifique.
 
@@ -118,11 +118,12 @@ Veuillez consulter la notice pour les informations de sécurité (les mises en g
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Etodolac Er (etodolac) prescribing information, Advanced Rx Pharmacy of Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=baebdfb2-17f6-9081-e053-2a95a90ab331) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutiennent actuellement cette dir
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. D'après les informations connues, la ciclésonide est un promédicament : des estérases l'activent en desciclésonide, un agoniste du récepteur des glucocorticoïdes à activité anti-inflammatoire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ciclesonide (traduction non officielle) : « Le ciclésonide est une prodrogue qui est hydrolysée par voie enzymatique en un métabolite pharmacologiquement actif, le C21-désisobutyryl-ciclésonide (des-ciclésonide ou RM1), après inhalation par voie orale. Le des-ciclésonide possède une activité anti-inflammatoire avec une affinité pour les récepteurs des glucocorticoïdes 120 fois supérieure à celle de la molécule mère et 12 fois supérieure à celle de la dexaméthasone. » Texte original en anglais : "Ciclesonide is a prodrug that is enzymatically hydrolyzed to a pharmacologically active metabolite, C21-desisobutyryl-ciclesonide (des-ciclesonide or RM1) following oral inhalation. Des-ciclesonide has anti-inflammatory activity with affinity for glucocorticoid receptors that is 120 times greater than the parent compound and 12 times greater than dexamethasone." ([DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468), version du 2025-02-28 ; consulté le 2026-11-19). D'après les informations connues, la ciclésonide est un promédicament : des estérases l'activent en desciclésonide, un agoniste du récepteur des glucocorticoïdes à activité anti-inflammatoire.
 
 Les corticoïdes, topiques ou systémiques, sont un traitement établi de l'eczéma atopique. Le mécanisme anti-inflammatoire est donc plausible pour cette maladie.
 
@@ -100,6 +100,19 @@ Veuillez consulter la notice pour les autres informations de sécurité (mises e
 - Évaluation d'une formulation adaptée à la voie cutanée.
 - Fusion des entrées en doublon (eczéma atopique / dermatite atopique) lors de la revue.
 - Récupération de la notice de l'ANSM pour examiner les mises en garde et contre-indications.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Alvesco (ciclesonide) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f6112fb-78ef-43cf-8ae3-36370eb45468) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

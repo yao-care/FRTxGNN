@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **néoplasie endo
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, maraviroc est un antagoniste du récepteur de chimiokines CCR5. Son indication originale n'est pas renseignée dans les données compilées.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Maraviroc (traduction non officielle) : « Le maraviroc est un médicament antiviral actif contre le VIH-1. […] Le maraviroc appartient à une classe thérapeutique appelée antagonistes du corécepteur CCR5. Le maraviroc se lie de manière sélective au récepteur humain de chimiokines CCR5 présent sur la membrane cellulaire, empêchant l'interaction entre la gp120 du VIH-1 et le CCR5, nécessaire à l'entrée dans les cellules du VIH-1 à tropisme CCR5. » Texte original en anglais : "Maraviroc is an HIV-1 antiviral drug. […] Maraviroc is a member of a therapeutic class called CCR5 co-receptor antagonists. Maraviroc selectively binds to the human chemokine receptor CCR5 present on the cell membrane, preventing the interaction of HIV-1 gp120 and CCR5 necessary for CCR5-tropic HIV-1 to enter cells." ([DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5), version du 2023-11-10 ; consulté le 2026-11-19). Sur la base des informations connues, maraviroc est un antagoniste du récepteur de chimiokines CCR5. Son indication originale n'est pas renseignée dans les données compilées.
 
 Aucun lien mécanistique n'est étayé par les données fournies entre le blocage de CCR5 et les syndromes de néoplasie endocrinienne multiple. Le score élevé de TxGNN (0,9982) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies voisines, non une preuve biologique.
 
@@ -146,11 +146,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Selzentry (maraviroc) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c52dddd-0457-41cd-99e0-d30d4fd00ec5) |
 
 <!-- review:end log -->
 

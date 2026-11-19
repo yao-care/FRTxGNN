@@ -56,7 +56,7 @@ mais aucun essai clinique n'est enregistré et les **2 publications** retrouvée
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la céfazoline inhibe la synthèse de la paroi bactérienne et agit sur les bactéries à Gram positif, notamment les streptocoques et les staphylocoques sensibles à la méticilline. Ces germes peuvent être impliqués dans l'otite moyenne, ce qui rend le lien biologiquement plausible.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cefazolin (traduction non officielle) : « La céfazoline est un médicament antibactérien. […] La céfazoline est un agent bactéricide qui agit par inhibition de la synthèse de la paroi cellulaire bactérienne. » Texte original en anglais : "Cefazolin is an antibacterial drug. […] Cefazolin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis." ([DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4), version du 2026-08-31 ; consulté le 2026-11-19). D'après les connaissances générales, la céfazoline inhibe la synthèse de la paroi bactérienne et agit sur les bactéries à Gram positif, notamment les streptocoques et les staphylocoques sensibles à la méticilline. Ces germes peuvent être impliqués dans l'otite moyenne, ce qui rend le lien biologiquement plausible.
 
 Des limites importantes existent : la céfazoline s'administre uniquement par voie injectable et son activité est limitée contre *Haemophilus influenzae* et *Moraxella catarrhalis*, deux agents majeurs de l'otite moyenne. Le score élevé du modèle reflète une proximité statistique avec d'autres maladies infectieuses traitées par ce médicament, et non une démonstration clinique.
 
@@ -103,6 +103,19 @@ Aucun essai clinique n'est enregistré et aucune publication n'étudie directeme
 - Des études cliniques comparatives ciblant l'otite moyenne infectieuse
 - Les mises en garde et contre-indications issues de la notice officielle
 - Une évaluation de la pertinence de la voie injectable pour cette indication
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -56,7 +56,7 @@ Il s'agit toutefois d'une indication déjà établie (sous-catégorie du diabèt
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, l'insuline asparte remplace l'insuline endogène déficiente : elle se lie au récepteur de l'insuline, favorise la captation périphérique du glucose et freine la production hépatique de glucose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Insulin Aspart (traduction non officielle) : « L'activité principale de l'insuline, y compris NOVOLOG MIX 70/30, est la régulation du métabolisme du glucose. L'insuline et son analogue diminuent la glycémie en stimulant la captation périphérique du glucose, notamment par les muscles squelettiques et le tissu adipeux, et en inhibant la production hépatique de glucose. » Texte original en anglais : "The primary activity of insulin, including NOVOLOG MIX 70/30 is the regulation of glucose metabolism. Insulin and its analog lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85), version du 2026-05-18 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, l'insuline asparte remplace l'insuline endogène déficiente : elle se lie au récepteur de l'insuline, favorise la captation périphérique du glucose et freine la production hépatique de glucose.
 
 Dans le diabète de type 1, la destruction des cellules bêta entraîne une carence absolue en insuline. Le traitement substitutif par insuline est donc le fondement de la prise en charge, et un analogue à action rapide s'intègre naturellement dans un schéma basal-bolus ou en perfusion sous-cutanée continue.
 
@@ -150,13 +150,14 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 11 AMM sont annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les 11 AMM françaises sont toutes annulées : la validation réglementaire et de sécurité doit précéder toute avancée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM annulées ne couvrant plus aucun produit commercialisé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Novolog Mix 70/30 (insulin aspart) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=66da64f7-ca50-47d2-95fa-de37005eef85) |
 
 <!-- review:end log -->
 

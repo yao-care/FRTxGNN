@@ -62,7 +62,7 @@ Il s'agit toutefois d'une indication très proche de l'indication d'origine : l'
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la rosuvastatine fait partie de la classe des statines (inhibiteurs de l'HMG-CoA réductase). En bloquant la synthèse hépatique du cholestérol, elle augmente l'expression des récepteurs hépatiques des LDL et abaisse le LDL-cholestérol.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rosuvastatin (traduction non officielle) : « CRESTOR est un inhibiteur de l’HMG‑CoA réductase, l’enzyme limitante qui convertit le 3‑hydroxy‑3‑méthylglutaryl coenzyme A en mévalonate, un précurseur du cholestérol. » Texte original en anglais : "CRESTOR is an inhibitor of HMG‑CoA reductase, the rate-limiting enzyme that converts 3‑hydroxy‑3‑methylglutaryl coenzyme A to mevalonate, a precursor of cholesterol." ([DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee), version du 2026-09-23 ; consulté le 2026-11-19). Sur la base des informations connues, la rosuvastatine fait partie de la classe des statines (inhibiteurs de l'HMG-CoA réductase). En bloquant la synthèse hépatique du cholestérol, elle augmente l'expression des récepteurs hépatiques des LDL et abaisse le LDL-cholestérol.
 
 L'hypercholestérolémie familiale résulte le plus souvent d'un déficit fonctionnel du récepteur des LDL. Le mécanisme de la statine est donc directement pertinent. La forme homozygote figure déjà parmi les indications d'origine du médicament, ce qui explique le score très élevé du modèle.
 
@@ -157,11 +157,12 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les 20 AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Crestor (rosuvastatin) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=325a5d0e-9a72-4015-9fcd-1655fb504cee) |
 
 <!-- review:end log -->
 

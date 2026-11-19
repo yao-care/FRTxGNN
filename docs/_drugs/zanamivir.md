@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **pyélonéphrite
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le zanamivir est un inhibiteur de la neuraminidase du virus de la grippe, dont l'efficacité a été établie dans la grippe.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Zanamivir (traduction non officielle) : « Le zanamivir est un médicament antiviral actif contre le virus de la grippe. […] Le zanamivir est un inhibiteur de la neuraminidase (NA) du virus de la grippe, une enzyme qui libère les particules virales de la membrane plasmique des cellules infectées et favorise la propagation du virus dans les voies respiratoires. Dans les tests d'inhibition de la neuraminidase, le zanamivir est actif contre tous les sous-types enzymatiques de NA, de N1 à N9. » Texte original en anglais : "Zanamivir is an antiviral drug with activity against influenza virus. […] Zanamivir is an inhibitor of influenza virus neuraminidase (NA), an enzyme that releases viral particles from the plasma membrane of infected cells and promotes virus spread in the respiratory tract. In neuraminidase inhibition assays, zanamivir is active against all NA enzyme subtypes N1 to N9." ([DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d), version du 2026-07-23 ; consulté le 2026-11-19). Sur la base des informations connues, le zanamivir est un inhibiteur de la neuraminidase du virus de la grippe, dont l'efficacité a été établie dans la grippe.
 
 Le lien mécanistique avec la pyélonéphrite n'est **pas établi**. La pyélonéphrite est une infection rénale principalement bactérienne, due surtout à des bactéries uropathogènes comme *E. coli*. Ces bactéries possèdent leurs propres sialidases, mais elles ne sont pas une cible reconnue du zanamivir, qui n'a pas d'activité antibactérienne connue.
 
@@ -111,11 +111,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Relenza (zanamivir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b4e68930-4e6d-4d27-b1f0-abf60d12e28d) |
 
 <!-- review:end log -->
 

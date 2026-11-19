@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dysplasie acrom
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le célécoxib appartient à la classe des inhibiteurs sélectifs de la COX-2, qui réduisent la production de prostaglandines impliquées dans l'inflammation et la douleur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Celecoxib (traduction non officielle) : « Le célécoxib possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. On pense que le mécanisme d'action du célécoxib est dû à l'inhibition de la synthèse des prostaglandines, principalement par l'inhibition de la COX-2. Le célécoxib est un puissant inhibiteur de la synthèse des prostaglandines in vitro. » Texte original en anglais : "Celecoxib has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of celecoxib is believed to be due to inhibition of prostaglandin synthesis, primarily via inhibition of COX-2. Celecoxib is a potent inhibitor of prostaglandin synthesis in vitro." ([DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d), version du 2025-07-31 ; consulté le 2026-11-19). D'après les informations connues, le célécoxib appartient à la classe des inhibiteurs sélectifs de la COX-2, qui réduisent la production de prostaglandines impliquées dans l'inflammation et la douleur.
 
 Pour cette prédiction, **aucun lien mécanistique plausible n'a été identifié**. La dysplasie acromésomélique de type Hunter-Thompson est une dysplasie squelettique rare, due à des mutations de perte de fonction du gène *CDMP1/GDF5*. L'inhibition de la COX-2 n'agit pas sur le défaut sous-jacent de la signalisation BMP/GDF.
 
@@ -104,6 +104,19 @@ Cette prédiction repose uniquement sur le modèle, sans essai clinique, sans pu
 - Texte de la notice (mises en garde et contre-indications) pour le dépistage de sécurité
 - Données précliniques ou mécanistiques démontrant un rôle de la COX-2 dans cette dysplasie
 - Toute étude ou observation clinique concernant cette maladie rare
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vyscoxa (celecoxib) prescribing information, Carwin Pharmaceutical Associates, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5094d47e-f791-4190-9397-b7500143a74d) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

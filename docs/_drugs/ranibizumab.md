@@ -55,7 +55,7 @@ avec **19 publications** soutenant actuellement cette direction, mais **aucun es
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le ranibizumab fait partie de la classe des anti-VEGF (fragment d'anticorps dirigé contre le VEGF-A). Son efficacité dans la rétinopathie diabétique et l'œdème maculaire diabétique est documentée, et mécanistiquement il est applicable à la rétinopathie non proliférante sévère.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ranibizumab (traduction non officielle) : « Les produits à base de ranibizumab se lient au site de liaison au récepteur des formes actives du VEGF-A, y compris la forme clivée biologiquement active de cette molécule, le VEGF110. Il a été démontré que le VEGF-A provoque une néovascularisation et des fuites dans des modèles d'angiogenèse oculaire et d'occlusion vasculaire, et on pense qu'il contribue à la physiopathologie de la DMLA néovasculaire, de la NVC myopique, de la RD, de l'OMD et de l'œdème maculaire consécutif à une OVR. » Texte original en anglais : "Ranibizumab products bind to the receptor binding site of active forms of VEGF-A, including the biologically active, cleaved form of this molecule, VEGF110. VEGF-A has been shown to cause neovascularization and leakage in models of ocular angiogenesis and vascular occlusion and is thought to contribute to pathophysiology of neovascular AMD, mCNV, DR, DME and macular edema following RVO." ([DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a), version du 2026-11-05 ; consulté le 2026-11-19). Sur la base des informations connues, le ranibizumab fait partie de la classe des anti-VEGF (fragment d'anticorps dirigé contre le VEGF-A). Son efficacité dans la rétinopathie diabétique et l'œdème maculaire diabétique est documentée, et mécanistiquement il est applicable à la rétinopathie non proliférante sévère.
 
 Le VEGF favorise la perméabilité vasculaire rétinienne et la néovascularisation dans la rétinopathie diabétique. Des taux élevés de VEGF sériques et vitréens sont décrits dans cette maladie. La forme non proliférante sévère est un stade de la même maladie que l'indication d'origine : le lien est donc direct.
 
@@ -129,12 +129,13 @@ Décision : **Hold**. À noter, un cas de syndrome de blocage capsulaire après 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM annulée existe (RIMMYRAH 10 mg/ml, solution injectable, n° 61190863) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées ; autres procédures éventuelles) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nufymco (ranibizumab-leyk) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=05ed75bc-ae21-480b-9be4-cbc51689dd8a) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **forme symptomat
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, evolocumab est un anticorps monoclonal qui inhibe PCSK9, augmente la disponibilité des récepteurs du LDL et abaisse le LDL-cholestérol. Son efficacité dans l'hypercholestérolémie familiale est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Evolocumab (traduction non officielle) : « L'évolocumab est une IgG2 monoclonale humaine dirigée contre la proprotéine convertase subtilisine/kexine de type 9 (PCSK9) humaine. La PCSK9 se lie au récepteur des lipoprotéines de basse densité (LDLR) à la surface des hépatocytes afin de favoriser la dégradation du LDLR dans le foie. » Texte original en anglais : "Evolocumab is a human monoclonal IgG2 directed against human proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein receptor (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e), version du 2026-10-12 ; consulté le 2026-11-19). Sur la base des informations connues, evolocumab est un anticorps monoclonal qui inhibe PCSK9, augmente la disponibilité des récepteurs du LDL et abaisse le LDL-cholestérol. Son efficacité dans l'hypercholestérolémie familiale est établie.
 
 **Le lien mécanistique avec la nouvelle indication est très faible, voire inexistant.** Les symptômes hémorragiques des porteuses d'hémophilie résultent d'une activité réduite du facteur VIII ou IX, liée à des variants portés par le chromosome X et à une inactivation biaisée de ce chromosome. L'inhibition de PCSK9 n'agit pas sur la cascade de coagulation. Le score élevé du modèle TxGNN (deep learning) (0.9982) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, sans support clinique ou bibliographique.
 
@@ -118,11 +118,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française recensée est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Repatha (evolocumab) prescribing information, Amgen USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cd61e902-166d-4aa6-9f3c-a18c1008d07e) |
 
 <!-- review:end log -->
 

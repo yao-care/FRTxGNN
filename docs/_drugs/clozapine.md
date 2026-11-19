@@ -56,7 +56,7 @@ avec **1 essai clinique** de phase 2 et **20 publications** associées, dont une
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, la clozapine est un antipsychotique atypique à large profil récepteur : antagonisme dopaminergique D2 et sérotoninergique 5-HT2A, avec des effets muscariniques, adrénergiques et histaminergiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clozapine (traduction non officielle) : « Le mécanisme d'action de la clozapine est inconnu. Toutefois, il a été suggéré que l'efficacité thérapeutique de la clozapine dans la schizophrénie est médiée par un antagonisme des récepteurs dopaminergiques de type 2 (D 2 ) et sérotoninergiques de type 2A (5-HT 2A ). » Texte original en anglais : "The mechanism of action of clozapine is unknown. However, it has been proposed that the therapeutic efficacy of clozapine in schizophrenia is mediated through antagonism of the dopamine type 2 (D 2 ) and the serotonin type 2A (5-HT 2A ) receptors." ([DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355), version du 2026-09-06 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la clozapine est un antipsychotique atypique à large profil récepteur : antagonisme dopaminergique D2 et sérotoninergique 5-HT2A, avec des effets muscariniques, adrénergiques et histaminergiques.
 
 Ce profil est compatible avec une activité antimaniaque. La littérature disponible porte surtout sur la manie résistante aux traitements habituels : une revue systématique avec méta-analyse de petites études comparatives a trouvé la clozapine comparable aux autres antipsychotiques dans les épisodes maniaques et supérieure dans le trouble bipolaire résistant au traitement.
 
@@ -117,6 +117,18 @@ Un essai de phase 2 en double aveugle terminé dans la manie résistante et une 
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice française
 - Plan de surveillance : numération formule sanguine (neutrophiles), bilan métabolique, surveillance cardiaque et risque de convulsions
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Versacloz (clozapine) prescribing information, TruPharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2592c9a8-fd74-4e0d-a895-b07b014cf355) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

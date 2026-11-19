@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, voxelotor est un inhibiteur de la polymérisation de l'hémoglobine S qui augmente l'affinité de l'hémoglobine pour l'oxygène. Son intérêt a été établi dans l'anémie falciforme, mais aucun lien mécanistique n'a pu être établi avec les troubles héréditaires du nombre de plaquettes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Voxelotor (traduction non officielle) : « Le voxélotor est un inhibiteur de la polymérisation de l'hémoglobine S (HbS) qui se lie à l'HbS selon une stœchiométrie 1:1 et présente une distribution préférentielle dans les globules rouges (GR). En augmentant l'affinité de l'Hb pour l'oxygène, le voxélotor entraîne une inhibition dose-dépendante de la polymérisation de l'HbS. » Texte original en anglais : "Voxelotor is a hemoglobin S (HbS) polymerization inhibitor that binds to HbS with a 1:1 stoichiometry and exhibits preferential partitioning to red blood cells (RBCs). By increasing the affinity of Hb for oxygen, voxelotor demonstrates dose-dependent inhibition of HbS polymerization." ([DailyMed: Oxbryta (voxelotor) prescribing information, Global Blood Therapeutics, Inc, A subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c557fac-29ec-483f-b691-8a935d4decc3), version du 2023-12-26 ; consulté le 2026-11-19). Sur la base des informations connues, voxelotor est un inhibiteur de la polymérisation de l'hémoglobine S qui augmente l'affinité de l'hémoglobine pour l'oxygène. Son intérêt a été établi dans l'anémie falciforme, mais aucun lien mécanistique n'a pu être établi avec les troubles héréditaires du nombre de plaquettes.
 
 Les maladies prédites (thrombopénies héréditaires, déficit en granules denses, troubles de la sécrétion plaquettaire) relèvent de défauts des mégacaryocytes ou des plaquettes, sans rapport évident avec la polymérisation de l'hémoglobine.
 
@@ -71,7 +71,6 @@ Aucun essai clinique associé enregistré actuellement.
 Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
-
 
 ## Considérations de Sécurité
 
@@ -95,6 +94,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Démontrer un lien biologique plausible entre l'affinité de l'hémoglobine pour l'oxygène et les troubles plaquettaires, par des données précliniques
 - Clarifier la disponibilité du médicament en France et son statut réglementaire
 - Envisager de prioriser des indications plus proches de l'indication d'origine (maladies de l'hémoglobine ou hémolytiques)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Oxbryta (voxelotor) prescribing information, Global Blood Therapeutics, Inc, A subsidiary of Pfizer Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3c557fac-29ec-483f-b691-8a935d4decc3) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

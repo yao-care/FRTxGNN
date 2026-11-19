@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **lymphome à cel
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, idelalisib est un inhibiteur sélectif de l'isoforme delta de la phosphatidylinositol 3-kinase (PI3Kδ), dont l'efficacité a été démontrée dans la leucémie lymphoïde chronique et les lymphomes indolents à cellules B.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Idelalisib (traduction non officielle) : « L'idélalisib est un inhibiteur de la phosphatidylinositol 3-kinase, PI3Kδ, qui est exprimée dans les lymphocytes B normaux et malins. L'idélalisib a induit une apoptose et inhibé la prolifération dans des lignées cellulaires dérivées de lymphocytes B malins et dans des cellules tumorales primaires. » Texte original en anglais : "Idelalisib is an inhibitor of phosphatidylinositol 3-kinase, PI3Kδ, which is expressed in normal and malignant B-cells. Idelalisib induced apoptosis and inhibited proliferation in cell lines derived from malignant B-cells and in primary tumor cells." ([DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50), version du 2026-09-10 ; consulté le 2026-11-19). Sur la base des informations connues, idelalisib est un inhibiteur sélectif de l'isoforme delta de la phosphatidylinositol 3-kinase (PI3Kδ), dont l'efficacité a été démontrée dans la leucémie lymphoïde chronique et les lymphomes indolents à cellules B.
 
 Le lymphome à cellules du manteau est une hémopathie maligne à cellules B dont la survie dépend de la signalisation du récepteur des cellules B et de la voie PI3K. Le mécanisme d'idelalisib est donc plausible pour cette maladie. Des travaux précliniques montrent qu'idelalisib inhibe les mécanismes de régulation de la traduction et la croissance des cellules de lymphome du manteau.
 
@@ -154,11 +154,12 @@ Les mises en garde et contre-indications officielles ne sont pas disponibles dan
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zydelig (idelalisib) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=efbdafa9-d18c-4e85-b4a2-1e620fc74e50) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Syndrome Myélo
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des informations connues, le busulfan est un agent alkylant bifonctionnel qui forme des ponts entre les brins d'ADN et provoque une myéloablation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Busulfan (traduction non officielle) : « Le busulfan est un agent alkylant bifonctionnel dans lequel deux groupements méthanesulfonate labiles sont fixés aux extrémités opposées d'une chaîne alkyle à quatre atomes de carbone. En milieu aqueux, le busulfan s'hydrolyse en libérant les groupements méthanesulfonate. » Texte original en anglais : "Busulfan is a bifunctional alkylating agent in which two labile methanesulfonate groups are attached to opposite ends of a four-carbon alkyl chain. In aqueous media, busulfan hydrolyzes to release the methanesulfonate groups." ([DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203), version du 2026-07-29 ; consulté le 2026-11-19). Sur la base des informations connues, le busulfan est un agent alkylant bifonctionnel qui forme des ponts entre les brins d'ADN et provoque une myéloablation.
 
 Dans le syndrome myélodysplasique (SMD), il constitue l'ossature de nombreux schémas de conditionnement avant greffe allogénique de cellules souches hématopoïétiques. Il élimine les clones malins et libère de la place dans la moelle osseuse pour la prise de greffe du donneur. La greffe allogénique reste le seul traitement potentiellement curatif du SMD, notamment dans les formes à plus haut risque.
 
@@ -177,12 +177,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es quatre AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: busulfan prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=086a715e-4958-4bb5-9ebd-86171e6b6203) |
 
 <!-- review:end log -->
 

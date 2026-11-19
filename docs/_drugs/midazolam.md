@@ -56,7 +56,7 @@ avec **2 essais cliniques** (tous deux indirects) et **10 publications** (dont 2
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, le midazolam fait partie de la classe des benzodiazépines. Il module positivement les récepteurs GABA-A, ce qui produit des effets sédatifs, anxiolytiques et hypnotiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Midazolam (traduction non officielle) : « Le midazolam est une benzodiazépine à action courte, dépresseur du système nerveux central (SNC). » Texte original en anglais : "Midazolam is a short-acting benzodiazepine central nervous system (CNS) depressant." ([DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e), version du 2025-07-31 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, le midazolam fait partie de la classe des benzodiazépines. Il module positivement les récepteurs GABA-A, ce qui produit des effets sédatifs, anxiolytiques et hypnotiques.
 
 L'anxiété et l'insomnie partagent une composante d'hyperéveil du système nerveux central. Un médicament qui renforce la neurotransmission inhibitrice GABAergique peut donc agir sur les deux. Ce mécanisme est commun à des hypnotiques benzodiazépiniques déjà utilisés, comme le flurazépam. Le score élevé du modèle (0,9974) est cohérent avec cette pharmacologie.
 
@@ -141,13 +141,14 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Supprimé : « compte tenu du statut « uniquement annulé » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Les 8 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM annulées étant essentiellement injectables » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
 
 <!-- review:end log -->
 

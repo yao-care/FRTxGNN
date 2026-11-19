@@ -56,7 +56,7 @@ Les preuves actuelles se limitent à **1 publication** (étude de cohorte) et **
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, le sulfaméthoxazole inhibe la dihydroptéroate synthase bactérienne et bloque ainsi la synthèse des folates, ce qui freine la croissance des bactéries. Cette inférence ne provient pas des données fournies.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Sulfamethoxazole est (traduction non officielle) : « Inhibiteur de la dihydroptéroate synthase bactérienne » Texte original en anglais : "Bacterial dihydropteroate synthase inhibitor" ([ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le sulfaméthoxazole inhibe la dihydroptéroate synthase bactérienne et bloque ainsi la synthèse des folates, ce qui freine la croissance des bactéries. Cette inférence ne provient pas des données fournies.
 
 Ce mécanisme antibactérien est cohérent avec une conjonctivite d'origine bactérienne. Cependant, la conjonctivite figure déjà parmi les indications d'origine du médicament dans le graphe de connaissances. Le score élevé du modèle (0,9963) reflète probablement cette association existante plutôt qu'une découverte nouvelle, et il reste une simple prédiction.
 
@@ -115,11 +115,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier la pertinence d'une évaluation, compte tenu de l'indication déjà existante et du statut annulé des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL443 (sulfamethoxazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL443) |
 
 <!-- review:end log -->
 

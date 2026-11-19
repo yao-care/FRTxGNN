@@ -56,7 +56,7 @@ mais les preuves restent minces : **aucun essai clinique enregistré** et **2 pu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la ciprofloxacine appartient à la classe des fluoroquinolones, antibiotiques actifs sur de nombreuses bactéries.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ciprofloxacin (traduction non officielle) : « La ciprofloxacine appartient à la classe des fluoroquinolones parmi les agents antibactériens. […] L'action bactéricide de la ciprofloxacine résulte de l'inhibition des enzymes topoisomérase II (ADN gyrase) et topoisomérase IV (toutes deux des topoisomérases de type II), qui sont nécessaires à la réplication, à la transcription, à la réparation et à la recombinaison de l'ADN bactérien. » Texte original en anglais : "Ciprofloxacin is a member of the fluoroquinolone class of antibacterial agents. […] The bactericidal action of ciprofloxacin results from inhibition of the enzymes topoisomerase II (DNA gyrase) and topoisomerase IV (both Type II topoisomerases), which are required for bacterial DNA replication, transcription, repair, and recombination." ([DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07), version du 2025-11-04 ; consulté le 2026-11-19). Sur la base des informations connues, la ciprofloxacine appartient à la classe des fluoroquinolones, antibiotiques actifs sur de nombreuses bactéries.
 
 Deux pistes sont évoquées dans la littérature. La première est un effet antifibrosant sur la peau (PMID 20507401), peut-être par modulation de la synthèse du collagène ou de l'activité des fibroblastes. La seconde est indirecte : traiter la prolifération bactérienne de l'intestin grêle, fréquente dans la sclérodermie systémique (PMID 7728404), surtout chez les patients souffrant de diarrhée chronique et de perte de poids.
 
@@ -103,6 +103,18 @@ Les deux publications portent sur la sclérodermie, mais l'une est exploratoire,
 - Des données sur le mécanisme d'action de la molécule
 - Les mises en garde et contre-indications de la notice, notamment sur les tendinopathies, les neuropathies périphériques et l'allongement de l'intervalle QT
 - Un plan de surveillance des interactions, en particulier avec les corticoïdes
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ciprofloxacin In Dextrose (ciprofloxacin) prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbbbf939-3219-4515-a48e-ca264daa4d07) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

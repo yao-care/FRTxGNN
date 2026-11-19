@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la paroxétine appartient à la classe des ISRS. Son efficacité dans la dépression et les troubles anxieux est établie, mais son lien mécanistique avec le syndrome d'Ohdo n'est pas démontré.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Paroxetine (traduction non officielle) : « Le mécanisme d'action de PAXIL CR dans le traitement du trouble dépressif majeur (TDM), du trouble panique (TP), du trouble d'anxiété sociale (TAS) et du trouble dysphorique prémenstruel (TDPM) est inconnu, mais il est présumé être lié à la potentialisation de l'activité sérotoninergique dans le système nerveux central résultant de l'inhibition de la recapture neuronale de la sérotonine (5-HT). » Texte original en anglais : "The mechanism of action of PAXIL CR in the treatment of major depressive disorder (MDD), panic disorder (PD), social anxiety disorder (SAD), and premenstrual dysphoric disorder (PMDD) is unknown, but is presumed to be linked to potentiation of serotonergic activity in the central nervous system resulting from inhibition of neuronal reuptake of serotonin (5-HT)." ([DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c), version du 2026-09-30 ; consulté le 2026-11-19). Sur la base des informations connues, la paroxétine appartient à la classe des ISRS. Son efficacité dans la dépression et les troubles anxieux est établie, mais son lien mécanistique avec le syndrome d'Ohdo n'est pas démontré.
 
 Le syndrome d'Ohdo (y compris la variante Say-Barber-Biesecker-Young-Simpson) est une maladie génétique rare, couramment associée à des mutations de *KAT6B*, caractérisée par une déficience intellectuelle, un blépharophimosis et une hypotonie. Sa physiopathologie relève de mécanismes épigénétiques et développementaux, sans lien évident avec la pharmacologie sérotoninergique de la paroxétine.
 
@@ -106,11 +106,12 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et les données de sécurité de la notice manquent » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Paxil Cr (paroxetine hydrochloride) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=483bd97f-c4d0-4e23-aaa8-6334f4471e0c) |
 
 <!-- review:end log -->
 

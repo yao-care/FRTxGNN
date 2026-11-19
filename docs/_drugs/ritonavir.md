@@ -56,7 +56,7 @@ mais **aucun essai clinique** n'est enregistré et seules **10 publications** (e
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, le ritonavir inhibe la protéase aspartyle virale, ce qui bloque le clivage de la polyprotéine Gag-Pol et la production de virions matures. Il inhibe aussi le CYP3A4, d'où son usage comme « booster » pharmacocinétique d'autres inhibiteurs de protéase.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ritonavir (traduction non officielle) : « Le ritonavir est un médicament antirétroviral. […] Le ritonavir est un inhibiteur peptidomimétique de la protéase du VIH-1. L'inhibition de la protéase du VIH rend l'enzyme incapable de traiter le précurseur polyprotéique Gag-Pol, ce qui conduit à la production de particules de VIH immatures non infectieuses. » Texte original en anglais : "Ritonavir is an antiretroviral drug. […] Ritonavir is a peptidomimetic inhibitor of the HIV-1 protease. Inhibition of HIV protease renders the enzyme incapable of processing the Gag-Pol polyprotein precursor which leads to production of non-infectious immature HIV particles." ([DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3), version du 2026-07-23 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, le ritonavir inhibe la protéase aspartyle virale, ce qui bloque le clivage de la polyprotéine Gag-Pol et la production de virions matures. Il inhibe aussi le CYP3A4, d'où son usage comme « booster » pharmacocinétique d'autres inhibiteurs de protéase.
 
 Le VIS est un lentivirus étroitement apparenté au VIH, et sa protéase est une cible plausible du ritonavir. Une étude in vitro (PMID 12709355) montre que le VIS (souche mac239) est inhibé par le ritonavir avec une concentration efficace à 50 % d'environ 13 nM, contre environ 25 nM pour le VIH-1.
 
@@ -124,11 +124,12 @@ Les deux autres prédictions de rang inférieur (SIDA félin et un trouble neuro
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Vérification du statut réglementaire actuel du ritonavir en France, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Norvir (ritonavir) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2849298e-de6e-47bb-8194-56e075b33fc3) |
 
 <!-- review:end log -->
 

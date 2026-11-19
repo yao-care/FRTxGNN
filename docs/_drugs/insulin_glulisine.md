@@ -60,7 +60,7 @@ Il faut noter qu'il s'agit ici moins d'un véritable repositionnement que de la 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, l'insuline glulisine est un analogue de l'insuline humaine à action rapide : elle se lie au récepteur de l'insuline et abaisse la glycémie, avec un début d'action plus rapide et une durée plus courte que l'insuline humaine ordinaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Insulin Glulisine (traduction non officielle) : « La régulation du métabolisme du glucose est l'activité principale des insulines et des analogues de l'insuline, y compris l'insuline glulisine. Les insulines diminuent la glycémie en stimulant la captation périphérique du glucose par les muscles squelettiques et le tissu adipeux, et en inhibant la production hépatique de glucose. » Texte original en anglais : "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin glulisine. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa), version du 2025-11-25 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, l'insuline glulisine est un analogue de l'insuline humaine à action rapide : elle se lie au récepteur de l'insuline et abaisse la glycémie, avec un début d'action plus rapide et une durée plus courte que l'insuline humaine ordinaire.
 
 Le diabète de type 1 est caractérisé par une carence en insuline. Le remplacement par une insuline prandiale est donc le fondement du traitement. L'indication prédite est ainsi une sous-catégorie directe de l'indication d'origine (diabète sucré), ce qui explique le score très élevé du modèle.
 
@@ -168,11 +168,12 @@ Les neuf autres indications prédites ne reposent sur aucun essai clinique ni pu
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et la disponibilité réelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Apidra (insulin glulisine) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e7af6a7a-8046-4fb4-9979-4ec4230b23aa) |
 
 <!-- review:end log -->
 

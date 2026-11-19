@@ -56,7 +56,7 @@ mais aucun essai clinique n'est enregistré et les **20 publications** disponibl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, l'imipramine inhibe la recapture de la noradrénaline et, dans une moindre mesure, de la sérotonine.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Imipramine (traduction non officielle) : « Le mécanisme d'action du chlorhydrate d'imipramine n'est pas connu avec certitude. Cependant, il n'agit pas principalement par stimulation du système nerveux central. On suppose que l'effet clinique est dû à une potentialisation des synapses adrénergiques par blocage de la recapture de la noradrénaline au niveau des terminaisons nerveuses. » Texte original en anglais : "The mechanism of action of imipramine hydrochloride, is not definitely known. However, it does not act primarily by stimulation of the central nervous system. The clinical effect is hypothesized as being due to potentiation of adrenergic synapses by blocking uptake of norepinephrine at nerve endings." ([DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919), version du 2026-11-04 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'imipramine inhibe la recapture de la noradrénaline et, dans une moindre mesure, de la sérotonine.
 
 L'augmentation de la noradrénaline dans les circuits préfrontaux est un mécanisme reconnu dans le traitement du TDAH (comme avec l'atomoxétine). Le lien biologique est donc plausible. La littérature mentionne les tricycliques, dont l'imipramine, comme options de seconde ligne dans le TDAH, avec notamment un rapport historique spécifique de 1983 (PMID 6849467).
 
@@ -111,6 +111,19 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 - Revue systématique des essais contrôlés sur les tricycliques dans le TDAH
 - Évaluation du risque cardiaque (ECG, QT) en population pédiatrique et plan de gestion des interactions
 - Clarification du statut réglementaire en France, les 2 AMM sur 2 étant valides
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: imipramine hydrochloride prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bcd3b62a-88d4-49eb-b0aa-71e28cf40919) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

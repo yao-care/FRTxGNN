@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour le **syndrome de la per
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'acarbose est un inhibiteur des alpha-glucosidases intestinales : elle agit localement dans le tube digestif et ralentit la digestion des glucides.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Acarbose (traduction non officielle) : « Contrairement aux sulfonylurées, les comprimés d'acarbose n'augmentent pas la sécrétion d'insuline. L'action antihyperglycémiante de l'acarbose résulte d'une inhibition compétitive et réversible de l'alpha-amylase pancréatique et des enzymes alpha-glucoside hydrolases intestinales liées à la membrane. » Texte original en anglais : "In contrast to sulfonylureas, Acarbose Tablets do not enhance insulin secretion. The antihyperglycemic action of acarbose results from a competitive, reversible inhibition of pancreatic alpha-amylase and membrane-bound intestinal alpha-glucoside hydrolase enzymes." ([DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a), version du 2026-08-11 ; consulté le 2026-11-19). D'après les connaissances générales, l'acarbose est un inhibiteur des alpha-glucosidases intestinales : elle agit localement dans le tube digestif et ralentit la digestion des glucides.
 
 Le syndrome de la personne raide est une maladie auto-immune du système nerveux central, généralement associée à des anticorps anti-GAD65 et à une altération de la transmission GABAergique. Aucun lien mécanistique clair n'a été identifié entre l'action de l'acarbose et cette maladie.
 
@@ -104,6 +104,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Données précliniques ou cliniques directement liées au syndrome de la personne raide
 - Justification biologique d'un effet sur les mécanismes auto-immuns ou GABAergiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

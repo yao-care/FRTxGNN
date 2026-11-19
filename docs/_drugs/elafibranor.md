@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**aménorrhée**, 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations pharmacologiques connues, elafibranor est un agoniste de PPARα et PPARδ (PPARβ/δ). Il est converti dans le foie en son métabolite actif principal, GFT-1007. Dans les études précliniques, il a réduit l'accumulation de graisse hépatique, l'inflammation et la fibrose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Elafibranor (traduction non officielle) : « L'élafibranor et son principal métabolite actif GFT1007 sont des agonistes des récepteurs activés par les proliférateurs de peroxysomes (PPAR), qui activent tous deux PPAR-alpha, PPAR-gamma et PPAR-delta in vitro. Cependant, le mécanisme par lequel l'élafibranor exerce ses effets thérapeutiques chez les patients atteints de CBP n'est pas bien compris. » Texte original en anglais : "Elafibranor and its main active metabolite GFT1007 are peroxisome proliferator-activated receptor (PPAR) agonists, both of which activate PPAR-alpha, PPAR-gamma, and PPAR-delta in vitro. However, the mechanism by which elafibranor exerts its therapeutic effects in patients with PBC is not well understood." ([DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25), version du 2026-08-11 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, elafibranor est un agoniste de PPARα et PPARδ (PPARβ/δ). Il est converti dans le foie en son métabolite actif principal, GFT-1007. Dans les études précliniques, il a réduit l'accumulation de graisse hépatique, l'inflammation et la fibrose.
 
 Le lien avec l'aménorrhée reste spéculatif. Une hypothèse possible passerait par la modulation métabolique et inflammatoire des voies endocriniennes, par exemple dans l'aménorrhée liée au syndrome des ovaires polykystiques (SOPK) ou l'aménorrhée hypothalamique fonctionnelle. Aucun mécanisme spécifique à l'aménorrhée n'est établi, et aucune similarité démontrée avec l'indication d'origine n'a pu être évaluée. Le seul appui est le score élevé du modèle, qui est une prédiction computationnelle sans corroboration clinique.
 
@@ -112,12 +112,13 @@ Remarque : les données de sécurité de l'ANSM manquent et constituent une lacu
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Iqirvo (elafibranor) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d78aa14f-6ec1-4b1d-a4ae-e48658137a25) |
 
 <!-- review:end log -->
 

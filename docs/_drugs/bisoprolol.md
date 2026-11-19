@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Le bisoprolol est un bêtabloquant bêta-1 sélectif. En bloquant les récepteurs bêta-1, il réduit la fréquence cardiaque et le débit cardiaque, et freine la sécrétion de rénine par le rein.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bisoprolol (traduction non officielle) : « Le FUMARATE DE BISOPROLOL est un agent bêtabloquant adrénergique sélectif des récepteurs bêta 1 (cardiosélectif), dépourvu d'activité stabilisatrice de membrane significative et d'activité sympathomimétique intrinsèque dans sa gamme de doses thérapeutiques. La cardiosélectivité n'est cependant pas absolue et, à des doses plus élevées (≥ 20 mg), le fumarate de bisoprolol inhibe également les récepteurs bêta 2 -adrénergiques, principalement situés dans la musculature bronchique et vasculaire ; afin de conserver la sélectivité, il est donc important d'utiliser la dose efficace la plus faible. » Texte original en anglais : "BISOPROLOL FUMARATE is a beta 1 -selective (cardioselective) adrenoceptor blocking agent without significant membrane stabilizing activity or intrinsic sympathomimetic activity in its therapeutic dosage range. Cardioselectivity is not absolute, however, and at higher doses (≥ 20 mg) bisoprolol fumarate also inhibits beta 2 -adrenoceptors, chiefly located in the bronchial and vascular musculature; to retain selectivity it is therefore important to use the lowest effective dose." ([DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e), version du 2026-11-11 ; consulté le 2026-11-19). Le bisoprolol est un bêtabloquant bêta-1 sélectif. En bloquant les récepteurs bêta-1, il réduit la fréquence cardiaque et le débit cardiaque, et freine la sécrétion de rénine par le rein.
 
 Ces effets sur la pression artérielle et sur le système rénine-angiotensine pourraient être pertinents pour une atteinte rénale liée à l'hypertension. C'est la seule base de la prédiction, et aucune étude ne la confirme.
 
@@ -92,6 +92,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Les mises en garde et contre-indications de la notice officielle (ANSM), pour un examen de sécurité.
 - Une revue de la littérature ciblée sur le bisoprolol dans l'atteinte rénale hypertensive.
 - Des études précliniques ou cliniques justifiant un éventuel intérêt par rapport aux traitements standards.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: bisoprolol fumarate prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6517d564-ea55-4084-a8ab-34fea548c24e) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

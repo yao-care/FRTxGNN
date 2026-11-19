@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des informations connues, le tropicamide est un antagoniste des récepteurs muscariniques (les données pharmacologiques indiquent une liaison aux récepteurs M2, M3, M4 et M5). Il est utilisé en collyre pour dilater la pupille lors des examens du fond d'œil.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tropicamide (traduction non officielle) : « Cette préparation anticholinergique bloque les réponses du muscle sphincter de l'iris et du muscle ciliaire à la stimulation cholinergique, provoquant une dilatation de la pupille (mydriase). La préparation la plus concentrée (1 %) paralyse également l'accommodation. » Texte original en anglais : "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the ciliary muscle to cholinergic stimulation, dilating the pupil (mydriasis). The stronger preparation (1%) also paralyzes accommodation." ([DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d), version du 2023-02-15 ; consulté le 2026-11-19). Sur la base des informations connues, le tropicamide est un antagoniste des récepteurs muscariniques (les données pharmacologiques indiquent une liaison aux récepteurs M2, M3, M4 et M5). Il est utilisé en collyre pour dilater la pupille lors des examens du fond d'œil.
 
 Le lien hypothétique serait une action antimuscarinique sur l'hyperactivité du détrusor, responsable des troubles vésicaux associés au syndrome de la queue de cheval. Ce raisonnement reste toutefois fragile. Le tropicamide n'existe qu'en formulation ophtalmique, avec une exposition systémique minimale, ce qui rend peu plausible un effet sur la vessie ou le tissu nerveux. De plus, le syndrome de la queue de cheval est avant tout une urgence chirurgicale (décompression) : un antimuscarinique ne pourrait au mieux traiter qu'un symptôme, pas la compression sous-jacente.
 
@@ -100,6 +100,19 @@ Les mises en garde et contre-indications officielles de la notice ANSM n'ont pas
 - Reclasser la vessie neurogène vers un terme d'ontologie actuel
 - Évaluer, en cas de poursuite, la faisabilité d'une formulation systémique et son profil de sécurité
 - Comparer avec les antimuscariniques déjà approuvés pour les indications visées
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Mydriacyl (tropicamide) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d4f4a2e-eb00-4c65-b3fa-baf5738d468d) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

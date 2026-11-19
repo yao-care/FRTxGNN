@@ -58,7 +58,7 @@ mais **aucun essai clinique** n'est enregistré et seules **quelques publication
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la nicardipine fait partie de la classe des inhibiteurs calciques de type dihydropyridine : elle bloque les canaux calciques de type L du muscle lisse vasculaire et provoque une vasodilatation artérielle. Son efficacité dans l'hypertension systémique est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nicardipine (traduction non officielle) : « La nicardipine inhibe l'influx transmembranaire des ions calcium dans le muscle cardiaque et le muscle lisse sans modifier les concentrations sériques de calcium. Les processus contractiles du muscle cardiaque et du muscle lisse vasculaire dépendent du mouvement des ions calcium extracellulaires vers ces cellules par des canaux ioniques spécifiques. » Texte original en anglais : "Nicardipine inhibits the transmembrane influx of calcium ions into cardiac muscle and smooth muscle without changing serum calcium concentrations. The contractile processes of cardiac muscle and vascular smooth muscle are dependent upon the movement of extracellular calcium ions into these cells through specific ion channels." ([DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d), version du 2026-07-31 ; consulté le 2026-11-19). Sur la base des informations connues, la nicardipine fait partie de la classe des inhibiteurs calciques de type dihydropyridine : elle bloque les canaux calciques de type L du muscle lisse vasculaire et provoque une vasodilatation artérielle. Son efficacité dans l'hypertension systémique est établie.
 
 La vasoconstriction pulmonaire hypoxique dépend d'un influx de calcium dans le muscle lisse des artères pulmonaires. Un blocage des canaux calciques de type L est donc mécanistiquement plausible pour réduire le tonus vasculaire pulmonaire. Une étude physiologique ancienne (1988, chez le chien) a examiné l'effet de la nicardipine sur la vasoconstriction pulmonaire hypoxique régionale.
 
@@ -120,11 +120,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nicardipine Hydrochloride In Sodium Chloride (nicardipine hydrochloride) prescribing information, WG Critical Care, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ffe6b6f-b8bc-413f-9bec-7639e9d71d3d) |
 
 <!-- review:end log -->
 

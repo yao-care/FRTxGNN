@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de l'i
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la source. D'après les informations connues, le flavoxate est un relaxant des muscles lisses à propriétés antimuscariniques, inhibitrices des phosphodiestérases et antagonistes calciques, utilisé dans les urgences mictionnelles.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Flavoxate (traduction non officielle) : « Le chlorhydrate de flavoxate s'oppose aux spasmes des muscles lisses des voies urinaires et exerce son effet directement sur le muscle. Dans une étude unique menée chez 11 sujets sains de sexe masculin, le délai d'apparition de l'action était de 55 minutes. » Texte original en anglais : "Flavoxate hydrochloride counteracts smooth muscle spasm of the urinary tract and exerts its effect directly on the muscle. In a single study of 11 normal male subjects, the time to onset of action was 55 minutes." ([DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88), version du 2025-12-11 ; consulté le 2026-11-19). D'après les informations connues, le flavoxate est un relaxant des muscles lisses à propriétés antimuscariniques, inhibitrices des phosphodiestérases et antagonistes calciques, utilisé dans les urgences mictionnelles.
 
 Pour le **syndrome de l'intestin irritable**, le raisonnement est plausible : la relaxation spasmolytique et antimuscarinique du muscle lisse est la base de l'usage d'agents apparentés (hyoscine, dicyclomine) dans cette pathologie. Il s'agit toutefois d'une hypothèse, sans aucune donnée clinique propre au flavoxate.
 
@@ -117,11 +117,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et son indication d'origine n'est pas documentée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: flavoxate hydrochloride prescribing information, PuraCap Laboratories LLC dba Blu Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f6a06eda-2480-4c0d-8d1e-9e3e89d3ee88) |
 
 <!-- review:end log -->
 

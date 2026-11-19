@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine** (*mi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le parécoxib est la prodrogue du valdécoxib, un inhibiteur sélectif de la COX-2 doté de propriétés anti-inflammatoires et analgésiques.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Parecoxib est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase-2 » Texte original en anglais : "Cyclooxygenase-2 inhibitor" ([ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le parécoxib est la prodrogue du valdécoxib, un inhibiteur sélectif de la COX-2 doté de propriétés anti-inflammatoires et analgésiques.
 
 Dans la migraine, la synthèse de prostaglandine E2 (PGE2) dépendante de la COX-2 contribue à l'inflammation neurogène et à la sensibilisation trigéminale. L'inhibition de la COX-2 est donc plausible sur le plan mécanistique pour traiter les crises aiguës. Des travaux précliniques vont dans ce sens : l'IL-1β stimule la synthèse de PGE2 dépendante de la COX-2 et la libération de CGRP dans des cellules de ganglions trigéminaux de rat (PMID 21394197), et le parécoxib modifie l'extravasation de protéines plasmatiques et l'expression de c-fos chez le rat (PMID 16492237).
 
@@ -138,12 +138,13 @@ Le parécoxib étant un inhibiteur de la COX-2, un déséquilibre de la balance 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM annulée avec une forme uniquement injectable limite la faisabilité pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et la raison de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1206690 (parecoxib): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1206690) |
 
 <!-- review:end log -->
 

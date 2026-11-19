@@ -58,7 +58,7 @@ Zonisamide est un antiépileptique de la famille des sulfonamides. Le modèle Tx
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, zonisamide agit en bloquant les canaux sodiques voltage-dépendants et les canaux calciques de type T, avec aussi des effets sur les systèmes dopaminergique et sérotoninergique. Il s'agit d'une hypothèse mécanistique plausible, mais spéculative pour le syndrome de Gilles de la Tourette.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Zonisamide (traduction non officielle) : « Le ou les mécanismes précis par lesquels le zonisamide exerce son effet antiépileptique sont inconnus. Le zonisamide a démontré une activité anticonvulsivante dans plusieurs modèles expérimentaux. Chez l'animal, le zonisamide a été efficace contre les crises d'extension tonique induites par électrochoc maximal, mais inefficace contre les crises cloniques induites par le pentétrazol administré par voie sous-cutanée. » Texte original en anglais : "The precise mechanism(s) by which zonisamide exerts its antiseizure effect is unknown. Zonisamide demonstrated anticonvulsant activity in several experimental models. In animals, zonisamide was effective against tonic extension seizures induced by maximal electroshock but ineffective against clonic seizures induced by subcutaneous pentylenetetrazol." ([DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb), version du 2026-09-23 ; consulté le 2026-11-19). D'après les connaissances générales, zonisamide agit en bloquant les canaux sodiques voltage-dépendants et les canaux calciques de type T, avec aussi des effets sur les systèmes dopaminergique et sérotoninergique. Il s'agit d'une hypothèse mécanistique plausible, mais spéculative pour le syndrome de Gilles de la Tourette.
 
 Aucune donnée clinique ne confirme cette piste. Une revue (PMID 36005856) décrit au contraire des troubles obsessionnels compulsifs et des tics **induits** par les médicaments antiépileptiques. Elle constitue donc un signal de sécurité potentiel plutôt qu'un argument d'efficacité.
 
@@ -155,13 +155,14 @@ Veuillez consulter la notice pour les mises en garde officielles, qui ne sont pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Le médicament est commercialisé en France, avec 20 AMM valides sur 20 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-13 | Supprimé : « les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
 
 <!-- review:end log -->
 

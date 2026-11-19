@@ -61,7 +61,7 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. L'acide lactique est un métabolite endogène du métabolisme énergétique, présent dans l'organisme, et les produits français concernés sont des préparations homéopathiques diluées, sans indication officielle renseignée.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Lactic Acid est (traduction non officielle) : « Agent abaissant le pH » Texte original en anglais : "pH lowering agent" ([ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559), CC BY-SA 3.0 ; consulté le 2026-11-19). L'acide lactique est un métabolite endogène du métabolisme énergétique, présent dans l'organisme, et les produits français concernés sont des préparations homéopathiques diluées, sans indication officielle renseignée.
 
 Les données compilées pour ce rapport ne permettent pas d'établir de lien mécanistique crédible entre l'acide lactique et la coarctation atypique de l'aorte. Il s'agit d'une malformation vasculaire congénitale, d'origine développementale. On ne connaît à l'acide lactique aucune action pharmacologique sur le développement structurel de l'aorte. Le score élevé (0,9959) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique.
 
@@ -127,12 +127,13 @@ Parmi elles, seul le syndrome de l'œil sec présente un indice indirect : l'aci
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'acide lactique est un métabolite endogène, commercialisé en France sous forme de préparations homéopathiques (Lacticum acidum Lehning et B » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1200559 (lactic acid): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200559) |
 
 <!-- review:end log -->
 

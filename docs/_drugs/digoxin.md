@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la digoxine inhibe la pompe Na+/K+-ATPase, ce qui augmente le calcium intracellulaire et renforce la contractilité myocardique, tout en ralentissant la conduction auriculo-ventriculaire. Ce mécanisme explique son usage dans la fibrillation auriculaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Digoxin (traduction non officielle) : « Toutes les actions de la digoxine sont médiées par ses effets sur la Na-K ATPase. Cette enzyme, la « pompe à sodium », est responsable du maintien du milieu intracellulaire dans l'ensemble de l'organisme en faisant sortir les ions sodium des cellules et entrer les ions potassium dans celles-ci. » Texte original en anglais : "All of digoxin’s actions are mediated through its effects on Na-K ATPase. This enzyme, the “sodium pump,” is responsible for maintaining the intracellular milieu throughout the body by moving sodium ions out of and potassium ions into cells." ([DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707), version du 2025-10-17 ; consulté le 2026-11-19). D'après les connaissances générales, la digoxine inhibe la pompe Na+/K+-ATPase, ce qui augmente le calcium intracellulaire et renforce la contractilité myocardique, tout en ralentissant la conduction auriculo-ventriculaire. Ce mécanisme explique son usage dans la fibrillation auriculaire.
 
 Le lien avec l'angor de Prinzmetal est en revanche **spéculatif**. Cet angor est dû à un vasospasme coronarien, habituellement traité par des inhibiteurs calciques et des dérivés nitrés. L'augmentation du calcium intracellulaire induite par la digoxine n'est pas évidemment compatible avec cette indication, et un effet vasoconstricteur potentiel pourrait même être défavorable.
 
@@ -101,6 +101,19 @@ La prédiction repose uniquement sur le modèle TxGNN (niveau L5), sans essai ni
 - Mener une revue de la littérature ciblée sur la digoxine et le vasospasme coronarien, et rechercher d'éventuels essais
 - Examiner la pertinence mécanistique au regard des traitements de référence (inhibiteurs calciques, dérivés nitrés)
 - Vérifier le statut réglementaire (4 AMM valides sur 4)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lanoxin (digoxin) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9ec84cac-6ecc-43dc-8006-6ccc029e2707) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

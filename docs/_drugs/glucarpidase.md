@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cataracte diab�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le glucarpidase est une enzyme bactérienne recombinante qui dégrade le méthotrexate extracellulaire et les folates. Elle est administrée par voie intraveineuse.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Glucarpidase (traduction non officielle) : « La glucarpidase est une enzyme bactérienne recombinante qui hydrolyse le résidu glutamate carboxy-terminal de l'acide folique et des antifolates classiques tels que le méthotrexate. La glucarpidase convertit le méthotrexate en ses métabolites inactifs, l'acide 4-désoxy-4-amino-N 10 -méthylptéroïque (DAMPA) et le glutamate. » Texte original en anglais : "Glucarpidase is a recombinant bacterial enzyme that hydrolyzes the carboxyl- terminal glutamate residue from folic acid and classical antifolates such as methotrexate. Glucarpidase converts methotrexate to its inactive metabolites 4-deoxy-4-amino-N 10 - methylpteroic acid (DAMPA) and glutamate." ([DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c), version du 2024-11-27 ; consulté le 2026-11-19). D'après les connaissances générales, le glucarpidase est une enzyme bactérienne recombinante qui dégrade le méthotrexate extracellulaire et les folates. Elle est administrée par voie intraveineuse.
 
 **Cette prédiction n'est pas étayée sur le plan mécanistique.** Le glucarpidase n'a aucune action connue sur la voie des polyols, l'aldose réductase, la glycation ni l'opacification du cristallin. Sa taille (grosse enzyme) et sa voie systémique rendent par ailleurs une pénétration oculaire peu plausible.
 
@@ -128,11 +128,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et les données de sécurité issues de la notice sont manquantes, ce qui bloque l'évaluation de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Voraxaze (glucarpidase) prescribing information, BTG International Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acaef5a6-b740-40e3-8ffe-74a75c74745c) |
 
 <!-- review:end log -->
 

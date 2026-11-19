@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **névralgie post
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le famciclovir est une prodrogue du penciclovir : sous sa forme active (penciclovir triphosphate), il inhibe l'ADN polymérase du virus varicelle-zona (VZV).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Famciclovir (traduction non officielle) : « Le famciclovir est une prodrogue administrée par voie orale de l'agent antiviral anti-alphaherpèsvirus penciclovir. » Texte original en anglais : "Famciclovir is an orally administered prodrug of the anti-alpha herpes viral agent penciclovir." ([DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761), version du 2026-11-13 ; consulté le 2026-11-19). Sur la base des informations connues, le famciclovir est une prodrogue du penciclovir : sous sa forme active (penciclovir triphosphate), il inhibe l'ADN polymérase du virus varicelle-zona (VZV).
 
 Le zona est la maladie en amont de la névralgie post-zostérienne, qui en est la complication la plus fréquente. Réduire la réplication virale en phase aiguë pourrait limiter les lésions nerveuses et donc le risque de névralgie persistante. Ce lien est plausible sur le plan biologique, mais indirect.
 
@@ -104,11 +104,12 @@ Le lien mécanistique est plausible, mais aucune preuve directe n'existe : le se
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées, ce qui limite toute avancée pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: famciclovir prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c44b8d2-3b70-4e8b-af03-2e917178f761) |
 
 <!-- review:end log -->
 

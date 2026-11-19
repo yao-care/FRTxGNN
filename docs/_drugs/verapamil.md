@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **bloc de branche
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le vérapamil est un inhibiteur calcique qui ralentit la conduction du nœud auriculo-ventriculaire (AV) et réduit la résistance vasculaire. Son efficacité dans les arythmies supraventriculaires et l'hypertension est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Verapamil (traduction non officielle) : « Angor : Le mécanisme d'action précis du chlorhydrate de vérapamil en tant qu'agent antiangoreux reste à déterminer entièrement, mais il comprend les deux mécanismes suivants : 1. Relaxation et prévention du spasme des artères coronaires : Le chlorhydrate de vérapamil dilate les principales artères coronaires et les artérioles coronaires, tant dans les régions normales que dans les régions ischémiques, et est un puissant inhibiteur du spasme des artères coronaires, qu'il soit spontané ou induit par l'ergonovine. » Texte original en anglais : "Angina: The precise mechanism of action of verapamil hydrochloride as an antianginal agent remains to be fully determined, but includes the following two mechanisms: 1. Relaxation and prevention of coronary artery spasm: Verapamil hydrochloride dilates the main coronary arteries and coronary arterioles, both in normal and ischemic regions, and is a potent inhibitor of coronary artery spasm, whether spontaneous or ergonovine-induced." ([DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c), version du 2026-10-30 ; consulté le 2026-11-19). D'après les connaissances générales, le vérapamil est un inhibiteur calcique qui ralentit la conduction du nœud auriculo-ventriculaire (AV) et réduit la résistance vasculaire. Son efficacité dans les arythmies supraventriculaires et l'hypertension est établie.
 
 Pour le bloc de branche, le lien est faible. Il s'agit d'un trouble de conduction du système de His-Purkinje, pour lequel le blocage du nœud AV n'offre aucun bénéfice thérapeutique clair et pourrait aggraver la conduction. De plus, le terme « obsolete » indique probablement une entrée d'ontologie dépréciée. La prédiction est donc mécanistiquement douteuse.
 
@@ -114,11 +114,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (5 AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
 
 <!-- review:end log -->
 

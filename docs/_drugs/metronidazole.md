@@ -59,7 +59,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocysto
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le métronidazole est un nitro-imidazole actif contre les anaérobies et certains protozoaires (Giardia, Entamoeba, Trichomonas). Son activation dépend de nitroréductases propres aux organismes anaérobies ou microaérophiles.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Metronidazole (traduction non officielle) : « Le métronidazole, un nitroimidazolé, exerce des effets antibactériens en milieu anaérobie contre la plupart des anaérobies stricts. Une fois que le métronidazole a pénétré dans l'organisme par diffusion passive et a été activé dans le cytoplasme des bactéries anaérobies sensibles, il est réduit ; ce processus fait intervenir des donneurs intracellulaires de transport d'électrons tels que la ferrédoxine et le transfert d'un électron au groupement nitro du métronidazole, conduisant à la formation d'un radical libre nitroso de courte durée de vie. » Texte original en anglais : "Metronidazole, a nitroimidazole, exerts antibacterial effects in an anaerobic environment against most obligate anaerobes. Once metronidazole enters the organism by passive diffusion and activated in the cytoplasm of susceptible anaerobic bacteria, it is reduced; this process includes intra-cellular electron transport donors such as ferredoxin and transfer of an electron to the nitro group of the metronidazole leading to formation of a short-lived nitroso free radical." ([DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255), version du 2026-11-02 ; consulté le 2026-11-19). Sur la base des connaissances générales, le métronidazole est un nitro-imidazole actif contre les anaérobies et certains protozoaires (Giardia, Entamoeba, Trichomonas). Son activation dépend de nitroréductases propres aux organismes anaérobies ou microaérophiles.
 
 **Cette prédiction n'apparaît pas plausible sur le plan mécanistique.** *Pneumocystis jirovecii* est un champignon qui ne possède pas cette voie d'activation. Le score élevé du modèle reflète probablement une proximité dans le réseau de connaissances avec des médicaments antiparasitaires et anti-infectieux, et non une relation pharmacologique réelle. Le traitement de référence de la pneumocystose est le triméthoprime-sulfaméthoxazole.
 
@@ -142,11 +142,12 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: metronidazole prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49360d6f-c8b3-420e-af75-154cf7b05255) |
 
 <!-- review:end log -->
 

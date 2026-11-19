@@ -60,7 +60,7 @@ En revanche, **aucun essai clinique ni aucune publication** ne soutient actuelle
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le cétuximab est un anticorps qui bloque l'EGFR (récepteur du facteur de croissance épidermique). Son efficacité a été établie dans le cancer colorectal exprimant l'EGFR et dans les carcinomes épidermoïdes de la tête et du cou.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cetuximab (traduction non officielle) : « Le récepteur du facteur de croissance épidermique (EGFR, HER1, c-ErbB-1) est une glycoprotéine transmembranaire appartenant à une sous-famille de récepteurs à activité tyrosine kinase de type I comprenant EGFR, HER2, HER3 et HER4. L'EGFR est exprimé de façon constitutive dans de nombreux tissus épithéliaux normaux, notamment la peau et le follicule pileux. […] Le cétuximab se lie spécifiquement à l'EGFR sur les cellules normales et tumorales, et inhibe de manière compétitive la liaison du facteur de croissance épidermique (EGF) et d'autres ligands, tels que le facteur de croissance transformant alpha. » Texte original en anglais : "The epidermal growth factor receptor (EGFR, HER1, c-ErbB-1) is a transmembrane glycoprotein that is a member of a subfamily of type I receptor tyrosine kinases including EGFR, HER2, HER3, and HER4. The EGFR is constitutively expressed in many normal epithelial tissues, including the skin and hair follicle. […] Cetuximab binds specifically to the EGFR on both normal and tumor cells, and competitively inhibits the binding of epidermal growth factor (EGF) and other ligands, such as transforming growth factor-alpha." ([DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9), version du 2026-04-16 ; consulté le 2026-11-19). Sur la base des informations connues, le cétuximab est un anticorps qui bloque l'EGFR (récepteur du facteur de croissance épidermique). Son efficacité a été établie dans le cancer colorectal exprimant l'EGFR et dans les carcinomes épidermoïdes de la tête et du cou.
 
 Rien dans les données ne montre que la signalisation EGFR soit un moteur des carcinoïdes bronchiques pédiatriques. Le lien mécanistique n'est donc pas étayé, et la similarité avec l'indication d'origine n'a pas été évaluée.
 
@@ -163,12 +163,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Par ailleurs, la seule AMM française recensée est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Erbitux (cetuximab) prescribing information, ImClone LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8bc6397e-4bd8-4d37-a007-a327e4da34d9) |
 
 <!-- review:end log -->
 

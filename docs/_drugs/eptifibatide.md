@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rh
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, l'eptifibatide bloque le récepteur GPIIb/IIIa (intégrine αIIbβ3) des plaquettes et empêche leur agrégation. Cette action explique son utilité dans le syndrome coronarien aigu.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Eptifibatide (traduction non officielle) : « L'eptifibatide inhibe de manière réversible l'agrégation plaquettaire en empêchant la liaison du fibrinogène, du facteur von Willebrand et d'autres ligands adhésifs à la GP IIb/IIIa. Administré par voie intraveineuse, l'eptifibatide inhibe l'agrégation plaquettaire ex vivo de manière dose- et concentration-dépendante. » Texte original en anglais : "Eptifibatide reversibly inhibits platelet aggregation by preventing the binding of fibrinogen, von Willebrand factor, and other adhesive ligands to GP IIb/IIIa. When administered intravenously, eptifibatide inhibits ex vivo platelet aggregation in a dose- and concentration-dependent manner." ([DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764), version du 2026-10-02 ; consulté le 2026-11-19). D'après les connaissances générales, l'eptifibatide bloque le récepteur GPIIb/IIIa (intégrine αIIbβ3) des plaquettes et empêche leur agrégation. Cette action explique son utilité dans le syndrome coronarien aigu.
 
 Le lien avec la polyarthrite rhumatoïde reste **spéculatif**. L'inflammation d'origine plaquettaire et la signalisation des intégrines pourraient jouer un rôle dans l'inflammation synoviale, mais aucune donnée clinique ou bibliographique n'a été trouvée pour étayer cette hypothèse. La similarité entre l'indication d'origine (maladie cardiovasculaire thrombotique) et la nouvelle indication (maladie auto-immune articulaire) n'a pas pu être évaluée.
 
@@ -126,11 +126,12 @@ Le risque hémorragique inhérent à tout antiagrégant doit être pris en compt
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'eptifibatide n'a plus d'AMM valide en France, ce qui complique tout développement local » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764) |
 
 <!-- review:end log -->
 

@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ictère obstruct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, le lactulose est un disaccharide non absorbable qui acidifie le côlon et réduit l'ammoniémie, ce qui explique son efficacité dans l'encéphalopathie hépatique et la constipation.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lactulose (traduction non officielle) : « Le lactulose entraîne une diminution de la concentration sanguine d'ammoniac et réduit le degré d'encéphalopathie porto-systémique. Ces actions sont considérées comme résultant des éléments suivants : la dégradation bactérienne du lactulose dans le côlon acidifie le contenu colique. » Texte original en anglais : "Lactulose causes a decrease in blood ammonia concentration and reduces the degree of portalsystemic encephalopathy. These actions are considered to be results of the following: Bacterial degradation of lactulose in the colon acidifies the colonic contents." ([DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5), version du 2024-12-18 ; consulté le 2026-11-19). D'après les connaissances générales, le lactulose est un disaccharide non absorbable qui acidifie le côlon et réduit l'ammoniémie, ce qui explique son efficacité dans l'encéphalopathie hépatique et la constipation.
 
 Dans l'ictère obstructif, le mécanisme plausible est différent mais lié à la sphère hépato-digestive : le lactulose par voie orale pourrait réduire l'absorption des endotoxines d'origine intestinale, limiter la translocation bactérienne et améliorer la barrière intestinale. Cela pourrait atténuer les lésions rénales et hépatiques liées à l'endotoxémie, ainsi que la dysfonction rénale postopératoire.
 
@@ -126,11 +126,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-15 | « Clarifier le statut réglementaire (AMM annulées) » → « Clarifier le statut réglementaire (la plupart des  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Enulose (lactulose) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fa3aae7c-6f98-4fbb-85dc-32affe9874d5) |
 
 <!-- review:end log -->
 

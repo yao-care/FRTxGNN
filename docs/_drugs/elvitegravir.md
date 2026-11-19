@@ -56,7 +56,7 @@ avec **0 essai clinique** et **8 publications** précliniques (modèles animaux 
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, elvitegravir est un inhibiteur de l'intégrase du VIH-1 : il bloque l'étape de transfert de brin qui permet l'intégration de l'ADN viral dans le génome de la cellule hôte.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate (association contenant Elvitegravir) (traduction non officielle) : « STRIBILD est une association à dose fixe des médicaments antirétroviraux elvitégravir (potentialisé par l'inhibiteur du CYP3A cobicistat), emtricitabine et TDF. » Texte original en anglais : "STRIBILD is a fixed-dose combination of antiretroviral drugs elvitegravir (boosted by the CYP3A inhibitor cobicistat), emtricitabine, and TDF." ([DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee), version du 2025-02-04 ; consulté le 2026-11-19). D'après les informations connues, elvitegravir est un inhibiteur de l'intégrase du VIH-1 : il bloque l'étape de transfert de brin qui permet l'intégration de l'ADN viral dans le génome de la cellule hôte.
 
 Les intégrases du VIH-1 et du virus de l'immunodéficience simienne (SIV) sont proches, ce qui explique une activité croisée des INSTI. Les travaux précliniques montrent une sensibilité du SIVmac239 aux inhibiteurs d'intégrase, y compris l'elvitegravir, et des profils de résistance comparables à ceux du VIH.
 
@@ -108,6 +108,18 @@ Les preuves se limitent à des études précliniques (modèles de macaque SHIV e
 - Mises en garde et contre-indications issues de la notice (ANSM)
 - Définition d'une question de recherche translationnelle claire, car aucune indication humaine ne correspond à cette cible
 - Évaluation de la pertinence des modèles animaux (macaque, souris humanisée) par rapport à l'objectif visé
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Stribild (elvitegravir, cobicistat, emtricitabine, and tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74ae2a93-b267-444c-8f0f-a2a6522260ee) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

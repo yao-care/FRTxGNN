@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **déficit en cof
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, galcanezumab est un anticorps monoclonal dirigé contre le CGRP, dont l'efficacité dans la migraine passe par la voie trigémino-vasculaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Galcanezumab (traduction non officielle) : « Le galcanézumab-gnlm est un anticorps monoclonal humanisé qui se lie au ligand du peptide relié au gène de la calcitonine (CGRP) et bloque sa liaison au récepteur. » Texte original en anglais : "Galcanezumab-gnlm is a humanized monoclonal antibody that binds to calcitonin gene-related peptide (CGRP) ligand and blocks its binding to the receptor." ([DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0), version du 2026-06-05 ; consulté le 2026-11-19). Sur la base des informations connues, galcanezumab est un anticorps monoclonal dirigé contre le CGRP, dont l'efficacité dans la migraine passe par la voie trigémino-vasculaire.
 
 **Cette prédiction n'est pas étayée sur le plan mécanistique.** Le déficit en cofacteur II de l'héparine est une thrombophilie héréditaire, liée à une inhibition réduite de la thrombine par le cofacteur II de l'héparine (SERPIND1). La signalisation du CGRP n'est pas connue pour réguler ce cofacteur ni la cascade de coagulation.
 
@@ -95,6 +95,19 @@ Remarque : les données compilées pour ce rapport n'incluent aucune interaction
 - Une revue de la littérature et des registres d'essais, pour confirmer l'absence de signal
 - Une évaluation des similarités apprises par le modèle TxGNN (deep learning) entre thrombophilies, qui peuvent refléter des maladies apparentées plutôt qu'une preuve biologique, avant d'envisager toute étude
 - Une réévaluation des indications prédites alternatives, ayant une plausibilité biologique plus forte
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Emgality (galcanezumab-gnlm) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33a147be-233a-40e8-a55e-e40936e28db0) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

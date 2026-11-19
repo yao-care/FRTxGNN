@@ -56,7 +56,7 @@ avec **8 essais cliniques** et **20 publications** associés, dont une partie se
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche du médicament. D'après les connaissances pharmacologiques générales, la kétamine est un antagoniste des récepteurs NMDA du glutamate.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ketamine (traduction non officielle) : « KETALAR, un mélange racémique de kétamine, est un antagoniste non sélectif et non compétitif du récepteur N-méthyl-D-aspartate (NMDA), un récepteur ionotrope du glutamate. Le principal métabolite circulant de la kétamine (norkétamine) a présenté une activité sur le même récepteur avec une affinité moindre. » Texte original en anglais : "KETALAR, a racemic mixture of ketamine, is a non-selective, non-competitive antagonist of the N-methyl-D-aspartate (NMDA) receptor, an ionotropic glutamate receptor. The major circulating metabolite of ketamine (norketamine) demonstrated activity at the same receptor with less affinity." ([DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063), version du 2026-03-27 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la kétamine est un antagoniste des récepteurs NMDA du glutamate.
 
 La signalisation glutamatergique médiée par les récepteurs NMDA contribue à la sensibilisation centrale, à la nociception trigémino-vasculaire et à la dépression corticale envahissante, mécanismes impliqués dans la migraine, l'algie vasculaire de la face et d'autres céphalées chroniques. Bloquer ces récepteurs pourrait réduire l'amplification de la douleur (phénomène de « wind-up »).
 
@@ -135,12 +135,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées et les données de sécurité issues de la notice manquent (lacune bloquante), ce qui empêche  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ketalar (ketamine hydrochloride) prescribing information, Par Health USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=14e8f864-8b8a-4e7e-8439-e510d3107063) |
 
 <!-- review:end log -->
 

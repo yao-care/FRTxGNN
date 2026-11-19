@@ -56,7 +56,7 @@ Aucun **essai clinique** n'est enregistré pour ces indications ; la littératur
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances de la littérature, le diazoxide ouvre les canaux potassiques sensibles à l'ATP (KATP). Dans le pancréas, cela supprime la libération d'insuline, d'où son usage dans l'hyperinsulinisme.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Diazoxide (traduction non officielle) : « PROGLYCEM produit une augmentation dose-dépendante de la glycémie, due principalement à une inhibition de la libération d'insuline par le pancréas, ainsi qu'à un effet extrapancréatique. L'effet hyperglycémiant de PROGLYCEM commence dans l'heure et ne dure généralement pas plus de 8 heures en présence d'une fonction rénale normale. » Texte original en anglais : "PROGLYCEM produces a dose-related increase in blood glucose, due primarily to an inhibition of insulin release from the pancreas, and also to an extrapancreatic effect. The hyperglycemic effect of PROGLYCEM begins within an hour and generally lasts no more than 8 hours in the presence of normal renal function." ([DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2), version du 2026-10-06 ; consulté le 2026-11-19). D'après les connaissances de la littérature, le diazoxide ouvre les canaux potassiques sensibles à l'ATP (KATP). Dans le pancréas, cela supprime la libération d'insuline, d'où son usage dans l'hyperinsulinisme.
 
 La prédiction pour les affections capillaires s'explique très probablement par un effet indésirable connu : l'hypertrichose. Comme le minoxidil, le diazoxide agit sur les canaux KATP des follicules pileux. Chez le macaque à queue courte, modèle préclinique standard de l'alopécie, l'application topique de diazoxide a stimulé la repousse sur le cuir chevelu dégarni (PMID 2085505). Il s'agit d'un soutien indirect et préclinique.
 
@@ -124,11 +124,12 @@ Publications relatives à l'hypertrichose (indication prédite en rang 7), qui m
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Proglycem (diazoxide) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b16c7832-2fd9-49af-b923-1dc0d91fd6e2) |
 
 <!-- review:end log -->
 

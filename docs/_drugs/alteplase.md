@@ -54,7 +54,7 @@ L'altéplase est un thrombolytique, un activateur tissulaire du plasminogène re
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'altéplase convertit le plasminogène en plasmine, ce qui dégrade la fibrine des caillots. Cette action est pertinente dans les situations de thrombose aiguë.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alteplase (traduction non officielle) : « L'altéplase est une enzyme (sérine protéase) qui possède la propriété de convertir le plasminogène en plasmine, cette conversion étant renforcée par la fibrine. Elle ne produit qu'une conversion limitée du plasminogène en l'absence de fibrine. L'altéplase se lie à la fibrine d'un thrombus et convertit le plasminogène piégé en plasmine, déclenchant ainsi une fibrinolyse locale. » Texte original en anglais : "Alteplase is an enzyme (serine protease) that has the property of fibrin-enhanced conversion of plasminogen to plasmin. It produces limited conversion of plasminogen in the absence of fibrin. Alteplase binds to fibrin in a thrombus and converts the entrapped plasminogen to plasmin, thereby initiating local fibrinolysis." ([DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9), version du 2026-01-20 ; consulté le 2026-11-19). D'après les connaissances générales, l'altéplase convertit le plasminogène en plasmine, ce qui dégrade la fibrine des caillots. Cette action est pertinente dans les situations de thrombose aiguë.
 
 Le déficit en cofacteur II de l'héparine est une thrombophilie héréditaire, c'est-à-dire une prédisposition à former des caillots. L'altéplase pourrait en principe dissoudre un thrombus aigu survenant dans ce contexte. Elle traiterait alors l'événement thrombotique, et non le déficit sous-jacent, qu'elle ne corrige pas.
 
@@ -97,6 +97,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice, car
 - Les mises en garde et contre-indications de la notice ANSM, qui sont actuellement manquantes.
 - Les données détaillées sur le mécanisme d'action.
 - Une évaluation du rapport bénéfice/risque hémorragique dans cette population.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cathflo Activase (alteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=91ecdef2-95ff-42dd-a31c-c8a09cab3ad9) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -59,7 +59,7 @@ Le modèle TxGNN prédit en premier rang la **pseudo-maladie de von Willebrand**
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le défibrotide protège les cellules endothéliales, réduit leur activation pro-inflammatoire et prothrombotique, et augmente l'activité fibrinolytique (hausse du tPA, baisse du PAI-1).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Defibrotide (traduction non officielle) : « Le mécanisme d'action du défibrotide sodique n'a pas été entièrement élucidé. In vitro, le défibrotide sodique renforce l'activité enzymatique de la plasmine permettant d'hydrolyser les caillots de fibrine. Les études évaluant les effets pharmacologiques du défibrotide sodique sur les cellules endothéliales (CE) ont été menées principalement sur la lignée de cellules endothéliales microvasculaires humaines. » Texte original en anglais : "The mechanism of action of defibrotide sodium has not been fully elucidated. In vitro, defibrotide sodium enhances the enzymatic activity of plasmin to hydrolyze fibrin clots. Studies evaluating the pharmacological effects of defibrotide sodium on endothelial cells (ECs) were conducted primarily in the human microvascular endothelial cell line." ([DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec), version du 2025-07-01 ; consulté le 2026-11-19). D'après les connaissances générales, le défibrotide protège les cellules endothéliales, réduit leur activation pro-inflammatoire et prothrombotique, et augmente l'activité fibrinolytique (hausse du tPA, baisse du PAI-1).
 
 **Prédiction de rang 1 (pseudo-maladie de von Willebrand) :** aucun essai ni publication n'a été trouvé. Le lien avec l'hyperadhésion plaquettaire GPIb-VWF est spéculatif. Il s'agit en outre d'un trouble hémorragique plaquettaire, peu compatible avec un agent susceptible d'augmenter le risque hémorragique. Les autres prédictions de score élevé (défaut de sécrétion plaquettaire, thrombasthénie de Glanzmann, syndrome de Scott, déficit en récepteur du collagène, thrombopénie constitutionnelle, déficit congénital en facteur V, thrombopénie alloimmune fœto-néonatale) présentent le même profil : prédiction seule, sans preuve, avec une incohérence mécanistique et un risque hémorragique.
 
@@ -139,12 +139,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Defitelio (defibrotide sodium) prescribing information, Jazz Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2c3db989-d7ad-41ed-9ebf-698dcf6c24ec) |
 
 <!-- review:end log -->
 

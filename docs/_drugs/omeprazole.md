@@ -54,7 +54,7 @@ L'oméprazole est un inhibiteur de la pompe à protons, initialement utilisé po
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'oméprazole fait partie de la classe des inhibiteurs de la pompe à protons : il réduit la sécrétion d'acide gastrique et son efficacité dans le reflux gastro-œsophagien et les ulcères est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Omeprazole (traduction non officielle) : « L'oméprazole appartient à une classe de composés antisécrétoires, les benzimidazoles substitués, qui suppriment la sécrétion d'acide gastrique par inhibition spécifique du système enzymatique H + /K + ATPase au niveau de la surface sécrétoire de la cellule pariétale gastrique. Ce système enzymatique étant considéré comme la pompe à acide (à protons) de la muqueuse gastrique, l'oméprazole a été caractérisé comme un inhibiteur de la pompe à acide gastrique, en ce qu'il bloque l'étape finale de la production d'acide. » Texte original en anglais : "Omeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H + /K + ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the gastric mucosa, omeprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179), version du 2024-03-19 ; consulté le 2026-11-19). Sur la base des informations connues, l'oméprazole fait partie de la classe des inhibiteurs de la pompe à protons : il réduit la sécrétion d'acide gastrique et son efficacité dans le reflux gastro-œsophagien et les ulcères est établie.
 
 Le reflux duodéno-gastrique est toutefois dû à la remontée de bile et de sécrétions pancréatiques dans l'estomac. La suppression de l'acide ne traite donc pas la cause principale. L'oméprazole pourrait au mieux soulager les symptômes en réduisant la composante acide de la lésion muqueuse. De petites études cliniques rapportent un effet sur le reflux biliaire dans l'œsophage de Barrett et chez l'enfant.
 
@@ -137,12 +137,13 @@ L'obstruction duodénale (score TxGNN 0,9964) est classée au niveau **L5** avec
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « (AMM annulées vs produits réellement disponibles) » → « (AMM actives ou abrogées vs produits réellement co » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Prilosec (omeprazole magnesium) prescribing information, Covis Pharma US, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6761f84-53ac-4745-a8c8-1e5427d7e179) |
 
 <!-- review:end log -->
 

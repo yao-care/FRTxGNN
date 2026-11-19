@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'hy
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la ceftriaxone agit en inhibant la synthèse de la paroi bactérienne par liaison aux protéines de liaison à la pénicilline (PBP).
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ceftriaxone (traduction non officielle) : « La ceftriaxone est un médicament antibactérien. […] La ceftriaxone est un agent bactéricide qui agit par inhibition de la synthèse de la paroi cellulaire bactérienne. La ceftriaxone est active en présence de certaines bêta-lactamases, à la fois des pénicillinases et des céphalosporinases, de bactéries à Gram négatif et à Gram positif. » Texte original en anglais : "Ceftriaxone is an antibacterial drug. […] Ceftriaxone is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Ceftriaxone has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467), version du 2022-01-13 ; consulté le 2026-11-19). D'après les connaissances générales, la ceftriaxone agit en inhibant la synthèse de la paroi bactérienne par liaison aux protéines de liaison à la pénicilline (PBP).
 
 L'hyperviscosité polyclonale est un trouble hématologique et immunologique lié à une élévation des immunoglobulines. Le mécanisme antibactérien de la ceftriaxone ne cible pas cette condition, et aucun lien mécanistique plausible n'a été identifié. Le score élevé du modèle reflète une association statistique issue du modèle, sans support expérimental ou clinique.
 
@@ -100,6 +100,18 @@ Aucune étude clinique ni publication n'étudie la ceftriaxone dans le syndrome 
 - Des données précliniques ou des études de cas pertinentes
 - Les données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications issues de la notice officielle
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ceftriaxone And Dextrose (ceftriaxone) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67153914-16bc-490d-82d7-638061618467) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

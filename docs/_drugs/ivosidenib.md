@@ -59,7 +59,7 @@ Le modèle TxGNN (apprentissage profond) prédit qu'il pourrait être efficace p
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, l'ivosidénib inhibe l'isocitrate déshydrogénase 1 (IDH1) mutée. Il réduit l'oncométabolite 2-hydroxyglutarate (2-HG) et lève le blocage de différenciation observé dans les hémopathies myéloïdes porteuses d'une mutation IDH1.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ivosidenib (traduction non officielle) : « L'ivosidénib est un inhibiteur de petite molécule qui cible l'enzyme isocitrate déshydrogénase 1 (IDH1) mutante. Chez les patients atteints de LAM, les mutations sensibles d'IDH1 sont définies comme celles entraînant des taux accrus de 2-hydroxyglutarate (2-HG) dans les cellules leucémiques et pour lesquelles l'efficacité est prédite par 1) des rémissions cliniquement significatives à la dose recommandée d'ivosidénib et/ou 2) une inhibition de l'activité enzymatique d'IDH1 mutante à des concentrations d'ivosidénib pouvant être maintenues à la posologie recommandée selon des méthodes validées. » Texte original en anglais : "Ivosidenib is a small molecule inhibitor that targets the mutant isocitrate dehydrogenase 1 (IDH1) enzyme. In patients with AML, susceptible IDH1 mutations are defined as those leading to increased levels of 2-hydroxyglutarate (2-HG) in the leukemia cells and where efficacy is predicted by 1) clinically meaningful remissions with the recommended dose of ivosidenib and/or 2) inhibition of mutant IDH1 enzymatic activity at concentrations of ivosidenib sustainable at the recommended dosage according to validated methods." ([DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d), version du 2025-12-22 ; consulté le 2026-11-19). Sur la base des connaissances générales, l'ivosidénib inhibe l'isocitrate déshydrogénase 1 (IDH1) mutée. Il réduit l'oncométabolite 2-hydroxyglutarate (2-HG) et lève le blocage de différenciation observé dans les hémopathies myéloïdes porteuses d'une mutation IDH1.
 
 La poliomyélite bulbaire est une infection virale des motoneurones causée par le poliovirus. Elle ne dépend ni d'une mutation d'IDH1 ni de la signalisation par le 2-HG. **Aucun lien mécanistique plausible n'a été identifié** entre l'indication d'origine et cette nouvelle indication. Le score TxGNN très élevé (0,9931) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une justification biologique.
 
@@ -159,12 +159,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 63239234 (TIBSOVO 250 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Cette prédiction recoupe en grande partie l'indication déjà connue de la kér
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, imiquimod est un agoniste du récepteur Toll-like 7 (TLR7). Il stimule les réponses immunitaires innées et adaptatives locales (interféron alpha, TNF-alpha, IL-12), ce qui permet d'éliminer l'épithélium dysplasique et les cellules infectées par le HPV.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Imiquimod (traduction non officielle) : « Le mécanisme d'action de ZYCLARA dans le traitement de la KA et des VGE est inconnu. » Texte original en anglais : "The mechanism of action of ZYCLARA in the treatment of AK and EGW is unknown." ([DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d), version du 2025-05-23 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, imiquimod est un agoniste du récepteur Toll-like 7 (TLR7). Il stimule les réponses immunitaires innées et adaptatives locales (interféron alpha, TNF-alpha, IL-12), ce qui permet d'éliminer l'épithélium dysplasique et les cellules infectées par le HPV.
 
 Les indications d'origine (kératose actinique, carcinome basocellulaire superficiel, lésions liées au HPV) sont des lésions épithéliales prémalignes ou malignes de faible grade. La catégorie « néoplasme prémalin » englobe ces situations, notamment la kératose actinique, lésion prémaligne typique. Des revues soutiennent aussi son usage dans les néoplasies intraépithéliales anales, vulvaires et cervicales.
 
@@ -144,11 +144,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM françaises sont annulées : aucune spécialité n'est actuellement commercialisée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zyclara (imiquimod) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=28cd9b5b-680b-480f-b33d-9c5b52bbf03d) |
 
 <!-- review:end log -->
 

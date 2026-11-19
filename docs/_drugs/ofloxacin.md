@@ -58,7 +58,7 @@ Le modèle TxGNN lui attribue un score très élevé pour plusieurs nouvelles in
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'ofloxacine est une fluoroquinolone qui inhibe l'ADN gyrase et la topoisomérase IV bactériennes, ce qui bloque la réplication de l'ADN des bactéries sensibles.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ofloxacin (traduction non officielle) : « L'ofloxacine exerce son activité antibactérienne en inhibant l'ADN gyrase, une topoisomérase bactérienne. L'ADN gyrase est une enzyme essentielle qui contrôle la topologie de l'ADN et participe à la réplication, à la réparation, à la désactivation et à la transcription de l'ADN. » Texte original en anglais : "Ofloxacin exerts its antibacterial activity by inhibiting DNA gyrase, a bacterial topoisomerase. DNA gyrase is an essential enzyme which controls DNA topology and assists in DNA replication, repair, deactivation, and transcription." ([DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de), version du 2026-10-23 ; consulté le 2026-11-19). D'après les connaissances générales, l'ofloxacine est une fluoroquinolone qui inhibe l'ADN gyrase et la topoisomérase IV bactériennes, ce qui bloque la réplication de l'ADN des bactéries sensibles.
 
 **Prédiction de rang 1 (hyperviscosité polyclonale).** Aucun lien mécanistique plausible n'existe : cette affection est due à un excès d'immunoglobulines, sur lequel l'ofloxacine n'a aucun effet connu. Il en va de même pour l'hyperamylasémie, l'analbuminémie congénitale, l'incompatibilité de groupe sanguin, les maladies hématologiques prémalignes ou congénitales et la gammapathie monoclonale. La neuropathie périphérique acquise associée à une maladie hématologique est même contraire au profil de l'ofloxacine, car les fluoroquinolones peuvent provoquer des neuropathies périphériques.
 
@@ -135,11 +135,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 19 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ofloxacin Otic (ofloxacin) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=42366170-e536-46a1-9735-d76e5820a9de) |
 
 <!-- review:end log -->
 

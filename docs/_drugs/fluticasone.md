@@ -60,7 +60,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine**, ave
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, la fluticasone est un glucocorticoïde à action anti-inflammatoire locale, administré par voie nasale, inhalée ou cutanée. Les données compilées ne permettent pas d'en tirer une indication d'origine officielle.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fluticasone (traduction non officielle) : « Le propionate de fluticasone est un corticostéroïde trifluoré de synthèse doté d'une activité anti-inflammatoire. Il a été démontré in vitro que le propionate de fluticasone présente une affinité de liaison pour le récepteur humain des glucocorticoïdes 18 fois supérieure à celle de la dexaméthasone, presque deux fois supérieure à celle du 17-monopropionate de béclométasone (BMP), le métabolite actif du dipropionate de béclométasone, et plus de 3 fois supérieure à celle du budésonide. » Texte original en anglais : "Fluticasone propionate is a synthetic trifluorinated corticosteroid with anti-inflammatory activity. Fluticasone propionate has been shown in vitro to exhibit a binding affinity for the human glucocorticoid receptor that is 18 times that of dexamethasone, almost twice that of beclomethasone-17-monopropionate (BMP), the active metabolite of beclomethasone dipropionate, and over 3 times that of budesonide." ([DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2), version du 2026-10-23 ; consulté le 2026-11-19). D'après les connaissances générales, la fluticasone est un glucocorticoïde à action anti-inflammatoire locale, administré par voie nasale, inhalée ou cutanée. Les données compilées ne permettent pas d'en tirer une indication d'origine officielle.
 
 Un lien hypothétique existe : l'inflammation neurogène participe à la physiopathologie de la migraine, et un anti-inflammatoire pourrait théoriquement agir sur ce processus. Il s'agit toutefois d'une **hypothèse spéculative** : aucun mécanisme crédible n'est établi.
 
@@ -139,12 +139,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Clarification du statut réglementaire actuel (AMM  » → « Clarification du statut réglementaire actuel (la p » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xhance (fluticasone propionate) prescribing information, Paratek Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=44fcea33-8cfa-3a5c-e063-6394a90aafb2) |
 
 <!-- review:end log -->
 

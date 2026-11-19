@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **dermatite**, av
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Selon l'analyse mécanistique disponible, ustékinumab bloque la sous-unité p40 commune à l'IL-12 et à l'IL-23, ce qui inhibe les voies Th1 et Th17. Ces voies sont impliquées dans le psoriasis, indication d'origine du médicament.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ustekinumab (traduction non officielle) : « Les produits à base d'ustékinumab sont des anticorps monoclonaux IgG1κ humains qui se lient de manière spécifique à la sous-unité protéique p40 utilisée à la fois par les cytokines IL-12 et IL-23. L'IL-12 et l'IL-23 sont des cytokines naturelles impliquées dans les réponses inflammatoires et immunitaires, telles que l'activation des cellules tueuses naturelles et la différenciation et l'activation des lymphocytes T CD4+. » Texte original en anglais : "Ustekinumab products are human IgG1κ monoclonal antibodies that bind with specificity to the p40 protein subunit used by both the IL-12 and IL-23 cytokines. IL-12 and IL-23 are naturally occurring cytokines that are involved in inflammatory and immune responses, such as natural killer cell activation and CD4+ T-cell differentiation and activation." ([DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7), version du 2026-11-11 ; consulté le 2026-11-19). Selon l'analyse mécanistique disponible, ustékinumab bloque la sous-unité p40 commune à l'IL-12 et à l'IL-23, ce qui inhibe les voies Th1 et Th17. Ces voies sont impliquées dans le psoriasis, indication d'origine du médicament.
 
 Ces mêmes voies contribuent à l'inflammation dans plusieurs sous-types de dermatite, notamment la dermatite atopique chronique. L'adéquation mécanistique reste toutefois **partielle** : la dermatite atopique est surtout dominée par la voie Th2 (IL-4/IL-13), ce qui pourrait expliquer l'efficacité limitée observée dans les essais.
 
@@ -126,13 +126,14 @@ Deux essais de phase 2 testent directement ustékinumab dans la dermatite atopiq
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |
 
 <!-- review:end log -->
 

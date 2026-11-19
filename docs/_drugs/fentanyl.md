@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le fentanyl est un agoniste puissant des récepteurs opioïdes mu, utilisé en analgésie. Son efficacité dans la douleur n'est pas documentée ici par un texte d'indication d'AMM.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fentanyl (traduction non officielle) : « Le citrate de fentanyl injectable est un agoniste opioïde dont les principales actions d'intérêt thérapeutique sont l'analgésie et la sédation. » Texte original en anglais : "Fentanyl Citrate Injection is an opioid agonist, whose principal actions of therapeutic value are analgesia and sedation." ([DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11), version du 2026-10-23 ; consulté le 2026-11-19). Sur la base des connaissances générales, le fentanyl est un agoniste puissant des récepteurs opioïdes mu, utilisé en analgésie. Son efficacité dans la douleur n'est pas documentée ici par un texte d'indication d'AMM.
 
 **La prédiction apparaît peu plausible.** Le syndrome néphrogénique d'antidiurèse inappropriée est dû à des mutations gain de fonction du récepteur V2 de la vasopressine (AVPR2), cible sur laquelle le fentanyl n'a aucune action connue. Par ailleurs, les opioïdes peuvent stimuler la libération d'ADH et provoquer une antidiurèse, ce qui aggraverait la maladie au lieu de la traiter.
 
@@ -104,6 +104,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les données sur le mécanisme d'action issues de DrugBank.
 - Une justification mécanistique plausible reliant le fentanyl à la voie AVPR2/vasopressine, ou l'abandon de cette piste.
 - Toute preuve préclinique ou clinique pour l'une ou l'autre des indications prédites.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: fentanyl citrate prescribing information, Phlow Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=58dcd3f7-e3d8-4929-a186-8f680a51ff11) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

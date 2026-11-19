@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **tachycardie v
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la propafénone fait partie des antiarythmiques de classe IC (bloqueurs des canaux sodiques) et son efficacité dans les arythmies supraventriculaires et ventriculaires est établie. Elle possède aussi une activité bêtabloquante légère.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Propafenone (traduction non officielle) : « La propafénone est un médicament antiarythmique de classe 1C doté d'effets anesthésiques locaux et d'une action stabilisatrice directe sur les membranes myocardiques. L'effet électrophysiologique de la propafénone se manifeste par une réduction de la vitesse de montée (phase 0) du potentiel d'action monophasique. » Texte original en anglais : "Propafenone is a Class 1C antiarrhythmic drug with local anesthetic effects, and a direct stabilizing action on myocardial membranes. The electrophysiological effect of propafenone manifests itself in a reduction of upstroke velocity (Phase 0) of the monophasic action potential." ([DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42), version du 2026-06-04 ; consulté le 2026-11-19). Sur la base des informations connues, la propafénone fait partie des antiarythmiques de classe IC (bloqueurs des canaux sodiques) et son efficacité dans les arythmies supraventriculaires et ventriculaires est établie. Elle possède aussi une activité bêtabloquante légère.
 
 La TVPC est une canalopathie cardiaque héréditaire rare, liée le plus souvent à des mutations du récepteur de la ryanodine de type 2 (RyR2) ou de la calséquestrine, qui provoquent des fuites de calcium et des arythmies ventriculaires lors d'un stress adrénergique. Des études précliniques (PMID 21270101, 21798265, 26121139) montrent que la propafénone, comme la flécaïnide, inhibe les canaux RyR2 et supprime les ondes calciques arythmogènes. Cette inhibition de RyR2 contribuerait à l'efficacité des antiarythmiques de classe I dans la TVPC. Un rapport de cas décrit en outre 35 ans de traitement efficace par propafénone (PMID 30820400).
 
@@ -152,13 +152,14 @@ Les données de la notice (mises en garde, contre-indications) ne sont pas dispo
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a propafénone n'est plus commercialisée en France (AMM annulée), et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les contre-indications cardiaques (QT long, cardiopathie structurelle, cardiopathie ischémique), ainsi que la faisabilité d'un accès au m » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 66843923 (RYTHMOL 300 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->
 

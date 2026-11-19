@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le lédipasvir inhibe la protéine NS5A du VHC, indispensable à la réplication virale et à l'assemblage des virions. Il est utilisé en association avec le sofosbuvir, un inhibiteur de la polymérase NS5B.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ledipasvir est (traduction non officielle) : « Inhibiteur de la protéine non structurale 5A » Texte original en anglais : "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, le lédipasvir inhibe la protéine NS5A du VHC, indispensable à la réplication virale et à l'assemblage des virions. Il est utilisé en association avec le sofosbuvir, un inhibiteur de la polymérase NS5B.
 
 Le VHB et le VHC sont tous deux des virus hépatotropes, fréquemment co-présents chez les mêmes patients. Cette proximité clinique et épidémiologique explique sans doute en partie le score élevé du modèle. Sur le plan mécanistique, en revanche, le lien est faible : le VHB ne possède pas d'homologue connu de NS5A. Un éventuel effet anti-VHB ne s'expliquerait donc pas par le mécanisme d'origine.
 
@@ -135,13 +135,14 @@ Une étude de phase 2 chez des patients monoinfectés par le VHB (publication de
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM active en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « puisque l'unique AMM est abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 64426906 (HARVONI 90 mg/400 mg) est active, non abrogée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->
 

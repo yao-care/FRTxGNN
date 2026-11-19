@@ -54,7 +54,7 @@ Le calcifédiol (25-hydroxyvitamine D3) est le précurseur circulant direct du c
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le calcifédiol est la forme 25-hydroxylée de la vitamine D3, l'intermédiaire circulant qui est ensuite converti en calcitriol, la forme active. C'est aussi le marqueur biologique standard utilisé pour évaluer le statut en vitamine D.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Calcifediol (traduction non officielle) : « Le calcifédiol (25-hydroxyvitamine D 3 ) est une prohormone de la forme active de la vitamine D 3, le calcitriol (1,25‑dihydroxyvitamine D 3 ). Le calcifédiol est converti en calcitriol par le cytochrome P450 27B1 (CYP27B1), également appelé 1-alpha hydroxylase, principalement dans le rein. » Texte original en anglais : "Calcifediol (25-hydroxyvitamin D 3 ) is a prohormone of the active form of vitamin D 3, calcitriol (1,25‑dihydroxyvitamin D 3 ). Calcifediol is converted to calcitriol by cytochrome P450 27B1 (CYP27B1), also called 1-alpha hydroxylase, primarily in the kidney." ([DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77), version du 2024-01-19 ; consulté le 2026-11-19). Sur la base des informations connues, le calcifédiol est la forme 25-hydroxylée de la vitamine D3, l'intermédiaire circulant qui est ensuite converti en calcitriol, la forme active. C'est aussi le marqueur biologique standard utilisé pour évaluer le statut en vitamine D.
 
 Cette position dans la voie métabolique rend le lien biologique avec une carence en vitamine D très plausible.
 
@@ -97,6 +97,19 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5) :
 - Obtenir les données sur le mécanisme d'action
 - Récupérer les mises en garde et contre-indications de la notice officielle (ANSM)
 - Examiner la compatibilité des voies d'administration et le risque d'hypercalcémie lié aux interactions majeures
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Rayaldee (calcifediol) prescribing information, OPKO Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6a95effd-32a5-46b6-a30e-7f4f9bf8cc77) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

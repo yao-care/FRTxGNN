@@ -60,7 +60,7 @@ Cette direction repose sur **2 essais cliniques** et **1 publication**, mais auc
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales sur cet antibiotique, la fosfomycine inhibe MurA, une enzyme impliquée dans la synthèse de la paroi bactérienne. Elle est active sur de nombreuses bactéries à Gram négatif et à Gram positif. Ce mécanisme explique qu'elle soit utilisée contre les bactéries responsables d'infections urinaires.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fosfomycin (traduction non officielle) : « CONTEPO est un médicament antibactérien. […] La fosfomycine est un médicament antibactérien de type époxyde qui perturbe la synthèse de la paroi cellulaire bactérienne en se liant de manière covalente à la phosphoénolpyruvate transférase (MurA) et en l'inhibant, bloquant ainsi la synthèse du peptidoglycane. La fosfomycine est bactéricide contre les Enterobacterales. » Texte original en anglais : "CONTEPO is an antibacterial drug. […] Fosfomycin is an epoxide antibacterial drug that disrupts bacterial cell wall synthesis by covalently binding and inhibiting phosphoenolpyruvate transferase (MurA), thereby blocking the synthesis of peptidoglycan. Fosfomycin is bactericidal against Enterobacterales." ([DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94), version du 2025-11-04 ; consulté le 2026-11-19). D'après les connaissances générales sur cet antibiotique, la fosfomycine inhibe MurA, une enzyme impliquée dans la synthèse de la paroi bactérienne. Elle est active sur de nombreuses bactéries à Gram négatif et à Gram positif. Ce mécanisme explique qu'elle soit utilisée contre les bactéries responsables d'infections urinaires.
 
 Une inflammation de l'utérus d'origine bactérienne (infection du tractus génital) pourrait théoriquement relever d'un antibiotique à large spectre. Le lien avec l'infection urinaire est donc plausible, car des germes communs peuvent être en cause. Il reste toutefois indirect.
 
@@ -123,6 +123,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Des données détaillées sur le mécanisme d'action et sur les mises en garde et contre-indications de la notice.
 - Une évaluation de la voie d'administration adaptée (orale ou intraveineuse).
 - Une priorité à donner à des candidates mieux étayées pour ce médicament, comme la pyélite, plus proche de l'usage connu en infection urinaire et appuyée par des essais sur la fosfomycine injectable dans les infections urinaires compliquées.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Contepo (fosfomycin disodium) prescribing information, Meitheal Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=855574f2-39f8-43bc-a3d2-79dbb578cb94) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

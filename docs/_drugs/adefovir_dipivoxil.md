@@ -60,7 +60,7 @@ Les données compilées pour ce rapport montrent en revanche que d'autres indica
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, l'adéfovir est un analogue nucléotidique acyclique : il est converti en diphosphate d'adéfovir, qui inhibe l'ADN polymérase / transcriptase inverse virale en entraînant l'arrêt de la chaîne d'élongation. C'est ce mécanisme qui sous-tend son efficacité dans l'hépatite B.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Adefovir Dipivoxil (traduction non officielle) : « L'adéfovir est un médicament antiviral. […] L'adéfovir est un analogue nucléotidique acyclique de l'adénosine monophosphate, qui est phosphorylé par des kinases cellulaires en métabolite actif, l'adéfovir diphosphate. L'adéfovir diphosphate inhibe l'ADN polymérase (transcriptase inverse) du VHB en entrant en compétition avec le substrat naturel, la désoxyadénosine triphosphate, et en provoquant l'arrêt de l'élongation de la chaîne d'ADN après son incorporation dans l'ADN viral. » Texte original en anglais : "Adefovir is an antiviral drug. […] Adefovir is an acyclic nucleotide analog of adenosine monophosphate which is phosphorylated to the active metabolite adefovir diphosphate by cellular kinases. Adefovir diphosphate inhibits HBV DNA polymerase (reverse transcriptase) by competing with the natural substrate deoxyadenosine triphosphate and by causing DNA chain termination after its incorporation into viral DNA." ([DailyMed: adefovir dipivoxil prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08e07fae-3191-b6a3-c894-d3a8cc53923f), version du 2025-07-22 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, l'adéfovir est un analogue nucléotidique acyclique : il est converti en diphosphate d'adéfovir, qui inhibe l'ADN polymérase / transcriptase inverse virale en entraînant l'arrêt de la chaîne d'élongation. C'est ce mécanisme qui sous-tend son efficacité dans l'hépatite B.
 
 Pour l'hépatite C, le lien mécanistique est **faible**. Le VHC est un virus à ARN dont la réplication dépend de l'ARN polymérase ARN-dépendante NS5B, une cible différente de celle de l'adéfovir. Le score élevé de TxGNN (0.9997) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées (les deux maladies sont des hépatites virales), et non une preuve biologique ou clinique. Par ailleurs, les antiviraux à action directe actuels rendent un repositionnement peu justifié.
 
@@ -118,6 +118,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Démontrer une activité anti-VHC par des données précliniques (in vitro) avant toute étude clinique.
 - Si une piste de repositionnement doit être explorée, privilégier l'indication VIH (L2), en tenant compte de la néphrotoxicité et de la supériorité du ténofovir.
 - Vérifier la disponibilité réelle du médicament en France, son statut étant « non commercialisé ».
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: adefovir dipivoxil prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=08e07fae-3191-b6a3-c894-d3a8cc53923f) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

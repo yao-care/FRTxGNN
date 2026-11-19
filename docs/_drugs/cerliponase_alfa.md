@@ -56,7 +56,7 @@ Cette prédiction repose uniquement sur le modèle, et son lien biologique est j
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, cerliponase alfa est une enzymothérapie substitutive qui remplace la TPP1, enzyme lysosomale déficiente dans la forme CLN2 de la lipofuscinose neuronale céroïde.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cerliponase Alfa (traduction non officielle) : « La maladie CLN2 est une maladie neurodégénérative causée par un déficit en enzyme lysosomale tripeptidyl peptidase-1 (TPP1), qui catabolise les polypeptides dans le SNC. Aucune spécificité de substrat n'est connue pour la TPP1. […] La cerliponase alfa (rhTTP1), une proenzyme, est captée par les cellules cibles du SNC et transloquée vers les lysosomes par l'intermédiaire du récepteur du mannose-6-phosphate cation-indépendant (CI-MPR, également appelé récepteur M6P/IGF2). » Texte original en anglais : "CLN2 disease is a neurodegenerative disease caused by deficiency of the lysosomal enzyme tripeptidyl peptidase-1 (TPP1), which catabolizes polypeptides in the CNS. TPP1 has no known substrate specificity. […] Cerliponase alfa (rhTTP1), a proenzyme, is taken up by target cells in the CNS and is translocated to the lysosomes through the Cation Independent Mannose-6-Phosphate Receptor (CI-MPR, also known as M6P/IGF2 receptor)." ([DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047), version du 2024-08-05 ; consulté le 2026-11-19). Sur la base des informations connues, cerliponase alfa est une enzymothérapie substitutive qui remplace la TPP1, enzyme lysosomale déficiente dans la forme CLN2 de la lipofuscinose neuronale céroïde.
 
 Le syndrome de Scheie (forme atténuée de la mucopolysaccharidose de type I) est lui aussi une maladie de surcharge lysosomale, mais il est dû à un déficit en alpha-L-iduronidase, une enzyme différente, avec accumulation de glycosaminoglycanes. La TPP1 n'agit pas sur ce substrat, et aucun recoupement mécanistique direct n'est établi.
 
@@ -107,11 +107,12 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e seul produit autorisé en France (Brineura) a une AMM annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Brineura (cerliponase alfa) prescribing information, BioMarin Pharmaceutical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=485ab3c5-0359-4878-872f-2fe1e7df4047) |
 
 <!-- review:end log -->
 

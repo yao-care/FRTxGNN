@@ -56,7 +56,7 @@ avec **3 essais cliniques** (dont 2 directement pertinents) et **20 publications
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, l'oxaliplatine est un agent alkylant de la famille des platines : il forme des adduits à l'ADN, ce qui inhibe la synthèse et la réparation de l'ADN. Son efficacité dans le cancer colorectal est établie, notamment en association avec le 5-FU.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Oxaliplatin (traduction non officielle) : « L'oxaliplatine subit dans les solutions physiologiques une conversion non enzymatique en dérivés actifs par déplacement du ligand oxalate labile. Plusieurs espèces réactives transitoires sont formées, notamment le monoaquo et le diaquo DACH platine, qui se lient de manière covalente aux macromolécules. » Texte original en anglais : "Oxaliplatin undergoes nonenzymatic conversion in physiologic solutions to active derivatives via displacement of the labile oxalate ligand. Several transient reactive species are formed, including monoaquo and diaquo DACH platinum, which covalently bind with macromolecules." ([DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5), version du 2026-08-24 ; consulté le 2026-11-19). Sur la base des informations connues, l'oxaliplatine est un agent alkylant de la famille des platines : il forme des adduits à l'ADN, ce qui inhibe la synthèse et la réparation de l'ADN. Son efficacité dans le cancer colorectal est établie, notamment en association avec le 5-FU.
 
 Les sels de platine (cisplatine) constituent le socle de la chimiothérapie du mésothéliome. L'oxaliplatine possède un profil de résistance distinct et une néphrotoxicité moindre, ce qui en fait une alternative plausible. Plusieurs études de phase II (gemcitabine-oxaliplatine, raltitrexed-oxaliplatine, vinorelbine-oxaliplatine) rapportent une activité dans le mésothéliome pleural.
 
@@ -147,12 +147,13 @@ Le signal est plausible (score TxGNN élevé, plusieurs phases II), mais les pre
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: oxaliplatin prescribing information, Gland Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6f89dc3-a594-4b5b-8728-272e20c1ecb5) |
 
 <!-- review:end log -->
 

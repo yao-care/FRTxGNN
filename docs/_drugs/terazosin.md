@@ -56,7 +56,7 @@ Parmi les autres pistes prédites, la **maladie de Raynaud** est la mieux docume
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la terazosine est un alpha-1 bloquant adrénergique à activité vasodilatatrice. Son efficacité dans l'hypertension et l'hyperplasie bénigne de la prostate est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Terazosin (traduction non officielle) : « Hyperplasie bénigne de la prostate Les symptômes associés à l'hyperplasie bénigne de la prostate (HBP) sont liés à une obstruction du col vésical, qui comprend deux composantes sous-jacentes : statique et dynamique. La composante statique est liée à une augmentation du volume de la prostate causée, en partie, par une prolifération des cellules musculaires lisses du stroma prostatique. […] Le blocage du récepteur alpha-1 diminue la résistance urétrale et peut lever l'obstruction des symptômes de l'HBP et améliorer le débit urinaire Hypertension Le mécanisme d'action de la térazosine est le blocage sélectif du sous-type alpha-1 des récepteurs adrénergiques. » Texte original en anglais : "Benign Prostatic Hyperplasia The symptoms associated with benign prostatic hyperplasia (BPH) are related to bladder outlet obstruction, which is comprised of two underlying components: static and dynamic. The static component is related to an increase in prostate size caused, in part by a proliferation of smooth muscle cells in the prostatic stroma. […] Blockade of the alpha-1 receptor decreases urethral resistance and may relieve the obstruction of BPH symptoms and improve urine flow Hypertension The mechanism of action of terazosin is selective blockade of the alpha-1 subtype of adrenergic receptors." ([DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f), version du 2025-04-18 ; consulté le 2026-11-19). Sur la base des informations connues, la terazosine est un alpha-1 bloquant adrénergique à activité vasodilatatrice. Son efficacité dans l'hypertension et l'hyperplasie bénigne de la prostate est établie.
 
 Pour l'hypotrichose du cuir chevelu, le lien mécanistique reste très spéculatif : on pourrait imaginer un effet via la perfusion du follicule pileux, mais aucune donnée ne le soutient. Il s'agit d'une affection héréditaire, et le score élevé provient du modèle TxGNN (deep learning) : il peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -118,11 +118,12 @@ Veuillez consulter la notice pour les mises en garde détaillées, qui ne sont p
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les produits français sont en outre tous annulés » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f) |
 
 <!-- review:end log -->
 

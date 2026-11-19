@@ -60,7 +60,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la mirtazapine est un antidépresseur dont l'efficacité dans la dépression a été établie. Toutefois, les données compilées pour ce rapport ne permettent de relier ce mécanisme à aucune voie biologique du syndrome d'Ohdo.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mirtazapine (traduction non officielle) : « Le mécanisme d'action de la mirtazapine dans le traitement du trouble dépressif majeur n'est pas élucidé. Cependant, son efficacité pourrait être médiée par son activité antagoniste au niveau des autorécepteurs et hétérorécepteurs inhibiteurs α 2 -adrénergiques présynaptiques centraux et par l'augmentation de l'activité noradrénergique et sérotoninergique centrale. » Texte original en anglais : "The mechanism of action of mirtazapine for the treatment of major depressive disorder, is unclear. However, its efficacy could be mediated through its activity as an antagonist at central presynaptic α 2 -adrenergic inhibitory autoreceptors and heteroreceptors and enhancing central noradrenergic and serotonergic activity." ([DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887), version du 2025-08-06 ; consulté le 2026-11-19). Sur la base des informations connues, la mirtazapine est un antidépresseur dont l'efficacité dans la dépression a été établie. Toutefois, les données compilées pour ce rapport ne permettent de relier ce mécanisme à aucune voie biologique du syndrome d'Ohdo.
 
 Le syndrome d'Ohdo est une maladie génétique rare (liée à KAT6B), associant notamment un blépharophimosis et une déficience intellectuelle. Aucun lien pharmacologique connu ne le rattache à l'activité de la mirtazapine. La similarité avec l'indication d'origine (dépression, anxiété) n'a pas pu être évaluée.
 
@@ -138,13 +138,14 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 15 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « De plus, les 15 AMM françaises sont annulées, et les données de sécurité officielles sont manquantes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Remeronsoltab (mirtazapine) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98ad1917-a094-44f5-a28f-a64a8cfcd887) |
 
 <!-- review:end log -->
 

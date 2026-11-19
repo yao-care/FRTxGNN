@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Ioversol est un produit de contraste radiographique iodé, destiné à rendre visibles les structures corporelles lors d'examens d'imagerie. Il n'a pas de mécanisme pharmacologique connu contre l'arthrose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ioversol (traduction non officielle) : « L'injection intravasculaire d'ioversol opacifie les vaisseaux situés sur le trajet du flux du produit de contraste, permettant la visualisation radiographique des structures internes jusqu'à ce qu'une hémodilution significative se produise. L'ioversol peut être visualisé dans le parenchyme rénal dans les 30 à 60 secondes suivant une injection intraveineuse rapide. » Texte original en anglais : "Intravascular injection of ioversol opacifies those vessels in the path of the flow of the contrast medium, permitting radiographic visualization of the internal structures until significant hemodilution occurs. Ioversol may be visualized in the renal parenchyma within 30 to 60 seconds following rapid intravenous injection." ([DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74), version du 2025-12-29 ; consulté le 2026-11-19). Ioversol est un produit de contraste radiographique iodé, destiné à rendre visibles les structures corporelles lors d'examens d'imagerie. Il n'a pas de mécanisme pharmacologique connu contre l'arthrose.
 
 La seule publication retrouvée (essai LipioJoint-1) évalue une embolisation des artères géniculaires dans l'arthrose du genou, réalisée avec une émulsion à base d'huile iodée éthiodisée. L'effet observé est attribuable à la procédure d'embolisation, pas à l'ioversol. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -108,6 +108,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Mises en garde et contre-indications issues de la notice ANSM (lacune bloquante pour l'évaluation de sécurité)
 - Textes d'indication des AMM françaises
 - Toute étude préclinique ou clinique évaluant directement l'ioversol dans l'arthrose, en l'absence de laquelle la prédiction ne devrait pas être poursuivie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Optiray 320 (ioversol) prescribing information, Liebel-Flarsheim Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6cb6ca5f-b249-49b0-a9eb-8aa583da7c74) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

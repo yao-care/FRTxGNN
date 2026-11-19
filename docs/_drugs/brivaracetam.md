@@ -54,7 +54,7 @@ Le brivaracétam est un médicament antiépileptique dont les données détaill�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le brivaracétam est connu comme un ligand de la protéine SV2A (protéine des vésicules synaptiques), mais cette information ne permet pas, à elle seule, d'expliquer un effet dans la maladie prédite.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Brivaracetam (traduction non officielle) : « Le mécanisme précis par lequel BRIVIACT exerce son activité anticonvulsivante n'est pas connu. Le brivaracétam présente une affinité élevée et sélective pour la protéine 2A des vésicules synaptiques (SV2A) dans le cerveau, ce qui pourrait contribuer à l'effet anticonvulsivant. » Texte original en anglais : "The precise mechanism by which BRIVIACT exerts its anticonvulsant activity is not known. Brivaracetam displays a high and selective affinity for synaptic vesicle protein 2A (SV2A) in the brain, which may contribute to the anticonvulsant effect." ([DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c), version du 2026-11-05 ; consulté le 2026-11-19). Le brivaracétam est connu comme un ligand de la protéine SV2A (protéine des vésicules synaptiques), mais cette information ne permet pas, à elle seule, d'expliquer un effet dans la maladie prédite.
 
 Le déficit en bêta-cétothiolase est une maladie héréditaire du métabolisme des corps cétoniques et de l'isoleucine. Son lien avec un ligand de SV2A reste peu clair. Il reflète probablement une association indirecte détectée par le modèle, par exemple via des manifestations de type crises convulsives ou encéphalopathie métabolique. Il n'existe aucune preuve clinique ou préclinique à l'appui. La similarité avec l'usage d'origine n'a pas été évaluée.
 
@@ -96,6 +96,19 @@ La prédiction repose uniquement sur le modèle (score 0,9914), sans aucun essai
 - Études précliniques ou de mécanisme explorant un lien avec le métabolisme des corps cétoniques et de l'isoleucine
 - Mises en garde et contre-indications issues de la notice de l'ANSM, pour permettre un examen de sécurité
 - Évaluation de la compatibilité des voies d'administration et de la similarité avec l'usage d'origine
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Briviact (brivaracetam) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3cf2f439-0e97-443e-8e33-25ecef616f6c) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

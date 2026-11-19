@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **trouble de 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le caplacizumab se fixe sur le domaine A1 du facteur von Willebrand et empêche son interaction avec le récepteur plaquettaire GPIb.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Caplacizumab (traduction non officielle) : « Le caplacizumab-yhdp cible le domaine A1 du vWF et inhibe l'interaction entre le vWF et les plaquettes, réduisant ainsi à la fois l'adhésion plaquettaire médiée par le vWF et la consommation de plaquettes. » Texte original en anglais : "Caplacizumab-yhdp targets the A1-domain of vWF, and inhibits the interaction between vWF and platelets, thereby reducing both vWF-mediated platelet adhesion and platelet consumption." ([DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905), version du 2026-04-24 ; consulté le 2026-11-19). D'après les connaissances générales, le caplacizumab se fixe sur le domaine A1 du facteur von Willebrand et empêche son interaction avec le récepteur plaquettaire GPIb.
 
 Ce mécanisme réduit l'adhésion plaquettaire. Or, dans un trouble de la fonction plaquettaire, l'hémostase primaire est déjà altérée. Un bénéfice thérapeutique est donc mécanistiquement peu plausible : le médicament risquerait plutôt d'aggraver la tendance hémorragique.
 
@@ -109,6 +109,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Évaluation du rapport bénéfice/risque hémorragique avant toute étude clinique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cablivi (caplacizumab) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2348f06e-8004-4040-832e-e9e86a39f905) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

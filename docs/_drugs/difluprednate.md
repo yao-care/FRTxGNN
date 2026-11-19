@@ -61,7 +61,7 @@ Le modèle TxGNN place en tête de classement la **forme familiale d'hypoplasie 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Le difluprednate est toutefois un agoniste du récepteur des glucocorticoïdes (NR3C1), avec une affinité très élevée rapportée (Ki de 0,78 nM). Son effet anti-inflammatoire de classe est bien établi.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Difluprednate (traduction non officielle) : « Les corticostéroïdes inhibent la réponse inflammatoire à divers agents déclenchants et peuvent retarder ou ralentir la cicatrisation. Ils inhibent l'œdème, le dépôt de fibrine, la dilatation capillaire, la migration leucocytaire, la prolifération capillaire, la prolifération des fibroblastes, le dépôt de collagène et la formation de cicatrices associés à l'inflammation. […] Le difluprednate est structurellement similaire aux autres corticostéroïdes. » Texte original en anglais : "Corticosteroids inhibit the inflammatory response to a variety of inciting agents and may delay or slow healing. They inhibit edema, fibrin deposition, capillary dilation, leukocyte migration, capillary proliferation, fibroblast proliferation, deposition of collagen, and scar formation associated with inflammation. […] Difluprednate is structurally similar to other corticosteroids." ([DailyMed: Durezol (difluprednate) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea520a27-f569-4b31-8bad-a25ad54b2caa), version du 2026-08-18 ; consulté le 2026-11-19). Le difluprednate est toutefois un agoniste du récepteur des glucocorticoïdes (NR3C1), avec une affinité très élevée rapportée (Ki de 0,78 nM). Son effet anti-inflammatoire de classe est bien établi.
 
 **Rang 1 (hypoplasie surrénalienne familiale).** Une logique de substitution en glucocorticoïdes pourrait être avancée. Elle est cependant faible : la maladie résulte d'un défaut congénital du développement (par exemple NR0B1/DAX-1) qu'un corticoïde topique ne corrige pas. Le difluprednate n'a aucun usage de substitution systémique établi.
 
@@ -119,12 +119,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La seule AMM française recensée (une crème dermatologique) est aujourd'hui annulée et ne mentionne aucune indication » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et le produit n'est plus commercialisé en France (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Durezol (difluprednate) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea520a27-f569-4b31-8bad-a25ad54b2caa) |
 
 <!-- review:end log -->
 

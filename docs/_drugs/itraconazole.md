@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocysto
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, l'itraconazole inhibe l'enzyme fongique CYP51 (lanostérol 14-alpha-déméthylase), bloquant ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Itraconazole (traduction non officielle) : « Des études in vitro ont démontré que l'itraconazole inhibe la synthèse de l'ergostérol dépendante du cytochrome P450, qui est un composant vital des membranes cellulaires fongiques. » Texte original en anglais : "In vitro studies have demonstrated that itraconazole inhibits the cytochrome P450-dependent synthesis of ergosterol, which is a vital component of fungal cell membranes." ([DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0), version du 2026-07-13 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'itraconazole inhibe l'enzyme fongique CYP51 (lanostérol 14-alpha-déméthylase), bloquant ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
 
 Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre la pneumocystose et d'autres infections fongiques opportunistes déjà traitées par l'itraconazole (histoplasmose, aspergillose). Il ne constitue pas une preuve biologique, ni un lien mécanistique démontré.
 
@@ -127,11 +127,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sporanox (itraconazole) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a4d555fa-787c-40fb-bb7d-b0d4f7318fd0) |
 
 <!-- review:end log -->
 

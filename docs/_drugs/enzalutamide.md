@@ -55,7 +55,7 @@ Le modèle TxGNN prédit en premier rang une association avec la **susceptibilit
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, l'enzalutamide est un inhibiteur du récepteur des androgènes (AR) : il bloque la liaison du ligand, la translocation nucléaire du récepteur et sa fixation à l'ADN. Son efficacité dans le cancer de la prostate est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Enzalutamide (traduction non officielle) : « L'enzalutamide est un inhibiteur du récepteur des androgènes qui agit sur différentes étapes de la voie de signalisation du récepteur des androgènes. Il a été démontré que l'enzalutamide inhibe de manière compétitive la liaison des androgènes aux récepteurs des androgènes et, par conséquent, inhibe la translocation nucléaire des récepteurs des androgènes et leur interaction avec l'ADN. » Texte original en anglais : "Enzalutamide is an androgen receptor inhibitor that acts on different steps in the androgen receptor signaling pathway. Enzalutamide has been shown to competitively inhibit androgen binding to androgen receptors; and consequently, inhibits nuclear translocation of androgen receptors and their interaction with DNA." ([DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf), version du 2026-07-28 ; consulté le 2026-11-19). D'après les connaissances établies, l'enzalutamide est un inhibiteur du récepteur des androgènes (AR) : il bloque la liaison du ligand, la translocation nucléaire du récepteur et sa fixation à l'ADN. Son efficacité dans le cancer de la prostate est établie.
 
 Le rang 1 correspond à une catégorie de susceptibilité génétique, et non à une maladie traitable ; aucun lien mécanistique avec le cancer du cerveau n'a été identifié. Les tumeurs bénignes de la prostate (léiomyome, fibrome, tumeur phyllode) ainsi que la tumeur de Brenner (néoplasme ovarien) ne présentent pas de dépendance connue à la signalisation AR qui justifierait un antagonisme systémique.
 
@@ -151,12 +151,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xtandi (enzalutamide) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b129fdc9-1d8e-425c-a5a9-8a2ed36dfbdf) |
 
 <!-- review:end log -->
 

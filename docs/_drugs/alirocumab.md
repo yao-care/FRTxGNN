@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, l'alirocumab est un anticorps monoclonal qui bloque PCSK9. Cela augmente le nombre de récepteurs du LDL disponibles à la surface des hépatocytes et accroît l'élimination du cholestérol LDL du sang.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alirocumab (traduction non officielle) : « L'alirocumab est un anticorps monoclonal humain qui se lie à la proprotéine convertase subtilisine/kexine de type 9 (PCSK9). La PCSK9 se lie aux récepteurs des lipoprotéines de basse densité (LDL) (LDLR) à la surface des hépatocytes pour favoriser la dégradation des LDLR dans le foie. » Texte original en anglais : "Alirocumab is a human monoclonal antibody that binds to proprotein convertase subtilisin kexin type 9 (PCSK9). PCSK9 binds to the low-density lipoprotein (LDL) receptors (LDLR) on the surface of hepatocytes to promote LDLR degradation within the liver." ([DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172), version du 2026-07-16 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'alirocumab est un anticorps monoclonal qui bloque PCSK9. Cela augmente le nombre de récepteurs du LDL disponibles à la surface des hépatocytes et accroît l'élimination du cholestérol LDL du sang.
 
 Aucun lien mécanistique plausible n'a été identifié entre ce mécanisme et l'ichtyose liée à l'X. Le score élevé du modèle TxGNN est une prédiction purement computationnelle, sans essai clinique ni publication à l'appui. Cette prédiction doit donc être considérée avec une grande prudence.
 
@@ -94,6 +94,19 @@ La prédiction n'est soutenue que par le modèle (niveau L5) : aucun essai, aucu
 - Des données précliniques ou des études de cas spécifiques à cette maladie
 - Les données détaillées sur le mécanisme d'action (MOA)
 - Les mises en garde et contre-indications issues de la notice ANSM
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Praluent (alirocumab) prescribing information, Regeneron Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7bcfbac2-e8ac-4569-8edc-bcde3b1fd172) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -56,7 +56,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**acné**, mai
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations générales, le risdiplam est un modulateur d'épissage de SMN2, approuvé dans l'amyotrophie spinale. Les données compilées pour ce rapport ne contiennent toutefois pas de texte d'indication officiel pour confirmer cet usage.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Risdiplam (traduction non officielle) : « Le risdiplam est un modificateur de l'épissage du gène de survie du motoneurone 2 (SMN2) conçu pour traiter les patients atteints d'amyotrophie spinale (SMA) causée par des mutations du chromosome 5q entraînant un déficit en protéine SMN. À l'aide d'essais in vitro et d'études sur des modèles animaux transgéniques de SMA, il a été démontré que le risdiplam augmente l'inclusion de l'exon 7 dans les transcrits d'acide ribonucléique messager (ARNm) de SMN2 ainsi que la production de protéine SMN complète dans le cerveau. » Texte original en anglais : "Risdiplam is a survival of motor neuron 2 (SMN2) splicing modifier designed to treat patients with spinal muscular atrophy (SMA) caused by mutations in chromosome 5q that lead to SMN protein deficiency. Using in vitro assays and studies in transgenic animal models of SMA, risdiplam was shown to increase exon 7 inclusion in SMN2 messenger ribonucleic acid (mRNA) transcripts and production of full-length SMN protein in the brain." ([DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e), version du 2026-11-02 ; consulté le 2026-11-19). D'après les informations générales, le risdiplam est un modulateur d'épissage de SMN2, approuvé dans l'amyotrophie spinale. Les données compilées pour ce rapport ne contiennent toutefois pas de texte d'indication officiel pour confirmer cet usage.
 
 Il n'existe pas de lien évident entre la modulation de l'épissage de SMN2 et la physiopathologie de l'acné : production de sébum, hyperkératinisation folliculaire, colonisation par *Cutibacterium acnes* et inflammation. Un lien éventuel serait spéculatif, par exemple via des effets d'épissage hors cible sur des gènes de voies inflammatoires ou sébacées. Aucune donnée disponible ne l'étaye.
 
@@ -109,11 +109,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Evrysdi (risdiplam) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eceb9a99-7191-4be5-87c3-0102707cf98e) |
 
 <!-- review:end log -->
 

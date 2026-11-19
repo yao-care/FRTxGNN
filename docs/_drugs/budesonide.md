@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, la budésonide est un glucocorticoïde : elle freine l'inflammation et la réponse immunitaire, notamment la production de cytokines inflammatoires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Budesonide (traduction non officielle) : « Le budésonide est un corticostéroïde anti-inflammatoire qui présente une activité glucocorticoïde puissante et une activité minéralocorticoïde faible. Dans des modèles standard in vitro et chez l'animal, le budésonide présente une affinité pour le récepteur des glucocorticoïdes environ 200 fois supérieure et une puissance anti-inflammatoire topique 1000 fois supérieure à celles du cortisol (test de l'œdème de l'oreille induit par l'huile de croton chez le rat). » Texte original en anglais : "Budesonide is an anti-inflammatory corticosteroid that exhibits potent glucocorticoid activity and weak mineralocorticoid activity. In standard in vitro and animal models, budesonide has approximately a 200-fold higher affinity for the glucocorticoid receptor and a 1000-fold higher topical anti-inflammatory potency than cortisol (rat croton oil ear edema assay)." ([DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da), version du 2026-06-10 ; consulté le 2026-11-19). Sur la base des connaissances générales, la budésonide est un glucocorticoïde : elle freine l'inflammation et la réponse immunitaire, notamment la production de cytokines inflammatoires.
 
 L'eczéma atopique est une inflammation cutanée chronique, largement liée à une réponse immunitaire de type Th2. Une molécule anti-inflammatoire et immunosuppressive est donc, sur le plan biologique, plausible dans cette maladie.
 
@@ -92,6 +92,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publi
 - Études cliniques évaluant la budésonide dans l'eczéma atopique, avec une voie d'administration adaptée (cutanée)
 - Mises en garde et contre-indications issues de la notice (ANSM)
 - Évaluation du risque d'allergie de contact aux corticoïdes, la budésonide étant un sensibilisant connu
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Budesonide Inhalation Suspension (budesonide) prescribing information, Cipla USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c52c5382-1400-44b9-95be-a30e1cf706da) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

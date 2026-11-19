@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératoconjonct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le triméthoprime inhibe la dihydrofolate réductase bactérienne, ce qui bloque la synthèse des folates et donc la multiplication des bactéries. Il est déjà utilisé, notamment en association avec la polymyxine B, dans des collyres contre les conjonctivites bactériennes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Trimethoprim (traduction non officielle) : « Le triméthoprime bloque la production d'acide tétrahydrofolique à partir d'acide dihydrofolique en se liant à l'enzyme nécessaire, la dihydrofolate réductase, et en l'inhibant de façon réversible. Cette liaison est beaucoup plus forte pour l'enzyme bactérienne que pour l'enzyme correspondante des mammifères. » Texte original en anglais : "Trimethoprim blocks the production of tetrahydrofolic acid from dihydrofolic acid by binding to and reversibly inhibiting the required enzyme, dihydrofolate reductase. This binding is very much stronger for the bacterial enzyme than for the corresponding mammalian enzyme." ([DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597), version du 2026-11-15 ; consulté le 2026-11-19). D'après les connaissances générales, le triméthoprime inhibe la dihydrofolate réductase bactérienne, ce qui bloque la synthèse des folates et donc la multiplication des bactéries. Il est déjà utilisé, notamment en association avec la polymyxine B, dans des collyres contre les conjonctivites bactériennes.
 
 Le score de la prédiction provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, notamment avec les atteintes de la surface oculaire. Toutefois, la kératoconjonctivite ponctuée épithéliale est souvent d'origine virale (par exemple adénovirale) ou non infectieuse. Un mécanisme antibactérien pourrait donc ne pas s'appliquer. Cette hypothèse n'a pas pu être vérifiée faute de données sur le mécanisme d'action.
 
@@ -120,11 +120,12 @@ Les mises en garde officielles de la notice ne sont pas disponibles. Veuillez co
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « puisque aucune AMM n'est en vigueur en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: trimethoprim prescribing information, SQUARE PHARMACEUTICALS PLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e53ccf1b-315f-4454-824e-f69769908597) |
 
 <!-- review:end log -->
 

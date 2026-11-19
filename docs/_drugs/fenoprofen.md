@@ -60,7 +60,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **dysplasie a
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Le fénoprofène appartient à la classe des AINS, dérivés de l'acide propionique. C'est un inhibiteur non sélectif des cyclo-oxygénases (COX-1 et COX-2), qui réduit la production de prostaglandines et donc l'inflammation et la douleur. Son efficacité est établie dans les rhumatismes inflammatoires et dégénératifs.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fenoprofen (traduction non officielle) : « Le fénoprofène possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. Le mécanisme d'action de FENOPRON TM, comme celui des autres AINS, n'est pas complètement élucidé, mais implique une inhibition de la cyclo-oxygénase (COX-1 et COX-2). » Texte original en anglais : "Fenoprofen has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of FENOPRON TM, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Fenopron Tm (fenoprofen calcium) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ed1a69a-2375-4cc8-ac2f-1201d7e0b9d0), version du 2026-02-16 ; consulté le 2026-11-19). Le fénoprofène appartient à la classe des AINS, dérivés de l'acide propionique. C'est un inhibiteur non sélectif des cyclo-oxygénases (COX-1 et COX-2), qui réduit la production de prostaglandines et donc l'inflammation et la douleur. Son efficacité est établie dans les rhumatismes inflammatoires et dégénératifs.
 
 **Pour cette prédiction précise, aucun lien mécanistique plausible n'a été identifié.** La dysplasie acromésomélique de type Hunter-Thompson est une maladie génétique due à une perte de fonction de la voie CDMP1/GDF5, un facteur de croissance impliqué dans le développement du squelette. Un inhibiteur de COX peut soulager des symptômes inflammatoires, mais il n'est pas censé corriger un défaut de signalisation développemental.
 
@@ -152,12 +152,13 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, le fénoprofène n'est plus commercialisé en France, et de nombreux AINS mieux documentés restent disponibles, ce qui limite l'intérê » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Le fénoprofène n'est plus commercialisé en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fenopron Tm (fenoprofen calcium) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ed1a69a-2375-4cc8-ac2f-1201d7e0b9d0) |
 
 <!-- review:end log -->
 

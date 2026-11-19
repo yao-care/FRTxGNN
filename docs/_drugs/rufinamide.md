@@ -55,7 +55,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la rufinamide est considérée comme un modulateur des canaux sodiques, et son efficacité dans le syndrome de Lennox-Gastaut, une encéphalopathie épileptique sévère et réfractaire, est reconnue. Un lien plausible serait donc une activité anticonvulsivante large dans les épilepsies réfractaires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rufinamide (traduction non officielle) : « Le ou les mécanismes précis par lesquels le rufinamide exerce son effet antiépileptique sont inconnus. Les résultats des études in vitro suggèrent que le principal mécanisme d'action du rufinamide est la modulation de l'activité des canaux sodiques et, en particulier, la prolongation de l'état inactif du canal. » Texte original en anglais : "The precise mechanism(s) by which rufinamide exerts its antiepileptic effect is unknown. The results of in vitro studies suggest that the principal mechanism of action of rufinamide is modulation of the activity of sodium channels and, in particular, prolongation of the inactive state of the channel." ([DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d), version du 2022-12-15 ; consulté le 2026-11-19). Sur la base des informations connues, la rufinamide est considérée comme un modulateur des canaux sodiques, et son efficacité dans le syndrome de Lennox-Gastaut, une encéphalopathie épileptique sévère et réfractaire, est reconnue. Un lien plausible serait donc une activité anticonvulsivante large dans les épilepsies réfractaires.
 
 Cependant, ce lien reste spéculatif. Le FIRES est un syndrome d'état de mal épileptique réfractaire d'origine largement neuro-inflammatoire, et le seul blocage des canaux sodiques ne suffit probablement pas à agir sur sa physiopathologie sous-jacente. Le score élevé de TxGNN reflète une prédiction fondée sur le réseau de connaissances, sans confirmation par des données cliniques directes.
 
@@ -109,11 +109,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et les voies d'accès actuelles au médicament en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Banzel (rufinamide) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a3fa925-1abd-458a-bd57-4ae780a1ef2d) |
 
 <!-- review:end log -->
 

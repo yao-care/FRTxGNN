@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, l'amifampridine bloque les canaux potassiques voltage-dépendants, ce qui prolonge la dépolarisation de la terminaison présynaptique et augmente la libération d'acétylcholine dépendante du calcium.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Amifampridine (traduction non officielle) : « Le mécanisme par lequel l'amifampridine exerce son effet thérapeutique chez les patients atteints de LEMS n'a pas été entièrement élucidé. L'amifampridine est un inhibiteur des canaux potassiques à large spectre. » Texte original en anglais : "The mechanism by which amifampridine exerts its therapeutic effect in LEMS patients has not been fully elucidated. Amifampridine is a broad-spectrum potassium channel blocker." ([DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f), version du 2026-04-16 ; consulté le 2026-11-19). D'après les connaissances générales, l'amifampridine bloque les canaux potassiques voltage-dépendants, ce qui prolonge la dépolarisation de la terminaison présynaptique et augmente la libération d'acétylcholine dépendante du calcium.
 
 Le lien avec le glaucome reste spéculatif. La modulation des canaux potassiques a été évoquée à propos de l'excitabilité des cellules ganglionnaires rétiniennes et de la dynamique de l'humeur aqueuse, mais aucune donnée directe ne relie l'amifampridine à la pression intraoculaire ou à la neuropathie optique.
 
@@ -97,6 +97,19 @@ La prédiction repose uniquement sur le score du modèle, sans essai clinique ni
 - Études précliniques sur la pression intraoculaire et la neuroprotection des cellules ganglionnaires rétiniennes
 - Mises en garde et contre-indications issues de la notice (ANSM)
 - Évaluation du risque de convulsions et de la compatibilité de la voie d'administration avec une application oculaire
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Firdapse (amifampridine phosphate) prescribing information, Catalyst Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f015fe60-3128-4a43-8c31-19fc6b5def3f) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

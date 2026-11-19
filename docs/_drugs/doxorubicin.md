@@ -56,7 +56,7 @@ avec **26 essais cliniques** et **20 publications** soutenant actuellement cette
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la doxorubicine est une anthracycline qui inhibe la topoisomérase II et s'intercale dans l'ADN. Son efficacité a été établie dans les hémopathies lymphoïdes (leucémie lymphoblastique aiguë, lymphomes), et son action cytotoxique sur les cellules à prolifération rapide pourrait mécanistiquement s'appliquer au sarcome d'Ewing.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Doxorubicin (traduction non officielle) : « L'effet cytotoxique du chlorhydrate de doxorubicine sur les cellules malignes et ses effets toxiques sur divers organes seraient liés aux activités d'intercalation entre les bases nucléotidiques et de liaison aux lipides des membranes cellulaires de la doxorubicine. L'intercalation inhibe la réplication des nucléotides et l'action des ADN et ARN polymérases. » Texte original en anglais : "The cytotoxic effect of doxorubicin hydrochloride on malignant cells and its toxic effects on various organs are thought to be related to nucleotide base intercalation and cell membrane lipid binding activities of doxorubicin. Intercalation inhibits nucleotide replication and action of DNA and RNA polymerases." ([DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd), version du 2026-11-12 ; consulté le 2026-11-19). Sur la base des informations connues, la doxorubicine est une anthracycline qui inhibe la topoisomérase II et s'intercale dans l'ADN. Son efficacité a été établie dans les hémopathies lymphoïdes (leucémie lymphoblastique aiguë, lymphomes), et son action cytotoxique sur les cellules à prolifération rapide pourrait mécanistiquement s'appliquer au sarcome d'Ewing.
 
 Dans les données compilées, la doxorubicine est un composant central des schémas de chimiothérapie multi-agents du sarcome d'Ewing (VDC/IE, VAC : vincristine, doxorubicine, cyclophosphamide, alternés avec ifosfamide et étoposide). Les tumeurs à petites cellules rondes, très prolifératives, y sont sensibles. Le lien avec l'indication originale tient donc à la chimiosensibilité de tumeurs à croissance rapide, plus qu'à une parenté histologique directe.
 
@@ -167,7 +167,7 @@ Plusieurs essais randomisés de phase 3 et de grandes publications incluent la d
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
@@ -175,6 +175,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 64367525 (ADRIBLASTINE 50 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-12 | Tableau : l’AMM 65771499 (ADRIBLASTINE 10 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 
 <!-- review:end log -->
 

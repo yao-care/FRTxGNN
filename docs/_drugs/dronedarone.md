@@ -56,7 +56,7 @@ mais **aucun essai clinique** n'est enregistré et les **20 publications** retro
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la dronédarone est un antiarythmique multicanal (blocage des courants Na⁺, K⁺ et Ca²⁺), structurellement proche de l'amiodarone mais non iodé. Son efficacité dans la fibrillation atriale est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dronedarone (traduction non officielle) : « Le mécanisme d'action de la dronédarone est inconnu. La dronédarone possède des propriétés antiarythmiques appartenant aux quatre classes de Vaughan-Williams, mais la contribution de chacune de ces activités à l'effet clinique est inconnue. » Texte original en anglais : "The mechanism of action of dronedarone is unknown. Dronedarone has antiarrhythmic properties belonging to all four Vaughan-Williams classes, but the contribution of each of these activities to the clinical effect is unknown." ([DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c), version du 2026-01-27 ; consulté le 2026-11-19). Sur la base des informations connues, la dronédarone est un antiarythmique multicanal (blocage des courants Na⁺, K⁺ et Ca²⁺), structurellement proche de l'amiodarone mais non iodé. Son efficacité dans la fibrillation atriale est établie.
 
 Le lien avec l'AVC est surtout indirect. La fibrillation atriale est une cause majeure d'AVC cardio-embolique, et le maintien du rythme sinusal pourrait en théorie réduire ce risque. Une analyse post hoc de l'essai ATHENA a suggéré une baisse de l'incidence des AVC sous dronédarone. Des données précliniques évoquent aussi des effets protecteurs contre les lésions d'ischémie-reperfusion cardiaques et cérébrales, ainsi que des effets anticoagulants et antiplaquettaires indépendants de l'action antiarythmique.
 
@@ -129,11 +129,12 @@ Les autres indications prédites (par exemple les amyloses, la sarcoglycanopathi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Multaq (dronedarone) prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bd4006a-8bad-4909-ac6d-b6d84390155c) |
 
 <!-- review:end log -->
 

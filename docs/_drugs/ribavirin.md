@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infection chro
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, la ribavirine est un analogue nucléosidique de la guanosine à large activité contre les virus à ARN (inhibition de l'IMPDH, déplétion du pool de GTP, effet immunomodulateur). Son efficacité dans l'hépatite C, en association avec l'interféron pégylé, est établie.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ribavirin (traduction non officielle) : « La ribavirine est un médicament antiviral. […] Le mécanisme par lequel la ribavirine contribue à son efficacité antivirale en clinique n'est pas entièrement élucidé. La ribavirine possède une activité antivirale directe en culture tissulaire contre de nombreux virus à ARN. La ribavirine augmente la fréquence des mutations dans les génomes de plusieurs virus à ARN et le triphosphate de ribavirine inhibe la polymérase du VHC dans une réaction biochimique. » Texte original en anglais : "Ribavirin is an antiviral drug. […] The mechanism by which ribavirin contributes to its antiviral efficacy in the clinic is not fully understood. Ribavirin has direct antiviral activity in tissue culture against many RNA viruses. Ribavirin increases the mutation frequency in the genomes of several RNA viruses and ribavirin triphosphate inhibits HCV polymerase in a biochemical reaction." ([DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c), version du 2024-02-06 ; consulté le 2026-11-19). D'après les connaissances générales, la ribavirine est un analogue nucléosidique de la guanosine à large activité contre les virus à ARN (inhibition de l'IMPDH, déplétion du pool de GTP, effet immunomodulateur). Son efficacité dans l'hépatite C, en association avec l'interféron pégylé, est établie.
 
 Le virus de l'hépatite B est toutefois un virus à ADN : l'activité antivirale directe de la ribavirine y est faible. Un éventuel bénéfice proviendrait surtout de l'effet immunomodulateur, en association avec l'interféron, et non d'une inhibition directe du VHB.
 
@@ -127,6 +127,19 @@ Veuillez consulter la notice pour les informations de sécurité complètes.
 - Clarifier la situation réglementaire en France (absence d'AMM)
 
 **Autres indications prédites (rang 2 à 10) :** sclérose hépatoportale, hypertension portale non cirrhotique familiale précoce, cirrhose idiopathique associée au cuivre, syndrome hépatopulmonaire, thrombose portale primitive, porphyrie hépatique, pachyméningite, aortite et médiastinite associées aux IgG4. Toutes sont au niveau L4-L5 (prédiction du modèle ou cas rapportés uniquement) et en décision **Hold**. Les seules publications liées (syndrome hépatopulmonaire, porphyrie) décrivent des effets indésirables du traitement et non un bénéfice.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: ribavirin prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eee304d0-c2ea-44f4-97d9-92a414d31b6c) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

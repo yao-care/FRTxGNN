@@ -62,7 +62,7 @@ Le niveau de preuve reste faible : les essais et publications concernent surtout
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le remdesivir est un promédicament analogue nucléotidique qui inhibe l'ARN polymérase ARN-dépendante virale. Il a été développé initialement contre des virus à ARN (Ebola, puis SARS-CoV-2).
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Remdesivir (traduction non officielle) : « Le remdésivir est un médicament antiviral actif contre le coronavirus 2 du syndrome respiratoire aigu sévère (SARS-CoV-2). […] Le remdésivir est un inhibiteur de l'ARN polymérase ARN-dépendante (RdRp) du SARS-CoV-2, qui est essentielle à la réplication virale. Le remdésivir est une prodrogue nucléotidique de l'adénosine qui se distribue dans les cellules, où il est métabolisé en un intermédiaire nucléoside monophosphate par la carboxylestérase 1 et/ou la cathepsine A, selon le type cellulaire. » Texte original en anglais : "Remdesivir is an antiviral drug with activity against severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). […] Remdesivir is an inhibitor of the SARS-CoV-2 RNA-dependent RNA polymerase (RdRp), which is essential for viral replication. Remdesivir is an adenosine nucleotide prodrug that distributes into cells where it is metabolized to a nucleoside monophosphate intermediate by carboxyesterase 1 and/or cathepsin A, depending upon the cell type." ([DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca), version du 2026-07-29 ; consulté le 2026-11-19). Sur la base des informations connues, le remdesivir est un promédicament analogue nucléotidique qui inhibe l'ARN polymérase ARN-dépendante virale. Il a été développé initialement contre des virus à ARN (Ebola, puis SARS-CoV-2).
 
 Sur le plan théorique, un raisonnement par analogie existe : le VIH est un rétrovirus qui dépend de la transcriptase inverse, et les analogues nucléosidiques/nucléotidiques constituent la base de nombreux antirétroviraux. Une revue mécanistique figurant dans la littérature compare d'ailleurs la polymérase du SARS-CoV-2 à la transcriptase inverse du VIH.
 
@@ -149,12 +149,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 69284439 (VEKLURY 100 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Veklury (remdesivir) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0978fa8-53ff-4ca2-82a7-567fd3e958ca) |
 
 <!-- review:end log -->
 

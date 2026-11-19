@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie pulmo
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la norépinéphrine agit sur les récepteurs adrénergiques (alpha et bêta). Le tonus du muscle lisse bronchique et l'inflammation des voies aériennes sont modulés par la signalisation adrénergique ; la bronchodilatation médiée par les récepteurs bêta-2 est la base biologique des traitements adrénergiques de l'asthme et de la BPCO.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Norepinephrine (traduction non officielle) : « La noradrénaline est un vasoconstricteur périphérique (action alpha-adrénergique), un stimulant inotrope du cœur et un dilatateur des artères coronaires (action bêta-adrénergique). » Texte original en anglais : "Norepinephrine is a peripheral vasoconstrictor (alpha-adrenergic action) and an inotropic stimulator of the heart and dilator of coronary arteries (beta-adrenergic action)." ([DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396), version du 2026-10-27 ; consulté le 2026-11-19). Sur la base des connaissances générales, la norépinéphrine agit sur les récepteurs adrénergiques (alpha et bêta). Le tonus du muscle lisse bronchique et l'inflammation des voies aériennes sont modulés par la signalisation adrénergique ; la bronchodilatation médiée par les récepteurs bêta-2 est la base biologique des traitements adrénergiques de l'asthme et de la BPCO.
 
 Les indications d'origine (asthme, bronchite, emphysème, bronchectasies) relèvent déjà de la sphère des maladies respiratoires obstructives, ce qui explique la proximité de la nouvelle indication prédite dans le graphe de connaissances. Les publications retrouvées (signalisation adrénergique dans l'asthme allergique, innervation des voies aériennes dans l'asthme et la BPCO, circuits neuro-immuns respiratoires) rendent le mécanisme plausible, mais **ne montrent pas de bénéfice clinique de la norépinéphrine elle-même**.
 
@@ -132,12 +132,13 @@ Au total, 7 AMM sont recensées; aucun produit n'est actuellement commercialisé
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Norepinephrine Bitartrate In Dextrose (norepinephrine bitartrate) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be3c6f4f-54fc-4cb3-a299-8a022515d396) |
 
 <!-- review:end log -->
 

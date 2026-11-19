@@ -59,7 +59,7 @@ Les **17 publications** retrouvées portent sur la migraine en général (dont 3
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature, l'életriptan est un agoniste 5-HT1B/1D, avec une affinité environ 6 fois supérieure à celle du sumatriptan pour le récepteur 5-HT1D et environ 3 fois supérieure pour le récepteur 5-HT1B.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Eletriptan (traduction non officielle) : « L'élétriptan se lie avec une forte affinité aux récepteurs 5-HT 1B, 5-HT 1D et 5-HT 1F, et présente une affinité modeste pour les récepteurs 5-HT 1A, 5-HT 1E, 5-HT 2B et 5-HT 7. Les migraines sont probablement dues à une vasodilatation crânienne locale et/ou à la libération de neuropeptides sensoriels (peptide vasoactif intestinal, substance P et peptide lié au gène de la calcitonine) par les terminaisons nerveuses du système trigéminal. » Texte original en anglais : "Eletriptan binds with high affinity to 5-HT 1B, 5-HT 1D and 5-HT 1F receptors, has modest affinity for 5-HT 1A, 5-HT 1E, 5-HT 2B and 5-HT 7 receptors. Migraines are likely due to local cranial vasodilatation and/or to the release of sensory neuropeptides (vasoactive intestinal peptide, substance P and calcitonin gene-related peptide) through nerve endings in the trigeminal system." ([DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e), version du 2024-01-15 ; consulté le 2026-11-19). D'après la littérature, l'életriptan est un agoniste 5-HT1B/1D, avec une affinité environ 6 fois supérieure à celle du sumatriptan pour le récepteur 5-HT1D et environ 3 fois supérieure pour le récepteur 5-HT1B.
 
 La migraine avec aura du tronc cérébral est un sous-type de migraine avec aura. La physiopathologie trigémino-vasculaire commune fournit donc un argument biologique plausible pour extrapoler l'effet de l'életriptan depuis l'indication d'origine.
 
@@ -147,12 +147,13 @@ Les mises en garde et contre-indications issues de la notice officielle n'ont pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 16 MM sont annulées, et a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM françaises et la disponibilité réelle du produit » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Relpax (eletriptan hydrobromide) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a501dbd-3ea8-47e4-9fcb-07035b8c8c9e) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **malformation ar
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'ambrisentan est un antagoniste sélectif des récepteurs de l'endothéline de type A, qui limite la vasoconstriction et le remodelage vasculaire médiés par l'endothéline.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ambrisentan (traduction non officielle) : « L'endothéline-1 (ET-1) est un peptide autocrine et paracrine puissant. Deux sous-types de récepteurs, ET A et ET B, assurent la médiation des effets de l'ET-1 au niveau du muscle lisse vasculaire et de l'endothélium. […] L'ambrisentan est un antagoniste des récepteurs ET A de haute affinité (K i =0.011 nM), doté d'une sélectivité élevée pour le récepteur ET A par rapport au récepteur ET B (>4000 fois). » Texte original en anglais : "Endothelin-1 (ET-1) is a potent autocrine and paracrine peptide. Two receptor subtypes, ET A and ET B, mediate the effects of ET-1 in the vascular smooth muscle and endothelium. […] Ambrisentan is a high-affinity (K i =0.011 nM) ET A receptor antagonist with a high selectivity for the ET A versus ET B receptor (>4000-fold)." ([DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844), version du 2026-06-22 ; consulté le 2026-11-19). D'après les connaissances générales, l'ambrisentan est un antagoniste sélectif des récepteurs de l'endothéline de type A, qui limite la vasoconstriction et le remodelage vasculaire médiés par l'endothéline.
 
 Ce mécanisme pourrait théoriquement concerner des atteintes vasculaires pulmonaires associées à la télangiectasie hémorragique héréditaire (HHT). Cependant, les malformations artério-veineuses pulmonaires sont des shunts structurels et non un processus vasoconstricteur : l'adéquation mécanistique est donc faible.
 
@@ -104,6 +104,19 @@ Aucune étude publiée ne porte directement sur l'efficacité de l'ambrisentan d
 - Mises en garde et contre-indications issues de la notice ANSM
 - Études précliniques ou cliniques portant directement sur les malformations artério-veineuses pulmonaires
 - Évaluation du rapport bénéfice/risque, notamment du risque tératogène
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

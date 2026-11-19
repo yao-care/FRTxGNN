@@ -57,7 +57,7 @@ Remarque : la prédiction classée en premier (adénocarcinome du ligament utér
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, le durvalumab est un anticorps dirigé contre PD-L1 : il bloque l'inhibition des lymphocytes T et rétablit ainsi leur activité antitumorale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Durvalumab (traduction non officielle) : « L'expression du ligand-1 de mort cellulaire programmée (PD-L1) peut être induite par des signaux inflammatoires (par exemple, l'IFN-gamma) et peut être exprimée à la fois sur les cellules tumorales et sur les cellules immunitaires associées à la tumeur dans le microenvironnement tumoral. PD-L1 bloque la fonction et l'activation des lymphocytes T par interaction avec PD-1 et CD80 (B7.1). […] Le durvalumab est un anticorps monoclonal humain de type immunoglobuline G1 kappa (IgG1κ) qui se lie à PD-L1 et bloque l'interaction de PD-L1 avec PD-1 et CD80 (B7.1). » Texte original en anglais : "Expression of programmed cell death ligand-1 (PD-L1) can be induced by inflammatory signals (e.g., IFN-gamma) and can be expressed on both tumor cells and tumor-associated immune cells in the tumor microenvironment. PD-L1 blocks T-cell function and activation through interaction with PD-1 and CD80 (B7.1). […] Durvalumab is a human immunoglobulin G1 kappa (IgG1κ) monoclonal antibody that binds to PD-L1 and blocks the interaction of PD-L1 with PD-1 and CD80 (B7.1)." ([DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3), version du 2026-08-31 ; consulté le 2026-11-19). D'après les connaissances générales, le durvalumab est un anticorps dirigé contre PD-L1 : il bloque l'inhibition des lymphocytes T et rétablit ainsi leur activité antitumorale.
 
 Les carcinomes du col utérin sont souvent liés au papillomavirus humain (HPV) et expriment fréquemment PD-L1, ce qui offre une justification biologique plausible pour une inhibition des points de contrôle immunitaires. Le lien avec l'indication d'origine (tumeur urothéliale) repose sur ce mécanisme commun d'échappement immunitaire, et non sur une parenté histologique.
 
@@ -116,6 +116,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 - Texte de l'indication de l'AMM pour confirmer l'usage approuvé
 - Données d'efficacité sur le carcinome endocervical (expression de PD-L1, essais de phase 2 ciblés)
 - Évaluation de la faisabilité d'essais pour ces tumeurs rares
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Imfinzi (durvalumab) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8baba4ea-2855-42fa-9bd9-5a7548d4cec3) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

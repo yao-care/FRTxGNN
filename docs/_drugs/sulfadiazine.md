@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **pneumocystose
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la sulfadiazine fait partie de la classe des sulfamides, qui inhibent la dihydroptéroate synthase, une enzyme de la voie de synthèse des folates. Son efficacité dans la toxoplasmose est établie, généralement en association avec la pyriméthamine.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sulfadiazine (traduction non officielle) : « Les sulfamides systémiques sont des agents bactériostatiques ayant un spectre d’activité similaire. Les sulfamides inhibent de manière compétitive la synthèse bactérienne de l’acide folique (acide ptéroylglutamique) à partir de l’acide aminobenzoïque. Les souches résistantes sont capables d’utiliser des précurseurs de l’acide folique ou de l’acide folique préformé. » Texte original en anglais : "The systemic sulfonamides are bacteriostatic agents having a similar spectrum of activity. Sulfonamides competitively inhibit bacterial synthesis of folic acid (pteroylglutamic acid) from aminobenzoic acid. Resistant strains are capable of utilizing folic acid precursors or preformed folic acid." ([DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91), version du 2024-09-24 ; consulté le 2026-11-19). Sur la base des connaissances générales, la sulfadiazine fait partie de la classe des sulfamides, qui inhibent la dihydroptéroate synthase, une enzyme de la voie de synthèse des folates. Son efficacité dans la toxoplasmose est établie, généralement en association avec la pyriméthamine.
 
 *Pneumocystis jirovecii* dépend de la même voie métabolique. Les sulfamides, notamment l'association triméthoprime-sulfaméthoxazole, constituent un traitement établi de la pneumocystose. Le lien biologique est donc plausible. Le score de 0.9939 provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -156,12 +156,13 @@ Les mises en garde détaillées de la notice ne sont pas disponibles ; veuillez 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'unique AMM française est annulée, ce qui limite le développement pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 66265330 (ADIAZINE 500 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
 
 <!-- review:end log -->
 

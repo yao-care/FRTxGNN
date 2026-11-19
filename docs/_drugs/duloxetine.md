@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **trouble obses
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la duloxétine appartient à la classe des IRSN : elle inhibe la recapture de la sérotonine et de la noradrénaline. Son efficacité dans la dépression et les troubles anxieux est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Duloxetine (traduction non officielle) : « Bien que les mécanismes exacts des actions antidépressive, inhibitrice centrale de la douleur et anxiolytique de la duloxétine chez l'homme soient inconnus, on pense que ces actions sont liées à sa potentialisation de l'activité sérotoninergique et noradrénergique dans le SNC. » Texte original en anglais : "Although the exact mechanisms of the antidepressant, central pain inhibitory and anxiolytic actions of duloxetine in humans are unknown, these actions are believed to be related to its potentiation of serotonergic and noradrenergic activity in the CNS." ([DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b), version du 2026-08-20 ; consulté le 2026-11-19). D'après les connaissances générales, la duloxétine appartient à la classe des IRSN : elle inhibe la recapture de la sérotonine et de la noradrénaline. Son efficacité dans la dépression et les troubles anxieux est établie.
 
 L'inhibition de la recapture de la sérotonine est le fondement du traitement pharmacologique du TOC (ISRS, clomipramine). La duloxétine y ajoute une activité noradrénergique. Le TOC est par ailleurs étroitement lié aux troubles anxieux et dépressifs, comorbidités fréquentes, ce qui rend le lien plausible.
 
@@ -129,12 +129,13 @@ Il faut toutefois rester prudent : les preuves sont de petite taille et ne montr
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Duloxetine Delayed-Release (duloxetine hydrochloride) prescribing information, Golden State Medical Supply, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00628e5e-4c5b-2573-e063-6294a90a0e3b) |
 
 <!-- review:end log -->
 

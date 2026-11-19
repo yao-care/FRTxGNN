@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **torticolis paro
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le zolpidem est un sédatif-hypnotique qui agit sur les récepteurs GABA-A, avec une sélectivité pour la sous-unité alpha-1.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Zolpidem (traduction non officielle) : « Le zolpidem est un modulateur positif des récepteurs GABA A qui exercerait ses effets thérapeutiques dans le traitement à court terme de l'insomnie par liaison au site des benzodiazépines des récepteurs GABA A contenant la sous-unité α1, augmentant la fréquence d'ouverture des canaux chlorure, ce qui entraîne l'inhibition de l'excitation neuronale. » Texte original en anglais : "Zolpidem is a GABA A receptor positive modulator presumed to exert its therapeutic effects in the short-term treatment of insomnia through binding to the benzodiazepine site of α1 subunit containing GABA A receptors, increasing the frequency of chloride channel opening resulting in the inhibition of neuronal excitation." ([DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97), version du 2025-02-07 ; consulté le 2026-11-19). Sur la base des informations connues, le zolpidem est un sédatif-hypnotique qui agit sur les récepteurs GABA-A, avec une sélectivité pour la sous-unité alpha-1.
 
 Le torticolis paroxystique bénin du nourrisson est un trouble pédiatrique rare et spontanément résolutif, rattaché au spectre de la migraine et à des mécanismes de type canalopathie. Aucun rôle établi d'un hypnotique agissant sur les récepteurs GABA-A n'est connu dans cette affection.
 
@@ -101,6 +101,18 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5), 
 - Des études précliniques ou cliniques portant directement sur cette affection
 - Les mises en garde et contre-indications issues de la notice officielle
 - Une évaluation de la sécurité spécifique à la population pédiatrique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ambien (zolpidem tartrate) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=747949c5-2c91-4909-8a07-71b6826f8e97) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

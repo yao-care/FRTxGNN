@@ -60,7 +60,7 @@ Il s'agit toutefois d'une indication proche de l'indication d'origine, et non d'
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances de classe, la loxapine est un antipsychotique dibenzoxazépine qui antagonise les récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A. Ce profil est cohérent avec une activité antimaniaque et anti-agitation. Cette analyse mécanistique est déduite de la classe pharmacologique et non des données fournies.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Loxapine (traduction non officielle) : « Sur le plan pharmacologique, la loxapine est un antipsychotique dont le mode d'action exact n'a pas été établi. Cependant, des modifications du niveau d'excitabilité des zones inhibitrices sous-corticales ont été observées chez plusieurs espèces animales, en association avec des manifestations de tranquillisation telles que des effets calmants et la suppression du comportement agressif. » Texte original en anglais : "Pharmacologically, loxapine is an antipsychotic for which the exact mode of action has not been established. However, changes in the level of excitability of subcortical inhibitory areas have been observed in several animal species in association with such manifestations of tranquilization as calming effects and suppression of aggressive behavior." ([DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e), version du 2026-11-03 ; consulté le 2026-11-19). Sur la base des connaissances de classe, la loxapine est un antipsychotique dibenzoxazépine qui antagonise les récepteurs dopaminergiques D2 et sérotoninergiques 5-HT2A. Ce profil est cohérent avec une activité antimaniaque et anti-agitation. Cette analyse mécanistique est déduite de la classe pharmacologique et non des données fournies.
 
 La nouvelle indication prédite (manie bipolaire) relève déjà des indications d'origine du médicament (trouble bipolaire). La prédiction du modèle est donc plausible, mais elle ne constitue pas un véritable repositionnement.
 
@@ -144,12 +144,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La seule MM française recensée est annulée, et a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: loxapine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e412c36-66b0-444b-833b-cea79976844e) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cholangite 
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le dabigatran etexilate est la prodrogue du dabigatran, un inhibiteur direct de la thrombine. Il est utilisé comme anticoagulant, mais son indication d'origine n'est pas documentée dans les données compilées.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dabigatran Etexilate (traduction non officielle) : « Le dabigatran et ses acylglucuronides sont des inhibiteurs directs et compétitifs de la thrombine. La thrombine (sérine protéase) permettant la conversion du fibrinogène en fibrine au cours de la cascade de la coagulation, son inhibition empêche la formation d'un thrombus. » Texte original en anglais : "Dabigatran and its acyl glucuronides are competitive, direct thrombin inhibitors. Because thrombin (serine protease) enables the conversion of fibrinogen into fibrin during the coagulation cascade, its inhibition prevents the development of a thrombus." ([DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901), version du 2026-11-02 ; consulté le 2026-11-19). D'après les connaissances générales, le dabigatran etexilate est la prodrogue du dabigatran, un inhibiteur direct de la thrombine. Il est utilisé comme anticoagulant, mais son indication d'origine n'est pas documentée dans les données compilées.
 
 Un lien mécanistique plausible, mais **non vérifié**, existe : la signalisation thrombine/PAR-1 contribuerait à la fibrose hépatique et biliaire. Une inhibition directe de la thrombine pourrait donc, en théorie, moduler la fibrogenèse. Aucune donnée fournie ne confirme cette hypothèse.
 
@@ -105,6 +105,19 @@ Pour les mises en garde, les contre-indications officielles et les interactions 
 - Confirmer l'indication d'origine et clarifier la raison de l'annulation des AMM.
 - Mener des études précliniques sur le rôle de la thrombine dans la fibrose biliaire, puis un éventuel essai exploratoire.
 - Évaluer le risque hémorragique chez les patients atteints de cholangite sclérosante, notamment en cas d'hypertension portale ou de varices.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Dabigatran (dabigatran etexilate) prescribing information, AvPAK](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39ac558a-b375-f3c1-e063-6394a90aa901) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

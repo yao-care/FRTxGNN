@@ -60,7 +60,7 @@ Il s'agit d'une prédiction issue du modèle TxGNN (apprentissage profond), dont
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la silodosine est un antagoniste sélectif des récepteurs alpha-1A adrénergiques, agissant principalement sur le bas appareil urinaire et la prostate. Son efficacité dans l'hyperplasie bénigne de la prostate repose sur ce mécanisme.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Silodosin (traduction non officielle) : « La silodosine est un antagoniste sélectif des adrénorécepteurs alpha-1 post-synaptiques, qui sont situés dans la prostate humaine, la base de la vessie, le col de la vessie, la capsule prostatique et l'urètre prostatique. Le blocage de ces adrénorécepteurs alpha-1 peut entraîner un relâchement des muscles lisses de ces tissus, ce qui se traduit par une amélioration du débit urinaire et une réduction des symptômes de l'HBP. » Texte original en anglais : "Silodosin is a selective antagonist of post-synaptic alpha-1 adrenoreceptors, which are located in the human prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra. Blockade of these alpha-1 adrenoreceptors can cause smooth muscle in these tissues to relax, resulting in an improvement in urine flow and a reduction in BPH symptoms." ([DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7), version du 2026-10-30 ; consulté le 2026-11-19). D'après les informations connues, la silodosine est un antagoniste sélectif des récepteurs alpha-1A adrénergiques, agissant principalement sur le bas appareil urinaire et la prostate. Son efficacité dans l'hyperplasie bénigne de la prostate repose sur ce mécanisme.
 
 La relation avec la nouvelle indication est très ténue. Le syndrome d'Ambras est d'origine génétique : il implique des remaniements chromosomiques en 8q22 qui affectent la régulation du gène TRPS1. Aucun lien plausible n'existe entre le blocage des récepteurs alpha-1A et cette cause. Le score élevé (0.9999) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une véritable relation thérapeutique ni une preuve biologique.
 
@@ -117,6 +117,19 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - Clarification du sens de l'effet thérapeutique recherché dans l'hypertrichose
 - Évaluation de la compatibilité de voie d'administration et de la similarité avec l'indication d'origine
 - Réexamen d'autres indications prédites ou de pistes plus plausibles avant tout investissement
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: silodosin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=94bca72c-c74a-4181-8b6a-a0a2f654a0a7) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

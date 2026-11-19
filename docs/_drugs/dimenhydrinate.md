@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**urticaire allerg
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le dimenhydrinate est un sel de diphénhydramine, antihistaminique H1 de première génération, et de 8-chlorothéophylline. Son efficacité dans le mal des transports et le vertige est établie, et mécanistiquement il pourrait être applicable à l'urticaire.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dimenhydrinate (traduction non officielle) : « Bien que le mode d'action précis du dimenhydrinate ne soit pas connu, il exerce une action dépressive sur la fonction labyrinthique hyperstimulée. » Texte original en anglais : "While the precise mode of action of dimenhydrinate is not known, it has a depressant action on hyperstimulated labyrinthine function." ([DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c), version du 2025-01-15 ; consulté le 2026-11-19). Sur la base des informations connues, le dimenhydrinate est un sel de diphénhydramine, antihistaminique H1 de première génération, et de 8-chlorothéophylline. Son efficacité dans le mal des transports et le vertige est établie, et mécanistiquement il pourrait être applicable à l'urticaire.
 
 L'urticaire est une affection médiée par la libération d'histamine par les mastocytes. Le blocage des récepteurs H1 par la fraction diphénhydramine est donc un mécanisme plausible et bien connu, et les antihistaminiques de première génération ont été employés cliniquement dans cette situation. Le score TxGNN très élevé est cohérent avec ce raisonnement fondé sur la classe pharmacologique, mais il reste une prédiction.
 
@@ -117,11 +117,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: dimenhydrinate prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bc71539e-1a33-4709-8a24-c2894e8dbc1c) |
 
 <!-- review:end log -->
 

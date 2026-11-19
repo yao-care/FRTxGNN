@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **une seule publication** (un cas clinique) sou
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le labétalol associe un blocage alpha-1 et un blocage bêta non sélectif, ce qui réduit les résistances vasculaires et la fréquence cardiaque. Il est déjà utilisé dans les urgences hypertensives.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Labetalol (traduction non officielle) : « Le labétalol possède à la fois une activité bloquante compétitive des récepteurs alpha1-adrénergiques et une activité bloquante compétitive des récepteurs bêta-adrénergiques. Chez l'homme, le rapport entre le blocage alpha et le blocage bêta a été estimé à environ 1:7 après administration intraveineuse. » Texte original en anglais : "Labetalol has both competitive alpha1-adrenergic blocking and competitive beta-adrenergic blocking activity. In man, the ratio of alpha- to beta-blockade has been estimated to be approximately 1:7 following intravenous administration." ([DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55), version du 2025-12-19 ; consulté le 2026-11-19). Sur la base des informations connues, le labétalol associe un blocage alpha-1 et un blocage bêta non sélectif, ce qui réduit les résistances vasculaires et la fréquence cardiaque. Il est déjà utilisé dans les urgences hypertensives.
 
 L'hypertension rénovasculaire maligne est en grande partie entraînée par l'activation du système rénine-angiotensine, et le blocage bêta diminue dans une certaine mesure la libération de rénine. Il s'agit toutefois d'une simple extension de l'indication hypertension existante, et non d'un véritable signal de repositionnement. Le score élevé du modèle reflète probablement la proximité avec l'indication déjà approuvée.
 
@@ -120,12 +120,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être consult
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Labetalol Hcl In Dextrose (labetalol hydrochloride) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=99a715a0-4579-410c-b102-7ef6fab8db55) |
 
 <!-- review:end log -->
 

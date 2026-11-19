@@ -54,7 +54,7 @@ Le tréosulfan est un agent alkylant, utilisé en conditionnement avant greffe d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le tréosulfan est un agent alkylant : il se transforme en intermédiaires époxydes qui forment des liaisons croisées avec l'ADN. Il est utilisé en conditionnement avant greffe de cellules souches hématopoïétiques.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Treosulfan (traduction non officielle) : « Le tréosulfan est un agent alkylant. On pense que l'alkylation de l'ADN est responsable des activités cytotoxiques du tréosulfan. Le tréosulfan a montré une activité de déplétion des cellules souches hématopoïétiques ainsi qu'une activité immunosuppressive et antitumorale dans des modèles murins de leucémie. » Texte original en anglais : "Treosulfan is an alkylating agent. DNA alkylation is thought to be responsible for the cytotoxic activities of treosulfan. Treosulfan showed hematopoietic stem cell depleting activity as well as immunosuppressive and antitumor activity in mouse models of leukemia." ([DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f), version du 2025-01-31 ; consulté le 2026-11-19). D'après les connaissances générales, le tréosulfan est un agent alkylant : il se transforme en intermédiaires époxydes qui forment des liaisons croisées avec l'ADN. Il est utilisé en conditionnement avant greffe de cellules souches hématopoïétiques.
 
 Aucun lien biologique plausible avec la cataracte diabétique ne peut être établi à partir des données disponibles. Sa physiopathologie repose sur la voie des polyols (aldose réductase), le stress oxydatif, le stress osmotique du cristallin et les produits de glycation avancée, autant de mécanismes sans rapport avec l'action d'un alkylant cytotoxique et myélosuppresseur.
 
@@ -112,11 +112,12 @@ Veuillez consulter la notice pour les informations de sécurité. La recherche d
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM françaises sont en outre annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Grafapex (treosulfan) prescribing information, Medexus Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2d06b03c-17aa-0492-e063-6294a90abd8f) |
 
 <!-- review:end log -->
 

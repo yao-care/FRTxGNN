@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**angor de Prinzme
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le sévoflurane est un anesthésique volatil, dont l'effet repose notamment sur la modulation de canaux ioniques, en particulier les récepteurs GABA-A.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Sevoflurane est (traduction non officielle) : « Modulateur positif du récepteur de la glycine (alpha-1/bêta) ; récepteur GABA-A ; modulateur allostérique positif de canal anionique ; ouvreur du membre 10 de la sous-famille K des canaux potassiques ; ouvreur du membre 18 de la sous-famille K des canaux potassiques » Texte original en anglais : "Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener" ([ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le sévoflurane est un anesthésique volatil, dont l'effet repose notamment sur la modulation de canaux ioniques, en particulier les récepteurs GABA-A.
 
 Le sévoflurane exerce un effet vasodilatateur sur le muscle lisse vasculaire, ce qui pourrait, en théorie, être lié au vasospasme coronarien à l'origine de l'angor de Prinzmetal. Ce lien reste toutefois **spéculatif** : aucune donnée fournie ne l'établit, et le score élevé du modèle ne constitue pas une preuve.
 
@@ -134,12 +134,13 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1200694 (sevoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200694) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour l'**aménorrhée
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques connues, l'alitrétinoïne est un agoniste pan-récepteur qui active les récepteurs nucléaires RAR (α, β, γ) et RXR (α, β, γ). La signalisation des rétinoïdes influence la différenciation de nombreux tissus, y compris les tissus reproducteurs.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alitretinoin (traduction non officielle) : « L'alitrétinoïne (acide 9-cis-rétinoïque) est un rétinoïde endogène naturel qui se lie à tous les sous-types connus de récepteurs intracellulaires des rétinoïdes (RARα, RARβ, RARγ, RXRα, RXRβ et RXRγ) et les active. Une fois activés, ces récepteurs fonctionnent comme des facteurs de transcription qui régulent l'expression de gènes contrôlant le processus de différenciation et de prolifération cellulaires dans les cellules normales comme dans les cellules néoplasiques. » Texte original en anglais : "Alitretinoin (9-cis-retinoic acid) is a naturally occurring endogenous retinoid that binds to and activates all known intracellular retinoid receptor subtypes (RARα, RARβ, RARγ, RXRα, RXRβ and RXRγ). Once activated these receptors function as transcription factors that regulate the expression of genes that control the process of cellular differentiation and proliferation in both normal and neoplastic cells." ([DailyMed: Panretin (alitretinoin) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49c16717-7d86-4257-80c9-baa1417e5555), version du 2025-11-25 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, l'alitrétinoïne est un agoniste pan-récepteur qui active les récepteurs nucléaires RAR (α, β, γ) et RXR (α, β, γ). La signalisation des rétinoïdes influence la différenciation de nombreux tissus, y compris les tissus reproducteurs.
 
 Cependant, aucun mécanisme précis reliant l'alitrétinoïne à l'aménorrhée n'est étayé par les données. Les rétinoïdes sont tératogènes et peuvent perturber le cycle menstruel : un rôle thérapeutique est donc peu plausible. Le score très élevé du modèle TxGNN (deep learning) (0,9999) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un bénéfice clinique. La similarité avec l'indication originale n'a pas encore été évaluée.
 
@@ -116,11 +116,12 @@ Veuillez consulter la notice pour les mises en garde détaillées.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Texte des indications approuvées des AMM annulées et raisons de l'annulation » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Panretin (alitretinoin) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49c16717-7d86-4257-80c9-baa1417e5555) |
 
 <!-- review:end log -->
 

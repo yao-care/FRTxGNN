@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, velpatasvir est un inhibiteur de NS5A du VHC, utilisé en association avec le sofosbuvir (Epclusa) et, dans une triple association, avec le sofosbuvir et le voxilaprévir (Vosevi). Son efficacité dans l'hépatite C est établie par de nombreuses études.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Velpatasvir est (traduction non officielle) : « Inhibiteur de la protéine non structurale 5A » Texte original en anglais : "Nonstructural protein 5A inhibitor" ([ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, velpatasvir est un inhibiteur de NS5A du VHC, utilisé en association avec le sofosbuvir (Epclusa) et, dans une triple association, avec le sofosbuvir et le voxilaprévir (Vosevi). Son efficacité dans l'hépatite C est établie par de nombreuses études.
 
 Toutefois, **la plausibilité mécanistique pour l'hépatite B est faible**. Le VHB ne possède pas de protéine NS5A ni d'homologue, et il n'existe donc pas de cible commune directe. Le score élevé du modèle reflète probablement la proximité dans le réseau de connaissances entre les « hépatites virales » plutôt qu'un véritable mécanisme.
 
@@ -137,12 +137,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 5 AMM françaises sont toutes annulées, ce qui limite aussi la faisabilité réglementaire locale » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarification du statut des AMM annulées et de la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3545062 (velpatasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545062) |
 
 <!-- review:end log -->
 

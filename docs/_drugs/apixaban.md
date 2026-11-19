@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **trouble mig
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'apixaban est un inhibiteur direct du facteur Xa de la coagulation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Apixaban (traduction non officielle) : « L'apixaban est un inhibiteur sélectif du FXa. Il ne nécessite pas d'antithrombine III pour exercer son activité antithrombotique. L'apixaban inhibe le FXa libre et lié au caillot, ainsi que l'activité de la prothrombinase. L'apixaban n'a pas d'effet direct sur l'agrégation plaquettaire, mais inhibe indirectement l'agrégation plaquettaire induite par la thrombine. » Texte original en anglais : "Apixaban is a selective inhibitor of FXa. It does not require antithrombin III for antithrombotic activity. Apixaban inhibits free and clot-bound FXa, and prothrombinase activity. Apixaban has no direct effect on platelet aggregation, but indirectly inhibits platelet aggregation induced by thrombin." ([DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25), version du 2026-09-24 ; consulté le 2026-11-19). D'après les connaissances générales, l'apixaban est un inhibiteur direct du facteur Xa de la coagulation.
 
 Une hypothèse théorique relierait la migraine avec aura au foramen ovale perméable, aux micro-embolies paradoxales ou à un état prothrombotique (par exemple en présence d'anticorps antiphospholipides) : une anticoagulation pourrait alors réduire les déclencheurs micro-emboliques. Il s'agit toutefois d'une hypothèse, sans voie biologique établie.
 
@@ -105,6 +105,18 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Mises en garde et contre-indications issues de la notice
 - Études cliniques évaluant directement l'apixaban dans la migraine (notamment avec aura ou associée à un foramen ovale perméable), avec une attention particulière à un éventuel effet délétère
 - Analyse du rapport bénéfice/risque hémorragique dans cette population
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Eliquis (apixaban) prescribing information, Aphena Pharma Solutions - Tennessee, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41a133ef-e461-48ad-8221-b735bdd0ec25) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

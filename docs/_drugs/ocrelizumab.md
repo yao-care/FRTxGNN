@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome mamma
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'ocrelizumab est un anticorps monoclonal humanisé anti-CD20 qui déplète les lymphocytes B. Son efficacité a été démontrée dans la sclérose en plaques, notamment dans sa forme primaire progressive.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ocrelizumab (traduction non officielle) : « Le mécanisme précis par lequel l'ocrélizumab exerce ses effets thérapeutiques dans la sclérose en plaques est inconnu, mais on suppose qu'il implique une liaison au CD20, un antigène de surface cellulaire présent sur les lymphocytes pré-B et B matures. Après sa liaison à la surface cellulaire des lymphocytes B, l'ocrélizumab entraîne une cytolyse cellulaire dépendante des anticorps et une lyse médiée par le complément. » Texte original en anglais : "The precise mechanism by which ocrelizumab exerts its therapeutic effects in multiple sclerosis is unknown, but is presumed to involve binding to CD20, a cell surface antigen present on pre-B and mature B lymphocytes. Following cell surface binding to B lymphocytes, ocrelizumab results in antibody-dependent cellular cytolysis and complement-mediated lysis." ([DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d), version du 2026-05-14 ; consulté le 2026-11-19). D'après les connaissances générales, l'ocrelizumab est un anticorps monoclonal humanisé anti-CD20 qui déplète les lymphocytes B. Son efficacité a été démontrée dans la sclérose en plaques, notamment dans sa forme primaire progressive.
 
 Aucun lien mécanistique direct n'est établi entre la déplétion des lymphocytes B par ciblage du CD20 et la biologie tumorale dépendante de HER2. Le score élevé (0,9989) provient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il n'est soutenu par aucune donnée clinique ou bibliographique. Cette prédiction doit donc être considérée comme une simple hypothèse à explorer, et non comme un résultat étayé.
 
@@ -111,11 +111,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ocrevus (ocrelizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9da42362-3bb5-4b83-b4bb-b59fd4e55f0d) |
 
 <!-- review:end log -->
 

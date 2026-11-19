@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, l'upadacitinib est un inhibiteur sélectif de JAK1, qui module la signalisation des cytokines et l'inflammation immunitaire. Son efficacité dans la polyarthrite rhumatoïde repose sur ce mécanisme.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Upadacitinib (traduction non officielle) : « L'upadacitinib est un inhibiteur de Janus kinase (JAK). Les JAK sont des enzymes intracellulaires qui transmettent des signaux issus des interactions entre les cytokines ou les facteurs de croissance et leurs récepteurs sur la membrane cellulaire afin d'influencer les processus cellulaires de l'hématopoïèse et la fonction des cellules immunitaires. » Texte original en anglais : "Upadacitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095), version du 2026-06-30 ; consulté le 2026-11-19). D'après les connaissances générales, l'upadacitinib est un inhibiteur sélectif de JAK1, qui module la signalisation des cytokines et l'inflammation immunitaire. Son efficacité dans la polyarthrite rhumatoïde repose sur ce mécanisme.
 
 La nouvelle indication prédite est un syndrome congénital rare affectant le développement oculaire et squelettique. Aucun lien mécanistique ne peut être établi à partir des données compilées : rien ne relie la voie JAK-STAT à la physiopathologie de ce syndrome, et un modulateur de la signalisation immunitaire n'a pas de justification évidente pour corriger une malformation structurelle du développement.
 
@@ -113,11 +113,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Rinvoq (upadacitinib) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2966aec7-2ef0-923c-d8ff-fe1a957bf095) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la metformine appartient à la classe des biguanides. Elle est reconnue pour activer l'AMPK, réduire la production hépatique de glucose et exercer de légers effets anti-inflammatoires. Son efficacité dans le diabète de type 2 est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Metformin (traduction non officielle) : « La metformine est un agent antihyperglycémiant qui améliore la tolérance au glucose chez les patients atteints de diabète sucré de type 2, en abaissant la glycémie basale et postprandiale. La metformine diminue la production hépatique de glucose, diminue l'absorption intestinale du glucose et améliore la sensibilité à l'insuline en augmentant la captation et l'utilisation périphériques du glucose. » Texte original en anglais : "Metformin is an antihyperglycemic agent which improves glucose tolerance in patients with type 2 diabetes mellitus, lowering both basal and postprandial plasma glucose. Metformin decreases hepatic glucose production, decreases intestinal absorption of glucose, and improves insulin sensitivity by increasing peripheral glucose uptake and utilization." ([DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574), version du 2026-09-21 ; consulté le 2026-11-19). Sur la base des informations connues, la metformine appartient à la classe des biguanides. Elle est reconnue pour activer l'AMPK, réduire la production hépatique de glucose et exercer de légers effets anti-inflammatoires. Son efficacité dans le diabète de type 2 est établie.
 
 Le syndrome du membre raide focal appartient au spectre du syndrome de la personne raide, un trouble neurologique d'origine auto-immune, souvent associé à des anticorps anti-GAD. Aucun lien mécanistique direct n'est établi entre les actions connues de la metformine et cette pathologie.
 
@@ -113,6 +113,19 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 - Données détaillées sur le mécanisme d'action (via DrugBank)
 - Revue de la littérature et des registres d'essais ciblée sur la metformine et le spectre du syndrome de la personne raide
 - Si une piste est à poursuivre, envisager en priorité la lipodystrophie localisée d'origine médicamenteuse (rang 5), mécanistiquement la plus plausible, après une recherche de preuves dédiée
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Metformin Hydrochloride Er (metformin hydrochloride) prescribing information, Leading Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3dca884d-ec44-496f-9eeb-31fd8fa3f574) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

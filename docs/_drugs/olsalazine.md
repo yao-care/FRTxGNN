@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome myélo
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'olsalazine est un dimère de 5-ASA, majoritairement retenu dans le côlon avec une faible exposition systémique. Le 5-ASA a une activité anti-inflammatoire (modulation de NF-kB et de PPAR-gamma, notamment).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Olsalazine (traduction non officielle) : « Une fois dans le côlon, les bactéries coliques convertissent l'olsalazine en acide 5‑aminosalicylique (5-ASA ou mésalazine). Le mécanisme d'action du 5-ASA (mésalamine) n'est pas entièrement élucidé, mais il semble s'agir d'un effet anti-inflammatoire local sur les cellules épithéliales coliques. » Texte original en anglais : "Upon reaching the colon, colonic bacteria convert olsalazine into 5‑aminosalicylic acid (5-ASA or mesalazine). The mechanism of action of 5-ASA (mesalamine) is not fully understood, but appears to be a topical anti-inflammatory effect on colonic epithelial cells." ([DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f), version du 2026-05-15 ; consulté le 2026-11-19). Sur la base des informations connues, l'olsalazine est un dimère de 5-ASA, majoritairement retenu dans le côlon avec une faible exposition systémique. Le 5-ASA a une activité anti-inflammatoire (modulation de NF-kB et de PPAR-gamma, notamment).
 
 Le lien avec une maladie clonale de la moelle osseuse comme le syndrome myélodysplasique reste **spéculatif**. Le score élevé (0,9991) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -125,11 +125,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Dipentum (olsalazine sodium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8512d0c6-db4e-4673-b3b4-28975c18413f) |
 
 <!-- review:end log -->
 

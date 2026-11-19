@@ -56,7 +56,7 @@ Le niveau de preuve est donc **L5** : prédiction du modèle uniquement.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la triptoréline appartient à la classe des agonistes de la GnRH : elle réduit à terme la production des hormones sexuelles (androgènes et œstrogènes) par désensibilisation de l'hypophyse.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Triptorelin (traduction non officielle) : « La triptoréline est un décapeptide synthétique analogue agoniste de l'hormone de libération des gonadotrophines (GnRH). Des études comparatives in vitro ont montré que la triptoréline était 100 fois plus active que la GnRH native pour stimuler la libération de l'hormone lutéinisante à partir de monocouches de cellules hypophysaires de rat dissociées en culture et 20 fois plus active que la GnRH native pour déplacer la 125 I-GnRH des sites récepteurs hypophysaires. » Texte original en anglais : "Triptorelin is a synthetic decapeptide agonist analog of gonadotropin releasing hormone (GnRH). Comparative in vitro studies showed that triptorelin was 100-fold more active than native GnRH in stimulating luteinizing hormone release from monolayers of dispersed rat pituitary cells in culture and 20-fold more active than native GnRH in displacing 125 I-GnRH from pituitary receptor sites." ([DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3), version du 2026-06-30 ; consulté le 2026-11-19). D'après les informations connues, la triptoréline appartient à la classe des agonistes de la GnRH : elle réduit à terme la production des hormones sexuelles (androgènes et œstrogènes) par désensibilisation de l'hypophyse.
 
 Ce mécanisme pourrait théoriquement réduire une pilosité dépendante des androgènes (hirsutisme). Toutefois, l'hypertrichose généralisée est un trouble distinct, qui n'est pas d'origine androgénique. Aucun lien mécanistique crédible n'est établi : le score élevé du modèle semble refléter une proximité dans le réseau de données plutôt qu'une preuve thérapeutique.
 
@@ -111,11 +111,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-13 | AMM valides : 14 → 15 (aucune annulée) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3) |
 
 <!-- review:end log -->
 

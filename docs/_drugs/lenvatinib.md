@@ -56,7 +56,7 @@ avec **1 essai clinique** (phase Ib/II à un seul bras) et **4 publications** do
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Le lenvatinib inhibit plusieurs récepteurs à activité tyrosine kinase : VEGFR1 à 3, FGFR1 à 4, PDGFRα, RET et KIT. Il freine ainsi la formation de nouveaux vaisseaux qui alimentent les tumeurs. Les données détaillées de mécanisme d'action n'étant pas disponibles dans les données compilées pour ce rapport, cette description repose sur les connaissances générales du médicament.
+Le lenvatinib inhibit plusieurs récepteurs à activité tyrosine kinase : VEGFR1 à 3, FGFR1 à 4, PDGFRα, RET et KIT. Il freine ainsi la formation de nouveaux vaisseaux qui alimentent les tumeurs. Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lenvatinib (traduction non officielle) : « Le lenvatinib est un inhibiteur de kinases qui inhibe l'activité kinase des récepteurs du facteur de croissance de l'endothélium vasculaire (VEGF) VEGFR1 (FLT1), VEGFR2 (KDR) et VEGFR3 (FLT4). Le lenvatinib inhibe d'autres kinases qui ont été impliquées dans l'angiogenèse pathologique, la croissance tumorale et la progression du cancer, en plus de leurs fonctions cellulaires normales, notamment les récepteurs du facteur de croissance des fibroblastes (FGF) FGFR1, 2, 3 et 4, le récepteur alpha du facteur de croissance dérivé des plaquettes (PDGFRA), KIT et RET. » Texte original en anglais : "Lenvatinib is a kinase inhibitor that inhibits the kinase activities of vascular endothelial growth factor (VEGF) receptors VEGFR1 (FLT1), VEGFR2 (KDR), and VEGFR3 (FLT4). Lenvatinib inhibits other kinases that have been implicated in pathogenic angiogenesis, tumor growth, and cancer progression in addition to their normal cellular functions, including fibroblast growth factor (FGF) receptors FGFR1, 2, 3, and 4; platelet derived growth factor receptor alpha (PDGFRA), KIT, and RET." ([DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e), version du 2026-10-14 ; consulté le 2026-11-19).
 
 Dans l'essai disponible, le lenvatinib est associé à l'éribuline, un inhibiteur des microtubules qui agit aussi sur la vascularisation tumorale et son environnement. L'association combine donc une action anti-angiogénique et une action anti-mitotique complémentaires. Des données précliniques sur les associations d'éribuline et sur le rôle de CDK4 dans les sarcomes des tissus mous (le liposarcome dédifférencié est amplifié pour CDK4/MDM2) apportent un soutien indirect. Un cas clinique isolé décrit une réduction tumorale dans un liposarcome dédifférencié, sans valeur de preuve solide.
 
@@ -116,6 +116,18 @@ Le seul élément clinique direct est une étude de phase Ib/II à un seul bras,
 - Les données détaillées du mécanisme d'action
 - Les mises en garde et contre-indications issues de la notice
 - Une analyse des interactions majeures (dolasétron, cisapride) et de la tolérance dans cette population
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lenvima (lenvatinib) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4bedd21-efde-44c6-9d9c-b48b78d7ed1e) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

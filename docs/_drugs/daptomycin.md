@@ -58,7 +58,7 @@ La daptomycine est un antibiotique lipopeptidique cyclique administré par voie 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la daptomycine est un lipopeptide cyclique dont l'activité antibactérienne vise les bactéries Gram positif (action sur la membrane bactérienne). Son efficacité est établie dans les infections cutanées, les bactériémies et les endocardites droites, mais elle n'a pas de mécanisme connu sur l'arthrose dégénérative.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Daptomycin (traduction non officielle) : « La daptomycine est un médicament antibactérien. […] La daptomycine se lie aux membranes cellulaires bactériennes et provoque une dépolarisation rapide du potentiel de membrane. Cette perte du potentiel de membrane entraîne une inhibition de la synthèse de l'ADN, de l'ARN et des protéines, ce qui entraîne la mort de la cellule bactérienne. » Texte original en anglais : "Daptomycin is an antibacterial drug. […] Daptomycin binds to bacterial cell membranes and causes a rapid depolarization of membrane potential. This loss of membrane potential causes inhibition of DNA, RNA, and protein synthesis, which results in bacterial cell death." ([DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8), version du 2022-01-25 ; consulté le 2026-11-19). Sur la base des informations connues, la daptomycine est un lipopeptide cyclique dont l'activité antibactérienne vise les bactéries Gram positif (action sur la membrane bactérienne). Son efficacité est établie dans les infections cutanées, les bactériémies et les endocardites droites, mais elle n'a pas de mécanisme connu sur l'arthrose dégénérative.
 
 L'examen des données montre que le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Les publications retrouvées portent sur des infections de prothèses articulaires, des arthrites septiques et des ostéomyélites à Gram positif : il s'agit d'un usage antibactérien, non d'un traitement de l'arthrose.
 
@@ -149,11 +149,12 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 20 AMM recensées sont toutes **annulées** ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Dapzura Rt (daptomycin) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb1283e1-35b8-425c-b338-d9ac0c7161f8) |
 
 <!-- review:end log -->
 

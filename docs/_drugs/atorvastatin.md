@@ -56,7 +56,7 @@ avec **14 essais cliniques** et **20 publications** recensés. Ces études porte
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'atorvastatine appartient à la classe des statines, qui réduisent le cholestérol et ont aussi des effets anti-inflammatoires et immunomodulateurs.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Atorvastatin (traduction non officielle) : « LIPITOR est un inhibiteur sélectif et compétitif de l'HMG-CoA réductase, l'enzyme limitante qui convertit le 3-hydroxy-3-méthylglutaryl-coenzyme A en mévalonate, un précurseur des stérols, dont le cholestérol. Dans des modèles animaux, LIPITOR diminue les taux plasmatiques de cholestérol et de lipoprotéines en inhibant l'HMG-CoA réductase et la synthèse du cholestérol dans le foie et en augmentant le nombre de récepteurs hépatiques des LDL à la surface cellulaire afin d'accroître la captation et le catabolisme des LDL ; LIPITOR réduit également la production de LDL et le nombre de particules de LDL. » Texte original en anglais : "LIPITOR is a selective, competitive inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A to mevalonate, a precursor of sterols, including cholesterol. In animal models, LIPITOR lowers plasma cholesterol and lipoprotein levels by inhibiting HMG-CoA reductase and cholesterol synthesis in the liver and by increasing the number of hepatic LDL receptors on the cell surface to enhance uptake and catabolism of LDL; LIPITOR also reduces LDL production and the number of LDL particles." ([DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65), version du 2024-04-15 ; consulté le 2026-11-19). D'après les connaissances générales, l'atorvastatine appartient à la classe des statines, qui réduisent le cholestérol et ont aussi des effets anti-inflammatoires et immunomodulateurs.
 
 Deux pistes ressortent. La première est métabolique : les statines traitent les dyslipidémies associées aux inhibiteurs de protéase et réduisent le risque cardiovasculaire chez les personnes vivant avec le VIH, qui présentent une inflammation résiduelle et un risque d'athérosclérose accru. La seconde est immunomodulatrice : les statines diminuent l'activation des monocytes/macrophages et l'inflammation systémique, ce qui pourrait concerner les troubles neurocognitifs associés au VIH. Des données précliniques chez la souris suggèrent aussi un effet sur la fibrose cardiaque.
 
@@ -125,6 +125,19 @@ Plusieurs essais de phases 2 à 4 et des revues systématiques soutiennent un in
 - Les données détaillées sur le mécanisme d'action
 - Des essais contrôlés de plus grande taille sur l'inflammation et les événements cardiovasculaires chez les personnes vivant avec le VIH
 - Un plan de gestion des interactions avec les antirétroviraux (inhibiteurs de protéase potentialisés notamment) et des limites de dose
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lipitor (atorvastatin calcium) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a60cc18b-0631-4cf0-b021-9f52224ece65) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypotrichose simple
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances publiées, le minoxidil ouvre les canaux potassiques sensibles à l'ATP, provoque une vasodilatation et prolonge la phase anagène du follicule pileux. Il favorise aussi la prolifération folliculaire.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Minoxidil est (traduction non officielle) : « Ouvreur du récepteur des sulfonylurées 2 et de Kir6.2 » Texte original en anglais : "Sulfonylurea receptor 2, Kir6.2 opener" ([ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances publiées, le minoxidil ouvre les canaux potassiques sensibles à l'ATP, provoque une vasodilatation et prolonge la phase anagène du follicule pileux. Il favorise aussi la prolifération folliculaire.
 
 L'hypotrichose simple héréditaire du cuir chevelu est une raréfaction capillaire non cicatricielle, d'origine génétique (variants du gène CDSN dans l'un des cas rapportés). Un médicament qui stimule la croissance du follicule pourrait donc, en théorie, être pertinent.
 
@@ -114,11 +114,12 @@ Les preuves se limitent toutefois à trois rapports de cas où le minoxidil est 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-13 | AMM valides : 17 → 19 (aucune annulée) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Cette prédiction reflète surtout une association déjà connue avec la LLC, et
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le vénétoclax inhibe la protéine anti-apoptotique BCL-2, qui est surexprimée dans la LLC/SLL. Il restaure ainsi la mort cellulaire programmée des cellules malignes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Venetoclax (traduction non officielle) : « Le vénétoclax est un inhibiteur sélectif de BCL-2, une protéine anti-apoptotique, de type petite molécule et biodisponible par voie orale. Une surexpression de BCL-2 a été mise en évidence dans les cellules de LLC et de LAM, où elle favorise la survie des cellules tumorales, et a été associée à une résistance aux agents de chimiothérapie. » Texte original en anglais : "Venetoclax is a selective and orally bioavailable small-molecule inhibitor of BCL-2, an anti-apoptotic protein. Overexpression of BCL-2 has been demonstrated in CLL and AML cells where it mediates tumor cell survival and has been associated with resistance to chemotherapeutics." ([DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018), version du 2026-05-20 ; consulté le 2026-11-19). Sur la base des informations connues, le vénétoclax inhibe la protéine anti-apoptotique BCL-2, qui est surexprimée dans la LLC/SLL. Il restaure ainsi la mort cellulaire programmée des cellules malignes.
 
 Le sous-type prédit (IGHV muté) est biologiquement un sous-ensemble de la LLC, avec un pronostic généralement plus favorable. Une justification mécanistique est donc plausible. Toutefois, le vénétoclax est déjà établi dans la LLC en général : le score TxGNN élevé traduit l'association connue avec la LLC plutôt qu'une preuve nouvelle.
 
@@ -141,12 +141,13 @@ Il s'agit toutefois d'un usage déjà standard (vénétoclax + azacitidine chez 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Venclexta (venetoclax) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b118a40d-6b56-cee3-10f6-ded821a97018) |
 
 <!-- review:end log -->
 

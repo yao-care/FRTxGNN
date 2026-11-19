@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **gastroduodénite
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature de physiologie citée, la métoclopramide, antagoniste dopaminergique qui stimule aussi le système cholinergique intramural, augmente la force des contractions de l'antre et améliore la coordination antro-duodénale, de façon comparable à la dompéridone et au cisapride.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Metoclopramide (traduction non officielle) : « Le métoclopramide stimule la motilité du tractus gastro-intestinal supérieur sans stimuler les sécrétions gastriques, biliaires ou pancréatiques. Le mécanisme d'action exact du métoclopramide dans le traitement du reflux gastro-œsophagien et de la gastroparésie diabétique aiguë et récidivante n'a pas été entièrement établi. » Texte original en anglais : "Metoclopramide stimulates motility of the upper gastrointestinal tract without stimulating gastric, biliary, or pancreatic secretions. The exact mechanism of action of metoclopramide in the treatment of gastroesophageal reflux and acute and recurrent diabetic gastroparesis has not been fully established." ([DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397), version du 2026-02-09 ; consulté le 2026-11-19). D'après la littérature de physiologie citée, la métoclopramide, antagoniste dopaminergique qui stimule aussi le système cholinergique intramural, augmente la force des contractions de l'antre et améliore la coordination antro-duodénale, de façon comparable à la dompéridone et au cisapride.
 
 Ces effets pourraient soulager des symptômes liés à la motilité, comme les nausées ou la vidange gastrique retardée, qui accompagnent les atteintes gastroduodénales. En revanche, rien ne montre que la métoclopramide traite l'inflammation muqueuse sous-jacente, et le lien avec la gastroduodénite reste donc spéculatif.
 
@@ -102,11 +102,12 @@ Aucune étude ne teste la métoclopramide dans la gastroduodénite (niveau de pr
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Supprimé : « Le médicament n'est pas commercialisé en France (Not marketed) » | N'apparaît plus après la régénération du rapport (2026-11-12 : le rapport a été régénéré en novembre 2026 et ne contient plus cette affirmation ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->
 

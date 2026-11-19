@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le cyclopentolate fait partie de la classe des antagonistes muscariniques. Son efficacité dans la cycloplégie et la mydriase par voie ophtalmique est établie.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cyclopentolate (traduction non officielle) : « Cette préparation anticholinergique bloque les réponses du muscle sphincter de l'iris et du muscle accommodateur du corps ciliaire à la stimulation cholinergique, ce qui produit une dilatation pupillaire (mydriase) et une paralysie de l'accommodation (cycloplégie). Elle agit rapidement, mais sa durée d'action est plus courte que celle de l'atropine. » Texte original en anglais : "This anticholinergic preparation blocks the responses of the sphincter muscle of the iris and the accommodative muscle of the ciliary body to cholinergic stimulation, producing pupillary dilation (mydriasis) and paralysis of accommodation (cycloplegia). It acts rapidly, but has a shorter duration than atropine." ([DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e), version du 2024-06-25 ; consulté le 2026-11-19). Sur la base des informations connues, le cyclopentolate fait partie de la classe des antagonistes muscariniques. Son efficacité dans la cycloplégie et la mydriase par voie ophtalmique est établie.
 
 Un raisonnement théorique est possible : le syndrome de la queue de cheval provoque souvent des troubles vésicaux, et le blocage des récepteurs muscariniques pourrait réduire l'hyperactivité du détrusor. Cependant, cette hypothèse reste fragile : le cyclopentolate est un agent ophtalmique sans usage systémique ou urologique établi, et il n'agit pas sur la pathologie sous-jacente, qui est une compression neurologique.
 
@@ -115,11 +115,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et le produit n'est plus commercialisé en France (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cyclogyl (cyclopentolate hydrochloride) prescribing information, Alcon Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d008c76-7210-4ace-90fa-7cd22762e12e) |
 
 <!-- review:end log -->
 

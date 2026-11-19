@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie de la
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Il est toutefois connu que la codéine est une prodrogue agoniste des récepteurs opioïdes mu, transformée en morphine par le CYP2D6. Elle est utilisée pour soulager la toux et la douleur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Codeine (traduction non officielle) : « Le sulfate de codéine est un agoniste opioïde relativement sélectif du récepteur opioïde mu, mais avec une affinité beaucoup plus faible que celle de la morphine. Il a été supposé que les propriétés analgésiques de la codéine proviennent de sa conversion en morphine, bien que le mécanisme exact de l'action analgésique reste inconnu. » Texte original en anglais : "Codeine sulfate is an opioid agonist relatively selective for the mu-opioid receptor, but with a much weaker affinity than morphine. The analgesic properties of codeine have been speculated to come from its conversion to morphine, although the exact mechanism of analgesic action remains unknown." ([DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293), version du 2026-01-16 ; consulté le 2026-11-19). Il est toutefois connu que la codéine est une prodrogue agoniste des récepteurs opioïdes mu, transformée en morphine par le CYP2D6. Elle est utilisée pour soulager la toux et la douleur.
 
 Le score très élevé (0,9993) reflète probablement la proximité, dans le réseau de connaissances, avec les indications d'origine (rhinite, rhinopharyngite, rhume). Ces indications sont symptomatiques (toux, congestion) et non modificatrices de la maladie.
 
@@ -110,6 +110,19 @@ Les trois autres prédictions n'appuient pas non plus un repositionnement :
 - Hold.
 - **Céphalée autonomique trigéminale** (0.9943, L4) : les deux publications ne montrent aucun bénéfice de la codéine. Les opioïdes sont généralement déconseillés dans ces céphalées (efficacité limitée, céphalée par abus médicamenteux, dépendance). Hold.
 - **Urticaire allergique** (0.9937, L4) : la littérature montre que la codéine **provoque** l'urticaire en libérant l'histamine des mastocytes, et sert de témoin positif dans les tests cutanés. Son usage dans cette indication est mécanistiquement contre-indiqué. Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: codeine sulfate prescribing information, Lannett Company, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5819bdf7-300e-45b8-8f3a-447b53656293) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

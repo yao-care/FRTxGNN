@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie r�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la quétiapine appartient à la classe des antipsychotiques atypiques. Son efficacité dans la schizophrénie et les troubles bipolaires repose sur un antagonisme des récepteurs sérotoninergiques 5-HT2A, dopaminergiques D2 et histaminiques H1.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Quetiapine (traduction non officielle) : « Le mécanisme d'action de la quétiapine dans les indications mentionnées n'est pas clairement établi. Cependant, l'efficacité de la quétiapine dans ces indications pourrait s'expliquer par une combinaison d'antagonisme des récepteurs dopaminergiques de type 2 (D 2 ) et sérotoninergiques de type 2A (5HT 2A ). » Texte original en anglais : "The mechanism of action of quetiapine in the listed indications is unclear. However, the efficacy of quetiapine in these indications could be mediated through a combination of dopamine type 2 (D 2 ) and serotonin type 2A (5HT 2A ) antagonism." ([DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933), version du 2026-10-08 ; consulté le 2026-11-19). Sur la base des informations connues, la quétiapine appartient à la classe des antipsychotiques atypiques. Son efficacité dans la schizophrénie et les troubles bipolaires repose sur un antagonisme des récepteurs sérotoninergiques 5-HT2A, dopaminergiques D2 et histaminiques H1.
 
 Ce profil pharmacologique n'a aucun lien reconnu avec les causes génétiques des dégénérescences rétiniennes héréditaires. Le score élevé (0,9957) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. La similarité avec l'indication originale n'a pas pu être évaluée.
 
@@ -140,12 +140,13 @@ Les mises en garde et contre-indications issues de la notice ANSM ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (annulation de toutes les AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Quetiapine Extended Release (quetiapine) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6953175c-78ec-442c-b91d-97dfb57db933) |
 
 <!-- review:end log -->
 

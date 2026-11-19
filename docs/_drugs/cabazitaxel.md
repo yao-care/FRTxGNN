@@ -56,7 +56,7 @@ mais les données compilées pour ce rapport ne contiennent **aucun essai cliniq
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le cabazitaxel appartient à la classe des taxanes, comme le paclitaxel et le docétaxel, dont l'activité dans le cancer du sein est établie. Il stabilise les microtubules et inhibe la mitose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cabazitaxel (traduction non officielle) : « Le cabazitaxel est un inhibiteur des microtubules. Le cabazitaxel se lie à la tubuline et favorise son assemblage en microtubules tout en inhibant simultanément leur désassemblage. Cela entraîne la stabilisation des microtubules, ce qui se traduit par l'inhibition des fonctions cellulaires mitotiques et interphasiques. » Texte original en anglais : "Cabazitaxel is a microtubule inhibitor. Cabazitaxel binds to tubulin and promotes its assembly into microtubules while simultaneously inhibiting disassembly. This leads to the stabilization of microtubules, which results in the inhibition of mitotic and interphase cellular functions." ([DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa), version du 2025-10-07 ; consulté le 2026-11-19). Sur la base des informations connues, le cabazitaxel appartient à la classe des taxanes, comme le paclitaxel et le docétaxel, dont l'activité dans le cancer du sein est établie. Il stabilise les microtubules et inhibe la mitose.
 
 Il est conçu pour être un mauvais substrat de la glycoprotéine P, ce qui lui permettrait de conserver une activité dans des tumeurs résistantes aux taxanes. Des travaux précliniques sur des lignées de cancer du sein (dont le cancer du sein triple négatif) vont dans ce sens, mais le lien reste indirect.
 
@@ -121,6 +121,19 @@ Aucun essai clinique n'est enregistré dans les données compilées. Les publica
 - Données sur le mécanisme d'action issues de DrugBank
 - Mises en garde et contre-indications officielles issues de la notice ANSM
 - Plan de surveillance hématologique et des interactions (notamment inhibiteurs et inducteurs du CYP3A4)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Jevtana (cabazitaxel) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de3d9c26-572b-4ea4-9b2d-dd58a2b3e8fa) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

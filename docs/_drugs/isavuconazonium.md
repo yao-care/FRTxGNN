@@ -60,7 +60,7 @@ Une seconde prédiction, le **mycétome** (score de 0,9934), repose sur une seul
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans le dossier compilé. D'après les connaissances générales, l'isavuconazonium est le promédicament de l'isavuconazole, un triazole qui inhibe la lanostérol 14-alpha-déméthylase (CYP51) et bloque ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Isavuconazonium (traduction non officielle) : « Le sulfate d'isavuconazonium est la prodrogue de l'isavuconazole, un antifongique azolé. […] Le sulfate d'isavuconazonium est la prodrogue de l'isavuconazole, un médicament antifongique azolé. L'isavuconazole inhibe la synthèse de l'ergostérol, un composant essentiel de la membrane cellulaire fongique, par l'inhibition de l'enzyme dépendante du cytochrome P-450, la lanostérol 14-alpha-déméthylase. » Texte original en anglais : "Isavuconazonium sulfate is the prodrug of isavuconazole, an azole antifungal. […] Isavuconazonium sulfate is the prodrug of isavuconazole, an azole antifungal drug. Isavuconazole inhibits the synthesis of ergosterol, a key component of the fungal cell membrane, through the inhibition of cytochrome P-450 dependent enzyme lanosterol 14-alpha-demethylase." ([DailyMed: Cresemba (isavuconazonium sulfate) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7f73b8-586a-4df0-935f-fecd4696c16c), version du 2025-04-25 ; consulté le 2026-11-19). D'après les connaissances générales, l'isavuconazonium est le promédicament de l'isavuconazole, un triazole qui inhibe la lanostérol 14-alpha-déméthylase (CYP51) et bloque ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
 
 Le lien de la prédiction avec la pneumocystose est **biologiquement faible**. *Pneumocystis jirovecii* ne possède pas d'ergostérol et utilise le cholestérol et d'autres stérols dans sa membrane : la cible des azolés n'est donc pas clairement présente. De plus, les azolés ne sont pas un traitement établi de la pneumonie à *Pneumocystis* (le cotrimoxazole, associant triméthoprime et sulfaméthoxazole, reste la référence). Le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'est pas étayé par un raisonnement mécanistique solide.
 
@@ -129,11 +129,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cresemba (isavuconazonium sulfate) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7f73b8-586a-4df0-935f-fecd4696c16c) |
 
 <!-- review:end log -->
 

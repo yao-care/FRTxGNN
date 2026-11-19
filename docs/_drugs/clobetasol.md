@@ -56,7 +56,7 @@ Actuellement, **aucun essai clinique** n'est enregistré, mais **15 publications
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base utilisée. Sur la base des informations connues, le clobétasol propionate est un corticoïde topique de très forte puissance, agissant par la voie du récepteur des glucocorticoïdes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clobetasol (traduction non officielle) : « Comme les autres corticostéroïdes topiques, le propionate de clobétasol possède des propriétés anti-inflammatoires, antiprurigineuses et vasoconstrictrices. Le mécanisme de l'activité anti-inflammatoire des stéroïdes topiques, en général, n'est pas élucidé. » Texte original en anglais : "Like other topical corticosteroids, clobetasol propionate has anti-inflammatory, antipruritic, and vasoconstrictive properties. The mechanism of the anti-inflammatory activity of the topical steroids, in general, is unclear." ([DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069), version du 2026-11-10 ; consulté le 2026-11-19). Sur la base des informations connues, le clobétasol propionate est un corticoïde topique de très forte puissance, agissant par la voie du récepteur des glucocorticoïdes.
 
 Dans le mycosis fongoïde de stade précoce (plaques et macules), forme la plus fréquente de lymphome cutané primitif à cellules T, les glucocorticoïdes peuvent induire l'apoptose des lymphocytes T malins et réduire l'inflammation cutanée ainsi que l'activité des lymphocytes T infiltrant la peau. Cela pourrait diminuer la charge lésionnelle.
 
@@ -131,12 +131,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 9 AMM recensées sont toutes valides et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Statut réglementaire : médicament commercialisé, avec 9 AMM valides sur 9 ; vérifier la disponibilité actuelle des spécialités concernées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Clobetasol Propionate (Emollient) (clobetasol propionate) prescribing information, The J. Molner Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26ccb1d8-c466-e238-e063-6394a90a0069) |
 
 <!-- review:end log -->
 

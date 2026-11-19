@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la minocycline appartient à la classe des tétracyclines. Son efficacité antibactérienne est établie dans les indications d'origine, et elle pourrait mécanistiquement être applicable à certaines atteintes de la surface oculaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Minocycline (traduction non officielle) : « Le mécanisme d'action d'ARESTIN en complément des procédures de détartrage et de surfaçage radiculaire pour la réduction de la profondeur des poches chez les patients atteints de parodontite de l'adulte est inconnu. » Texte original en anglais : "The mechanism of action of ARESTIN as an adjunct to scaling and root planing procedures for reduction of pocket depth in patients with adult periodontitis is unknown." ([DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb), version du 2024-05-31 ; consulté le 2026-11-19). Sur la base des informations connues, la minocycline appartient à la classe des tétracyclines. Son efficacité antibactérienne est établie dans les indications d'origine, et elle pourrait mécanistiquement être applicable à certaines atteintes de la surface oculaire.
 
 Au-delà de son activité antibactérienne, la minocycline est décrite comme ayant des propriétés anti-inflammatoires, inhibitrices des métalloprotéinases matricielles (MMP) et anti-apoptotiques. Ces effets pourraient être pertinents pour l'inflammation de la surface oculaire. Par analogie, d'autres tétracyclines (comme la doxycycline) sont utilisées dans des atteintes de la surface oculaire telles que le dysfonctionnement des glandes de Meibomius et la blépharite.
 
@@ -119,12 +119,13 @@ Les mises en garde et contre-indications issues de la notice n'ont pas pu être 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 60929447 (MYNOCINE 100 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
 
 <!-- review:end log -->
 

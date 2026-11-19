@@ -58,7 +58,7 @@ avec **2 essais cliniques** (dont un essai de Phase 3 toujours en cours) et **2 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, le ticagrélor est un antagoniste réversible du récepteur plaquettaire P2Y12, qui réduit l'agrégation plaquettaire. Son efficacité dans le syndrome coronarien aigu est établie, et il pourrait mécanistiquement être applicable à d'autres maladies athérothrombotiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ticagrelor (traduction non officielle) : « Le ticagrélor et son principal métabolite interagissent de manière réversible avec le récepteur P2Y 12 de l'ADP plaquettaire pour empêcher la transduction du signal et l'activation plaquettaire. Le ticagrélor et son métabolite actif sont approximativement équipotents. » Texte original en anglais : "Ticagrelor and its major metabolite reversibly interact with the platelet P2Y 12 ADP-receptor to prevent signal transduction and platelet activation. Ticagrelor and its active metabolite are approximately equipotent." ([DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8), version du 2026-05-07 ; consulté le 2026-11-19). Sur la base des informations connues, le ticagrélor est un antagoniste réversible du récepteur plaquettaire P2Y12, qui réduit l'agrégation plaquettaire. Son efficacité dans le syndrome coronarien aigu est établie, et il pourrait mécanistiquement être applicable à d'autres maladies athérothrombotiques.
 
 L'artériosclérose intracrânienne partage avec les maladies coronariennes et périphériques un processus athérothrombotique : rupture ou érosion de plaque, activation plaquettaire, puis thrombose. Un antiagrégant puissant comme le ticagrélor est donc une hypothèse pertinente, d'autant que le traitement standard actuel (clopidogrel + aspirine) laisse persister un risque élevé de récidive d'AVC jusqu'à 12 mois.
 
@@ -126,11 +126,12 @@ Pour les mises en garde détaillées, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
 
 <!-- review:end log -->
 

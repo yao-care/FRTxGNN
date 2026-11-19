@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**infection par le 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-La rifabutine inhibe l'ARN polymérase bactérienne ARN-dépendante de l'ADN (gène *rpoB*). Elle n'est pas un antirétroviral et n'a pas d'activité directe démontrée contre le VIH. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport ; cette description repose sur les connaissances pharmacologiques générales.
+La rifabutine inhibe l'ARN polymérase bactérienne ARN-dépendante de l'ADN (gène *rpoB*). Elle n'est pas un antirétroviral et n'a pas d'activité directe démontrée contre le VIH. Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rifabutin (traduction non officielle) : « La rifabutine inhibe l'ARN polymérase ADN-dépendante chez les souches sensibles d'Escherichia coli et de Bacillus subtilis, mais pas dans les cellules de mammifères. Chez les souches résistantes d'E. coli, la rifabutine, comme la rifampicine, n'a pas inhibé cette enzyme. » Texte original en anglais : "Rifabutin inhibits DNA-dependent RNA polymerase in susceptible strains of Escherichia coli and Bacillus subtilis but not in mammalian cells. In resistant strains of E. coli, rifabutin, like rifampin, did not inhibit this enzyme." ([DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589), version du 2026-09-01 ; consulté le 2026-11-19).
 
 Le score élevé reflète probablement le contexte des infections opportunistes associées au VIH (complexe *Mycobacterium avium*, tuberculose), où la rifabutine est largement étudiée. Elle induit moins le CYP3A4 que la rifampicine, ce qui la rend préférable en association avec les inhibiteurs de protéase.
 
@@ -118,6 +118,18 @@ Les études disponibles concernent la tuberculose et les infections à MAC chez 
 - Des études cliniques évaluant directement cette indication
 - Les mises en garde et contre-indications de la notice officielle
 - Un plan de gestion des interactions avec les antirétroviraux et de surveillance hématologique (neutropénie)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: rifabutin prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=25a60937-cbbe-4a50-994f-2ce15203f589) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

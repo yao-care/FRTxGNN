@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**ovarite auto-i
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'insuline glargine est un analogue de l'insuline humaine à action prolongée, dont l'efficacité dans le diabète est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Insulin Glargine (traduction non officielle) : « L'activité principale de l'insuline, y compris les produits à base d'insuline glargine, est la régulation du métabolisme du glucose. L'insuline et ses analogues abaissent la glycémie en stimulant la captation périphérique du glucose, en particulier par les muscles squelettiques et le tissu adipeux, et en inhibant la production hépatique de glucose. » Texte original en anglais : "The primary activity of insulin, including insulin glargine products, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810), version du 2026-10-15 ; consulté le 2026-11-19). Sur la base des informations connues, l'insuline glargine est un analogue de l'insuline humaine à action prolongée, dont l'efficacité dans le diabète est établie.
 
 Le lien avec l'ovarite auto-immune est probablement indirect. Cette maladie est souvent associée à des syndromes polyendocriniens auto-immuns, qui incluent un diabète auto-immun. Le score élevé reflète donc vraisemblablement une proximité dans le réseau de maladies, et non un effet thérapeutique sur l'ovarite elle-même. L'insuline traiterait tout au plus un diabète associé.
 
@@ -124,11 +124,12 @@ La prédiction pour l'ovarite auto-immune repose uniquement sur le score du mod�
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Trois autres AMM annulées existent (LANTUS en flacon, LANTUS SOLOSTAR, ABASAGLAR en cartouche) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Langlara (insulin glargine-aldy) prescribing information, Lanexa Biologics, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5328761e-59d3-ca7a-e063-6394a90ae810) |
 
 <!-- review:end log -->
 

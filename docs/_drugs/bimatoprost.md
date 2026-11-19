@@ -56,7 +56,7 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Le bimatoprost appartient à la classe des analogues de la prostamide/prostaglandine F2α, qui agissent sur les récepteurs FP et les récepteurs de la prostamide.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bimatoprost (traduction non officielle) : « Le bimatoprost, un analogue des prostaglandines, est un analogue structural synthétique des prostaglandines doté d'une activité hypotensive oculaire. On pense que le bimatoprost diminue la PIO chez l'homme en augmentant l'écoulement de l'humeur aqueuse à la fois par le trabéculum (voie conventionnelle) et par la voie uvéosclérale (voie non conventionnelle). » Texte original en anglais : "Bimatoprost, a prostaglandin analog, is a synthetic structural analog of prostaglandin with ocular hypotensive activity. Bimatoprost is believed to lower IOP in humans by increasing outflow of aqueous humor through both the trabecular meshwork (conventional) and uveoscleral routes (unconventional)." ([DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341), version du 2024-10-16 ; consulté le 2026-11-19). Le bimatoprost appartient à la classe des analogues de la prostamide/prostaglandine F2α, qui agissent sur les récepteurs FP et les récepteurs de la prostamide.
 
 L'analyse des données compilées ne met en évidence **aucun lien mécanistique identifiable** avec cette nouvelle indication. Il s'agit d'une anomalie du développement dentaire et/ou parodontal, de nature structurelle, pour laquelle un analogue de la prostamide n'a pas de rôle plausible connu. Le score élevé reflète une prédiction issue du modèle, et non une preuve biologique ou clinique.
 
@@ -92,6 +92,19 @@ La prédiction repose uniquement sur le score du modèle, sans essai clinique ni
 - Des études précliniques ou des observations cliniques portant directement sur cette maladie
 - La récupération des mises en garde et contre-indications de la notice ANSM, pour permettre une évaluation de sécurité
 - Une évaluation de la compatibilité de la voie d'administration (collyre) avec cette nouvelle indication
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Durysta (bimatoprost) prescribing information, Allergan, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3f59da84-0bcc-4c84-b3e2-e215681ef341) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

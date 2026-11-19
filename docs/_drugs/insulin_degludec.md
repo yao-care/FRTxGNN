@@ -60,7 +60,7 @@ Il s'agit en pratique d'une indication très proche de l'usage établi du médic
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'insuline dégludec est une insuline basale analogue à action ultra-longue qui se lie au récepteur de l'insuline et abaisse la glycémie. Son efficacité dans le diabète sucré est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Insulin Degludec (traduction non officielle) : « L'activité principale de l'insuline, y compris TRESIBA, est la régulation du métabolisme du glucose. L'insuline et ses analogues diminuent la glycémie en stimulant la captation périphérique du glucose, notamment par les muscles squelettiques et le tissu adipeux, et en inhibant la production hépatique de glucose. » Texte original en anglais : "The primary activity of insulin, including TRESIBA, is regulation of glucose metabolism. Insulin and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17), version du 2024-02-22 ; consulté le 2026-11-19). Sur la base des informations connues, l'insuline dégludec est une insuline basale analogue à action ultra-longue qui se lie au récepteur de l'insuline et abaisse la glycémie. Son efficacité dans le diabète sucré est établie.
 
 Le diabète de type 1 se caractérise par une carence absolue en insuline : un remplacement par insuline basale constitue donc un usage direct, conforme au mécanisme. La prédiction du modèle est cohérente avec les preuves cliniques, mais elle reflète l'indication déjà établie du médicament plutôt qu'une véritable nouvelle utilisation.
 
@@ -155,11 +155,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (le statut « annulé » peut refléter un problème de qualité des données ou un changement d'AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tresiba (insulin degludec) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8ccd2f4-6ba9-4839-87f8-4742dc9b1c17) |
 
 <!-- review:end log -->
 

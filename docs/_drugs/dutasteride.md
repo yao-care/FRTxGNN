@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose un
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, dutasteride est un inhibiteur double de la 5-alpha-réductase (types 1 et 2) qui diminue le taux de dihydrotestostérone (DHT). Son efficacité dans l'hyperplasie bénigne de la prostate repose sur cette réduction de la DHT.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dutasteride (traduction non officielle) : « Le dutastéride inhibe la conversion de la testostérone en DHT. La DHT est l'androgène principalement responsable du développement initial et de l'augmentation ultérieure du volume de la prostate. La testostérone est convertie en DHT par l'enzyme 5 alpha-réductase, qui existe sous 2 isoformes, de type 1 et de type 2. » Texte original en anglais : "Dutasteride inhibits the conversion of testosterone to DHT. DHT is the androgen primarily responsible for the initial development and subsequent enlargement of the prostate gland. Testosterone is converted to DHT by the enzyme 5 alpha-reductase, which exists as 2 isoforms, type 1 and type 2." ([DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3), version du 2026-08-27 ; consulté le 2026-11-19). D'après les connaissances générales, dutasteride est un inhibiteur double de la 5-alpha-réductase (types 1 et 2) qui diminue le taux de dihydrotestostérone (DHT). Son efficacité dans l'hyperplasie bénigne de la prostate repose sur cette réduction de la DHT.
 
 La relation avec la nouvelle indication est **faible**. Le syndrome d'Ambras est une hypertrichose congénitale liée à des remaniements génomiques touchant la régulation du gène TRPS1, et non à un excès d'androgènes. Une baisse de la DHT n'a donc pas de justification claire pour corriger cette pilosité d'origine génétique. Le score provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; aucun essai ni publication ne l'appuie.
 
@@ -119,12 +119,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « de la disponibilité du produit en France (AMM annu » → « de la disponibilité du produit en France (la plupa » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: dutasteride prescribing information, Strides Pharma Science Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c78d18cf-05df-4154-b2f9-39cc374ca9e3) |
 
 <!-- review:end log -->
 

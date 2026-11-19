@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'éthosuximide est un bloqueur des canaux calciques de type T (Cav3.x), agissant principalement sur les neurones thalamiques, ce qui explique son efficacité dans l'épilepsie-absence.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ethosuximide (traduction non officielle) : « L'éthosuximide supprime l'activité paroxystique de pointes-ondes à trois cycles par seconde associée aux pertes de conscience, fréquente dans les crises d'absence (petit mal). La fréquence des crises épileptiformes est réduite, apparemment par une dépression du cortex moteur et une élévation du seuil du système nerveux central aux stimuli convulsivants. » Texte original en anglais : "Ethosuximide suppresses the paroxysmal three cycle per second spike and wave activity associated with lapses of consciousness which is common in absence (petit mal) seizures. The frequency of epileptiform attacks is reduced, apparently by depression of the motor cortex and elevation of the threshold of the central nervous system to convulsive stimuli." ([DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6), version du 2026-05-25 ; consulté le 2026-11-19). D'après les connaissances générales, l'éthosuximide est un bloqueur des canaux calciques de type T (Cav3.x), agissant principalement sur les neurones thalamiques, ce qui explique son efficacité dans l'épilepsie-absence.
 
 Le NSIAD est causé par des mutations gain de fonction du récepteur V2 de la vasopressine (AVPR2, par exemple R137C/R137L). Ces mutations entraînent une activité constitutive du récepteur et une rétention d'eau indépendante de la vasopressine. Les canaux calciques de type T sont exprimés dans le tissu rénal, mais **aucun lien mécanistique établi** n'existe avec la signalisation constitutive du récepteur V2.
 
@@ -121,11 +121,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'unique AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zarontin (ethosuximide) prescribing information, Parke-Davis Div of Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0e008f33-70a1-4bc6-b3a0-d45214418ab6) |
 
 <!-- review:end log -->
 

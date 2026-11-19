@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour le **néoplasme du ne
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la carbamazépine bloque les canaux sodiques voltage-dépendants, ce qui réduit les décharges neuronales anormales. C'est ce mécanisme qui explique son effet sur la douleur neuropathique du trijumeau.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Carbamazepine (traduction non officielle) : « Tegretol a démontré des propriétés anticonvulsivantes chez le rat et la souris présentant des crises induites électriquement et chimiquement. Il semble agir en réduisant les réponses polysynaptiques et en bloquant la potentialisation post-tétanique. […] Le principal métabolite de Tegretol, le carbamazépine-10,11-époxyde, possède une activité anticonvulsivante, comme l'ont démontré plusieurs modèles animaux in vivo de crises convulsives. » Texte original en anglais : "Tegretol has demonstrated anticonvulsant properties in rats and mice with electrically and chemically induced seizures. It appears to act by reducing polysynaptic responses and blocking the post-tetanic potentiation. […] The principal metabolite of Tegretol, carbamazepine-10,11-epoxide, has anticonvulsant activity as demonstrated in several in vivo animal models of seizures." ([DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053), version du 2026-08-20 ; consulté le 2026-11-19). D'après les connaissances générales, la carbamazépine bloque les canaux sodiques voltage-dépendants, ce qui réduit les décharges neuronales anormales. C'est ce mécanisme qui explique son effet sur la douleur neuropathique du trijumeau.
 
 Le score élevé s'explique vraisemblablement par la proximité, dans le réseau de connaissances du modèle, entre la carbamazépine et la névralgie du trijumeau, plutôt que par un effet antitumoral. La littérature retrouvée porte sur des névralgies secondaires à des tumeurs ou des masses (méningiome, kyste dermoïde, lipome, angiome veineux, lymphome) et sur le contrôle symptomatique de la douleur. Aucune de ces publications ne montre que la carbamazépine agit sur la tumeur elle-même.
 
@@ -111,6 +111,19 @@ Aucun essai clinique ni aucune publication n'étudie directement l'effet de la c
 - La notice officielle (mises en garde, contre-indications) pour mener le dépistage de sécurité
 - Des études cliniques ciblant spécifiquement les tumeurs du nerf trijumeau, en distinguant le contrôle de la douleur d'un éventuel effet sur la tumeur
 - Une évaluation des interactions médicamenteuses, notamment avec les traitements oncologiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tegretol (carbamazepine) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8d409411-aa9f-4f3a-a52c-fbcb0c3ec053) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -60,7 +60,7 @@ Il s'agit toutefois d'une indication déjà établie : ce n'est pas un véritabl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'insuline détémir est un analogue de l'insuline humaine à action prolongée, acylé par un acide gras en C14 (acide myristique). Cette modification lui permet de se lier de façon réversible à l'albumine, ce qui ralentit son absorption et prolonge son effet métabolique jusqu'à 24 heures.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Insulin Detemir (traduction non officielle) : « L'activité principale de l'insuline, y compris LEVEMIR, est la régulation du métabolisme du glucose. Les insulines et leurs analogues abaissent la glycémie en stimulant la captation périphérique du glucose, en particulier par les muscles squelettiques et le tissu adipeux, et en inhibant la production hépatique de glucose. » Texte original en anglais : "The primary activity of insulin, including LEVEMIR, is regulation of glucose metabolism. Insulins and its analogs lower blood glucose by stimulating peripheral glucose uptake, especially by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c), version du 2024-10-09 ; consulté le 2026-11-19). D'après les informations connues, l'insuline détémir est un analogue de l'insuline humaine à action prolongée, acylé par un acide gras en C14 (acide myristique). Cette modification lui permet de se lier de façon réversible à l'albumine, ce qui ralentit son absorption et prolonge son effet métabolique jusqu'à 24 heures.
 
 Dans le diabète de type 1, le pancréas ne produit plus assez d'insuline. L'insuline basale remplace cette insuline manquante en se fixant sur le récepteur de l'insuline. Le diabète de type 1 relève donc directement de l'indication d'origine (diabète sucré) : la prédiction du modèle reflète un usage déjà établi, et non une nouvelle piste thérapeutique.
 
@@ -156,11 +156,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les trois AMM sont annulées, ce qui limite la disponibilité pratique du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Levemir (insulin detemir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82192527-99aa-4b53-8ce9-9173668d309c) |
 
 <!-- review:end log -->
 

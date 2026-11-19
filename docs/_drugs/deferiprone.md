@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **porphyrie hépat
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, la déferiprone est un chélateur oral du fer, dont l'efficacité a été établie dans la surcharge en fer liée à la bêta-thalassémie et pourrait, mécanistiquement, être applicable aux pathologies où le fer joue un rôle pathogène.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Deferiprone (traduction non officielle) : « La défériprone est un agent chélateur ayant une affinité pour les ions ferriques (fer III). La défériprone se lie aux ions ferriques pour former des complexes neutres 3:1 (défériprone:fer) qui sont stables au pH physiologique. » Texte original en anglais : "Deferiprone is a chelating agent with an affinity for ferric ions (iron III). Deferiprone binds with ferric ions to form neutral 3:1 (deferiprone:iron) complexes that are stable at physiological pH." ([DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86), version du 2026-01-28 ; consulté le 2026-11-19). Sur la base des informations connues, la déferiprone est un chélateur oral du fer, dont l'efficacité a été établie dans la surcharge en fer liée à la bêta-thalassémie et pourrait, mécanistiquement, être applicable aux pathologies où le fer joue un rôle pathogène.
 
 Dans la porphyrie cutanée tardive, la surcharge hépatique en fer et l'inhibition de l'uroporphyrinogène décarboxylase dépendante du fer sont des éléments centraux. Réduire le fer labile est donc plausible. Un modèle murin d'uroporphyrie a testé un chélateur oral du fer (la déferiprone), et une publication de 2020 a décrit une amélioration de l'anémie hémolytique et de la photosensibilité dans la porphyrie érythropoïétique congénitale grâce à la chélation du fer.
 
@@ -117,12 +117,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM annulée existe (66508896, DEFERIPRONE LIPOMED 500 mg, comprimé pelliculé) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM en France et les voies d'accès possibles au médicament » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ferriprox (deferiprone) prescribing information, Chiesi USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=946718ff-df43-1baa-74d1-e5bcfbe8ad86) |
 
 <!-- review:end log -->
 

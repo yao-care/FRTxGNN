@@ -56,7 +56,7 @@ mais cette prédiction ne repose que sur **2 publications** (séries et rapports
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le clobazam est un modulateur allostérique positif du récepteur GABA-A (benzodiazépine). Son efficacité dans le syndrome de Lennox-Gastaut, une encéphalopathie épileptique sévère, est reconnue.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clobazam (traduction non officielle) : « Le mécanisme d'action exact du clobazam, une 1,5-benzodiazépine, n'est pas entièrement élucidé, mais on pense qu'il implique une potentialisation de la neurotransmission GABAergique résultant de la liaison au site des benzodiazépines du récepteur GABA A. » Texte original en anglais : "The exact mechanism of action for clobazam, a 1,5-benzodiazepine, is not fully understood but is thought to involve potentiation of GABAergic neurotransmission resulting from binding at the benzodiazepine site of the GABA A receptor." ([DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c), version du 2026-10-16 ; consulté le 2026-11-19). Sur la base des informations connues, le clobazam est un modulateur allostérique positif du récepteur GABA-A (benzodiazépine). Son efficacité dans le syndrome de Lennox-Gastaut, une encéphalopathie épileptique sévère, est reconnue.
 
 Le FIRES est une forme d'état de mal épileptique réfractaire d'apparition récente (NORSE) survenant chez des enfants auparavant en bonne santé. Les crises y sont souvent résistantes aux antiépileptiques usuels et nécessitent des anesthésiques à haute dose. Le raisonnement est donc de classe : les agents GABAergiques sont couramment employés dans ces situations.
 
@@ -132,11 +132,12 @@ Ces niveaux sont ceux attribués dans les données compilées. L'encéphalopathi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Onfi (clobazam) prescribing information, Lundbeck Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de03bd69-2dca-459c-93b4-541fd3e9571c) |
 
 <!-- review:end log -->
 

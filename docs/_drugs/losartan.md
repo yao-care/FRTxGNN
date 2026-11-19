@@ -56,7 +56,7 @@ mais **aucun essai clinique** n'est enregistré et seulement **2 publications** 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, losartan appartient à la classe des antagonistes des récepteurs AT1 de l'angiotensine II. Son efficacité dans l'hypertension et la néphropathie diabétique est établie, et il pourrait mécanistiquement être applicable à l'hypertension rénovasculaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Losartan (traduction non officielle) : « L'angiotensine II [formée à partir de l'angiotensine I lors d'une réaction catalysée par l'enzyme de conversion de l'angiotensine (ECA, kininase II)] est un vasoconstricteur puissant, la principale hormone vasoactive du système rénine-angiotensine et un élément important de la physiopathologie de l'hypertension. Elle stimule également la sécrétion d'aldostérone par la corticosurrénale. […] Le losartan et son principal métabolite actif bloquent les effets vasoconstricteurs et de sécrétion d'aldostérone de l'angiotensine II en bloquant sélectivement la liaison de l'angiotensine II au récepteur AT 1 présent dans de nombreux tissus (p. ex., muscle lisse vasculaire, glande surrénale). » Texte original en anglais : "Angiotensin II [formed from angiotensin I in a reaction catalyzed by angiotensin converting enzyme (ACE, kininase II)] is a potent vasoconstrictor, the primary vasoactive hormone of the renin-angiotensin system, and an important component in the pathophysiology of hypertension. It also stimulates aldosterone secretion by the adrenal cortex. […] Losartan and its principal active metabolite block the vasoconstrictor and aldosterone-secreting effects of angiotensin II by selectively blocking the binding of angiotensin II to the AT 1 receptor found in many tissues, (e.g., vascular smooth muscle, adrenal gland)." ([DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41), version du 2026-09-15 ; consulté le 2026-11-19). Sur la base des informations connues, losartan appartient à la classe des antagonistes des récepteurs AT1 de l'angiotensine II. Son efficacité dans l'hypertension et la néphropathie diabétique est établie, et il pourrait mécanistiquement être applicable à l'hypertension rénovasculaire.
 
 L'hypertension rénovasculaire est en grande partie entretenue par l'activation du système rénine-angiotensine, en réponse à une hypoperfusion rénale causée par une sténose de l'artère rénale. Le blocage des récepteurs AT1 vise directement cette voie, ce qui rend la prédiction plausible.
 
@@ -82,7 +82,6 @@ Aucun essai clinique associé enregistré actuellement.
 | 68656210 | LOSARTAN EG 50 mg | Comprimé pelliculé sécable | Non disponible (AMM active) |
 | 66042644 | LOSARTAN EVOLUGEN 100 mg | Comprimé pelliculé | Non disponible (AMM active) |
 | 68768818 | LOSARTAN ACCORD 50 mg | Comprimé pelliculé sécable | Non disponible (AMM active) |
-
 
 ## Considérations de Sécurité
 
@@ -116,6 +115,18 @@ La notice officielle (mises en garde et contre-indications) n'a pas pu être exp
 | 6 | Angor de Prinzmetal | 0,9945 | L5 | Hold |
 | 7 | Syndrome familial autosomique dominant (hématurie, tortuosité des artérioles rétiniennes, contractures) | 0,9939 | L5 | Hold |
 | 8 | Maladie des petits vaisseaux cérébraux de type 1, avec ou sans anomalies oculaires | 0,9937 | L5 (preuves indirectes) | Question de recherche |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Losartan Potassium 50 Mg (losartan potassium) prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=498f26a1-5030-4f9b-9599-07d50e912d41) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

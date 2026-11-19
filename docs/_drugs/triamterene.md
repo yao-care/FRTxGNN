@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** directement pertinente n
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le triamtérène est un diurétique épargneur de potassium qui bloque le canal sodique épithélial (ENaC) du néphron distal. Il réduit ainsi la pression artérielle par perte de sodium et de volume.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Triamterene est (traduction non officielle) : « Bloqueur du canal sodique sensible à l'amiloride, ENaC » Texte original en anglais : "Amiloride-sensitive sodium channel, ENaC blocker" ([ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, le triamtérène est un diurétique épargneur de potassium qui bloque le canal sodique épithélial (ENaC) du néphron distal. Il réduit ainsi la pression artérielle par perte de sodium et de volume.
 
 Ce mécanisme est proche de l'indication d'origine (hypertension), ce qui explique le score élevé du modèle pour la maladie rénale hypertensive.
 
@@ -130,11 +130,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a seule AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL585 (triamterene): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL585) |
 
 <!-- review:end log -->
 

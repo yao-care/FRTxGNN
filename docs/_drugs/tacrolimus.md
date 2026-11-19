@@ -60,7 +60,7 @@ avec **2 essais cliniques** (dont un essai de phase 3 terminé) et **20 publicat
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le tacrolimus est un inhibiteur de la calcineurine : il bloque l'activation des lymphocytes T dépendante de NFAT et la libération de cytokines inflammatoires (par exemple l'IL-2). Son efficacité dans l'eczéma atopique est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tacrolimus (traduction non officielle) : « Le tacrolimus se lie à une protéine intracellulaire, la FKBP-12. Un complexe composé de tacrolimus-FKBP-12, de calcium, de calmoduline et de calcineurine (une enzyme intracellulaire ubiquitaire chez les mammifères) se forme alors et l'activité phosphatase de la calcineurine est inhibée. » Texte original en anglais : "Tacrolimus binds to an intracellular protein, FKBP-12. A complex of tacrolimus-FKBP-12, calcium, calmodulin, and calcineurin (an ubiquitous mammalian intracellular enzyme) is then formed and the phosphatase activity of calcineurin inhibited." ([DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7), version du 2025-02-26 ; consulté le 2026-11-19). Sur la base des informations connues, le tacrolimus est un inhibiteur de la calcineurine : il bloque l'activation des lymphocytes T dépendante de NFAT et la libération de cytokines inflammatoires (par exemple l'IL-2). Son efficacité dans l'eczéma atopique est établie.
 
 La dermatite séborrhéique est une maladie inflammatoire chronique de la peau, évoluant par rechutes, qui touche surtout le visage et le cuir chevelu. Elle partage avec l'eczéma atopique des voies inflammatoires communes. Par ailleurs, une activité du tacrolimus contre *Malassezia*, levure impliquée dans la dermatite séborrhéique, a été rapportée.
 
@@ -153,12 +153,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Toutes les AMM françaises du tacrolimus sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
 
 <!-- review:end log -->
 

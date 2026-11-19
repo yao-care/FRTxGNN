@@ -58,7 +58,7 @@ Larotrectinib est un inhibiteur sélectif des récepteurs TRK (NTRK1/2/3), comme
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, larotrectinib est un inhibiteur sélectif de la tyrosine kinase TRK (NTRK1/2/3), qui agit sur les tumeurs porteuses d'une fusion du gène NTRK, indépendamment de leur localisation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Larotrectinib (traduction non officielle) : « Le larotrectinib est un inhibiteur des récepteurs kinases de la tropomyosine (TRK), TRKA, TRKB et TRKC. Dans un large panel de tests sur enzymes purifiées, le larotrectinib a inhibé TRKA, TRKB et TRKC avec des valeurs de CI 50 comprises entre 5 et 11 nM. Une seule autre kinase, TNK2, a été inhibée à une concentration environ 100 fois plus élevée. » Texte original en anglais : "Larotrectinib is an inhibitor of the tropomyosin receptor kinases (TRK), TRKA, TRKB, and TRKC. In a broad panel of purified enzyme assays, larotrectinib inhibited TRKA, TRKB, and TRKC with IC 50 values between 5-11 nM. One other kinase TNK2 was inhibited at approximately 100-fold higher concentration." ([DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd), version du 2026-05-22 ; consulté le 2026-11-19). D'après les connaissances générales, larotrectinib est un inhibiteur sélectif de la tyrosine kinase TRK (NTRK1/2/3), qui agit sur les tumeurs porteuses d'une fusion du gène NTRK, indépendamment de leur localisation.
 
 La néoplasie endocrinienne multiple de type 2 (NEM2) est due à des mutations germinales activatrices de **RET**. Ses tumeurs (carcinome médullaire de la thyroïde, phéochromocytome) dépendent de la voie RET et non de la voie TRK. Le lien mécanistique direct est donc **faible**.
 
@@ -139,11 +139,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vitrakvi (larotrectinib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c8ca614-58b2-4aa4-83d3-0387a8f782fd) |
 
 <!-- review:end log -->
 

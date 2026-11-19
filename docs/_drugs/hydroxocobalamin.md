@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour les **varices œso
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'hydroxocobalamine est une forme de vitamine B12, dont l'efficacité dans la carence en B12 et l'intoxication au cyanure est établie. Aucun lien mécanistique avec les varices œsophagiennes n'est établi dans les données compilées pour ce rapport.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Hydroxocobalamin (traduction non officielle) : « Le cyanure est un poison extrêmement toxique. En l'absence de traitement rapide et adapté, l'exposition à une dose élevée de cyanure peut entraîner la mort en quelques minutes en raison de l'inhibition de la cytochrome oxydase, qui provoque un arrêt de la respiration cellulaire. […] Chaque molécule d'hydroxocobalamine peut fixer un ion cyanure en le substituant au ligand hydroxo lié à l'ion cobalt trivalent, pour former de la cyanocobalamine, qui est ensuite excrétée dans les urines. » Texte original en anglais : "Cyanide is an extremely toxic poison. In the absence of rapid and adequate treatment, exposure to a high dose of cyanide can result in death within minutes due to the inhibition of cytochrome oxidase resulting in arrest of cellular respiration. […] Each hydroxocobalamin molecule can bind one cyanide ion by substituting it for the hydroxo ligand linked to the trivalent cobalt ion, to form cyanocobalamin, which is then excreted in the urine." ([DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b), version du 2023-04-27 ; consulté le 2026-11-19). Sur la base des informations connues, l'hydroxocobalamine est une forme de vitamine B12, dont l'efficacité dans la carence en B12 et l'intoxication au cyanure est établie. Aucun lien mécanistique avec les varices œsophagiennes n'est établi dans les données compilées pour ce rapport.
 
 Une hypothèse purement théorique serait que l'hydroxocobalamine puisse piéger le monoxyde d'azote (NO) et le sulfure d'hydrogène. Cela pourrait influencer la vasodilatation splanchnique et l'hypertension portale, qui sous-tendent les varices œsophagiennes. Cette hypothèse est spéculative et n'est étayée par aucune donnée fournie.
 
@@ -107,11 +107,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM françaises sont annulées, et u » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cyanokit (hydroxocobalamin) prescribing information, BTG INTERNATIONAL INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d56fcc8d-bd64-46ab-b0c0-2124bd745a6b) |
 
 <!-- review:end log -->
 

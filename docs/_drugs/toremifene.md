@@ -54,7 +54,7 @@ Le torémifène est un modulateur sélectif des récepteurs aux œstrogènes, co
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Le torémifène appartient à la classe des antagonistes/modulateurs des récepteurs aux œstrogènes (apparentée au tamoxifène). Il est utilisé dans le cancer du sein, mais cette indication n'est pas documentée dans les données d'AMM disponibles.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Toremifene (traduction non officielle) : « Le torémifène est un dérivé non stéroïdien du triphényléthylène. Le torémifène se lie aux récepteurs des œstrogènes et peut exercer des activités œstrogéniques, anti-œstrogéniques, ou les deux, selon la durée du traitement, l'espèce animale, le sexe, l'organe cible ou le critère d'évaluation choisi. » Texte original en anglais : "Toremifene is a nonsteroidal triphenylethylene derivative. Toremifene binds to estrogen receptors and may exert estrogenic, antiestrogenic, or both activities, depending upon the duration of treatment, animal species, gender, target organ, or endpoint selected." ([DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5), version du 2024-11-13 ; consulté le 2026-11-19). Le torémifène appartient à la classe des antagonistes/modulateurs des récepteurs aux œstrogènes (apparentée au tamoxifène). Il est utilisé dans le cancer du sein, mais cette indication n'est pas documentée dans les données d'AMM disponibles.
 
 Le seul élément de soutien est une étude préclinique de 2014 (PMID 24520056) montrant que les antagonistes des récepteurs aux œstrogènes, dont le torémifène et le tamoxifène, ont une activité fongicide contre *Cryptococcus*, se lient directement à des protéines à domaine EF-hand et agissent en synergie avec le fluconazole. La cryptococcose est une infection opportuniste majeure chez les personnes atteintes de VIH/sida avancé : il existe donc un lien indirect avec le contexte du VIH.
 
@@ -123,12 +123,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM française étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fareston (toremifene citrate) prescribing information, Kyowa Kirin, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2cab8dd1-3a10-48e6-86ce-0e5275ed49e5) |
 
 <!-- review:end log -->
 

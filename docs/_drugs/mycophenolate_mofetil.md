@@ -60,7 +60,7 @@ Les preuves cliniques restent faibles : aucun bénéfice virologique n'est étab
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Les éléments d'analyse mécanistique disponibles indiquent que le mycophénolate mofétil inhibe l'inosine monophosphate déshydrogénase (IMPDH) et réduit les nucléotides guanine. Cela limite la prolifération des lymphocytes, donc le nombre de cellules cibles activées pour le VIH.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mycophenolate Mofetil (traduction non officielle) : « Le mycophénolate mofétil (MMF) est absorbé après administration orale et hydrolysé en acide mycophénolique (MPA), le métabolite actif. Le MPA est un inhibiteur sélectif non compétitif des deux isoformes (type I et type II) de l'inosine monophosphate déshydrogénase (IMPDH), entraînant une inhibition de la voie de synthèse de novo des nucléotides guanosiniques, et bloque la synthèse de l'ADN. » Texte original en anglais : "Mycophenolate mofetil (MMF) is absorbed following oral administration and hydrolyzed to mycophenolic acid (MPA), the active metabolite. MPA is a selective uncompetitive inhibitor of the two isoforms (type I and type II) of inosine monophosphate dehydrogenase (IMPDH) leading to inhibition of the de novo pathway of guanosine nucleotide synthesis and blocks DNA synthesis." ([DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9), version du 2026-07-31 ; consulté le 2026-11-19). Les éléments d'analyse mécanistique disponibles indiquent que le mycophénolate mofétil inhibe l'inosine monophosphate déshydrogénase (IMPDH) et réduit les nucléotides guanine. Cela limite la prolifération des lymphocytes, donc le nombre de cellules cibles activées pour le VIH.
 
 La déplétion en guanine pourrait aussi potentialiser des analogues nucléosidiques comme l'abacavir. Une étude de 2002 (cinq patients en échec thérapeutique) a rapporté une baisse de la charge virale associée à la déplétion en dGTP intracellulaire.
 
@@ -156,12 +156,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 13 AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Myhibbin (mycophenolate mofetil) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9af72d6-7b3e-4c08-94b9-1d8b499cb7f9) |
 
 <!-- review:end log -->
 

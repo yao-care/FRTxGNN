@@ -56,7 +56,7 @@ Les données compilées pour ce rapport font état de **15 essais cliniques** (d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des connaissances pharmacologiques établies, l'épinéphrine est un agoniste adrénergique non sélectif : l'activation des récepteurs bêta-2 relâche la musculature lisse bronchique, et l'activation alpha-1 réduit l'œdème de la muqueuse des voies respiratoires par vasoconstriction.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Epinephrine (traduction non officielle) : « L'épinéphrine agit à la fois sur les récepteurs alpha- et bêta-adrénergiques. Par son action sur les récepteurs alpha-adrénergiques, l'épinéphrine atténue la vasodilatation et l'augmentation de la perméabilité vasculaire qui surviennent au cours de l'anaphylaxie et qui peuvent entraîner une perte de volume liquidien intravasculaire et une hypotension. » Texte original en anglais : "Epinephrine acts on both alpha and beta-adrenergic receptors. Through its action on alpha-adrenergic receptors, epinephrine lessens the vasodilation and increased vascular permeability that occurs during anaphylaxis, which can lead to loss of intravascular fluid volume and hypotension." ([DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf), version du 2026-09-18 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, l'épinéphrine est un agoniste adrénergique non sélectif : l'activation des récepteurs bêta-2 relâche la musculature lisse bronchique, et l'activation alpha-1 réduit l'œdème de la muqueuse des voies respiratoires par vasoconstriction.
 
 Ce mécanisme est cohérent avec les indications d'origine (asthme, bronchite, emphysème, bronchectasie). La « maladie pulmonaire obstructive » regroupe notamment l'asthme et la BPCO ; la prédiction est donc en grande partie une extension d'usages déjà établis. Le score élevé (0,9971) concorde avec les preuves cliniques existantes. L'incertitude de repositionnement concerne surtout la bronchiolite du nourrisson, pour laquelle les résultats sont plus hétérogènes.
 
@@ -124,6 +124,19 @@ Plusieurs essais de Phase 3 terminés (épinéphrine inhalée dans l'asthme chez
 - Clarifier le statut réglementaire en France, le médicament étant commercialisé avec 20 AMM valides, et la voie d'administration visée (inhalée vs injectable)
 - Définir un plan de surveillance cardiovasculaire et de gestion des interactions (tricycliques, bêtabloquants)
 - Confirmer les résultats dans la bronchiolite et la BPCO, où les preuves restent hétérogènes
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Auvi-Q (epinephrine) prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f40988b-8365-4f7b-84d1-b88e053725cf) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

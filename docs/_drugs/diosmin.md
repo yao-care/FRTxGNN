@@ -56,7 +56,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la diosmine est un flavonoïde veinoactif, généralement associé à une amélioration du tonus veineux, à une réduction de la perméabilité capillaire et à un effet anti-inflammatoire.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Diosmin est (traduction non officielle) : « Inconnu » Texte original en anglais : "Unknown" ([ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la diosmine est un flavonoïde veinoactif, généralement associé à une amélioration du tonus veineux, à une réduction de la perméabilité capillaire et à un effet anti-inflammatoire.
 
 Aucun lien mécanistique ne peut être établi à partir des données compilées. Aucune indication originale n'est listée, et le seul appui est le score élevé du modèle TxGNN (deep learning) (0,9942), qui peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Une hypothèse plausible mais non vérifiée est que des effets vasculaires ou anti-inflammatoires pourraient concerner la congestion pelvienne ou certains troubles menstruels.
 
@@ -107,12 +107,13 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et l'indication originale approuvée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Supprimé : « Les 16 AMM recensées sont toutes valides ; » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
 
 <!-- review:end log -->
 

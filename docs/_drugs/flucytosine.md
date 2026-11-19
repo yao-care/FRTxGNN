@@ -57,7 +57,7 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, la flucytosine est un antimycosique qui est converti par la cytosine désaminase des champignons en 5-fluorouracile, lequel perturbe la synthèse de l'ARN et de l'ADN fongiques.
+Selon les rubriques « Clinical Pharmacology » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Flucytosine (traduction non officielle) : « La flucytosine est captée par les organismes fongiques par l'intermédiaire de l'enzyme cytosine perméase. À l'intérieur de la cellule fongique, la flucytosine est rapidement convertie en fluorouracile par l'enzyme cytosine désaminase. Le fluorouracile exerce son activité antifongique par sa conversion ultérieure en plusieurs métabolites actifs, qui inhibent la synthèse protéique en étant incorporés de façon erronée dans l'ARN fongique ou interfèrent avec la biosynthèse de l'ADN fongique par l'inhibition de l'enzyme thymidylate synthétase. » Texte original en anglais : "Flucytosine is taken up by fungal organisms via the enzyme cytosine permease. Inside the fungal cell, flucytosine is rapidly converted to fluorouracil by the enzyme cytosine deaminase. Fluorouracil exerts its antifungal activity through the subsequent conversion into several active metabolites, which inhibit protein synthesis by being falsely incorporated into fungal RNA or interfere with the biosynthesis of fungal DNA through the inhibition of the enzyme thymidylate synthetase." ([DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e), version du 2022-02-02 ; consulté le 2026-11-19). Sur la base des connaissances générales, la flucytosine est un antimycosique qui est converti par la cytosine désaminase des champignons en 5-fluorouracile, lequel perturbe la synthèse de l'ARN et de l'ADN fongiques.
 
 La maladie osseuse de Paget est un trouble du remodelage osseux lié à une dérégulation de l'activité des ostéoclastes (souvent associée à des variants de SQSTM1). Les cellules humaines étant largement dépourvues de cytosine désaminase, **aucun lien mécanistique évident** n'apparaît entre le mode d'action de la flucytosine et cette maladie.
 
@@ -117,12 +117,13 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées et le profil hématologique, rénal et hépatique du médicament appelle à la prudence » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ancobon (flucytosine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aea0df00-a88c-4a16-abcf-750f3ff2004e) |
 
 <!-- review:end log -->
 

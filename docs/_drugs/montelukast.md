@@ -60,7 +60,7 @@ Les données compilées pour ce rapport comptent **17 essais cliniques** et **20
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la fiche du médicament. D'après les informations pharmacologiques connues, le montelukast bloque le récepteur CysLT1. Cela peut réduire l'inflammation des voies aériennes, la sécrétion de mucus et l'hyperréactivité bronchique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Montelukast (traduction non officielle) : « Les cystéinyl-leucotriènes (LTC 4, LTD 4, LTE 4 ) sont des produits du métabolisme de l'acide arachidonique et sont libérés par diverses cellules, notamment les mastocytes et les éosinophiles. Ces eicosanoïdes se lient aux récepteurs des cystéinyl-leucotriènes (CysLT). […] Le montélukast est un composé actif par voie orale qui se lie avec une affinité et une sélectivité élevées au récepteur CysLT 1 (de préférence à d'autres récepteurs des voies aériennes importants sur le plan pharmacologique, tels que les récepteurs prostanoïdes, cholinergiques ou β-adrénergiques). » Texte original en anglais : "The cysteinyl leukotrienes (LTC 4, LTD 4, LTE 4 ) are products of arachidonic acid metabolism and are released from various cells, including mast cells and eosinophils. These eicosanoids bind to cysteinyl leukotriene (CysLT) receptors. […] Montelukast is an orally active compound that binds with high affinity and selectivity to the CysLT 1 receptor (in preference to other pharmacologically important airway receptors, such as the prostanoid, cholinergic, or β-adrenergic receptor)." ([DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842), version du 2025-04-30 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, le montelukast bloque le récepteur CysLT1. Cela peut réduire l'inflammation des voies aériennes, la sécrétion de mucus et l'hyperréactivité bronchique.
 
 Ces mécanismes peuvent concerner certaines formes d'atteinte bronchique. Ils sont notamment plausibles dans la bronchiolite virale du nourrisson et la respiration sifflante qui la suit. Dans la bronchiolite oblitérante après greffe, l'inflammation et la fibrose liées aux leucotriènes constituent aussi une cible plausible.
 
@@ -138,6 +138,18 @@ Veuillez consulter la notice pour les mises en garde et les contre-indications.
 - Les données détaillées sur le mécanisme d'action.
 - Les mises en garde et contre-indications issues de la notice française.
 - Un essai randomisé contrôlé dédié à la bronchite, si les premières données sont encourageantes.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Singulair (montelukast sodium) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=482dcc92-b47f-4ea6-854a-f5ac2aea7842) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

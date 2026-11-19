@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré et aucune étude ne teste l'amiodarone da
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'amiodarone bloque plusieurs canaux (potassium, sodium, calcium) et exerce un effet antagoniste bêta-adrénergique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Amiodarone (traduction non officielle) : « L'amiodarone est considérée comme un antiarythmique de classe III, mais elle possède des caractéristiques électrophysiologiques des quatre classes de Vaughan Williams. Comme les médicaments de classe I, l'amiodarone bloque les canaux sodiques à des fréquences de stimulation rapides et, comme les médicaments de classe II, l'amiodarone exerce une action antisympathique non compétitive. » Texte original en anglais : "Amiodarone is considered a class III antiarrhythmic drug, but it possesses electrophysiologic characteristics of all four Vaughan Williams classes. Like class I drugs, amiodarone blocks sodium channels at rapid pacing frequencies, and like class II drugs, amiodarone exerts a noncompetitive antisympathetic action." ([DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3), version du 2025-11-05 ; consulté le 2026-11-19). D'après les connaissances générales, l'amiodarone bloque plusieurs canaux (potassium, sodium, calcium) et exerce un effet antagoniste bêta-adrénergique.
 
 Ces propriétés, en particulier l'effet bêtabloquant et l'action sur la gestion du calcium, pourraient théoriquement concerner une arythmie déclenchée par les catécholamines et liée à des anomalies du récepteur RYR2. C'est la seule base du lien mécanistique proposé.
 
@@ -113,6 +113,18 @@ Aucun essai ni aucune étude ne teste l'amiodarone dans cette maladie, et la lit
 - Comparaison avec les bêtabloquants et la flécaïnide
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice officielle
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

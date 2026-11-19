@@ -60,7 +60,7 @@ Il s'agit donc d'une hypothèse très préliminaire.
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le déférasirox est un chélateur du fer, utilisé pour réduire la surcharge en fer chez les patients atteints de bêta-thalassémie et d'hémoglobinopathies apparentées.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Deferasirox (traduction non officielle) : « Exjade (déférasirox) est un chélateur actif par voie orale, sélectif du fer (sous forme de Fe 3+ ). Il s'agit d'un ligand tridenté qui se lie au fer avec une affinité élevée selon un rapport de 2:1. Bien que le déférasirox ait une très faible affinité pour le zinc et le cuivre, on observe des diminutions variables de la concentration sérique de ces oligoéléments après l'administration de déférasirox. » Texte original en anglais : "Exjade (deferasirox) is an orally active chelator that is selective for iron (as Fe 3+ ). It is a tridentate ligand that binds iron with high affinity in a 2:1 ratio. Although deferasirox has very low affinity for zinc and copper there are variable decreases in the serum concentration of these trace metals after the administration of deferasirox." ([DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85), version du 2026-01-28 ; consulté le 2026-11-19). Sur la base des informations connues, le déférasirox est un chélateur du fer, utilisé pour réduire la surcharge en fer chez les patients atteints de bêta-thalassémie et d'hémoglobinopathies apparentées.
 
 Le lien avec le VIH reste indirect. Une étude préclinique de 2021 (PMID 34550543) indique que le fer contenu dans les endolysosomes limite la transactivation du LTR du VIH-1 médiée par Tat, en favorisant l'oligomérisation de Tat et l'expression de la β-caténine. La disponibilité du fer influence donc la réplication virale. Toutefois, on ignore dans quel sens agirait une déplétion en fer : elle pourrait atténuer cet effet restrictif, et non le renforcer.
 
@@ -137,12 +137,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont abrogées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM toutes abrogées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Exjade (deferasirox) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3495a70c-870c-4968-940e-8baea152cf85) |
 
 <!-- review:end log -->
 

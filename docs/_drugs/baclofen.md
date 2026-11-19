@@ -54,7 +54,7 @@ Le baclofène est un agoniste des récepteurs GABA-B. Le modèle TxGNN prédit q
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le baclofène est un agoniste des récepteurs GABA-B. Un lien plausible avec le TDAH serait une modulation GABAergique de l'équilibre excitation/inhibition dans le cortex et le striatum, susceptible d'influencer l'impulsivité et l'hyperactivité.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Baclofen (traduction non officielle) : « Le mécanisme d'action précis du baclofène n'est pas entièrement élucidé. Le baclofène inhibe les réflexes monosynaptiques et polysynaptiques au niveau spinal, éventuellement en diminuant la libération de neurotransmetteurs excitateurs à partir des terminaisons afférentes, bien que des actions au niveau de sites supraspinaux puissent également se produire et contribuer à son effet clinique. » Texte original en anglais : "The precise mechanism of action of baclofen is not fully understood. Baclofen inhibits both monosynaptic and polysynaptic reflexes at the spinal level, possibly by decreasing excitatory neurotransmitter release from afferent terminals, although actions at supraspinal sites may also occur and contribute to its clinical effect." ([DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2), version du 2026-09-22 ; consulté le 2026-11-19). D'après les connaissances générales, le baclofène est un agoniste des récepteurs GABA-B. Un lien plausible avec le TDAH serait une modulation GABAergique de l'équilibre excitation/inhibition dans le cortex et le striatum, susceptible d'influencer l'impulsivité et l'hyperactivité.
 
 Ce lien reste hypothétique. Les publications fournies portent sur des revues du syndrome de Gilles de la Tourette et de son traitement, ainsi que sur des travaux précliniques chez le rongeur (signalisation noradrénergique alpha-2A, habénula, cortex cingulaire et amygdale). Elles sont indirectes et ne montrent aucun effet du baclofène dans le TDAH. Le score élevé du modèle est une prédiction computationnelle, non étayée ici par des données cliniques.
 
@@ -97,6 +97,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Des données détaillées sur le mécanisme d'action du baclofène
 - Des études précliniques ou cliniques évaluant directement le baclofène dans le TDAH
 - Les mises en garde et contre-indications issues de la notice de l'ANSM, pour un criblage de sécurité complet
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lyvispah (baclofen) prescribing information, Anvi Pharmaceuticals Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5b13c40d-a109-f838-e063-6294a90aecf2) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

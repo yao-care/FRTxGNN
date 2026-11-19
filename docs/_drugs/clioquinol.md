@@ -56,7 +56,7 @@ mais **aucun essai clinique** et seulement **1 publication**, ancienne et indire
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le clioquinol est une hydroxyquinoléine halogénée chélatrice de métaux (cuivre, zinc, fer), dotée d'une activité antifongique et antibactérienne. Son efficacité dans les dermatophyties est reconnue et, sur le plan mécanistique, il pourrait être applicable à la candidose cutanée.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Clioquinol est (traduction non officielle) : « Agent chélateur du zinc ; agent chélateur du cuivre ; agent chélateur du fer » Texte original en anglais : "Zinc chelating agent; Copper chelating agent; Iron chelating agent" ([ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le clioquinol est une hydroxyquinoléine halogénée chélatrice de métaux (cuivre, zinc, fer), dotée d'une activité antifongique et antibactérienne. Son efficacité dans les dermatophyties est reconnue et, sur le plan mécanistique, il pourrait être applicable à la candidose cutanée.
 
 La perturbation de l'homéostasie des métaux dans la cellule fongique pourrait s'étendre aux levures du genre *Candida*. Les dermatophyties et la candidose cutanée sont deux mycoses superficielles de la peau, ce qui rend l'extension plausible.
 
@@ -119,12 +119,13 @@ Veuillez consulter la notice pour les informations de sécurité complètes : le
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'autorisation française est annulée et les données de sécurité officielles sont absentes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL497 (clioquinol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL497) |
 
 <!-- review:end log -->
 

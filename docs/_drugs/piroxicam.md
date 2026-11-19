@@ -56,7 +56,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, piroxicam fait partie de la classe des AMNS inhibiteurs de la cyclo-oxygénase (COX-1/COX-2). Son efficacité dans les maladies articulaires inflammatoires est établie. Il réduit la synthèse des prostaglandines, ce qui diminue l'inflammation et la douleur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Piroxicam (traduction non officielle) : « Le piroxicam possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. Le mécanisme d'action de Piroxicam Gélules, comme celui des autres AINS, n'est pas entièrement élucidé, mais implique une inhibition de la cyclo-oxygénase (COX-1 et COX-2). » Texte original en anglais : "Piroxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Piroxicam Capsules, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4), version du 2026-09-29 ; consulté le 2026-11-19). Sur la base des informations connues, piroxicam fait partie de la classe des AMNS inhibiteurs de la cyclo-oxygénase (COX-1/COX-2). Son efficacité dans les maladies articulaires inflammatoires est établie. Il réduit la synthèse des prostaglandines, ce qui diminue l'inflammation et la douleur.
 
 Pour la nouvelle indication prédite, **aucun lien mécanistique plausible n'a été identifié**. Cette maladie est un syndrome génétique rare du développement, touchant le squelette et l'œil. L'inhibition de la COX n'a pas de rôle connu dans sa physiopathologie.
 
@@ -132,12 +132,13 @@ Ces études sont anciennes, antérieures aux biothérapies. Cette piste relève 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 13 AMM de piroxicam sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarification du statut réglementaire, puisqu'aucune AMM n'est en vigueur en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: piroxicam prescribing information, Sportpharm LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41425352-2a59-43ef-bccc-f8cc69e72be4) |
 
 <!-- review:end log -->
 

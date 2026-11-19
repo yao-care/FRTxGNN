@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, l'énoxaparine potentialise l'inhibition par l'antithrombine du facteur Xa (et, dans une moindre mesure, de la thrombine). Ce mécanisme n'a pas pu être vérifié à partir des données fournies.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Enoxaparin (traduction non officielle) : « L'énoxaparine est une héparine de bas poids moléculaire possédant des propriétés antithrombotiques. » Texte original en anglais : "Enoxaparin is a low molecular weight heparin which has antithrombotic properties." ([DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59), version du 2026-05-28 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, l'énoxaparine potentialise l'inhibition par l'antithrombine du facteur Xa (et, dans une moindre mesure, de la thrombine). Ce mécanisme n'a pas pu être vérifié à partir des données fournies.
 
 Dans le déficit sévère congénital en protéine C, la perte de l'activité anticoagulante de cette protéine entraîne une génération incontrôlée de thrombine, source de thromboses et de purpura fulminans. Un anticoagulant agissant sur la cascade de coagulation pourrait donc, en théorie, compenser en partie ce déficit.
 
@@ -115,11 +115,12 @@ Le risque hémorragique inhérent à un anticoagulant, ainsi que ces contre-indi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Vérifier la situation réglementaire : l'annulation des 20 AMM et l'éventuelle disponibilité de l'énoxaparine sous d'autres autorisations » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lovenox (enoxaparin sodium) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5017a927-2a24-4f27-89f9-27c805bf7d59) |
 
 <!-- review:end log -->
 

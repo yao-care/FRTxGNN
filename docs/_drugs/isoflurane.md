@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**angor de Prinzme
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations générales, l'isoflurane fait partie des anesthésiques volatils halogénés, utilisés pour l'induction et l'entretien de l'anesthésie générale.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Isoflurane est (traduction non officielle) : « Modulateur positif du récepteur de la glycine (alpha-1/bêta) ; récepteur GABA-A ; modulateur allostérique positif de canal anionique ; ouvreur du membre 10 de la sous-famille K des canaux potassiques ; ouvreur du membre 18 de la sous-famille K des canaux potassiques » Texte original en anglais : "Glycine receptor (alpha-1/beta) positive modulator; GABA-A receptor; anion channel positive allosteric modulator; Potassium channel subfamily K member 10 opener; Potassium channel subfamily K member 18 opener" ([ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations générales, l'isoflurane fait partie des anesthésiques volatils halogénés, utilisés pour l'induction et l'entretien de l'anesthésie générale.
 
 Les anesthésiques volatils ont des effets vasodilatateurs et interagissent avec les canaux calciques, ce qui pourrait théoriquement avoir un lien avec le vasospasme coronarien à l'origine de l'angor de Prinzmetal. Cette hypothèse reste toutefois **spéculative** et n'est étayée par aucune donnée compilée pour ce rapport.
 
@@ -113,11 +113,12 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1256 (isoflurane): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1256) |
 
 <!-- review:end log -->
 

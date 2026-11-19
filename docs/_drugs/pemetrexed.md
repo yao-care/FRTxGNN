@@ -56,7 +56,7 @@ avec **7 essais cliniques** et **20 publications** compilés dans les données d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action issues de la base de médicaments ne sont pas disponibles. D'après les connaissances pharmacologiques établies, le pémétrexed est un antifolate à cibles multiples : il inhibe la thymidylate synthase (TS), la dihydrofolate réductase (DHFR) et la GARFT (glycinamide ribonucléotide formyltransférase). Il perturbe ainsi la synthèse des purines et des pyrimidines dans les cellules tumorales à division rapide.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pemetrexed (traduction non officielle) : « Le pémétrexed est un inhibiteur métabolique analogue des folates qui perturbe les processus métaboliques dépendants des folates essentiels à la réplication cellulaire. Des études in vitro montrent que le pémétrexed inhibe la thymidylate synthase (TS), la dihydrofolate réductase (DHFR) et la glycinamide ribonucléotide formyltransférase (GARFT), qui sont des enzymes dépendantes des folates impliquées dans la biosynthèse de novo des nucléotides thymidiques et puriques. » Texte original en anglais : "Pemetrexed is a folate analog metabolic inhibitor that disrupts folate-dependent metabolic processes essential for cell replication. In vitro studies show that pemetrexed inhibits thymidylate synthase (TS), dihydrofolate reductase (DHFR), and glycinamide ribonucleotide formyltransferase (GARFT), which are folate-dependent enzymes involved in the de novo biosynthesis of thymidine and purine nucleotides." ([DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0), version du 2026-06-18 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, le pémétrexed est un antifolate à cibles multiples : il inhibe la thymidylate synthase (TS), la dihydrofolate réductase (DHFR) et la GARFT (glycinamide ribonucléotide formyltransférase). Il perturbe ainsi la synthèse des purines et des pyrimidines dans les cellules tumorales à division rapide.
 
 Le mésothéliome péritonéal partage l'histologie et la biologie du mésothéliome pleural, pour lequel l'association pémétrexed-cisplatine est le traitement de référence depuis l'essai de phase 3 de Vogelzang et al. (2003). Le mécanisme est donc attendu comme transposable. Les essais de phase 2 incluent à la fois la maladie pleurale et péritonéale, et les recommandations actuelles utilisent l'association pémétrexed-platine pour la maladie péritonéale non résécable.
 
@@ -148,12 +148,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Toutes les AMM françaises du pémétrexed sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pemfexy (pemetrexed) prescribing information, Acacia Pharma, Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=caef07ce-066b-4c48-98dc-974b05ebbbe0) |
 
 <!-- review:end log -->
 

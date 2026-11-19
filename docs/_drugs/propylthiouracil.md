@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **résistance aux
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances pharmacologiques générales, le PTU inhibe la thyroperoxydase, ce qui réduit la synthèse des hormones thyroïdiennes, et freine aussi la conversion périphérique de la T4 en T3.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Propylthiouracil (traduction non officielle) : « Le propylthiouracile inhibe la synthèse des hormones thyroïdiennes et est donc efficace dans le traitement de l'hyperthyroïdie. Le médicament n'inactive pas la thyroxine et la triiodothyronine existantes stockées dans la thyroïde ou circulant dans le sang, et n'interfère pas non plus avec l'efficacité des hormones thyroïdiennes administrées par voie orale ou injectable. » Texte original en anglais : "Propylthiouracil inhibits the synthesis of thyroid hormones and thus is effective in the treatment of hyperthyroidism. The drug does not inactivate existing thyroxine and triiodothyronine that are stored in the thyroid or circulating in the blood, nor does it interfere with the effectiveness of thyroid hormones given by mouth or by injection." ([DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa), version du 2026-08-27 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le PTU inhibe la thyroperoxydase, ce qui réduit la synthèse des hormones thyroïdiennes, et freine aussi la conversion périphérique de la T4 en T3.
 
 Dans la résistance aux hormones thyroïdiennes de type bêta, des mutations du gène THRB rendent les tissus peu sensibles aux hormones, avec une élévation compensatoire de la TSH, de la T4 et de la T3. Le lien mécanistique est donc **faible, voire potentiellement délétère** : abaisser les hormones peut augmenter encore la TSH, favoriser un goitre et induire une hypothyroïdie tissulaire.
 
@@ -126,11 +126,12 @@ La notice officielle n'a pas pu être exploitée : veuillez la consulter pour le
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e produit n'est plus commercialisé en France (AMM annulée) et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: propylthiouracil prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d819e532-09ac-434a-84a6-636c4204c7aa) |
 
 <!-- review:end log -->
 

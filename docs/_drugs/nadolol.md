@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** spécifique ne soutienne
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le nadolol est un bêta-bloquant non sélectif dont l'efficacité dans l'hypertension est établie. Le blocage bêta-adrénergique réduit la libération de rénine par les cellules juxtaglomérulaires.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nadolol (traduction non officielle) : « Le nadolol est un bêtabloquant adrénergique non sélectif. Les études de pharmacologie clinique ont mis en évidence une activité bêtabloquante en montrant une réduction de la fréquence cardiaque et du débit cardiaque au repos et à l'effort, une réduction de la pression artérielle systolique et diastolique au repos et à l'effort, une inhibition de la tachycardie induite par l'isoprotérénol et une réduction de la tachycardie orthostatique réflexe. » Texte original en anglais : "Nadolol is a nonselective beta-adrenergic receptor blocking agent. Clinical pharmacology studies have demonstrated beta-blocking activity by showing reduction in heart rate and cardiac output at rest and on exercise, reduction of systolic and diastolic blood pressure at rest and on exercise, inhibition of isoproterenol-induced tachycardia, and reduction of reflex orthostatic tachycardia." ([DailyMed: nadolol prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f11553f1-18ec-41b0-a7ad-1c9f21ef2c9f), version du 2026-09-07 ; consulté le 2026-11-19). Sur la base des informations connues, le nadolol est un bêta-bloquant non sélectif dont l'efficacité dans l'hypertension est établie. Le blocage bêta-adrénergique réduit la libération de rénine par les cellules juxtaglomérulaires.
 
 Cet effet est plausiblement pertinent dans l'hypertension rénovasculaire, où l'activation du système rénine-angiotensine entretient l'élévation de la pression artérielle. Le score très élevé du modèle reflète probablement surtout la proximité sémantique avec l'indication déjà connue (hypertension), plutôt qu'une preuve réelle.
 
@@ -121,11 +121,12 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: nadolol prescribing information, BluePoint Laboratories](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f11553f1-18ec-41b0-a7ad-1c9f21ef2c9f) |
 
 <!-- review:end log -->
 

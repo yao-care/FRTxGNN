@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques disponibles, le trifarotène est un agoniste des récepteurs de l'acide rétinoïque (RAR), avec une activité décrite sur les sous-types alpha, bêta et gamma (RARA, RARB, RARG), et il est considéré comme sélectif du sous-type gamma. Son efficacité dans l'acné a été démontrée lors d'essais de phase 3, dont une étude de sécurité à long terme (NCT02189629). Il a été approuvé aux États-Unis en octobre 2019 sous forme de crème à 0,005 %.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Trifarotene (traduction non officielle) : « Le trifarotène est un agoniste des récepteurs de l'acide rétinoïque (RAR), avec une activité particulière sur le sous-type gamma des RAR. La stimulation des RAR entraîne une modulation de gènes cibles associés à divers processus, notamment la différenciation cellulaire et la médiation de l'inflammation. » Texte original en anglais : "Trifarotene is an agonist of retinoic acid receptors (RAR), with particular activity at the gamma subtype of RAR. Stimulation of RAR results in modulation of target genes which are associated with various processes, including cell differentiation and mediation of inflammation." ([DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc), version du 2024-09-16 ; consulté le 2026-11-19). D'après les informations pharmacologiques disponibles, le trifarotène est un agoniste des récepteurs de l'acide rétinoïque (RAR), avec une activité décrite sur les sous-types alpha, bêta et gamma (RARA, RARB, RARG), et il est considéré comme sélectif du sous-type gamma. Son efficacité dans l'acné a été démontrée lors d'essais de phase 3, dont une étude de sécurité à long terme (NCT02189629). Il a été approuvé aux États-Unis en octobre 2019 sous forme de crème à 0,005 %.
 
 **Aucun lien mécanistique établi** n'existe avec l'élévation du zinc plasmatique. Il s'agit d'une anomalie biologique/métabolique et non d'une affection dermatologique pilotée par la signalisation des rétinoïdes. De plus, le trifarotène est très instable sur le plan métabolique, ce qui laisse supposer une exposition systémique limitée en usage topique ; un effet systémique sur le zinc plasmatique paraît donc peu plausible.
 
@@ -118,12 +118,13 @@ La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai, aucun
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aklief (trifarotene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=62d910db-85a6-4696-b69b-4bd2f3080cfc) |
 
 <!-- review:end log -->
 

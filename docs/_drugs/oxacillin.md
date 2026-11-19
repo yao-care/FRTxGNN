@@ -56,7 +56,7 @@ Pour information, l'indication classée en 3e position, l'arthrite bactérienne,
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'oxacilline est une bêta-lactamine résistante aux pénicillinases qui inhibe la synthèse de la paroi bactérienne et est active sur les *S. aureus* sensibles à la méticilline.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Oxacillin (traduction non officielle) : « Les pénicillines résistantes à la pénicillinase exercent une action bactéricide contre les micro-organismes sensibles à la pénicilline pendant la phase de multiplication active. Toutes les pénicillines inhibent la biosynthèse de la paroi cellulaire bactérienne. » Texte original en anglais : "Penicillinase-resistant penicillins exert a bactericidal action against penicillin susceptible microorganisms during the state of active multiplication. All penicillins inhibit the biosynthesis of the bacterial cell wall." ([DailyMed: oxacillin prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d893e45b-7f18-4c67-b10c-1e2e52a6b3ef), version du 2026-08-31 ; consulté le 2026-11-19). D'après les connaissances générales, l'oxacilline est une bêta-lactamine résistante aux pénicillinases qui inhibe la synthèse de la paroi bactérienne et est active sur les *S. aureus* sensibles à la méticilline.
 
 L'épiglottite peut être provoquée par *S. aureus*, ce qui crée un lien plausible mais indirect avec l'indication d'origine. En revanche, les germes habituellement en cause (*Haemophilus influenzae* de type b, streptocoques) ne sont pas bien couverts par l'oxacilline.
 
@@ -111,11 +111,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: oxacillin prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d893e45b-7f18-4c67-b10c-1e2e52a6b3ef) |
 
 <!-- review:end log -->
 

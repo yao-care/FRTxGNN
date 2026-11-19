@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**épilepsie visue
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature, le pérampanel est un antagoniste non compétitif des récepteurs AMPA du glutamate : il réduit la transmission excitatrice glutamatergique, ce qui est à la base de son effet dans l'épilepsie partielle.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Perampanel (traduction non officielle) : « Le pérampanel est un antagoniste non compétitif du récepteur ionotrope du glutamate de type acide α-amino-3-hydroxy-5-méthyl-4-isoxazolepropionique (AMPA) situé sur les neurones post-synaptiques. Le glutamate est le principal neurotransmetteur excitateur du système nerveux central et est impliqué dans un certain nombre de troubles neurologiques causés par une surexcitation neuronale. » Texte original en anglais : "Perampanel is a non-competitive antagonist of the ionotropic α-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid (AMPA) glutamate receptor on post-synaptic neurons. Glutamate is the primary excitatory neurotransmitter in the central nervous system and is implicated in a number of neurological disorders caused by neuronal over excitation." ([DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122), version du 2022-12-28 ; consulté le 2026-11-19). D'après la littérature, le pérampanel est un antagoniste non compétitif des récepteurs AMPA du glutamate : il réduit la transmission excitatrice glutamatergique, ce qui est à la base de son effet dans l'épilepsie partielle.
 
 L'épilepsie visuelle regroupe des crises déclenchées par des stimuli visuels (photosensibilité). Une hyperexcitabilité corticale médiée par le glutamate est plausible dans ce contexte, de sorte qu'un antagonisme AMPA pourrait théoriquement atténuer ces crises.
 
@@ -161,13 +161,14 @@ Parmi ces candidates, l'**état de mal épileptique** dispose des preuves les pl
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (2 autres AMM annulées existent : FYCOMPA 8 mg et FYCOMPA 4 mg.) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fycompa (perampanel) prescribing information, Eisai Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71cf3309-e182-473c-8b0b-280cabd0e122) |
 
 <!-- review:end log -->
 

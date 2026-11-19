@@ -66,7 +66,7 @@ Les sept autres prédictions du classement (rétinopathie diabétique sévère n
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, guselkumab se lie à la sous-unité p19 de l'IL-23 et bloque l'axe IL-23/Th17, central dans plusieurs maladies inflammatoires à médiation immunitaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Guselkumab (traduction non officielle) : « Le guselkumab est un anticorps monoclonal humain IgG1λ qui se lie de façon sélective à la sous-unité p19 de l'interleukine 23 (IL-23) et inhibe son interaction avec le récepteur de l'IL-23. L'IL-23 est une cytokine naturelle impliquée dans les réponses inflammatoires et immunitaires normales. » Texte original en anglais : "Guselkumab is a human monoclonal IgG1λ antibody that selectively binds to the p19 subunit of interleukin 23 (IL-23) and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in normal inflammatory and immune responses." ([DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56), version du 2026-10-20 ; consulté le 2026-11-19). D'après les connaissances générales, guselkumab se lie à la sous-unité p19 de l'IL-23 et bloque l'axe IL-23/Th17, central dans plusieurs maladies inflammatoires à médiation immunitaire.
 
 **Ostéoporose médicamenteuse (première prédiction).** La voie IL-23/IL-17 a été évoquée dans la résorption osseuse. Toutefois, aucune donnée fournie ne soutient un lien entre guselkumab et l'ostéoporose médicamenteuse. Le score élevé du modèle est une prédiction purement computationnelle et ne suffit pas à justifier une décision.
 
@@ -181,11 +181,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les AMM disponibles étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56) |
 
 <!-- review:end log -->
 

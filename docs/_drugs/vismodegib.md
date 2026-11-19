@@ -60,7 +60,7 @@ Pour cette indication précise, **aucun essai clinique** et **aucune publication
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le vismodégib inhibe la protéine Smoothened (SMO) de la voie de signalisation Hedgehog. Cette voie est anormalement activée dans le carcinome basocellulaire, ce qui explique l'efficacité du médicament dans cette indication.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Vismodegib (traduction non officielle) : « Le vismodégib est un inhibiteur de la voie Hedgehog. Le vismodégib se lie à Smoothened, une protéine transmembranaire impliquée dans la transduction du signal Hedgehog, et l'inhibe. » Texte original en anglais : "Vismodegib is an inhibitor of the Hedgehog pathway. Vismodegib binds to and inhibits Smoothened, a transmembrane protein involved in Hedgehog signal transduction." ([DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a), version du 2024-12-02 ; consulté le 2026-11-19). D'après les informations connues, le vismodégib inhibe la protéine Smoothened (SMO) de la voie de signalisation Hedgehog. Cette voie est anormalement activée dans le carcinome basocellulaire, ce qui explique l'efficacité du médicament dans cette indication.
 
 Le médulloblastome du sous-groupe SHH est lui aussi porté par une activation de la voie Hedgehog. Le lien biologique est donc plausible : le même point d'action (SMO) pourrait être pertinent dans les deux maladies.
 
@@ -143,12 +143,13 @@ Pour les mises en garde et contre-indications détaillées, veuillez consulter l
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'unique AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Erivedge (vismodegib) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=eb368bb6-80e3-4df9-8a85-91df0a2ada6a) |
 
 <!-- review:end log -->
 

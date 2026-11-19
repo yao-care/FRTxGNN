@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **conjonctivite c
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, le lopéramide est un agoniste périphérique des récepteurs opioïdes mu, agissant sur les neurones du plexus myentérique de l'intestin pour ralentir le transit et réduire les sécrétions.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Loperamide (traduction non officielle) : « Les études in vitro et chez l'animal montrent que les gélules de chlorhydrate de lopéramide agissent en ralentissant la motilité intestinale et en modifiant les mouvements d'eau et d'électrolytes dans l'intestin. Le lopéramide se lie aux récepteurs opiacés de la paroi intestinale. » Texte original en anglais : "In vitro and animal studies show that loperamide hydrochloride capsules act by slowing intestinal motility and by affecting water and electrolyte movement through the bowel. Loperamide binds to the opiate receptor in the gut wall." ([DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b), version du 2026-07-09 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le lopéramide est un agoniste périphérique des récepteurs opioïdes mu, agissant sur les neurones du plexus myentérique de l'intestin pour ralentir le transit et réduire les sécrétions.
 
 Il n'existe **aucun lien mécanistique clair** avec la conjonctivite. Aucune activité oculaire ni anti-infectieuse n'est établie pour le lopéramide. Le score élevé (0,9997) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ou clinique.
 
@@ -115,11 +115,12 @@ La prédiction pour la conjonctivite aiguë contagieuse repose uniquement sur le
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM sont annulées : aucune présentation n'est actuellement commercialisée sous ces autorisations » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
 
 <!-- review:end log -->
 

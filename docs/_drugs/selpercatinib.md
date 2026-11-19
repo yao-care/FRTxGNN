@@ -60,7 +60,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pul
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Selon les informations connues, selpercatinib est un inhibiteur sélectif de la kinase RET. Les publications retrouvées le situent dans le cancer du poumon non à petites cellules avec fusion de RET et dans le carcinome médullaire de la thyroïde, mais l'indication d'origine n'est pas documentée dans les données d'AMM.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Selpercatinib (traduction non officielle) : « Le selpercatinib est un inhibiteur de kinase. Le selpercatinib a inhibé RET de type sauvage et de multiples isoformes mutées de RET ainsi que VEGFR1 et VEGFR3, avec des valeurs de CI 50 comprises entre 0,92 nM et 67,8 nM. Dans d'autres essais enzymatiques, le selpercatinib a également inhibé FGFR 1, 2 et 3 à des concentrations plus élevées qui restaient cliniquement atteignables. » Texte original en anglais : "Selpercatinib is a kinase inhibitor. Selpercatinib inhibited wild-type RET and multiple mutated RET isoforms as well as VEGFR1 and VEGFR3 with IC 50 values ranging from 0.92 nM to 67.8 nM. In other enzyme assays, selpercatinib also inhibited FGFR 1, 2, and 3 at higher concentrations that were still clinically achievable." ([DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828), version du 2026-09-11 ; consulté le 2026-11-19). Selon les informations connues, selpercatinib est un inhibiteur sélectif de la kinase RET. Les publications retrouvées le situent dans le cancer du poumon non à petites cellules avec fusion de RET et dans le carcinome médullaire de la thyroïde, mais l'indication d'origine n'est pas documentée dans les données d'AMM.
 
 Le score TxGNN est très élevé (0,9918), mais il provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Aucune voie biologique reliant l'inhibition de RET à l'hypertension pulmonaire n'a été identifiée. Le sens de l'effet est inconnu : certains inhibiteurs de kinases (par exemple le dasatinib) ont été associés à l'hypertension artérielle pulmonaire, de sorte qu'un inhibiteur de RET pourrait aussi bien aggraver la maladie que l'améliorer.
 
@@ -127,11 +127,12 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisations françaises (RETSEVMO) sont aujourd'hui toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
 
 <!-- review:end log -->
 

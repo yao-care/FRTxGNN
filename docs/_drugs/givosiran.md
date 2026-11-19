@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **porphyrie par d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, givosiran est un siRNA qui cible l'ARN messager de l'ALAS1 (ALA synthase 1) dans le foie. Il diminue ainsi la production de l'acide δ-aminolévulinique (ALA) et du porphobilinogène (PBG), intermédiaires neurotoxiques responsables des crises aiguës.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Givosiran (traduction non officielle) : « Le givosiran est un petit ARN interférent double brin qui entraîne la dégradation de l'ARNm de l'aminolévulinate synthase 1 ( ALAS1 ) dans les hépatocytes par interférence ARN, réduisant les taux élevés d'ARNm d'ALAS1 hépatique. Cela entraîne une diminution des taux circulants des intermédiaires neurotoxiques acide aminolévulinique (ALA) et porphobilinogène (PBG), facteurs associés aux crises et aux autres manifestations de la PHA. » Texte original en anglais : "Givosiran is a double-stranded small interfering RNA that causes degradation of aminolevulinate synthase 1 ( ALAS1 ) mRNA in hepatocytes through RNA interference, reducing the elevated levels of liver ALAS1 mRNA. This leads to reduced circulating levels of neurotoxic intermediates aminolevulinic acid (ALA) and porphobilinogen (PBG), factors associated with attacks and other disease manifestations of AHP." ([DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa), version du 2025-09-10 ; consulté le 2026-11-19). D'après les informations connues, givosiran est un siRNA qui cible l'ARN messager de l'ALAS1 (ALA synthase 1) dans le foie. Il diminue ainsi la production de l'acide δ-aminolévulinique (ALA) et du porphobilinogène (PBG), intermédiaires neurotoxiques responsables des crises aiguës.
 
 La porphyrie par déficit en ALA déshydratase est une forme extrêmement rare de porphyrie aiguë : seuls une quinzaine de cas ont été publiés dans le monde. L'ALA s'y accumule en amont du bloc enzymatique, en aval d'ALAS1. Réduire la production hépatique d'ALA est donc théoriquement pertinent, et la maladie appartient à la même famille que l'indication d'origine.
 
@@ -126,12 +126,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est par ailleurs annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (motif de l'annulation de l'AMM et accès actuel au produit) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Givlaari (givosiran sodium) prescribing information, Alnylam Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=167e663c-11e1-497b-a3fc-951d65d58eaa) |
 
 <!-- review:end log -->
 

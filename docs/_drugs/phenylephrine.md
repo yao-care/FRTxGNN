@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré, et **5 publications** (essentiellement d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques établies, la phényléphrine est un agoniste alpha-1 adrénergique. Elle provoque une vasoconstriction des vaisseaux de la muqueuse nasale, ce qui réduit la congestion et les saignements de la muqueuse.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Phenylephrine (traduction non officielle) : « Le chlorhydrate de phényléphrine est un agoniste des récepteurs adrénergiques α-1. » Texte original en anglais : "Phenylephrine hydrochloride is an α-1 adrenergic receptor agonist." ([DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be), version du 2026-03-31 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, la phényléphrine est un agoniste alpha-1 adrénergique. Elle provoque une vasoconstriction des vaisseaux de la muqueuse nasale, ce qui réduit la congestion et les saignements de la muqueuse.
 
 La maladie de la cavité nasale recoupe en grande partie les indications d'origine (rhinite, rhinopharyngite, rhume). Il ne s'agit donc pas d'un véritable repositionnement, mais plutôt d'une extension ou d'une reformulation d'usages déjà connus. Le score TxGNN très élevé reflète probablement ce chevauchement.
 
@@ -121,11 +121,12 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Biorphen (phenylephrine hydrochloride) prescribing information, Dr. Reddy's Laboratories Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f715e4e-b269-b935-d2c9-003cb29770be) |
 
 <!-- review:end log -->
 

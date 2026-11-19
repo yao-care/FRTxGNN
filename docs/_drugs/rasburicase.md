@@ -55,7 +55,7 @@ Le modèle TxGNN (apprentissage profond) la prédit comme potentiellement effica
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la rasburicase est une urate oxydase recombinante qui convertit l'acide urique en allantoïne, ce qui abaisse l'uricémie. Son usage d'origine concerne donc les situations d'excès d'acide urique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rasburicase (traduction non officielle) : « Chez l'homme, l'acide urique constitue la dernière étape de la voie catabolique des purines. La rasburicase catalyse l'oxydation enzymatique de l'acide urique, peu soluble, en un métabolite inactif et plus soluble (l'allantoïne). » Texte original en anglais : "In humans, uric acid is the final step in the catabolic pathway of purines. Rasburicase catalyzes enzymatic oxidation of poorly soluble uric acid into an inactive and more soluble metabolite (allantoin)." ([DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922), version du 2026-07-30 ; consulté le 2026-11-19). D'après les connaissances générales, la rasburicase est une urate oxydase recombinante qui convertit l'acide urique en allantoïne, ce qui abaisse l'uricémie. Son usage d'origine concerne donc les situations d'excès d'acide urique.
 
 La prédiction du modèle pose problème. L'hypouricémie rénale est un état de **faible** taux d'acide urique (perte de fonction de URAT1/GLUT9). Réduire davantage l'urate n'a aucune justification thérapeutique et pourrait être nocif (par exemple, insuffisance rénale aiguë après effort). Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies liées au métabolisme de l'acide urique, et non une preuve biologique. La prédiction est vraisemblablement inversée : il s'agirait plutôt d'une contre-indication que d'une indication.
 
@@ -122,11 +122,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Elitek (rasburicase) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0ae10bc4-6b65-402f-9db5-2d7753054922) |
 
 <!-- review:end log -->
 

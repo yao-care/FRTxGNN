@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **monosomie X (sy
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le téprotumumab est un anticorps monoclonal inhibiteur du récepteur du facteur de croissance analogue à l'insuline de type 1 (IGF-1R). Son efficacité dans l'exophtalmie endocrinienne repose sur ce blocage.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Teprotumumab (traduction non officielle) : « Le mécanisme d’action du téprotumumab-trbw chez les patients atteints d’orbitopathie dysthyroïdienne n’a pas été entièrement caractérisé. Le téprotumumab-trbw se lie à l’IGF-1R et bloque son activation et sa signalisation. » Texte original en anglais : "Teprotumumab-trbw's mechanism of action in patients with Thyroid Eye Disease has not been fully characterized. Teprotumumab-trbw binds to IGF-1R and blocks its activation and signaling." ([DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce), version du 2026-09-28 ; consulté le 2026-11-19). Sur la base des informations connues, le téprotumumab est un anticorps monoclonal inhibiteur du récepteur du facteur de croissance analogue à l'insuline de type 1 (IGF-1R). Son efficacité dans l'exophtalmie endocrinienne repose sur ce blocage.
 
 Le lien avec la monosomie X (syndrome de Turner) provient uniquement d'une prédiction du modèle TxGNN (apprentissage profond). La signalisation de l'IGF-1 intervient dans la croissance, qui est altérée dans le syndrome de Turner. Toutefois, inhiber l'IGF-1R irait plutôt à l'encontre de l'objectif habituel de stimulation de la croissance. **Aucune justification thérapeutique plausible n'est étayée par les données disponibles.**
 
@@ -134,12 +134,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque le criblage de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tepezza (teprotumumab) prescribing information, Horizon Therapeutics USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3e6c54a1-cefd-4a5b-a855-ab9f268b6cce) |
 
 <!-- review:end log -->
 

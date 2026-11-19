@@ -56,7 +56,7 @@ Les données compilées comptent **aucun essai clinique** et **20 publications**
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le lévonorgestrel est un progestatif dérivé de la 19-nortestostérone, qui possède une activité androgénique intrinsèque. Cette propriété est en principe défavorable pour l'acné (voir la revue sur l'androgénicité des progestatifs, PMID 7825629).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Levonorgestrel (traduction non officielle) : « Le mécanisme local par lequel le LNG libéré en continu contribue à l'efficacité contraceptive de Skyla n'a pas été démontré de manière concluante. Les études menées sur Skyla et sur des prototypes de SIU au LNG similaires ont suggéré plusieurs mécanismes qui préviennent la grossesse : épaississement de la glaire cervicale empêchant le passage des spermatozoïdes dans l'utérus, inhibition de la capacitation ou de la survie des spermatozoïdes, et modification de l'endomètre. » Texte original en anglais : "The local mechanism by which continuously released LNG contributes to the contraceptive effectiveness of Skyla has not been conclusively demonstrated. Studies of Skyla and similar LNG IUS prototypes have suggested several mechanisms that prevent pregnancy: thickening of cervical mucus preventing passage of sperm into the uterus, inhibition of sperm capacitation or survival, and alteration of the endometrium." ([DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309), version du 2026-03-04 ; consulté le 2026-11-19). Sur la base des informations connues, le lévonorgestrel est un progestatif dérivé de la 19-nortestostérone, qui possède une activité androgénique intrinsèque. Cette propriété est en principe défavorable pour l'acné (voir la revue sur l'androgénicité des progestatifs, PMID 7825629).
 
 Les effets bénéfiques sur l'acné sont documentés surtout pour des contraceptifs oraux combinés contenant des progestatifs anti-androgéniques (par exemple l'acétate de chlormadinone), et non pour le lévonorgestrel seul. Le seul essai randomisé retrouvé (PMID 12196750) évalue une association à faible dose d'éthinylestradiol (20 µg) et de lévonorgestrel (100 µg) : l'effet éventuel est vraisemblablement porté par l'œstrogène et la baisse des androgènes biodisponibles, plus que par le lévonorgestrel lui-même.
 
@@ -109,6 +109,18 @@ Le niveau de preuve retenu est L2, fondé sur un seul essai randomisé contrôl�
 - Mises en garde et contre-indications issues de la notice officielle (ANSM)
 - Essais comparant le lévonorgestrel seul à un progestatif anti-androgénique ou à un placebo dans l'acné
 - Évaluation du rapport bénéfice/risque, compte tenu de l'androgénicité du lévonorgestrel
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Skyla (levonorgestrel) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9f44ff35-e052-49cd-a1c2-0bfd87d49309) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

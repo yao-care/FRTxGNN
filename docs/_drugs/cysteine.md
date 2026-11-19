@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de l
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la cystéine est un acide aminé soufré dont le groupe thiol (–SH) lui confère des propriétés antioxydantes. Elle est aussi le précurseur de la N-acétylcystéine (NAC), un mucolytique et antioxydant, ce qui est cohérent avec ses associations à des indications respiratoires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cysteine (traduction non officielle) : « La cystéine endogène est synthétisée à partir de la méthionine par l'enzyme cystathionase, via la voie de transsulfuration, et sert de substrat précurseur à la fois pour le glutathion et la taurine. ELCYS ® fournit de la cystéine à la circulation systémique des patients qui nécessitent une NP et ne peuvent pas synthétiser des quantités adéquates de cystéine en raison d'une activité de la cystathionase insuffisante ou déficiente. » Texte original en anglais : "Endogenous cysteine is synthesized from methionine by the enzyme, cystathionase, via the trans-sulfuration pathway, and serves as a precursor substrate for both glutathione and taurine. ELCYS ® provides cysteine to the systemic circulation of patients who require PN and cannot synthesize adequate quantities of cysteine due to insufficient or deficient cystathionase activity." ([DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e), version du 2026-04-09 ; consulté le 2026-11-19). D'après les informations connues, la cystéine est un acide aminé soufré dont le groupe thiol (–SH) lui confère des propriétés antioxydantes. Elle est aussi le précurseur de la N-acétylcystéine (NAC), un mucolytique et antioxydant, ce qui est cohérent avec ses associations à des indications respiratoires.
 
 Le lien avec l'œil sec reste indirect. Le stress oxydatif (espèces réactives de l'oxygène, activation de l'inflammasome NLRP3) joue un rôle dans la maladie. Des polymères thiolés (« thiomères ») issus de conjugués de cystéine présentent de bonnes propriétés mucoadhésives et de rétention oculaire. Des nanovecteurs conjugués à la L-cystéine et des promédicaments à base de persulfure dérivés de la cystéine ont été testés au stade préclinique.
 
@@ -132,12 +132,13 @@ Les mises en garde et contre-indications issues des notices officielles n'ont pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM étant toutes annulées et sans texte d'indication » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Elcys (cysteine hydrochloride) prescribing information, Exela Pharma Sciences, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52317b38-b2e6-4a1c-b5b0-43cada0d205e) |
 
 <!-- review:end log -->
 

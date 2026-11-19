@@ -59,7 +59,7 @@ Le modèle TxGNN (apprentissage profond) prédit en rang 1 qu'il pourrait être 
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le lorazépam est un modulateur allostérique positif des récepteurs GABA-A : il renforce l'inhibition neuronale, d'où ses effets anxiolytique, sédatif, hypnotique et anticonvulsivant.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lorazepam (traduction non officielle) : « Le lorazépam exerce son effet dans le traitement des troubles anxieux en se liant au site des benzodiazépines des récepteurs de l'acide gamma-aminobutyrique de type A (GABA A ) dans le cerveau et renforce l'inhibition synaptique médiée par le GABA. » Texte original en anglais : "Lorazepam exerts its effect for the treatment of anxiety disorders through binding to the benzodiazepine site of the gamma-aminobutyric acid-A (GABA A ) receptors in the brain and enhances GABA-mediated synaptic inhibition." ([DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9), version du 2025-10-08 ; consulté le 2026-11-19). D'après les connaissances générales, le lorazépam est un modulateur allostérique positif des récepteurs GABA-A : il renforce l'inhibition neuronale, d'où ses effets anxiolytique, sédatif, hypnotique et anticonvulsivant.
 
 Pour la tumeur du nerf trijumeau, **aucun lien mécanistique plausible** n'apparaît entre cette modulation et le contrôle tumoral. Un éventuel usage ne pourrait être que symptomatique (anxiété, nausées), et non modificateur de la maladie. Le score très élevé (0,9987) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies voisines, et non une preuve biologique ou clinique.
 
@@ -145,12 +145,13 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées, raisons et possibilités de réactivation) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
 
 <!-- review:end log -->
 

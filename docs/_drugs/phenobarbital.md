@@ -56,7 +56,7 @@ Les données compilées pour ce rapport ne soutiennent donc cette prédiction qu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, le phénobarbital est un modulateur allostérique positif des récepteurs GABA-A qui supprime les crises, et il n'a pas d'activité antitumorale connue.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Phenobarbital (traduction non officielle) : « Le mécanisme d'action précis du phénobarbital dans le traitement des convulsions néonatales n'est pas entièrement élucidé, mais on pense qu'il implique une potentialisation de l'inhibition synaptique par une action sur le récepteur GABA A. » Texte original en anglais : "The precise mechanism of action for phenobarbital for the treatment of neonatal seizures is not fully understood, but it is thought to involve potentiation of synaptic inhibition through an action on the GABA A receptor." ([DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a), version du 2026-10-23 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le phénobarbital est un modulateur allostérique positif des récepteurs GABA-A qui supprime les crises, et il n'a pas d'activité antitumorale connue.
 
 **La prédiction ne repose sur aucun lien mécanistique crédible.** Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises entre maladies voisines, et non une preuve biologique. La seule publication retrouvée porte sur la prise en charge des crises dans le syndrome de Sturge-Weber, et non sur une tumeur du trijumeau.
 
@@ -136,12 +136,13 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Six autres AMM annulées (Gardenal 200 mg/4 ml, Gardenal 50 mg, Alepsal 15, 50, 100 et 150 mg) ne sont pas détaillées ici » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sezaby (phenobarbital sodium) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8c7d0402-4977-4c25-bc4b-11db91339e9a) |
 
 <!-- review:end log -->
 

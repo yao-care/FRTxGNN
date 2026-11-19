@@ -56,7 +56,7 @@ Remarque : la prédiction de rang 1 (hyperthyroïdie) n'a aucune preuve associé
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, palbociclib inhibe CDK4 et CDK6, ce qui bloque la progression du cycle cellulaire en phase G1 et limite la prolifération cellulaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Palbociclib (traduction non officielle) : « Le palbociclib est un inhibiteur des kinases cycline-dépendantes (CDK) 4 et 6. La cycline D1 et les CDK4/6 se situent en aval de voies de signalisation conduisant à la prolifération cellulaire. In vitro, le palbociclib a réduit la prolifération cellulaire de lignées cellulaires de cancer du sein positives pour les récepteurs des œstrogènes (RE) en bloquant la progression de la cellule de la phase G1 vers la phase S du cycle cellulaire. » Texte original en anglais : "Palbociclib is an inhibitor of cyclin-dependent kinases (CDK) 4 and 6. Cyclin D1 and CDK4/6 are downstream of signaling pathways which lead to cellular proliferation. In vitro, palbociclib reduced cellular proliferation of estrogen receptor (ER)-positive breast cancer cell lines by blocking progression of the cell from G1 into S phase of the cell cycle." ([DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792), version du 2026-07-06 ; consulté le 2026-11-19). D'après les connaissances générales, palbociclib inhibe CDK4 et CDK6, ce qui bloque la progression du cycle cellulaire en phase G1 et limite la prolifération cellulaire.
 
 Dans la polyarthrite rhumatoïde, la prolifération excessive des fibroblastes synoviaux entretient l'hyperplasie de la synoviale. Des travaux précliniques suggèrent une hyperplasie synoviale dépendante de CDK6 et indépendante de CDK4 chez la souris arthritique (PMID 39940918). Une autre étude animale indique que la régulation du cycle cellulaire associée au blocage de cytokines renforce l'effet antiarthritique sans accroître l'immunosuppression (PMID 25165034).
 
@@ -123,6 +123,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Hyperthyroïdie (rang 1, 0.9944) : aucun essai ni publication, aucun lien mécanistique appuyé par les données ; niveau L5, Hold.
 - Maladie thrombotique (rang 3, 0.9932) : la littérature indique plutôt un signal de risque thromboembolique ; l'effet pourrait être opposé à un bénéfice thérapeutique ; niveau L4, Hold.
 - Résistance aux hormones thyroïdiennes par mutation du récepteur bêta (rang 4, 0.9930) : aucun essai ni publication ; niveau L5, Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ibrance (palbociclib) prescribing information, U.S. Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89a142d5-7e61-48bf-9e77-e2cd124c4792) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

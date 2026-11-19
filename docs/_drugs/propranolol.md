@@ -56,7 +56,7 @@ Les indications suivantes du classement disposent de peu de données : la **card
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le propranolol est un bêtabloquant non sélectif (non cardiosélectif), sans activité sympathomimétique intrinsèque, dont l'efficacité a été établie dans l'hypertension, les arythmies et la cardiomyopathie hypertrophique, par réduction de la fréquence cardiaque, de la contractilité et de la consommation d'oxygène du myocarde.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Propranolol (traduction non officielle) : « Le mécanisme de l'effet antihypertenseur du propranolol n'a pas été établi. Parmi les facteurs qui contribuent à l'action antihypertensive figurent : la diminution du débit cardiaque, l'inhibition de la libération de rénine par les reins et la diminution du tonus sympathique efférent issu des centres vasomoteurs cérébraux. » Texte original en anglais : "The mechanism of the antihypertensive effect of propranolol has not been established. Among factors that contribute to the antihypertensive action are: decreased cardiac output, inhibition of renin release by the kidneys, and diminution of tonic sympathetic nerve outflow from vasomotor centers in the brain." ([DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade), version du 2026-08-27 ; consulté le 2026-11-19). Sur la base des informations connues, le propranolol est un bêtabloquant non sélectif (non cardiosélectif), sans activité sympathomimétique intrinsèque, dont l'efficacité a été établie dans l'hypertension, les arythmies et la cardiomyopathie hypertrophique, par réduction de la fréquence cardiaque, de la contractilité et de la consommation d'oxygène du myocarde.
 
 Pour la myopathie distale de type Tateyama, **aucun lien mécanistique n'est soutenu par les données compilées**. Cette maladie musculaire rare n'a pas de relation évidente avec le blocage bêta-adrénergique. Le score élevé du modèle reste donc une sortie algorithmique, sans étude de soutien. À noter aussi que le graphe de connaissances signale des maladies musculaires (myopathie, maladie du muscle squelettique) parmi les contre-indications du propranolol, ce qui appelle à la prudence.
 
@@ -126,11 +126,12 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « puisque seules des AMM annulées sont recensées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
 
 <!-- review:end log -->
 

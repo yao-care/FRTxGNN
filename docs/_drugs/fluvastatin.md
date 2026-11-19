@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**infection par le 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La fluvastatine fait partie de la classe des statines (inhibiteurs de l'HMG-CoA réductase), utilisées pour abaisser le cholestérol et prévenir les complications cardiovasculaires. Les scores de prédiction proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fluvastatin (traduction non officielle) : « La fluvastatine est un inhibiteur compétitif de l'HMG-CoA réductase, l'enzyme limitante qui convertit le 3-hydroxy-3-méthylglutaryl-coenzyme A (HMG-CoA) en mévalonate, un précurseur du cholestérol. » Texte original en anglais : "Fluvastatin is a competitive inhibitor of HMG-CoA reductase, the rate limiting enzyme that converts 3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) to mevalonate, a precursor of cholesterol." ([DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310), version du 2024-01-31 ; consulté le 2026-11-19). La fluvastatine fait partie de la classe des statines (inhibiteurs de l'HMG-CoA réductase), utilisées pour abaisser le cholestérol et prévenir les complications cardiovasculaires. Les scores de prédiction proviennent du modèle TxGNN (deep learning) et peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non des preuves biologiques.
 
 Les liens plausibles avec le VIH restent indirects : les statines ont des propriétés anti-inflammatoires et immunomodulatrices pouvant réduire des marqueurs d'activation immunitaire chez les patients traités, et un effet protecteur des podocytes a été observé dans un modèle murin de néphropathie associée au VIH. La fluvastatine est métabolisée par le CYP2C9 plutôt que le CYP3A4, d'où un risque d'interaction relativement faible avec les inhibiteurs de protéase.
 
@@ -121,11 +121,12 @@ La fluvastatine est commercialisée en France. Les textes d'indication ne sont p
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | AMM valides : 14 → 12 (3 abrogées ou archivées) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fluvastatin Sodium Er (fluvastatin sodium) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ab4296c-87c2-4c64-b218-d620eef51310) |
 
 <!-- review:end log -->
 

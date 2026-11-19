@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la caspofungine appartient à la classe des échinocandines, qui inhibent la bêta-(1,3)-D-glucane synthase, une enzyme propre aux cellules fongiques et absente des cellules de mammifères.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Caspofungin (traduction non officielle) : « La caspofungine est un médicament antifongique de la classe des échinocandines. […] La caspofungine, une échinocandine, inhibe la synthèse du bêta (1,3)-D-glucane, un composant essentiel de la paroi cellulaire des espèces sensibles d'Aspergillus et de Candida. Le bêta (1,3)-D-glucane n'est pas présent dans les cellules de mammifères. » Texte original en anglais : "Caspofungin is an echinocandin antifungal drug. […] Caspofungin, an echinocandin, inhibits the synthesis of beta (1,3)-D-glucan, an essential component of the cell wall of susceptible Aspergillus species and Candida species. Beta (1,3)-D-glucan is not present in mammalian cells." ([DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c), version du 2024-10-11 ; consulté le 2026-11-19). D'après les connaissances générales, la caspofungine appartient à la classe des échinocandines, qui inhibent la bêta-(1,3)-D-glucane synthase, une enzyme propre aux cellules fongiques et absente des cellules de mammifères.
 
 Aucun lien mécanistique plausible n'apparaît entre cette activité antifongique et la régulation de la gastrine (fonction des cellules G, sécrétion d'acide gastrique, signalisation du récepteur CCK2). Le score élevé du modèle (0,9944) reflète une prédiction informatique ; il peut provenir d'une proximité dans le réseau de données ou de voisins communs, plutôt que d'une causalité biologique.
 
@@ -103,6 +103,19 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5) :
 - Études précliniques ou de mécanisme portant directement sur l'anomalie de la sécrétion de gastrine
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Évaluation de la compatibilité de la voie d'administration (perfusion) avec l'usage envisagé
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

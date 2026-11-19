@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **déficit acquis
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations pharmacologiques connues, emicizumab est un anticorps bispécifique qui lie le facteur IX activé et le facteur X, et reproduit la fonction de cofacteur du facteur VIII activé.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Emicizumab (traduction non officielle) : « HEMLIBRA relie le facteur IX activé et le facteur X afin de restaurer la fonction du facteur VIII activé manquant, nécessaire à une hémostase efficace. » Texte original en anglais : "HEMLIBRA bridges activated factor IX and factor X to restore the function of missing activated factor VIII that is needed for effective hemostasis." ([DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071), version du 2025-07-11 ; consulté le 2026-11-19). Sur la base des informations pharmacologiques connues, emicizumab est un anticorps bispécifique qui lie le facteur IX activé et le facteur X, et reproduit la fonction de cofacteur du facteur VIII activé.
 
 Dans l'hémophilie A acquise, des autoanticorps neutralisent le facteur VIII. Emicizumab n'a pas d'homologie structurale avec le facteur VIII et n'est donc pas neutralisé par ces inhibiteurs. Il rétablit le pontage entre FIXa et FX, ce qui offre une justification biologique directe et cohérente.
 
@@ -135,12 +135,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, non 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Hemlibra (emicizumab) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2483adba-fab6-4d1b-96c5-c195577ed071) |
 
 <!-- review:end log -->
 

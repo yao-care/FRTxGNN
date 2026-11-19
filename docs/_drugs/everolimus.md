@@ -56,7 +56,7 @@ avec **1 essai clinique** (phase II, en association) et **4 publications** (dont
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'évérolimus est un inhibiteur de la voie mTOR (mTORC1). Son efficacité a été établie dans le carcinome rénal avancé et dans d'autres indications oncologiques (sein, angiomyolipome, sclérose tubéreuse).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Everolimus (traduction non officielle) : « L'évérolimus inhibe l'activation et la prolifération des lymphocytes T et B stimulées par les antigènes et les interleukines (IL-2 et IL-15). Dans les cellules, l'évérolimus se lie à une protéine cytoplasmique, la FK506 Binding Protein-12 (FKBP-12), pour former un complexe immunosuppresseur (évérolimus : FKBP-12) qui se lie à la cible de la rapamycine chez les mammifères (mTOR), une kinase régulatrice clé, et l'inhibe. » Texte original en anglais : "Everolimus inhibits antigenic and interleukin (IL-2 and IL-15) stimulated activation and proliferation of T and B lymphocytes. In cells, everolimus binds to a cytoplasmic protein, the FK506 Binding Protein-12 (FKBP-12), to form an immunosuppressive complex (everolimus: FKBP-12) that binds to and inhibits the mammalian target of rapamycin (mTOR), a key regulatory kinase." ([DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a), version du 2026-09-16 ; consulté le 2026-11-19). Sur la base des informations connues, l'évérolimus est un inhibiteur de la voie mTOR (mTORC1). Son efficacité a été établie dans le carcinome rénal avancé et dans d'autres indications oncologiques (sein, angiomyolipome, sclérose tubéreuse).
 
 Le liposarcome dédifférencié se caractérise par une amplification de MDM2/CDK4 et une activation fréquente de la voie PI3K/AKT/mTOR. Bloquer mTOR par l'évérolimus tout en inhibant CDK4/6 par le ribociclib constitue un double blocage rationnel du cycle cellulaire et de la signalisation de croissance et de survie.
 
@@ -134,11 +134,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarification de la disponibilité commerciale en France, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zortress (everolimus) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e082a024-7850-400b-a5c2-2a140612562a) |
 
 <!-- review:end log -->
 

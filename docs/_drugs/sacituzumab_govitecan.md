@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**ostéoporose
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, sacituzumab govitecan est un conjugué anticorps-médicament dirigé contre Trop-2 qui libère SN-38, un inhibiteur de la topoisomérase I à effet cytotoxique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sacituzumab Govitecan (traduction non officielle) : « Le sacituzumab govitécan-hziy est un conjugué anticorps-médicament dirigé contre Trop-2. Le sacituzumab est un anticorps humanisé qui reconnaît Trop-2. La petite molécule, le SN-38, est un inhibiteur de la topoisomérase I, qui est lié de manière covalente à l'anticorps par un lieur. » Texte original en anglais : "Sacituzumab govitecan-hziy is a Trop-2-directed antibody-drug conjugate. Sacituzumab is a humanized antibody that recognizes Trop-2. The small molecule, SN-38, is a topoisomerase I inhibitor, which is covalently attached to the antibody by a linker." ([DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d), version du 2026-06-24 ; consulté le 2026-11-19). Sur la base des informations connues, sacituzumab govitecan est un conjugué anticorps-médicament dirigé contre Trop-2 qui libère SN-38, un inhibiteur de la topoisomérase I à effet cytotoxique.
 
 Les données compilées ne permettent d'établir **aucun lien mécanistique** avec l'ostéoporose médicamenteuse. Un agent cytotoxique de ce type n'a pas de mécanisme protecteur ou anabolique osseux connu. Au contraire, la myélosuppression et l'exposition aux corticoïdes de soutien pourraient plutôt aggraver la santé osseuse.
 
@@ -124,12 +124,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles. V
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarification de l'indication d'origine et des raisons de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Trodelvy (sacituzumab govitecan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=57a597d2-03f0-472e-b148-016d7169169d) |
 
 <!-- review:end log -->
 

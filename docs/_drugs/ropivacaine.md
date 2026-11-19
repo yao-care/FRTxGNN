@@ -56,7 +56,7 @@ avec **2 essais cliniques** et **3 publications** soutenant actuellement cette d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations pharmacologiques connues, la ropivacaïne est un anesthésique local de type amide à action prolongée qui bloque les canaux sodiques voltage-dépendants. Son usage d'origine concerne l'anesthésie et l'analgésie locorégionales, mais l'indication officielle n'est pas renseignée.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ropivacaine (traduction non officielle) : « La ropivacaïne appartient à la classe des anesthésiques locaux de type amino-amide et est fournie sous forme d'énantiomère S-(-) pur. Les anesthésiques locaux bloquent la génération et la conduction de l'influx nerveux, probablement en augmentant le seuil d'excitation électrique du nerf, en ralentissant la propagation de l'influx nerveux et en réduisant la vitesse de montée du potentiel d'action. » Texte original en anglais : "Ropivacaine is a member of the amino amide class of local anesthetics and is supplied as the pure S-(-)-enantiomer. Local anesthetics block the generation and the conduction of nerve impulses, presumably by increasing the threshold for electrical excitation in the nerve, by slowing the propagation of the nerve impulse, and by reducing the rate of rise of the action potential." ([DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792), version du 2026-07-17 ; consulté le 2026-11-19). Sur la base des informations pharmacologiques connues, la ropivacaïne est un anesthésique local de type amide à action prolongée qui bloque les canaux sodiques voltage-dépendants. Son usage d'origine concerne l'anesthésie et l'analgésie locorégionales, mais l'indication officielle n'est pas renseignée.
 
 Sur le plan mécanistique, bloquer la transmission nociceptive au niveau du ganglion sphénopalatin, du ganglion stellaire, du nerf grand occipital ou de points gâchettes cervicaux et crâniens pourrait réduire les afférences périphériques et la sensibilisation trigémino-vasculaire impliquées dans la migraine. Ce mécanisme est plausible, mais il n'est pas validé directement par les données disponibles.
 
@@ -115,11 +115,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice sont absentes, ce qui bloque le passage au criblage de s » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Naropin (ropivacaine hydrochloride) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cb6583ff-cde4-4280-aa5b-0bea2b844792) |
 
 <!-- review:end log -->
 

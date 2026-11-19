@@ -56,7 +56,7 @@ avec **8 publications précliniques** (principalement des études chez le macaqu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le ténofovir alafénamide est une prodrogue du ténofovir, convertie dans les cellules en ténofovir diphosphate, qui inhibe la transcriptase inverse virale. Il fait partie de plusieurs associations antirétrovirales (emtricitabine/TAF, bictégravir/emtricitabine/TAF, etc.).
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tenofovir Alafenamide (traduction non officielle) : « Le ténofovir alafénamide est un médicament antiviral dirigé contre le virus de l'hépatite B. […] Le ténofovir alafénamide est une prodrogue phosphonamidate du ténofovir (analogue du 2'-désoxyadénosine monophosphate). Le ténofovir alafénamide, en tant que composé lipophile perméable aux cellules, pénètre dans les hépatocytes primaires par diffusion passive et par l'intermédiaire des transporteurs de captage hépatique OATP1B1 et OATP1B3. » Texte original en anglais : "Tenofovir alafenamide is an antiviral drug against the hepatitis B virus. […] Tenofovir alafenamide is a phosphonamidate prodrug of tenofovir (2'-deoxyadenosine monophosphate analog). Tenofovir alafenamide as a lipophilic cell-permeant compound enters primary hepatocytes by passive diffusion and by the hepatic uptake transporters OATP1B1 and OATP1B3." ([DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2), version du 2025-07-14 ; consulté le 2026-11-19). D'après les connaissances générales, le ténofovir alafénamide est une prodrogue du ténofovir, convertie dans les cellules en ténofovir diphosphate, qui inhibe la transcriptase inverse virale. Il fait partie de plusieurs associations antirétrovirales (emtricitabine/TAF, bictégravir/emtricitabine/TAF, etc.).
 
 Le SIV et le SHIV sont des lentivirus étroitement apparentés au VIH et reposent sur la même transcriptase inverse. Le mécanisme d'action connu dans le VIH est donc plausiblement transposable.
 
@@ -133,13 +133,14 @@ Une donnée pharmacologique signale une liaison du ténofovir alafénamide au r�
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM (GENVOYA 150 mg/150 mg/200 mg/10 mg, n° 65453475) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les six AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vemlidy (tenofovir alafenamide) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e6b33c-0351-4070-9172-eeaa186c01d2) |
 
 <!-- review:end log -->
 

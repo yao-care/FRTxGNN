@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne l'étudie directement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales en pharmacologie, l'ézétimibe inhibe l'absorption intestinale du cholestérol via la protéine NPC1L1 et abaisse ainsi le LDL-cholestérol.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ezetimibe (traduction non officielle) : « L'ézétimibe réduit le cholestérol sanguin en inhibant l'absorption du cholestérol par l'intestin grêle. Il a été démontré que la cible moléculaire de l'ézétimibe est le transporteur de stérols Niemann-Pick C1-Like 1 (NPC1L1), qui intervient dans l'absorption intestinale du cholestérol et des phytostérols. » Texte original en anglais : "Ezetimibe reduces blood cholesterol by inhibiting the absorption of cholesterol by the small intestine. The molecular target of ezetimibe has been shown to be the sterol transporter, Niemann-Pick C1-Like 1 (NPC1L1), which is involved in the intestinal uptake of cholesterol and phytosterols." ([DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9), version du 2026-10-08 ; consulté le 2026-11-19). D'après les connaissances générales en pharmacologie, l'ézétimibe inhibe l'absorption intestinale du cholestérol via la protéine NPC1L1 et abaisse ainsi le LDL-cholestérol.
 
 Le déficit en CETP se caractérise par un HDL-cholestérol élevé et un transfert réduit des esters de cholestérol des HDL vers les lipoprotéines contenant l'apoB. Les deux situations touchent le métabolisme des lipoprotéines, ce qui explique probablement le score élevé du modèle.
 
@@ -117,11 +117,12 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | AMM compilées : 19 valides et 1 archivée, pas toutes valides | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
 
 <!-- review:end log -->
 

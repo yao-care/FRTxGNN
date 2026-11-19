@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**empyème pleur
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la mupirocine est un antibiotique topique qui inhibe l'isoleucyl-ARNt synthétase bactérienne et agit principalement sur *Staphylococcus aureus* (y compris le SARM) et sur les streptocoques. Ces informations ne proviennent pas des données de mécanisme du dossier et ne sont donc pas retenues comme preuve.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mupirocin (traduction non officielle) : « La mupirocine est un antibactérien inhibiteur de l'ARN synthétase. […] La mupirocine inhibe la synthèse protéique bactérienne en se liant de manière réversible et spécifique à l'isoleucyl-ARN de transfert (ARNt) synthétase bactérienne. La mupirocine est bactéricide aux concentrations obtenues par administration topique. » Texte original en anglais : "Mupirocin is an RNA synthetase inhibitor antibacterial. […] Mupirocin inhibits bacterial protein synthesis by reversibly and specifically binding to bacterial isoleucyl-transfer RNA (tRNA) synthetase. Mupirocin is bactericidal at concentrations achieved by topical administration." ([DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870), version du 2020-03-20 ; consulté le 2026-11-19). D'après les connaissances générales, la mupirocine est un antibiotique topique qui inhibe l'isoleucyl-ARNt synthétase bactérienne et agit principalement sur *Staphylococcus aureus* (y compris le SARM) et sur les streptocoques. Ces informations ne proviennent pas des données de mécanisme du dossier et ne sont donc pas retenues comme preuve.
 
 Le lien avec l'empyème pleural est lâche : cette infection est souvent causée par ces mêmes germes, d'où une certaine logique antibactérienne. Toutefois, la plausibilité pharmacocinétique est **très faible**. La mupirocine n'est approuvée que par voie topique, son exposition systémique est négligeable et elle est rapidement hydrolysée en acide monique inactif. Elle ne convient donc pas au traitement systémique ou intrapleural d'une infection profonde.
 
@@ -101,6 +101,19 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 - Rechercher des données précliniques ou cliniques sur l'empyème pleural
 
 **Note sur la seconde prédiction :** la kératoconjonctivite épithéliale ponctuée (score TxGNN 0,9910, niveau L5, Hold) n'est étayée par aucune preuve directe. La pommade de mupirocine n'est ni formulée ni approuvée pour l'usage ophtalmique, et sa sécurité sur la surface oculaire n'est pas établie. Seul un sous-groupe d'origine staphylococcique pourrait présenter un lien antibactérien.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pirnuo (mupirocin) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89c43f7b-1a88-45bf-a356-07518d4e7870) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

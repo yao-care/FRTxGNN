@@ -60,7 +60,7 @@ La prédiction repose uniquement sur le modèle, et le lien mécanistique est ju
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, efmoroctocog alfa est un facteur VIII recombinant fusionné à un fragment Fc, qui remplace le facteur VIII déficient dans l'hémophilie. Le fragment Fc prolonge sa demi-vie dans la circulation.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Efmoroctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation » Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, efmoroctocog alfa est un facteur VIII recombinant fusionné à un fragment Fc, qui remplace le facteur VIII déficient dans l'hémophilie. Le fragment Fc prolonge sa demi-vie dans la circulation.
 
 La pseudo-maladie de von Willebrand (de type plaquettaire) est causée par un gain de fonction du récepteur plaquettaire GPIbα, qui entraîne la perte des multimères de haut poids moléculaire du facteur von Willebrand (VWF). Le remplacement du facteur VIII ne corrige pas ce défaut du récepteur plaquettaire : le lien mécanistique est donc **faible**.
 
@@ -145,12 +145,13 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « *Trois autres AMM (500, 3000 et 4000 UI) sont également annulées.* » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, disponibilité éventuelle du produit) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL4297945 (efmoroctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4297945) |
 
 <!-- review:end log -->
 

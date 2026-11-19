@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour l'**hyperthermie malign
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'acétazolamide appartient à la classe des inhibiteurs de l'anhydrase carbonique, enzyme qui régule le pH et le transport des ions dans de nombreux tissus.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Acetazolamide (traduction non officielle) : « L'acétazolamide est un puissant inhibiteur de l'anhydrase carbonique, efficace dans le contrôle de la sécrétion de liquide (par exemple, certains types de glaucome), dans le traitement de certains troubles convulsifs (par exemple, l'épilepsie) et dans la stimulation de la diurèse en cas de rétention hydrique anormale (par exemple, l'œdème cardiaque). L'acétazolamide n'est pas un diurétique mercuriel. » Texte original en anglais : "Acetazolamide is a potent carbonic anhydrase inhibitor, effective in the control of fluid secretion (e.g., some types of glaucoma), in the treatment of certain convulsive disorders (e.g., epilepsy), and in the promotion of diuresis in instances of abnormal fluid retention (e.g., cardiac edema). Acetazolamide is not a mercurial diuretic." ([DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b), version du 2026-11-10 ; consulté le 2026-11-19). Sur la base des informations connues, l'acétazolamide appartient à la classe des inhibiteurs de l'anhydrase carbonique, enzyme qui régule le pH et le transport des ions dans de nombreux tissus.
 
 Un lien plausible serait une modification du pH et de la gestion des ions dans le muscle squelettique, ce qui pourrait théoriquement influencer une atteinte musculaire liée à l'effort. Cette hypothèse reste toutefois spéculative et n'est étayée par aucune donnée compilée pour ce rapport. Le score élevé du modèle (0.9995) ne constitue pas une preuve clinique.
 
@@ -98,6 +98,19 @@ La prédiction repose uniquement sur le score du modèle (0.9995), sans essai cl
 - Études précliniques ou observationnelles évaluant un effet sur l'hyperthermie maligne d'effort
 - Mises en garde et contre-indications extraites de la notice ANSM pour un dépistage de sécurité
 - Évaluation du profil de sécurité (interactions, troubles électrolytiques et acido-basiques) chez les patients concernés
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acetazolamide prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e8e48a25-5f6c-4b5a-a5f2-ee87aabea33b) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

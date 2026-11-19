@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le fosamprénavir est la prodrogue de l'amprénavir, un inhibiteur de la protéase du VIH-1. Son efficacité dans l'infection par le VIH est établie, et il pourrait être mécanistiquement applicable à d'autres lentivirus.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fosamprenavir (traduction non officielle) : « Le fosamprénavir est un agent antirétroviral anti-VIH-1. […] Le fosamprénavir est une prodrogue qui est rapidement hydrolysée en amprénavir par les phosphatases cellulaires de l'épithélium intestinal au cours de son absorption. L'amprénavir est un inhibiteur de la protéase du VIH-1. L'amprénavir se lie au site actif de la protéase du VIH-1 et empêche ainsi la maturation des précurseurs polyprotéiques viraux Gag et Gag-Pol, ce qui entraîne la formation de particules virales immatures non infectieuses. » Texte original en anglais : "Fosamprenavir is an HIV-1 antiretroviral agent. […] Fosamprenavir is a prodrug that is rapidly hydrolyzed to amprenavir by cellular phosphatases in the gut epithelium as it is absorbed. Amprenavir is an inhibitor of HIV-1 protease. Amprenavir binds to the active site of HIV-1 protease and thereby prevents the processing of viral Gag and Gag-Pol polyprotein precursors, resulting in the formation of immature non-infectious viral particles." ([DailyMed: fosamprenavir calcium prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd1eead-9fc1-426c-bee8-214ffa7d9dc1), version du 2026-06-30 ; consulté le 2026-11-19). Sur la base des connaissances générales, le fosamprénavir est la prodrogue de l'amprénavir, un inhibiteur de la protéase du VIH-1. Son efficacité dans l'infection par le VIH est établie, et il pourrait être mécanistiquement applicable à d'autres lentivirus.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus apparenté au VIH, et sa protéase présente une similarité structurale avec celle du VIH-1. Cela fournit un argument mécanistique de départ. Toutefois, la protéase du FIV diffère de celle du VIH-1 par sa spécificité de substrat et sa sensibilité aux inhibiteurs, et les inhibiteurs de la classe de l'amprénavir sont connus pour y être moins efficaces.
 
@@ -116,6 +116,19 @@ Pour les informations de sécurité complètes, veuillez consulter la notice.
 - Données précliniques d'activité de l'amprénavir sur la protéase du FIV/VIS, si l'on souhaite poursuivre ces pistes
 - Confirmation de la pertinence d'un usage vétérinaire ou préclinique, car ces indications offrent peu de valeur pour un repositionnement chez l'humain
 - Définition d'une hypothèse biologique explicite avant toute exploration des indications neurodéveloppementale et mammaires
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: fosamprenavir calcium prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5cd1eead-9fc1-426c-bee8-214ffa7d9dc1) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

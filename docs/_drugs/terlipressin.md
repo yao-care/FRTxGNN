@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hypertension pulm
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, la terlipressine est une prodrogue de la lysine-vasopressine. Elle agit sur les récepteurs V1 et provoque une puissante vasoconstriction systémique et splanchnique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Terlipressin (traduction non officielle) : « La terlipressine est un analogue synthétique de la vasopressine dont la sélectivité pour les récepteurs V 1 de la vasopressine est deux fois supérieure à celle pour les récepteurs V 2. La terlipressine agit à la fois comme une prodrogue de la lysine-vasopressine et possède en outre une activité pharmacologique propre. » Texte original en anglais : "Terlipressin is a synthetic vasopressin analogue with twice the selectivity for vasopressin V 1 receptors versus V 2 receptors. Terlipressin acts as both a prodrug for lysine-vasopressin, as well as having pharmacologic activity on its own." ([DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354), version du 2026-10-23 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la terlipressine est une prodrogue de la lysine-vasopressine. Elle agit sur les récepteurs V1 et provoque une puissante vasoconstriction systémique et splanchnique.
 
 L'hypothèse pour l'hypertension pulmonaire repose sur un effet potentiellement différentiel de la terlipressine sur les lits vasculaires pulmonaire et systémique. Chez des patients cirrhotiques atteints d'hypertension pulmonaire, de petites études physiologiques rapportent une pression pulmonaire améliorée ou neutre, alors que d'autres vasoconstricteurs peuvent l'aggraver. Cette piste reste hypothétique : aucun essai randomisé ne la confirme.
 
@@ -111,6 +111,19 @@ Les données de sécurité issues de la notice (mises en garde, contre-indicatio
 - Évaluer la compatibilité des voies d'administration et la similarité avec l'indication d'origine
 - Réaliser une revue ciblée de la littérature sur l'hypertension pulmonaire (en séparant clairement l'hypertension portopulmonaire de l'hypertension pulmonaire néonatale)
 - Envisager, si l'intérêt se confirme, un essai exploratoire de phase 2 avec surveillance hémodynamique pulmonaire stricte
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Terlivaz (terlipressin) prescribing information, Keenova Hospital Products Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3a35b86c-f451-4fac-8499-43019e4da354) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

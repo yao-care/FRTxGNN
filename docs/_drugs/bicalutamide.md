@@ -56,7 +56,7 @@ Les preuves restent très limitées : **aucun essai clinique** et **une seule pu
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances pharmacologiques générales, le bicalutamide est un antagoniste non stéroïdien du récepteur des androgènes (AR).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bicalutamide (traduction non officielle) : « CASODEX est un inhibiteur non stéroïdien des récepteurs aux androgènes. Il inhibe de manière compétitive l'action des androgènes en se liant aux récepteurs cytosoliques des androgènes dans le tissu cible. Le carcinome prostatique est connu pour être sensible aux androgènes et répond à un traitement qui contrecarre l'effet des androgènes et/ou supprime la source d'androgènes. » Texte original en anglais : "CASODEX is a non-steroidal androgen receptor inhibitor. It competitively inhibits the action of androgens by binding to cytosol androgen receptors in the target tissue. Prostatic carcinoma is known to be androgen sensitive and responds to treatment that counteracts the effect of androgen and/or removes the source of androgen." ([DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67), version du 2026-02-27 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le bicalutamide est un antagoniste non stéroïdien du récepteur des androgènes (AR).
 
 La signalisation androgénique influence le comportement des follicules pileux. Bloquer l'AR est donc biologiquement plausible dans certains troubles de la pilosité, en particulier ceux liés aux androgènes.
 
@@ -114,6 +114,18 @@ Le niveau de preuve est L4. La seule référence est une lettre de commentaire s
 - Compléter les données sur le mécanisme d'action
 - Récupérer les mises en garde et contre-indications de la notice ANSM
 - Évaluer la sécurité dans la population visée (notamment femmes, fonction hépatique)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Casodex (bicalutamide) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dfee4fe7-8478-4a3e-925d-00be3cd0ab67) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

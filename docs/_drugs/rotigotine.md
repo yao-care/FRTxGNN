@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble du déf
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, la rotigotine est un agoniste dopaminergique à large spectre (récepteurs D1 à D5, avec une activité notable sur D3, D2 et D1), qui agit aussi sur les récepteurs adrénergiques alpha-2B et sérotoninergiques 5-HT1A. Son efficacité dans la maladie de Parkinson et le syndrome des jambes sans repos repose sur cette stimulation dopaminergique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rotigotine (traduction non officielle) : « La rotigotine est un agoniste dopaminergique non ergoté. Le mécanisme d’action précis de la rotigotine dans le traitement de la maladie de Parkinson est inconnu, bien qu’on pense qu’il soit lié à sa capacité à stimuler les récepteurs dopaminergiques au sein du noyau caudé-putamen dans le cerveau. » Texte original en anglais : "Rotigotine is a non-ergoline dopamine agonist. The precise mechanism of action of rotigotine as a treatment for Parkinson's disease is unknown, although it is thought to be related to its ability to stimulate dopamine receptors within the caudate-putamen in the brain." ([DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0), version du 2026-11-11 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la rotigotine est un agoniste dopaminergique à large spectre (récepteurs D1 à D5, avec une activité notable sur D3, D2 et D1), qui agit aussi sur les récepteurs adrénergiques alpha-2B et sérotoninergiques 5-HT1A. Son efficacité dans la maladie de Parkinson et le syndrome des jambes sans repos repose sur cette stimulation dopaminergique.
 
 Le TDAH implique un dérèglement des systèmes dopaminergique et noradrénergique. Des polymorphismes du récepteur D4 et l'hétéromérisation entre ce récepteur et le récepteur adrénergique α2A ont été associés au trouble (PMID 34182128). Cela offre un lien plausible, mais indirect.
 
@@ -104,6 +104,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Évaluer la faisabilité de la voie d'administration (dispositif transdermique) pour la population cible et clarifier la situation réglementaire en France
 
 **Autres prédictions (rang 2 à 10) :** schizophrénie (Hold ; un agoniste dopaminergique pourrait aggraver les symptômes positifs, et la méta-analyse disponible sur les médicaments pro-dopaminergiques concerne les symptômes négatifs sans être spécifique à la rotigotine), puis huit maladies rares (polymicrogyrie, syndrome faciodigitogénital, trouble congénital de la glycosylation, dystrophie rétinienne, deux formes de myopie liée à l'X, encéphalopathie glycinique atypique, maladie de Charcot-Marie-Tooth 1G) toutes de niveau L5 sans lien mécanistique identifié ni donnée de soutien : Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

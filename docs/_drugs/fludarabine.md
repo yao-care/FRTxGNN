@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans le **myélome multipl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, la fludarabine est un analogue nucléosidique de la purine : elle inhibe la synthèse de l'ADN et induit l'apoptose des cellules lymphoïdes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fludarabine (traduction non officielle) : « Le phosphate de fludarabine est rapidement converti en 2-fluoro-ara-ATP actif, qui semble inhiber la synthèse de l'ADN par inhibition de l'ADN polymérase alpha, de la ribonucléotide réductase et de l'ADN primase. » Texte original en anglais : "Fludarabine phosphate is rapidly converted to active 2-fluoro-ara-ATP, which appears to inhibit DNA synthesis through inhibition of DNA polymerase alpha, ribonucleotide reductase and DNA primase." ([DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951), version du 2026-09-20 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la fludarabine est un analogue nucléosidique de la purine : elle inhibe la synthèse de l'ADN et induit l'apoptose des cellules lymphoïdes.
 
 Le myélome est une hémopathie maligne des plasmocytes, lignée B lymphoïde. Dans cette maladie, la fludarabine intervient surtout comme agent de lymphodéplétion (avec le cyclophosphamide) avant une thérapie CAR-T anti-BCMA, et comme composante des conditionnements à intensité réduite avant allogreffe. Des travaux précliniques (PMID 17976186) montrent aussi une activité antimyélome directe in vitro et in vivo.
 
@@ -142,6 +142,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Autres indications prédites (pour information) :**
 - Le myélome indolent et le syndrome myélodysplasique présentent aussi un niveau L2, avec la même réserve : la fludarabine y est une composante de conditionnement avant allogreffe. Le syndrome myélodysplasique non classé est au niveau L3 (question de recherche).
 - Les autres prédictions (hyperthyroïdie, diabète néphropathique, maladies monogéniques rares, délétion 5q) sont au niveau L5, sans lien mécanistique plausible : décision **Hold**.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -56,7 +56,7 @@ Les **3 essais cliniques** et **5 publications** compilés pour ce rapport ne po
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, le tiotropium est un anticholinergique (antagoniste muscarinique) à action prolongée, qui détend la musculature bronchique. Son effet est donc symptomatique, sur le calibre des voies aériennes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tiotropium (traduction non officielle) : « Le tiotropium est un agent antimuscarinique de longue durée d'action, souvent désigné comme anticholinergique. Il présente une affinité similaire pour les sous-types de récepteurs muscariniques, M 1 à M 5. Dans les voies respiratoires, il exerce des effets pharmacologiques par l'inhibition des récepteurs M 3 au niveau du muscle lisse, entraînant une bronchodilatation. » Texte original en anglais : "Tiotropium is a long-acting, antimuscarinic agent, which is often referred to as an anticholinergic. It has similar affinity to the subtypes of muscarinic receptors, M 1 to M 5. In the airways, it exhibits pharmacological effects through inhibition of M 3 -receptors at the smooth muscle leading to bronchodilation." ([DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9), version du 2025-11-10 ; consulté le 2026-11-19). D'après les informations connues, le tiotropium est un anticholinergique (antagoniste muscarinique) à action prolongée, qui détend la musculature bronchique. Son effet est donc symptomatique, sur le calibre des voies aériennes.
 
 Une malformation respiratoire est un défaut structurel des voies aériennes ou du poumon. Un bronchodilatateur ne corrige pas ce défaut. Il pourrait au mieux soulager une composante de rétrécissement bronchique réversible associée.
 
@@ -114,6 +114,18 @@ La cimétidine est de niveau mineur. Plusieurs autres associations (calcitriol, 
 - Les données sur le mécanisme d'action, afin d'analyser le lien mécanistique.
 - Les mises en garde et contre-indications de la notice, pour l'évaluation de sécurité.
 - Une vérification de la compatibilité de la voie d'administration (inhalation) avec la population visée, notamment les jeunes enfants.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Spiriva Handihaler (tiotropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=820839ef-e53d-47e8-a3b9-d911ff92e6a9) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -60,7 +60,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, darunavir fait partie de la classe des inhibiteurs de protéase du VIH, son efficacité dans l'infection par le VIH a été établie, et il pourrait mécanistiquement être applicable à l'infection par le SIV.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Darunavir (traduction non officielle) : « Le darunavir est un médicament antiviral anti-VIH-1. […] Le darunavir est un inhibiteur de la protéase du VIH-1. Il inhibe sélectivement le clivage des polyprotéines Gag-Pol codées par le VIH-1 dans les cellules infectées, empêchant ainsi la formation de particules virales matures. » Texte original en anglais : "Darunavir is an HIV-1 antiviral drug. […] Darunavir is an inhibitor of the HIV-1 protease. It selectively inhibits the cleavage of HIV-1 encoded Gag-Pol polyproteins in infected cells, thereby preventing the formation of mature virus particles." ([DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f), version du 2025-08-29 ; consulté le 2026-11-19). Sur la base des informations connues, darunavir fait partie de la classe des inhibiteurs de protéase du VIH, son efficacité dans l'infection par le VIH a été établie, et il pourrait mécanistiquement être applicable à l'infection par le SIV.
 
 Le SIV est un lentivirus étroitement apparenté au VIH, et sa protéase est une cible homologue. L'inhibition de la protéase, mécanisme d'origine du darunavir, est donc plausiblement transposable. Cette plausibilité reste toutefois théorique.
 
@@ -133,11 +133,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
 
 <!-- review:end log -->
 

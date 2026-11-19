@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **spondylarthrite
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, le tocilizumab bloque le récepteur de l'IL-6, sous ses formes membranaire et soluble, et inhibe ainsi la signalisation de cette cytokine pro-inflammatoire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tocilizumab (traduction non officielle) : « Les produits à base de tocilizumab se lient aux récepteurs solubles et membranaires de l’IL-6 (sIL-6R et mIL-6R), et il a été démontré qu’ils inhibent la signalisation médiée par l’IL-6 via ces récepteurs. L’IL-6 est une cytokine pro-inflammatoire pléiotrope produite par divers types cellulaires, notamment les lymphocytes T et B, les lymphocytes, les monocytes et les fibroblastes. » Texte original en anglais : "Tocilizumab products bind to both soluble and membrane-bound IL-6 receptors (sIL-6R and mIL-6R), and have been shown to inhibit IL-6-mediated signaling through these receptors. IL-6 is a pleiotropic pro-inflammatory cytokine produced by a variety of cell types including T- and B-cells, lymphocytes, monocytes and fibroblasts." ([DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d), version du 2026-10-20 ; consulté le 2026-11-19). D'après les connaissances établies, le tocilizumab bloque le récepteur de l'IL-6, sous ses formes membranaire et soluble, et inhibe ainsi la signalisation de cette cytokine pro-inflammatoire.
 
 L'IL-6 participe à l'inflammation et au remodelage osseux dans les spondylarthrites. La spondylarthrite ankylosante partage donc des voies inflammatoires avec la polyarthrite rhumatoïde et les spondyloarthropathies, déjà dans les indications d'origine. Cela explique le score élevé du modèle.
 
@@ -146,6 +146,19 @@ Le tocilizumab est un anticorps monoclonal immunomodulateur et non un antinéopl
 - **Spondylopathie inflammatoire** (L3, Hold) : chevauche largement la spondylarthrite ankylosante.
 - **Syndrome de susceptibilité mendélienne aux mycobactéries (déficit complet en IL12B)** : probable faux positif, avec risque de préjudice (immunosuppression et risque infectieux).
 - **Hypermobilité du coccyx, maladie de Kümmell, maladie vertébrale** : prédictions du modèle TxGNN (deep learning) sans preuve clinique ; les scores peuvent refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Avtozma (tocilizumab) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=581c288f-8015-40ef-a4c3-683c96db193d) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

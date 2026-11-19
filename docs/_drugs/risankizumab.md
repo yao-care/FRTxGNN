@@ -60,7 +60,7 @@ Cette prédiction repose sur des preuves modestes : le mécanisme n'est que part
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues, risankizumab est un anticorps monoclonal IgG humanisé ciblant la sous-unité p19 de l'IL-23. Son efficacité dans le psoriasis est établie, et il a été approuvé dans plusieurs pays pour le psoriasis en plaques, le rhumatisme psoriasique, le psoriasis pustuleux généralisé et le psoriasis érythrodermique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Risankizumab (traduction non officielle) : « Le risankizumab-rzaa est un anticorps monoclonal IgG1 humanisé qui se lie sélectivement à la sous-unité p19 de la cytokine IL-23 humaine et inhibe son interaction avec le récepteur de l'IL-23. L'IL-23 est une cytokine naturelle impliquée dans les réponses inflammatoires et immunitaires. » Texte original en anglais : "Risankizumab-rzaa is a humanized IgG1 monoclonal antibody that selectively binds to the p19 subunit of human IL-23 cytokine and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858), version du 2026-10-23 ; consulté le 2026-11-19). D'après les informations connues, risankizumab est un anticorps monoclonal IgG humanisé ciblant la sous-unité p19 de l'IL-23. Son efficacité dans le psoriasis est établie, et il a été approuvé dans plusieurs pays pour le psoriasis en plaques, le rhumatisme psoriasique, le psoriasis pustuleux généralisé et le psoriasis érythrodermique.
 
 L'axe IL-23/Th17 est central dans le psoriasis et contribue à certaines dermatoses inflammatoires, ce qui donne une certaine plausibilité biologique à la prédiction. Toutefois, la dermatite atopique est principalement dirigée par la voie Th2 (IL-4/IL-13) ; l'adéquation mécanistique n'est donc que partielle. La littérature décrit d'ailleurs l'association avec le dupilumab chez des patients ayant à la fois une dermatite atopique et un psoriasis, ce qui suggère que le blocage seul de l'IL-23 est probablement insuffisant. Des cas d'eczéma paradoxal sous inhibiteurs de l'IL-23 (dont risankizumab) sont également rapportés.
 
@@ -143,11 +143,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Obtenir les mises en garde et contre-indications de la notice ANSM (donnée bloquante) et clarifier la situation réglementaire des AMM annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Skyrizi (risankizumab-rzaa) prescribing information, AbbVie Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7148c8eb-b39e-e20a-6494-a6df82392858) |
 
 <!-- review:end log -->
 

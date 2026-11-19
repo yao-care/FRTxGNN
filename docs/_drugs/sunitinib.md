@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome**, 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, le sunitinib est un inhibiteur de tyrosine kinase multicible qui cible notamment VEGFR, PDGFR, KIT, RET et FLT3. Son efficacité dans le carcinome rénal et les GIST repose sur le blocage de l'angiogenèse et des voies de croissance tumorale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sunitinib (traduction non officielle) : « Le sunitinib est une petite molécule qui inhibe de multiples récepteurs à activité tyrosine kinase (RTK), dont certains sont impliqués dans la croissance tumorale, l’angiogenèse pathologique et la progression métastatique du cancer. » Texte original en anglais : "Sunitinib is a small molecule that inhibits multiple receptor tyrosine kinases (RTKs), some of which are implicated in tumor growth, pathologic angiogenesis, and metastatic progression of cancer." ([DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c), version du 2026-02-20 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, le sunitinib est un inhibiteur de tyrosine kinase multicible qui cible notamment VEGFR, PDGFR, KIT, RET et FLT3. Son efficacité dans le carcinome rénal et les GIST repose sur le blocage de l'angiogenèse et des voies de croissance tumorale.
 
 Les sarcomes des tissus mous, dont le liposarcome, dépendent en partie de l'angiogenèse et de signaux de type PDGFR. Le mécanisme pourrait donc être transposable. Cette relation reste toutefois un raisonnement par classe pharmacologique, et non une démonstration mécanistique propre au médicament.
 
@@ -162,12 +162,13 @@ Parmi ces pistes, le carcinome rénal non classé (rang 4) est la mieux étayée
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Vérifier la disponibilité réelle du sunitinib en France, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sutent (sunitinib malate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=43a4d7f8-48ae-4a63-9108-2fa8e3ea9d9c) |
 
 <!-- review:end log -->
 

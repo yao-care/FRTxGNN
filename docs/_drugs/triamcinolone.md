@@ -56,7 +56,7 @@ mais seules **2 publications** (des rapports de cas, dont un ne concerne pas le 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le triamcinolone est un corticoïde, dont l'efficacité dans de nombreuses maladies inflammatoires et auto-immunes est établie.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Triamcinolone (traduction non officielle) : « Des études indiquent qu'après une dose intramusculaire unique de 60 mg à 100 mg d'acétonide de triamcinolone, une freination surrénalienne survient dans les 24 à 48 heures, puis revient progressivement à la normale, généralement en 30 à 40 jours. Cette observation est étroitement corrélée à la durée prolongée de l'action thérapeutique obtenue avec ce médicament. » Texte original en anglais : "Studies indicate that following a single intramuscular dose of 60 mg to 100 mg of triamcinolone acetonide, adrenal suppression occurs within 24 to 48 hours and then gradually returns to normal, usually in 30 to 40 days. This finding correlates closely with the extended duration of therapeutic action achieved with the drug." ([DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad), version du 2026-01-05 ; consulté le 2026-11-19). Sur la base des informations connues, le triamcinolone est un corticoïde, dont l'efficacité dans de nombreuses maladies inflammatoires et auto-immunes est établie.
 
 La mucinose folliculaire se caractérise par un infiltrat lymphocytaire autour des follicules pileux. Un corticoïde topique ou intralésionnel est donc plausible sur le plan mécanistique, par son effet anti-inflammatoire et immunosuppresseur.
 
@@ -121,11 +121,12 @@ La folliculite décalvante est la piste la mieux étayée de la liste (série r�
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées, ce qui réduit l'intérêt pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Kenalog-40 (triamcinolone acetonide) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4ce116aa-b330-4da9-9cdd-ba8e6be0c4ad) |
 
 <!-- review:end log -->
 

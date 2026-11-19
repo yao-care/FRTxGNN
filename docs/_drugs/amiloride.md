@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **maladie rénale hy
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, l'amiloride bloque le canal sodique épithélial (ENaC) du néphron distal, ce qui diminue la réabsorption du sodium et contribue au contrôle de la pression artérielle tout en épargnant le potassium.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Amiloride (traduction non officielle) : « Le chlorhydrate d'amiloride est un médicament épargneur de potassium (antikaliurétique) qui possède une activité natriurétique, diurétique et antihypertensive faible (par rapport aux diurétiques thiazidiques). Ces effets se sont partiellement additionnés à ceux des diurétiques thiazidiques dans certaines études cliniques. » Texte original en anglais : "Amiloride HCl is a potassium-conserving (antikaliuretic) drug that possesses weak (compared with thiazide diuretics) natriuretic, diuretic, and antihypertensive activity. These effects have been partially additive to the effects of thiazide diuretics in some clinical studies." ([DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68), version du 2026-11-11 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'amiloride bloque le canal sodique épithélial (ENaC) du néphron distal, ce qui diminue la réabsorption du sodium et contribue au contrôle de la pression artérielle tout en épargnant le potassium.
 
 Ce mécanisme est plausiblement lié à une atteinte rénale d'origine hypertensive, puisque la maîtrise de la pression artérielle et de la volémie est centrale dans ce contexte. Le score élevé du modèle (0,9982) reflète probablement une proximité avec les usages antihypertenseurs du médicament plutôt qu'une preuve propre à la forme maligne et rénale.
 
@@ -97,6 +97,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Texte de la notice ANSM (mises en garde et contre-indications)
 - Études précliniques ou cliniques ciblant la maladie rénale hypertensive maligne
 - Évaluation du risque d'hyperkaliémie chez les patients à fonction rénale altérée
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: amiloride hydrochloride prescribing information, Kesin Pharma Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5eedadbd-9be9-b920-e063-6394a90afa68) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

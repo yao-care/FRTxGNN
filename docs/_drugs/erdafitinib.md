@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pul
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base compilée. D'après les connaissances générales, l'erdafitinib est un inhibiteur pan-FGFR (FGFR1-4). Son indication d'origine n'a pas pu être extraite des AMM françaises.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Erdafitinib (traduction non officielle) : « L'erdafitinib est un inhibiteur de kinases qui se lie à FGFR1, FGFR2, FGFR3 et FGFR4 et en inhibe l'activité enzymatique, d'après les données in vitro. L'erdafitinib a inhibé la phosphorylation et la signalisation des FGFR et a diminué la viabilité cellulaire dans des lignées cellulaires exprimant des altérations génétiques des FGFR, notamment des mutations ponctuelles, des amplifications et des fusions. » Texte original en anglais : "Erdafitinib is a kinase inhibitor that binds to and inhibits enzymatic activity of FGFR1, FGFR2, FGFR3 and FGFR4 based on in vitro data. Erdafitinib inhibited FGFR phosphorylation and signaling and decreased cell viability in cell lines expressing FGFR genetic alterations, including point mutations, amplifications, and fusions." ([DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee), version du 2025-10-24 ; consulté le 2026-11-19). D'après les connaissances générales, l'erdafitinib est un inhibiteur pan-FGFR (FGFR1-4). Son indication d'origine n'a pas pu être extraite des AMM françaises.
 
 La voie de signalisation FGF/FGFR a été impliquée dans le remodelage vasculaire pulmonaire ainsi que dans la prolifération des cellules musculaires lisses et endothéliales. Un lien hypothétique existe donc avec l'hypertension pulmonaire. Des inhibiteurs de kinases à spectre plus large (par exemple l'imatinib) ont été explorés dans l'hypertension artérielle pulmonaire, mais cela ne constitue pas une preuve pour l'erdafitinib.
 
@@ -125,11 +125,12 @@ Toutes ces prédictions sont de niveau L5 avec une décision **Hold**.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Balversa (erdafitinib) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2a8aa5c0-6c92-4566-8c45-e8f4d1fc20ee) |
 
 <!-- review:end log -->
 

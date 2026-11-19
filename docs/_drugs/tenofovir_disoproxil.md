@@ -60,7 +60,7 @@ Cette prédiction correspond surtout à une redécouverte de l'indication VIH ex
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances établies, le ténofovir disoproxil est un inhibiteur nucléotidique de la transcriptase inverse, dont l'efficacité contre le VIH-1 et le virus de l'hépatite B est démontrée.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tenofovir Disoproxil (traduction non officielle) : « Le fumarate de ténofovir disoproxil est un médicament antiviral. […] Le fumarate de ténofovir disoproxil est un analogue diester phosphonate nucléosidique acyclique de l’adénosine monophosphate. Le fumarate de ténofovir disoproxil nécessite une hydrolyse initiale du diester pour être converti en ténofovir, puis des phosphorylations successives par des enzymes cellulaires pour former le ténofovir diphosphate (TFV-DP), un terminateur de chaîne obligatoire. » Texte original en anglais : "Tenofovir disoproxil fumarate is an antiviral drug. […] Tenofovir disoproxil fumarate is an acyclic nucleoside phosphonate diester analog of adenosine monophosphate. Tenofovir disoproxil fumarate requires initial diester hydrolysis for conversion to tenofovir and subsequent phosphorylations by cellular enzymes to form tenofovir diphosphate (TFV-DP), an obligate chain terminator." ([DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418), version du 2025-02-18 ; consulté le 2026-11-19). D'après les connaissances établies, le ténofovir disoproxil est un inhibiteur nucléotidique de la transcriptase inverse, dont l'efficacité contre le VIH-1 et le virus de l'hépatite B est démontrée.
 
 Le SIV est un lentivirus très proche du VIH, doté d'une transcriptase inverse homologue. Il est donc mécanistiquement plausible que le médicament inhibe la réplication du SIV et des virus chimériques SHIV. Les publications rapportent une protection partielle à forte dans des modèles de prophylaxie chez le macaque, par voie orale ou topique, seul ou associé à l'emtricitabine.
 
@@ -139,11 +139,12 @@ Les mises en garde et contre-indications de la notice ainsi que les interactions
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Viread (tenofovir disoproxil fumarate) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33fd6418-fbdc-42ca-a50d-ce2a476a5418) |
 
 <!-- review:end log -->
 

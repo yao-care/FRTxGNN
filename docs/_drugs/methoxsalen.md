@@ -60,7 +60,7 @@ Cette indication appartient au même spectre que l'indication d'origine : il s'a
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le méthoxsalène est un psoralène photosensibilisant : sous activation par les UVA, il se lie à l'ADN, forme des liaisons croisées et induit l'apoptose des lymphocytes T malins. Il est utilisé en PUVA ou en photophérèse extracorporelle.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Methoxsalen est (traduction non officielle) : « Inhibiteur de l'ADN » Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, le méthoxsalène est un psoralène photosensibilisant : sous activation par les UVA, il se lie à l'ADN, forme des liaisons croisées et induit l'apoptose des lymphocytes T malins. Il est utilisé en PUVA ou en photophérèse extracorporelle.
 
 La réticulose pagétoïde localisée est une variante indolente et épidermotrope du mycosis fongoïde, c'est-à-dire un lymphome cutané à cellules T. Le lien biologique avec l'indication d'origine est donc solide, puisque la maladie touche les mêmes cellules et la même localisation cutanée, accessible à la lumière UVA.
 
@@ -141,11 +141,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La clarification des indications autorisées pour les AMM annulées et de l'existence d'une présentation disponible en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL416 (methoxsalen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL416) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **tumeur à cellu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le ruxolitinib est un inhibiteur de JAK1/JAK2. Son efficacité dans les néoplasmes myéloprolifératifs est établie, et il pourrait mécanistiquement être applicable à d'autres tumeurs dépendantes de la signalisation JAK-STAT.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ruxolitinib (traduction non officielle) : « Le ruxolitinib, un inhibiteur de kinases, inhibe les Janus kinases (JAK) JAK1 et JAK2, qui interviennent dans la signalisation d’un certain nombre de cytokines et de facteurs de croissance importants pour l’hématopoïèse et la fonction immunitaire. La signalisation JAK implique le recrutement des STAT (transducteurs du signal et activateurs de la transcription) au niveau des récepteurs des cytokines, leur activation, puis la localisation des STAT dans le noyau, entraînant une modulation de l’expression des gènes. » Texte original en anglais : "Ruxolitinib, a kinase inhibitor, inhibits Janus Associated Kinases (JAKs), JAK1 and JAK2, which mediate the signaling of a number of cytokines and growth factors that are important for hematopoiesis and immune function. JAK signaling involves recruitment of STATs (signal transducers and activators of transcription) to cytokine receptors, activation, and subsequent localization of STATs to the nucleus leading to modulation of gene expression." ([DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b), version du 2026-07-20 ; consulté le 2026-11-19). D'après les connaissances générales, le ruxolitinib est un inhibiteur de JAK1/JAK2. Son efficacité dans les néoplasmes myéloprolifératifs est établie, et il pourrait mécanistiquement être applicable à d'autres tumeurs dépendantes de la signalisation JAK-STAT.
 
 Pour le PEComa utérin, seule la prédiction du modèle soutient cette indication. Un lien possible passe par les interactions entre les voies mTOR et JAK-STAT dans les PEComas. Cette hypothèse reste spéculative, car aucune donnée fournie ne l'étaye. La physiopathologie classique des PEComas repose surtout sur l'hyperactivation de mTOR, et la ressemblance avec l'indication d'origine (néoplasmes hématologiques) n'a pas été évaluée.
 
@@ -163,7 +163,7 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être intégr
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
@@ -171,6 +171,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « Une sixième AMM (JAKAVI 10 mg, comprimé, n° 65584250) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Toutes les AMM françaises du ruxolitinib sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Jakafi (ruxolitinib) prescribing information, Incyte Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1c82580-87ae-11e0-bc84-0002a5d5c51b) |
 
 <!-- review:end log -->
 

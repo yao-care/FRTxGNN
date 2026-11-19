@@ -56,7 +56,7 @@ Cette piste repose sur **2 essais cliniques** et quelques publications, mais auc
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après ce que l'on sait de cette classe, le salmétérol stimule les récepteurs bêta-2 adrénergiques des voies respiratoires. Il provoque ainsi une bronchodilatation prolongée et peut favoriser le dégagement mucociliaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Salmeterol (traduction non officielle) : « Le salmétérol est un LABA sélectif. Des études in vitro montrent que le salmétérol est au moins 50 fois plus sélectif pour les adrénorécepteurs bêta 2 que le salbutamol. Bien que les adrénorécepteurs bêta 2 soient les récepteurs adrénergiques prédominants dans le muscle lisse bronchique et que les adrénorécepteurs bêta 1 soient les récepteurs prédominants dans le cœur, il existe également des adrénorécepteurs bêta 2 dans le cœur humain, représentant 10 % à 50 % de l’ensemble des adrénorécepteurs bêta. » Texte original en anglais : "Salmeterol is a selective LABA. In vitro studies show salmeterol to be at least 50 times more selective for beta 2 -adrenoceptors than albuterol. Although beta 2 -adrenoceptors are the predominant adrenergic receptors in bronchial smooth muscle and beta 1 -adrenoceptors are the predominant receptors in the heart, there are also beta 2 -adrenoceptors in the human heart comprising 10% to 50% of the total beta-adrenoceptors." ([DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4), version du 2022-10-10 ; consulté le 2026-11-19). D'après ce que l'on sait de cette classe, le salmétérol stimule les récepteurs bêta-2 adrénergiques des voies respiratoires. Il provoque ainsi une bronchodilatation prolongée et peut favoriser le dégagement mucociliaire.
 
 Le lien avec la malformation respiratoire reste hypothétique. Un bénéfice ne serait plausible que dans les situations où l'obstruction des voies aériennes ou une anomalie ciliaire aggrave la fonction respiratoire, comme la mucoviscidose ou la dyskinésie ciliaire primitive. La « malformation respiratoire » est une catégorie structurelle hétérogène, et aucun mécanisme précis expliquant un bénéfice du salmétérol n'a été démontré.
 
@@ -111,6 +111,18 @@ Aucune étude citée ne porte directement sur la malformation respiratoire, ce q
 - Une définition précise du type de malformation respiratoire visé, avec une justification physiopathologique.
 - Des études précliniques ou cliniques portant directement sur cette population.
 - Les mises en garde et contre-indications de la notice ANSM pour évaluer la sécurité.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Serevent Diskus (salmeterol xinafoate) prescribing information, GlaxoSmithKline LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12d9728e-6b5c-4aee-bfb0-745e542ed2e4) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

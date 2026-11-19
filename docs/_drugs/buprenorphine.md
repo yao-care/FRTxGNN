@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré et **1 seule publication** (un rapport de
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la buprénorphine est un agoniste partiel des récepteurs opioïdes mu, avec une activité antagoniste kappa.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Buprenorphine (traduction non officielle) : « L'injection de SUBLOCADE contient de la buprénorphine. La buprénorphine est un agoniste partiel du récepteur opioïde mu et un antagoniste du récepteur opioïde kappa. » Texte original en anglais : "SUBLOCADE Injection contains buprenorphine. Buprenorphine is a partial agonist at the mu- opioid receptor and an antagonist at the kappa-opioid receptor." ([DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95), version du 2026-07-27 ; consulté le 2026-11-19). D'après les connaissances générales, la buprénorphine est un agoniste partiel des récepteurs opioïdes mu, avec une activité antagoniste kappa.
 
 Aucun mécanisme thérapeutique n'est établi pour la porphyrie aiguë intermittente, un trouble neuroviscéral aigu lié à un défaut de la biosynthèse de l'hème. L'activité sur les récepteurs mu n'a pas de rôle connu dans la correction de cette voie. Au mieux, la buprénorphine pourrait servir d'antalgique lors des crises, ce qui serait un effet symptomatique et non modificateur de la maladie. Le score élevé du modèle reste une prédiction, non étayée par des données cliniques.
 
@@ -94,6 +94,19 @@ Aucun essai clinique ni étude portant directement sur l'effet de la buprénorph
 - Données détaillées sur le mécanisme d'action de la buprénorphine
 - Analyse de sécurité spécifique à la porphyrie (les opioïdes sont à évaluer avec prudence dans cette maladie) à partir de la notice ANSM
 - Études précliniques ou cliniques évaluant directement la buprénorphine dans la porphyrie aiguë intermittente
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

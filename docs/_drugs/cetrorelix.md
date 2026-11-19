@@ -60,7 +60,7 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5).
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base consultée. D'après les informations pharmacologiques connues, le cétrorélix est un peptide qui bloque le récepteur de la GnRH (gène GNRHR) au niveau hypophysaire. Il réduit ainsi la sécrétion de LH et de FSH, et par conséquent la production gonadique d'androgènes et d'œstrogènes.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cetrorelix (traduction non officielle) : « La GnRH induit la production et la libération de l'hormone lutéinisante (LH) et de l'hormone folliculo-stimulante (FSH) par les cellules gonadotropes de l'antéhypophyse. En raison d'un rétrocontrôle positif de l'estradiol (E2) en milieu de cycle, la libération de GnRH est accrue, ce qui entraîne un pic de LH. » Texte original en anglais : "GnRH induces the production and release of luteinizing hormone (LH) and follicle stimulating hormone (FSH) from the gonadotrophic cells of the anterior pituitary. Due to a positive estradiol (E2) feedback at midcycle, GnRH liberation is enhanced resulting in an LH-surge." ([DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79), version du 2025-09-22 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, le cétrorélix est un peptide qui bloque le récepteur de la GnRH (gène GNRHR) au niveau hypophysaire. Il réduit ainsi la sécrétion de LH et de FSH, et par conséquent la production gonadique d'androgènes et d'œstrogènes.
 
 Le lien avec l'hypertrichose reste spéculatif. Une baisse de la signalisation androgénique pourrait théoriquement influencer la pousse des poils sensibles aux androgènes. Or, la plupart des formes d'hypertrichose (congénitale, médicamenteuse, génétique) ne dépendent pas des androgènes. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -130,12 +130,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'annulation des AMM limitent l'intérêt pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cetrotide (cetrorelix acetate) prescribing information, EMD Serono, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aca7768e-28a7-4027-b1d8-e66247665f79) |
 
 <!-- review:end log -->
 

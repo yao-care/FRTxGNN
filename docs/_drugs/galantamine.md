@@ -59,7 +59,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour les **troubles d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la galantamine est un inhibiteur de la cholinestérase et un modulateur allostérique des récepteurs nicotiniques. Son efficacité symptomatique dans la maladie d'Alzheimer repose sur le renforcement de la transmission cholinergique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Galantamine (traduction non officielle) : « Bien que l'étiologie des troubles cognitifs de la maladie d'Alzheimer (MA) ne soit pas entièrement élucidée, il a été rapporté que les neurones producteurs d'acétylcholine dégénèrent dans le cerveau des patients atteints de la maladie d'Alzheimer. L'importance de cette perte cholinergique a été corrélée à l'importance des troubles cognitifs et à la densité des plaques amyloïdes (une caractéristique neuropathologique de la maladie d'Alzheimer). […] La galantamine, un alcaloïde tertiaire, est un inhibiteur compétitif et réversible de l'acétylcholinestérase. » Texte original en anglais : "Although the etiology of cognitive impairment in Alzheimer’s disease (AD) is not fully understood, it has been reported that acetylcholine-producing neurons degenerate in the brains of patients with Alzheimer’s disease. The degree of this cholinergic loss has been correlated with degree of cognitive impairment and density of amyloid plaques (a neuropathological hallmark of Alzheimer’s disease). […] Galantamine, a tertiary alkaloid, is a competitive and reversible inhibitor of acetylcholinesterase." ([DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1), version du 2026-07-02 ; consulté le 2026-11-19). Sur la base des connaissances générales, la galantamine est un inhibiteur de la cholinestérase et un modulateur allostérique des récepteurs nicotiniques. Son efficacité symptomatique dans la maladie d'Alzheimer repose sur le renforcement de la transmission cholinergique.
 
 Le lien avec les troubles du mouvement psychogènes (fonctionnels) n'est pas établi : aucune donnée ne relie la modulation cholinergique à cette pathologie. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, pas une preuve biologique ou clinique.
 
@@ -152,13 +152,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 16 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (16 AMM valides sur 16) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-13 | Supprimé : étape fondée sur une annulation des AMM | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
 
 <!-- review:end log -->
 

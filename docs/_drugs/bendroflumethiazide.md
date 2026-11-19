@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour la **néphropathie hy
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la bendroflumethiazide est un diurétique thiazidique : elle favorise l'élimination urinaire de sodium et d'eau, ce qui réduit le volume circulant et la pression artérielle.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Bendroflumethiazide est (traduction non officielle) : « Inhibiteur du cotransporteur sodium-chlorure sensible aux thiazidiques » Texte original en anglais : "Thiazide-sensitive sodium-chloride cotransporter inhibitor" ([ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la bendroflumethiazide est un diurétique thiazidique : elle favorise l'élimination urinaire de sodium et d'eau, ce qui réduit le volume circulant et la pression artérielle.
 
 Un lien avec l'atteinte rénale d'origine hypertensive est plausible sur le plan biologique, par le biais du contrôle de la pression artérielle et du volume. Toutefois, l'hypertension maligne est une urgence hypertensive, habituellement prise en charge par des médicaments à action rapide administrés par voie parentérale ; les thiazidiques ne constituent pas un traitement standard dans ce contexte.
 
@@ -93,6 +93,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Mises en garde et contre-indications issues de la notice officielle
 - Études cliniques ou publications évaluant directement la bendroflumethiazide dans la néphropathie hypertensive maligne
 - Évaluation de la pertinence clinique face aux traitements parentéraux de référence
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1684 (bendroflumethiazide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1684) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

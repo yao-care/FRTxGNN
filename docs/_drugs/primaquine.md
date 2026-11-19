@@ -60,7 +60,7 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, la primaquine appartient à la classe des 8-aminoquinoléines. Son efficacité est établie dans le paludisme à *P. vivax*, notamment contre les formes hépatiques dormantes (hypnozoïtes), et elle bloque aussi la transmission en agissant sur les gamétocytes. Rien dans les données disponibles n'indique qu'un mécanisme similaire s'applique à la myiase.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Primaquine (traduction non officielle) : « Le phosphate de primaquine est un médicament antipaludique de la classe des 8-aminoquinoléines. Le mécanisme d'action n'a pas été entièrement établi. Les principales hypothèses sont une inhibition du système mitochondrial des parasites dormants et un stress oxydatif généré par des métabolites réactifs dans les cellules infectées. » Texte original en anglais : "Primaquine phosphate is an 8-aminoquinoline antimalarial drug. The mechanism of action has not been fully established. The major assumptions are an inhibition of the mitochondrial system of dormant parasites, and an oxidative stress generated through reactive metabolites in infected cells." ([DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59), version du 2026-02-11 ; consulté le 2026-11-19). D'après les informations connues, la primaquine appartient à la classe des 8-aminoquinoléines. Son efficacité est établie dans le paludisme à *P. vivax*, notamment contre les formes hépatiques dormantes (hypnozoïtes), et elle bloque aussi la transmission en agissant sur les gamétocytes. Rien dans les données disponibles n'indique qu'un mécanisme similaire s'applique à la myiase.
 
 La myiase est une infestation par des larves de diptères, c'est-à-dire un ectoparasitisme. Elle est très éloignée du paludisme, qui est une infection à protozoaire. Aucune activité de la primaquine contre ces larves n'est étayée par les données compilées pour ce rapport.
 
@@ -135,12 +135,13 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « l'AMM étant abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | La primaquine a une AMM active en France | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: primaquine phosphate prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1bfbf4ae-81b8-4160-a00d-6322aadd4b59) |
 
 <!-- review:end log -->
 

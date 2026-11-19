@@ -56,7 +56,7 @@ Parmi les dix indications prédites, les pistes les mieux documentées sont de n
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'imipénem est un carbapénème à large spectre : il inhibe les protéines de liaison aux pénicillines des bactéries et résiste à de nombreuses bêta-lactamases. Son efficacité est établie dans les infections bactériennes graves, mais il n'a pas de mécanisme antifibrosant ou immunomodulateur connu.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Imipenem est (traduction non officielle) : « Inhibiteur des protéines bactériennes de liaison aux pénicillines » Texte original en anglais : "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'imipénem est un carbapénème à large spectre : il inhibe les protéines de liaison aux pénicillines des bactéries et résiste à de nombreuses bêta-lactamases. Son efficacité est établie dans les infections bactériennes graves, mais il n'a pas de mécanisme antifibrosant ou immunomodulateur connu.
 
 Pour la sclérodermie diffuse, le score très élevé du modèle ressemble donc à un **artefact du réseau de connaissances** plutôt qu'à une piste biologiquement plausible. Il ne faut pas le considérer comme un signal thérapeutique.
 
@@ -138,11 +138,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL43708 (imipenem): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43708) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**ovarite auto-i
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'insuline lispro est un analogue de l'insuline humaine. Son efficacité dans le diabète est établie : elle remplace ou complète l'insuline endogène pour contrôler la glycémie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Insulin Lispro (traduction non officielle) : « La régulation du métabolisme du glucose est l'activité principale des insulines et des analogues de l'insuline, y compris les produits à base d'insuline lispro. Les insulines abaissent la glycémie en stimulant la captation périphérique du glucose par le muscle squelettique et le tissu adipeux, et en inhibant la production hépatique de glucose. » Texte original en anglais : "Regulation of glucose metabolism is the primary activity of insulins and insulin analogs, including insulin lispro products. Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production." ([DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0), version du 2026-09-03 ; consulté le 2026-11-19). Sur la base des informations connues, l'insuline lispro est un analogue de l'insuline humaine. Son efficacité dans le diabète est établie : elle remplace ou complète l'insuline endogène pour contrôler la glycémie.
 
 Le lien avec l'ovarite auto-immune est probablement indirect. Cette maladie coexiste souvent avec les syndromes polyendocriniens auto-immuns, dont fait partie le diabète de type 1. Le score du modèle TxGNN (deep learning) peut donc refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique : il traduit plus vraisemblablement une **co-occurrence de maladies** qu'un effet thérapeutique. On ne s'attend pas à ce que l'insuline traite le processus auto-immun ovarien lui-même.
 
@@ -140,12 +140,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
 
 <!-- review:end log -->
 

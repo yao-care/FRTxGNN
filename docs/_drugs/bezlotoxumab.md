@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour la **péritonite pelvie
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le bezlotoxumab est un anticorps monoclonal dirigé contre la toxine B de *C. difficile*.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bezlotoxumab (traduction non officielle) : « ZINPLAVA (bezlotoxumab) est un anticorps monoclonal humain qui se lie à la toxine B de C. difficile et neutralise ses effets. […] Le bezlotoxumab est un anticorps monoclonal humain qui se lie à la toxine B de C. difficile avec une constante de dissociation à l'équilibre (K d ) &lt; 1×10 -9 M. Le bezlotoxumab inhibe la liaison de la toxine B et empêche ses effets sur les cellules de mammifères. Le bezlotoxumab ne se lie pas à la toxine A de C. difficile. Activité in vitro Le bezlotoxumab se lie à un épitope de la toxine B qui est conservé parmi les souches de C. difficile rapportées, bien que des variations de la séquence d'acides aminés au sein de l'épitope existent. » Texte original en anglais : "ZINPLAVA (bezlotoxumab) is a human monoclonal antibody that binds to C. difficile toxin B and neutralizes its effects. […] Bezlotoxumab is a human monoclonal antibody that binds C. difficile toxin B with an equilibrium dissociation constant (K d ) of &lt;1×10 -9 M. Bezlotoxumab inhibits the binding of toxin B and prevents its effects on mammalian cells. Bezlotoxumab does not bind to C. difficile toxin A. Activity In Vitro Bezlotoxumab binds to an epitope on toxin B that is conserved across reported strains of C. difficile, although amino acid sequence variation within the epitope does occur." ([DailyMed: Zinplava (bezlotoxumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f479bfe-2bfa-4cc5-9aee-1357364480b0), version du 2024-11-12 ; consulté le 2026-11-19). Sur la base des informations connues, le bezlotoxumab est un anticorps monoclonal dirigé contre la toxine B de *C. difficile*.
 
 Aucun lien mécanistique clair avec la péritonite pelvienne n'a été identifié. Cette affection est le plus souvent polymicrobienne et n'est pas médiée par la toxine B. Le score élevé (0,9989) est donc une prédiction de nature computationnelle, sans fondement biologique démontré. Cette prédiction doit être considérée avec une grande prudence.
 
@@ -89,6 +89,19 @@ La prédiction repose uniquement sur le score du modèle, sans essai clinique, s
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Toute étude (précliniques ou cliniques) portant directement sur la péritonite pelvienne aiguë de la femme
 - Vérification de la cohérence du statut de commercialisation avec l'état des autorisations
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zinplava (bezlotoxumab) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f479bfe-2bfa-4cc5-9aee-1357364480b0) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

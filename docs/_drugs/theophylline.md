@@ -54,7 +54,7 @@ La théophylline est un bronchodilatateur dont l'usage d'origine concerne l'asth
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, la théophylline est un inhibiteur non sélectif des phosphodiestérases (PDE) et un antagoniste des récepteurs de l'adénosine. Ces propriétés expliquent son effet bronchodilatateur dans l'asthme et les maladies respiratoires apparentées.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Theophylline (traduction non officielle) : « La théophylline exerce deux actions distinctes dans les voies aériennes des patients présentant une obstruction réversible : une relaxation des muscles lisses (c.-à-d. une bronchodilatation) et une suppression de la réponse des voies aériennes aux stimuli (c.-à-d. des effets prophylactiques non bronchodilatateurs). » Texte original en anglais : "Theophylline has two distinct actions in the airways of patients with reversible obstruction: smooth muscle relaxation (i.e., bronchodilation) and suppression of the response of the airways to stimuli (i.e., non-bronchodilator prophylactic effects)." ([DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410), version du 2024-07-08 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la théophylline est un inhibiteur non sélectif des phosphodiestérases (PDE) et un antagoniste des récepteurs de l'adénosine. Ces propriétés expliquent son effet bronchodilatateur dans l'asthme et les maladies respiratoires apparentées.
 
 Le lien avec la thrombose est théoriquement plausible mais non démontré. L'inhibition des PDE pourrait augmenter l'AMPc plaquettaire et réduire l'agrégation plaquettaire. Cependant, l'asthme et la thrombose sont des maladies très différentes, et la prédiction ne s'appuie pas sur une parenté clinique entre les deux indications.
 
@@ -111,6 +111,19 @@ Les six AMM sont valides, correspondent à des spécialités à base de théophy
 - Les informations de la notice (mises en garde, contre-indications) pour l'évaluation de sécurité.
 - Une évaluation des interactions avec les anticoagulants et antiplaquettaires.
 - À titre de comparaison, une autre indication prédite, la maladie de la cavité nasale (rhinite allergique), dispose d'une étude clinique humaine indirecte (PMID 9648963). Elle pourrait constituer une piste de recherche plus avancée.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Theo-24 (theophylline anhydrous) prescribing information, ENDO USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7a108fa0-c230-475f-be93-6f864b98a410) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

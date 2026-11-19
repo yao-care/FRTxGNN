@@ -60,7 +60,7 @@ Il s'agit toutefois surtout d'un sous-groupe défini par le statut hormonal au s
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, le trastuzumab se lie au récepteur HER2 (ERBB2) à la surface des cellules tumorales, bloque sa signalisation et favorise la destruction des cellules par cytotoxicité cellulaire dépendante des anticorps (ADCC).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Trastuzumab (traduction non officielle) : « Le proto-oncogène HER2 (ou c-erbB2) code une protéine réceptrice transmembranaire de 185 kDa, structurellement apparentée au récepteur du facteur de croissance épidermique. Il a été démontré que les produits à base de trastuzumab, aussi bien dans des tests in vitro que chez l'animal, inhibent la prolifération des cellules tumorales humaines qui surexpriment HER2. » Texte original en anglais : "The HER2 (or c-erbB2) proto-oncogene encodes a transmembrane receptor protein of 185 kDa, which is structurally related to the epidermal growth factor receptor. Trastuzumab products have been shown, in both in vitro assays and in animals, to inhibit the proliferation of human tumor cells that overexpress HER2." ([DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c), version du 2026-06-26 ; consulté le 2026-11-19). D'après les connaissances établies, le trastuzumab se lie au récepteur HER2 (ERBB2) à la surface des cellules tumorales, bloque sa signalisation et favorise la destruction des cellules par cytotoxicité cellulaire dépendante des anticorps (ADCC).
 
 Une partie des cancers du sein à récepteur de la progestérone positif (type luminal B/HER2-positif) co-exprime HER2. L'indication prédite est donc en grande partie un sous-groupe de l'indication d'origine, défini par le statut hormonal, et non une indication mécanistiquement distincte. Une interaction connue (« dialogue croisé ») existe entre la voie hormonale et la voie HER2, ce qui justifie l'association d'un traitement endocrinien et d'un blocage de HER2.
 
@@ -179,12 +179,13 @@ Veuillez consulter la notice pour les mises en garde et les contre-indications, 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es autorisations françaises recensées sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées, produits éventuellement autorisés par procédure centralisée européenne) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ogivri (trastuzumab-dkst) prescribing information, Biocon Biologics Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b6465b44-a6dd-f99c-d009-6851cf05169c) |
 
 <!-- review:end log -->
 

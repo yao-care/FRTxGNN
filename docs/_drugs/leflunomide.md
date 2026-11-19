@@ -60,7 +60,7 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des connaissances générales, le léflunomide inhibe la dihydroorotate déshydrogénase (DHODH) et donc la synthèse des pyrimidines, ce qui limite la prolifération des lymphocytes activés. Cela explique son efficacité dans les maladies inflammatoires auto-immunes comme la polyarthrite rhumatoïde. Cette information ne figure pas dans les données compilées pour ce rapport.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Leflunomide (traduction non officielle) : « Le léflunomide est un agent immunomodulateur de la classe des isoxazoles qui inhibe la dihydroorotate déshydrogénase (une enzyme mitochondriale impliquée dans la synthèse de novo des pyrimidines) et possède une activité antiproliférative. Plusieurs modèles expérimentaux in vivo et in vitro ont démontré un effet anti-inflammatoire. » Texte original en anglais : "Leflunomide is an isoxazole immunomodulatory agent that inhibits dihydroorotate dehydrogenase (a mitochondrial enzyme involved in de novo pyrimidine synthesis) and has antiproliferative activity. Several in vivo and in vitro experimental models have demonstrated an anti-inflammatory effect." ([DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52), version du 2025-06-04 ; consulté le 2026-11-19). Sur la base des connaissances générales, le léflunomide inhibe la dihydroorotate déshydrogénase (DHODH) et donc la synthèse des pyrimidines, ce qui limite la prolifération des lymphocytes activés. Cela explique son efficacité dans les maladies inflammatoires auto-immunes comme la polyarthrite rhumatoïde. Cette information ne figure pas dans les données compilées pour ce rapport.
 
 Le syndrome brachydactylie-syndactylie est une malformation congénitale des membres, de nature développementale et non auto-immune. Aucun lien mécanistique avec l'indication originale ne peut être établi à partir des données disponibles. La similarité avec l'indication originale n'a pas été évaluée.
 
@@ -132,11 +132,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 13 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Arava (leflunomide) prescribing information, sanofi-aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=320f63f2-fac3-4aee-aff8-85724e00ef52) |
 
 <!-- review:end log -->
 

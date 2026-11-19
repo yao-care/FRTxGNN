@@ -62,7 +62,7 @@ Cette indication correspond toutefois davantage à un usage déjà établi dans 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, la clonidine est un agoniste des récepteurs alpha-2 adrénergiques : elle réduit l'activité noradrénergique centrale et la décharge sympathique, ce qui explique son effet antihypertenseur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clonidine (traduction non officielle) : « La clonidine stimule les récepteurs alpha-adrénergiques du tronc cérébral. Cette action entraîne une réduction du flux sympathique issu du système nerveux central ainsi qu'une diminution des résistances périphériques, des résistances vasculaires rénales, de la fréquence cardiaque et de la pression artérielle. » Texte original en anglais : "Clonidine stimulates alpha-adrenoreceptors in the brain stem. This action results in reduced sympathetic outflow from the central nervous system and in decreases in peripheral resistance, renal vascular resistance, heart rate, and blood pressure." ([DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd), version du 2026-08-12 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la clonidine est un agoniste des récepteurs alpha-2 adrénergiques : elle réduit l'activité noradrénergique centrale et la décharge sympathique, ce qui explique son effet antihypertenseur.
 
 Ce même mécanisme est pertinent dans les tics : la réduction de la transmission noradrénergique module les circuits cortico-striato-thalamo-corticaux impliqués dans le syndrome de Gilles de la Tourette. La clonidine figure comme option dans les lignes directrices européennes de 2022 pour les tics, en particulier en présence d'un TDAH associé.
 
@@ -146,12 +146,13 @@ Veuillez consulter la notice pour les mises en garde officielles, car les donné
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le statut réglementaire français est défavorable : la seule AMM, celle d'une forme injectable, est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « la seule AMM recensée étant une solution injectable annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Qlonilik (clonidine hydrochloride) prescribing information, CMP Pharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=826de1dc-378e-4c90-86d1-e33f7a4248cd) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, tildrakizumab est un anticorps monoclonal dirigé contre la sous-unité p19 de l'IL-23, une cytokine de l'axe inflammatoire IL-23/IL-17.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tildrakizumab (traduction non officielle) : « Le tildrakizumab est un anticorps monoclonal IgG1/k humanisé qui se lie sélectivement à la sous-unité p19 de l'IL-23 et inhibe son interaction avec le récepteur de l'IL-23. L'IL-23 est une cytokine naturelle impliquée dans les réponses inflammatoires et immunitaires. » Texte original en anglais : "Tildrakizumab is a humanized IgG1/k monoclonal antibody that selectively binds to the p19 subunit of IL-23 and inhibits its interaction with the IL-23 receptor. IL-23 is a naturally occurring cytokine that is involved in inflammatory and immune responses." ([DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde), version du 2026-11-02 ; consulté le 2026-11-19). Sur la base des informations connues, tildrakizumab est un anticorps monoclonal dirigé contre la sous-unité p19 de l'IL-23, une cytokine de l'axe inflammatoire IL-23/IL-17.
 
 Une inflammation chronique de bas grade, dont la signalisation de l'axe IL-23/IL-17, pourrait contribuer aux lésions vasculaires rétiniennes de la rétinopathie diabétique. Ce lien reste toutefois **hypothétique**. Le traitement de référence cible le VEGF et la vascularisation rétinienne, et non l'IL-23.
 
@@ -122,11 +122,12 @@ Chez des patients diabétiques, une immunosuppression systémique nécessiterait
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ilumya (tildrakizumab-asmn) prescribing information, Sun Pharmaceutical Industries, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c6a322bb-51b9-4f0e-8642-62a9682ffcde) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **lèpre**, mais 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, lonafarnib est un inhibiteur de la farnésyltransférase : il bloque la prénylation des protéines. Il est utilisé dans le syndrome de progéria de Hutchinson-Gilford et dans les laminopathies progéroïdes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lonafarnib (traduction non officielle) : « Le lonafarnib inhibe la farnésyltransférase afin d'empêcher la farnésylation et l'accumulation subséquente de la progérine et des protéines de type progérine dans la membrane nucléaire interne. » Texte original en anglais : "Lonafarnib inhibits farnesyltransferase to prevent farnesylation and subsequent accumulation of progerin and progerin-like proteins in the inner nuclear membrane." ([DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50), version du 2025-07-02 ; consulté le 2026-11-19). Sur la base des informations connues, lonafarnib est un inhibiteur de la farnésyltransférase : il bloque la prénylation des protéines. Il est utilisé dans le syndrome de progéria de Hutchinson-Gilford et dans les laminopathies progéroïdes.
 
 Le lien avec la lèpre reste **spéculatif**. *Mycobacterium leprae* survit dans les macrophages et les cellules de Schwann de l'hôte. Or, les petites GTPases prénylées de l'hôte (Ras, Rho, Rab) interviennent dans la maturation des phagosomes, le trafic intracellulaire et la signalisation inflammatoire. Inhiber la prénylation pourrait, en théorie, modifier ces processus.
 
@@ -129,11 +129,12 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les AMM françaises sont toutes annulées et les données de sécurité issues de la notice sont absentes, ce qui bloque le passage à l' » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zokinvy (lonafarnib) prescribing information, Sentynl Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97391d0c-943e-4c5a-8423-68e163aa7f50) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrite bactér
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques générales, le sulbactam est un inhibiteur irréversible des bêta-lactamases, doté d'une activité intrinsèque contre *Acinetobacter* spp. Associé à l'ampicilline, il élargit le spectre à des germes producteurs de bêta-lactamases : *S. aureus*, *E. coli* et des anaérobies.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour ampicillin and sulbactam (association contenant Sulbactam) (traduction non officielle) : « Des études biochimiques réalisées sur des systèmes bactériens acellulaires ont montré qu’un large éventail de bêta-lactamases présentes chez des micro-organismes résistants aux pénicillines et aux céphalosporines est inhibé de manière irréversible par le sulbactam. Bien que le sulbactam seul ne possède que peu d’activité antibactérienne utile, sauf contre les Neisseriaceae, des études sur organismes entiers ont montré que le sulbactam restaure l’activité de l’ampicilline contre les souches productrices de bêta-lactamases. » Texte original en anglais : "A wide range of beta-lactamases found in microorganisms resistant to penicillins and cephalosporins have been shown in biochemical studies with cell free bacterial systems to be irreversibly inhibited by sulbactam. Although sulbactam alone possesses little useful antibacterial activity except against the Neisseriaceae, whole organism studies have shown that sulbactam restores ampicillin activity against beta-lactamase producing strains." ([DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398), version du 2026-11-12 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le sulbactam est un inhibiteur irréversible des bêta-lactamases, doté d'une activité intrinsèque contre *Acinetobacter* spp. Associé à l'ampicilline, il élargit le spectre à des germes producteurs de bêta-lactamases : *S. aureus*, *E. coli* et des anaérobies.
 
 Ces germes figurent parmi les agents fréquents des arthrites septiques et des infections ostéo-articulaires. La nouvelle indication est donc cohérente avec les indications antibactériennes d'origine (infections à *S. aureus* et à *E. coli*). Le score élevé de TxGNN reflète probablement cette proximité avec des indications infectieuses existantes, plutôt qu'une découverte réellement nouvelle.
 
@@ -118,11 +118,12 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e produit n'est plus commercialisé en France (AMM annulées), et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: ampicillin and sulbactam prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4446d4c8-056d-4bc3-8f58-21255b063398) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Le méthocarbamol est un myorelaxant à action centrale, utilisé classiquement 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le méthocarbamol est un myorelaxant à action centrale dont le mécanisme exact reste mal défini ; on lui attribue une action par dépression du système nerveux central.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Methocarbamol (traduction non officielle) : « Le mécanisme d'action du méthocarbamol chez l'homme n'a pas été établi, mais pourrait être dû à une dépression générale du SNC. Il n'a aucune action directe sur le mécanisme contractile du muscle strié, sur la plaque motrice ou sur la fibre nerveuse. » Texte original en anglais : "The mechanism of action of methocarbamol in humans has not been established, but may be due to general CNS depression. It has no direct action on the contractile mechanism of striated muscle, the motor end plate or the nerve fiber." ([DailyMed: Methocarbamol Tablets, Usp, 500 Mg (methocarbamol) prescribing information, Marlex Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2e38ac9-1cf3-14ca-e053-2a95a90a8522), version du 2026-11-06 ; consulté le 2026-11-19). Sur la base des informations connues, le méthocarbamol est un myorelaxant à action centrale dont le mécanisme exact reste mal défini ; on lui attribue une action par dépression du système nerveux central.
 
 Le lien avec le syndrome de la queue de cheval est très spéculatif. Il s'agit d'une urgence neurologique compressive qui nécessite une décompression chirurgicale. Au mieux, la myorelaxation pourrait soulager de façon symptomatique les spasmes dorsaux associés, sans agir sur la cause de la maladie. Le score élevé du modèle ne repose sur aucune donnée clinique.
 
@@ -106,11 +106,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Methocarbamol Tablets, Usp, 500 Mg (methocarbamol) prescribing information, Marlex Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2e38ac9-1cf3-14ca-e053-2a95a90a8522) |
 
 <!-- review:end log -->
 

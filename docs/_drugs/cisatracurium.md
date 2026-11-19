@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de la 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le cisatracurium est un bloqueur neuromusculaire non dépolarisant : il agit sur les récepteurs nicotiniques de l'acétylcholine de la jonction neuromusculaire et provoque une paralysie des muscles squelettiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cisatracurium (traduction non officielle) : « Le bésilate de cisatracurium se lie de manière compétitive aux récepteurs cholinergiques de la plaque motrice pour antagoniser l'action de l'acétylcholine, ce qui entraîne un blocage de la transmission neuromusculaire. Cette action est antagonisée par les inhibiteurs de l'acétylcholinestérase tels que la néostigmine. » Texte original en anglais : "Cisatracurium besylate binds competitively to cholinergic receptors on the motor end-plate to antagonize the action of acetylcholine, resulting in blockade of neuromuscular transmission. This action is antagonized by acetylcholinesterase inhibitors such as neostigmine." ([DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0), version du 2026-10-14 ; consulté le 2026-11-19). D'après les connaissances générales, le cisatracurium est un bloqueur neuromusculaire non dépolarisant : il agit sur les récepteurs nicotiniques de l'acétylcholine de la jonction neuromusculaire et provoque une paralysie des muscles squelettiques.
 
 **Cette prédiction n'apparaît pas raisonnable sur le plan mécanistique.** Le syndrome de la queue de cheval est une urgence neurologique compressive, dont le traitement repose sur la décompression chirurgicale. La paralysie musculaire n'a aucun rôle plausible de modification de la maladie. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique ; il ne repose sur aucun soutien clinique.
 
@@ -149,11 +149,12 @@ Le sulfate de magnésium, utilisé dans la prééclampsie, potentialise les myor
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 10 AMM identifiées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: cisatracurium besylate prescribing information, Hospira, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=67908e20-044d-454d-9c51-bf106e817bd0) |
 
 <!-- review:end log -->
 

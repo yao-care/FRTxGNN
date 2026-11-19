@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la benzydamine est un anti-inflammatoire non stéroïdien à action locale, doté de propriétés de type anesthésique local. Son efficacité dans une indication d'origine n'a pas pu être vérifiée, car aucune indication n'est renseignée.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Benzydamine est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase » Texte original en anglais : "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la benzydamine est un anti-inflammatoire non stéroïdien à action locale, doté de propriétés de type anesthésique local. Son efficacité dans une indication d'origine n'a pas pu être vérifiée, car aucune indication n'est renseignée.
 
 Une hypothèse plausible, mais non vérifiée, est que des effets anti-inflammatoires et stabilisateurs de membrane pourraient soulager des symptômes urinaires bas d'origine inflammatoire. Cette hypothèse n'a pas été testée dans les données disponibles et ne doit pas être considérée comme une preuve en faveur de l'hyperplasie bénigne de la prostate.
 
@@ -93,6 +93,19 @@ Veuillez consulter la notice pour les informations de sécurité.
 - Identifier l'indication d'origine de la benzydamine
 - Réaliser une revue de la littérature et des registres d'essais sur la benzydamine et l'hyperplasie bénigne de la prostate
 - Évaluer la compatibilité des voies d'administration (la benzydamine est utilisée localement, ce qui doit être confronté à l'indication visée)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

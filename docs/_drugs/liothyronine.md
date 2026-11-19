@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypoplasie/apl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. La liothyronine est la forme active de l'hormone thyroïdienne (T3) : elle se fixe sur les récepteurs nucléaires des hormones thyroïdiennes et régule l'expression de nombreux gènes impliqués dans le métabolisme et le développement.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Liothyronine (traduction non officielle) : « Les hormones thyroïdiennes exercent leurs actions physiologiques par le contrôle de la transcription de l'ADN et de la synthèse des protéines. La triiodothyronine (T3) et la L-thyroxine (T4) diffusent dans le noyau cellulaire et se lient aux protéines réceptrices thyroïdiennes fixées à l'ADN. » Texte original en anglais : "Thyroid hormones exert their physiologic actions through control of DNA transcription and protein synthesis. Triiodothyronine (T3) and L-thyroxine (T4) diffuse into the cell nucleus and bind to thyroid receptor proteins attached to DNA." ([DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3), version du 2026-05-18 ; consulté le 2026-11-19). La liothyronine est la forme active de l'hormone thyroïdienne (T3) : elle se fixe sur les récepteurs nucléaires des hormones thyroïdiennes et régule l'expression de nombreux gènes impliqués dans le métabolisme et le développement.
 
 Les hormones thyroïdiennes jouent un rôle général dans le développement des organes, dont le rein. Toutefois, aucun lien mécanistique direct n'est établi avec le traitement de l'hypoplasie/aplasie rénale, qui est une malformation structurelle congénitale. Un médicament administré après la naissance a peu de chances d'inverser une telle anomalie.
 
@@ -107,11 +107,12 @@ La prédiction repose uniquement sur le modèle, sans essai clinique ni publicat
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le statut de cette AMM est enregistré comme annulé dans les données locales » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cytomel (liothyronine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=51452b31-ff68-4e0c-b982-c15502ebf1d3) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Les preuves actuelles restent faibles (niveau **L4**) : **10 essais cliniques** 
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la lomustine est une nitrosourée lipophile : elle alkyle et réticule l'ADN, ce qui est toxique pour les cellules en prolifération, notamment les cellules lymphoïdes. Elle traverse aussi la barrière hémato-encéphalique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lomustine (traduction non officielle) : « La lomustine alkyle l'ADN et l'ARN. Comme les autres nitroso-urées, elle peut également inhiber plusieurs processus enzymatiques clés par carbamoylation des acides aminés des protéines. » Texte original en anglais : "Lomustine alkylates DNA and RNA. As with other nitrosoureas, it may also inhibit several key enzymatic processes by carbamoylation of amino acids in proteins." ([DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082), version du 2025-09-25 ; consulté le 2026-11-19). D'après les connaissances générales, la lomustine est une nitrosourée lipophile : elle alkyle et réticule l'ADN, ce qui est toxique pour les cellules en prolifération, notamment les cellules lymphoïdes. Elle traverse aussi la barrière hémato-encéphalique.
 
 Le lymphosarcome (lymphome non hodgkinien) est biologiquement proche des lymphomes pour lesquels la lomustine est déjà utilisée dans des schémas de chimiothérapie. Sa pénétration dans le système nerveux central est pertinente pour les lymphomes cérébraux primitifs.
 
@@ -130,6 +130,18 @@ Le niveau de preuve est L4 : la seule étude portant directement sur le lymphosa
 - Les mises en garde et contre-indications de la notice officielle (ANSM)
 - Des études cliniques chez l'humain évaluant directement la lomustine dans le lymphosarcome
 - Un plan de surveillance de la toxicité hématologique, hépatique et pulmonaire
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Gleostine (lomustine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3529fe2f-3c23-4862-bb20-b48026957082) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

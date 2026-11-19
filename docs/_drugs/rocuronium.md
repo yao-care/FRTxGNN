@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base compilée. D'après les connaissances pharmacologiques générales, le rocuronium est un myorelaxant non dépolarisant : il agit comme antagoniste compétitif des récepteurs nicotiniques de l'acétylcholine à la jonction neuromusculaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rocuronium (traduction non officielle) : « Le bromure de rocuronium injectable est un agent bloquant neuromusculaire non dépolarisant dont le délai d'action est rapide à intermédiaire selon la dose et la durée d'action intermédiaire. Il agit par compétition pour les récepteurs cholinergiques au niveau de la plaque motrice. » Texte original en anglais : "Rocuronium bromide injection is a nondepolarizing neuromuscular blocking agent with a rapid to intermediate onset depending on dose and intermediate duration. It acts by competing for cholinergic receptors at the motor end-plate." ([DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147), version du 2026-10-01 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le rocuronium est un myorelaxant non dépolarisant : il agit comme antagoniste compétitif des récepteurs nicotiniques de l'acétylcholine à la jonction neuromusculaire.
 
 Aucun mécanisme établi ne relie cette action à la physiopathologie de la migraine (CGRP, activation trigémino-vasculaire, dépression corticale envahissante). Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies voisines, non une preuve biologique. La toxine botulique, qui réduit aussi la transmission neuromusculaire et s'utilise dans la migraine chronique, agit par un autre mécanisme (inhibition de la libération présynaptique, modulation des nocicepteurs périphériques) : l'analogie est donc faible.
 
@@ -99,6 +99,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, non 
 - Obtenir les données sur le mécanisme d'action et l'indication d'origine.
 - Démontrer un mécanisme plausible reliant le bloc nicotinique à la migraine, puis des études précliniques.
 - Évaluer la compatibilité des voies d'administration (analyse non encore réalisée).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: rocuronium bromide prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a18fce42-0f3d-4354-845e-57c37ac3a147) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myél
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le ribociclib est un inhibiteur sélectif de CDK4/6, des kinases qui contrôlent la transition de la phase G1 à la phase S du cycle cellulaire. Son efficacité a été établie dans le cancer du sein HR+/HER2- avancé ou métastatique, en association avec un traitement endocrinien.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ribociclib (traduction non officielle) : « Le ribociclib est un inhibiteur des kinases dépendantes des cyclines (CDK) 4 et 6. Ces kinases sont activées lors de leur liaison aux cyclines D et se situent en aval de voies de signalisation conduisant à la progression du cycle cellulaire et à la prolifération cellulaire. » Texte original en anglais : "Ribociclib is an inhibitor of cyclin-dependent kinase (CDK) 4 and 6. These kinases are activated upon binding to D-cyclins and are downstream of signaling pathways which lead to cell cycle progression and cellular proliferation." ([DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8), version du 2026-07-01 ; consulté le 2026-11-19). Sur la base des connaissances générales, le ribociclib est un inhibiteur sélectif de CDK4/6, des kinases qui contrôlent la transition de la phase G1 à la phase S du cycle cellulaire. Son efficacité a été établie dans le cancer du sein HR+/HER2- avancé ou métastatique, en association avec un traitement endocrinien.
 
 Dans la leucémie myéloïde aiguë (LMA), les cellules leucémiques peuvent dépendre de la signalisation CDK4/6 pour leur prolifération, ce qui donne un rationnel plausible. Une étude préclinique *in vitro* (2020) suggère de plus que les inhibiteurs de CDK4/6 pourraient contrecarrer la résistance pharmacocinétique (transporteurs ABCB1 et ABCG2) des cellules de LMA, ce qui ouvre une piste indirecte pour des associations.
 
@@ -127,11 +127,12 @@ Les autres indications prédites (thrombopénie, macrothrombopénie avec insuffi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Kisqali (ribociclib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=aaeaef94-f3f5-4367-8ea2-b181d7be2da8) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans le **Sarcome d'Ewing (E
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales sur les taxanes, le docétaxel stabilise les microtubules et provoque un arrêt de la mitose dans les cellules tumorales à division rapide.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Docetaxel (traduction non officielle) : « Le docétaxel est un agent antinéoplasique qui agit en perturbant le réseau microtubulaire des cellules, essentiel aux fonctions cellulaires mitotiques et interphasiques. Le docétaxel se lie à la tubuline libre et favorise l'assemblage de la tubuline en microtubules stables tout en inhibant simultanément leur désassemblage. » Texte original en anglais : "Docetaxel is an antineoplastic agent that acts by disrupting the microtubular network in cells that is essential for mitotic and interphase cellular functions. Docetaxel binds to free tubulin and promotes the assembly of tubulin into stable microtubules while simultaneously inhibiting their disassembly." ([DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b), version du 2025-12-17 ; consulté le 2026-11-19). D'après les connaissances générales sur les taxanes, le docétaxel stabilise les microtubules et provoque un arrêt de la mitose dans les cellules tumorales à division rapide.
 
 Dans le sarcome d'Ewing, le docétaxel est utilisé principalement en association, soit avec la gemcitabine (séquentielle ou schéma GEMDOX), soit avec l'irinotécan, pour les formes récidivantes ou réfractaires. Plusieurs essais de phase 2 et des publications correspondantes existent. Les taux de réponse restent toutefois modestes et les cohortes mêlent souvent différents sarcomes pédiatriques : l'efficacité spécifique au sarcome d'Ewing reste donc incertaine.
 
@@ -138,11 +138,12 @@ Plusieurs essais de phase 2 achevés et des publications cliniques évaluent le 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-12 | Supprimé : « valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
 
 <!-- review:end log -->
 

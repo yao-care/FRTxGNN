@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **mastocytome
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, l'anakinra bloque le récepteur de l'interleukine-1 et limite ainsi la signalisation inflammatoire médiée par cette cytokine.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Anakinra (traduction non officielle) : « KINERET bloque l'activité biologique de l'IL-1 alpha et bêta en inhibant de manière compétitive la liaison de l'IL-1 au récepteur de type I de l'interleukine-1 (IL-1RI), qui est exprimé dans une grande variété de tissus et d'organes. La production d'IL-1 est induite en réponse à des stimuli inflammatoires et assure la médiation de diverses réponses physiologiques, notamment les réponses inflammatoires et immunologiques. » Texte original en anglais : "KINERET blocks the biologic activity of IL-1 alpha and beta by competitively inhibiting IL-1 binding to the interleukin-1 type I receptor (IL-1RI), which is expressed in a wide variety of tissues and organs. IL-1 production is induced in response to inflammatory stimuli and mediates various physiologic responses including inflammatory and immunological responses." ([DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de), version du 2026-04-03 ; consulté le 2026-11-19). D'après les connaissances générales, l'anakinra bloque le récepteur de l'interleukine-1 et limite ainsi la signalisation inflammatoire médiée par cette cytokine.
 
 Un lien spéculatif existe : l'IL-1 pourrait participer à l'inflammation associée aux mastocytes. Toutefois, rien dans les données fournies ne soutient cette hypothèse, et la similarité avec les usages connus du médicament n'a pas été évaluée. Le score élevé (0,9993) reflète une prédiction du modèle, non une démonstration clinique ou mécanistique.
 
@@ -96,6 +96,18 @@ La prédiction repose uniquement sur le score du modèle, sans essai ni publicat
 - Études précliniques ou cliniques portant directement sur le mastocytome extracutané
 - Mises en garde et contre-indications issues de la notice de l'ANSM, nécessaires au criblage de sécurité
 - Évaluation de la compatibilité de la voie d'administration (injectable)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Kineret (anakinra) prescribing information, Swedish Orphan Biovitrum AB (publ)](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d9d74915-6606-4570-9c52-c4001d3177de) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestéro
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la nimodipine est un inhibiteur calcique de la classe des dihydropyridines, à activité préférentielle sur la circulation cérébrale. Son intérêt dans l'hémorragie sous-arachnoïdienne repose sur cette action vasculaire cérébrale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nimodipine (traduction non officielle) : « La nimodipine est un inhibiteur calcique de la famille des dihydropyridines. Les processus contractiles des cellules musculaires lisses dépendent des ions calcium, qui pénètrent dans ces cellules lors de la dépolarisation sous forme de courants ioniques transmembranaires lents. » Texte original en anglais : "Nimodipine is a dihydropyridine calcium channel blocker. The contractile processes of smooth muscle cells are dependent upon calcium ions, which enter these cells during depolarization as slow ionic transmembrane currents." ([DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10), version du 2024-08-30 ; consulté le 2026-11-19). Sur la base des informations connues, la nimodipine est un inhibiteur calcique de la classe des dihydropyridines, à activité préférentielle sur la circulation cérébrale. Son intérêt dans l'hémorragie sous-arachnoïdienne repose sur cette action vasculaire cérébrale.
 
 La relation avec la nouvelle indication reste très fragile. L'hypercholestérolémie familiale homozygote résulte d'un défaut d'élimination du LDL-cholestérol (dysfonction du récepteur du LDL, d'APOB, de PCSK9 ou de LDLRAP1). Aucun lien mécanistique établi n'existe avec le blocage des canaux calciques de type L. Un éventuel effet vasculaire ou antiathérosclérotique des inhibiteurs calciques serait spéculatif et ne corrigerait pas le défaut sous-jacent du métabolisme lipidique.
 
@@ -129,12 +129,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nymalize (nimodipine) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e660fa26-b5c4-4d6d-8887-9e22b6666a10) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertrichos
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le ganirelix est un antagoniste peptidique du récepteur GnRH1 (gène GNRHR). Il freine la sécrétion de LH et de FSH, donc la production des stéroïdes sexuels gonadiques.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ganirelix (traduction non officielle) : « La libération pulsatile de la GnRH stimule la synthèse et la sécrétion de l'hormone lutéinisante (LH) et de l'hormone folliculo-stimulante (FSH). La fréquence des pulses de LH au milieu et à la fin de la phase folliculaire est d'environ 1 pulse par heure. […] L'acétate de ganirelix agit en bloquant de manière compétitive les récepteurs de la GnRH sur les cellules gonadotropes hypophysaires et la voie de transduction qui en découle. » Texte original en anglais : "The pulsatile release of GnRH stimulates the synthesis and secretion of luteinizing hormone (LH) and follicle-stimulating hormone (FSH). The frequency of LH pulses in the mid and late follicular phase is approximately 1 pulse per hour. […] Ganirelix acetate acts by competitively blocking the GnRH receptors on the pituitary gonadotroph and subsequent transduction pathway." ([DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1), version du 2026-10-16 ; consulté le 2026-11-19). Sur la base des informations connues, le ganirelix est un antagoniste peptidique du récepteur GnRH1 (gène GNRHR). Il freine la sécrétion de LH et de FSH, donc la production des stéroïdes sexuels gonadiques.
 
 Le lien avec l'hypertrichose reste **spéculatif**. Une baisse des androgènes pourrait aider dans l'hirsutisme, mais l'hypertrichose vraie est en général indépendante des androgènes et non pilotée par l'axe hypophyso-gonadique. Le score très élevé de TxGNN provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -101,6 +101,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Obtenir les données détaillées sur le mécanisme d'action
 - Mener une revue de littérature ciblée et rechercher des essais, en priorité pour la puberté précoce centrale, qui est l'hypothèse la plus cohérente
 - Évaluer la compatibilité des voies d'administration et la pertinence d'une formulation à action prolongée pour une utilisation chronique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fyremadel (ganirelix acetate) prescribing information, Ferring Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f0908b5-3551-47fd-95f7-3669b0dff7f1) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

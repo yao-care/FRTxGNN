@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**accident vasculai
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la flécaïnide est un bloqueur des canaux sodiques de classe 1C, utilisé pour le contrôle du rythme dans la fibrillation atriale, et son efficacité sur cette arythmie est documentée.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Flecainide (traduction non officielle) : « Le flécaïnide possède une activité anesthésique locale et appartient au groupe des antiarythmiques stabilisants de membrane (classe 1) ; il présente des effets électrophysiologiques caractéristiques de la classe IC des antiarythmiques. Électrophysiologie Chez l'homme, le flécaïnide entraîne une diminution dose-dépendante de la conduction intracardiaque dans toutes les parties du cœur, l'effet le plus marqué s'exerçant sur le système His-Purkinje (conduction H-V). » Texte original en anglais : "Flecainide has local anesthetic activity and belongs to the membrane stabilizing (Class 1) group of antiarrhythmic agents; it has electrophysiologic effects characteristic of the IC class of antiarrhythmics. Electrophysiology In man, flecainide produces a dose-related decrease in intracardiac conduction in all parts of the heart with the greatest effect on the His-Purkinje system (H-V conduction)." ([DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4), version du 2026-06-11 ; consulté le 2026-11-19). Sur la base des informations connues, la flécaïnide est un bloqueur des canaux sodiques de classe 1C, utilisé pour le contrôle du rythme dans la fibrillation atriale, et son efficacité sur cette arythmie est documentée.
 
 Le lien avec l'AVC passe par un mécanisme indirect : en réduisant la charge en fibrillation atriale, un traitement de contrôle du rythme pourrait diminuer le risque d'AVC cardio-embolique. L'essai de Phase 3 NCT05213104 teste la flécaïnide pour prévenir l'arythmie atriale après fermeture d'un foramen ovale perméable (FOP), une intervention réalisée en prévention secondaire de l'AVC cryptogénique.
 
@@ -130,6 +130,19 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 - Les données sur le mécanisme d'action (DrugBank).
 - La clarification du statut réglementaire en France (médicament commercialisé, 20 AMM valides).
 - Un plan de surveillance de la sécurité cardiaque et un dépistage des cardiopathies structurelles avant toute utilisation.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: flecainide acetate prescribing information, Amneal Pharmaceuticals of New York LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ee9595d5-08a1-4529-9215-ddc3c7f929c4) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

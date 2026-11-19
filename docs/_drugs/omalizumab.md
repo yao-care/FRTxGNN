@@ -54,7 +54,7 @@ L'omalizumab est un anticorps monoclonal qui neutralise les IgE libres. Le modè
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'omalizumab se lie aux IgE libres, ce qui réduit l'expression du récepteur FcεRI sur les mastocytes et les basophiles et atténue l'inflammation allergique des voies respiratoires. La cible identifiée est la chaîne lourde epsilon de l'immunoglobuline (IGHE).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Omalizumab (traduction non officielle) : « Asthme, rhinosinusite chronique avec polypes nasaux et allergie alimentaire médiée par les IgE Les produits à base d'omalizumab inhibent la liaison des IgE au récepteur de haute affinité des IgE (FcεRI) à la surface des mastocytes, des basophiles et des cellules dendritiques, ce qui entraîne une régulation négative du FcεRI sur ces cellules. Chez les asthmatiques allergiques, le traitement par les produits à base d'omalizumab inhibe l'inflammation médiée par les IgE, comme en témoignent la diminution des éosinophiles sanguins et tissulaires et la diminution des médiateurs inflammatoires, notamment IL-4, IL-5 et IL-13. » Texte original en anglais : "Asthma, Chronic Rhinosinusitis with Nasal Polyps, and IgE-Mediated Food Allergy Omalizumab products inhibit the binding of IgE to the high-affinity IgE receptor (FcεRI) on the surface of mast cells, basophils, and dendritic cells, resulting in FcεRI down-regulation on these cells. In allergic asthmatics, treatment with omalizumab products inhibit IgE-mediated inflammation, as evidenced by reduced blood and tissue eosinophils and reduced inflammatory mediators, including IL-4, IL-5, and IL-13." ([DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84), version du 2026-10-06 ; consulté le 2026-11-19). D'après les informations connues, l'omalizumab se lie aux IgE libres, ce qui réduit l'expression du récepteur FcεRI sur les mastocytes et les basophiles et atténue l'inflammation allergique des voies respiratoires. La cible identifiée est la chaîne lourde epsilon de l'immunoglobuline (IGHE).
 
 Ce mécanisme pourrait avoir un sens pour une bronchite d'origine allergique ou associée à l'asthme, ou pour le chevauchement asthme-BPCO. Il n'est en revanche pas établi pour les bronchites infectieuses ou chroniques sans composante allergique. Le lien avec la bronchite elle-même reste donc indirect et hypothétique.
 
@@ -108,6 +108,18 @@ Aucune étude publiée ne démontre l'intérêt de l'omalizumab dans la bronchit
 - Des études cliniques ciblant spécifiquement un phénotype de bronchite (par exemple allergique ou éosinophilique)
 - Des données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications issues de la notice officielle (ANSM)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

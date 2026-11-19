@@ -60,7 +60,7 @@ Ce score provient du modèle TxGNN (apprentissage profond) et peut refléter des
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le fébuxostat est un inhibiteur non purique sélectif de la xanthine oxydase : il réduit la production d'acide urique et abaisse l'uricémie. Son efficacité dans l'hyperuricémie est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Febuxostat (traduction non officielle) : « ULORIC, un inhibiteur de la xanthine oxydase, exerce son effet thérapeutique en diminuant l'uricémie. ULORIC ne devrait pas inhiber, aux concentrations thérapeutiques, d'autres enzymes impliquées dans la synthèse et le métabolisme des purines et des pyrimidines. » Texte original en anglais : "ULORIC, a xanthine oxidase inhibitor, achieves its therapeutic effect by decreasing serum uric acid. ULORIC is not expected to inhibit other enzymes involved in purine and pyrimidine synthesis and metabolism at therapeutic concentrations." ([DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd), version du 2025-12-24 ; consulté le 2026-11-19). D'après les connaissances générales, le fébuxostat est un inhibiteur non purique sélectif de la xanthine oxydase : il réduit la production d'acide urique et abaisse l'uricémie. Son efficacité dans l'hyperuricémie est établie.
 
 L'hypouricémie rénale est cependant une situation inverse : l'uricémie est déjà basse en raison d'un défaut de réabsorption rénale de l'urate (perte de fonction de SLC22A12/URAT1 ou de SLC2A9). Abaisser davantage l'acide urique n'a pas de justification thérapeutique claire pour la maladie sous-jacente. Le score élevé du modèle TxGNN (apprentissage profond) peut refléter des similarités apprises entre maladies apparentées, et non une preuve biologique.
 
@@ -137,11 +137,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 MM sont annulées et a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Uloric (febuxostat) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=54de10ef-fe5f-4930-b91d-6bbb04c664bd) |
 
 <!-- review:end log -->
 

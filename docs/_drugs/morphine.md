@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour le **syndrome myofasc
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la morphine agit comme agoniste des récepteurs opioïdes mu et module la transmission de la douleur.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Morphine (traduction non officielle) : « La morphine est un agoniste opioïde complet, relativement sélectif du récepteur opioïde mu, bien qu'elle puisse se lier à d'autres récepteurs opioïdes à des doses plus élevées. La principale action thérapeutique de la morphine est l'analgésie. Comme pour tous les agonistes opioïdes complets, il n'existe pas d'effet plafond pour l'analgésie avec la morphine. » Texte original en anglais : "Morphine is a full opioid agonist and is relatively selective for the mu-opioid receptor, although it can bind to other opioid receptors at higher doses. The principal therapeutic action of morphine is analgesia. Like all full opioid agonists, there is no ceiling effect for analgesia with morphine." ([DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698), version du 2026-08-14 ; consulté le 2026-11-19). D'après les connaissances générales, la morphine agit comme agoniste des récepteurs opioïdes mu et module la transmission de la douleur.
 
 Ce mécanisme pourrait en théorie intéresser les douleurs musculo-squelettiques chroniques. Toutefois, la littérature retrouvée est indirecte : analgésie périopératoire, douleurs orofaciales, infiltration associée à la dexmédétomidine, programmes d'étirements. Aucune étude ne démontre l'efficacité de la morphine dans le syndrome myofascial douloureux, et l'usage prolongé des opioïdes est généralement déconseillé dans cette affection. La prédiction reste donc une hypothèse de recherche.
 
@@ -106,6 +106,18 @@ Cette prédiction repose uniquement sur le modèle : aucun essai clinique n'exis
 - Données détaillées sur le mécanisme d'action
 - Informations de sécurité issues de la notice (mises en garde et contre-indications)
 - Évaluation du rapport bénéfice/risque face aux alternatives non opioïdes
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ms Contin (morphine sulfate) prescribing information, Rhodes Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c354b3bf-86c0-4bb8-8b1f-be2164942698) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

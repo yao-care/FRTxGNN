@@ -56,7 +56,7 @@ mais cette direction ne repose que sur **1 publication préclinique** (modèle a
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques connues, le ciprofibrate est un agoniste du récepteur PPAR-alpha (PPARA) qui réduit les triglycérides et module le métabolisme des lipoprotéines.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ciprofibrate est (traduction non officielle) : « Agoniste du récepteur alpha activé par les proliférateurs de peroxysomes » Texte original en anglais : "Peroxisome proliferator-activated receptor alpha agonist" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, le ciprofibrate est un agoniste du récepteur PPAR-alpha (PPARA) qui réduit les triglycérides et module le métabolisme des lipoprotéines.
 
 La déficience en CETP se caractérise par un HDL-cholestérol très élevé et un remodelage anormal des lipoprotéines. Un lien plausible existe donc par le métabolisme lipidique. Toutefois, ce lien reste théorique : la seule publication disponible (2003) est une étude chez la souris déficiente en apolipoprotéine E, montrant que le ciprofibrate aggrave l'hypercholestérolémie, effet corrigé par la surexpression de SR-BI.
 
@@ -103,6 +103,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Rechercher des études cliniques ou observationnelles chez des patients atteints de cette maladie
 
 **Note sur la seconde prédiction (fibrome de la prostate, score 0,9971) :** aucun essai ni publication n'a été identifié (niveau L5), et aucun lien mécanistique crédible n'apparaît entre un agoniste PPAR-alpha et cette lésion bénigne. Il peut s'agir d'un artefact de correspondance d'ontologie ; une validation du terme est nécessaire avant toute investigation.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

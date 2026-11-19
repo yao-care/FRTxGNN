@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **sarcome d'Ewing
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après la littérature, dasatinib inhibite BCR-ABL ainsi que les kinases de la famille SRC, et possède aussi une activité contre c-KIT et PDGFR. Son efficacité dans la leucémie myéloïde chronique repose sur l'inhibition de BCR-ABL.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dasatinib (traduction non officielle) : « Le dasatinib, à des concentrations nanomolaires, inhibe les kinases suivantes : BCR-ABL, famille SRC (SRC, LCK, YES, FYN), c-KIT, EPHA2 et PDGFRβ. D'après des études de modélisation, le dasatinib se lierait à de multiples conformations de la kinase ABL. » Texte original en anglais : "Dasatinib, at nanomolar concentrations, inhibits the following kinases: BCR-ABL, SRC family (SRC, LCK, YES, FYN), c-KIT, EPHA2, and PDGFRβ. Based on modeling studies, dasatinib is predicted to bind to multiple conformations of the ABL kinase." ([DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df), version du 2026-10-16 ; consulté le 2026-11-19). D'après la littérature, dasatinib inhibite BCR-ABL ainsi que les kinases de la famille SRC, et possède aussi une activité contre c-KIT et PDGFR. Son efficacité dans la leucémie myéloïde chronique repose sur l'inhibition de BCR-ABL.
 
 Le lien avec le sarcome d'Ewing passe par SRC et non par BCR-ABL. Des études précliniques montrent que SRC favorise la formation d'invadopodes, la migration et l'invasion des cellules d'Ewing, et que dasatinib inhibe la migration et induit l'apoptose dans des cellules de sarcomes osseux dépendantes de SRC. La voie FAK-SRC est proposée comme cible dans ce sarcome.
 
@@ -164,12 +164,13 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM ne sont p
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 20 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « clarification du statut réglementaire des AMM annu » → « clarification du statut réglementaire » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sprycel (dasatinib) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4764f37b-c9e6-4ede-bcc2-8a03b7c521df) |
 
 <!-- review:end log -->
 

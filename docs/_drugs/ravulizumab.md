@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des informations connues, ravulizumab est un inhibiteur du composant C5 du complément à longue durée d'action. Son efficacité dans l'hémoglobinurie paroxystique nocturne, une maladie d'hémolyse médiée par le complément, est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ravulizumab (traduction non officielle) : « Le ravulizumab-cwvz est un inhibiteur du complément terminal qui se lie spécifiquement et avec une haute affinité à la protéine du complément C5, inhibant ainsi son clivage en C5a (l'anaphylatoxine pro-inflammatoire) et en C5b (la sous-unité initiatrice du complexe d'attaque membranaire [CAM ou C5b-9]), empêchant ainsi la formation du CAM. ULTOMIRIS inhibe l'hémolyse intravasculaire médiée par le complément terminal chez les patients atteints d'HPN et la microangiopathie thrombotique (MAT) médiée par le complément chez les patients atteints de SHUa. » Texte original en anglais : "Ravulizumab-cwvz is a terminal complement inhibitor that specifically binds to the complement protein C5 with high affinity, thereby inhibiting its cleavage to C5a (the proinflammatory anaphylatoxin) and C5b (the initiating subunit of the membrane attack complex [MAC or C5b-9]) thus preventing MAC formation. ULTOMIRIS inhibits terminal complement-mediated intravascular hemolysis in patients with PNH and complement-mediated thrombotic microangiopathy (TMA) in patients with aHUS." ([DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791), version du 2026-10-29 ; consulté le 2026-11-19). Sur la base des informations connues, ravulizumab est un inhibiteur du composant C5 du complément à longue durée d'action. Son efficacité dans l'hémoglobinurie paroxystique nocturne, une maladie d'hémolyse médiée par le complément, est établie.
 
 Aucun lien mécanistique direct n'est établi avec la neutropénie par déficit en G6PC3. Cette maladie résulte d'un défaut de la sous-unité catalytique de la glucose-6-phosphatase, qui entraîne une apoptose des neutrophiles et un stress du réticulum endoplasmique. L'inhibition terminale du complément ne cible pas cette physiopathologie. Le score élevé (0.9996) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique, sans confirmation clinique ni bibliographique.
 
@@ -116,12 +116,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ultomiris (ravulizumab) prescribing information, Alexion Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a9a590d9-0217-43c7-908d-e62a71279791) |
 
 <!-- review:end log -->
 

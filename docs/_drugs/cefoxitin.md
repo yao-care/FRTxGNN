@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré pour cette indication, et une seule publi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, la céfoxitine inhibe la synthèse de la paroi bactérienne et résiste à de nombreuses bêtalactamases. Son spectre couvre notamment *S. aureus*, *E. coli* et des anaérobies, germes pouvant être retrouvés dans les otites moyennes.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cefoxitin (traduction non officielle) : « La céfoxitine est un médicament antibactérien. […] La céfoxitine est un agent bactéricide qui agit par inhibition de la synthèse de la paroi cellulaire bactérienne. La céfoxitine est active en présence de certaines bêta-lactamases, à la fois pénicillinases et céphalosporinases, des bactéries à Gram négatif et à Gram positif. » Texte original en anglais : "Cefoxitin is an antibacterial drug. […] Cefoxitin is a bactericidal agent that acts by inhibition of bacterial cell wall synthesis. Cefoxitin has activity in the presence of some beta-lactamases, both penicillinases and cephalosporinases, of Gram-negative and Gram-positive bacteria." ([DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864), version du 2019-07-29 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la céfoxitine inhibe la synthèse de la paroi bactérienne et résiste à de nombreuses bêtalactamases. Son spectre couvre notamment *S. aureus*, *E. coli* et des anaérobies, germes pouvant être retrouvés dans les otites moyennes.
 
 Cependant, le lien reste purement théorique. La seule publication associée est une revue sur le SARM (*Staphylococcus aureus* résistant à la méticilline) mentionnant l'otite moyenne parmi les infections qu'il provoque. Elle n'évalue pas la céfoxitine en traitement : la céfoxitine y est surtout connue comme marqueur de laboratoire pour détecter le SARM. Le score élevé du modèle est une simple prédiction.
 
@@ -99,6 +99,19 @@ Aucun essai clinique ni étude directe ne soutient la céfoxitine dans l'otite m
 - Données de sensibilité des germes d'otite à la céfoxitine
 - Mises en garde et contre-indications issues de la notice (ANSM)
 - Données détaillées sur le mécanisme d'action
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cefoxitin And Dextrose (cefoxitin sodium) prescribing information, B. Braun Medical Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6c7e9485-1ede-411c-8c46-911439332864) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

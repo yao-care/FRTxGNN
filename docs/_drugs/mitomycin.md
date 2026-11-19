@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la mitomycine est un agent alkylant qui crée des ponts covalents entre les brins d'ADN, bloquant la réplication des cellules à division rapide. Ce principe cytotoxique pourrait, en théorie, s'appliquer aux tumeurs pancréatiques.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mitomycin (traduction non officielle) : « La mitomycine inhibe sélectivement la synthèse de l'acide désoxyribonucléique (ADN). La teneur en guanine et en cytosine est corrélée au degré de pontage induit par la mitomycine. À des concentrations élevées du médicament, la synthèse cellulaire de l'ARN et des protéines est également inhibée. » Texte original en anglais : "Mitomycin selectively inhibits the synthesis of deoxyribonucleic acid (DNA). The guanine and cytosine content correlates with the degree of mitomycin-induced cross-linking. At high concentrations of the drug, cellular RNA and protein synthesis are also suppressed." ([DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e), version du 2025-03-12 ; consulté le 2026-11-19). D'après les connaissances générales, la mitomycine est un agent alkylant qui crée des ponts covalents entre les brins d'ADN, bloquant la réplication des cellules à division rapide. Ce principe cytotoxique pourrait, en théorie, s'appliquer aux tumeurs pancréatiques.
 
 Le carcinome pseudopapillaire solide du pancréas est une tumeur rare, généralement d'évolution lente, dont la prise en charge est habituellement chirurgicale. L'argument en faveur de la prédiction repose donc sur une extrapolation à partir de l'activité cytotoxique générale, et non sur des données cliniques propres à cette tumeur.
 
@@ -110,6 +110,18 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 - Revue de la notice ANSM (mises en garde et contre-indications)
 - Recherche de séries de cas ou d'études précliniques spécifiques à cette tumeur
 - Avis d'experts en oncologie pancréatique sur la pertinence d'un traitement systémique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Mutamycin (mitomycin) prescribing information, Accord BioPharma Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbf0f6ba-3a53-4791-9a85-5c6b271eeb8e) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

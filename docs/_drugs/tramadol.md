@@ -56,7 +56,7 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette dir
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le tramadol est un agoniste des récepteurs opioïdes mu, doté d'une inhibition de la recapture de la sérotonine et de la noradrénaline. Il agit comme analgésique et son usage dans les douleurs ostéo-articulaires est connu.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tramadol (traduction non officielle) : « Les gélules à libération prolongée de chlorhydrate de tramadol contiennent du tramadol, un agoniste opioïde et un inhibiteur de la recapture de la noradrénaline et de la sérotonine. Bien que son mode d'action ne soit pas entièrement élucidé, d'après les études chez l'animal, au moins deux mécanismes complémentaires semblent intervenir : la liaison de la molécule mère et du métabolite M1 aux récepteurs opioïdes mu et une faible inhibition de la recapture de la noradrénaline et de la sérotonine. » Texte original en anglais : "Tramadol Hydrochloride Extended-Release Capsules contain tramadol, an opioid agonist, and an inhibitor of reuptake of norepinephrine and serotonin. Although its mode of action is not completely understood, from animal tests, at least two complementary mechanisms appear applicable: binding of parent and M1 metabolite to mu-opioid receptors and weak inhibition of reuptake of norepinephrine and serotonin." ([DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9), version du 2026-01-23 ; consulté le 2026-11-19). D'après les connaissances générales, le tramadol est un agoniste des récepteurs opioïdes mu, doté d'une inhibition de la recapture de la sérotonine et de la noradrénaline. Il agit comme analgésique et son usage dans les douleurs ostéo-articulaires est connu.
 
 L'analyse de la plausibilité ne identifie **aucun lien mécanistique** entre le tramadol et cette pathologie. La dysplasie acromésomélique de type Hunter-Thompson est une maladie génétique rare (perte de fonction de CDMP1/GDF5) qui altère la croissance des membres. Le tramadol n'a aucun effet modificateur de la maladie. Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Tout au plus, un effet analgésique symptomatique pourrait être pertinent, ce qui ne constitue pas un repositionnement.
 
@@ -111,11 +111,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tramadol Hydrochloride Extended-Release (tramadol hydrochloride) prescribing information, Trigen Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0bc7218-3fd0-4646-96f4-25355fc84aa9) |
 
 <!-- review:end log -->
 

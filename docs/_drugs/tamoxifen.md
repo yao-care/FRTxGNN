@@ -58,7 +58,7 @@ Il s'agit toutefois d'une indication très proche de l'indication d'origine, et 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le tamoxifène appartient à la classe des modulateurs sélectifs des récepteurs aux estrogènes (SERM). Il antagonise de façon compétitive le récepteur aux estrogènes (RE) dans le tissu mammaire. Son efficacité dans le cancer du sein RE-positif est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tamoxifen (traduction non officielle) : « Le tamoxifène est un agoniste/antagoniste des œstrogènes. Le tamoxifène entre en compétition avec les œstrogènes pour la liaison au récepteur des œstrogènes, ce qui peut entraîner une diminution de la croissance dépendante de la signalisation du récepteur des œstrogènes dans le tissu mammaire. Le tamoxifène a démontré une activité antitumorale contre des lignées cellulaires de cancer du sein humain xénogreffées chez la souris. » Texte original en anglais : "Tamoxifen is an estrogen agonist/antagonist. Tamoxifen competes with estrogen for binding to the estrogen receptor, which can result in a decrease in estrogen receptor signaling-dependent growth in breast tissue. Tamoxifen has demonstrated antitumor activity against human breast cancer cell lines xenografted in mice." ([DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02), version du 2021-11-29 ; consulté le 2026-11-19). Sur la base des informations connues, le tamoxifène appartient à la classe des modulateurs sélectifs des récepteurs aux estrogènes (SERM). Il antagonise de façon compétitive le récepteur aux estrogènes (RE) dans le tissu mammaire. Son efficacité dans le cancer du sein RE-positif est établie.
 
 Le carcinome canalaire in situ (CCIS) RE-positif est un stade précoce de la même maladie. Le blocage de la signalisation du RE réduit les récidives ipsilatérales et controlatérales. Ce bénéfice est soutenu par l'essai NSABP B-24 et par l'essai randomisé contre placebo TAM-01 (tamoxifène à faible dose, 5 mg/jour pendant 3 ans). Le suivi à 10 ans de TAM-01 est publié, avec une analyse poolée de trois études (NCT06982313).
 
@@ -165,13 +165,14 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 14 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Les 14 AMM françaises sont toutes annulées, ce qui constitue un frein réglementaire important » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, éventuelles autres présentations disponibles) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Soltamox (tamoxifen citrate) prescribing information, Mayne Pharma](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6ff055-590c-41e6-9530-1fdf04cdbd02) |
 
 <!-- review:end log -->
 

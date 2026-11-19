@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **bronchite**, ma
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, natalizumab bloque l'intégrine alpha-4 et réduit la migration des leucocytes vers les tissus enflammés. Cet effet est à l'origine de son efficacité dans la maladie de Crohn et la sclérose en plaques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Natalizumab (traduction non officielle) : « Le natalizumab se lie à la sous-unité α4 des intégrines α4β1 et α4β7 exprimées à la surface de tous les leucocytes, à l'exception des neutrophiles, et inhibe l'adhésion des leucocytes médiée par α4 à leur(s) contre-récepteur(s). Les récepteurs de la famille α4 des intégrines comprennent la molécule d'adhésion cellulaire vasculaire 1 (VCAM-1), exprimée sur l'endothélium vasculaire activé, et la molécule d'adhésion cellulaire de l'adressine mucosale 1 (MAdCAM-1), présente sur les cellules endothéliales vasculaires du tractus gastro-intestinal. » Texte original en anglais : "Natalizumab binds to the α4-subunit of α4β1 and α4β7 integrins expressed on the surface of all leukocytes except neutrophils, and inhibits the α4-mediated adhesion of leukocytes to their counter-receptor(s). The receptors for the α4 family of integrins include vascular cell adhesion molecule-1 (VCAM-1), which is expressed on activated vascular endothelium, and mucosal addressin cell adhesion molecule-1 (MAdCAM-1) present on vascular endothelial cells of the gastrointestinal tract." ([DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962), version du 2026-10-09 ; consulté le 2026-11-19). D'après les connaissances générales, natalizumab bloque l'intégrine alpha-4 et réduit la migration des leucocytes vers les tissus enflammés. Cet effet est à l'origine de son efficacité dans la maladie de Crohn et la sclérose en plaques.
 
 En théorie, ce blocage pourrait atténuer le recrutement de cellules inflammatoires dans les voies respiratoires. Toutefois, cette hypothèse reste purement spéculative : natalizumab est aussi immunosuppresseur et pourrait augmenter le risque d'infections respiratoires. Un bénéfice dans la bronchite est donc peu plausible sans données supplémentaires. Le score TxGNN est très élevé, mais il s'agit uniquement d'une prédiction computationnelle.
 
@@ -126,12 +126,13 @@ Le texte de l'indication approuvée n'est pas renseigné.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es trois AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tysabri (natalizumab) prescribing information, Biogen Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c5fdde91-1989-4dd2-9129-4f3323ea2962) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ La prédiction repose donc uniquement sur le modèle (les articles retrouvés co
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, la prégabaline se fixe sur la sous-unité alpha-2-delta des canaux calciques voltage-dépendants et réduit la libération de neurotransmetteurs excitateurs. Cela peut atténuer les composantes neuropathiques et la sensibilisation centrale des douleurs musculo-squelettiques chroniques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pregabalin (traduction non officielle) : « La prégabaline se lie avec une forte affinité au site alpha 2 ‑delta (une sous-unité auxiliaire des canaux calciques voltage‑dépendants) dans les tissus du système nerveux central. Bien que le mécanisme d'action de la prégabaline n'ait pas été entièrement élucidé, les résultats obtenus chez des souris génétiquement modifiées et avec des composés structurellement apparentés à la prégabaline (tels que la gabapentine) suggèrent que la liaison à la sous-unité alpha 2 ‑delta pourrait être impliquée dans les effets anti‑nociceptifs et antiépileptiques de la prégabaline chez l'animal. » Texte original en anglais : "Pregabalin binds with high affinity to the alpha 2 ‑delta site (an auxiliary subunit of voltage‑gated calcium channels) in central nervous system tissues. Although the mechanism of action of pregabalin has not been fully elucidated, results with genetically modified mice and with compounds structurally related to pregabalin (such as gabapentin) suggest that binding to the alpha 2 ‑delta subunit may be involved in pregabalin’s anti‑nociceptive and antiseizure effects in animals." ([DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd), version du 2026-03-12 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, la prégabaline se fixe sur la sous-unité alpha-2-delta des canaux calciques voltage-dépendants et réduit la libération de neurotransmetteurs excitateurs. Cela peut atténuer les composantes neuropathiques et la sensibilisation centrale des douleurs musculo-squelettiques chroniques.
 
 Ses indications d'origine (fibromyalgie, syndrome myofascial, névralgie post-zostérienne) sont des douleurs chroniques où cette modulation joue un rôle. La tendinite est une douleur musculo-squelettique ; un bénéfice symptomatique est donc concevable.
 
@@ -152,11 +152,12 @@ La migraine est l'indication prédite la mieux étayée (L2). Elle mérite une �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lyrica Cr (pregabalin) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280bbd8-2af2-444a-bd96-e409337ca6dd) |
 
 <!-- review:end log -->
 

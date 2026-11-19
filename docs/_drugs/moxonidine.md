@@ -55,7 +55,7 @@ Le modèle TxGNN (apprentissage profond) prédit qu'il pourrait être efficace p
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, moxonidine est un agoniste central des récepteurs imidazoliniques I1 et alpha-2 adrénergiques (les données compilées confirment une liaison aux récepteurs α2A, α2B et α2C). Il réduit le tonus sympathique et son efficacité dans l'hypertension est établie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Moxonidine est (traduction non officielle) : « Agoniste de la nischarine » Texte original en anglais : "Nischarin agonist" ([ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, moxonidine est un agoniste central des récepteurs imidazoliniques I1 et alpha-2 adrénergiques (les données compilées confirment une liaison aux récepteurs α2A, α2B et α2C). Il réduit le tonus sympathique et son efficacité dans l'hypertension est établie.
 
 **Pour l'hypotrichose simple du cuir chevelu, la prédiction ne paraît pas raisonnable.** Cette maladie est un trouble génétique du follicule pileux (variants de CDSN, APCDD1, RPL21, par exemple) et aucun lien pharmacologique avec une action sympatholytique n'est établi. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -122,12 +122,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice : le
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | AMM : les 10 sont actives, non annulées | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL19236 (moxonidine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL19236) |
 
 <!-- review:end log -->
 

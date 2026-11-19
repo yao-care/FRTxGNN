@@ -61,7 +61,7 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour l'**acrodermatit
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la tétracaïne est un anesthésique local de type ester, qui agit classiquement par blocage des canaux sodiques et inhibe ainsi la conduction nerveuse.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tetracaine (traduction non officielle) : « La tétracaïne bloque les canaux ioniques sodiques nécessaires à l'initiation et à la conduction des influx nerveux, produisant ainsi une anesthésie locale. » Texte original en anglais : "Tetracaine blocks sodium ion channels required for the initiation and conduction of neuronal impulses thereby affecting local anesthesia." ([DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a), version du 2026-08-28 ; consulté le 2026-11-19). Sur la base des informations connues, la tétracaïne est un anesthésique local de type ester, qui agit classiquement par blocage des canaux sodiques et inhibe ainsi la conduction nerveuse.
 
 L'acrodermatite chronique atrophiante est une manifestation cutanée tardive de l'infection par *Borrelia* (maladie de Lyme), traitée par antibiotiques. La tétracaïne n'a aucune activité antimicrobienne ni anti-atrophique. **Aucun mécanisme plausible n'a donc été identifié.** Le score élevé (0,9993) provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -140,12 +140,13 @@ Veuillez consulter la notice pour les informations de sécurité officielles : l
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM aujourd'hui annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « a seule AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: tetracaine hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=01fba5f8-a60a-444c-9abd-299540b8815a) |
 
 <!-- review:end log -->
 

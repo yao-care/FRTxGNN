@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de mic
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'azathioprine est un immunosuppresseur antimétabolite purique, dont l'action repose sur la modulation de la prolifération des cellules immunitaires.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Azathioprine est (traduction non officielle) : « Inhibiteur de l'amidophosphoribosyltransférase ; inhibiteur de l'ADN » Texte original en anglais : "Amidophosphoribosyltransferase inhibitor; DNA inhibitor" ([ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'azathioprine est un immunosuppresseur antimétabolite purique, dont l'action repose sur la modulation de la prolifération des cellules immunitaires.
 
 Pour l'affection prédite, aucun lien mécanistique plausible n'a été identifié. Il s'agit d'un syndrome rare de malformation du développement, touchant le squelette et l'œil, sans composante immunitaire connue. L'action immunosuppressive de l'azathioprine n'a donc pas de pertinence évidente pour sa physiopathologie.
 
@@ -101,6 +101,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Des données sur le mécanisme d'action de l'azathioprine et une justification biologique reliant le médicament à cette affection
 - Des études précliniques ou des cas cliniques documentés dans cette pathologie
 - Les mises en garde et contre-indications de la notice de l'ANSM pour une évaluation de sécurité
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

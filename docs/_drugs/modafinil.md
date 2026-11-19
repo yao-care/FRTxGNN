@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement utile pour l'**insomnie (insom
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le modafinil est un agent éveillant dont l'action passerait par les voies dopaminergiques et d'autres voies de l'éveil, et il est pharmacologiquement distinct des stimulants classiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Modafinil (traduction non officielle) : « Le ou les mécanismes par lesquels le modafinil favorise l'éveil sont inconnus. Le modafinil exerce des effets éveillants similaires à ceux des agents sympathomimétiques, notamment l'amphétamine et le méthylphénidate, bien que son profil pharmacologique ne soit pas identique à celui des amines sympathomimétiques. » Texte original en anglais : "The mechanism(s) through which modafinil promotes wakefulness is unknown. Modafinil has wake-promoting actions similar to sympathomimetic agents including amphetamine and methylphenidate, although the pharmacologic profile is not identical to that of the sympathomimetic amines." ([DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7), version du 2026-09-16 ; consulté le 2026-11-19). D'après les connaissances générales, le modafinil est un agent éveillant dont l'action passerait par les voies dopaminergiques et d'autres voies de l'éveil, et il est pharmacologiquement distinct des stimulants classiques.
 
 Le lien avec l'insomnie est indirect et même contre-intuitif : l'insomnie est une difficulté à initier ou maintenir le sommeil, alors que le modafinil favorise l'éveil. On pourrait s'attendre à ce qu'il aggrave l'endormissement ou le maintien du sommeil plutôt qu'à l'améliorer. La pertinence plausible se limite aux troubles de l'éveil et du sommeil associés à d'autres affections (maladie de Parkinson, personnes âgées, travail posté).
 
@@ -112,6 +112,18 @@ La prédiction repose uniquement sur le modèle (niveau L5) : aucune étude publ
 - Disposer des données détaillées sur le mécanisme d'action
 - Récupérer les mises en garde et contre-indications de la notice ANSM
 - Évaluer le risque de détérioration du sommeil nocturne chez les patients concernés
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Provigil (modafinil) prescribing information, Apotex Corp](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0391f182-1958-9fef-a944-53b229ce99e7) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

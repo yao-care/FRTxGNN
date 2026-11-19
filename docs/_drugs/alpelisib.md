@@ -55,7 +55,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**hypertension
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. Sur la base des connaissances générales, l'alpélisib est un inhibiteur de la sous-unité alpha de la PI3K, et la voie PI3K/AKT/mTOR est impliquée dans la prolifération des cellules musculaires lisses et endothéliales ainsi que dans le remodelage vasculaire pulmonaire. Cela rend l'hypothèse mécanistique plausible.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alpelisib (traduction non officielle) : « L'alpélisib est un inhibiteur de la phosphatidylinositol-3-kinase (PI3K) doté d'une activité inhibitrice s'exerçant principalement contre la PI3Kα. Les mutations avec gain de fonction du gène codant la sous-unité catalytique α de la PI3K (PIK3CA) entraînent l'activation de la PI3Kα et de la signalisation Akt, la transformation cellulaire et la formation de tumeurs dans des modèles in vitro et in vivo. » Texte original en anglais : "Alpelisib is an inhibitor of phosphatidylinositol-3-kinase (PI3K) with inhibitory activity predominantly against PI3Kα. Gain-of-function mutations in the gene encoding the catalytic α-subunit of PI3K (PIK3CA) lead to activation of PI3Kα and Akt-signaling, cellular transformation and the generation of tumors in in vitro and in vivo models." ([DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b), version du 2026-10-28 ; consulté le 2026-11-19). Sur la base des connaissances générales, l'alpélisib est un inhibiteur de la sous-unité alpha de la PI3K, et la voie PI3K/AKT/mTOR est impliquée dans la prolifération des cellules musculaires lisses et endothéliales ainsi que dans le remodelage vasculaire pulmonaire. Cela rend l'hypothèse mécanistique plausible.
 
 Ce lien reste toutefois **purement hypothétique** : aucune donnée fournie ne le confirme. Le score TxGNN est très élevé (0,9903), mais il s'agit d'une prédiction de modèle uniquement, sans étude réelle à l'appui.
 
@@ -109,6 +109,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Études précliniques de l'inhibition de la PI3Kα dans des modèles d'hypertension pulmonaire
 - Analyse du risque de pneumopathie interstitielle/pneumonite et de sa compatibilité avec une population atteinte d'hypertension pulmonaire
 - Clarification des voies d'administration et de la compatibilité avec la nouvelle indication
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Piqray (alpelisib) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b20b4e18-7a4b-4500-a08f-06c6dab0ee5b) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

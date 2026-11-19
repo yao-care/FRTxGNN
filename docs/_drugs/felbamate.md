@@ -57,7 +57,7 @@ Une première prédiction, le **néoplasme du nerf trijumeau** (score de 0,9962)
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le felbamate est un antiépileptique dont l'action est classiquement attribuée à l'antagonisme du site glycine du récepteur NMDA et à la potentialisation GABAergique, avec d'éventuels effets sur les canaux sodiques. Ces éléments restent à confirmer par une source dédiée.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Felbamate (traduction non officielle) : « Le mécanisme par lequel le felbamate exerce son activité anticonvulsivante est inconnu, mais dans les systèmes d'essai chez l'animal conçus pour détecter une activité anticonvulsivante, le felbamate présente des propriétés communes avec d'autres anticonvulsivants commercialisés. Le felbamate est efficace chez la souris et le rat dans le test de l'électrochoc maximal, le test de convulsions induites par le pentylènetétrazole par voie sous-cutanée et le test de convulsions induites par la picrotoxine par voie sous-cutanée. » Texte original en anglais : "The mechanism by which felbamate exerts its anticonvulsant activity is unknown, but in animal test systems designed to detect anticonvulsant activity, felbamate has properties in common with other marketed anticonvulsants. Felbamate is effective in mice and rats in the maximal electroshock test, the subcutaneous pentylenetetrazol seizure test, and the subcutaneous picrotoxin seizure test." ([DailyMed: Felbatol (felbamate) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f522701-397a-11de-8a39-0800200c9a66), version du 2025-08-15 ; consulté le 2026-11-19). Sur la base des connaissances générales, le felbamate est un antiépileptique dont l'action est classiquement attribuée à l'antagonisme du site glycine du récepteur NMDA et à la potentialisation GABAergique, avec d'éventuels effets sur les canaux sodiques. Ces éléments restent à confirmer par une source dédiée.
 
 La névralgie du trijumeau est une douleur faciale paroxystique, unilatérale et intense, liée à une hyperexcitabilité neuronale. Son profil temporel proche de celui des crises a conduit à utiliser des anticonvulsivants : la carbamazépine est le traitement de référence, et le baclofène, la phénytoïne et le valproate sont également efficaces. Un lien mécanistique plausible existe donc entre l'indication d'origine (épilepsie) et la nouvelle indication.
 
@@ -120,12 +120,13 @@ Les mises en garde et contre-indications de la notice française n'ont pas pu ê
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et toutes ses AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Felbatol (felbamate) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2f522701-397a-11de-8a39-0800200c9a66) |
 
 <!-- review:end log -->
 

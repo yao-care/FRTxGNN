@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la spironolactone est un antagoniste des récepteurs minéralocorticoïdes, dont l'efficacité dans l'hypertension et l'insuffisance cardiaque est établie. Elle possède aussi une activité anti-androgénique (blocage du récepteur des androgènes, réduction de la synthèse androgénique), exploitée en pratique clinique dans l'alopécie féminine de type androgénique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Spironolactone (traduction non officielle) : « La spironolactone et ses métabolites actifs sont des antagonistes pharmacologiques spécifiques de l’aldostérone, agissant principalement par liaison compétitive aux récepteurs au niveau du site d’échange sodium-potassium aldostérone-dépendant dans le tubule contourné distal du rein. La spironolactone entraîne une augmentation de l’excrétion de sodium et d’eau, tandis que le potassium est retenu. » Texte original en anglais : "Spironolactone and its active metabolites are specific pharmacologic antagonists of aldosterone, acting primarily through competitive binding of receptors at the aldosterone-dependent sodium-potassium exchange site in the distal convoluted renal tubule. Spironolactone causes increased amounts of sodium and water to be excreted, while potassium is retained." ([DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc), version du 2025-11-28 ; consulté le 2026-11-19). Sur la base des informations connues, la spironolactone est un antagoniste des récepteurs minéralocorticoïdes, dont l'efficacité dans l'hypertension et l'insuffisance cardiaque est établie. Elle possède aussi une activité anti-androgénique (blocage du récepteur des androgènes, réduction de la synthèse androgénique), exploitée en pratique clinique dans l'alopécie féminine de type androgénique.
 
 Cependant, l'hypotrichose simple est un trouble héréditaire de la pousse des cheveux, lié à des variants de gènes tels que CDSN, APCDD1 et RPL21, et non à une cause androgénique. Le raisonnement anti-androgénique ne s'applique donc pas clairement. Le score élevé du modèle TxGNN (apprentissage profond) (0,9926) peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -116,11 +116,12 @@ Les mises en garde et contre-indications issues de la notice officielle n'ont pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aldactone (spironolactone) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fed2822-3a03-4b64-9857-c682fcd462bc) |
 
 <!-- review:end log -->
 

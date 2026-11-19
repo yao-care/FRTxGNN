@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré et une seule publication (un rapport de d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances générales, la doxycycline est une tétracycline active contre de nombreuses bactéries, dont *Chlamydia trachomatis*. Les tétracyclines ont aussi des effets anti-inflammatoires, notamment sur la surface oculaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Doxycycline (traduction non officielle) : « La doxycycline inhibe la synthèse protéique bactérienne en se liant à la sous-unité ribosomique 30S. La doxycycline possède une activité bactériostatique contre un large éventail de bactéries à Gram positif et à Gram négatif. » Texte original en anglais : "Doxycycline inhibits bacterial protein synthesis by binding to the 30S ribosomal subunit. Doxycycline has bacteriostatic activity against a broad range of Gram-positive and Gram-negative bacteria." ([DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8), version du 2026-07-09 ; consulté le 2026-11-19). D'après les connaissances générales, la doxycycline est une tétracycline active contre de nombreuses bactéries, dont *Chlamydia trachomatis*. Les tétracyclines ont aussi des effets anti-inflammatoires, notamment sur la surface oculaire.
 
 L'unique publication disponible (Cornea, 1992) décrit deux cas de kératite épithéliale ponctuée persistante après la guérison d'une conjonctivite folliculaire à chlamydia. Les deux patients avaient d'abord reçu de la tétracycline ou de la doxycycline par voie orale, et les follicules avaient disparu. Les lésions cornéennes sont pourtant apparues ensuite, de façon récurrente. Ce rapport ne montre donc pas que la doxycycline traite la kératoconjonctivite épithéliale ponctuée.
 
@@ -102,6 +102,18 @@ Aucune étude ne teste la doxycycline dans la kératoconjonctivite épithéliale
 - Des données détaillées sur le mécanisme d'action.
 - Les mises en garde et contre-indications issues de la notice officielle.
 - Une évaluation de la voie d'administration (la seule forme commercialisée est injectable) pour un usage oculaire.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Doxycyclate Hyclate (doxycycline hyclate) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4dc319c1-b7ef-40e4-9e66-fb24cfdefea8) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

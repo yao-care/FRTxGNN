@@ -60,7 +60,7 @@ Aucun essai clinique n'est enregistré et seules **2 publications** (deux cas cl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations pharmacologiques connues, la mométasone (sous forme de furoate de mométasone) agit sur le récepteur des glucocorticoïdes (NR3C1). Elle exerce un effet anti-inflammatoire et immunosuppresseur : réduction de l'activation des lymphocytes T, diminution de la production de cytokines et induction de l'apoptose lymphocytaire.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Mometasone (traduction non officielle) : « Le furoate de mométasone est un corticostéroïde présentant une puissante activité anti-inflammatoire. Le mécanisme précis de l'action des corticostéroïdes sur l'asthme n'est pas connu. L'inflammation est une composante importante de la pathogenèse de l'asthme. » Texte original en anglais : "Mometasone furoate is a corticosteroid demonstrating potent anti-inflammatory activity. The precise mechanism of corticosteroid action on asthma is not known. Inflammation is an important component in the pathogenesis of asthma." ([DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac), version du 2026-07-07 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, la mométasone (sous forme de furoate de mométasone) agit sur le récepteur des glucocorticoïdes (NR3C1). Elle exerce un effet anti-inflammatoire et immunosuppresseur : réduction de l'activation des lymphocytes T, diminution de la production de cytokines et induction de l'apoptose lymphocytaire.
 
 Ses indications d'origine sont inflammatoires et allergiques (voies respiratoires, peau). Le lymphome cutané primitif à cellules T, dont le principal représentant est le mycosis fongoïde, est une prolifération lymphocytaire T localisée à la peau. Les corticoïdes topiques constituent une option dermatologique établie dans les stades précoces de cette maladie. Le mécanisme est donc biologiquement plausible.
 
@@ -131,11 +131,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 17 AMM compilées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
 
 <!-- review:end log -->
 

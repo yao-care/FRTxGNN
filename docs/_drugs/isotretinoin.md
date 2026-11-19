@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertension r
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le seul élément de soutien est le score élevé du modèle (0,9901). Aucune voie biologique plausible reliant l'isotrétinoïne au contrôle de la pression artérielle dans l'hypertension rénovasculaire n'a été établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Isotretinoin (traduction non officielle) : « Le mécanisme d'action exact de Zenatane dans le traitement de l'acné nodulaire sévère et rebelle chez les patients non enceintes âgés de 12 ans et plus présentant de multiples nodules inflammatoires d'un diamètre de 5 mm ou plus, ne répondant pas au traitement conventionnel, y compris aux antibiotiques systémiques, est inconnu. L'isotrétinoïne, un rétinoïde, inhibe la fonction des glandes sébacées et la kératinisation. » Texte original en anglais : "The exact mechanism of action of Zenatane in the treatment of severe recalcitrant nodular acne in nonpregnant patients 12 years of age and older with multiple inflammatory nodules with a diameter of 5 mm or greater who are unresponsive to conventional therapy, including systemic antibiotics is unknown. Isotretinoin, a retinoid, inhibits sebaceous gland function and keratinization." ([DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee), version du 2026-09-20 ; consulté le 2026-11-19). Le seul élément de soutien est le score élevé du modèle (0,9901). Aucune voie biologique plausible reliant l'isotrétinoïne au contrôle de la pression artérielle dans l'hypertension rénovasculaire n'a été établie.
 
 La signalisation des rétinoïdes a été explorée dans des modèles expérimentaux de régulation de la rénine et de remodelage vasculaire, mais cette piste reste spéculative et sans données cliniques. De plus, l'indication d'origine retenue par le graphe (hypertension) ne correspond pas à l'usage connu du médicament en France, qui est lié à l'acné sévère sous forme de capsules molles. Les AMM compilées ne contiennent d'ailleurs aucun texte d'indication.
 
@@ -127,13 +127,14 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 17 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Une formulation topique (ROACCUTANE 0,05 %, gel pour application locale, SERP, AMM 66296030) figure également parmi les AMM annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et l'intérêt réglementaire, vu l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zenatane (isotretinoin) prescribing information, Dr. Reddy's Laboratories Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=27b3cf26-f22e-5b70-1c24-009933b7c6ee) |
 
 <!-- review:end log -->
 

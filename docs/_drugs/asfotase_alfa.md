@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour le **trouble de la ph
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'asfotase alfa est une enzyme recombinante qui remplace la TNSALP et élimine des substrats extracellulaires tels que le pyrophosphate inorganique et le phosphate de pyridoxal-5'.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Asfotase Alfa (traduction non officielle) : « L'HPP est causée par un déficit de l'activité enzymatique de la TNSALP, qui entraîne une élévation de plusieurs substrats de la TNSALP, notamment le pyrophosphate inorganique (PPi). La TNSALP est une métallo-enzyme qui catalyse l'hydrolyse des phosphomonoesters avec libération de phosphate inorganique et d'alcool. » Texte original en anglais : "HPP is caused by a deficiency in TNSALP enzyme activity, which leads to elevations in several TNSALP substrates, including inorganic pyrophosphate (PPi). TNSALP is a metallo-enzyme that catalyzes the hydrolysis of phosphomonoesters with release of inorganic phosphate and alcohol." ([DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031), version du 2025-12-12 ; consulté le 2026-11-19). D'après les connaissances générales, l'asfotase alfa est une enzyme recombinante qui remplace la TNSALP et élimine des substrats extracellulaires tels que le pyrophosphate inorganique et le phosphate de pyridoxal-5'.
 
 Aucun lien mécanistique n'est établi avec la nouvelle indication. Les troubles de la phosphorylation oxydative liés à l'ADN nucléaire sont des défauts bioénergétiques intracellulaires, et une enzyme extracellulaire n'a pas de voie évidente pour les corriger. Le score élevé (0,9995) reflète uniquement une prédiction fondée sur le modèle, et non une preuve biologique ou clinique.
 
@@ -92,6 +92,19 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Données précliniques démontrant un effet sur la fonction mitochondriale
 - Toute étude (cas, observationnelle ou interventionnelle) portant directement sur cette maladie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Strensiq (asfotase alfa) prescribing information, Alexion Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3387574f-5eaa-4501-a71d-4cbfbd563031) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -60,7 +60,7 @@ Une seconde prédiction, l'**anxiété**, est également signalée, avec 4 publi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, iohexol est un produit de contraste iodé non ionique, pharmacologiquement inerte et non métabolisé. Son rôle est d'opacifier les structures lors d'examens d'imagerie, et non d'agir sur une cible thérapeutique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Iohexol (traduction non officielle) : « Les atomes d'iode de l'iohexol assurent une atténuation des rayons X directement proportionnelle à la concentration d'iohexol. Comme la concentration varie au cours du temps, l'iohexol fournit un contraste d'image dépendant du temps qui peut aider à visualiser les structures du corps. » Texte original en anglais : "The iodine atoms in iohexol provide attenuation of X-rays in direct proportion to the concentration of iohexol. Since concentration changes over time, iohexol provides time-dependent image contrast which may assist in visualizing body structures." ([DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f), version du 2026-04-28 ; consulté le 2026-11-19). Sur la base des informations connues, iohexol est un produit de contraste iodé non ionique, pharmacologiquement inerte et non métabolisé. Son rôle est d'opacifier les structures lors d'examens d'imagerie, et non d'agir sur une cible thérapeutique.
 
 **Il n'existe pas de lien mécanistique identifié** avec l'insomnie. Iohexol n'a pas d'activité connue sur les cibles de régulation du sommeil (récepteurs GABA, orexine, histamine, mélatonine). Le score très élevé (0,9987) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, comme le grand nombre de liens d'interactions médicamenteuses (100), et non une preuve biologique.
 
@@ -147,12 +147,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les quatre AMM sont détenues par GE Healthcare et sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es quatre AMM sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Omnipaque (iohexol) prescribing information, Medical Purchasing Solutions, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=508c42eb-f5e5-44f1-e063-6294a90a4d1f) |
 
 <!-- review:end log -->
 

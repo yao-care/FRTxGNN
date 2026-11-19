@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de S
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la laronidase est une alpha-L-iduronidase recombinante qui remplace l'enzyme déficiente dans la MPS I, en dégradant les glycosaminoglycanes (héparane sulfate et dermatane sulfate).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Laronidase (traduction non officielle) : « Les maladies de surcharge en mucopolysaccharides sont causées par le déficit en enzymes lysosomales spécifiques nécessaires au catabolisme des glycosaminoglycanes (GAG). La mucopolysaccharidose I (MPS I) se caractérise par un déficit en α-L-iduronidase, une hydrolase lysosomale qui catalyse l'hydrolyse des résidus terminaux d'acide α-L-iduronique du dermatane sulfate et de l'héparane sulfate. […] La captation d'ALDURAZYME par les cellules dans les lysosomes est très probablement médiée par la liaison des chaînes oligosaccharidiques à terminaison mannose-6-phosphate de la laronidase à des récepteurs spécifiques du mannose-6-phosphate. » Texte original en anglais : "Mucopolysaccharide storage disorders are caused by the deficiency of specific lysosomal enzymes required for the catabolism of glycosaminoglycans (GAG). Mucopolysaccharidosis I (MPS I) is characterized by the deficiency of α-L-iduronidase, a lysosomal hydrolase which catalyzes the hydrolysis of terminal α-L-iduronic acid residues of dermatan sulfate and heparan sulfate. […] ALDURAZYME uptake by cells into lysosomes is most likely mediated by the mannose-6-phosphate-terminated oligosaccharide chains of laronidase binding to specific mannose-6-phosphate receptors." ([DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60), version du 2026-09-11 ; consulté le 2026-11-19). D'après les connaissances générales, la laronidase est une alpha-L-iduronidase recombinante qui remplace l'enzyme déficiente dans la MPS I, en dégradant les glycosaminoglycanes (héparane sulfate et dermatane sulfate).
 
 Le syndrome de Sanfilippo (MPS III) est dû au déficit d'une des enzymes de dégradation de l'héparane sulfate (sulfamidase, N-acétyl-alpha-glucosaminidase, acétyl-CoA:alpha-glucosaminide acétyltransférase ou N-acétylglucosamine-6-sulfatase). La laronidase agit sur une étape située en amont (retrait des résidus d'acide iduronique) : elle ne remplace donc pas l'enzyme déficiente dans la MPS III. Les deux maladies partagent une accumulation d'héparane sulfate, ce qui n'offre qu'une justification faible et indirecte.
 
@@ -111,6 +111,18 @@ Aucune étude ne porte directement sur le syndrome de Sanfilippo, la laronidase 
 - Stratégie d'administration permettant d'atteindre le système nerveux central
 
 ---
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aldurazyme (laronidase) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a80ac249-cae4-41f3-88bb-344088b20e60) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

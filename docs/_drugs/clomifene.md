@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble du dév
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le clomifène se lie au récepteur alpha des œstrogènes (ESR1) et bloque le rétrocontrôle négatif exercé par les œstrogènes sur l'hypothalamus. Cela augmente la sécrétion des gonadotrophines (LH et FSH).
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clomifene (traduction non officielle) : « Le citrate de clomifène est capable d'interagir avec les tissus contenant des récepteurs des œstrogènes, notamment l'hypothalamus, l'hypophyse, l'ovaire, l'endomètre, le vagin et le col de l'utérus. Il peut entrer en compétition avec les œstrogènes pour les sites de liaison des récepteurs des œstrogènes et peut retarder le renouvellement des récepteurs intracellulaires des œstrogènes. » Texte original en anglais : "Clomiphene citrate is capable of interacting with estrogen-receptor-containing tissues, including the hypothalamus, pituitary, ovary, endometrium, vagina, and cervix. It may compete with estrogen for estrogen-receptor-binding sites and may delay replenishment of intracellular estrogen receptors." ([DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e), version du 2025-10-07 ; consulté le 2026-11-19). D'après les informations connues, le clomifène se lie au récepteur alpha des œstrogènes (ESR1) et bloque le rétrocontrôle négatif exercé par les œstrogènes sur l'hypothalamus. Cela augmente la sécrétion des gonadotrophines (LH et FSH).
 
 Dans un défaut de stéréoïdogenèse testiculaire, le blocage enzymatique se situe dans le testicule lui-même, qui ne parvient pas à synthétiser les androgènes. Une stimulation gonadotrope accrue a donc peu de chances de corriger ce blocage. Le score élevé reflète une proximité dans le modèle plutôt qu'un fondement biologique démontré.
 
@@ -99,6 +99,18 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publi
 - Mises en garde et contre-indications issues de la notice ANSM
 - Revue de la littérature et recherche d'études précliniques ou cliniques portant spécifiquement sur cette maladie
 - Avis d'experts en endocrinologie pédiatrique et en génétique pour juger de la plausibilité biologique
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Milophene (clomiphene citrate) prescribing information, Burel Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b56131e5-efc7-43af-ac13-4a2ae918df4e) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

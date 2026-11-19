@@ -56,7 +56,7 @@ Il s'agit en pratique d'une indication déjà établie ou très voisine, et non 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des informations connues, pegaspargase est une L-asparaginase d'*Escherichia coli* conjuguée au polyéthylène glycol. Elle dégrade l'asparagine circulante. Les lymphoblastes expriment peu d'asparagine synthétase et dépendent de l'asparagine extérieure : sa déplétion bloque la synthèse protéique et induit l'apoptose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pegaspargase (traduction non officielle) : « La L-asparaginase est une enzyme qui catalyse la conversion de l'acide aminé L-asparagine en acide aspartique et en ammoniac. On pense que l'effet pharmacologique d'ONCASPAR repose sur la destruction des cellules leucémiques due à la déplétion de l'asparagine plasmatique. » Texte original en anglais : "L-asparaginase is an enzyme that catalyzes the conversion of the amino acid L-asparagine into aspartic acid and ammonia. The pharmacological effect of ONCASPAR is thought to be based on the killing of leukemic cells due to depletion of plasma asparagine." ([DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce), version du 2024-10-07 ; consulté le 2026-11-19). Sur la base des informations connues, pegaspargase est une L-asparaginase d'*Escherichia coli* conjuguée au polyéthylène glycol. Elle dégrade l'asparagine circulante. Les lymphoblastes expriment peu d'asparagine synthétase et dépendent de l'asparagine extérieure : sa déplétion bloque la synthèse protéique et induit l'apoptose.
 
 C'est le même mécanisme que celui de l'indication d'origine (LAL). Le lymphome et la leucémie lymphoblastiques à précurseurs sont deux expressions d'une même maladie. Les protocoles de LAL sont d'ailleurs appliqués au lymphome lymphoblastique.
 
@@ -149,12 +149,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est annulée, ce qui limite l'accès commercial local » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarification du statut réglementaire en France et de la disponibilité du produit après l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Oncaspar (pegaspargase) prescribing information, Servier Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac7b6a6f-6ddb-48c6-8088-d8a8e3fea6ce) |
 
 <!-- review:end log -->
 

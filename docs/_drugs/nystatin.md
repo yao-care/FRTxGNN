@@ -56,7 +56,7 @@ Cette prédiction repose sur **1 essai clinique** enregistré, qui ne concerne n
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations générales connues, la nystatine fait partie des antifongiques polyènes, qui agissent en se liant à l'ergostérol de la membrane des champignons. Son activité est donc dirigée contre les infections fungiques, en particulier à *Candida*.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nystatin (traduction non officielle) : « La nystatine agit en se liant aux stérols de la membrane cellulaire des espèces de Candida sensibles, ce qui entraîne une modification de la perméabilité membranaire permettant la fuite des composants intracellulaires. La nystatine ne présente aucune activité notable contre les bactéries, les protozoaires ou les virus. » Texte original en anglais : "Nystatin acts by binding to sterols in the cell membrane of susceptible Candida species with a resultant change in membrane permeability allowing leakage of intracellular components. Nystatin exhibits no appreciable activity against bacteria, protozoa, or viruses." ([DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6), version du 2026-02-06 ; consulté le 2026-11-19). D'après les informations générales connues, la nystatine fait partie des antifongiques polyènes, qui agissent en se liant à l'ergostérol de la membrane des champignons. Son activité est donc dirigée contre les infections fungiques, en particulier à *Candida*.
 
 Les données compilées pour ce rapport ne montrent aucun lien mécanistique plausible entre cette activité antifongique et une maladie de la région orbitaire. Une infection fungique de l'orbite reste une hypothèse théorique, mais aucune donnée ne la soutient. Le seul essai associé à cette prédiction porte sur un autre médicament (ASP7317) dans une autre maladie, l'atrophie géographique de la dégénérescence maculaire liée à l'âge, qui est une atteinte rétinienne et non orbitaire. L'association semble donc fortuite, et le score élevé du modèle ne s'appuie sur aucune preuve clinique.
 
@@ -100,6 +100,18 @@ La prédiction repose uniquement sur le modèle (niveau L5). Aucune étude ne po
 - Des études ou observations cliniques portant directement sur la nystatine dans une maladie de la région orbitaire (par exemple une infection fungique documentée de l'orbite)
 - Les mises en garde et contre-indications de la notice, pour pouvoir engager une évaluation de sécurité
 - Une classification de la gravité des interactions médicamenteuses recensées
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nystatin Oral Suspension (nystatin) prescribing information, Xttrium Laboratories, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4a670371-d373-1ba6-e063-6394a90a13b6) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

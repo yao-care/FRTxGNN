@@ -56,7 +56,7 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette pr�
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Le mécanisme connu de la cabergoline est l'agonisme des récepteurs dopaminergiques D2.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cabergoline (traduction non officielle) : « La cabergoline est un dérivé de l'ergot de seigle et un agoniste des récepteurs dopaminergiques présentant une forte affinité pour les récepteurs D2. Les résultats d'études in vitro montrent que la cabergoline exerce un effet inhibiteur direct sur la sécrétion de prolactine par les cellules lactotropes hypophysaires de rat. » Texte original en anglais : "Cabergoline is an ergot derivative and dopamine receptor agonist with a high affinity for D2 receptors. Results of in vitro studies demonstrate that cabergoline exerts a direct inhibitory effect on the secretion of prolactin by rat pituitary lactotrophs." ([DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb), version du 2026-06-30 ; consulté le 2026-11-19). Le mécanisme connu de la cabergoline est l'agonisme des récepteurs dopaminergiques D2.
 
 Dans l'état actuel des données, aucun lien mécanistique identifiable n'a été établi entre cet agonisme D2 et la physiopathologie de ce syndrome rare. Le score élevé du modèle ne s'appuie sur aucune observation clinique ou expérimentale documentée.
 
@@ -104,6 +104,19 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5). 
 - Des études précliniques ou des rapports de cas portant directement sur cette maladie.
 - Les mises en garde et contre-indications issues de la notice de l'ANSM, pour un criblage de sécurité.
 - Une évaluation de la pertinence clinique et de la faisabilité d'une étude, compte tenu de la rareté de la maladie.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: cabergoline prescribing information, Mylan Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e497366b-a124-4d7f-bd45-a883c392d4bb) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

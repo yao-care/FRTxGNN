@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **reflux duodéno
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'ésoméprazole fait partie de la classe des inhibiteurs de la pompe à protons (H+/K+ ATPase). Son efficacité a été établie dans les pathologies liées à l'acidité gastrique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Esomeprazole (traduction non officielle) : « L'ésoméprazole appartient à une classe de composés antisécrétoires, les benzimidazoles substitués, qui suppriment la sécrétion d'acide gastrique par inhibition spécifique du système enzymatique H+/K+ ATPase à la surface sécrétoire de la cellule pariétale gastrique. L'ésoméprazole est protoné et converti dans le compartiment acide de la cellule pariétale pour former l'inhibiteur actif, le sulfénamide achiral. » Texte original en anglais : "Esomeprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the H+/K+ ATPase enzyme system at the secretory surface of the gastric parietal cell. Esomeprazole is protonated and converted in the acidic compartment of the parietal cell forming the active inhibitor, the achiral sulphenamide." ([DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96), version du 2025-12-19 ; consulté le 2026-11-19). Sur la base des informations connues, l'ésoméprazole fait partie de la classe des inhibiteurs de la pompe à protons (H+/K+ ATPase). Son efficacité a été établie dans les pathologies liées à l'acidité gastrique.
 
 Dans le reflux duodénogastrique, le contenu duodénal (bile, sécrétions pancréatiques) remonte dans l'estomac. En réduisant l'acidité, l'ésoméprazole pourrait diminuer la composante acide du liquide refluant et soulager l'irritation de la muqueuse et les symptômes.
 
@@ -131,11 +131,12 @@ Elle correspond toutefois à un usage déjà établi du médicament et ne consti
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nexium (esomeprazole magnesium) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f4853677-1622-4037-688b-fdf533a11d96) |
 
 <!-- review:end log -->
 

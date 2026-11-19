@@ -60,7 +60,7 @@ Cette prédiction correspond surtout à un sous-type anatomique de l'indication 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la ténectéplase est un activateur tissulaire du plasminogène spécifique de la fibrine, qui dissout les thrombus dans l'artère coronaire occluse. Son efficacité dans l'infarctus du myocarde est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Tenecteplase (traduction non officielle) : « Le ténectéplase est une forme modifiée de l'activateur tissulaire du plasminogène (tPA) humain qui se lie à la fibrine et convertit le plasminogène en plasmine. En présence de fibrine, des études in vitro démontrent que la conversion du plasminogène en plasmine médiée par le ténectéplase est augmentée par rapport à sa conversion en l'absence de fibrine. » Texte original en anglais : "Tenecteplase is a modified form of human tissue plasminogen activator (tPA) that binds to fibrin and converts plasminogen to plasmin. In the presence of fibrin, in vitro studies demonstrate that tenecteplase-mediated conversion of plasminogen to plasmin is increased relative to its conversion in the absence of fibrin." ([DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84), version du 2025-12-15 ; consulté le 2026-11-19). Sur la base des informations connues, la ténectéplase est un activateur tissulaire du plasminogène spécifique de la fibrine, qui dissout les thrombus dans l'artère coronaire occluse. Son efficacité dans l'infarctus du myocarde est établie.
 
 L'infarctus postéro-inférieur est un sous-type anatomique de l'infarctus du myocarde. Le score TxGNN élevé reflète donc probablement ce chevauchement avec l'indication d'origine, plutôt qu'une découverte nouvelle. Mécanistiquement, la thrombolyse s'applique de la même façon quelle que soit la paroi touchée.
 
@@ -133,12 +133,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM, détenues par Boehringer Ingelheim International, sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tnkase (tenecteplase) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e647640d-c395-4b4b-a0be-1162f9c21d84) |
 
 <!-- review:end log -->
 

@@ -62,7 +62,7 @@ Toutefois, **aucun essai clinique** et **aucune publication** ne soutiennent act
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances pharmacologiques générales, le disopyramide fait partie des antiarythmiques de classe Ia : il bloque les canaux sodiques cardiaques et possède une activité anticholinergique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Disopyramide (traduction non officielle) : « Norpace (phosphate de disopyramide) est un médicament antiarythmique de classe 1 (c'est-à-dire similaire au procaïnamide et à la quinidine). Dans les études chez l'animal, Norpace diminue la vitesse de dépolarisation diastolique (phase 4) dans les cellules présentant un automatisme augmenté, diminue la vitesse de montée (phase 0) et augmente la durée du potentiel d'action des cellules cardiaques normales, diminue la disparité des périodes réfractaires entre le myocarde infarci et le myocarde adjacent normalement perfusé, et n'a aucun effet sur les récepteurs alpha- ou bêta-adrénergiques. » Texte original en anglais : "Norpace (disopyramide phosphate) is a Type 1 antiarrhythmic drug (i.e., similar to procainamide and quinidine). In animal studies Norpace decreases the rate of diastolic depolarization (phase 4) in cells with augmented automaticity, decreases the upstroke velocity (phase 0) and increases the action potential duration of normal cardiac cells, decreases the disparity in refractoriness between infarcted and adjacent normally perfused myocardium, and has no effect on alpha- or beta-adrenergic receptors." ([DailyMed: Norpace (disopyramide phosphate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2aa1642-d262-4520-bc6a-9fd3ad795677), version du 2026-08-24 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le disopyramide fait partie des antiarythmiques de classe Ia : il bloque les canaux sodiques cardiaques et possède une activité anticholinergique.
 
 **En réalité, aucun lien mécanistique établi ne relie le disopyramide au syndrome de Gilles de la Tourette.** Les tics impliquent un dysfonctionnement dopaminergique et des circuits cortico-striato-thalamo-corticaux, sans rapport avec la pharmacologie connue du médicament. Une hypothèse purement spéculative serait que son effet anticholinergique modifie la signalisation cholinergique striatale.
 
@@ -129,13 +129,14 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « dont les spécialités françaises sont aujourd'hui toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et le médicament n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Norpace (disopyramide phosphate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2aa1642-d262-4520-bc6a-9fd3ad795677) |
 
 <!-- review:end log -->
 

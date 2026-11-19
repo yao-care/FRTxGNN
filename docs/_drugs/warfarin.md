@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour le **déficit en cofa
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la warfarine est un antagoniste de la vitamine K : elle réduit la synthèse des facteurs de coagulation vitamine K-dépendants (II, VII, IX, X). Son efficacité dans la maladie thrombo-embolique veineuse est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Warfarin (traduction non officielle) : « La warfarine agit en inhibant la synthèse des facteurs de coagulation vitamine K-dépendants, qui comprennent les facteurs II, VII, IX et X, ainsi que les protéines anticoagulantes C et S. La vitamine K est un cofacteur essentiel à la synthèse post-ribosomique des facteurs de coagulation vitamine K-dépendants. La vitamine K favorise la biosynthèse des résidus d'acide γ-carboxyglutamique des protéines, qui sont essentiels à l'activité biologique. » Texte original en anglais : "Warfarin acts by inhibiting the synthesis of vitamin K-dependent clotting factors, which include Factors II, VII, IX, and X, and the anticoagulant proteins C and S. Vitamin K is an essential cofactor for the post ribosomal synthesis of the vitamin K-dependent clotting factors. Vitamin K promotes the biosynthesis of γ-carboxyglutamic acid residues in the proteins that are essential for biological activity." ([DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730), version du 2026-10-28 ; consulté le 2026-11-19). Sur la base des connaissances générales, la warfarine est un antagoniste de la vitamine K : elle réduit la synthèse des facteurs de coagulation vitamine K-dépendants (II, VII, IX, X). Son efficacité dans la maladie thrombo-embolique veineuse est établie.
 
 Le déficit en cofacteur II de l'héparine est une thrombophilie héréditaire qui altère l'inhibition de la thrombine. Comme l'indication originale (thrombose, embolie), il s'agit d'un état à risque thrombotique : une anticoagulation prolongée est donc mécanistiquement plausible comme prévention des récidives.
 
@@ -129,11 +129,12 @@ Pour le contexte de la thrombophilie, une revue récente à citer : [39233011](h
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Toutes les AMM françaises de la warfarine (Coumadine) sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Jantoven (warfarin sodium) prescribing information, Upsher-Smith Laboratories, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=19a69a72-ac5d-45d5-a94d-a5aaecbe4730) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Aucune étude ne porte directement sur cette maladie : **1 essai clinique** gén
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont actuellement pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la terbutaline appartient à la classe des agonistes bêta-2 adrénergiques : elle relâche la musculature lisse bronchique et soulage l'obstruction des voies aériennes.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Terbutaline (traduction non officielle) : « Des études pharmacologiques in vitro et in vivo ont démontré que la terbutaline exerce un effet préférentiel sur les récepteurs bêta 2 -adrénergiques. Bien qu'il soit reconnu que les récepteurs bêta2-adrénergiques sont les récepteurs prédominants dans le muscle lisse bronchique, les données indiquent qu'il existe une population de récepteurs bêta2 dans le cœur humain, présente à une concentration comprise entre 10 % et 50 %. » Texte original en anglais : "In vitro and in vivo pharmacologic studies have demonstrated that terbutaline exerts a preferential effect on beta 2 -adrenergic receptors. While it is recognized that beta2-adrenergic receptors are the predominant receptors in bronchial smooth muscle, data indicate that there is a population of beta2-receptors in the human heart, existing in a concentration between 10% to 50%." ([DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726), version du 2025-12-10 ; consulté le 2026-11-19). D'après les connaissances générales, la terbutaline appartient à la classe des agonistes bêta-2 adrénergiques : elle relâche la musculature lisse bronchique et soulage l'obstruction des voies aériennes.
 
 Ce mécanisme pourrait, au mieux, atténuer une hyperréactivité ou une obstruction bronchique secondaire chez des patients porteurs d'une malformation respiratoire. Il n'agit pas sur le défaut de développement sous-jacent.
 
@@ -110,6 +110,18 @@ Aucune étude citée ne porte directement sur la malformation respiratoire, et a
 - Analyse mécanistique spécifique démontrant un effet sur la malformation respiratoire ou ses complications
 - Études précliniques ou cliniques portant directement sur cette maladie
 - Informations de sécurité issues de la notice officielle (mises en garde et contre-indications)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: terbutaline sulfate prescribing information, Chartwell RX, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=859267c6-3d14-4123-9b9d-4fc248f09726) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

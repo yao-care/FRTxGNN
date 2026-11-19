@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **strongyloïdose
 
 Brodalumab bloque le récepteur IL-17RA, ce qui inhibe la signalisation de plusieurs cytokines de la famille IL-17. Cette voie participe à l'immunité des muqueuses et à la défense contre certains pathogènes, y compris les helminthes.
 
-Cependant, la prédiction paraît peu plausible sur le plan biologique. Le contrôle de *Strongyloides* repose surtout sur la réponse Th2 (IL-4, IL-5, IL-13, éosinophiles). Bloquer IL-17RA ne devrait pas traiter l'infection et pourrait même altérer modestement la défense de l'hôte. Le score élevé vient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'a aucun appui clinique ni bibliographique. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. La relation avec l'indication originale n'a pas pu être évaluée, celle-ci n'étant pas renseignée.
+Cependant, la prédiction paraît peu plausible sur le plan biologique. Le contrôle de *Strongyloides* repose surtout sur la réponse Th2 (IL-4, IL-5, IL-13, éosinophiles). Bloquer IL-17RA ne devrait pas traiter l'infection et pourrait même altérer modestement la défense de l'hôte. Le score élevé vient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ; il n'a aucun appui clinique ni bibliographique. Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Brodalumab (traduction non officielle) : « Le brodalumab est un anticorps monoclonal humain de type IgG2 qui se lie sélectivement à l'IL-17RA humain et inhibe ses interactions avec les cytokines IL-17A, IL-17F, IL-17C, l'hétérodimère IL-17A/F et IL-25. L'IL-17RA est une protéine exprimée à la surface cellulaire et constitue un composant indispensable des complexes récepteurs utilisés par de multiples cytokines de la famille IL-17. » Texte original en anglais : "Brodalumab is a human monoclonal IgG2 antibody that selectively binds to human IL-17RA and inhibits its interactions with cytokines IL-17A, IL-17F, IL-17C, IL-17A/F heterodimer, and IL-25. IL-17RA is a protein expressed on the cell surface and is a required component of receptor complexes utilized by multiple IL-17 family cytokines." ([DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688), version du 2026-05-28 ; consulté le 2026-11-19). La relation avec l'indication originale n'a pas pu être évaluée, celle-ci n'étant pas renseignée.
 
 ---
 
@@ -130,11 +130,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée et le profil de sécurité n'est pas documenté » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Siliq (brodalumab) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a550c33-456a-4833-814e-8591aea7c688) |
 
 <!-- review:end log -->
 

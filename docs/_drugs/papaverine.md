@@ -56,7 +56,7 @@ mais seulement **1 essai clinique** (un registre diagnostique, sans test thérap
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la papavérine est un inhibiteur non sélectif des phosphodiestérases qui relâche le muscle lisse vasculaire en augmentant l'AMPc et le GMPc.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Papaverine (traduction non officielle) : « Le chlorhydrate de papavérine agit apparemment directement sur le muscle lui-même. Cette relaxation est observée au niveau du système vasculaire et de la musculature bronchique ainsi que des voies gastro-intestinales, biliaires et urinaires. Les principales actions de la papavérine s'exercent sur le muscle cardiaque et le muscle lisse. » Texte original en anglais : "Papaverine Hydrochloride apparently acts directly on the muscle itself. This relaxation is noted in the vascular system and bronchial musculature and in the gastrointestinal, biliary and urinary tracts. The main actions of papaverine are exerted on cardiac and smooth muscle." ([DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e), version du 2026-07-27 ; consulté le 2026-11-19). Sur la base des informations connues, la papavérine est un inhibiteur non sélectif des phosphodiestérases qui relâche le muscle lisse vasculaire en augmentant l'AMPc et le GMPc.
 
 Ses indications d'origine (artériopathie périphérique, claudication, ischémie cérébrale, accident ischémique transitoire) reposent déjà sur une insuffisance de perfusion tissulaire. Une maladie ischémique plus générale relève de la même logique : améliorer le flux sanguin par vasodilatation.
 
@@ -119,11 +119,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La seule AMM française est annulée, et le profil de sécurité (nombreuses contre-indications cardiovasculaires, dont la maladie coronarienne  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: papaverine hydrochloride prescribing information, American Regent, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9e5e2ce4-7a57-4c61-a826-64c8d11d038e) |
 
 <!-- review:end log -->
 

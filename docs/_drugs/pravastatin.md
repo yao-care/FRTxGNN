@@ -58,7 +58,7 @@ La pravastatine est une statine (inhibiteur de l'HMG-CoA réductase), initialeme
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la pravastatine inhibe l'HMG-CoA réductase, enzyme clé de la synthèse hépatique du cholestérol, et augmente l'expression des récepteurs hépatiques du LDL, ce qui abaisse le LDL-cholestérol.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pravastatin (traduction non officielle) : « La pravastatine est un inhibiteur réversible de l'HMG-CoA réductase, l'enzyme limitante qui convertit l'HMG-CoA en mévalonate, un précurseur du cholestérol. » Texte original en anglais : "Pravastatin is a reversible inhibitor of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d), version du 2026-10-23 ; consulté le 2026-11-19). Sur la base des connaissances générales, la pravastatine inhibe l'HMG-CoA réductase, enzyme clé de la synthèse hépatique du cholestérol, et augmente l'expression des récepteurs hépatiques du LDL, ce qui abaisse le LDL-cholestérol.
 
 L'indication originale (dyslipidémies et prévention de l'athérosclérose) et la nouvelle indication (hypercholestérolémie familiale homozygote, HFHo) partagent la même cible physiopathologique : l'excès de cholestérol LDL circulant. Le lien est donc plausible sur le plan thématique.
 
@@ -145,12 +145,13 @@ Les mises en garde issues de la notice ne sont pas disponibles : veuillez consul
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Clarification du statut réglementaire en France (A » → « Clarification du statut réglementaire en France (l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: pravastatin sodium prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=be592e98-8a17-4c18-99b8-0f3a67000e2d) |
 
 <!-- review:end log -->
 

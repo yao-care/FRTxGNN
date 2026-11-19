@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble hémorr
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, le filgrastim est un facteur de stimulation des colonies de granulocytes (G-CSF) qui favorise la prolifération et la différenciation des progéniteurs de neutrophiles. Son efficacité est établie dans les neutropénies, mais il n'agit pas directement sur la fonction ou la production des plaquettes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Filgrastim (traduction non officielle) : « Les facteurs de croissance hématopoïétiques sont des glycoprotéines qui agissent sur les cellules hématopoïétiques en se liant à des récepteurs spécifiques de la surface cellulaire et en stimulant la prolifération, l'engagement dans la différenciation et une certaine activation fonctionnelle des cellules matures. Le G-CSF endogène est un facteur de croissance hématopoïétique spécifique de lignée qui est produit par les monocytes, les fibroblastes et les cellules endothéliales. » Texte original en anglais : "Colony-stimulating factors are glycoproteins which act on hematopoietic cells by binding to specific cell surface receptors and stimulating proliferation‚ differentiation commitment‚ and some end-cell functional activation. Endogenous G-CSF is a lineage-specific colony-stimulating factor that is produced by monocytes‚ fibroblasts, and endothelial cells." ([DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7), version du 2026-11-10 ; consulté le 2026-11-19). D'après les connaissances générales, le filgrastim est un facteur de stimulation des colonies de granulocytes (G-CSF) qui favorise la prolifération et la différenciation des progéniteurs de neutrophiles. Son efficacité est établie dans les neutropénies, mais il n'agit pas directement sur la fonction ou la production des plaquettes.
 
 Pour les prédictions classées en tête, aucun lien mécanistique plausible n'est identifié :
 - **Trouble primaire de la sécrétion plaquettaire** : G-CSF n'a pas d'effet connu sur la sécrétion des granules ni sur la signalisation plaquettaire.
@@ -125,11 +125,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (statut des AMM annulées, voies d'administration) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Releuko (filgrastim) prescribing information, Amneal Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74e1ec6e-1630-4654-895c-2bd355f939e7) |
 
 <!-- review:end log -->
 

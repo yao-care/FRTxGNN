@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour la **fibromatose gingiv
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base de données consultée. D'après les informations générales, le brigatinib est un inhibiteur de kinases qui cible notamment ALK, EGFR, ROS1 et FAK.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Brigatinib (traduction non officielle) : « Le brigatinib est un inhibiteur de tyrosine kinase (ITK) présentant une activité in vitro, à des concentrations cliniquement atteignables, contre de multiples kinases, notamment ALK, ROS1, le récepteur du facteur de croissance insulinomimétique de type 1 (IGF-1R) et FLT-3, ainsi que contre des délétions et des mutations ponctuelles d'EGFR. Le brigatinib a inhibé l'autophosphorylation d'ALK et la phosphorylation médiée par ALK des protéines de signalisation en aval STAT3, AKT, ERK1/2 et S6 dans des essais in vitro et in vivo. » Texte original en anglais : "Brigatinib is a tyrosine kinase inhibitor (TKI) with in vitro activity at clinically achievable concentrations against multiple kinases including ALK, ROS1, insulin-like growth factor-1 receptor (IGF-1R), and FLT-3 as well as EGFR deletion and point mutations. Brigatinib inhibited autophosphorylation of ALK and ALK-mediated phosphorylation of the downstream signaling proteins STAT3, AKT, ERK1/2, and S6 in in vitro and in vivo assays." ([DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db), version du 2026-01-12 ; consulté le 2026-11-19). D'après les informations générales, le brigatinib est un inhibiteur de kinases qui cible notamment ALK, EGFR, ROS1 et FAK.
 
 Aucun lien plausible entre cette inhibition de kinases et la fibromatose gingivale n'a été établi. Le score élevé (0,9989) est une sortie de calcul du modèle, sans soutien clinique ni bibliographique. Toute hypothèse mécanistique reste donc spéculative, et la similarité avec l'indication d'origine n'a pas été évaluée.
 
@@ -105,6 +105,19 @@ La prédiction repose uniquement sur le modèle, sans essai clinique ni publicat
 - Les données de mécanisme d'action détaillées du brigatinib
 - Les mises en garde et contre-indications de la notice ANSM
 - Une revue des interactions médicamenteuses majeures avant toute étude
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Alunbrig (brigatinib) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0fe9ff20-d402-41f3-bc1e-7002ea7007db) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

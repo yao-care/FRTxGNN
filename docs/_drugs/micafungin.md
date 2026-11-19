@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infection des 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances sur la classe, la micafungine est une échinocandine : elle inhibe la 1,3-bêta-D-glucane synthase et perturbe la synthèse de la paroi cellulaire fongique. Cette analyse repose donc sur le mécanisme connu de la classe et non sur les données fournies.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Micafungin (traduction non officielle) : « La micafungine appartient à la classe des échinocandines, agents antifongiques. […] La micafungine inhibe la synthèse du 1,3-bêta-D-glucane, un composant essentiel de la paroi cellulaire fongique, absent des cellules de mammifères. Activité dans les modèles animaux de candidose L'activité de la micafungine a été démontrée dans des modèles murins et lapins de candidose muqueuse et disséminée. » Texte original en anglais : "Micafungin is a member of the echinocandin class of antifungal agents. […] Micafungin inhibits the synthesis of 1,3-beta-D-glucan, an essential component of fungal cell walls, which is not present in mammalian cells. Activity in Animal Models of Candidiasis Activity of micafungin has been demonstrated in both mucosal and disseminated murine and rabbit models of candidiasis." ([DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee), version du 2025-11-08 ; consulté le 2026-11-19). Sur la base des connaissances sur la classe, la micafungine est une échinocandine : elle inhibe la 1,3-bêta-D-glucane synthase et perturbe la synthèse de la paroi cellulaire fongique. Cette analyse repose donc sur le mécanisme connu de la classe et non sur les données fournies.
 
 L'indication originale (candidoses œsophagienne, sanguine et disséminée) et la nouvelle indication visent le même genre de pathogène, Candida. La candidurie ou l'infection urinaire à Candida est donc biologiquement plausible, car le mécanisme antifongique est le même.
 
@@ -122,11 +122,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées, indications non renseignées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
 
 <!-- review:end log -->
 

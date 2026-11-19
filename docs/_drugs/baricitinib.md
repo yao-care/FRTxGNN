@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, le baricitinib appartient à la classe des inhibiteurs de JAK1/JAK2, qui modulent la voie JAK-STAT et donc la signalisation de plusieurs cytokines inflammatoires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Baricitinib (traduction non officielle) : « Le baricitinib est un inhibiteur des Janus kinases (JAK). Les JAK sont des enzymes intracellulaires qui transmettent les signaux issus des interactions entre les cytokines ou les facteurs de croissance et leurs récepteurs sur la membrane cellulaire, afin d'influencer les processus cellulaires de l'hématopoïèse et la fonction des cellules immunitaires. » Texte original en anglais : "Baricitinib is a Janus kinase (JAK) inhibitor. JAKs are intracellular enzymes which transmit signals arising from cytokine or growth factor-receptor interactions on the cellular membrane to influence cellular processes of hematopoiesis and immune cell function." ([DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf), version du 2026-10-09 ; consulté le 2026-11-19). D'après les informations connues, le baricitinib appartient à la classe des inhibiteurs de JAK1/JAK2, qui modulent la voie JAK-STAT et donc la signalisation de plusieurs cytokines inflammatoires.
 
 Aucune voie mécanistique reliant l'inhibition de JAK-STAT à la physiopathologie de ce syndrome développemental congénital rare n'a pu être établie à partir des données disponibles. Un mécanisme immunomodulateur n'est pas intuitivement plausible pour une malformation structurelle du développement.
 
@@ -90,6 +90,19 @@ La prédiction repose uniquement sur le score du modèle, sans essai clinique, s
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Démonstration d'un lien biologique entre la voie JAK-STAT et ce syndrome (études précliniques ou de mécanisme)
 - Toute étude clinique ou publication portant directement sur cette maladie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Olumiant (baricitinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=866e9f35-9035-4581-a4b1-75a621ab55cf) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

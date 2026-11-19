@@ -56,7 +56,7 @@ avec **10 essais cliniques** et **20 publications** soutenant actuellement cette
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances pharmacologiques établies, la dapsone est une sulfone qui inhibe la dihydroptéroate synthase, une enzyme de la voie de biosynthèse des folates. C'est la même cible que celle des sulfamides comme le sulfaméthoxazole.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Dapsone (traduction non officielle) : « Le mécanisme d'action dans la dermatite herpétiforme n'a pas été établi. Selon la méthode cinétique chez la souris, la dapsone est bactéricide ainsi que bactériostatique contre Mycobacterium leprae. » Texte original en anglais : "The mechanism of action in Dermatitis herpetiformis has not been established. By the kinetic method in mice, Dapsone is bactericidal as well as bacteriostatic against Mycobacterium leprae." ([DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c), version du 2026-10-01 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, la dapsone est une sulfone qui inhibe la dihydroptéroate synthase, une enzyme de la voie de biosynthèse des folates. C'est la même cible que celle des sulfamides comme le sulfaméthoxazole.
 
 *Pneumocystis jirovecii* dépend de cette voie métabolique. Cela explique l'activité de la dapsone en prophylaxie et, en association avec le triméthoprime, dans le traitement des pneumocystoses légères à modérées. La dapsone possède par ailleurs des effets antimicrobiens et anti-inflammatoires, ce qui est cohérent avec ses usages historiques dans la lèpre et les dermatoses neutrophiliques.
 
@@ -130,11 +130,12 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le statut réglementaire français est défavorable : la seule AMM identifiée est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: dapsone prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=347c753b-8daa-40f8-9391-0339c9d6679c) |
 
 <!-- review:end log -->
 

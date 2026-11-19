@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose co
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, l'alfuzosine est un antagoniste alpha-1 adrénergique, dont l'efficacité symptomatique dans l'hyperplasie bénigne de la prostate repose sur la relaxation du muscle lisse prostatique et cervical vésical.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alfuzosin (traduction non officielle) : « L'alfuzosine est un antagoniste sélectif des récepteurs alpha 1 -adrénergiques post-synaptiques, qui sont situés dans la prostate, la base de la vessie, le col vésical, la capsule prostatique et l'urètre prostatique. » Texte original en anglais : "Alfuzosin is a selective antagonist of post-synaptic alpha 1 -adrenoreceptors, which are located in the prostate, bladder base, bladder neck, prostatic capsule, and prostatic urethra." ([DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3), version du 2024-12-05 ; consulté le 2026-11-19). Sur la base des informations connues, l'alfuzosine est un antagoniste alpha-1 adrénergique, dont l'efficacité symptomatique dans l'hyperplasie bénigne de la prostate repose sur la relaxation du muscle lisse prostatique et cervical vésical.
 
 **Il n'existe pas de lien mécanistique établi** avec la nouvelle indication. Le syndrome d'Ambras est une maladie génétique rare, associée à des remaniements du chromosome 8q affectant la régulation de TRPS1, sans voie adrénergique connue.
 
@@ -108,11 +108,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le produit n'est en outre plus commercialisé en France (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Uroxatral (alfuzosin hcl) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=9fc7f119-f36b-44cf-945d-940160f3afe3) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **maladie de la c
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le dextrométhorphane agit principalement au niveau central, comme agoniste des récepteurs sigma-1 et antagoniste NMDA dans le centre de la toux. Aucun mécanisme direct sur le tissu de la cavité nasale n'est établi.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour dextromethorphan hydrobromide, bupropion hydrochloride (association contenant Dextromethorphan) (traduction non officielle) : « Le dextrométhorphane est un antagoniste non compétitif du récepteur NMDA (un récepteur ionotrope du glutamate) et un agoniste du récepteur sigma-1. Le mécanisme du dextrométhorphane dans le traitement du TDM et de l'agitation associée à la démence due à la maladie d'Alzheimer n'est pas élucidé. » Texte original en anglais : "Dextromethorphan is an uncompetitive antagonist of the NMDA receptor (an ionotropic glutamate receptor) and a sigma-1 receptor agonist. The mechanism of dextromethorphan in the treatment of MDD and agitation associated with dementia due to Alzheimer’s disease is unclear." ([DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79), version du 2026-08-17 ; consulté le 2026-11-19). Sur la base des informations connues, le dextrométhorphane agit principalement au niveau central, comme agoniste des récepteurs sigma-1 et antagoniste NMDA dans le centre de la toux. Aucun mécanisme direct sur le tissu de la cavité nasale n'est établi.
 
 Les indications originales incluent déjà la rhinite allergique, la rhinite vasomotrice, la rhinite et la rhinopharyngite. Le score très élevé reflète donc probablement un chevauchement avec ces indications des voies respiratoires hautes, plutôt qu'une véritable nouvelle opportunité de repositionnement.
 
@@ -130,12 +130,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Deux autres AMM annulées existent (NODEX ADULTES, sirop unidose ; TUSSIDANE 30 mg, comprimé pelliculé sécable) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Par ailleurs, le médicament est commercialisé en France : 7 AMM valides sur 7 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Auvelity (dextromethorphan hydrobromide, bupropion hydrochloride) prescribing information, Axsome Therapeutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcefda7c-9a68-278e-e053-2995a90aec79) |
 
 <!-- review:end log -->
 

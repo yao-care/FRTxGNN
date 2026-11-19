@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **Lèpre**, mais 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, lumacaftor est un correcteur de CFTR : il améliore le repliement et le transport vers la membrane de la protéine F508del-CFTR. Son usage établi concerne la mucoviscidose.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour lumacaftor and ivacaftor (association contenant Lumacaftor) (traduction non officielle) : « Le lumacaftor améliore la stabilité conformationnelle de la protéine F508del-CFTR, ce qui entraîne une augmentation de la maturation et du transport de la protéine mature vers la surface cellulaire. Des études in vitro ont démontré que le lumacaftor et l'ivacaftor agissent tous deux directement sur la protéine CFTR dans des cultures primaires de cellules épithéliales bronchiques humaines et dans d'autres lignées cellulaires porteuses de la mutation F508del-CFTR, en augmentant la quantité, la stabilité et la fonction de la protéine F508del-CFTR à la surface cellulaire, ce qui entraîne une augmentation du transport des ions chlorure. » Texte original en anglais : "Lumacaftor improves the conformational stability of F508del-CFTR, resulting in increased processing and trafficking of mature protein to the cell surface. In vitro studies have demonstrated that both lumacaftor and ivacaftor act directly on the CFTR protein in primary human bronchial epithelial cultures and other cell lines harboring the F508del-CFTR mutation to increase the quantity, stability, and function of F508del-CFTR at the cell surface, resulting in increased chloride ion transport." ([DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600), version du 2026-03-24 ; consulté le 2026-11-19). Sur la base des informations connues, lumacaftor est un correcteur de CFTR : il améliore le repliement et le transport vers la membrane de la protéine F508del-CFTR. Son usage établi concerne la mucoviscidose.
 
 La lèpre est une infection causée par *Mycobacterium leprae*. Sa physiopathologie repose sur la réponse immunitaire de l'hôte et l'invasion des cellules de Schwann, et non sur un dysfonctionnement de CFTR. **Aucun lien mécanistique établi** n'a été identifié entre les deux maladies.
 
@@ -119,12 +119,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les cinq autorisations, toutes détenues par Vertex Pharmaceuticals (Ireland), sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es autorisations françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Orkambi (lumacaftor and ivacaftor) prescribing information, Vertex Pharmaceuticals Incorporated](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3fc1c40e-cfac-47a1-9e1a-61ead3570600) |
 
 <!-- review:end log -->
 

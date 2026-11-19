@@ -59,7 +59,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **dysplasie a
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le méloxicam est un inhibiteur préférentiel de la COX-2 : il réduit la synthèse des prostaglandines impliquées dans l'inflammation et la douleur. Son utilité est établie dans les pathologies articulaires inflammatoires et dégénératives.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Meloxicam (traduction non officielle) : « Le méloxicam possède des propriétés analgésiques, anti-inflammatoires et antipyrétiques. Le mécanisme d'action de Zybic™, comme celui des autres AINS, n'est pas complètement élucidé mais implique une inhibition de la cyclooxygénase (COX-1 et COX-2). » Texte original en anglais : "Meloxicam has analgesic, anti-inflammatory, and antipyretic properties. The mechanism of action of Zybic™, like that of other NSAIDs, is not completely understood but involves inhibition of cyclooxygenase (COX-1 and COX-2)." ([DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec), version du 2026-09-25 ; consulté le 2026-11-19). Sur la base des connaissances générales, le méloxicam est un inhibiteur préférentiel de la COX-2 : il réduit la synthèse des prostaglandines impliquées dans l'inflammation et la douleur. Son utilité est établie dans les pathologies articulaires inflammatoires et dégénératives.
 
 La dysplasie acromésomélique de type Hunter-Thompson est une maladie squelettique rare, due à des variants de perte de fonction du gène GDF5 (voie de signalisation BMP). Le méloxicam n'agit pas sur cette voie. Le score élevé du modèle TxGNN (deep learning) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -128,11 +128,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zybic (meloxicam) prescribing information, Redmont Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a1c2d65f-ebb1-48bf-8fa1-c216f7d570ec) |
 
 <!-- review:end log -->
 

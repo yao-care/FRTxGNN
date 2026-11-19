@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **déficience en 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances générales, l'exémestane est un inhibiteur stéroïdien irréversible de l'aromatase : il bloque la conversion des androgènes en œstrogènes et abaisse ainsi les taux d'œstradiol.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Exemestane (traduction non officielle) : « La croissance des cellules du cancer du sein peut être estrogéno-dépendante. L'aromatase est la principale enzyme qui convertit les androgènes en estrogènes, tant chez la femme préménopausée que chez la femme ménopausée. […] L'exémestane est un inactivateur stéroïdien irréversible de l'aromatase, structurellement apparenté au substrat naturel, l'androstènedione. » Texte original en anglais : "Breast cancer cell growth may be estrogen-dependent. Aromatase is the principal enzyme that converts androgens to estrogens both in pre- and postmenopausal women. […] Exemestane is an irreversible, steroidal aromatase inactivator, structurally related to the natural substrate androstenedione." ([DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3), version du 2025-12-24 ; consulté le 2026-11-19). D'après les connaissances générales, l'exémestane est un inhibiteur stéroïdien irréversible de l'aromatase : il bloque la conversion des androgènes en œstrogènes et abaisse ainsi les taux d'œstradiol.
 
 La déficience en antithrombine de type 2 est un trouble héréditaire de la coagulation, lié à des variants du gène SERPINC1. **Aucun lien mécanistique n'a été identifié** : l'abaissement des œstrogènes n'est pas connu pour corriger la fonction de l'antithrombine. Le score élevé (0,9983) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -157,11 +157,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées, et le profil de risque thromboembolique des inhibiteurs de l'aromatase va à l'encontre d'un usage d » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
 
 <!-- review:end log -->
 

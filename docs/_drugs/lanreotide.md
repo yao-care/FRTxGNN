@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertrichose*
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la lanréotide fait partie des analogues de la somatostatine ; elle agit sur les récepteurs SSTR2 et SSTR5 pour freiner la sécrétion de l'hormone de croissance (GH) et de l'IGF-1, ce qui explique son efficacité dans l'acromégalie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lanreotide (traduction non officielle) : « Le lanréotide, le composant actif de SOMATULINE DEPOT, est un analogue octapeptidique de la somatostatine naturelle. On pense que le mécanisme d'action du lanréotide est similaire à celui de la somatostatine naturelle. » Texte original en anglais : "Lanreotide, the active component of SOMATULINE DEPOT is an octapeptide analog of natural somatostatin. The mechanism of action of lanreotide is believed to be similar to that of natural somatostatin." ([DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d), version du 2024-10-11 ; consulté le 2026-11-19). Sur la base des informations connues, la lanréotide fait partie des analogues de la somatostatine ; elle agit sur les récepteurs SSTR2 et SSTR5 pour freiner la sécrétion de l'hormone de croissance (GH) et de l'IGF-1, ce qui explique son efficacité dans l'acromégalie.
 
 Un lien spéculatif pourrait exister : une baisse de la signalisation GH/IGF-1 pourrait influencer la croissance du follicule pileux. Toutefois, cette hypothèse n'est étayée par aucune donnée compilée pour ce rapport. Il faut aussi noter que l'hypertrichose est un effet indésirable connu de certains médicaments : le score provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique ni un bénéfice thérapeutique réel.
 
@@ -121,11 +121,12 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Somatuline Depot (lanreotide acetate) prescribing information, Ipsen Biopharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6e4a41fd-a753-4362-87ee-8cc56ed3660d) |
 
 <!-- review:end log -->
 

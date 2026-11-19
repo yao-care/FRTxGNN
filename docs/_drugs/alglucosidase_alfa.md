@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'alglucosidase alfa est une alpha-glucosidase acide (GAA) recombinante qui dégrade le glycogène au sein des lysosomes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alglucosidase Alfa (traduction non officielle) : « La maladie de Pompe (déficit en maltase acide, glycogénose de type II, GSD II, glycogénose de type II) est un trouble héréditaire du métabolisme du glycogène causé par l'absence ou le déficit marqué de l'enzyme lysosomale GAA. L'alglucosidase alfa fournit une source exogène de GAA. » Texte original en anglais : "Pompe disease (acid maltase deficiency, glycogen storage disease type II, GSD II, glycogenosis type II) is an inherited disorder of glycogen metabolism caused by the absence or marked deficiency of the lysosomal enzyme GAA. Alglucosidase alfa provides an exogenous source of GAA." ([DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df), version du 2025-01-10 ; consulté le 2026-11-19). D'après les informations connues, l'alglucosidase alfa est une alpha-glucosidase acide (GAA) recombinante qui dégrade le glycogène au sein des lysosomes.
 
 La maladie à corps de polyglucosanes de l'adulte est causée par un déficit en enzyme branchante du glycogène (GBE1). Ce déficit entraîne l'accumulation de polyglucosane mal ramifié et insoluble dans les neurones et d'autres tissus. Le lien avec l'alglucosidase alfa est donc conceptuel : les deux situations touchent le métabolisme du glycogène.
 
@@ -92,6 +92,19 @@ La prédiction repose uniquement sur le modèle, sans essai clinique ni publicat
 - Mises en garde et contre-indications issues de la notice de l'ANSM
 - Études précliniques démontrant un effet sur l'accumulation de polyglucosane et sur l'accès au système nerveux central
 - Revue de la littérature sur la maladie à corps de polyglucosanes de l'adulte et sur les traitements enzymatiques
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lumizyme (alglucosidase alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d6bfbc45-2d34-439e-8aad-59ee2d53d4df) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

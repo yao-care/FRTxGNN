@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la doravirine est un INNTI du VIH-1, dont l'efficacité dans l'infection par le VIH est établie. Le VIS est un lentivirus proche du VIH, ce qui explique la proximité entre les deux maladies dans le réseau de connaissances.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Doravirine (traduction non officielle) : « La doravirine est un médicament antirétroviral. […] La doravirine est un inhibiteur non nucléosidique de la transcriptase inverse du VIH-1 de type pyridinone et inhibe la réplication du VIH-1 par inhibition non compétitive de la transcriptase inverse (RT) du VIH-1. La concentration inhibitrice à 50 % (CI 50 ) de la doravirine pour la polymérisation de l'ADN ARN-dépendante de la RT recombinante du VIH-1 de type sauvage dans un essai biochimique était de 12,2±2,0 nM (n=3). » Texte original en anglais : "Doravirine is an antiretroviral drug. […] Doravirine is a pyridinone non-nucleoside reverse transcriptase inhibitor of HIV-1 and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). The inhibitory concentration at 50% (IC 50 ) of doravirine for RNA-dependent DNA polymerization of recombinant wild-type HIV-1 RT in a biochemical assay was 12.2±2.0 nM (n=3)." ([DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25), version du 2026-07-09 ; consulté le 2026-11-19). Sur la base des informations connues, la doravirine est un INNTI du VIH-1, dont l'efficacité dans l'infection par le VIH est établie. Le VIS est un lentivirus proche du VIH, ce qui explique la proximité entre les deux maladies dans le réseau de connaissances.
 
 Cette plausibilité reste toutefois fragile. Les INNTI sont généralement inactifs contre le VIH-2 et de nombreuses souches de VIS, en raison de variations naturelles de la poche de liaison des INNTI sur la transcriptase inverse. L'activité de la doravirine contre le VIS devrait donc être confirmée expérimentalement (tests enzymatiques *in vitro* sur la transcriptase inverse du VIS, études chez le macaque). Le score élevé reflète très probablement une proximité dans le réseau plutôt qu'une preuve directe.
 
@@ -108,11 +108,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et le médicament n'a plus d'AMM valide en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pifeltro (doravirine) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ff06e5cc-f47a-4779-816b-0e5b13e88a25) |
 
 <!-- review:end log -->
 

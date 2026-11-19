@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypervitaminose*
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action issues des bases curatées ne sont pas disponibles. Sur la base des informations connues, l'orlistat est un inhibiteur des lipases gastrique et pancréatique : il réduit d'environ 30 % l'absorption des graisses alimentaires, ce qui explique son usage dans l'obésité.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Orlistat (traduction non officielle) : « L'orlistat est un inhibiteur réversible des lipases gastro-intestinales. Il exerce son activité thérapeutique dans la lumière de l'estomac et de l'intestin grêle en formant une liaison covalente avec le site actif du résidu sérine des lipases gastriques et pancréatiques. » Texte original en anglais : "Orlistat is a reversible inhibitor of gastrointestinal lipases. It exerts its therapeutic activity in the lumen of the stomach and small intestine by forming a covalent bond with the active serine residue site of gastric and pancreatic lipases." ([DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e), version du 2026-09-30 ; consulté le 2026-11-19). Sur la base des informations connues, l'orlistat est un inhibiteur des lipases gastrique et pancréatique : il réduit d'environ 30 % l'absorption des graisses alimentaires, ce qui explique son usage dans l'obésité.
 
 Les vitamines liposolubles (A, D, E, K) sont absorbées avec les graisses alimentaires. En théorie, en diminuant cette absorption, l'orlistat pourrait réduire les taux de ces vitamines en cas d'hypervitaminose due à un excès d'apport. Ce lien est plausible, mais **spéculatif**.
 
@@ -111,6 +111,19 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Mener une revue de la littérature et des registres d'essais sur l'orlistat et l'hypervitaminose
 - Évaluer la pertinence clinique : type de vitamine concerné, alternatives existantes (arrêt de la supplémentation, traitements spécifiques) et rapport bénéfice/risque
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xenical (orlistat) prescribing information, H2-Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6240792b-9224-2d10-e053-2a91aa0a2c3e) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

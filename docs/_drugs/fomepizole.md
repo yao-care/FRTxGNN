@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cholangite scl�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, le fomépizole est un inhibiteur compétitif de l'alcool déshydrogénase. Il est utilisé en clinique pour les intoxications à l'éthylène glycol et au méthanol, en bloquant la transformation de ces substances en métabolites toxiques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Fomepizole (traduction non officielle) : « Le fomépizole est un inhibiteur compétitif de l'alcool déshydrogénase. L'alcool déshydrogénase catalyse l'oxydation de l'éthanol en acétaldéhyde. L'alcool déshydrogénase catalyse également les étapes initiales du métabolisme de l'éthylène glycol et du méthanol en leurs métabolites toxiques. » Texte original en anglais : "Fomepizole is a competitive inhibitor of alcohol dehydrogenase. Alcohol dehydrogenase catalyzes the oxidation of ethanol to acetaldehyde. Alcohol dehydrogenase also catalyzes the initial steps in the metabolism of ethylene glycol and methanol to their toxic metabolites." ([DailyMed: fomepizole prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1dea37fd-ec17-416e-b28e-980a87d49e1a), version du 2023-10-26 ; consulté le 2026-11-19). Sur la base des connaissances générales, le fomépizole est un inhibiteur compétitif de l'alcool déshydrogénase. Il est utilisé en clinique pour les intoxications à l'éthylène glycol et au méthanol, en bloquant la transformation de ces substances en métabolites toxiques.
 
 Un lien plausible, mais **non vérifié**, serait une modulation de l'alcool déshydrogénase et du stress oxydatif lié au CYP2E1, ainsi que du métabolisme des acides biliaires ou des aldéhydes dans les cholangiocytes. Aucune étude mécanistique, aucun modèle préclinique et aucune observation clinique n'a été fournie pour étayer ce lien.
 
@@ -127,12 +127,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'unique AMM française est annulée et les données de sécurité officielles sont absentes, ce qui bloque l'évaluation de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: fomepizole prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1dea37fd-ec17-416e-b28e-980a87d49e1a) |
 
 <!-- review:end log -->
 

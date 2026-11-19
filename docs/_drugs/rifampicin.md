@@ -56,7 +56,7 @@ mais aucun essai clinique n'est enregistré et les **20 publications** disponibl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la rifampicine est un inhibiteur de l'ARN polymérase bactérienne à large spectre, dont l'efficacité dans la tuberculose pulmonaire est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rifampicin (traduction non officielle) : « La rifampicine inhibe l'activité de l'ARN polymérase ADN-dépendante chez les organismes sensibles de Mycobacterium tuberculosis. Plus précisément, elle interagit avec l'ARN polymérase bactérienne mais n'inhibe pas l'enzyme des mammifères. » Texte original en anglais : "Rifampin inhibits DNA-dependent RNA polymerase activity in susceptible Mycobacterium tuberculosis organisms. Specifically, it interacts with bacterial RNA polymerase but does not inhibit the mammalian enzyme." ([DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5), version du 2026-05-05 ; consulté le 2026-11-19). D'après les connaissances générales, la rifampicine est un inhibiteur de l'ARN polymérase bactérienne à large spectre, dont l'efficacité dans la tuberculose pulmonaire est établie.
 
 Cette activité antibactérienne est biologiquement plausible pour les conjonctivites bactériennes, notamment celles dues aux bactéries à Gram positif et à *Chlamydia*. La littérature rapporte des essais anciens sur le trachome (pommade de rifampicine à 1 %, 1975) et sur l'infection oculaire à *Chlamydia trachomatis* (1977), ainsi que des données de sensibilité des germes isolés dans des conjonctivites.
 
@@ -127,11 +127,12 @@ Le médicament est commercialisé : les 6 AMM associées sont valides (6 sur 6) 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM annulée (RIFATER, comprimé enrobé, n° 64208131) figure également dans les données » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: rifampin prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8be91604-d7cd-4f2b-997d-e3364e4092e5) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ L'ifosfamide est un agent alkylant de la famille des oxazaphosphorines (analogue
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. Sur la base des connaissances pharmacologiques établies, l'ifosfamide est un promédicament activé par les enzymes hépatiques du cytochrome P450 en moutarde d'isophosphoramide, qui forme des liaisons croisées dans l'ADN et induit l'apoptose des cellules tumorales en prolifération.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ifosfamide (traduction non officielle) : « L'ifosfamide est une prodrogue qui nécessite une activation métabolique par les isoenzymes hépatiques du cytochrome P450 pour exercer son activité cytotoxique. L'activation se fait par hydroxylation au niveau de l'atome de carbone du cycle, formant l'intermédiaire instable 4-hydroxyifosfamide et son tautomère aldéhydique à cycle ouvert, qui se décompose pour donner l'acroléine, composé cytotoxique et urotoxique, et une moutarde isophosphoramide alkylante. » Texte original en anglais : "Ifosfamide is a prodrug that requires metabolic activation by hepatic cytochrome P450 isoenzymes to exert its cytotoxic activity. Activation occurs by hydroxylation at the ring carbon atom forming the unstable intermediate 4-hydroxyifosfamide and its ring-opened aldo tautomer, which decomposes to yield the cytotoxic and urotoxic compound acrolein and an alkylating isophosphoramide mustard." ([DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a), version du 2026-10-07 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques établies, l'ifosfamide est un promédicament activé par les enzymes hépatiques du cytochrome P450 en moutarde d'isophosphoramide, qui forme des liaisons croisées dans l'ADN et induit l'apoptose des cellules tumorales en prolifération.
 
 Le rhabdomyosarcome est un sarcome des tissus mous, chimiosensible, et l'ifosfamide est un composant de longue date des schémas de traitement des sarcomes (IE, VAI, ICE). La littérature pédiatrique et adulte soutient son utilisation, en particulier dans les formes à haut risque et en rechute.
 
@@ -170,11 +170,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées, produits de substitution éventuels) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ifex (ifosfamide) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b7241707-7538-4d1a-91e7-3a25a91e0b9a) |
 
 <!-- review:end log -->
 

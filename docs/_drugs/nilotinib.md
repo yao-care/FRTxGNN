@@ -56,7 +56,7 @@ mais les preuves actuelles se limitent à **1 publication** de type revue géné
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le nilotinib est un inhibiteur de tyrosine kinase dont l'efficacité dans la leucémie myéloïde chronique BCR-ABL1 positive est établie. Il inhibe également PDGFR et KIT, en plus de BCR-ABL1.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nilotinib (traduction non officielle) : « Le nilotinib est un inhibiteur de la kinase BCR-ABL. Le nilotinib se lie à la conformation inactive du domaine kinase de la protéine ABL et la stabilise. In vitro, le nilotinib a inhibé la prolifération médiée par BCR-ABL de lignées cellulaires leucémiques murines et de lignées cellulaires humaines dérivées de patients atteints de LMC Ph+. » Texte original en anglais : "Nilotinib is an inhibitor of the BCR-ABL kinase. Nilotinib binds to and stabilizes the inactive conformation of the kinase domain of ABL protein. In vitro, nilotinib inhibited BCR-ABL mediated proliferation of murine leukemic cell lines and human cell lines derived from patients with Ph+ CML." ([DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc), version du 2026-07-20 ; consulté le 2026-11-19). Sur la base des informations connues, le nilotinib est un inhibiteur de tyrosine kinase dont l'efficacité dans la leucémie myéloïde chronique BCR-ABL1 positive est établie. Il inhibe également PDGFR et KIT, en plus de BCR-ABL1.
 
 Le dermatofibrosarcome protubérant est caractérisé par la fusion COL1A1-PDGFB, qui entraîne une activation autocrine constitutive de PDGFRB. Un lien mécanistique plausible existe donc par le blocage de la voie PDGFR. Le score élevé de TxGNN (0,9931) est cohérent avec cette biologie de cible partagée.
 
@@ -123,11 +123,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier la disponibilité réelle du produit en France, compte tenu des AMM annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
 
 <!-- review:end log -->
 

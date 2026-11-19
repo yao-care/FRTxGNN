@@ -56,7 +56,7 @@ mais seules **2 publications** indirectes (une hypothèse théorique et une étu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'allopurinol est un inhibiteur de la xanthine oxydase, enzyme impliquée dans la production d'acide urique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Allopurinol (traduction non officielle) : « L'allopurinol est un analogue structural de la base purique naturelle, l'hypoxanthine. L'allopurinol et son métabolite, l'oxypurinol, inhibent la xanthine oxydase, l'enzyme responsable de la conversion de l'hypoxanthine en xanthine et de la xanthine en acide urique, le produit final du métabolisme des purines chez l'homme. » Texte original en anglais : "Allopurinol is a structural analogue of the natural purine base, hypoxanthine. Allopurinol and its oxypurinol metabolite inhibitor xanthine oxidase, the enzyme responsible for the conversion of hypoxanthine to xanthine and of xanthine to uric acid, the end product of purine metabolism in humans." ([DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449), version du 2022-02-18 ; consulté le 2026-11-19). Sur la base des informations connues, l'allopurinol est un inhibiteur de la xanthine oxydase, enzyme impliquée dans la production d'acide urique.
 
 Le lien avec la porphyrie hépatique reste indirect et spéculatif. Une hypothèse publiée en 2019 propose de cibler l'enzyme 5-aminolévulinate synthase (ALAS1), enzyme limitante de la biosynthèse de l'hème, dans les porphyries aiguës. Cependant, rien n'établit que l'allopurinol agisse sur cette voie. Des données anciennes évoquent même un effet de l'allopurinol sur le renouvellement hépatique de l'hème et du cytochrome P450, ce qui pourrait constituer un risque théorique plutôt qu'un bénéfice chez les patients atteints de porphyrie.
 
@@ -109,6 +109,19 @@ La prédiction repose uniquement sur le modèle, sans essai clinique ni étude d
 - Études précliniques évaluant l'effet de l'allopurinol sur l'ALAS1 et sur le métabolisme hépatique de l'hème
 - Examen approfondi de la sécurité dans la porphyrie (notice ANSM, risque de crise porphyrique)
 - Données cliniques ou observationnelles chez des patients atteints de porphyrie
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aloprim (allopurinol) prescribing information, Mylan Institutional LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=10cc918f-aa44-415b-932d-2404695ac449) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

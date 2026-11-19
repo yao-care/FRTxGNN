@@ -56,7 +56,7 @@ Cette direction repose sur **0 essai clinique** et **1 publication** (une série
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. Sur la base des connaissances générales, la bétaméthasone est un glucocorticoïde puissant. Il agit en réduisant l'inflammation et la réponse immunitaire locale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Betamethasone (traduction non officielle) : « Les corticostéroïdes jouent un rôle dans la signalisation cellulaire, la fonction immunitaire, l'inflammation et la régulation des protéines ; cependant, le mécanisme d'action précis de SERNIVO Spray dans le psoriasis est inconnu. » Texte original en anglais : "Corticosteroids play a role in cellular signaling, immune function, inflammation, and protein regulation; however, the precise mechanism of action of SERNIVO Spray in psoriasis is unknown." ([DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66), version du 2026-04-22 ; consulté le 2026-11-19). Sur la base des connaissances générales, la bétaméthasone est un glucocorticoïde puissant. Il agit en réduisant l'inflammation et la réponse immunitaire locale.
 
 L'alopécie mucineuse se caractérise par un dépôt de mucine dans les follicules pilo-sébacés, avec un infiltrat inflammatoire périfolliculaire. Un corticostéroïde pourrait en théorie atténuer cette composante inflammatoire, ce qui explique en partie la prédiction du modèle.
 
@@ -106,6 +106,18 @@ La prédiction repose sur un score élevé du modèle (0,9997) et sur une seule 
 - Les informations de sécurité issues des notices (mises en garde, contre-indications) pour les formes cutanées.
 - Une évaluation de la compatibilité des voies d'administration (topique, intralésionnelle) avec la pathologie.
 - Idéalement, une étude clinique contrôlée ou au minimum une série de cas prospective.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sernivo (betamethasone dipropionate) prescribing information, Primus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b3d1b0-da9b-11eb-ad76-0800200c9a66) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

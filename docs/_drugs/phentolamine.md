@@ -56,12 +56,11 @@ Les données compilées pour ce rapport ne permettent pas de considérer ce sign
 | Nombre d'AMM | 0 (valides : 0) |
 | Décision Recommandée | Hold (question de recherche à préciser) |
 
-
 ---
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances pharmacologiques générales, la phentolamine est un antagoniste alpha-adrénergique non sélectif qui provoque une vasodilatation. Cela est cohérent avec ses indications d'origine : crises hypertensives du phéochromocytome, maladie vasculaire périphérique et ischémie cérébrale.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Phentolamine (traduction non officielle) : « Phentolamine Mesylate for Injection, USP produit un blocage alpha-adrénergique de durée relativement courte. Il exerce également des effets inotropes et chronotropes positifs directs, mais moins marqués, sur le muscle cardiaque et des effets vasodilatateurs sur le muscle lisse vasculaire. » Texte original en anglais : "Phentolamine Mesylate for Injection, USP produces an alpha-adrenergic block of relatively short duration. It also has direct, but less marked, positive inotropic and chronotropic effects on cardiac muscle and vasodilator effects on vascular smooth muscle." ([DailyMed: phentolamine mesylate prescribing information, Precision Dose Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e146c7ee-d2fa-433c-8768-0945e4ff0990), version du 2024-08-19 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, la phentolamine est un antagoniste alpha-adrénergique non sélectif qui provoque une vasodilatation. Cela est cohérent avec ses indications d'origine : crises hypertensives du phéochromocytome, maladie vasculaire périphérique et ischémie cérébrale.
 
 La « maladie vasculaire » est toutefois une catégorie très large qui recouvre en grande partie les indications d'origine. Le score élevé reflète donc probablement cette proximité plutôt qu'une réelle nouveauté thérapeutique. Sans définition plus étroite de la maladie (par exemple une atteinte vasculaire précise), ce résultat ne doit pas être compté comme un signal de repositionnement nouveau.
 
@@ -134,6 +133,19 @@ Les informations issues de la notice ANSM (mises en garde et contre-indications)
 - Définir une indication vasculaire plus étroite et réellement nouvelle (par exemple en s'appuyant sur l'essai NCT06286059 sur l'insuffisance rénale aiguë induite par produit de contraste)
 - Suivre les résultats de l'essai NCT06286059 (statut actuellement inconnu) et rechercher des études contrôlées
 - Évaluer la compatibilité des voies d'administration et la similarité avec les indications d'origine (actuellement non évaluées), ainsi que le statut réglementaire en France (médicament non commercialisé)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: phentolamine mesylate prescribing information, Precision Dose Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e146c7ee-d2fa-433c-8768-0945e4ff0990) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

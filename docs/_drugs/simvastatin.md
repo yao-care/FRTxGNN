@@ -60,7 +60,7 @@ Il s'agit toutefois d'une indication déjà proche de ses usages d'origine : l'h
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la simvastatine fait partie de la classe des inhibiteurs de l'HMG-CoA réductase (statines). Son efficacité dans l'abaissement du cholestérol est établie, et mécanistiquement elle est applicable à l'hypercholestérolémie familiale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Simvastatin (traduction non officielle) : « La simvastatine est une prodrogue qui est hydrolysée, après administration, en sa forme active β-hydroxyacide, l’acide de simvastatine. L’acide de simvastatine et ses métabolites sont des inhibiteurs de l’HMG-CoA réductase, l’enzyme limitante qui convertit l’HMG-CoA en mévalonate, un précurseur du cholestérol. » Texte original en anglais : "Simvastatin is a prodrug and is hydrolyzed to its active β-hydroxyacid form, simvastatin acid, after administration. Simvastatin acid and its metabolites are inhibitors of HMG-CoA reductase, the rate-limiting enzyme that converts HMG-CoA to mevalonate, a precursor of cholesterol." ([DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9), version du 2025-03-28 ; consulté le 2026-11-19). Sur la base des informations connues, la simvastatine fait partie de la classe des inhibiteurs de l'HMG-CoA réductase (statines). Son efficacité dans l'abaissement du cholestérol est établie, et mécanistiquement elle est applicable à l'hypercholestérolémie familiale.
 
 En inhibant l'HMG-CoA réductase, la simvastatine réduit la synthèse hépatique de cholestérol et augmente l'expression des récepteurs des LDL, ce qui abaisse le LDL-cholestérol. Dans l'hypercholestérolémie familiale hétérozygote, la fonction résiduelle des récepteurs aux LDL permet une réponse aux statines. Dans la forme homozygote, la réponse est limitée, car l'activité des récepteurs est très faible ou nulle.
 
@@ -142,6 +142,19 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 **Autres indications prédites (à titre indicatif) :**
 - **VIH** (score 0,9922, L3) : le contexte pertinent est la prise en charge de la dyslipidémie associée au VIH et aux antirétroviraux, non le traitement de l'infection ; les essais de phase 1 sont des études d'interaction. Une étude in vitro n'a détecté aucune activité anti-VIH des statines. Il s'agit d'une question de recherche, avec un risque élevé d'interactions.
 - **Infarctus du tronc cérébral, déficit en CETP, hypercholestérolémie par déficit en cholestérol 7α-hydroxylase, amyloïdose ABri, trouble neurodéveloppemental rare** (L5) : prédictions du modèle sans essai ni littérature à l'appui ; décision Hold.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zocor (simvastatin) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f55d5de-5a4f-4a39-8c84-c53976dd6af9) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

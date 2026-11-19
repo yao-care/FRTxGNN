@@ -56,7 +56,7 @@ Cependant, **aucun essai clinique** et **aucune publication pertinente** ne sout
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le bénazépril appartient à la classe des IEC : en bloquant la formation d'angiotensine II, il réduit la pression artérielle systémique ainsi que la pression intraglomérulaire. Son efficacité dans l'hypertension et la protection rénale est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Benazepril (traduction non officielle) : « Le bénazépril et le bénazéprilate inhibent l'enzyme de conversion de l'angiotensine (ECA) chez l'homme et chez l'animal. Le bénazéprilate possède une activité inhibitrice de l'ECA beaucoup plus importante que le bénazépril. L'ECA est une peptidyl-dipeptidase qui catalyse la conversion de l'angiotensine I en substance vasoconstrictrice, l'angiotensine II. » Texte original en anglais : "Benazepril and benazeprilat inhibit angiotensin-converting enzyme (ACE) in human subjects and animals. Benazeprilat has much greater ACE inhibitory activity than does benazepril. ACE is a peptidyl dipeptidase that catalyzes the conversion of angiotensin I to the vasoconstrictor substance, angiotensin II." ([DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e), version du 2025-09-30 ; consulté le 2026-11-19). Sur la base des connaissances générales, le bénazépril appartient à la classe des IEC : en bloquant la formation d'angiotensine II, il réduit la pression artérielle systémique ainsi que la pression intraglomérulaire. Son efficacité dans l'hypertension et la protection rénale est établie.
 
 La néphropathie hypertensive maligne est une conséquence directe d'une hypertension sévère. Un bénéfice du bénazépril est donc plausible sur le plan mécanistique, mais il s'agit essentiellement d'une extension de l'indication d'origine, et non d'une indication réellement nouvelle.
 
@@ -120,11 +120,12 @@ Remarques : les scores identiques ou quasi identiques des rangs 1 et 2 (et 3 et 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-10-31 | Aucune AMM n'est enregistrée en France pour le bénazépril dans les données compilées : le médicament apparaît comme non commercialisé. | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Lotensin (benazepril hydrochloride) prescribing information, Validus Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2abb091b-a53e-46b0-9b84-e5ee8f2bdd8e) |
 
 <!-- review:end log -->
 

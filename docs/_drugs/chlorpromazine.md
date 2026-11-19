@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **dystrophie réti
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la chlorpromazine est un antagoniste des récepteurs dopaminergiques D2 appartenant à la classe des phénothiazines.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Chlorpromazine (traduction non officielle) : « Le mécanisme précis par lequel les effets thérapeutiques de la chlorpromazine sont produits n'est pas connu. Les principales actions pharmacologiques sont psychotropes. Elle exerce également une activité sédative et antiémétique. La chlorpromazine agit à tous les niveaux du système nerveux central – principalement aux niveaux sous-corticaux – ainsi que sur de multiples systèmes d'organes. » Texte original en anglais : "The precise mechanism whereby the therapeutic effects of chlorpromazine are produced is not known. The principal pharmacological actions are psychotropic. It also exerts sedative and antiemetic activity. Chlorpromazine has actions at all levels of the central nervous system –primarily at subcortical levels – as well as on multiple organ systems." ([DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267), version du 2026-11-10 ; consulté le 2026-11-19). D'après les connaissances générales, la chlorpromazine est un antagoniste des récepteurs dopaminergiques D2 appartenant à la classe des phénothiazines.
 
 Aucun mécanisme thérapeutique plausible ne relie clairement ce médicament à la dystrophie rétinienne. Le score élevé du modèle reflète probablement une association statistique avec la pathologie rétinienne. Or, la seule publication disponible décrit un effet indésirable (phototoxicité) induit par de fortes doses de chlorpromazine, ce qui évoque davantage une toxicité qu'un potentiel de traitement. Cette prédiction doit donc être considérée comme très spéculative.
 
@@ -108,6 +108,18 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5). Aucun ess
 - Études précliniques ou cliniques évaluant directement la chlorpromazine dans la dystrophie rétinienne
 - Évaluation de la toxicité rétinienne et de la phototoxicité à des doses thérapeutiques
 - Mises en garde et contre-indications issues de la notice ANSM
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

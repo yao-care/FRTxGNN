@@ -56,7 +56,7 @@ avec **6 essais cliniques** et **20 publications** actuellement associés à cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les informations connues, l'acétylcystéine est un composé thiolé capable de réduire les ponts disulfure. Dans les modèles précliniques de purpura thrombotique thrombocytopénique (souris et babouin), elle réduit la taille des multimères du facteur von Willebrand (VWF) et donc leur capacité à fixer les plaquettes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Acetylcysteine (traduction non officielle) : « Il a été démontré que l'acétylcystéine réduit l'étendue des lésions hépatiques consécutives à un surdosage en paracétamol. Des doses de paracétamol de 150 mg/kg ou plus ont été associées à une hépatotoxicité. L'acétylcystéine protège probablement le foie en maintenant ou en restaurant les taux de glutathion, ou en agissant comme substrat alternatif pour la conjugaison avec le métabolite réactif du paracétamol, et donc pour sa détoxification. » Texte original en anglais : "Acetylcysteine has been shown to reduce the extent of liver injury following acetaminophen overdose. Acetaminophen doses of 150 mg/kg or greater have been associated with hepatotoxicity. Acetylcysteine probably protects the liver by maintaining or restoring the glutathione levels, or by acting as an alternate substrate for conjugation with, and thus detoxification of, the reactive metabolite of acetaminophen." ([DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39), version du 2025-04-30 ; consulté le 2026-11-19). D'après les informations connues, l'acétylcystéine est un composé thiolé capable de réduire les ponts disulfure. Dans les modèles précliniques de purpura thrombotique thrombocytopénique (souris et babouin), elle réduit la taille des multimères du facteur von Willebrand (VWF) et donc leur capacité à fixer les plaquettes.
 
 Elle possède aussi une action antioxydante et reconstitue le glutathion, ce qui pourrait atténuer les lésions endothéliales et le phénotype pro-thrombotique observés dans la microangiopathie thrombotique associée à la greffe et dans l'insuffisance rénale.
 
@@ -109,6 +109,19 @@ Un essai de Phase 3 terminé (170 patients) et un essai de Phase 2/3 en cours po
 - Données détaillées sur le mécanisme d'action
 - Informations de sécurité issues de la notice (mises en garde, contre-indications)
 - Précision de la définition de « maladie thrombotique » visée (microangiopathie thrombotique, PTT ou autre), car les preuves actuelles sont hétérogènes
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Acetadote (acetylcysteine) prescribing information, Cumberland Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=472f158a-5ab9-4308-8e49-1116e6ea3d39) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

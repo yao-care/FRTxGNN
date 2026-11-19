@@ -56,7 +56,7 @@ Il s'agit d'une prédiction issue du modèle TxGNN (apprentissage profond), qui 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les informations connues, nafarelin est un agoniste du récepteur GnRH1 : il désensibilise l'hypophyse et réduit la production des hormones sexuelles. Son efficacité dans l'endométriose et la puberté précoce centrale est établie.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nafarelin (traduction non officielle) : « L'acétate de nafaréline est un puissant analogue agoniste de l'hormone de libération des gonadotrophines (GnRH). Au début de l'administration, la nafaréline stimule la libération des gonadotrophines hypophysaires, LH et FSH, entraînant une augmentation temporaire de la stéroïdogenèse gonadique. » Texte original en anglais : "Nafarelin acetate is a potent agonistic analog of gonadotropin-releasing hormone (GnRH). At the onset of administration, nafarelin stimulates the release of the pituitary gonadotropins, LH and FSH, resulting in a temporary increase of gonadal steroidogenesis." ([DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6), version du 2026-03-05 ; consulté le 2026-11-19). D'après les informations connues, nafarelin est un agoniste du récepteur GnRH1 : il désensibilise l'hypophyse et réduit la production des hormones sexuelles. Son efficacité dans l'endométriose et la puberté précoce centrale est établie.
 
 Cependant, le syndrome d'Ambras est une affection congénitale d'origine génétique (remaniement de la région 8q22). Aucun mécanisme hormonal plausible n'est établi pour ce syndrome. Le score élevé de TxGNN (modèle d'apprentissage profond) peut refléter des similarités apprises par le modèle entre maladies apparentées, et non un lien biologique démontré.
 
@@ -108,11 +108,12 @@ Veuillez consulter la notice pour les informations de sécurité complètes (mis
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Synarel (nafarelin acetate) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d0aa57cb-d2f4-46d7-af43-7c8b06aa81a6) |
 
 <!-- review:end log -->
 

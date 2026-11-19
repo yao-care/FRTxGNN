@@ -61,7 +61,7 @@ Cette prédiction est toutefois très proche des indications d'origine : il s'ag
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées. D'après les connaissances pharmacologiques établies, la famotidine bloque les récepteurs H2 des cellules pariétales gastriques et réduit la sécrétion d'acide. C'est la base reconnue de la cicatrisation et de la prévention des ulcères.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Famotidine (traduction non officielle) : « La famotidine est un inhibiteur compétitif des récepteurs histaminiques de type 2 (H2). La principale activité pharmacologique cliniquement importante de la famotidine est l'inhibition de la sécrétion gastrique. La famotidine diminue à la fois la concentration acide et le volume de la sécrétion gastrique, tandis que les variations de la sécrétion de pepsine sont proportionnelles au volume sécrété. » Texte original en anglais : "Famotidine is a competitive inhibitor of histamine-2 (H2) receptors. The primary clinically important pharmacologic activity of famotidine is inhibition of gastric secretion. Both the acid concentration and volume of gastric secretion are suppressed by famotidine, while changes in pepsin secretion are proportional to volume output." ([DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def), version du 2024-06-01 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, la famotidine bloque les récepteurs H2 des cellules pariétales gastriques et réduit la sécrétion d'acide. C'est la base reconnue de la cicatrisation et de la prévention des ulcères.
 
 La nouvelle indication chevauche donc largement les indications d'origine (ulcères gastrique et duodénal). Les données récentes portent sur la **prévention** des ulcères induits par des médicaments (thiénopyridines, aspirine), des récidives d'hémorragie ulcéreuse idiopathique et la prophylaxie des ulcères de stress. Il s'agit d'une extension de l'usage approuvé plutôt que d'un nouveau mécanisme.
 
@@ -149,12 +149,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM sont annulées (laboratoire EG Labo) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « puisque les deux AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pepcid (famotidine) prescribing information, Bausch Health US LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a06502d9-7903-4f37-833e-e5763d502def) |
 
 <!-- review:end log -->
 

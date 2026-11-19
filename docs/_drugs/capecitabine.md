@@ -56,7 +56,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** n'ont été com
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la capécitabine fait partie de la classe des fluoropyrimidines, des médicaments cytotoxiques utilisés en oncologie digestive.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Capecitabine (traduction non officielle) : « La capécitabine est métabolisée en fluorouracile in vivo. Les cellules normales comme les cellules tumorales métabolisent le fluorouracile en 5-fluoro-2'-désoxyuridine monophosphate (FdUMP) et en 5-fluorouridine triphosphate (FUTP). Ces métabolites provoquent des lésions cellulaires par deux mécanismes différents. » Texte original en anglais : "Capecitabine is metabolized to fluorouracil in vivo. Both normal and tumor cells metabolize fluorouracil to 5-fluoro-2'-deoxyuridine monophosphate (FdUMP) and 5-fluorouridine triphosphate (FUTP). These metabolites cause cell injury by two different mechanisms." ([DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5), version du 2026-02-05 ; consulté le 2026-11-19). Sur la base des informations connues, la capécitabine fait partie de la classe des fluoropyrimidines, des médicaments cytotoxiques utilisés en oncologie digestive.
 
 La prédiction concerne une maladie gastrique de nature tumorale, proche des cancers de l'estomac pour lesquels la capécitabine est étudiée et utilisée en oncologie. Cette proximité de localisation et de type tumoral peut expliquer le score élevé du modèle.
 
@@ -111,6 +111,19 @@ Le score du modèle est très élevé (0,9994), mais aucun essai clinique ni auc
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Identifier des études cliniques ou publications portant directement sur cette entité tumorale
 - Évaluer le dépistage du déficit en DPD avant toute utilisation envisagée
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xeloda (capecitabine) prescribing information, H2-Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e702d84d-7162-4751-bf37-d724cc7e45a5) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

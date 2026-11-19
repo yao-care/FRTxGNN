@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **malformation aorti
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques établies, l'alprostadil (prostaglandine E1) relaxe le muscle lisse vasculaire, notamment celui du canal artériel. Chez les nouveau-nés porteurs de cardiopathies congénitales dépendantes du canal, cette action maintient la perméabilité du canal et préserve la circulation pulmonaire ou systémique jusqu'à la chirurgie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Alprostadil (traduction non officielle) : « L'alprostadil (PGE1) est une prostaglandine possédant une grande variété d'actions pharmacologiques, notamment une vasodilatation et une inhibition de l'agrégation plaquettaire. L'alprostadil induit l'érection par relaxation du muscle lisse trabéculaire et par dilatation des artères caverneuses, en se liant à ses récepteurs et en augmentant les taux intracellulaires d'adénosine monophosphate cyclique (AMPc) par modulation de l'adénylate cyclase. » Texte original en anglais : "Alprostadil (PGE1) is a prostaglandin with a wide variety of pharmacological actions including vasodilation and inhibition of platelet aggregation. Alprostadil induces erection by relaxation of trabecular smooth muscle and by dilation of cavernosal arteries by binding to its receptors and increasing intracellular cyclic adenosine monophosphate (cAMP) levels via modulation of adenylate cyclase." ([DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98), version du 2024-05-13 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, l'alprostadil (prostaglandine E1) relaxe le muscle lisse vasculaire, notamment celui du canal artériel. Chez les nouveau-nés porteurs de cardiopathies congénitales dépendantes du canal, cette action maintient la perméabilité du canal et préserve la circulation pulmonaire ou systémique jusqu'à la chirurgie.
 
 Une malformation aortique, par exemple une coarctation ou une interruption de l'arche aortique, peut rendre la circulation systémique dépendante du canal. La prédiction est donc cohérente avec le mécanisme vasodilatateur connu. Elle prolonge toutefois un usage déjà établi plutôt qu'elle ne révèle une piste réellement nouvelle.
 
@@ -109,6 +109,18 @@ Aucune étude citée n'évalue directement l'alprostadil dans la malformation ao
 - Mises en garde et contre-indications issues de la notice ANSM
 - Études ou essais cliniques portant directement sur la malformation aortique
 - Plan de surveillance de sécurité pour les nouveau-nés (apnée, fièvre, obstruction gastrique lors d'un traitement prolongé)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Caverject (alprostadil) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a295fc1e-d82c-4f44-bc2d-a552bf594c98) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

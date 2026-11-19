@@ -55,7 +55,7 @@ avec **2 essais cliniques** et **6 publications** soutenant actuellement cette d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la desloratadine est un antagoniste (agoniste inverse) sélectif des récepteurs H1 périphériques. Son efficacité dans la rhinite allergique et l'urticaire est établie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Desloratadine (traduction non officielle) : « La desloratadine est un antagoniste tricyclique de l'histamine à action prolongée, doté d'une activité antagoniste sélective des récepteurs H1 de l'histamine. Les données de liaison aux récepteurs indiquent qu'à une concentration de 2-3 ng/mL (7 nanomolaire), la desloratadine présente une interaction significative avec le récepteur H1 de l'histamine humain. » Texte original en anglais : "Desloratadine is a long-acting tricyclic histamine antagonist with selective H1-receptor histamine antagonist activity. Receptor binding data indicates that at a concentration of 2-3 ng/mL (7 nanomolar), desloratadine shows significant interaction with the human histamine H1-receptor." ([DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f), version du 2025-10-23 ; consulté le 2026-11-19). Sur la base des informations connues, la desloratadine est un antagoniste (agoniste inverse) sélectif des récepteurs H1 périphériques. Son efficacité dans la rhinite allergique et l'urticaire est établie.
 
 L'urticaire au froid est une urticaire physique médiée par l'histamine, due à la dégranulation des mastocytes lors de l'exposition au froid. Le blocage des récepteurs H1 limite la papule et l'érythème, ce qui offre un mécanisme direct et plausible.
 
@@ -116,6 +116,19 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles ; 
 - Définir un plan de sécurité pour l'escalade de dose (jusqu'à 4 fois la dose standard) et pour les populations à risque (insuffisance rénale ou hépatique, maladies cardiovasculaires)
 
 Elles reposent uniquement sur la prédiction du modèle (L5), sans essai clinique et avec une littérature préclinique non spécifique à la desloratadine, ou sans aucune littérature.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Desloratadine Oral Solution (desloratadine) prescribing information, INA Pharmaceutics, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=41d5e0d4-6188-847b-e063-6294a90a2e2f) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

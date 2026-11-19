@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**atrophodermie ve
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales sur sa classe, l'almotriptan est un agoniste sélectif des récepteurs sérotoninergiques 5-HT1B/1D, qui agit dans la migraine par vasoconstriction crânienne et inhibition de la libération de neuropeptides.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Almotriptan (traduction non officielle) : « L'almotriptan se lie avec une forte affinité aux récepteurs 5-HT 1D, 5-HT 1B et 5-HT 1F. L'almotriptan a une faible affinité pour les récepteurs 5-HT 1A et 5-HT 7, mais n'a pas d'affinité ni d'activité pharmacologique significatives au niveau des sites de liaison 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6 ; adrénergiques alpha ou bêta ; de l'adénosine (A 1, A 2 ) ; de l'angiotensine (AT 1, AT 2 ) ; de la dopamine (D 1, D 2 ) ; de l'endothéline (ET A, ET B ) ; ou des tachykinines (NK 1, NK 2, NK 3 ). » Texte original en anglais : "Almotriptan binds with high affinity to 5-HT 1D, 5-HT 1B, and 5-HT 1F receptors. Almotriptan has weak affinity for 5-HT 1A and 5-HT 7 receptors, but has no significant affinity or pharmacological activity at 5-HT 2, 5-HT 3, 5-HT 4, 5-HT 6; alpha or beta adrenergic; adenosine (A 1, A 2 ); angiotensin (AT 1, AT 2 ); dopamine (D 1, D 2 ); endothelin (ET A, ET B ); or tachykinin (NK 1, NK 2, NK 3 ) binding sites." ([DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645), version du 2025-12-31 ; consulté le 2026-11-19). D'après les connaissances générales sur sa classe, l'almotriptan est un agoniste sélectif des récepteurs sérotoninergiques 5-HT1B/1D, qui agit dans la migraine par vasoconstriction crânienne et inhibition de la libération de neuropeptides.
 
 L'atrophodermie vermiculée est une affection rare des joues, classée parmi les kératoses pilaires atrophiantes. Sa physiopathologie repose sur la kératinisation folliculaire, l'inflammation et la cicatrisation atrophique, sans lien évident avec la signalisation sérotoninergique 1B/1D.
 
@@ -119,6 +119,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les données détaillées sur le mécanisme d'action (DrugBank).
 - Une justification biologique reliant la signalisation 5-HT1B/1D à la physiopathologie de l'atrophodermie vermiculée, ou des données précliniques / cas cliniques.
 - Une évaluation de la compatibilité de la voie d'administration (comprimés oraux uniquement disponibles ; atteinte cutanée localisée).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: almotriptan prescribing information, Ajanta Pharma USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6fa380c4-c885-4743-85bf-88819ae68645) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

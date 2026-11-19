@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, safinamide est un inhibiteur réversible de la MAO-B qui bloque aussi les canaux sodiques voltage-dépendants et réduit la libération de glutamate. Ces propriétés pourraient, en théorie, être pertinentes pour les crises épileptiques et les lésions excitotoxiques ou neuro-inflammatoires de l'encéphalite de Rasmussen.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Safinamide (traduction non officielle) : « Le mécanisme précis par lequel XADAGO exerce ses effets thérapeutiques dans la MP est inconnu. XADAGO est un inhibiteur de la monoamine oxydase B (MAO-B). On pense que l'inhibition de l'activité de la MAO-B, en bloquant le catabolisme de la dopamine, entraîne une augmentation des taux de dopamine et, par la suite, une augmentation de l'activité dopaminergique dans le cerveau. » Texte original en anglais : "The precise mechanism by which XADAGO exerts its therapeutic effects in PD is unknown. XADAGO is an inhibitor of monoamine oxidase B (MAO-B). Inhibition of MAO-B activity, by blocking the catabolism of dopamine, is thought to result in an increase in dopamine levels and a subsequent increase in dopaminergic activity in the brain." ([DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2), version du 2026-10-05 ; consulté le 2026-11-19). D'après les connaissances générales, safinamide est un inhibiteur réversible de la MAO-B qui bloque aussi les canaux sodiques voltage-dépendants et réduit la libération de glutamate. Ces propriétés pourraient, en théorie, être pertinentes pour les crises épileptiques et les lésions excitotoxiques ou neuro-inflammatoires de l'encéphalite de Rasmussen.
 
 Le lien reste toutefois spéculatif. L'encéphalite de Rasmussen est principalement due à une destruction auto-immune médiée par les lymphocytes T, et aucun lien direct entre safinamide et ce processus n'a été démontré. La seule base de cette prédiction est le score élevé de TxGNN.
 
@@ -115,12 +115,13 @@ Les mises en garde et contre-indications de la notice n'étant pas disponibles, 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « le médicament n'a plus d'AMM en vigueur en France et » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Xadago (safinamide mesylate) prescribing information, MDD US Operations LLC, a subsidiary of Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c4d65f28-983f-42b4-bb23-023ae0fe81b2) |
 
 <!-- review:end log -->
 

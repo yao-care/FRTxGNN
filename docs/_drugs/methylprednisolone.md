@@ -56,7 +56,7 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la méthylprednisolone appartient à la classe des glucocorticoïdes, dont l'activité anti-inflammatoire est un rationnel générique pour de nombreuses affections cutanées inflammatoires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Methylprednisolone (traduction non officielle) : « Les glucocorticoïdes naturels (hydrocortisone et cortisone), qui possèdent également des propriétés de rétention sodée, sont utilisés comme traitement substitutif dans les états d'insuffisance corticosurrénalienne. Leurs analogues synthétiques sont principalement utilisés pour leurs puissants effets anti-inflammatoires dans les troubles de nombreux systèmes d'organes. » Texte original en anglais : "Naturally occurring glucocorticoids (hydrocortisone and cortisone), which also have salt-retaining properties, are used as replacement therapy in adrenocortical deficiency states. Their synthetic analogs are primarily used for their potent anti-inflammatory effects in disorders of many organ systems." ([DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4), version du 2026-07-01 ; consulté le 2026-11-19). Sur la base des informations connues, la méthylprednisolone appartient à la classe des glucocorticoïdes, dont l'activité anti-inflammatoire est un rationnel générique pour de nombreuses affections cutanées inflammatoires.
 
 Pour l'alopécie mucineuse, aucun essai ni publication n'a été retrouvé. Le score élevé reflète probablement la proximité, dans le réseau du modèle, avec d'autres phénotypes d'alopécie plutôt qu'une preuve propre à cette maladie. Le lien mécanistique reste donc hypothétique.
 
@@ -98,6 +98,18 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice
 - Évaluation du rapport bénéfice/risque d'une corticothérapie systémique dans cette indication
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

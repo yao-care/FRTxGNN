@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le cobicistat est un inhibiteur du CYP3A sans activité antirétrovirale propre. Il sert de booster pharmacocinétique pour d'autres agents (elvitégravir, atazanavir, darunavir), dont il augmente l'exposition.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Cobicistat (traduction non officielle) : « Le cobicistat est un inhibiteur fondé sur le mécanisme du cytochrome P450 3A (CYP3A). L'inhibition du métabolisme médié par le CYP3A par le cobicistat augmente l'exposition systémique aux substrats du CYP3A que sont l'atazanavir et le darunavir. » Texte original en anglais : "Cobicistat is a mechanism-based inhibitor of cytochrome P450 3A (CYP3A). Inhibition of CYP3A-mediated metabolism by cobicistat increases the systemic exposure of CYP3A substrates atazanavir and darunavir." ([DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010), version du 2026-02-10 ; consulté le 2026-11-19). Sur la base des informations connues, le cobicistat est un inhibiteur du CYP3A sans activité antirétrovirale propre. Il sert de booster pharmacocinétique pour d'autres agents (elvitégravir, atazanavir, darunavir), dont il augmente l'exposition.
 
 Le syndrome d'immunodéficience acquise féline est causé par le virus de l'immunodéficience féline (FIV), un lentivirus apparenté au VIH. Le score élevé (0,9992) reflète vraisemblablement la proximité dans le réseau de connaissances avec les indications VIH/SIDA d'origine, plutôt qu'un mécanisme distinct.
 
@@ -120,12 +120,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et ses AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tybost (cobicistat) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3784c35c-e87f-410c-900b-8fd6313c6010) |
 
 <!-- review:end log -->
 

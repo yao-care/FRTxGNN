@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myél
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action issues de la base de référence ne sont pas disponibles. D'après la littérature compilée, clofarabine est un analogue nucléosidique de la purine de deuxième génération, conçu pour réunir les qualités de la fludarabine et de la cladribine. Après phosphorylation intracellulaire, il inhibe la ribonucléotide réductase et les ADN polymérases, et induit l'apoptose. Il perturbe aussi la fonction mitochondriale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clofarabine (traduction non officielle) : « La clofarabine est métabolisée de façon séquentielle dans la cellule en métabolite 5'-monophosphate par la désoxycytidine kinase, puis par des mono- et di-phospho-kinases en métabolite actif 5'-triphosphate. La clofarabine possède pour l'enzyme de phosphorylation activatrice, la désoxycytidine kinase, une affinité égale ou supérieure à celle du substrat naturel, la désoxycytidine. » Texte original en anglais : "Clofarabine is sequentially metabolized intracellularly to the 5’-monophosphate metabolite by deoxycytidine kinase and mono- and di-phospho-kinases to the active 5’-triphosphate metabolite. Clofarabine has affinity for the activating phosphorylating enzyme, deoxycytidine kinase, equal to or greater than that of the natural substrate, deoxycytidine." ([DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873), version du 2026-08-24 ; consulté le 2026-11-19). D'après la littérature compilée, clofarabine est un analogue nucléosidique de la purine de deuxième génération, conçu pour réunir les qualités de la fludarabine et de la cladribine. Après phosphorylation intracellulaire, il inhibe la ribonucléotide réductase et les ADN polymérases, et induit l'apoptose. Il perturbe aussi la fonction mitochondriale.
 
 Ce mécanisme cytotoxique est le même dans la LAL (indication d'origine) et dans la leucémie myéloïde : il agit sur des cellules blastiques à division rapide, quelle que soit leur lignée. La leucémie myéloïde aiguë (LAM) et les syndromes myélodysplasiques (SMD) sont ainsi des extensions mécanistiquement cohérentes.
 
@@ -144,6 +144,18 @@ Les mises en garde et contre-indications officielles de la notice de l'ANSM n'on
 | Phase blastique de la leucémie myéloïde chronique BCR-ABL1 positive | 0,9943 | L5 | Question de recherche |
 | Neuroblastome | 0,9952 | L4 | Hold |
 | Ganglioneuroblastome ; syndrome malformatif vertébral avec dysfonction endocrinienne et des lymphocytes T ; néoplasme rétropéritonéal ; deux formes de LLC/lymphome lymphocytique | 0,9926 à 0,9953 | L5 | Hold (prédiction du modèle uniquement) |
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: clofarabine prescribing information, Novadoz Pharmaceuticals LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26b2de66-6518-49ab-820e-492454cbc873) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

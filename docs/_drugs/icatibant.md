@@ -60,7 +60,7 @@ Il convient de noter que cette prédiction recoupe en grande partie l'indication
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques générales, icatibant est un décapeptide antagoniste sélectif du récepteur B2 de la bradykinine. Les données de pharmacologie indiquent également une interaction avec le récepteur B1 (gène BDKRB1) et le récepteur B2 (gène BDKRB2).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Icatibant (traduction non officielle) : « L'icatibant est un antagoniste compétitif sélectif du récepteur B2 de la bradykinine, avec une affinité similaire à celle de la bradykinine. L'angio-œdème héréditaire est dû à une absence ou à un dysfonctionnement de l'inhibiteur de la C1-estérase, un régulateur clé de la cascade protéolytique facteur XII/kallicréine qui aboutit à la production de bradykinine. » Texte original en anglais : "Icatibant is a competitive antagonist selective for the bradykinin B2 receptor, with an affinity similar to bradykinin. Hereditary angioedema is caused by an absence or dysfunction of C1-esterase-inhibitor, a key regulator of the Factor XII/kallikrein proteolytic cascade that leads to bradykinin production." ([DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540), version du 2025-07-07 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, icatibant est un décapeptide antagoniste sélectif du récepteur B2 de la bradykinine. Les données de pharmacologie indiquent également une interaction avec le récepteur B1 (gène BDKRB1) et le récepteur B2 (gène BDKRB2).
 
 Dans le déficit en inhibiteur de la C1, l'activité du système kallikréine-kinine n'est plus régulée, ce qui entraîne un excès de bradykinine, médiateur des crises d'angioedème. En bloquant le récepteur B2, icatibant neutralise directement cette voie. Le déficit en inhibiteur de la C1 correspond d'ailleurs à l'indication d'origine (angioedème héréditaire avec déficit en C1-Inh).
 
@@ -156,12 +156,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Firazyr (icatibant acetate) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ed6657ca-ab68-477a-9968-e12dc928b540) |
 
 <!-- review:end log -->
 

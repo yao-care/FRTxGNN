@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans le **liposarcome (lipos
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après la littérature, le régorafénib est un inhibiteur multikinase qui cible les récepteurs angiogéniques (VEGFR1-3, TIE2), stromaux (PDGFR-β, FGFR) et les kinases oncogéniques (KIT, RET, RAF).
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Regorafenib (traduction non officielle) : « Le régorafénib est un inhibiteur à petite molécule de multiples kinases membranaires et intracellulaires impliquées dans les fonctions cellulaires normales et dans des processus pathologiques tels que l'oncogenèse, l'angiogenèse tumorale, les métastases et l'immunité tumorale. Dans des essais biochimiques ou cellulaires in vitro, le régorafénib ou ses principaux métabolites actifs chez l'homme M-2 et M-5 ont inhibé l'activité de RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-bêta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl et CSF1R à des concentrations de régorafénib atteintes en clinique. » Texte original en anglais : "Regorafenib is a small molecule inhibitor of multiple membrane-bound and intracellular kinases involved in normal cellular functions and in pathologic processes such as oncogenesis, tumor angiogenesis, metastasis and tumor immunity. In in vitro biochemical or cellular assays, regorafenib or its major human active metabolites M-2 and M-5 inhibited the activity of RET, VEGFR1, VEGFR2, VEGFR3, KIT, PDGFR-alpha, PDGFR-beta, FGFR1, FGFR2, TIE2, DDR2, TrkA, Eph2A, RAF-1, BRAF, BRAF V600E, SAPK2, PTK5, Abl and CSF1R at concentrations of regorafenib that have been achieved clinically." ([DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7), version du 2026-02-09 ; consulté le 2026-11-19). D'après la littérature, le régorafénib est un inhibiteur multikinase qui cible les récepteurs angiogéniques (VEGFR1-3, TIE2), stromaux (PDGFR-β, FGFR) et les kinases oncogéniques (KIT, RET, RAF).
 
 Ces voies favorisent l'angiogenèse et la prolifération tumorale dans les sarcomes des tissus mous, dont le liposarcome. Cela justifie sur le plan mécanistique l'exploration du régorafénib dans cette maladie, et le score TxGNN est très élevé.
 
@@ -117,6 +117,18 @@ Le niveau de preuve est L2 : deux essais randomisés de phase 2 contrôlés par 
 - Évaluation de combinaisons thérapeutiques, les données actuelles ne soutenant pas la monothérapie
 - Données sur le mécanisme d'action et sur les mises en garde et contre-indications de la notice
 - Plan de surveillance de la sécurité (fonction hépatique, pression artérielle, peau) et revue des interactions médicamenteuses, notamment avec les anticoagulants et antiagrégants
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Stivarga (regorafenib) prescribing information, Bayer HealthCare Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=824f19c9-0546-4a8a-8d8f-c4055c04f7c7) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

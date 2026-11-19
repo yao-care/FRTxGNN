@@ -56,7 +56,7 @@ mais **aucun essai clinique** n'est enregistré et les **13 publications** ident
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances établies, l'éplérénone est un antagoniste sélectif du récepteur des minéralocorticoïdes (MR) : elle bloque l'action de l'aldostérone, ce qui réduit la rétention sodée et la pression artérielle systémique. Elle exerce aussi des effets antifibrotiques et de protection vasculaire dans plusieurs modèles précliniques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Eplerenone (traduction non officielle) : « L'éplérénone se lie au récepteur des minéralocorticoïdes et bloque la liaison de l'aldostérone, un composant du système rénine-angiotensine-aldostérone (SRAA). La synthèse de l'aldostérone, qui a lieu principalement dans la glande surrénale, est modulée par de multiples facteurs, notamment l'angiotensine II et des médiateurs non liés au SRAA tels que l'hormone adrénocorticotrope (ACTH) et le potassium. » Texte original en anglais : "Eplerenone binds to the mineralocorticoid receptor and blocks the binding of aldosterone, a component of the renin-angiotensin-aldosterone-system (RAAS). Aldosterone synthesis, which occurs primarily in the adrenal gland, is modulated by multiple factors, including angiotensin II and non-RAAS mediators such as adrenocorticotropic hormone (ACTH) and potassium." ([DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a), version du 2025-06-23 ; consulté le 2026-11-19). D'après les connaissances établies, l'éplérénone est un antagoniste sélectif du récepteur des minéralocorticoïdes (MR) : elle bloque l'action de l'aldostérone, ce qui réduit la rétention sodée et la pression artérielle systémique. Elle exerce aussi des effets antifibrotiques et de protection vasculaire dans plusieurs modèles précliniques.
 
 Le lien avec l'hypertension pulmonaire repose sur un axe hypoxie – activation du MR – remodelage vasculaire. Des travaux précliniques montrent que l'hypoxie intermittente chronique active la signalisation du MR et favorise la fibrose rénale (PMID 35346763) ainsi que le remodelage auriculaire, ce dernier étant atténué par l'éplérénone chez le rat (PMID 35568141). Des études mécanistiques indiquent également que l'hypoxie stimule la synthèse d'aldostérone dans les cellules endothéliales de l'artère pulmonaire et favorise la fibrose vasculaire pulmonaire (PMID 25001622). Chez le rat, l'éplérénone atténue le remodelage vasculaire pulmonaire pathologique (PMID 29499691).
 
@@ -118,6 +118,19 @@ Le texte de l'indication approuvée n'est pas renseigné. Les cinq premières so
 - Définir un plan de gestion du risque d'hyperkaliémie et des interactions majeures (suppléments potassiques, inhibiteurs puissants du CYP3A4).
 
 **Remarque sur les autres prédictions :** les quatre autres indications prédites (hypertension pulmonaire d'origine multifactorielle non claire, hypertension rénovasculaire maligne, atteinte rénale hypertensive maligne, syndrome de Braddock) n'ont ni essai ni publication associés (niveau L5, Hold).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Inspra (eplerenone) prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1a52bedc-8e2c-4116-a296-a87770676b4a) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

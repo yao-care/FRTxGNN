@@ -54,7 +54,7 @@ Le glucagon est une hormone peptidique dérivée du proglucagon. Le modèle TxGN
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le glucagon est une hormone dérivée du proglucagon, comme le GLP-1. Il est également connu comme relaxant du muscle lisse intestinal, utilisé en imagerie digestive et en endoscopie.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Glucagon (traduction non officielle) : « Le glucagon augmente la glycémie en activant les récepteurs hépatiques du glucagon, stimulant ainsi la dégradation du glycogène et la libération de glucose par le foie. Les réserves hépatiques de glycogène sont nécessaires pour que le glucagon produise un effet antihypoglycémiant. » Texte original en anglais : "Glucagon increases blood glucose concentration by activating hepatic glucagon receptors, thereby stimulating glycogen breakdown and release of glucose from the liver. Hepatic stores of glycogen are necessary for glucagon to produce an antihypoglycemic effect." ([DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84), version du 2020-09-16 ; consulté le 2026-11-19). Sur la base des informations connues, le glucagon est une hormone dérivée du proglucagon, comme le GLP-1. Il est également connu comme relaxant du muscle lisse intestinal, utilisé en imagerie digestive et en endoscopie.
 
 Une réduction de la motricité et des spasmes viscéraux est un mécanisme plausible pour soulager les symptômes du syndrome de l'intestin irritable. Le lien reste toutefois indirect : il repose sur une biologie commune des peptides dérivés du proglucagon et sur les effets du GLP-1 sur la motricité digestive, non sur des données obtenues avec le glucagon.
 
@@ -105,6 +105,18 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 - Les mises en garde et contre-indications de la notice.
 - Des études dédiées testant le glucagon chez des patients atteints du syndrome de l'intestin irritable.
 - Une évaluation de la compatibilité de la voie d'administration (la poudre nasale est la seule forme recensée).
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: glucagon prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e4be1c0e-0fe6-45a0-9229-5cde98434b84) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

@@ -59,7 +59,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **leucémie l
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le sotatercept est un piège à ligands (activine, GDF/BMP) fondé sur le récepteur de l'activine de type IIA. L'indication originale n'est pas renseignée dans les données d'AMM compilées, ce qui empêche de comparer l'indication d'origine et la nouvelle indication.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sotatercept (traduction non officielle) : « Le sotatercept-csrk, une protéine de fusion recombinante récepteur de l'activine de type IIA-Fc (ActRIIA-Fc), est un inhibiteur de la signalisation de l'activine qui se lie à l'activine A et à d'autres ligands de la superfamille du TGF- β. En conséquence, le sotatercept-csrk améliore l'équilibre entre la signalisation pro-proliférative (médiée par ActRIIA/Smad2/3) et anti-proliférative (médiée par BMPRII/Smad1/5/8) afin de moduler la prolifération vasculaire. » Texte original en anglais : "Sotatercept-csrk, a recombinant activin receptor type IIA-Fc (ActRIIA-Fc) fusion protein, is an activin signaling inhibitor that binds to activin A and other TGF- β superfamily ligands. As a result, sotatercept-csrk improves the balance between the pro-proliferative (ActRIIA/Smad2/3-mediated) and anti-proliferative (BMPRII/Smad1/5/8-mediated) signaling to modulate vascular proliferation." ([DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7), version du 2026-09-21 ; consulté le 2026-11-19). Sur la base des informations connues, le sotatercept est un piège à ligands (activine, GDF/BMP) fondé sur le récepteur de l'activine de type IIA. L'indication originale n'est pas renseignée dans les données d'AMM compilées, ce qui empêche de comparer l'indication d'origine et la nouvelle indication.
 
 La signalisation de la famille activine/TGF-bêta a été évoquée dans la régulation de l'hématopoïèse. Toutefois, aucun lien direct et étayé avec la physiopathologie de la leucémie lymphoblastique aiguë n'est établi dans les données disponibles.
 
@@ -150,13 +150,14 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux autorisations sont au statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les deux AMM françaises sont annulées, ce qui bloque l'évaluation de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Winrevair (sotatercept-csrk) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=21693ee2-cd23-4137-ac67-066bb3a4a9b7) |
 
 <!-- review:end log -->
 

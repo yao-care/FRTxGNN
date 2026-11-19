@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **candidose vul
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, l'ivermectine agit sur les canaux chlorure glutamate-dépendants des invertébrés, ce qui explique son efficacité dans les helminthiases comme la strongyloïdose et l'onchocercose.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ivermectin (traduction non officielle) : « Des études in vitro utilisant des microsomes hépatiques humains et des enzymes CYP450 recombinantes ont montré que l'ivermectine est principalement métabolisée par le CYP3A4. » Texte original en anglais : "In vitro studies using human liver microsomes and recombinant CYP450 enzymes have shown that ivermectin is primarily metabolized by CYP3A4." ([DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd), version du 2024-09-20 ; consulté le 2026-11-19). D'après les connaissances générales, l'ivermectine agit sur les canaux chlorure glutamate-dépendants des invertébrés, ce qui explique son efficacité dans les helminthiases comme la strongyloïdose et l'onchocercose.
 
 Aucun lien mécanistique n'est établi avec les champignons responsables de la candidose : les données compilées ne montrent pas d'équivalent de cette cible chez les pathogènes fongiques. Le score élevé du modèle TxGNN (apprentissage profond) (0,9995) provient du modèle et peut refléter des similitudes apprises entre maladies apparentées, et non une preuve biologique.
 
@@ -135,12 +135,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 13 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier le statut réglementaire actuel du médicament en France, au vu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Stromectol (ivermectin) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=681888c9-af79-4b7d-ae80-c3f4f6f1effd) |
 
 <!-- review:end log -->
 

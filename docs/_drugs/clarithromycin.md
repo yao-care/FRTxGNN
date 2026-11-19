@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome d'hy
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la clarithromycine est un antibiotique macrolide, dont l'efficacité dans les infections respiratoires et ORL est établie. Elle est également connue pour des effets immunomodulateurs (modulation de la production de cytokines et de l'activité des lymphocytes B et plasmocytes).
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Clarithromycin (traduction non officielle) : « La clarithromycine est un médicament antimicrobien de la classe des macrolides. […] La clarithromycine exerce son action antibactérienne en se liant à la sous-unité ribosomique 50S des bactéries sensibles, ce qui entraîne une inhibition de la synthèse protéique. » Texte original en anglais : "Clarithromycin is a macrolide antimicrobial drug. […] Clarithromycin exerts its antibacterial action by binding to the 50S ribosomal subunit of susceptible bacteria resulting in inhibition of protein synthesis." ([DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460), version du 2026-11-12 ; consulté le 2026-11-19). Sur la base des informations connues, la clarithromycine est un antibiotique macrolide, dont l'efficacité dans les infections respiratoires et ORL est établie. Elle est également connue pour des effets immunomodulateurs (modulation de la production de cytokines et de l'activité des lymphocytes B et plasmocytes).
 
 Ces effets pourraient théoriquement être rapprochés d'un syndrome d'hyperviscosité lié à une production excessive d'immunoglobulines. Toutefois, aucune donnée compilée pour ce rapport ne relie la clarithromycine au syndrome d'hyperviscosité polyclonale. Le score élevé du modèle (0,9935) reste une prédiction computationnelle, sans soutien clinique ou bibliographique. Le lien mécanistique est donc **non étayé** à ce stade.
 
@@ -112,11 +112,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: clarithromycin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ba216276-b0bd-420a-9e0d-090bdfcc2460) |
 
 <!-- review:end log -->
 

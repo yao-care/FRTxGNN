@@ -60,7 +60,7 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **maladie thr
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le talc (silicate de magnésium) est connu comme excipient et comme agent à usage local ; son indication d'origine n'est pas documentée dans les données d'AMM disponibles.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Talc (traduction non officielle) : « On pense que le talc instillé dans la cavité pleurale entraîne une réaction inflammatoire. Cette réaction favorise l’adhérence de la plèvre viscérale et de la plèvre pariétale afin d’empêcher la réaccumulation d’air ou de liquide pleural. » Texte original en anglais : "Talc instilled into the pleural cavity is thought to result in an inflammatory reaction. This reaction promotes adherence of the visceral and parietal pleura to prevent reaccumulation of pleural air or fluid." ([DailyMed: Steritalc 2G (talc) prescribing information, Novatech SA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c94e51d9-beef-4b06-e053-2a95a90a754a), version du 2025-06-25 ; consulté le 2026-11-19). Le talc (silicate de magnésium) est connu comme excipient et comme agent à usage local ; son indication d'origine n'est pas documentée dans les données d'AMM disponibles.
 
 En réalité, la prédiction paraît **peu plausible** sur le plan mécanistique. Les publications retrouvées décrivent le talc injecté par voie intraveineuse (chez des usagers de drogues) comme responsable d'embolie pulmonaire, de granulomatose, d'hypertension pulmonaire angiothrombotique et de micro-embolies rétiniennes et cérébrales. Le score élevé (0,9985) reflète vraisemblablement une association dans le réseau de connaissances avec la pathologie thrombotique, et non un effet thérapeutique.
 
@@ -122,6 +122,19 @@ Points relevés dans la littérature compilée : le talc est associé à des év
 - Obtenir les données sur le mécanisme d'action (via DrugBank)
 - Disposer d'une étude préclinique ou clinique démontrant un effet antithrombotique du talc, ce qui paraît improbable au vu des données actuelles
 - Reconsidérer l'intérêt du dossier ; la recherche devrait plutôt porter sur le profil de risque du talc
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Steritalc 2G (talc) prescribing information, Novatech SA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c94e51d9-beef-4b06-e053-2a95a90a754a) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

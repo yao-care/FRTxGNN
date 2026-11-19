@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acidose tubulair
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances pharmacologiques établies, la nitisinone inhibe la 4-hydroxyphénylpyruvate dioxygénase (HPPD), une enzyme de la dégradation de la tyrosine. Cette information est à confirmer auprès de DrugBank.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nitisinone (traduction non officielle) : « La nitisinone est un inhibiteur compétitif de la 4-hydroxyphényl-pyruvate dioxygénase, une enzyme située en amont de la fumarylacétoacétate hydrolase (FAH) dans la voie catabolique de la tyrosine. En inhibant le catabolisme normal de la tyrosine chez les patients atteints de HT-1, la nitisinone empêche l'accumulation des intermédiaires cataboliques maléylacétoacétate et fumarylacétoacétate. » Texte original en anglais : "Nitisinone is a competitive inhibitor of 4-hydroxyphenyl-pyruvate dioxygenase, an enzyme upstream of fumarylacetoacetate hydrolase (FAH) in the tyrosine catabolic pathway. By inhibiting the normal catabolism of tyrosine in patients with HT-1, nitisinone prevents the accumulation of the catabolic intermediates maleylacetoacetate and fumarylacetoacetate." ([DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526), version du 2026-10-21 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, la nitisinone inhibe la 4-hydroxyphénylpyruvate dioxygénase (HPPD), une enzyme de la dégradation de la tyrosine. Cette information est à confirmer auprès de DrugBank.
 
 Dans la tyrosinémie héréditaire de type 1, l'accumulation de métabolites toxiques (notamment la succinylacétone) provoque, entre autres, une atteinte tubulaire proximale de type syndrome de Fanconi. En bloquant la formation de ces métabolites en amont, la nitisinone prévient cette atteinte. Le lien avec l'acidose tubulaire rénale est donc plausible, mais **indirect**.
 
@@ -134,12 +134,13 @@ La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Par ailleurs, les 9 AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Nityr (nitisinone) prescribing information, Cycle Pharmaceuticals Ltd.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=00fd1905-27e4-420e-8dc5-a69e4ddc1526) |
 
 <!-- review:end log -->
 

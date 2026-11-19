@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le tipranavir est un inhibiteur non peptidique de la protéase du VIH-1. Son efficacité dans l'infection par le VIH est établie, et il pourrait mécanistiquement s'appliquer à d'autres lentivirus.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Tipranavir est (traduction non officielle) : « Inhibiteur de la protéase du virus de l'immunodéficience humaine de type 1 » Texte original en anglais : "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le tipranavir est un inhibiteur non peptidique de la protéase du VIH-1. Son efficacité dans l'infection par le VIH est établie, et il pourrait mécanistiquement s'appliquer à d'autres lentivirus.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus dont la protéase est structurellement apparentée à celle du VIH-1, d'où un lien plausible. Toutefois, la protéase du FIV diffère par sa spécificité de substrat et sa sensibilité aux inhibiteurs, et aucune donnée n'étaye ce lien.
 
@@ -110,11 +110,12 @@ Aucune littérature associée disponible actuellement.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e, l'AMM française est annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL222559 (tipranavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL222559) |
 
 <!-- review:end log -->
 

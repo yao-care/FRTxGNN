@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **déficience e
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la prastérone est la forme pharmaceutique de la déhydroépiandrostérone (DHEA), un précurseur stéroïdien converti localement en androgènes et en œstrogènes. Elle a été utilisée dans la dyspareunie liée à l'atrophie vulvo-vaginale. Les données de pharmacologie compilées mentionnent aussi une interaction avec le récepteur de la glycine (tous sous-types).
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Prasterone (traduction non officielle) : « La prastérone est un stéroïde endogène inactif qui est converti en androgènes et/ou en œstrogènes actifs. Le mécanisme d'action d'INTRAROSA chez les femmes ménopausées présentant une atrophie vulvaire et vaginale n'est pas entièrement établi. » Texte original en anglais : "Prasterone is an inactive endogenous steroid and is converted into active androgens and/or estrogens. The mechanism of action of INTRAROSA in postmenopausal women with vulvar and vaginal atrophy is not fully established." ([DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7), version du 2026-07-17 ; consulté le 2026-11-19). Sur la base des informations connues, la prastérone est la forme pharmaceutique de la déhydroépiandrostérone (DHEA), un précurseur stéroïdien converti localement en androgènes et en œstrogènes. Elle a été utilisée dans la dyspareunie liée à l'atrophie vulvo-vaginale. Les données de pharmacologie compilées mentionnent aussi une interaction avec le récepteur de la glycine (tous sous-types).
 
 Aucun lien mécanistique établi ne relie la DHEA à la déficience en cofacteur II de l'héparine (SERPIND1), un défaut d'un inhibiteur de la coagulation de la famille des serpines. Tout lien serait spéculatif (par exemple, des effets indirects des androgènes et œstrogènes sur l'hémostase). Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, non une preuve biologique ; il n'est corroboré par aucune donnée clinique.
 
@@ -106,11 +106,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM en vigueur en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Intrarosa (prasterone) prescribing information, Millicent US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ada639d4-bac0-2ad0-e053-2a95a90afce7) |
 
 <!-- review:end log -->
 

@@ -60,7 +60,7 @@ Les autres prédictions du classement sont surtout des **épilepsies réflexes**
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le topiramate est un antiépileptique à large spectre dont les actions décrites comprennent le blocage des canaux sodiques, le renforcement de la transmission GABA-A, l'antagonisme des récepteurs AMPA/kaïnate et une inhibition faible de l'anhydrase carbonique.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Topiramate (traduction non officielle) : « Les mécanismes précis par lesquels le topiramate exerce ses effets anticonvulsivants et préventifs de la migraine sont inconnus ; cependant, des études précliniques ont révélé quatre propriétés susceptibles de contribuer à l'efficacité du topiramate dans l'épilepsie et le traitement préventif de la migraine. » Texte original en anglais : "The precise mechanisms by which topiramate exerts its anticonvulsant and preventive migraine effects are unknown; however, preclinical studies have revealed four properties that may contribute to topiramate's efficacy for epilepsy and the preventive treatment of migraine." ([DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e), version du 2026-10-05 ; consulté le 2026-11-19). D'après les connaissances générales, le topiramate est un antiépileptique à large spectre dont les actions décrites comprennent le blocage des canaux sodiques, le renforcement de la transmission GABA-A, l'antagonisme des récepteurs AMPA/kaïnate et une inhibition faible de l'anhydrase carbonique.
 
 Pour la prédiction principale (néoplasme du nerf trijumeau), **aucun fondement mécanistique établi** n'existe : le topiramate n'a pas d'activité antitumorale reconnue. Le score élevé (0,9970) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises entre maladies voisines, et non une preuve biologique. Tout lien éventuel resterait spéculatif et relèverait plutôt du contrôle symptomatique (douleur neuropathique ou crises associées à la tumeur) que d'un effet sur la tumeur elle-même.
 
@@ -141,11 +141,12 @@ Les mises en garde officielles de la notice ne sont pas disponibles : veuillez c
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 17 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
 
 <!-- review:end log -->
 

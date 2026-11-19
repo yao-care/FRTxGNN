@@ -56,7 +56,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour **CMM7 (CMM7)**, ave
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le carfilzomib est un inhibiteur irréversible du protéasome. En bloquant la dégradation des protéines dans la cellule, il provoque l'accumulation de protéines anormales et peut entraîner la mort de cellules tumorales dépendantes du protéasome. Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport ; cette description repose sur les connaissances générales sur la classe pharmacologique.
+Le carfilzomib est un inhibiteur irréversible du protéasome. En bloquant la dégradation des protéines dans la cellule, il provoque l'accumulation de protéines anormales et peut entraîner la mort de cellules tumorales dépendantes du protéasome. Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Carfilzomib (traduction non officielle) : « Le carfilzomib est un inhibiteur du protéasome de type tétrapeptide époxycétone qui se lie de façon irréversible aux sites actifs contenant une thréonine N-terminale du protéasome 20S, la particule centrale protéolytique du protéasome 26S. Le carfilzomib a présenté des activités antiprolifératives et pro-apoptotiques in vitro sur des cellules tumorales solides et hématologiques. » Texte original en anglais : "Carfilzomib is a tetrapeptide epoxyketone proteasome inhibitor that irreversibly binds to the N-terminal threonine-containing active sites of the 20S proteasome, the proteolytic core particle within the 26S proteasome. Carfilzomib had antiproliferative and proapoptotic activities in vitro in solid and hematologic tumor cells." ([DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6), version du 2025-06-18 ; consulté le 2026-11-19).
 
 CMM7 est une entité liée au mélanome. Un lien plausible serait la dépendance de certaines cellules tumorales vis-à-vis du protéasome. Toutefois, cette hypothèse n'est étayée par aucune donnée fournie : ni essai clinique, ni publication portant directement sur cette maladie.
 
@@ -107,6 +107,19 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 - Données détaillées sur le mécanisme d'action
 - Mises en garde et contre-indications issues de la notice ANSM
 - Analyse des interactions médicamenteuses majeures dans un contexte d'usage hors indication
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Kyprolis (carfilzomib) prescribing information, Onyx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ea66eb30-e665-4693-99a1-a9d3b4bbe2d6) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -60,7 +60,7 @@ Cette prédiction relève très probablement de similarités apprises par le mod
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, la vancomycine est un antibiotique glycopeptidique qui inhibe la synthèse de la paroi cellulaire des bactéries Gram positif. Son efficacité est établie dans les infections à staphylocoques résistants, l'endocardite et la colite à *C. difficile* (par voie orale).
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Vancomycin (traduction non officielle) : « La vancomycine est un médicament antibactérien. […] L'action bactéricide de la vancomycine résulte principalement de l'inhibition de la biosynthèse de la paroi cellulaire. En outre, la vancomycine modifie la perméabilité de la membrane cellulaire bactérienne et la synthèse de l'ARN. » Texte original en anglais : "Vancomycin is an antibacterial drug. […] The bactericidal action of vancomycin results primarily from inhibition of cell-wall biosynthesis. In addition, vancomycin alters bacterial-cell-membrane permeability and RNA synthesis." ([DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560), version du 2026-08-19 ; consulté le 2026-11-19). D'après les connaissances générales, la vancomycine est un antibiotique glycopeptidique qui inhibe la synthèse de la paroi cellulaire des bactéries Gram positif. Son efficacité est établie dans les infections à staphylocoques résistants, l'endocardite et la colite à *C. difficile* (par voie orale).
 
 **La prédiction ne paraît pas plausible sur le plan mécanistique.** La sclérodermie diffuse est une maladie auto-immune et fibrosante, sans cause bactérienne connue qu'un antibiotique ciblant la paroi bactérienne pourrait traiter. Le score élevé (0,9992) provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non un lien biologique réel.
 
@@ -126,11 +126,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tyzavan (vancomycin) prescribing information, Hikma Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=72e9c5e2-07cc-4a8b-ba64-b2e7619ea560) |
 
 <!-- review:end log -->
 

@@ -61,7 +61,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**,
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, l'ivabradine inhibe le canal HCN (courant « funny » If) du nœud sinusal, ce qui ralentit la fréquence cardiaque.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ivabradine (traduction non officielle) : « Corlanor bloque le canal activé par l'hyperpolarisation et dépendant des nucléotides cycliques (HCN) responsable du courant pacemaker cardiaque I f, qui régule la fréquence cardiaque. Dans les études d'électrophysiologie clinique, les effets cardiaques ont été les plus prononcés au niveau du nœud sino-auriculaire (SA), mais un allongement de l'intervalle AH est survenu, de même qu'un allongement de l'intervalle PR. » Texte original en anglais : "Corlanor blocks the hyperpolarization-activated cyclic nucleotide-gated (HCN) channel responsible for the cardiac pacemaker I f current, which regulates heart rate. In clinical electrophysiology studies, the cardiac effects were most pronounced in the sinoatrial (SA) node, but prolongation of the AH interval has occurred as has PR interval prolongation." ([DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d), version du 2026-11-09 ; consulté le 2026-11-19). D'après les connaissances générales, l'ivabradine inhibe le canal HCN (courant « funny » If) du nœud sinusal, ce qui ralentit la fréquence cardiaque.
 
 Aucun lien établi n'existe entre ce mécanisme et le cycle du follicule pilaire ou la régulation de la pousse des poils. Le score élevé de TxGNN provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique. Il n'est étayé par aucune donnée clinique ni bibliographique.
 
@@ -111,11 +111,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (les trois AMM françaises recensées sont toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
 
 <!-- review:end log -->
 

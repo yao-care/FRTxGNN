@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératose inver
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, l'octréotide est un analogue de la somatostatine qui agit sur les récepteurs de la somatostatine (SSTR2/SSTR5) et freine la sécrétion de l'hormone de croissance (GH), de l'IGF-1 et d'autres hormones. Cette action explique son usage dans l'acromégalie et les tumeurs neuroendocrines sécrétantes.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Octreotide (traduction non officielle) : « Sandostatin Injection exerce des actions pharmacologiques similaires à celles de l'hormone naturelle, la somatostatine. C'est un inhibiteur de la GH, du glucagon et de l'insuline encore plus puissant que la somatostatine. […] En raison de ces actions pharmacologiques, l'octréotide a été utilisé pour traiter les symptômes associés aux tumeurs carcinoïdes métastatiques (bouffées vasomotrices et diarrhée) et aux adénomes sécrétant du VIP (diarrhée aqueuse). » Texte original en anglais : "Sandostatin Injection exerts pharmacologic actions similar to the natural hormone, somatostatin. It is an even more potent inhibitor of GH, glucagon, and insulin than somatostatin. […] By virtue of these pharmacological actions, octreotide has been used to treat the symptoms associated with metastatic carcinoid tumors (flushing and diarrhea), and VIP secreting adenomas (watery diarrhea)." ([DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39), version du 2026-07-22 ; consulté le 2026-11-19). Sur la base des informations connues, l'octréotide est un analogue de la somatostatine qui agit sur les récepteurs de la somatostatine (SSTR2/SSTR5) et freine la sécrétion de l'hormone de croissance (GH), de l'IGF-1 et d'autres hormones. Cette action explique son usage dans l'acromégalie et les tumeurs neuroendocrines sécrétantes.
 
 Aucun lien pharmacologique plausible n'est établi entre ce mécanisme et une lésion épithéliale bénigne telle que la kératose inverse folliculaire. Une influence des voies de la somatostatine ou de l'IGF-1 sur la prolifération des kératinocytes peut être évoquée, mais elle reste spéculative. Le score élevé vient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -106,6 +106,19 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Mener une revue de la littérature pour détecter tout signal biologique reliant les récepteurs de la somatostatine ou l'IGF-1 aux kératoses.
 - Vérifier la compatibilité de la voie d'administration (aujourd'hui uniquement injectable) avec une lésion cutanée bénigne.
 - Réévaluer le rapport bénéfice/risque d'un traitement systémique pour une affection bénigne avant toute poursuite.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sandostatin (octreotide acetate) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=4e2c9856-1836-49f0-9472-4dbeeb408f39) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

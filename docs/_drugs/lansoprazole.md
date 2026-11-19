@@ -58,7 +58,7 @@ Lansoprazole est un inhibiteur de la pompe à protons (IPP), initialement utilis
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, le lansoprazole fait partie de la classe des inhibiteurs de la pompe à protons, qui suppriment la sécrétion d'acide gastrique. Son efficacité dans le reflux gastro-œsophagien, l'œsophagite et les ulcères est établie, et il pourrait mécanistiquement soulager les lésions muqueuses liées au reflux.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Lansoprazole (traduction non officielle) : « Le lansoprazole appartient à une classe de composés antisécrétoires, les benzimidazoles substitués, qui suppriment la sécrétion d'acide gastrique par inhibition spécifique du système enzymatique (H +, K + )-ATPase au niveau de la surface sécrétoire de la cellule pariétale gastrique. Ce système enzymatique étant considéré comme la pompe à acide (à protons) de la cellule pariétale, le lansoprazole a été caractérisé comme un inhibiteur de la pompe à acide gastrique, en ce qu'il bloque l'étape finale de la production d'acide. » Texte original en anglais : "Lansoprazole belongs to a class of antisecretory compounds, the substituted benzimidazoles, that suppress gastric acid secretion by specific inhibition of the (H +, K + )-ATPase enzyme system at the secretory surface of the gastric parietal cell. Because this enzyme system is regarded as the acid (proton) pump within the parietal cell, lansoprazole has been characterized as a gastric acid-pump inhibitor, in that it blocks the final step of acid production." ([DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84), version du 2025-07-08 ; consulté le 2026-11-19). Sur la base des informations connues, le lansoprazole fait partie de la classe des inhibiteurs de la pompe à protons, qui suppriment la sécrétion d'acide gastrique. Son efficacité dans le reflux gastro-œsophagien, l'œsophagite et les ulcères est établie, et il pourrait mécanistiquement soulager les lésions muqueuses liées au reflux.
 
 Le reflux duodéno-gastrique (reflux biliaire) est proche des indications d'origine : la suppression acide peut atténuer les symptômes et les lésions de la muqueuse. Cependant, les IPP ne corrigent pas la cause sous-jacente (dysfonction pylorique, troubles de la motilité), de sorte que le lien mécanistique n'est qu'indirect.
 
@@ -128,11 +128,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Prevacid (lansoprazole) prescribing information, Takeda Pharmaceuticals America, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=71ba78cb-7e46-43eb-9425-fa130f537f84) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Le calcitriol est connu comme la forme active (1,25-dihydroxy) de la vitamine D, qui agit via le récepteur de la vitamine D présent dans de nombreux tissus. Un traitement de remplacement dans une carence en vitamine D est donc plausible sur le plan mécanistique.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Calcitriol (traduction non officielle) : « La synthèse et le catabolisme endogènes du calcitriol, ainsi que les mécanismes de contrôle physiologiques qui influent sur ces processus, jouent un rôle essentiel dans la régulation de la concentration sérique de calcitriol. La production quotidienne physiologique est normalement de 0,5 à 1,0 mcg et est légèrement plus élevée pendant les périodes de synthèse osseuse accrue (p. ex., croissance ou grossesse). » Texte original en anglais : "Endogenous synthesis and catabolism of calcitriol, as well as physiological control mechanisms affecting these processes, play a critical role regulating the serum level of calcitriol. Physiological daily production is normally 0.5 to 1.0 mcg and is somewhat higher during periods of increased bone synthesis (eg, growth or pregnancy)." ([DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e), version du 2026-10-15 ; consulté le 2026-11-19). Le calcitriol est connu comme la forme active (1,25-dihydroxy) de la vitamine D, qui agit via le récepteur de la vitamine D présent dans de nombreux tissus. Un traitement de remplacement dans une carence en vitamine D est donc plausible sur le plan mécanistique.
 
 Cette prédiction appelle toutefois une grande prudence. L'entrée de maladie correspondante est classée comme obsolète dans l'ontologie, et le score élevé reflète probablement une proximité avec des indications déjà liées à la vitamine D plutôt qu'une preuve réelle. De plus, la carence en vitamine D est en pratique corrigée par la vitamine D native (cholécalciférol, ergocalciférol) et non par le calcitriol.
 
@@ -97,6 +97,19 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 - Données sur le mécanisme d'action.
 - Mises en garde et contre-indications issues de la notice ANSM.
 - Études cliniques comparant le calcitriol à la vitamine D native dans cette situation.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: calcitriol prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=45f78bbe-4bbc-404d-a061-ead3db50908e) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

@@ -60,7 +60,7 @@ Ces preuves concernent toutefois surtout l'**hidradénite suppurée (acné inver
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les sources compilées. Sur la base des informations connues, l'acitrétine est un rétinoïde systémique de deuxième génération (métabolite de l'étrétinate). Elle module la différenciation et la prolifération des kératinocytes et exerce un effet anti-inflammatoire via les récepteurs RAR/RXR. Sa principale réussite clinique documentée dans la littérature est le psoriasis.
+Selon la rubrique « Clinical Pharmacology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Acitretin (traduction non officielle) : « Le mécanisme d'action de l'acitrétine est inconnu. » Texte original en anglais : "The mechanism of action of acitretin is unknown." ([DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910), version du 2026-10-20 ; consulté le 2026-11-19). Sur la base des informations connues, l'acitrétine est un rétinoïde systémique de deuxième génération (métabolite de l'étrétinate). Elle module la différenciation et la prolifération des kératinocytes et exerce un effet anti-inflammatoire via les récepteurs RAR/RXR. Sa principale réussite clinique documentée dans la littérature est le psoriasis.
 
 L'acné repose notamment sur l'activité des glandes sébacées et l'hyperkératinisation folliculaire, deux processus sur lesquels les rétinoïdes agissent. Cela donne un fondement mécanistique plausible à la prédiction.
 
@@ -148,11 +148,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acitretin prescribing information, AvKARE](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6af396c2-af3e-436d-ba9a-583637495910) |
 
 <!-- review:end log -->
 

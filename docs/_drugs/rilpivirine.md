@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infection par 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des informations connues, la rilpivirine fait partie de la classe des INNTI de la transcriptase inverse du VIH-1, et son efficacité dans l'infection par le VIH est établie. Mécanistiquement, elle pourrait donc s'appliquer aux modèles d'infection par des virus apparentés.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Rilpivirine (traduction non officielle) : « La rilpivirine est un médicament antiviral. […] La rilpivirine est un inhibiteur non nucléosidique de la transcriptase inverse (INNTI) de type diarylpyrimidine du virus de l'immunodéficience humaine de type 1 (VIH-1) et inhibe la réplication du VIH-1 par inhibition non compétitive de la transcriptase inverse (TI) du VIH-1. La rilpivirine n'inhibe pas les ADN polymérases cellulaires humaines α, β et γ. » Texte original en anglais : "Rilpivirine is an antiviral drug. […] Rilpivirine is a diarylpyrimidine non-nucleoside reverse transcriptase inhibitor (NNRTI) of human immunodeficiency virus type 1 (HIV-1) and inhibits HIV-1 replication by non-competitive inhibition of HIV-1 reverse transcriptase (RT). Rilpivirine does not inhibit the human cellular DNA polymerases α, β and γ." ([DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6), version du 2025-08-28 ; consulté le 2026-11-19). Sur la base des informations connues, la rilpivirine fait partie de la classe des INNTI de la transcriptase inverse du VIH-1, et son efficacité dans l'infection par le VIH est établie. Mécanistiquement, elle pourrait donc s'appliquer aux modèles d'infection par des virus apparentés.
 
 L'infection du macaque par le VIS ou le VIHS (virus chimérique portant la transcriptase inverse du VIH-1) est le modèle animal de référence de l'infection par le VIH. Les données précliniques (rilpivirine à action prolongée, seule ou avec le cabotégravir) sont donc pertinentes pour le VIH. En revanche, l'infection par le VIS n'est pas une indication humaine : cette prédiction conforte l'indication VIH existante plutôt qu'elle n'ouvre une nouvelle indication.
 
@@ -126,11 +126,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Edurant (rilpivirine hydrochloride) prescribing information, Janssen Products, LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03880372-2c68-45c6-a53a-f420c49541d6) |
 
 <!-- review:end log -->
 

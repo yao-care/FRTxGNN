@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour le **lymphome cutané p
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le bexarotène est un agoniste sélectif des récepteurs RXR : ces facteurs de transcription activés par un ligand contrôlent l'expression de gènes impliqués dans la croissance cellulaire, l'apoptose et la différenciation.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Bexarotene (traduction non officielle) : « Le bexarotène se lie sélectivement aux sous-types de récepteurs X des rétinoïdes (RXRα, RXRß, RXRγ) et les active. Les RXR peuvent former des hétérodimères avec divers récepteurs partenaires, tels que les récepteurs de l'acide rétinoïque (RAR), le récepteur de la vitamine D, le récepteur thyroïdien et les récepteurs activés par les proliférateurs de peroxysomes (PPAR). » Texte original en anglais : "Bexarotene selectively binds and activates retinoid X receptor subtypes (RXRα, RXRß, RXRγ). RXRs can form heterodimers with various receptor partners such as retinoic acid receptors (RARs), vitamin D receptor, thyroid receptor, and peroxisome proliferator activator receptors (PPARs)." ([DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc), version du 2020-04-30 ; consulté le 2026-11-19). D'après les connaissances générales, le bexarotène est un agoniste sélectif des récepteurs RXR : ces facteurs de transcription activés par un ligand contrôlent l'expression de gènes impliqués dans la croissance cellulaire, l'apoptose et la différenciation.
 
 Un lien avec les lymphomes cutanés à cellules B pourrait passer par une régulation commune, dépendante des RXR, de la prolifération des lymphocytes. Cette hypothèse reste toutefois spéculative : aucune des publications retrouvées ne montre une activité du bexarotène dans une maladie à cellules B.
 
@@ -124,6 +124,18 @@ Aucun essai clinique ni publication ne porte directement sur le bexarotène dans
 - Données détaillées sur le mécanisme d'action et sur l'expression des RXR dans les cellules B malignes
 - Mises en garde et contre-indications issues de la notice officielle
 - Évaluation de la compatibilité de la voie d'administration (orale) et du profil de sécurité (lipides, thyroïde, foie) pour cette population
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Targretin (bexarotene) prescribing information, Bausch Health US, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1d056725-0576-4338-8089-6336e768ccdc) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

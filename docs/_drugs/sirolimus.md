@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **liposarcome (li
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, le sirolimus inhibe le complexe mTORC1, un régulateur central de la croissance et de la prolifération cellulaires.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Sirolimus (traduction non officielle) : « Le sirolimus contenu dans FYARRO est un inhibiteur de la kinase cible mécanistique de la rapamycine (mTOR, anciennement appelée cible de la rapamycine chez les mammifères). mTOR, une sérine thréonine kinase, se situe en aval de la voie PI3K/AKT, contrôle des processus cellulaires clés tels que la survie, la croissance et la prolifération cellulaires, et est fréquemment dérégulée dans plusieurs cancers humains. Dans les cellules, le sirolimus se lie à l'immunophiline, la protéine de liaison FK-12 (FKBP-12), pour générer un complexe immunosuppresseur. » Texte original en anglais : "Sirolimus in FYARRO is an inhibitor of mechanistic target of rapamycin kinase (mTOR, previously known as mammalian target of rapamycin). mTOR, a serine threonine kinase, is downstream of the PI3K/AKT pathway, controls key cellular processes such as cell survival, growth, and proliferation, and is commonly dysregulated in several human cancers. In cells, sirolimus binds to the immunophilin, FK Binding Protein-12 (FKBP-12), to generate an immunosuppressive complex." ([DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf), version du 2026-09-09 ; consulté le 2026-11-19). D'après les connaissances générales, le sirolimus inhibe le complexe mTORC1, un régulateur central de la croissance et de la prolifération cellulaires.
 
 Une activation de la voie PI3K/AKT/mTOR est décrite dans les sarcomes des tissus mous, dont le liposarcome. Il est donc plausible, sur le plan biologique, qu'un inhibiteur de mTOR freine la croissance de ces tumeurs.
 
@@ -118,6 +118,18 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Données sur le mécanisme d'action et sur les sous-types de liposarcome concernés
 - Mises en garde et contre-indications issues de la notice
 - Plan de surveillance de sécurité (infections, métabolisme lipidique et glucidique, fonction rénale et hépatique)
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fyarro (sirolimus) prescribing information, Aadi Bioscience, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0f9bb784-53e2-46f9-a65d-1c6c2a230eaf) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

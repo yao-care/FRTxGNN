@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**HTAP associée a
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le tréprostinil est un analogue de la prostacycline (voie PGI2) qui provoque une vasodilatation artérielle pulmonaire et systémique et inhibe l'agrégation plaquettaire ainsi que la prolifération des cellules musculaires lisses. Son efficacité dans l'HTAP a été établie, et le mécanisme pourrait s'appliquer à l'HTAP associée aux cardiopathies congénitales.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Treprostinil (traduction non officielle) : « Le tréprostinil est un analogue de la prostacycline. Les principales actions pharmacologiques du tréprostinil sont une vasodilatation directe des lits vasculaires artériels pulmonaire et systémique et une inhibition de l'agrégation plaquettaire. » Texte original en anglais : "Treprostinil is a prostacyclin analogue. The major pharmacologic actions of treprostinil are direct vasodilation of pulmonary and systemic arterial vascular beds and inhibition of platelet aggregation." ([DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609), version du 2026-04-14 ; consulté le 2026-11-19). Sur la base des informations connues, le tréprostinil est un analogue de la prostacycline (voie PGI2) qui provoque une vasodilatation artérielle pulmonaire et systémique et inhibe l'agrégation plaquettaire ainsi que la prolifération des cellules musculaires lisses. Son efficacité dans l'HTAP a été établie, et le mécanisme pourrait s'appliquer à l'HTAP associée aux cardiopathies congénitales.
 
 L'HTAP associée aux cardiopathies congénitales est un sous-groupe reconnu de l'HTAP (Groupe 1). Il s'agit donc davantage d'un sous-groupe de l'indication d'origine que d'un véritable repositionnement : la valeur incrémentale est limitée.
 
@@ -125,11 +125,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et clarifier la raison de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tyvaso (treprostinil) prescribing information, United Therapeutics Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cbc31ab1-a80f-4b50-a3b1-39910b0fb609) |
 
 <!-- review:end log -->
 

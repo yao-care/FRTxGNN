@@ -59,7 +59,7 @@ Cette indication recoupe toutefois largement les usages d'origine : il ne s'agit
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans la base compilée. D'après les informations connues et la littérature citée, l'ipratropium est un dérivé quaternaire de l'atropine : il bloque de façon compétitive les récepteurs muscariniques du muscle lisse bronchique, s'oppose à l'acétylcholine et interrompt la bronchoconstriction d'origine vagale.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ipratropium (traduction non officielle) : « Le bromure d'ipratropium est un agent anticholinergique (parasympatholytique) qui, d'après des études chez l'animal, semble inhiber les réflexes à médiation vagale en antagonisant l'action de l'acétylcholine, l'agent transmetteur libéré au niveau des jonctions neuromusculaires dans le poumon. Les anticholinergiques empêchent les augmentations de la concentration intracellulaire de Ca++ provoquées par l'interaction de l'acétylcholine avec les récepteurs muscariniques du muscle lisse bronchique. » Texte original en anglais : "Ipratropium bromide is an anticholinergic (parasympatholytic) agent which, based on animal studies, appears to inhibit vagally-mediated reflexes by antagonizing the action of acetylcholine, the transmitter agent released at the neuromuscular junctions in the lung. Anticholinergics prevent the increases in intracellular concentration of Ca++ which is caused by interaction of acetylcholine with the muscarinic receptors on bronchial smooth muscle." ([DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884), version du 2025-11-05 ; consulté le 2026-11-19). D'après les informations connues et la littérature citée, l'ipratropium est un dérivé quaternaire de l'atropine : il bloque de façon compétitive les récepteurs muscariniques du muscle lisse bronchique, s'oppose à l'acétylcholine et interrompt la bronchoconstriction d'origine vagale.
 
 La « maladie pulmonaire obstructive » englobe la BPCO, la bronchite chronique et l'emphysème, qui figurent déjà parmi les indications d'origine du médicament. La prédiction est donc mécanistiquement cohérente, mais elle est en grande partie circulaire : elle confirme le modèle plus qu'elle ne révèle un usage nouveau.
 
@@ -150,11 +150,12 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et le statut de commercialisation actuel en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Atrovent Hfa (ipratropium bromide) prescribing information, Boehringer Ingelheim Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=170e98ef-5560-4068-be7d-e649068eb884) |
 
 <!-- review:end log -->
 

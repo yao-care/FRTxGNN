@@ -57,7 +57,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (r
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. Sur la base des connaissances générales, la dexkétoprofène est un AINS qui inhibe les cyclooxygénases (COX-1/COX-2) et réduit la synthèse des prostaglandines, ce qui diminue l'inflammation et la douleur.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Dexketoprofen est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase » Texte original en anglais : "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, la dexkétoprofène est un AINS qui inhibe les cyclooxygénases (COX-1/COX-2) et réduit la synthèse des prostaglandines, ce qui diminue l'inflammation et la douleur.
 
 Cette action sur les prostaglandines et l'inflammation neurogène est impliquée dans la douleur migraineuse. La dexkétoprofène, déjà utilisée comme antalgique, peut donc raisonnablement s'appliquer à la crise de migraine aiguë. Plusieurs essais randomisés, dont un essai de phase 4 contrôlé contre placebo, et une méta-analyse d'essais randomisés ont évalué ce médicament dans cette situation.
 
@@ -137,13 +137,14 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « **Réserves :** les essais sont de phase 4 (post-commercialisation) et non de phase 3 ; plusieurs sont des comparaisons avec un traitement ac » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Vérifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL75435 (dexketoprofen): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL75435) |
 
 <!-- review:end log -->
 

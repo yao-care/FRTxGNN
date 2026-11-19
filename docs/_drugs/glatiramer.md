@@ -54,7 +54,7 @@ Glatiramer est un immunomodulateur utilisé dans la sclérose en plaques. Le mod
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, glatiramer est un copolymère aléatoire de quatre acides aminés (acide L-glutamique, L-alanine, L-tyrosine, L-lysine). Il oriente la réponse des lymphocytes T vers des profils Th2/régulateurs et est utilisé dans la sclérose en plaques.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Glatiramer (traduction non officielle) : « Le ou les mécanismes par lesquels l'acétate de glatiramère exerce ses effets chez les patients atteints de SEP ne sont pas entièrement élucidés. Cependant, on pense que l'acétate de glatiramère agit en modifiant les processus immunitaires considérés comme responsables de la pathogenèse de la SEP. » Texte original en anglais : "The mechanism(s) by which glatiramer acetate exerts its effects in patients with MS are not fully understood. However, glatiramer acetate is thought to act by modifying immune processes that are believed to be responsible for the pathogenesis of MS." ([DailyMed: Glatopa (glatiramer acetate) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0679689e-8930-4d6a-b922-5125082b2716), version du 2026-10-26 ; consulté le 2026-11-19). Sur la base des informations connues, glatiramer est un copolymère aléatoire de quatre acides aminés (acide L-glutamique, L-alanine, L-tyrosine, L-lysine). Il oriente la réponse des lymphocytes T vers des profils Th2/régulateurs et est utilisé dans la sclérose en plaques.
 
 **Le lien mécanistique n'est pas établi.** Les hémoglobinopathies (drépanocytose, thalassémies) sont des maladies héréditaires de la structure ou de la synthèse de l'hémoglobine. Aucune voie connue ne relie l'action immunomodulatrice du glatiramer à la correction ou à l'amélioration de ces maladies.
 
@@ -114,12 +114,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les quatre AMM ont le statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Glatopa (glatiramer acetate) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0679689e-8930-4d6a-b922-5125082b2716) |
 
 <!-- review:end log -->
 

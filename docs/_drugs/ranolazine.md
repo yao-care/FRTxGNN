@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome néphr
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. D'après les connaissances générales, la ranolazine inhibe le courant sodique tardif (INaL) et peut aussi agir sur d'autres canaux ioniques, notamment hERG et, dans une moindre mesure, le courant sodique de pointe.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Ranolazine (traduction non officielle) : « Le mécanisme d'action responsable des effets antiangineux de la ranolazine n'a pas été déterminé. La ranolazine exerce des effets anti-ischémiques et antiangineux qui ne dépendent pas d'une réduction de la fréquence cardiaque ou de la pression artérielle. Elle n'affecte pas le double produit (fréquence × pression), une mesure du travail myocardique, lors d'un effort maximal. » Texte original en anglais : "The mechanism of action of ranolazine's antianginal effects has not been determined. Ranolazine has anti-ischemic and antianginal effects that do not depend upon reductions in heart rate or blood pressure. It does not affect the rate-pressure product, a measure of myocardial work, at maximal exercise." ([DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e), version du 2025-01-29 ; consulté le 2026-11-19). D'après les connaissances générales, la ranolazine inhibe le courant sodique tardif (INaL) et peut aussi agir sur d'autres canaux ioniques, notamment hERG et, dans une moindre mesure, le courant sodique de pointe.
 
 Le NSIAD est causé par des mutations avec gain de fonction du récepteur V2 de la vasopressine (AVPR2, par exemple R137C/R137L) ou, dans certains cas, par une anomalie de signalisation liée à GNAS. Le récepteur est alors activé en permanence, ce qui provoque une rétention d'eau indépendante de la vasopressine.
 
@@ -102,6 +102,19 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 - Indication originale de l'AMM, actuellement non renseignée.
 - Données précliniques ou études de mécanisme sur les voies V2/AMPc/aquaporine-2.
 - Compatibilité des voies d'administration, à évaluer.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aspruzyo Sprinkle (ranolazine) prescribing information, SUN PHARMACEUTICAL INDUSTRIES, INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dd9f81e4-50da-4551-aed5-559d304df42e) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.

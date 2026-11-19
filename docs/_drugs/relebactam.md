@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hyperamylasémie
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, le relebactam est un inhibiteur de bêta-lactamases de type diazabicyclooctane, sans activité antibactérienne propre. Il protège l'imipénème contre les bêta-lactamases de classes A et C, ce qui explique son utilité dans les infections urinaires compliquées et la pyélonéphrite.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Relebactam est (traduction non officielle) : « Inhibiteur de la bêta-lactamase SHV-1 ; inhibiteur de la bêta-lactamase bactérienne TEM ; inhibiteur de bêta-lactamase ; inhibiteur de la bêta-lactamase KPC hydrolysant les carbapénèmes » Texte original en anglais : "Beta-lactamase SHV-1 inhibitor; Bacterial beta-lactamase TEM inhibitor; Beta-lactamase inhibitor; Carbapenem-hydrolyzing beta-lactamase KPC inhibitor" ([ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le relebactam est un inhibiteur de bêta-lactamases de type diazabicyclooctane, sans activité antibactérienne propre. Il protège l'imipénème contre les bêta-lactamases de classes A et C, ce qui explique son utilité dans les infections urinaires compliquées et la pyélonéphrite.
 
 **En réalité, cette prédiction n'est pas étayée mécanistiquement.** L'hyperamylasémie est une anomalie biologique, souvent liée à une atteinte pancréatique ou des glandes salivaires. Aucune voie plausible ne relie l'inhibition des bêta-lactamases bactériennes à son traitement.
 
@@ -105,11 +105,12 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3301605 (relebactam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301605) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **lèpre**, mais 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les informations connues, l'enfortumab vedotin est un conjugué anticorps-médicament dirigé contre la Nectine-4, qui libère la MMAE, un agent cytotoxique perturbant les microtubules, dans les cellules tumorales exprimant cette cible.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Enfortumab Vedotin (traduction non officielle) : « L'enfortumab védotine-ejfv est un ADC. L'anticorps est une IgG1 kappa humaine dirigée contre Nectin-4, une protéine d'adhésion située à la surface des cellules. La petite molécule, la MMAE, est un agent perturbateur des microtubules, fixée à l'anticorps par un lieur clivable par les protéases. » Texte original en anglais : "Enfortumab vedotin-ejfv is an ADC. The antibody is a human IgG1 kappa directed against Nectin-4, an adhesion protein located on the surface of cells. The small molecule, MMAE, is a microtubule-disrupting agent, attached to the antibody via a protease-cleavable linker." ([DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed), version du 2026-08-04 ; consulté le 2026-11-19). D'après les informations connues, l'enfortumab vedotin est un conjugué anticorps-médicament dirigé contre la Nectine-4, qui libère la MMAE, un agent cytotoxique perturbant les microtubules, dans les cellules tumorales exprimant cette cible.
 
 Aucun lien mécanistique n'est établi entre ce mode d'action et l'infection par *Mycobacterium leprae*. Rien dans les données ne relie le ciblage de la Nectine-4 ou la délivrance d'une charge cytotoxique à la lèpre. Le score TxGNN élevé (0,9953) reflète vraisemblablement des artefacts liés à la structure du réseau de connaissances plutôt qu'une plausibilité biologique.
 
@@ -127,12 +127,13 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles da
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Indications originales approuvées et clarification du statut des AMM annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Padcev Ejfv (enfortumab vedotin) prescribing information, SEAGEN INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b5631d3e-4604-4363-8f20-11dfc5a4a8ed) |
 
 <!-- review:end log -->
 

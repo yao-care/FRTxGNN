@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans l'**arthrite bactérien
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, le méropénem est un carbapénème qui inhibe la synthèse de la paroi bactérienne en se fixant sur les protéines de liaison à la pénicilline (PLP).
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Meropenem (traduction non officielle) : « Le méropénem est un médicament antibactérien. […] L'activité bactéricide du méropénem résulte de l'inhibition de la synthèse de la paroi cellulaire. Le méropénem pénètre la paroi cellulaire de la plupart des bactéries à Gram positif et à Gram négatif pour se lier aux protéines de liaison aux pénicillines (PLP) cibles. » Texte original en anglais : "Meropenem is an antibacterial drug. […] The bactericidal activity of meropenem results from the inhibition of cell wall synthesis. Meropenem penetrates the cell wall of most gram-positive and gram-negative bacteria to bind penicillin-binding-protein (PBP) targets." ([DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f), version du 2026-11-02 ; consulté le 2026-11-19). Sur la base des connaissances générales, le méropénem est un carbapénème qui inhibe la synthèse de la paroi bactérienne en se fixant sur les protéines de liaison à la pénicilline (PLP).
 
 Son spectre couvre de nombreuses bactéries responsables d'arthrites septiques (streptocoques, staphylocoques sensibles à la méticilline, bacilles à Gram négatif, *Pseudomonas*). Ce lien mécanistique rend la prédiction plausible sur le plan théorique.
 
@@ -110,6 +110,18 @@ Le score du modèle est très élevé (0,9992), mais aucun essai clinique n'est 
 - Mises en garde et contre-indications issues de la notice française
 - Données détaillées sur le mécanisme d'action
 - Positionnement par rapport aux alternatives de première intention et aux principes de bon usage des carbapénèmes
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: meropenem prescribing information, Civica, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b0075b72-c3cc-f844-e053-2a95a90a417f) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

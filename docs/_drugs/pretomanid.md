@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **candidose**, 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. D'après les connaissances générales, la prétomanide est une prodrogue activée chez les mycobactéries par la nitroréductase dépendante de la déazaflavine (Ddn), qui requiert le cofacteur F420.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Pretomanid (traduction non officielle) : « Le prétomanid est un médicament antimycobactérien de la classe des nitroimidazooxazines. […] Pretomanid Tablet est un médicament antimycobactérien de la classe des nitroimidazooxazines. Le prétomanid tue les M. tuberculosis en réplication active en inhibant la biosynthèse des acides mycoliques, bloquant ainsi la production de la paroi cellulaire. En conditions anaérobies, contre les bactéries non réplicatives, le prétomanid agit comme un poison respiratoire après libération d'oxyde nitrique. » Texte original en anglais : "Pretomanid is a nitroimidazooxazine antimycobacterial drug. […] Pretomanid Tablet is a nitroimidazooxazine antimycobacterial drug. Pretomanid kills actively replicating M. tuberculosis by inhibiting mycolic acid biosynthesis, thereby blocking cell wall production. Under anaerobic conditions, against non-replicating bacteria, pretomanid acts as a respiratory poison following nitric oxide release." ([DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3), version du 2024-11-15 ; consulté le 2026-11-19). D'après les connaissances générales, la prétomanide est une prodrogue activée chez les mycobactéries par la nitroréductase dépendante de la déazaflavine (Ddn), qui requiert le cofacteur F420.
 
 **Cette prédiction est en réalité peu plausible sur le plan biologique.** Les champignons comme *Candida* ne possèdent pas cette voie d'activation. Aucun lien mécanistique n'est étayé par les données disponibles, et le score élevé du modèle TxGNN (apprentissage profond) (0,9969) peut refléter des similitudes apprises par le modèle entre maladies apparentées, pas une preuve biologique.
 
@@ -130,13 +130,14 @@ Plusieurs interactions majeures concernent des inducteurs enzymatiques ou des m�
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'unique AMM est annulée : le médicament n'est actuellement pas commercialisé en France sous cette AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: pretomanid prescribing information, Viatris Specialty LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f1906fc9-cb3c-4e13-8a4a-da76100c1bf3) |
 
 <!-- review:end log -->
 

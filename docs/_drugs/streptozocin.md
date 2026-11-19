@@ -65,7 +65,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **sclérose en 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles. Sur la base des informations connues, la streptozocine est un agent alkylant de la famille des nitrosourées. Elle est captée de façon sélective par les cellules bêta du pancréas via le transporteur GLUT2 et est cytotoxique. Son usage classique concerne les tumeurs neuroendocrines du pancréas.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Streptozocin est (traduction non officielle) : « Inhibiteur de l'ADN » Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL1977579 (streptozocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1977579), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la streptozocine est un agent alkylant de la famille des nitrosourées. Elle est captée de façon sélective par les cellules bêta du pancréas via le transporteur GLUT2 et est cytotoxique. Son usage classique concerne les tumeurs neuroendocrines du pancréas.
 
 Un argument théorique pourrait être une action immunosuppressive ou une déplétion lymphocytaire, comme pour d'autres agents cytotoxiques utilisés dans la sclérose en plaques. Cependant, aucun lien mécanistique direct n'est étayé par les données compilées. Le profil de toxicité de la streptozocine (néphrotoxicité, effet diabétogène) rend cette piste peu plausible.
 
@@ -162,12 +162,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et son autorisation de mise sur le marché (AMM) y est aujourd'hui annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1977579 (streptozocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1977579) |
 
 <!-- review:end log -->
 

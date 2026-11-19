@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (*
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances pharmacologiques générales, l'atropine est un antagoniste non sélectif des récepteurs muscariniques de l'acétylcholine. Son indication d'origine n'est pas documentée ici, car les AMM ne contiennent aucun texte d'indication.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Atropine (traduction non officielle) : « L'atropine bloque de manière compétitive les effets de l'acétylcholine, y compris l'excès d'acétylcholine dû à une intoxication par les organophosphorés, au niveau des récepteurs cholinergiques muscariniques du muscle lisse, du muscle cardiaque et des cellules des glandes sécrétoires, ainsi que dans les ganglions autonomes périphériques et le système nerveux central. » Texte original en anglais : "Atropine competitively blocks the effects of acetylcholine, including excess acetylcholine due to organophosphorus poisoning, at muscarinic cholinergic receptors on smooth muscle, cardiac muscle, secretory gland cells, and in peripheral autonomic ganglia and the central nervous system." ([DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7), version du 2022-09-15 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'atropine est un antagoniste non sélectif des récepteurs muscariniques de l'acétylcholine. Son indication d'origine n'est pas documentée ici, car les AMM ne contiennent aucun texte d'indication.
 
 La littérature préclinique relie la signalisation cholinergique à la physiopathologie de la migraine :
 - une modulation cholinergique via les mastocytes méningés dans l'inflammation neurogène (modèle de rat) ;
@@ -149,12 +149,13 @@ Ces interactions reflètent surtout des effets anticholinergiques additifs et un
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Deux AMM supplémentaires, également annulées, existent (Atropine Alcon 0,5 % et 0,3 %, collyres) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Atropen Auto-Injector (atropine) prescribing information, Meridian Medical Technologies LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e2d4307d-da8f-49f5-aac0-02355dd9ffb7) |
 
 <!-- review:end log -->
 

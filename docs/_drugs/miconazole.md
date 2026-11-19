@@ -56,7 +56,7 @@ Les preuves restent limitées : **aucun essai clinique** enregistré et **4 publ
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après la pharmacologie connue des azolés, le miconazole inhibe la lanostérol 14-alpha-déméthylase (CYP51) fongique et bloque ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Miconazole (traduction non officielle) : « Le miconazole est un médicament antifongique. […] Le miconazole inhibe l'enzyme cytochrome P450 14α-déméthylase, ce qui entraîne une inhibition de la synthèse de l'ergostérol, composant essentiel de la membrane cellulaire fongique. Le miconazole affecte également la synthèse des triglycérides et des acides gras et inhibe les enzymes oxydatives et peroxydatives, augmentant la quantité d'espèces réactives de l'oxygène dans la cellule. » Texte original en anglais : "Miconazole is an antifungal drug. […] Miconazole inhibits the enzyme cytochrome P450 14α-demethylase which leads to inhibition of ergosterol synthesis, an essential component of the fungal cell membrane. Miconazole also affects the synthesis of triglycerides and fatty acids and inhibits oxidative and peroxidative enzymes, increasing the amount of reactive oxygen species within the cell." ([DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a), version du 2026-01-08 ; consulté le 2026-11-19). D'après la pharmacologie connue des azolés, le miconazole inhibe la lanostérol 14-alpha-déméthylase (CYP51) fongique et bloque ainsi la synthèse de l'ergostérol, composant essentiel de la membrane des champignons.
 
 Plusieurs pistes rendent un lien avec l'acné plausible. Des tests in vitro montrent une activité des antifongiques azolés contre *Cutibacterium (Propionibacterium) acnes*, bactérie impliquée dans l'acné. Le miconazole agit aussi sur *Malassezia*, levure responsable de folliculites qui ressemblent cliniquement à l'acné. Enfin, une revue décrit des effets antibactériens et anti-inflammatoires sur la peau.
 
@@ -102,6 +102,18 @@ La prédiction repose surtout sur le modèle et sur une revue générale ; aucun
 - Les données détaillées sur le mécanisme d'action
 - Les mises en garde et contre-indications de la notice officielle
 - Une évaluation de la faisabilité de la voie d'administration (topique cutanée) pour cette nouvelle indication
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Oravig (miconazole) prescribing information, Galt Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dc2427ff-e566-4b48-b289-9e51c011250a) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

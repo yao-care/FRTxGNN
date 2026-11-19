@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace contre l'**infection par 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées. D'après les connaissances générales, le voxilaprevir est un inhibiteur de la protéase NS3/4A du VHC. Son efficacité dans l'hépatite C chronique est établie, notamment en retraitement après échec d'autres antiviraux à action directe.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Voxilaprevir est (traduction non officielle) : « Inhibiteur de la sérine protéase NS3/NS4A du virus de l'hépatite C » Texte original en anglais : "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, le voxilaprevir est un inhibiteur de la protéase NS3/4A du VHC. Son efficacité dans l'hépatite C chronique est établie, notamment en retraitement après échec d'autres antiviraux à action directe.
 
 Le lien mécanistique avec l'hépatite B est faible. Le VHB est un virus à ADN qui se réplique par transcription inverse et ne possède aucune protéase de type NS3/4A. Il n'existe donc pas de cible commune évidente.
 
@@ -121,11 +121,12 @@ Pour les mises en garde et les contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « La seule AMM française est annulée, ce qui limite aussi la faisabilité d'un repositionnement en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3707372 (voxilaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3707372) |
 
 <!-- review:end log -->
 

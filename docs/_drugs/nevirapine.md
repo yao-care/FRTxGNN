@@ -60,7 +60,7 @@ Il s'agit d'une indication vétérinaire, sans pertinence directe pour un dével
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Actuellement, les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les données compilées pour ce rapport. Sur la base des connaissances générales, la névirapine appartient à la classe des INNTI, dont l'efficacité dans l'infection par le VIH-1 est établie. Elle se fixe sur une poche allostérique de la transcriptase inverse du VIH-1.
+Selon les rubriques « Mechanism of Action » et « Microbiology » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Nevirapine (traduction non officielle) : « La névirapine est un médicament antirétroviral. […] La névirapine est un inhibiteur non nucléosidique de la transcriptase inverse (INNTI) du VIH-1. La névirapine se lie directement à la transcriptase inverse (TI) et bloque les activités ADN polymérase ARN-dépendante et ADN-dépendante en provoquant une désorganisation du site catalytique de l'enzyme. » Texte original en anglais : "Nevirapine is an antiretroviral drug. […] Nevirapine is a non-nucleoside reverse transcriptase inhibitor (NNRTI) of HIV-1. Nevirapine binds directly to reverse transcriptase (RT) and blocks the RNA-dependent and DNA-dependent DNA polymerase activities by causing a disruption of the enzyme's catalytic site." ([DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15), version du 2026-10-08 ; consulté le 2026-11-19). Sur la base des connaissances générales, la névirapine appartient à la classe des INNTI, dont l'efficacité dans l'infection par le VIH-1 est établie. Elle se fixe sur une poche allostérique de la transcriptase inverse du VIH-1.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus doté lui aussi d'une transcriptase inverse, ce qui fournit une base mécanistique théorique à la prédiction.
 
@@ -148,12 +148,13 @@ Deux autres prédictions ont été examinées et ne justifient pas d'avancer :
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « t n'a plus d'AMM valide en France e » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: nevirapine prescribing information, Aurobindo Pharma Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5f6c3eed-2a5d-46ed-9a7c-59715f338a15) |
 
 <!-- review:end log -->
 

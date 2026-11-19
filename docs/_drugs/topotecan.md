@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du se
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Les données détaillées sur le mécanisme d'action ne sont pas disponibles dans les informations compilées pour ce rapport. D'après les connaissances établies, le topotécan est un inhibiteur de la topoisomérase I : il provoque des lésions de l'ADN et une mort cellulaire dépendante de la réplication dans les cellules tumorales à division rapide. Son efficacité dans le cancer de l'ovaire est reconnue, et il pourrait mécanistiquement être applicable à d'autres tumeurs solides.
+Selon la rubrique « Mechanism of Action » des informations de prescription approuvées par la FDA américaine (Prescribing Information) pour Topotecan (traduction non officielle) : « La topoisomérase I soulage la contrainte de torsion de l'ADN en induisant des cassures simple brin réversibles. Le topotécan se lie au complexe topoisomérase I-ADN et empêche la religation de ces cassures simple brin. On pense que la cytotoxicité du topotécan est due aux lésions double brin de l'ADN produites au cours de la synthèse de l'ADN, lorsque les enzymes de réplication interagissent avec le complexe ternaire formé par le topotécan, la topoisomérase I et l'ADN. » Texte original en anglais : "Topoisomerase I relieves torsional strain in DNA by inducing reversible single-strand breaks. Topotecan binds to the topoisomerase I-DNA complex and prevents re-ligation of these single-strand breaks. The cytotoxicity of topotecan is thought to be due to double-strand DNA damage produced during DNA synthesis, when replication enzymes interact with the ternary complex formed by topotecan, topoisomerase I, and DNA." ([DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579), version du 2023-09-18 ; consulté le 2026-11-19). D'après les connaissances établies, le topotécan est un inhibiteur de la topoisomérase I : il provoque des lésions de l'ADN et une mort cellulaire dépendante de la réplication dans les cellules tumorales à division rapide. Son efficacité dans le cancer de l'ovaire est reconnue, et il pourrait mécanistiquement être applicable à d'autres tumeurs solides.
 
 Une étude préclinique de 2023 (PMID 37987734) suggère que l'inhibition de Top1 entraîne une accumulation anormale de boucles R et une létalité synthétique dans les cancers dépendants de MYC, ce qui concernerait certains sous-types de cancer du sein, comme les formes triple négatives. Par ailleurs, l'efflux par BCRP/ABCG2 est un mécanisme reconnu de transport et de résistance au topotécan dans le cancer du sein (PMID 25236865).
 
@@ -137,11 +137,12 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 
 ## Journal de vérification
 
-Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
 
 <!-- review:end log -->
 
