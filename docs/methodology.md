@@ -14,6 +14,23 @@ De la prédiction par IA à la gradation des preuves — chaque candidat dispose
 
 ---
 
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## France : application de la méthode sur ce site
+
+Données locales : [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/). Les données locales sont les autorisations de mise sur le marché de la Base de données publique des médicaments (BDPM). Les AMM abrogées ou archivées ne sont pas comptées comme actives.
+
+| Niveau | Rapports | …avec AMM locale actives |
+|---|---|---|
+| L1 | {{ site.data.local_facts.by_level.L1.n }} | {{ site.data.local_facts.by_level.L1.current }} |
+| L2 | {{ site.data.local_facts.by_level.L2.n }} | {{ site.data.local_facts.by_level.L2.current }} |
+| L3 | {{ site.data.local_facts.by_level.L3.n }} | {{ site.data.local_facts.by_level.L3.current }} |
+| L4 | {{ site.data.local_facts.by_level.L4.n }} | {{ site.data.local_facts.by_level.L4.current }} |
+| L5 | {{ site.data.local_facts.by_level.L5.n }} | {{ site.data.local_facts.by_level.L5.current }} |
+
+Le journal de vérification compte **{{ site.data.local_facts.reviews.records }}** entrées sur **{{ site.data.local_facts.reviews.public_pages_with_records }}** pages ; les corrections ne modifient que des données réglementaires, jamais les prédictions du modèle.
+
+<!-- local-facts:end -->
+
 ## Chaîne de traitement globale
 
 <p class="key-answer" data-question="Comment FRTxGNN produit-il ses prédictions ?">

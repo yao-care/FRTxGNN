@@ -49,12 +49,32 @@ demandez les essais cliniques, le nom du médicament et l'indication sont envoy�
 
 ---
 
-## Droits des personnes concernées
+<!-- privacy-law:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改；法規與連結見 .claude/privacy_text_20261119.py）-->
+## Droit applicable
 
-Ce site n'a pas de comptes et ne conserve aucune donnée personnelle sur des serveurs propres (il n'en a pas). Les
-statistiques d'utilisation sont collectées par Google Analytics 4 ; vous pouvez bloquer ou supprimer ses cookies dans les
-paramètres de votre navigateur.
-Pour toute question sur cette politique, contactez service@yao.care.
+Pour les visiteurs en France, s'appliquent le [Règlement général sur la protection des données (RGPD)](https://eur-lex.europa.eu/eli/reg/2016/679/oj) et la [loi Informatique et Libertés n° 78-17](https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000886460) ; les cookies de mesure d'audience relèvent aussi de son article 82. L'autorité de contrôle est la [CNIL](https://www.cnil.fr/). L'éditeur est établi à Taïwan, sans établissement dans l'UE ; le traitement concerné porte sur les données d'usage collectées par Google Analytics 4 au moyen de cookies.
+
+## Vos droits et comment les exercer
+
+- Droit d'accès (article 15) et de rectification (article 16).
+- Droit à l'effacement (article 17) et à la limitation (article 18).
+- Droit d'opposition (article 21), y compris à la mesure d'audience.
+- Droit d'introduire une réclamation auprès de la CNIL (article 77).
+
+Demandes et questions : service@yao.care. Le site n'ayant pas de comptes, nous ne pouvons agir sur les données détenues par Google Analytics que si vous nous donnez assez de précisions (par exemple la date et les pages de votre visite) ; vous pouvez aussi bloquer ou supprimer les cookies de mesure d'audience dans votre navigateur.
+
+## Droit d'auteur et sources de données
+
+Les textes du site sont protégés par le [Code de la propriété intellectuelle](https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000006069414). Le code du site est publié sous licence MIT dans le [dépôt GitHub](https://github.com/yao-care/FRTxGNN) ; les textes des rapports sont © 藥提醒科技有限公司 (yao.care).
+
+Sources de données de ce site et leurs conditions :
+
+- Données de prédiction **TxGNN** (Harvard Dataverse) : dédiées au domaine public (CC0 1.0) ; citer Huang et al., *Nature Medicine* 2024.
+- **ClinicalTrials.gov** et **PubMed** : National Library of Medicine des États-Unis ; voir les [conditions de ClinicalTrials.gov](https://clinicaltrials.gov/about-site/terms-conditions) et les [politiques du NCBI](https://www.ncbi.nlm.nih.gov/home/about/policies/) (certains résumés PubMed restent soumis au droit d'auteur de l'éditeur).
+- Identifiants et données **DrugBank** : selon les conditions de licence de [DrugBank](https://go.drugbank.com/) (usage non commercial).
+- **Jeu de données local** : [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/), publié par ANSM (Base de données publique des médicaments) ; sa réutilisation relève des conditions de l'éditeur, et ce site n'accorde aucun droit supplémentaire.
+
+<!-- privacy-law:end -->
 
 ---
 

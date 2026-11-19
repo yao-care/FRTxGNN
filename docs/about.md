@@ -14,27 +14,31 @@ Accélérer la validation des preuves du repositionnement de médicaments grâce
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## France : données de ce site
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## France : les données de ce site en chiffres
 
-Ce site publie des rapports sur **{{ site.data.drug_stats.total_drugs }}** médicaments figurant dans les données d'enregistrement ([ANSM](https://ansm.sante.fr/), France).
+Données locales : [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/). Les données locales sont les autorisations de mise sur le marché de la Base de données publique des médicaments (BDPM). Les AMM abrogées ou archivées ne sont pas comptées comme actives.
 
-Jeu de données : [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) ; il est téléchargé et comparé automatiquement chaque semaine (le lundi). Détails : [Sources de données]({{ '/sources/' | relative_url }}).
+| Élément | Valeur |
+|---|---|
+| Médicaments avec rapport publié | {{ site.data.local_facts.drugs_total }} |
+| Médicaments présents dans les données locales | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …avec au moins une AMM actives | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …avec des AMM, mais aucune actives | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Médicaments absents des données locales | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Entrées locales (AMM de la BDPM) | {{ site.data.local_facts.licence.items_total }} |
+| …dont actives | {{ site.data.local_facts.licence.items_current }} |
+| Entrées du journal de vérification | {{ site.data.local_facts.reviews.records }} |
+| Pages avec entrées de vérification | {{ site.data.local_facts.reviews.public_pages_with_records }} |
+| Paires médicament–maladie prédites absentes de tous les autres sites TxGNN | {{ site.data.local_facts.cross.unique_pairs }} |
 
-Rapports par niveau de preuve :
+{% if site.data.local_facts.top_licensed.size > 0 %}Médicaments ayant le plus d'AMM de la BDPM actives : {% for r in site.data.local_facts.top_licensed %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.lv }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% endif %}
 
-| Niveau de preuve | Rapports | Part |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.recent_reviews.size > 0 %}Dernières corrections du journal de vérification : {% for r in site.data.local_facts.recent_reviews limit: 8 %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-31 paires médicament–maladie prédites sur ce site n'apparaissent sur aucun autre des 30 sites TxGNN.
+Exemples de prédictions qu'aucun autre site TxGNN ne mentionne pour le même médicament : [Almitrine]({{ '/drugs/almitrine/' | relative_url }}) → Bronchite, [Clotiazepam]({{ '/drugs/clotiazepam/' | relative_url }}) → insomnia (disease), [Fluindione]({{ '/drugs/fluindione/' | relative_url }}) → rheumatoid arthritis, [Nordazepam]({{ '/drugs/nordazepam/' | relative_url }}) → Insomnie, [Oxalic Acid]({{ '/drugs/oxalic-acid/' | relative_url }}) → severe nonproliferative diabetic retinopathy, [Pipobroman]({{ '/drugs/pipobroman/' | relative_url }}) → diabetic cataract, [Tertatolol]({{ '/drugs/tertatolol/' | relative_url }}) → lingual-facial-buccal dyskinesia, [Tixocortol]({{ '/drugs/tixocortol/' | relative_url }}) → primary cutaneous T-cell lymphoma.
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Contexte
 

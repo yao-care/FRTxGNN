@@ -1,0 +1,480 @@
+{
+ "_about": "本檔由 scripts/local_facts.py 產生（母目錄 .claude/local_facts_lib.py），勿手改；cross 欄位由母目錄 .claude/gen_local_pages_20261119.py 更新",
+ "drugs_total": 813,
+ "level_counts": {
+  "L1": 10,
+  "L2": 31,
+  "L3": 31,
+  "L4": 57,
+  "L5": 660
+ },
+ "level_na": 24,
+ "public_pages": 813,
+ "licence_snapshot": "fr_licenses.json.gz",
+ "licence": {
+  "drugs_with_data": 695,
+  "drugs_with_current": 691,
+  "drugs_none_current": 4,
+  "drugs_without_data": 118,
+  "drugs_partial": 0,
+  "items_total": 3270,
+  "items_current": 3228
+ },
+ "reviews": {
+  "records": 850,
+  "pages": 531,
+  "public_pages_with_records": 529,
+  "by_action": {
+   "correct": 850
+  }
+ },
+ "fhir": {
+  "medication_knowledge": 812,
+  "clinical_use_definition": 4615
+ },
+ "top_licensed": [
+  {
+   "t": "Salbutamol",
+   "u": "/drugs/salbutamol/",
+   "l": "L5",
+   "lt": 26,
+   "lv": 24,
+   "r": 0,
+   "i": "Conjonctivite papillaire"
+  },
+  {
+   "t": "Donepezil",
+   "u": "/drugs/donepezil/",
+   "l": "L5",
+   "lt": 24,
+   "lv": 21,
+   "r": 1,
+   "i": "psychogenic movement disorders"
+  },
+  {
+   "t": "Axitinib",
+   "u": "/drugs/axitinib/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "Liposarcome"
+  },
+  {
+   "t": "Baclofen",
+   "u": "/drugs/baclofen/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "Trouble déficitaire de l'attention avec hyperactivité"
+  },
+  {
+   "t": "Letrozole",
+   "u": "/drugs/letrozole/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 1,
+   "i": "Carcinome du mamelon"
+  },
+  {
+   "t": "Olmesartan",
+   "u": "/drugs/olmesartan/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 1,
+   "i": "Angor de Prinzmetal"
+  },
+  {
+   "t": "Silodosin",
+   "u": "/drugs/silodosin/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": "Hypertrichose universelle congénitale de type Ambras"
+  },
+  {
+   "t": "Tazobactam",
+   "u": "/drugs/tazobactam/",
+   "l": "N/A",
+   "lt": 20,
+   "lv": 20,
+   "r": 0,
+   "i": ""
+  }
+ ],
+ "no_current": [
+  {
+   "t": "Almitrine",
+   "u": "/drugs/almitrine/",
+   "l": "L3",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "Bronchite"
+  },
+  {
+   "t": "Ataluren",
+   "u": "/drugs/ataluren/",
+   "l": "L5",
+   "lt": 3,
+   "lv": 0,
+   "r": 0,
+   "i": "Cholestase intrahépatique récurrente bénigne"
+  },
+  {
+   "t": "Nordazepam",
+   "u": "/drugs/nordazepam/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 0,
+   "i": "Insomnie"
+  },
+  {
+   "t": "Talc",
+   "u": "/drugs/talc/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 0,
+   "i": "thrombotic disease"
+  }
+ ],
+ "no_current_more": 0,
+ "most_reviewed": [
+  {
+   "t": "Doxorubicin",
+   "u": "/drugs/doxorubicin/",
+   "l": "L1",
+   "lt": 2,
+   "lv": 2,
+   "r": 4,
+   "i": "Sarcome d'Ewing"
+  },
+  {
+   "t": "Nicorandil",
+   "u": "/drugs/nicorandil/",
+   "l": "L4",
+   "lt": 14,
+   "lv": 14,
+   "r": 4,
+   "i": "benign prostatic hyperplasia (disease)"
+  },
+  {
+   "t": "Quinapril",
+   "u": "/drugs/quinapril/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 4,
+   "i": "malignant hypertensive renal disease"
+  },
+  {
+   "t": "Ruxolitinib",
+   "u": "/drugs/ruxolitinib/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 6,
+   "r": 4,
+   "i": "uterine corpus perivascular epithelioid cell tumor"
+  },
+  {
+   "t": "Ticarcillin",
+   "u": "/drugs/ticarcillin/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 2,
+   "r": 4,
+   "i": "lymph node palisaded myofibroblastoma"
+  },
+  {
+   "t": "Cilastatin",
+   "u": "/drugs/cilastatin/",
+   "l": "L3",
+   "lt": 9,
+   "lv": 9,
+   "r": 3,
+   "i": "Infection à Staphylococcus aureus"
+  }
+ ],
+ "example": {
+  "t": "Potassium",
+  "u": "/drugs/potassium/",
+  "l": "L1",
+  "lt": 19,
+  "lv": 19,
+  "r": 1,
+  "i": "hypertensive disorder"
+ },
+ "recent_reviews": [
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "s": "« Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "« Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Pravastatin",
+   "u": "/drugs/pravastatin/",
+   "s": "« Clarification du statut réglementaire en France (A » → « Clarification du statut réglementaire en France (l…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Piperacillin",
+   "u": "/drugs/piperacillin/",
+   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Omeprazole",
+   "u": "/drugs/omeprazole/",
+   "s": "« (AMM annulées vs produits réellement disponibles) » → « (AMM actives ou abrogées vs produits réellement co »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Methotrexate",
+   "u": "/drugs/methotrexate/",
+   "s": "« Clarifier le statut réglementaire en France (AMM a » → « Clarifier le statut réglementaire en France (la pl…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Levodopa",
+   "u": "/drugs/levodopa/",
+   "s": "« clarifier la situation réglementaire (AMM annulées » → « clarifier la situation réglementaire »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Lactulose",
+   "u": "/drugs/lactulose/",
+   "s": "« Clarifier le statut réglementaire (AMM annulées) » → « Clarifier le statut réglementaire (la plupart des »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Ketoprofen",
+   "u": "/drugs/ketoprofen/",
+   "s": "« solution pour perfusion et gel topique (AMM annulé » → « solution pour perfusion et gel topique. »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Ketoconazole",
+   "u": "/drugs/ketoconazole/",
+   "s": "« commercialisée en France, compte tenu des AMM annu » → « commercialisée en France »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Ibuprofen",
+   "u": "/drugs/ibuprofen/",
+   "s": "« Éclaircissement du statut réglementaire (AMM annul » → « Éclaircissement du statut réglementaire (la plupar…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Glimepiride",
+   "u": "/drugs/glimepiride/",
+   "s": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Fluticasone",
+   "u": "/drugs/fluticasone/",
+   "s": "« Clarification du statut réglementaire actuel (AMM » → « Clarification du statut réglementaire actuel (la p »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Fluconazole",
+   "u": "/drugs/fluconazole/",
+   "s": "« Les autres formes concernées par des AMM annulées » → « Les autres formes concernées par des AMM abrogées »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Entecavir",
+   "u": "/drugs/entecavir/",
+   "s": "« Une présentation en solution buvable (BARACLUDE 0, » → « Une présentation en solution buvable (BARACLUDE 0…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Dutasteride",
+   "u": "/drugs/dutasteride/",
+   "s": "« de la disponibilité du produit en France (AMM annu » → « de la disponibilité du produit en France (la plupa…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Diclofenac",
+   "u": "/drugs/diclofenac/",
+   "s": "« La clarification du statut réglementaire (AMM annu » → « La clarification du statut réglementaire (la plupa…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Desogestrel",
+   "u": "/drugs/desogestrel/",
+   "s": "« Une clarification de la situation réglementaire (A » → « Une clarification de la situation réglementaire (l…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Dasatinib",
+   "u": "/drugs/dasatinib/",
+   "s": "« clarification du statut réglementaire des AMM annu » → « clarification du statut réglementaire »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Alprazolam",
+   "u": "/drugs/alprazolam/",
+   "s": "« de la situation réglementaire des produits (AMM an » → « de la situation réglementaire des produits (la plu…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Zonisamide",
+   "u": "/drugs/zonisamide/",
+   "s": "Supprimé : « les raisons de l'annulation des AMM »",
+   "d": "2026-11-13"
+  },
+  {
+   "t": "Triptorelin",
+   "u": "/drugs/triptorelin/",
+   "s": "AMM valides : 14 → 15 (aucune annulée)",
+   "d": "2026-11-13"
+  }
+ ],
+ "recent_licence_reviews": [
+  {
+   "t": "Valsartan",
+   "u": "/drugs/valsartan/",
+   "s": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Ustekinumab",
+   "u": "/drugs/ustekinumab/",
+   "s": "« Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "« Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Pravastatin",
+   "u": "/drugs/pravastatin/",
+   "s": "« Clarification du statut réglementaire en France (A » → « Clarification du statut réglementaire en France (l…",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Piperacillin",
+   "u": "/drugs/piperacillin/",
+   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Omeprazole",
+   "u": "/drugs/omeprazole/",
+   "s": "« (AMM annulées vs produits réellement disponibles) » → « (AMM actives ou abrogées vs produits réellement co »",
+   "d": "2026-11-15"
+  },
+  {
+   "t": "Methotrexate",
+   "u": "/drugs/methotrexate/",
+   "s": "« Clarifier le statut réglementaire en France (AMM a » → « Clarifier le statut réglementaire en France (la pl…",
+   "d": "2026-11-15"
+  }
+ ],
+ "files": {
+  "search_index": 813,
+  "drugs_json": 813
+ },
+ "by_level": {
+  "L1": {
+   "n": 10,
+   "current": 10
+  },
+  "L2": {
+   "n": 31,
+   "current": 30
+  },
+  "L3": {
+   "n": 31,
+   "current": 30
+  },
+  "L4": {
+   "n": 57,
+   "current": 57
+  },
+  "L5": {
+   "n": 660,
+   "current": 648
+  }
+ },
+ "cross": {
+  "unique_pairs": 31,
+  "unique_examples": [
+   {
+    "t": "Almitrine",
+    "u": "/drugs/almitrine/",
+    "i": "Bronchite"
+   },
+   {
+    "t": "Clotiazepam",
+    "u": "/drugs/clotiazepam/",
+    "i": "insomnia (disease)"
+   },
+   {
+    "t": "Fluindione",
+    "u": "/drugs/fluindione/",
+    "i": "rheumatoid arthritis"
+   },
+   {
+    "t": "Nordazepam",
+    "u": "/drugs/nordazepam/",
+    "i": "Insomnie"
+   },
+   {
+    "t": "Oxalic Acid",
+    "u": "/drugs/oxalic-acid/",
+    "i": "severe nonproliferative diabetic retinopathy"
+   },
+   {
+    "t": "Pipobroman",
+    "u": "/drugs/pipobroman/",
+    "i": "diabetic cataract"
+   },
+   {
+    "t": "Tertatolol",
+    "u": "/drugs/tertatolol/",
+    "i": "lingual-facial-buccal dyskinesia"
+   },
+   {
+    "t": "Tixocortol",
+    "u": "/drugs/tixocortol/",
+    "i": "primary cutaneous T-cell lymphoma"
+   }
+  ]
+ }
+}

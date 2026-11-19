@@ -14,25 +14,25 @@ Chaque conclusion remonte à une source de données publique — rien n'est une 
 
 ---
 
-<!-- site-data:start（母目錄 .claude/gen_page_data_20261116.py 產生，勿手改）-->
-## France : données de ce site
+<!-- local-facts:start（母目錄 .claude/gen_local_pages_20261119.py 產生，勿手改）-->
+## France : ce que couvrent les données locales
 
-Ce site publie des rapports sur **{{ site.data.drug_stats.total_drugs }}** médicaments figurant dans les données d'enregistrement ([ANSM](https://ansm.sante.fr/), France).
+Données locales : [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/). Les données locales sont les autorisations de mise sur le marché de la Base de données publique des médicaments (BDPM). Les AMM abrogées ou archivées ne sont pas comptées comme actives.
 
-Rapports par niveau de preuve :
+| Élément | Valeur |
+|---|---|
+| Médicaments présents dans les données locales | {{ site.data.local_facts.licence.drugs_with_data }} |
+| …avec au moins une AMM actives | {{ site.data.local_facts.licence.drugs_with_current }} |
+| …avec des AMM, mais aucune actives | {{ site.data.local_facts.licence.drugs_none_current }} |
+| Médicaments absents des données locales | {{ site.data.local_facts.licence.drugs_without_data }} |
+| Entrées locales (AMM de la BDPM) | {{ site.data.local_facts.licence.items_total }} |
+| …dont actives | {{ site.data.local_facts.licence.items_current }} |
 
-| Niveau de preuve | Rapports | Part |
-|---|---|---|
-| L1 | {{ site.data.drug_stats.level_counts.L1 }} | {{ site.data.drug_stats.level_counts.L1 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L2 | {{ site.data.drug_stats.level_counts.L2 }} | {{ site.data.drug_stats.level_counts.L2 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L3 | {{ site.data.drug_stats.level_counts.L3 }} | {{ site.data.drug_stats.level_counts.L3 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L4 | {{ site.data.drug_stats.level_counts.L4 }} | {{ site.data.drug_stats.level_counts.L4 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-| L5 | {{ site.data.drug_stats.level_counts.L5 }} | {{ site.data.drug_stats.level_counts.L5 | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |
-{% assign na = site.data.drug_stats.total_drugs | minus: site.data.drug_stats.level_counts.L1 | minus: site.data.drug_stats.level_counts.L2 | minus: site.data.drug_stats.level_counts.L3 | minus: site.data.drug_stats.level_counts.L4 | minus: site.data.drug_stats.level_counts.L5 %}{% if na > 0 %}| N/A | {{ na }} | {{ na | times: 100.0 | divided_by: site.data.drug_stats.total_drugs | round: 1 }}% |{% endif %}
+{% if site.data.local_facts.no_current.size > 0 %}Médicaments ayant des AMM de la BDPM dans ces données, mais aucune actives : {% for r in site.data.local_facts.no_current %}[{{ r.t }}]({{ r.u | relative_url }}){% unless forloop.last %}, {% endunless %}{% endfor %}{% if site.data.local_facts.no_current_more > 0 %}, et {{ site.data.local_facts.no_current_more }} autres{% endif %}{% endif %}
 
-31 paires médicament–maladie prédites sur ce site n'apparaissent sur aucun autre des 30 sites TxGNN.
+{% if site.data.local_facts.recent_licence_reviews.size > 0 %}Dernières corrections de données réglementaires locales : {% for r in site.data.local_facts.recent_licence_reviews %}[{{ r.t }}]({{ r.u | relative_url }}) ({{ r.d }}): {{ r.s }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% endif %}
 
-<!-- site-data:end -->
+<!-- local-facts:end -->
 
 ## Vue d'ensemble des sources
 
