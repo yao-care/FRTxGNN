@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "bexarotene"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Bexarotene : nouvelle indication prédite, Lymphome cutané primitif à cellules B (primary cutaneous B-cell lymphoma) (niveau de preuve L5)."
 ---
 

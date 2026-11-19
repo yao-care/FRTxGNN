@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 223
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "delamanid"
 predicted_indications: ["allergic urticaria"]
 description: "Delamanid : nouvelle indication prédite, Allergic urticaria (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 318
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "FELBAMATE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Felbamate : nouvelle indication prédite, Trigeminal nerve neoplasm (niveau de preuve L4). En France, AMM dans la BDPM : 2 (valides : 2)"

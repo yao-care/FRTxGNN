@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 446
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-20
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
 description: "Letrozole : nouvelle indication prédite, Carcinome du mamelon (nipple carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 20 (valides : 20)"

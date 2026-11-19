@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 499
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
 description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). En France, AMM dans la BDPM : 8 (valides : 8)"

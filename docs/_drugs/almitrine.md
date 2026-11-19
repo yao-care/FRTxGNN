@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "ALMITRINE"
 predicted_indications: ["bronchitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Almitrine : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). En France, AMM dans la BDPM : 1 (valides : 0)"
 ---
 

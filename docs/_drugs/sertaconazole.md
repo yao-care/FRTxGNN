@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Sertaconazole : nouvelle indication prédite, Ectothrix infectious disease (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"

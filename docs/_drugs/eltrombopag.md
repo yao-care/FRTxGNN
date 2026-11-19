@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-20
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"

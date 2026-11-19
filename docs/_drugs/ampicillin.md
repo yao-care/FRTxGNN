@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Ampicillin : nouvelle indication prédite, Laryngite (laryngitis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 

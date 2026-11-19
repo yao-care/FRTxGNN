@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 565
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Oxazepam : nouvelle indication prédite, Insomnie (niveau de preuve L3). Indication d'origine : Anxiété"
 monitor_inn: "oxazepam"
 predicted_indications: ["insomnia (disease)"]

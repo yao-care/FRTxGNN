@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 764
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "TIOCONAZOLE"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 description: "Tioconazole : nouvelle indication prédite, Vulvite (vulvitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"

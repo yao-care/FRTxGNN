@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 821
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine : nouvelle indication prédite, Trouble névrotique (neurotic disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Dimercaprol : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (chélation des métaux…"
 monitor_inn: "DIMERCAPROL"
 predicted_indications: ["bronchitis"]

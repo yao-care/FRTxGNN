@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Carbetocin : nouvelle indication prédite, Syndrome pseudo-isotrétinoïne (isotretinoin-like syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"

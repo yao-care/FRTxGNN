@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "AXITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Axitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L5). En France, AMM dans la BDPM : 20 (valides : 20)"
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
 description: "Nilotinib : nouvelle indication prédite, Dermatofibrosarcome protubérant (dermatofibrosarcoma protuberans) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"

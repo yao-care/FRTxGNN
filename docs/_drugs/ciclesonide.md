@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Ciclesonide : nouvelle indication prédite, Eczéma atopique (atopic eczema) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 

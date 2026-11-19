@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 425
 evidence_level: L1
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
 description: "Ketorolac : nouvelle indication prédite, Headache disorder (niveau de preuve L1). En France, AMM dans la BDPM : 1 (valides : 1)"

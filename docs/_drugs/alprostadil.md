@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Alprostadil : nouvelle indication prédite, Malformation aortique (aortic malformation) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 

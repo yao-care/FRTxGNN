@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon : nouvelle indication prédite, Syndrome de l'intestin irritable (irritable bowel syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"

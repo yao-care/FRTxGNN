@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "alteplase"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Alteplase : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (heparin cofactor 2 deficiency) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 

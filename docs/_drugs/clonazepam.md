@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 187
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). En France, AMM dans la BDPM : 3 (valides : 3)"

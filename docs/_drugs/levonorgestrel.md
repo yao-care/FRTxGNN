@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 450
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"

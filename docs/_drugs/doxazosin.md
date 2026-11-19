@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 257
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). En France, AMM dans la BDPM : 6 (valides : 6)"

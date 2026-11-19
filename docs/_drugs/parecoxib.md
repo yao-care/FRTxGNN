@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 579
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 description: "Parecoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L3). Indication d'origine : Non renseignée (texte d'indication vide dans l'AMM)"
 monitor_inn: "parecoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]

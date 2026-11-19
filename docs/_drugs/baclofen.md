@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-20
 description: "Baclofen : nouvelle indication prédite, Trouble déficitaire de l'attention avec hyperactivité (attention deficit-hyperactivity disorder) (niveau de preuve L5). Indication d'origine : Non renseignée d…"
 ---
 

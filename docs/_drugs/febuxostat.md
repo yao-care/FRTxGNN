@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 317
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "febuxostat"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"

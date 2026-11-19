@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-20
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
 description: "Roxadustat : nouvelle indication prédite, Syndrome de l'œil sec (dry eye syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"

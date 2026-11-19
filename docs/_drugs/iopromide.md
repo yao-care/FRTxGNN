@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOPROMIDE"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-20
 description: "Iopromide : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 

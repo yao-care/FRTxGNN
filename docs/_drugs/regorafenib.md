@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 657
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-20
 monitor_inn: "regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : 1 (valides : 1)"

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "calcifediol"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 description: "Calcifediol : nouvelle indication prédite, Renal tubular acidosis (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 

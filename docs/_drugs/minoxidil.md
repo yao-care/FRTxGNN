@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 503
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-20
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with schistosomiasis"]
 description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L4). En France, AMM dans la BDPM : 19 (valides : 19)"

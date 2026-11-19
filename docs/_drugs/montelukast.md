@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 514
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-20
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). En France, AMM dans la BDPM : au moins 20"
