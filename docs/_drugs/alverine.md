@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
 last_modified_at: 2026-10-28
-description: "Alverine : nouvelle indication prédite, Trouble dysthymique (dysthymic disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Alverine : nouvelle indication prédite, Trouble dysthymique (dysthymic disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Alverine

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-04
 monitor_inn: "lenvatinib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "angiolipoma", "familial spontaneous pneumothorax", "endocrine-cerebro-osteodysplasia syndrome"]
-description: "Lenvatinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Lenvatinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L3). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Lenvatinib

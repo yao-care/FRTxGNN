@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-04
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Hydrocortisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Hydrocortisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). En France, AMM dans la BDPM : 15 (valides : 15)"
 ---
 
 # Hydrocortisone

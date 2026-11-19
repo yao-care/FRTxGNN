@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-28
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
-description: "Clofarabine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+description: "Clofarabine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Clofarabine

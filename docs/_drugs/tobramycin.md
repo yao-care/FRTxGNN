@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
-description: "Tobramycin : nouvelle indication prédite, Kératite d'exposition (exposure keratitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Tobramycin : nouvelle indication prédite, Kératite d'exposition (exposure keratitis) (niveau de preuve L4). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Tobramycin

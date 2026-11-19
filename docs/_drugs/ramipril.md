@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
-description: "Ramipril : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ramipril : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Ramipril

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-28
 monitor_inn: "metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-description: "Metformin : nouvelle indication prédite, Focal stiff limb syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Metformin : nouvelle indication prédite, Focal stiff limb syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
 # Metformin

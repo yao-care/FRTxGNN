@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-13
 monitor_inn: "levetiracetam"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Levetiracetam : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Levetiracetam : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Levetiracetam

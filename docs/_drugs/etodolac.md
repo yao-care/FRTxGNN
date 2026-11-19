@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "etodolac"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-description: "Etodolac : nouvelle indication prédite, Acromesomelic dysplasia, Hunter-Thompson type (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Etodolac : nouvelle indication prédite, Acromesomelic dysplasia, Hunter-Thompson type (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Etodolac

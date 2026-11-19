@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "rimegepant"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
-description: "Rimegepant : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Rimegepant : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Rimegepant

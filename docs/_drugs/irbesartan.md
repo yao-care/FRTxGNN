@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-13
 monitor_inn: "irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
-description: "Irbesartan : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Irbesartan : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Irbesartan

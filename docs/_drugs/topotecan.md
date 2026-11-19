@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
-description: "Topotecan : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Topotecan : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Topotecan

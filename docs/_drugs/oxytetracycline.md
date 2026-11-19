@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
-description: "Oxytetracycline : nouvelle indication prédite, Chronic rhinosinusitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Oxytetracycline : nouvelle indication prédite, Chronic rhinosinusitis (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Oxytetracycline

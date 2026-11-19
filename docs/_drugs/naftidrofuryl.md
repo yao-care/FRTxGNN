@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "NAFTIDROFURYL"
 predicted_indications: ["stroke disorder"]
-description: "Naftidrofuryl : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Naftidrofuryl : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Naftidrofuryl

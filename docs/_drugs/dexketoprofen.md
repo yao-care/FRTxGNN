@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
-description: "Dexketoprofen : nouvelle indication prédite, Tendinitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Dexketoprofen : nouvelle indication prédite, Tendinitis (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Dexketoprofen

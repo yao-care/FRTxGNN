@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "TIOCONAZOLE"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
-description: "Tioconazole : nouvelle indication prédite, Vulvite (vulvitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Tioconazole : nouvelle indication prédite, Vulvite (vulvitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Tioconazole

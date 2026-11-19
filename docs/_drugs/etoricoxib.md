@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
-description: "Etoricoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Etoricoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 14 (valides : 14)"
 ---
 
 # Etoricoxib

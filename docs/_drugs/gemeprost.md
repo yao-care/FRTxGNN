@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-28
 monitor_inn: "gemeprost"
 predicted_indications: ["atypical coarctation of aorta", "amenorrhea (disease)", "non-syndromic esophageal malformation", "aortic malformation", "pulmonary hypertension"]
-description: "Gemeprost : nouvelle indication prédite, Atypical coarctation of aorta (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Gemeprost : nouvelle indication prédite, Atypical coarctation of aorta (niveau de preuve L5). En France, aucune AMM dans la BDPM pour ces données"
 ---
 
 # Gemeprost

@@ -8,7 +8,7 @@ indication_count: 4
 monitor_inn: "bedaquiline"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
 last_modified_at: 2026-10-28
-description: "Bedaquiline : nouvelle indication prédite, Candidose vulvovaginale (vulvovaginal candidiasis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Bedaquiline : nouvelle indication prédite, Candidose vulvovaginale (vulvovaginal candidiasis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Bedaquiline

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
-description: "Imiglucerase : nouvelle indication prédite, Syndrome de Hurler (Hurler syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Imiglucerase : nouvelle indication prédite, Syndrome de Hurler (Hurler syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Imiglucerase

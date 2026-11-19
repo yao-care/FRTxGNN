@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
 last_modified_at: 2026-10-28
-description: "Caspofungin : nouvelle indication prédite, Anomalie de la sécrétion de gastrine (gastrin secretion abnormality) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Caspofungin : nouvelle indication prédite, Anomalie de la sécrétion de gastrine (gastrin secretion abnormality) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Caspofungin

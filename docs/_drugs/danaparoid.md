@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "danaparoid"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "Scott syndrome"]
-description: "Danaparoid : nouvelle indication prédite, Glanzmann thrombasthenia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Danaparoid : nouvelle indication prédite, Glanzmann thrombasthenia (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Danaparoid

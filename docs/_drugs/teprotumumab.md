@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "teprotumumab"
 predicted_indications: ["monosomy X", "esophageal varices with bleeding", "esophageal varices without bleeding", "mixed gonadal dysgenesis", "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Turner syndrome due to structural X chromosome anomalies", "mosaic monosomy X", "sex chromosome disorder of sex development", "varicose disease", "X chromosome number anomaly"]
-description: "Teprotumumab : nouvelle indication prédite, Monosomie X (monosomy X) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Teprotumumab : nouvelle indication prédite, Monosomie X (monosomy X) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Teprotumumab

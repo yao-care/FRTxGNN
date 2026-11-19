@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-13
 monitor_inn: "MOLSIDOMINE"
 predicted_indications: ["alopecia", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection", "hypotrichosis simplex of the scalp", "visceral calciphylaxis", "neurogenic thoracic outlet syndrome", "hemangioendothelioma", "congenital hypotrichosis milia"]
-description: "Molsidomine : nouvelle indication prédite, Alopecia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Molsidomine : nouvelle indication prédite, Alopecia (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 drugbank_id: DB09282
 ---
 

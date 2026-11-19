@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
-description: "Tenecteplase : nouvelle indication prédite, Congenital coronary artery anomaly (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Tenecteplase : nouvelle indication prédite, Congenital coronary artery anomaly (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Tenecteplase

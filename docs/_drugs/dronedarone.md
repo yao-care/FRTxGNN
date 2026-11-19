@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
-description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Dronedarone

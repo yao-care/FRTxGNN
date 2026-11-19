@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
-description: "Perampanel : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Perampanel : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 
 # Perampanel

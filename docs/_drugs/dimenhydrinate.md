@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
-description: "Dimenhydrinate : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Dimenhydrinate : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Dimenhydrinate

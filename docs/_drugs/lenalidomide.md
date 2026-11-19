@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-13
 monitor_inn: "lenalidomide"
 predicted_indications: ["myeloid leukemia", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
-description: "Lenalidomide : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Lenalidomide : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Lenalidomide

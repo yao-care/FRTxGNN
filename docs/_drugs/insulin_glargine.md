@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
-description: "Insulin Glargine : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Insulin Glargine : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
 # Insulin Glargine

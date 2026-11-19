@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
-description: "Rufinamide : nouvelle indication prédite, Perioral myoclonia with absences (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Rufinamide : nouvelle indication prédite, Perioral myoclonia with absences (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Rufinamide

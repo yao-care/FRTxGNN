@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "ticarcillin"
 predicted_indications: ["lymph node palisaded myofibroblastoma", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "sacrum chordoma", "disease of retroperitoneum", "urethral disease", "disease of uterine broad ligament", "disease of peritoneum", "pelvic varices"]
-description: "Ticarcillin : nouvelle indication prédite, Lymph node palisaded myofibroblastoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ticarcillin : nouvelle indication prédite, Lymph node palisaded myofibroblastoma (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Ticarcillin

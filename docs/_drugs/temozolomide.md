@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
 last_modified_at: 2026-10-31
-description: "Temozolomide : nouvelle indication prédite, Néoplasme de la queue de cheval (cauda equina neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Temozolomide : nouvelle indication prédite, Néoplasme de la queue de cheval (cauda equina neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Temozolomide

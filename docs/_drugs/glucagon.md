@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
-description: "Glucagon : nouvelle indication prédite, Syndrome de l'intestin irritable (irritable bowel syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Glucagon : nouvelle indication prédite, Syndrome de l'intestin irritable (irritable bowel syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Glucagon

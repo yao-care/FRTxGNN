@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "nitrazepam"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
-description: "Nitrazepam : nouvelle indication prédite, Wernicke-Korsakoff syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Nitrazepam : nouvelle indication prédite, Wernicke-Korsakoff syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Nitrazepam

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
-description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (obsessive-compulsive disorder) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (obsessive-compulsive disorder) (niveau de preuve L2). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Citalopram

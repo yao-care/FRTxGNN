@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Formoterol : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Formoterol : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Formoterol

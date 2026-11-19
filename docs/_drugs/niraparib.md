@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
-description: "Niraparib : nouvelle indication prédite, Epiglottis neoplasm (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Niraparib : nouvelle indication prédite, Epiglottis neoplasm (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Niraparib

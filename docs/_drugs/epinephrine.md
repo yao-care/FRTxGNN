@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-10-31
 monitor_inn: "epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
-description: "Epinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Epinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Epinephrine

@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
 # Midazolam

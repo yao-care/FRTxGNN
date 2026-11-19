@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
-description: "Panobinostat : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Panobinostat : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Panobinostat

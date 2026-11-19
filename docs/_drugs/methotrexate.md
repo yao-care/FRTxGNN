@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-15
 monitor_inn: "methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-description: "Methotrexate : nouvelle indication prédite, Pulmonary blastoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Methotrexate : nouvelle indication prédite, Pulmonary blastoma (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Methotrexate

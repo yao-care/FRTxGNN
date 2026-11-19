@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-15
 monitor_inn: "ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-description: "Ustekinumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Ustekinumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Ustekinumab

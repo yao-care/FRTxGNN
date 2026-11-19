@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-10-31
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
-description: "Eplerenone : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Eplerenone : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Eplerenone

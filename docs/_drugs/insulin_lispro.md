@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-description: "Insulin Lispro : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Insulin Lispro : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Insulin Lispro

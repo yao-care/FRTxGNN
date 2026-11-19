@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-13
 monitor_inn: "TRAVOPROST"
 predicted_indications: ["visceral calciphylaxis", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "neurogenic thoracic outlet syndrome", "vascular disease", "angiodysplasia of stomach", "blue toe syndrome", "lymphangiectasis", "idiopathic spontaneous coronary artery dissection", "hemangioendothelioma"]
-description: "Travoprost : nouvelle indication prédite, Visceral calciphylaxis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Travoprost : nouvelle indication prédite, Visceral calciphylaxis (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Travoprost

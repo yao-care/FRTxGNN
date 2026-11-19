@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-28
 monitor_inn: "terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
-description: "Terlipressin : nouvelle indication prédite, Open-angle glaucoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Terlipressin : nouvelle indication prédite, Open-angle glaucoma (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Terlipressin

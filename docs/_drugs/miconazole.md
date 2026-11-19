@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
-description: "Miconazole : nouvelle indication prédite, acné (acne (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Miconazole : nouvelle indication prédite, acné (acne (disease)) (niveau de preuve L4). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Miconazole

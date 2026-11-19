@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
-description: "Dapsone : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+description: "Dapsone : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L1). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Dapsone

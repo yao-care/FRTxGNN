@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-31
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
-description: "Olanzapine : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Olanzapine : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Olanzapine

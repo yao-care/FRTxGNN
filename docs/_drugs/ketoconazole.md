@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-15
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
-description: "Ketoconazole : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Ketoconazole : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Ketoconazole

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "pemetrexed"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-description: "Pemetrexed : nouvelle indication prédite, Pleural adenomatoid tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Pemetrexed : nouvelle indication prédite, Pleural adenomatoid tumor (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
 ---
 
 # Pemetrexed

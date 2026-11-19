@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-03
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-description: "Prednisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Prednisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L3). En France, AMM dans la BDPM : 17 (valides : 17)"
 ---
 
 # Prednisone

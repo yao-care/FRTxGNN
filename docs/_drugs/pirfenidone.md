@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
-description: "Pirfenidone : nouvelle indication prédite, Extracutaneous mastocytoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Pirfenidone : nouvelle indication prédite, Extracutaneous mastocytoma (niveau de preuve L5). En France, AMM dans la BDPM : 17 (valides : 17)"
 ---
 
 # Pirfenidone

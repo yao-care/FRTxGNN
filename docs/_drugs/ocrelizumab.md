@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
-description: "Ocrelizumab : nouvelle indication prédite, Carcinome mammaire HER2 positif (HER2 positive breast carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ocrelizumab : nouvelle indication prédite, Carcinome mammaire HER2 positif (HER2 positive breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Ocrelizumab

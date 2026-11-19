@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
-description: "Propranolol : nouvelle indication prédite, Myopathie distale de type Tateyama (distal myopathy, Tateyama type) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Propranolol : nouvelle indication prédite, Myopathie distale de type Tateyama (distal myopathy, Tateyama type) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Propranolol

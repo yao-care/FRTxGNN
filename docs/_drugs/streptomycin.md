@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
-description: "Streptomycin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Streptomycin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Streptomycin

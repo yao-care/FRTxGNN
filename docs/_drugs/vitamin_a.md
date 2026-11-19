@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "vitamin a"
 predicted_indications: ["congenital prothrombin deficiency", "biotin metabolic disease", "non-syndromic esophageal malformation", "injury", "cell proliferation disorder", "perinatal disease", "florid cemento-osseous dysplasia", "segmental odontomaxillary dysplasia", "disease by subcellular system affected", "radiation or chemically induced disorder"]
-description: "Vitamin A : nouvelle indication prédite, Déficit congénital en prothrombine (congenital prothrombin deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Vitamin A : nouvelle indication prédite, Déficit congénital en prothrombine (congenital prothrombin deficiency) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Vitamin A

@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "CHLORAMBUCIL"
 predicted_indications: ["ALK-positive large B-cell lymphoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "small cell lung carcinoma"]
-description: "Chlorambucil : nouvelle indication prédite, ALK-positive large B-cell lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Chlorambucil : nouvelle indication prédite, ALK-positive large B-cell lymphoma (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Chlorambucil

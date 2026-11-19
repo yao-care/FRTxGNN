@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
-description: "Mycophenolate Mofetil : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Mycophenolate Mofetil : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L2). En France, AMM dans la BDPM : 13 (valides : 13)"
 ---
 
 # Mycophenolate Mofetil

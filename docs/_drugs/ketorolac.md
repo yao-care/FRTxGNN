@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "ketorolac"
 predicted_indications: ["headache disorder", "rosacea conjunctivitis", "trigeminal autonomic cephalalgia"]
-description: "Ketorolac : nouvelle indication prédite, Headache disorder (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+description: "Ketorolac : nouvelle indication prédite, Headache disorder (niveau de preuve L1). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Ketorolac

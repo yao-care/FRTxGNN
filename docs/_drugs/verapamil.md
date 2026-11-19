@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "verapamil"
 predicted_indications: ["obsolete bundle branch block", "malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "periodic paralysis with transient compartment-like syndrome"]
-description: "Verapamil : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Verapamil : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Verapamil

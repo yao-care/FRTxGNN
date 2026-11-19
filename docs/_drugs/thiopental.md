@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
-description: "Thiopental : nouvelle indication prédite, Trichotillomanie (trichotillomania) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Thiopental : nouvelle indication prédite, Trichotillomanie (trichotillomania) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Thiopental

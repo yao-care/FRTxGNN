@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
-description: "Clotrimazole : nouvelle indication prédite, acné (acne (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Clotrimazole : nouvelle indication prédite, acné (acne (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Clotrimazole

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-description: "Tamoxifen : nouvelle indication prédite, Mammary Paget disease (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Tamoxifen : nouvelle indication prédite, Mammary Paget disease (niveau de preuve L5). En France, AMM dans la BDPM : 14 (valides : 14)"
 ---
 
 # Tamoxifen

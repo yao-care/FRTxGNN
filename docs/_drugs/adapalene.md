@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
 last_modified_at: 2026-10-28
-description: "Adapalene : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Adapalene : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
 # Adapalene

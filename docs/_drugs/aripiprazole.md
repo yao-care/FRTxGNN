@@ -8,7 +8,7 @@ indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
 last_modified_at: 2026-11-03
-description: "Aripiprazole : nouvelle indication prédite, Gaze palsy, familial horizontal, with progressive scoliosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Aripiprazole : nouvelle indication prédite, Gaze palsy, familial horizontal, with progressive scoliosis (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Aripiprazole

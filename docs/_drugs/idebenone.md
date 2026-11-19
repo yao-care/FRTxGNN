@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "idebenone"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "early-onset familial noncirrhotic portal hypertension", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "hepatopulmonary syndrome", "immune-mediated necrotizing myopathy", "osteogenesis imperfecta-retinopathy-seizures-intellectual disability syndrome", "antisynthetase syndrome", "focal myositis"]
-description: "Idebenone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Idebenone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Idebenone

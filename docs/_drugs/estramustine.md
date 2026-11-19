@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-10-28
 monitor_inn: "estramustine"
 predicted_indications: ["fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "prostate leiomyoma", "benign prostate phyllodes tumor", "female breast carcinoma", "HIV infectious disease", "breast fibrocystic disease"]
-description: "Estramustine : nouvelle indication prédite, Fibroma of prostate (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Estramustine : nouvelle indication prédite, Fibroma of prostate (niveau de preuve L5). En France, aucune AMM dans la BDPM pour ces données"
 ---
 
 # Estramustine

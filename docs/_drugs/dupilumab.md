@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
-description: "Dupilumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Dupilumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Dupilumab

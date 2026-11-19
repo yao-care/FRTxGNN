@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "pristinamycin"
 predicted_indications: ["disease of retroperitoneum", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "disease of uterine broad ligament", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease", "pudendal neuralgia"]
-description: "Pristinamycin : nouvelle indication prédite, Disease of retroperitoneum (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Pristinamycin : nouvelle indication prédite, Disease of retroperitoneum (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Pristinamycin

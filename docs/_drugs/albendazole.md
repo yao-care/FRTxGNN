@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-03
 monitor_inn: "ALBENDAZOLE"
 predicted_indications: ["coenurosis"]
-description: "Albendazole : nouvelle indication prédite, Cénurose (coenurosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Albendazole : nouvelle indication prédite, Cénurose (coenurosis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Albendazole

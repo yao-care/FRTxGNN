@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
-description: "Sucralfate : nouvelle indication prédite, Reflux duodéno-gastrique (duodenogastric reflux) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Sucralfate : nouvelle indication prédite, Reflux duodéno-gastrique (duodenogastric reflux) (niveau de preuve L3). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Sucralfate

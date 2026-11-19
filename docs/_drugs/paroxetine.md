@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
-description: "Paroxetine : nouvelle indication prédite, Syndrome d'Ohdo et ses variants (Ohdo syndrome and variants) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Paroxetine : nouvelle indication prédite, Syndrome d'Ohdo et ses variants (Ohdo syndrome and variants) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Paroxetine

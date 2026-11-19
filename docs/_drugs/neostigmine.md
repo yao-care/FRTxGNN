@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
-description: "Neostigmine : nouvelle indication prédite, Autoimmune disease of peripheral nervous system (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Neostigmine : nouvelle indication prédite, Autoimmune disease of peripheral nervous system (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Neostigmine

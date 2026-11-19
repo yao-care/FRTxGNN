@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
-description: "Apixaban : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Apixaban : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Apixaban

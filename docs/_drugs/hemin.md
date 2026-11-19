@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "hemin"
 predicted_indications: ["thrombocytopenic purpura", "hemophilia", "C1 inhibitor deficiency", "acquired coagulation factor deficiency", "serpinopathy with toxic serpin polymerization", "hereditary angioedema with C1Inh deficiency", "inherited thrombophilia", "symptomatic form of hemophilia in female carriers", "hereditary von Willebrand disease", "congenital factor XI deficiency"]
-description: "Hemin : nouvelle indication prédite, Purpura thrombopénique (thrombocytopenic purpura) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Hemin : nouvelle indication prédite, Purpura thrombopénique (thrombocytopenic purpura) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Hemin

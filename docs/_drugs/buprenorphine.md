@@ -8,7 +8,7 @@ indication_count: 6
 monitor_inn: "buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
 last_modified_at: 2026-10-28
-description: "Buprenorphine : nouvelle indication prédite, Porphyrie aiguë intermittente (acute intermittent porphyria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Buprenorphine : nouvelle indication prédite, Porphyrie aiguë intermittente (acute intermittent porphyria) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
 ---
 
 # Buprenorphine

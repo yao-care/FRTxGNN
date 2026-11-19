@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
-description: "Guaifenesin : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Guaifenesin : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Guaifenesin

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-13
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin : nouvelle indication prédite, hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Triptorelin : nouvelle indication prédite, hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 15 (valides : 15)"
 ---
 
 # Triptorelin

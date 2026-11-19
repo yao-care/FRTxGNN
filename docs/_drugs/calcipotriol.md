@@ -8,7 +8,7 @@ indication_count: 10
 monitor_inn: "calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
 last_modified_at: 2026-10-28
-description: "Calcipotriol : nouvelle indication prédite, Kératose séborrhéique (seborrheic keratosis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Calcipotriol : nouvelle indication prédite, Kératose séborrhéique (seborrheic keratosis) (niveau de preuve L3). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
 # Calcipotriol

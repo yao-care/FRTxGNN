@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
-description: "Trastuzumab : nouvelle indication prédite, Malignant cutaneous granular cell skin tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Trastuzumab : nouvelle indication prédite, Malignant cutaneous granular cell skin tumor (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
 ---
 
 # Trastuzumab

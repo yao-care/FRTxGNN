@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-13
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-description: "Donepezil : nouvelle indication prédite, Psychogenic movement disorders (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Donepezil : nouvelle indication prédite, Psychogenic movement disorders (niveau de preuve L5). En France, AMM dans la BDPM : 24 (valides : 21)"
 ---
 
 # Donepezil

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
-description: "Rasburicase : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Rasburicase : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Rasburicase

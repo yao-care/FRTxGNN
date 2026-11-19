@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
-description: "Sunitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Sunitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Sunitinib

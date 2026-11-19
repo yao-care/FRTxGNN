@@ -8,7 +8,7 @@ indication_count: 2
 monitor_inn: "amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
 last_modified_at: 2026-10-28
-description: "Amifampridine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Amifampridine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Amifampridine

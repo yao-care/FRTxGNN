@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-15
 monitor_inn: "omeprazole"
 predicted_indications: ["duodenal obstruction"]
-description: "Omeprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Omeprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Omeprazole

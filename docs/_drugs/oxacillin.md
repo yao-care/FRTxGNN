@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "oxacillin"
 predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
-description: "Oxacillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Oxacillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Oxacillin

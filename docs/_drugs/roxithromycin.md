@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
-description: "Roxithromycin : nouvelle indication prédite, Lèpre (leprosy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Roxithromycin : nouvelle indication prédite, Lèpre (leprosy) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
 ---
 
 # Roxithromycin

@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "piperaquine"
 predicted_indications: ["cystic echinococcosis", "echinococcus granulosus infectious disease"]
-description: "Piperaquine : nouvelle indication prédite, Cystic echinococcosis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Piperaquine : nouvelle indication prédite, Cystic echinococcosis (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Piperaquine

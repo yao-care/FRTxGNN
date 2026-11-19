@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
-description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (Plummer-Vinson syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (Plummer-Vinson syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Docusate

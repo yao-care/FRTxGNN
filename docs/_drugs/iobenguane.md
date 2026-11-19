@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-04
 monitor_inn: "IOBENGUANE"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
-description: "Iobenguane : nouvelle indication prédite, Trouble hypotensif (hypotensive disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Iobenguane : nouvelle indication prédite, Trouble hypotensif (hypotensive disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 drugbank_id: DB06704
 ---
 

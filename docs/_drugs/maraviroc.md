@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "MARAVIROC"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
-description: "Maraviroc : nouvelle indication prédite, Néoplasie endocrinienne multiple (multiple endocrine neoplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Maraviroc : nouvelle indication prédite, Néoplasie endocrinienne multiple (multiple endocrine neoplasia) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 
 # Maraviroc

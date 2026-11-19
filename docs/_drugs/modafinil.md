@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-04
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
-description: "Modafinil : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Modafinil : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
 # Modafinil

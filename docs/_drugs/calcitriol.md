@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
 last_modified_at: 2026-10-28
-description: "Calcitriol : nouvelle indication prédite, Carence en vitamine D obsolète (obsolete vitamin D deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Calcitriol : nouvelle indication prédite, Carence en vitamine D obsolète (obsolete vitamin D deficiency) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Calcitriol

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-description: "Norfloxacin : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Norfloxacin : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 4)"
 ---
 
 # Norfloxacin

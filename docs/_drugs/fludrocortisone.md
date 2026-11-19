@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
-description: "Fludrocortisone : nouvelle indication prédite, Primary cutaneous T-cell lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Fludrocortisone : nouvelle indication prédite, Primary cutaneous T-cell lymphoma (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Fludrocortisone

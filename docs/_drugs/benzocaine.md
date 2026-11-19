@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
 last_modified_at: 2026-10-28
-description: "Benzocaine : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Benzocaine : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Benzocaine

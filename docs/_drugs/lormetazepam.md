@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "lormetazepam"
 predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
-description: "Lormetazepam : nouvelle indication prédite, Délire de sevrage alcoolique (alcohol withdrawal delirium) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Lormetazepam : nouvelle indication prédite, Délire de sevrage alcoolique (alcohol withdrawal delirium) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Lormetazepam

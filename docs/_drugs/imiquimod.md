@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-description: "Imiquimod : nouvelle indication prédite, Néoplasme prémalin (pre-malignant neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Imiquimod : nouvelle indication prédite, Néoplasme prémalin (pre-malignant neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Imiquimod

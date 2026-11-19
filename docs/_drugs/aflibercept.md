@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
 last_modified_at: 2026-10-28
-description: "Aflibercept : nouvelle indication prédite, Ésotropie (esotropia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Aflibercept : nouvelle indication prédite, Ésotropie (esotropia) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
 # Aflibercept

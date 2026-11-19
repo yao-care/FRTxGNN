@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-13
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
-description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
 ---
 
 # Galantamine

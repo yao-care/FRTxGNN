@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-31
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
-description: "Eltrombopag : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Eltrombopag : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Eltrombopag

@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
-description: "Probenecid : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Probenecid : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Probenecid

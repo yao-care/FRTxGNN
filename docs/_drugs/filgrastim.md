@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "FILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "C1 inhibitor deficiency", "serpinopathy with toxic serpin polymerization", "fetal and neonatal alloimmune thrombocytopenia", "platelet-type bleeding disorder"]
-description: "Filgrastim : nouvelle indication prédite, Primary release disorder of platelets (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Filgrastim : nouvelle indication prédite, Primary release disorder of platelets (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
 ---
 
 # Filgrastim

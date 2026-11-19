@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
-description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Montelukast

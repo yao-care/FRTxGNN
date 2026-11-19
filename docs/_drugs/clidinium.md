@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "CLIDINIUM"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
-description: "Clidinium : nouvelle indication prédite, Syndrome de la queue de cheval (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Clidinium : nouvelle indication prédite, Syndrome de la queue de cheval (rang 1) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Clidinium

@@ -8,7 +8,7 @@ indication_count: 1
 monitor_inn: "adenosine"
 predicted_indications: ["obsolete bundle branch block"]
 last_modified_at: 2026-10-28
-description: "Adenosine : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Adenosine : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Adenosine

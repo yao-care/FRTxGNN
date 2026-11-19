@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "ANASTROZOLE"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
 last_modified_at: 2026-11-13
-description: "Anastrozole : nouvelle indication prédite, Neuroblastome (neuroblastoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Anastrozole : nouvelle indication prédite, Neuroblastome (neuroblastoma) (niveau de preuve L5). En France, AMM dans la BDPM : 18 (valides : 18)"
 ---
 
 # Anastrozole

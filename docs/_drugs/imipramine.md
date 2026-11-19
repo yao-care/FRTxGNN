@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-10-28
 monitor_inn: "IMIPRAMINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
-description: "Imipramine : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Imipramine : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L3). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Imipramine

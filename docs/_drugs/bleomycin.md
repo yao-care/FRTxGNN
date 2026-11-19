@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
 last_modified_at: 2026-11-04
-description: "Bleomycin : nouvelle indication prédite, Tumeur de la queue de cheval (cauda equina neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Bleomycin : nouvelle indication prédite, Tumeur de la queue de cheval (cauda equina neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Bleomycin

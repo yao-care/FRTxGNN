@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "rutin"
 predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "vulvovaginal candidiasis", "breast abscess", "fat necrosis of breast", "vaginitis (disease)"]
-description: "Rutin : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Rutin : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Rutin

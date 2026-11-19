@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "VALPROMIDE"
 predicted_indications: ["insomnia (disease)"]
-description: "Valpromide : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Valpromide : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 drugbank_id: DB04165
 ---
 

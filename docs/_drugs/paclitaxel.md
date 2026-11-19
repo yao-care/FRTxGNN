@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-13
 monitor_inn: "PACLITAXEL"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
-description: "Paclitaxel : nouvelle indication prédite, Parameningeal embryonal rhabdomyosarcoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Paclitaxel : nouvelle indication prédite, Parameningeal embryonal rhabdomyosarcoma (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Paclitaxel

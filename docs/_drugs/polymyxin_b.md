@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-10-28
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
-description: "Polymyxin B : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Polymyxin B : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L4). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
 # Polymyxin B

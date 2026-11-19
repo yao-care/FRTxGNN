@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
-description: "Rosuvastatin : nouvelle indication prédite, Cholesterol-ester transfer protein deficiency (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Rosuvastatin : nouvelle indication prédite, Cholesterol-ester transfer protein deficiency (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Rosuvastatin

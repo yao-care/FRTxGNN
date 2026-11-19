@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
-description: "Isoniazid : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Isoniazid : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Isoniazid

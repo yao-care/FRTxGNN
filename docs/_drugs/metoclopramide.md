@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
-description: "Metoclopramide : nouvelle indication prédite, Gastroduodénite (gastroduodenitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Metoclopramide : nouvelle indication prédite, Gastroduodénite (gastroduodenitis) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 
 # Metoclopramide

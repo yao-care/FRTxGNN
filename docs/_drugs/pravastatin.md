@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-15
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
-description: "Pravastatin : nouvelle indication prédite, HIV infectious disease (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Pravastatin : nouvelle indication prédite, HIV infectious disease (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Pravastatin

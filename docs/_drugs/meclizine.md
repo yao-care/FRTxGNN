@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
-description: "Meclizine : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Meclizine : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Meclizine

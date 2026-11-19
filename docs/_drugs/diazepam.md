@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-04
 monitor_inn: "diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
-description: "Diazepam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Diazepam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L2). En France, AMM dans la BDPM : 10 (valides : 10)"
 ---
 
 # Diazepam

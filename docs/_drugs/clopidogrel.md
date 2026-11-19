@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-12
 monitor_inn: "CLOPIDOGREL"
 predicted_indications: ["migraine with brainstem aura", "migraine disorder", "osteoarthritis", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis"]
-description: "Clopidogrel : nouvelle indication prédite, Migraine with brainstem aura (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Clopidogrel : nouvelle indication prédite, Migraine with brainstem aura (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Clopidogrel

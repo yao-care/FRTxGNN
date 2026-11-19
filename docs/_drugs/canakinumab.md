@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "CANAKINUMAB"
 predicted_indications: ["hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "syndrome with combined immunodeficiency", "periodic fever-infantile enterocolitis-autoinflammatory syndrome", "extracutaneous mastocytoma", "Blau syndrome", "monosomy X", "liver angiosarcoma"]
 last_modified_at: 2026-10-30
-description: "Canakinumab : nouvelle indication prédite, Infarctus hépatique (hepatic infarction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Canakinumab : nouvelle indication prédite, Infarctus hépatique (hepatic infarction) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Canakinumab

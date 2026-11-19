@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "TOLCAPONE"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration", "transaldolase deficiency", "fructose-1,6-bisphosphatase deficiency", "Lewy body dementia", "X-linked intellectual disability-ataxia-apraxia syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "X-linked intellectual disability-cerebellar hypoplasia syndrome", "paralysis agitans, juvenile, of Hunt"]
-description: "Tolcapone : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Tolcapone : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Tolcapone

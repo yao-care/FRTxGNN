@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
-description: "Haloperidol : nouvelle indication prédite, Congenital disorder of glycosylation with defective fucosylation (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Haloperidol : nouvelle indication prédite, Congenital disorder of glycosylation with defective fucosylation (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Haloperidol

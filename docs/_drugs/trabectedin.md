@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
-description: "Trabectedin : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Trabectedin : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
 ---
 
 # Trabectedin

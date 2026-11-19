@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-15
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-description: "Lactulose : nouvelle indication prédite, Acute urate nephropathy (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Lactulose : nouvelle indication prédite, Acute urate nephropathy (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 9)"
 ---
 
 # Lactulose

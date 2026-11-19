@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-03
 monitor_inn: "CYCLOPHOSPHAMIDE"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-description: "Cyclophosphamide : nouvelle indication prédite, Vertebral anomalies and variable endocrine and T-cell dysfunction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Cyclophosphamide : nouvelle indication prédite, Vertebral anomalies and variable endocrine and T-cell dysfunction (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Cyclophosphamide

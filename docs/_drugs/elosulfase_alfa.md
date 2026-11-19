@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "elosulfase alfa"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
-description: "Elosulfase Alfa : nouvelle indication prédite, Syndrome de Scheie (Scheie syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Elosulfase Alfa : nouvelle indication prédite, Syndrome de Scheie (Scheie syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Elosulfase Alfa

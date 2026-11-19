@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "defibrotide"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "thrombotic thrombocytopenic purpura", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "congenital factor V deficiency", "fetal and neonatal alloimmune thrombocytopenia", "thrombocytopenic purpura"]
-description: "Defibrotide : nouvelle indication prédite, Pseudo-maladie de von Willebrand (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Defibrotide : nouvelle indication prédite, Pseudo-maladie de von Willebrand (rang 1) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Defibrotide

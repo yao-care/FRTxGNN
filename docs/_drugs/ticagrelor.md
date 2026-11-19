@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
-description: "Ticagrelor : nouvelle indication prédite, Artériosclérose intracrânienne (intracranial arteriosclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ticagrelor : nouvelle indication prédite, Artériosclérose intracrânienne (intracranial arteriosclerosis) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
 ---
 
 # Ticagrelor

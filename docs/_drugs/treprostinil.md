@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-12
 monitor_inn: "treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
-description: "Treprostinil : nouvelle indication prédite, Pulmonary arteriovenous malformation (disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Treprostinil : nouvelle indication prédite, Pulmonary arteriovenous malformation (disease) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
 ---
 
 # Treprostinil

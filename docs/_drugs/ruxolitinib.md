@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
-description: "Ruxolitinib : nouvelle indication prédite, Uterine corpus perivascular epithelioid cell tumor (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ruxolitinib : nouvelle indication prédite, Uterine corpus perivascular epithelioid cell tumor (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Ruxolitinib

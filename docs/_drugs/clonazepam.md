@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
-description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Clonazepam

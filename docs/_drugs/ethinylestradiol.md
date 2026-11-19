@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-13
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
-description: "Ethinylestradiol : nouvelle indication prédite, Élévation du zinc plasmatique (zinc, elevated plasma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ethinylestradiol : nouvelle indication prédite, Élévation du zinc plasmatique (zinc, elevated plasma) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Ethinylestradiol

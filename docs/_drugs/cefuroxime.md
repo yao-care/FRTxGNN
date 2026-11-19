@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
-description: "Cefuroxime : nouvelle indication prédite, Hyperamylasemia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Cefuroxime : nouvelle indication prédite, Hyperamylasemia (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Cefuroxime

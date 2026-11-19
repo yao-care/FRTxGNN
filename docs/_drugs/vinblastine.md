@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
-description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcoma (disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcoma (disease) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Vinblastine

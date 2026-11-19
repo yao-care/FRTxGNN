@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-description: "Insulin Detemir : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Insulin Detemir : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Insulin Detemir

@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "cilastatin"
 predicted_indications: ["staphylococcus aureus infection", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "sinusitis", "paranasal sinus neoplasm (disease)", "paratyphoid fever", "bronchitis", "diffuse scleroderma", "salmonellosis"]
-description: "Cilastatin : nouvelle indication prédite, Infection à Staphylococcus aureus (staphylococcus aureus infection) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Cilastatin : nouvelle indication prédite, Infection à Staphylococcus aureus (staphylococcus aureus infection) (niveau de preuve L3). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
 # Cilastatin

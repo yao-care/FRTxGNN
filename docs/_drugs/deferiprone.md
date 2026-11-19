@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
-description: "Deferiprone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Deferiprone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L4). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Deferiprone

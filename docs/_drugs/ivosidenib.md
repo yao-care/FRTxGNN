@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "ivosidenib"
 predicted_indications: ["bulbar polio"]
-description: "Ivosidenib : nouvelle indication prédite, Poliomyélite bulbaire (bulbar polio) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ivosidenib : nouvelle indication prédite, Poliomyélite bulbaire (bulbar polio) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Ivosidenib

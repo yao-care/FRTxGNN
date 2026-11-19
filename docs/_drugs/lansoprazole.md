@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
-description: "Lansoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Lansoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Lansoprazole

@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "CLOMIPRAMINE"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données locales"
+description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L1). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Clomipramine

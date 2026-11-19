@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "eribulin"
 predicted_indications: ["autosomal recessive familial Mediterranean fever", "dermatofibrosarcoma protuberans", "pleural mesothelioma", "malignant peritoneal mesothelioma", "pleural adenomatoid tumor", "pleural biphasic mesothelioma", "fibroblastic neoplasm", "pleural epithelioid mesothelioma", "heart fibrosarcoma"]
-description: "Eribulin : nouvelle indication prédite, Autosomal recessive familial Mediterranean fever (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Eribulin : nouvelle indication prédite, Autosomal recessive familial Mediterranean fever (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Eribulin

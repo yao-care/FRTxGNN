@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
-description: "Norgestimate : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Norgestimate : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 
 # Norgestimate

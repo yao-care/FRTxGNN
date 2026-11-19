@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-28
 monitor_inn: "digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
-description: "Digoxin : nouvelle indication prédite, Angor de Prinzmetal (Prinzmetal angina) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Digoxin : nouvelle indication prédite, Angor de Prinzmetal (Prinzmetal angina) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
 # Digoxin

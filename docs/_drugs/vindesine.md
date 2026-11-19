@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-12
 monitor_inn: "vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
-description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (ganglioneuroblastoma (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (ganglioneuroblastoma (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Vindesine

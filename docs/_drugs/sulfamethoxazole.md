@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
-description: "Sulfamethoxazole : nouvelle indication prédite, Conjonctivite aiguë contagieuse (acute contagious conjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Sulfamethoxazole : nouvelle indication prédite, Conjonctivite aiguë contagieuse (acute contagious conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Sulfamethoxazole

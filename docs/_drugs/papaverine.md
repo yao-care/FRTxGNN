@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
-description: "Papaverine : nouvelle indication prédite, Maladie ischémique (ischemic disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Papaverine : nouvelle indication prédite, Maladie ischémique (ischemic disease) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Papaverine

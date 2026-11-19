@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-10-28
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
-description: "Orlistat : nouvelle indication prédite, Hypervitaminose (hypervitaminosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Orlistat : nouvelle indication prédite, Hypervitaminose (hypervitaminosis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Orlistat

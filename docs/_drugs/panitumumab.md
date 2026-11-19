@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "PANITUMUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy"]
-description: "Panitumumab : nouvelle indication prédite, Ostéoporose médicamenteuse (drug-induced osteoporosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Panitumumab : nouvelle indication prédite, Ostéoporose médicamenteuse (drug-induced osteoporosis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Panitumumab

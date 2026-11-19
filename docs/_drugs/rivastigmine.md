@@ -8,7 +8,7 @@ indication_count: 1
 last_modified_at: 2026-11-12
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
-description: "Rivastigmine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Rivastigmine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
 ---
 
 # Rivastigmine

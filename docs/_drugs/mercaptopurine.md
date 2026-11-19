@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-04
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-description: "Mercaptopurine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Mercaptopurine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L3). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Mercaptopurine

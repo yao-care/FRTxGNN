@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "FLUBENDAZOLE"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
-description: "Flubendazole : nouvelle indication prédite, Carcinome de la vessie (urinary bladder carcinoma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Flubendazole : nouvelle indication prédite, Carcinome de la vessie (urinary bladder carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Flubendazole

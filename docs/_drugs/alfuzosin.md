@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
-description: "Alfuzosin : nouvelle indication prédite, Ambras type hypertrichosis universalis congenita (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Alfuzosin : nouvelle indication prédite, Ambras type hypertrichosis universalis congenita (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Alfuzosin

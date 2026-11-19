@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
-description: "Moclobemide : nouvelle indication prédite, Agoraphobie (agoraphobia) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Moclobemide : nouvelle indication prédite, Agoraphobie (agoraphobia) (niveau de preuve L2). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Moclobemide

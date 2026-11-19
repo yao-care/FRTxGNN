@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-12
 monitor_inn: "hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
-description: "Hydroxocobalamin : nouvelle indication prédite, Esophageal varices without bleeding (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Hydroxocobalamin : nouvelle indication prédite, Esophageal varices without bleeding (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Hydroxocobalamin

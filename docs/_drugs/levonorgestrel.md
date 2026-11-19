@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-11-04
 monitor_inn: "levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
-description: "Levonorgestrel : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Levonorgestrel : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Levonorgestrel

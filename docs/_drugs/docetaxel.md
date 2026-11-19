@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-13
 monitor_inn: "docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-description: "Docetaxel : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Docetaxel : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : 11 (valides : 11)"
 ---
 
 # Docetaxel

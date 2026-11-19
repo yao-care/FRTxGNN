@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "idelalisib"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
-description: "Idelalisib : nouvelle indication prédite, Lymphome à cellules du manteau (mantle cell lymphoma) (niveau de preuve L3). Indication d'origine : Non renseignée dans les données locales"
+description: "Idelalisib : nouvelle indication prédite, Lymphome à cellules du manteau (mantle cell lymphoma) (niveau de preuve L3). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Idelalisib

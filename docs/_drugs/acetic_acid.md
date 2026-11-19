@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
 last_modified_at: 2026-10-28
-description: "Acetic Acid : nouvelle indication prédite, Trouble post-bactérien (post-bacterial disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Acetic Acid : nouvelle indication prédite, Trouble post-bactérien (post-bacterial disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Acetic Acid

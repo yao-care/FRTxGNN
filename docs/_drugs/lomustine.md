@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-04
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
-description: "Lomustine : nouvelle indication prédite, Lymphosarcome (lymphosarcoma) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données locales"
+description: "Lomustine : nouvelle indication prédite, Lymphosarcome (lymphosarcoma) (niveau de preuve L4). En France, AMM dans la BDPM : 2 (valides : 1)"
 ---
 
 # Lomustine

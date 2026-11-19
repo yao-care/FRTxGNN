@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-10-28
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
-description: "Prucalopride : nouvelle indication prédite, Hypoalphalipoprotéinémie (hypoalphalipoproteinemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Prucalopride : nouvelle indication prédite, Hypoalphalipoprotéinémie (hypoalphalipoproteinemia) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Prucalopride

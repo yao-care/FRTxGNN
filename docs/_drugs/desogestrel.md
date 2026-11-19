@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-15
 monitor_inn: "desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
-description: "Desogestrel : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Desogestrel : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Desogestrel

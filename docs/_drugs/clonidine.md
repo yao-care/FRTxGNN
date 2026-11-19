@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "CLONIDINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-description: "Clonidine : nouvelle indication prédite, Faciodigitogenital syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Clonidine : nouvelle indication prédite, Faciodigitogenital syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Clonidine

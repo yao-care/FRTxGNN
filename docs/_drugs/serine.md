@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-12
 monitor_inn: "serine"
 predicted_indications: ["familial visceral myopathy", "intestinal obstruction", "myopathic intestinal pseudoobstruction", "unclassified intestinal pseudoobstruction", "neuronal intestinal dysplasia, type B", "intestinal pseudoobstruction, neuronal, chronic idiopathic, X-linked", "exercise-induced malignant hyperthermia", "aqueous misdirection"]
-description: "Serine : nouvelle indication prédite, Myopathie viscérale familiale (familial visceral myopathy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Serine : nouvelle indication prédite, Myopathie viscérale familiale (familial visceral myopathy) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Serine

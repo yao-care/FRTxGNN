@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "fluorometholone"
 predicted_indications: ["postinfectious vasculitis", "post-bacterial disorder", "otitis externa", "infective urethral stricture", "post-infectious syndrome", "punctate epithelial keratoconjunctivitis", "infection-related hemolytic uremic syndrome", "Chagas cardiomyopathy", "glaucomatocyclitic crisis"]
-description: "Fluorometholone : nouvelle indication prédite, Postinfectious vasculitis (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Fluorometholone : nouvelle indication prédite, Postinfectious vasculitis (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Fluorometholone

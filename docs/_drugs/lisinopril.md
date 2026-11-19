@@ -8,7 +8,7 @@ indication_count: 6
 last_modified_at: 2026-11-12
 monitor_inn: "LISINOPRIL"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome"]
-description: "Lisinopril : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Lisinopril : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Lisinopril

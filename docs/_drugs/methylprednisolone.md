@@ -8,7 +8,7 @@ indication_count: 8
 last_modified_at: 2026-11-03
 monitor_inn: "methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone : nouvelle indication prédite, Alopécie mucineuse (alopecia mucinosa) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Methylprednisolone : nouvelle indication prédite, Alopécie mucineuse (alopecia mucinosa) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
 ---
 
 # Methylprednisolone

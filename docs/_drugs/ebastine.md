@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-13
 monitor_inn: "ebastine"
 predicted_indications: ["coronary artery disease", "myocardial ischemia"]
-description: "Ebastine : nouvelle indication prédite, Maladie coronarienne (coronary artery disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ebastine : nouvelle indication prédite, Maladie coronarienne (coronary artery disease) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
 ---
 
 # Ebastine

@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
-description: "Risankizumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Risankizumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Risankizumab

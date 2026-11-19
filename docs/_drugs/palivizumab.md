@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-12
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
-description: "Palivizumab : nouvelle indication prédite, Benign neoplasm of tongue (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Palivizumab : nouvelle indication prédite, Benign neoplasm of tongue (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Palivizumab

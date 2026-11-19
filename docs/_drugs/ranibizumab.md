@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-12
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
-description: "Ranibizumab : nouvelle indication prédite, Immature cataract (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Ranibizumab : nouvelle indication prédite, Immature cataract (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Ranibizumab

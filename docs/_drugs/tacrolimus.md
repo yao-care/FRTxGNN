@@ -8,7 +8,7 @@ indication_count: 2
 last_modified_at: 2026-11-15
 monitor_inn: "tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
-description: "Tacrolimus : nouvelle indication prédite, Dermatite séborrhéique (seborrheic dermatitis) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Tacrolimus : nouvelle indication prédite, Dermatite séborrhéique (seborrheic dermatitis) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Tacrolimus

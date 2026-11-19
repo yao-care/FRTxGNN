@@ -8,7 +8,7 @@ indication_count: 10
 last_modified_at: 2026-11-15
 monitor_inn: "diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
-description: "Diclofenac : nouvelle indication prédite, Hypotrichosis simplex of the scalp (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Diclofenac : nouvelle indication prédite, Hypotrichosis simplex of the scalp (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Diclofenac

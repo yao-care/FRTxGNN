@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "avelumab"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 last_modified_at: 2026-10-28
-description: "Avelumab : nouvelle indication prédite, Tumeur liée à l'herpèsvirus humain 8 (human herpesvirus 8-related tumor) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Avelumab : nouvelle indication prédite, Tumeur liée à l'herpèsvirus humain 8 (human herpesvirus 8-related tumor) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
 # Avelumab

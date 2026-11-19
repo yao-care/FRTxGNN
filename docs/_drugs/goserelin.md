@@ -8,7 +8,7 @@ indication_count: 3
 last_modified_at: 2026-11-12
 monitor_inn: "goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
-description: "Goserelin : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L2). Indication d'origine : Non renseignée dans les données locales"
+description: "Goserelin : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L2). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Goserelin

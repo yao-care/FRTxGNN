@@ -8,7 +8,7 @@ indication_count: 5
 last_modified_at: 2026-10-31
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
-description: "Simvastatin : nouvelle indication prédite, Brain stem infarction (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locales"
+description: "Simvastatin : nouvelle indication prédite, Brain stem infarction (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Simvastatin
