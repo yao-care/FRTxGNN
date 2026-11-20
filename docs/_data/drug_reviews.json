@@ -35502,7 +35502,7 @@
    "file": "alfacalcidol.md",
    "action": "mechanism",
    "claim": "Aucune voie biologique précise reliant l'alfacalcidol à cette maladie n'est établie, et l'absence de données sur le mécanisme d'action empêche de vérifier la cohérence de la prédiction.",
-   "replacement": "Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Alfacalcidol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D ». Texte original en anglais : \"Vitamin D receptor agonist\" ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0 ; consulté le 2026-11-20).",
+   "replacement": "Le mécanisme d'action est cité plus haut, avec sa source ([ChEMBL](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669)).",
    "summary": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain",
    "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
    "sources": [
@@ -35519,7 +35519,36 @@
     }
    ],
    "checked": "2026-11-20",
-   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）"
+   "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+   "history": [
+    {
+     "id": "fr-moa-20261120-alfacalcidol-2",
+     "drug": "alfacalcidol",
+     "file": "alfacalcidol.md",
+     "action": "mechanism",
+     "claim": "Aucune voie biologique précise reliant l'alfacalcidol à cette maladie n'est établie, et l'absence de données sur le mécanisme d'action empêche de vérifier la cohérence de la prédiction.",
+     "replacement": "Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Alfacalcidol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D ». Texte original en anglais : \"Vitamin D receptor agonist\" ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0 ; consulté le 2026-11-20).",
+     "summary": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain",
+     "finding": "頁面寫作用機轉資料不可得（證據包 drugbank.source＝vocab_only）；作用機轉是藥物本身的藥理事實，依 ChEMBL drug mechanism 表 原文節錄補上（附非官方翻譯，英文原文為準），模型預測與其他正文不動。",
+     "sources": [
+      {
+       "title": "ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism",
+       "url": "https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669",
+       "accessed": "2026-11-20",
+       "excerpt": "Vitamin D receptor agonist",
+       "via": "ChEMBL web services (https://www.ebi.ac.uk/chembl/api/data/docs), CC BY-SA 3.0",
+       "chembl_id": "CHEMBL1601669",
+       "translation": "Agoniste des récepteurs de la vitamine D",
+       "translation_lang": "fr",
+       "translation_note": "unofficial translation of the English excerpt (machine-assisted, 2026-11-19); the English original quoted on the page is authoritative"
+      }
+     ],
+     "checked": "2026-11-20",
+     "method": "scripts/build_mechanism_reviews.py（2026-11-19 建）",
+     "retired": "2026-11-20",
+     "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
+    }
+   ]
   }
  ]
 }
