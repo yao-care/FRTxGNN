@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de l'�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Roxadustat est (traduction non officielle) : « Inhibiteur de la prolyl hydroxylase du facteur induit par l'hypoxie » Texte original en anglais : "Hypoxia-inducible factor prolyl hydroxylase inhibitor" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, roxadustat inhibe les prolyl-hydroxylases (EGLN1-3), ce qui stabilise HIF-1α et HIF-2α. Cette stabilisation stimule la production d'érythropoïétine, d'où son utilisation dans l'anémie liée à l'insuffisance rénale chronique. L'EMA l'a approuvé dans cette indication en août 2021.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Roxadustat est (traduction non officielle) : « Inhibiteur de la prolyl hydroxylase du facteur induit par l'hypoxie ». Texte original en anglais : "Hypoxia-inducible factor prolyl hydroxylase inhibitor" ([ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, roxadustat inhibe les prolyl-hydroxylases (EGLN1-3), ce qui stabilise HIF-1α et HIF-2α. Cette stabilisation stimule la production d'érythropoïétine, d'où son utilisation dans l'anémie liée à l'insuffisance rénale chronique. L'EMA l'a approuvé dans cette indication en août 2021.
 
 Sur le plan théorique, l'activation de HIF pourrait influencer la réponse à l'hypoxie de la cornée, la réparation épithéliale et l'inflammation de la surface oculaire. Toutefois, ce lien reste spéculatif : aucune donnée clinique ou bibliographique ne le confirme, et le score élevé du modèle (0,9951) ne renseigne pas sur le sens de l'effet.
 
@@ -125,7 +125,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 5 AMM du produit EVRENZO (Astellas Pharma Europe, Pays-Bas) sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2338329 (roxadustat): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2338329) |
 
 <!-- review:end log -->
 

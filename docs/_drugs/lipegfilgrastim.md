@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble primair
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Lipegfilgrastim est (traduction non officielle) : « Agoniste du récepteur du facteur de stimulation des colonies de granulocytes » Texte original en anglais : "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, lipegfilgrastim est un analogue pégylé du G-CSF. Il agit sur le récepteur du G-CSF et stimule la prolifération et la différenciation de la lignée neutrophile.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Lipegfilgrastim est (traduction non officielle) : « Agoniste du récepteur du facteur de stimulation des colonies de granulocytes ». Texte original en anglais : "Granulocyte colony stimulating factor receptor agonist" ([ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, lipegfilgrastim est un analogue pégylé du G-CSF. Il agit sur le récepteur du G-CSF et stimule la prolifération et la différenciation de la lignée neutrophile.
 
 La relation avec la nouvelle indication est **peu plausible sur le plan mécanistique**. Les troubles de la libération plaquettaire sont des défauts qualitatifs de la fonction plaquettaire (granules de sécrétion), et non un déficit en neutrophiles. Aucun lien connu n'existe entre la voie du G-CSF et ce type de défaut.
 
@@ -119,7 +119,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL4594230 (lipegfilgrastim): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594230) |
 
 <!-- review:end log -->
 

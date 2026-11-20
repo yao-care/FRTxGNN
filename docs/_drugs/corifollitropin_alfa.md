@@ -54,7 +54,7 @@ La corifollitropine alfa est un analogue recombinant de la FSH à longue durée 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Corifollitropin Alfa est (traduction non officielle) : « Agoniste des récepteurs de l'hormone folliculo-stimulante » Texte original en anglais : "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, la corifollitropine alfa agit sur les récepteurs de la FSH dans les gonades. Elle est utilisée en stimulation ovarienne contrôlée en procréation médicalement assistée, mais cette indication n'est pas confirmée par les textes d'AMM disponibles.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Corifollitropin Alfa est (traduction non officielle) : « Agoniste des récepteurs de l'hormone folliculo-stimulante ». Texte original en anglais : "Follicle stimulating hormone receptor agonist" ([ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, la corifollitropine alfa agit sur les récepteurs de la FSH dans les gonades. Elle est utilisée en stimulation ovarienne contrôlée en procréation médicalement assistée, mais cette indication n'est pas confirmée par les textes d'AMM disponibles.
 
 **Aucun lien mécanistique crédible n'a été identifié** entre la stimulation du récepteur de la FSH et la maladie gastroduodénale. La muqueuse gastroduodénale n'est pas connue pour dépendre de la signalisation de ce récepteur. Le score élevé (0,9965) reflète très probablement une proximité dans le réseau de connaissances plutôt qu'une réalité biologique.
 
@@ -121,7 +121,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2108185 (corifollitropin alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108185) |
 
 <!-- review:end log -->
 

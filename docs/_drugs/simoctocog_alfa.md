@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **pseudo-maladie 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Simoctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation » Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, simoctocog alfa est un facteur VIII recombinant. Son efficacité dans l'hémophilie A repose sur le remplacement du facteur VIII déficient.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Simoctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation ». Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, simoctocog alfa est un facteur VIII recombinant. Son efficacité dans l'hémophilie A repose sur le remplacement du facteur VIII déficient.
 
 **En réalité, la prédiction est peu plausible sur le plan mécanistique.** La pseudo-maladie de von Willebrand est un trouble plaquettaire causé par un gain de fonction de la GPIb-alpha, qui augmente la liaison au facteur de von Willebrand (VWF). Un apport de facteur VIII ne corrige pas ce défaut du récepteur plaquettaire. Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre maladies apparentées (troubles hémorragiques), et non une preuve biologique.
 
@@ -150,7 +150,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 8 AMM, toutes de la gamme NUWIQ (Octapharma, Suède), sont annulées » | Corrigé (révisé le 2026-11-12 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Les 3 autres AMM NUWIQ sont actives, non annulées | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2108319 (simoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108319) |
 
 <!-- review:end log -->
 

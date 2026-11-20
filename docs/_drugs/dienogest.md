@@ -58,7 +58,7 @@ La dienogest est un progestatif de synthèse (dérivé de la 19-nortestostérone
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Dienogest est (traduction non officielle) : « Inconnu » Texte original en anglais : "Unknown" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la dienogest est un progestatif de type 19-nortestostérone, doté d'une forte activité progestative et antiovulatoire et d'un effet antiandrogénique léger. Elle freine la production ovarienne d'estradiol et induit une décidualisation puis une atrophie de l'endomètre.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Dienogest est (traduction non officielle) : « Inconnu ». Texte original en anglais : "Unknown" ([ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la dienogest est un progestatif de type 19-nortestostérone, doté d'une forte activité progestative et antiovulatoire et d'un effet antiandrogénique léger. Elle freine la production ovarienne d'estradiol et induit une décidualisation puis une atrophie de l'endomètre.
 
 L'aménorrhée est un effet pharmacologique bien connu de ce traitement dans l'endométriose : c'est un résultat attendu sur le profil de saignements, voire un effet indésirable, et non la preuve d'un bénéfice contre l'aménorrhée en tant que maladie. L'aménorrhée hypo-œstrogénique pourrait même être aggravée par la suppression hormonale.
 
@@ -134,7 +134,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
 
 <!-- review:end log -->
 

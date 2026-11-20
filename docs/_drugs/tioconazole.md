@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **vulvite (vulvitis)
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Tioconazole est (traduction non officielle) : « Inhibiteur du cytochrome P450 51 » Texte original en anglais : "Cytochrome P450 51 inhibitor" ([ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438), CC BY-SA 3.0 ; consulté le 2026-11-19). Les références pharmacologiques indiquent toutefois que le tioconazole cible la lanostérol 14-α déméthylase (CYP51/ERG11) chez les champignons et levures : en bloquant la synthèse de l'ergostérol, composant essentiel de la membrane fongique, il empêche la survie du pathogène. Il inhibe aussi une enzyme humaine, la CYP8B1, impliquée dans la synthèse des acides biliaires.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Tioconazole est (traduction non officielle) : « Inhibiteur du cytochrome P450 51 ». Texte original en anglais : "Cytochrome P450 51 inhibitor" ([ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438), CC BY-SA 3.0 ; consulté le 2026-11-19). Les références pharmacologiques indiquent toutefois que le tioconazole cible la lanostérol 14-α déméthylase (CYP51/ERG11) chez les champignons et levures : en bloquant la synthèse de l'ergostérol, composant essentiel de la membrane fongique, il empêche la survie du pathogène. Il inhibe aussi une enzyme humaine, la CYP8B1, impliquée dans la synthèse des acides biliaires.
 
 Une vulvite s'accompagne souvent d'une infection à *Candida*. Dans ce cas, un mécanisme azolé antifongique est plausible. Le lien reste cependant **indirect** : la littérature récupérée porte sur la candidose vaginale et non sur la vulvite en tant qu'entité distincte. Aucune efficacité n'est démontrée dans les vulvites non fongiques (irritatives, de contact, allergiques).
 
@@ -115,7 +115,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1200438 (tioconazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1200438) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Carbetocin est (traduction non officielle) : « Agoniste des récepteurs de l'ocytocine » Texte original en anglais : "Oxytocin receptor agonist" ([ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668), CC BY-SA 3.0 ; consulté le 2026-11-19). Ce que l'on sait, c'est que la carbétocine est un agoniste du récepteur de l'ocytocine (gène OXTR). Une formulation intranasale est par ailleurs en développement dans le syndrome de Prader-Willi, pour réduire la sensation de faim extrême.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Carbetocin est (traduction non officielle) : « Agoniste des récepteurs de l'ocytocine ». Texte original en anglais : "Oxytocin receptor agonist" ([ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668), CC BY-SA 3.0 ; consulté le 2026-11-19). Ce que l'on sait, c'est que la carbétocine est un agoniste du récepteur de l'ocytocine (gène OXTR). Une formulation intranasale est par ailleurs en développement dans le syndrome de Prader-Willi, pour réduire la sensation de faim extrême.
 
 Le lien avec le syndrome pseudo-isotrétinoïne repose uniquement sur un score de prédiction élevé du modèle. Ce syndrome correspond à un phénotype de malformations congénitales proche de l'embryopathie rétinoïque. La connexion probable passe par des éléments voisins partagés dans le modèle, sans fondement biologique démontré ici.
 
@@ -106,7 +106,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL3301668 (carbetocin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3301668) |
 
 <!-- review:end log -->
 

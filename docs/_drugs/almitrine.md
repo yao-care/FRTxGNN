@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **Bronchite (br
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Almitrine est (traduction non officielle) : « Inconnu » Texte original en anglais : "Unknown" ([ChEMBL CHEMBL1183717 (almitrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1183717), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après la littérature, l'almitrine agit sur les chimiorécepteurs des corps carotidiens et aortiques et améliore le rapport ventilation/perfusion. Elle renforce la vasoconstriction pulmonaire hypoxique, ce qui augmente la pression artérielle en oxygène (PaO2).
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Almitrine est (traduction non officielle) : « Inconnu ». Texte original en anglais : "Unknown" ([ChEMBL CHEMBL1183717 (almitrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1183717), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après la littérature, l'almitrine agit sur les chimiorécepteurs des corps carotidiens et aortiques et améliore le rapport ventilation/perfusion. Elle renforce la vasoconstriction pulmonaire hypoxique, ce qui augmente la pression artérielle en oxygène (PaO2).
 
 Ces effets sont pertinents pour la bronchite chronique avec hypoxémie, un phénotype proche de la bronchopneumopathie chronique obstructive (BPCO). Le score élevé du modèle s'explique par ce chevauchement : la bronchite chronique est une composante de la BPCO. Il s'agit donc d'une extension proche, plutôt que d'un repositionnement éloigné.
 
@@ -115,7 +115,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1183717 (almitrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1183717) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1183717 (almitrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1183717) |
 
 <!-- review:end log -->
 

@@ -56,7 +56,7 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Domperidone est (traduction non officielle) : « Antagoniste des récepteurs dopaminergiques D2 » Texte original en anglais : "Dopamine D2 receptor antagonist" ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, la dompéridone agit comme antagoniste des récepteurs dopaminergiques D2 (gène DRD2) et D3 (gène DRD3), principalement en périphérie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Domperidone est (traduction non officielle) : « Antagoniste des récepteurs dopaminergiques D2 ». Texte original en anglais : "Dopamine D2 receptor antagonist" ([ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, la dompéridone agit comme antagoniste des récepteurs dopaminergiques D2 (gène DRD2) et D3 (gène DRD3), principalement en périphérie.
 
 Le NSIAD est causé par des mutations gain de fonction du gène du récepteur V2 de la vasopressine (AVPR2). Ces mutations rendent le récepteur actif en permanence, avec rétention d'eau malgré une vasopressine indétectable. La dompéridone n'a aucune action directe connue sur le récepteur V2 ni sur la voie AMPc/aquaporine-2 en aval.
 
@@ -119,7 +119,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 12 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL219916 (domperidone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL219916) |
 
 <!-- review:end log -->
 

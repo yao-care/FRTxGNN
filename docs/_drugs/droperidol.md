@@ -62,7 +62,7 @@ Parmi les autres prédictions, la **céphalée/migraine** (1 essai terminé pré
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Droperidol est (traduction non officielle) : « Antagoniste des récepteurs de la sérotonine 2a (5-HT2a) ; antagoniste des récepteurs dopaminergiques de type D2 » Texte original en anglais : "Serotonin 2a (5-HT2a) receptor antagonist; D2-like dopamine receptor antagonist" ([ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le dropéridol est une butyrophénone dotée d'un puissant effet antagoniste des récepteurs dopaminergiques D2.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Droperidol est (traduction non officielle) : « Antagoniste des récepteurs de la sérotonine 2a (5-HT2a) ; antagoniste des récepteurs dopaminergiques de type D2 ». Texte original en anglais : "Serotonin 2a (5-HT2a) receptor antagonist; D2-like dopamine receptor antagonist" ([ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances pharmacologiques générales, le dropéridol est une butyrophénone dotée d'un puissant effet antagoniste des récepteurs dopaminergiques D2.
 
 Le syndrome de Gilles de la Tourette est traité par d'autres antagonistes D2 (halopéridol, pimozide). La prédiction est donc plausible sur le plan mécanistique. En revanche, aucun essai ni publication ne l'étaye pour le dropéridol. De plus, le risque d'allongement de l'intervalle QT constitue une préoccupation majeure pour un traitement chronique.
 
@@ -178,7 +178,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 10 AMM identifiées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1108 (droperidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1108) |
 
 <!-- review:end log -->
 

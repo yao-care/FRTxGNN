@@ -60,7 +60,7 @@ Il faut toutefois noter que cette prédiction recoupe en pratique l'indication d
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Conestat Alfa est (traduction non officielle) : « Protéine exogène inhibitrice de la protéase plasmatique C1 » Texte original en anglais : "Plasma protease C1 inhibitor exogenous protein" ([ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, conestat alfa est une forme recombinante de l'inhibiteur de la C1 estérase (C1-INH), produite chez des lapins transgéniques. Son efficacité dans les crises d'angioedème héréditaire a été démontrée par des essais randomisés contrôlés par placebo.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Conestat Alfa est (traduction non officielle) : « Protéine exogène inhibitrice de la protéase plasmatique C1 ». Texte original en anglais : "Plasma protease C1 inhibitor exogenous protein" ([ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, conestat alfa est une forme recombinante de l'inhibiteur de la C1 estérase (C1-INH), produite chez des lapins transgéniques. Son efficacité dans les crises d'angioedème héréditaire a été démontrée par des essais randomisés contrôlés par placebo.
 
 Le déficit en C1-INH est la cause même de l'angioedème héréditaire de type I et II. Conestat alfa remplace la protéine fonctionnelle manquante ou dysfonctionnelle. Il rétablit ainsi le contrôle des voies du complément, de contact et de la kallikréine-kinine, ce qui réduit la production de bradykinine, médiateur principal de l'œdème.
 
@@ -138,7 +138,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2108350 (conestat alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108350) |
 
 <!-- review:end log -->
 

@@ -54,7 +54,7 @@ Le fénotérol est un agoniste bêta-2 adrénergique à action courte, utilisé 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Fenoterol est (traduction non officielle) : « Agoniste des récepteurs adrénergiques bêta-2 » Texte original en anglais : "Beta-2 adrenergic receptor agonist" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le fénotérol est un agoniste bêta-2 adrénergique à action courte. Son usage bronchodilatateur est établi, et il agit sur les récepteurs bêta-adrénergiques (β1, β2 et β3 d'après les données de pharmacologie compilées).
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Fenoterol est (traduction non officielle) : « Agoniste des récepteurs adrénergiques bêta-2 ». Texte original en anglais : "Beta-2 adrenergic receptor agonist" ([ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le fénotérol est un agoniste bêta-2 adrénergique à action courte. Son usage bronchodilatateur est établi, et il agit sur les récepteurs bêta-adrénergiques (β1, β2 et β3 d'après les données de pharmacologie compilées).
 
 Le lien mécanistique possible est une modulation sympathique et une vasodilatation médiée par le récepteur bêta-2, pouvant influencer la dysautonomie de l'atrophie multisystématisée. Toutefois, cette vasodilatation pourrait aggraver l'hypotension orthostatique neurogène, symptôme central de cette maladie. La plausibilité biologique est donc faible et ambivalente.
 
@@ -110,7 +110,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est annulée, ce qui limite la faisabilité pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL32800 (fenoterol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL32800) |
 
 <!-- review:end log -->
 

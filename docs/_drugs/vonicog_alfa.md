@@ -59,7 +59,7 @@ Le niveau L5 s'applique car aucune des publications retrouvées n'étudie direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Vonicog Alfa est (traduction non officielle) : « Protéine exogène facteur von Willebrand » Texte original en anglais : "von Willebrand factor exogenous protein" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, vonicog alfa est un facteur von Willebrand (VWF) recombinant. Le VWF favorise l'adhésion et l'agrégation des plaquettes sur les sites de lésion vasculaire, via la liaison à la GPIb et au collagène, et il transporte le facteur VIII.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Vonicog Alfa est (traduction non officielle) : « Protéine exogène facteur von Willebrand ». Texte original en anglais : "von Willebrand factor exogenous protein" ([ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, vonicog alfa est un facteur von Willebrand (VWF) recombinant. Le VWF favorise l'adhésion et l'agrégation des plaquettes sur les sites de lésion vasculaire, via la liaison à la GPIb et au collagène, et il transporte le facteur VIII.
 
 Le lien avec l'hémophilie est indirect : le VWF stabilise le facteur VIII endogène et le protège de sa clairance, d'où un lien plausible avec l'hémophilie A. Cependant, le produit n'est pas conçu pour remplacer le facteur VIII et n'a pas de rôle établi dans l'hémophilie.
 
@@ -127,7 +127,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2107873 (vonicog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107873) |
 
 <!-- review:end log -->
 

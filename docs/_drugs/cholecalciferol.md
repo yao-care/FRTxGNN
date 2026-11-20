@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **dysplasie acromés
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Cholecalciferol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D » Texte original en anglais : "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0 ; consulté le 2026-11-19). Le cholécalciférol est un précurseur de la vitamine D active. Il est converti dans l'organisme en dérivés qui régulent l'absorption du calcium et du phosphore et la minéralisation osseuse.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Cholecalciferol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D ». Texte original en anglais : "Vitamin D receptor agonist" ([ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042), CC BY-SA 3.0 ; consulté le 2026-11-19). Le cholécalciférol est un précurseur de la vitamine D active. Il est converti dans l'organisme en dérivés qui régulent l'absorption du calcium et du phosphore et la minéralisation osseuse.
 
 La prédiction est issue du modèle TxGNN (apprentissage profond) et peut refléter des similarités apprises par le modèle entre des maladies apparentées, et non une preuve biologique. Le score très élevé (0,9978) est une sortie de modèle, pas une preuve clinique.
 
@@ -127,7 +127,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1042 (cholecalciferol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1042) |
 
 <!-- review:end log -->
 

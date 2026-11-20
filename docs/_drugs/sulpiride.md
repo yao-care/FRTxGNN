@@ -56,7 +56,7 @@ mais **aucun essai clinique** n'est enregistré et seules **2 publications préc
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Le sulpiride est un antagoniste sélectif des récepteurs dopaminergiques D2 et D3, avec une faible affinité pour le récepteur D4. Les données compilées indiquent également une interaction avec plusieurs anhydrases carboniques (CA1, CA7, CA12), dont la portée clinique n'est pas précisée. Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Sulpiride est (traduction non officielle) : « Antagoniste des récepteurs dopaminergiques D2 » Texte original en anglais : "Dopamine D2 receptor antagonist" ([ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26), CC BY-SA 3.0 ; consulté le 2026-11-19).
+Le sulpiride est un antagoniste sélectif des récepteurs dopaminergiques D2 et D3, avec une faible affinité pour le récepteur D4. Les données compilées indiquent également une interaction avec plusieurs anhydrases carboniques (CA1, CA7, CA12), dont la portée clinique n'est pas précisée. Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Sulpiride est (traduction non officielle) : « Antagoniste des récepteurs dopaminergiques D2 ». Texte original en anglais : "Dopamine D2 receptor antagonist" ([ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26), CC BY-SA 3.0 ; consulté le 2026-11-19).
 
 La dopamine module les réponses lumineuses des cellules ganglionnaires de la rétine. Dans le modèle de rat P23H de rétinite pigmentaire, les antagonistes D2 (dont le sulpiride) semblent améliorer les réponses visuelles de ces cellules, en augmentant leur sensibilité à la lumière et en transformant des cellules ON anormales à latence longue en cellules OFF. Le lien avec l'indication d'origine est donc pharmacologique (blocage D2) et non une similarité de maladie : la schizophrénie et la dystrophie rétinienne n'ont pas de parenté clinique.
 
@@ -120,7 +120,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es six AMM sont annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL26 (sulpiride): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL26) |
 
 <!-- review:end log -->
 

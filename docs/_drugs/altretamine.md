@@ -56,7 +56,7 @@ mais aucun essai clinique n'est enregistré et seules **3 publications** (précl
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Altretamine est (traduction non officielle) : « Inhibiteur de l'ADN » Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL1455 (altretamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1455), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'altrétamine est un antinéoplasique de type alkylant de la famille des s-triazines. Elle doit être activée par le métabolisme (N-déméthylation en intermédiaires méthylol réactifs) pour exercer son effet cytotoxique.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Altretamine est (traduction non officielle) : « Inhibiteur de l'ADN ». Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL1455 (altretamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1455), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'altrétamine est un antinéoplasique de type alkylant de la famille des s-triazines. Elle doit être activée par le métabolisme (N-déméthylation en intermédiaires méthylol réactifs) pour exercer son effet cytotoxique.
 
 Une étude préclinique de 1995 (PMID 7559101) a montré une activité in vivo de l'hexaméthylmélamine sur des xénogreffes de carcinome mammaire humain chez la souris. Une revue systématique de 2023 (PMID 37298753) soutient une activité antitumorale au niveau de la classe des s-triazines, mais ne porte pas directement sur l'altrétamine dans le cancer du sein. Ces éléments rendent la prédiction biologiquement plausible, sans la démontrer chez l'humain.
 
@@ -116,7 +116,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1455 (altretamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1455) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1455 (altretamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1455) |
 
 <!-- review:end log -->
 

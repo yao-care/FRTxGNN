@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **pseudo-maladie 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Eftrenonacog Alfa est (traduction non officielle) : « Protéine exogène de facteur IX de coagulation » Texte original en anglais : "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, eftrenonacog alfa est un facteur IX recombinant couplé à un fragment Fc (rFIXFc). Il remplace le facteur IX déficient dans la voie intrinsèque de la coagulation, ce qui justifie son usage dans l'hémophilie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Eftrenonacog Alfa est (traduction non officielle) : « Protéine exogène de facteur IX de coagulation ». Texte original en anglais : "Coagulation factor IX exogenous protein" ([ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, eftrenonacog alfa est un facteur IX recombinant couplé à un fragment Fc (rFIXFc). Il remplace le facteur IX déficient dans la voie intrinsèque de la coagulation, ce qui justifie son usage dans l'hémophilie.
 
 Le lien avec la nouvelle indication est faible. La pseudo-maladie de von Willebrand (de type plaquettaire) est due à des mutations avec gain de fonction de la GPIbα plaquettaire. Celles-ci augmentent la liaison des plaquettes au facteur von Willebrand, entraînent l'élimination des grands multimères de VWF et provoquent des saignements d'origine plaquettaire. Le défaut porte sur l'interaction plaquette-VWF, et non sur un déficit en facteur IX.
 
@@ -135,7 +135,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les cinq AMM, détenues par Swedish Orphan Biovitrum (Suède), sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL4594598 (eftrenonacog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594598) |
 
 <!-- review:end log -->
 

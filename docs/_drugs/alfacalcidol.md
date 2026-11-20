@@ -60,11 +60,11 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Alfacalcidol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D » Texte original en anglais : "Vitamin D receptor agonist" ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0 ; consulté le 2026-11-19). Alfacalcidol est un analogue de la vitamine D hydroxylé en position 1-alpha, transformé dans le foie en calcitriol, la forme active de la vitamine D. Il intervient dans l'équilibre du calcium et du phosphate et dans la minéralisation osseuse.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Alfacalcidol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D ». Texte original en anglais : "Vitamin D receptor agonist" ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0 ; consulté le 2026-11-19). Alfacalcidol est un analogue de la vitamine D hydroxylé en position 1-alpha, transformé dans le foie en calcitriol, la forme active de la vitamine D. Il intervient dans l'équilibre du calcium et du phosphate et dans la minéralisation osseuse.
 
 Les relations enregistrées dans le graphe de connaissances (hyperparathyroïdie, ostéodystrophie rénale, etc.) concernent des troubles du métabolisme phosphocalcique et osseux. La conodysplasie crânio-faciale est une dysplasie squelettique. Le modèle a probablement établi le rapprochement à partir de phénotypes osseux communs.
 
-Cette hypothèse reste très spéculative. Aucune voie biologique précise reliant l'alfacalcidol à cette maladie n'est établie, et l'absence de données sur le mécanisme d'action empêche de vérifier la cohérence de la prédiction. Le score élevé du modèle ne suffit pas à lui seul à justifier un développement.
+Cette hypothèse reste très spéculative. Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Alfacalcidol est (traduction non officielle) : « Agoniste des récepteurs de la vitamine D ». Texte original en anglais : "Vitamin D receptor agonist" ([ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669), CC BY-SA 3.0 ; consulté le 2026-11-20). Le score élevé du modèle ne suffit pas à lui seul à justifier un développement.
 
 ---
 
@@ -124,7 +124,8 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
+| 2026-11-20 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1601669 (alfacalcidol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1601669) |
 
 <!-- review:end log -->
 

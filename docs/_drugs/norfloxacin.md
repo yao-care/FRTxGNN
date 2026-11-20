@@ -55,7 +55,7 @@ La norfloxacine est une fluoroquinolone antibactérienne, utilisée à l'origine
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Norfloxacin est (traduction non officielle) : « Inhibiteur de la topoisomérase IV ; inhibiteur de l'ADN gyrase bactérienne » Texte original en anglais : "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, la norfloxacine appartient à la classe des fluoroquinolones, qui inhibent l'ADN gyrase et la topoisomérase IV bactériennes. Son efficacité est établie dans les infections bactériennes, notamment urinaires et digestives.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Norfloxacin est (traduction non officielle) : « Inhibiteur de la topoisomérase IV ; inhibiteur de l'ADN gyrase bactérienne ». Texte original en anglais : "Topoisomerase IV inhibitor; Bacterial DNA gyrase inhibitor" ([ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, la norfloxacine appartient à la classe des fluoroquinolones, qui inhibent l'ADN gyrase et la topoisomérase IV bactériennes. Son efficacité est établie dans les infections bactériennes, notamment urinaires et digestives.
 
 En revanche, il n'existe **aucun lien mécanistique identifiable** avec l'hyperamylasémie. La norfloxacine n'agit pas sur la régulation de l'amylase ni sur les pathologies pancréatiques ou salivaires.
 
@@ -132,7 +132,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, toutes les AMM françaises de la norfloxacine sont annulées, et le profil de sécurité comporte de nombreuses contre-indications et i » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL9 (norfloxacin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL9) |
 
 <!-- review:end log -->
 

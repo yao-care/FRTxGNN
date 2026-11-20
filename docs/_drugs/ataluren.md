@@ -60,7 +60,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ataluren est (traduction non officielle) : « Modulateur du ribosome 80S » Texte original en anglais : "80S Ribosome modulator" ([ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, l'ataluren agit en favorisant la translecture ribosomale des codons stop prématurés, c'est-à-dire des mutations non-sens.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ataluren est (traduction non officielle) : « Modulateur du ribosome 80S ». Texte original en anglais : "80S Ribosome modulator" ([ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, l'ataluren agit en favorisant la translecture ribosomale des codons stop prématurés, c'est-à-dire des mutations non-sens.
 
 La cholestase intrahépatique récurrente bénigne est liée à des mutations des gènes ATP8B1 (BRIC1) ou ABCB11 (BRIC2). Une partie des patients pourrait porter des variants non-sens. Pour ce seul sous-groupe, un mécanisme de translecture est théoriquement plausible.
 
@@ -120,7 +120,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL256997 (ataluren): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL256997) |
 
 <!-- review:end log -->
 

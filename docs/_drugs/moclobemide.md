@@ -56,7 +56,7 @@ avec **0 essai clinique** enregistré et **10 publications** soutenant actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Moclobemide est (traduction non officielle) : « Inhibiteur de la monoamine oxydase A » Texte original en anglais : "Monoamine oxidase A inhibitor" ([ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, le moclobémide est un inhibiteur réversible et sélectif de la monoamine oxydase A (RIMA). Il augmente la disponibilité synaptique de la sérotonine, de la noradrénaline et de la dopamine. Les données de pharmacologie compilées confirment ses cibles MAO-A et MAO-B.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Moclobemide est (traduction non officielle) : « Inhibiteur de la monoamine oxydase A ». Texte original en anglais : "Monoamine oxidase A inhibitor" ([ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques établies, le moclobémide est un inhibiteur réversible et sélectif de la monoamine oxydase A (RIMA). Il augmente la disponibilité synaptique de la sérotonine, de la noradrénaline et de la dopamine. Les données de pharmacologie compilées confirment ses cibles MAO-A et MAO-B.
 
 L'agoraphobie est étroitement liée aux troubles anxieux, notamment au trouble panique, déjà couverts par les indications d'origine du médicament. Les antidépresseurs agissant sur les systèmes monoaminergiques sont efficaces dans le trouble panique avec agoraphobie, ce qui rend le lien mécanistique plausible.
 
@@ -134,7 +134,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et le produit n'a plus qu'une AMM annulée en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL86304 (moclobemide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL86304) |
 
 <!-- review:end log -->
 

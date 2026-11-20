@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **tumeur des vo
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Dacarbazine est (traduction non officielle) : « Inhibiteur de l'ADN » Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, la dacarbazine est un agent alkylant : via son métabolite actif (MTIC), elle méthyle l'ADN, ce qui lui confère une activité cytotoxique sur les cellules tumorales en division.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Dacarbazine est (traduction non officielle) : « Inhibiteur de l'ADN ». Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, la dacarbazine est un agent alkylant : via son métabolite actif (MTIC), elle méthyle l'ADN, ce qui lui confère une activité cytotoxique sur les cellules tumorales en division.
 
 Son efficacité a été établie dans le mélanome métastatique et le lymphome de Hodgkin, où elle est utilisée seule ou en association. Un mécanisme cytotoxique général pourrait en théorie s'appliquer à d'autres tumeurs solides, dont celles de la tête et du cou.
 
@@ -143,7 +143,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les trois AMM françaises sont annulées et les données de sécurité de la notice sont absentes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « puisque aucune AMM n'est en vigueur » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL476 (dacarbazine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL476) |
 
 <!-- review:end log -->
 

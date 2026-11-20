@@ -57,7 +57,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Pipobroman est (traduction non officielle) : « Inhibiteur de l'ADN » Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL1585 (pipobroman): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1585), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le pipobroman est un dérivé de la pipérazine à activité cytotoxique de type alkylant, utilisé dans des affections myéloprolifératives. Son action repose sur l'alkylation de l'ADN et une myélosuppression.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Pipobroman est (traduction non officielle) : « Inhibiteur de l'ADN ». Texte original en anglais : "DNA inhibitor" ([ChEMBL CHEMBL1585 (pipobroman): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1585), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le pipobroman est un dérivé de la pipérazine à activité cytotoxique de type alkylant, utilisé dans des affections myéloprolifératives. Son action repose sur l'alkylation de l'ADN et une myélosuppression.
 
 Aucun lien mécanistique n'est établi avec la cataracte diabétique. Cette dernière résulte principalement de l'activation de la voie des polyols (aldose réductase), de l'accumulation de sorbitol et d'un stress osmotique et oxydatif dans le cristallin. L'activité alkylante et myélosuppressive du pipobroman n'a pas de connexion reconnue avec ces processus.
 
@@ -105,7 +105,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1585 (pipobroman): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1585) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1585 (pipobroman): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1585) |
 
 <!-- review:end log -->
 

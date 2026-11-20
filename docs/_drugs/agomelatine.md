@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Agomelatine est (traduction non officielle) : « Agoniste des récepteurs de la mélatonine ; antagoniste des récepteurs de la sérotonine 2c (5-HT2c) » Texte original en anglais : "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, l'agomélatine se lie aux récepteurs MT1 et MT2 (mélatonine) ainsi qu'aux récepteurs 5-HT2A, 5-HT2B et 5-HT2C.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Agomelatine est (traduction non officielle) : « Agoniste des récepteurs de la mélatonine ; antagoniste des récepteurs de la sérotonine 2c (5-HT2c) ». Texte original en anglais : "Melatonin receptor agonist; Serotonin 2c (5-HT2c) receptor antagonist" ([ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, l'agomélatine se lie aux récepteurs MT1 et MT2 (mélatonine) ainsi qu'aux récepteurs 5-HT2A, 5-HT2B et 5-HT2C.
 
 Aucun lien mécanistique n'est établi entre ces cibles et le torticolis paroxystique bénin du nourrisson, un trouble pédiatrique du spectre migraineux, probablement de nature canalopathique. Le score élevé du modèle reflète une prédiction computationnelle et non une preuve biologique ou clinique. Cette prédiction doit donc être considérée avec une grande prudence, d'autant que l'utilisation chez le nourrisson soulèverait des questions de sécurité majeures.
 
@@ -103,7 +103,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL10878 (agomelatine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL10878) |
 
 <!-- review:end log -->
 

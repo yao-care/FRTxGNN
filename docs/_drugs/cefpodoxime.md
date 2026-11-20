@@ -61,7 +61,7 @@ Une seconde prédiction, la **polyarthrite rhumatoïde** (score 0,9924), figure 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Cefpodoxime est (traduction non officielle) : « Inhibiteur des protéines bactériennes de liaison aux pénicillines » Texte original en anglais : "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, cefpodoxime est un antibiotique oral de la famille des céphalosporines de troisième génération. Cette classe inhibe la synthèse de la paroi cellulaire bactérienne.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Cefpodoxime est (traduction non officielle) : « Inhibiteur des protéines bactériennes de liaison aux pénicillines ». Texte original en anglais : "Bacterial penicillin-binding protein inhibitor" ([ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, cefpodoxime est un antibiotique oral de la famille des céphalosporines de troisième génération. Cette classe inhibe la synthèse de la paroi cellulaire bactérienne.
 
 Aucun lien mécanistique plausible n'est établi avec l'arthrose. Cette maladie est dégénérative et en grande partie non infectieuse : elle résulte de la dégradation du cartilage, de contraintes mécaniques et d'une inflammation de bas grade. Aucune cible antibactérienne n'est identifiable.
 
@@ -130,7 +130,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1672 (cefpodoxime): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1672) |
 
 <!-- review:end log -->
 

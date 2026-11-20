@@ -56,7 +56,7 @@ avec **0 essai clinique** enregistré et **6 publications** identifiées, dont s
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Estriol est (traduction non officielle) : « Modulateur des récepteurs des estrogènes » Texte original en anglais : "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'estriol est un agoniste faible des récepteurs aux œstrogènes alpha (ESR1) et bêta (ESR2). Il est utilisé en Europe et en Asie depuis plus de 40 ans, notamment pour les bouffées de chaleur de la ménopause.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Estriol est (traduction non officielle) : « Modulateur des récepteurs des estrogènes ». Texte original en anglais : "Estrogen receptor modulator" ([ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'estriol est un agoniste faible des récepteurs aux œstrogènes alpha (ESR1) et bêta (ESR2). Il est utilisé en Europe et en Asie depuis plus de 40 ans, notamment pour les bouffées de chaleur de la ménopause.
 
 Dans l'aménorrhée hypothalamique fonctionnelle (AHF), la sécrétion pulsatile de GnRH est altérée par des facteurs de stress psychosociaux et métaboliques. Il en résulte une baisse de la production de LH et de FSH et un état d'hypo-œstrogénie. Des œstrogènes à faible dose pourraient agir comme modulateurs neuroendocriniens et rétablir les mécanismes de rétrocontrôle au niveau hypothalamo-hypophysaire.
 
@@ -130,7 +130,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Deux autres AMM annulées existent (PHYSIOGINE 0,5 mg ovule ; TROPHIGIL gélule vaginale) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL193482 (estriol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL193482) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **tumeur bénigne
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Palivizumab est (traduction non officielle) : « Inhibiteur de la glycoprotéine de fusion F0 » Texte original en anglais : "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, palivizumab est un anticorps monoclonal humanisé qui se lie à la protéine F du VRS et neutralise le virus. Son efficacité a été établie dans la prévention de l'infection par le VRS.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Palivizumab est (traduction non officielle) : « Inhibiteur de la glycoprotéine de fusion F0 ». Texte original en anglais : "Fusion glycoprotein F0 inhibitor" ([ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances générales, palivizumab est un anticorps monoclonal humanisé qui se lie à la protéine F du VRS et neutralise le virus. Son efficacité a été établie dans la prévention de l'infection par le VRS.
 
 **En l'état, la prédiction n'est pas étayée mécanistiquement.** Aucun lien plausible n'a été identifié entre la neutralisation de la protéine F virale et la biologie d'une tumeur bénigne de la langue. Le score élevé (0,9994) reflète uniquement une prédiction du modèle TxGNN (apprentissage profond), sans essai clinique ni publication à l'appui. La similarité avec l'indication d'origine n'a pas encore été évaluée.
 
@@ -125,7 +125,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées et les informations de sécurité issues de la notice manquent » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1201586 (palivizumab): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201586) |
 
 <!-- review:end log -->
 

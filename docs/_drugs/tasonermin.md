@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome uroth
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Tasonermin est (traduction non officielle) : « Inconnu » Texte original en anglais : "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, tasonermin est une forme recombinante du TNF-alpha humain, utilisée avec la perfusion isolée de membre pour les sarcomes des tissus mous des membres. Une hypothèse plausible est que le TNF-alpha détruit la vascularisation tumorale et améliore la pénétration de la chimiothérapie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Tasonermin est (traduction non officielle) : « Inconnu ». Texte original en anglais : "Unknown" ([ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, tasonermin est une forme recombinante du TNF-alpha humain, utilisée avec la perfusion isolée de membre pour les sarcomes des tissus mous des membres. Une hypothèse plausible est que le TNF-alpha détruit la vascularisation tumorale et améliore la pénétration de la chimiothérapie.
 
 Rien dans les données compilées pour ce rapport ne relie ce mécanisme au carcinome urothélial de l'urètre prostatique. Le score élevé (0,9981) provient du modèle TxGNN (apprentissage profond) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique ni une preuve de efficacité. Par ailleurs, l'usage approuvé est strictement limité à la perfusion régionale d'un membre, car le TNF-alpha administré par voie systémique présente une toxicité limitante. Cette voie d'administration n'est pas transposable telle quelle à une tumeur de l'urètre.
 
@@ -127,7 +127,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et l'AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2107891 (tasonermin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2107891) |
 
 <!-- review:end log -->
 

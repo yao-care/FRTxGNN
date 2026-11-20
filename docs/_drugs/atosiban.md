@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Atosiban est (traduction non officielle) : « Antagoniste des récepteurs de l'ocytocine » Texte original en anglais : "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0 ; consulté le 2026-11-19). Les données compilées pour ce rapport indiquent qu'atosiban agit sur les récepteurs de l'ocytocine (OXTR) et sur les récepteurs de la vasopressine V1A, V1B et V2.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Atosiban est (traduction non officielle) : « Antagoniste des récepteurs de l'ocytocine ». Texte original en anglais : "Oxytocin receptor antagonist" ([ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301), CC BY-SA 3.0 ; consulté le 2026-11-19). Les données compilées pour ce rapport indiquent qu'atosiban agit sur les récepteurs de l'ocytocine (OXTR) et sur les récepteurs de la vasopressine V1A, V1B et V2.
 
 Aucun lien mécanistique n'est établi dans les données entre ces récepteurs et le glaucome héréditaire primitif. Le score TxGNN reflète une prédiction computationnelle, sans étude clinique ni publication pour l'étayer. Cette prédiction doit donc être considérée comme une simple piste à explorer, et non comme une indication démontrée.
 
@@ -102,7 +102,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL382301 (atosiban): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL382301) |
 
 <!-- review:end log -->
 

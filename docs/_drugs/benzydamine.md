@@ -56,7 +56,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Benzydamine est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase » Texte original en anglais : "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la benzydamine est un anti-inflammatoire non stéroïdien à action locale, doté de propriétés de type anesthésique local. Son efficacité dans une indication d'origine n'a pas pu être vérifiée, car aucune indication n'est renseignée.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Benzydamine est (traduction non officielle) : « Inhibiteur de la cyclo-oxygénase ». Texte original en anglais : "Cyclooxygenase inhibitor" ([ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la benzydamine est un anti-inflammatoire non stéroïdien à action locale, doté de propriétés de type anesthésique local. Son efficacité dans une indication d'origine n'a pas pu être vérifiée, car aucune indication n'est renseignée.
 
 Une hypothèse plausible, mais non vérifiée, est que des effets anti-inflammatoires et stabilisateurs de membrane pourraient soulager des symptômes urinaires bas d'origine inflammatoire. Cette hypothèse n'a pas été testée dans les données disponibles et ne doit pas être considérée comme une preuve en faveur de l'hyperplasie bénigne de la prostate.
 
@@ -102,7 +102,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL12610 (benzydamine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL12610) |
 
 <!-- review:end log -->
 

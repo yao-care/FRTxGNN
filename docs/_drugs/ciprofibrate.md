@@ -56,7 +56,7 @@ mais cette direction ne repose que sur **1 publication préclinique** (modèle a
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ciprofibrate est (traduction non officielle) : « Agoniste du récepteur alpha activé par les proliférateurs de peroxysomes » Texte original en anglais : "Peroxisome proliferator-activated receptor alpha agonist" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, le ciprofibrate est un agoniste du récepteur PPAR-alpha (PPARA) qui réduit les triglycérides et module le métabolisme des lipoprotéines.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Ciprofibrate est (traduction non officielle) : « Agoniste du récepteur alpha activé par les proliférateurs de peroxysomes ». Texte original en anglais : "Peroxisome proliferator-activated receptor alpha agonist" ([ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations pharmacologiques connues, le ciprofibrate est un agoniste du récepteur PPAR-alpha (PPARA) qui réduit les triglycérides et module le métabolisme des lipoprotéines.
 
 La déficience en CETP se caractérise par un HDL-cholestérol très élevé et un remodelage anormal des lipoprotéines. Un lien plausible existe donc par le métabolisme lipidique. Toutefois, ce lien reste théorique : la seule publication disponible (2003) est une étude chez la souris déficiente en apolipoprotéine E, montrant que le ciprofibrate aggrave l'hypercholestérolémie, effet corrigé par la surexpression de SR-BI.
 
@@ -112,7 +112,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL557555 (ciprofibrate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL557555) |
 
 <!-- review:end log -->
 

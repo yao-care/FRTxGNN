@@ -56,7 +56,7 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Artemether est (traduction non officielle) : « Inhibiteur de la ferriprotoporphyrine IX » Texte original en anglais : "Ferriprotoporphyrin IX inhibitor" ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0 ; consulté le 2026-11-19). L'artéméther est un dérivé de l'artémisinine, mais aucune donnée mécanistique n'a été compilée pour ce rapport.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Artemether est (traduction non officielle) : « Inhibiteur de la ferriprotoporphyrine IX ». Texte original en anglais : "Ferriprotoporphyrin IX inhibitor" ([ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534), CC BY-SA 3.0 ; consulté le 2026-11-19). L'artéméther est un dérivé de l'artémisinine, mais aucune donnée mécanistique n'a été compilée pour ce rapport.
 
 Pour l'angiœdème acquis, aucun lien mécanistique cliniquement plausible n'est établi. Cette pathologie repose sur l'excès de bradykinine et sur des anomalies de la voie du complément (inhibiteur de la C1-estérase), axes sur lesquels l'artéméther n'a aucune action connue. Le score élevé (0,9990) reflète une proximité dans le réseau du modèle, sans validation biologique ou clinique.
 
@@ -108,7 +108,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL566534 (artemether): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL566534) |
 
 <!-- review:end log -->
 

@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **porphyrie hé
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Idebenone est (traduction non officielle) : « Antioxydant et transporteur d'électrons mitochondrial » Texte original en anglais : "Antioxidant and mitochondrial electron carrier" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'idébénone est un analogue synthétique de la benzoquinone à chaîne courte, apparenté à la coenzyme Q10. Elle agit comme antioxydant et transporteur d'électrons dans la chaîne respiratoire mitochondriale. Son efficacité dans la neuropathie optique héréditaire de Leber, une maladie mitochondriale, est l'indication de référence du médicament.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Idebenone est (traduction non officielle) : « Antioxydant et transporteur d'électrons mitochondrial ». Texte original en anglais : "Antioxidant and mitochondrial electron carrier" ([ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'idébénone est un analogue synthétique de la benzoquinone à chaîne courte, apparenté à la coenzyme Q10. Elle agit comme antioxydant et transporteur d'électrons dans la chaîne respiratoire mitochondriale. Son efficacité dans la neuropathie optique héréditaire de Leber, une maladie mitochondriale, est l'indication de référence du médicament.
 
 Un lien avec la porphyrie hépatique reste spéculatif : le stress oxydant et le dysfonctionnement mitochondrial pourraient intervenir dans les troubles de la synthèse de l'hème. Cette hypothèse n'est étayée par aucune donnée compilée pour ce rapport.
 
@@ -145,7 +145,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a seule AMM française est annulée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL252556 (idebenone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL252556) |
 
 <!-- review:end log -->
 

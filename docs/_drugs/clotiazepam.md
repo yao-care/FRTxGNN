@@ -57,7 +57,7 @@ mais **aucun essai clinique** n'est enregistré et **1 publication** de portée 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Clotiazepam est (traduction non officielle) : « Récepteur GABA-A ; modulateur allostérique positif de canal anionique » Texte original en anglais : "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL1697737 (clotiazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1697737), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le clotiazépam fait partie de la classe des benzodiazépines (thiénodiazépine) et agit comme modulateur allostérique positif des récepteurs GABA-A. Ce renforcement de l'inhibition GABAergique produit des effets sédatifs et hypnotiques, ce qui constitue un mécanisme biologiquement plausible pour l'insomnie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Clotiazepam est (traduction non officielle) : « Récepteur GABA-A ; modulateur allostérique positif de canal anionique ». Texte original en anglais : "GABA-A receptor; anion channel positive allosteric modulator" ([ChEMBL CHEMBL1697737 (clotiazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1697737), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le clotiazépam fait partie de la classe des benzodiazépines (thiénodiazépine) et agit comme modulateur allostérique positif des récepteurs GABA-A. Ce renforcement de l'inhibition GABAergique produit des effets sédatifs et hypnotiques, ce qui constitue un mécanisme biologiquement plausible pour l'insomnie.
 
 Cette lecture repose sur la connaissance de la classe pharmacologique et non sur le dossier propre au médicament. Le score TxGNN est très élevé (0,9989), mais il s'agit d'une prédiction de modèle, et non d'une preuve clinique.
 
@@ -120,7 +120,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et l'indication originale autorisée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1697737 (clotiazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1697737) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1697737 (clotiazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1697737) |
 
 <!-- review:end log -->
 

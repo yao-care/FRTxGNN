@@ -57,7 +57,7 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Amsacrine est (traduction non officielle) : « Inhibiteur de l'ADN topoisomérase II » Texte original en anglais : "DNA topoisomerase II inhibitor" ([ChEMBL CHEMBL43 (amsacrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'amsacrine est un agent cytotoxique qui s'intercale dans l'ADN et inhibe la topoisomérase II, utilisé en oncologie.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Amsacrine est (traduction non officielle) : « Inhibiteur de l'ADN topoisomérase II ». Texte original en anglais : "DNA topoisomerase II inhibitor" ([ChEMBL CHEMBL43 (amsacrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, l'amsacrine est un agent cytotoxique qui s'intercale dans l'ADN et inhibe la topoisomérase II, utilisé en oncologie.
 
 Aucun lien mécanistique n'est étayé entre ce mode d'action et la synthèse ou la sécrétion des hormones thyroïdiennes. Le score élevé (0,9937) reflète uniquement une prédiction du modèle et ne constitue pas une preuve biologique ou clinique.
 
@@ -122,7 +122,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le statut de cette AMM est indiqué comme annulé dans la fiche de la licence, alors que le statut global de marché est « commercialisé » ; ce » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL43 (amsacrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL43 (amsacrine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL43) |
 
 <!-- review:end log -->
 

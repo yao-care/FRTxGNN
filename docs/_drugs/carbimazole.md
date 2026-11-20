@@ -56,7 +56,7 @@ Aucun essai clinique n'est enregistré et une seule publication (un rapport de c
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Carbimazole est (traduction non officielle) : « Inhibiteur de la thyroperoxydase » Texte original en anglais : "Thyroid peroxidase inhibitor" ([ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le carbimazole est transformé en méthimazole, qui inhibe la thyroperoxydase et réduit la production d'hormones thyroïdiennes.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Carbimazole est (traduction non officielle) : « Inhibiteur de la thyroperoxydase ». Texte original en anglais : "Thyroid peroxidase inhibitor" ([ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, le carbimazole est transformé en méthimazole, qui inhibe la thyroperoxydase et réduit la production d'hormones thyroïdiennes.
 
 Dans la résistance aux hormones thyroïdiennes de type bêta, le problème n'est pas un excès de production mais une sensibilité tissulaire réduite, avec une T4 libre élevée et une TSH non freinée. Réduire la synthèse hormonale pourrait, en théorie, abaisser la T4 et la T3 circulantes.
 
@@ -108,7 +108,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL508102 (carbimazole): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL508102) |
 
 <!-- review:end log -->
 

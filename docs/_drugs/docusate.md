@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Plu
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Docusate est (traduction non officielle) : « Laxatif surfactant » Texte original en anglais : "Surfactant laxative" ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le docusate est un tensioactif émollient des selles ; son usage dans la constipation est établi.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Docusate est (traduction non officielle) : « Laxatif surfactant ». Texte original en anglais : "Surfactant laxative" ([ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le docusate est un tensioactif émollient des selles ; son usage dans la constipation est établi.
 
 Le syndrome de Plummer-Vinson associe dysphagie, membranes œsophagiennes et anémie ferriprive. Le score provient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies voisines, et non une preuve biologique.
 
@@ -118,7 +118,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée, ce qui limite toute voie de développement pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1477036 (docusate): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1477036) |
 
 <!-- review:end log -->
 

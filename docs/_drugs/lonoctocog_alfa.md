@@ -60,7 +60,7 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Lonoctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation » Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, lonoctocog alfa est un facteur VIII recombinant à chaîne unique (rVIII-SingleChain), dont l'affinité pour le facteur von Willebrand (VWF) est renforcée. Son efficacité a été établie dans l'hémophilie, où il remplace le facteur VIII déficient.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Lonoctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation ». Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les informations connues, lonoctocog alfa est un facteur VIII recombinant à chaîne unique (rVIII-SingleChain), dont l'affinité pour le facteur von Willebrand (VWF) est renforcée. Son efficacité a été établie dans l'hémophilie, où il remplace le facteur VIII déficient.
 
 La pseudo-maladie de von Willebrand (forme plaquettaire) résulte de variants à gain de fonction de la GPIbα plaquettaire. Ceux-ci augmentent la fixation du VWF aux plaquettes, entraînant une perte des multimères de VWF de haut poids moléculaire, puis une baisse secondaire du VWF et du FVIII. Le lien théorique est qu'un apport de FVIII pourrait corriger ce déficit secondaire.
 
@@ -144,7 +144,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 7 AMM (titulaire : C L Behring, Allemagne) sont annulées ; s » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM, disponibilité éventuelle sous un autre statut) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL4594603 (lonoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL4594603) |
 
 <!-- review:end log -->
 

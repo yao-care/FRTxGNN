@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **porphyrie aigu�
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Mizolastine est (traduction non officielle) : « Antagoniste des récepteurs H1 de l'histamine » Texte original en anglais : "Histamine H1 receptor antagonist" ([ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, mizolastine est un antagoniste sélectif des récepteurs H1 de l'histamine, dont l'efficacité dans les affections allergiques nasales est le fondement de son usage d'origine.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Mizolastine est (traduction non officielle) : « Antagoniste des récepteurs H1 de l'histamine ». Texte original en anglais : "Histamine H1 receptor antagonist" ([ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, mizolastine est un antagoniste sélectif des récepteurs H1 de l'histamine, dont l'efficacité dans les affections allergiques nasales est le fondement de son usage d'origine.
 
 Pour la porphyrie aiguë intermittente, **aucun lien mécanistique n'est établi**. Cette maladie est un trouble de la biosynthèse de l'hème (déficit en PBGD/HMBS), et les antihistaminiques ne sont pas connus pour modifier le métabolisme des porphyrines. Le score élevé (0,9976) provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -118,7 +118,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, les deux AMM françaises sont annulées et les données de sécurité de la notice sont manquantes » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL94454 (mizolastine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL94454) |
 
 <!-- review:end log -->
 

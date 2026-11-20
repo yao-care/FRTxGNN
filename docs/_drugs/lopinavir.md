@@ -60,7 +60,7 @@ Pour une indication voisine, l'infection par le virus de l'immunodéficience sim
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Lopinavir est (traduction non officielle) : « Inhibiteur de la protéase du virus de l'immunodéficience humaine de type 1 » Texte original en anglais : "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, le lopinavir est un inhibiteur de la protéase du VIH-1, utilisé en association avec le ritonavir. Son efficacité dans l'infection par le VIH est établie, et il pourrait mécanistiquement s'appliquer à d'autres lentivirus apparentés.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Lopinavir est (traduction non officielle) : « Inhibiteur de la protéase du virus de l'immunodéficience humaine de type 1 ». Texte original en anglais : "Human immunodeficiency virus type 1 protease inhibitor" ([ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des connaissances générales, le lopinavir est un inhibiteur de la protéase du VIH-1, utilisé en association avec le ritonavir. Son efficacité dans l'infection par le VIH est établie, et il pourrait mécanistiquement s'appliquer à d'autres lentivirus apparentés.
 
 Le virus de l'immunodéficience féline (FIV) est un lentivirus apparenté au VIH, ce qui offre un argument mécanistique de départ. Toutefois, la protéase du FIV diffère de celle du VIH-1 par sa spécificité de substrat et sa sensibilité aux inhibiteurs, et plusieurs inhibiteurs de protéase du VIH montrent une activité réduite contre elle. Ce raisonnement repose sur la prédiction du modèle et sur la biologie générale des lentivirus, et non sur des données fournies.
 
@@ -147,7 +147,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL729 (lopinavir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL729) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**otite moyenne in
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Pyrazinamide est (traduction non officielle) : « Inhibiteur de l'acide gras synthase ; inhibiteur du ribosome 70S » Texte original en anglais : "Fatty acid synthase inhibitor; 70S ribosome inhibitor" ([ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le pyrazinamide fait partie des schémas antituberculeux multimédicamenteux. Il est actif contre *Mycobacterium tuberculosis* : son efficacité repose sur un pH acide et sur sa conversion en acide pyrazinoïque par la pyrazinamidase mycobactérienne.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Pyrazinamide est (traduction non officielle) : « Inhibiteur de l'acide gras synthase ; inhibiteur du ribosome 70S ». Texte original en anglais : "Fatty acid synthase inhibitor; 70S ribosome inhibitor" ([ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le pyrazinamide fait partie des schémas antituberculeux multimédicamenteux. Il est actif contre *Mycobacterium tuberculosis* : son efficacité repose sur un pH acide et sur sa conversion en acide pyrazinoïque par la pyrazinamidase mycobactérienne.
 
 Le lien avec l'otite moyenne est donc **limité** : il n'existe que pour la forme tuberculeuse, rare. Le pyrazinamide n'est pas actif contre les agents habituels de l'otite moyenne (*S. pneumoniae*, *H. influenzae*, *M. catarrhalis*). Le score élevé provient du modèle TxGNN (deep learning) et peut refléter des similarités apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -122,7 +122,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « e médicament n'a plus d'AMM valide en France (2 AMM annulées), et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL614 (pyrazinamide): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL614) |
 
 <!-- review:end log -->
 

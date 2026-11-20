@@ -56,7 +56,7 @@ Cependant, l'activité antibactérienne provient de l'imipénème et non de la c
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Cilastatin est (traduction non officielle) : « Inhibiteur de la dipeptidase rénale » Texte original en anglais : "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la cilastatine fait partie de l'association imipénème/cilastatine : elle inhibe la déshydropeptidase-1 (DHP-1) des tubules rénaux et empêche ainsi la dégradation de l'imipénème. Elle ne possède aucune activité antibactérienne propre.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Cilastatin est (traduction non officielle) : « Inhibiteur de la dipeptidase rénale ». Texte original en anglais : "Renal dipeptidase inhibitor" ([ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, la cilastatine fait partie de l'association imipénème/cilastatine : elle inhibe la déshydropeptidase-1 (DHP-1) des tubules rénaux et empêche ainsi la dégradation de l'imipénème. Elle ne possède aucune activité antibactérienne propre.
 
 L'association imipénème/cilastatine a une activité historique contre les *S. aureus* sensibles à la méticilline (SASM) et a été utilisée comme partenaire dans des cas de SARM réfractaire (par exemple avec la fosfomycine). Toute efficacité anti-staphylococcique est donc attribuable à l'imipénème.
 
@@ -149,7 +149,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « es neuf AMM recensées sont annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les neuf AMM françaises sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL766 (cilastatin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL766) |
 
 <!-- review:end log -->
 

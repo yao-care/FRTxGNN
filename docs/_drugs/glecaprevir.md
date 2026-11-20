@@ -59,7 +59,7 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans l'**infection par le VI
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Glecaprevir est (traduction non officielle) : « Inhibiteur de la sérine protéase NS3/NS4A du virus de l'hépatite C » Texte original en anglais : "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le glécaprévir inhibe la protéase NS3/4A du VHC et est associé au pibrentasvir, un inhibiteur de NS5A.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Glecaprevir est (traduction non officielle) : « Inhibiteur de la sérine protéase NS3/NS4A du virus de l'hépatite C ». Texte original en anglais : "Hepatitis C virus serine protease, NS3/NS4A inhibitor" ([ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, le glécaprévir inhibe la protéase NS3/4A du VHC et est associé au pibrentasvir, un inhibiteur de NS5A.
 
 Le lien mécanistique avec le VIH est faible. La protéase du VIH est une protéase aspartique distincte de la protéase à sérine NS3/4A du VHC, et aucune activité anti-VIH du glécaprévir n'est établie. Les essais cités incluent des patients co-infectés VIH/VHC, mais mesurent la guérison de l'hépatite C et non le traitement du VIH. Il s'agit donc d'une indication VHC chez une population co-infectée, et non d'un véritable repositionnement vers le VIH. Le score élevé reflète probablement la proximité dans le réseau entre antiviraux du VHC et du VIH plutôt qu'un effet antiviral direct sur le VIH.
 
@@ -137,7 +137,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL3545363 (glecaprevir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL3545363) |
 
 <!-- review:end log -->
 

@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **syndrome de l
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Vildagliptin est (traduction non officielle) : « Inhibiteur de la dipeptidyl peptidase IV » Texte original en anglais : "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0 ; consulté le 2026-11-19). La vildagliptine est un inhibiteur de la dipeptidyl peptidase 4 (DPP-4). Les données de pharmacologie indiquent qu'elle se lie aussi à DPP-8, DPP-9 et TRPV4. En bloquant la DPP-4, elle augmente les taux d'incrétines actives (GLP-1, GIP), ce qui améliore le contrôle de la glycémie dans le diabète de type 2.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Vildagliptin est (traduction non officielle) : « Inhibiteur de la dipeptidyl peptidase IV ». Texte original en anglais : "Dipeptidyl peptidase IV inhibitor" ([ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703), CC BY-SA 3.0 ; consulté le 2026-11-19). La vildagliptine est un inhibiteur de la dipeptidyl peptidase 4 (DPP-4). Les données de pharmacologie indiquent qu'elle se lie aussi à DPP-8, DPP-9 et TRPV4. En bloquant la DPP-4, elle augmente les taux d'incrétines actives (GLP-1, GIP), ce qui améliore le contrôle de la glycémie dans le diabète de type 2.
 
 Le syndrome de la personne raide est un trouble neurologique rare, souvent d'origine auto-immune (anticorps anti-GAD65 dans de nombreux cas), avec une altération de la signalisation GABAergique. **Il n'existe aucun lien mécanistique identifiable** avec l'inhibition de la DPP-4. Tout rapprochement reste spéculatif, par exemple une modulation immunitaire via CD26/DPP-4. Le « syndrome du membre raide focal », une forme localisée de la même famille de maladies, obtient exactement le même score, ce qui renforce cette lecture.
 
@@ -120,7 +120,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 18 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Le médicament n'a plus d'AMM valide en France, ce qui limite aussi sa disponibilité pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL142703 (vildagliptin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL142703) |
 
 <!-- review:end log -->
 

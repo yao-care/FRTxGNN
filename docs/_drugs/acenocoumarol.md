@@ -56,7 +56,7 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Acenocoumarol est (traduction non officielle) : « Inhibiteur de l'isoforme 1 de la sous-unité 1 du complexe vitamine K époxyde réductase » Texte original en anglais : "Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor" ([ChEMBL CHEMBL397420 (acenocoumarol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL397420), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'acénocoumarol est un antagoniste de la vitamine K : il inhibe VKORC1 et réduit la synthèse des facteurs de coagulation vitamine K-dépendants (II, VII, IX, X).
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Acenocoumarol est (traduction non officielle) : « Inhibiteur de l'isoforme 1 de la sous-unité 1 du complexe vitamine K époxyde réductase ». Texte original en anglais : "Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor" ([ChEMBL CHEMBL397420 (acenocoumarol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL397420), CC BY-SA 3.0 ; consulté le 2026-11-19). D'après les connaissances pharmacologiques générales, l'acénocoumarol est un antagoniste de la vitamine K : il inhibe VKORC1 et réduit la synthèse des facteurs de coagulation vitamine K-dépendants (II, VII, IX, X).
 
 Le déficit en cofacteur II de l'héparine est une thrombophilie héréditaire, dans laquelle la capacité d'inhibition de la thrombine est diminuée. Une anticoagulation par antivitamine K est donc biologiquement plausible pour prévenir la thrombose, en réduisant la production des facteurs que ce cofacteur contribue à contrôler.
 
@@ -105,7 +105,7 @@ Ci-dessous le journal de vérification de cette page. La phrase indiquant que le
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL397420 (acenocoumarol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL397420) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL397420 (acenocoumarol): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL397420) |
 
 <!-- review:end log -->
 

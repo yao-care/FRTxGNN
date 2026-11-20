@@ -55,7 +55,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble primair
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
 
-Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Turoctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation » Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, turoctocog alfa est un facteur VIII recombinant de substitution, dont l'efficacité dans l'hémophilie (déficit en facteur VIII) repose sur la restauration de l'activité de ce cofacteur de la coagulation.
+Selon ChEMBL (EMBL-EBI), le mécanisme d'action enregistré pour Turoctocog Alfa est (traduction non officielle) : « Protéine exogène facteur VIII de coagulation ». Texte original en anglais : "Coagulation factor VIII exogenous protein" ([ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286), CC BY-SA 3.0 ; consulté le 2026-11-19). Sur la base des informations connues, turoctocog alfa est un facteur VIII recombinant de substitution, dont l'efficacité dans l'hémophilie (déficit en facteur VIII) repose sur la restauration de l'activité de ce cofacteur de la coagulation.
 
 Pour le trouble primaire de la libération plaquettaire, le lien mécanistique est **faible**. Il s'agit d'un défaut intrinsèque de la fonction plaquettaire (sécrétion des granules ou signalisation), que l'apport de facteur VIII ne corrige pas. Le score élevé vient du modèle TxGNN (deep learning) et peut refléter des similitudes apprises par le modèle entre maladies apparentées, et non une preuve biologique.
 
@@ -120,7 +120,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM (68274043, NOVOEIGHT 500 UI) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « La confirmation de la disponibilité du produit, compte tenu du statut « annulé uniquement » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
+| 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2108286 (turoctocog alfa): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2108286) |
 
 <!-- review:end log -->
 
