@@ -3,7 +3,7 @@ layout: default
 title: Norethisterone
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 546
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 monitor_inn: "norethisterone"
 description: "Norethisterone : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
@@ -41,8 +41,8 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
-| Nombre d'AMM | 5 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 5) |
+| Nombre d'AMM | 5 (valides : 3) |
 
 ## Informations de Marché en France
 

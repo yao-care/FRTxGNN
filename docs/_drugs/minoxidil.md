@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 503
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MINOXIDIL"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "pseudopelade of Brocq", "pulmonary arterial hypertension", "pulmonary arteriovenous malformation (disease)", "pulmonary arterial hypertension associated with congenital heart disease", "primary hereditary glaucoma", "pulmonary arterial hypertension associated with HIV infection", "pulmonary arterial hypertension associated with schistosomiasis"]
-description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L4). En France, AMM dans la BDPM : 19 (valides : 19)"
+description: "Minoxidil : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L4). En France, AMM dans la BDPM : 19 (valides : 17)"
 ---
 
 # Minoxidil
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans l'**hypotrichose simple
 | Nouvelle Indication Prédite | Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
-| Nombre d'AMM | 19 (valides : 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 19) |
+| Nombre d'AMM | 19 (valides : 17) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,13 +75,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le minoxidil est commercialisé en France. Les 19 AMM recensées sont toutes valides.
-
-<!-- review:begin fr-lic-20261113-minoxidil-1 -->
-
-> **Correction de vérification (2026-11-13)**: Texte initial : « Sur les 19 AMM recensées, 17 sont valides et 2 sont annulées. » d'après la BDPM (données du 2026-11-13), les 19 AMM de minoxidil sont actives. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
-
-<!-- review:end fr-lic-20261113-minoxidil-1 -->
+Le minoxidil est commercialisé en France. Sur les 19 AMM recensées, 17 sont valides et 2 sont annulées.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -118,7 +112,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-13 | AMM valides : 17 → 19 (aucune annulée) | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | AMM valides : 17 → 19 (aucune annulée) | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 2 des 19 AMM de minoxidil sont archivées (69871657, 61156302) ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL802 (minoxidil): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL802) |
 
 <!-- review:end log -->

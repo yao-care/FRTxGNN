@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 629
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Prilocaine : nouvelle indication prédite, Conjonctivite papillaire (niveau de preuve L5). Indication d'origine : Éjaculation précoce"
 monitor_inn: "prilocaine"
 predicted_indications: ["papillary conjunctivitis", "manic bipolar affective disorder", "bronchitis", "migraine disorder", "neuralgia", "migraine with brainstem aura", "atopic eczema", "allergic asthma", "rhinitis", "rosacea conjunctivitis"]
@@ -52,8 +52,8 @@ Parmi les autres indications prédites, la **névralgie** (notamment post-zosté
 | Nouvelle Indication Prédite | Conjonctivite papillaire |
 | Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
-| Nombre d'AMM | 12 (valides : 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
+| Nombre d'AMM | 12 (valides : 11) |
 | Décision Recommandée | Hold |
 
 > **Remarque :** pour la conjonctivite papillaire, le niveau de preuve est L5 (prédiction du modèle uniquement). Parmi les 10 premières prédictions, la névralgie est la plus avancée (niveau L3, statut « question de recherche »). Elle est détaillée ci-dessous à titre de comparaison.

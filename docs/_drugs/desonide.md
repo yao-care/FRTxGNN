@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 228
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 monitor_inn: "desonide"
 predicted_indications: ["polyp of vocal cord", "polyp of middle ear", "polyp of external auditory canal", "polyp of frontal sinus", "polyp of ureter", "polyp of vulva", "fibroepithelial polyp", "neoplastic polyp", "epulis", "uterine polyp"]
-description: "Desonide : nouvelle indication prédite, Polyp of vocal cord (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
+description: "Desonide : nouvelle indication prédite, Polyp of vocal cord (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 
 # Desonide
@@ -52,8 +52,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Predite | Polyp of vocal cord |
 | Score de Prediction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 3) |
+| Nombre d'AMM | 3 (valides : 2) |
 | Decision Recommandee | Hold |
 
 ---
@@ -85,8 +85,14 @@ Aucune litterature associee disponible actuellement.
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
 | 62294181 | LOCATOP 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active) |
-| 61243216 | LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active) |
+| 61243216 | LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM archivée) |
 | 65055507 | TRIDESONIT 0,05 POUR CENT, creme (Alliance Pharma, Irlande) | Creme | Non renseignee (AMM active) |
+
+<!-- review:begin fr-row-20261112-desonide-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) / Creme / Non renseignee (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 61243216 (LOCAPRED 0,1 %, crème) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 61243216](https://base-donnees-publique.medicaments.gouv.fr/medicament/61243216/extrait).
+
+<!-- review:end fr-row-20261112-desonide-1 -->
 
 ---
 
@@ -135,7 +141,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et toutes les AMM francaises sont annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Examiner l'interet reel d'une relance, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-24 | Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 61243216](https://base-donnees-publique.medicaments.gouv.fr/medicament/61243216/extrait) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ layout: default
 title: Aluminium
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 50
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 predicted_indications: []
 indication_count: 0
 evidence_level: N/A
@@ -41,8 +41,8 @@ Niveau de preuve: **N/A** | Indications prédites: **0**
 | Élément | Contenu |
 |------|------|
 | Indication Originale | Non renseignée dans les données locales |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
-| Nombre d'AMM | 5 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 
 ---
 

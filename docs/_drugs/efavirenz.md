@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 270
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "efavirenz"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Efavirenz : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 | Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
 | Score de Prédiction TxGNN | 0.9980 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
-| Nombre d'AMM | 13 (valides : 13) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 13) |
+| Nombre d'AMM | 13 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -107,13 +107,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec le FIV
 - Mises en garde et contre-indications officielles issues de la notice (ANSM)
 - Études in vivo chez le chat et évaluation de la pertinence vétérinaire par rapport à l'objectif de repositionnement
-- Clarification du statut réglementaire
-
-<!-- review:begin fr-lic-20261113-efavirenz-1 -->
-
-> **Correction de vérification (2026-11-13)**: Texte initial : « Clarification du statut réglementaire (AMM annulées) » d'après la BDPM (données du 2026-11-13), les 13 AMM d'éfavirenz sont actives ; la mention « AMM annulées » est supprimée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
-
-<!-- review:end fr-lic-20261113-efavirenz-1 -->
+- Clarification du statut réglementaire (AMM annulées)
 
 <!-- review:begin log -->
 
@@ -123,7 +117,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-13 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | Supprimé : « (AMM annulées) » | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 3 des 13 AMM d'éfavirenz sont suspendues (67491478, 65198334, 61814540) ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
 
 <!-- review:end log -->

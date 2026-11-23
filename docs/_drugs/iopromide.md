@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOPROMIDE"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "alopecia", "myosclerosis", "hemoglobinopathy", "pseudoachondroplasia"]
-last_modified_at: 2026-11-20
-description: "Iopromide : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+last_modified_at: 2026-11-24
+description: "Iopromide : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 3)"
 ---
 
 # Iopromide
@@ -50,8 +50,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**arthrose**, mais
 | Nouvelle Indication Prédite | Arthrose (osteoarthritis) |
 | Score de Prédiction TxGNN | 0.9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 4) |
+| Nombre d'AMM | 4 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

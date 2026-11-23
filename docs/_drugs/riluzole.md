@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 669
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RILUZOLE"
 predicted_indications: ["bilateral parasagittal parieto-occipital polymicrogyria", "axial spondylometaphyseal dysplasia", "lower motor neuron syndrome with late-adult onset", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome", "autosomal dominant mitochondrial myopathy with exercise intolerance"]
 description: "Riluzole : nouvelle indication prédite, Polymicrogyrie parasagittale pariéto-occipitale bilatérale (bilateral parasagittal parieto-occipital polymicrogyria) (niveau de preuve L5)."
@@ -50,8 +50,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette direct
 | Nouvelle Indication Prédite | Polymicrogyrie parasagittale pariéto-occipitale bilatérale (bilateral parasagittal parieto-occipital polymicrogyria) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -70,7 +70,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, toutes valides ; ce sont des spécialités à base de riluzole seul.
+Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, dont 9 valides et 1 abrogée (62414855) ; ce sont des spécialités à base de riluzole seul.
+
+<!-- review:begin fr-lic-20261112-riluzole-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « recensent 10 AMM, toutes valides ; » D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855). Source: [Base de données publique des médicaments (BDPM) – fiche 62414855](https://base-donnees-publique.medicaments.gouv.fr/medicament/62414855/extrait).
+
+<!-- review:end fr-lic-20261112-riluzole-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -107,7 +113,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | AMM valides : 10 → 9 (1 abrogée) | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | AMM valides : 10 → 9 (1 abrogée) | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 62414855](https://base-donnees-publique.medicaments.gouv.fr/medicament/62414855/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tiglutik (riluzole) prescribing information, EDW PHARMA, INC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=75d68f19-4208-109e-e053-2991aa0ac857) |
 
 <!-- review:end log -->

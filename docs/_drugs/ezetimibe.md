@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ezetimibe"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ezetimibe : nouvelle indication prédite, Déficit en protéine de transfert des esters de cholestérol (niveau de preuve L5). Indication d'origine : Hyperlipidémie"
 ---
 
@@ -50,7 +50,7 @@ mais **aucun essai clinique** et **aucune publication** ne l'étudie directement
 | Nouvelle Indication Prédite | Déficit en protéine de transfert des esters de cholestérol |
 | Score de Prédiction TxGNN | 0,9909 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 304
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 monitor_inn: "ethinylestradiol"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Ethinylestradiol : nouvelle indication prédite, Élévation du zinc plasmatique (zinc, elevated plasma) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour **l'élévation du z
 | Nouvelle Indication Prédite | Élévation du zinc plasmatique (zinc, elevated plasma) |
 | Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

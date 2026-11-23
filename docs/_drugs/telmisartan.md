@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 734
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TELMISARTAN"
 predicted_indications: ["Prinzmetal angina", "brain stem infarction", "ABri amyloidosis", "cerebral artery occlusion", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "intracerebral hemorrhage", "Braddock syndrome"]
 description: "Telmisartan : nouvelle indication prédite, Prinzmetal angina (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -51,7 +51,7 @@ Le modèle TxGNN prédit en premier rang la **angine de Prinzmetal** (score le p
 | Nouvelle Indication Prédite | Prinzmetal angina |
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 (preuves essentiellement précliniques, soutien clinique indirect) |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 17) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
@@ -133,7 +133,13 @@ Les publications retrouvées sont surtout précliniques (modèles murins d'hypox
 | 69536527 | TELMISARTAN EG 80 mg | comprimé pelliculé | Non renseignée (AMM active) |
 | 62260706 | TELMISARTAN VIATRIS 80 mg | comprimé | Non renseignée (AMM active) |
 | 65179106 | TELMISARTAN BIOGARAN 40 mg | comprimé | Non renseignée (AMM active) |
-| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM active) |
+| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM abrogée) |
+
+<!-- review:begin fr-row-20261112-telmisartan-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « PRITOR 20 mg / comprimé / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 68369993 (PRITOR 20 mg, comprimé) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM) – fiche 68369993](https://base-donnees-publique.medicaments.gouv.fr/medicament/68369993/extrait).
+
+<!-- review:end fr-row-20261112-telmisartan-1 -->
 
 ## Considérations de Sécurité
 
@@ -173,7 +179,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-24 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 68369993](https://base-donnees-publique.medicaments.gouv.fr/medicament/68369993/extrait) |
 | 2026-11-15 | « Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 

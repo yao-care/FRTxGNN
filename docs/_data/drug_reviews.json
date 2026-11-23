@@ -1692,21 +1692,37 @@
    "claim": "| Solution injectable | Non précisée (AMM active)",
    "replacement": "| Solution injectable | Non précisée (AMM archivée)",
    "summary": "Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.)) a le statut « Autorisation archivée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.)) a le statut « Autorisation archivée ».",
    "finding": "表格列把 60941894（VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.)）標成 active；證據包 BDPM：Autorisation archivée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 60941894",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60941894/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.)) a le statut « Autorisation archivée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-cyclopentolate-1",
@@ -2278,21 +2294,37 @@
    "claim": "| LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active)",
    "replacement": "| LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM archivée)",
    "summary": "Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 61243216 (LOCAPRED 0,1 %, crème) a le statut « Autorisation archivée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 61243216 (LOCAPRED 0,1 %, crème) a le statut « Autorisation archivée ».",
    "finding": "表格列把 61243216（LOCAPRED 0,1 %, crème）標成 active；證據包 BDPM：Autorisation archivée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 61243216",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61243216/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 61243216 (LOCAPRED 0,1 %, crème) a le statut « Autorisation archivée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-dexketoprofen-1",
@@ -4894,21 +4926,37 @@
    "claim": "| Fosinopril Zentiva 10 mg | Comprimé sécable | Non renseignée (AMM active)",
    "replacement": "| Fosinopril Zentiva 10 mg | Comprimé sécable | Non renseignée (AMM abrogée)",
    "summary": "Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg, comprimé sécable) a le statut « Autorisation abrogée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg, comprimé sécable) a le statut « Autorisation abrogée ».",
    "finding": "表格列把 60095526（FOSINOPRIL ZENTIVA 10 mg, comprimé sécable）標成 active；證據包 BDPM：Autorisation abrogée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 60095526",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60095526/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg, comprimé sécable) a le statut « Autorisation abrogée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-framycetin-1",
@@ -5130,7 +5178,23 @@
    ],
    "checked": "2026-11-13",
    "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
-   "anchor": "- Si l'axe « troubles du mouvement » est poursuivi, évaluer d'abord le signal de sécurité des inhibiteurs de cholinestérase (aggravation de mouvements anormaux)."
+   "anchor": "- Si l'axe « troubles du mouvement » est poursuivi, évaluer d'abord le signal de sécurité des inhibiteurs de cholinestérase (aggravation de mouvements anormaux).",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 2 des 16 AMM de galantamine sont abrogées (66284291, 64398079) ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 的更正依當日 BDPM 檔把這些許可證算成 active；2026-11-23 排程資料與 BDPM 產品頁都不是 active，原句照新事實成立，撤回這筆更正、還原原句",
+   "withdrawn_sources": [
+    {
+     "title": "BDPM – fiche 66284291",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/66284291/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "BDPM – fiche 64398079",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64398079/extrait",
+     "accessed": "2026-11-24"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-gefitinib-1",
@@ -9306,7 +9370,23 @@
    ],
    "checked": "2026-11-13",
    "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
-   "anchor": "- Des données cliniques chez l'humain sur la perfusion prostatique ou les SBAU"
+   "anchor": "- Des données cliniques chez l'humain sur la perfusion prostatique ou les SBAU",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 2 des 14 AMM de nicorandil sont abrogées (61786176, 61613167) ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 的更正依當日 BDPM 檔把這些許可證算成 active；2026-11-23 排程資料與 BDPM 產品頁都不是 active，原句照新事實成立，撤回這筆更正、還原原句",
+   "withdrawn_sources": [
+    {
+     "title": "BDPM – fiche 61786176",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61786176/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "BDPM – fiche 61613167",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61613167/extrait",
+     "accessed": "2026-11-24"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-nilotinib-1",
@@ -11099,21 +11179,37 @@
    "claim": "statut : active",
    "replacement": "statut : archivée",
    "summary": "Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 69454261 (PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion) a le statut « Autorisation archivée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 69454261 (PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion) a le statut « Autorisation archivée ».",
    "finding": "表格列把 69454261（PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion）標成 active；證據包 BDPM：Autorisation archivée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 69454261",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69454261/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 69454261 (PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion) a le statut « Autorisation archivée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-plerixafor-1",
@@ -11743,21 +11839,37 @@
    "claim": "| ACUITEL 5 mg, comprimé enrobé sécable (active)",
    "replacement": "| ACUITEL 5 mg, comprimé enrobé sécable (archivée)",
    "summary": "Tableau : l’AMM 62206135 (ACUITEL 5 mg) est archivée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 62206135 (ACUITEL 5 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 62206135 (ACUITEL 5 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ».",
    "finding": "表格列把 62206135（ACUITEL 5 mg, comprimé enrobé sécable）標成 active；證據包 BDPM：Autorisation archivée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 62206135",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62206135/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 62206135 (ACUITEL 5 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-row-20261112-quinapril-2",
@@ -11767,21 +11879,37 @@
    "claim": "| ACUITEL 20 mg, comprimé enrobé sécable (active)",
    "replacement": "| ACUITEL 20 mg, comprimé enrobé sécable (archivée)",
    "summary": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 62927128 (ACUITEL 20 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 62927128 (ACUITEL 20 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ».",
    "finding": "表格列把 62927128（ACUITEL 20 mg, comprimé enrobé sécable）標成 active；證據包 BDPM：Autorisation archivée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 62927128",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62927128/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 62927128 (ACUITEL 20 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-quinidine-1",
@@ -11861,7 +11989,18 @@
     }
    ],
    "checked": "2026-11-13",
-   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l'AMM 69445593 (OPTRUMA 60 mg) est abrogée depuis le 15-10-2026 ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 的更正依當日 BDPM 檔把這些許可證算成 active；2026-11-23 排程資料與 BDPM 產品頁都不是 active，原句照新事實成立，撤回這筆更正、還原原句",
+   "withdrawn_sources": [
+    {
+     "title": "BDPM – fiche 69445593",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69445593/extrait",
+     "accessed": "2026-11-24"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-raltitrexed-1",
@@ -16278,7 +16417,28 @@
     }
    ],
    "checked": "2026-11-13",
-   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 3 des 20 AMM de zonisamide sont abrogées (62540779, 62096228, 65110708) ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 的更正依當日 BDPM 檔把這些許可證算成 active；2026-11-23 排程資料與 BDPM 產品頁都不是 active，原句照新事實成立，撤回這筆更正、還原原句",
+   "withdrawn_sources": [
+    {
+     "title": "BDPM – fiche 62540779",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62540779/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "BDPM – fiche 62096228",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62096228/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "BDPM – fiche 65110708",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65110708/extrait",
+     "accessed": "2026-11-24"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-zuclopenthixol-1",
@@ -16387,22 +16547,38 @@
    "action": "correct",
    "claim": "Aucune donnée de sécurité n'est disponible, et les 8 AMM françaises (sur 8) sont valides.",
    "replacement": "Aucune donnée de sécurité n'est disponible.",
-   "note": "Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 8 AMM pour ce médicament, dont 7 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide.",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24) : Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 8 AMM pour ce médicament, dont 7 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide.",
    "finding": "2026-11-09 每週許可證排程後 BDPM 有 1 張註銷（共 8、有效 7），正文仍說全部有效（checker M3c）；只刪矛盾的張數／全部有效子句（句首改大寫除外，其餘原文不動）",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 60740076",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « et les 8 AMM françaises (sur 8) sont valides »",
-   "method": "2026-11-12 依 checker M3（排程 2026-11-09 後的新事實）人工核對，只刪矛盾子句",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 8 AMM pour ce médicament, dont 7 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide.",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 依 checker M3（排程 2026-11-09 後的新事實）人工核對，只刪矛盾子句",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-row-20261112-molsidomine-1",
@@ -16412,21 +16588,37 @@
    "claim": "| MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM active)",
    "replacement": "| MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM archivée)",
    "summary": "Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg, comprimé sécable) a le statut « Autorisation archivée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg, comprimé sécable) a le statut « Autorisation archivée ».",
    "finding": "表格列把 60740076（MOLSIDOMINE ARROW 2 mg, comprimé sécable）標成 active；證據包 BDPM：Autorisation archivée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 60740076",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg, comprimé sécable) a le statut « Autorisation archivée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261112-fluvastatin-1",
@@ -16456,21 +16648,42 @@
    "claim": "(6 sur 7)",
    "replacement": "(5 sur 7 ; les 2 autres sont archivées)",
    "summary": "AMM valides : 6 → 5 sur 7",
-   "note": "D'après la BDPM (données du 2026-11-09), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581).",
+   "note": "D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581).",
    "finding": "正文寫 7 張中 6 張有效；證據包 BDPM：active 5、archivée 2",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 65367581",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65367581/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "Base de données publique des médicaments (BDPM) – fiche 64035359",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64035359/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "D'après la BDPM (données du 2026-11-09), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581).",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261113-povidone-1",
@@ -16520,21 +16733,37 @@
    "claim": "recensent 10 AMM, toutes valides ;",
    "replacement": "recensent 10 AMM, dont 9 valides et 1 abrogée (62414855) ;",
    "summary": "AMM valides : 10 → 9 (1 abrogée)",
-   "note": "D'après la BDPM (données du 2026-11-09), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855).",
+   "note": "D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855).",
    "finding": "正文寫 10 張全有效；證據包 BDPM：active 9、abrogée 1",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 62414855",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62414855/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "D'après la BDPM (données du 2026-11-09), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855).",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（正文張數對事實層與證據包）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261112-ezetimibe-1",
@@ -16564,21 +16793,37 @@
    "claim": "| IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (active)",
    "replacement": "| IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (archivée)",
    "summary": "Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg, comprimé pelliculé) a le statut « Autorisation archivée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg, comprimé pelliculé) a le statut « Autorisation archivée ».",
    "finding": "表格列把 69985835（IRBESARTAN CRISTERS 75 mg, comprimé pelliculé）標成 active；證據包 BDPM：Autorisation archivée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 69985835",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69985835/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg, comprimé pelliculé) a le statut « Autorisation archivée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-row-20261112-lamivudine-1",
@@ -16588,21 +16833,37 @@
    "claim": "| Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active)",
    "replacement": "| Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM abrogée)",
    "summary": "Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable) a le statut « Autorisation abrogée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable) a le statut « Autorisation abrogée ».",
    "finding": "表格列把 62822230（LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable）標成 active；證據包 BDPM：Autorisation abrogée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 62822230",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/62822230/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable) a le statut « Autorisation abrogée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-row-20261112-telmisartan-1",
@@ -16612,21 +16873,37 @@
    "claim": "| PRITOR 20 mg | comprimé | Non renseignée (AMM active)",
    "replacement": "| PRITOR 20 mg | comprimé | Non renseignée (AMM abrogée)",
    "summary": "Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active",
-   "note": "Selon la BDPM (données du 2026-11-09), l’AMM 68369993 (PRITOR 20 mg, comprimé) a le statut « Autorisation abrogée ».",
+   "note": "Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 68369993 (PRITOR 20 mg, comprimé) a le statut « Autorisation abrogée ».",
    "finding": "表格列把 68369993（PRITOR 20 mg, comprimé）標成 active；證據包 BDPM：Autorisation abrogée、事實層 cancelled",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM)",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – fiche 68369993",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/68369993/extrait",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
-   "status": "withdrawn",
-   "withdrawn_on": "2026-11-13",
-   "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
-   "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句"
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "history": [
+    {
+     "note": "Selon la BDPM (données du 2026-11-09), l’AMM 68369993 (PRITOR 20 mg, comprimé) a le statut « Autorisation abrogée ».",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM)",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+     "status": "withdrawn",
+     "withdrawn_on": "2026-11-13",
+     "withdrawn_note": "d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée",
+     "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
+     "retired": "2026-11-24",
+     "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261113-efavirenz-1",
@@ -16646,7 +16923,28 @@
     }
    ],
    "checked": "2026-11-13",
-   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 3 des 13 AMM d'éfavirenz sont suspendues (67491478, 65198334, 61814540) ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 的更正依當日 BDPM 檔把這些許可證算成 active；2026-11-23 排程資料與 BDPM 產品頁都不是 active，原句照新事實成立，撤回這筆更正、還原原句",
+   "withdrawn_sources": [
+    {
+     "title": "BDPM – fiche 67491478",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/67491478/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "BDPM – fiche 65198334",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65198334/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "BDPM – fiche 61814540",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61814540/extrait",
+     "accessed": "2026-11-24"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261113-minoxidil-1",
@@ -16666,7 +16964,23 @@
     }
    ],
    "checked": "2026-11-13",
-   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 2 des 19 AMM de minoxidil sont archivées (69871657, 61156302) ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 的更正依當日 BDPM 檔把這些許可證算成 active；2026-11-23 排程資料與 BDPM 產品頁都不是 active，原句照新事實成立，撤回這筆更正、還原原句",
+   "withdrawn_sources": [
+    {
+     "title": "BDPM – fiche 69871657",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/69871657/extrait",
+     "accessed": "2026-11-24"
+    },
+    {
+     "title": "BDPM – fiche 61156302",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/61156302/extrait",
+     "accessed": "2026-11-24"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261113-triptorelin-1",
@@ -16686,7 +17000,18 @@
     }
    ],
    "checked": "2026-11-13",
-   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）"
+   "method": "2026-11-13 人工查核（每週排程停損頁，正文對 BDPM 新事實）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 1 des 15 AMM de triptoréline est abrogée (60928199) ; le texte d'origine est donc exact et la correction est retirée",
+   "withdrawn_finding": "2026-11-13 的更正依當日 BDPM 檔把這些許可證算成 active；2026-11-23 排程資料與 BDPM 產品頁都不是 active，原句照新事實成立，撤回這筆更正、還原原句",
+   "withdrawn_sources": [
+    {
+     "title": "BDPM – fiche 60928199",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/60928199/extrait",
+     "accessed": "2026-11-24"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261115-alprazolam-1",
@@ -35549,6 +35874,45 @@
      "reason": "同頁已有同一段節錄（較上方那筆），重複引用改成指向上方節錄的一句"
     }
    ]
+  },
+  {
+   "id": "fr-lic-20261124-raloxifene-1",
+   "drug": "raloxifene",
+   "file": "raloxifene.md",
+   "action": "annotate",
+   "claim": "| 69445593 (annulée) | OPTRUMA 60 mg, comprimé pelliculé (ELI LILLY NEDERLAND BV, Pays-Bas) | Comprimé pelliculé | Non renseignée |",
+   "summary": "Autres AMM de raloxifène actives dans la BDPM",
+   "note": "Les données compilées pour ce rapport ne contiennent que l’AMM OPTRUMA 60 mg (69445593), abrogée le 15-10-2026 ; le statut « Non commercialisé » du Résumé rapide ne porte que sur cette AMM. D’après la BDPM (fichiers complets consultés le 2026-11-24), 9 autres spécialités à base de raloxifène 60 mg ont le statut « Autorisation active » : EVISTA (67365141), RALOXIFENE EG (61192704), ARROW (61542325), TEVA (67050747), ZENTIVA (67392156), VIATRIS (67482059), BIOGARAN (67760715), SANDOZ (68001016) et CRISTERS (69243410).",
+   "finding": "證據包只收 OPTRUMA 1 張（2026-11-23 排程轉 abrogée，事實層 Cancelled only）；BDPM 全量依成分（CIS_COMPO）另有 9 張 raloxifène 60 mg Autorisation active，證據包沒收。頁面狀態列只描述證據包範圍，加註說明；依成分補收證據包另議",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週排程 issue #808「狀態列變成全部註銷、要對全量來源依成分確認」）"
+  },
+  {
+   "id": "fr-lic-20261124-quinapril-1",
+   "drug": "quinapril",
+   "file": "quinapril.md",
+   "action": "annotate",
+   "claim": "ACUITEL 20 mg, comprimé enrobé sécable (active)",
+   "anchor": "| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable (archivée) |",
+   "summary": "Autres AMM de quinapril actives dans la BDPM",
+   "note": "Les données compilées pour ce rapport ne contiennent que les deux AMM ACUITEL (62206135, 62927128), archivées le 27-04-2025 ; le statut « Non commercialisé » du Résumé rapide ne porte que sur ces deux AMM. D’après la BDPM (fichiers complets consultés le 2026-11-24), QUINAPRIL BIOGARAN 20 mg (61168571) a le statut « Autorisation active », ainsi que deux associations quinapril/hydrochlorothiazide 20 mg/12,5 mg (EG 60455586, ARROW LAB 69777040).",
+   "finding": "證據包只收 ACUITEL 2 張（皆 archivée，事實層 Cancelled only）；BDPM 全量依成分另有 QUINAPRIL BIOGARAN 20 mg 單方與 2 張複方 Autorisation active，證據包沒收（ACUILIX 68337593 archivée）。加註說明；依成分補收另議",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（每週排程 issue #808「狀態列變成全部註銷、要對全量來源依成分確認」）"
   }
  ]
 }

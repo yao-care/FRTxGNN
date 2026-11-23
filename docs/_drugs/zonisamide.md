@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 832
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Zonisamide : nouvelle indication prédite, Syndrome de Gilles de la Tourette (rang 1) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles (les textes d'indi…"
 monitor_inn: "ZONISAMIDE"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "methemoglobinemia, alpha type", "methemoglobinemia", "Prinzmetal angina", "methemoglobin reductase deficiency", "manic bipolar affective disorder", "fibromyalgia", "conjunctivitis"]
@@ -50,8 +50,8 @@ Zonisamide est un antiépileptique de la famille des sulfonamides. Le modèle Tx
 | Nouvelle indication prédite | Syndrome de Gilles de la Tourette (rang 1) |
 | Score de prédiction TxGNN | 0,9985 |
 | Niveau de preuve | L5 (prédiction du modèle uniquement) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
-| Nombre d'AMM | 20 (valides : 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 20) |
+| Nombre d'AMM | 20 (valides : 17) |
 | Décision recommandée | Hold |
 
 ---
@@ -142,14 +142,8 @@ Veuillez consulter la notice pour les mises en garde officielles, qui ne sont pa
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles de la notice ANSM (lacune bloquante pour le dépistage de sécurité).
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
-- Clarifier le statut réglementaire actuel du produit.
+- Clarifier les raisons de l'annulation des AMM et le statut réglementaire actuel du produit.
 - Pour toute indication retenue, rechercher des essais contrôlés randomisés ou des études observationnelles de qualité, avec évaluation du risque de tics, de manie et de symptômes obsessionnels.
-
-<!-- review:begin fr-lic-20261113-zonisamide-1 -->
-
-> **Correction de vérification (2026-11-13)**: Texte initial : « Clarifier les raisons de l'annulation des AMM et le statut réglementaire actuel du produit. » d'après la BDPM (données du 2026-11-13), les 20 AMM de zonisamide sont actives ; la mention de leur annulation est supprimée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
-
-<!-- review:end fr-lic-20261113-zonisamide-1 -->
 
 <!-- review:begin log -->
 
@@ -161,7 +155,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Le médicament est commercialisé en France, avec 20 AMM valides sur 20 » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-13 | Supprimé : « les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | Supprimé : « les raisons de l'annulation des AMM » | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 3 des 20 AMM de zonisamide sont abrogées (62540779, 62096228, 65110708) ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zonegran (zonisamide) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d12de43e-3ac3-4335-bc85-70d7366a91eb) |
 
 <!-- review:end log -->

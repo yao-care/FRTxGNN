@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 613
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pixantrone : nouvelle indication prédite, Cataracte diabétique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "PIXANTRONE"
 predicted_indications: ["diabetic cataract"]
@@ -50,8 +50,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **cataracte d
 | Nouvelle Indication Prédite | Cataracte diabétique |
 | Score de Prédiction TxGNN | 0,9901 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Non commercialisé (autorisations annulées : 1 sur 1) |
+| Nombre d'AMM | 1 (valides : 0) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,7 +74,13 @@ Aucune littérature associée disponible actuellement.
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
-| 69454261 | PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion (LES LABORATOIRES SERVIER), statut : active | Poudre pour solution à diluer pour perfusion | Non renseignée |
+| 69454261 | PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion (LES LABORATOIRES SERVIER), statut : archivée | Poudre pour solution à diluer pour perfusion | Non renseignée |
+
+<!-- review:begin fr-row-20261112-pixantrone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « statut : active » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 69454261 (PIXUVRI 29 mg, poudre pour solution à diluer pour perfusion) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 69454261](https://base-donnees-publique.medicaments.gouv.fr/medicament/69454261/extrait).
+
+<!-- review:end fr-row-20261112-pixantrone-1 -->
 
 ## Cytotoxicité
 
@@ -120,7 +126,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'autorisation française est annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-24 | Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 69454261](https://base-donnees-publique.medicaments.gouv.fr/medicament/69454261/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL167731 (pixantrone): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL167731) |
 
 <!-- review:end log -->

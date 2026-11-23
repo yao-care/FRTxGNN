@@ -13,18 +13,19 @@
  "licence_snapshot": "fr_licenses.json.gz",
  "licence": {
   "drugs_with_data": 695,
-  "drugs_with_current": 691,
-  "drugs_none_current": 4,
+  "drugs_with_current": 687,
+  "drugs_none_current": 8,
   "drugs_without_data": 118,
   "drugs_partial": 0,
   "items_total": 3270,
-  "items_current": 3228
+  "items_current": 3173
  },
  "reviews": {
-  "records": 1510,
+  "records": 1512,
   "pages": 756,
   "public_pages_with_records": 754,
   "by_action": {
+   "annotate": 2,
    "correct": 850,
    "mechanism": 660
   }
@@ -42,15 +43,6 @@
    "lv": 24,
    "r": 1,
    "i": "Conjonctivite papillaire"
-  },
-  {
-   "t": "Donepezil",
-   "u": "/drugs/donepezil/",
-   "l": "L5",
-   "lt": 24,
-   "lv": 21,
-   "r": 2,
-   "i": "psychogenic movement disorders"
   },
   {
    "t": "Axitinib",
@@ -71,13 +63,13 @@
    "i": "Trouble déficitaire de l'attention avec hyperactivité"
   },
   {
-   "t": "Letrozole",
-   "u": "/drugs/letrozole/",
+   "t": "Donepezil",
+   "u": "/drugs/donepezil/",
    "l": "L5",
-   "lt": 20,
+   "lt": 24,
    "lv": 20,
    "r": 2,
-   "i": "Carcinome du mamelon"
+   "i": "psychogenic movement disorders"
   },
   {
    "t": "Olmesartan",
@@ -105,6 +97,15 @@
    "lv": 20,
    "r": 0,
    "i": ""
+  },
+  {
+   "t": "Zolmitriptan",
+   "u": "/drugs/zolmitriptan/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 3,
+   "i": "atrophoderma vermiculata"
   }
  ],
  "no_current": [
@@ -127,6 +128,15 @@
    "i": "Cholestase intrahépatique récurrente bénigne"
   },
   {
+   "t": "Bezlotoxumab",
+   "u": "/drugs/bezlotoxumab/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 1,
+   "i": "Péritonite pelvienne aiguë de la femme"
+  },
+  {
    "t": "Nordazepam",
    "u": "/drugs/nordazepam/",
    "l": "L5",
@@ -134,6 +144,33 @@
    "lv": 0,
    "r": 0,
    "i": "Insomnie"
+  },
+  {
+   "t": "Pixantrone",
+   "u": "/drugs/pixantrone/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 3,
+   "i": "diabetic cataract"
+  },
+  {
+   "t": "Quinapril",
+   "u": "/drugs/quinapril/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 6,
+   "i": "malignant hypertensive renal disease"
+  },
+  {
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
+   "l": "L5",
+   "lt": 1,
+   "lv": 0,
+   "r": 5,
+   "i": "Ulcère duodénal"
   },
   {
    "t": "Talc",
@@ -148,6 +185,15 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Quinapril",
+   "u": "/drugs/quinapril/",
+   "l": "L5",
+   "lt": 2,
+   "lv": 0,
+   "r": 6,
+   "i": "malignant hypertensive renal disease"
+  },
+  {
    "t": "Doxorubicin",
    "u": "/drugs/doxorubicin/",
    "l": "L1",
@@ -157,13 +203,13 @@
    "i": "Sarcome d'Ewing"
   },
   {
-   "t": "Quinapril",
-   "u": "/drugs/quinapril/",
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
    "l": "L5",
-   "lt": 2,
-   "lv": 2,
+   "lt": 1,
+   "lv": 0,
    "r": 5,
-   "i": "malignant hypertensive renal disease"
+   "i": "Ulcère duodénal"
   },
   {
    "t": "Ruxolitinib",
@@ -188,18 +234,9 @@
    "u": "/drugs/cyanocobalamin/",
    "l": "L5",
    "lt": 10,
-   "lv": 10,
+   "lv": 9,
    "r": 4,
    "i": "biotin metabolic disease"
-  },
-  {
-   "t": "Dexketoprofen",
-   "u": "/drugs/dexketoprofen/",
-   "l": "L5",
-   "lt": 5,
-   "lv": 5,
-   "r": 4,
-   "i": "tendinitis"
   }
  ],
  "example": {
@@ -213,6 +250,78 @@
  },
  "recent_reviews": [
   {
+   "t": "Telmisartan",
+   "u": "/drugs/telmisartan/",
+   "s": "Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Quinapril",
+   "u": "/drugs/quinapril/",
+   "s": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pixantrone",
+   "u": "/drugs/pixantrone/",
+   "s": "Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Molsidomine",
+   "u": "/drugs/molsidomine/",
+   "s": "Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Lamivudine",
+   "u": "/drugs/lamivudine/",
+   "s": "Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Irbesartan",
+   "u": "/drugs/irbesartan/",
+   "s": "Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fosinopril",
+   "u": "/drugs/fosinopril/",
+   "s": "Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Desonide",
+   "u": "/drugs/desonide/",
+   "s": "Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Cyanocobalamin",
+   "u": "/drugs/cyanocobalamin/",
+   "s": "Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Raloxifene",
+   "u": "/drugs/raloxifene/",
+   "s": "Autres AMM de raloxifène actives dans la BDPM",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Riluzole",
+   "u": "/drugs/riluzole/",
+   "s": "AMM valides : 10 → 9 (1 abrogée)",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Povidone",
+   "u": "/drugs/povidone/",
+   "s": "AMM valides : 6 → 5 sur 7",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Valsartan",
    "u": "/drugs/valsartan/",
    "s": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la…",
@@ -222,12 +331,6 @@
    "t": "Ustekinumab",
    "u": "/drugs/ustekinumab/",
    "s": "« Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
    "d": "2026-11-15"
   },
   {
@@ -289,122 +392,56 @@
    "u": "/drugs/ibuprofen/",
    "s": "« Éclaircissement du statut réglementaire (AMM annul » → « Éclaircissement du statut réglementaire (la plupar…",
    "d": "2026-11-15"
-  },
-  {
-   "t": "Glimepiride",
-   "u": "/drugs/glimepiride/",
-   "s": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Fluticasone",
-   "u": "/drugs/fluticasone/",
-   "s": "« Clarification du statut réglementaire actuel (AMM » → « Clarification du statut réglementaire actuel (la p »",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Fluconazole",
-   "u": "/drugs/fluconazole/",
-   "s": "« Les autres formes concernées par des AMM annulées » → « Les autres formes concernées par des AMM abrogées »",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Entecavir",
-   "u": "/drugs/entecavir/",
-   "s": "« Une présentation en solution buvable (BARACLUDE 0, » → « Une présentation en solution buvable (BARACLUDE 0…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Dutasteride",
-   "u": "/drugs/dutasteride/",
-   "s": "« de la disponibilité du produit en France (AMM annu » → « de la disponibilité du produit en France (la plupa…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Diclofenac",
-   "u": "/drugs/diclofenac/",
-   "s": "« La clarification du statut réglementaire (AMM annu » → « La clarification du statut réglementaire (la plupa…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Desogestrel",
-   "u": "/drugs/desogestrel/",
-   "s": "« Une clarification de la situation réglementaire (A » → « Une clarification de la situation réglementaire (l…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Dasatinib",
-   "u": "/drugs/dasatinib/",
-   "s": "« clarification du statut réglementaire des AMM annu » → « clarification du statut réglementaire »",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Alprazolam",
-   "u": "/drugs/alprazolam/",
-   "s": "« de la situation réglementaire des produits (AMM an » → « de la situation réglementaire des produits (la plu…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Zonisamide",
-   "u": "/drugs/zonisamide/",
-   "s": "Supprimé : « les raisons de l'annulation des AMM »",
-   "d": "2026-11-13"
-  },
-  {
-   "t": "Triptorelin",
-   "u": "/drugs/triptorelin/",
-   "s": "AMM valides : 14 → 15 (aucune annulée)",
-   "d": "2026-11-13"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Valsartan",
-   "u": "/drugs/valsartan/",
-   "s": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la…",
-   "d": "2026-11-15"
-  },
-  {
-   "t": "Ustekinumab",
-   "u": "/drugs/ustekinumab/",
-   "s": "« Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr…",
-   "d": "2026-11-15"
-  },
-  {
    "t": "Telmisartan",
    "u": "/drugs/telmisartan/",
-   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
-   "d": "2026-11-15"
+   "s": "Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tacrolimus",
-   "u": "/drugs/tacrolimus/",
-   "s": "« Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France…",
-   "d": "2026-11-15"
+   "t": "Quinapril",
+   "u": "/drugs/quinapril/",
+   "s": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
+   "d": "2026-11-24"
   },
   {
-   "t": "Pravastatin",
-   "u": "/drugs/pravastatin/",
-   "s": "« Clarification du statut réglementaire en France (A » → « Clarification du statut réglementaire en France (l…",
-   "d": "2026-11-15"
+   "t": "Pixantrone",
+   "u": "/drugs/pixantrone/",
+   "s": "Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active",
+   "d": "2026-11-24"
   },
   {
-   "t": "Piperacillin",
-   "u": "/drugs/piperacillin/",
-   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
-   "d": "2026-11-15"
+   "t": "Molsidomine",
+   "u": "/drugs/molsidomine/",
+   "s": "Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active",
+   "d": "2026-11-24"
   },
   {
-   "t": "Omeprazole",
-   "u": "/drugs/omeprazole/",
-   "s": "« (AMM annulées vs produits réellement disponibles) » → « (AMM actives ou abrogées vs produits réellement co »",
-   "d": "2026-11-15"
+   "t": "Lamivudine",
+   "u": "/drugs/lamivudine/",
+   "s": "Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active",
+   "d": "2026-11-24"
   },
   {
-   "t": "Methotrexate",
-   "u": "/drugs/methotrexate/",
-   "s": "« Clarifier le statut réglementaire en France (AMM a » → « Clarifier le statut réglementaire en France (la pl…",
-   "d": "2026-11-15"
+   "t": "Irbesartan",
+   "u": "/drugs/irbesartan/",
+   "s": "Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Fosinopril",
+   "u": "/drugs/fosinopril/",
+   "s": "Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Desonide",
+   "u": "/drugs/desonide/",
+   "s": "Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active",
+   "d": "2026-11-24"
   }
  ],
  "files": {
@@ -430,7 +467,7 @@
   },
   "L5": {
    "n": 660,
-   "current": 648
+   "current": 644
   }
  },
  "cross": {

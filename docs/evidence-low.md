@@ -3,7 +3,7 @@ layout: default
 title: Prédiction du modèle uniquement (L5)
 nav_order: 23
 permalink: /evidence-low/
-description: "660 médicaments de niveau de preuve L5 sur ce site (France), p. ex. Salbutamol, Donepezil, Acyclovir, avec pour chacun la principale indication prédite, les AMM de la BDPM et le journal de vérification."
+description: "660 médicaments de niveau de preuve L5 sur ce site (France), p. ex. Salbutamol, Acyclovir, Adalimumab, avec pour chacun la principale indication prédite, les AMM de la BDPM et le journal de vérification."
 ---
 
 # Prédiction du modèle uniquement (L5)

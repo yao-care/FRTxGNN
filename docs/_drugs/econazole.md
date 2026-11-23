@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "econazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Econazole : nouvelle indication prédite, Infection ectothrix (ectothrix infectious disease) (niveau de preuve L5). Indication d'origine : Aucun texte d'indication n'est disponible dans les AMM compil…"
 ---
 
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection ectoth
 | Nouvelle Indication Prédite | Infection ectothrix (ectothrix infectious disease) |
 | Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

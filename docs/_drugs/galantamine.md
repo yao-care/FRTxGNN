@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 354
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
-description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
+description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 14)"
 ---
 
 # Galantamine
@@ -51,8 +51,8 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour les **troubles d
 | Nouvelle Indication Prédite | Troubles du mouvement psychogènes (psychogenic movement disorders) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
-| Nombre d'AMM | 16 (valides : 16) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 16) |
+| Nombre d'AMM | 16 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ---
@@ -141,12 +141,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank).
 - Établir un lien mécanistique ou des données précliniques/cliniques pour l'indication ciblée.
 - Si l'axe « troubles du mouvement » est poursuivi, évaluer d'abord le signal de sécurité des inhibiteurs de cholinestérase (aggravation de mouvements anormaux).
-
-<!-- review:begin fr-lic-20261113-galantamine-1 -->
-
-> **Correction de vérification (2026-11-13)**: Texte initial : « Clarifier les raisons de l'annulation des AMM et la possibilité de disposer d'une formulation commercialisée. » d'après la BDPM (données du 2026-11-13), les 16 AMM de galantamine sont actives ; l'étape fondée sur leur annulation est supprimée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
-
-<!-- review:end fr-lic-20261113-galantamine-1 -->
+- Clarifier les raisons de l'annulation des AMM et la possibilité de disposer d'une formulation commercialisée.
 
 <!-- review:begin log -->
 
@@ -158,7 +153,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 16 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (16 AMM valides sur 16) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-13 | Supprimé : étape fondée sur une annulation des AMM | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | Supprimé : étape fondée sur une annulation des AMM | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 2 des 16 AMM de galantamine sont abrogées (66284291, 64398079) ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: galantamine prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=261889d3-41c8-4655-98f7-41317778e7a1) |
 
 <!-- review:end log -->

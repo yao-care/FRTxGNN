@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 512
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 monitor_inn: "MOLSIDOMINE"
 predicted_indications: ["alopecia", "vascular disease", "venous thoracic outlet syndrome", "arterial thoracic outlet syndrome", "idiopathic spontaneous coronary artery dissection", "hypotrichosis simplex of the scalp", "visceral calciphylaxis", "neurogenic thoracic outlet syndrome", "hemangioendothelioma", "congenital hypotrichosis milia"]
-description: "Molsidomine : nouvelle indication prédite, Alopecia (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
+description: "Molsidomine : nouvelle indication prédite, Alopecia (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 7)"
 drugbank_id: DB09282
 ---
 
@@ -54,8 +54,8 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour la **maladie vas
 | Nouvelle Indication Prédite | Alopecia |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
-| Nombre d'AMM | 8 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 8) |
+| Nombre d'AMM | 8 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ---
@@ -103,10 +103,16 @@ Pour les autres prédictions (alopécie, hypotrichoses, syndromes du défilé th
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 62439495 | MOLSIDOMINE EG 2 mg | Comprimé sécable | Non précisée (AMM active) |
-| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM active) |
+| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM archivée) |
 | 63967289 | MOLSIDOMINE ARROW 4 mg | Comprimé sécable | Non précisée (AMM active) |
 | 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non précisée (AMM active) |
 | 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non précisée (AMM active) |
+
+<!-- review:begin fr-row-20261112-molsidomine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « MOLSIDOMINE ARROW 2 mg / Comprimé sécable / Non précisée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg, comprimé sécable) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait).
+
+<!-- review:end fr-row-20261112-molsidomine-1 -->
 
 ---
 
@@ -123,7 +129,13 @@ Les mises en garde, contre-indications et interactions médicamenteuses ne sont 
 **Décision : Hold**
 
 **Justification :**
-- La maladie vasculaire est la seule prédiction avec un soutien réel (un essai de phase 4 terminé et de la littérature pharmacologique et clinique), mais les preuves restent de niveau L3, souvent anciennes, et l'indication est trop large. Aucune donnée de sécurité n'est disponible, et les 8 AMM françaises (sur 8) sont valides. La prédiction d'alopécie, bien que classée première, n'a aucun appui.
+- La maladie vasculaire est la seule prédiction avec un soutien réel (un essai de phase 4 terminé et de la littérature pharmacologique et clinique), mais les preuves restent de niveau L3, souvent anciennes, et l'indication est trop large. Aucune donnée de sécurité n'est disponible. La prédiction d'alopécie, bien que classée première, n'a aucun appui.
+
+<!-- review:begin fr-lic-20261112-molsidomine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Aucune donnée de sécurité n'est disponible, et les 8 AMM françaises (sur 8) sont valides. » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24) : Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 8 AMM pour ce médicament, dont 7 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Source: [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait).
+
+<!-- review:end fr-lic-20261112-molsidomine-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications, indication approuvée) afin de lever le blocage de sécurité
@@ -147,8 +159,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM (réglementaires, commerciales ou de sécurité) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Supprimé : « et les 8 AMM françaises (sur 8) sont valides » | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-24 | Supprimé : « et les 8 AMM françaises (sur 8) sont valides » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait) |
+| 2026-11-24 | Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait) |
 
 <!-- review:end log -->
 

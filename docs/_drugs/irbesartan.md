@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 412
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "irbesartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia"]
 description: "Irbesartan : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -49,7 +49,7 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension ré
 | Nouvelle Indication Prédite | Malignant hypertensive renal disease |
 | Score de Prédiction TxGNN | 0.9931 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 16) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
@@ -94,8 +94,14 @@ Principales AMM (5 sur 20) :
 | 67229700 | IRBESARTAN EVOLUGEN 150 mg | comprimé pelliculé | Non disponible (active) |
 | 64933635 | APROVEL 75 mg | comprimé pelliculé | Non disponible (active) |
 | 66542998 | IFIRMASTA 75 mg | comprimé pelliculé | Non disponible (active) |
-| 69985835 | IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (active) |
+| 69985835 | IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (archivée) |
 | 61200414 | IRBESARTAN ARROW 75 mg | comprimé | Non disponible (active) |
+
+<!-- review:begin fr-row-20261112-irbesartan-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « IRBESARTAN CRISTERS 75 mg / comprimé pelliculé / Non disponible (active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg, comprimé pelliculé) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 69985835](https://base-donnees-publique.medicaments.gouv.fr/medicament/69985835/extrait).
+
+<!-- review:end fr-row-20261112-irbesartan-1 -->
 
 ## Considérations de Sécurité
 
@@ -125,7 +131,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-24 | Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 69985835](https://base-donnees-publique.medicaments.gouv.fr/medicament/69985835/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALLOPURINOL"
 predicted_indications: ["hepatic porphyria", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "hepatoportal sclerosis", "early-onset familial noncirrhotic portal hypertension", "hepatopulmonary syndrome", "disorder of phenylalanine metabolism", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "inflammatory myopathy with abundant macrophages"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Allopurinol : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -50,7 +50,7 @@ mais seules **2 publications** indirectes (une hypothèse théorique et une étu
 | Nouvelle Indication Prédite | Porphyrie hépatique (hepatic porphyria) |
 | Score de Prédiction TxGNN | 0,9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
 | Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 

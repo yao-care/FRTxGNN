@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 255
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "donepezil"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "extrapyramidal and movement disease", "benign shuddering attacks", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "lingual-facial-buccal dyskinesia"]
-description: "Donepezil : nouvelle indication prédite, Psychogenic movement disorders (niveau de preuve L5). En France, AMM dans la BDPM : 24 (valides : 21)"
+description: "Donepezil : nouvelle indication prédite, Psychogenic movement disorders (niveau de preuve L5). En France, AMM dans la BDPM : 24 (valides : 20)"
 ---
 
 # Donepezil
@@ -50,8 +50,8 @@ avec **0 essai clinique** et **5 publications** (dont une étude pédiatrique ou
 | Nouvelle Indication Prédite | Psychogenic movement disorders |
 | Score de Prédiction TxGNN | 0.9923 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 21 sur 24) |
-| Nombre d'AMM | 24 (valides : 21) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 24) |
+| Nombre d'AMM | 24 (valides : 20) |
 | Décision Recommandée | Hold (question de recherche, sécurité à évaluer en premier) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

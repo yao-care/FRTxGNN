@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 535
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-13
+last_modified_at: 2026-11-24
 description: "Nicorandil : nouvelle indication prédite, Hyperplasie bénigne de la prostate (niveau de preuve L4). Indication d'origine : Angor chronique stable (d'après les données pharmacologiques"
 monitor_inn: "NICORANDIL"
 predicted_indications: ["benign prostatic hyperplasia (disease)", "alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "osteoarthritis"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hyperplasie bén
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
 | Score de Prédiction TxGNN | 0,9971 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
-| Nombre d'AMM | 14 (valides : 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 14) |
+| Nombre d'AMM | 14 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,7 +89,7 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 | 66925249 | NICORANDIL ALMUS 10 mg | Comprimé sécable | Active |
 | 61503831 | NICORANDIL ZENTIVA 10 mg | Comprimé sécable | Active |
 | 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Active |
-| 61786176 | IKOREL 20 mg | Comprimé | Active |
+| 61786176 | IKOREL 20 mg | Comprimé | Annulée |
 
 Au total, 14 AMM figurent dans les données.
 
@@ -122,12 +122,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 - Les mises en garde et contre-indications de la notice ANSM (donnée bloquante pour le criblage de sécurité)
 - Les données détaillées sur le mécanisme d'action
 - Des données cliniques chez l'humain sur la perfusion prostatique ou les SBAU
-
-<!-- review:begin fr-lic-20261113-nicorandil-1 -->
-
-> **Correction de vérification (2026-11-13)**: Texte initial : « Une clarification de la raison de l'annulation des AMM et de la faisabilité d'une remise sur le marché » d'après la BDPM (données du 2026-11-13), les 14 AMM de nicorandil sont actives ; l'étape fondée sur leur annulation est supprimée. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
-
-<!-- review:end fr-lic-20261113-nicorandil-1 -->
+- Une clarification de la raison de l'annulation des AMM et de la faisabilité d'une remise sur le marché
 
 ## Autres Indications Prédites (pour information)
 
@@ -152,7 +147,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « e médicament est commercialisé en France : 14 AMM valides sur 14 ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (toutes en monothérapie et toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (14 AMM valides sur 14) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-13 | Supprimé : étape fondée sur une annulation des AMM | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-13 | Supprimé : étape fondée sur une annulation des AMM | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 2 des 14 AMM de nicorandil sont abrogées (61786176, 61613167) ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

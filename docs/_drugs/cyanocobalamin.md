@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 201
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cyanocobalamin : nouvelle indication prédite, Maladie métabolique de la biotine (niveau de preuve L5). Indication d'origine : Carence en vitamine B12 et anémies carentielles (anémie pernicieuse…"
 monitor_inn: "cyanocobalamin"
 predicted_indications: ["biotin metabolic disease"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **maladie méta
 | Nouvelle Indication Prédite | Maladie métabolique de la biotine |
 | Score de Prédiction TxGNN | 0,9960 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -77,9 +77,15 @@ Aucun essai clinique associé enregistré actuellement.
 |---------|------|------|-----------|
 | 65647512 | VITAMINE B12 GERDA 1000 µg/4 ml, solution injectable (IM) et buvable | Solution injectable et buvable | Non précisée (AMM active) |
 | 61247741 | VITAMINE B12 GERDA 250 microgrammes, comprimé sécable | Comprimé sécable | Non précisée (AMM active) |
-| 60941894 | VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.) | Solution injectable | Non précisée (AMM active) |
+| 60941894 | VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.) | Solution injectable | Non précisée (AMM archivée) |
 | 66166745 | VITAMINE B12 CHAUVIN 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
 | 64452203 | VITAMINE B12 HORUS PHARMA 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
+
+<!-- review:begin fr-row-20261112-cyanocobalamin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Solution injectable / Non précisée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.)) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 60941894](https://base-donnees-publique.medicaments.gouv.fr/medicament/60941894/extrait).
+
+<!-- review:end fr-row-20261112-cyanocobalamin-1 -->
 
 Seules 5 des 10 AMM sont listées.
 
@@ -128,7 +134,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 10 AMM sont valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « De plus, toutes les AMM françaises de la cyanocobalamine sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active | Vérification retirée (2026-11-13 : d'après la BDPM du 2026-11-13, les AMM concernées sont de nouveau « Autorisation active » ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-24 | Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60941894](https://base-donnees-publique.medicaments.gouv.fr/medicament/60941894/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->
