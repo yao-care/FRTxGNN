@@ -85,7 +85,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné. Cinq AMM sont présentées ci-dessous à titre d'illustration.
+Le texte des indications approuvées n'est pas renseigné.
 
 <!-- review:begin fr-lic-20261106-trimebutine-1 -->
 

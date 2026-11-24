@@ -84,7 +84,7 @@ Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
+Le texte des indications approuvées n'est pas renseigné dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-thiocolchicoside-1 -->
 

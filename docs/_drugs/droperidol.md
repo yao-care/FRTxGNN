@@ -121,7 +121,7 @@ Aucune littérature associée n'est disponible actuellement pour le syndrome de 
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées.
+Le texte des indications approuvées n'est pas renseigné.
 
 <!-- review:begin fr-lic-20261106-droperidol-1 -->
 

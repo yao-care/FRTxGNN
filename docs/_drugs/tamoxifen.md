@@ -100,7 +100,7 @@ Pour la maladie de Paget mammaire (rang 1), le seul essai associé (NCT00002920,
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Cinq AMM sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-tamoxifen-1 -->
 

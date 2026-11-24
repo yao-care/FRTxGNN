@@ -87,7 +87,7 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose congé
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné. Principales AMM :
+Le texte des indications approuvées n'est pas renseigné.
 
 <!-- review:begin fr-lic-20261106-mesalazine-1 -->
 

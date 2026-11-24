@@ -120,7 +120,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- Les preuves sont de niveau L3 (cohortes, séries et rapports de cas, sans essai clinique). Les recommandations déconseillent par ailleurs l'antifongique en cas de candidurie asymptomatique, et la faible excrétion urinaire de la forme active reste une réserve. De plus, la micafungine est commercialisée en France (8 AMM valides sur 8), mais les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Les preuves sont de niveau L3 (cohortes, séries et rapports de cas, sans essai clinique). Les recommandations déconseillent par ailleurs l'antifongique en cas de candidurie asymptomatique, et la faible excrétion urinaire de la forme active reste une réserve. De plus, la micafungine est commercialisée en France (8 AMM valides sur 10), mais les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice (ANSM)

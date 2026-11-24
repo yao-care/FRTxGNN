@@ -85,7 +85,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées :
+Aucun texte d'indication approuvée n'est disponible.
 
 <!-- review:begin fr-lic-20261106-dexpanthenol-1 -->
 

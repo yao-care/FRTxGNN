@@ -74,7 +74,7 @@ Le seul élément en faveur de la prédiction est un recoupement de territoire t
 
 ## Informations de Marché en France
 
-Aucune ne comporte de texte d'indication. Les cinq premières sont listées ci-dessous.
+Aucune ne comporte de texte d'indication.
 
 <!-- review:begin fr-lic-20261106-glycine-1 -->
 

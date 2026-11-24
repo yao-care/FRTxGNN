@@ -80,7 +80,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont des spécialités à base de carbocistéine seule. Les textes d'indication approuvée ne sont pas disponibles. Les 5 premières :
+Les 20 AMM recensées sont des spécialités à base de carbocistéine seule. Les textes d'indication approuvée ne sont pas disponibles.
 
 <!-- review:begin fr-lic-20261106-carbocisteine-1 -->
 

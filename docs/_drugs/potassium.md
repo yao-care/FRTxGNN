@@ -95,7 +95,7 @@ Parmi les essais recensés, seuls ceux dont l'intervention est le potassium lui-
 
 ## Informations de Marché en France
 
-Aucune n'a de texte d'indication renseigné. Les cinq premières sont listées ci-dessous.
+Aucune n'a de texte d'indication renseigné.
 
 <!-- review:begin fr-lic-20261106-potassium-1 -->
 

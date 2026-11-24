@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement pour l'indication principa
 
 ## Informations de Marché en France
 
-Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM :
+Aucun texte d'indication approuvée n'est disponible dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-dutasteride-1 -->
 

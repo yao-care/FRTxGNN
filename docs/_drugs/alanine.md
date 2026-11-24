@@ -94,7 +94,7 @@ Ces publications sont indirectes : aucune n'étudie l'alanine comme traitement d
 
 ## Informations de Marche en France
 
-Les textes d'indication ne sont pas disponibles. Voici les 5 premières :
+Les textes d'indication ne sont pas disponibles.
 
 <!-- review:begin fr-lic-20261106-alanine-2 -->
 

@@ -94,7 +94,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Aucun texte d'indication approuvée n'est disponible. Les 5 premières sont présentées ci-dessous.
+Aucun texte d'indication approuvée n'est disponible.
 
 <!-- review:begin fr-lic-20261106-tryptophan-2 -->
 

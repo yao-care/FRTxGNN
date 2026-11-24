@@ -98,7 +98,7 @@ Priorité donnée aux ECR, puis aux revues systématiques ; liste limitée à 10
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées.
+Le texte des indications approuvées n'est pas renseigné.
 
 <!-- review:begin fr-lic-20261106-insulin_aspart-1 -->
 

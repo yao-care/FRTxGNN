@@ -20,6 +20,7 @@ snapshots/fr_licenses.json.gz 的 rows 檢查程式區塊＝重算結果。每�
   - 錨在被取代的表或說明上的查核紀錄標 status: superseded＋superseded_by（紀錄保留、頁面不顯示框，同 Tw 慣例）。
 用法（repo 根目錄，先還原 data/）：
   python3 scripts/sync_license_tables.py [--dry-run] [--migrate] [頁 ...]
+  python3 scripts/sync_license_tables.py --captions [--dry-run]   # 一次性：市場段落其他位置的舊表說明句（2026-11-24 補做）
   carry_block(old, new)：sync_notes_to_docs.py 整頁重寫時把舊頁的程式區塊移植到新頁。
 """
 import datetime as dt
@@ -52,6 +53,11 @@ CAPTION = re.compile(
     rf"|{NUMW} AMM sur {NUMW} sont (?:listées|affichées)\."
     rf"|{NUMW} AMM sont présentées sur un total de {NUMW}\."
     r"|Les cinq AMM ci-dessous sont des exemples\."
+    rf"|{NUMW} AMM sont (?:présentées|listées) ci-dessous(?: à titre d'illustration)?\."
+    rf"|Voici {NUMW} AMM(?: représentatives)?\s*:"
+    rf"|Les AMM sont listées ci-dessous \({NUMW} maximum\)\."
+    rf"|Les {NUMW} premières AMM sont listées ci-dessous \(sur {NUMW}\)\."
+    rf"|Seule?s? {NUMW} des {NUMW} AMM sont listées\."
     r"|Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète\."
     r")\*?$", re.I)
 # 同一句後半只講表上列了幾筆的子句（「…; seules les 5 premières sont listées ici.」）：--migrate 時只拿掉這個子句
@@ -113,11 +119,12 @@ def _caption_trim(line, protect=()):
     """拿掉行裡只講表上列了幾筆的整句（CAPTION）與子句（CAP_CLAUSE）：回 (新行, 拿掉的文字)"""
     if not line.strip() or line.startswith(("|", "#", "<!--", "---", ">")):
         return line, []
-    if any(line.strip() in p or any(x.strip() and x.strip() in p for x in SPLIT.split(line.strip())) for p in protect):
-        return line, []  # 查核紀錄的更正文字所在的行不動（拿掉會讓更正框消失）
     sents = SPLIT.split(line.strip())
     out, gone = [], []
     for x in sents:
+        if any(x.strip() in p or p in x for p in protect):  # 查核紀錄的更正文字／錨點所在的句子不動（拿掉會讓更正框消失）
+            out.append(x)
+            continue
         if CAPTION.match(x.strip()):
             gone.append(x.strip())
             continue
@@ -176,6 +183,26 @@ def process(text, recs, partial=False, migrate=False, protect=()):
             out = pre + [""] + blk + [""] + post
     t2 = re.sub(r"\n{3,}", "\n\n", "\n".join(out))
     return (t2 if t2 != text else None), "\n".join(removed)
+
+
+def trim_section_captions(text, protect=()):
+    """市場段落裡（不限緊鄰表）只講舊表列了幾筆的句子拿掉（--captions；一次性補做，2026-11-24）。回傳 (新內容或 None, 拿掉的文字)"""
+    lines = text.split("\n")
+    a, b = _section(lines)
+    if a is None or BEGIN not in lines[a:b]:
+        return None, ""
+    gone = []
+    i0, i1 = lines.index(BEGIN, a), lines.index(END, a)
+    for k in range(a, b):
+        if i0 <= k <= i1:
+            continue
+        nl, cap = _caption_trim(lines[k], protect)
+        if cap:
+            lines[k] = nl
+            gone += cap
+    if not gone:
+        return None, ""
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)), "\n".join(gone)
 
 
 def carry_block(old_text, new_text):
@@ -288,6 +315,25 @@ def resync(stems=None, dry=False, migrate=False):
 def main(argv):
     dry, migrate = "--dry-run" in argv, "--migrate" in argv
     only = {a for a in argv if not a.startswith("--")} or None
+    if "--captions" in argv:
+        prot, n, rm = _protect(), 0, {}
+        for page in sorted((ROOT / "docs/_drugs").glob("*.md")):
+            if only and page.stem not in only:
+                continue
+            raw = page.read_text(encoding="utf-8")
+            if _skip(raw):
+                continue
+            new, gone = trim_section_captions(raw, prot.get(page.stem, ()))
+            if new:
+                n += 1
+                rm[page.stem] = gone
+                print(f"  {page.stem}：{gone}")
+                if not dry:
+                    page.write_text(new, encoding="utf-8")
+        print(f"市場段落舊表說明句拿掉 {n} 頁")
+        if not dry and rm:
+            print(f"錨在拿掉的說明句上的查核紀錄標 superseded：{len(supersede(rm))} 筆")
+        return
     changed, removed = resync(only, dry, migrate)
     print(f"許可證表（程式）改 {len(changed)} 頁" + (f"；拿掉舊表／表說明的頁 {len(removed)}" if migrate else ""))
     if migrate and not dry:

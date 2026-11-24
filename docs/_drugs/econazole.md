@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-L'éconazole est commercialisé en France sous de nombreuses formes. Les données compilées recensent au moins 20 AMM (19 valides, 1 annulée) ; la liste peut être partielle. Le texte des indications approuvées n'est pas renseigné dans ces enregistrements. Voici cinq AMM représentatives :
+L'éconazole est commercialisé en France sous de nombreuses formes. Les données compilées recensent au moins 20 AMM (19 valides, 1 annulée) ; la liste peut être partielle. Le texte des indications approuvées n'est pas renseigné dans ces enregistrements.
 
 <!-- licenses:begin -->
 

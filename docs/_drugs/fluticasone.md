@@ -86,7 +86,7 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les textes d'indication ne sont pas renseignés. Les cinq premières sont listées ci-dessous.
+Les textes d'indication ne sont pas renseignés.
 
 <!-- review:begin fr-lic-20261106-fluticasone-1 -->
 

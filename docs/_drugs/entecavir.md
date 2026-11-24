@@ -93,7 +93,7 @@ Ces publications portent sur la co-infection et la prévention de la réactivati
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-entecavir-1 -->
 

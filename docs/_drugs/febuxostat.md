@@ -89,7 +89,7 @@ Deux autres prédictions de rang inférieur sont à titre informatif : le défic
 
 ## Informations de Marche en France
 
-Aucun texte d'indication n'est renseigné. Les 5 premières sont listées ci-dessous.
+Aucun texte d'indication n'est renseigné.
 
 <!-- review:begin fr-lic-20261106-febuxostat-1 -->
 

@@ -120,7 +120,7 @@ Les mises en garde et contre-indications issues de la notice de l'ANSM n'ont pas
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Le médicament est commercialisé en France (7 AMM valides sur 7), et le profil de sécurité est incomplet.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication pertinente. Le médicament est commercialisé en France (7 AMM valides sur 8), et le profil de sécurité est incomplet.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications), qui est un point bloquant pour l'évaluation de sécurité

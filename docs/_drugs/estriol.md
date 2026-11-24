@@ -114,7 +114,7 @@ Veuillez consulter la notice pour les informations de sécurité (mises en garde
 
 **Justification :**
 - Le niveau de preuve est L3 : une seule petite étude clinique directement pertinente (2012) et une revue (2023) soutiennent l'hypothèse, sans aucun essai enregistré.
-- 7 AMM françaises sur 7 sont valides, mais les données de sécurité, l'indication originale et le mécanisme d'action sont manquants, ce qui limite la confiance translationnelle.
+- 7 AMM françaises sur 8 sont valides, mais les données de sécurité, l'indication originale et le mécanisme d'action sont manquants, ce qui limite la confiance translationnelle.
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice de l'ANSM (mises en garde et contre-indications), qui bloque l'évaluation de sécurité

@@ -95,7 +95,7 @@ Aucun essai randomisé n'est disponible. Les publications les plus pertinentes s
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 <!-- review:begin fr-lic-20261106-zidovudine-1 -->
 

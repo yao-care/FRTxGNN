@@ -102,7 +102,7 @@ Aucune littérature associée à la migraine disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 18 AMM recensées sont des comprimés : 16 génériques et la spécialité de référence IPERTEN (10 et 20 mg). Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous.
+Les 18 AMM recensées sont des comprimés : 16 génériques et la spécialité de référence IPERTEN (10 et 20 mg). Aucun texte d'indication approuvée n'est disponible.
 
 <!-- review:begin fr-lic-20261106-manidipine-2 -->
 

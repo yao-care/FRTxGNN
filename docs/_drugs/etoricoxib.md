@@ -90,7 +90,7 @@ Aucune publication ne teste directement l'étoricoxib dans la migraine. Les publ
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 <!-- review:begin fr-lic-20261106-etoricoxib-1 -->
 

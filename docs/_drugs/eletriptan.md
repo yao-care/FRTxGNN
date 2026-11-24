@@ -96,7 +96,7 @@ Aucune de ces publications ne porte spécifiquement sur la migraine avec aura du
 
 ## Informations de Marché en France
 
-Aucune indication approuvée n'est renseignée dans les données compilées. Principales AMM :
+Aucune indication approuvée n'est renseignée dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-eletriptan-1 -->
 

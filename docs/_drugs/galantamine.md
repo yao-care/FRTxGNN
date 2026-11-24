@@ -92,7 +92,7 @@ Aucune littérature associée disponible actuellement pour l'indication principa
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas disponible dans les données compilées. Principales AMM :
+Le texte d'indication approuvée n'est pas disponible dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-galantamine-1 -->
 

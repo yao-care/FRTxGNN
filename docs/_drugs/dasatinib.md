@@ -95,7 +95,7 @@ Ce lien est plausible, mais il n'a pas été confirmé en clinique. Une revue de
 
 ## Informations de Marche en France
 
-Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné.
 
 <!-- review:begin fr-lic-20261106-dasatinib-1 -->
 

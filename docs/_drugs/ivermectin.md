@@ -83,7 +83,7 @@ Remarque : les seules publications rattachées aux autres indications prédites 
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont présentées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné.
 
 <!-- review:begin fr-lic-20261106-ivermectin-1 -->
 

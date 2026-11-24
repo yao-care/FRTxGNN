@@ -110,7 +110,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un mécanisme peu plausible. De plus, le médicament est commercialisé en France (6 AMM valides sur 6), mais les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication, avec un mécanisme peu plausible. De plus, le médicament est commercialisé en France (6 AMM valides sur 7), mais les données de sécurité de la notice font défaut, ce qui bloque l'étape de criblage de sécurité.
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice ANSM (mises en garde et contre-indications)

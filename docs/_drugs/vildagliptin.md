@@ -69,7 +69,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de marché en France
 
-Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 <!-- review:begin fr-lic-20261106-vildagliptin-1 -->
 

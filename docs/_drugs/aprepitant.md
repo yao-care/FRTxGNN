@@ -81,7 +81,7 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-Aucun texte d'indication approuvée n'est disponible dans les données compilées. Principales AMM (5 sur 20) :
+Aucun texte d'indication approuvée n'est disponible dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-aprepitant-1 -->
 

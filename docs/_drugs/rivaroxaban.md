@@ -78,7 +78,7 @@ Aucune de ces publications n'évalue le rivaroxaban comme traitement de la polya
 
 ## Informations de Marché en France
 
-Aucun texte d'indication n'est disponible. Les 5 premières sont listées ci-dessous.
+Aucun texte d'indication n'est disponible.
 
 <!-- review:begin fr-lic-20261106-rivaroxaban-1 -->
 

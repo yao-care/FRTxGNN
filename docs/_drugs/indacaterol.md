@@ -105,7 +105,7 @@ Parmi les 22 essais recensés, les plus pertinents sont listés ci-dessous (10 m
 
 ## Informations de Marché en France
 
-Aucune indication approuvée n'est renseignée dans les données compilées. Les AMM sont listées ci-dessous (5 maximum).
+Aucune indication approuvée n'est renseignée dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-indacaterol-1 -->
 

@@ -71,7 +71,7 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné pour ces autorisations. Les 5 premières sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné pour ces autorisations.
 
 <!-- review:begin fr-lic-20261106-teriparatide-1 -->
 

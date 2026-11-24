@@ -107,3 +107,8 @@ if __name__ == "__main__":
     if not re.fullmatch(r"(data-[\w-]+)?", tag):
         sys.exit("--release-tag 要是 data-… 的 tag")
     build(ws, tag)
+    # 2026-11-24：程式許可證表照證據包重排（證據包有補收紀錄、狀態沒變的藥，排程的 sync_tables 不會碰到）；
+    # 快照換新後，正文 AMM 張數照新事實層改寫（scripts/rewrite_license_counts.py）。任一失敗就 exit 非 0
+    import subprocess
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "sync_license_tables.py")], check=True)
+    subprocess.run([sys.executable, str(ROOT / "scripts" / "rewrite_license_counts.py")], check=True)

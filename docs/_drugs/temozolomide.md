@@ -77,7 +77,7 @@ Seul le premier rapport de cas concerne une tumeur de la région de la queue de 
 
 ## Informations de Marché en France
 
-Le témozolomide est commercialisé en France. Au moins 20 AMM valides sont recensées (liste possiblement partielle). Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Voici cinq AMM :
+Le témozolomide est commercialisé en France. Au moins 20 AMM valides sont recensées (liste possiblement partielle). Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
 <!-- licenses:begin -->
 

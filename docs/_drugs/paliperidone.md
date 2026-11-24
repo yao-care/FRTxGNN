@@ -86,7 +86,7 @@ Aucune littérature associée n'est disponible actuellement pour la dystrophie r
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné. Principales AMM :
+Le texte des indications approuvées n'est pas renseigné.
 
 <!-- review:begin fr-lic-20261106-paliperidone-1 -->
 

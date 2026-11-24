@@ -63,7 +63,7 @@ Ce lien repose cependant uniquement sur la prédiction du modèle. Aucun essai c
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-plerixafor-1 -->
 

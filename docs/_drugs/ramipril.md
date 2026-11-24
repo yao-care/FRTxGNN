@@ -90,7 +90,7 @@ Seules les publications présentant un lien avec l'indication ou le mécanisme s
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées :
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
 <!-- review:begin fr-lic-20261106-ramipril-1 -->
 
