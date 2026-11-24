@@ -21,12 +21,11 @@
   "items_current": 3484
  },
  "reviews": {
-  "records": 1618,
+  "records": 1609,
   "pages": 758,
   "public_pages_with_records": 756,
   "by_action": {
-   "annotate": 2,
-   "correct": 956,
+   "correct": 949,
    "mechanism": 660
   }
  },
@@ -176,15 +175,6 @@
    "i": "Sarcome d'Ewing"
   },
   {
-   "t": "Quinapril",
-   "u": "/drugs/quinapril/",
-   "l": "L5",
-   "lt": 6,
-   "lv": 3,
-   "r": 6,
-   "i": "malignant hypertensive renal disease"
-  },
-  {
    "t": "Diosmin",
    "u": "/drugs/diosmin/",
    "l": "L5",
@@ -212,13 +202,22 @@
    "i": "Insomnie"
   },
   {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
+   "t": "Quinapril",
+   "u": "/drugs/quinapril/",
    "l": "L5",
-   "lt": 10,
-   "lv": 9,
+   "lt": 6,
+   "lv": 3,
    "r": 5,
-   "i": "Ulcère duodénal"
+   "i": "malignant hypertensive renal disease"
+  },
+  {
+   "t": "Ruxolitinib",
+   "u": "/drugs/ruxolitinib/",
+   "l": "L5",
+   "lt": 6,
+   "lv": 6,
+   "r": 5,
+   "i": "uterine corpus perivascular epithelioid cell tumor"
   }
  ],
  "example": {
