@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 457
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LOMUSTINE"
 predicted_indications: ["lymphosarcoma", "malignant tumor of meninges", "spinal cord cancer"]
 description: "Lomustine : nouvelle indication prédite, Lymphosarcome (lymphosarcoma) (niveau de preuve L4). En France, AMM dans la BDPM : 2 (valides : 1)"
@@ -94,10 +94,16 @@ Il faut toutefois rester prudent : les données sont limitées à de petits essa
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66274639 | LOMUSTINE MEDAC 40 mg, gélule (active) | Gélule | Non renseignée |
-| 69651223 | BELUSTINE 40 mg, gélule (annulée) | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66274639 | LOMUSTINE MEDAC 40 mg, gélule | Gélule | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 69651223 | BELUSTINE 40 mg, gélule | Gélule | KYOWA KIRIN HOLDINGS (PAYS-BAS) | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La lomustine est commercialisée en France : une AMM est valide et une est annulée.
 

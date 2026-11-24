@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 726
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SUNITINIB"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "angiolipoma", "heart fibrosarcoma"]
 description: "Sunitinib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
@@ -85,13 +85,35 @@ Deux publications du jeu de données (PMID 38717131 sur le sarcome myofibroblast
 
 20 AMM valides sont recensées en France et le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65674790 | SUNITINIB VIATRIS 50 mg | Gélule | Non renseignée (AMM active) |
-| 62927092 | SUNITINIB ACCORD 50 mg | Gélule | Non renseignée (AMM active) |
-| 67050252 | SUNITINIB BIOGARAN 12,5 mg | Gélule | Non renseignée (AMM active) |
-| 62416347 | SUNITINIB ZENTIVA 25 mg | Gélule | Non renseignée (AMM active) |
-| 62791429 | SUNITINIB ZENTIVA 50 mg | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65674790 | SUNITINIB VIATRIS 50 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 62927092 | SUNITINIB ACCORD 50 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67050252 | SUNITINIB BIOGARAN 12,5 mg, gélule | Gélule | BIOGARAN | Active |
+| 62416347 | SUNITINIB ZENTIVA 25 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 62791429 | SUNITINIB ZENTIVA 50 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 68511791 | SUNITINIB VIATRIS 25 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 65088852 | SUNITINIB ACCORD 12,5 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 66741847 | SUNITINIB TEVA 25 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 64212959 | SUNITINIB TEVA 50 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 61401463 | SUNITINIB SANDOZ 12,5 mg, gélule | Gélule | SANDOZ | Active |
+| 62934770 | SUNITINIB BIOGARAN 37,5 mg, gélule | Gélule | BIOGARAN | Active |
+| 66346960 | SUNITINIB EG 50 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61176657 | SUNITINIB BIOGARAN 50 mg, gélule | Gélule | BIOGARAN | Active |
+| 64181976 | SUNITINIB ACCORD 25 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61407637 | SUNITINIB VIATRIS 12,5 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 68665750 | SUNITINIB SANDOZ 25 mg, gélule | Gélule | SANDOZ | Active |
+| 61717034 | SUNITINIB ZENTIVA 37,5 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 63620413 | SUNITINIB SANDOZ 50 mg, gélule | Gélule | SANDOZ | Active |
+| 66750668 | SUNITINIB TEVA 12,5 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 68913719 | SUNITINIB BIOGARAN 25 mg, gélule | Gélule | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Au total, 20 AMM de médicaments génériques (Viatris, Accord, Biogaran, Zentiva, Teva, Sandoz, EG) sont recensées.
 

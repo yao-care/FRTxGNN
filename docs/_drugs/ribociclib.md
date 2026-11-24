@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 664
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ribociclib : nouvelle indication prédite, Leucémie myéloïde (niveau de preuve L4). Indication d'origine : Non disponible dans les données d'AMM (texte d'indication vide)"
 monitor_inn: "ribociclib"
 predicted_indications: ["myeloid leukemia", "thrombocytopenia", "marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets"]
@@ -74,9 +74,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68343525 | KISQALI 200 mg, comprimé pelliculé (NOVARTIS EUROPHARM, Irlande) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68343525 | KISQALI 200 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

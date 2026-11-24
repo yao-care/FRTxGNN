@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 569
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "oxytetracycline"
 predicted_indications: ["chronic rhinosinusitis", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "punctate epithelial keratoconjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "otitis externa"]
 description: "Oxytetracycline : nouvelle indication prédite, Chronic rhinosinusitis (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -74,10 +74,16 @@ Ces données sont anciennes, portent sur des associations et laissent la contrib
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69497177 | STERDEX, pommade ophtalmique en récipient unidose (THEA) | Pommade | Non renseignée (AMM active) |
-| 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire (GRIMBERG) | Poudre et solvant pour suspension pour instillation | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69497177 | STERDEX, pommade ophtalmique en récipient unidose | Pommade | THEA | Active |
+| 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire | Poudre et solvant pour suspension pour instillation | GRIMBERG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les formes disponibles sont à usage ophtalmique et auriculaire. Aucune n'est conçue pour une administration nasale ou sinusienne, ce qui soulève une question de voie d'administration pour la nouvelle indication.
 

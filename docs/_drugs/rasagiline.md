@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 653
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rasagiline"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis"]
 description: "Rasagiline : nouvelle indication prédite, Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loc…"
@@ -80,13 +80,28 @@ Les 5 premières sont listées ci-dessous (le texte d'indication approuvée n'es
 
 <!-- review:end fr-lic-20261106-rasagiline-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65462218 | RASAGILINE BIOGARAN 1 mg | Comprimé | Active |
-| 64201902 | RASAGILINE EG 1 mg | Comprimé | Active |
-| 63729327 | RASAGILINE SANDOZ 1 mg | Comprimé | Active |
-| 68885764 | RASAGILINE CRISTERS 1 mg | Comprimé | Active |
-| 62725468 | RASAGILINE ZYDUS 1 mg | Comprimé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65462218 | RASAGILINE BIOGARAN 1 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 64201902 | RASAGILINE EG 1 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63729327 | RASAGILINE SANDOZ 1 mg, comprimé | Comprimé | SANDOZ | Active |
+| 68885764 | RASAGILINE CRISTERS 1 mg, comprimé | Comprimé | CRISTERS | Active |
+| 62725468 | RASAGILINE ZYDUS 1 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 62240543 | RASAGILINE VIATRIS 1 mg, comprimé | Comprimé | VIATRIS (IRLANDE) | Active |
+| 66225439 | RASAGILINE KRKA 1 mg, comprimé | Comprimé | KRKA (SLOVENIE) | Active |
+| 62209971 | RASAGILINE RATIOPHARM 1 mg, comprimé | Comprimé | TEVA (PAYS-BAS) | Active |
+| 60203418 | RASAGILINE ARROW 1 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 69211811 | RASAGILINE ACCORD 1 mg, comprimé | Comprimé | ACCORD HEALTHCARE FRANCE | Active |
+| 62071552 | RASAGILINE ZYDUS France 1 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 62722988 | AZILECT 1 mg, comprimé | Comprimé | TEVA (PAYS-BAS) | Active |
+| 61324159 | RASAGILINE ZENTIVA 1 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 68099640 | RASAGILINE EVOLUGEN 1 mg, comprimé | Comprimé | EVOLUPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

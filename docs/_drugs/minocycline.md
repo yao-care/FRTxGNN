@@ -72,15 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60929447 | MYNOCINE 100 mg, gélule (LABORATOIRE XO) | Gélule | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-minocycline-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60929447 | MYNOCINE 100 mg, gélule | Gélule | LABORATOIRE XO | Active |
+| 66680127 | PAROCLINE 2 %, gel pour usage dentaire | Gel pour usage dentaire | SUNSTAR FRANCE | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 60929447 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 60929447 (MYNOCINE 100 mg, gélule) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-minocycline-1 -->
+<!-- licenses:end -->
 
 Le médicament est commercialisé et ses 2 AMM sont valides (2 AMM valides sur 2) dans les données compilées. En revanche, la forme disponible est une gélule orale : la compatibilité avec une voie d'administration oculaire n'a pas été évaluée.
 
@@ -130,7 +131,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 60929447 (MYNOCINE 100 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 60929447 (MYNOCINE 100 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
 | 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 

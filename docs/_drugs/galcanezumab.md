@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 355
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Galcanezumab : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (niveau de preuve L5). Indication d'origine : Migraine (avec ou sans aura)"
 monitor_inn: "galcanezumab"
 predicted_indications: ["heparin cofactor 2 deficiency", "antithrombin deficiency type 2", "factor 5 excess with spontaneous thrombosis"]
@@ -71,9 +71,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69972332 | EMGALITY 120 mg, solution injectable en stylo prérempli (statut : active) | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69972332 | EMGALITY 120 mg, solution injectable en stylo pré-rempli | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

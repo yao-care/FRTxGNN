@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 334
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fludrocortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "cystic teratoma", "spinal cord dermoid cyst", "dermoid cyst of ovary", "disease of orbital part of eye adnexa", "eye disease", "disease of orbital region", "exostosis"]
 description: "Fludrocortisone : nouvelle indication prédite, Primary cutaneous T-cell lymphoma (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -86,13 +86,19 @@ Sélection des publications les plus pertinentes (20 retrouvées au total ; clas
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65705588 | FLUDROCORTISONE ACETATE ACCORD 0,1 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 61955498 | FLUCORTAC 100 microgrammes/mL, solution buvable | Solution buvable | Non renseignée (AMM active) |
-| 64199305 | FLUCORTAC 50 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 69866610 | FLUDROCORTISONE ACETLAB 50 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 68039248 | PANOTILE, solution pour instillation auriculaire | Solution pour instillation | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65705588 | FLUDROCORTISONE ACETATE ACCORD 0,1 mg, comprimé sécable | Comprimé sécable | ACCORD HEALTHCARE FRANCE | Active |
+| 61955498 | FLUCORTAC 100 microgrammes/mL, solution buvable | Solution buvable | HAC PHARMA | Active |
+| 64199305 | FLUCORTAC 50 microgrammes, comprimé sécable | Comprimé sécable | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 69866610 | FLUDROCORTISONE ACETLAB 50 microgrammes, comprimé sécable | Comprimé sécable | MITEM PHARMA | Active |
+| 68039248 | PANOTILE, solution pour instillation auriculaire | Solution pour instillation | ZAMBON FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

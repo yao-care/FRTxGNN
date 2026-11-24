@@ -74,13 +74,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64662504 | AXITINIB TEVA 3 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 69083347 | INLYTA 3 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 69115535 | AXITINIB TEVA 5 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 67939209 | INLYTA 5 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 62215554 | AXITINIB TEVA 7 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64662504 | AXITINIB TEVA 3 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 69083347 | INLYTA 3 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 69115535 | AXITINIB TEVA 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67939209 | INLYTA 5 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 62215554 | AXITINIB TEVA 7 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 63571521 | AXITINIB EG 1 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63791827 | AXITINIB TEVA 1 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67449073 | AXITINIB BIOGARAN 7 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 66008421 | AXITINIB SANDOZ 3 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61571362 | AXITINIB EG 7 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61357910 | INLYTA 7 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 62808088 | AXITINIB SANDOZ 1 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65208522 | AXITINIB BIOGARAN 5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 63549012 | AXITINIB EG 5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67240262 | AXITINIB SANDOZ 7 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 64922489 | INLYTA 1 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 69814962 | AXITINIB EG 3 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66312449 | AXITINIB SANDOZ 5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 60733886 | AXITINIB BIOGARAN 3 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68722151 | AXITINIB BIOGARAN 1 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

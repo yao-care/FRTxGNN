@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 628
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pretomanid : nouvelle indication prédite, Candidose (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM française (tuberculose pharmacorésistante d…"
 monitor_inn: "pretomanid"
 predicted_indications: ["candidiasis", "leprosy", "coronary artery disease", "myocardial ischemia", "anomalous left coronary artery from the pulmonary artery"]
@@ -76,9 +76,15 @@ Pour information, les publications récupérées pour la lèpre (deuxième préd
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 63915869 | DOVPRELA 200 mg, comprimé | Comprimé | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63915869 | DOVPRELA 200 mg, comprimé | Comprimé | MYLAN IRE HEALTHCARE (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Titulaire : Mylan Ireland Healthcare (Irlande).
 

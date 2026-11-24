@@ -98,13 +98,25 @@ Le médicament est commercialisé en France : 11 AMM valides sur 11. Les textes 
 
 <!-- review:end fr-lic-20261124-dienogest-1 -->
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63308748 | VISANNE 2 mg | Comprimé | Active |
-| 62271624 | ENDOVELA 2 mg | Comprimé | Active |
-| 69875342 | DIENOGEST LABORATOIRES MAJORELLE 2 mg | Comprimé | Active |
-| 66165262 | ERYNJA 2 mg | Comprimé | Active |
-| 69497597 | SAWIS 2 mg | Comprimé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63308748 | VISANNE 2 mg, comprimé | Comprimé | BAYER HEALTHCARE | Active |
+| 62271624 | ENDOVELA 2 mg, comprimé | Comprimé | EXELTIS HEALTHCARE (ESPAGNE) | Active |
+| 69875342 | DIENOGEST LABORATOIRES MAJORELLE 2 mg, comprimé | Comprimé | LABORATOIRES MAJORELLE | Active |
+| 66165262 | ERYNJA 2 mg, comprimé | Comprimé | THERAMEX IRELAND (IRLANDE) | Active |
+| 69497597 | SAWIS 2 mg, comprimé | Comprimé | DIFARMED (ESPAGNE) | Active |
+| 69304991 | SAWIS 2 mg, comprimé | Comprimé | GEDEON RICHTER | Active |
+| 66987336 | DIMETRUM 2 mg, comprimé | Comprimé | BESINS HEALTHCARE FRANCE | Active |
+| 66942259 | MISOLFA 2 mg/0,03 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRE CCD | Active |
+| 64091062 | OEDIEN 2 mg/0,03 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 67361246 | QLAIRA, comprimé pelliculé | Comprimé(s) | BAYER HEALTHCARE | Active |
+| 66399945 | JEZTIQ 2 mg/0,02 mg, comprimé à libération prolongée | Comprimé à libération prolongée et comprimé pelliculé | EXELTIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "temozolomide"
 predicted_indications: ["cauda equina neoplasm"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temozolomide : nouvelle indication prédite, Néoplasme de la queue de cheval (cauda equina neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -79,13 +79,35 @@ Seul le premier rapport de cas concerne une tumeur de la région de la queue de 
 
 Le témozolomide est commercialisé en France. Au moins 20 AMM valides sont recensées (liste possiblement partielle). Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Voici cinq AMM :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60691017 | TEMOZOLOMIDE ACCORD 250 mg | Gélule | Non renseignée |
-| 66186993 | TEMOZOLOMIDE VIATRIS 140 mg | Gélule | Non renseignée |
-| 68196114 | TEMODAL 140 mg | Gélule | Non renseignée |
-| 61710965 | TEMODAL 2,5 mg/ml | Poudre pour solution pour perfusion | Non renseignée |
-| 65421470 | TEMOZOLOMIDE SUN 5 mg | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60691017 | TEMOZOLOMIDE ACCORD 250 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 66186993 | TEMOZOLOMIDE VIATRIS 140 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 68196114 | TEMODAL 140 mg, gélule | Gélule | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 65421470 | TEMOZOLOMIDE SUN 5 mg, gélule | Gélule | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 60862607 | TEMOZOLOMIDE SUN 140 mg, gélule | Gélule | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 69020770 | TEMOZOLOMIDE SUN 180 mg, gélule | Gélule | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 68440390 | TEMOZOLOMIDE ACCORD 20 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 66254857 | TEMODAL 250 mg, gélule | Gélule | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 62529302 | TEMOZOLOMIDE ACCORD 5 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 64990230 | TEMOZOLOMIDE VIATRIS 20 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 60858338 | TEMOZOLOMIDE SUN 250 mg, gélule | Gélule | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 61710965 | TEMODAL 2,5 mg/ml, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 63337988 | TEMOZOLOMIDE SUN 100 mg, gélule | Gélule | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 67632968 | TEMOZOLOMIDE VIATRIS 250 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 60914573 | TEMODAL 20 mg, gélule | Gélule | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 62188712 | TEMODAL 100 mg, gélule | Gélule | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 67119741 | TEMOZOLOMIDE ACCORD 100 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 64643856 | TEMOZOLOMIDE ACCORD 180 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63538165 | TEMOZOLOMIDE ACCORD 140 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 68740943 | TEMODAL 180 mg, gélule | Gélule | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

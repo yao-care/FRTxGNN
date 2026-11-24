@@ -71,21 +71,28 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 60448937 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 69421610 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 61509485 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 67366026 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 62160702 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 61535619 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 65269094 | TÉRIFLUNOMIDE | comprimé pelliculé sécable | Active |
-| 67661585 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 63926997 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 67129447 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 60399504 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 62360400 | TÉRIFLUNOMIDE | comprimé pelliculé | Active |
-| 63297935 | TÉRIFLUNOMIDE | comprimé pelliculé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60448937 | TERIFLUNOMIDE TEVA 14 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 69421610 | TEREBYO 14 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61509485 | TERIFLUNOMIDE ARROW 14 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67366026 | TERIFLUNOMIDE TEVA SANTE 14 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 62160702 | AUBAGIO 14 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 61535619 | AUBAGIO 7 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 65269094 | TERIFLUNOMIDE BIOGARAN 14 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 67661585 | TERIFLUNOMIDE ACCORD 14 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63926997 | TERIFLUNOMIDE EVOLUGEN 14 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 67129447 | TERIFLUNOMIDE ZENTIVA 14 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 60399504 | TERIFLUNOMIDE ZYDUS 14 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 62360400 | TERIFLUNOMIDE MYLAN 14 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 63297935 | TERIFLUNOMIDE EG 14 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61921122 | TERIFLUNOMIDE VIATRIS SANTE 14 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

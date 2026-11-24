@@ -71,15 +71,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas disponible. Les 5 premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61997052 | ETHINYLOESTRADIOL EFFIK 50 microgrammes, comprimé | comprimé | Non disponible (AMM active) |
-| 68751765 | ETHINYLESTRADIOL/DROSPIRENONE CRISTERS 0,03 mg/3 mg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM active) |
-| 61171418 | LEVONORGESTREL/ETHINYLESTRADIOL BIOGARAN 100 µg/20 µg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM active) |
-| 69491847 | ETHINYLESTRADIOL/LEVONORGESTREL MAJORELLE 20 µg/100 µg, comprimé pelliculé | comprimé pelliculé | Non disponible (AMM active) |
-| 62079905 | DESOGESTREL/ETHINYLESTRADIOL BIOGARAN 150 µg/20 µg, comprimé enrobé | comprimé enrobé | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61997052 | ETHINYLOESTRADIOL EFFIK 50 microgrammes, comprimé | Comprimé | EFFIK | Active |
+| 68751765 | ETHINYLESTRADIOL/DROSPIRENONE CRISTERS 0,03 mg/3 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 61171418 | LEVONORGESTREL/ETHINYLESTRADIOL BIOGARAN 100 microgrammes/20 microgrammes, comprimé pelli… | Comprimé pelliculé | BIOGARAN | Active |
+| 69491847 | ETHINYLESTRADIOL/LEVONORGESTREL MAJORELLE 20 microgrammes/100 microgrammes, comprimé pell… | Comprimé pelliculé | LABORATOIRES MAJORELLE | Active |
+| 62079905 | DESOGESTREL/ETHINYLESTRADIOL BIOGARAN 150 microgrammes/20 microgrammes, comprimé enrobé | Comprimé enrobé | BIOGARAN | Active |
+| 64231450 | ETONOGESTREL/ETHINYLESTRADIOL VIATRIS 120 microgrammes/15 microgrammes/24 heures, système… | Système de diffusion | VIATRIS SANTE | Active |
+| 61536144 | GESTODENE/ETHINYLESTRADIOL EG 60 microgrammes/15 microgrammes, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62753154 | EVEPAR 2 mg/0,035 mg, comprimé enrobé | Comprimé enrobé | EXELTIS SANTE | Active |
+| 66441440 | BELARACONTINU 0,03 mg/2 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | GEDEON RICHTER | Active |
+| 65316156 | MINULET, comprimé enrobé | Comprimé enrobé | PFIZER HOLDING FRANCE | Active |
+| 67592737 | TRINARA CONTINU, comprimé pelliculé | Comprimé(s) | EXELTIS HEALTHCARE (ESPAGNE) | Active |
+| 67780949 | DESOBEL 150 microgrammes/30 microgrammes, comprimé | Comprimé | EFFIK | Active |
+| 60719986 | GESTODENE/ETHINYLESTRADIOL VIATRIS 60 microgrammes/15 microgrammes, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | EXELTIS SANTE | Active |
+| 63071085 | OPTIDRIL 30 microgrammes/150 microgrammes, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | LABORATOIRES MAJORELLE | Active |
+| 64099785 | LOLISTREL CONTINU 100 microgrammes/20 microgrammes, comprimé enrobé | Comprimé enrobé et comprimé enrobé | VIATRIS SANTE | Active |
+| 63822272 | ESPIZENE CONTINU 3 mg/0,02 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | EXELTIS SANTE | Active |
+| 69797801 | VARNOLINE CONTINU, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | ORGANON FRANCE | Active |
+| 64392076 | JASMINE 0,03 mg/3 mg, comprimé pelliculé | Comprimé pelliculé | BAYER HEALTHCARE | Active |
+| 69140061 | FEMI, comprimé | Comprimé | EFFIK | Active |
+| 63591253 | GESTODENE/ETHINYLESTRADIOL TEVA 75 microgrammes/20 microgrammes, comprimé enrobé | Comprimé enrobé | TEVA SANTE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

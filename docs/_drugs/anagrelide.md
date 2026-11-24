@@ -84,9 +84,22 @@ Aucune de ces publications n'évalue directement l'anagrélide dans la thrombocy
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64599534 | XAGRID 0,5 mg, gélule (Takeda Pharmaceuticals International, Irlande) | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64599534 | XAGRID 0,5 mg, gélule | Gélule | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+| 60569173 | ANAGRELIDE SANDOZ 0,5 mg, gélule | Gélule | SANDOZ | Active |
+| 62015062 | ANAGRELIDE BIOGARAN 0,5 mg, gélule | Gélule | BIOGARAN | Active |
+| 62051172 | ANAGRELIDE TEVA 0,5 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 65465716 | ANAGRELIDE ARROW 0,5 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 66563558 | ANAGRELIDE EG 0,5 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67098208 | ANAGRELIDE ZENTIVA 0,5 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 68554636 | ANAGRELIDE VIATRIS 0,5 mg, gélule | Gélule | VIATRIS (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

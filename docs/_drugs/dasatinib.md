@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 218
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DASATINIB"
 predicted_indications: ["Ewing sarcoma", "liposarcoma", "fibromatosis, gingival", "dermatofibrosarcoma protuberans", "ovarian myxoid liposarcoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "hamartoma of lung"]
 description: "Dasatinib : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
@@ -103,13 +103,35 @@ Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont 
 
 <!-- review:end fr-lic-20261106-dasatinib-1 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 60926629 | DASATINIB SANDOZ 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64498745 | DASATINIB KRKA 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61237544 | DASATINIB BIOGARAN 50 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 66031135 | DASATINIB VIATRIS 20 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63719525 | DASATINIB ZENTIVA 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60926629 | DASATINIB SANDOZ 100 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 64498745 | DASATINIB KRKA 100 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 61237544 | DASATINIB BIOGARAN 50 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 66031135 | DASATINIB VIATRIS 20 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 63719525 | DASATINIB ZENTIVA 100 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63697057 | DASATINIB ZENTIVA 140 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 67089180 | DASATINIB KRKA 50 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 61184814 | DASATINIB VIVANTA 100 mg, comprimé pelliculé | Comprimé pelliculé | VIVANTA GENERICS (RÉPUBLIQUE TCHÈQUE) | Active |
+| 64217130 | DASATINIB ZENTIVA 20 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63054335 | DASATINIB BIOGARAN 100 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 63834189 | DASATINIB VIVANTA 50 mg, comprimé pelliculé | Comprimé pelliculé | VIVANTA GENERICS (RÉPUBLIQUE TCHÈQUE) | Active |
+| 69871956 | DASATINIB VIATRIS 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 69832939 | DASATINIB BIOGARAN 20 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61881382 | DASATINIB BIOGARAN 140 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60889547 | DASATINIB VIVANTA 20 mg, comprimé pelliculé | Comprimé pelliculé | VIVANTA GENERICS (RÉPUBLIQUE TCHÈQUE) | Active |
+| 62316578 | DASATINIB EG 140 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63779682 | DASATINIB VIVANTA 70 mg, comprimé pelliculé | Comprimé pelliculé | VIVANTA GENERICS (RÉPUBLIQUE TCHÈQUE) | Active |
+| 65729112 | DASATINIB VIATRIS 70 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68135773 | DASATINIB EG 100 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68228291 | DASATINIB SANDOZ 140 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

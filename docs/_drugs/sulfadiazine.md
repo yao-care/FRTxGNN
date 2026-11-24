@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 719
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SULFADIAZINE"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis"]
 description: "Sulfadiazine : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -95,15 +95,15 @@ Les publications ci-dessous sont les plus pertinentes parmi celles compilées (r
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66265330 | ADIAZINE 500 mg, comprimé (BOUCHARA-RECORDATI) | Comprimé | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-sulfadiazine-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66265330 | ADIAZINE 500 mg, comprimé | Comprimé | BOUCHARA-RECORDATI | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 66265330 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 66265330 (ADIAZINE 500 mg, comprimé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-sulfadiazine-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -161,7 +161,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'unique AMM française est annulée, ce qui limite le développement pratique » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 66265330 (ADIAZINE 500 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 66265330 (ADIAZINE 500 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: sulfadiazine prescribing information, Chartwell RX, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6032d6f7-cbce-4e5d-841c-a1e24b616f91) |
 
 <!-- review:end log -->

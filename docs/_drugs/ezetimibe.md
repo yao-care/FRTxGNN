@@ -85,13 +85,35 @@ L'ézétimibe est commercialisé en France. Les données compilées recensent au
 
 <!-- review:end fr-lic-20261112-ezetimibe-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60887592 | EZETIMIBE ALMUS 10 mg | comprimé | Non renseignée |
-| 69510055 | EZETIMIBE EG 10 mg | comprimé | Non renseignée |
-| 65825737 | EZETIMIBE CRISTERS PHARMA 10 mg | comprimé | Non renseignée |
-| 66718898 | EZETIMIBE SANDOZ 10 mg | comprimé | Non renseignée |
-| 60981789 | EZETROL 10 mg | comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60887592 | EZETIMIBE ALMUS 10 mg, comprimé | Comprimé | ALMUS FRANCE | Active |
+| 69510055 | EZETIMIBE EG 10 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65825737 | EZETIMIBE CRISTERS PHARMA 10 mg, comprimé | Comprimé | SUN PHARMA FRANCE | Active |
+| 66718898 | EZETIMIBE SANDOZ 10 mg, comprimé | Comprimé | SANDOZ | Active |
+| 68139818 | EZETIMIBE EVOLUGEN 10 mg, comprimé | Comprimé | EVOLUPHARM | Active |
+| 60977940 | EZETIMIBE ZENTIVA 10 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 68607455 | EZETIMIBE KRKA 10 mg, comprimé | Comprimé | KRKA (SLOVENIE) | Active |
+| 67451779 | EZETIMIBE VIATRIS 10 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 63964962 | EZETIMIBE ACCORD 10 mg, comprimé | Comprimé | ACCORD HEALTHCARE FRANCE | Active |
+| 60981789 | EZETROL 10 mg, comprimé | Comprimé | ORGANON FRANCE | Active |
+| 66999267 | EZETIMIBE TEVA 10 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 69068516 | EZETIMIBE BIOGARAN 10 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 65639202 | EZETIMIBE ARROW 10 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 64894794 | EZETIMIBE ZYDUS 10 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 63934271 | TWICOR 20 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | DIFARMED (ESPAGNE) | Active |
+| 64518219 | TWICOR 10 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS MEDICAL | Active |
+| 69491256 | LIPOROSA 20 mg/10 mg, gélule | Gélule | DIFARMED (ESPAGNE) | Active |
+| 63501238 | JUNALIZA 20 mg/10 mg, gélule | Gélule | EGIS PHARMACEUTICALS (HONGRIE) | Active |
+| 65237214 | LIPOROSA 10 mg/10 mg, gélule | Gélule | CRISTERS | Active |
+| 69062997 | EZETIMIBE CRISTERS 10 mg, comprimé | Comprimé | CRISTERS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

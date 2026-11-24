@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 721
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SULFASALAZINE"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "WHIM syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis"]
 description: "Sulfasalazine : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -86,9 +86,15 @@ Les autres publications retrouvées sont surtout des revues générales de rhuma
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67124724 | SALAZOPYRINE 500 mg, comprimé enrobé gastro-résistant (PFIZER HOLDING FRANCE) | Comprimé enrobé gastro-résistant | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67124724 | SALAZOPYRINE 500 mg, comprimé enrobé gastro-résistant | Comprimé enrobé gastro-résistant(e) | PFIZER HOLDING FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

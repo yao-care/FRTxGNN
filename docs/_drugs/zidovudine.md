@@ -103,13 +103,23 @@ Le texte de l'indication approuvée n'est pas renseigné pour ces AMM. Les cinq 
 
 <!-- review:end fr-lic-20261106-zidovudine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60132743 | RETROVIR 10 mg/ml | Solution à diluer pour perfusion | Active |
-| 63894243 | RETROVIR 250 mg | Gélule | Active |
-| 60524598 | RETROVIR 100 mg/10 ml | Solution buvable | Active |
-| 69290545 | RETROVIR 100 mg | Gélule | Active |
-| 65521773 | COMBIVIR 150 mg/300 mg | Comprimé pelliculé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60132743 | RETROVIR 10 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 63894243 | RETROVIR 250 mg, gélule | Gélule | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 60524598 | RETROVIR 100 mg/10 ml, solution buvable | Solution buvable | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 69290545 | RETROVIR 100 mg, gélule | Gélule | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 65521773 | COMBIVIR 150 mg/300 mg, comprimé pelliculé | Comprimé pelliculé sécable | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 60462659 | LAMIVUDINE/ZIDOVUDINE ARROW 150 mg/300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 67265949 | LAMIVUDINE/ZIDOVUDINE VIATRIS 150 mg/300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 63152345 | ABACAVIR/LAMIVUDINE/ZIDOVUDINE VIATRIS 300 mg/150 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64976070 | TRIZIVIR 300 mg / 150 mg / 300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

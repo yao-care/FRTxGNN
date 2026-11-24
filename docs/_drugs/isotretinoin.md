@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 417
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "isotretinoin"
 predicted_indications: ["malignant hypertensive renal disease"]
 description: "Isotretinoin : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : 17 (valides : 17)"
@@ -85,13 +85,31 @@ Les 5 premières listées dans les données compilées :
 
 <!-- review:end fr-lic-20261106-isotretinoin-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69316449 | PROCUTA 5 mg | Capsule molle | Non renseignée |
-| 62318935 | CURACNE 10 mg | Capsule molle | Non renseignée |
-| 67682298 | PROCUTA 40 mg | Capsule molle | Non renseignée |
-| 62872308 | ISOTRETINOINE ACNETRAIT 40 mg | Capsule molle | Non renseignée |
-| 67952249 | PROCUTA 20 mg | Capsule molle | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69316449 | PROCUTA 5 mg, capsule molle | Capsule molle | EXPANSCIENCE | Active |
+| 62318935 | CURACNE 10 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 67682298 | PROCUTA 40 mg, capsule molle | Capsule molle | EXPANSCIENCE | Active |
+| 62872308 | ISOTRETINOINE ACNETRAIT 40 mg, capsule molle | Capsule molle | ARROW GENERIQUES | Active |
+| 67952249 | PROCUTA 20 mg, capsule molle | Capsule molle | EXPANSCIENCE | Active |
+| 64677698 | CONTRACNE 40 mg, capsule molle | Capsule molle | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 62899611 | CURACNE 5 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 66017541 | CONTRACNE 5 mg, capsule molle | Capsule molle | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 60265569 | ISOTRETINOINE ACNETRAIT 20 mg, capsule molle | Capsule molle | ARROW GENERIQUES | Active |
+| 62121489 | ISOTRETINOINE ACNETRAIT 10 mg, capsule molle | Capsule molle | ARROW GENERIQUES | Active |
+| 65250375 | PROCUTA 10 mg, capsule molle | Capsule molle | EXPANSCIENCE | Active |
+| 69164379 | CURACNE 20 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 66296030 | ROACCUTANE 0,05 POUR CENT, gel pour application locale | Gel pour application | SERP | Active |
+| 64237574 | CONTRACNE 20 mg, capsule molle | Capsule molle | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 61654491 | CURACNE 40 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 63918395 | CONTRACNE 10 mg, capsule molle | Capsule molle | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 64168039 | ISOTRETINOINE ACNETRAIT 5 mg, capsule molle | Capsule molle | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

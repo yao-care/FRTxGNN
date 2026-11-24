@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 273
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Elafibranor : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM française (selon la littérature pharmacolog…"
 monitor_inn: "elafibranor"
 predicted_indications: ["amenorrhea (disease)"]
@@ -69,9 +69,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65387954 | IQIRVO 80 mg, comprimé pelliculé (IPSEN PHARMA) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65387954 | IQIRVO 80 mg, comprimé pelliculé | Comprimé pelliculé | IPSEN PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

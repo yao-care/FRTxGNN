@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 506
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mitomycin"
 predicted_indications: ["solid pseudopapillary carcinoma of pancreas", "osteoclastic giant cell tumor of pancreas", "pancreatic carcinoma with mixed differentiation", "mixed ductal-endocrine carcinoma of pancreas", "undifferentiated pancreatic carcinoma", "pancreatic intraductal papillary-mucinous neoplasm", "pancreatic acinar cell cystadenocarcinoma"]
 description: "Mitomycin : nouvelle indication prédite, Carcinome pseudopapillaire solide du pancréas (solid pseudopapillary carcinoma of pancreas) (niveau de preuve L5)."
@@ -74,12 +74,18 @@ Aucune littérature associée disponible actuellement.
 
 Les données locales recensent 4 autorisations de mise sur le marché, toutes valides, pour des spécialités à base de mitomycine seule :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65355771 | Mitomycine Accord 20 mg (Accord Healthcare France) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM active) |
-| 68956396 | Mitomycine Accord 10 mg (Accord Healthcare France) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM active) |
-| 69855350 | Mitomycine Medac 40 mg (Medac, Allemagne) | Poudre pour solution intravésicale | Non renseignée (AMM active) |
-| 63017696 | Mitomycine Substipharm 20 mg (Substipharm) | Poudre pour solution injectable pour perfusion ou voie intravésicale | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65355771 | MITOMYCINE ACCORD 20 mg, poudre pour solution injectable / perfusion ou voie intravésicale | Poudre pour solution injectable pour perfusion ou | ACCORD HEALTHCARE FRANCE | Active |
+| 68956396 | MITOMYCINE ACCORD 10 mg, poudre pour solution injectable / perfusion ou voie intravésicale | Poudre pour solution injectable pour perfusion ou | ACCORD HEALTHCARE FRANCE | Active |
+| 69855350 | MITOMYCINE MEDAC 40 mg, poudre pour solution intravésicale | Poudre pour solution | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 63017696 | MITOMYCINE SUBSTIPHARM 20 mg, poudre pour solution injectable/perfusion ou voie intravési… | Poudre pour solution injectable pour perfusion ou | SUBSTIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

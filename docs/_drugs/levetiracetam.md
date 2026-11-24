@@ -99,13 +99,35 @@ Sélection de 10 essais parmi les 16 enregistrés :
 
 Le texte des indications approuvées n'est pas renseigné. Cinq exemples :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67174271 | Levetiracetam Medipha Santé 500 mg | Comprimé pelliculé | Non renseignée |
-| 69429557 | Levetiracetam EG 500 mg | Comprimé pelliculé | Non renseignée |
-| 68588624 | Levetiracetam Stragen 500 mg/100 ml | Solution pour perfusion | Non renseignée |
-| 60132330 | Keppra 100 mg/ml | Solution buvable | Non renseignée |
-| 68220693 | Levetiracetam Viatris 100 mg/ml | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67174271 | LEVETIRACETAM MEDIPHA SANTE 500 mg, comprimé pelliculé | Comprimé pelliculé | MEDIPHA SANTE | Active |
+| 69429557 | LEVETIRACETAM EG 500 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68138972 | LEVETIRACETAM EG LABO 500 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61196357 | LEVETIRACETAM ACCORD 500 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 68588624 | LEVETIRACETAM STRAGEN 500 mg/100 ml, solution pour perfusion | Solution pour perfusion | STRAGEN-FRANCE | Active |
+| 60952937 | LEVETIRACETAM CRISTERS PHARMA 500 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SUN PHARMA FRANCE | Active |
+| 60132330 | KEPPRA 100 mg/ml, solution buvable | Solution buvable | UCB PHARMA BELGIQUE | Active |
+| 67638743 | LEVETIRACETAM ACCORD 100 mg/ml, solution buvable | Solution buvable | ACCORD HEALTHCARE FRANCE | Active |
+| 61407427 | LEVETIRACETAM VIATRIS 1000 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 67390276 | LEVETIRACETAM EG 100 mg/mL, solution buvable | Solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61276718 | LEVETIRACETAM ZYDUS 500 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 68827490 | LEVETIRACETAM ZYDUS 250 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 67832958 | LEVIDCEN 750 mg, granulés enrobés en sachet | Granulés enrobé | DESITIN ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 62303171 | LEVETIRACETAM TEVA 1000 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 68220693 | LEVETIRACETAM VIATRIS 100 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 64164471 | LEVETIRACETAM ZENTIVA 250 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63387539 | LEVETIRACETAM ACCORD 250 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61956319 | LEVETIRACETAM ARROW LAB 500 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 62926745 | LEVETIRACETAM KRKA 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | KRKA (SLOVENIE) | Active |
+| 64736787 | LEPTAX 250 mg, comprimé pelliculé | Comprimé pelliculé | HAC PHARMA | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -89,6 +89,36 @@ Il faut toutefois rester prudent : les preuves cliniques sont hétérogènes. L'
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60513655 | HIDONAC 5 g/25 ml, solution injectable pour perfusion | Solution pour perfusion | ZAMBON FRANCE | Active |
+| 66711220 | FLUIMUCIL 600 mg ADULTES, granulés pour solution buvable en sachet édulcorés au sorbitol… | Granulés pour solution buvable | ZAMBON FRANCE | Active |
+| 65483582 | ACETYLCYSTEINE VIATRIS CONSEIL 200 mg, poudre pour solution buvable en sachet-dose | Poudre pour solution buvable | VIATRIS SANTE | Active |
+| 62636934 | EXOMUC 600 mg, poudre pour solution orale en sachet | Poudre pour solution | BOUCHARA-RECORDATI | Active |
+| 69148542 | ACETYLCYSTEINE ARROW 200 mg, comprimé effervescent | Comprimé effervescent(e) | ARROW GENERIQUES | Active |
+| 62784356 | ACETYLCYSTEINE BIOGARAN CONSEIL 200 mg, poudre pour solution buvable en sachet | Poudre pour solution buvable | BIOGARAN | Active |
+| 67657188 | ACETYLCYSTEINE TEVA CONSEIL 200 mg SANS SUCRE, poudre pour solution buvable en sachet-dose | Poudre pour solution buvable | TEVA SANTE | Active |
+| 61406745 | ACETYLCYSTEINE ALPEX 600 mg ADULTES, granulés pour solution buvable | Granulés pour solution buvable | ALPEX PHARMA (IRL) (IRLANDE) | Active |
+| 69896678 | ACETYLCYSTEINE EG LABO CONSEIL 200 mg SANS SUCRE, poudre pour solution buvable en sachet-… | Poudre pour solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67096723 | FLUIMUCIL 2 % ADULTE, solution buvable édulcorée à la saccharine sodique, au cyclamate de… | Solution buvable | ZAMBON FRANCE | Active |
+| 68747126 | FLUIMUCIL 200 mg, granulés pour solution buvable en sachet édulcorés au sorbitol et à l'a… | Granulés pour solution buvable | ZAMBON FRANCE | Active |
+| 69440048 | FLUIMUCIL 2 % ENFANTS, solution buvable édulcorée à la saccharine sodique, au cyclamate d… | Solution buvable | ZAMBON FRANCE | Active |
+| 67757295 | MUCOMYST 200 mg, poudre pour solution buvable en sachet | Poudre pour solution buvable | UPSA | Active |
+| 66720454 | ISTENDO 1 g/5 ml, solution pour instillation endotrachéobronchique en ampoule | Solution pour instillation | LABORATOIRES DELBERT | Active |
+| 62655991 | MUCODRILL 600 mg SANS SUCRE, comprimé effervescent édulcoré au sucralose | Comprimé effervescent(e) | ALPEX PHARMA (IRL) (IRLANDE) | Active |
+| 68906735 | EXOMUC 200 mg, granulés pour usage oral en sachet | Granulés pour solution buvable | BOUCHARA-RECORDATI | Active |
+| 66069082 | ACETYLCYSTEINE ZENTIVA CONSEIL 200 mg SANS SUCRE, poudre pour solution buvable en sachet | Poudre pour solution buvable | ZENTIVA FRANCE | Active |
+| 64896877 | EXOMUC 200 mg, granulés pour solution buvable en sachet | Granulés pour solution buvable | BOUCHARA-RECORDATI | Active |
+| 68043798 | ACETYLCYSTEINE EG 200 mg, poudre pour solution buvable en sachet-dose | Poudre pour solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67494823 | ACETYLCYSTEINE SANDOZ CONSEIL 200 mg, granulés pour solution buvable en sachet-dose | Granulés pour solution buvable | SANDOZ | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
+
 Des autorisations de mise sur le marché (AMM) pour des spécialités à base d'acétylcystéine seule figurent dans les données locales (liste éventuellement partielle) ; le texte d'indication n'y est pas renseigné. L'acétylcystéine est commercialisée en France.
 
 ## Considérations de Sécurité

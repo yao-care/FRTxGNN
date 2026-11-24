@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 323
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FENTANYL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
 description: "Fentanyl : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) (niveau de preuve L5). Indication d'origine : Non rensei…"
@@ -73,15 +73,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas disponible. Principales AMM :
+Le texte d'indication approuvée n'est pas disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65173904 | FENTANYL SANDOZ 100 µg/heure | Dispositif transdermique | Non renseignée |
-| 60914025 | DUROGESIC 25 µg/heure | Dispositif transdermique | Non renseignée |
-| 67439271 | MATRIFEN 12 µg/heure | Dispositif transdermique | Non renseignée |
-| 66152400 | EFFENTORA 400 µg | Comprimé buccogingival | Non renseignée |
-| 60616751 | DUROGESIC 50 µg/heure | Dispositif transdermique | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65173904 | FENTANYL SANDOZ 100 microgrammes/heure, dispositif transdermique | Dispositif | SANDOZ | Active |
+| 63071772 | FENTANYL SANDOZ 75 microgrammes/heure, dispositif transdermique | Dispositif | SANDOZ | Active |
+| 60826422 | FENTANYL VIATRIS 75 microgrammes/heure, dispositif transdermique | Dispositif | VIATRIS SANTE | Active |
+| 60914025 | DUROGESIC 25 microgrammes/heure, dispositif transdermique | Dispositif | JANSSEN CILAG | Active |
+| 62581637 | FENTANYL VIATRIS 100 microgrammes/heure, dispositif transdermique | Dispositif | VIATRIS SANTE | Active |
+| 65904024 | FENTANYL ZENTIVA 25 microgrammes/heure, dispositif transdermique | Dispositif | ZENTIVA FRANCE | Active |
+| 60281114 | FENTANYL ARROW 75 microgrammes/heure, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+| 66177841 | FENTANYL TEVA SANTE 12 microgrammes/heure, dispositif transdermique | Dispositif | TEVA SANTE | Active |
+| 66651741 | FENTANYL TEVA SANTE 25 microgrammes/heure, dispositif transdermique | Dispositif | TEVA SANTE | Active |
+| 67439271 | MATRIFEN 12 microgrammes/heure, dispositif transdermique | Dispositif | ISTITUTO GENTILI (ITALIE) | Active |
+| 61170825 | FENTANYL TEVA SANTE 75 microgrammes/heure, dispositif transdermique | Dispositif | TEVA SANTE | Active |
+| 69419292 | MATRIFEN 25 microgrammes/heure, dispositif transdermique | Dispositif | ISTITUTO GENTILI (ITALIE) | Active |
+| 60616751 | DUROGESIC 50 microgrammes/heure, dispositif transdermique | Dispositif | JANSSEN CILAG | Active |
+| 64438171 | FENTANYL ARROW 100 microgrammes/heure, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+| 68983087 | FENTANYL BGR 50 microgrammes/heure, dispositif transdermique | Dispositif | LABORATOIRES LAVIPHARM | Active |
+| 62539894 | FENTANYL EG 12 microgrammes/heure, dispositif transdermique | Dispositif | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69172109 | FENTANYL EG 25 microgrammes/heure, dispositif transdermique | Dispositif | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66152400 | EFFENTORA 400 microgrammes, comprimés buccogingivaux | Comprimé | PHOENIX LABS (IRLANDE) | Active |
+| 69840327 | FENTANYL VIATRIS 12 microgrammes/heure, dispositif transdermique | Dispositif | VIATRIS SANTE | Active |
+| 68108025 | DUROGESIC 12 microgrammes/heure, dispositif transdermique | Dispositif | JANSSEN CILAG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 450
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "levonorgestrel"
 predicted_indications: ["acne (disease)", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "apocrine adenosis of breast", "blunt duct adenosis of breast"]
 description: "Levonorgestrel : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
@@ -81,15 +81,37 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le lévonorgestrel est commercialisé en France. Sur les 20 AMM recensées, 19 sont valides et 1 est annulée ; la liste peut être partielle. Principales AMM :
+Le lévonorgestrel est commercialisé en France. Sur les 20 AMM recensées, 19 sont valides et 1 est annulée ; la liste peut être partielle.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60812935 | NORLEVO 1,5 mg, comprimé | comprimé | Non renseignée |
-| 63905960 | JAYDESS 13,5 mg, système de diffusion intra-utérin | système de diffusion | Non renseignée |
-| 64559600 | LEVONORGESTREL ZENTIVA 1,5 mg, comprimé | comprimé | Non renseignée |
-| 60078078 | LEVONORGESTREL EG 1,5 mg, comprimé | comprimé | Non renseignée |
-| 63463104 | KYLEENA 19,5 mg, système de diffusion intra-utérin | système de diffusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60812935 | NORLEVO 1,5 mg, comprimé | Comprimé | HRA PHARMA | Active |
+| 63905960 | JAYDESS 13,5 mg, système de diffusion intra-utérin | Système de diffusion | BAYER HEALTHCARE | Active |
+| 64559600 | LEVONORGESTREL ZENTIVA 1,5 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 60078078 | LEVONORGESTREL EG 1,5 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63463104 | KYLEENA 19,5 mg, système de diffusion intra-utérin | Système de diffusion | BAYER HEALTHCARE | Active |
+| 65678792 | LEVONORGESTREL CRISTERS 1,5 mg, comprimé | Comprimé | CRISTERS | Active |
+| 66791234 | LEVONORGESTREL VIATRIS 1,5 mg, comprimé | Comprimé | EXELTIS SANTE | Active |
+| 68486929 | MICROVAL, comprimé enrobé | Comprimé enrobé | PFIZER HOLDING FRANCE | Active |
+| 66349230 | MIRENA 52 mg (20 microgrammes/24 heures), dispositif intra-utérin | Dispositif | BAYER HEALTHCARE | Active |
+| 69311110 | DONASERT 52 mg (20 microgrammes/24 heures), dispositif intra-utérin | Dispositif | GEDEON RICHTER | Active |
+| 65357943 | LEVONORGESTREL BIOGARAN 1,5 mg, comprimé | Comprimé | GEDEON RICHTER | Active |
+| 64061667 | LEVUNIQUE 1,5 mg comprimé | Comprimé | EXELTIS HEALTHCARE (ESPAGNE) | Active |
+| 64425341 | LEVOSOLO 1500 microgrammes, comprimé | Comprimé | LABORATOIRES MAJORELLE | Active |
+| 66819566 | LEELOO 0,1 mg/0,02 mg, comprimé enrobé | Comprimé enrobé | THERAMEX IRELAND (IRLANDE) | Active |
+| 61171418 | LEVONORGESTREL/ETHINYLESTRADIOL BIOGARAN 100 microgrammes/20 microgrammes, comprimé pelli… | Comprimé pelliculé | BIOGARAN | Active |
+| 69491847 | ETHINYLESTRADIOL/LEVONORGESTREL MAJORELLE 20 microgrammes/100 microgrammes, comprimé pell… | Comprimé pelliculé | LABORATOIRES MAJORELLE | Active |
+| 66036285 | QIADE 150 microgrammes/30 microgrammes, comprimé pelliculé | Comprimé pelliculé | EXELTIS SANTE | Active |
+| 68494153 | ASTERLUNA 100 microgrammes/20 microgrammes, comprimé pelliculé | Comprimé pelliculé | EXELTIS HEALTHCARE (ESPAGNE) | Active |
+| 63941294 | DAILY, comprimé enrobé | Comprimé enrobé et comprimé enrobé et comprimé enrobé | PIERRE FABRE MEDICAMENT | Active |
+| 62351344 | LEVONORGESTREL/ETHINYLESTRADIOL BIOGARAN 150 microgrammes/30 microgrammes, comprimé enrobé | Comprimé enrobé | BIOGARAN | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

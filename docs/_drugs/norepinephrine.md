@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 545
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "norepinephrine"
 predicted_indications: ["obstructive lung disease", "respiratory malformation", "Rienhoff syndrome"]
 description: "Norepinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L4). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -84,13 +84,21 @@ Aucune étude clinique contrôlée n'a été retrouvée. Les publications les pl
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65104648 | NORADRENALINE VIATRIS 2 mg/ml SANS SULFITES | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 64234749 | NORADRENALINE (TARTRATE) AGUETTANT 2 mg/ml (SANS SULFITES) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 60743407 | TANOREN 0,5 mg/mL | Solution à diluer pour injection ou pour perfusion | Non renseignée (AMM active) |
-| 60385077 | CRONOMIR 10 microgrammes/mL | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
-| 64803855 | NORADRENALINE RENAUDIN 2 mg/mL SANS CONSERVATEUR | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65104648 | NORADRENALINE VIATRIS 2 mg/ml SANS SULFITES, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 64234749 | NORADRENALINE (TARTRATE) AGUETTANT 2 mg/ml (SANS SULFITES), solution à diluer pour perfus… | Solution à diluer pour perfusion | AGUETTANT | Active |
+| 60743407 | TANOREN 0,5 mg/mL, solution à diluer pour solution injectable/pour perfusion | Solution à diluer pour injection ou pour perfusion | LABORATOIRE RENAUDIN | Active |
+| 60385077 | CRONOMIR 10 microgrammes/mL solution injectable/pour perfusion | Solution injectable ou pour perfusion | AGUETTANT | Active |
+| 64803855 | NORADRENALINE RENAUDIN 2 mg/mL SANS CONSERVATEUR, solution à diluer pour perfusion | Solution à diluer pour perfusion | LABORATOIRE RENAUDIN | Active |
+| 60181402 | NORADRENALINE (TARTRATE) RENAUDIN 0,5 mg/mL, solution pour perfusion | Solution pour perfusion | LABORATOIRE RENAUDIN | Active |
+| 69948865 | NORADRENALINE TARTRATE KALCEKS 2 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | AS KALCEKS (LETTONIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 7 AMM sont recensées; aucun produit n'est actuellement commercialisé sous ces AMM.
 

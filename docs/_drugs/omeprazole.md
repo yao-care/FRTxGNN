@@ -82,15 +82,37 @@ Le score très élevé (0,9964) est une simple prédiction, probablement dû à 
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas disponible. Principales AMM :
+Le texte des indications approuvées n'est pas disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64103828 | MOPRAL 20 mg | Gélule gastro-résistante | Non renseignée (active) |
-| 67234658 | OMEPRAZOLE VIATRIS 40 mg | Poudre pour solution pour perfusion | Non renseignée (active) |
-| 68748071 | OMEPRAZOLE SANDOZ 10 mg | Gélule gastro-résistante | Non renseignée (active) |
-| 67993388 | OMEPRAZOLE TEVA PHARMA 20 mg | Gélule gastro-résistante | Non renseignée (active) |
-| 65204851 | OMEPRAZOLE EVOLUGEN PHARMA 10 mg | Gélule gastro-résistante | Non renseignée (active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64103828 | MOPRAL 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 67234658 | OMEPRAZOLE VIATRIS 40 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 68748071 | OMEPRAZOLE SANDOZ 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SANDOZ | Active |
+| 67993388 | OMEPRAZOLE TEVA PHARMA 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | TEVA SANTE | Active |
+| 65204851 | OMEPRAZOLE EVOLUGEN PHARMA 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EVOLUPHARM | Active |
+| 65830008 | OMEPRAZOLE CRISTERS PHARMA 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | CRISTERS | Active |
+| 69531932 | OMEPRAZOLE ZENTIVA LAB 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZENTIVA FRANCE | Active |
+| 67995040 | OMEPRAZOLE BIOGARAN 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | BIOGARAN | Active |
+| 68995940 | OMEPRAZOLE SANDOZ CONSEIL 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SANDOZ | Active |
+| 65581090 | OMEPRAZOLE TEVA PHARMA 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | TEVA SANTE | Active |
+| 62943125 | OMEPRAZOLE SANDOZ 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SANDOZ | Active |
+| 65658163 | OMEPRAZOLE TEVA SANTE 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | TEVA SANTE | Active |
+| 61123131 | OMEPRAZOLE ARROW 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ARROW GENERIQUES | Active |
+| 63244391 | OMEPRAZOLE ZENTIVA LAB 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZENTIVA FRANCE | Active |
+| 68605333 | OMEPRAZOLE ALMUS 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ALMUS FRANCE | Active |
+| 67450136 | OMEPRAZOLE BIOGARAN 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | BIOGARAN | Active |
+| 69036504 | OMEPRAZOLE VIATRIS CONSEIL 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | VIATRIS SANTE | Active |
+| 60806188 | OMEPRAZOLE ALMUS 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ALMUS FRANCE | Active |
+| 64261479 | OMEPRAZOLE CRISTERS LAB 10 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SUN PHARMA FRANCE | Abrogée |
+| 61490953 | OMEPRAZOLE CRISTERS LAB 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SUN PHARMA FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

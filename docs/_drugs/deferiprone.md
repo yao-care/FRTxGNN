@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 220
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "deferiprone"
 predicted_indications: ["hepatic porphyria", "hepatopulmonary syndrome", "hepatoportal sclerosis", "primitive portal vein thrombosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "pyruvate kinase deficiency of red cells", "pyropoikilocytosis, hereditary"]
 description: "Deferiprone : nouvelle indication prédite, Porphyrie hépatique (hepatic porphyria) (niveau de preuve L4). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -80,13 +80,20 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61628308 | DEFERIPRONE ARROW 500 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 69438015 | DEFERIPRONE ARROW 1000 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 65987486 | FERRIPROX 500 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60508302 | FERRIPROX 1000 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69694018 | FERRIPROX 100 mg/ml | Solution buvable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61628308 | DEFERIPRONE ARROW 500 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 69438015 | DEFERIPRONE ARROW 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 65987486 | FERRIPROX 500 mg, comprimé pelliculé | Comprimé pelliculé | CHIESI FARMACEUTICI | Active |
+| 60508302 | FERRIPROX 1000 mg, comprimé pelliculé | Comprimé pelliculé | CHIESI FARMACEUTICI | Active |
+| 69694018 | FERRIPROX 100 mg/ml, solution buvable | Solution buvable | CHIESI FARMACEUTICI | Active |
+| 66508896 | DEFERIPRONE LIPOMED 500 mg, comprimé pelliculé | Comprimé pelliculé | LIPOMED (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

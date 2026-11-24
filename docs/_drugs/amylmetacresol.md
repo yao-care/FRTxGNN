@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 64
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Amylmetacresol : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (antiseptique local pour la g…"
 monitor_inn: "amylmetacresol"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome", "ciliary body disease", "panuveitis (disease)", "iris disease", "infectious anterior uveitis", "uveitis", "ciliary body cancer", "benign neoplasm of ciliary body"]
@@ -79,13 +79,30 @@ Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas rens
 
 <!-- review:end fr-lic-20261106-amylmetacresol-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69742210 | Strepsils Miel Citron, pastille à sucer (BB Farma) | Pastille à sucer | Non renseignée |
-| 65179483 | Amylmétacrésol/Alcool dichlorobenzylique Viatris Conseil 0,6 mg/1,2 mg Miel Citron | Pastille à sucer | Non renseignée |
-| 68466734 | Strepsils Citron sans sucre | Pastille | Non renseignée |
-| 65431016 | Strepsils Miel Citron, pastille à sucer (Difarmed) | Pastille à sucer | Non renseignée |
-| 67591507 | Strepsils Menthe glaciale | Pastille à sucer | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69742210 | STREPSILS MIEL CITRON, pastille à sucer | Pastille à sucer | BB FARMA (ITALIE) | Active |
+| 65179483 | AMYLMETACRESOL/ALCOOL DICHLOROBENZYLIQUE VIATRIS CONSEIL 0,6 mg/1,2 mg MIEL CITRON, pasti… | Pastille à sucer | VIATRIS SANTE | Active |
+| 68466734 | STREPSILS CITRON SANS SUCRE, pastille édulcorée à l'isomalt, au maltitol et à la sacchari… | Pastille | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 65431016 | STREPSILS MIEL CITRON, pastille à sucer | Pastille à sucer | DIFARMED (ESPAGNE) | Active |
+| 67591507 | STREPSILS MENTHE GLACIALE, pastille à sucer | Pastille à sucer | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 66166122 | AMYLMETACRESOL/ALCOOL DICHLOROBENZYLIQUE BIOGARAN CONSEIL 0,6 mg/1,2 mg MIEL ET CITRON, p… | Pastille | BIOGARAN | Active |
+| 61966199 | STREPSILS FRAISE SANS SUCRE, pastille édulcorée à l'isomalt, au maltitol et à la sacchari… | Pastille | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 62009928 | STREPSILS MIEL CITRON, pastille à sucer | Pastille à sucer | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 67569927 | HUMEX MAL DE GORGE LIDOCAINE/ALCOOL DICHLOROBENZYLIQUE/AMYLMETACRESOL 2 mg/1,2 mg/0,6 mg… | Pastille | LABORATOIRES URGO HEALTHCARE | Active |
+| 68139273 | STREPSILS LIDOCAINE, pastille | Pastille | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 64495973 | AMYLMETACRESOL/ALCOOL DICHLOROBENZYLIQUE/LIDOCAINE BIOGARAN CONSEIL 223 mg/ 446 mg/ 600 m… | Solution pour pulvérisation | BIOGARAN | Active |
+| 61052442 | HUMEX MAL DE GORGE LIDOCAINE/ALCOOL DICHLOROBENZYLIQUE/AMYLMETACRESOL 2 mg/1,2 mg/0,6 mg… | Pastille | LABORATOIRES URGO HEALTHCARE | Active |
+| 62471347 | HUMEX MAL DE GORGE LIDOCAINE/ALCOOL DICHLOROBENZYLIQUE/AMYLMETACRESOL 2 mg/1,2 mg/0,6 mg… | Pastille | LABORATOIRES URGO HEALTHCARE | Active |
+| 69841984 | HUMEX MAL DE GORGE LIDOCAINE/ALCOOL DICHLOROBENZYLIQUE/AMYLMETACRESOL 2 mg/1,2 mg/0,6 mg… | Pastille | LABORATOIRES URGO HEALTHCARE | Active |
+| 64653964 | STREPSILSPRAY à la lidocaïne, collutoire | Collutoire | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 63530827 | STREPSILS ORANGE VITAMINE C, pastille | Pastille | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

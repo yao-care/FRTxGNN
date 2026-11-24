@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 283
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "enoxaparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive"]
 description: "Enoxaparin : nouvelle indication prédite, Thrombophilie due à un déficit en protéine C, autosomique récessif (thrombophilia due to protein C deficiency… (niveau de preuve L5). Indication d'origine : …"
@@ -72,15 +72,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné. Les 5 premières AMM sont listées ci-dessous.
+Le texte des indications approuvées n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67464342 | LOVENOX 8 000 UI (80 mg)/0,8 ml | Solution injectable en seringue préremplie | Non renseignée |
-| 67759517 | ENOXAPARINE ARROW 2 000 UI (20 mg)/0,2 mL | Solution injectable en seringue préremplie | Non renseignée |
-| 63601263 | ENOXAPARINE EG 4 000 UI (40 mg)/0,4 mL | Solution injectable en seringue préremplie | Non renseignée |
-| 69247501 | INHIXA 2 000 UI (20 mg)/0,2 mL | Solution injectable en seringue préremplie | Non renseignée |
-| 63009219 | ENOXAPARINE VENIPHARM 6 000 UI (60 mg)/0,6 mL | Solution injectable en seringue préremplie | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67464342 | LOVENOX 8 000 UI (80 mg)/0,8 ml, solution injectable en seringue préremplie | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 67759517 | ENOXAPARINE ARROW 2 000 UI (20 mg)/0,2 mL, solution injectable en seringue préremplie | Solution injectable | ARROW GENERIQUES | Active |
+| 63601263 | ENOXAPARINE EG 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69247501 | INHIXA 2 000 UI (20 mg) dans 0,2 mL, solution injectable en seringue préremplie | Solution injectable | TECHDOW PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 63009219 | ENOXAPARINE VENIPHARM 6000 UI (60 mg)/0,6 mL, solution injectable en seringue préremplie | Solution injectable | VENIPHARM | Active |
+| 63297419 | INHIXA 6 000 UI (60 mg) dans 0,6 mL, solution injectable en seringue préremplie | Solution injectable | TECHDOW PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 61937233 | LOVENOX 6 000 UI (60 mg)/0,6 ml, solution injectable en seringue préremplie | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 65640254 | ENOXAPARINE EG 8 000 UI (80 mg)/0,8 mL, solution injectable en seringue préremplie | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61539165 | ENOXAPARINE TEVA 10 000 UI (100 mg)/1 mL, solution injectable en seringue préremplie | Solution injectable | TEVA (PAYS-BAS) | Active |
+| 66428261 | ENOXAPARINE EG 10 000 UI (100 mg)/1 mL, solution injectable en seringue préremplie | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66576445 | ENOXAPARINE ZENTIVA 6 000 UI (60 mg)/0,6 mL, solution injectable en seringue préremplie | Solution injectable | ZENTIVA FRANCE | Active |
+| 61923493 | ENOXAPARINE ZENTIVA 8 000 UI (80 mg) / 0,8 mL, solution injectable en seringue préremplie | Solution injectable | ZENTIVA FRANCE | Active |
+| 61033239 | ENOXAPARINE TEVA 2000 UI (20 mg)/0,2 mL, solution injectable en seringue préremplie | Solution injectable | TEVA (PAYS-BAS) | Active |
+| 68192016 | ENOXAPARINE BECAT 8 000 UI (80 mg)/0,8 mL, solution injectable en seringue préremplie | Solution injectable | LABORATORIOS FARMACEUTICOS ROVI (ESPAGNE) | Active |
+| 61796551 | ENOXAPARINE EG 2 000 UI (20 mg)/0,2 mL, solution injectable en seringue préremplie | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68980422 | ENOXAPARINE VENIPHARM 4000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie | Solution injectable | VENIPHARM | Active |
+| 67118995 | LOVENOX 15 000 UI (150 mg)/1 ml, solution injectable en seringue préremplie | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 60782303 | LOVENOX 4 000 UI (40 mg)/0,4 ml, solution injectable en seringue préremplie | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 69702041 | ENOXAPARINE ZENTIVA 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie | Solution injectable | ZENTIVA FRANCE | Active |
+| 68034607 | ENOXAPARINE BECAT 4 000 UI (40 mg)/0,4 mL, solution injectable en seringue préremplie | Solution injectable | LABORATORIOS FARMACEUTICOS ROVI (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

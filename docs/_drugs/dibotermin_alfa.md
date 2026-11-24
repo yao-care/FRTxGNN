@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 236
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dibotermin Alfa : nouvelle indication prédite, Ésotropie (niveau de preuve L5). Indication d'origine : Trouble dégénératif des disques intervertébraux"
 monitor_inn: "dibotermin alfa"
 predicted_indications: ["esotropia", "HER2 positive breast carcinoma", "normal breast-like subtype of breast carcinoma", "progesterone-receptor positive breast cancer", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer", "non-syndromic esophageal malformation", "multifocal choroiditis", "atypical coarctation of aorta"]
@@ -77,9 +77,15 @@ Aucune littérature associée n'est disponible actuellement pour l'ésotropie.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60897889 | INDUCTOS 1,5 mg/ml, poudre, solvant et matrice pour matrice implantable (Medtronic BioPharma, Pays-Bas) | Poudre, solvant et matrice pour matrice implantable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60897889 | INDUCTOS 1,5 mg/ml, poudre, solvant et matrice pour matrice implantable | Poudre et solvant et matrice pour matrice implantable | MEDTRONIC BIOPHARMA (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

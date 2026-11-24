@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 695
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SECNIDAZOLE"
 predicted_indications: ["postmenopausal atrophic vaginitis", "ulceration of vulva", "vaginal discharge", "vulvar neoplasm", "leukoplakia of vagina", "vulvovaginal candidiasis"]
 description: "Secnidazole : nouvelle indication prédite, Vaginite atrophique postménopausique (postmenopausal atrophic vaginitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
@@ -72,9 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63820798 | SECNOL 2 g, granulés en sachet-dose (SUBSTIPHARM), AMM active | Granulés | Non renseignée dans les données compilées |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63820798 | SECNOL 2 g, granulés en sachet-dose | Granulés | SUBSTIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La disponibilité du produit en France devrait donc être vérifiée avant toute réflexion sur un usage ultérieur.
 

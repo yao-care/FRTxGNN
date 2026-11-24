@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 401
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin detemir"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Detemir : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -108,11 +108,17 @@ Parmi les essais compilés, voici les plus pertinents (essais de phase 3 randomi
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66688750 | LEVEMIR PENFILL 100 Unités/mL, solution injectable en cartouche | Solution injectable | Non renseignée (AMM active) |
-| 66481292 | LEVEMIR INNOLET 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 64529525 | LEVEMIR FLEXPEN 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66688750 | LEVEMIR PENFILL 100 Unités/mL, solution injectable en cartouche | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 66481292 | LEVEMIR INNOLET 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 64529525 | LEVEMIR FLEXPEN 100 Unités/mL, solution injectable en stylo prérempli | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

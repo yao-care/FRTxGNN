@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 544
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Norelgestromin : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM"
 monitor_inn: "norelgestromin"
 predicted_indications: ["amenorrhea (disease)"]
@@ -81,9 +81,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 69729088 | EVRA 203 microgrammes/24 heures + 33,9 microgrammes/24 heures, dispositif transdermique (GEDEON RICHTER) | Dispositif transdermique | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69729088 | EVRA 203 microgrammes/24 heures + 33,9 microgrammes/24 heures, dispositif transdermique | Dispositif | GEDEON RICHTER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

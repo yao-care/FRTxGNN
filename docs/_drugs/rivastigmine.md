@@ -99,13 +99,30 @@ Les 16 AMM recensées sont valides ; le médicament est commercialisé. Le texte
 
 <!-- review:end fr-lic-20261124-rivastigmine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 61430397 | Rivastigmine EG Labo 9,5 mg/24 h | Patch transdermique | EG Labo |
-| 66197477 | Rivastigmine Biogaran 9,5 mg/24 h | Dispositif transdermique | Biogaran |
-| 64979294 | Rivastigmine Arrow 4,6 mg/24 h | Dispositif transdermique | Arrow Génériques |
-| 61148412 | Rivastigmine Viatris 4,6 mg/24 h | Dispositif transdermique | Viatris Santé |
-| 61322336 | Rivastigmine Biogaran 4,6 mg/24 h | Dispositif transdermique | Biogaran |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61430397 | RIVASTIGMINE EG LABO 9,5 mg/24 h, patch transdermique | Patch | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66197477 | RIVASTIGMINE BIOGARAN 9,5 mg/24 h, dispositif transdermique | Dispositif | BIOGARAN | Active |
+| 64979294 | RIVASTIGMINE ARROW 4,6 mg/24 heures, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+| 61148412 | RIVASTIGMINE VIATRIS 4,6 mg/24 heures, dispositif transdermique | Dispositif | VIATRIS SANTE | Active |
+| 61322336 | RIVASTIGMINE BIOGARAN 4,6 mg/24 h, dispositif transdermique | Dispositif | BIOGARAN | Active |
+| 61154803 | RIVASTIGMINE EG 9,5 mg/24 h, dispositif transdermique | Dispositif | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66442631 | RIVASTIGMINE VIATRIS 9,5 mg/24 heures, dispositif transdermique | Dispositif | VIATRIS SANTE | Active |
+| 63140325 | RIVASTIGMINE EG LABO 4,6 mg/24 h, patch transdermique | Patch | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66177624 | RIVASTIGMINE ARROW 9,5 mg/24 heures, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+| 64501892 | RIVASTIGMINE EG 4,6 mg/24 h, dispositif transdermique | Dispositif | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63927615 | RIVASTIGMINE SANDOZ 4,6 mg/24 h, dispositif transdermique | Dispositif | SANDOZ | Active |
+| 63093669 | EXELON 9,5 mg/24 h, dispositif transdermique | Dispositif | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 63290816 | RIVASTIGMINE ZENTIVA 4,6 mg/24 heures, dispositif transdermique | Dispositif | ZENTIVA FRANCE | Active |
+| 67764293 | RIVASTIGMINE SANDOZ 9,5 mg/24 h, dispositif transdermique | Dispositif | SANDOZ | Active |
+| 67885398 | EXELON 4,6 mg/24 h, dispositif transdermique | Dispositif | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 69978449 | RIVASTIGMINE ZENTIVA 9,5 mg/24 heures, dispositif transdermique | Dispositif | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

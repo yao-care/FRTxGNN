@@ -71,9 +71,21 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 60100877 | BÉTAXOLOL (CHLORHYDRATE DE) | collyre en solution | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60100877 | BETOPTIC 0,5 POUR CENT, collyre | Collyre en solution | IMMEDICA PHARMA (SUEDE) | Active |
+| 61846762 | BETAXOLOL EG 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63591495 | BETAXOLOL SANDOZ 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 63760582 | BETAXOLOL TEVA SANTE 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 64409255 | BETAXOLOL BIOGARAN 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 67056604 | BETAXOLOL VIATRIS 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 67702384 | KERLONE 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

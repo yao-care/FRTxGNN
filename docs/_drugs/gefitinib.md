@@ -85,13 +85,24 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 
 <!-- review:end fr-lic-20261106-gefitinib-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65070509 | GEFITINIB EG 250 mg (EG LABO) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 66530743 | GEFITINIB SANDOZ 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61571533 | GEFITINIB TEVA 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 67522920 | GEFITINIB ZENTIVA 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 68862107 | GEFITINIB ACCORD 250 mg | Comprimé pelliculé | Non renseignée (AMM annulée) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65070509 | GEFITINIB EG 250 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66530743 | GEFITINIB SANDOZ 250 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61571533 | GEFITINIB TEVA 250 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67522920 | GEFITINIB ZENTIVA 250 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 60457263 | IRESSA 250 mg, comprimé pelliculé | Comprimé pelliculé | ASTRAZENECA AB | Active |
+| 69135922 | GEFITINIB BIOGARAN 250 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68862107 | GEFITINIB ACCORD 250 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Archivée |
+| 67725963 | GEFITINIB ARROW 250 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Archivée |
+| 62649604 | GEFITINIB KRKA 250 mg, comprimés pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Abrogée |
+| 65648219 | GEFITINIB MYLAN 250 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

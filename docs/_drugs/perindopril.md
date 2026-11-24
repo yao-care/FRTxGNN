@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 592
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-31
+last_modified_at: 2026-11-24
 monitor_inn: "perindopril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Perindopril : nouvelle indication prédite, Néphropathie hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
@@ -77,15 +77,37 @@ Pour information, parmi les autres indications prédites, seule une étude préc
 
 ## Informations de Marché en France
 
-Le texte d'indication n'est pas renseigné. Principales AMM :
+Le texte d'indication n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69699257 | PERINDOPRIL SANDOZ 2 mg | Comprimé | Non renseignée |
-| 62746131 | PERINDOPRIL ARGININE HCS 5 mg | Comprimé sécable | Non renseignée |
-| 61947423 | PERINDOPRIL ARGININE SERVIER 2,5 mg | Comprimé pelliculé | Non renseignée |
-| 63849839 | COVERSYL 5 mg | Comprimé pelliculé sécable | Non renseignée |
-| 68762014 | COGYR 2 mg | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69699257 | PERINDOPRIL SANDOZ 2 mg, comprimé | Comprimé | SANDOZ | Active |
+| 62746131 | PERINDOPRIL ARGININE HCS 5 mg, comprimé sécable | Comprimé sécable | HCS (BELGIQUE) | Active |
+| 64419210 | PERINDOPRIL ZYDUS 8 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 69912100 | PERINDOPRIL ZYDUS 4 mg, comprimé sécable | Comprimé sécable | ZYDUS FRANCE | Active |
+| 61947423 | PERINDOPRIL ARGININE SERVIER 2,5 mg, comprimé pelliculé | Comprimé pelliculé | LES LABORATOIRES SERVIER | Active |
+| 67652216 | PERINDOPRIL ARGININE ZENTIVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69945011 | PERINDOPRIL ARGININE EG 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60208511 | PERINDOPRIL ARGININE ZENTIVA 10 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 67607160 | PERINDOPRIL BIOGARAN 8 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 64502115 | PERINDOPRIL BIOGARAN 4 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 62947682 | PERINDOPRIL VIATRIS 4 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 63849839 | COVERSYL 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | LES LABORATOIRES SERVIER | Active |
+| 68762014 | COGYR 2 mg, comprimé | Comprimé | LES LABORATOIRES SERVIER | Active |
+| 62897959 | PERINDOPRIL TEVA SANTE 2 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 64156542 | PERINDOPRIL ARGININE VIATRIS 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 66900840 | PERINDOPRIL KRKA 4 mg, comprimé sécable | Comprimé sécable | KRKA (SLOVENIE) | Active |
+| 67026340 | PERINDOPRIL SANDOZ 4 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 63126101 | PERINDOPRIL KRKA 2 mg, comprimé | Comprimé | KRKA (SLOVENIE) | Active |
+| 68355716 | PERINDOPRIL ARGININE BIOGARAN 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69370226 | PERINDOPRIL VIATRIS 2 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

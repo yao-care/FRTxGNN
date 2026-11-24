@@ -93,13 +93,29 @@ Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont l
 
 <!-- review:end fr-lic-20261106-dexpanthenol-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63272113 | DEXPANTHENOL CRISTERS 5 %, pommade | Pommade | Active |
-| 66172278 | DEXPANTHENOL ZENTIVA CONSEIL 5 %, pommade | Pommade | Active |
-| 66261549 | BEPANTHENE 250 mg/ml, solution injectable I.M. | Solution injectable | Active |
-| 61662513 | DEXPANTHENOL EG LABO CONSEIL 5 %, pommade | Pommade | Active |
-| 68370337 | DEXPANTHENOL VIATRIS 5 %, pommade | Pommade | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63272113 | DEXPANTHENOL CRISTERS 5 %, pommade | Pommade | CRISTERS | Active |
+| 66172278 | DEXPANTHENOL ZENTIVA CONSEIL 5 %, pommade | Pommade | ZENTIVA FRANCE | Active |
+| 66261549 | BEPANTHENE 250 mg/ml, solution injectable I.M. | Solution injectable | BAYER HEALTHCARE | Active |
+| 61662513 | DEXPANTHENOL EG LABO CONSEIL 5 %, pommade | Pommade | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68370337 | DEXPANTHENOL VIATRIS 5 %, pommade | Pommade | VIATRIS SANTE | Active |
+| 64852941 | BEPANTHENE 100 mg, comprimé | Comprimé | BAYER HEALTHCARE | Active |
+| 61816559 | DEXPANTHENOL ARROW CONSEIL 5 %, pommade | Pommade | ARROW GENERIQUES | Active |
+| 69170446 | BEPANTHEN 5 %, crème | Crème | BAYER HEALTHCARE | Active |
+| 67183929 | DEXPANTHENOL BIOGARAN CONSEIL 5 %, pommade | Pommade | BIOGARAN | Active |
+| 64835212 | BEPANTHEN 5 %, pommade | Pommade | BAYER HEALTHCARE | Active |
+| 66511376 | BECOZYME, solution injectable en ampoule | Solution injectable | BAYER HEALTHCARE | Active |
+| 66705623 | HYDROSOL POLYVITAMINE PHARMA DEVELOPPEMENT, solution buvable en gouttes | Solution buvable en gouttes | PHARMA DEVELOPPEMENT | Active |
+| 61001031 | CERNEVIT, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | BAXTER | Active |
+| 62008580 | ERYTHEDERMYL 5 %, pommade | Pommade | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Archivée |
+| 66778233 | DEXPANTHENOL BAILLEUL 5 %, pommade | Pommade | LABORATOIRES BAILLEUL (LUXEMBOURG) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

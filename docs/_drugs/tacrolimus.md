@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 728
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tacrolimus"
 predicted_indications: ["seborrheic dermatitis", "parapsoriasis"]
 description: "Tacrolimus : nouvelle indication prédite, Dermatite séborrhéique (seborrheic dermatitis) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
@@ -96,13 +96,35 @@ Le mécanisme est donc plausible et les données cliniques le soutiennent. Les d
 
 Les 5 premières AMM sont listées ci-dessous ; le texte des indications approuvées n'est pas disponible dans les données compilées. 20 AMM sont valides.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 61727612 | ADVAGRAF 5 mg | Gélule à libération prolongée | Active |
-| 63931834 | ADVAGRAF 0,5 mg | Gélule à libération prolongée | Active |
-| 61217812 | PROGRAF 1 mg | Gélule | Active |
-| 60876980 | CONFEROPORT 1 mg | Gélule à libération prolongée | Active |
-| 66927104 | ADOPORT 2 mg | Gélule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61727612 | ADVAGRAF 5 mg, gélule à libération prolongée | Gélule à libération prolongée | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 63931834 | ADVAGRAF 0,5 mg, gélule à libération prolongée | Gélule à libération prolongée | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 61217812 | PROGRAF 1 mg, gélule | Gélule | ASTELLAS PHARMA | Active |
+| 60876980 | CONFEROPORT 1 mg, gélule à libération prolongée | Gélule à libération prolongée | SANDOZ | Active |
+| 66927104 | ADOPORT 2 mg, gélule | Gélule | SANDOZ | Active |
+| 68330403 | PROGRAF 0,5 mg, gélule | Gélule | ASTELLAS PHARMA | Active |
+| 61092077 | MODIGRAF 0,2 mg, granulés pour suspension buvable | Granulés pour suspension buvable | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 62698455 | CONFEROPORT 5 mg, gélule à libération prolongée | Gélule à libération prolongée | SANDOZ | Active |
+| 66080171 | TAKROZEM 0,1 %, pommade | Pommade | PIERRE FABRE MEDICAMENT | Active |
+| 67015899 | CONFEROPORT 3 mg, gélule à libération prolongée | Gélule à libération prolongée | SANDOZ | Active |
+| 61604257 | ADVAGRAF 3 mg, gélule à libération prolongée | Gélule à libération prolongée | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 62680140 | CONFEROPORT 2 mg, gélule à libération prolongée | Gélule à libération prolongée | SANDOZ | Active |
+| 63213392 | PROTOPIC 0,1 %, pommade | Pommade | LEO PHARMA A/S (DANEMARK) | Active |
+| 68955248 | ADOPORT 0,5 mg, gélule | Gélule | SANDOZ | Active |
+| 68176916 | ADOPORT 1 mg, gélule | Gélule | SANDOZ | Active |
+| 69458135 | CONFEROPORT 0,5 mg, gélule à libération prolongée | Gélule à libération prolongée | SANDOZ | Active |
+| 65037007 | ENVARSUS 0,75 mg, comprimé à libération prolongée | Comprimé à libération prolongée | CHIESI FARMACEUTICI | Active |
+| 69208135 | MODIGRAF 1 mg, granulés pour suspension buvable | Granulés pour suspension buvable | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 66737795 | PROGRAF 5 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ASTELLAS PHARMA | Active |
+| 64349915 | ENVARSUS 4 mg, comprimé à libération prolongée | Comprimé à libération prolongée | CHIESI FARMACEUTICI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Parmi les 20 AMM figurent également des formes topiques (pommade) : TAKROZEM 0,1 % et PROTOPIC 0,1 %.
 

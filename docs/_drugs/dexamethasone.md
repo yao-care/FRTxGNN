@@ -74,13 +74,35 @@ Aucune littérature associée disponible actuellement.
 
 Les données locales comptent 19 AMM valides et 1 AMM annulée. La liste ci-dessous est partielle : elle présente cinq AMM valides parmi les 20 enregistrées. Les formes sont variées : ophtalmique, injectable, orale et implant intravitréen.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60833559 | AFLAVIS 1 mg/mL, collyre en solution | Collyre en solution | Non renseignée (AMM active) |
-| 68106914 | DEXOCOL 1 mg/mL, collyre en solution | Collyre en solution | Non renseignée (AMM active) |
-| 67392081 | OZURDEX 700 µg, implant intravitréen | Implant | Non renseignée (AMM active) |
-| 68973246 | DEXAMETHASONE PANPHARMA 4 mg/mL | Solution injectable | Non renseignée (AMM active) |
-| 62817482 | DECTANCYL 0,5 mg | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60833559 | AFLAVIS 1 mg/mL, collyre en solution | Collyre en solution | LABORATOIRES DOLIAGE DEVELOPPEMENT | Active |
+| 68106914 | DEXOCOL 1 mg/mL, collyre en solution | Collyre en solution | HORUS PHARMA | Active |
+| 67392081 | OZURDEX 700 microgrammes, implant intravitréen avec applicateur | Implant | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 68973246 | DEXAMETHASONE PANPHARMA 4 mg/mL, solution injectable | Solution injectable | PANPHARMA | Active |
+| 63915157 | ETARTILEN 1,5 mg/mL, collyre en solution | Collyre en solution | SIFI (ITALIE) | Active |
+| 62817482 | DECTANCYL 0,5 mg, comprimé | Comprimé | PHOENIX LABS | Active |
+| 66025367 | DEXAMETHASONE PANPHARMA 20 mg/5 mL, solution injectable | Solution injectable | PANPHARMA | Active |
+| 65515005 | DEXAMETHASONE MEDISOL 20 mg/5 ml, solution injectable | Solution injectable | MEDISOL | Active |
+| 63713650 | DEXAMETHASONE KALCEKS 4 mg/1 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 65822036 | DEXAMETHASONE VIATRIS 20 mg/5 ml, solution injectable en ampoule | Solution injectable | VIATRIS SANTE | Active |
+| 62365493 | DEXAMETHASONE VIATRIS 4 mg/1 ml, solution injectable en ampoule | Solution injectable | VIATRIS SANTE | Active |
+| 62350477 | DEXAMETHASONE KRKA 4 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | KRKA (SLOVENIE) | Active |
+| 64926466 | DEXAMETHASONE MEDISOL 4 mg/1 ml, solution injectable | Solution injectable | MEDISOL | Active |
+| 67756414 | DEXLIQ 4 mg/mL, solution buvable | Solution buvable | THERAVIA | Active |
+| 67656848 | DEXAFREE 1 mg/ml, collyre en solution en récipient unidose | Collyre en solution | THEA | Active |
+| 68572869 | NEOFORDEX 40 mg, comprimé | Comprimé | THERAVIA | Active |
+| 69956680 | LACRYADEX 1 mg/5 mg par g, pommade ophtalmique | Pommade | HORUS PHARMA | Active |
+| 69497177 | STERDEX, pommade ophtalmique en récipient unidose | Pommade | THEA | Active |
+| 60814943 | FRAKIDEX, Collyre en solution | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 65238711 | MAXIDEX 0,1 POUR CENT, collyre | Collyre | NOVARTIS PHARMA | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

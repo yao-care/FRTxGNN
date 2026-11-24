@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 807
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Velpatasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite C (le texte d'indicati…"
 monitor_inn: "VELPATASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -88,13 +88,19 @@ Ces travaux évaluent le VHC ou la sécurité en cas de co-infection. Aucun ne d
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
-| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
-| 63434686 | EPCLUSA 400 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 63434686 | EPCLUSA 400 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

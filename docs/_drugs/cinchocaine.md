@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 171
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "cinchocaine"
 predicted_indications: ["bronchitis", "acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis"]
 description: "Cinchocaine : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -73,10 +73,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65569519 | DELIPROCT, suppositoire (active) | Suppositoire | Non renseignée |
-| 63394747 | ULTRAPROCT, suppositoire (active) | Suppositoire | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65569519 | DELIPROCT, suppositoire | Suppositoire | KARO PHARMA (SUEDE) | Active |
+| 63394747 | ULTRAPROCT, suppositoire | Suppositoire | KARO PHARMA (SUEDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux AMM sont valides (fabricant : KARO PHARMA, Suède) ; le médicament est commercialisé.
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 316
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FAMOTIDINE"
 predicted_indications: ["duodenal obstruction", "abnormality of glucagon secretion", "multiple endocrine neoplasia", "acne (disease)"]
 description: "Famotidine : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -103,10 +103,16 @@ Point de vigilance : plusieurs essais suggèrent que la famotidine est **inféri
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67557907 | FAMOTIDINE EG 40 mg (active) | Comprimé pelliculé | Non renseignée |
-| 60005856 | FAMOTIDINE EG 20 mg (active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67557907 | FAMOTIDINE EG 40 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60005856 | FAMOTIDINE EG 20 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

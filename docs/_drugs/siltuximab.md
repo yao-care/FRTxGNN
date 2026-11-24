@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 704
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Siltuximab : nouvelle indication prédite, Mastocytome extracutané (niveau de preuve L5). Indication d'origine : Maladie de Castleman (source : base de connaissances TxGNN…"
 monitor_inn: "SILTUXIMAB"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "hepatic veno-occlusive disease", "peliosis hepatis", "Kaposi's sarcoma (disease)", "autosomal recessive familial Mediterranean fever", "aggressive systemic mastocytosis", "autosomal dominant familial periodic fever"]
@@ -88,10 +88,16 @@ Aucune publication ne concerne directement le mastocytome extracutané. La seule
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60622302 | SYLVANT 100 mg (active) | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 63846800 | SYLVANT 400 mg (active) | Poudre à diluer pour solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60622302 | SYLVANT 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | RECORDATI NETHERLANDS (NETHERLANDS) | Active |
+| 63846800 | SYLVANT 400 mg, poudre pour solution à diluer pour perfusion | Poudre à diluer pour solution pour perfusion | RECORDATI NETHERLANDS (NETHERLANDS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux AMM, détenues par Recordati Netherlands, sont valides ; le médicament est actuellement commercialisé en France.
 

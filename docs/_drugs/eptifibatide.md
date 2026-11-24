@@ -81,10 +81,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut | Indication Approuvée |
-|---------|------|------|------|-----------|
-| 67185951 | EPTIFIBATIDE ACCORD 2 mg/ml | Solution injectable | Active | Non renseignée |
-| 61707499 | EPTIFIBATIDE ACCORD 0,75 mg/ml | Solution pour perfusion | Active | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67185951 | EPTIFIBATIDE ACCORD 2 mg/ml, solution injectable | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61707499 | EPTIFIBATIDE ACCORD 0,75 mg/ml, solution pour perfusion | Solution pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 60124020 | INTEGRILIN 2 mg/ml, solution injectable | Solution injectable | GLAXOSMITHKLINE (IRELAND) | Abrogée |
+| 66506404 | INTEGRILIN 0,75 mg/ml, solution pour perfusion | Solution pour perfusion | GLAXOSMITHKLINE (IRELAND) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Des 4 AMM recensées, 2 sont valides (ACCORD HEALTHCARE, Espagne, spécialités à base d'eptifibatide seul) et 2 sont abrogées (INTEGRILIN, GlaxoSmithKline).
 

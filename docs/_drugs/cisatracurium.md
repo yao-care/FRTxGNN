@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 174
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cisatracurium : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "cisatracurium"
 predicted_indications: ["cauda equina syndrome", "preeclampsia", "obsolete neurogenic bladder (disease)", "migraine disorder", "thrombotic disease", "irritable bowel syndrome", "migraine with brainstem aura", "mild pre-eclampsia", "severe pre-eclampsia", "neurocirculatory asthenia"]
@@ -107,13 +107,24 @@ Le texte d'indication approuvée n'est pas renseigné.
 
 <!-- review:end fr-lic-20261106-cisatracurium-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67403581 | Cisatracurium Accordpharma 5 mg/mL | Solution injectable ou pour perfusion | Active |
-| 62067536 | Cisatracurium Accordpharma 2 mg/mL | Solution injectable ou pour perfusion | Active |
-| 68123109 | Nimbex 2 mg/mL | Solution injectable ou pour perfusion | Active |
-| 68405756 | Cisatracurium Accord 5 mg/mL | Solution injectable ou pour perfusion | Active |
-| 63324453 | Cisatracurium Accord 2 mg/mL | Solution injectable ou pour perfusion | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67403581 | CISATRACURIUM ACCORDPHARMA 5 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 62067536 | CISATRACURIUM ACCORDPHARMA 2 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 68123109 | NIMBEX 2 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 68405756 | CISATRACURIUM ACCORD 5 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 63324453 | CISATRACURIUM ACCORD 2 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 69823420 | CISATRACURIUM HIKMA 2 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 62029749 | CISATRACURIUM VIATRIS 5 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | VIATRIS SANTE | Active |
+| 67271457 | CISATRACURIUM KALCEKS 2 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 60224800 | NIMBEX 5 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 65722331 | CISATRACURIUM VIATRIS 2 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 795
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TUROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency", "thrombotic thrombocytopenic purpura", "hereditary thrombocytosis with transverse limb defect"]
 description: "Turoctocog Alfa : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans…"
@@ -71,13 +71,20 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 64266526 | NOVOEIGHT 3000 UI | Poudre et solvant pour solution injectable | Non renseignée | Active |
-| 67582344 | NOVOEIGHT 1500 UI | Poudre et solvant pour solution injectable | Non renseignée | Active |
-| 65044350 | NOVOEIGHT 1000 UI | Poudre et solvant pour solution injectable | Non renseignée | Active |
-| 66990599 | NOVOEIGHT 250 UI | Poudre et solvant pour solution injectable | Non renseignée | Active |
-| 62333524 | NOVOEIGHT 2000 UI | Poudre et solvant pour solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64266526 | NOVOEIGHT 3000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 67582344 | NOVOEIGHT 1500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 65044350 | NOVOEIGHT 1000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 66990599 | NOVOEIGHT 250 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 62333524 | NOVOEIGHT 2000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 68274043 | NOVOEIGHT 500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | NOVO NORDISK (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le titulaire est NOVO NORDISK (Danemark) pour l'ensemble des AMM.
 

@@ -74,13 +74,21 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66207619 | NILOTINIB ACCORD 150 mg | Gélule | Non renseignée (AMM active) |
-| 67016780 | NILOTINIB ZENTIVA 150 mg | Gélule | Non renseignée (AMM active) |
-| 60116714 | NILOTINIB ACCORD 200 mg | Gélule | Non renseignée (AMM active) |
-| 68546785 | NILOTINIB ZENTIVA 200 mg | Gélule | Non renseignée (AMM active) |
-| 66460565 | TASIGNA 200 mg | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66207619 | NILOTINIB ACCORD 150 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67016780 | NILOTINIB ZENTIVA 150 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 60116714 | NILOTINIB ACCORD 200 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 68546785 | NILOTINIB ZENTIVA 200 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 66460565 | TASIGNA 200 mg, gélule | Gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 63690098 | TASIGNA 150 mg, gélule | Gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 69596691 | TASIGNA 50 mg, gélule | Gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

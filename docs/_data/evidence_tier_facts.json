@@ -261,7 +261,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Tableau : l’AMM 64426906 (HARVONI 90 mg/400 mg) est active, non abrogée",
+    "rs": "Supprimé : « puisque l'unique AMM est abrogée »",
     "x": 0
    },
    {
@@ -2619,7 +2619,7 @@
     "lt": 0,
     "lv": 18,
     "r": 2,
-    "rs": "Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active",
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -2817,7 +2817,7 @@
     "lt": 0,
     "lv": 17,
     "r": 3,
-    "rs": "Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active",
+    "rs": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
     "x": 0
    },
    {
@@ -2938,7 +2938,7 @@
     "lt": 0,
     "lv": 16,
     "r": 2,
-    "rs": "Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active",
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -3719,7 +3719,7 @@
     "lt": 10,
     "lv": 9,
     "r": 4,
-    "rs": "Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active",
+    "rs": "Supprimé : « De plus, toutes les AMM françaises de la cyanocobalamine sont annulées »",
     "x": 0
    },
    {
@@ -4093,7 +4093,7 @@
     "lt": 14,
     "lv": 7,
     "r": 4,
-    "rs": "Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active",
+    "rs": "Supprimé : « toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg) »",
     "x": 0
    },
    {
@@ -4170,7 +4170,7 @@
     "lt": 9,
     "lv": 7,
     "r": 3,
-    "rs": "Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active",
+    "rs": "Supprimé : « et les 8 AMM françaises (sur 8) sont valides »",
     "x": 0
    },
    {
@@ -5732,7 +5732,7 @@
     "lt": 3,
     "lv": 3,
     "r": 4,
-    "rs": "Tableau : l’AMM 66843923 (RYTHMOL 300 mg) est active, non annulée",
+    "rs": "Supprimé : « et les contre-indications cardiaques (QT long, cardiopathie structurelle, cardiopathie…",
     "x": 0
    },
    {
@@ -5743,7 +5743,7 @@
     "lt": 6,
     "lv": 3,
     "r": 6,
-    "rs": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
+    "rs": "Supprimé : « puisque seules des AMM annulées sont recensées »",
     "x": 0
    },
    {
@@ -6249,7 +6249,7 @@
     "lt": 3,
     "lv": 2,
     "r": 3,
-    "rs": "Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active",
+    "rs": "Supprimé : « Examiner l'interet reel d'une relance, compte tenu de l'annulation de toutes les AMM »",
     "x": 0
    },
    {
@@ -6513,7 +6513,7 @@
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Tableau : l’AMM 60016589 (LEVOCARNIL 1 g/5 ml) est active, non annulée",
+    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -7437,7 +7437,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tableau : l’AMM 69888457 (NUCTALON 2 mg) est active, non annulée",
+    "rs": "Supprimé : « et le produit n'a plus d'AMM valide en France »",
     "x": 0
    },
    {
@@ -7712,7 +7712,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 66532840 (YERVOY 5 mg/mL) est active, non annulée",
+    "rs": "Supprimé : « l'AMM étant annulée »",
     "x": 0
    },
    {
@@ -7723,7 +7723,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 63239234 (TIBSOVO 250 mg) est active, non annulée",
+    "rs": "Supprimé : « L'AMM française est de plus annulée »",
     "x": 0
    },
    {
@@ -7767,7 +7767,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tableau : l’AMM 66417119 (METHERGIN 0) est active, non annulée",
+    "rs": "Supprimé : « Le profil de sécurité vasculaire de la classe et la seule AMM française annulée renforcent la…",
     "x": 0
    },
    {
@@ -7877,7 +7877,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 66403621 (VECTIBIX 20 mg/ml) est active, non annulée",
+    "rs": "Supprimé : « L'AMM française est annulée »",
     "x": 0
    },
    {
@@ -8053,7 +8053,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tableau : l’AMM 69445376 (RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE) est active, non annulée",
+    "rs": "Supprimé : « L'unique AMM française est annulée, et le profil de sécurité (nombreuses contre-indications…",
     "x": 0
    },
    {
@@ -8130,7 +8130,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 69284439 (VEKLURY 100 mg) est active, non annulée",
+    "rs": "Supprimé : « L'AMM française est de plus annulée »",
     "x": 0
    },
    {
@@ -8251,7 +8251,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tableau : l’AMM 65006905 (ODOMZO 200 mg) est active, non abrogée",
+    "rs": "Supprimé : « la seule AMM étant abrogée »",
     "x": 0
    },
    {
@@ -8295,7 +8295,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 66265330 (ADIAZINE 500 mg) est active, non annulée",
+    "rs": "Supprimé : « L'unique AMM française est annulée, ce qui limite le développement pratique »",
     "x": 0
    },
    {
@@ -8350,7 +8350,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 60443413 (TORISEL 30 mg) est active, non abrogée",
+    "rs": "Supprimé : « a seule AMM française est abrogée et l »",
     "x": 0
    },
    {
@@ -8394,7 +8394,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 68937442 (THYROGEN 0) est active, non annulée",
+    "rs": "Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent, ce…",
     "x": 0
    },
    {
@@ -8405,7 +8405,7 @@
     "lt": 1,
     "lv": 1,
     "r": 4,
-    "rs": "Tableau : l’AMM 66090799 (FASIGYNE 500 mg) est active, non annulée",
+    "rs": "Supprimé : « l'AMM étant annulée »",
     "x": 0
    },
    {
@@ -8493,7 +8493,7 @@
     "lt": 1,
     "lv": 1,
     "r": 3,
-    "rs": "Tableau : l’AMM 63737879 (DEPAMIDE 300 mg) est active, non annulée",
+    "rs": "Supprimé : « et les raisons de l'annulation de l'AMM »",
     "x": 0
    },
    {
@@ -8559,7 +8559,7 @@
     "lt": 1,
     "lv": 1,
     "r": 2,
-    "rs": "Tableau : l’AMM 65766872 (WAYLIVRA 285 mg) est active, non annulée",
+    "rs": "Supprimé : « 'AMM française est de plus annulée, et l »",
     "x": 0
    },
    {
@@ -8702,7 +8702,7 @@
     "lt": 1,
     "lv": 0,
     "r": 3,
-    "rs": "Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active",
+    "rs": "Supprimé : « 'autorisation française est annulée, et l »",
     "x": 0
    },
    {

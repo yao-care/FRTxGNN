@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "bleomycin"
 predicted_indications: ["cauda equina neoplasm", "adult astrocytic tumour", "primary pulmonary lymphoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bleomycin : nouvelle indication prédite, Tumeur de la queue de cheval (cauda equina neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -74,10 +74,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60033389 | BLEOMYCINE ACCORD 15000 UI, poudre pour solution injectable / pour perfusion | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 62789360 | BLEOMYCINE BELLON 15 mg, poudre pour solution injectable | Poudre pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60033389 | BLEOMYCINE ACCORD 15000 UI, poudre pour solution injectable / pour perfusion | Poudre pour solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 62789360 | BLEOMYCINE BELLON 15 mg, poudre pour solution injectable | Poudre pour solution injectable | HIKMA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

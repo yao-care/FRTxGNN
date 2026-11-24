@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "altretamine"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Altretamine : nouvelle indication prédite, Carcinome du sein chez la femme (female breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
@@ -76,9 +76,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69985098 | HEXASTAT, gélule | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69985098 | HEXASTAT, gélule | Gélule | LABORATOIRES DELBERT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

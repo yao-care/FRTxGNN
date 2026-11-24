@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 566
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "oxcarbazepine"
 predicted_indications: ["restless legs syndrome"]
 description: "Oxcarbazepine : nouvelle indication prédite, Restless legs syndrome (niveau de preuve L4). En France, AMM dans la BDPM : 10 (valides : 10)"
@@ -84,13 +84,24 @@ Aucune publication spécifique à l'épilepsie visuelle n'a été identifiée. L
 
 Le médicament est commercialisé en France : 10 AMM valides sur 10. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 66770635 | OXCARBAZEPINE VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64876757 | TRILEPTAL 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 66064587 | TRILEPTAL 60 mg/ml, suspension buvable | Suspension buvable | Non renseignée (AMM active) |
-| 64327694 | OXCARBAZEPINE SANDOZ 300 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63089749 | OXCARBAZEPINE SANDOZ 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66770635 | OXCARBAZEPINE VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64876757 | TRILEPTAL 600 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS PHARMA | Active |
+| 66064587 | TRILEPTAL 60 mg/ml, suspension buvable | Suspension buvable | NOVARTIS PHARMA | Active |
+| 64327694 | OXCARBAZEPINE SANDOZ 300 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63089749 | OXCARBAZEPINE SANDOZ 150 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69568788 | TRILEPTAL 150 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS PHARMA | Active |
+| 64003144 | OXCARBAZEPINE SANDOZ 600 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66414482 | OXCARBAZEPINE VIATRIS 150 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 60043077 | OXCARBAZEPINE VIATRIS 300 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61556061 | TRILEPTAL 300 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

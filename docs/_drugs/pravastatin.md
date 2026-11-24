@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 623
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pravastatin"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "hypoalphalipoproteinemia", "cholesterol-ester transfer protein deficiency"]
 description: "Pravastatin : nouvelle indication prédite, HIV infectious disease (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
@@ -95,13 +95,35 @@ La littérature porte surtout sur d'autres agents hypolipémiants (ézétimibe, 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60097203 | PRAVASTATINE ARROW 10 mg | Comprimé sécable | Non disponible (AMM active) |
-| 60270452 | PRAVASTATINE ZENTIVA 40 mg | Comprimé | Non disponible (AMM active) |
-| 63964916 | PRAVASTATINE ZENTIVA 20 mg | Comprimé sécable | Non disponible (AMM active) |
-| 61624936 | PRAVASTATINE CRISTERS PHARMA 20 mg | Comprimé sécable | Non disponible (AMM active) |
-| 69922952 | PRAVASTATINE CRISTERS PHARMA 40 mg | Comprimé sécable | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60097203 | PRAVASTATINE ARROW 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 60270452 | PRAVASTATINE ZENTIVA 40 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 63964916 | PRAVASTATINE ZENTIVA 20 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 61624936 | PRAVASTATINE CRISTERS PHARMA 20 mg, comprimé sécable | Comprimé sécable | CRISTERS | Active |
+| 69922952 | PRAVASTATINE CRISTERS PHARMA 40 mg, comprimé sécable | Comprimé sécable | CRISTERS | Active |
+| 64842776 | PRAVASTATINE SANDOZ 40 mg, comprimé | Comprimé | SANDOZ | Active |
+| 62164533 | PRAVASTATINE TEVA 10 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 67623129 | PRAVASTATINE ZENTIVA 10 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 67344026 | PRAVASTATINE ACCORD 20 mg, comprimé | Comprimé | ACCORD HEALTHCARE FRANCE | Active |
+| 62323042 | PRAVASTATINE ARROW 40 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 65663922 | PRAVASTATINE TEVA 20 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 63141886 | PRAVASTATINE ALMUS 40 mg, comprimé sécable | Comprimé sécable | ALMUS FRANCE | Active |
+| 60619174 | PRAVASTATINE EVOLUGEN PHARMA 40 mg, comprimé sécable | Comprimé sécable | EVOLUPHARM | Active |
+| 61923511 | PRAVASTATINE ARROW 20 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 69318400 | PRAVASTATINE EVOLUGEN PHARMA 20 mg, comprimé sécable | Comprimé sécable | EVOLUPHARM | Active |
+| 66605249 | PRAVASTATINE EG 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61370516 | PRAVASTATINE ALMUS 20 mg, comprimé sécable | Comprimé sécable | ALMUS FRANCE | Active |
+| 69481162 | PRAVASTATINE EG 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61823920 | PRAVASTATINE VIATRIS 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 69511004 | PRAVASTATINE BIOGARAN 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

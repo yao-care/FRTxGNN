@@ -83,13 +83,26 @@ Ces publications sont générales (diagnostic, lignes directrices, pharmacociné
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69380042 | NOXAFIL 100 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
-| 65644772 | NOXAFIL 300 mg | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 62076503 | NOXAFIL 40 mg/mL | Suspension buvable | Non renseignée (AMM active) |
-| 63689562 | POSACONAZOLE ZENTIVA 100 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
-| 62713448 | POSACONAZOLE FRESENIUS KABI 100 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69380042 | NOXAFIL 100 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 63689562 | POSACONAZOLE ZENTIVA 100 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ZENTIVA FRANCE | Active |
+| 62713448 | POSACONAZOLE FRESENIUS KABI 100 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | FRESENIUS KABI FRANCE | Active |
+| 67003384 | POSACONAZOLE VIATRIS 40 mg/mL, suspension buvable | Suspension buvable | VIATRIS SANTE | Active |
+| 63474691 | POSACONAZOLE AHCL 40 mg/mL, suspension buvable | Suspension buvable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69060505 | POSACONAZOLE ACCORD 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 65381200 | POSACONAZOLE VIATRIS 100 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | VIATRIS SANTE | Active |
+| 65644772 | NOXAFIL 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 64512668 | POSACONAZOLE ACCORD 100 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 62076503 | NOXAFIL 40 mg/mL, suspension buvable | Suspension buvable | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 64211572 | POSACONAZOLE STRAGEN 40 mg/mL, suspension buvable | Suspension buvable | STRAGEN-FRANCE | Abrogée |
+| 69521735 | POSACONAZOLE EG 100 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | EG LABO - LABORATOIRES EUROGENERICS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

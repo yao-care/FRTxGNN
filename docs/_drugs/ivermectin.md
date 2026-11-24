@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 420
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ivermectin"
 predicted_indications: ["vulvovaginal candidiasis", "esophageal candidiasis", "anogenital human papillomavirus infection", "vulvovaginitis", "neonatal candidiasis", "candida glabrata", "congenital candidiasis", "postmenopausal atrophic vaginitis", "candidiasis, invasive"]
 description: "Ivermectin : nouvelle indication prédite, Candidose vulvovaginale (vulvovaginal candidiasis) (niveau de preuve L5). En France, AMM dans la BDPM : 13 (valides : 13)"
@@ -91,13 +91,27 @@ Le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont pr�
 
 <!-- review:end fr-lic-20261106-ivermectin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61064455 | IVERMECTINE EG LABO 3 mg, comprimé | Comprimé | Non renseignée |
-| 62026945 | IVERMECTINE BIOGARAN 3 mg, comprimé | Comprimé | Non renseignée |
-| 68665113 | IVERMECTINE PIERRE FABRE 3 mg, comprimé | Comprimé | Non renseignée |
-| 69444281 | SOOLANTRA 10 mg/g, crème | Crème | Non renseignée |
-| 64296537 | IVERMECTINE SANDOZ 3 mg, comprimé | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61064455 | IVERMECTINE EG LABO 3 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62026945 | IVERMECTINE BIOGARAN 3 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 68665113 | IVERMECTINE PIERRE FABRE 3 mg, comprimé | Comprimé | PIERRE FABRE MEDICAMENT | Active |
+| 69444281 | SOOLANTRA 10 mg/g, crème | Crème | GALDERMA INTERNATIONAL | Active |
+| 64296537 | IVERMECTINE SANDOZ 3 mg, comprimé | Comprimé | SANDOZ | Active |
+| 65078623 | IVERMECTINE VIATRIS 3 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 65676300 | IVERMECTINE CRISTERS 3 mg, comprimé | Comprimé | CRISTERS | Active |
+| 62533172 | IVERMECTINE TEVA 3 mg, comprimé | Comprimé | TEVA (PAYS-BAS) | Active |
+| 69498425 | IVERMECTINE EG 3 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67988035 | IVERMECTINE ARROW LAB 3 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 69323365 | IVERMECTINE ZENTIVA 3 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 61350360 | STROMECTOL 3 mg, comprimé | Comprimé | MSD FRANCE | Active |
+| 61843531 | IVERMECTINE SUBSTIPHARM 3 mg, comprimé | Comprimé | SUBSTIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 703
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "silodosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Silodosin : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) (niveau de preuve L5). Indication d'origine : Non rens…"
@@ -82,15 +82,36 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné dans les données compilées. Voici les 5 premières :
+Le texte de l'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60054312 | SILODOSINE SANDOZ 4 mg, gélule | Gélule | Non renseignée |
-| 62493774 | SILODOSINE BIOGARAN 8 mg, gélule | Gélule | Non renseignée |
-| 61605245 | SILODYX 4 mg, gélule | Gélule | Non renseignée |
-| 63206729 | SILODOSINE EG 8 mg, gélule | Gélule | Non renseignée |
-| 63168424 | SILODOSINE VIATRIS 4 mg, gélule | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60054312 | SILODOSINE SANDOZ 4 mg, gélule | Gélule | SANDOZ | Active |
+| 62493774 | SILODOSINE BIOGARAN 8 mg, gélule | Gélule | BIOGARAN | Active |
+| 61605245 | SILODYX 4 mg, gélule | Gélule | RECORDATI IRELAND | Active |
+| 63206729 | SILODOSINE EG 8 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63168424 | SILODOSINE VIATRIS 4 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 69048990 | SILODOSINE ZENTIVA 4 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 66450806 | SILODOSINE EG 4 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67496824 | SILODOSINE ARROW 4 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 69141416 | UROREC 8 mg, gélule | Gélule | RECORDATI IRELAND | Active |
+| 69310040 | SILODOSINE SANDOZ 8 mg, gélule | Gélule | SANDOZ | Active |
+| 69862028 | SILODOSINE ZENTIVA 8 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 63911098 | SILODYX 8 mg, gélule | Gélule | RECORDATI IRELAND | Active |
+| 63239348 | SILODOSINE RECORDATI 4 mg, gélule | Gélule | RECORDATI IRELAND | Active |
+| 68992257 | SILODOSINE TEVA 4 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 62078365 | SILODOSINE BIOGARAN 4 mg, gélule | Gélule | BIOGARAN | Active |
+| 60021928 | SILODOSINE VIATRIS 8 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 65024515 | UROREC 4 mg, gélule | Gélule | RECORDATI IRELAND | Active |
+| 61494492 | SILODOSINE RECORDATI 8 mg, gélule | Gélule | RECORDATI IRELAND | Active |
+| 67692214 | SILODOSINE ARROW 8 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 66597902 | SILODOSINE TEVA 8 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

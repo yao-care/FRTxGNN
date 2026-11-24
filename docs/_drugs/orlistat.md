@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 561
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ORLISTAT"
 predicted_indications: ["hypervitaminosis"]
 description: "Orlistat : nouvelle indication prédite, Hypervitaminose (hypervitaminosis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -81,10 +81,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 65715632 | XENICAL 120 mg, gélule | Gélule | Non renseignée | Active |
-| 65734134 | ORLISTAT EG 120 mg, gélule | Gélule | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65715632 | XENICAL 120 mg, gélule | Gélule | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 65734134 | ORLISTAT EG 120 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

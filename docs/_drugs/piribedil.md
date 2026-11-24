@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 610
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Piribedil : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (niveau de preuve L5). Indication d'origine : Maladie de Parkinson / syndrome parkinsonien (texte …"
 monitor_inn: "piribedil"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "paralysis agitans, juvenile, of Hunt", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "PLA2G6-associated neurodegeneration"]
@@ -83,10 +83,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62551633 | TRIVASTAL 20 mg, comprimé enrobé (Laboratoires Servier) | Comprimé enrobé | Non renseignée (AMM annulée) |
-| 61598530 | TRIVASTAL 50 mg L.P., comprimé enrobé à libération prolongée (Laboratoires Servier) | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61598530 | TRIVASTAL 50 mg L.P., comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | LES LABORATOIRES SERVIER | Active |
+| 62551633 | TRIVASTAL 20 mg, comprimé enrobé | Comprimé enrobé | LES LABORATOIRES SERVIER | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

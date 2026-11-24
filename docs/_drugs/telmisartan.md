@@ -127,19 +127,35 @@ Les publications retrouvées sont surtout précliniques (modèles murins d'hypox
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67169534 | TELMISARTAN TEVA SANTE 40 mg | comprimé | Non renseignée (AMM active) |
-| 69536527 | TELMISARTAN EG 80 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 62260706 | TELMISARTAN VIATRIS 80 mg | comprimé | Non renseignée (AMM active) |
-| 65179106 | TELMISARTAN BIOGARAN 40 mg | comprimé | Non renseignée (AMM active) |
-| 68369993 | PRITOR 20 mg | comprimé | Non renseignée (AMM abrogée) |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-telmisartan-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67169534 | TELMISARTAN TEVA SANTE 40 mg, comprimé | Comprimé | RATIOPHARM (ALLEMAGNE) | Active |
+| 69536527 | TELMISARTAN EG 80 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62260706 | TELMISARTAN VIATRIS 80 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 65179106 | TELMISARTAN BIOGARAN 40 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 64053720 | MICARDIS 40 mg, comprimé | Comprimé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 67286548 | TELMISARTAN SANDOZ 40 mg, comprimé | Comprimé | SANDOZ | Active |
+| 66102319 | TELMISARTAN CRISTERS 80 mg, comprimé | Comprimé | CRISTERS | Active |
+| 66435195 | TELMISARTAN ZENTIVA 80 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 66328738 | TELMISARTAN SANDOZ 80 mg, comprimé | Comprimé | SANDOZ | Active |
+| 64859537 | TELMISARTAN BIOGARAN 80 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 66219710 | TELMISARTAN ARROW 40 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 68209355 | TELMISARTAN ZYDUS 40 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 65094353 | TELMISARTAN TEVA SANTE 80 mg, comprimé | Comprimé | RATIOPHARM (ALLEMAGNE) | Active |
+| 69394106 | TELMISARTAN EG 40 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66669675 | TELMISARTAN CRISTERS 40 mg, comprimé | Comprimé | CRISTERS | Active |
+| 61885726 | TELMISARTAN ZYDUS 80 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 61492598 | TELMISARTAN ARROW 80 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 68369993 | PRITOR 20 mg, comprimé | Comprimé | BAYER AG (ALLEMAGNE) | Abrogée |
+| 61842988 | PRITOR 80 mg, comprimé | Comprimé | BAYER AG (ALLEMAGNE) | Abrogée |
+| 60560224 | PRITOR 40 mg, comprimé | Comprimé | BAYER AG (ALLEMAGNE) | Abrogée |
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « PRITOR 20 mg / comprimé / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 68369993 (PRITOR 20 mg, comprimé) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM) – fiche 68369993](https://base-donnees-publique.medicaments.gouv.fr/medicament/68369993/extrait).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
 
-<!-- review:end fr-row-20261112-telmisartan-1 -->
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 
@@ -179,7 +195,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 68369993](https://base-donnees-publique.medicaments.gouv.fr/medicament/68369993/extrait) |
+| 2026-11-24 | Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 68369993](https://base-donnees-publique.medicaments.gouv.fr/medicament/68369993/extrait) |
 | 2026-11-15 | « Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart  » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: telmisartan prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=56a72ddf-c2a2-45ce-91b1-1fcfbff52c10) |
 

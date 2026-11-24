@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "BENRALIZUMAB"
 predicted_indications: ["thrombocytopenia due to immune destruction", "dermatitis", "acne keloid", "neonatal dermatomyositis", "amyopathic dermatomyositis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benralizumab : nouvelle indication prédite, Thrombopénie par destruction immunitaire (thrombocytopenia due to immune destruction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les…"
 ---
 
@@ -70,10 +70,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63562134 | FASENRA 30 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée dans les données locales |
-| 63094493 | FASENRA 30 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63562134 | FASENRA 30 mg, solution injectable en seringue préremplie | Solution injectable | ASTRAZENECA AB | Active |
+| 63094493 | FASENRA 30 mg, solution injectable en stylo prérempli | Solution injectable | ASTRAZENECA AB | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

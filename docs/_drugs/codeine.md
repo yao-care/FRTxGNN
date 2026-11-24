@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 195
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "codeine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia", "allergic urticaria"]
 description: "Codeine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -73,15 +73,37 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-19 AMM valides ; le texte d'indication approuvée n'est pas disponible. Les 5 premières sont listées :
+19 AMM valides ; le texte d'indication approuvée n'est pas disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60811833 | PADERYL 19,5 mg, comprimé enrobé | Comprimé enrobé | Non renseignée |
-| 62582924 | PADERYL 0,1 POUR CENT, sirop | Sirop | Non renseignée |
-| 69458587 | PARACETAMOL/CODEINE BIOGARAN 500 mg/30 mg | Comprimé | Non renseignée |
-| 60206154 | PULMOSERUM, solution buvable | Solution buvable | Non renseignée |
-| 66384797 | PARACETAMOL/CODEINE VIATRIS 500 mg/30 mg | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60811833 | PADERYL 19,5 mg, comprimé enrobé | Comprimé enrobé | SUBSTIPHARM | Active |
+| 62582924 | PADERYL 0,1 POUR CENT, sirop | Sirop | SUBSTIPHARM | Active |
+| 69458587 | PARACETAMOL/CODEINE BIOGARAN 500 mg/30 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 60206154 | PULMOSERUM, solution buvable | Solution buvable | LABORATOIRE BAILLY CREAT | Active |
+| 66384797 | PARACETAMOL/CODEINE VIATRIS 500 mg/30 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 64406362 | CODOLIPRANE ADULTES 400 mg/20 mg, comprimé sécable | Comprimé sécable | OPELLA HEALTHCARE FRANCE | Active |
+| 66003374 | DAFALGAN CODEINE, comprimé pelliculé | Comprimé pelliculé | UPSA | Active |
+| 62110311 | PARACETAMOL/CODEINE PIERRE FABRE 300 mg/25 mg, comprimé | Comprimé | PIERRE FABRE MEDICAMENT | Active |
+| 60009573 | PARACETAMOL/CODEINE TEVA 500 mg/30 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 62094992 | KLIPAL 300 mg/25 mg, comprimé | Comprimé | PIERRE FABRE MEDICAMENT | Active |
+| 63283736 | CODEINE-ERYSIMUM MAYOLY SPINDLER SANS SUCRE, sirop | Sirop | LABORATOIRES MAYOLY SPINDLER | Active |
+| 67869942 | KLIPAL 600 mg/50 mg, comprimé | Comprimé | PIERRE FABRE MEDICAMENT | Active |
+| 69592294 | POLERY ADULTES SANS SUCRE, sirop édulcoré à la saccharine sodique et au cyclamate de sodi… | Sirop | PIERRE FABRE MEDICAMENT | Active |
+| 64226827 | CLARADOL CODEINE 500 mg/20 mg, comprimé | Comprimé | TEOFARMA | Active |
+| 61109911 | DAFALGAN CODEINE, comprimé effervescent sécable | Comprimé effervescent(e) sécable | UPSA | Active |
+| 69575220 | POLERY ADULTES, sirop | Sirop | PIERRE FABRE MEDICAMENT | Active |
+| 63755329 | ANTARENE CODEINE 200 mg/30 mg, comprimé pelliculé | Comprimé pelliculé | ELERTE | Active |
+| 60904643 | CODOLIPRANE 500 mg/30 mg, comprimé | Comprimé | OPELLA HEALTHCARE FRANCE | Active |
+| 68457482 | LINDILANE 400 mg/25 mg, comprimé | Comprimé | LABORATOIRES GRUNENTHAL | Active |
+| 69355295 | PARACETAMOL CODEINE BIOGARAN 500 mg/30 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | BIOGARAN | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

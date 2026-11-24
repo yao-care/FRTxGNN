@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 437
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LARONIDASE"
 predicted_indications: ["Sanfilippo syndrome"]
 description: "Laronidase : nouvelle indication prédite, Syndrome de Sanfilippo (Sanfilippo syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -83,9 +83,15 @@ Aucune de ces publications n'étudie directement le syndrome de Sanfilippo. Elle
 
 ## Informations de Marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 66328396 | ALDURAZYME 100 U/ml, solution à diluer pour perfusion (SANOFI, Pays-Bas) | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66328396 | ALDURAZYME 100 U/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANOFI (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La laronidase est commercialisée en France (1 AMM valide).
 

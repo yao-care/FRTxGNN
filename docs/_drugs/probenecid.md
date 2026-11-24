@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 633
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "probenecid"
 predicted_indications: ["hypouricemia, renal", "Lesch-Nyhan syndrome", "hypoxanthine guanine phosphoribosyltransferase partial deficiency"]
 description: "Probenecid : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -87,9 +87,15 @@ Les publications ci-dessous sont les plus pertinentes parmi les 20 retrouvées. 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68335966 | SANTURIL 500 mg, comprimé sécable (LIPOMED, Allemagne) | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68335966 | SANTURIL 500 mg, comprimé sécable | Comprimé sécable | LIPOMED (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

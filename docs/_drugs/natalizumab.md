@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 527
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NATALIZUMAB"
 predicted_indications: ["bronchitis", "parapsoriasis", "psoriasis", "severe nonproliferative diabetic retinopathy", "acute lichenoid pityriasis"]
 description: "Natalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -77,11 +77,17 @@ Le texte de l'indication approuvée n'est pas renseigné.
 
 <!-- review:end fr-lic-20261106-natalizumab-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60779570 | TYRUKO 300 mg (Sandoz) | Solution à diluer pour perfusion | Active |
-| 61863110 | TYSABRI 150 mg (Biogen) | Solution injectable en seringue préremplie | Active |
-| 68722564 | TYSABRI 300 mg (Biogen) | Solution à diluer pour perfusion | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60779570 | TYRUKO 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANDOZ (AUTRICHE) | Active |
+| 61863110 | TYSABRI 150 mg, solution injectable en seringue préremplie | Solution injectable | BIOGEN NETHERLANDS (PAYS-BAS) | Active |
+| 68722564 | TYSABRI 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | BIOGEN NETHERLANDS (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

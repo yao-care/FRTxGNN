@@ -105,13 +105,34 @@ Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont :
 
 <!-- review:end fr-lic-20261106-zonisamide-1 -->
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 64122807 | ZONEGRAN 100 mg (AMDIPHARM) | Gélule | Non renseignée |
-| 63127527 | ZONISAMIDE SANDOZ 25 mg | Gélule | Non renseignée |
-| 62540779 | ZONISAMIDE TEVA 25 mg | Gélule | Non renseignée |
-| 61247321 | ZONISAMIDE ARROW 50 mg | Gélule | Non renseignée |
-| 69552780 | ZONISAMIDE NEURAXPHARM 200 mg | Comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64122807 | ZONEGRAN 100 mg, gélule | Gélule | AMDIPHARM | Active |
+| 63127527 | ZONISAMIDE SANDOZ 25 mg, gélule | Gélule | SANDOZ | Active |
+| 61247321 | ZONISAMIDE ARROW 50 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 69552780 | ZONISAMIDE NEURAXPHARM 200 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 65968728 | ZONISAMIDE NEURAXPHARM 50 mg, comprimé sécable | Comprimé | NEURAXPHARM FRANCE | Active |
+| 61088036 | ZONEGRAN 25 mg, gélule | Gélule | AMDIPHARM | Active |
+| 69287499 | ZONEGRAN 50 mg, gélule | Gélule | AMDIPHARM | Active |
+| 61436457 | ZONISAMIDE VIATRIS 100 mg, gélule | Gélule | VIATRIS (IRLANDE) | Active |
+| 68467163 | ZONISAMIDE NEURAXPHARM 100 mg, comprimésécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 64467657 | ZONISAMIDE SANDOZ 50 mg, gélule | Gélule | SANDOZ | Active |
+| 64784675 | ZONISAMIDE VIATRIS 50 mg, gélule | Gélule | VIATRIS (IRLANDE) | Active |
+| 64827518 | ZONISAMIDE ARROW 25 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 62741554 | ZONISAMIDE SANDOZ 100 mg, gélule | Gélule | SANDOZ | Active |
+| 65362239 | ZONISAMIDE ARROW 100 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 61207572 | ZONISAMIDE NEURAXPHARM 300 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 65732820 | ZONISAMIDE NEURAXPHARM 25 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 64892042 | ZONISAMIDE VIATRIS 25 mg, gélule | Gélule | VIATRIS (IRLANDE) | Active |
+| 62540779 | ZONISAMIDE TEVA 25 mg, gélule | Gélule | TEVA SANTE | Abrogée |
+| 62096228 | ZONISAMIDE TEVA 100 mg, gélule | Gélule | TEVA SANTE | Abrogée |
+| 65110708 | ZONISAMIDE TEVA 50 mg, gélule | Gélule | TEVA SANTE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

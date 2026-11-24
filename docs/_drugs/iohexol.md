@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 407
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iohexol : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (produit de contraste radiologi…"
 monitor_inn: "IOHEXOL"
 predicted_indications: ["insomnia (disease)", "anxiety"]
@@ -97,12 +97,18 @@ Aucune littérature associée à l'insomnie disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65106581 | OMNIPAQUE 300 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
-| 63688752 | OMNIPAQUE 180 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
-| 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
-| 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65106581 | OMNIPAQUE 300 mg d'I/mL, solution injectable | Solution injectable | GE HEALTHCARE | Active |
+| 63688752 | OMNIPAQUE 180 mg d'I/mL, solution injectable | Solution injectable | GE HEALTHCARE | Active |
+| 66892062 | OMNIPAQUE 240 mg d'I/mL, solution injectable | Solution injectable | GE HEALTHCARE | Active |
+| 67846776 | OMNIPAQUE 350 mg d'I/mL, solution injectable | Solution injectable | GE HEALTHCARE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

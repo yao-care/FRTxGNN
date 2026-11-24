@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "benzylpenicillin"
 predicted_indications: ["pericoronitis", "gingival recession", "canker sore", "ulcerative stomatitis", "denture stomatitis", "chemotherapy-induced oral mucositis", "leukoplakia of gingiva"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Benzylpenicillin : nouvelle indication prédite, Péricoronarite (pericoronitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60243544 | PENICILLINE G PANPHARMA 1 000 000 UI, poudre pour usage parentéral | Poudre pour usage parentéral | Non renseignée |
-| 65922570 | PENICILLINE G PANPHARMA 5 000 000 UI, poudre pour usage parentéral | Poudre pour usage parentéral | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60243544 | PENICILLINE G PANPHARMA 1 000 000 UI, poudre pour usage parentéral | Poudre pour usage parentéral | PANPHARMA | Active |
+| 65922570 | PENICILLINE G PANPHARMA 5 000 000 UI, poudre pour usage parentéral | Poudre pour usage parentéral | PANPHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

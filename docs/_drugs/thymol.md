@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 756
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Thymol : nouvelle indication prédite, Anévrisme du septum interventriculaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées pour ce rapport"
 monitor_inn: "THYMOL"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "orofacial clefting syndrome", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
@@ -72,11 +72,17 @@ Pour information, des publications sur le thymol existent mais concernent d'autr
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64424727 | PERUBORE INHALATION | Capsule pour inhalation par vapeur | Non renseignée (AMM active) |
-| 64072763 | VICKS VAPORUB | Pommade | Non renseignée (AMM active) |
-| 61989408 | GLYCO-THYMOLINE 55 | Solution buccale | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64424727 | PERUBORE INHALATION, capsule pour inhalation par vapeur | Capsule pour inhalation par vapeur | LABORATOIRES MAYOLY SPINDLER | Active |
+| 64072763 | VICKS VAPORUB, pommade | Pommade | LABORATOIRE VICKS | Active |
+| 61989408 | GLYCO-THYMOLINE 55, solution buccale | Solution | SERP | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

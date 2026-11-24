@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 311
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "everolimus"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "dermatofibrosarcoma protuberans", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "prostate embryonal rhabdomyosarcoma"]
 description: "Everolimus : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
@@ -79,15 +79,37 @@ Cette hypothèse reste toutefois à confirmer : le seul soutien clinique est un 
 
 ## Informations de Marché en France
 
-Les textes d'indication approuvée ne sont pas renseignés. Principales AMM (5 sur 20) :
+Les textes d'indication approuvée ne sont pas renseignés.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 64444441 | EVEROLIMUS SANDOZ 10 mg, comprimé | Comprimé | Active |
-| 64201368 | AFINITOR 10 mg, comprimé | Comprimé | Active |
-| 66520037 | VOTUBIA 10 mg, comprimé | Comprimé | Active |
-| 60658711 | CERTICAN 0,5 mg, comprimé | Comprimé | Active |
-| 64945242 | VOTUBIA 3 mg, comprimé dispersible | Comprimé dispersible | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64444441 | EVEROLIMUS SANDOZ 10 mg, comprimé | Comprimé | SANDOZ | Active |
+| 65605189 | EVEROLIMUS ZENTIVA 5 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 66163507 | EVEROLIMUS TEVA 10 mg comprimé | Comprimé | TEVA SANTE | Active |
+| 66873927 | EVEROLIMUS VIATRIS 2,5 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 65419708 | EVEROLIMUS ARROW 2,5 mg, comprimé | Comprimé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 64945242 | VOTUBIA 3 mg, comprimé dispersible | Comprimé dispersible | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 64201368 | AFINITOR 10 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60658711 | CERTICAN 0,5 mg, comprimé | Comprimé | NOVARTIS PHARMA | Active |
+| 61063232 | VOTUBIA 2,5 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 66520037 | VOTUBIA 10 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60298932 | CERTICAN 0,75 mg, comprimé | Comprimé | NOVARTIS PHARMA | Active |
+| 64299095 | CERTICAN 0,25 mg, comprimé | Comprimé | NOVARTIS PHARMA | Active |
+| 69772164 | EVEROLIMUS BIOGARAN 5 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 65218477 | EVEROLIMUS HCS 5 mg, comprimé | Comprimé | HCS (BELGIQUE) | Active |
+| 63177804 | CERTICAN 0,1 mg, comprimé dipersible | Comprimé dispersible | NOVARTIS PHARMA | Active |
+| 63445939 | EVEROLIMUS BIOGARAN 2,5 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 67489178 | EVEROLIMUS EG 10 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63398304 | EVEROLIMUS VIATRIS 10 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 60223417 | VOTUBIA 5 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 66603725 | EVEROLIMUS EG 2,5 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

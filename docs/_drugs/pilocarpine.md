@@ -71,9 +71,16 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour la Pilocarpin
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 66997501 | PILOCARPINE (CHLORHYDRATE DE) | collyre en solution | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66997501 | ISOPTO PILOCARPINE 2 POUR CENT, collyre | Collyre en solution | NOVARTIS PHARMA | Active |
+| 67995282 | SALAGEN 5 mg, comprimé enrobé | Comprimé enrobé | MERUS LABS LUXCO II (LUXEMBOURG) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

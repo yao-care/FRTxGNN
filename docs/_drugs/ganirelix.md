@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 356
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ganirelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial male-limited precocious puberty", "persistent fetal circulation syndrome", "aromatase excess syndrome", "centra precocious puberty 1", "familial isolated trichomegaly"]
 description: "Ganirelix : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée da…"
@@ -76,12 +76,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61125958 | GANIRELIX EG 0,25 mg/0,5 mL, solution injectable en seringue préremplie (active) | Solution injectable | Non renseignée |
-| 62225235 | ORGALUTRAN 0,25 mg/0,5 mL, solution injectable (active) | Solution injectable | Non renseignée |
-| 61462270 | FYREMADEL 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie (active) | Solution injectable | Non renseignée |
-| 62428488 | GANIRELIX THERAMEX 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie (active) | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61125958 | GANIRELIX EG 0,25 mg/0,5 mL, solution injectable en seringue préremplie | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62225235 | ORGALUTRAN 0,25 mg/0,5 ml, solution injectable | Solution injectable | ORGANON (HOLLANDE) | Active |
+| 61462270 | FYREMADEL 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie | Solution injectable | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 62428488 | GANIRELIX THERAMEX 0,25 mg/0,5 mL, solution injectable en seringue pré-remplie | Solution injectable | THERAMEX IRELAND (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 706
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "simvastatin"
 predicted_indications: ["brain stem infarction", "cholesterol-ester transfer protein deficiency", "HIV infectious disease", "ABri amyloidosis", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Simvastatin : nouvelle indication prédite, Brain stem infarction (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -107,13 +107,35 @@ Les essais ci-dessous sont classés par pertinence. Dans la majorité des cas, l
 
 Le texte d'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67364616 | SIMVASTATINE BIOGARAN 10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69094525 | SIMVASTATINE BIOGARAN 20 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 66399710 | SIMVASTATINE EG 40 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64607301 | ZOCOR 40 mg (Organon France) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 67037301 | ZOCOR 20 mg (Organon France) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67364616 | SIMVASTATINE BIOGARAN 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69094525 | SIMVASTATINE BIOGARAN 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 66399710 | SIMVASTATINE EG 40 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69795857 | SIMVASTATINE ARROW LAB 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64607301 | ZOCOR 40 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON FRANCE | Active |
+| 69646557 | SIMVASTATINE CRISTERS PHARMA 40 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Active |
+| 60834807 | SIMVASTATINE ACCORD HEALTHCARE 40 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 60583269 | SIMVASTATINE ALMUS 40 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 67037301 | ZOCOR 20 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON FRANCE | Active |
+| 61275694 | SIMVASTATINE SANDOZ 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 62039768 | SIMVASTATINE ALMUS 20 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 65475176 | SIMVASTATINE EG 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61141019 | SIMVASTATINE EVOLUGEN 40 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 65080738 | SIMVASTATINE ZENTIVA 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 61411685 | SIMVASTATINE TEVA 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 61510021 | SIMVASTATINE ZYDUS FRANCE 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 69095463 | SIMVASTATINE CRISTERS 10 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Active |
+| 66351224 | SIMVASTATINE ZENTIVA 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 67711814 | SIMVASTATINE SANDOZ 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 67709496 | SIMVASTATINE TEVA 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

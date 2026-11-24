@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 800
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ustekinumab"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "acne keloid", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Ustekinumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
@@ -74,13 +74,35 @@ Il convient aussi de noter que le score élevé du modèle TxGNN (apprentissage 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67522169 | STELARA 45 mg, solution injectable | Solution injectable | Non disponible (AMM active) |
-| 65283311 | STELARA 45 mg, solution injectable en seringue préremplie | Solution injectable | Non disponible (AMM active) |
-| 69661655 | STELARA 90 mg, solution injectable en stylo prérempli | Solution injectable | Non disponible (AMM active) |
-| 66170398 | STELARA 90 mg, solution injectable en seringue préremplie | Solution injectable | Non disponible (AMM active) |
-| 61145149 | OTULFI 130 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67522169 | STELARA 45 mg, solution injectable | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 61145149 | OTULFI 130 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 64226115 | WEZENLA 45 mg, solution injectable en stylo prérempli | Solution injectable | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 68430695 | WEZENLA 45 mg, solution injectable | Solution injectable | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 65283311 | STELARA 45 mg, solution injectable en seringue préremplie | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 69661655 | STELARA 90 mg, solution injectable en stylo prérempli | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 66170398 | STELARA 90 mg, solution injectable en seringue préremplie | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 60926807 | WEZENLA 90 mg, solution injectable en seringue préremplie | Solution injectable | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 62157777 | STEQEYMA 90 mg, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 60611409 | UZPRUVO 130 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | STADA ARZNEIMITTEL AG | Active |
+| 66346483 | OTULFI 90 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 63596332 | PYZCHIVA 90 mg, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 65536437 | IMULDOSA 90 mg, solution injectable en seringue préremplie | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67693597 | YESINTEK 130 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 62800604 | IMULDOSA 45 mg, solution injectable en seringue préremplie | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61082122 | WEZENLA 45 mg, solution injectable en seringue préremplie | Solution injectable | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 60101438 | PYZCHIVA 45 mg, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 64586679 | WEZENLA 90 mg, solution injectable en stylo prérempli | Solution injectable | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 62125605 | OTULFI 45 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 62685842 | UZPRUVO 45 mg, solution injectable en seringue préremplie | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma).
 

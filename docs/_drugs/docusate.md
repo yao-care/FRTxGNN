@@ -71,9 +71,16 @@ Une seconde prédiction du modèle, l'anémie mégaloblastique constitutionnelle
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69281980 | NORGALAX, gel rectal en récipient unidose (ESSENTIAL PHARMA, Malte) | Gel (voie rectale/topique) | Non renseignée — AMM active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69281980 | NORGALAX, gel rectal en récipient unidose | Gel | ESSENTIAL PHARMA (M) (MALTE) | Active |
+| 68486676 | JAMYLENE 50 mg, comprimé enrobé | Comprimé enrobé | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

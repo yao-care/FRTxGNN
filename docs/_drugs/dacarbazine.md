@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 208
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DACARBAZINE"
 predicted_indications: ["upper aerodigestive tract neoplasm"]
 description: "Dacarbazine : nouvelle indication prédite, Tumeur des voies aérodigestives supérieures (upper aerodigestive tract neoplasm) (niveau de preuve L5). Indication d'origine : Non renseignée dans les donné…"
@@ -84,11 +84,17 @@ Les publications ci-dessous sont les plus pertinentes parmi celles recueillies. 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64645120 | DETICENE 100 mg | Poudre et solvant pour solution pour perfusion | Non renseignée (AMM active) |
-| 67366695 | DACARBAZINE LIPOMED 500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 60054376 | DACARBAZINE LIPOMED 1000 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64645120 | DETICENE 100 mg, poudre et solvant pour solution pour perfusion | Poudre et solvant pour solution pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 67366695 | DACARBAZINE LIPOMED 500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LIPOMED (ALLEMAGNE) | Active |
+| 60054376 | DACARBAZINE LIPOMED 1000 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LIPOMED (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

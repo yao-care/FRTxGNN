@@ -71,12 +71,20 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67601314 | PREVYMIS 480 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 67334530 | PREVYMIS 240 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 62944394 | PREVYMIS 480 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
-| 64591854 | PREVYMIS 240 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67601314 | PREVYMIS 480 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 67334530 | PREVYMIS 240 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 62944394 | PREVYMIS 480 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 64591854 | PREVYMIS 240 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 66597304 | PREVYMIS 20 mg, granulés en sachet | Granulés | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 67216514 | PREVYMIS 120 mg, granulés en sachet | Granulés | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

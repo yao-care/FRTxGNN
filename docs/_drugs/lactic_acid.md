@@ -79,10 +79,17 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 62740203 | LACTICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée | Active |
-| 61120110 | LACTICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62740203 | LACTICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 61120110 | LACTICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 67698943 | DIABENE, solution buvable en gouttes | Solution buvable en gouttes | LEHNING | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

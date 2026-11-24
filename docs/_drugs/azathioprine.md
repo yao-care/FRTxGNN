@@ -73,13 +73,23 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60211183 | AZATHIOPRINE TEVA 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 63935487 | IMUREL 50 mg, poudre pour solution injectable (IV) | Poudre pour solution injectable | Non renseignée |
-| 63479140 | AZATHIOPRINE VIATRIS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
-| 66685747 | IMUREL 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 64841852 | IMUREL 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60211183 | AZATHIOPRINE TEVA 50 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63935487 | IMUREL 50 mg, poudre pour solution injectable (IV) | Poudre pour solution injectable | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 63479140 | AZATHIOPRINE VIATRIS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 66685747 | IMUREL 50 mg, comprimé pelliculé | Comprimé pelliculé | BB FARMA (ITALIE) | Active |
+| 64841852 | IMUREL 25 mg, comprimé pelliculé | Comprimé pelliculé | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 67197964 | JAYEMPI 10 mg/mL, suspension buvable | Suspension buvable | LIPOMED (ALLEMAGNE) | Active |
+| 64204250 | IMUREL 50 mg, comprimé pelliculé | Comprimé pelliculé | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 62824288 | AZATHIOPRINE EG 50 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65890998 | IMUREL 50 mg, comprimé pelliculé | Comprimé pelliculé | DIFARMED (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Seules cinq AMM sur les neuf recensées sont présentées ici.
 

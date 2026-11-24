@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 73
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Articaine : nouvelle indication prédite, Goutte (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (anesthésie dentaire d'après…"
 monitor_inn: "articaine"
 predicted_indications: ["gout", "exostosis", "allergic asthma", "intrinsic asthma"]
@@ -78,10 +78,16 @@ Aucune littérature associée disponible actuellement pour la goutte.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69602201 | ALPHACAINE SP, solution injectable à usage dentaire | Solution injectable pour usage dentaire | Non renseignée (AMM active) |
-| 66862795 | ALPHACAINE N, solution injectable à usage dentaire | Solution injectable pour usage dentaire | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69602201 | ALPHACAINE SP, solution injectable à usage dentaire | Solution injectable pour usage dentaire | DENTSPLY SIRONA FRANCE | Active |
+| 66862795 | ALPHACAINE N, solution injectable à usage dentaire | Solution injectable pour usage dentaire | DENTSPLY SIRONA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

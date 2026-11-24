@@ -3,7 +3,7 @@ layout: default
 title: Loprazolam
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 462
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Loprazolam : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,15 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour Loprazolam, lo
 
 ## Informations de Marche en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 69071035 | LOPRAZOLAM (MÉSILATE DE) MONOHYDRATÉ | comprimé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69071035 | HAVLANE, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

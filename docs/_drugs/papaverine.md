@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 578
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "papaverine"
 predicted_indications: ["ischemic disease", "intracranial arteriosclerosis", "non-inflammatory vasculopathy", "vascular ectasia", "venous thromboembolism", "fibrocartilaginous embolism", "vascular insufficiency disorder", "angiodysplasia", "Raynaud disease", "Monckeberg arteriosclerosis"]
 description: "Papaverine : nouvelle indication prédite, Maladie ischémique (ischemic disease) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -85,9 +85,15 @@ Cette cohérence mécanistique est réelle, mais elle reste théorique. La litt�
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61774341 | ACTICARBINE, comprimé enrobé (ELERTE) | Comprimé enrobé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61774341 | ACTICARBINE, comprimé enrobé | Comprimé enrobé | ELERTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

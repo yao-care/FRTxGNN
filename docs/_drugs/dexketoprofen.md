@@ -96,13 +96,20 @@ L'étape de décision est limitée à S2 car aucune indication autorisée et act
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64613432 | KETESSE 25 mg, granulés pour solution buvable | Granulés pour solution buvable | Non renseignée (AMM active) |
-| 63929235 | KETESSE 25 mg, solution buvable en sachet | Solution buvable | Non renseignée (AMM active) |
-| 62128284 | KETESSE 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60205458 | KETESSE 50 mg/2 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
-| 60162494 | SKUDEXUM 75 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64613432 | KETESSE 25 mg, granulés pour solution buvable | Granulés pour solution buvable | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 63929235 | KETESSE 25 mg, solution buvable en sachet | Solution buvable | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 62128284 | KETESSE 25 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 60205458 | KETESSE 50 mg/2 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 60162494 | SKUDEXUM 75 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 63322961 | SKUDEXUM 75 mg/25 mg, granulés pour solution buvable en sachet | Granulés pour solution buvable | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

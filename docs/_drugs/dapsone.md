@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 214
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DAPSONE"
 predicted_indications: ["pneumocystosis"]
 description: "Dapsone : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L1). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -94,9 +94,15 @@ Le score élevé de TxGNN (0,9973) est donc compatible avec ce mécanisme connu.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67654911 | DISULONE 100 mg/200 mg (SANOFI WINTHROP INDUSTRIE) ; AMM active | Comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67654911 | DISULONE 100 mg/200 mg, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 178
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "CLIDINIUM"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "gastroduodenitis", "myasthenia gravis with thymus hyperplasia", "myasthenia, limb-girdle, autoimmune", "neonatal myasthenia gravis", "autoimmune disease of peripheral nervous system", "disease of receptor activity", "large intestine disease"]
 description: "Clidinium : nouvelle indication prédite, Syndrome de la queue de cheval (rang 1) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -91,10 +91,16 @@ La majorité de ces données concerne des associations avec le chlordiazépoxide
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66803576 | LIBRAX, comprimé enrobé (DIFARMED, Espagne) | Comprimé enrobé | Non renseignée (AMM active) |
-| 67627992 | LIBRAX, comprimé enrobé (VIATRIS MEDICAL) | Comprimé enrobé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66803576 | LIBRAX, comprimé enrobé | Comprimé enrobé | DIFARMED (ESPAGNE) | Active |
+| 67627992 | LIBRAX, comprimé enrobé | Comprimé enrobé | VIATRIS MEDICAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

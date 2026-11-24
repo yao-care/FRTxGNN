@@ -95,13 +95,32 @@ Les 5 premières sont présentées ci-dessous ; le texte d'indication n'est pas 
 
 <!-- review:end fr-lic-20261106-mometasone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63609769 | MOMETASONE SANDOZ 50 µg/dose | Suspension pour pulvérisation nasale | Non renseignée |
-| 69337532 | ASMANEX TWISTHALER 200 µg/dose | Poudre pour inhalation | Non renseignée |
-| 63865252 | MOMETASONE BIOGARAN 50 µg/dose | Suspension pour pulvérisation nasale | Non renseignée |
-| 66865026 | MOMETASONE EG 50 µg/dose | Suspension pour pulvérisation nasale | Non renseignée |
-| 68906169 | MOMETASONE TEVA 50 µg/dose | Suspension pour pulvérisation nasale | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63609769 | MOMETASONE SANDOZ 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | SANDOZ | Active |
+| 69337532 | ASMANEX TWISTHALER 200 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | ORGANON FRANCE | Active |
+| 63865252 | MOMETASONE BIOGARAN 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | BIOGARAN | Active |
+| 66865026 | MOMETASONE EG 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68906169 | MOMETASONE TEVA 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | TEVA SANTE | Active |
+| 63491598 | MOMETASONE ZENTIVA 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | ZENTIVA FRANCE | Active |
+| 69161828 | MOMETASONE VIATRIS 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | VIATRIS SANTE | Active |
+| 63566855 | NASONEX 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | ORGANON FRANCE | Active |
+| 60268519 | ASMANEX TWISTHALER 400 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | ORGANON FRANCE | Active |
+| 67751851 | MOMETASONE ARROW 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | ARROW GENERIQUES | Active |
+| 60877018 | MOMETASONE SUBSTIPHARM 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | SUBSTIPHARM | Active |
+| 61100467 | MOMETASONE CRISTERS 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | CRISTERS | Active |
+| 64475839 | RYALTRIS 25 microgrammes/600 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | GLENMARK PHARMACEUTICALS (REPUBLIQUE TCHEQUE) | Active |
+| 67100189 | ATECTURA BREEZHALER 125 microgrammes/260 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 64670426 | ATECTURA BREEZHALER 125 microgrammes/127,5 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 65632154 | ATECTURA BREEZHALER 125 microgrammes/62,5 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61300756 | ENERZAIR BREEZHALER 114 microgrammes/46 microgrammes/136 microgrammes, poudre pour inhala… | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 67136694 | MOMETASONE ALTER 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | LABORATOIRES ALTER | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 280
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "empagliflozin"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia"]
 description: "Empagliflozin : nouvelle indication prédite, Syndrome de la personne raide classique (classic stiff person syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
@@ -72,12 +72,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69963066 | JARDIANCE 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 67947145 | JARDIANCE 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64866745 | SYNJARDY 12,5 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60901946 | SYNJARDY 5 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69963066 | JARDIANCE 25 mg, comprimé pelliculé | Comprimé pelliculé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 67947145 | JARDIANCE 10 mg, comprimé pelliculé | Comprimé pelliculé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 64866745 | SYNJARDY 12,5 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 60901946 | SYNJARDY 5 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

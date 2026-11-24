@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 519
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mycophenolate mofetil"
 predicted_indications: ["HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "bone Paget disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "multiple sclerosis", "hemosiderosis", "Heiner syndrome", "African iron overload", "neonatal hemochromatosis"]
 description: "Mycophenolate Mofetil : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L2). En France, AMM dans la BDPM : 13 (valides : 13)"
@@ -98,15 +98,29 @@ Ce raisonnement reste toutefois hypothétique. Le bénéfice virologique n'est p
 
 ## Informations de Marché en France
 
-Le texte d'indication n'est pas renseigné pour ces AMM. Les 5 premières sont listées ci-dessous.
+Le texte d'indication n'est pas renseigné pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67572325 | MYFENAX 250 mg, gélule | Gélule | Non renseignée |
-| 66950569 | MYCOPHENOLATE MOFETIL VIATRIS 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 61673680 | MYFENAX 500 mg, comprimé pelliculé | Comprimé | Non renseignée |
-| 64980414 | MYCOPHENOLATE MOFETIL ARROW 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 63101055 | MYCOPHENOLATE MOFETIL BIOGARAN 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67572325 | MYFENAX 250 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 66950569 | MYCOPHENOLATE MOFETIL VIATRIS 500 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61673680 | MYFENAX 500 mg, comprimé pelliculé | Comprimé | TEVA (PAYS-BAS) | Active |
+| 64980414 | MYCOPHENOLATE MOFETIL ARROW 500 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 63101055 | MYCOPHENOLATE MOFETIL BIOGARAN 500 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62173094 | CELLCEPT 500 mg, comprimé pelliculé | Comprimé pelliculé | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 64833033 | MYCOPHENOLATE MOFETIL BIOGARAN 250 mg, gélule | Gélule | BIOGARAN | Active |
+| 63479642 | CELLCEPT 250 mg, gélule | Gélule | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 69143068 | MYCOPHENOLATE MOFETIL TEVA 500 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 63352659 | MYCOPHENOLATE MOFETIL TEVA 250 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 65743852 | MYCOPHENOLATE MOFETIL SANDOZ 250 mg, gélule | Gélule | SANDOZ | Active |
+| 69594306 | CELLCEPT 1 g/5 mL, poudre pour suspension buvable | Poudre pour suspension buvable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 67086615 | MYCOPHENOLATE MOFETIL SANDOZ 500 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

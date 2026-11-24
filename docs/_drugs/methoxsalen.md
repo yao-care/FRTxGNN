@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 488
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methoxsalen : nouvelle indication prédite, Réticulose pagétoïde localisée (niveau de preuve L5). Indication d'origine : Lymphome cutané primitif à cellules T (non hodgkinien)"
 monitor_inn: "methoxsalen"
 predicted_indications: ["localized pagetoid reticulosis", "neoplasm of mature B-cells", "small intestinal Burkitt lymphoma", "thyroid gland mucosa-associated lymphoid tissue lymphoma", "small intestinal mucosa-associated lymphoid tissue lymphoma", "breast mucosa-associated lymphoid tissue lymphoma", "tonsillar lymphoma", "vulvar inverted follicular keratosis"]
@@ -86,13 +86,19 @@ Aucune littérature associée disponible actuellement pour la réticulose pagét
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 67527650 | MELADININE 0,75 POUR CENT, solution pour application locale | Solution pour application | Non renseignée | Active |
-| 60914559 | MELADININE 0,1 POUR CENT, solution pour application locale | Solution pour application | Non renseignée | Active |
-| 65406290 | MÉTHOXSALÈNE MACOPHARMA 20 µg/mL, solution pour la modification de la fraction sanguine | Solution | Non renseignée | Active |
-| 63866137 | UVADEX 20 µg/mL, solution pour la modification de la fraction sanguine | Solution | Non renseignée | Active |
-| 69898864 | MELADININE 10 mg, comprimé | Comprimé | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67527650 | MELADININE 0,75 POUR CENT, solution pour application locale | Solution pour application | MITEM PHARMA | Active |
+| 60914559 | MELADININE 0,1 POUR CENT, solution pour application locale | Solution pour application | MITEM PHARMA | Active |
+| 65406290 | METHOXSALENE MACOPHARMA 20 microgrammes/mL, solution pour la modification de la fraction… | Solution | MACO PHARMA | Active |
+| 63866137 | UVADEX 20 microgrammes/ml, solution pour la modification de la fraction sanguine | Solution | THERAKOS EUROPE LIMITED (IRLANDE) | Active |
+| 69898864 | MELADININE 10 mg, comprimé | Comprimé | MITEM PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

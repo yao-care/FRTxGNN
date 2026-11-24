@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 469
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lumacaftor : nouvelle indication prédite, Lèpre (niveau de preuve L5). Indication d'origine : Mucoviscidose (fibrose kystique)"
 monitor_inn: "LUMACAFTOR"
 predicted_indications: ["leprosy"]
@@ -79,13 +79,19 @@ Le texte des indications approuvées n'est pas disponible.
 
 <!-- review:end fr-lic-20261106-lumacaftor-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66352529 | ORKAMBI 200 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | Active |
-| 66209488 | ORKAMBI 150 mg/188 mg, granulés en sachet | Granulés | Active |
-| 61962699 | ORKAMBI 100 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | Active |
-| 65639871 | ORKAMBI 100 mg/125 mg, granulés en sachet | Granulés | Active |
-| 64733894 | ORKAMBI 75 mg/94 mg, granulés en sachet | Granulés | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66352529 | ORKAMBI 200 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 66209488 | ORKAMBI 150 mg/188 mg, granulés en sachet | Granulés | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 61962699 | ORKAMBI 100 mg/125 mg, comprimé pelliculé | Comprimé pelliculé | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 65639871 | ORKAMBI 100 mg/125 mg, granulés en sachet | Granulés | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 64733894 | ORKAMBI 75 mg/94 mg, granulés en sachet | Granulés | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

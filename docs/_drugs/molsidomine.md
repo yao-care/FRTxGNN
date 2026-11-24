@@ -100,19 +100,23 @@ Pour les autres prédictions (alopécie, hypotrichoses, syndromes du défilé th
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62439495 | MOLSIDOMINE EG 2 mg | Comprimé sécable | Non précisée (AMM active) |
-| 60740076 | MOLSIDOMINE ARROW 2 mg | Comprimé sécable | Non précisée (AMM archivée) |
-| 63967289 | MOLSIDOMINE ARROW 4 mg | Comprimé sécable | Non précisée (AMM active) |
-| 61544116 | MOLSIDOMINE EG 4 mg | Comprimé | Non précisée (AMM active) |
-| 62011103 | MOLSIDOMINE BIOGARAN 2 mg | Comprimé sécable | Non précisée (AMM active) |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-molsidomine-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62439495 | MOLSIDOMINE EG 2 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63967289 | MOLSIDOMINE ARROW 4 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 61544116 | MOLSIDOMINE EG 4 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62011103 | MOLSIDOMINE BIOGARAN 2 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 65707219 | MOLSIDOMINE BIOGARAN 4 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 67646277 | CORVASAL 4 mg, comprimé | Comprimé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 68131878 | CORVASAL 2 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 60740076 | MOLSIDOMINE ARROW 2 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Archivée |
+| 64674403 | MOLSIDOMINE MYLAN 4 mg, comprimé sécable | Comprimé sécable | MYLAN SAS | Abrogée |
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « MOLSIDOMINE ARROW 2 mg / Comprimé sécable / Non précisée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg, comprimé sécable) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-molsidomine-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -160,7 +164,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM (réglementaires, commerciales ou de sécurité) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-24 | Supprimé : « et les 8 AMM françaises (sur 8) sont valides » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait) |
-| 2026-11-24 | Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait) |
+| 2026-11-24 | Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 60740076](https://base-donnees-publique.medicaments.gouv.fr/medicament/60740076/extrait) |
 
 <!-- review:end log -->
 

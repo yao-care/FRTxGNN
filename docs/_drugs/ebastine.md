@@ -72,15 +72,32 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont listées ci-dessous.
+Le texte des indications approuvées n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 62338553 | EBASTINE ARROW 10 mg | Comprimé pelliculé | Active |
-| 64894972 | EBASTINE BIOGARAN 10 mg | Comprimé orodispersible | Active |
-| 69272860 | EBASTINE ZENTIVA 10 mg | Comprimé pelliculé | Active |
-| 63385125 | EBASTINE ARROW LAB 10 mg | Comprimé orodispersible | Active |
-| 61147189 | EBASTINE CRISTERS 10 mg | Comprimé orodispersible | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62338553 | EBASTINE ARROW 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64894972 | EBASTINE BIOGARAN 10 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 69272860 | EBASTINE ZENTIVA 10 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63385125 | EBASTINE ARROW LAB 10 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Active |
+| 61147189 | EBASTINE CRISTERS 10 mg, comprimé orodispersible | Comprimé orodispersible | CRISTERS | Active |
+| 67007518 | EBASTINE EG 10 mg, comprimé orodispersible | Comprimé orodispersible | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62500165 | EBASTINE ZYDUS 10 mg, comprimé orodispersible | Comprimé orodispersible | ZYDUS FRANCE | Active |
+| 66522013 | EBASTINE VIATRIS 10 mg comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 63951694 | KESTIN 10 mg, comprimé pelliculé | Comprimé pelliculé | ALMIRALL | Active |
+| 61410569 | EBASTINE TEVA 10 mg, comprimé orodispersible | Comprimé orodispersible | TEVA SANTE | Active |
+| 63368115 | EBASTINE BIOGARAN 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61354444 | EBASTINE SANDOZ 10 mg, comprimé orodispersible | Comprimé orodispersible | SANDOZ | Active |
+| 64579019 | KESTINLYO 10 mg, lyophilisat oral | Lyophilisat | ALMIRALL | Active |
+| 62199609 | EBASTINE ZENTIVA 10 mg, comprimé orodispersible | Comprimé orodispersible | ZENTIVA FRANCE | Active |
+| 60582092 | EBASTINE VIATRIS 10 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 64828463 | EBASTINE ARROW 10 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

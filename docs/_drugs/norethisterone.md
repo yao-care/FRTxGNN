@@ -54,13 +54,19 @@ Le texte des indications approuvées n'est pas renseigné.
 
 <!-- review:end fr-lic-20261106-norethisterone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68216773 | KLIOGEST, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 68778431 | NOVOFEMME, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 62210849 | ACTIVELLE, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 64725221 | TRISEQUENS, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 64049405 | RYEQO 40 mg/1 mg/0,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68216773 | KLIOGEST, comprimé pelliculé | Comprimé pelliculé | NOVO NORDISK | Active |
+| 62210849 | ACTIVELLE, comprimé pelliculé | Comprimé pelliculé | NOVO NORDISK | Active |
+| 64049405 | RYEQO 40 mg/1 mg/0,5 mg, comprimé pelliculé | Comprimé pelliculé | GEDEON RICHTER | Active |
+| 68778431 | NOVOFEMME, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | NOVO NORDISK | Archivée |
+| 64725221 | TRISEQUENS, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé et comprimé pellic… | NOVO NORDISK | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

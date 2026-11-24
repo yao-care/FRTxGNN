@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 549
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nystatin"
 predicted_indications: ["disease of orbital region", "disease of orbital part of eye adnexa", "cystic teratoma", "spinal cord dermoid cyst", "postmenopausal atrophic vaginitis", "biotin metabolic disease", "vulvitis", "commissural lip fistula", "osteoradionecrosis of the mandible"]
 description: "Nystatin : nouvelle indication prédite, Maladie de la région orbitaire (disease of orbital region) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -74,13 +74,19 @@ Aucune littérature associée disponible actuellement.
 
 La nystatine est commercialisée en France. Cinq autorisations de mise sur le marché sont valides.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62250594 | MYCOSTATINE 100 000 UI/ml, suspension buvable | Suspension buvable | Non renseignée |
-| 66085108 | POLYGYNAX, capsule vaginale | Capsule | Non renseignée |
-| 68739115 | POLYGYNAX VIRGO, capsule vaginale | Capsule | Non renseignée |
-| 68802779 | TERGYNAN, comprimé vaginal | Comprimé | Non renseignée |
-| 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire | Poudre et solvant pour suspension pour instillation | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62250594 | MYCOSTATINE 100 000 UI/ml, suspension buvable | Suspension buvable | SUBSTIPHARM | Active |
+| 66085108 | POLYGYNAX, capsule vaginale | Capsule | INNOTECH INTERNATIONAL | Active |
+| 68739115 | POLYGYNAX VIRGO, capsule vaginale | Capsule | INNOTECH INTERNATIONAL | Active |
+| 68802779 | TERGYNAN, comprimé vaginal | Comprimé | BOUCHARA-RECORDATI | Active |
+| 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire | Poudre et solvant pour suspension pour instillation | GRIMBERG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

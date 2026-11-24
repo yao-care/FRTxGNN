@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 794
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "tryptophan"
 predicted_indications: ["restless legs syndrome", "primary hereditary glaucoma", "open-angle glaucoma", "insomnia (disease)", "methemoglobinemia", "methemoglobinemia, alpha type", "methemoglobin reductase deficiency", "congenital prothrombin deficiency"]
 description: "Tryptophan : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). En France, AMM dans la BDPM : au moins 20"
@@ -102,13 +102,35 @@ Aucun texte d'indication approuvée n'est disponible. Les 5 premières sont pré
 
 <!-- review:end fr-lic-20261106-tryptophan-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68491709 | PERISOC, solution de cardioplégie/solution pour conservation d'organe | Solution cardioplégique | Non renseignée |
-| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | Non renseignée |
-| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée |
-| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée |
-| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68491709 | PERISOC, solution de cardioplégie/solution pour conservation dorgane | Solution cardioplégique ou | DR. FRANZ KÖHLER CHEMIE (ALLEMAGNE) | Active |
+| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | FRESENIUS KABI FRANCE | Active |
+| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67972077 | AMINOPLASMAL 12, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 60274212 | REANUTRIFLEX, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 67592324 | OLIMEL N12, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 62932118 | REANUTRIFLEX OMEGA, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 69063120 | OLIMEL N9, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 65461618 | NUTRINEAL PD4 A 1,1 % D'ACIDES AMINES, solution pour dialyse péritonéale | Solution pour dialyse péritonéale | VANTIVE | Active |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 61983743 | OLIMEL N7, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 60715870 | SMOFKABIVEN PROTEINE, émulsion pour perfusion | Émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 63740918 | SMOFKABIVEN, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61117445 | CLINIMIX N9 G15 E, solution pour perfusion en poche bicompartiment | Solution et solution pour perfusion | BAXTER | Active |
+| 61786735 | AMINOMIX 500, solution pour perfusion | Solution et solution pour perfusion | FRESENIUS KABI FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 181
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOBAZAM"
 predicted_indications: ["febrile infection-related epilepsy syndrome", "perioral myoclonia with absences", "photosensitive occipital lobe epilepsy", "atypical childhood epilepsy with centrotemporal spikes", "cryptogenic late-onset epileptic spasms", "childhood onset epileptic encephalopathy", "benign occipital epilepsy", "early-onset epileptic encephalopathy and intellectual disability due to GRIN2A mutation", "restless legs syndrome", "polymicrogyria with optic nerve hypoplasia"]
 description: "Clobazam : nouvelle indication prédite, Febrile infection-related epilepsy syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -75,12 +75,18 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 62905911 | URBANYL 10 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
-| 65899602 | LIKOZAM 1 mg/ml, suspension buvable | Suspension buvable | Non renseignée | Active |
-| 64630403 | URBANYL 5 mg, gélule | Gélule | Non renseignée | Active |
-| 63470312 | URBANYL 20 mg, comprimé | Comprimé | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62905911 | URBANYL 10 mg, comprimé sécable | Comprimé sécable | ATNAHS PHARMA FRANCE | Active |
+| 65899602 | LIKOZAM 1 mg/ml, suspension buvable | Suspension buvable | TAW PHARMA (IRLANDE) | Active |
+| 64630403 | URBANYL 5 mg, gélule | Gélule | ATNAHS PHARMA FRANCE | Active |
+| 63470312 | URBANYL 20 mg, comprimé | Comprimé | ATNAHS PHARMA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

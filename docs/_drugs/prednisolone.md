@@ -83,13 +83,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62743861 | PREDNISOLONE ZENTIVA 20 mg | Comprimé effervescent sécable | Non renseignée (AMM active) |
-| 69864424 | PREDNISOLONE SANDOZ 20 mg | Comprimé effervescent sécable | Non renseignée (AMM active) |
-| 67537107 | PREDNISOLONE VIATRIS 20 mg | Comprimé effervescent sécable | Non renseignée (AMM active) |
-| 65569519 | DELIPROCT | Suppositoire | Non renseignée (AMM active) |
-| 69345098 | DERINOX | Solution pour pulvérisation nasale | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62743861 | PREDNISOLONE ZENTIVA 20 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | ZENTIVA FRANCE | Active |
+| 69864424 | PREDNISOLONE SANDOZ 20 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | SANDOZ | Active |
+| 67537107 | PREDNISOLONE VIATRIS 20 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | VIATRIS SANTE | Active |
+| 65569519 | DELIPROCT, suppositoire | Suppositoire | KARO PHARMA (SUEDE) | Active |
+| 69345098 | DERINOX, solution pour pulvérisation nasale | Solution pour pulvérisation | DESMA PHARMA | Active |
+| 61335351 | PREDNISOLONE ARROW 20 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | ARROW GENERIQUES | Active |
+| 61539350 | PREDNISOLONE EG 20 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62002809 | SOLUPRED 5 mg, comprimé orodispersible | Comprimé orodispersible | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 62597050 | PREDNISOLONE BIOGARAN 20 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | BIOGARAN | Active |
+| 63080629 | PREDNISOLONE CRISTERS 20 mg, comprimé orodispersible | Comprimé orodispersible | CRISTERS | Active |
+| 63226984 | SOLUPRED 20 mg, comprimé orodispersible | Comprimé orodispersible | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64949002 | PREDNISOLONE TEVA 20 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | TEVA SANTE | Active |
+| 65009278 | PREDNISOLONE ARROW 20 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Active |
+| 65424299 | PREDNISOLONE EVOLUGEN 20 mg, comprimé orodispersible | Comprimé orodispersible | EVOLUPHARM | Active |
+| 65788737 | PREDNISOLONE SANDOZ 20 mg, comprimé orodispersible | Comprimé orodispersible | SANDOZ | Active |
+| 66203873 | PREDNISOLONE VIATRIS 20 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 66216486 | PREDNISOLONE BIOGARAN 20 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 66730562 | PREDNISOLONE EG 20 mg, comprimé orodispersible | Comprimé orodispersible | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67411585 | PREDNISOLONE TEVA 20 mg, comprimé orodispersible | Comprimé orodispersible | TEVA SANTE | Active |
+| 65398438 | PREDNISOLONE ZENTIVA 20 mg, comprimé orodispersible | Comprimé orodispersible | ZENTIVA FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

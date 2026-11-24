@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 551
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ocrelizumab"
 predicted_indications: ["HER2 positive breast carcinoma", "progesterone-receptor positive breast cancer", "normal breast-like subtype of breast carcinoma", "breast tumor luminal A or B", "progesterone-receptor negative breast cancer"]
 description: "Ocrelizumab : nouvelle indication prédite, Carcinome mammaire HER2 positif (HER2 positive breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -73,10 +73,16 @@ Aucune littérature associée à l'indication principale (carcinome mammaire HER
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66127361 | OCREVUS 300 mg, solution à diluer pour perfusion (active) | Solution à diluer pour perfusion | Non renseignée |
-| 62251899 | OCREVUS 920 mg, solution injectable (active) | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66127361 | OCREVUS 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 62251899 | OCREVUS 920 mg, solution injectable | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

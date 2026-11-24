@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "bedaquiline"
 predicted_indications: ["vulvovaginal candidiasis", "fascioliasis", "urea cycle disorder", "esophageal candidiasis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bedaquiline : nouvelle indication prédite, Candidose vulvovaginale (vulvovaginal candidiasis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
@@ -70,9 +70,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65690588 | SIRTURO 100 mg, comprimé | Comprimé | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65690588 | SIRTURO 100 mg, comprimé | Comprimé | JANSSEN CILAG INTERNATIONAL NV | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

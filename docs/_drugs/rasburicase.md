@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 654
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RASBURICASE"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "hepatic porphyria", "early-onset familial noncirrhotic portal hypertension", "hepatoportal sclerosis", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "idiopathic copper-associated cirrhosis", "renal tubular acidosis", "disorder of phenylalanine metabolism"]
 description: "Rasburicase : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -85,9 +85,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69211156 | FASTURTEC 1,5 mg/ml, poudre et solvant pour solution à diluer pour perfusion (SANOFI WINTHROP INDUSTRIE) | Poudre et solvant pour solution à diluer pour perfusion | Non renseignée ; AMM active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69211156 | FASTURTEC 1,5 mg/ml, poudre et solvant pour solution à diluer pour perfusion | Poudre et solvant pour solution à diluer pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

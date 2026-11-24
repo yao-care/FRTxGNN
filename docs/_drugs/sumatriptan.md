@@ -71,11 +71,24 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Sumatriptan
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 67153334 | SUMATRIPTAN | solution pour pulvérisation | Active |
-| 66276750 | SUMATRIPTAN (SUCCINATE DE) | solution injectable | Active |
-| 67876328 | SUMATRIPTAN | solution pour pulvérisation | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67153334 | IMIGRANE 10 mg/0,1 ml, solution pour pulvérisation nasale | Solution pour pulvérisation | GLAXOSMITHKLINE | Active |
+| 66276750 | IMIJECT 6 mg/0,5 ml, solution injectable pour voie sous-cutanée en seringue pré-remplie | Solution injectable | GLAXOSMITHKLINE | Active |
+| 67876328 | IMIGRANE 20 mg/0,1 ml, solution pour pulvérisation nasale | Solution pour pulvérisation | GLAXOSMITHKLINE | Active |
+| 60486090 | SUMATRIPTAN SUN 6 mg/0,5 ml, solution injectable en seringue préremplie (voie SC) | Solution injectable | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 62459245 | SUMATRIPTAN ARROW 50 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 64676030 | IMIGRANE 50 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE | Active |
+| 64869780 | SUMATRIPTAN SUN 3 mg/0,5 ml, solution injectable en seringue préremplie (voie SC) | Solution injectable | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 65103126 | SUMATRIPTAN TEVA 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 69485328 | IMIGRANE 6 mg/0,5 ml, solution injectable pour voie sous-cutanée en seringue pré-remplie | Solution injectable | GLAXOSMITHKLINE | Active |
+| 67435682 | NOMANESIT 85 mg/500 mg comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

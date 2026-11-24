@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 390
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ILOPROST"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "pulmonary arteriovenous malformation (disease)", "diffuse alopecia areata"]
 description: "Iloprost : nouvelle indication prédite, Hypotrichose simplex du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -85,11 +85,17 @@ Aucun essai de phase 3 n'est identifié dans les données compilées pour ces so
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69133241 | ILOPROST TEVA 100 microgrammes/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 64341103 | ILOPROST ZENTIVA 100 microgrammes/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 62386427 | ILOMEDINE 0,1 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69133241 | ILOPROST TEVA 100 microgrammes/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | TEVA (PAYS-BAS) | Active |
+| 64341103 | ILOPROST ZENTIVA 100 microgrammes/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ZENTIVA FRANCE | Active |
+| 62386427 | ILOMEDINE 0,1 mg/1 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | BAYER HEALTHCARE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

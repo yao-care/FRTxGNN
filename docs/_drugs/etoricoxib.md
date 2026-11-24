@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 309
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "etoricoxib"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "benign prostatic hyperplasia (disease)", "kyphoscoliotic heart disease", "headache disorder", "trigeminal autonomic cephalalgia"]
 description: "Etoricoxib : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 14 (valides : 14)"
@@ -98,13 +98,28 @@ Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq pre
 
 <!-- review:end fr-lic-20261106-etoricoxib-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66514714 | ETORICOXIB BIOGARAN 30 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 65716563 | ETORICOXIB VIATRIS 30 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 65646086 | ARCOXIA 30 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61350702 | ETORICOXIB KRKA 60 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 65612340 | ETORICOXIB BIOGARAN 60 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66514714 | ETORICOXIB BIOGARAN 30 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65716563 | ETORICOXIB VIATRIS 30 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65646086 | ARCOXIA 30 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON (HOLLANDE) | Active |
+| 61350702 | ETORICOXIB KRKA 60 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 65612340 | ETORICOXIB BIOGARAN 60 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62175533 | ETORICOXIB SANDOZ 60 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 60661561 | ETORICOXIB ARROW 30 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62496336 | ETORICOXIB ZYDUS FRANCE 60 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 63964446 | ARCOXIA 60 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON (HOLLANDE) | Active |
+| 64549684 | ETORICOXIB KRKA 30 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 67630127 | ETORICOXIB ZYDUS FRANCE 30 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 64722467 | ETORICOXIB ARROW 60 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 65726187 | ETORICOXIB VIATRIS 60 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62718662 | ETORICOXIB SANDOZ 30 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

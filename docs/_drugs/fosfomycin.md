@@ -87,15 +87,37 @@ Aucune des données disponibles ne montre que la fosfomycine a été évaluée d
 
 ## Informations de marché en France
 
-La fosfomycine est commercialisée en France sous 19 AMM valides, toutes pour des produits mono-substance. Il s'agit surtout de granulés pour solution buvable en sachet (3 g), ainsi que de poudres pour perfusion ou injection. Le texte des indications approuvées n'est pas renseigné dans les données compilées. Les cinq AMM ci-dessous sont des exemples.
+La fosfomycine est commercialisée en France sous 19 AMM valides, toutes pour des produits mono-substance. Il s'agit surtout de granulés pour solution buvable en sachet (3 g), ainsi que de poudres pour perfusion ou injection. Le texte des indications approuvées n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique |
-|---------|------|------|
-| 61935264 | Fosfomycine Viatris Adultes 3 g | Granulés pour solution buvable en sachet |
-| 66430643 | Fosfomycine Arrow 3 g | Granulés pour solution buvable en sachet |
-| 67951706 | Monuril 3 g (Zambon France) | Granulés pour solution buvable en sachet |
-| 65164104 | Fomicyt 4 g I.V. | Poudre pour solution à diluer pour perfusion |
-| 63322018 | Fosfomycine Panpharma 4 g | Poudre pour solution injectable |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61935264 | FOSFOMYCINE VIATRIS ADULTES 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | VIATRIS SANTE | Active |
+| 66430643 | FOSFOMYCINE ARROW 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | ARROW GENERIQUES | Active |
+| 65164104 | FOMICYT 4 g I.V., poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | INFECTOPHARM ARZNEIMITTEL UND CONSILIUM (ALLEMAGNE) | Active |
+| 62884890 | FOSFOMYCINE CRISTERS PHARMA ADULTES 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | CRISTERS | Active |
+| 61334559 | FOSFOMYCINE TEVA SANTE ADULTES 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | TEVA SANTE | Active |
+| 63322018 | FOSFOMYCINE PANPHARMA 4 g, poudre pour solution injectable | Poudre pour solution injectable | PANPHARMA | Active |
+| 62832018 | FOMICYT 2 g I.V., poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | INFECTOPHARM ARZNEIMITTEL UND CONSILIUM (ALLEMAGNE) | Active |
+| 63197358 | FOSFOMYCINE SUBSTIPHARM 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | SUBSTIPHARM | Active |
+| 61567061 | FOSFOPHARM ADULTES 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | MEDYNEX | Active |
+| 66789799 | FOSFOMYCINE PANPHARMA 1 g, poudre pour solution injectable | Poudre pour solution injectable | PANPHARMA | Active |
+| 66806921 | FOSFOMYCINE BIOGARAN 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | BIOGARAN | Active |
+| 64062783 | FOSFOMYCINE EVOLUGEN 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | EVOLUPHARM | Active |
+| 67972426 | MONURIL 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | DIFARMED (ESPAGNE) | Active |
+| 69138306 | FOSFOMYCINE ZENTIVA ADULTES 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | ZENTIVA FRANCE | Active |
+| 67951706 | MONURIL 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | ZAMBON FRANCE | Active |
+| 69907338 | FOSFOMYCINE EG ADULTES 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62670616 | FOSFOMYCINE ZYDUS 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | ZYDUS FRANCE | Active |
+| 65951045 | FOSFOMYCINE SANDOZ ADULTES 3 g, granulés pour solution buvable en sachet | Granulés pour solution buvable | SANDOZ | Active |
+| 64971365 | FOSFOMYCINE CRISTERS 3 g ADULTES, granulés pour solution buvable en sachet | Granulés pour solution buvable | CRISTERS | Active |
+| 60150232 | FOSFOCINE 4 g I.V., poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SANOFI AVENTIS FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 493
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "metreleptin"
 predicted_indications: ["familial generalized lentiginosis", "gastrocutaneous syndrome", "Moynahan syndrome", "rhabdoid tumor", "osteopathia striata-pigmentary dermopathy-white forelock syndrome", "acromelanosis", "congenital multiple café-au-lait macules-increased sister chromatid exchange syndrome", "leukonychia totalis-acanthosis-nigricans-like lesions-abnormal hair syndrome", "benign neoplasm of adrenal gland", "peripheral nerve schwannoma"]
 description: "Metreleptin : nouvelle indication prédite, Lentiginose généralisée familiale (familial generalized lentiginosis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -83,11 +83,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 67974594 | MYALEPTA 5,8 mg | Poudre pour solution injectable | Non renseignée | Active |
-| 69994784 | MYALEPTA 11,3 mg | Poudre pour solution injectable | Non renseignée | Active |
-| 60446726 | MYALEPTA 3 mg | Poudre pour solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67974594 | MYALEPTA 5,8 mg, poudre pour solution injectable | Poudre pour solution injectable | CHIESI FARMACEUTICI | Active |
+| 69994784 | MYALEPTA 11,3 mg, poudre pour solution injectable | Poudre pour solution injectable | CHIESI FARMACEUTICI | Active |
+| 60446726 | MYALEPTA 3 mg, poudre pour solution injectable | Poudre pour solution injectable | CHIESI FARMACEUTICI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Titulaire : CHIESI FARMACEUTICI.
 

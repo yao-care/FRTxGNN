@@ -74,10 +74,23 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67515694 | TIXOCORTOL EG 1 %, suspension nasale (active) | Suspension | Non précisée |
-| 65832411 | PIVALONE 1 POUR CENT, suspension nasale (active) | Suspension | Non précisée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67515694 | TIXOCORTOL EG 1%, suspension nasale | Suspension | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65832411 | PIVALONE 1 POUR CENT, suspension nasale | Suspension | PFIZER HOLDING FRANCE | Active |
+| 62509748 | TIXOCORTOL ZENTIVA 1 %, suspension nasale | Suspension | ZENTIVA FRANCE | Active |
+| 63016772 | TIXOCORTOL TEVA 1 %, suspension nasale | Suspension | TEVA (PAYS-BAS) | Active |
+| 63598970 | TIXOCORTOL BIOGARAN 1 %, suspension nasale | Suspension | BIOGARAN | Active |
+| 65688427 | TIXOCORTOL ARROW 1 %, suspension nasale | Suspension | ARROW GENERIQUES | Active |
+| 69525705 | TIXOCORTOL VIATRIS 1%, suspension nasale | Suspension | VIATRIS SANTE | Active |
+| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch(s) | SMARTPRACTICE DENMARK (DANEMARK) | Active |
+| 65124483 | THIOVALONE, suspension pour pulvérisation buccale | Suspension pour pulvérisation | PFIZER HOLDING FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

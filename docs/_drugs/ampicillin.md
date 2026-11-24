@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ampicillin"
 predicted_indications: ["laryngitis", "Ureaplasma urethritis", "chronic rhinosinusitis", "chronic ethmoidal sinusitis", "gingivitis", "paranasal sinus neoplasm (disease)", "bacterial arthritis", "conjunctivitis", "pericoronitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ampicillin : nouvelle indication prédite, Laryngite (laryngitis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 
@@ -84,11 +84,17 @@ Les travaux ci-dessous sont les plus proches du sujet. Ils concernent des affect
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61392249 | AMPICILLINE PANPHARMA 1 g | Poudre et solution pour préparation injectable | Non renseignée |
-| 69057530 | UNACIM INJECTABLE 0,5 g/1 g | Poudre pour usage parentéral | Non renseignée |
-| 64892672 | UNACIM INJECTABLE 1 g | Poudre et solution pour usage parentéral | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61392249 | AMPICILLINE PANPHARMA 1 g, poudre et solution pour préparation injectable | Poudre et solution pour préparation injectable | PANPHARMA | Active |
+| 69057530 | UNACIM INJECTABLE 0,5 g/1 g, poudre pour usage parentéral | Poudre pour usage parentéral | PFIZER HOLDING FRANCE | Active |
+| 64892672 | UNACIM INJECTABLE 1 g, poudre et solution pour usage parentéral | Poudre et solution pour usage parentéral | PFIZER HOLDING FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 L'ampicilline est commercialisée en France sous forme injectable, selon les données locales.
 

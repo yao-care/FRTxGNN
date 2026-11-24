@@ -82,15 +82,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Principales AMM (5 sur 20) :
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60047271 | XALATAN 50 microgrammes/mL | Collyre en solution | Active |
-| 63781007 | XALACOM 50 µg/mL + 5 mg/mL (latanoprost/timolol) | Collyre en solution | Active |
-| 64928570 | LATANOPROST BIOGARAN 0,005 % | Collyre en solution | Annulée |
-| 60643442 | LATANOPROST ZENTIVA 0,005 % | Collyre en solution | Active |
-| 64224662 | ROCLANDA 50 µg/mL + 200 µg/mL (latanoprost/nétarsudil) | Collyre en solution | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60643442 | LATANOPROST ZENTIVA 0,005 %, collyre en solution | Collyre en solution | ZENTIVA FRANCE | Active |
+| 69504547 | LIFOG 50 microgrammes/mL, collyre en solution | Collyre en solution | TRB CHEMEDICA | Active |
+| 67124642 | LATANOPROST BGR 50 microgrammes/ml, collyre en solution | Collyre en solution | BIOGARAN | Active |
+| 67303969 | MONOPROST 50 microgrammes/ml, collyre en solution en récipient unidose | Collyre en solution | THEA | Active |
+| 64431910 | LATANOPROST EG 0,005 %, collyre en solution | Collyre en solution | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60284377 | LATANOPROST VIATRIS 0,005 %, collyre en solution | Collyre en solution | VIATRIS SANTE | Active |
+| 60082233 | LATAZED 50 microgrammes/mL, collyre en solution | Collyre en solution | HORUS PHARMA | Active |
+| 62443337 | LATANOPROST VIATRIS GENERIQUES 50 microgrammes/mL, collyre en solution | Collyre en solution | VIATRIS UP | Active |
+| 62203705 | XIOP 50 microgrammes/mL, collyre en solution en récipient unidose | Collyre en solution | HORUS PHARMA | Active |
+| 60047271 | XALATAN 50 microgrammes/mL, collyre en solution | Collyre en solution | VIATRIS UP | Active |
+| 62736105 | CATIOLANZE 50 microgrammes/mL, collyre en émulsion | Collyre en émulsion | SANTEN OY | Active |
+| 62478726 | LATANOPROST TEVA SANTE 50 microgrammes/mL, collyre en solution | Collyre en solution | TEVA (PAYS-BAS) | Active |
+| 63312554 | VIZILATAN 50 microgrammes/mL, collyre en solution | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 67918211 | LATANOPROST/TIMOLOL BIOGARAN 50 microgrammes/5 mg par ml, collyre en solution | Collyre en solution | BIOGARAN | Active |
+| 64744321 | FIXAPOST 50 microgrammes/ml + 5 mg/ml, collyre en solution | Collyre en solution | THEA | Active |
+| 61103424 | LATANOPROST/TIMOLOL EG 50 microgrammes/5 mg par ml, collyre en solution | Collyre en solution | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67519123 | KILATIM 50 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 64224662 | ROCLANDA 50 microgrammes/mL + 200 microgrammes/mL, collyre en solution | Collyre en solution | SANTEN OY | Active |
+| 63781007 | XALACOM 50 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | VIATRIS UP | Active |
+| 64928570 | LATANOPROST BIOGARAN 0,005 %, collyre en solution | Collyre en solution | BIOGARAN | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

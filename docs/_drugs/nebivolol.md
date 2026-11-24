@@ -74,9 +74,35 @@ Aucune littérature associée n'est disponible actuellement pour la maladie rén
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66673481 | TEMERIT 5 mg, comprimé quadrisécable (DIFARMED, Espagne) | Comprimé quadrisécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66673481 | TEMERIT 5 mg, comprimé quadrisécable | Comprimé quadrisécable | DIFARMED (ESPAGNE) | Active |
+| 60284516 | NEBIVOLOL VIATRIS SANTE 5 mg, comprimé quadrisécable | Comprimé quadrisécable | VIATRIS SANTE | Active |
+| 60437428 | NEBIVOLOL EVOLUGEN 5 mg, comprimé quadrisécable | Comprimé quadrisécable | EVOLUPHARM | Active |
+| 60566686 | TEMERIT 5 mg, comprimé quadrisécable | Comprimé quadrisécable | BB FARMA (ITALIE) | Active |
+| 60927460 | NEBIVOLOL VIATRIS 5 mg, comprimé quadrisécable | Comprimé quadrisécable | VIATRIS SANTE | Active |
+| 61788775 | NEBIVOLOL KRKA 5 mg, comprimé sécable | Comprimé sécable | KRKA (SLOVENIE) | Active |
+| 62107482 | NEBIVOLOL SANDOZ 5 mg, comprimé quadrisécable | Comprimé quadrisécable | SANDOZ | Active |
+| 62247908 | NEBIVOLOL ARROW LAB 5 mg, comprimé quadrisécable | Comprimé quadrisécable | ARROW GENERIQUES | Active |
+| 62257717 | NEBIVOLOL ZYDUS 5 mg, comprimé quadrisécable | Comprimé quadrisécable | ZYDUS FRANCE | Active |
+| 62698206 | NEBIVOLOL CRISTERS 5 mg, comprimé quadrisécable | Comprimé quadrisécable | CRISTERS | Active |
+| 62794286 | NEBILOX 5 mg, comprimé quadrisécable | Comprimé quadrisécable | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 65471103 | NEBIVOLOL BIOGARAN 5 mg, comprimé quadrisécable | Comprimé quadrisécable | BIOGARAN | Active |
+| 65664967 | NEBIVOLOL TEVA 5 mg, comprimé quadrisécable | Comprimé | TEVA (PAYS-BAS) | Active |
+| 66132910 | NEBIVOLOL ZENTIVA 5 mg, comprimé quadrisécable | Comprimé quadrisécable | ZENTIVA FRANCE | Active |
+| 67113350 | TEMERIT 5 mg, comprimé quadrisécable | Comprimé quadrisécable | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 67856966 | NEBIVOLOL ALMUS 5 mg, comprimé quadrisécable | Comprimé quadrisécable | ALMUS FRANCE | Active |
+| 68029656 | NEBIVOLOL EG 5 mg, comprimé quadrisécable | Comprimé quadrisécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60830214 | NEBIVOLOL/HYDROCHLOROTHIAZIDE CRISTERS 5 mg/12,5 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 63041569 | NEBIVOLOL SUN 5 mg, comprimé quadrisécable | Comprimé quadrisécable | SUN PHARMA FRANCE | Abrogée |
+| 64071063 | NEBIVOLOL ARROW 5 mg, comprimé quadrisécable | Comprimé quadrisécable | ARROW GENERIQUES | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

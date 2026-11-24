@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 418
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Itraconazole : nouvelle indication prédite, Pneumocystose (niveau de preuve L5). Indication d'origine : Mycoses systémiques (candidose œsophagienne, candidémie…"
 monitor_inn: "ITRACONAZOLE"
 predicted_indications: ["pneumocystosis"]
@@ -84,13 +84,19 @@ Remarque : plusieurs références (histoplasmose chez des patients atteints de S
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60738303 | ITRACONAZOLE VIATRIS 100 mg | Gélule | Active |
-| 69662344 | ITRACONAZOLE TEVA 100 mg | Gélule | Active |
-| 69998156 | SPORANOX 10 mg/mL | Solution buvable | Active |
-| 62469613 | SPORANOX 100 mg | Gélule | Active |
-| 66188581 | ITRACONAZOLE SANDOZ 100 mg | Gélule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60738303 | ITRACONAZOLE VIATRIS 100 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 69662344 | ITRACONAZOLE TEVA 100 mg, gélule | Gélule | TEVA SANTE | Active |
+| 69998156 | SPORANOX 10 mg/mL, solution buvable | Solution buvable | JANSSEN CILAG | Active |
+| 62469613 | SPORANOX 100 mg, gélule | Gélule | JANSSEN CILAG | Active |
+| 66188581 | ITRACONAZOLE SANDOZ 100 mg, gélule | Gélule | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte des indications approuvées n'est pas disponible dans les données compilées.
 

@@ -129,13 +129,26 @@ Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont
 
 <!-- review:end fr-lic-20261106-droperidol-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68810459 | DROPERIDOL AGUETTANT 5 mg/2 ml (I.M.) | Solution injectable | Non renseignée |
-| 67888889 | DROPERIDOL AGUETTANT 1,25 mg/ml (I.V.) | Solution injectable | Non renseignée |
-| 69560873 | DROPERIDOL KALCEKS 1,25 mg/mL | Solution injectable | Non renseignée |
-| 66682612 | DROPERIDOL PANPHARMA 5 mg/2 ml (IM) | Solution injectable | Non renseignée |
-| 63578074 | DROPERIDOL AGUETTANT 2,5 mg/1 ml (I.V.) | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68810459 | DROPERIDOL AGUETTANT 5 mg/2 ml, solution injectable (I.M.) | Solution injectable | AGUETTANT | Active |
+| 67888889 | DROPERIDOL AGUETTANT 1,25 mg/ml, solution injectable (I.V.) | Solution injectable | AGUETTANT | Active |
+| 69560873 | DROPERIDOL KALCEKS 1,25 mg/mL, solution injectable | Solution injectable | AS KALCEKS (LETTONIE) | Active |
+| 63578074 | DROPERIDOL AGUETTANT 2,5 mg/1 ml, solution injectable (I.V.) | Solution injectable | AGUETTANT | Active |
+| 64057843 | DROPERIDOL HIKMA 2,5 mg/mL, solution injectable | Solution injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 67226227 | DROPERIDOL KALCEKS 2,5 mg/mL, solution injectable | Solution injectable | AS KALCEKS (LETTONIE) | Active |
+| 67738409 | DROPERIDOL PANPHARMA 0,5 mg/ml, solution injectable | Solution injectable | PANPHARMA | Active |
+| 67527433 | DROPERIDOL PANPHARMA 2,5 mg/ml, solution injectable | Solution injectable | PANPHARMA | Active |
+| 61646847 | DROLEPTAN 1,25 mg/2,5 ml, solution injectable | Solution injectable | SUBSTIPHARM | Active |
+| 66682612 | DROPERIDOL PANPHARMA 5 mg/2 ml, solution injectable (IM) | Solution injectable | PANPHARMA | Archivée |
+| 60828455 | DROPERIDOL ARROW 2,5 mg/1 ml, solution injectable (IV) | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Abrogée |
+| 61756877 | DROPERIDOL ARROW 5 mg/2 ml, solution injectable (IM) | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

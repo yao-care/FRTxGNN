@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "carboplatin"
 predicted_indications: ["rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "adult germ cell tumor", "cervical mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma", "villoglandular endometrial endometrioid adenocarcinoma", "endometrial mixed adenocarcinoma", "extrahepatic bile duct mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carboplatin : nouvelle indication prédite, Adénocarcinome mucineux du rectum (rectum mucinous adenocarcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
@@ -71,6 +71,23 @@ Aucun essai clinique associé enregistré actuellement.
 Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68513956 | CARBOPLATINE MEDAC 10 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 65676955 | CARBOPLATINE TEVA 10 mg/mL, solution pour perfusion | Solution pour perfusion | TEVA SANTE | Active |
+| 66150794 | CARBOPLATINE HOSPIRA 10 mg/ml, solution injectable pour perfusion | Solution injectable pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 65210982 | CARBOPLATINE ARROW LAB 10 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 61095461 | CARBOPLATINE HIKMA 10 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69067841 | CARBOPLATINE ACCORD 10 mg/ml, solution pour perfusion | Solution pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 69921291 | CARBOPLATINE KABI 10 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69671343 | CARBOPLATINE VIATRIS 10 mg/ml, solution pour perfusion | Solution pour perfusion | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le carboplatine est commercialisé en France, sous forme de solutions à diluer pour perfusion et de solutions pour perfusion, par plusieurs laboratoires. Le détail des autorisations de mise sur le marché (numéros, produits, formes) est généré par le site à partir des données réglementaires locales. L'indication approuvée n'est pas renseignée dans les données locales.
 

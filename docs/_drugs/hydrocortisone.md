@@ -88,15 +88,33 @@ L'hydrocortisone est commercialisée en France ; les 19 AMM recensées sont vali
 
 <!-- review:end fr-lic-20261124-hydrocortisone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62550143 | SOFTACORT 3,35 mg/ml, collyre | Collyre en solution | Non renseignée |
-| 65008233 | COLOFOAM, mousse rectale | Mousse | Non renseignée |
-| 67240376 | CORTISEDERMYL 0,5 %, crème | Crème | Non renseignée |
-| 67369944 | LOCOID, crème épaisse | Crème épaisse pour application | Non renseignée |
-| 66841235 | LOCOID 0,1 %, crème | Crème | Non renseignée |
+<!-- licenses:begin -->
 
-La liste est limitée aux 5 premières AMM.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62550143 | SOFTACORT 3,35 mg/ml, collyre en solution en récipient unidose | Collyre en solution | THEA | Active |
+| 65008233 | COLOFOAM, mousse rectale | Mousse | VIATRIS MEDICAL | Active |
+| 67240376 | CORTISEDERMYL 0,5 %, crème | Crème | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 67369944 | LOCOID, crème épaisse pour application locale | Crème épaisse pour application | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 66841235 | LOCOID 0,1 %, crème | Crème | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 63947112 | LOCOID 0,1 %, émulsion fluide pour application locale | Émulsion fluide pour application | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64124103 | HYDROCORTISONE ROUSSEL 10 mg, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+| 66773332 | HYDROCORTISONE UPJOHN 500 mg, préparation injectable | Poudre et solvant pour préparation injectable | SERB | Active |
+| 60997882 | HYDROCORTISONE ARROW 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 68243813 | CORAZED 1%, crème | Crème | HORUS PHARMA | Active |
+| 60676481 | LOCOID, pommade | Pommade | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 62555172 | DERMOFENAC DEMANGEAISONS 0,5 %, crème | Crème | HALEON FRANCE | Active |
+| 61581417 | HYDROCORTISONE UPJOHN 100 mg, préparation injectable | Poudre et solvant pour préparation injectable | SERB | Active |
+| 62735380 | HYDROCORTISONE SUBSTIPHARM 100 mg, lyophilisat (flacon) et solution pour usage parentéral | Lyophilisat et solution pour usage parentéral | SUBSTIPHARM | Active |
+| 66423894 | LOCOID, lotion | Lotion | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 67016677 | LENASTER 3,35 mg/mL, collyre en solution en récipient unidose | Collyre en solution | HORUS PHARMA | Active |
+| 67981927 | CORTAPAISYL 0,5 %, crème | Crème | P&G HEALTH FRANCE | Active |
+| 63105203 | ONCTOSE HYDROCORTISONE, crème | Crème | P&G HEALTH FRANCE | Active |
+| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch(s) | SMARTPRACTICE DENMARK (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

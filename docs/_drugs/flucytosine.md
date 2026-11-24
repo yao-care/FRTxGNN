@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 332
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Flucytosine : nouvelle indication prédite, Maladie osseuse de Paget (bone Paget disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "FLUCYTOSINE"
 predicted_indications: ["bone Paget disease"]
@@ -73,10 +73,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67250203 | ANCOTIL 1 POUR CENT, solution pour perfusion (VIATRIS MEDICAL) – active | Solution pour perfusion | Non renseignée |
-| 68758674 | ANCOTIL 500 mg, comprimé (VIATRIS MEDICAL) – active | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67250203 | ANCOTIL 1 POUR CENT, solution pour perfusion | Solution pour perfusion | VIATRIS MEDICAL | Active |
+| 68758674 | ANCOTIL 500 mg, comprimé | Comprimé | VIATRIS MEDICAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 113
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Brentuximab Vedotin : nouvelle indication prédite, Lymphome folliculaire (niveau de preuve L3). Indication d'origine : Lymphome de Hodgkin (lymphome de Hodgkin classique)"
 monitor_inn: "brentuximab vedotin"
 predicted_indications: ["follicular lymphoma", "myeloid leukemia", "acute lymphoblastic/lymphocytic leukemia", "B-cell neoplasm", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "Richter syndrome", "mantle cell lymphoma", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction"]
@@ -100,9 +100,15 @@ La litterature compilee porte surtout sur les lymphomes T peripheriques et ne so
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 68438457 | ADCETRIS 50 mg, poudre pour solution a diluer pour perfusion (TAKEDA PHARMA, Danemark) | Poudre pour solution a diluer pour perfusion | Texte d'indication non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68438457 | ADCETRIS 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | TAKEDA PHARMA (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

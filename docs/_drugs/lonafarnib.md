@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 458
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lonafarnib : nouvelle indication prédite, Lèpre (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "LONAFARNIB"
 predicted_indications: ["leprosy"]
@@ -71,10 +71,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61837140 | ZOKINVY 75 mg, gélule (active) | Gélule | Non renseignée |
-| 66601425 | ZOKINVY 50 mg, gélule (active) | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61837140 | ZOKINVY 75 mg, gélule | Gélule | TMC PHARMA (EU) (IRLANDE) | Active |
+| 66601425 | ZOKINVY 50 mg, gélule | Gélule | TMC PHARMA (EU) (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

@@ -69,9 +69,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69894104 | ZINPLAVA 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69894104 | ZINPLAVA 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

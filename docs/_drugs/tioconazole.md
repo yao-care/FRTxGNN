@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 764
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TIOCONAZOLE"
 predicted_indications: ["vulvitis", "postmenopausal atrophic vaginitis"]
 description: "Tioconazole : nouvelle indication prédite, Vulvite (vulvitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -83,10 +83,16 @@ Les publications ci-dessous concernent la candidose vaginale ou le tioconazole e
 
 Le tioconazole est commercialisé en France. Les deux AMM recensées sont valides.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67466927 | GYNO TROSYD 300 mg, ovule (TEOFARMA) | Ovule | Non renseignée (AMM active) |
-| 69571802 | TROSYD, crème dermatologique (TEOFARMA) | Crème | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67466927 | GYNO TROSYD 300 mg, ovule | Ovule | TEOFARMA | Active |
+| 69571802 | TROSYD, crème dermatologique | Crème | TEOFARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

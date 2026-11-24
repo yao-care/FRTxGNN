@@ -70,10 +70,27 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62476853 | TRACTOCILE 6,75 mg/0,9 ml, solution injectable | Solution injectable | Non renseignée |
-| 61710552 | TRACTOCILE 37,5 mg/5 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62476853 | TRACTOCILE 6,75 mg/0,9 ml, solution injectable | Solution injectable | FERRING PHARMACEUTICALS (DANEMARK) | Active |
+| 61710552 | TRACTOCILE 37,5 mg/5 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FERRING PHARMACEUTICALS (DANEMARK) | Active |
+| 61078145 | ATOSIBAN SUN 37,5 mg/5 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 61955644 | ATOSIBAN EVER PHARMA 6,75 mg/0,9 mL, solution injectable | Solution injectable | EVER VALINJECT (AUTRICHE) | Active |
+| 64141049 | ATOSIBAN EVER PHARMA 75 mg/10 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | EVER VALINJECT (AUTRICHE) | Active |
+| 64604981 | ATOSIBAN SUN 6,75 mg/0,9 ml, solution injectable | Solution injectable | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 67905662 | ATOSIBAN EVER PHARMA 37,5 mg/5 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | EVER VALINJECT (AUTRICHE) | Active |
+| 68114697 | ATOSIBAN ALTAN 37,5 mg/5 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+| 68389896 | ATOSIBAN ALTAN 6,75 mg/0,9 mL, solution injectable | Solution injectable | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+| 60691177 | ATOSIBAN STRAGEN 37,5 mg/5 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | STRAGEN-FRANCE | Abrogée |
+| 62672834 | ATOSIBAN ACCORD 37,5 mg/5 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 68712716 | ATOSIBAN ACCORD 6,75 mg/0,9 ml, solution injectable en seringue préremplie | Solution injectable | ACCORD HEALTHCARE FRANCE | Archivée |
+| 69966888 | ATOSIBAN STRAGEN 6,75 mg/0,9 ml, solution injectable | Solution injectable | STRAGEN-FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 522
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nafarelin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "hypertrichosis (disease)", "pelvic organ prolapse", "syndrome with a Dandy-Walker malformation as major feature", "physiological sexual disorder", "female genital tuberculosis", "isolated genetic hair shaft abnormality", "dysplasia of cervix"]
 description: "Nafarelin : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) (niveau de preuve L5). Indication d'origine : Non rens…"
@@ -74,9 +74,15 @@ Aucune littérature associée disponible actuellement pour l'indication prédite
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63954950 | SYNAREL 0,2 mg/dose, solution pour pulvérisation nasale (PFIZER HOLDING FRANCE) | Solution pour pulvérisation | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63954950 | SYNAREL 0,2 mg/dose, solution pour pulvérisation nasale | Solution pour pulvérisation | PFIZER HOLDING FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

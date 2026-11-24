@@ -82,13 +82,21 @@ Aucune littérature associée disponible actuellement.
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 61748503 | MYRELEZ L.P. 60 mg | Solution injectable à libération prolongée (seringue préremplie) | AMDIPHARM |
-| 61670321 | MYRELEZ L.P. 120 mg | Solution injectable à libération prolongée (seringue préremplie) | AMDIPHARM |
-| 63871159 | SOMATULINE L.P. 90 mg | Solution injectable à libération prolongée (seringue préremplie) | IPSEN PHARMA |
-| 63787825 | SOMATULINE L.P. 120 mg | Solution injectable à libération prolongée (seringue préremplie) | IPSEN PHARMA |
-| 68758076 | SOMATULINE L.P. 60 mg | Solution injectable à libération prolongée (seringue préremplie) | IPSEN PHARMA |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61748503 | MYRELEZ L.P. 60 mg, solution injectable à libération prolongée en seringue préremplie | Solution injectable à libération prolongée | AMDIPHARM | Active |
+| 61670321 | MYRELEZ L.P. 120 mg, solution injectable à libération prolongée en seringue préremplie | Solution injectable à libération prolongée | AMDIPHARM | Active |
+| 63871159 | SOMATULINE L.P. 90 mg, solution injectable à libération prolongée en seringue préremplie | Solution injectable à libération prolongée | IPSEN PHARMA | Active |
+| 63787825 | SOMATULINE L.P. 120 mg, solution injectable à libération prolongée en seringue préremplie | Solution injectable à libération prolongée | IPSEN PHARMA | Active |
+| 68758076 | SOMATULINE L.P. 60 mg, solution injectable à libération prolongée en seringue préremplie | Solution injectable à libération prolongée | IPSEN PHARMA | Active |
+| 64177223 | MYRELEZ L.P. 90 mg, solution injectable à libération prolongée en seringue préremplie | Solution injectable à libération prolongée | AMDIPHARM | Active |
+| 67919092 | SOMATULINE L.P. 30 mg, poudre et solvant pour suspension injectable (IM) à libération pro… | Poudre et solvant pour suspension injectable à libération p… | IPSEN PHARMA | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

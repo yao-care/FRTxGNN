@@ -105,13 +105,26 @@ Parmi les 41 essais recensés, les plus pertinents sont listés ci-dessous (not�
 
 Le texte d'indication approuvée n'est pas renseigné dans les données.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61516960 | APEXELSIN 5 mg/mL | Poudre pour dispersion pour perfusion | Non renseignée |
-| 68739019 | ABRAXANE 5 mg/mL | Poudre pour dispersion injectable pour perfusion | Non renseignée |
-| 67297982 | PACLITAXEL VIATRIS 6 mg/mL | Solution à diluer pour perfusion | Non renseignée |
-| 64711759 | PACLITAXEL TEVA 6 mg/mL | Solution à diluer pour perfusion | Non renseignée |
-| 69161632 | PACLITAXEL SANDOZ 6 mg/mL | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61516960 | APEXELSIN 5 mg/mL, poudre pour dispersion pour perfusion | Poudre pour dispersion pour perfusion | WHITEOAK PHARMACEUTICAL (PAYS-BAS) | Active |
+| 68739019 | ABRAXANE 5 mg/mL, poudre pour dispersion injectable pour perfusion | Poudre pour dispersion injectable pour perfusion | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 64711759 | PACLITAXEL TEVA 6 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | TEVA SANTE | Active |
+| 69161632 | PACLITAXELSANDOZ 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANDOZ | Active |
+| 61386545 | PACLITAXEL HOSPIRA 6 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 67298721 | PAZENIR 5 mg/mL, poudre pour dispersion pour perfusion | Poudre pour dispersion pour perfusion | RATIOPHARM (ALLEMAGNE) | Active |
+| 63283056 | NAVERUCLIF 5 mg/mL, poudre pour dispersion pour perfusion | Poudre pour dispersion pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 62334786 | PACLITAXEL ARROW 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 66906124 | BUGVI 5 mg/mL, poudre pour dispersion pour perfusion | Poudre pour dispersion pour perfusion | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65394660 | PACLITAXEL AHCL 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 61174122 | PACLITAXEL KABI 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 67297982 | PACLITAXEL VIATRIS 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIATRIS SANTE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

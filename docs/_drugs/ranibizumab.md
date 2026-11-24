@@ -88,13 +88,21 @@ Aucun essai clinique associé enregistré actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68654266 | BYOOVIZ 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
-| 64339586 | LUCENTIS 10 mg/ml, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 68594506 | RANIVISIO 10 mg/mL, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 64389258 | RANIVISIO 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
-| 67026689 | XIMLUCI 10 mg/mL | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68654266 | BYOOVIZ 10 mg/mL, solution injectable | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 64339586 | LUCENTIS 10 mg/ml, solution injectable en seringue préremplie | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 68594506 | RANIVISIO 10 mg/mL, solution injectable en seringue préremplie | Solution injectable | MIDAS PHARMA (ALLEMAGNE) | Active |
+| 64389258 | RANIVISIO 10 mg/mL, solution injectable | Solution injectable | MIDAS PHARMA (ALLEMAGNE) | Active |
+| 67026689 | XIMLUCI 10 mg/mL, solution injectable | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 61190863 | RIMMYRAH 10 mg/ml, solution injectable | Solution injectable | QILU PHARMA SPAIN (ESPAGNE) | Active |
+| 66082489 | BYOOVIZ 10 mg/mL, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

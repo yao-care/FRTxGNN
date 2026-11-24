@@ -232,60 +232,6 @@
  },
  "recent_reviews": [
   {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Quinapril",
-   "u": "/drugs/quinapril/",
-   "s": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Pixantrone",
-   "u": "/drugs/pixantrone/",
-   "s": "Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Molsidomine",
-   "u": "/drugs/molsidomine/",
-   "s": "Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Lamivudine",
-   "u": "/drugs/lamivudine/",
-   "s": "Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Irbesartan",
-   "u": "/drugs/irbesartan/",
-   "s": "Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Fosinopril",
-   "u": "/drugs/fosinopril/",
-   "s": "Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Desonide",
-   "u": "/drugs/desonide/",
-   "s": "Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Cyanocobalamin",
-   "u": "/drugs/cyanocobalamin/",
-   "s": "Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active",
-   "d": "2026-11-24"
-  },
-  {
    "t": "Zuclopenthixol",
    "u": "/drugs/zuclopenthixol/",
    "s": "Nombre d'AMM mis à jour",
@@ -374,55 +320,109 @@
    "u": "/drugs/rivastigmine/",
    "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
+  },
+  {
+   "t": "Raltegravir",
+   "u": "/drugs/raltegravir/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Propranolol",
+   "u": "/drugs/propranolol/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Propofol",
+   "u": "/drugs/propofol/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Prednisolone",
+   "u": "/drugs/prednisolone/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Prasugrel",
+   "u": "/drugs/prasugrel/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pramipexole",
+   "u": "/drugs/pramipexole/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Pirfenidone",
+   "u": "/drugs/pirfenidone/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Phenytoin",
+   "u": "/drugs/phenytoin/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Telmisartan",
-   "u": "/drugs/telmisartan/",
-   "s": "Tableau : l’AMM 68369993 (PRITOR 20 mg) est abrogée, non active",
+   "t": "Zuclopenthixol",
+   "u": "/drugs/zuclopenthixol/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Quinapril",
-   "u": "/drugs/quinapril/",
-   "s": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Pixantrone",
-   "u": "/drugs/pixantrone/",
-   "s": "Tableau : l’AMM 69454261 (PIXUVRI 29 mg) est archivée, non active",
+   "t": "Triptorelin",
+   "u": "/drugs/triptorelin/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Molsidomine",
-   "u": "/drugs/molsidomine/",
-   "s": "Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active",
+   "t": "Trihexyphenidyl",
+   "u": "/drugs/trihexyphenidyl/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Lamivudine",
-   "u": "/drugs/lamivudine/",
-   "s": "Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active",
+   "t": "Trabectedin",
+   "u": "/drugs/trabectedin/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Irbesartan",
-   "u": "/drugs/irbesartan/",
-   "s": "Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active",
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Fosinopril",
-   "u": "/drugs/fosinopril/",
-   "s": "Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active",
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Desonide",
-   "u": "/drugs/desonide/",
-   "s": "Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active",
+   "t": "Ticagrelor",
+   "u": "/drugs/ticagrelor/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   }
  ],

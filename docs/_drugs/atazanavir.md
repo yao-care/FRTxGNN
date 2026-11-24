@@ -72,11 +72,32 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69443966 | REYATAZ 150 mg, gélule | Gélule | Non renseignée |
-| 68301348 | REYATAZ 200 mg, gélule | Gélule | Non renseignée |
-| 66745660 | REYATAZ 300 mg, gélule | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69443966 | REYATAZ 150 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 68301348 | REYATAZ 200 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 66745660 | REYATAZ 300 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 60542735 | ATAZANAVIR VIATRIS 150 mg, gélule | Gélule | VIATRIS (IRLANDE) | Active |
+| 60727278 | ATAZANAVIR ARROW 300 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 63604430 | ATAZANAVIR ARROW 200 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 66008617 | ATAZANAVIR BIOGARAN 300 mg, gélule | Gélule | BIOGARAN | Active |
+| 66397937 | ATAZANAVIR VIATRIS 300 mg, gélule | Gélule | VIATRIS (IRLANDE) | Active |
+| 66401606 | ATAZANAVIR BIOGARAN 150 mg, gélule | Gélule | BIOGARAN | Active |
+| 66682249 | ATAZANAVIR BIOGARAN 200 mg, gélule | Gélule | BIOGARAN | Active |
+| 67167309 | ATAZANAVIR TEVA 300 mg, gélule | Gélule | TEVA SANTE | Active |
+| 67690302 | ATAZANAVIR VIATRIS 200 mg, gélule | Gélule | VIATRIS (IRLANDE) | Active |
+| 67807225 | ATAZANAVIR SANDOZ 200 mg, gélule | Gélule | SANDOZ | Active |
+| 68349364 | ATAZANAVIR TEVA 200 mg, gélule | Gélule | TEVA SANTE | Active |
+| 69577958 | ATAZANAVIR SANDOZ 300 mg, gélule | Gélule | SANDOZ | Active |
+| 61907293 | ATAZANAVIR ZENTIVA 300 mg, gélule | Gélule | ZENTIVA FRANCE | Abrogée |
+| 62766073 | ATAZANAVIR TEVA 150 mg, gélule | Gélule | TEVA SANTE | Abrogée |
+| 66089188 | ATAZANAVIR KRKA 300 mg, gélule | Gélule | KRKA (SLOVENIE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

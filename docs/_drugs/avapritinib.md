@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "AVAPRITINIB"
 predicted_indications: ["axial spondylometaphyseal dysplasia", "bilateral parasagittal parieto-occipital polymicrogyria", "amyotrophic lateral sclerosis", "trichomegaly-retina pigmentary degeneration-dwarfism syndrome", "amyotrohpic lateral sclerosis type 22", "lower motor neuron syndrome with late-adult onset", "lethal arthrogryposis-anterior horn cell disease syndrome", "monomelic amyotrophy", "Mills syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avapritinib : nouvelle indication prédite, Dysplasie spondylométaphysaire axiale (axial spondylometaphyseal dysplasia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
 ---
 
@@ -73,13 +73,19 @@ Aucune littérature associée disponible actuellement.
 
 L'avapritinib est commercialisé en France sous le nom AYVAKYT (comprimé pelliculé), fabriqué par Blueprint Medicines (Pays-Bas). Les données compilées signalent 5 AMM, dont aucun texte d'indication n'est renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 63189920 | AYVAKYT 200 mg | Comprimé pelliculé |
-| 63220091 | AYVAKYT 50 mg | Comprimé pelliculé |
-| 65304816 | AYVAKYT 300 mg | Comprimé pelliculé |
-| 68115906 | AYVAKYT 25 mg | Comprimé pelliculé |
-| 64069767 | AYVAKYT 100 mg | Comprimé pelliculé |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63189920 | AYVAKYT 200 mg, comprimé pelliculé | Comprimé pelliculé | BLUEPRINT MEDICINES (PAYS-BAS)) | Active |
+| 63220091 | AYVAKYT 50 mg, comprimé pelliculé | Comprimé pelliculé | BLUEPRINT MEDICINES (PAYS-BAS)) | Active |
+| 65304816 | AYVAKYT 300 mg, comprimé pelliculé | Comprimé pelliculé | BLUEPRINT MEDICINES (PAYS-BAS)) | Active |
+| 68115906 | AYVAKYT 25 mg, comprimé pelliculé | Comprimé pelliculé | BLUEPRINT MEDICINES (PAYS-BAS)) | Active |
+| 64069767 | AYVAKYT 100 mg, comprimé pelliculé | Comprimé pelliculé | BLUEPRINT MEDICINES (PAYS-BAS)) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

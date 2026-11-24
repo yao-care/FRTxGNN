@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 325
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fidaxomicin"
 predicted_indications: ["staphylococcal scalded skin syndrome", "bullous impetigo", "inhalational botulism", "impetigo", "toxin-mediated infectious botulism", "vulvovaginal candidiasis", "hordeolum", "staphylococcus aureus pneumonia", "punctate epithelial keratoconjunctivitis"]
 description: "Fidaxomicin : nouvelle indication prédite, Syndrome de la peau ébouillantée staphylococcique (staphylococcal scalded skin syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans l…"
@@ -91,10 +91,16 @@ Pour information, une seule publication a été retrouvée pour une autre indica
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62629288 | DIFICLIR 40 mg/ml, granulés pour suspension buvable (statut : active) | Granulés pour suspension buvable | Non renseignée |
-| 61973350 | DIFICLIR 200 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62629288 | DIFICLIR 40 mg/ml, granulés pour suspension buvable | Granulés pour suspension buvable | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+| 61973350 | DIFICLIR 200 mg, comprimé pelliculé | Comprimé pelliculé | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

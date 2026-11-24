@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "aztreonam"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "gonococcal urethritis", "Ureaplasma urethritis", "blood group incompatibility", "premalignant hematological system disease", "epiglottitis", "monoclonal gammopathy", "xanthogranulomatous pyelonephritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aztreonam : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
@@ -72,11 +72,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61054849 | CAYSTON 75 mg, poudre et solvant pour solution pour inhalation par nébiliseur | Poudre et solvant pour solution pour inhalation par nébuliseur | Non renseignée dans les données locales |
-| 63918096 | AZACTAM 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable pour perfusion | Non renseignée dans les données locales |
-| 68544663 | EMBLAVEO 1,5 g/0,5 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61054849 | CAYSTON 75 mg, poudre et solvant pour solution pour inhalation par nébiliseur | Poudre et solvant pour solution pour inhalation par nébulis… | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 63918096 | AZACTAM 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable pour perfusion | LABORATOIRES DELBERT | Active |
+| 68544663 | EMBLAVEO 1,5 g/0,5 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

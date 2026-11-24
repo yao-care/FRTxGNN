@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 649
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RAMIPRIL"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome", "brain stem infarction", "Prinzmetal angina", "intracerebral hemorrhage", "ABri amyloidosis", "cerebral artery occlusion"]
 description: "Ramipril : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -98,13 +98,35 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 
 <!-- review:end fr-lic-20261106-ramipril-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65671495 | RAMIPRIL BIOGARAN 1,25 mg | comprimé | Non renseignée |
-| 60180720 | RAMIPRIL SANDOZ 10 mg | comprimé sécable | Non renseignée |
-| 63586270 | RAMIPRIL TEVA SANTE 10 mg | comprimé sécable | Non renseignée |
-| 67418398 | RAMIPRIL ZENTIVA 10 mg | comprimé sécable | Non renseignée |
-| 65274629 | RAMIPRIL ARROW GENERIQUES 10 mg | comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65671495 | RAMIPRIL BIOGARAN 1,25 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 60180720 | RAMIPRIL SANDOZ 10 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 63586270 | RAMIPRIL TEVA SANTE 10 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 67418398 | RAMIPRIL ZENTIVA 10 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 65274629 | RAMIPRIL ARROW GENERIQUES 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 60759607 | RAMIPRIL ALMUS 5 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 63191355 | RAMIPRIL ZENTIVA 5 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 62387714 | RAMIPRIL ZENTIVA 2,5 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 64227441 | RAMIPRIL BIOGARAN 2,5 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 69827059 | RAMIPRIL EG 10 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67791290 | RAMIPRIL ARROW LAB 2,5 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 64987864 | TRIATEC 2,5 mg, comprimé sécable | Comprimé sécable | BB FARMA (ITALIE) | Active |
+| 65542746 | RAMIPRIL EG 2,5 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62403684 | RAMIPRIL EG 5 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64687386 | RAMIPRIL EVOLUGEN 2,5 mg, comprimé sécable | Comprimé sécable | EVOLUPHARM | Active |
+| 65727136 | RAMIPRIL VIATRIS 1,25 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 66285105 | RAMIPRIL VIATRIS 2,5 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 65583611 | RAMIPRIL VIATRIS 5 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 60427163 | RAMIPRIL TEVA SANTE 1,25 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 66177542 | RAMIPRIL CRISTERS PHARMA 10 mg, comprimé sécable | Comprimé sécable | SUN PHARMA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 606
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-15
+last_modified_at: 2026-11-24
 description: "Piperacillin : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "piperacillin"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "sclerosing cholangitis", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "WHIM syndrome"]
@@ -80,15 +80,37 @@ Aucune publication ne démontre un effet thérapeutique. Les références les pl
 
 ## Informations de Marché en France
 
-Le médicament est commercialisé et **20 AMM valides** sont recensées. Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 20) :
+Le médicament est commercialisé et **20 AMM valides** sont recensées. Le texte d'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60284142 | PIPERACILLINE PANPHARMA 4 g (I.M., I.V.) | Poudre pour solution injectable | Non renseignée (AMM active) |
-| 60251352 | PIPERACILLINE PANPHARMA 1 g (I.M., I.V.) | Poudre pour solution injectable | Non renseignée (AMM active) |
-| 60445784 | TAZOCILLINE 4 g/0,5 g | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 67873780 | TAZOCILLINE 2 g/0,25 g | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 63012514 | PIPERACILLINE/TAZOBACTAM PANPHARMA 4 g/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60284142 | PIPERACILLINE PANPHARMA 4 g, poudre pour solution injectable (I.M., I.V.) | Poudre pour solution injectable | PANPHARMA | Active |
+| 60251352 | PIPERACILLINE PANPHARMA 1 g, poudre pour solution injectable (I.M., I.V.) | Poudre pour solution injectable | PANPHARMA | Active |
+| 66252571 | PIPERACILLINE TAZOBACTAM VIATRIS 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 67909536 | PIPERACILLINE/TAZOBACTAM SANDOZ 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SANDOZ | Active |
+| 63803382 | PIPERACILLINE/TAZOBACTAM PANPHARMA 2 g/250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PANPHARMA | Active |
+| 64554051 | PIPERACILLINE/TAZOBACTAM KABI 2 g/250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 65844666 | PIPERACILLINE/TAZOBACTAM QILU 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | QILU PHARMA SPAIN (ESPAGNE) | Active |
+| 69320440 | PIPERACILLINE/TAZOBACTAM REIG JOFRE 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 61249272 | PIPERACILLINE/TAZOBACTAM TILLOMED 4 g/0,5 g poudre pour solution pour perfusion | Poudre pour solution pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 62405443 | PIPERACILLINE/TAZOBACTAM KALCEKS 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 63012514 | PIPERACILLINE/TAZOBACTAM PANPHARMA 4 g/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PANPHARMA | Active |
+| 67726780 | PIPERACILLINE/TAZOBACTAM KALCEKS 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 61008378 | PIPERACILLINE TAZOBACTAM VIATRIS 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 60445784 | TAZOCILLINE 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 67101191 | PIPERACILLINE/TAZOBACTAM SANDOZ 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SANDOZ | Active |
+| 60606515 | PIPERACILLINE/TAZOBACTAM REIG JOFRE 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 62380285 | PIPERACILLINE/TAZOBACTAM ARROW 4 g/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 67873780 | TAZOCILLINE 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 63455004 | PIPERACILLINE/TAZOBACTAM KABI 4 g/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 66739814 | PIPERACILLINE/TAZOBACTAM ARROW 2 g/250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

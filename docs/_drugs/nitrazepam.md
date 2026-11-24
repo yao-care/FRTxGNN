@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 540
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "nitrazepam"
 predicted_indications: ["Wernicke-Korsakoff syndrome"]
 description: "Nitrazepam : nouvelle indication prédite, Wernicke-Korsakoff syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -96,9 +96,15 @@ Les publications les plus pertinentes pour le nitrazépam dans l'insomnie sont l
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66205536 | MOGADON 5 mg, comprimé sécable (VIATRIS MEDICAL) | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66205536 | MOGADON 5 mg, comprimé sécable | Comprimé sécable | VIATRIS MEDICAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

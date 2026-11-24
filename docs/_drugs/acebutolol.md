@@ -69,9 +69,35 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61969626 | SECTRAL 40 mg/mL, solution buvable en flacon | Solution buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61969626 | SECTRAL 40 mg/mL, solution buvable en flacon | Solution buvable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 60281598 | ACEBUTOLOL BIOGARAN 400 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60477038 | ACEBUTOLOL ZYDUS 200 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 62500717 | ACEBUTOLOL VIATRIS 400 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62604153 | ACEBUTOLOL TEVA 400 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 63151492 | ACEBUTOLOL ZYDUS 400 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 63661520 | ACEBUTOLOL ARROW LAB 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 63874155 | ACEBUTOLOL EG 400 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63880820 | ACEBUTOLOL ALMUS 200 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64000931 | SECTRAL 400 mg, comprimé pelliculé | Comprimé pelliculé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64021217 | ACEBUTOLOL CRISTERS 200 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 64304820 | ACEBUTOLOL SANDOZ 200 mg, comprimé enrobé | Comprimé enrobé | SANDOZ | Active |
+| 64847741 | ACEBUTOLOL TEVA 200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 65637614 | ACEBUTOLOL BIOGARAN 200 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65842957 | ACEBUTOLOL ZENTIVA 400 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66931921 | SECTRAL 200 mg, comprimé pelliculé | Comprimé pelliculé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 67050875 | ACEBUTOLOL SANDOZ 400 mg, comprimé enrobé | Comprimé enrobé | SANDOZ | Active |
+| 67579483 | SECTRAL LP 500 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 62096139 | ACEBUTOLOL ARROW 400 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Abrogée |
+| 66904792 | ACEBUTOLOL ARROW 200 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 L'acebutolol est commercialisé en France ; la liste ci-dessus repose sur les données locales disponibles.
 

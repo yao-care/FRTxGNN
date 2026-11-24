@@ -85,13 +85,22 @@ Toutes les publications retenues sont précliniques (macaques, cultures cellulai
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63586968 | ISENTRESS 100 mg, comprimé à croquer | Comprimé à croquer | Non disponible (AMM active) |
-| 63588136 | ISENTRESS 400 mg, comprimé pelliculé | Comprimé pelliculé | Non disponible (AMM active) |
-| 67315206 | ISENTRESS 25 mg, comprimé à croquer | Comprimé à croquer | Non disponible (AMM active) |
-| 69260153 | ISENTRESS 100 mg, granulés pour suspension buvable | Granulés pour suspension buvable | Non disponible (AMM active) |
-| 64912032 | RALTEGRAVIR VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63586968 | ISENTRESS 100 mg, comprimé à croquer | Comprimé à croquer | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 63588136 | ISENTRESS 400 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 67315206 | ISENTRESS 25 mg, comprimé à croquer | Comprimé à croquer | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 69260153 | ISENTRESS 100 mg, granulés pour suspension buvable | Granulés pour suspension buvable | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 64912032 | RALTEGRAVIR VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62457041 | ISENTRESS 600 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 68012589 | RALTEGRAVIR BIOGARAN 600 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68442231 | RALTEGRAVIR ZENTIVA 600 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le raltégravir est commercialisé en France ; huit AMM sont valides au total, dont cinq sont listées ci-dessus.
 

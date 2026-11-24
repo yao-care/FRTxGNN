@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 487
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "methotrexate"
 predicted_indications: ["pulmonary blastoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "Hodgkins lymphoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Methotrexate : nouvelle indication prédite, Pulmonary blastoma (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -114,13 +114,35 @@ Aucun de ces travaux ne concerne directement le blastome pulmonaire.
 
 Le texte de l'indication approuvée n'est pas disponible dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61972768 | IZIXATE 30 mg/0,60 mL (Accord Healthcare France) | Solution injectable (stylo prérempli) | Non disponible |
-| 64739573 | METOTAB 2,5 mg (Medac) | Comprimé | Non disponible |
-| 63424973 | NORDIMET 15 mg (Nordic Group) | Solution injectable (stylo prérempli) | Non disponible |
-| 64768062 | METOJECT 10 mg/0,2 ml (Medac) | Solution injectable (seringue préremplie) | Non disponible |
-| 61981906 | METHOTREXATE VIATRIS 25 mg/ml | Solution injectable | Non disponible |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61972768 | IZIXATE 30 mg/0,60 mL, solution injectable en stylo injecteur prérempli | Solution injectable | ACCORD HEALTHCARE FRANCE | Active |
+| 64739573 | METOTAB 2,5 mg, comprimé | Comprimé | MEDAC | Active |
+| 63424973 | NORDIMET 15 mg, solution injectable en stylo prérempli | Solution injectable | NORDIC GROUP (PAYS-BAS) | Active |
+| 64768062 | METOJECT 10 mg/0,2 ml, solution injectable en seringue préremplie | Solution injectable | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 61981906 | METHOTREXATE VIATRIS 25 mg/ml, solution injectable | Solution injectable | VIATRIS SANTE | Active |
+| 67791066 | METOJECT 22,5 mg/0,45 ml, solution injectable en stylo prérempli | Solution injectable | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 62537295 | METOTAB 10 mg, comprimé sécable | Comprimé sécable | MEDAC | Active |
+| 60705972 | IMETH 25 mg/ml, solution injectable en seringue préremplie | Solution injectable | NORDIC GROUP (PAYS-BAS) | Active |
+| 61872547 | IMETH 20 mg/0,8 ml, solution injectable en seringue préremplie | Solution injectable | NORDIC GROUP (PAYS-BAS) | Active |
+| 69310332 | METOJECT 20 mg/0,4 ml, solution injectable en seringue préremplie | Solution injectable | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 65288721 | METHOTREXATE TEVA 2,5 POUR CENT (500 mg/20 mL), solution injectable | Solution injectable | TEVA SANTE | Active |
+| 67670463 | METOJECT 15 mg/0,30 ml, solution injectable en stylo prérempli | Solution injectable | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 66035589 | IZIXATE 10 mg/0,20 mL, solution injectable en stylo injecteur prérempli | Solution injectable | ACCORD HEALTHCARE FRANCE | Active |
+| 68781833 | IMETH 17,5 mg/0,7 ml, solution injectable en seringue préremplie | Solution injectable | NORDIC GROUP (PAYS-BAS) | Active |
+| 66253794 | METOJECT 15 mg/0,3 ml, solution injectable en seringue préremplie | Solution injectable | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 69991749 | METOJECT 7,5 mg/0,15 ml, solution injectable en seringue préremplie | Solution injectable | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 64229894 | IZIXATE 20 mg/0,40 mL, solution injectable en stylo injecteur prérempli | Solution injectable | ACCORD HEALTHCARE FRANCE | Active |
+| 67311325 | NORDIMET 10 mg, solution injectable en stylo prérempli | Solution injectable | NORDIC GROUP (PAYS-BAS) | Active |
+| 67853564 | NOVATREX 2,5 mg, comprimé | Comprimé | PFIZER HOLDING FRANCE | Active |
+| 67217445 | METHOTREXATE VIATRIS 100 mg/ml, solution injectable | Solution injectable | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

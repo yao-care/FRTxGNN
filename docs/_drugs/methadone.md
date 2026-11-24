@@ -82,10 +82,33 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67255773 | METHADONE AP-HP 1,33 mg/ml, sirop | Sirop | Non renseignée (AMM active) |
-| 68726979 | METHADONE AP-HP 5 mg, gélule | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67255773 | METHADONE AP-HP 1,33 mg/ml, sirop | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 68726979 | METHADONE AP-HP 5 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 60998856 | METHADONE AP-HP 10 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 61144346 | METHADONE AP-HP 5 mg/3,75 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 61181501 | ZORYON 40 mg/15 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 61610484 | METHADONE AP-HP 60 mg/15 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 61687452 | METHADONE AP-HP 20 mg/ 15 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 61767418 | ZORYON 40 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 62258872 | ZORYON 20 mg/15 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 62870086 | ZORYON 10 mg/7,5 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 63009443 | METHADONE AP-HP 20 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 63644827 | METHADONE AP-HP 40 mg/15 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 64329581 | ZORYON 20 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 64441527 | ZORYON 5 mg/3,75 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 64699513 | ZORYON 5 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 65738008 | METHADONE AP-HP 40 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 66510865 | ZORYON 10 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 67296909 | METHADONE AP-HP 1 mg, gélule | Gélule | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 68874401 | METHADONE AP-HP 10 mg/7,5 ml, sirop en récipient unidose | Sirop | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

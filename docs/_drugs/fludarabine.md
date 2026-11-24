@@ -99,11 +99,18 @@ Aucun de ces essais ne teste la fludarabine en monothérapie dans le myélome.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62818883 | FLUDARABINE TEVA 25 mg/mL (active) | Solution à diluer injectable ou pour perfusion | Non renseignée |
-| 64281631 | FLUDARABINE ACCORD 25 mg/ml (active) | Solution à diluer pour solution injectable ou pour perfusion | Non renseignée |
-| 62751438 | FLUDARA 10 mg (active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62818883 | FLUDARABINE TEVA 25 mg/mL, solution à diluer pour solution injectable/pour perfusion | Solution à diluer injectable ou pour perfusion | TEVA SANTE | Active |
+| 64281631 | FLUDARABINE ACCORD 25 mg/ml, solution à diluer pour solution injectable/pour perfusion | Solution à diluer pour solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 62751438 | FLUDARA 10 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI (PAYS-BAS) | Active |
+| 61324127 | FLUDARA 50 mg, poudre pour solution injectable ou perfusion | Poudre pour solution injectable ou pour perfusion | GENZYME EUROPE (PAYS BAS) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

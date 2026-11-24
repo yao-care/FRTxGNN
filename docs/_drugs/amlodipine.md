@@ -70,6 +70,36 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63566442 | AMLODIPINE ZYDUS 5 mg, gélule | Gélule | ZYDUS FRANCE | Active |
+| 63811710 | AMLODIPINE EG 5 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68500357 | AMLODIPINE ZYDUS 10 mg, gélule | Gélule | ZYDUS FRANCE | Active |
+| 61890673 | NATRIXAM 1,5 mg/5 mg, comprimé à libération modifiée | Comprimé à libération modifiée | DIFARMED (ESPAGNE) | Active |
+| 61939921 | AMLOR 10 mg, gélule | Gélule | VIATRIS UP | Active |
+| 62042102 | AMLODIPINE ALMUS 5 mg, gélule | Gélule | BIOGARAN | Active |
+| 62514791 | AMLODIPINE ARROW 10 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 62920265 | AMLODIPINE ZENTIVA 10 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 63458349 | AMLOR 5 mg, gélule | Gélule | VIATRIS UP | Active |
+| 63657486 | AMLODIPINE VIATRIS 10 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 64891741 | AMLODIPINE CRISTERS 10 mg, gélule | Gélule | CRISTERS | Active |
+| 65254879 | AMLODIPINE VIATRIS 5 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 65681660 | AMLODIPINE SANDOZ 5 mg, gélule | Gélule | SANDOZ | Active |
+| 65728601 | AMLODIPINE BIOGARAN 5 mg, gélule | Gélule | BIOGARAN | Active |
+| 66340498 | AMLODIPINE ARROW 5 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 62204255 | AMLODIPINE VIATRIS GENERIQUES 5 mg, gélule | Gélule | VIATRIS UP | Archivée |
+| 63436445 | AMLODIPINE VIATRIS GENERIQUES 10 mg, gélule | Gélule | VIATRIS UP | Archivée |
+| 65157330 | AMLODIPINE SUN 5 mg, gélule | Gélule | SUN PHARMA FRANCE | Abrogée |
+| 65556347 | AMLODIPINE SUN 10 mg, gélule | Gélule | SUN PHARMA FRANCE | Abrogée |
+| 66320225 | AMLODIPINE ARROW GENERIQUES 5 mg, gélule | Gélule | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
+
 Les données locales recensent de nombreuses AMM pour des spécialités à base d'amlodipine (au moins 15 valides ; gélules et comprimé à libération modifiée parmi celles détaillées), mais les textes d'indication ne sont pas renseignés.
 
 <!-- review:begin fr-lic-20261106-amlodipine-1 -->

@@ -95,10 +95,17 @@ Il faut toutefois être transparent : cette prédiction est en grande partie con
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69349666 | ZYCLARA 3,75 %, crème (statut : active) | Crème | Texte d'indication non disponible |
-| 66916232 | ALDARA 5 %, crème (statut : active) | Crème | Texte d'indication non disponible |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69349666 | ZYCLARA 3,75 %, crème | Crème | VIATRIS HEALTHCARE (IRLANDE) | Active |
+| 66916232 | ALDARA 5 %, crème | Crème | VIATRIS HEALTHCARE (IRLANDE) | Active |
+| 68302585 | BASCELLEX 50 mg/g, crème | Crème | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 117
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brodalumab : nouvelle indication prédite, Strongyloïdose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "BRODALUMAB"
 predicted_indications: ["strongyloidiasis", "eye disease", "vitamin deficiency disorder", "von Hippel anomaly", "chronic relapsing inflammatory optic neuropathy", "optic perineuritis", "isolated optic neuritis", "recurrent idiopathic neuroretinitis", "episcleritis periodica fugax", "nodular episcleritis"]
@@ -87,9 +87,15 @@ Aucune littérature associée disponible actuellement pour la strongyloïdose.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65620419 | KYNTHEUM 210 mg, solution injectable en seringue préremplie (LEO PHARMA A/S, Danemark) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65620419 | KYNTHEUM 210 mg, solution injectable en seringue préremplie | Solution injectable | LEO PHARMA A/S (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

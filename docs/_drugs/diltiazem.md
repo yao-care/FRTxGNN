@@ -71,13 +71,35 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 60998977 | DILTIAZEM (CHLORHYDRATE DE) | poudre pour solution injectable | Active |
-| 63692245 | DILTIAZEM (CHLORHYDRATE DE) | comprimé | Active |
-| 68227652 | DILTIAZEM (CHLORHYDRATE DE) | comprimé enrobé à libération prolongée | Active |
-| 65662076 | DILTIAZEM (CHLORHYDRATE DE) | comprimé enrobé à libération prolongée | Active |
-| 62018628 | DILTIAZEM (CHLORHYDRATE DE) | poudre et  solution pour préparation inj | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60998977 | TILDIEM 100 mg, poudre pour solution injectable (IV) | Poudre pour solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 63692245 | TILDIEM 60 mg, comprimé | Comprimé | SANOFI WINTHROP INDUSTRIE | Active |
+| 68227652 | BI TILDIEM L.P. 90 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | SANOFI WINTHROP INDUSTRIE | Active |
+| 65662076 | BI TILDIEM L.P. 120 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | SANOFI WINTHROP INDUSTRIE | Active |
+| 62018628 | TILDIEM 25 mg, poudre et solution pour préparation injectable I.V. | Poudre et solution pour préparation injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 60319789 | DILTIAZEM ZENTIVA LAB LP 300 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Active |
+| 60463871 | DILTIAZEM BIOGARAN 60 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 60742508 | DILTIAZEM SANDOZ LP 300 mg, gélule à libération prolongée | Gélule à libération prolongée | SANDOZ | Active |
+| 60877057 | DILTIAZEM TEVA L.P. 90 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 61381352 | DILTIAZEM ARROW LP 300 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Active |
+| 62255584 | MONO TILDIEM LP 200 mg, gélule à libération prolongée | Gélule à libération prolongée | SANOFI WINTHROP INDUSTRIE | Active |
+| 63204984 | DILTIAZEM VIATRIS L.P. 90 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS SANTE | Active |
+| 63283572 | DILTIAZEM VIATRIS L.P. 120 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS SANTE | Active |
+| 63367821 | MONO TILDIEM LP 300 mg, gélule à libération prolongée | Gélule à libération prolongée | SANOFI WINTHROP INDUSTRIE | Active |
+| 63541827 | DILTIAZEM TEVA SANTE LP 300 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 64121915 | DILTIAZEM BGR LP 300 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 64159780 | DILTIAZEM TEVA L.P. 120 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 64285537 | CHLORHYDRATE DE DILTIAZEM VIATRIS 60 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 64336921 | DILTIAZEM VIATRIS LP 200 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS SANTE | Active |
+| 64721696 | DILTIAZEM SANDOZ LP 200 mg, gélule à libération prolongée | Gélule à libération prolongée | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

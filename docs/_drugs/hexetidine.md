@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 379
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Hexetidine : nouvelle indication prédite, Anévrisme du septum interventriculaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (antiseptique buccal local)"
 monitor_inn: "hexetidine"
 predicted_indications: ["interventricular septum aneurysm", "pulmonary valve disease", "orofacial clefting syndrome", "Laubry-Pezzi syndrome", "genetic syndromic Pierre Robin syndrome", "disorder of fucoglycosan synthesis", "partial deletion of the long arm of chromosome 22", "Pierre Robin syndrome associated with a chromosomal anomaly", "partial deletion of the long arm of chromosome 7", "Jeune syndrome situs inversus"]
@@ -83,13 +83,21 @@ Aucune littérature associée disponible actuellement pour l'anévrisme du septu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62906059 | Hexetidine Biogaran Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM active) |
-| 67768847 | Hextril Menthe 0,1 pour cent | Solution pour bain de bouche | Non renseignée (AMM active) |
-| 61455112 | Hexetidine EG Labo Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM active) |
-| 67376038 | Hextril 0,1 pour cent | Bain de bouche, flacon | Non renseignée (AMM active) |
-| 66929112 | Hexetidine Viatris Conseil 0,1 % | Solution pour bain de bouche | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62906059 | HEXETIDINE BIOGARAN CONSEIL 0,1 %, solution pour bain de bouche | Solution pour bain de bouche | BIOGARAN | Active |
+| 67768847 | HEXTRIL MENTHE 0,1 POUR CENT, solution pour bain de bouche | Solution pour bain de bouche | KENVUE FRANCE | Active |
+| 61455112 | HEXETIDINE EG LABO CONSEIL 0,1 %, solution pour bain de bouche | Solution pour bain de bouche | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67376038 | HEXTRIL 0,1 POUR CENT, bain de bouche, flacon | Bain de bouche | KENVUE FRANCE | Active |
+| 66929112 | HEXETIDINE VIATRIS CONSEIL 0,1 %, solution pour bain de bouche | Solution pour bain de bouche | VIATRIS SANTE | Active |
+| 61841548 | HEXETIDINE TEVA Conseil 0,1 %, solution pour bain de bouche | Solution pour bain de bouche | TEVA SANTE | Active |
+| 60095056 | HEXTRIL 0,1 POUR CENT, pâte dentifrice | Pâte dentifrice | KENVUE FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -76,6 +76,29 @@ Cette publication n'étudie pas l'effet thérapeutique du captopril sur la néph
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64429514 | NOYADA 25 mg/5 ml, solution buvable | Solution buvable | ETHYPHARM | Active |
+| 68170799 | CAPTOPRIL ARROW 50 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 61090375 | CAPTOPRIL ARROW 25 mg, comprimé quadrisécable | Comprimé quadrisécable | ARROW GENERIQUES | Active |
+| 67318234 | CAPTOPRIL BIOGARAN 50 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 62231576 | NOYADA 5 mg/5ml, solution buvable | Solution buvable | ETHYPHARM | Active |
+| 69283419 | CAPTOPRIL VIATRIS 25 mg, comprimé quadrisécable | Comprimé quadrisécable | VIATRIS SANTE | Active |
+| 64801263 | CAPTOPRIL BIOGARAN 25 mg, comprimé quadrisécable | Comprimé quadrisécable | BIOGARAN | Active |
+| 61665915 | CAPTOPRIL EG 25 mg, comprimé quadrisécable | Comprimé quadrisécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68080825 | CAPTOPRIL EG 50 mg, comprimé quadrisécable | Comprimé quadrisécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68762516 | CAPTOPRIL VIATRIS 50 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 63516425 | CAPTOPRIL/HYDROCHLOROTHIAZIDE VIATRIS 50 mg/25 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 68078991 | CAPTOPRIL/HYDROCHLOROTHIAZIDE EG 50 mg/25 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62526313 | CAPTOPRIL/HYDROCHLOROTHIAZIDE BIOGARAN 50 mg/25 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 60214350 | CAPTOPRIL HYDROCHLOROTHIAZIDE ARROW 50 mg/25 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
 Le captopril est commercialisé en France. Les données réglementaires locales recensent des spécialités sous les formes suivantes : solution buvable, comprimé sécable et comprimé quadrisécable. Ces enregistrements ne comportent pas de texte d'indication.
 
 ## Considérations de Sécurité

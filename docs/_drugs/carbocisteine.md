@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 141
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Carbocisteine : nouvelle indication prédite, Goutte (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (les textes d'indication de…"
 monitor_inn: "carbocisteine"
 predicted_indications: ["gout"]
@@ -88,13 +88,35 @@ Les 20 AMM recensées sont des spécialités à base de carbocistéine seule. Le
 
 <!-- review:end fr-lic-20261106-carbocisteine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66781076 | Carbocistéine Teva Conseil 2 % Enfants sans sucre | Solution buvable | Non renseignée |
-| 64024124 | Carbocistéine UPSA 5 % Adultes sans sucre | Solution buvable | Non renseignée |
-| 68902014 | Bronchex 750 mg/15 ml Adultes sans sucre | Solution buvable | Non renseignée |
-| 63396673 | Humex Expectorant Carbocistéine 750 mg/10 ml Adultes sans sucre | Solution buvable | Non renseignée |
-| 64077212 | Carbocistéine H2 Pharma 2 % Enfants sans sucre | Solution buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66781076 | CARBOCISTEINE TEVA CONSEIL 2 % ENFANTS SANS SUCRE, solution buvable édulcorée à la saccha… | Solution buvable | TEVA SANTE | Active |
+| 64024124 | CARBOCISTEINE UPSA 5 % ADULTES SANS SUCRE, solution buvable édulcorée à la saccharine sod… | Solution buvable | UPSA | Active |
+| 68902014 | BRONCHEX 750 mg/15 ml ADULTES SANS SUCRE, solution buvable en sachet édulcorée à la sacch… | Solution buvable | LIBERTY PHARMA (LUXEMBOURG) | Active |
+| 64077212 | CARBOCISTEINE H2 PHARMA 2% ENFANTS SANS SUCRE, solution buvable édulcorée à la saccharine… | Solution buvable | H4 PHARMA | Active |
+| 66283015 | BRONCHOKOD 2 POUR CENT ENFANTS, sirop | Sirop | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63183351 | CARBOCISTEINE CLARIX 750 mg/10 ml ADULTES, solution buvable en sachet édulcorée à la sacc… | Solution buvable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 60951543 | CARBOCISTEINE EG LABO CONSEIL 5 % ADULTES SANS SUCRE, solution buvable édulcorée à la sac… | Solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65899367 | CARBOCISTEINE ZENTIVA CONSEIL 5 % ADULTES SANS SUCRE, sirop édulcoré à la saccharine sodi… | Sirop | ZENTIVA FRANCE | Active |
+| 63690162 | CARBOCISTEINE CLARIX 5 % ADULTES, solution buvable édulcorée à la saccharine sodique | Solution buvable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 64671866 | CARBOCISTEINE VIATRIS CONSEIL 2 % ENFANTS SANS SUCRE, solution buvable édulcorée au malti… | Solution buvable | VIATRIS SANTE | Active |
+| 65004968 | CARBOCISTEINE BIOGARAN CONSEIL 2 % ENFANTS SANS SUCRE, solution buvable édulcorée à la sa… | Solution buvable | BIOGARAN | Active |
+| 63314886 | CARBOCISTEINE BIOGARAN CONSEIL 5 POUR CENT SANS SUCRE, solution buvable en flacon édulcor… | Solution buvable | BIOGARAN | Active |
+| 69016462 | BRONCATHIOL EXPECTORANT ADULTES, solution buvable | Solution buvable | MARIA CLEMENTINE MARTIN KLOSTERFRAU (ALLEMAGNE) | Active |
+| 67094067 | HUMEX 5 % ADULTES EXPECTORANT SANS SUCRE, solution buvable édulcorée à la saccharine sodi… | Solution buvable | LABORATOIRES URGO HEALTHCARE | Active |
+| 65282490 | CARBOCISTEINE ARROW 5 % ADULTES SANS SUCRE, solution buvable édulcorée à la saccharine so… | Solution buvable | ARROW GENERIQUES | Active |
+| 64863635 | CARBOCISTEINE VIATRIS CONSEIL 5 POUR CENT ADULTES, sirop | Sirop | VIATRIS SANTE | Active |
+| 64357132 | CARBOCISTEINE ZENTIVA CONSEIL 2 % ENFANTS SANS SUCRE, sirop édulcoré à la saccharine sodi… | Sirop | ZENTIVA FRANCE | Active |
+| 64597818 | CARBOCISTEINE TEVA CONSEIL 2 POUR CENT ENFANTS, sirop | Sirop | TEVA SANTE | Active |
+| 63396673 | HUMEX EXPECTORANT CARBOCISTEINE 750 mg/10 ml ADULTES SANS SUCRE, solution buvable en sach… | Solution buvable | LABORATOIRES URGO HEALTHCARE | Archivée |
+| 65548788 | MEDIBRONC ENFANTS, sirop en flacon | Sirop | P&G HEALTH FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

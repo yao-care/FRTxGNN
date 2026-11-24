@@ -82,10 +82,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63958849 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (BAXTER) | Dispositif | Non renseignée (AMM active) |
-| 68731823 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique (DIFARMED, Espagne) | Dispositif | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63958849 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique | Dispositif | BAXTER | Active |
+| 68731823 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique | Dispositif | DIFARMED (ESPAGNE) | Active |
+| 63034382 | SCOPODERM TTS 1 mg/72 heures, dispositif transdermique | Dispositif | BB FARMA (ITALIE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 392
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "imiglucerase"
 predicted_indications: ["Hurler syndrome", "Scheie syndrome", "benign neoplasm of adrenal gland", "autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease"]
 description: "Imiglucerase : nouvelle indication prédite, Syndrome de Hurler (Hurler syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -84,9 +84,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62616337 | CEREZYME 400 U, poudre pour solution à diluer pour perfusion (SANOFI, Pays-Bas) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62616337 | CEREZYME 400 U, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SANOFI (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

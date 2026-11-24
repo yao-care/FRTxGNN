@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 31
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Alanine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM"
 monitor_inn: "ALANINE"
 predicted_indications: ["gastroparesis (disease)"]
@@ -102,13 +102,35 @@ Les textes d'indication ne sont pas disponibles. Voici les 5 premières :
 
 <!-- review:end fr-lic-20261106-alanine-2 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 64728712 | ABUFENE 400 mg, comprimé | comprimé | Non disponible |
-| 61960303 | AMINOVEN 10 POUR CENT | solution pour perfusion | Non disponible |
-| 69667989 | AMINOVEN 5 POUR CENT | solution pour perfusion | Non disponible |
-| 63183821 | AMINOPLASMAL 8 | solution pour perfusion | Non disponible |
-| 61786735 | AMINOMIX 500 | solution et solution pour perfusion | Non disponible |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64728712 | ABUFENE 400 mg, comprimé | Comprimé | BOUCHARA-RECORDATI | Active |
+| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67972077 | AMINOPLASMAL 12, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 60274212 | REANUTRIFLEX, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 65461618 | NUTRINEAL PD4 A 1,1 % D'ACIDES AMINES, solution pour dialyse péritonéale | Solution pour dialyse péritonéale | VANTIVE | Active |
+| 62932118 | REANUTRIFLEX OMEGA, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67592324 | OLIMEL N12, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 69063120 | OLIMEL N9, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61983743 | OLIMEL N7, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 63740918 | SMOFKABIVEN, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61117445 | CLINIMIX N9 G15 E, solution pour perfusion en poche bicompartiment | Solution et solution pour perfusion | BAXTER | Active |
+| 60715870 | SMOFKABIVEN PROTEINE, émulsion pour perfusion | Émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 61786735 | AMINOMIX 500, solution pour perfusion | Solution et solution pour perfusion | FRESENIUS KABI FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

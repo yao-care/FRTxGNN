@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "ALPROSTADIL"
 predicted_indications: ["aortic malformation", "congenital tricuspid stenosis", "congenital valvular dysplasia", "straddling or overriding tricuspid valve", "tricuspid valve prolapse (disease)", "anomaly of the tricuspid subvalvular apparatus", "double outlet right ventricle with atrioventricular septal defect, pulmonary stenosis, heterotaxy", "heart septal defect", "endemic goiter"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprostadil : nouvelle indication prédite, Malformation aortique (aortic malformation) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 
@@ -83,13 +83,21 @@ Aucun essai clinique associé enregistré actuellement.
 
 L'alprostadil est commercialisé en France. Les AMM suivantes figurent dans les données locales ; aucun texte d'indication n'y est renseigné.
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 65806466 | Alprostadil Intsel Chimos 0,5 mg/ml | Solution injectable | Non renseignée |
-| 60731732 | Vitaros 300 microgrammes | Crème | Non renseignée |
-| 66297965 | Edex 20 microgrammes/1 ml | Poudre et solvant pour solution injectable | Non renseignée |
-| 68594342 | Caverject 20 microgrammes/1 ml | Lyophilisat et solution pour usage parentéral | Non renseignée |
-| 68103252 | Prostine VR 0,5 mg/ml | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65806466 | ALPROSTADIL INTSEL CHIMOS 0,5 mg/ml, solution injectable | Solution injectable | INTSEL CHIMOS | Active |
+| 60731732 | VITAROS 300 microgrammes, crème | Crème | LABORATOIRES MAJORELLE | Active |
+| 66297965 | EDEX 20 microgrammes/1 ml, poudre et solvant pour solution injectable (voie intracaverneu… | Poudre et solvant pour solution injectable | AMDIPHARM | Active |
+| 68594342 | CAVERJECT 20 microgrammes/1 ml, lyophilisat et solution pour usage parentéral | Lyophilisat et solution pour usage parentéral | PFIZER HOLDING FRANCE | Active |
+| 68103252 | PROSTINE VR 0,5 mg/ml, solution injectable | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 67015187 | EDEX 10 microgrammes/1 ml, poudre et solvant pour solution injectable (voie intracaverneu… | Poudre et solvant pour solution injectable | AMDIPHARM | Active |
+| 65613168 | CAVERJECT 10 microgrammes/1 ml, lyophilisat et solution pour usage parentéral | Lyophilisat et solution pour usage parentéral | PFIZER HOLDING FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 239
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Diethylcarbamazine : nouvelle indication prédite, Lymphœdème syndromique (niveau de preuve L5). Indication d'origine : Filariose lymphatique, éléphantiasis, loase…"
 monitor_inn: "diethylcarbamazine"
 predicted_indications: ["syndromic lymphedema", "primary lymphedema"]
@@ -79,9 +79,15 @@ Pour le lymphœdème primaire (2e prédiction, score 0,9925), 19 publications on
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63411794 | NOTEZINE 100 mg, comprimé sécable (SANOFI WINTHROP INDUSTRIE) | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63411794 | NOTEZINE 100 mg, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

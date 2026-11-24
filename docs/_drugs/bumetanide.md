@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "bumetanide"
 predicted_indications: ["acute pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bumetanide : nouvelle indication prédite, Cœur pulmonaire aigu (acute pulmonary heart disease) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
@@ -80,11 +80,17 @@ Aucune de ces publications n'étudie directement le cœur pulmonaire aigu.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67563415 | BURINEX 5 mg, comprimé | Comprimé | Non renseignée |
-| 68232635 | BURINEX 1 mg, comprimé | Comprimé | Non renseignée |
-| 61834055 | BURINEX 2 mg/4 ml IV, solution injectable en ampoule | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67563415 | BURINEX 5 mg, comprimé | Comprimé | KARO PHARMA (SUEDE) | Active |
+| 68232635 | BURINEX 1 mg, comprimé | Comprimé | KARO PHARMA (SUEDE) | Active |
+| 61834055 | BURINEX 2 mg/4 ml IV, solution injectable en ampoule | Solution injectable | KARO PHARMA (SUEDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

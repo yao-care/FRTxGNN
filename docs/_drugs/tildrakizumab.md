@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 762
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tildrakizumab : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (niveau de preuve L5). Indication d'origine : Non disponible dans les données compilées"
 monitor_inn: "TILDRAKIZUMAB"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "diabetic cataract", "drug-induced osteoporosis"]
@@ -79,11 +79,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65992266 | ILUMETRI 200 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 69596271 | ILUMETRI 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 69150269 | ILUMETRI 100 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65992266 | ILUMETRI 200 mg, solution injectable en seringue préremplie | Solution injectable | ALMIRALL (ESPAGNE) | Active |
+| 69596271 | ILUMETRI 100 mg, solution injectable en seringue préremplie | Solution injectable | ALMIRALL (ESPAGNE) | Active |
+| 69150269 | ILUMETRI 100 mg, solution injectable en stylo prérempli | Solution injectable | ALMIRALL (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les trois AMM (titulaire : ALMIRALL, Espagne) sont valides ; le médicament est commercialisé.
 

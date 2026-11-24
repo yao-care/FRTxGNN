@@ -86,12 +86,19 @@ Ces éléments restent mécanistiques ou de phase précoce. Aucune donnée de ph
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63901015 | HYCAMTIN 1 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 61126871 | HYCAMTIN 4 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 63093822 | HYCAMTIN 0,25 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 65275325 | TOPOTECAN HOSPIRA 4 mg/4 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63901015 | HYCAMTIN 1 mg, gélule | Gélule | SANDOZ PHARMACEUTICALS (SLOVENIE) | Active |
+| 61126871 | HYCAMTIN 4 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SANDOZ PHARMACEUTICALS (SLOVENIE) | Active |
+| 63093822 | HYCAMTIN 0,25 mg, gélule | Gélule | SANDOZ PHARMACEUTICALS (SLOVENIE) | Active |
+| 65275325 | TOPOTECAN HOSPIRA 4 mg/4ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 65945665 | TOPOTECANE ACCORD 1 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

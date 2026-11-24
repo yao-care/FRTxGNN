@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 329
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "flecainide"
 predicted_indications: ["stroke disorder", "sick sinus syndrome 2, autosomal dominant", "ABri amyloidosis", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "duodenal obstruction", "cerebrovascular disorder", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Flecainide : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
@@ -92,15 +92,37 @@ Il faut toutefois rester prudent : la flécaïnide n'a pas démontré qu'elle pr
 
 ## Informations de Marché en France
 
-20 AMM valides sont recensées ; aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous (20 AMM au total).
+20 AMM valides sont recensées ; aucun texte d'indication approuvée n'est disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61126992 | FLECAINIDE BIOGARAN 100 mg, comprimé sécable | Comprimé sécable | Non renseignée |
-| 69087107 | FLECAINIDE ARROW LAB 100 mg, comprimé sécable | Comprimé sécable | Non renseignée |
-| 61264178 | FLECAINE 100 mg, comprimé sécable | Comprimé sécable | Non renseignée |
-| 62949651 | FLECAINIDE BIOGARAN LP 200 mg | Gélule à libération prolongée | Non renseignée |
-| 69487126 | FLECAINE 10 mg/ml, solution injectable | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61126992 | FLECAINIDE BIOGARAN 100 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 69087107 | FLECAINIDE ARROW LAB 100 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 61264178 | FLECAINE 100 mg, comprimé sécable | Comprimé sécable | VIATRIS MEDICAL | Active |
+| 62949651 | FLECAINIDE BIOGARAN LP 200 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 64631754 | FLECAINIDE BIOGARAN LP 100 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 62015977 | FLECAINIDE BIOGARAN LP 50 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 62512769 | FLECAINIDE TEVA LP 150 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 69961371 | FLECAINIDE TEVA LP 100 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 64197133 | FLECAINIDE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 69487126 | FLECAINE 10 mg/ml, solution injectable | Solution injectable | VIATRIS MEDICAL | Active |
+| 64645960 | FLECAÏNE L.P. 100 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS MEDICAL | Active |
+| 69989424 | FLECAÏNE L.P. 150 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS MEDICAL | Active |
+| 65116508 | FLECAINIDE ZENTIVA LP 200 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Active |
+| 60856668 | FLECAINIDE TEVA LP 200 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 65290658 | FLECAINIDE ZENTIVA LP 50 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Active |
+| 65017848 | FLECAÏNE L.P. 200 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS MEDICAL | Active |
+| 68256579 | FLECAÏNE L.P. 50 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS MEDICAL | Active |
+| 60356613 | FLECAINIDE ZENTIVA LP 100 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Active |
+| 67352838 | FLECAINIDE VIATRIS LP 100 mg, gélule à libération prolongée | Gélule à libération prolongée | VIATRIS SANTE | Active |
+| 69292959 | FLECAINIDE ZENTIVA LP 150 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

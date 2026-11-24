@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "ARIPIPRAZOLE"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "Phelan-McDermid syndrome", "amelocerebrohypohidrotic syndrome", "distal 17p13.3 microdeletion syndrome", "trichotillomania", "Malan overgrowth syndrome", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Aripiprazole : nouvelle indication prédite, Gaze palsy, familial horizontal, with progressive scoliosis (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -94,15 +94,37 @@ Remarque : une méta-analyse figurant dans les données (PMID 38669232) a été 
 
 ## Informations de Marché en France
 
-Les données compilées recensent 20 AMM (liste possiblement partielle) ; les textes d'indication ne sont pas renseignés dans les données locales. Principales AMM :
+Les données compilées recensent 20 AMM (liste possiblement partielle) ; les textes d'indication ne sont pas renseignés dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64224801 | ABILIFY 15 mg, comprimé | comprimé | Non renseignée |
-| 66706942 | ABILIFY MAINTENA 400 mg | poudre et solvant pour suspension injectable à libération prolongée | Non renseignée |
-| 63466449 | ABILIFY MAINTENA 720 mg | suspension injectable à libération prolongée | Non renseignée |
-| 67941085 | ARIPIPRAZOLE TEVA 15 mg | comprimé orodispersible | Non renseignée |
-| 66950163 | ARIPIPRAZOLE ZYDUS 10 mg | comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66950163 | ARIPIPRAZOLE ZYDUS 10 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 68190271 | ARIPIPRAZOLE EVOLUGEN 5 mg, comprimé | Comprimé | EVOLUPHARM | Active |
+| 69675822 | ARIPIPRAZOLE BGR 10 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 67941085 | ARIPIPRAZOLE TEVA 15 mg, comprimé orodispersible | Comprimé orodispersible | TEVA SANTE | Active |
+| 68349332 | ARIPIPRAZOLE ZYDUS 5 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 62653200 | ARIPIPRAZOLE ARROW 15 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 64224801 | ABILIFY 15 mg, comprimé | Comprimé | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 62461940 | ARIPIPRAZOLE MYLAN PHARMA 15 mg, comprimé | Comprimé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 64746201 | ARIPIPRAZOLE ALMUS 5 mg, comprimé | Comprimé | ALMUS FRANCE | Active |
+| 60140882 | ARIPIPRAZOLE TEVA 10 mg, comprimé orodispersible | Comprimé orodispersible | TEVA SANTE | Active |
+| 66706942 | ABILIFY MAINTENA 400 mg, poudre et solvant pour suspension injectable à libération prolon… | Poudre et solvant pour suspension injectable à libération p… | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 60136439 | ARIPIPRAZOLE SANDOZ 15 mg, comprimé | Comprimé | SANDOZ (AUTRICHE) | Active |
+| 68432874 | ARIPIPRAZOLE BGR 15 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 63076762 | ARIPIPRAZOLE EG 10 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63466449 | ABILIFY MAINTENA 720 mg, suspension injectable à libération prolongée en seringue préremp… | Suspension injectable à libération prolongée | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 67269958 | ABILIFY MAINTENA 960 mg, suspension injectable à libération prolongée en seringue préremp… | Suspension injectable à libération prolongée | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 63364330 | ARIPIPRAZOLE CRISTERS 5 mg, comprimé | Comprimé | CRISTERS | Active |
+| 61026419 | ARIPIPRAZOLE EG 15 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66459641 | ARIPIPRAZOLE ZENTIVA 15 mg, comprimé | Comprimé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 68814685 | ARIPIPRAZOLE ZYDUS 15 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "alverine"
 predicted_indications: ["dysthymic disorder", "neurotic disorder", "anxiety disorder", "migraine disorder", "neurotic depression", "melancholia", "benign paroxysmal torticollis of infancy", "agoraphobia", "congenital isolated adrenocorticotropic hormone deficiency (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Alverine : nouvelle indication prédite, Trouble dysthymique (dysthymic disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -70,10 +70,16 @@ Aucune littérature associée disponible actuellement pour le trouble dysthymiqu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61204836 | METEOSPASMYL, capsule molle | Capsule molle | Non renseignée |
-| 60252027 | DOLOSPASMYL 60 mg/300 mg, capsule molle | Capsule molle | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61204836 | METEOSPASMYL, capsule molle | Capsule molle | LABORATOIRES MAYOLY SPINDLER | Active |
+| 60252027 | DOLOSPASMYL 60 mg/300 mg, capsule molle | Capsule molle | LABORATOIRES MAYOLY SPINDLER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

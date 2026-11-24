@@ -80,10 +80,17 @@ L'acide acétique est commercialisé en France. Les deux autorisations valides (
 
 <!-- review:end fr-lic-20261124-acetic_acid-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68976484 | ACETICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
-| 69773711 | ACETICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68976484 | ACETICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 69773711 | ACETICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 67698943 | DIABENE, solution buvable en gouttes | Solution buvable en gouttes | LEHNING | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

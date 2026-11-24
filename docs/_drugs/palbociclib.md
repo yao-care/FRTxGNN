@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 571
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PALBOCICLIB"
 predicted_indications: ["hyperthyroidism", "rheumatoid arthritis", "thrombotic disease", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta"]
 description: "Palbociclib : nouvelle indication prédite, Hyperthyroidism (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -77,11 +77,17 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68016146 | IBRANCE 100 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 67316379 | IBRANCE 75 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 60321676 | IBRANCE 125 mg, gélule | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68016146 | IBRANCE 100 mg, gélule | Gélule | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 67316379 | IBRANCE 75 mg, gélule | Gélule | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 60321676 | IBRANCE 125 mg, gélule | Gélule | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

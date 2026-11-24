@@ -82,9 +82,16 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61601542 | PROSTIGMINE 0,5 mg/1 ml, solution injectable (VIATRIS MEDICAL) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61601542 | PROSTIGMINE 0,5 mg/1 ml, solution injectable | Solution injectable | VIATRIS MEDICAL | Active |
+| 62036900 | NEOSTIGMINE RENAUDIN 5 mg/5 mL, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

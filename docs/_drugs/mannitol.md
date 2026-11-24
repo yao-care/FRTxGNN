@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 472
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MANNITOL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "acute pulmonary heart disease", "exercise-induced malignant hyperthermia", "familial periodic paralysis", "hypokalemic periodic paralysis", "congenital multicore myopathy with external ophthalmoplegia", "moderate multiminicore disease with hand involvement", "nephrogenic diabetes insipidus", "central core myopathy"]
 description: "Mannitol : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (nephrogenic syndrome of inappropriate antidiuresis) (niveau de preuve L5). Indication d'origine : Non rensei…"
@@ -83,13 +83,23 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62126714 | MANNITOL 10 % AGUETTANT | Solution pour perfusion | Non renseignée (AMM active) |
-| 68274328 | MANNITOL B. BRAUN 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM active) |
-| 66972245 | MANNITOL LAVOISIER 20 POUR CENT | Solution pour perfusion | Non renseignée (AMM active) |
-| 62093602 | MANNITOL 20 POUR CENT B. BRAUN | Solution injectable hypertonique pour perfusion | Non renseignée (AMM active) |
-| 69361469 | MANNITOL BIOSEDRA 10 POUR CENT | Solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62126714 | MANNITOL 10 % AGUETTANT, solution pour perfusion | Solution pour perfusion | AGUETTANT | Active |
+| 68274328 | MANNITOL B. BRAUN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | B BRAUN MEDICAL | Active |
+| 66972245 | MANNITOL LAVOISIER 20 POUR CENT, solution pour perfusion | Solution pour perfusion | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 62093602 | MANNITOL 20 POUR CENT B. BRAUN, solution injectable hypertonique pour perfusion | Solution injectable hypertonique pour perfusion | B BRAUN MEDICAL | Active |
+| 69361469 | MANNITOL BIOSEDRA 10 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 62530564 | MANNITOL BIOSEDRA 20 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 60329242 | MANNITOL 20 % AGUETTANT, solution pour perfusion | Solution pour perfusion | AGUETTANT | Active |
+| 65635346 | CELSIOR, solution pour conservation dorganes | Solution | INSTITUT GEORGES LOPEZ | Active |
+| 68491709 | PERISOC, solution de cardioplégie/solution pour conservation dorgane | Solution cardioplégique ou | DR. FRANZ KÖHLER CHEMIE (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 9 AMM sont recensées; seules les 5 premières sont présentées ici.
 

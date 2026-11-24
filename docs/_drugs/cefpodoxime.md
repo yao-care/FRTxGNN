@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "cefpodoxime"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefpodoxime : nouvelle indication prédite, Arthrose (niveau de preuve L5). Indication d'origine : Non renseignée dans les textes d'AMM disponibles (antibiotique de la…"
 ---
 
@@ -83,15 +83,34 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Cefpodoxime est commercialisé en France, avec 18 AMM valides (toutes en spécialité à principe actif unique). Le texte des indications approuvées n'est pas renseigné dans les données compilées. Les 5 premières AMM sont listées ci-dessous.
+Cefpodoxime est commercialisé en France, avec 18 AMM valides (toutes en spécialité à principe actif unique). Le texte des indications approuvées n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68474866 | Cefpodoxime Viatris Enfants et Nourrissons 40 mg/5 mL | Poudre pour suspension buvable | Non renseignée |
-| 63386914 | Cefpodoxime Zydus 100 mg | Comprimé pelliculé | Non renseignée |
-| 68951100 | Cefpodoxime Viatris 100 mg | Comprimé pelliculé | Non renseignée |
-| 68497014 | Cefpodoxime Biogaran Enfants et Nourrissons 40 mg/5 mL | Poudre pour suspension buvable | Non renseignée |
-| 69170898 | Cefpodoxime Sandoz Enfants et Nourrissons 40 mg/5 mL | Poudre pour suspension buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68474866 | CEFPODOXIME VIATRIS ENFANTS ET NOURRISSONS 40 mg/5 mL, poudre pour suspension buvable | Poudre pour suspension buvable | VIATRIS SANTE | Active |
+| 63386914 | CEFPODOXIME ZYDUS 100 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 68951100 | CEFPODOXIME VIATRIS 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68497014 | CEFPODOXIME BIOGARAN ENFANTS ET NOURRISSONS 40 mg/5 ml, poudre pour suspension buvable | Poudre pour suspension buvable | BIOGARAN | Active |
+| 69170898 | CEFPODOXIME SANDOZ ENFANTS ET NOURRISSONS 40 mg/5 mL, poudre pour suspension buvable | Poudre pour suspension buvable | SANDOZ | Active |
+| 63104628 | CEFPODOXIME EG ENFANTS ET NOURRISSONS 40 mg/5 ml, poudre pour suspension buvable | Poudre pour suspension buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64384688 | CEFPODOXIME ZENTIVA ENFANTS ET NOURRISSONS 40 mg/5 ml, granulés pour suspension buvable | Granulés pour suspension buvable | ZENTIVA FRANCE | Active |
+| 61228659 | CEFPODOXIME ZENTIVA 100 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 64586017 | CEFPODOXIME BIOGARAN 100 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 67817899 | CEFPODOXIME TEVA 100 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 62348800 | CEFPODOXIME EG 100 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61923059 | ORELOX ENFANTS ET NOURRISSONS 40 mg/5 ml, granulés pour suspension buvable | Granulés pour suspension buvable | TEOFARMA | Active |
+| 62026621 | CEFPODOXIME CRISTERS PHARMA 100 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 63643038 | CEFPODOXIME SANDOZ 100 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65528337 | ORELOX 100 mg, comprimé pelliculé | Comprimé pelliculé | TEOFARMA | Active |
+| 67939013 | CEFPODOXIME TEVA ENFANTS ET NOURRISSONS 40 mg/5 mL, poudre pour suspension buvable | Poudre pour suspension buvable | TEVA SANTE | Active |
+| 67932983 | CEFPODOXIME ARROW ENFANTS ET NOURRISSONS 40 mg/5 ml, poudre pour suspension buvable | Poudre pour suspension buvable | ARROW GENERIQUES | Active |
+| 63459312 | CEFPODOXIME ARROW LAB 100 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

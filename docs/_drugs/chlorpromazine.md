@@ -73,10 +73,18 @@ Aucune étude ne teste la chlorpromazine dans la dystrophie rétinienne.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62184888 | LARGACTIL 25 mg/5 ml, solution injectable en ampoule (active) | Solution injectable | Non renseignée |
-| 68513504 | LARGACTIL 4 POUR CENT, solution buvable en gouttes (active) | Solution buvable en gouttes | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62184888 | LARGACTIL 25 mg/5 ml, solution injectable en ampoule | Solution injectable | NEURAXPHARM FRANCE | Active |
+| 68513504 | LARGACTIL 4 POUR CENT, solution buvable en gouttes | Solution buvable gouttes | NEURAXPHARM FRANCE | Active |
+| 62816804 | LARGACTIL 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | NEURAXPHARM FRANCE | Active |
+| 65676987 | LARGACTIL 25 mg, comprimé pelliculé | Comprimé pelliculé | NEURAXPHARM FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les 4 AMM recensées sont valides. La chlorpromazine est commercialisée en France (titulaire : NEURAXPHARM FRANCE).
 

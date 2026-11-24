@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 331
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FLUCONAZOLE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Fluconazole : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -90,13 +90,35 @@ Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas rense
 
 <!-- review:end fr-lic-20261106-fluconazole-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60560861 | FLUCONAZOLE EVOLUGEN 50 mg | Gélule | Active |
-| 62033904 | FLUCONAZOLE SANDOZ 200 mg | Gélule | Active |
-| 63909389 | FLUCONAZOLE VIATRIS 50 mg | Gélule | Active |
-| 63206323 | FLUCONAZOLE PFIZER 150 mg | Gélule | Active |
-| 64080646 | TRIFLUCAN 50 mg | Gélule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60560861 | FLUCONAZOLE EVOLUGEN 50 mg, gélule | Gélule | EVOLUPHARM | Active |
+| 62033904 | FLUCONAZOLE SANDOZ 200 mg, gélule | Gélule | SANDOZ | Active |
+| 63909389 | FLUCONAZOLE VIATRIS 50 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 63206323 | FLUCONAZOLE PFIZER 150 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 69903578 | FLUCONAZOLE BIOGARAN 50 mg, gélule | Gélule | BIOGARAN | Active |
+| 64080646 | TRIFLUCAN 50 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 64053193 | FLUCONAZOLE EVOLUGEN 100 mg, gélule | Gélule | EVOLUPHARM | Active |
+| 66015693 | FLUCONAZOLE PFIZER 50 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 65826650 | TRIFLUCAN 200 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 64967484 | FLUCONAZOLE BIOGARAN 10 mg/ml, poudre pour suspension buvable | Poudre pour suspension buvable | BIOGARAN | Active |
+| 62861105 | FLUCONAZOLE ARROW 10 mg/ml, poudre pour suspension buvable | Poudre pour suspension buvable | ARROW GENERIQUES | Active |
+| 61530248 | FLUCONAZOLE EG 10 mg/ml, poudre pour suspension buvable | Poudre pour suspension buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62504459 | FLUCONAZOLE TEVA 50 mg, gélule | Gélule | TEVA SANTE | Active |
+| 66318142 | FLUCONAZOLE CRISTERS 100 mg, gélule | Gélule | CRISTERS | Active |
+| 63870235 | FLUCONAZOLE ZYDUS 50 mg, gélule | Gélule | ZYDUS FRANCE | Active |
+| 62994632 | FLUCONAZOLE KABI 2 mg/ml, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 64940811 | TRIFLUCAN 40 mg/ml, poudre pour suspension buvable | Poudre pour suspension buvable | DIFARMED (ESPAGNE) | Active |
+| 65880420 | FLUCONAZOLE PFIZER 200 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 61173013 | TRIFLUCAN 100 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 66407833 | FLUCONAZOLE TEVA 200 mg, gélule | Gélule | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les autres formes concernées par des AMM abrogées : poudre pour suspension buvable et gélule.
 

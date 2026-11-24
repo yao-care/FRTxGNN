@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 327
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "finasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly"]
 description: "Finasteride : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (Ambras type hypertrichosis universalis congenita) (niveau de preuve L5). Indication d'origine : Non re…"
@@ -98,13 +98,35 @@ Le texte d'indication n'est pas renseigné.
 
 <!-- review:end fr-lic-20261106-finasteride-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67836928 | FINASTERIDE EG 1 mg | Comprimé pelliculé | Non renseignée |
-| 61672151 | FINASTERIDE SANDOZ 5 mg | Comprimé pelliculé | Non renseignée |
-| 69699613 | FINASTERIDE ZENTIVA 5 mg | Comprimé pelliculé | Non renseignée |
-| 63127452 | FINASTERIDE ALMUS 5 mg | Comprimé pelliculé | Non renseignée |
-| 60123363 | FINASTERIDE ACCORD 5 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67836928 | FINASTERIDE EG 1 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61672151 | FINASTERIDE SANDOZ 5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69699613 | FINASTERIDE ZENTIVA 5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63127452 | FINASTERIDE ALMUS 5 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 60123363 | FINASTERIDE ACCORD 5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 62120177 | FINASTERIDE ARROW LAB 1 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62517392 | FINASTERIDE EG 5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66378659 | FINASTERIDE ZYDUS FRANCE 1 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 62828991 | FINASTERIDE BIOGARAN 5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69693507 | FINASTERIDE ARROW LAB 5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68347107 | FINASTERIDE CRISTERS 1 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 67859371 | CHIBRO-PROSCAR 5 mg, comprimé pelliculé | Comprimé pelliculé | DIFARMED (ESPAGNE) | Active |
+| 69249210 | FINASTERIDE BAILLEUL 1 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 67685458 | FINASTERIDE ZENTIVA 1 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63560165 | FINASTERIDE LA COLINA 5 mg, comprimé pelliculé | Comprimé pelliculé | LA COLINA (FRANCE) | Active |
+| 61699383 | FINASTERIDE VIATRIS 1 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61798869 | FINCREZO 2,275 mg/mL, solution pour pulvérisation cutanée | Solution pour pulvérisation | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 67145743 | FINASTERIDE VIATRIS 5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62619486 | FINASTERIDE SANDOZ 1 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69153913 | FINASTERIDE CRISTERS 5 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Parmi l'ensemble des AMM figure aussi une présentation topique (FINCREZO 2,275 mg/mL, solution pour pulvérisation cutanée), dont l'AMM est active.
 

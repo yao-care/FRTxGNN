@@ -88,13 +88,26 @@ Le médicament est commercialisé : 12 AMM valides sur 12. Le texte des indicati
 
 <!-- review:end fr-lic-20261124-ticagrelor-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61128160 | TICAGRELOR ZYDUS 90 mg | Comprimé pelliculé | Non renseignée |
-| 64794751 | TICAGRELOR VIATRIS 90 mg | Comprimé pelliculé | Non renseignée |
-| 65532093 | TICAGRELOR BIOGARAN 90 mg | Comprimé pelliculé | Non renseignée |
-| 64746646 | BRILIQUE 90 mg | Comprimé orodispersible | Non renseignée |
-| 61958462 | BRILIQUE 90 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61128160 | TICAGRELOR ZYDUS 90 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 64794751 | TICAGRELOR VIATRIS 90 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65532093 | TICAGRELOR BIOGARAN 90 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61645948 | TICAGRELOR EVOLUGEN 90 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 62051838 | TICAGRELOR KRKA 90 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 64746646 | BRILIQUE 90 mg, comprimé orodispersible | Comprimé orodispersible | ASTRAZENECA AB | Active |
+| 60044649 | TICAGRELOR EG 90 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69133266 | TICAGRELOR SANDOZ 90 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65416772 | TICAGRELOR ZENTIVA 90 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61661991 | TICAGRELOR TEVA 90 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 61958462 | BRILIQUE 90 mg, comprimé pelliculé | Comprimé pelliculé | ASTRAZENECA AB | Active |
+| 67382735 | TICAGRELOR ARROW 90 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

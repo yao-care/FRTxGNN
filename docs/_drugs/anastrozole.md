@@ -80,13 +80,34 @@ Les données compilées pour ce rapport recensent 20 AMM (16 valides) pour des s
 
 <!-- review:end fr-lic-20261124-anastrozole-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69997905 | ANASTROZOLE ARROW 1 mg | Comprimé pelliculé | Non renseignée dans les données locales |
-| 68900650 | ANASTROZOLE SUBSTIPHARM 1 mg | Comprimé pelliculé | Non renseignée dans les données locales |
-| 64163818 | ANASTROZOLE ARROW LAB 1 mg | Comprimé pelliculé | Non renseignée dans les données locales |
-| 62303214 | ARIMIDEX 1 mg | Comprimé pelliculé | Non renseignée dans les données locales |
-| 65664198 | ANASTROZOLE SANDOZ 1 mg | Comprimé pelliculé | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69997905 | ANASTROZOLE ARROW 1 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68900650 | ANASTROZOLE SUBSTIPHARM 1 mg, comprimé pelliculé | Comprimé pelliculé | SUBSTIPHARM | Active |
+| 64163818 | ANASTROZOLE ARROW LAB 1 mg, comprimé pelliculé | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 67271293 | ANASTROZOLE CRISTERS 1 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 63568984 | ANASTROZOLE EVOLUGEN 1 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 62303214 | ARIMIDEX 1 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES JUVISE PHARMACEUTICALS | Active |
+| 63917756 | ANASTROZOLE ZYDUS 1 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 65664198 | ANASTROZOLE SANDOZ 1 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 67354892 | ANASTROZOLE BLUEFISH 1 mg, comprimé pelliculé | Comprimé pelliculé | BLUEFISH PHARMACEUTICALS (SUEDE) | Active |
+| 68434537 | ANASTROZOLE BIOGARAN 1 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69367995 | ANASTROZOLE ZENTIVA 1 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 60968852 | ANASTROZOLE EG 1 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60002283 | ANASTROZOLE ACCORD 1 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 67160962 | ANASTROZOLE VIATRIS 1 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61355076 | ANASTROZOLE TEVA 1 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 68676387 | ARIMIDEX 1 mg, comprimé pelliculé | Comprimé pelliculé | DIFARMED (ESPAGNE) | Active |
+| 63213613 | ANASTROZOLE KRKA 1 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Abrogée |
+| 62689972 | ANASTROZOLE SUN 1 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Abrogée |
+| 64133700 | ANASTROZOLE MYLAN 1 mg, comprimé pelliculé | Comprimé pelliculé | BB FARMA (ITALIE) | Abrogée |
+| 69890344 | ARIMIDEX 1 mg, comprimé pelliculé | Comprimé pelliculé | PHARMA LAB | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 176
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLADRIBINE"
 predicted_indications: ["parameningeal embryonal rhabdomyosarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "liver sarcoma"]
 description: "Cladribine : nouvelle indication prédite, Parameningeal embryonal rhabdomyosarcoma (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -73,11 +73,17 @@ Aucune littérature associée disponible actuellement pour le rhabdomyosarcome e
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 60427957 | LITAK 2 mg/ml, solution injectable | Solution injectable | Non disponible | Active |
-| 65820786 | MAVENCLAD 10 mg, comprimé | Comprimé | Non disponible | Active |
-| 60522572 | LEUSTATINE 1 mg/ml, solution pour perfusion | Solution pour perfusion | Non disponible | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60427957 | LITAK 2 mg/ml, solution injectable | Solution injectable | LIPOMED (ALLEMAGNE) | Active |
+| 65820786 | MAVENCLAD 10 mg, comprimé | Comprimé | MERCK SERONO EUROPE (ROYAUME-UNI) | Active |
+| 60522572 | LEUSTATINE 1 mg/ml, solution pour perfusion | Solution pour perfusion | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

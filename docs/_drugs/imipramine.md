@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 394
 evidence_level: L3
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IMIPRAMINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "benign paroxysmal torticollis of infancy", "obsessive-compulsive disorder"]
 description: "Imipramine : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L3). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -85,10 +85,16 @@ Aucun essai contrôlé randomisé n'figure parmi ces publications.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 68574699 | TOFRANIL 10 mg, comprimé enrobé | Comprimé enrobé | Non renseignée | Active |
-| 67117128 | TOFRANIL 25 mg, comprimé enrobé | Comprimé enrobé | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68574699 | TOFRANIL 10 mg, comprimé enrobé | Comprimé enrobé | AMDIPHARM | Active |
+| 67117128 | TOFRANIL 25 mg, comprimé enrobé | Comprimé enrobé | AMDIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

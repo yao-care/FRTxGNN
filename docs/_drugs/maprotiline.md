@@ -70,6 +70,17 @@ En l'absence de prédictions TxGNN et de données de mécanisme d'action formali
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67798274 | LUDIOMIL 75 mg, comprimé pelliculé | Comprimé pelliculé | AMDIPHARM | Active |
+| 63912862 | LUDIOMIL 25 mg, comprimé pelliculé | Comprimé pelliculé | AMDIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
 Deux autorisations de mise sur le marché (AMM) valides sont enregistrées pour la Maprotiline en France (comprimés pelliculés, AMDIPHARM).
 
 <!-- review:begin fr-lic-20261124-maprotiline-1 -->

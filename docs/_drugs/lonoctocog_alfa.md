@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 459
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LONOCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome"]
 description: "Lonoctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -90,13 +90,21 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61906519 | AFSTYLA 1000 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 64477690 | AFSTYLA 2000 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 67710662 | AFSTYLA 500 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 60944716 | AFSTYLA 1500 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 66216027 | AFSTYLA 250 UI | Poudre et solvant pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61906519 | AFSTYLA 1000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 64477690 | AFSTYLA 2000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 67710662 | AFSTYLA 500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 60944716 | AFSTYLA 1500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 66216027 | AFSTYLA 250 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 61411315 | AFSTYLA 2500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 64280351 | AFSTYLA 3000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Seules les 5 premières sont listées ici.
 

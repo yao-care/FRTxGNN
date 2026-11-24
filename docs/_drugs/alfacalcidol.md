@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ALFACALCIDOL"
 predicted_indications: ["craniofacial conodysplasia", "acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alfacalcidol : nouvelle indication prédite, Conodysplasie crânio-faciale (niveau de preuve L5). Indication d'origine : Hyperparathyroïdie, ostéite fibreuse, hypoparathyroïdie…"
 ---
 
@@ -82,15 +82,26 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 10 AMM compilées sont valides et concernent des spécialités à base d'alfacalcidol seul. Voici les 5 premières :
+Les 10 AMM compilées sont valides et concernent des spécialités à base d'alfacalcidol seul.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 65401076 | UN-ALFA 0,10 microgramme, solution buvable en gouttes | Solution buvable en gouttes |
-| 68578562 | UN-ALFA 1 microgramme/0,5 ml, solution injectable IV en ampoule | Solution injectable |
-| 64661847 | ALFACALCIDOL THERAMEX 0,25 microgramme, capsule molle | Capsule molle |
-| 62092176 | UN ALFA 1 microgramme, capsule orale | Capsule |
-| 62626139 | ALFACALCIDOL THERAMEX 1 microgramme, capsule molle | Capsule molle |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65401076 | UN-ALFA 0,10 microgramme, solution buvable en gouttes | Solution buvable gouttes | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 68578562 | UN-ALFA 1 microgramme/0,5 ml, solution injectable IV en ampoule | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64661847 | ALFACALCIDOL THERAMEX 0,25 microgramme, capsule molle | Capsule molle | THERAMEX IRELAND (IRLANDE) | Active |
+| 62092176 | UN ALFA 1 microgramme, capsule orale | Capsule | DIFARMED (ESPAGNE) | Active |
+| 62626139 | ALFACALCIDOL THERAMEX 1 microgramme, capsule molle | Capsule molle | THERAMEX IRELAND (IRLANDE) | Active |
+| 64856637 | UN ALFA 1 microgramme, capsule orale | Capsule | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64696734 | UN-ALFA 0,50 microgramme, capsule molle | Capsule molle | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 67226483 | UN ALFA 0,25 microgramme, capsule orale | Capsule | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 66270765 | UN ALFA 0,25 microgramme, capsule orale | Capsule | DIFARMED (ESPAGNE) | Active |
+| 65482434 | UN-ALFA 2 microgrammes/1 ml, solution injectable IV en ampoule | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 686
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "rutin"
 predicted_indications: ["breast fibrocystic disease", "apocrine adenosis of breast", "blunt duct adenosis of breast", "benign mammary dysplasia", "vulvovaginal candidiasis", "breast abscess", "fat necrosis of breast", "vaginitis (disease)"]
 description: "Rutin : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -74,9 +74,15 @@ Pour information, deux publications ont été retrouvées pour une autre prédic
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68245006 | VELITEN, comprimé pelliculé (LABORATOIRES FRILAB) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68245006 | VELITEN, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES FRILAB | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

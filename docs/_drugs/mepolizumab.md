@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 479
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mepolizumab"
 predicted_indications: ["thrombocytopenia due to immune destruction", "primary release disorder of platelets", "pseudo-von Willebrand disease", "autoimmune thrombocytopenic", "Glanzmann thrombasthenia"]
 description: "Mepolizumab : nouvelle indication prédite, Thrombopénie due à une destruction immunitaire (thrombocytopenia due to immune destruction) (niveau de preuve L5). Indication d'origine : Non renseignée dan…"
@@ -74,12 +74,18 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66719612 | NUCALA 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 63236206 | NUCALA 100 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 67361794 | NUCALA 40 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 65864619 | NUCALA 100 mg, poudre pour solution injectable | Poudre pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66719612 | NUCALA 100 mg, solution injectable en seringue préremplie | Solution injectable | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 63236206 | NUCALA 100 mg, solution injectable en stylo prérempli | Solution injectable | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 67361794 | NUCALA 40 mg, solution injectable en seringue préremplie | Solution injectable | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 65864619 | NUCALA 100 mg, poudre pour solution injectable | Poudre pour solution injectable | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

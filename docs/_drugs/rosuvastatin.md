@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 681
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rosuvastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "brain stem infarction", "HIV infectious disease", "hypoalphalipoproteinemia", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "ABri amyloidosis"]
 description: "Rosuvastatin : nouvelle indication prédite, Cholesterol-ester transfer protein deficiency (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -108,15 +108,37 @@ Sélection des essais les plus pertinents pour l'hypercholestérolémie familial
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières sont présentées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 61543911 | ROSUVASTATINE BGR 20 mg | Comprimé pelliculé | Active |
-| 64675900 | ROSUVASTATINE CRISTERS 10 mg | Comprimé pelliculé | Active |
-| 61062358 | ROSUVASTATINE EVOLUGEN 20 mg | Comprimé pelliculé | Active |
-| 65148032 | ROSUVASTATINE CRISTERS 20 mg | Comprimé pelliculé | Active |
-| 65227063 | ROSUVASTATINE EG 10 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61543911 | ROSUVASTATINE BGR 20 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64675900 | ROSUVASTATINE CRISTERS 10 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 61062358 | ROSUVASTATINE EVOLUGEN 20 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 65148032 | ROSUVASTATINE CRISTERS 20 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 65227063 | ROSUVASTATINE EG 10 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67190208 | ROSUVASTATINE EVOLUGEN PHARMA 5 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 64435410 | ROSUVASTATINE SANDOZ 5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61306595 | ROSUVASTATINE ARROW 5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67316347 | ROSUVASTATINE ALMUS 20 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 63131995 | ROSUVASTATINE ALMUS 5 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 60173715 | ZELFUSOR 20 mg, gélule | Gélule | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 63020824 | ROSUVASTATINE VIATRIS 5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 67273757 | CRESTOR 20 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES GRUNENTHAL | Active |
+| 67741362 | ROSUVASTATINE ACCORD 20 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 64048673 | ROSUVASTATINE EVOLUGEN PHARMA 20 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 61892457 | ROSUVASTATINE KRKA 10 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 69381938 | ROSUVASTATINE ACCORD 5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 64711296 | ROSUVASTATINE ZENTIVA 20 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66994081 | ROSUVASTATINE ZYDUS FRANCE 10 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 65737881 | ROSUVASTATINE VIATRIS 20 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

@@ -98,13 +98,22 @@ Les textes d'indication approuvée ne sont pas disponibles pour ces AMM.
 
 <!-- review:end fr-lic-20261106-flurbiprofen-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 64161831 | CEBUTID 50 mg, comprimé enrobé | Comprimé enrobé | Active |
-| 66565705 | OCUFEN 0,12 mg/0,4 ml, collyre en récipient unidose | Collyre | Active |
-| 61032482 | ANTADYS 100 mg, comprimé pelliculé | Comprimé pelliculé | Active |
-| 65407780 | STREFEN 8,75 mg, pastille | Pastille | Active |
-| 67184116 | CEBUTID 100 mg, comprimé enrobé | Comprimé enrobé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64161831 | CEBUTID 50 mg, comprimé enrobé | Comprimé enrobé | ALMIRALL (ESPAGNE) | Active |
+| 66565705 | OCUFEN 0,12 mg/ 0,4 ml, collyre en récipient unidose | Collyre | HORUS PHARMA | Active |
+| 61032482 | ANTADYS 100 mg, comprimé pelliculé | Comprimé pelliculé | THERAMEX IRELAND (IRLANDE) | Active |
+| 65407780 | STREFEN 8,75 mg, pastille | Pastille | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 67184116 | CEBUTID 100 mg, comprimé enrobé | Comprimé enrobé | ALMIRALL (ESPAGNE) | Active |
+| 68233897 | STREFEN 8,75 mg ORANGE SANS SUCRE, pastille édulcorée à l'acésulfame potassique | Pastille | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 68411271 | CEBUTID LP 200 mg, gélule à libération prolongée | Gélule à libération prolongée | ALMIRALL (ESPAGNE) | Active |
+| 67845628 | STREFEN 8,75 mg, pastille | Pastille | BB FARMA (ITALIE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

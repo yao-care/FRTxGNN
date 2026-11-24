@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 656
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Regadenoson : nouvelle indication prédite, Anaphylaxie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (usage connu : agent de stress…"
 monitor_inn: "regadenoson"
 predicted_indications: ["anaphylaxis", "food-dependent exercise-induced anaphylaxis", "esotropia", "pseudoallergy"]
@@ -79,9 +79,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69075222 | RAPISCAN 400 microgrammes, solution injectable (GE Healthcare, Norvège) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69075222 | RAPISCAN 400 microgrammes, solution injectable | Solution injectable | GE HEALTHCARE (NORVEGE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

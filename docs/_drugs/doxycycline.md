@@ -74,9 +74,20 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60650789 | VIBRAVEINEUSE, solution injectable pour voie IV et perfusion (SERB) | Solution injectable pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60650789 | VIBRAVEINEUSE, solution injectable pour voie IV et perfusion | Solution injectable pour perfusion | SERB | Active |
+| 61722191 | DOXY 100 mg, comprimé pelliculé | Comprimé pelliculé | ELERTE | Active |
+| 65203952 | DOXYCYCLINE BIOGARAN 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 67061569 | DOXY 50 mg, comprimé pelliculé | Comprimé pelliculé | ELERTE | Active |
+| 67164569 | DOXYCYCLINE ARROW 100 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 65333974 | SPANOR 100 mg, comprimé pelliculé sécable | Comprimé pelliculé | LABORATOIRES BAILLEUL (LUXEMBOURG) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La doxycycline est commercialisée en France.
 

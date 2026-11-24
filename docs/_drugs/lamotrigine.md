@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 433
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LAMOTRIGINE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Lamotrigine : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -95,13 +95,35 @@ Sur les 20 AMM recensées, 5 sont présentées ci-dessous.
 
 <!-- review:end fr-lic-20261106-lamotrigine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65667034 | LAMICTAL 200 mg (GlaxoSmithKline) | Comprimé dispersible ou à croquer | Non renseignée |
-| 69658075 | LAMICTAL 100 mg (GlaxoSmithKline) | Comprimé dispersible ou à croquer | Non renseignée |
-| 61043653 | LAMICTAL 2 mg (GlaxoSmithKline) | Comprimé dispersible ou à croquer | Non renseignée |
-| 62897973 | LAMOTRIGINE BIOGARAN 25 mg | Comprimé dispersible | Non renseignée |
-| 65503120 | LAMOTRIGINE TEVA 25 mg | Comprimé dispersible ou à croquer | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65503120 | LAMOTRIGINE TEVA 25 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | TEVA SANTE | Active |
+| 69967246 | LAMOTRIGINE VIATRIS 100 mg, comprimé dispersible | Comprimé dispersible | VIATRIS SANTE | Active |
+| 63062684 | LAMOTRIGINE ZYDUS 200 mg, comprimé dispersible / à croquer | Comprimé dispersible ou à croquer | ZYDUS FRANCE | Active |
+| 62000092 | LAMOTRIGINE ARROW LAB 50 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | ARROW GENERIQUES | Active |
+| 65667034 | LAMICTAL 200 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | GLAXOSMITHKLINE | Active |
+| 62897973 | LAMOTRIGINE BIOGARAN 25 mg, comprimé dispersible | Comprimé dispersible | BIOGARAN | Active |
+| 67514820 | LAMOTRIGINE ARROW LAB 25 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | ARROW GENERIQUES | Active |
+| 64385651 | LAMOTRIGINE ZYDUS 50 mg, comprimé dispersible / à croquer | Comprimé dispersible ou à croquer | ZYDUS FRANCE | Active |
+| 65131079 | LAMOTRIGINE TEVA 200 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | TEVA SANTE | Active |
+| 65386749 | LAMOTRIGINE BIOGARAN 100 mg, comprimé dispersible | Comprimé dispersible | BIOGARAN | Active |
+| 69658075 | LAMICTAL 100 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | GLAXOSMITHKLINE | Active |
+| 65772003 | LAMOTRIGINE VIATRIS 50 mg, comprimé dispersible | Comprimé dispersible | VIATRIS SANTE | Active |
+| 65529193 | LAMOTRIGINE EG 25 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64681216 | LAMOTRIGINE BIOGARAN 200 mg, comprimé dispersible | Comprimé dispersible | BIOGARAN | Active |
+| 61476252 | LAMOTRIGINE ZYDUS 25 mg, comprimé dispersible / à croquer | Comprimé dispersible ou à croquer | ZYDUS FRANCE | Active |
+| 67829684 | LAMOTRIGINE EG 100 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60038468 | LAMOTRIGINE ARROW LAB 200 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | ARROW GENERIQUES | Active |
+| 60659891 | LAMOTRIGINE BIOGARAN 50 mg, comprimé dispersible | Comprimé dispersible | BIOGARAN | Active |
+| 61043653 | LAMICTAL 2 mg, comprimé dispersible ou à croquer | Comprimé dispersible ou à croquer | GLAXOSMITHKLINE | Active |
+| 68403716 | LAMOTRIGINE SANDOZ 100 mg, comprimé dispersible | Comprimé dispersible | SANDOZ | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

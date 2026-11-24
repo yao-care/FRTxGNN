@@ -79,9 +79,30 @@ Les autres prédictions (migraine avec aura du tronc cérébral, syndrome néphr
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63602269 | NAROPEINE 7,5 mg/ml, solution injectable en ampoule (SANDOZ) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63602269 | NAROPEINE 7,5 mg/ml, solution injectable en ampoule | Solution injectable | SANDOZ | Active |
+| 60105568 | ROPIVACAINE ALTAN 10 mg/mL, solution injectable | Solution injectable | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+| 60914235 | ROPIVACAINE NORIDEM 5 mg/mL, solution injectable | Solution injectable | NORIDEM | Active |
+| 61118586 | ROPIVACAINE ALTAN 2 mg/mL, solution injectable | Solution injectable | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+| 61146240 | ROPIVACAINE NORIDEM 10 mg/mL, solution injectable | Solution injectable | NORIDEM | Active |
+| 62856446 | ROPIVACAINE NORIDEM 7,5 mg/mL, solution injectable | Solution injectable | NORIDEM | Active |
+| 63999931 | ROPIVACAINE ALTAN 7,5 mg/mL, solution injectable | Solution injectable | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+| 64576012 | ROPIVACAINE ALTAN 2 mg/mL, solution pour perfusion | Solution pour perfusion | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+| 65025364 | ROPIVACAINE NORIDEM 2 mg/mL, solution pour perfusion | Solution pour perfusion | NORIDEM | Active |
+| 66104277 | ROPIVACAINE B.BRAUN 2 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67245028 | NAROPEINE 10 mg/ml, solution injectable en ampoule | Solution injectable | SANDOZ | Active |
+| 67582006 | ROPIVACAINE NORIDEM 2 mg/mL, solution injectable | Solution injectable | NORIDEM | Active |
+| 68674482 | ROPIVACAINE B BRAUN 7,5 mg/ml, solution injectable en ampoule | Solution injectable | B BRAUN MELSUNGEN | Active |
+| 66101975 | NAROPEINE 5 mg/ml, solution injectable | Solution injectable | ASPEN PHARMA TRADING (IRLANDE) | Abrogée |
+| 66370559 | NAROPEINE 2 mg/ml, solution injectable en poche | Solution injectable | ASPEN PHARMA TRADING (IRLANDE) | Abrogée |
+| 67480631 | NAROPEINE 2 mg/ml, solution injectable en ampoule | Solution injectable | ASPEN PHARMA TRADING (IRLANDE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

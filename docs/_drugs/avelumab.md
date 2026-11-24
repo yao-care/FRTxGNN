@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "avelumab"
 predicted_indications: ["human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "adenosine deaminase deficiency", "reticular dysgenesis", "Immunoerythromyeloid hypoplasia", "non-severe combined immunodeficiency", "kidney pelvis sarcomatoid transitional cell carcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Avelumab : nouvelle indication prédite, Tumeur liée à l'herpèsvirus humain 8 (human herpesvirus 8-related tumor) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
@@ -72,9 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60199966 | BAVENCIO 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60199966 | BAVENCIO 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | MERCK EUROPE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

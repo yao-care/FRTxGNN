@@ -93,13 +93,35 @@ Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuv
 
 <!-- review:end fr-lic-20261106-zolmitriptan-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67038894 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé orodispersible | Active |
-| 65339379 | ZOLMITRIPTAN EVOLUGEN 2,5 mg | Comprimé pelliculé | Active |
-| 62039483 | ZOLMITRIPTAN TEVA SANTE 2,5 mg | Comprimé orodispersible | Active |
-| 60294713 | ZOLMITRIPTAN ZYDUS FRANCE 2,5 mg | Comprimé orodispersible | Active |
-| 61180239 | ZOLMITRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67038894 | ZOLMITRIPTAN EVOLUGEN 2,5 mg, comprimé orodispersible | Comprimé orodispersible | EVOLUPHARM | Active |
+| 65339379 | ZOLMITRIPTAN EVOLUGEN 2,5 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 62039483 | ZOLMITRIPTAN TEVA SANTE 2,5 mg, comprimé orodispersible | Comprimé orodispersible | TEVA SANTE | Active |
+| 60294713 | ZOLMITRIPTAN ZYDUS FRANCE 2,5 mg, comprimé orodispersible | Comprimé orodispersible | ZYDUS FRANCE | Active |
+| 61180239 | ZOLMITRIPTAN BIOGARAN 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68606225 | ZOLMITRIPTAN EG 2,5 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60462513 | ZOLMITRIPTAN CRISTERS 2,5 mg, comprimé orodispersible | Comprimé orodispersible | CRISTERS | Active |
+| 66145053 | ZOLMITRIPTAN ARROW GENERIQUES 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 63819739 | ZOLMITRIPTAN TEVA SANTE 2,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 69058237 | ZOLMITRIPTAN SANDOZ 2,5 mg, comprimé orodispersible | Comprimé orodispersible | SANDOZ | Active |
+| 63083116 | ZOLMITRIPTAN SANDOZ 2,5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 67050829 | ZOLMITRIPTAN BIOGARAN 2,5 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 68232350 | ZOMIG 2,5 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES GRUNENTHAL | Active |
+| 68037788 | ZOLMITRIPTAN EG 2,5 mg, comprimé orodispersible | Comprimé orodispersible | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65016842 | ZOLMITRIPTAN VIATRIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68354386 | ZOMIGORO 2,5 mg, comprimé orodispersible | Comprimé orodispersible | LABORATOIRES GRUNENTHAL | Active |
+| 62695758 | ZOLMITRIPTAN VIATRIS 2,5 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 62834930 | ZOLMITRIPTAN ARROW GENERIQUES 2,5 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Active |
+| 60946507 | ZOLMITRIPTAN ZENTIVA 2,5 mg, comprimé orodispersible | Comprimé orodispersible | ZENTIVA FRANCE | Active |
+| 65579520 | ZOLMITRIPTAN ZYDUS FRANCE 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

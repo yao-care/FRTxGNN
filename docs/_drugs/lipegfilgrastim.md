@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 454
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lipegfilgrastim : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (primary release disor… (niveau de preuve L5). Indication d'origine : Non disponible dans les données com…"
 monitor_inn: "LIPEGFILGRASTIM"
 predicted_indications: ["primary release disorder of platelets", "severe nonproliferative diabetic retinopathy", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "diabetic retinopathy"]
@@ -80,10 +80,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 66910592 | LONQUEX 6 mg/0,6 mL, solution injectable | Solution injectable | Non renseignée | Active |
-| 64198267 | LONQUEX 6 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66910592 | LONQUEX 6 mg/0,6 mL, solution injectable | Solution injectable | TEVA (PAYS-BAS) | Active |
+| 64198267 | LONQUEX 6 mg, solution injectable en seringue préremplie | Solution injectable | TEVA (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

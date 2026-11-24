@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefoxitin"
 predicted_indications: ["infectious otitis media", "chronic otitis media", "suppurative otitis media", "middle ear disease", "Ureaplasma urethritis", "toxocariasis", "otosalpingitis", "non-suppurative otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cefoxitin : nouvelle indication prédite, Otite moyenne infectieuse (infectious otitis media) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
@@ -74,12 +74,18 @@ Cette publication ne porte pas directement sur l'efficacité de la céfoxitine d
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60329598 | CEFOXITINE SUBSTIPHARM 1 g | Poudre pour solution injectable | Non renseignée |
-| 69084488 | CEFOXITINE PANPHARMA 1 g (IV) | Poudre pour solution injectable | Non renseignée |
-| 60580134 | CEFOXITINE SUBSTIPHARM 2 g | Poudre pour solution injectable | Non renseignée |
-| 67355243 | CEFOXITINE PANPHARMA 2 g (IV) | Poudre pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60329598 | CEFOXITINE SUBSTIPHARM 1 g, poudre pour solution injectable | Poudre pour solution injectable | SUBSTIPHARM | Active |
+| 69084488 | CEFOXITINE PANPHARMA 1 g, poudre pour solution injectable (IV) | Poudre pour solution injectable | PANPHARMA | Active |
+| 60580134 | CEFOXITINE SUBSTIPHARM 2 g, poudre pour solution injectable | Poudre pour solution injectable | SUBSTIPHARM | Active |
+| 67355243 | CEFOXITINE PANPHARMA 2 g, poudre pour solution injectable (IV) | Poudre pour solution injectable | PANPHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

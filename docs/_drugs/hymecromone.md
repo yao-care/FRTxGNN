@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 384
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "hymecromone"
 predicted_indications: ["diabetic nephropathy", "brain small vessel disease 1 with or without ocular anomalies", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "allergic asthma", "intrinsic asthma", "gout", "hemoglobinopathy", "type 1 diabetes mellitus", "bronchitis", "partial deletion of the short arm of chromosome 16"]
 description: "Hymecromone : nouvelle indication prédite, Diabetic nephropathy (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -86,9 +86,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61974317 | CANTABILINE 400 mg, comprimé (DB PHARMA) | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61974317 | CANTABILINE 400 mg, comprimé | Comprimé | DB PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

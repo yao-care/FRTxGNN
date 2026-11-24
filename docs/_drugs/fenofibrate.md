@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "fenofibrate"
 predicted_indications: ["cholesterol-ester transfer protein deficiency"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenofibrate : nouvelle indication prédite, Déficience en protéine de transfert des esters de cholestérol (cholesterol-ester transfer protein deficiency) (niveau de preuve L5). Indication d'origine : …"
 ---
 
@@ -80,13 +80,35 @@ Ces publications ne portent pas directement sur la déficience en CETP elle-mêm
 
 Le fénofibrate est commercialisé en France (liste partielle, 20 AMM affichées sur au moins 20). Les textes d'indication ne sont pas renseignés dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60004277 | FENOFIBRATE TEVA 100 mg | gélule | Non renseignée |
-| 60187501 | FENOFIBRATE CRISTERS PHARMA 200 mg | gélule | Non renseignée |
-| 67204056 | FENOFIBRATE VIATRIS 100 mg | gélule | Non renseignée |
-| 62754046 | FENOFIBRATE VIATRIS 200 mg | gélule | Non renseignée |
-| 64368641 | FENOFIBRATE SANDOZ 67 mg | gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60004277 | FENOFIBRATE TEVA 100 mg, gélule | Gélule | TEVA SANTE | Active |
+| 60187501 | FENOFIBRATE CRISTERS PHARMA 200 mg, gélule | Gélule | CRISTERS | Active |
+| 67204056 | FENOFIBRATE VIATRIS 100 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 62754046 | FENOFIBRATE VIATRIS 200 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 64368641 | FENOFIBRATE SANDOZ 67 mg, gélule | Gélule | SANDOZ | Active |
+| 68331868 | FENOFIBRATE CRISTERS PHARMA 145 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Active |
+| 69420661 | FENOFIBRATE BIOGARAN 300 mg, gélule | Gélule | BIOGARAN | Active |
+| 62813683 | FENOFIBRATE ARROW LAB 200 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 60302512 | FENOFIBRATE BIOGARAN 200 mg, gélule | Gélule | VIATRIS MEDICAL | Active |
+| 69553238 | FENOFIBRATE CRISTERS 200 mg, gélule | Gélule | CRISTERS | Active |
+| 65700160 | FENOFIBRATE ZENTIVA 67 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 68753129 | FENOFIBRATE VIATRIS 160 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 69288672 | FENOFIBRATE ARROW 145 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68470444 | FENOFIBRATE CRISTERS 67 mg, gélule | Gélule | CRISTERS | Active |
+| 62705088 | FENOFIBRATE VIATRIS 145 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 69196658 | FENOFIBRATE TEVA SANTE 67 mg, gélule | Gélule | TEVA SANTE | Active |
+| 62575470 | FENOFIBRATE CRISTERS PHARMA 300 mg, gélule | Gélule | CRISTERS | Active |
+| 61774284 | FEGENOR 200 mg, gélule | Gélule | PROVEPHARM | Active |
+| 67701695 | FENOFIBRATE FOURNIER 67 Micronisé, gélule | Gélule | VIATRIS MEDICAL | Active |
+| 69935871 | FENOFIBRATE SANDOZ 200 mg, gélule | Gélule | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

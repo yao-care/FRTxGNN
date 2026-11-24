@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 247
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dimercaprol : nouvelle indication prédite, Bronchite (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (chélation des métaux…"
 monitor_inn: "DIMERCAPROL"
 predicted_indications: ["bronchitis"]
@@ -74,9 +74,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62727889 | B.A.L., solution injectable I.M. (SERB), AMM active | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62727889 | B.A.L., solution injectable I.M. | Solution injectable | SERB | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

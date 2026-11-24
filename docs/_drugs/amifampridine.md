@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "amifampridine"
 predicted_indications: ["glaucoma", "acute intermittent porphyria"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amifampridine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
@@ -72,11 +72,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65825598 | AMIFAMPRIDINE SUBSTIPHARM 10 mg, comprimé sécable | Comprimé sécable | Non renseignée |
-| 69785998 | AMIFAMPRIDINE SERB 10 mg, comprimé | Comprimé | Non renseignée |
-| 69935992 | FIRDAPSE 10 mg, comprimé | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65825598 | AMIFAMPRIDINE SUBSTIPHARM 10 mg, comprimé sécable | Comprimé sécable | AXUNIO PHARMA (ALLEMAGNE) | Active |
+| 69785998 | AMIFAMPRIDINE SERB 10 mg, comprimé | Comprimé | SERB (BELGIQUE) | Active |
+| 69935992 | FIRDAPSE 10 mg, comprimé | Comprimé | SERB (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

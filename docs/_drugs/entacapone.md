@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 284
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENTACAPONE"
 predicted_indications: ["PLA2G6-associated neurodegeneration", "Rasmussen subacute encephalitis", "myelitis", "paralysis agitans, juvenile, of Hunt", "transaldolase deficiency", "lethal infantile mitochondrial myopathy", "Lewy body dementia", "fructose-1,6-bisphosphatase deficiency", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "progressive supranuclear palsy-corticobasal syndrome"]
 description: "Entacapone : nouvelle indication prédite, Neurodégénérescence associée à PLA2G6 (PLA2G6-associated neurodegeneration) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loc…"
@@ -85,15 +85,37 @@ Aucune littérature associée disponible actuellement pour la neurodégénéresc
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné. Les cinq premières sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65562898 | ENTACAPONE VIATRIS 200 mg | Comprimé pelliculé | Active |
-| 68826958 | COMTAN 200 mg | Comprimé pelliculé | Active |
-| 67403058 | ENTACAPONE ARROW 200 mg | Comprimé pelliculé | Active |
-| 68430364 | CORBILTA 50 mg/12,5 mg/200 mg | Comprimé pelliculé | Active |
-| 65927172 | STALEVO 100 mg/25 mg/200 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65562898 | ENTACAPONE VIATRIS 200 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68826958 | COMTAN 200 mg, comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+| 67403058 | ENTACAPONE ARROW 200 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68430364 | CORBILTA 50 mg/12,5 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+| 65927172 | STALEVO 100 mg/25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+| 62614667 | LEVODOPA/CARBIDOPA/ENTACAPONE VIATRIS 75 mg/18,75 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 60472849 | LEVODOPA/CARBIDOPA/ENTACAPONE VIATRIS 150 mg/37,5 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 66903295 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA 125 mg/31,25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 61186758 | STALEVO 175 mg/43,75 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+| 63297052 | LEVODOPA/CARBIDOPA/ENTACAPONE EG 125 mg/31,25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66037184 | LEVODOPA/CARBIDOPA/ENTACAPONE ARROW 125 mg/31,25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64855371 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA 75 mg/18,75 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 69044807 | STALEVO 75 mg/18,75 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+| 65456667 | LEVODOPA/CARBIDOPA/ENTACAPONE BIOGARAN 125 mg/31,25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 63338129 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA 200 mg/50 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 64595144 | LEVODOPA/CARBIDOPA/ENTACAPONE EG 175 mg/43,75 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64105964 | LEVODOPA/CARBIDOPA/ENTACAPONE VIATRIS 100 mg/25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 60701582 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA 150 mg/37,5 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 67444539 | CORBILTA 100 mg/25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+| 62456046 | LEVODOPA/CARBIDOPA/ENTACAPONE VIATRIS 125 mg/31,25 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

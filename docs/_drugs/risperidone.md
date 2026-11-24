@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 673
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "risperidone"
 predicted_indications: ["gaze palsy, familial horizontal, with progressive scoliosis", "amelocerebrohypohidrotic syndrome", "Phelan-McDermid syndrome", "trichotillomania"]
 description: "Risperidone : nouvelle indication prédite, Syndrome de paralysie du regard horizontal familial avec scoliose progressive (gaze palsy, familial horizontal, with progressive scoliosis) (niveau de preuve L5)."
@@ -70,13 +70,35 @@ Aucune littérature associée disponible actuellement.
 
 La rispéridone est commercialisée en France. Les données compilées recensent 20 AMM valides ; la liste ci-dessous présente les cinq premières.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 60605064 | RISPERIDONE VIATRIS 1 mg | Comprimé orodispersible |
-| 66315751 | RISPERIDONE VIATRIS 2 mg | Comprimé pelliculé sécable |
-| 63436769 | RISPERIDONE TEVA SANTE 1 mg/ml | Solution buvable |
-| 65893318 | RISPERDALCONSTA L.P. 50 mg/2 ml | Poudre et solvant pour suspension injectable à libération prolongée |
-| 60260497 | RISPERDAL 2 mg | Comprimé pelliculé |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60605064 | RISPERIDONE VIATRIS 1 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 66315751 | RISPERIDONE VIATRIS 2 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 63436769 | RISPERIDONE TEVA SANTE 1 mg/ml, solution buvable | Solution buvable | TEVA SANTE | Active |
+| 60608384 | RISPERIDONE ZYDUS 1 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 62706119 | RISPERIDONE SANDOZ 0,5 mg, comprimé orodispersible | Comprimé orodispersible | SANDOZ | Active |
+| 65893318 | RISPERDALCONSTA L.P. 50 mg/2 ml, poudre et solvant pour suspension injectable à libératio… | Poudre et solvant pour suspension injectable à libération p… | JANSSEN CILAG | Active |
+| 60260497 | RISPERDAL 2 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG | Active |
+| 66377660 | RISPERIDONE SANDOZ 2 mg, comprimé orodispersible | Comprimé orodispersible | SANDOZ | Active |
+| 60812134 | RISPERIDONE ZENTIVA 4 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 68932559 | RISPERIDONE ARROW LAB 1 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 69505147 | RISPERDAL 1 mg/ml, solution buvable | Solution buvable | JANSSEN CILAG | Active |
+| 61314485 | RISPERIDONE TEVA L.P. 37,5 mg/2 mL, poudre et solvant pour suspension injectable à libéra… | Poudre et solvant pour suspension injectable | TEVA SANTE | Active |
+| 61511073 | RISPERIDONE CRISTERS 2 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 68633172 | RISPERIDONE ZENTIVA 2 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 68291548 | RISPERIDONE ARROW 1 mg/mL, solution buvable | Solution buvable | ARROW GENERIQUES | Active |
+| 68909592 | RISPERIDONE TEVA SANTE 4 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 69556750 | RISPERDAL 4 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG | Active |
+| 68408122 | RISPERIDONE SANDOZ 1 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 66172552 | RISPERIDONE VIATRIS 3 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 62505785 | RISPERIDONE EG 0,5 mg, comprimé orodispersible | Comprimé orodispersible | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

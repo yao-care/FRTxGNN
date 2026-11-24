@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 715
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Streptozocin : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM disponible"
 monitor_inn: "streptozocin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "small cell lung carcinoma", "pulmonary blastoma", "well-differentiated fetal adenocarcinoma of the lung", "hereditary breast ovarian cancer syndrome", "primary pulmonary lymphoma", "lymphosarcoma", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma"]
@@ -108,9 +108,15 @@ Aucune littérature associée disponible actuellement pour la sclérose en plaqu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63371175 | ZANOSAR 1 g, poudre pour solution à diluer pour perfusion (ESTEVE PHARMACEUTICALS) | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63371175 | ZANOSAR 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ESTEVE PHARMACEUTICALS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

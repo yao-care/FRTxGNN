@@ -83,11 +83,19 @@ Aucune étude clinique directe n'a été retrouvée pour cette indication. Les p
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 65984700 | LOXEN 20 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
-| 60718902 | LOXEN 10 mg/10 mL, solution injectable (I.V.) | Solution injectable | Non renseignée | Active |
-| 69198890 | LOXEN LP 50 mg, gélule à libération prolongée | Gélule à libération prolongée | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65984700 | LOXEN 20 mg, comprimé sécable | Comprimé sécable | LABORATOIRE XO | Active |
+| 60718902 | LOXEN 10 mg/10 mL, solution injectable (I.V.) | Solution injectable | LABORATOIRE XO | Active |
+| 69198890 | LOXEN LP 50 mg, gélule à libération prolongée | Gélule à libération prolongée | LABORATOIRE XO | Active |
+| 67962026 | NICARDIPINE AGUETTANT 10 mg/10 ml, solution injectable | Solution injectable | AGUETTANT | Active |
+| 69913202 | NICARDIPINE ARROW 10 mg/10 mL, solution injectable | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

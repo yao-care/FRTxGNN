@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "bromocriptine"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "atypical glycine encephalopathy", "myopia 26, X-linked, female-limited", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "schizophrenia", "syndromic myopia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromocriptine : nouvelle indication prédite, Anomalie congénitale de la glycosylation avec défaut de fucosylation (congenital disorder of glycosylation with defecti… (niveau de preuve L5). Indication…"
 ---
 
@@ -70,11 +70,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63369053 | PARLODEL 2,5 mg, comprimé sécable | comprimé sécable | Non renseignée dans les données locales |
-| 64141483 | PARLODEL 5 mg, gélule | gélule | Non renseignée dans les données locales |
-| 66729097 | PARLODEL 10 mg, gélule | gélule | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63369053 | PARLODEL 2,5 mg, comprimé sécable | Comprimé sécable | EXELTIS SANTE | Active |
+| 64141483 | PARLODEL 5 mg, gélule | Gélule | EXELTIS SANTE | Active |
+| 66729097 | PARLODEL 10 mg, gélule | Gélule | EXELTIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -98,9 +98,16 @@ Les effets observés restent modestes selon les méta-analyses. Cette indication
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64256681 | CATAPRESSAN 0,15 mg/ml | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64256681 | CATAPRESSAN 0,15 mg/ml, solution injectable | Solution injectable | GLENWOOD GMBH PHARMAZEUTISCHE ERZEUGNISSE | Active |
+| 68678872 | CATAPRESSAN 0,15 mg, comprimé sécable | Comprimé sécable | GLENWOOD GMBH PHARMAZEUTISCHE ERZEUGNISSE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

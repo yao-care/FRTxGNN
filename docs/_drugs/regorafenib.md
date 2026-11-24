@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 657
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "regorafenib"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "clear cell renal carcinoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal cell carcinoma associated with neuroblastoma", "childhood kidney cell carcinoma", "vulva sarcoma"]
 description: "Regorafenib : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -82,9 +82,15 @@ Cependant, le signal clinique dépend du sous-type. L'essai randomisé de phase 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69548508 | STIVARGA 40 mg, comprimé pelliculé (BAYER AG, Allemagne) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69548508 | STIVARGA 40 mg, comprimé pelliculé | Comprimé pelliculé | BAYER AG (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le régorafénib est commercialisé en France (1 AMM valide, titulaire : BAYER AG, Allemagne).
 

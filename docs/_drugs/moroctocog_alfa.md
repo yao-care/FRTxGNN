@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 515
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MOROCTOCOG ALFA"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "acquired coagulation factor deficiency", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "flood factor deficiency"]
 description: "Moroctocog Alfa : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans…"
@@ -91,13 +91,19 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64968807 | REFACTO AF 2000 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM active) |
-| 60106606 | REFACTO AF 250 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM active) |
-| 62981909 | REFACTO AF 1000 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM active) |
-| 66743830 | REFACTO AF 3000 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM active) |
-| 60937230 | REFACTO AF 500 UI | Poudre et solvant pour solution injectable en seringue préremplie | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64968807 | REFACTO AF 2000 UI, poudre et solvant pour solution injectable en seringue préremplie | Poudre et solvant pour solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 60106606 | REFACTO AF 250 UI, poudre et solvant pour solution injectable en seringue préremplie | Poudre et solvant pour solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 62981909 | REFACTO AF 1000 UI, poudre et solvant pour solution injectable en seringue préremplie | Poudre et solvant pour solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 66743830 | REFACTO AF 3000 UI, poudre et solvant pour solution injectable en seringue préremplie | Poudre et solvant pour solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 60937230 | REFACTO AF 500 UI, poudre et solvant pour solution injectable en seringue préremplie | Poudre et solvant pour solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le titulaire de ces AMM est PFIZER EUROPE MA EEIG (Belgique).
 

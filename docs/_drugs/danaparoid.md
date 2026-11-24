@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 211
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "danaparoid"
 predicted_indications: ["Glanzmann thrombasthenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "Scott syndrome"]
 description: "Danaparoid : nouvelle indication prédite, Glanzmann thrombasthenia (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -79,9 +79,15 @@ Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 69449143 | ORGARAN 750 U.I. anti Xa/0,6 ml, solution injectable en ampoule (VIATRIS SANTE) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69449143 | ORGARAN 750 U.I. anti Xa/0,6 ml, solution injectable en ampoule | Solution injectable | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

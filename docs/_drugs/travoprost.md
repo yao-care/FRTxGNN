@@ -73,15 +73,37 @@ Aucune littérature associée à la calciphylaxie viscérale n'est disponible ac
 
 ## Informations de Marché en France
 
-Les textes d'indication approuvée ne sont pas renseignés dans les données compilées. Principales AMM :
+Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60670806 | TRAVATAN 40 µg/mL | Collyre en solution | Active |
-| 63633802 | DUOTRAV 40 µg/mL + 5 mg/mL | Collyre en solution | Active |
-| 67138300 | VIZITRAV 40 µg/mL | Collyre en solution | Active |
-| 62332319 | SINETRAV 40 µg/mL | Collyre en solution | Active |
-| 68058227 | TRAVOPROST ZENTIVA 40 µg/mL | Collyre en solution | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68058227 | TRAVOPROST ZENTIVA 40 microgrammes/mL, collyre en solution | Collyre en solution | ZENTIVA FRANCE | Active |
+| 63367401 | TRAVOPROST BIOGARAN 40 microgrammes/ml, collyre en solution | Collyre en solution | BIOGARAN | Active |
+| 67138300 | VIZITRAV 40 microgrammes/mL, collyre en solution | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 66855039 | TRAVOPROST EG 40 microgrammes/mL, collyre en solution | Collyre en solution | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61698064 | TRAVOPROST ARROW 40 microgrammes/mL, collyre en solution | Collyre en solution | ARROW GENERIQUES | Active |
+| 62334754 | TRAVOPROST TEVA 40 microgrammes/mL, collyre en solution | Collyre en solution | TEVA SANTE | Active |
+| 62332319 | SINETRAV 40 microgrammes/mL, collyre en solution | Collyre en solution | HORUS PHARMA | Active |
+| 67247812 | TRAVOPROST CRISTERS 40 microgrammes/ml, collyre en solution | Collyre en solution | CRISTERS | Active |
+| 60670806 | TRAVATAN 40 microgrammes/mL, collyre en solution | Collyre en solution | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61746783 | TRAVOPROST VIATRIS 40 microgrammes/mL, collyre en solution | Collyre en solution | VIATRIS SANTE | Active |
+| 69086254 | TRAVOPROST/TIMOLOL ZENTIVA 40 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | ZENTIVA FRANCE | Active |
+| 65773219 | TRAVOPROST/TIMOLOL ARROW 40 microgrammes/5 mg par mL, collyre en solution | Collyre en solution | ARROW GENERIQUES | Active |
+| 60178609 | TRAVOPROST/TIMOLOL BIOGARAN 40 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | BIOGARAN | Active |
+| 67594841 | KIVIZIDIALE 40 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 63967296 | TRAVOPROST/TIMOLOL EG 40 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67902901 | TRAVOPROST/TIMOLOL TEVA 40 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | TEVA SANTE | Active |
+| 67652351 | FILIOP 40 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | HORUS PHARMA | Active |
+| 63633802 | DUOTRAV 40 microgrammes/ml + 5 mg/ml, collyre en solution | Collyre en solution | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 69220333 | TRAVOPROST/TIMOLOL VIATRIS 40 microgrammes/mL + 5 mg/mL, collyre en solution | Collyre en solution | VIATRIS SANTE | Active |
+| 66811249 | TRAVOPROST SANDOZ 40 microgrammes/mL, collyre en solution | Collyre en solution | SANDOZ | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Parmi les 15 autres AMM (génériques de travoprost seul ou associés au timolol), 14 sont actives et 1 est abrogée (66811249).
 

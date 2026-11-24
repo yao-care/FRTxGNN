@@ -80,10 +80,26 @@ Aucune étude contrôlée spécifique à l'hydroxyzine dans l'urticaire allergiq
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61162294 | ATARAX 2 mg/mL, sirop (active) | Sirop | Non renseignée |
-| 61519586 | ATARAX 25 mg, comprimé pelliculé sécable (active) | Comprimé pelliculé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61162294 | ATARAX 2 mg/mL, sirop | Sirop | UCB PHARMA | Active |
+| 61519586 | ATARAX 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | UCB PHARMA | Active |
+| 60322461 | HYDROXYZINE TEVA 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 60507271 | HYDROXYZINE ARROW 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 63874970 | HYDROXYZINE ZENTIVA 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 63999867 | HYDROXYZINE RENAUDIN 100 mg/2 mL, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 64110908 | HYDROXYZINE BLUEFISH 25 mg, comprimé pelliculé | Comprimé pelliculé | BLUEFISH PHARMACEUTICALS (SUEDE) | Active |
+| 64715729 | HYDROXYZINE EG 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65717544 | HYDROXYZINE CRISTERS 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 67838085 | HYDROXYZINE BIOGARAN 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 69638464 | HYDROXYZINE VIATRIS 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 65195879 | HYDROXYZINE SANDOZ 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

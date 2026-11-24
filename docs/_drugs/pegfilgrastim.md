@@ -79,13 +79,26 @@ Le texte de l'indication approuvée n'est pas disponible pour ces AMM.
 
 <!-- review:end fr-lic-20261106-pegfilgrastim-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63655026 | GRASUSTEK 6 mg, seringue préremplie | Solution injectable | Active |
-| 60457929 | FULPHILA 6 mg, seringue préremplie | Solution injectable | Active |
-| 64847677 | PELGRAZ 6 mg, stylo injecteur prérempli | Solution injectable | Active |
-| 61553026 | PELGRAZ 6 mg, seringue préremplie | Solution injectable | Active |
-| 63626633 | ZIEXTENZO 6 mg, seringue préremplie | Solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63655026 | GRASUSTEK 6 mg, solution injectable en seringue préremplie | Solution injectable | JUTA PHARMA (ALLEMAGNE) | Active |
+| 60457929 | FULPHILA 6 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 64847677 | PELGRAZ 6 mg, solution injectable en stylo injecteur prérempli | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61553026 | PELGRAZ 6 mg, solution injectable en seringue préremplie | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63626633 | ZIEXTENZO 6 mg, solution injectable en seringue préremplie | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 60647992 | CEGFILA 6 mg, solution injectable en seringue préremplie | Solution injectable | MUNDIPHARMA CORPORATION (IRELAND) | Active |
+| 68735818 | NEULASTA 6 mg, solution injectable | Solution injectable | AMGEN EUROPE | Active |
+| 68698437 | NYVEPRIA 6 mg, solution injectable | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 61378153 | PELMEG 6 mg, solution injectable en seringue préremplie | Solution injectable | MUNDIPHARMA CORPORATION (IRELAND) | Active |
+| 69578572 | STIMUFEND 6 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 60390334 | DYRUPEG 6 mg, solution injectable en seringue préremplie | Solution injectable | CURATEQ BIOLOGICS (MALTE) | Active |
+| 67692246 | VIVLIPEG 6 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

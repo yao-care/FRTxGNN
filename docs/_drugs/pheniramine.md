@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 594
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "pheniramine"
 predicted_indications: ["nasal cavity disease"]
 description: "Pheniramine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
@@ -77,13 +77,23 @@ Ces publications ne documentent pas l'efficacité de la phéniramine dans l'urti
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60759678 | Paracétamol/Vitamine C/Phéniramine Viatris Conseil sans sucre 500 mg/200 mg/25 mg | Poudre pour solution buvable | Non précisée (AMM active) |
-| 69329731 | Fervex Adultes | Granulés pour solution buvable | Non précisée (AMM active) |
-| 69738404 | Fervex Adultes Framboise | Granulés pour solution buvable | Non précisée (AMM active) |
-| 66238760 | Rhinofébral sans sucre | Poudre pour solution buvable | Non précisée (AMM active) |
-| 61697350 | Humexlib État Grippal sans sucre | Poudre pour solution buvable | Non précisée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60759678 | PARACETAMOL/VITAMINE C/PHENIRAMINE VIATRIS CONSEIL SANS SUCRE 500 mg/200 mg/25 mg, poudre… | Poudre pour solution buvable | VIATRIS SANTE | Active |
+| 69329731 | FERVEX ADULTES, granulés pour solution buvable en sachet | Granulés pour solution buvable | UPSA | Active |
+| 69738404 | FERVEX ADULTES FRAMBOISE, granulés pour solution buvable en sachet | Granulés pour solution buvable | UPSA | Active |
+| 66238760 | RHINOFEBRAL SANS SUCRE, poudre pour solution buvable en sachet édulcorée à laspartam | Poudre pour solution buvable | KENVUE FRANCE | Active |
+| 61697350 | HUMEXLIB ETAT GRIPPAL PARACETAMOL/VITAMINE C/PHENIRAMINE 500 mg/200 mg/25 mg SANS SUCRE,… | Poudre pour solution buvable | LABORATOIRES URGO HEALTHCARE | Active |
+| 66947007 | FERVEX ADULTES SANS SUCRE, granulés pour solution buvable en sachet | Granulés pour solution buvable | UPSA | Active |
+| 61541629 | HUMEXLIB ETAT GRIPPAL PARACETAMOL/VITAMINE C/PHENIRAMINE 500 mg/200 mg/25 mg, poudre pour… | Poudre pour solution buvable | LABORATOIRES URGO HEALTHCARE | Active |
+| 69241765 | RHINOFEBRAL JOUR ET NUIT, poudre pour solution buvable en sachet édulcorée à l'aspartam | Poudre buvable buvable et poudre buvable buvable | KENVUE FRANCE | Active |
+| 66418648 | FERVEX ENFANTS SANS SUCRE, granulés pour solution buvable en sachet | Granulés pour solution buvable | UPSA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 9 AMM sont recensées. Il s'agit exclusivement d'associations fixes (paracétamol, vitamine C, phéniramine) destinées à l'état grippal.
 

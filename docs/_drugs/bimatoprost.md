@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "BIMATOPROST"
 predicted_indications: ["malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "genetic alopecia", "pulmonary arteriovenous malformation (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bimatoprost : nouvelle indication prédite, Syndrome malformatif avec composante dentaire et/ou parodontale (malformation syndrome with odontal and/or periodontal… (niveau de preuve L5). Indication d'…"
 ---
 
@@ -71,6 +71,36 @@ Aucun essai clinique associé enregistré actuellement.
 Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68472160 | BIMATOPROST VIATRIS 0,1 mg/mL, collyre en solution | Collyre en solution | VIATRIS SANTE | Active |
+| 60607955 | BIMATOPROST BIOGARAN 0,1 mg/mL, collyre en solution | Collyre en solution | BIOGARAN | Active |
+| 66203859 | LUMIGAN 0,1 mg/ml, collyre en solution | Collyre en solution | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 69276143 | BIMATOPROST SANDOZ 0,1 mg/mL, collyre en solution | Collyre en solution | SANDOZ | Active |
+| 65382081 | BIMATOPROST SANDOZ 0,3 mg/mL, collyre en solution | Collyre en solution | SANDOZ | Active |
+| 64853413 | BIMATOPROST VIATRIS 0,3 mg/ml, collyre en solution | Collyre en solution | VIATRIS SANTE | Active |
+| 63527336 | AMIRIOX 0,3 mg/mL, collyre en solution | Collyre en solution | SIFI (ITALIE) | Active |
+| 60135981 | LUMIGAN 0,3 mg/ml, collyre en solution | Collyre en solution | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 62931728 | BIMATOPROST TEVA SANTE 0,1 mg/mL, collyre en solution | Collyre en solution | TEVA (PAYS-BAS) | Active |
+| 69018883 | IRICRYN 0,3 mg/mL, collyre en solution | Collyre en solution | TRB CHEMEDICA | Active |
+| 67042647 | BIMATOPROST EG 0,3 mg/ml, collyre en solution | Collyre en solution | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66107266 | BITIFRIN 0,3 mg/5 mg par mL, collyre en solution | Collyre en solution | TRB CHEMEDICA | Active |
+| 64195221 | BIMATOPROST/TIMOLOL SANDOZ 0,3 mg/mL + 5 mg/mL, collyre en solution | Collyre en solution | SANDOZ | Active |
+| 66489175 | GANFORT 0,3 mg/ml + 5 mg/ml, collyre en solution | Collyre en solution | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 63251140 | BIMATOPROST/TIMOLOL EG 0,3 mg/mL + 5 mg/mL, collyre en solution | Collyre en solution | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62218397 | BIMATOPROST/TIMOLOL VIATRIS 0,3 mg/mL + 5 mg/mL, collyre en solution | Collyre en solution | VIATRIS SANTE | Active |
+| 60892664 | GANFORT 0,3 mg/ml + 5 mg/ml, collyre en solution en récipient unidose | Collyre en solution | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 63759509 | BIMATOPROST/TIMOLOL TEVA 0,3 mg/mL + 5 mg/mL, collyre en solution | Collyre en solution | TEVA SANTE | Active |
+| 66454128 | BIMATOPROST/TIMOLOL BIOGARAN 0,3 mg/mL + 5 mg/mL, collyre en solution | Collyre en solution | BIOGARAN | Active |
+| 67694165 | ECBIRIO 0,3 mg/5 mg par mL, collyre en solution | Collyre en solution | SIFI (ITALIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Le bimatoprost est commercialisé en France sous forme de **collyre en solution**, en spécialités à base de bimatoprost seul ou associé à d'autres substances. La liste détaillée des AMM est générée par le programme à partir des données réglementaires locales. Les données d'AMM peuvent être partielles.
 

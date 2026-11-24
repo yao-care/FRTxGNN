@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 400
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin degludec"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome"]
 description: "Insulin Degludec : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -108,11 +108,17 @@ Les données compilées recensent au total 41 essais, majoritairement de phase 1
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60791754 | TRESIBA FLEXTOUCH 200 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 69786114 | TRESIBA PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
-| 60480810 | XULTOPHY 100 unités/ml + 3,6 mg/ml | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60791754 | TRESIBA FLEXTOUCH 200 unités/ml, solution injectable en stylo prérempli | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 69786114 | TRESIBA PENFILL 100 unités/ml, solution injectable en cartouche | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 60480810 | XULTOPHY 100 unités/ml + 3,6 mg/ml, solution injectable | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

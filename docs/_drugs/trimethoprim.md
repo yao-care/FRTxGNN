@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 791
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "trimethoprim"
 predicted_indications: ["punctate epithelial keratoconjunctivitis"]
 description: "Trimethoprim : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -82,13 +82,21 @@ Aucune littérature associée n'est disponible actuellement pour la kératoconjo
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66142235 | DELPRIM 300 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 69464049 | BACTRIM 40 mg/mL + 8 mg/mL, suspension buvable | Suspension buvable | Non renseignée (AMM active) |
-| 67891013 | COTRIMOXAZOLE TEVA 800 mg/160 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 69233327 | BACTRIM, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée (AMM active) |
-| 64121235 | BACTRIM FORTE, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66142235 | DELPRIM 300 mg, comprimé sécable | Comprimé sécable | LABORATOIRE CCD | Active |
+| 69464049 | BACTRIM 40 mg/mL + 8 mg/mL, suspension buvable | Suspension buvable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 67891013 | COTRIMOXAZOLE TEVA 800 mg/160 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 69233327 | BACTRIM, solution injectable pour perfusion | Solution injectable pour perfusion | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 64121235 | BACTRIM FORTE, comprimé sécable | Comprimé sécable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 65880598 | BACTRIM, suspension buvable | Suspension buvable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 65181349 | BACTRIM, comprimé sécable | Comprimé sécable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

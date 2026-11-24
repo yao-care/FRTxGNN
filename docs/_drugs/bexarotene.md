@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "bexarotene"
 predicted_indications: ["primary cutaneous B-cell lymphoma", "lymphosarcoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bexarotene : nouvelle indication prédite, Lymphome cutané primitif à cellules B (primary cutaneous B-cell lymphoma) (niveau de preuve L5)."
 ---
 
@@ -84,10 +84,16 @@ Les publications ci-dessous sont des revues générales sur les lymphomes cutan�
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65407392 | BEXAROTENE CIPLA 75 mg, capsule molle | Capsule molle | Non renseignée dans les données locales |
-| 69197468 | TARGRETIN 75 mg, capsule molle | Capsule molle | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65407392 | BEXAROTENE CIPLA 75 mg, capsule molle | Capsule molle | CIPLA EUROPE (BELGIQUE) | Active |
+| 69197468 | TARGRETIN 75 mg, capsule molle | Capsule molle | HAC PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le bexarotène est commercialisé en France ; les deux AMM recensées sont valides.
 

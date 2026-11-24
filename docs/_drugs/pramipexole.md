@@ -91,13 +91,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67527910 | SIFROL 0,26 mg | Comprimé à libération prolongée | Active |
-| 60267171 | SIFROL 1,05 mg | Comprimé à libération prolongée | Active |
-| 67696401 | PRAMIPEXOLE ZENTIVA 0,18 mg | Comprimé sécable | Active |
-| 63005092 | PRAMIPEXOLE TEVA 0,18 mg | Comprimé | Active |
-| 66881233 | SIFROL 0,7 mg | Comprimé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67527910 | SIFROL 0,26 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 60267171 | SIFROL 1,05 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 67696401 | PRAMIPEXOLE ZENTIVA 0,18 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 63005092 | PRAMIPEXOLE TEVA 0,18 mg, comprimé | Comprimé | TEVA (PAYS-BAS) | Active |
+| 66881233 | SIFROL 0,7 mg, comprimé | Comprimé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 69716450 | PRAMIPEXOLE TEVA 0,7 mg comprimé | Comprimé | TEVA (PAYS-BAS) | Active |
+| 67432729 | SIFROL 0,52 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 69016117 | SIFROL 0,18 mg, comprimé | Comprimé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 69922895 | SIFROL 2,1 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 60949122 | PRAMIPEXOLE SANDOZ LP 0,52 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SANDOZ | Active |
+| 61129497 | PRAMIPEXOLE ARROW LAB 0,18 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 61623204 | PRAMIPEXOLE SANDOZ LP 1,05 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SANDOZ | Active |
+| 61675795 | PRAMIPEXOLE EG 0,18 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61996139 | OPRYMEA 0,18 mg, comprimé | Comprimé | KRKA (SLOVENIE) | Active |
+| 62286576 | OPRYMEA 0,52 mg, comprimé à libération prolongée | Comprimé à libération prolongée | KRKA (SLOVENIE) | Active |
+| 63489405 | PRAMIPEXOLE EG 0,7 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64027031 | OPRYMEA 0,7 mg, comprimé | Comprimé | KRKA (SLOVENIE) | Active |
+| 64264685 | PRAMIPEXOLE VIATRIS 0,7 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 64487282 | PRAMIPEXOLE ZENTIVA LP 0,26 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ZENTIVA FRANCE | Active |
+| 64689437 | PRAMIPEXOLE BIOGARAN 0,70 mg, comprimé | Comprimé | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

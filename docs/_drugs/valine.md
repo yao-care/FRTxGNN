@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 801
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Valine : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L4). Indication d'origine : Non précisée dans les données compilées (texte d'indication vide pour…"
 monitor_inn: "VALINE"
 predicted_indications: ["sclerosing cholangitis", "angle-closure glaucoma", "hyperthyroidism", "aqueous misdirection", "traumatic glaucoma", "neovascular glaucoma", "glaucomatous atrophy of optic disc", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "obsolete bundle branch block", "hyperthyroxinemia"]
@@ -83,15 +83,37 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le médicament est commercialisé ; 19 AMM sont actuellement valides. Le texte d'indication approuvée n'est pas disponible. Principales AMM (5 sur 20) :
+Le médicament est commercialisé ; 19 AMM sont actuellement valides. Le texte d'indication approuvée n'est pas disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63363997 | REVITALOSE SANS SUCRE, solution buvable édulcorée au sorbitol | Solution buvable | Non renseignée |
-| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée |
-| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | Non renseignée |
-| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | Non renseignée |
-| 61786735 | AMINOMIX 500, solution pour perfusion | Solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63363997 | REVITALOSE SANS SUCRE, solution buvable édulcorée au sorbitol | Solution et solution buvable | PIERRE FABRE MEDICAMENT | Active |
+| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67972077 | AMINOPLASMAL 12, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 60274212 | REANUTRIFLEX, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 65461618 | NUTRINEAL PD4 A 1,1 % D'ACIDES AMINES, solution pour dialyse péritonéale | Solution pour dialyse péritonéale | VANTIVE | Active |
+| 62932118 | REANUTRIFLEX OMEGA, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67592324 | OLIMEL N12, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 69063120 | OLIMEL N9, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61983743 | OLIMEL N7, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 63740918 | SMOFKABIVEN, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61117445 | CLINIMIX N9 G15 E, solution pour perfusion en poche bicompartiment | Solution et solution pour perfusion | BAXTER | Active |
+| 60715870 | SMOFKABIVEN PROTEINE, émulsion pour perfusion | Émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 61786735 | AMINOMIX 500, solution pour perfusion | Solution et solution pour perfusion | FRESENIUS KABI FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les autres AMM concernent des produits de nutrition parentérale similaires (Aminoplasmal, Olimel, SmofKabiven, Clinimix, Primene, Nutrineal, etc.).
 

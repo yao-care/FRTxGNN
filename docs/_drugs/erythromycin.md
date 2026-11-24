@@ -82,13 +82,25 @@ L'érythromycine est commercialisée en France. Les 11 AMM recensées sont valid
 
 <!-- review:end fr-lic-20261124-erythromycin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65371633 | ERY NOURRISSONS 125 mg, granulés en sachet | Granulés | Non renseignée |
-| 61572941 | ERY 500 mg, comprimé | Comprimé | Non renseignée |
-| 64620665 | ERYTHROCINE 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution pour perfusion | Non renseignée |
-| 65256289 | ERYTHROGEL 4 %, gel pour application cutanée | Gel pour application | Non renseignée |
-| 61096983 | ERYFLUID, lotion | Solution | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65371633 | ERY NOURRISSONS 125 mg, granulés en sachet | Granulés | BOUCHARA-RECORDATI | Active |
+| 61572941 | ERY 500 mg, comprimé | Comprimé | BOUCHARA-RECORDATI | Active |
+| 64620665 | ERYTHROCINE 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution pour perfusion | AMDIPHARM | Active |
+| 65256289 | ERYTHROGEL 4 %, gel pour application cutanée | Gel pour application | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 61096983 | ERYFLUID, lotion | Solution | PIERRE FABRE MEDICAMENT | Active |
+| 62856453 | ERYTHROMYCINE BAILLEUL 4 %, solution pour application cutanée | Solution pour application | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 62936337 | ERY ENFANTS 250 mg, granulés en sachet | Granulés | BOUCHARA-RECORDATI | Active |
+| 61381765 | ERYLIK, gel pour application cutanée | Gel pour application | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 63485296 | ERYTHROCINE 500 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution pour perfusion | AMDIPHARM | Active |
+| 68664794 | ERYTHROMYCINE PANPHARMA 500 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PANPHARMA | Active |
+| 69820901 | ERYTHROMYCINE PANPHARMA 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PANPHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

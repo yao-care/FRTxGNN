@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 317
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "febuxostat"
 predicted_indications: ["hypouricemia, renal", "hypoxanthine guanine phosphoribosyltransferase partial deficiency", "Lesch-Nyhan syndrome"]
 description: "Febuxostat : nouvelle indication prédite, Hypouricémie rénale (hypouricemia, renal) (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
@@ -97,13 +97,35 @@ Aucun texte d'indication n'est renseigné. Les 5 premières sont listées ci-des
 
 <!-- review:end fr-lic-20261106-febuxostat-1 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 61871331 | ADENURIC 80 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 64493890 | ADENURIC 120 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 67041972 | FEBUXOSTAT ALMUS 80 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 60685046 | FEBUXOSTAT TEVA SANTE 80 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 60661383 | FEBUXOSTAT TEVA SANTE 120 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61871331 | ADENURIC 80 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 64493890 | ADENURIC 120 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 67041972 | FEBUXOSTAT ALMUS 80 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 60685046 | FEBUXOSTAT TEVA SANTE 80 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 60661383 | FEBUXOSTAT TEVA SANTE 120 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 68106558 | FEBUXOSTAT VIATRIS 80 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 68619429 | FEBUXOSTAT ZENTIVA LAB 120 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 65861594 | FEBUXOSTAT SANDOZ 80 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65290583 | FEBUXOSTAT ZYDUS FRANCE 120 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 60506358 | FEBUXOSTAT CRISTERS 120 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 67373259 | FEBUXOSTAT EG 120 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61509909 | FÉBUXOSTAT ARROW 80 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64661690 | FEBUXOSTAT CRISTERS 80 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 63881349 | FEBUXOSTAT EG 80 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63862669 | FEBUXOSTAT ACCORD 80 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 61045113 | FEBUXOSTAT ALMUS 120 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 64305057 | FEBUXOSTAT EVOLUGEN 80 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 67508504 | FEBUXOSTAT BIOGARAN 80 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62903522 | FEBUXOSTAT ACCORD 120 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 61532847 | FEBUXOSTAT VIATRIS 120 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

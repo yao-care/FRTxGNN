@@ -103,13 +103,32 @@ Les publications restantes (cas de glaucome et de myopie liés au topiramate, ca
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63667263 | Atropine (sulfate) Lavoisier 0,25 mg/1 ml | Solution injectable | Non renseignée (AMM active) |
-| 61397901 | Atropine (sulfate) Lavoisier 0,50 mg/ml | Solution injectable | Non renseignée (AMM active) |
-| 66063364 | Atropine (sulfate) Aguettant 1 mg/mL | Solution injectable | Non renseignée (AMM active) |
-| 69984085 | Atropine Alcon 1 pour cent | Collyre | Non renseignée (AMM active) |
-| 61883472 | Atropine (sulfate) Lavoisier 1 mg/ml | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63667263 | ATROPINE (SULFATE) LAVOISIER 0,25 mg/1 ml, solution injectable | Solution injectable | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 61397901 | ATROPINE (SULFATE) LAVOISIER 0,50 mg/ml, solution injectable | Solution injectable | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 66063364 | ATROPINE (SULFATE) AGUETTANT 1 mg/mL, solution injectable | Solution injectable | AGUETTANT | Active |
+| 69984085 | ATROPINE ALCON 1 POUR CENT, collyre | Collyre | LABORATOIRES ALCON | Active |
+| 61883472 | ATROPINE (SULFATE) LAVOISIER 1 mg/ml, solution injectable | Solution injectable | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 60476979 | ATROPINE ALCON 0,5 POUR CENT, collyre | Collyre | LABORATOIRES ALCON | Active |
+| 62533756 | ATROPINE ALCON 0,3 POUR CENT, collyre | Collyre | LABORATOIRES ALCON | Active |
+| 61001686 | ATROPINE 1 POUR CENT FAURE, collyre en solution en récipient unidose | Collyre en solution | EUROPHTA | Active |
+| 61308525 | ATROPINE (SULFATE) AGUETTANT 0,50 mg/1 mL, solution injectable | Solution injectable | AGUETTANT | Active |
+| 62626185 | ATROPINE SULFATE RENAUDIN 0,25 mg/mL, solution injectable en ampoule | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 63358772 | ATROPINE SULFATE AGUETTANT 0,1 mg/mL, solution injectable en seringue préremplie | Solution injectable | AGUETTANT | Active |
+| 65395919 | ATROPINE SULFATE RENAUDIN 1 mg/mL, solution injectable en ampoule | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 66792973 | ATROPINE (SULFATE) PHARMACIE CENTRALE DES ARMEES 2 mg/mL, solution injectable | Solution injectable | PHARMACIE CENTRALE DES ARMEES- PCA | Active |
+| 67839899 | ATROPINE SULFATE RENAUDIN 0,5 mg/mL, solution injectable en ampoule | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 68551234 | ATROPINE SULFATE AGUETTANT 0,2 mg/mL, solution injectable en seringue préremplie | Solution injectable | AGUETTANT | Active |
+| 68950386 | ATROPINE SULFATE ACCORD 0,1 mg/mL solution injectable en seringue préremplie | Solution injectable | ACCORD HEALTHCARE FRANCE | Active |
+| 69697199 | ATROPINE (SULFATE) AGUETTANT 0,25 mg/mL, solution injectable | Solution injectable | AGUETTANT | Active |
+| 68173375 | INEUROPE, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | PHARMACIE CENTRALE DES ARMEES- PCA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -81,13 +81,33 @@ Un trouble neurodéveloppemental (ataxie, absence de parole, diminution de la su
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68039999 | EFAVIRENZ VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 65716353 | EFAVIRENZ ARROW 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 62728717 | EFAVIRENZ SANDOZ 600 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 62130958 | EFAVIRENZ TEVA 600 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61004700 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA 600 mg/200 mg/245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68039999 | EFAVIRENZ VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65716353 | EFAVIRENZ ARROW 600 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62728717 | EFAVIRENZ SANDOZ 600 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 62130958 | EFAVIRENZ TEVA 600 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 61004700 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA 600 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 69244131 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL TEVA 600 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63775716 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL ARROW 600 mg/200 mg/245 mg, comprimé pellicu… | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 65999410 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL ZENTIVA 600 mg/200 mg/245 mg, comprimé pelli… | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 60382686 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL BGR 600 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62474215 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL MYLAN 600 mg/200 mg/245 mg, comprimé pellicu… | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 65620892 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL EG LABO 600 mg/200 mg/245 mg, comprimé pelli… | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68752269 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL ZENTIVA K.S 600 mg/200 mg/245 mg, comprimé p… | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 65198334 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL EG 600 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Suspendue |
+| 67491478 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL BIOGARAN 600 mg/200 mg/245 mg, comprimé pell… | Comprimé pelliculé | BIOGARAN | Suspendue |
+| 61814540 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL SANDOZ 600 mg/200 mg/245 mg, comprimé pellic… | Comprimé pelliculé | SANDOZ | Suspendue |
+| 60396426 | SUSTIVA 100 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Abrogée |
+| 60798510 | SUSTIVA 50 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Abrogée |
+| 64702347 | SUSTIVA 200 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Abrogée |
+| 64005832 | ATRIPLA 600 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

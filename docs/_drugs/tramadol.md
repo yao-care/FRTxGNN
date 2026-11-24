@@ -74,9 +74,35 @@ Pour information, une publication a été retrouvée pour une prédiction de ran
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66750351 | TRAMADOL TEVA L.P. 100 mg (TEVA SANTE) | Comprimé pelliculé à libération prolongée | Non renseignée ; AMM active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66750351 | TRAMADOL TEVA L.P. 100 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | TEVA SANTE | Active |
+| 60004487 | TRAMADOL EG L.P. 200 mg, comprimé à libération prolongée | Comprimé à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60041560 | TRAMADOL CRISTERS LP 150 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | CRISTERS | Active |
+| 60225681 | TRAMADOL ARROW L.P. 200 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Active |
+| 60304591 | TRAMADOL VIATRIS LP 100 mg, comprimé à libération prolongée | Comprimé à libération prolongée | LABORATOIRES GRUNENTHAL | Active |
+| 60344529 | MONOCRIXO L.P. 150 mg, gélule à libération prolongée (UNE PRISE QUOTIDIENNE) | Gélule à libération prolongée | THERABEL LUCIEN PHARMA | Active |
+| 60477650 | CONTRAMAL 100 mg/ml, solution buvable | Solution buvable en gouttes | LABORATOIRES GRUNENTHAL | Active |
+| 60613075 | TRAMADOL EVOLUGEN L.P. 200 mg, comprimé à libération prolongée | Comprimé à libération prolongée | EVOLUPHARM | Active |
+| 60712486 | TRAMADOL HCS 50 mg, gélule | Gélule | HCS (BELGIQUE) | Active |
+| 61416209 | TRAMADOL ZYDUS L.P. 150 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ZYDUS FRANCE | Active |
+| 61644643 | TRAMADOL BIOGARAN 50 mg, gélule | Gélule | BIOGARAN | Active |
+| 61662919 | CONTRAMAL LP 150 mg, comprimé à libération prolongée | Comprimé à libération prolongée | LABORATOIRES GRUNENTHAL | Active |
+| 62079531 | TRAMADOL EG L.P. 150 mg, comprimé à libération prolongée | Comprimé à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62355702 | TOPALGIC 100 mg/2 ml, solution injectable en ampoule | Solution injectable | NEURAXPHARM FRANCE | Active |
+| 62475071 | TRAMADOL CRISTERS LP 200 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | CRISTERS | Active |
+| 62484259 | TRAMADOL ARROW 50 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 62711493 | CONTRAMAL 100 mg/2 ml, solution injectable | Solution injectable | LABORATOIRES GRUNENTHAL | Active |
+| 62720364 | TRAMADOL ARROW L.P. 150 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Active |
+| 63144569 | TRAMADOL TEVA L.P. 200 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | TEVA SANTE | Active |
+| 61587060 | MONOALGIC L.P. 200 mg, comprimé à libération prolongée (UNE PRISE QUOTIDIENNE) | Comprimé à libération prolongée | ENDO OPERATIONS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

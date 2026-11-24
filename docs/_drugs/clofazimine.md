@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 184
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOFAZIMINE"
 predicted_indications: ["pneumocystosis", "malaria", "gastrin secretion abnormality"]
 description: "Clofazimine : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -85,10 +85,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62768220 | LAMPRENE 50 mg, capsule molle (Novartis Pharma) | Capsule molle | Non renseignée (AMM active) |
-| 67132888 | LAMPRENE 100 mg, capsule molle (Novartis Pharma) | Capsule molle | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62768220 | LAMPRENE 50 mg, capsule molle | Capsule molle | NOVARTIS PHARMA | Active |
+| 67132888 | LAMPRENE 100 mg, capsule molle | Capsule molle | NOVARTIS PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -80,13 +80,27 @@ Le texte de l'indication approuvée n'est pas renseigné. Les 5 premières sont 
 
 <!-- review:end fr-lic-20261106-domperidone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69742865 | MOTILIUM 1 mg/ml, suspension buvable (Janssen Cilag) | Suspension buvable | Annulée |
-| 63333858 | DOMPERIDONE BIOGARAN 10 mg (Biogaran) | Comprimé orodispersible | Active |
-| 63679194 | MOTILIUM 10 mg (Janssen Cilag) | Comprimé pelliculé | Annulée |
-| 62128302 | DOMPERIDONE ARROW 10 mg (Arrow Génériques) | Comprimé orodispersible | Active |
-| 63394334 | DOMPERIDONE BIOGARAN 10 mg (Biogaran) | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63333858 | DOMPERIDONE BIOGARAN 10 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 62128302 | DOMPERIDONE ARROW 10 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Active |
+| 63394334 | DOMPERIDONE BIOGARAN 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 66398576 | DOMPERIDONE VIATRIS 10 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68427304 | DOMPERIDONE ARROW 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 69139269 | DOMPERIDONE VIATRIS 10 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 68054595 | DOMPERIDONE ZYDUS 10 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 66585953 | DOMPERIDONE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63630635 | DOMPERIDONE ALMUS 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60764337 | DOMPERIDONE EG 10 mg, comprimé orodispersible | Comprimé orodispersible | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69742865 | MOTILIUM 1 mg/ml, suspension buvable | Suspension buvable | JANSSEN CILAG | Archivée |
+| 63679194 | MOTILIUM 10 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG | Archivée |
+| 65065017 | DOMPERIDONE ZENTIVA 10 mg, comprimé orodispersible | Comprimé orodispersible | ZENTIVA FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

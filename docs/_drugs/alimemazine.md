@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "alimemazine"
 predicted_indications: ["IgE responsiveness, atopic", "nasal cavity disease", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Alimemazine : nouvelle indication prédite, Réactivité IgE atopique (IgE responsiveness, atopic) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -71,10 +71,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66801066 | THERALENE 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
-| 67410412 | THERALENE 4 POUR CENT, solution buvable | Solution buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66801066 | THERALENE 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | LABORATOIRE XO | Active |
+| 67410412 | THERALENE 4 POUR CENT, solution buvable | Solution buvable | LABORATOIRE XO | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

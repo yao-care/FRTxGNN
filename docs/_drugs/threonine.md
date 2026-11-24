@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 755
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Threonine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées"
 monitor_inn: "threonine"
 predicted_indications: ["gastroparesis (disease)"]
@@ -79,13 +79,35 @@ Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas rens
 
 <!-- review:end fr-lic-20261106-threonine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | Active |
-| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Active |
-| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Active |
-| 62947013 | AMINOPLASMAL 25 | Solution pour perfusion | Active |
-| 61786735 | AMINOMIX 500 | Solution et solution pour perfusion | Annulée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66534581 | KETOSTERIL, comprimé enrobé | Comprimé enrobé | FRESENIUS KABI FRANCE | Active |
+| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67972077 | AMINOPLASMAL 12, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 60274212 | REANUTRIFLEX, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 67592324 | OLIMEL N12, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 62932118 | REANUTRIFLEX OMEGA, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 69063120 | OLIMEL N9, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 65461618 | NUTRINEAL PD4 A 1,1 % D'ACIDES AMINES, solution pour dialyse péritonéale | Solution pour dialyse péritonéale | VANTIVE | Active |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 61983743 | OLIMEL N7, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 60715870 | SMOFKABIVEN PROTEINE, émulsion pour perfusion | Émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 63740918 | SMOFKABIVEN, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61117445 | CLINIMIX N9 G15 E, solution pour perfusion en poche bicompartiment | Solution et solution pour perfusion | BAXTER | Active |
+| 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 61786735 | AMINOMIX 500, solution pour perfusion | Solution et solution pour perfusion | FRESENIUS KABI FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

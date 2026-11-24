@@ -77,11 +77,35 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee | Statut |
-|---------|------|------|-----------|------|
-| 63501124 | PROCORALAN 7,5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Active |
-| 65486532 | IVABRADINE ALTER 7,5 mg, comprimé (Laboratoires Alter) | Comprimé | Non renseignée | Active |
-| 61952527 | PROCORALAN 5 mg, comprimé pelliculé (Les Laboratoires Servier) | Comprimé pelliculé | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63501124 | PROCORALAN 7,5 mg, comprimé pelliculé | Comprimé pelliculé | LES LABORATOIRES SERVIER | Active |
+| 65486532 | IVABRADINE ALTER 7,5 mg, comprimé | Comprimé | LABORATOIRES ALTER | Active |
+| 61952527 | PROCORALAN 5 mg, comprimé pelliculé | Comprimé pelliculé | LES LABORATOIRES SERVIER | Active |
+| 60160479 | IVABRADINE ZENTIVA 5 mg, comprimé pelliculé | Comprimé pelliculé sécable | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 60549911 | IVABRADINE ACCORD 5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 60980317 | IVABRADINE TEVA 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA (PAYS-BAS) | Active |
+| 61203595 | IVABRADINE ARROW 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 61432512 | IVABRADINE ARROW 7,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 61701717 | IVABRADINE ZENTIVA 7,5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 62233577 | IVABRADINE ACCORD 7,5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63183337 | IVABRADINE EG 5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63191615 | IVABRADINE KRKA 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | KRKA (SLOVENIE) | Active |
+| 64506544 | IVABRADINE TEVA 7,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 64725253 | IVABRADINE BIOGARAN 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 65511544 | IVABRADINE TEVA SANTE 7,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 66084611 | IVABRADINE KRKA 7,5 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 66693651 | IVABRADINE TEVA SANTE 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67866864 | IVABRADINE BIOGARAN 7,5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60894626 | IVABRADINE ALTER 5 mg, comprimé sécable | Comprimé sécable | LABORATOIRES ALTER | Abrogée |
+| 66729407 | IVABRADINE CRISTERS 7,5 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

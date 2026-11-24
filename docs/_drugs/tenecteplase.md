@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 737
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tenecteplase"
 predicted_indications: ["congenital coronary artery anomaly", "coronary stenosis", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hemolytic anemia due to glucophosphate isomerase deficiency", "pyropoikilocytosis, hereditary", "pyruvate kinase deficiency of red cells"]
 description: "Tenecteplase : nouvelle indication prédite, Congenital coronary artery anomaly (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -90,10 +90,16 @@ Aucune littérature associée disponible actuellement pour l'infarctus postéro-
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65088998 | METALYSE 10 000 unités (50 mg) | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
-| 62750941 | METALYSE 5000 unités (25 mg) | Poudre pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65088998 | METALYSE 10 000 unités (50 mg), poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 62750941 | METALYSE 5000 unités (25 mg), poudre pour solution injectable | Poudre pour solution injectable | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

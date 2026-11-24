@@ -94,13 +94,32 @@ Aucune donnée ne démontre un effet antiviral direct sur le VIH. La prédiction
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 67059408 | ATORVASTATINE HCS 10 mg | comprimé pelliculé | Non renseignée |
-| 63366057 | ATORVASTATINE SANDOZ 80 mg | comprimé pelliculé sécable | Non renseignée |
-| 65168323 | ATORVASTATINE HCS 80 mg | comprimé pelliculé | Non renseignée |
-| 64176801 | ATORVASTATINE HCS 20 mg | comprimé pelliculé | Non renseignée |
-| 66331392 | ATORVASTATINE TEVA SANTE 20 mg | comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67059408 | ATORVASTATINE HCS 10 mg, comprimé pelliculé | Comprimé pelliculé | HCS (BELGIQUE) | Active |
+| 63366057 | ATORVASTATINE SANDOZ 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 65168323 | ATORVASTATINE HCS 80 mg, comprimé pelliculé | Comprimé pelliculé | HCS (BELGIQUE) | Active |
+| 64176801 | ATORVASTATINE HCS 20 mg, comprimé pelliculé | Comprimé pelliculé | HCS (BELGIQUE) | Active |
+| 66331392 | ATORVASTATINE TEVA SANTE 20 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 60007437 | ATORVASTATINE TEVA SANTE 40 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 69780531 | ATORVASTATINE TEVA SANTE 80 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 62738704 | ATORVASTATINE ZYDUS FRANCE 80 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 66279287 | ATORVASTATINE TEVA SANTE 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 69110520 | ATORVASTATINE ZYDUS FRANCE 10 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 68722475 | ATORVASTATINE ZYDUS FRANCE 40 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 62864852 | ATORVASTATINE ZYDUS FRANCE 20 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 65149821 | ATORVASTATINE HCS 40 mg, comprimé pelliculé | Comprimé pelliculé | HCS (BELGIQUE) | Active |
+| 61411404 | ATORVASTATINE ACCORD 10 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 62615406 | ATORVASTATINE ACCORD 80 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 66328243 | TAHOR 10 mg, comprimé pelliculé | Comprimé pelliculé | PHARMA LAB | Abrogée |
+| 66456143 | ATORVASTATINE ACCORD 40 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 68125932 | ATORVASTATINE ACCORD 20 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

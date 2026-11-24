@@ -73,13 +73,35 @@ Aucune littérature associée disponible actuellement.
 
 L'éconazole est commercialisé en France sous de nombreuses formes. Les données compilées recensent au moins 20 AMM (19 valides, 1 annulée) ; la liste peut être partielle. Le texte des indications approuvées n'est pas renseigné dans ces enregistrements. Voici cinq AMM représentatives :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62326387 | PEVARYL 1 POUR CENT, solution pour application locale en flacon pulvérisateur | Solution pour application | Non renseignée |
-| 61685323 | PEVARYL 1 %, crème | Crème | Non renseignée |
-| 66614426 | ECONAZOLE BIOGARAN L.P. 150 mg | Ovule à libération prolongée | Non renseignée |
-| 64190434 | ECONAZOLE ARROW 1 % | Émulsion pour application cutanée | Non renseignée |
-| 61729741 | MYCOSEDERMYL 1 POUR CENT | Crème | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62326387 | PEVARYL 1 POUR CENT, solution pour application locale en flacon pulvérisateur | Solution pour application | KARO PHARMA (SUEDE) | Active |
+| 66614426 | ECONAZOLE BIOGARAN L.P. 150 mg, ovule à libération prolongée | Ovule à libération prolongée | BIOGARAN | Active |
+| 64190434 | ECONAZOLE ARROW 1 %, émulsion pour application cutanée | Émulsion pour application | ARROW GENERIQUES | Active |
+| 61729741 | MYCOSEDERMYL 1 POUR CENT, crème | Crème | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 68956300 | ECONAZOLE ZYDUS L.P. 150 mg, ovule à libération prolongée | Ovule à libération prolongée | ZYDUS FRANCE | Active |
+| 68250551 | ECONAZOLE ARROW 1 %, poudre pour application cutanée | Poudre pour application | ARROW GENERIQUES | Active |
+| 65435445 | GYNOPURA 1 %, crème pour application locale | Crème | BESINS HEALTHCARE FRANCE | Active |
+| 69457211 | ECONAZOLE BIOGARAN 1 %, crème | Crème | BIOGARAN | Active |
+| 65910326 | ECONAZOLE TEVA L.P. 150 mg, ovule à libération prolongée | Ovule à libération prolongée | TEVA SANTE | Active |
+| 69474118 | ECONAZOLE VIATRIS 1%, solution pour application cutanée | Solution pour application | VIATRIS SANTE | Active |
+| 61308938 | ECONAZOLE VIATRIS L.P. 150 mg, ovule à libération prolongée | Ovule à libération prolongée | VIATRIS SANTE | Active |
+| 64412162 | ECONAZOLE TEVA SANTE 1 POUR CENT, crème | Crème | TEVA SANTE | Active |
+| 60307032 | FONGILEINE 1 POUR CENT, poudre pour application cutanée | Poudre pour application | GIFRER BARBEZAT | Active |
+| 66625604 | ECONAZOLE EG 1 %, émulsion pour application cutanée | Émulsion pour application | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69369042 | ECONAZOLE EG L.P. 150 mg, ovule à libération prolongée | Ovule à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61685323 | PEVARYL 1 %, crème | Crème | KARO PHARMA (SUEDE) | Active |
+| 63220999 | MYLEUGYNE L.P. 150 mg, ovule à libération prolongée | Ovule à libération prolongée | LABORATOIRES IPRAD PHARMA | Active |
+| 66395110 | ECONAZOLE ARROW 1 %, solution pour application cutanée | Solution pour application | ARROW GENERIQUES | Active |
+| 62098492 | ECONAZOLE ARROW 1 %, crème | Crème | ARROW GENERIQUES | Active |
+| 66860082 | MYCOAPAISYL 1 POUR CENT, poudre pour application cutanée | Poudre pour application | P&G HEALTH FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

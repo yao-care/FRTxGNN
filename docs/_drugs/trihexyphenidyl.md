@@ -74,11 +74,21 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68401010 | PARKINANE LP 2 mg, gélule à libération prolongée (active) | Gélule à libération prolongée | Non renseignée |
-| 69806741 | TRIHEXY 5 mg RICHARD, comprimé (active) | Comprimé | Non renseignée |
-| 66377201 | TRIHEXY 2 mg RICHARD, comprimé (active) | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68401010 | PARKINANE LP 2 mg, gélule à libération prolongée | Gélule à libération prolongée | CNX THERAPEUTICS FRANCE | Active |
+| 69806741 | TRIHEXY 5 mg RICHARD, comprimé | Comprimé | RICHARD | Active |
+| 66377201 | TRIHEXY 2 mg RICHARD, comprimé | Comprimé | RICHARD | Active |
+| 60379544 | ARTANE 2 mg, comprimé | Comprimé | NEURAXPHARM FRANCE | Active |
+| 65387616 | ARTANE 5 mg, comprimé | Comprimé | NEURAXPHARM FRANCE | Active |
+| 66238671 | PARKINANE LP 5 mg, gélule à libération prolongée | Gélule à libération prolongée | CNX THERAPEUTICS FRANCE | Active |
+| 67900409 | ARTANE 0,4 POUR CENT, solution buvable en gouttes | Solution buvable gouttes | NEURAXPHARM FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

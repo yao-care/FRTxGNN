@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 465
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lorlatinib : nouvelle indication prédite, Fibromatose gingivale (niveau de preuve L5). Indication d'origine : Cancer bronchique non à petites cellules (CBNPC) / cancer du poumon"
 monitor_inn: "LORLATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
@@ -73,10 +73,16 @@ Aucune littérature associée disponible actuellement pour la fibromatose gingiv
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63776483 | LORVIQUA 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 66586838 | LORVIQUA 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63776483 | LORVIQUA 25 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 66586838 | LORVIQUA 100 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

@@ -3,7 +3,7 @@ layout: default
 title: Dihydroergotamine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 244
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dihydroergotamine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,15 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour Dihydroergota
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 62455371 | MÉSILATE DE DIHYDROERGOTAMINE | solution pour pulvérisation | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62455371 | DIERGOSPRAY 4 mg/ml, solution pour pulvérisation nasale | Solution pour pulvérisation | AMDIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -71,9 +71,16 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68053454 | CIMETIDINE ARROW 200 mg, comprimé effervescent (ARROW GENERIQUES) | Comprimé effervescent | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68053454 | CIMETIDINE ARROW 200 mg, comprimé effervescent | Comprimé effervescent(e) | ARROW GENERIQUES | Active |
+| 64073139 | CIMETIDINE MYLAN 200 mg,comprimé effervescent | Comprimé effervescent(e) | MYLAN SAS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

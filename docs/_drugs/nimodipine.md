@@ -81,10 +81,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 65726536 | NIMOTOP 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée | Active |
-| 61339638 | NIMOTOP 10 mg/50 ml, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65726536 | NIMOTOP 30 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRE XO | Active |
+| 61339638 | NIMOTOP 10 mg/50 ml, solution injectable pour perfusion | Solution injectable pour perfusion | LABORATOIRE XO | Active |
+| 60193835 | NIMODIPINE ALTAN 10 mg/50 mL, solution injectable/pour perfusion | Solution injectable pour perfusion | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

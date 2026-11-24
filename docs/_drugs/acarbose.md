@@ -79,15 +79,30 @@ Les données compilées recensent 16 AMM d'acarbose (12 valides) (spécialités 
 
 <!-- review:end fr-lic-20261124-acarbose-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 60989978 | ACARBOSE VIATRIS 50 mg | comprimé |
-| 65803331 | ACARBOSE EG 100 mg | comprimé |
-| 69771614 | ACARBOSE SANDOZ 50 mg | comprimé |
-| 60946941 | ACARBOSE VIATRIS 100 mg | comprimé sécable |
-| 67901945 | ACARBOSE ZENTIVA 100 mg | comprimé sécable |
+<!-- licenses:begin -->
 
-La liste ci-dessus est limitée aux cinq premières AMM.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60989978 | ACARBOSE VIATRIS 50 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 65803331 | ACARBOSE EG 100 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69771614 | ACARBOSE SANDOZ 50 mg, comprimé | Comprimé | SANDOZ | Active |
+| 60946941 | ACARBOSE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 67901945 | ACARBOSE ZENTIVA 100 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 61937888 | ACARBOSE EG 50 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61621192 | ACARBOSE ARROW 100 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 69116854 | ACARBOSE BIOGARAN 50 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 67093136 | ACARBOSE SANDOZ 100 mg, comprimé | Comprimé | SANDOZ | Active |
+| 64493666 | ACARBOSE ZENTIVA 50 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 64127672 | ACARBOSE BIOGARAN 100 mg, comprimé sécable | Comprimé | BIOGARAN | Active |
+| 69664434 | ACARBOSE ARROW 50 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 63958735 | ACARBOSE ARROW LAB 50 mg, comprimé | Comprimé | GENEVIDA (ALLEMAGNE) | Archivée |
+| 63951114 | GLUCOR 50 mg, comprimé | Comprimé | BAYER HEALTHCARE | Abrogée |
+| 65209987 | GLUCOR 100 mg, comprimé sécable | Comprimé sécable | BAYER HEALTHCARE | Abrogée |
+| 68371745 | ACARBOSE ARROW LAB 100 mg, comprimé | Comprimé | GENEVIDA (ALLEMAGNE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

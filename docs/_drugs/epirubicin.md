@@ -89,11 +89,22 @@ L'épirubicine est commercialisée en France. Les données compilées recensent 
 
 <!-- review:end fr-lic-20261124-epirubicin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69608841 | FARMORUBICINE 10 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 62362497 | FARMORUBICINE 50 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 64354517 | EPIRUBICINE VIATRIS 2 mg/ml, solution pour perfusion/solution intravésicale | Solution pour perfusion ou intravésicale | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69608841 | FARMORUBICINE 10 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 62362497 | FARMORUBICINE 50 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 64354517 | EPIRUBICINE VIATRIS 2 mg/ml, solution pour perfusion/solution intravésicale | Solution pour perfusion ou | VIATRIS SANTE | Active |
+| 60042349 | EPIRUBICINE HIKMA 2 mg/ml, solution intravésicale/solution injectable | Solution ou injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 65534009 | EPIRUBICINE MEDAC 2 mg/ml, solution pour perfusion | Solution pour perfusion | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 68360453 | EPIRUBICINE ACCORD 2 mg/ml, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 68646248 | EPIRUBICINE TEVA CLASSICS 2 mg/ml, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | TEVA SANTE | Active |
+| 67299638 | EPIRUBICINE ARROW 2 mg/ml, solution pour perfusion | Solution pour perfusion | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

@@ -82,11 +82,31 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 62193524 | SOTALOL SANDOZ 160 mg, comprimé sécable | Comprimé sécable | Active |
-| 62519799 | SOTALEX 80 mg, comprimé sécable | Comprimé sécable | Active |
-| 64820630 | SOTALEX 160 mg, comprimé sécable | Comprimé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62193524 | SOTALOL SANDOZ 160 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 62519799 | SOTALEX 80 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64820630 | SOTALEX 160 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 60291941 | SOTALOL CRISTERS 80 mg, comprimé sécable | Comprimé sécable | CRISTERS | Active |
+| 61678318 | SOTALOL BIOGARAN 80 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 61852676 | SOTALOL EG 160 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62833611 | SOTALOL ZENTIVA 80 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 63037738 | SOTALOL TEVA 80 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 63549158 | SOTALOL TEVA 160 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 65233835 | SOTALOL BIOGARAN 160 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 65673980 | SOTALOL VIATRIS 160 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 66304687 | SOTALOL SANDOZ 80 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 68629188 | SOTALOL EG 80 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68635180 | SOTALOL ARROW LAB 80 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 68984381 | SOTALOL ARROW LAB 160 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 69970484 | SOTALOL VIATRIS 80 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 68076314 | SOTALOL ZENTIVA 160 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 

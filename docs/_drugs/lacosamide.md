@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 429
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LACOSAMIDE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder", "insomnia (disease)", "migraine with brainstem aura", "myofascial pain syndrome", "obsessive-compulsive disorder", "papillary conjunctivitis"]
 description: "Lacosamide : nouvelle indication prédite, Manic bipolar affective disorder (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -92,13 +92,35 @@ Cette plausibilité mécanistique est cohérente avec la prédiction du modèle,
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62229123 | VIMPAT 150 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60137021 | LACOSAMIDE ACCORD 10 mg/mL | Solution pour perfusion | Non renseignée (AMM active) |
-| 60788509 | LACOSAMIDE ACCORD 50 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60575525 | LACOSAMIDE EG 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61150979 | LACOSAMIDE ZENTIVA 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60137021 | LACOSAMIDE ACCORD 10 mg/mL, solution pour perfusion | Solution pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 60788509 | LACOSAMIDE ACCORD 50 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 60575525 | LACOSAMIDE EG 100 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62229123 | VIMPAT 150 mg, comprimé pelliculé | Comprimé pelliculé | UCB PHARMA BELGIQUE | Active |
+| 61150979 | LACOSAMIDE ZENTIVA 100 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 68217868 | LACOSAMIDE ACCORD 150 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69010267 | LACOSAMIDE ARROW 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 67470427 | LACOSAMIDE ARROW 50 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62286964 | LACOSAMIDE HIKMA 10 mg/mL, solution pour perfusion | Solution pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 67849530 | LACOSAMIDE SANDOZ 150 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66230799 | LACOSAMIDE SANDOZ 50 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63891101 | LACOSAMIDE ZENTIVA 150 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66730060 | LACOSAMIDE ACCORD 200 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63406046 | LACOSAMIDE ADROIQ 10 mg/mL, solution pour perfusion | Solution pour perfusion | EXTROVIS EU (HONGRIE) | Active |
+| 61214990 | LACOSAMIDE EG 200 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69010801 | LACOSAMIDE ZYDUS 100 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 69429895 | LACOSAMIDE VIVANTA 10 mg/mL, solution pour perfusion | Solution pour perfusion | VIVANTA GENERICS (RÉPUBLIQUE TCHÈQUE) | Active |
+| 69993198 | LACOSAMIDE EG 50 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65807550 | LACOSAMIDE ZYDUS 200 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 67095518 | LACOSAMIDE BIOGARAN 200 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Au total, 20 AMM sont recensées; seules les 5 premières sont listées ici.
 

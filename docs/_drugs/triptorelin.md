@@ -72,13 +72,32 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64849436 | DECAPEPTYL L.P. 11,25 mg (CRISTERS) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
-| 67699931 | DECAPEPTYL L.P. 3 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
-| 69278094 | DECAPEPTYL 0,1 mg (BB FARMA) | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
-| 65459503 | DECAPEPTYL LP 22,5 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
-| 69847994 | SALVACYL L.P. 11,25 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64849436 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | CRISTERS | Active |
+| 67699931 | DECAPEPTYL L.P. 3 mg, poudre et solvant pour suspension injectable (I.M.) forme à libérat… | Poudre et solvant pour suspension injectable à libération p… | IPSEN PHARMA | Active |
+| 69278094 | DECAPEPTYL 0,1 mg, poudre et solvant pour solution injectable (S.C.) | Poudre et solvant pour solution injectable | BB FARMA (ITALIE) | Active |
+| 67772596 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | IPSEN PHARMA | Active |
+| 65459503 | DECAPEPTYL LP 22,5 mg, poudre et solvant pour suspension injectable à libération prolongée | Poudre et solvant pour suspension injectable à libération p… | IPSEN PHARMA | Active |
+| 67918695 | DECAPEPTYL LP 22,5 mg, poudre et solvant pour suspension injectable à libération prolongée | Poudre et solvant pour suspension injectable à libération p… | BB FARMA (ITALIE) | Active |
+| 68628809 | GONAPEPTYL 3,75 mg, poudre et solvant pour suspension injectable à libération prolongée e… | Poudre et solvant pour suspension injectable à libération p… | FERRING (FRANCE) | Active |
+| 68160698 | DECAPEPTYL 0,1 mg, poudre et solvant pour solution injectable (S.C.) | Poudre et solvant pour solution injectable | CRISTERS | Active |
+| 62842966 | DECAPEPTYL 0,1 mg, poudre et solvant pour solution injectable (S.C.) | Poudre et solvant pour solution injectable | IPSEN PHARMA | Active |
+| 60092811 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | BB FARMA (ITALIE) | Active |
+| 66681414 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | BB FARMA (ITALIE) | Active |
+| 65085347 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | BB FARMA (ITALIE) | Active |
+| 61912244 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | CRISTERS | Active |
+| 69847994 | SALVACYL L.P. 11,25 mg, poudre et solvant pour suspension injectable à libération prolong… | Poudre et solvant pour suspension injectable à libération p… | IPSEN PHARMA | Active |
+| 60928199 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | BB FARMA (ITALIE) | Abrogée |
+| 60828074 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | PHARMA LAB | Abrogée |
+| 64460075 | DECAPEPTYL L.P. 11,25 mg, poudre et solvant pour suspension injectable (IM ou SC) forme à… | Poudre et solvant pour suspension injectable à libération p… | DIFARMED (ESPAGNE) | Abrogée |
+| 64528487 | DECAPEPTYL 0,1 mg, poudre et solvant pour solution injectable (S.C.) | Poudre et solvant pour solution injectable | BB FARMA (ITALIE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La liste ci-dessus présente 5 des AMM recensées ; 14 AMM sur 18 sont valides.
 

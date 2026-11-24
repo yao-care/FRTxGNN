@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "capecitabine"
 predicted_indications: ["gastric adenocarcinoma and proximal polyposis of the stomach"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Capecitabine : nouvelle indication prédite, Adénocarcinome gastrique et polypose proximale de l'estomac (gastric adenocarcinoma and proximal polyposis of the stoma… (niveau de preuve L5). Indication …"
 ---
 
@@ -72,15 +72,35 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-La capécitabine est commercialisée en France. Les données compilées recensent 19 AMM, toutes valides. Les textes d'indication ne figurent pas dans les données locales. Principales AMM :
+La capécitabine est commercialisée en France. Les données compilées recensent 19 AMM, toutes valides. Les textes d'indication ne figurent pas dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60044987 | CAPECITABINE VIATRIS 500 mg | Comprimé pelliculé | Non renseignée |
-| 61673260 | CAPECITABINE ARROW 500 mg | Comprimé pelliculé | Non renseignée |
-| 65918903 | XELODA 500 mg | Comprimé pelliculé | Non renseignée |
-| 61174695 | CAPECITABINE BIOGARAN 500 mg | Comprimé pelliculé | Non renseignée |
-| 69475597 | CAPECITABINE EG 500 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60044987 | CAPECITABINE VIATRIS 500 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61673260 | CAPECITABINE ARROW 500 mg, comprimé pelliculé | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 65918903 | XELODA 500 mg, comprimé pelliculé | Comprimé pelliculé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 61174695 | CAPECITABINE BIOGARAN 500 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69475597 | CAPECITABINE EG 500 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65502762 | CAPECITABINE ACCORD 150 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 65982788 | CAPECITABINE VIATRIS 150 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 63097564 | CAPECITABINE ZENTIVA K.S 150 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63611923 | CAPECITABINE ARROW 150 mg, comprimé pelliculé | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 69771849 | XELODA 150 mg, comprimé pelliculé | Comprimé pelliculé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 69309579 | CAPECITABINE ZENTIVA 150 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69139187 | CAPECITABINE EG 150 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65970775 | CAPECITABINE ACCORD 500 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69087947 | CAPECITABINE SANDOZ 150 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 62969369 | CAPECITABINE TEVA 500 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 60462972 | CAPECITABINE ZENTIVA K.S 500 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 65248246 | CAPECITABINE BIOGARAN 150 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64933293 | CAPECITABINE ZENTIVA 500 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 62990833 | CAPECITABINE SANDOZ 500 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

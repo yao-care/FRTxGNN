@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "IOVERSOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "brachyolmia", "hemoglobinopathy", "brachyolmia-amelogenesis imperfecta syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "myosclerosis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "alopecia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ioversol : nouvelle indication prédite, Arthrose (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (les textes d'indication des…"
 ---
 
@@ -75,12 +75,18 @@ Aucun essai clinique associé enregistré actuellement.
 
 Ioversol est commercialisé en France ; les 4 AMM ci-dessous sont valides (produits à un seul principe actif, titulaire GUERBET). Les textes d'indication ne figurent pas dans les données compilées.
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 65772900 | OPTIRAY 350 (350 mg I/mL), solution injectable en flacon | Solution injectable | Non renseignée |
-| 67470459 | OPTIJECT 300 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | Non renseignée |
-| 62823503 | OPTIJECT 350 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | Non renseignée |
-| 67722465 | OPTIRAY 300 (300 mg I/mL), solution injectable en flacon | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65772900 | OPTIRAY 350 (350 mg I/mL), solution injectable en flacon | Solution injectable | GUERBET | Active |
+| 67470459 | OPTIJECT 300 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | GUERBET | Active |
+| 62823503 | OPTIJECT 350 mg d'I/mL, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | GUERBET | Active |
+| 67722465 | OPTIRAY 300 (300 mg l/mL), solution injectable en flacon | Solution injectable | GUERBET | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

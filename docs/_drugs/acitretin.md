@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 23
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acitretin : nouvelle indication prédite, Acné (disease) (niveau de preuve L3). Indication d'origine : Non disponible dans les données d'AMM"
 monitor_inn: "acitretin"
 predicted_indications: ["acne (disease)", "pediatric systemic lupus erythematosus", "fetal erythroblastosis", "familial cutaneous telangiectasia and oropharyngeal predisposition cancer syndrome"]
@@ -97,10 +97,16 @@ Sélection des publications les plus pertinentes parmi celles compilées (aucun 
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 64225999 | SORIATANE 25 mg, gélule (active) | Gélule | Non renseignée |
-| 60292349 | SORIATANE 10 mg, gélule (active) | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64225999 | SORIATANE 25 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 60292349 | SORIATANE 10 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

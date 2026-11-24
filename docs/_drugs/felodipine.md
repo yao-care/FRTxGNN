@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 319
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "felodipine"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Felodipine : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -80,12 +80,18 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67139288 | FELODIPINE ZENTIVA L.P. 5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
-| 69149683 | FLODIL L.P. 5 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
-| 69451322 | FELODIPINE SANDOZ L.P. 5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
-| 61950444 | LOGIMAX 5 mg/47,5 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67139288 | FELODIPINE ZENTIVA L.P. 5 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ZENTIVA FRANCE | Active |
+| 69149683 | FLODIL L.P. 5 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | GLENWOOD GMBH PHARMAZEUTISCHE ERZEUGNISSE | Active |
+| 69451322 | FELODIPINE SANDOZ L.P. 5 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | SANDOZ | Active |
+| 61950444 | LOGIMAX 5 mg/47,5 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | RECORDATI INDUSTRIA CHIMICA E FARMACEUTICA (ITALIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

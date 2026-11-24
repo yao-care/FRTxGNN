@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 339
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "fluorouracil"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "sickle cell-beta-thalassemia disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-hemoglobin E disease syndrome"]
 description: "Fluorouracil : nouvelle indication prédite, Botryoid-type embryonal rhabdomyosarcoma of the vagina (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -96,13 +96,20 @@ Ces références ne permettent pas de distinguer l'effet du fluorouracile de cel
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69118428 | FLUOROURACILE TEVA 1000 mg/20 mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 60627235 | EFUDIX 5 %, crème | Crème | Non renseignée (AMM active) |
-| 61146475 | FLUOROURACILE TEVA 5000 mg/100 mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 63350430 | TOLAK 40 mg/g, crème | Crème | Non renseignée (AMM active) |
-| 64590923 | FLUOROURACILE PFIZER 50 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69118428 | FLUOROURACILE TEVA 1000 mg/20 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | TEVA SANTE | Active |
+| 60627235 | EFUDIX 5 %, crème | Crème | VIATRIS MEDICAL | Active |
+| 61146475 | FLUOROURACILE TEVA 5000 mg/100 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | TEVA SANTE | Active |
+| 63350430 | TOLAK 40 mg/g, crème | Crème | PIERRE FABRE MEDICAMENT | Active |
+| 64590923 | FLUOROURACILE PFIZER 50 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 65502207 | FLUOROURACILE ACCORD 50 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

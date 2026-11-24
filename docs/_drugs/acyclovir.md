@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "Acyclovir"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "common wart", "post-infectious neuralgia", "hepatitis C induced liver cirrhosis", "eosinophilic pustular folliculitis", "sequela of COVID-19", "vulvovaginal candidiasis", "papular urticaria", "disease of orbital region", "epidemic keratoconjunctivitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acyclovir : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les donn…"
 ---
 
@@ -77,15 +77,37 @@ Aucune publication ne porte directement sur la kératoconjonctivite épithélial
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 67344332 | ACICLOVIR CRISTERS 5 %, crème | crème |
-| 60418673 | ACICLOVIR EG 200 mg, comprimé | comprimé |
-| 64941728 | ACICLOVIR ZENTIVA 5 %, crème | crème |
-| 60618154 | ZOVIRAX 800 mg/10 mL, suspension buvable | suspension buvable |
-| 61754342 | ACICLOVIR HIKMA 250 mg, poudre pour perfusion | poudre pour solution pour perfusion |
+<!-- licenses:begin -->
 
-La liste ci-dessus est partielle et ne reprend que cinq AMM. Les formes disponibles comprennent des crèmes, comprimés, une suspension buvable et des poudres pour solution injectable ou pour perfusion.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67344332 | ACICLOVIR CRISTERS 5 %, crème | Crème | CRISTERS | Active |
+| 60418673 | ACICLOVIR EG 200 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64941728 | ACICLOVIR ZENTIVA 5 %, crème | Crème | ZENTIVA FRANCE | Active |
+| 60618154 | ZOVIRAX 800 mg/10 mL, suspension buvable en flacon | Suspension buvable | GLAXOSMITHKLINE | Active |
+| 68102563 | ACICLOVIR BIOGARAN CONSEIL 5 %, crème | Crème | BIOGARAN | Active |
+| 68670676 | ZOVIRAX 200 mg, comprimé | Comprimé | GLAXOSMITHKLINE | Active |
+| 61938584 | ACICLOVIR CRISTERS CONSEIL 5 %, crème | Crème | CRISTERS | Active |
+| 68933636 | ACTIVIR 5 % crème | Crème | HALEON FRANCE | Active |
+| 64776881 | ACICLOVIR EG 800 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68560639 | ACICLOVIR TEVA 200 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 64855318 | ACICLOVIR ZENTIVA 200 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 68474955 | ACICLOVIR TEVA SANTE 5 %, crème | Crème | RATIOPHARM (ALLEMAGNE) | Active |
+| 61754342 | ACICLOVIR HIKMA 250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 62022480 | ACICLOVIR ALMUS 5 %, crème | Crème | BIOGARAN | Active |
+| 66086740 | ACICLOVIR TEVA 800 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 60890745 | ACICLOVIR VIATRIS 500 mg, poudre pour solution injectable (IV) | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 65391283 | ZOVIRAX 800 mg, comprimé | Comprimé | GLAXOSMITHKLINE | Active |
+| 62970791 | ACICLOVIR BIOGARAN 800 mg, comprimé | Comprimé | GLAXOSMITHKLINE | Active |
+| 68303445 | ACICLOVIR BIOGARAN 5 %, crème | Crème | GLAXOSMITHKLINE | Active |
+| 60111197 | ACICLOVIR ARROW 800 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
+
+Les formes disponibles comprennent des crèmes, comprimés, une suspension buvable et des poudres pour solution injectable ou pour perfusion.
 
 ## Considérations de Sécurité
 

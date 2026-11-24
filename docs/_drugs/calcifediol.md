@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "calcifediol"
 predicted_indications: ["renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcifediol : nouvelle indication prédite, Renal tubular acidosis (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
@@ -70,12 +70,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67317463 | CALCIFEDIOL DESMA 15 mg/100 ml | Solution buvable en gouttes | Non renseignée dans les données locales |
-| 68280975 | DEDROGYL 15 mg/100 ml | Solution buvable en gouttes | Non renseignée dans les données locales |
-| 67563301 | LUZADEL 266 microgrammes | Capsule molle | Non renseignée dans les données locales |
-| 60748767 | CALCIFEDIOL GERDA 15 mg/100 mL | Solution buvable en gouttes | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67317463 | CALCIFEDIOL DESMA 15 mg/100 ml, solution buvable en gouttes | Solution buvable en gouttes | DESMA PHARMA | Active |
+| 68280975 | DEDROGYL 15 mg/100 ml, solution buvable en gouttes | Solution buvable en gouttes | DESMA PHARMA | Active |
+| 67563301 | LUZADEL 266 microgrammes, capsule molle | Capsule molle | BESINS HEALTHCARE FRANCE | Active |
+| 60748767 | CALCIFEDIOL GERDA 15 mg/100 mL, solution buvable en gouttes | Solution buvable en gouttes | SOCIETE ALEPT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

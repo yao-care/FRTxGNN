@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 200
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CRIZOTINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "pulmonary sulcus neoplasm", "lung germ cell tumor", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
 description: "Crizotinib : nouvelle indication prédite, Fibromatose gingivale (fibromatosis, gingival) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -73,10 +73,16 @@ Aucune littérature associée n'est disponible actuellement pour la fibromatose 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66937155 | XALKORI 200 mg, gélule (active) | Gélule | Non renseignée |
-| 61506083 | XALKORI 250 mg, gélule (active) | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66937155 | XALKORI 200 mg, gélule | Gélule | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 61506083 | XALKORI 250 mg, gélule | Gélule | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux AMM, détenues par PFIZER EUROPE MA EEIG (Belgique), sont valides ; le médicament est commercialisé.
 

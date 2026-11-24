@@ -81,12 +81,19 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67890598 | TIAPRIDAL 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 68632565 | TIAPRIDAL 100 mg/2 ml, solution injectable | Solution injectable | Non renseignée (AMM active) |
-| 68912300 | TIAPRIDE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 69497921 | TIAPRIDE SANDOZ 100 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67890598 | TIAPRIDAL 100 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 68632565 | TIAPRIDAL 100 mg/2 ml, solution injectable | Solution injectable | NEURAXPHARM FRANCE | Active |
+| 68912300 | TIAPRIDE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 69497921 | TIAPRIDE SANDOZ 100 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 68673220 | TIAPRIDAL 138 mg/ml, solution buvable | Solution buvable | NEURAXPHARM FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

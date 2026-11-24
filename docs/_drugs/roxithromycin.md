@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 684
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "roxithromycin"
 predicted_indications: ["leprosy", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension"]
 description: "Roxithromycin : nouvelle indication prédite, Lèpre (leprosy) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
@@ -78,13 +78,24 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64026666 | ROXITHROMYCINE SANDOZ 150 mg | comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 68658161 | RULID 50 mg | comprimé sécable pour suspension buvable | Non renseignée (AMM active) |
-| 63086945 | ROXITHROMYCINE ZYDUS 150 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 60526880 | ROXITHROMYCINE TEVA 150 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 63659793 | ROXITHROMYCINE TEVA 100 mg | comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64026666 | ROXITHROMYCINE SANDOZ 150 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 68658161 | RULID 50 mg, comprimé sécable pour suspension buvable | Comprimé sécable pour suspension buvable | AMDIPHARM | Active |
+| 63086945 | ROXITHROMYCINE ZYDUS 150 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 60526880 | ROXITHROMYCINE TEVA 150 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63659793 | ROXITHROMYCINE TEVA 100 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 65393957 | RULID 150 mg, comprimé enrobé | Comprimé enrobé | AMDIPHARM | Active |
+| 65165035 | ROXITHROMYCINE EG 150 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61042206 | ROXITHROMYCINE BIOGARAN 150 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68402767 | ROXITHROMYCINE ZENTIVA 150 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 65250560 | ROXITHROMYCINE ARROW 150 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 10 AMM sont recensées; ce tableau en présente les 5 premières.
 

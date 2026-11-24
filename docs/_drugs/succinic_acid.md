@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 716
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "succinic acid"
 predicted_indications: ["vitamin B12- and folate-independent constitutional megaloblastic anemia", "Plummer-Vinson syndrome", "biotin metabolic disease", "vitamin deficiency disorder", "non-syndromic esophageal malformation"]
 description: "Succinic Acid : nouvelle indication prédite, Vitamin B12- and folate-independent constitutional megaloblastic anemia (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
@@ -86,9 +86,15 @@ Aucune littérature associée n'est disponible actuellement pour l'indication pr
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62799283 | SUCCINICUM ACIDUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62799283 | SUCCINICUM ACIDUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

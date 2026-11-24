@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 514
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "montelukast"
 predicted_indications: ["bronchitis", "atopic eczema"]
 description: "Montelukast : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). En France, AMM dans la BDPM : au moins 20"
@@ -104,15 +104,37 @@ Il faut toutefois rester prudent. La plupart des essais disponibles portent sur 
 
 ## Informations de Marché en France
 
-Le montelukast est commercialisé en France. Les données locales recensent 20 AMM valides, mais la liste peut être partielle. Les cinq principales sont présentées ci-dessous.
+Le montelukast est commercialisé en France. Les données locales recensent 20 AMM valides, mais la liste peut être partielle.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69863646 | SINGULAIR 10 mg, comprimé pelliculé (ORGANON FRANCE) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 68077576 | MONTELUKAST ACCORD HEALTHCARE 10 mg (ACCORD HEALTHCARE FRANCE) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63468069 | MONTELUKAST SANDOZ 10 mg (SANDOZ) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60069339 | MONTELUKAST TEVA 4 mg (TEVA SANTE) | Granulés | Non renseignée (AMM active) |
-| 61422735 | MONTELUKAST TEVA 5 mg (TEVA SANTE) | Comprimé à croquer | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68077576 | MONTELUKAST ACCORD HEALTHCARE 10 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 63468069 | MONTELUKAST SANDOZ 10 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 67635925 | MONTELUKAST EVOLUGEN 5 mg, comprimé à croquer | Comprimé à croquer | EVOLUPHARM | Active |
+| 60069339 | MONTELUKAST TEVA 4 mg, granulés | Granulés | TEVA SANTE | Active |
+| 68872286 | MONTELUKAST ARROW LAB 4 mg, granulés en sachet-dose | Granulés | ARROW GENERIQUES | Active |
+| 67917554 | MONTELUKAST CRISTERS PHARMA 10 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Active |
+| 64431294 | MONTELUKAST ZYDUS 10 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 69863646 | SINGULAIR 10 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON FRANCE | Active |
+| 62880372 | MONTELUKAST EVOLUGEN 10 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 68283672 | MONTELUKAST KRKA 4 mg, comprimé à croquer | Comprimé à croquer | KRKA (SLOVENIE) | Active |
+| 61422735 | MONTELUKAST TEVA 5 mg, comprimé à croquer | Comprimé à croquer | TEVA SANTE | Active |
+| 66337630 | MONTELUKAST SANDOZ 5 mg, comprimé à croquer | Comprimé à croquer | SANDOZ | Active |
+| 65451809 | MONTELUKAST EG 5 mg, comprimé à croquer | Comprimé à croquer | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65726148 | MONTELUKAST ZYDUS 5 mg, comprimé à croquer | Comprimé à croquer | ZYDUS FRANCE | Active |
+| 61336275 | MONTELUKAST ARROW 4 mg, granulés en sachet-dose | Granulés | ARROW GENERIQUES | Active |
+| 69265638 | MONTELUKAST ACCORD 4 mg, comprimé à croquer | Comprimé à croquer | ACCORD HEALTHCARE FRANCE | Active |
+| 67627533 | MONTELUKAST ARROW LAB 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68950817 | MONTELUKAST BGR 5 mg, comprimé à croquer | Comprimé à croquer | BIOGARAN | Active |
+| 60990208 | MONTELUKAST KRKA 5 mg, comprimé à croquer | Comprimé à croquer | KRKA (SLOVENIE) | Active |
+| 61290319 | MONTELUKAST VIATRIS 5 mg, comprimé à croquer | Comprimé à croquer | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

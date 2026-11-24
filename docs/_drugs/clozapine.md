@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 192
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOZAPINE"
 predicted_indications: ["manic bipolar affective disorder", "Tourette syndrome", "trichotillomania", "schizophreniform disorder", "bipolar disorder", "major affective disorder", "attention deficit-hyperactivity disorder", "attention deficit hyperactivity disorder, inattentive type", "Malan overgrowth syndrome"]
 description: "Clozapine : nouvelle indication prédite, Trouble affectif bipolaire de type maniaque (manic bipolar affective disorder) (niveau de preuve L2)."
@@ -83,15 +83,34 @@ Ces éléments restent limités par la petite taille des études et l'absence d'
 
 ## Informations de Marché en France
 
-Les 18 AMM listées sont toutes valides ; il s'agit de spécialités à base de clozapine seule, en comprimés sécables. Le texte d'indication n'est pas renseigné dans les données locales. Les cinq premières :
+Les 18 AMM listées sont toutes valides ; il s'agit de spécialités à base de clozapine seule, en comprimés sécables. Le texte d'indication n'est pas renseigné dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62552920 | LEPONEX 100 mg | Comprimé sécable | Non renseignée (AMM active) |
-| 67513540 | LEPONEX 25 mg | Comprimé sécable | Non renseignée (AMM active) |
-| 61247556 | CLOZAPINE TEVA 100 mg | Comprimé sécable | Non renseignée (AMM active) |
-| 64814983 | CLOZAPINE VIATRIS 100 mg | Comprimé sécable | Non renseignée (AMM active) |
-| 68735825 | CLOZAPINE ACCORD 100 mg | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69021694 | CLOZAPINE EG LABO 25 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61491877 | CLOZAPINE BIOGARAN 100 mg, comprimé sécable | Comprimé sécable | PANPHARMA | Active |
+| 61247556 | CLOZAPINE TEVA 100 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 64528640 | CLOZAPINE EG LABO 100 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68735825 | CLOZAPINE ACCORD 100 mg, comprimé sécable | Comprimé sécable | ACCORD HEALTHCARE FRANCE | Active |
+| 68354703 | CLOZAPINE ARROW 25 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 67465476 | CLOZAPINE ACCORD 25 mg, comprimé sécable | Comprimé sécable | ACCORD HEALTHCARE FRANCE | Active |
+| 65485074 | CLOZAPINE BIOGARAN 25 mg, comprimé sécable | Comprimé sécable | PANPHARMA | Active |
+| 69376250 | CLOZAPINE EG 25 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68576604 | CLOZAPINE TEVA 25 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 64814983 | CLOZAPINE VIATRIS 100 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 67045967 | CLOZAPINE VIATRIS 25 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 67167437 | CLOZAPINE ZENTIVA 25 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 62552920 | LEPONEX 100 mg, comprimé sécable | Comprimé sécable | VIATRIS MEDICAL | Active |
+| 66788131 | CLOZAPINE ARROW 100 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 65764558 | CLOZAPINE ZENTIVA 100 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 67513540 | LEPONEX 25 mg, comprimé sécable | Comprimé sécable | VIATRIS MEDICAL | Active |
+| 68159596 | CLOZAPINE EG 100 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 427
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "L-Lysine : nouvelle indication prédite, Gastroparésie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "L-LYSINE"
 predicted_indications: ["gastroparesis (disease)", "congenital prothrombin deficiency", "obsolete vitamin D deficiency"]
@@ -79,10 +79,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62789435 | PRIMENE 10 %, solution injectable pour perfusion (active) | Solution pour perfusion | Non renseignée |
-| 65461618 | NUTRINEAL PD4 À 1,1 % D'ACIDES AMINÉS, solution pour dialyse péritonéale (active) | Solution pour dialyse péritonéale | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 65461618 | NUTRINEAL PD4 A 1,1 % D'ACIDES AMINES, solution pour dialyse péritonéale | Solution pour dialyse péritonéale | VANTIVE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

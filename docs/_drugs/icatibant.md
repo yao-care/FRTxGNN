@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 386
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "icatibant"
 predicted_indications: ["serpinopathy with toxic serpin polymerization", "pseudo-von Willebrand disease", "primary release disorder of platelets", "immune-mediated necrotizing myopathy", "antisynthetase syndrome", "Glanzmann thrombasthenia"]
 description: "Icatibant : nouvelle indication prédite, Serpinopathy with toxic serpin polymerization (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -104,13 +104,21 @@ L'extension à la forme acquise du déficit est cohérente sur le plan mécanist
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61680479 | FIRAZYR 30 mg (Takeda) | Solution injectable en seringue pré-remplie | Non renseignée (AMM active) |
-| 66169887 | ICATIBANT ACCORD 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
-| 68903664 | ICATIBANT PIRAMAL 30 mg | Solution injectable en seringue pré-remplie | Non renseignée (AMM active) |
-| 69800927 | ICATIBANT FRESENIUS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
-| 63030672 | ICATIBANT VIATRIS 30 mg | Solution injectable en seringue préremplie | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66169887 | ICATIBANT ACCORD 30 mg, solution injectable en seringue préremplie | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61680479 | FIRAZYR 30 mg, solution injectable en seringue pré-remplie | Solution injectable | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+| 68903664 | ICATIBANT PIRAMAL 30 mg, solution injectable en seringue pré-remplie | Solution injectable | PIRAMAL CRITICAL CARE (PAYS-BAS) | Active |
+| 69800927 | ICATIBANT FRESENIUS 30 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI FRANCE | Active |
+| 63030672 | ICATIBANT VIATRIS 30 mg, solution injectable en seringue préremplie | Solution injectable | VIATRIS SANTE | Active |
+| 62044509 | ICATIBANT ZENTIVA 30 mg, solution injectable en seringue préremplie | Solution injectable | ZENTIVA FRANCE | Active |
+| 64043021 | ICATIBANT HIKMA 30 mg, solution injectable en seringue préremplie | Solution injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 7 AMM sont recensées.
 

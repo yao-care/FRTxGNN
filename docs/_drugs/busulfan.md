@@ -105,12 +105,19 @@ Parmi les 41 essais associés au SMD, voici les plus pertinents (priorité aux e
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61787869 | BUSULFAN TILLOMED 6 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 61737211 | BUSULFAN FRESENIUS KABI 6 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 62722123 | BUSULFAN ACCORD 6 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 64700734 | MYLERAN 2 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61787869 | BUSULFAN TILLOMED 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 61737211 | BUSULFAN FRESENIUS KABI 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 62722123 | BUSULFAN ACCORD 6 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 64700734 | MYLERAN 2 mg, comprimé pelliculé | Comprimé pelliculé | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 65643325 | BUSILVEX 6 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | PIERRE FABRE MEDICAMENT | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 257
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "doxazosin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
 description: "Doxazosin : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -77,13 +77,20 @@ Cette publication est de faible niveau de preuve (petite série, sans groupe con
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66978789 | Doxazosine Substipharm LP 8 mg | Comprimé à libération prolongée | Active |
-| 65525280 | Doxazosine Arrow LP 8 mg | Comprimé à libération prolongée | Active |
-| 61689364 | Doxazosine Substipharm LP 4 mg | Comprimé à libération prolongée | Active |
-| 60562606 | Doxazosine Viatris L.P. 4 mg | Comprimé à libération prolongée | Active |
-| 67020316 | Doxazosine Viatris L.P. 8 mg | Comprimé à libération prolongée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66978789 | DOXAZOSINE SUBSTIPHARM LP 8 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SUBSTIPHARM | Active |
+| 65525280 | DOXAZOSINE ARROW LP 8 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ARROW GENERIQUES | Active |
+| 61689364 | DOXAZOSINE SUBSTIPHARM LP 4 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SUBSTIPHARM | Active |
+| 60562606 | DOXAZOSINE VIATRIS L.P. 4 mg, comprimé à libération prolongée | Comprimé à libération prolongée | VIATRIS UP | Active |
+| 67020316 | DOXAZOSINE VIATRIS L.P. 8 mg, comprimé à libération prolongée | Comprimé à libération prolongée | VIATRIS UP | Active |
+| 67970560 | DOXAZOSINE TEVA LP 4 mg, comprimé à libération prolongée | Comprimé à libération prolongée | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte d'indication approuvée n'est pas disponible pour ces AMM.
 

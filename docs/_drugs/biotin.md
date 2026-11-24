@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 109
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Biotin : nouvelle indication prédite, Dyspepsie (niveau de preuve L5). Indication d'origine : Carence nutritionnelle en biotine"
 monitor_inn: "biotin"
 predicted_indications: ["dyspepsia", "gastroparesis (disease)"]
@@ -80,12 +80,18 @@ Ces publications sont indirectes : aucune n'évalue la biotine comme traitement 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61890004 | BIOTINE BAYER 0,5 %, solution injectable I.M. | Solution injectable | Non renseignée (AMM active) |
-| 66001124 | BIOTINE BAYER 5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 67312509 | SOLUVIT, lyophilisat pour usage parentéral | Lyophilisat pour usage parentéral | Non renseignée (AMM active) |
-| 61001031 | CERNEVIT, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61890004 | BIOTINE BAYER 0,5 %, solution injectable I.M. | Solution injectable | BAYER HEALTHCARE | Active |
+| 66001124 | BIOTINE BAYER 5 mg, comprimé | Comprimé | BAYER HEALTHCARE | Active |
+| 67312509 | SOLUVIT, lyophilisat pour usage parentéral | Lyophilisat pour usage parentéral | FRESENIUS KABI FRANCE | Active |
+| 61001031 | CERNEVIT, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | BAXTER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

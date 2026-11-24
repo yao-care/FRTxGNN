@@ -85,13 +85,22 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 66771751 | PHYSIOGINE 1 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 68174324 | PHYSIOGINE 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM active) |
-| 60747099 | GYDRELLE 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM active) |
-| 61797183 | BLISSEL 50 microgrammes/g, gel vaginal | Gel | Non renseignée (AMM active) |
-| 62263257 | TROPHICREME 0,1 POUR CENT, crème vaginale | Crème | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66771751 | PHYSIOGINE 1 mg, comprimé sécable | Comprimé sécable | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 68174324 | PHYSIOGINE 0,1 POUR CENT, crème vaginale | Crème | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 60747099 | GYDRELLE 0,1 POUR CENT, crème vaginale | Crème | LABORATOIRES IPRAD PHARMA | Active |
+| 61797183 | BLISSEL 50 microgrammes/g, gel vaginal | Gel | ITALFARMACO (ESPAGNE) | Active |
+| 62263257 | TROPHICREME 0,1 POUR CENT, crème vaginale | Crème | HAC PHARMA | Active |
+| 60239706 | PHYSIOGINE 0,5 mg, ovule | Ovule | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 66155948 | TROPHIGIL, gélule vaginale | Gélule | BESINS HEALTHCARE FRANCE | Active |
+| 67487622 | FLORGYNAL, gélule vaginale | Gélule | BIOSE INDUSTRIE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

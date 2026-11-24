@@ -84,12 +84,28 @@ Les publications ci-dessous portent sur la maladie prédite ou sur des sujets vo
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62305927 | CORDARONE 150 mg/3 ml, solution injectable en ampoule (IV) | Solution injectable | Non renseignée (AMM active) |
-| 64408662 | CORDARONE 200 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 68973926 | CORDARONE 200 mg, comprimé sécable (BB FARMA, Italie) | Comprimé sécable | Non renseignée (AMM active) |
-| 60662396 | CORDARONE 200 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62305927 | CORDARONE 150 mg/3 ml, solution injectable en ampoule (IV) | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 64408662 | CORDARONE 200 mg, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+| 68973926 | CORDARONE 200 mg, comprimé sécable | Comprimé sécable | BB FARMA (ITALIE) | Active |
+| 60662396 | CORDARONE 200 mg, comprimé sécable | Comprimé sécable | DIFARMED (ESPAGNE) | Active |
+| 60441622 | AMIODARONE VIATRIS 200 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 60932824 | AMIODARONE TEVA 200 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 61270633 | AMIODARONE ARROW LAB 200 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 62703614 | AMIODARONE ZENTIVA 200 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 64820751 | AMIODARONE EG 200 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65865831 | AMIODARONE CRISTERS 200 mg, comprimé sécable | Comprimé sécable | CRISTERS | Active |
+| 67745624 | AMIODARONE BIOGARAN 200 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 69364999 | AMIODARONE ALMUS 200 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 60177044 | AMIODARONE SUN 200 mg, comprimé sécable | Comprimé sécable | SUN PHARMA FRANCE | Abrogée |
+| 60514006 | AMIODARONE ARROW 200 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 L'amiodarone est commercialisée en France : 12 AMM sur 14 sont valides, dont les 4 listées ci-dessus.
 

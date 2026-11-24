@@ -3,7 +3,7 @@ layout: default
 title: Erenumab
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 293
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Erenumab : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,10 +71,16 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour Erenumab corr
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 64453981 | ÉRÉNUMAB | solution injectable | Active |
-| 63401330 | ÉRÉNUMAB | solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64453981 | AIMOVIG 70 mg, solution injectable en stylo prérempli | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 63401330 | AIMOVIG 140 mg, solution injectable en stylo prérempli | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

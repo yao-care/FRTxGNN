@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 399
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin aspart"
 predicted_indications: ["autoimmune oophoritis", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy"]
 description: "Insulin Aspart : nouvelle indication prédite, Autoimmune oophoritis (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
@@ -106,13 +106,25 @@ Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont
 
 <!-- review:end fr-lic-20261106-insulin_aspart-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64366900 | FIASP PUMPCART 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
-| 65918860 | NOVORAPID PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
-| 68772407 | FIASP 100 unités/ml, flacon | Solution injectable | Non renseignée (AMM active) |
-| 61232223 | NOVORAPID FLEXPEN 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 60810891 | FIASP PENFILL 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64366900 | FIASP PUMPCART 100 unités/ml, solution injectable en cartouche | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 65918860 | NOVORAPID PENFILL 100 unités/ml, solution injectable en cartouche | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 68772407 | FIASP 100 unités/ml, solution injectable en flacon | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 61232223 | NOVORAPID FLEXPEN 100 unités/ml, solution injectable en stylo prérempli | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 60810891 | FIASP PENFILL 100 unités/ml, solution injectable en cartouche | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 65805841 | INSULINE ASPARTE SANOFI 100 unités/ml, solution injectable en flacon | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 62278832 | NOVORAPID PUMPCART 100 unités/ml, solution injectable en cartouche | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 64575768 | INSULINE ASPARTE SANOFI 100 unités/ml, solution injectable en stylo prérempli | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 65741417 | FIASP FLEXTOUCH 100 unités/ml, solution injectable en stylo prérempli | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 69482353 | NOVORAPID 100 unités/ml, solution injectable | Solution injectable | NOVO NORDISK (DANEMARK) | Active |
+| 63054036 | INSULINE ASPARTE SANOFI 100 unités/ml, solution injectable en cartouche | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

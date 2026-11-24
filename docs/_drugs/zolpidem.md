@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 831
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "zolpidem"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Zolpidem : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) (niveau de preuve L5)."
@@ -73,15 +73,25 @@ Aucune littérature associée disponible actuellement.
 
 Les données compilées font état de 11 AMM, toutes valides, pour des spécialités à base de zolpidem seul.
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 61705683 | ZOLPIDEM ALMUS 10 mg (BIOGARAN) | Comprime pellicule secable | Active |
-| 62969974 | ZOLPIDEM BIOGARAN 10 mg | Comprime pellicule secable | Active |
-| 61843104 | ZOLPIDEM ZYDUS 10 mg | Comprime pellicule secable | Active |
-| 63179285 | STILNOX 10 mg (SANOFI WINTHROP) | Comprime pellicule secable | Active |
-| 69329603 | ZOLPIDEM CRISTERS 10 mg | Comprime pellicule secable | Active |
+<!-- licenses:begin -->
 
-La liste est limitée aux 5 premières AMM.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61705683 | ZOLPIDEM ALMUS 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 62969974 | ZOLPIDEM BIOGARAN 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 61843104 | ZOLPIDEM ZYDUS 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 63179285 | STILNOX 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+| 69329603 | ZOLPIDEM CRISTERS 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 68414328 | ZOLPIDEM ZENTIVA 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 63784416 | ZOLPIDEM SANDOZ 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 64517099 | ZOLPIDEM ARROW 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 69019024 | ZOLPIDEM EG 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66822683 | ZOLPIDEM VIATRIS 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 62370693 | ZOLPIDEM TEVA SANTE 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

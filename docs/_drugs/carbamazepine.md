@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "carbamazepine"
 predicted_indications: ["trigeminal nerve neoplasm", "beta-ketothiolase deficiency", "Rett syndrome, congenital variant"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbamazepine : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
@@ -84,13 +84,22 @@ Les publications ci-dessous ont été retenues parmi celles compilées. Aucune n
 
 La carbamazépine est commercialisée en France sous plusieurs formes (comprimé sécable, comprimé à libération prolongée, suspension buvable). Le texte d'indication n'est pas renseigné dans les données locales pour ces autorisations.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67655493 | TEGRETOL L.P. 400 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée |
-| 61547468 | CARBAMAZEPINE VIATRIS L.P. 200 mg | Comprimé sécable à libération prolongée | Non renseignée |
-| 65608566 | TEGRETOL 20 mg/ml | Suspension buvable | Non renseignée |
-| 66857620 | CARBAMAZEPINE VIATRIS L.P. 400 mg | Comprimé sécable à libération prolongée | Non renseignée |
-| 65883338 | CARBAMAZEPINE SANDOZ L.P. 400 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67655493 | TEGRETOL L.P. 400 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | NOVARTIS PHARMA | Active |
+| 61547468 | CARBAMAZEPINE VIATRIS L.P. 200 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | VIATRIS SANTE | Active |
+| 65608566 | TEGRETOL 20 mg/ml, suspension buvable | Suspension buvable | NOVARTIS PHARMA | Active |
+| 66857620 | CARBAMAZEPINE VIATRIS L.P. 400 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | VIATRIS SANTE | Active |
+| 65883338 | CARBAMAZEPINE SANDOZ L.P. 400 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | SANDOZ | Active |
+| 65476666 | CARBAMAZEPINE SANDOZ L.P. 200 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | SANDOZ | Active |
+| 61009918 | TEGRETOL 200 mg, comprimé sécable | Comprimé sécable | NOVARTIS PHARMA | Active |
+| 63045724 | TEGRETOL L.P. 200 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | NOVARTIS PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

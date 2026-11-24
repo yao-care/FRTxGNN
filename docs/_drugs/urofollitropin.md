@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 799
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Urofollitropin : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignee dans les AMM disponibles (usage connu : stimulation o…"
 monitor_inn: "urofollitropin"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "cauda equina syndrome", "His bundle tachycardia", "restless legs syndrome", "obsolete neurogenic bladder (disease)", "multifocal atrial tachycardia (disease)", "postural orthostatic tachycardia syndrome", "Raynaud disease"]
@@ -71,12 +71,18 @@ Aucune litterature associee disponible actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 61166549 | FOSTIMONKIT 75 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
-| 62712912 | FOSTIMONKIT 225 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
-| 69325035 | FOSTIMONKIT 300 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
-| 60549797 | FOSTIMONKIT 150 UI | Poudre et solvant pour solution injectable | Non renseignee (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61166549 | FOSTIMONKIT 75 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | IBSA PHARMA SAS | Active |
+| 62712912 | FOSTIMONKIT 225 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | IBSA PHARMA SAS | Active |
+| 69325035 | FOSTIMONKIT 300 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | IBSA PHARMA SAS | Active |
+| 60549797 | FOSTIMONKIT 150 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | IBSA PHARMA SAS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

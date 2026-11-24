@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 808
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "venetoclax"
 predicted_indications: ["Hodgkins lymphoma", "chronic myelogenous leukemia, BCR-ABL1 positive", "Ewing sarcoma", "follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma"]
 description: "Venetoclax : nouvelle indication prédite, Hodgkins lymphoma (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -74,11 +74,17 @@ Aucune littérature associée disponible actuellement pour cette indication pré
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64449755 | VENCLYXTO 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63696471 | VENCLYXTO 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 62598280 | VENCLYXTO 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64449755 | VENCLYXTO 50 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 63696471 | VENCLYXTO 100 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 62598280 | VENCLYXTO 10 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

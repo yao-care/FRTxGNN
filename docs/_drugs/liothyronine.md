@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "LIOTHYRONINE"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Carney complex", "peripheral dysostosis", "Potter sequence", "acrodysostosis with or without hormone resistance", "angiomyxoma", "myxoma", "hypotrichosis simplex of the scalp"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Liothyronine : nouvelle indication prédite, Hypoplasie/aplasie rénale (renal hypodysplasia/aplasia) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
@@ -71,9 +71,15 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69081937 | EUTHYRAL 100 microgrammes/20 microgrammes, comprimé sécable | Comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69081937 | EUTHYRAL 100 microgrammes/20 microgrammes, comprimé sécable | Comprimé sécable | MERCK SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Cette AMM correspond à un produit associant deux principes actifs (100 µg/20 µg) ; elle ne décrit pas l'autorisation de la liothyronine seule.
 

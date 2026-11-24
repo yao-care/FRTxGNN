@@ -93,13 +93,22 @@ Les autres publications retrouvées pour l'insomnie sont indirectes (prescriptio
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 67917629 | TEMESTA 1 mg, comprimé sécable (active) | Comprimé sécable | Non renseignée |
-| 62505828 | LORAZEPAM VIATRIS 1 mg (active) | Comprimé pelliculé sécable | Non renseignée |
-| 67177709 | TEMESTA 2,5 mg, comprimé sécable (active) | Comprimé sécable | Non renseignée |
-| 66720276 | LORAZEPAM XILMAC 4 mg/mL (active) | Solution injectable | Non renseignée |
-| 63159891 | LORAZEPAM VIATRIS 2,5 mg (active) | Comprimé pelliculé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67917629 | TEMESTA 1 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 62505828 | LORAZEPAM VIATRIS 1 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 67177709 | TEMESTA 2,5 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 66720276 | LORAZEPAM XILMAC 4 mg/mL, solution injectable | Solution injectable | MACURE HEALTHCARE (MALTE) | Active |
+| 63159891 | LORAZEPAM VIATRIS 2,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 60642671 | LORAZEPAM ARROW 1 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 63325765 | LORAZEPAM ARROW 0,5 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 67761799 | LORAZEPAM ARROW 2,5 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les 8 AMM sur 8 sont valides : le médicament est commercialisé.
 

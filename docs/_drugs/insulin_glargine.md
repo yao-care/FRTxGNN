@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 402
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin glargine"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy"]
 description: "Insulin Glargine : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
@@ -77,13 +77,22 @@ Aucune littérature associée disponible actuellement pour l'ovarite auto-immune
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61404477 | LANTUS 100 unités/ml, cartouche | Solution injectable | Non renseignée (AMM active) |
-| 62030744 | TOUJEO 300 unités/ml DoubleStar, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 68378405 | TOUJEO 300 unités/ml SoloStar, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 64332894 | ABASAGLAR 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 60408661 | SEMGLEE 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61404477 | LANTUS 100 unités/ ml, solution injectable en cartouche | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 62030744 | TOUJEO 300 unités/ml DoubleStar, solution injectable en stylo prérempli | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 68378405 | TOUJEO 300 unités/ml SoloStar, solution injectable en stylo prérempli | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 64332894 | ABASAGLAR 100 unités/ml, solution injectable en stylo prérempli | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 60408661 | SEMGLEE 100 unités/ml, solution injectable en stylo prérempli | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 64745003 | LANTUS 100 Unités/ml, solution injectable en flacon | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 65979151 | LANTUS SOLOSTAR 100 unités/ ml, solution injectable en stylo prérempli | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 66513085 | ABASAGLAR 100 unités/ml, solution injectable en cartouche | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

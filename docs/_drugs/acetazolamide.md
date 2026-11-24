@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "acetazolamide"
 predicted_indications: ["exercise-induced malignant hyperthermia", "hypertrophic cardiomyopathy", "congenital myopathy with excess of thin filaments", "hypertrophic cardiomyopathy due to intensive athletic training", "distal myopathy, Tateyama type", "cirrhotic cardiomyopathy", "cardiomyopathy", "intestinal obstruction", "glycogen storage disease due to acid maltase deficiency, late-onset", "unclassified intestinal pseudoobstruction"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acetazolamide : nouvelle indication prédite, Hyperthermie maligne d'effort (exercise-induced malignant hyperthermia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
@@ -69,10 +69,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68693244 | DIAMOX 250 mg, comprimé sécable | Comprimé sécable | Non renseignée dans les données locales |
-| 63463588 | DIAMOX 500 mg, poudre et solvant pour préparation injectable | Poudre et solution pour préparation injectable | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68693244 | DIAMOX 250 mg, comprimé sécable | Comprimé sécable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 63463588 | DIAMOX 500 mg, poudre et solvant pour préparation injectable | Poudre et solution pour préparation injectable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les données locales comportent deux AMM, toutes deux pour des spécialités à base d'acétazolamide seule. Le statut de marché indiqué par les données est « commercialisé ».
 

@@ -83,13 +83,21 @@ Aucune des publications ci-dessous n'étudie directement l'efficacité de l'amik
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 63408093 | AMIKACINE PANPHARMA 250 mg/mL | Solution injectable | Non renseignée |
-| 68502148 | AMIKACINE VIATRIS 500 mg | Poudre pour solution injectable | Non renseignée |
-| 65156805 | ARIKAYCE LIPOSOMAL 590 mg | Dispersion pour inhalation par nébuliseur | Non renseignée |
-| 62000612 | AMIKACINE VIATRIS 50 mg/1 mL | Solution injectable | Non renseignée |
-| 62516778 | AMIKACINE VIATRIS 1 g | Poudre pour solution injectable en flacon | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63408093 | AMIKACINE PANPHARMA 250 mg/mL, solution injectable | Solution injectable | PANMEDICA | Active |
+| 68502148 | AMIKACINE VIATRIS 500 mg, poudre pour solution injectable | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 65156805 | ARIKAYCE LIPOSOMAL 590 mg, dispersion pour inhalation par nébuliseur | Dispersion pour inhalation par nébuliseur | INSMED NETHERLANDS (PAYS-BAS) | Active |
+| 62000612 | AMIKACINE VIATRIS 50 mg/1 ml, solution injectable | Solution injectable | VIATRIS SANTE | Active |
+| 62516778 | AMIKACINE VIATRIS 1 g, poudre pour solution injectable en flacon | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 62048906 | AMIKACINE VIATRIS 250 mg, poudre pour solution injectable | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 63899393 | AMIKACINE STRAGEN 250 mg/mL, solution injectable | Solution injectable | STRAGEN-FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

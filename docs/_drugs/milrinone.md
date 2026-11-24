@@ -98,12 +98,19 @@ Aucune publication n'est disponible pour l'alopécie. Les références ci-dessou
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 61448776 | COROTROPE 10 mg/10 ml, solution injectable IV (SANOFI WINTHROP INDUSTRIE) | Solution injectable | Non renseignée (AMM active) |
-| 61412965 | MILRINONE TILLOMED 1 mg/mL (TILLOMED PHARMA) | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
-| 65725263 | MILRINONE CARINOPHARM 1 mg/ml (CARINOPHARM) | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
-| 64507226 | MILRINONE STRAGEN 1 mg/ml (STRAGEN-FRANCE) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61448776 | COROTROPE 10 mg/10 ml, solution injectable IV | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 61412965 | MILRINONE TILLOMED 1 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 65725263 | MILRINONE CARINOPHARM 1 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | CARINOPHARM (ALLEMAGNE) | Active |
+| 64507226 | MILRINONE STRAGEN 1 mg/ml, solution injectable | Solution injectable | STRAGEN-FRANCE | Active |
+| 62978514 | MILRINONE MEDAC 10 mg/10 ml, solution injectable | Solution injectable | MEDAC | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

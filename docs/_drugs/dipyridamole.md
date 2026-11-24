@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DIPYRIDAMOLE"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "sarcoglycanopathy", "Wildervanck syndrome", "macrocephaly, dysmorphic facies, and psychomotor retardation", "cavernous sinus thrombosis", "lateral sinus thrombosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dipyridamole : nouvelle indication prédite, Sick sinus syndrome 2, autosomal dominant (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -74,10 +74,16 @@ Aucune littérature associée disponible actuellement.
 
 Le dipyridamole est commercialisé en France. Les deux AMM recensées sont valides.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60021216 | PERSANTINE 75 mg, comprimé enrobé | Comprimé enrobé | Non renseignée |
-| 68572748 | PERSANTINE 10 mg/2 mL, solution injectable, ampoule | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60021216 | PERSANTINE 75 mg, comprimé enrobé | Comprimé enrobé | GLENWOOD GMBH PHARMAZEUTISCHE ERZEUGNISSE | Active |
+| 68572748 | PERSANTINE 10 mg/2 mL, solution injectable, ampoule | Solution injectable | GLENWOOD GMBH PHARMAZEUTISCHE ERZEUGNISSE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 337
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluorescein : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "fluorescein"
 predicted_indications: ["Prinzmetal angina", "antithrombin deficiency type 2", "rheumatoid arthritis", "factor 5 excess with spontaneous thrombosis", "hemoglobinopathy", "heparin cofactor 2 deficiency", "thrombophilia", "hyperthyroidism", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations"]
@@ -70,11 +70,17 @@ Aucune littérature associée disponible actuellement pour l'angor de Prinzmetal
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 69497711 | Fluorescéine Faure 0,5 pour cent, collyre en solution en récipient unidose | Collyre en solution | Non renseignée | Active |
-| 63233249 | Fluocyne 10 %, solution injectable I.V. | Solution injectable | Non renseignée | Active |
-| 63485289 | Fluorescéine sodique Faure 10 pour cent, solution injectable | Solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69497711 | FLUORESCEINE FAURE 0,5 POUR CENT, collyre en solution en récipient unidose | Collyre en solution | SERB (BELGIQUE) | Active |
+| 63233249 | FLUOCYNE 10 %, solution injectable I.V. | Solution injectable | SERB | Active |
+| 63485289 | FLUORESCEINE SODIQUE FAURE 10 POUR CENT, solution injectable | Solution injectable | SERB (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 410
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ipilimumab : nouvelle indication prédite, Choroïdérémie (niveau de preuve L5). Indication d'origine : Mélanome métastatique (issue de la base de connaissances du modèle"
 monitor_inn: "IPILIMUMAB"
 predicted_indications: ["choroideremia"]
@@ -82,15 +82,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66532840 | YERVOY 5 mg/mL, solution à diluer pour perfusion (BRISTOL-MYERS SQUIBB / PFIZER EEIG, Irlande) | Solution à diluer pour perfusion | Texte d'indication non renseigné |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-ipilimumab-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66532840 | YERVOY 5 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | BRISTOL-MYERS SQUIBB / PFIZER EEIG (IRLANDE) | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 66532840 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 66532840 (YERVOY 5 mg/mL, solution à diluer pour perfusion) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-ipilimumab-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -146,7 +146,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 66532840 (YERVOY 5 mg/mL) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 66532840 (YERVOY 5 mg/mL) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Yervoy (ipilimumab) prescribing information, E.R. Squibb & Sons, L.L.C.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2265ef30-253e-11df-8a39-0800200c9a66) |
 
 <!-- review:end log -->

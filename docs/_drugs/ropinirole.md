@@ -81,9 +81,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68209070 | REQUIP 2 mg, comprimé pelliculé (GlaxoSmithKline) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68209070 | REQUIP 2 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE | Active |
+| 60093639 | ROPINIROLE BIOGARAN LP 8 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | BIOGARAN | Active |
+| 60144464 | ROPINIROLE ARROW LP 4 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ARROW GENERIQUES | Active |
+| 60274618 | ROPINIROLE EG LP 8 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60371992 | ROPINIROLE KRKA LP 2 mg, comprimé à libération prolongée | Comprimé à libération prolongée | KRKA (SLOVENIE) | Active |
+| 60623831 | ROPINIROLE EG LP 2 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60716890 | ROPINIROLE EG LP 4 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61150445 | ROPINIROLE VIATRIS 0,25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61197676 | ROPINIROLE TEVA 1 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 61206381 | ROPINIROLE VIATRIS 0,50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61420645 | ROPINIROLE SANDOZ LP 2 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | SANDOZ | Active |
+| 61497951 | REQUIP 0,25 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE | Active |
+| 61506592 | ROPINIROLE ARROW GENERIQUES 0,25 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 61553841 | REQUIP LP 2 mg, comprimé à libération prolongée | Comprimé à libération prolongée | GLAXOSMITHKLINE | Active |
+| 61720468 | ROPINIROLE VIATRIS 1 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61872287 | ROPINIROLE EG 0,5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61907585 | ROPINIROLE TEVA LP 8 mg, comprimé à libération prolongée | Comprimé à libération prolongée | TEVA SANTE | Active |
+| 62494787 | REQUIP LP 4 mg, comprimé à libération prolongée | Comprimé à libération prolongée | GLAXOSMITHKLINE | Active |
+| 63522848 | ROPINIROLE EG 2 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63855735 | ROPINIROLE EG 0,25 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

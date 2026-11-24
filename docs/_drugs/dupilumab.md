@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 264
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "DUPILUMAB"
 predicted_indications: ["bronchitis", "acne keloid", "exanthem (disease)", "neonatal dermatomyositis", "acrodermatitis chronica atrophicans", "amyopathic dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy"]
 description: "Dupilumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -96,12 +96,18 @@ Il faut toutefois rester prudent : les données disponibles concernent l'asthme 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64039311 | DUPIXENT 300 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 64423080 | DUPIXENT 200 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 64627916 | DUPIXENT 300 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 66004227 | DUPIXENT 200 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64039311 | DUPIXENT 300 mg, solution injectable en stylo prérempli | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 64423080 | DUPIXENT 200 mg, solution injectable en seringue préremplie | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 64627916 | DUPIXENT 300 mg, solution injectable en seringue préremplie | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 66004227 | DUPIXENT 200 mg, solution injectable en stylo prérempli | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

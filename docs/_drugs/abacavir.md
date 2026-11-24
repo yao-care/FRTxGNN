@@ -74,12 +74,30 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63797011 | ABACAVIR SANDOZ 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
-| 62070450 | ZIAGEN 20 mg/ml, solution buvable | Solution buvable | Non renseignée |
-| 62401060 | ABACAVIR VIATRIS 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
-| 68556562 | ZIAGEN 300 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63797011 | ABACAVIR SANDOZ 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 62070450 | ZIAGEN 20 mg/ml, solution buvable | Solution buvable | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 62401060 | ABACAVIR VIATRIS 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 68556562 | ZIAGEN 300 mg, comprimé pelliculé | Comprimé pelliculé sécable | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 69855489 | KIVEXA 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 67567004 | ABACAVIR/LAMIVUDINE VIATRIS 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65857902 | ABACAVIR/LAMIVUDINE TEVA 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 65196479 | ABACAVIR/LAMIVUDINE EG 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63431640 | ABACAVIR/LAMIVUDINE BIOGARAN 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61876780 | ABACAVIR ARROW 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 62828870 | ABACAVIR/LAMIVUDINE ARROW 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 63152345 | ABACAVIR/LAMIVUDINE/ZIDOVUDINE VIATRIS 300 mg/150 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 63892609 | TRIUMEQ 5 mg/60 mg/30 mg, comprimé dispersible | Comprimé dispersible | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 64287253 | TRIUMEQ 50 mg/600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 62202005 | ABACAVIR/LAMIVUDINE ZENTIVA 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Abrogée |
+| 64976070 | TRIZIVIR 300 mg / 150 mg / 300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -72,6 +72,27 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67245747 | ADAPALENE ZENTIVA 0,1 %, crème | Crème | ZENTIVA FRANCE | Active |
+| 62886560 | ADAPALENE ZENTIVA 0,1 %, gel | Gel | ZENTIVA FRANCE | Active |
+| 65099368 | ADAPALENE TEVA 0,1 POUR CENT, crème | Crème | TEVA SANTE | Active |
+| 63066469 | DIFFERINE 0,1 %, gel | Gel | GALDERMA INTERNATIONAL | Active |
+| 69718483 | DIFFERINE 0,1 %, crème | Crème | GALDERMA INTERNATIONAL | Active |
+| 69361309 | DESARENA 0,1 %/2,5 %, gel | Gel | LABORATOIRES MEDGEN | Active |
+| 67549248 | ADAPALENE/PEROXYDE DE BENZOYLE ZENTIVA 0,1 %/2,5 %, gel | Gel | ZENTIVA FRANCE | Active |
+| 64950392 | EPIDUO 0,3 %/2,5 %, gel | Gel | GALDERMA INTERNATIONAL | Active |
+| 60972530 | EPIDUO 0,1 %/2,5 %, gel | Gel | GALDERMA INTERNATIONAL | Active |
+| 61783479 | ADAPALENE/PEROXYDE DE BENZOYLE BAILLEUL 0,3 %/2,5 %, gel | Gel | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 68013246 | ADAPALENE/PEROXYDE DE BENZOYLE ZENTIVA 0,3 %/2,5 %, gel | Gel | ZENTIVA FRANCE | Active |
+| 69609936 | ADAPALENE/PEROXYDE DE BENZOYLE BAILLEUL 0,1 %/2,5 %, gel | Gel | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
 Les données compilées recensent 12 AMM pour des spécialités contenant de l'adapalène (crème et gel), commercialisées notamment par Zentiva, Teva Santé, Galderma International et Laboratoires Medgen. Les dossiers de ces AMM ne contiennent pas de texte d'indication. Le détail de ces autorisations est fourni par le programme du site.
 
 <!-- review:begin fr-lic-20261124-adapalene-1 -->

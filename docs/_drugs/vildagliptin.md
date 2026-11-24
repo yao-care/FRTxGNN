@@ -77,13 +77,33 @@ Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premi�
 
 <!-- review:end fr-lic-20261106-vildagliptin-1 -->
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Titulaire | Statut |
-|---------|------|------|------|------|
-| 67520378 | GALVUS 50 mg | Comprimé | Novartis Europharm (Irlande) | Active |
-| 63144220 | VILDAGLIPTINE EG 50 mg | Comprimé | EG Labo – Laboratoires Eurogenerics | Active |
-| 66153274 | VILDAGLIPTINE SANDOZ 50 mg | Comprimé | Sandoz | Active |
-| 61163720 | VILDAGLIPTINE VIATRIS 50 mg | Comprimé | Viatris Santé | Active |
-| 60892792 | EUCREAS 50 mg/1000 mg (avec metformine) | Comprimé pelliculé | Novartis Europharm (Irlande) | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63144220 | VILDAGLIPTINE EG 50 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66153274 | VILDAGLIPTINE SANDOZ 50 mg, comprimé | Comprimé | SANDOZ | Active |
+| 61163720 | VILDAGLIPTINE VIATRIS 50 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 61615937 | VILDAGLIPTINE BIOGARAN 50 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 61787125 | VILDAGLIPTINE ACCORD 50 mg, comprimé | Comprimé | ACCORD HEALTHCARE FRANCE | Active |
+| 60870205 | VILDAGLIPTINE ZYDUS 50 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 62942735 | VILDAGLIPTINE ARROW 50 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 67520378 | GALVUS 50 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 68648605 | VILDAGLIPTINE TEVA 50 mg, comprimé | Comprimé | TEVA (PAYS-BAS) | Active |
+| 60586660 | VILDAGLIPTINE ZENTIVA 50 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 60892792 | EUCREAS 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61238831 | VILDAGLIPTINE/METFORMINE VIATRIS 50 mg/1000 mg comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 67874551 | VILDAGLIPTINE/METFORMINE CHLORHYDRATE ACCORD 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 65800164 | VILDAGLIPTINE/METFORMINE ZENTIVA 50 mg/1 000 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 60004932 | VILDAGLIPTINE/METFORMINE SANDOZ 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69899592 | VILDAGLIPTINE/METFORMINE ARROW 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 60148110 | VILDAGLIPTINE/METFORMINE EG 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64011319 | VILDAGLIPTINE/METFORMINE BIOGARAN 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61327301 | VILDAGLIPTINE/METFORMINE ALTER 50 mg/1000 mg, comprimé | Comprimé | LABORATOIRES ALTER | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

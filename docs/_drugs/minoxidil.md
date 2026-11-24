@@ -77,13 +77,33 @@ Aucun essai clinique associé enregistré actuellement.
 
 Le minoxidil est commercialisé en France. Sur les 19 AMM recensées, 17 sont valides et 2 sont annulées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64473959 | Minoxidil Sandoz Conseil 5 % | Solution pour application cutanée | Non renseignée |
-| 69250554 | Alostil 5 % | Mousse pour application cutanée | Non renseignée |
-| 69301899 | Alopexy 50 mg/ml | Solution pour application cutanée | Non renseignée |
-| 69871657 | Unipexil 2 % | Solution pour application cutanée | Non renseignée |
-| 67395654 | Lonoten 10 mg | Comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64473959 | MINOXIDIL SANDOZ CONSEIL 5 %, solution pour application cutanée | Solution pour application | SANDOZ | Active |
+| 69250554 | ALOSTIL 5 %, mousse pour application cutanée en flacon pressurisé | Mousse pour application | KENVUE FRANCE | Active |
+| 69301899 | ALOPEXY 50 mg/ml, solution pour application cutanée | Solution pour application | PIERRE FABRE MEDICAMENT | Active |
+| 61831995 | MINOXIDIL COOPER 5 %, solution pour application cutanée | Solution pour application | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 66192398 | MINOXIDIL SANDOZ CONSEIL 2 %, solution pour application cutanée | Solution pour application | SANDOZ | Active |
+| 62182563 | MINOXIDIL BAILLEUL 5 %, solution pour application cutanée | Solution pour application | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 60994733 | ALOSTIL 2 %, solution pour application cutanée | Solution pour application | KENVUE FRANCE | Active |
+| 67339463 | MINOXIDIL BIOGARAN CONSEIL 2 %, solution pour application cutanée | Solution pour application | BIOGARAN | Active |
+| 68477734 | MINOXIDIL BAILLEUL 2 %, solution pour application cutanée | Solution pour application | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 64960867 | MINOXIDIL BIOGARAN CONSEIL 5 %, solution pour application cutanée | Solution pour application | BIOGARAN | Active |
+| 64801822 | MINOXIDIL VIATRIS CONSEIL 5 %, solution pour application cutanée | Solution pour application | VIATRIS SANTE | Active |
+| 67395654 | LONOTEN 10 mg, comprimé sécable | Comprimé sécable | PFIZER HOLDING FRANCE | Active |
+| 60226897 | MINOXIDIL COOPER 2 %, solution pour application cutanée en flacon | Solution pour application | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 65068102 | ALOSTIL 5 %, solution pour application cutanée | Solution pour application | KENVUE FRANCE | Active |
+| 62725176 | ALOPEXY 2 %, solution pour application cutanée | Solution pour application | PIERRE FABRE MEDICAMENT | Active |
+| 61983729 | LONOTEN 5 mg, comprimé sécable | Comprimé sécable | PFIZER HOLDING FRANCE | Active |
+| 69791937 | MINOXIDIL VIATRIS CONSEIL 2 %, solution pour application cutanée | Solution pour application | VIATRIS SANTE | Active |
+| 69871657 | UNIPEXIL 2 POUR CENT, solution pour application cutanée | Solution pour application | GIFRER BARBEZAT | Archivée |
+| 61156302 | UNIPEXIL 5 %, solution pour application cutanée | Solution pour application | GIFRER BARBEZAT | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

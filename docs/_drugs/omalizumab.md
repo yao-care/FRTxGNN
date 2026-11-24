@@ -89,13 +89,26 @@ L'omalizumab est commercialisé en France. Les données compilées recensent 12 
 
 <!-- review:end fr-lic-20261124-omalizumab-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66107946 | OMLYCLO 75 mg, seringue préremplie | Solution injectable | Non renseignée |
-| 62877141 | XOLAIR 75 mg, seringue préremplie | Solution injectable | Non renseignée |
-| 61771263 | XOLAIR 300 mg, seringue préremplie | Solution injectable | Non renseignée |
-| 61971520 | XOLAIR 150 mg, seringue préremplie | Solution injectable | Non renseignée |
-| 61112487 | XOLAIR 75 mg, stylo prérempli | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66107946 | OMLYCLO 75 mg, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 62877141 | XOLAIR 75 mg, solution injectable en seringue préremplie | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61771263 | XOLAIR 300 mg, solution injectable en seringue pré-remplie | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61971520 | XOLAIR 150 mg, solution injectable en seringue préremplie | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61112487 | XOLAIR 75 mg, solution injectable en stylo prérempli | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 62401391 | OMLYCLO 150 mg, solution injectable en stylo prérempli | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 69603381 | OMLYCLO 150 mg, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 65134723 | XOLAIR 300 mg, solution injectable en stylo pré-rempli | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 65161930 | XOLAIR 150 mg, solution injectable en stylo prérempli | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60909042 | OMLYCLO 75 mg, solution injectable en stylo prérempli | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 62515797 | OMLYCLO 300 mg, solution injectable en stylo prérempli | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 65804497 | OMLYCLO 300 mg, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

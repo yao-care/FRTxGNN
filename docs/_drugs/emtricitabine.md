@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 281
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EMTRICITABINE"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Emtricitabine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans l…"
@@ -77,15 +77,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Aperçu des 5 principales :
+<!-- licenses:begin -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61294762 | EMTRIVA 200 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 66717579 | EMTRIVA 10 mg/ml, solution buvable | Solution buvable | Non renseignée (AMM active) |
-| 66325208 | DESCOVY 200 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69481664 | TRUVADA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64689693 | ODEFSEY 200 mg/25 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61294762 | EMTRIVA 200 mg, gélule | Gélule | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 66717579 | EMTRIVA 10 mg/ml, solution buvable | Solution buvable | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 62778588 | EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA D.D. 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 66325208 | DESCOVY 200 mg/25 mg, comprime pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 68486060 | EMTRICITABINE/TENOFOVIR DISOPROXIL SANDOZ 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69543888 | EMTRICITABINE/TENOFOVIR DISOPROXIL EG 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69481664 | TRUVADA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 62966914 | EMTRICITABINE/TENOFOVIR DISOPROXIL TEVA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 65646855 | EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 60247507 | EMTRICITABINE/TENOFOVIR DISOPROXIL ARROW 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64250372 | EMTRICITABINE/TENOFOVIR DISOPROXIL ZENTIVA LAB 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 68156283 | EMTRICITABINE/TENOFOVIR DISOPROXIL ACCORD 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 63146673 | EMTRICITABINE/TENOFOVIR DISOPROXIL BIOGARAN 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69342796 | DESCOVY 200 mg/10 mg, comprime pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 69161098 | EMTRICITABINE/TENOFOVIR DISOPROXIL ZYDUS 200 mg/245mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 66010949 | EMTRICITABINE/TENOFOVIR DISOPROXIL ZENTIVA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 65271985 | EMTRICITABINE TENOFOVIR DISOPROXIL MYLAN 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 62474215 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL MYLAN 600 mg/200 mg/245 mg, comprimé pellicu… | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 60382686 | EFAVIRENZ/EMTRICITABINE/TENOFOVIR DISOPROXIL BGR 600 mg/200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64689693 | ODEFSEY 200 mg/25 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

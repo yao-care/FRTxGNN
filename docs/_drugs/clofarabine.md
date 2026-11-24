@@ -97,12 +97,19 @@ Le tableau présente les publications les plus pertinentes. Les types sont ceux 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65270506 | EVOLTRA 1 mg/ml (SANOFI, Pays-Bas) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 61229953 | CLOFARABINE VIATRIS 1 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 68439477 | CLOFARABINE TILLOMED 1 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 63053030 | CLOFARABINE ACCORD 1 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65270506 | EVOLTRA 1 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANOFI (PAYS-BAS) | Active |
+| 61229953 | CLOFARABINE VIATRIS 1 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 68439477 | CLOFARABINE TILLOMED 1 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 63053030 | CLOFARABINE ACCORD 1 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 65013013 | IVOZALL 1 mg/ml, solution à diluer pour perfusion. | Solution à diluer pour perfusion | ORPHELIA PHARMA | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

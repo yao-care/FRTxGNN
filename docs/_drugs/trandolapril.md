@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 778
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRANDOLAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
 description: "Trandolapril : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
@@ -96,13 +96,25 @@ Aucune littérature directement associée à l'hypertension rénovasculaire mali
 
 Les textes d'indication ne sont pas renseignés.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67937514 | TRANDOLAPRIL BIOGARAN 0,5 mg | Gélule | Active |
-| 62481448 | ODRIK 4 mg | Gélule | Active |
-| 66972380 | TRANDOLAPRIL BIOGARAN 2 mg | Gélule | Active |
-| 64337254 | TRANDOLAPRIL VIATRIS 2 mg | Gélule | Active |
-| 68510337 | ODRIK 2 mg | Gélule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67937514 | TRANDOLAPRIL BIOGARAN 0,5 mg, gélule | Gélule | BIOGARAN | Active |
+| 62481448 | ODRIK 4 mg, gélule | Gélule | VIATRIS MEDICAL | Active |
+| 66972380 | TRANDOLAPRIL BIOGARAN 2 mg, gélule | Gélule | BIOGARAN | Active |
+| 64337254 | TRANDOLAPRIL VIATRIS 2 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 68510337 | ODRIK 2 mg, gélule | Gélule | VIATRIS MEDICAL | Active |
+| 62961098 | TRANDOLAPRIL BIOGARAN 4 mg, gélule | Gélule | BIOGARAN | Active |
+| 60094125 | TRANDOLAPRIL VIATRIS 0,5 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 61485696 | TRANDOLAPRIL VIATRIS 4 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 62404028 | TARKA LP 180 mg/2 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | VIATRIS MEDICAL | Active |
+| 60516982 | TARKA LP 240 mg/4 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | VIATRIS MEDICAL | Active |
+| 64603331 | TARKA LP 240 mg/2 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | VIATRIS MEDICAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 (5 AMM affichées sur 11 ; les autres concernent d'autres dosages de Trandolapril Biogaran/Viatrix et les associations Tarka LP à libération prolongée.)
 

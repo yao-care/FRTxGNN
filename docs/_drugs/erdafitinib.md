@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 292
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Erdafitinib : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "ERDAFITINIB"
 predicted_indications: ["pulmonary hypertension", "kyphoscoliotic heart disease", "amenorrhea (disease)", "rheumatoid arthritis", "amyotrophic lateral sclerosis", "brachydactyly-syndactyly syndrome"]
@@ -63,11 +63,17 @@ Ce lien repose uniquement sur le score de prédiction TxGNN. De plus, l'inhibiti
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 66039107 | BALVERSA 3 mg, comprimés pelliculés (active) | Comprimé pelliculé | Non renseignée |
-| 65760218 | BALVERSA 4 mg, comprimés pelliculés (active) | Comprimé pelliculé | Non renseignée |
-| 60039171 | BALVERSA 5 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66039107 | BALVERSA 3 mg, comprimés pelliculés | Comprimé pelliculé | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 65760218 | BALVERSA 4 mg, comprimés pelliculés | Comprimé pelliculé | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 60039171 | BALVERSA 5 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG INTERNATIONAL NV | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicite
 

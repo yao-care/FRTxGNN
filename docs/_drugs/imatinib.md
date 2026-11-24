@@ -86,10 +86,35 @@ Aucun essai clinique associé n'est enregistré actuellement pour le fibrosarcom
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63485353 | GLIVEC 400 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
-| 64936439 | GLIVEC 100 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63485353 | GLIVEC 400 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 64936439 | GLIVEC 100 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60663441 | IMATINIB SANDOZ 400 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 60709020 | IMATINIB ARROW LAB 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 61136381 | IMATINIB ARROW LAB 400 mg, comprimé pelliculé | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 61447770 | IMATINIB CRISTERS 400 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 61483122 | IMATINIB ZENTIVA 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 62304120 | IMATINIB EG 400 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62343034 | IMATINIB TEVA 100 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 63428039 | IMATINIB SANDOZ 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 64299857 | IMATINIB BGR 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 64360089 | IMATINIB ZYDUS 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 64522114 | IMATINIB ZENTIVA 400 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 64706096 | IMATINIB TEVA 400 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 64911770 | IMATINIB EG 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65074589 | IMATINIB CRISTERS 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 65235067 | IMATINIB EG LABO 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65896314 | IMATINIB ACCORD 100 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 66544554 | IMATINIB BGR 400 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 65632670 | IMATINIB SANDOZ 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BB FARMA (ITALIE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

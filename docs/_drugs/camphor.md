@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 132
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Camphor : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "camphor"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "erectile dysfunction (disease)", "pulmonary hypertension", "kyphoscoliotic heart disease", "ulerythema ophryogenesis", "Raynaud disease", "atrophoderma vermiculata", "Tourette syndrome"]
@@ -84,11 +84,17 @@ Les cas cliniques suggèrent plutôt un rôle déclenchant ou aggravant des huil
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66386652 | CAMPHORA LEHNING, degré de dilution compris entre 4CH à 30CH et 8DH à 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM active) |
-| 68197173 | CAMPHORA BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé, solution(s), granules, poudre et pommade | Non renseignée (AMM active) |
-| 64991955 | RODULOS, solution buvable en gouttes | Solution en gouttes | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66386652 | CAMPHORA LEHNING, degré de dilution compris entre 4CH à 30CH et 8DH à 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 68197173 | CAMPHORA BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 64991955 | RODULOS, solution buvable en gouttes | Solution en gouttes | LEHNING | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

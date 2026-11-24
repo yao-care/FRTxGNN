@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 393
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "imipenem"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "sinusitis", "chronic rhinosinusitis", "typhoid fever", "chronic ethmoidal sinusitis", "paranasal sinus neoplasm (disease)", "eosinophilia-myalgia syndrome"]
 description: "Imipenem : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
@@ -95,13 +95,23 @@ Ces travaux constituent des preuves indirectes (surveillance de la résistance, 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69426034 | Imipenem Cilastatine Viatris 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 64326051 | Imipenem/Cilastatine Tamrisa 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 62866789 | Imipenem/Cilastatine Arrow 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 65336568 | Imipenem Cilastatine Panpharma 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 65465495 | Imipenem/Cilastatine Sun 500 mg/500 mg | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69426034 | IMIPENEM CILASTATINE VIATRIS 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 64326051 | IMIPENEM/CILASTATINE TAMRISA 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | TAMRISA ACCESS (FRANCE) | Active |
+| 62866789 | IMIPENEM/CILASTATINE ARROW 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 65336568 | IMIPENEM CILASTATINE PANPHARMA 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PANMEDICA | Active |
+| 65465495 | IMIPENEM/CILASTATINE SUN 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SUN PHARMA FRANCE | Active |
+| 67697019 | IMIPENEM/CILASTATINE KABI 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 65140320 | IMIPENEM/CILASTATINE ACS DOBFAR 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | ACS DOBFAR (ITALIE) | Active |
+| 63848121 | IMIPENEM/CILASTATINE HIKMA 500 mg/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 65172663 | RECARBRIO 500 mg/500 mg/250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 9 AMM sont recensées, toutes valides (dont Recarbrio, association avec le relébactam). Le médicament est commercialisé.
 

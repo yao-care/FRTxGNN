@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "acenocoumarol"
 predicted_indications: ["heparin cofactor 2 deficiency", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acenocoumarol : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (heparin cofactor 2 deficiency) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
 ---
 
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61510352 | SINTROM 4 mg, comprimé quadrisécable | Comprimé quadrisécable | Non renseignée |
-| 62148714 | MINI-SINTROM 1 mg, comprimé | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61510352 | SINTROM 4 mg, comprimé quadrisécable | Comprimé quadrisécable | MERUS LABS LUXCO II (LUXEMBOURG) | Active |
+| 62148714 | MINI-SINTROM 1 mg, comprimé | Comprimé | MERUS LABS LUXCO II (LUXEMBOURG) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

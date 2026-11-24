@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 614
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "plerixafor"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "bronchitis", "vulvar melanoma (disease)", "myeloid leukemia"]
 description: "Plerixafor : nouvelle indication prédite, CMM7 (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -71,13 +71,21 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 
 <!-- review:end fr-lic-20261106-plerixafor-1 -->
 
+<!-- licenses:begin -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
-|---------|------|------|------|------|
-| 64981594 | PLERIXAFOR VIATRIS 20 mg/mL | Solution injectable | VIATRIS SANTE | Active |
-| 60626514 | PLERIXAFOR ACCORD 20 mg/ml | Solution injectable | ACCORD HEALTHCARE (Espagne) | Active |
-| 69530271 | PLERIXAFOR TILLOMED 20 mg/mL | Solution injectable | TILLOMED PHARMA (Allemagne) | Active |
-| 69389575 | PLERIXAFOR ARROW 20 mg/mL | Solution injectable | EUGIA PHARMA (Malte) | Active |
-| 65998504 | PLERIXAFOR TEVA 20 mg/mL | Solution injectable | TEVA SANTE | Active |
+|------|------|------|------|------|
+| 64981594 | PLERIXAFOR VIATRIS 20 mg/mL, solution injectable | Solution injectable | VIATRIS SANTE | Active |
+| 60626514 | PLERIXAFOR ACCORD 20 mg/ml, solution injectable | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69530271 | PLERIXAFOR TILLOMED 20 mg/mL, solution injectable | Solution injectable | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 69389575 | PLERIXAFOR ARROW 20 mg/mL, solution injectable | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 65998504 | PLERIXAFOR TEVA 20 mg/mL, solution injectable | Solution injectable | TEVA SANTE | Active |
+| 60148167 | MOZOBIL 20 mg/ml, solution pour injection | Solution injectable | SANOFI (PAYS-BAS) | Active |
+| 62324639 | PLERIXAFOR SEACROSS 20 mg/ml, solution injectable | Solution injectable | SEACROSS PHARMA (EUROPE) (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

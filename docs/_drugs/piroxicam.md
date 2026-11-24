@@ -80,13 +80,28 @@ Les 5 premières sont listées ci-dessous. Le texte d'indication approuvée n'es
 
 <!-- review:end fr-lic-20261106-piroxicam-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67214342 | FELDENE DISPERSIBLE 20 mg (Pfizer) | Comprimé dispersible sécable | Non précisée |
-| 68659391 | PIROXICAM BIOGARAN 10 mg | Gélule | Non précisée |
-| 62408891 | PIROXICAM PFIZER 20 mg/1 ml (IM) | Solution injectable | Non précisée |
-| 67785736 | PIROXICAM VIATRIS 20 mg | Comprimé dispersible sécable | Non précisée |
-| 69721369 | PIROXICAM TEVA 20 mg/1 ml (IM) | Solution injectable | Non précisée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67214342 | FELDENE DISPERSIBLE 20 mg, comprimé dispersible sécable | Comprimé dispersible sécable | PFIZER HOLDING FRANCE | Active |
+| 68659391 | PIROXICAM BIOGARAN 10 mg, gélule | Gélule | BIOGARAN | Active |
+| 67785736 | PIROXICAM VIATRIS 20 mg, comprimé dispersible sécable | Comprimé dispersible sécable | VIATRIS SANTE | Active |
+| 69721369 | PIROXICAM TEVA 20 mg/1 ml, solution injectable (IM) | Solution injectable | TEVA SANTE | Active |
+| 65592763 | PIROXICAM TEVA 20 mg, gélule | Gélule | TEVA SANTE | Active |
+| 69052120 | PIROXICAM BIOGARAN 20 mg, gélule | Gélule | BIOGARAN | Active |
+| 69482905 | PIROXICAM VIATRIS 20 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 67492391 | ZOFORA 20 mg/1 ml, solution injectable (I.M.) | Solution injectable | LABORATOIRES ETHYPHARM | Active |
+| 62096096 | PIROXICAM EG 20 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67633600 | FELDENE 20 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 62408891 | PIROXICAM PFIZER 20 mg/1 ml, solution injectable en ampoule (IM) | Solution injectable | PFIZER HOLDING FRANCE | Archivée |
+| 65898475 | FELDENE 20 mg, suppositoire | Suppositoire | PFIZER HOLDING FRANCE | Archivée |
+| 65182102 | FELDENE 20 mg/1 ml, solution injectable en ampoule (IM) | Solution injectable | PFIZER HOLDING FRANCE | Archivée |
+| 69847581 | GELDENE 0,5 POUR CENT, gel pour application locale | Gel pour application | PFIZER HOLDING FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

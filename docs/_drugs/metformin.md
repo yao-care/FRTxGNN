@@ -83,13 +83,35 @@ Aucune littérature associée disponible actuellement.
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 68196071 | METFORMINE VIATRIS 500 mg | Comprimé pelliculé | Active |
-| 61232102 | STAGID 700 mg | Comprimé sécable | Active |
-| 61048305 | METFORMINE EG LABO 500 mg | Comprimé pelliculé | Active |
-| 60915020 | METFORMINE VIATRIS 1000 mg | Comprimé pelliculé sécable | Active |
-| 67231181 | METFORMINE EG LABO 850 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68196071 | METFORMINE VIATRIS 500 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61232102 | STAGID 700 mg, comprimé sécable | Comprimé sécable | MERCK SANTE | Active |
+| 61048305 | METFORMINE EG LABO 500 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60915020 | METFORMINE VIATRIS 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 67231181 | METFORMINE EG LABO 850 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66017064 | METFORMINE EG LABO 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60892792 | EUCREAS 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61238831 | VILDAGLIPTINE/METFORMINE VIATRIS 50 mg/1000 mg comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64011319 | VILDAGLIPTINE/METFORMINE BIOGARAN 50 mg/1000 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60754492 | METFORMINE BGR 850 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61052830 | GLUCOPHAGE 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | MERCK SANTE | Active |
+| 61073372 | METFORMINE SANDOZ 500 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61182628 | METFORMINE CRISTERS PHARMA 500 mg, comprimé pelliculé | Comprimé pelliculé | BLUEFISH PHARMACEUTICALS (SUEDE) | Active |
+| 62640174 | METFORMINE ALMUS 850 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 62818762 | METFORMINE EG 850 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62844369 | METFORMINE TEVA 500 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63119726 | METFORMINE TEVA 1000 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63146246 | METFORMINE ARROW LAB 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 63424425 | METFORMINE EG 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63472758 | METFORMINE ACCORD 850 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

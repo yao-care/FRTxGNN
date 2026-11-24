@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 626
 evidence_level: L3
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
 description: "Prednisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L3). En France, AMM dans la BDPM : 17 (valides : 17)"
@@ -85,13 +85,31 @@ Aucun essai clinique associé enregistré actuellement.
 
 La prednisone est commercialisée en France ; les 17 autorisations recensées sont valides.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60118715 | CORTANCYL 1 mg | comprimé | Active |
-| 60492702 | CORTANCYL 5 mg | comprimé sécable | Active |
-| 62390849 | CORTANCYL 20 mg | comprimé sécable | Active |
-| 68853282 | PREDNISONE VIATRIS 1 mg | comprimé | Active |
-| 64793934 | PREDNISONE BIOGARAN 20 mg | comprimé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60118715 | CORTANCYL 1 mg, comprimé | Comprimé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 68853282 | PREDNISONE VIATRIS 1 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 60492702 | CORTANCYL 5 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64793934 | PREDNISONE BIOGARAN 20 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 66297189 | PREDNISONE BIOGARAN 5 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 60779182 | PREDNISONE EG 20 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64233693 | PREDNISONE ARROW 20 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 65163486 | PREDNISONE EG 5 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62171435 | PREDNISONE VIATRIS 20 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 61162248 | PREDNISONE SANDOZ 20 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 65537934 | PREDNISONE ZENTIVA 20 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 62390849 | CORTANCYL 20 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 68830198 | PREDNISONE ZENTIVA 5 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 62440298 | PREDNISONE VIATRIS 5 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 67187799 | PREDNISONE SANDOZ 5 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 66640556 | PREDNISONE ARROW 5 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 63552695 | PREDNISONE ZENTIVA 1 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

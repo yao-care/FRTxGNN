@@ -86,15 +86,17 @@ Seules quelques-unes de ces publications portent directement sur la propafénone
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66843923 | RYTHMOL 300 mg, comprimé pelliculé sécable (VIATRIS MEDICAL) | Comprimé pelliculé sécable | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-propafenone-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66843923 | RYTHMOL 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS MEDICAL | Active |
+| 65033756 | PROPAFENONE VIATRIS 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 67377300 | PROPAFENONE ACCORD 300 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ACCORD HEALTHCARE FRANCE | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 66843923 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 66843923 (RYTHMOL 300 mg, comprimé pelliculé sécable) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-propafenone-1 -->
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 
@@ -158,7 +160,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a propafénone n'est plus commercialisée en France (AMM annulée), et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les contre-indications cardiaques (QT long, cardiopathie structurelle, cardiopathie ischémique), ainsi que la faisabilité d'un accès au m » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 66843923 (RYTHMOL 300 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 66843923 (RYTHMOL 300 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: propafenone hydrochloride prescribing information, Northstar Rx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2ecd6452-ccc3-493f-9a4a-69f0fbf67a42) |
 
 <!-- review:end log -->

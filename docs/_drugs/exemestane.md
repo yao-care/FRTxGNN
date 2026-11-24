@@ -114,13 +114,33 @@ Aucune littérature associée disponible actuellement pour la déficience en ant
 
 <!-- review:end fr-lic-20261124-exemestane-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66922032 | EXEMESTANE TEVA 25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69225138 | AROMASINE 25 mg (Pfizer) | Comprimé enrobé | Non renseignée (AMM active) |
-| 64144682 | EXEMESTANE ZENTIVA 25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69233035 | AROMASINE 25 mg (Difarmed) | Comprimé enrobé | Non renseignée (AMM active) |
-| 61396272 | EXEMESTANE ZYDUS FRANCE 25 mg | Comprimé enrobé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66922032 | EXEMESTANE TEVA 25 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 69225138 | AROMASINE 25 mg, comprimé enrobé | Comprimé enrobé | PFIZER HOLDING FRANCE | Active |
+| 64144682 | EXEMESTANE ZENTIVA 25 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69233035 | AROMASINE 25 mg, comprimé enrobé | Comprimé enrobé | DIFARMED (ESPAGNE) | Active |
+| 61396272 | EXEMESTANE ZYDUS FRANCE 25 mg, comprimé enrobé | Comprimé enrobé | ZYDUS FRANCE | Active |
+| 63733514 | EXEMESTANE VIATRIS 25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 66227664 | EXEMESTANE ACCORD 25 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 66471451 | EXEMESTANE CRISTERS 25 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 68423590 | AROMASINE 25 mg, comprimé enrobé | Comprimé enrobé | BB FARMA (ITALIE) | Active |
+| 62757042 | AROMASINE 25 mg, comprimé enrobé | Comprimé enrobé | BB FARMA (ITALIE) | Active |
+| 64867174 | EXEMESTANE EG 25 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65262018 | EXEMESTANE PFIZER 25 mg, comprimé enrobé | Comprimé enrobé | PFIZER HOLDING FRANCE | Active |
+| 65294076 | EXEMESTANE BGR 25 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64310677 | EXEMESTANE EVOLUGEN 25 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 60207459 | EXEMESTANE SANDOZ 25 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63663343 | EXEMESTANE ARROW 25 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62447691 | EXEMESTANE ARROW LAB 25 mg, comprimé pelliculé | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 63940210 | AROMASINE 25 mg, comprimé enrobé | Comprimé enrobé | ABACUS MEDICINE (DANEMARK) | Active |
+| 67154087 | AROMASINE 25 mg, comprimé enrobé | Comprimé enrobé | DIFARMED (ESPAGNE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

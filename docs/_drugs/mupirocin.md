@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 518
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mupirocin"
 predicted_indications: ["pleural empyema (disease)", "punctate epithelial keratoconjunctivitis"]
 description: "Mupirocin : nouvelle indication prédite, Empyème pleural (pleural empyema (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -71,13 +71,21 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 66325311 | BACTROBAN 2 %, pommade nasale | Pommade | Non renseignée | Active |
-| 69265691 | MUPIDERM 2 %, pommade | Pommade | Non renseignée | Active |
-| 65777420 | MUPIROCINE VIATRIS 2 %, pommade | Pommade | Non renseignée | Active |
-| 64347960 | MUPIROCINE EG 2 %, pommade | Pommade | Non renseignée | Active |
-| 61059102 | MUPIROCINE ARROW 2 %, pommade | Pommade | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66325311 | BACTROBAN 2 %, pommade nasale | Pommade | GLAXOSMITHKLINE | Active |
+| 69265691 | MUPIDERM 2 %, pommade | Pommade | ALMIRALL | Active |
+| 65777420 | MUPIROCINE VIATRIS 2 %, pommade | Pommade | VIATRIS SANTE | Active |
+| 64347960 | MUPIROCINE EG 2%, pommade | Pommade | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61059102 | MUPIROCINE ARROW 2 %, pommade | Pommade | ARROW GENERIQUES | Active |
+| 68172597 | MUPIROCINE BIOGARAN 2 %, pommade | Pommade | BOUCHARA-RECORDATI | Active |
+| 62270981 | MUPIROCINE SUBSTIPHARM 2 %, pommade | Pommade | SUBSTIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

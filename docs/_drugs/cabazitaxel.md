@@ -83,13 +83,21 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64883869 | JEVTANA 60 mg | Solution à diluer et solvant pour solution pour perfusion | Non renseignée |
-| 68850261 | CABAZITAXEL VIATRIS 20 mg/ml | Solution à diluer pour perfusion | Non renseignée |
-| 60406016 | CABAZITAXEL EVER PHARMA 10 mg/ml | Solution à diluer pour perfusion | Non renseignée |
-| 63010901 | CABAZITAXEL TILLOMED 60 mg | Solution à diluer et solvant pour solution pour perfusion | Non renseignée |
-| 69159439 | CABAZITAXEL ZENTIVA 20 mg/mL | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64883869 | JEVTANA 60 mg, solution à diluer et solvant pour solution pour perfusion | Solution à diluer et solvant pour solution pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 60406016 | CABAZITAXEL EVER PHARMA 10 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | EVER VALINJECT (AUTRICHE) | Active |
+| 63010901 | CABAZITAXEL TILLOMED 60 mg, solution à diluer et solvant pour solution pour perfusion | Solution à diluer et solvant pour solution à diluer pour pe… | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 69159439 | CABAZITAXEL ZENTIVA 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ZENTIVA FRANCE | Active |
+| 69357912 | CABAZITAXEL ACCORD 20 mg/mL, solution à diluer pour solution pour perfusion | Solution à diluer pour solution pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 68850261 | CABAZITAXEL VIATRIS 20 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIATRIS SANTE | Abrogée |
+| 60004505 | CABAZITAXEL REDDY PHARMA 60 mg, solution à diluer et solvant pour solution pour perfusion | Solution à diluer et solvant pour solution pour perfusion | REDDY PHARMA | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 10
 monitor_inn: "calcipotriol"
 predicted_indications: ["seborrheic keratosis", "vulvar inverted follicular keratosis", "vulvovaginitis", "vulvitis", "vulvar neoplasm", "ulceration of vulva", "vulvar squamous neoplasm", "postmenopausal atrophic vaginitis", "bone Paget disease", "breast fibrocystic disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Calcipotriol : nouvelle indication prédite, Kératose séborrhéique (seborrheic keratosis) (niveau de preuve L3). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
@@ -76,6 +76,24 @@ Aucun essai clinique associé enregistré actuellement.
 | [10721662](https://pubmed.ncbi.nlm.nih.gov/10721662/) | 2000 | Rapport de cas | J Dermatol | Kératose lichénoïde chronique (affection voisine, non séborrhéique) : bonne réponse à la pommade de calcipotriol |
 
 ## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62596393 | DAIVONEX 50 microgrammes/gramme, pommade | Pommade | LABORATOIRES LEO | Active |
+| 64016362 | DAIVONEX 50 microgrammes/gramme, crème | Crème | LABORATOIRES LEO | Active |
+| 65019468 | CLOSALIS 50 microgrammes/0,5 mg/g, gel | Gel | LABORATOIRES MEDGEN | Active |
+| 62362440 | XAMIOL 50 microgrammes/0,5 mg/g, gel | Gel | LEO PHARMA A/S (DANEMARK) | Active |
+| 68414260 | DAIVOBET 50 microgrammes/0,5 mg/g, gel | Gel | LEO PHARMA A/S (DANEMARK) | Active |
+| 67347855 | ENSTILAR 50 microgrammes/0,5 mg/g, mousse cutanée | Mousse | LEO PHARMA A/S (DANEMARK) | Active |
+| 63931033 | DAIVOBET 50 microgrammes/0,5 mg/g, pommade | Pommade | LEO PHARMA A/S (DANEMARK) | Active |
+| 63038758 | CALCIPOTRIOL/BETAMETHASONE SANDOZ 50 microgrammes/0,5 mg/g, pommade | Pommade | SANDOZ | Active |
+| 61853543 | CLOSALIS 50 microgrammes/0,5 mg/g, pommade | Pommade | LABORATOIRES MEDGEN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les données compilées indiquent que le calcipotriol est commercialisé en France, sous forme de pommade, crème, gel et mousse cutanée. Le texte d'indication n'est pas renseigné dans les AMM.
 

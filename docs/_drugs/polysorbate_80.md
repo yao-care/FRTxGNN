@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 616
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "POLYSORBATE 80"
 predicted_indications: ["congenital ichthyosiform erythroderma"]
 description: "Polysorbate 80 : nouvelle indication prédite, Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) (niveau de preuve L5). Indication d'origine : Non renseignée dans les don…"
@@ -72,9 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63520562 | PRORHINEL RHUME, solution nasale (HALEON FRANCE) | Solution | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63520562 | PRORHINEL RHUME, solution nasale | Solution | HALEON FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

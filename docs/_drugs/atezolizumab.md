@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "atezolizumab"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atezolizumab : nouvelle indication prédite, Adénocarcinome du ligament utérin (niveau de preuve L5). Indication d'origine : Carcinome urothélial"
 ---
 
@@ -105,11 +105,17 @@ Pour le carcinome endocervical (rang 2) :
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69209340 | TECENTRIQ 1 875 mg, solution injectable | Solution injectable | Non renseignée |
-| 64422886 | TECENTRIQ 840 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
-| 60345905 | TECENTRIQ 1200 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69209340 | TECENTRIQ 1 875 mg, solution injectable | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 64422886 | TECENTRIQ 840 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 60345905 | TECENTRIQ 1200 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 L'atézolizumab est commercialisé en France (titulaire : Roche Registration, Allemagne).
 

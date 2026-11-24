@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 652
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ranolazine : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "RANOLAZINE"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -71,10 +71,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63170891 | RANEXA 375 mg, comprimé à libération prolongée (statut : active) | Comprimé à libération prolongée | Non renseignée |
-| 64679592 | RANEXA 500 mg, comprimé à libération prolongée (statut : active) | Comprimé à libération prolongée | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63170891 | RANEXA 375 mg, comprimé à libération prolongée | Comprimé à libération prolongée | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 64679592 | RANEXA 500 mg, comprimé à libération prolongée | Comprimé à libération prolongée | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux autorisations sont détenues par MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG et sont valides (2 AMM valides sur 2) ; le médicament est commercialisé.
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 277
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eltrombopag"
 predicted_indications: ["HIV infectious disease"]
 description: "Eltrombopag : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -89,15 +89,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 20 AMM recensées sont valides ; le médicament est commercialisé. Aucun texte d'indication approuvée n'est disponible. Les 5 premières AMM sont listées ci-dessous.
+Les 20 AMM recensées sont valides ; le médicament est commercialisé. Aucun texte d'indication approuvée n'est disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64581657 | ELTROMBOPAG VIATRIS 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 65670831 | ELTROMBOPAG EG 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée |
-| 61951699 | REVOLADE 75 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 64570543 | ELTROMBOPAG EG 75 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 65801736 | ELTROMBOPAG KRKA 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64581657 | ELTROMBOPAG VIATRIS 25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 65670831 | ELTROMBOPAG EG 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61951699 | REVOLADE 75 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 64570543 | ELTROMBOPAG EG 75 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65801736 | ELTROMBOPAG KRKA 50 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 63893038 | ELTROMBOPAG KRKA 25 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 68335311 | ELTROMBOPAG ZENTIVA 25 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69636577 | ELTROMBOPAG ZENTIVA 75 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66260155 | ELTROMBOPAG VIATRIS 75 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 67675236 | REVOLADE 25 mg, poudre pour suspension buvable | Poudre pour suspension buvable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60757264 | REVOLADE 25 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 69308356 | ELTROMBOPAG BIOGARAN 50 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61560729 | ELTROMBOPAG ZENTIVA 50 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63437166 | ELTROMBOPAG ACCORD 50 mg, comprimé pelliculé | Comprimé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63946583 | ELTROMBOPAG TEVA 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 63330805 | ELTROMBOPAG ACCORD 75 mg, comprimé pelliculé | Comprimé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61029931 | ELTROMBOPAG TEVA 75 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 60316031 | ELTROMBOPAG KRKA 75 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 61736230 | REVOLADE 50 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60852029 | ELTROMBOPAG TEVA 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 68
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "APIXABAN"
 predicted_indications: ["migraine disorder"]
 description: "Apixaban : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -79,13 +79,20 @@ Les données disponibles ne la confortent pas. Un cas rapporte une migraine avec
 
 L'apixaban est commercialisé en France (6 AMM valides, spécialité ELIQUIS, Bristol-Myers Squibb / Pfizer EEIG).
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62111096 | ELIQUIS 0,15 mg, granulés en gélule à ouvrir | Granulés en gélule | Non renseignée (AMM active) |
-| 61902218 | ELIQUIS 5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69340279 | ELIQUIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63078845 | ELIQUIS 0,5 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
-| 61425336 | ELIQUIS 2 mg, granulés enrobés en sachet | Granulés enrobés | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62111096 | ELIQUIS 0,15 mg, granulés en gélule à ouvrir | Granulés en gélule | BRISTOL-MYERS SQUIBB / PFIZER EEIG (IRLANDE) | Active |
+| 61902218 | ELIQUIS 5 mg, comprimé pelliculé | Comprimé pelliculé | BRISTOL-MYERS SQUIBB / PFIZER EEIG (IRLANDE) | Active |
+| 69340279 | ELIQUIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BRISTOL-MYERS SQUIBB / PFIZER EEIG (IRLANDE) | Active |
+| 63078845 | ELIQUIS 0,5 mg, granulés enrobés en sachet | Granulés enrobé | BRISTOL-MYERS SQUIBB / PFIZER EEIG (IRLANDE) | Active |
+| 61425336 | ELIQUIS 2 mg, granulés enrobés en sachet | Granulés enrobé | BRISTOL-MYERS SQUIBB / PFIZER EEIG (IRLANDE) | Active |
+| 69815128 | ELIQUIS 1,5 mg, granulés enrobés en sachet | Granulés enrobé | BRISTOL-MYERS SQUIBB / PFIZER EEIG (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

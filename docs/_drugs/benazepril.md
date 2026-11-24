@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 93
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "benazepril"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome"]
 description: "Benazepril : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
@@ -71,6 +71,23 @@ Aucun essai clinique associé enregistré actuellement.
 Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marche en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61179913 | BENAZEPRIL EG 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61591226 | CIBADREX 10 mg/12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS MEDICAL | Active |
+| 62428328 | BENAZEPRIL HYDROCHLOROTHIAZIDE EG 10 mg/12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62617179 | BENAZEPRIL/HYDROCHLOROTHIAZIDE ARROW 10 mg/12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 66148697 | BENAZEPRIL ARROW 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68447292 | BENAZEPRIL ARROW 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 69695547 | BENAZEPRIL EG 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63559394 | CIBACENE 10 mg, comprimé pelliculé | Comprimé pelliculé | MEDA PHARMA | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le bénazépril dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).
 

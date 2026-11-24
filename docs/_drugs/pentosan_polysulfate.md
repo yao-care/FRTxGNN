@@ -84,9 +84,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut | Indication Approuvée |
-|---------|------|------|------|-----------|
-| 60027685 | ELMIRON 100 mg, gélule | Gélule | Active | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60027685 | ELMIRON 100 mg, gélule | Gélule | BENE - ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 69200761 | HEMOCLAR 0,5 POUR CENT, crème | Crème | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le produit est fabriqué par BENE-ARZNEIMITTEL (Allemagne). Il est commercialisé, avec 2 AMM valides sur 2.
 

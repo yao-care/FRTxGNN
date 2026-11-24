@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 779
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRASTUZUMAB"
 predicted_indications: ["malignant cutaneous granular cell skin tumor", "ectomesenchymoma", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "kidney pelvis sarcomatoid transitional cell carcinoma", "prostatic urethra urothelial carcinoma"]
 description: "Trastuzumab : nouvelle indication prédite, Malignant cutaneous granular cell skin tumor (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
@@ -108,13 +108,30 @@ Sélection des essais les plus pertinents (14 essais recensés pour cette indica
 
 Le texte des indications approuvées n'est pas renseigné dans les données.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61276045 | HERCEPTIN 150 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 62712079 | HERCEPTIN 600 mg | Solution injectable | Non renseignée |
-| 68153262 | HERZUMA 420 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 60990496 | OGIVRI 150 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 67178992 | PHESGO 1200 mg/600 mg | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68153262 | HERZUMA 420 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 60990496 | OGIVRI 150 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 61276045 | HERCEPTIN 150 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 62425937 | HERZUMA 150 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 64346029 | ONTRUZANT 420 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 65643371 | OGIVRI 420 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 65913265 | TRAZIMERA 420 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 61529324 | KANJINTI 150 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | AMGEN EUROPE | Active |
+| 64461946 | TRAZIMERA 150 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 60924642 | ZERCEPAC 150 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61193788 | KANJINTI 420 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | AMGEN EUROPE | Active |
+| 62712079 | HERCEPTIN 600 mg, solution injectable en flacon | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 62787822 | ONTRUZANT 150 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 69892199 | ZERCEPAC 420 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67178992 | PHESGO 1200 mg/600 mg, solution injectable | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 63806777 | PHESGO 600 mg/600 mg, solution injectable | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

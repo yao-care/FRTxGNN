@@ -105,12 +105,35 @@ Parmi les 25 essais recensés, les plus pertinents sont présentés ci-dessous (
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66698997 | ATROVENT 20 microgrammes/dose (Boehringer Ingelheim France) | Solution pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
-| 61260984 | IPRATROPIUM VIATRIS 0,25 mg/ml ENFANTS | Solution pour inhalation par nébuliseur | Non renseignée (AMM active) |
-| 69293057 | IPRATROPIUM VIATRIS 0,5 mg/2 ml ADULTES | Solution pour inhalation par nébuliseur | Non renseignée (AMM active) |
-| 60175716 | IPRATROPIUM AGUETTANT ADULTES 0,5 mg/2 ml | Solution pour inhalation par nébuliseur | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66698997 | ATROVENT 20 microgrammes/dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | BOEHRINGER INGELHEIM FRANCE | Active |
+| 61260984 | IPRATROPIUM VIATRIS 0,25 mg/ml ENFANTS, solution pour inhalation par nébuliseur en récipi… | Solution pour inhalation par nébuliseur | VIATRIS SANTE | Active |
+| 69293057 | IPRATROPIUM VIATRIS 0,5 mg/2 ml ADULTES, solution pour inhalation par nébuliseur en récip… | Solution pour inhalation par nébuliseur | VIATRIS SANTE | Active |
+| 60175716 | IPRATROPIUM AGUETTANT ADULTES 0,5 mg/2 ml, solution pour inhalation par nébuliseur en réc… | Solution pour inhalation par nébuliseur | AGUETTANT | Active |
+| 60482665 | IPRATROPIUM ARROW 0,25 mg/mL ENFANTS, solution pour inhalation par nébuliseur en récipien… | Solution pour inhalation par nébuliseur | ARROW GENERIQUES | Active |
+| 61267669 | ATROVENT ADULTES 0,5 mg/2 ml, solution pour inhalation par nébuliseur en récipient unidose | Solution pour inhalation par nébuliseur | BOEHRINGER INGELHEIM FRANCE | Active |
+| 61783550 | IPRATROPIUM CRISTERS 0,50 mg/2 ml ADULTES, solution pour inhalation par nébuliseur en réc… | Solution pour inhalation par nébuliseur | CRISTERS | Active |
+| 62298607 | IPRATROPIUM ZENTIVA 0,50 mg/2 ml ADULTES, solution pour inhalation par nébuliseur en réci… | Solution pour inhalation par nébuliseur | ZENTIVA FRANCE | Active |
+| 62345380 | IPRATROPIUM TEVA 0,5 mg/2 ml ADULTES, solution pour inhalation par nébuliseur en récipien… | Solution pour inhalation par nébuliseur | TEVA SANTE | Active |
+| 63281105 | IPRATROPIUM SANDOZ 0,25 mg/1 ml ENFANTS, solution pour inhalation par nébuliseur en récip… | Solution pour inhalation par nébuliseur | SANDOZ | Active |
+| 65485665 | IPRATROPIUM ALMUS PHARMA 0,50 mg/2 ml ADULTES, solution pour inhalation par nébuliseur en… | Solution pour inhalation par nébuliseur | ALMUS FRANCE | Active |
+| 65756091 | ATROVENT NASAL 0,03 POUR CENT, solution nasale en flacon pulvérisateur | Solution pour pulvérisation | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66661536 | IPRATROPIUM TEVA 0,25 mg/1 ml ENFANTS, solution pour inhalation par nébuliseur en récipie… | Solution pour inhalation par nébuliseur | TEVA SANTE | Active |
+| 66871253 | ATROVENT ENFANTS 0,25 mg/2 ml, solution pour inhalation par nébuliseur en récipient unido… | Solution pour inhalation par nébuliseur | BOEHRINGER INGELHEIM FRANCE | Active |
+| 67446853 | IPRATROPIUM ARROW ADULTES 0,5 mg/2 mL, solution pour inhalation par nébuliseur en récipie… | Solution pour inhalation par nébuliseur | ARROW GENERIQUES | Active |
+| 67838060 | ATROVENT 0,25 mg/1 ml ENFANTS, solution pour inhalation par nébuliseur en récipient unido… | Solution pour inhalation par nébuliseur | BOEHRINGER INGELHEIM FRANCE | Active |
+| 67887431 | IPRATROPIUM SANDOZ 0,50 mg/2 ml ADULTES, solution pour inhalation par nébuliseur en récip… | Solution pour inhalation par nébuliseur | SANDOZ | Active |
+| 68568447 | IPRATROPIUM EG 0,50 mg/2 ml ADULTES, solution pour inhalation par nébuliseur en récipient… | Solution pour inhalation par nébuliseur | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69720897 | ATROVENT 0,50 mg/1 ml ADULTES, solution pour inhalation par nébuliseur en récipient unido… | Solution pour inhalation par nébuliseur | BOEHRINGER INGELHEIM FRANCE | Active |
+| 64708300 | IPRATROPIUM ZENTIVA 0,25 mg/1 ml ENFANTS, solution pour inhalation par nébuliseur en réci… | Solution pour inhalation par nébuliseur | ZENTIVA FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

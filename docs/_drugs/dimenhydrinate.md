@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 246
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIMENHYDRINATE"
 predicted_indications: ["allergic urticaria", "cold urticaria"]
 description: "Dimenhydrinate : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -83,12 +83,18 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69806008 | NAUSICALM 15,7 mg ENFANTS, sirop en sachet (BROTHIER) | Sirop | Non renseignée (AMM active) |
-| 63137902 | NAUSICALM, sirop (BROTHIER) | Sirop | Non renseignée (AMM active) |
-| 60173964 | NAUSICALM ADULTES 50 mg, gélule (BROTHIER) | Gélule | Non renseignée (AMM active) |
-| 68461541 | MERCALM, comprimé pelliculé sécable (LABORATOIRES MAJORELLE) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69806008 | NAUSICALM 15,7 mg ENFANTS, sirop en sachet | Sirop | BROTHIER | Active |
+| 63137902 | NAUSICALM, sirop | Sirop | BROTHIER | Active |
+| 60173964 | NAUSICALM ADULTES 50 mg, gélule | Gélule | BROTHIER | Active |
+| 68461541 | MERCALM, comprimé pelliculé sécable | Comprimé pelliculé sécable | LABORATOIRES MAJORELLE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

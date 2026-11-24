@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "levothyroxine"
 predicted_indications: ["renal hypodysplasia/aplasia", "bilateral renal agenesis", "Potter sequence", "Carney complex"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Levothyroxine : nouvelle indication prédite, Hypoplasie/aplasie rénale (niveau de preuve L5). Indication d'origine : Hypothyroïdie"
 ---
 
@@ -73,13 +73,35 @@ Aucune littérature associée disponible actuellement.
 
 La liste ci-dessous porte sur 5 des AMM de spécialités à base de lévothyroxine seule ; la liste complète peut comporter davantage d'AMM. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 66426100 | LEVOTHYROX 112 microgrammes | comprimé sécable | MERCK SANTE |
-| 65706277 | L-THYROXIN HENNING 137 microgrammes | comprimé sécable | SANOFI WINTHROP INDUSTRIE |
-| 60254754 | TSOLUDOSE 150 microgrammes | solution buvable en récipient unidose | IBSA PHARMA SAS |
-| 61296560 | TCAPS 137 microgrammes | capsule molle | IBSA PHARMA SAS |
-| 64952190 | THYROFIX 125 microgrammes | comprimé | UNI-PHARMA KLEON TSETIS PHARMACEUTICAL LABORATORIES (Grèce) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66426100 | LEVOTHYROX 112 microgrammes, comprimé sécable | Comprimé sécable | MERCK SANTE | Active |
+| 65706277 | L-THYROXIN HENNING 137 microgrammes, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+| 60254754 | TSOLUDOSE 150 microgrammes, solution buvable en récipient unidose | Solution buvable | IBSA PHARMA SAS | Active |
+| 61296560 | TCAPS 137 microgrammes, capsule molle | Capsule molle | IBSA PHARMA SAS | Active |
+| 64952190 | THYROFIX 125 microgrammes, comprimé | Comprimé | UNI-PHARMA KLEON TSETIS PHARMACEUTICAL LABORATORIES (GRECE) | Active |
+| 68265172 | THYROFIX 25 microgrammes, comprimé | Comprimé | UNI-PHARMA KLEON TSETIS PHARMACEUTICAL LABORATORIES (GRECE) | Active |
+| 62630116 | THYROFIX 150 microgrammes, comprimé | Comprimé | UNI-PHARMA KLEON TSETIS PHARMACEUTICAL LABORATORIES (GRECE) | Active |
+| 65633434 | THYROFIX 137 microgrammes, comprimé | Comprimé | UNI-PHARMA KLEON TSETIS PHARMACEUTICAL LABORATORIES (GRECE) | Active |
+| 68283252 | LEVOTHYROX 175 microgrammes, comprimé sécable | Comprimé sécable | MERCK SANTE | Active |
+| 68588503 | LEVOTHYROX 25 microgrammes, comprimé sécable | Comprimé sécable | MERCK SANTE | Active |
+| 60441558 | TCAPS 88 microgrammes, capsule molle | Capsule molle | IBSA PHARMA SAS | Active |
+| 64826590 | THYROFIX 75 microgrammes, comprimé | Comprimé | UNI-PHARMA KLEON TSETIS PHARMACEUTICAL LABORATORIES (GRECE) | Active |
+| 65845654 | TCAPS 150 microgrammes, capsule molle | Capsule molle | IBSA PHARMA SAS | Active |
+| 62953888 | THYROFIX 62 microgrammes, comprimé | Comprimé | UNI-PHARMA KLEON TSETIS PHARMACEUTICAL LABORATORIES (GRECE) | Active |
+| 67686072 | L-THYROXIN HENNING 200 microgrammes, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+| 62864489 | L-THYROXIN HENNING 63 microgrammes, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+| 64067524 | LEVOTHYROX 150 microgrammes, comprimé sécable | Comprimé sécable | MERCK SANTE | Active |
+| 65315798 | LEVOTHYROX 200 microgrammes, comprimé sécable | Comprimé sécable | MERCK SANTE | Active |
+| 60210811 | TCAPS 13 microgrammes, capsule molle | Capsule molle | IBSA PHARMA SAS | Active |
+| 62513223 | L-THYROXIN HENNING 175 microgrammes, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

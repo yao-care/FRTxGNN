@@ -93,13 +93,24 @@ Le médicament est commercialisé. Le texte d'indication approuvée n'est pas re
 
 <!-- review:end fr-lic-20261106-clobetasol-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60490256 | Clobétasol Substipharm 500 µg/g | Shampooing | Non renseignée |
-| 61777782 | Dermoval 0,05 % | Crème | Non renseignée |
-| 63339576 | Clarelux 500 µg/g | Crème | Non renseignée |
-| 60021312 | Clarelux 500 µg/g | Mousse pour application cutanée | Non renseignée |
-| 60097833 | Dermoval | Gel | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60490256 | CLOBETASOL SUBSTIPHARM 500 microgrammes/g, shampooing | Shampooing | SUBSTIPHARM | Active |
+| 61777782 | DERMOVAL 0,05 %, crème | Crème | GLAXOSMITHKLINE | Active |
+| 63339576 | CLARELUX 500 microgrammes/g, crème | Crème | PIERRE FABRE MEDICAMENT | Active |
+| 60021312 | CLARELUX 500 microgrammes/g, mousse pour application cutanée en flacon pressurisé | Mousse pour application | PIERRE FABRE MEDICAMENT | Active |
+| 60097833 | DERMOVAL, gel | Gel | GLAXOSMITHKLINE | Active |
+| 61091445 | CABESOL 500 microgrammes/g, shampooing | Shampooing | LABORATOIRES MEDGEN | Active |
+| 68990516 | CLOBEX 500 microgrammes/g, shampooing | Shampooing | DIFARMED (ESPAGNE) | Active |
+| 69724301 | CLOBEX 500 microgrammes/g, shampooing | Shampooing | GALDERMA INTERNATIONAL | Active |
+| 66815710 | CLOBEX 500 microgrammes/g, shampooing | Shampooing | BB FARMA (ITALIE) | Abrogée |
+| 61312395 | CLOBEX 500 microgrammes/g, shampooing | Shampooing | PHARMA LAB | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 269
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "eculizumab"
 predicted_indications: ["cyclic hematopoiesis", "autosomal recessive severe congenital neutropenia due to JAGN1 deficiency", "X-linked severe congenital neutropenia", "congenital neutropenia-myelofibrosis-nephromegaly syndrome", "adult idiopathic neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "autosomal recessive severe congenital neutropenia due to CSF3R deficiency", "severe congenital neutropenia", "primary release disorder of platelets"]
 description: "Eculizumab : nouvelle indication prédite, Cyclic hematopoiesis (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -84,11 +84,17 @@ Remarque : des publications ont ete retrouvees pour d'autres predictions du mode
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee | Statut |
-|---------|------|------|-----------|------|
-| 61969188 | SOLIRIS 300 mg | Solution a diluer pour perfusion | Non renseignee | Active |
-| 67665594 | EPYSQLI 300 mg | Solution a diluer pour perfusion | Non renseignee | Active |
-| 63275561 | BEKEMV 300 mg | Solution a diluer pour perfusion | Non renseignee | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61969188 | SOLIRIS 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ALEXION EUROPE | Active |
+| 67665594 | EPYSQLI 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 63275561 | BEKEMV 300 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | AMGEN TECHNOLOGY (IRELAND) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

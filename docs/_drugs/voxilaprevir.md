@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 823
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "voxilaprevir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "chronic hepatitis B virus infection", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Voxilaprevir : nouvelle indication prédite, Infection par le virus de l'hépatite B (hepatitis B virus infection) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -83,9 +83,15 @@ Les neuf publications retrouvées concernent l'hépatite C. Aucune ne teste le v
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé (GILEAD SCIENCES IRELAND UC, Irlande) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

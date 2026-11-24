@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 158
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cetrorelix : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (selon les données pharmacologi…"
 monitor_inn: "cetrorelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "persistent fetal circulation syndrome", "familial isolated trichomegaly", "familial male-limited precocious puberty", "aromatase excess syndrome", "centra precocious puberty 1"]
@@ -91,10 +91,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee | Statut |
-|---------|------|------|-----------|------|
-| 65669398 | CEZIBOE 0,25 mg, solution injectable en seringue pré-remplie | Solution injectable | Non renseignée | Active |
-| 60650426 | CETROTIDE 0,25 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65669398 | CEZIBOE 0,25 mg, solution injectable en seringue pré-remplie | Solution injectable | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 60650426 | CETROTIDE 0,25 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | MERCK EUROPE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

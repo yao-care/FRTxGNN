@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 219
 evidence_level: L4
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "deferasirox"
 predicted_indications: ["HIV infectious disease", "chronic hepatitis C virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia", "dermatofibrosarcoma protuberans"]
 description: "Deferasirox : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
@@ -93,13 +93,35 @@ Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée 
 
 <!-- review:end fr-lic-20261106-deferasirox-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63539616 | Deferasirox Sandoz 360 mg | Comprimé pelliculé | Non renseignée |
-| 63003134 | Deferasirox Teva 360 mg | Comprimé pelliculé | Non renseignée |
-| 67963338 | Deferasirox Mylan 360 mg | Comprimé pelliculé | Non renseignée |
-| 61736814 | Deferasirox Biogaran 180 mg | Comprimé pelliculé | Non renseignée |
-| 66773987 | Deferasirox Sandoz 90 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63539616 | DEFERASIROX SANDOZ 360 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63003134 | DEFERASIROX TEVA 360 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 67963338 | DEFERASIROX MYLAN 360 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 61736814 | DEFERASIROX BIOGARAN 180 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 66773987 | DEFERASIROX SANDOZ 90 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 60122699 | DEFERASIROX ZENTIVA 90 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 64641168 | DEFERASIROX ARROW 180 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 66147613 | DEFERASIROX ZENTIVA 180 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 62809489 | DEFERASIROX MYLAN 180 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 63404789 | EXJADE 90 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60992006 | DEFERASIROX BIOGARAN 360 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68587077 | DEFERASIROX ACCORD 360 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69417640 | DEFERASIROX TEVA 90 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 66766640 | DEFERASIROX ACCORD 180 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67889980 | DEFERASIROX SANDOZ 180 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61786361 | DEFERASIROX ZENTIVA 360 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66527793 | DEFERASIROX MYLAN 90 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 62915211 | DEFERASIROX ARROW 360 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 61099043 | DEFERASIROX BIOGARAN 90 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65539020 | EXJADE 360 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

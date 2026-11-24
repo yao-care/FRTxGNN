@@ -82,11 +82,18 @@ Les publications ci-dessous ont été retrouvées pour ce médicament, mais aucu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66580529 | RETSEVMO 40 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 65136400 | RETSEVMO 80 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61648467 | RETSEVMO 80 mg, gélule | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66580529 | RETSEVMO 40 mg, gélule | Gélule | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 65136400 | RETSEVMO 80 mg, comprimé pelliculé | Comprimé pelliculé | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 61648467 | RETSEVMO 80 mg, gélule | Gélule | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 63272184 | RETSEVMO 40 mg, comprimé pelliculé | Comprimé pelliculé | ELI LILLY NEDERLAND (PAY-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

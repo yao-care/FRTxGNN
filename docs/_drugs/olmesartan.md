@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 557
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "olmesartan"
 predicted_indications: ["Prinzmetal angina", "hypotrichosis simplex of the scalp", "migraine disorder", "alopecia", "pulmonary hypertension", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "kyphoscoliotic heart disease", "open-angle glaucoma"]
 description: "Olmesartan : nouvelle indication prédite, Angor de Prinzmetal (Prinzmetal angina) (niveau de preuve L5). En France, AMM dans la BDPM : 20 (valides : 20)"
@@ -99,15 +99,36 @@ Pour la piste la plus documentée (migraine) :
 
 ## Informations de Marché en France
 
-Le texte d'indication n'est pas renseigné. Principales AMM :
+Le texte d'indication n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62597926 | ALTEIS 10 mg | Comprimé pelliculé | Non renseignée |
-| 67258011 | OLMETEC 20 mg | Comprimé pelliculé | Non renseignée |
-| 64220863 | ALTEIS 40 mg | Comprimé pelliculé | Non renseignée |
-| 66152197 | OLMETEC 40 mg | Comprimé pelliculé | Non renseignée |
-| 68573412 | OLMETEC 10 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62597926 | ALTEIS 10 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 67258011 | OLMETEC 20 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 64220863 | ALTEIS 40 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 66152197 | OLMETEC 40 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 68573412 | OLMETEC 10 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 67581317 | ALTEIS 20 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 66793356 | ALTEISDUO 40 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 67169242 | ALTEISDUO 40 mg/12,5 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 64476446 | AXELER 20 mg/5 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 61385500 | COOLMETEC 40 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 65190921 | COOLMETEC 40 mg/12,5 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 63791663 | ALTEISDUO 20 mg/12,5 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 64127633 | SEVIKAR 40 mg/5 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 66838901 | COOLMETEC 20 mg/12,5 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 64380145 | AXELER 40 mg/5 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 61048216 | ALTEISDUO 20 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 65107402 | AXELER 40 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 67023718 | SEVIKAR 20 mg/5 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 64954736 | SEVIKAR 40 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+| 61687655 | COOLMETEC 20 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | DAIICHI SANKYO FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

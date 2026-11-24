@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 504
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIRTAZAPINE"
 predicted_indications: ["Ohdo syndrome and variants", "blepharophimosis - intellectual disability syndrome, Ohdo type", "benign paroxysmal torticollis of infancy"]
 description: "Mirtazapine : nouvelle indication prédite, Syndrome d'Ohdo et variantes (Ohdo syndrome and variants) (niveau de preuve L5). En France, AMM dans la BDPM : 15 (valides : 15)"
@@ -90,13 +90,29 @@ Le texte d'indication approuvée n'est pas renseigné. Cinq AMM sont présentée
 
 <!-- review:end fr-lic-20261106-mirtazapine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69084246 | Mirtazapine Arrow Génériques 15 mg | Comprimé pelliculé sécable | Active |
-| 68022786 | Mirtazapine Teva 15 mg | Comprimé pelliculé | Active |
-| 66402996 | Mirtazapine Biogaran 15 mg | Comprimé orodispersible | Active |
-| 62485126 | Mirtazapine Arrow 15 mg | Comprimé orodispersible | Active |
-| 65124914 | Norset 15 mg (Organon France) | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69084246 | MIRTAZAPINE ARROW GENERIQUES 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68022786 | MIRTAZAPINE TEVA 15 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 66402996 | MIRTAZAPINE BIOGARAN 15 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 62485126 | MIRTAZAPINE ARROW 15 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Active |
+| 62106380 | MIRTAZAPINE SANDOZ 15 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 60809985 | MIRTAZAPINE BLUEFISH 15 mg, comprimé orodispersible | Comprimé orodispersible | BLUEFISH PHARMACEUTICALS (SUEDE) | Active |
+| 68645947 | MIRTAZAPINE ZENTIVA 15 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 65124914 | NORSET 15 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON FRANCE | Active |
+| 64762173 | MIRTAZAPINE CRISTERS 15 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 63647104 | MIRTAZAPINE ZYDUS 15 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 65512856 | MIRTAZAPINE ALMUS 15 mg, comprimé orodispersible | Comprimé orodispersible | ALMUS FRANCE | Active |
+| 66964138 | MIRTAZAPINE VIATRIS 15 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65955054 | MIRTAZAPINE EG 15 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60015882 | MIRTAZAPINE BIOGARAN 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 62250480 | MIRTAZAPINE TEVA SANTE 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 389
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IFOSFAMIDE"
 predicted_indications: ["female breast carcinoma", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "refractory cytopenia of childhood", "severe congenital hypochromic anemia with ringed sideroblasts", "aregenerative anemia", "rhabdomyosarcoma (disease)", "myelodysplastic syndrome", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Ifosfamide : nouvelle indication prédite, Female breast carcinoma (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -106,10 +106,16 @@ Sélection des essais les plus pertinents pour le rhabdomyosarcome et les sarcom
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61848140 | HOLOXAN 1000 mg (BAXTER) | Poudre pour solution injectable | Non renseignée (AMM active) |
-| 69622218 | HOLOXAN 2000 mg (BAXTER) | Poudre pour usage parentéral | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61848140 | HOLOXAN 1000 mg, poudre pour solution injectable | Poudre pour solution injectable | BAXTER | Active |
+| 69622218 | HOLOXAN 2000 mg, poudre pour usage parentéral | Poudre pour usage parentéral | BAXTER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

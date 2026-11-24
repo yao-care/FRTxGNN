@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 494
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "metronidazole"
 predicted_indications: ["pneumocystosis", "punctate epithelial keratoconjunctivitis", "ulcerative proctosigmoiditis", "nocardiosis", "postmenopausal atrophic vaginitis", "Cryptococcal meningitis", "papillary conjunctivitis", "myiasis", "cap polyposis", "ulceration of vulva"]
 description: "Metronidazole : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -96,13 +96,35 @@ Ces publications mentionnent le métronidazole dans d'autres contextes ; aucune 
 
 Le médicament est commercialisé en France, avec 20 AMM valides ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 67119549 | ROZEX 0,75 %, émulsion pour application cutanée | Émulsion pour application | Non renseignée (AMM active) |
-| 60647323 | ROZEX 0,75 %, gel | Gel | Non renseignée (AMM active) |
-| 66962240 | METRONIDAZOLE SUBSTIPHARM 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63815096 | ROZAGEL, gel pour application locale | Gel | Non renseignée (AMM active) |
-| 66095383 | METRONIDAZOLE B BRAUN 0,5 % | Solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67119549 | ROZEX 0,75 %, émulsion pour application cutanée | Émulsion pour application | GALDERMA INTERNATIONAL | Active |
+| 60647323 | ROZEX 0,75 %, gel | Gel | GALDERMA INTERNATIONAL | Active |
+| 66962240 | METRONIDAZOLE SUBSTIPHARM 250 mg, comprimé pelliculé | Comprimé pelliculé | SUBSTIPHARM | Active |
+| 63815096 | ROZAGEL, gel pour application locale | Gel | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 66095383 | METRONIDAZOLE B BRAUN 0,5 %, solution pour perfusion | Solution pour perfusion | B BRAUN MEDICAL | Active |
+| 61659061 | FLAGYL 500 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES FIDIA | Active |
+| 68602579 | METRONIDAZOLE BIOGARAN 500 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60480276 | METRONIDAZOLE BIOGARAN 250 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 67914540 | METRONIDAZOLE ARROW 250 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67763113 | ROZEX 0,75 %, crème | Crème | GALDERMA INTERNATIONAL | Active |
+| 60416081 | METRONIDAZOLE ARROW 500 mg, comprimé pelliculé sécable | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62806411 | ROZACREME 0,75 %, crème | Crème | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 67207102 | METRONIDAZOLE NORIDEM 500 mg/100 mL, solution pour perfusion | Solution pour perfusion | NORIDEM | Active |
+| 68818192 | FLAGYL 250 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES FIDIA | Active |
+| 65020253 | FLAGYL 125 mg/5 ml, suspension buvable | Suspension buvable | LABORATOIRES FIDIA | Active |
+| 65687841 | METRONIDAZOLE BAXTER 0,5 POUR CENT, solution injectable en poche | Solution injectable | BAXTER | Active |
+| 68364551 | METRONIDAZOLE SUBSTIPHARM 500 mg, comprimé pelliculé | Comprimé pelliculé | SUBSTIPHARM | Active |
+| 62708127 | FLAGYL 500 mg, ovule | Ovule | LABORATOIRES FIDIA | Active |
+| 62319930 | SPIRAMYCINE METRONIDAZOLE ZENTIVA 1,5 MUI/250 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 64161144 | SPIRAMYCINE/METRONIDAZOLE VIATRIS 750.000 UI/125 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Au total, 20 AMM sont recensées (comprimés, gels, crèmes, ovules, suspension buvable, solutions injectables et associations avec la spiramycine).
 

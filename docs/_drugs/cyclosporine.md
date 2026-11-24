@@ -82,13 +82,27 @@ Onze AMM valides sur treize ; le texte des indications approuvées n'est pas dis
 
 <!-- review:end fr-lic-20261124-cyclosporine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65922428 | NEORAL 100 mg/ml | Solution buvable | Non renseignée (AMM active) |
-| 64620722 | NEORAL 25 mg | Capsule molle | Non renseignée (AMM active) |
-| 65881230 | IKERVIS 1 mg/mL | Collyre en émulsion | Non renseignée (AMM active) |
-| 62935801 | SANDIMMUN 50 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 66421434 | VERKAZIA 1 mg/mL | Collyre en émulsion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65922428 | NEORAL 100 mg/ml, solution buvable | Solution buvable | NOVARTIS PHARMA | Active |
+| 64620722 | NEORAL 25 mg, capsule molle | Capsule molle | NOVARTIS PHARMA | Active |
+| 65881230 | IKERVIS 1 mg/mL, collyre en émulsion | Collyre en émulsion | SANTEN OY | Active |
+| 62935801 | SANDIMMUN 50 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | NOVARTIS PHARMA | Active |
+| 66421434 | VERKAZIA 1 mg/mL, collyre en émulsion | Collyre en émulsion | SANTEN OY | Active |
+| 65981679 | NEORAL 50 mg, capsule molle | Capsule molle | NOVARTIS PHARMA | Active |
+| 63107460 | NEORAL 100 mg, capsule molle | Capsule molle | BB FARMA (ITALIE) | Active |
+| 63094408 | NEORAL 10 mg, capsule molle | Capsule molle | NOVARTIS PHARMA | Active |
+| 62758831 | NEORAL 100 mg, capsule molle | Capsule molle | BB FARMA (ITALIE) | Active |
+| 67194943 | NEORAL 100 mg, capsule molle | Capsule molle | NOVARTIS PHARMA | Active |
+| 62478758 | VEVIZYE 1 mg/mL, collyre en solution | Collyre en solution | THEA | Active |
+| 61857901 | NEORAL 100 mg, capsule molle | Capsule molle | PHARMA LAB | Abrogée |
+| 65272941 | NEORAL 50 mg, capsule molle | Capsule molle | BB FARMA (ITALIE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

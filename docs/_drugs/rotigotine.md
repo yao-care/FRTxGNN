@@ -75,12 +75,22 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66662951 | NEUPRO 4 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
-| 61578613 | NEUPRO 8 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
-| 69741731 | NEUPRO 2 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
-| 60200500 | NEUPRO 6 mg/24 h, dispositif transdermique (active) | Dispositif | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66662951 | NEUPRO 4 mg/24 h, dispositif transdermique | Dispositif | UCB PHARMA BELGIQUE | Active |
+| 61578613 | NEUPRO 8 mg/24 h, dispositif transdermique | Dispositif | UCB PHARMA BELGIQUE | Active |
+| 69741731 | NEUPRO 2 mg/24 h, dispositif transdermique | Dispositif | UCB PHARMA BELGIQUE | Active |
+| 60200500 | NEUPRO 6 mg/24 h, dispositif transdermique | Dispositif | UCB PHARMA BELGIQUE | Active |
+| 63205730 | ROTIGOTINE ARROW 8 mg/24 heures, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+| 66103392 | ROTIGOTINE ARROW 2 mg/24 heures, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+| 66639739 | ROTIGOTINE ARROW 6 mg/24 heures, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+| 68395130 | ROTIGOTINE ARROW 4mg/24 heures, dispositif transdermique | Dispositif | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

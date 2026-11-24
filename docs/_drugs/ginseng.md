@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 361
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Ginseng : nouvelle indication prédite, Ostéoporose médicamenteuse (drug-induced osteoporosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM"
 monitor_inn: "ginseng"
 predicted_indications: ["drug-induced osteoporosis", "acne (disease)", "severe nonproliferative diabetic retinopathy", "hemorrhagic disease of newborn", "cortical cataract", "nuclear senile cataract", "diabetic retinopathy", "amenorrhea (disease)", "immature cataract", "craniostenosis cataract"]
@@ -81,9 +81,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62760800 | GINSENG BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH (BOIRON) | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62760800 | GINSENG BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Ce médicament est commercialisé en France : 1 AMM valide sur 1.
 

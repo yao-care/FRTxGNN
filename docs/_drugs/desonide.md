@@ -82,17 +82,17 @@ Aucune litterature associee disponible actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 62294181 | LOCATOP 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM active) |
-| 61243216 | LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) | Creme | Non renseignee (AMM archivée) |
-| 65055507 | TRIDESONIT 0,05 POUR CENT, creme (Alliance Pharma, Irlande) | Creme | Non renseignee (AMM active) |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-desonide-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62294181 | LOCATOP 0,1 %, crème | Crème | PIERRE FABRE MEDICAMENT | Active |
+| 65055507 | TRIDESONIT 0,05 POUR CENT, crème | Crème | ALLIANCE PHARMA (IRLANDE) | Active |
+| 61243216 | LOCAPRED 0,1 %, crème | Crème | PIERRE FABRE MEDICAMENT | Archivée |
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « LOCAPRED 0,1 %, creme (Pierre Fabre Medicament) / Creme / Non renseignee (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 61243216 (LOCAPRED 0,1 %, crème) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 61243216](https://base-donnees-publique.medicaments.gouv.fr/medicament/61243216/extrait).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-desonide-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -141,7 +141,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et toutes les AMM francaises sont annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Examiner l'interet reel d'une relance, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-24 | Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 61243216](https://base-donnees-publique.medicaments.gouv.fr/medicament/61243216/extrait) |
+| 2026-11-24 | Tableau : l’AMM 61243216 (LOCAPRED 0) est archivée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 61243216](https://base-donnees-publique.medicaments.gouv.fr/medicament/61243216/extrait) |
 
 <!-- review:end log -->
 

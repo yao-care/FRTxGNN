@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 577
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pantoprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Pantoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -112,9 +112,15 @@ Pour l'ulcère peptique actif (sélection des publications les plus pertinentes 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68729174 | INIPOMP 40 mg, poudre pour solution injectable (IV) (TAKEDA FRANCE) | Poudre pour solution injectable | Non renseignée ; AMM active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68729174 | INIPOMP 40 mg, poudre pour solution injectable (IV) | Poudre pour solution injectable | TAKEDA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

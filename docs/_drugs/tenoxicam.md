@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "tenoxicam"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "headache disorder", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "trigeminal autonomic cephalalgia", "alopecia"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tenoxicam : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
@@ -82,9 +82,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67841804 | TILCOTIL 20 mg, comprimé pelliculé sécable (VIATRIS MEDICAL) | Comprimé pelliculé sécable | Texte d'indication non renseigné dans les données compilées |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67841804 | TILCOTIL 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS MEDICAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

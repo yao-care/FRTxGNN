@@ -88,13 +88,27 @@ Pour information, une seule publication a été identifiée pour une autre préd
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 69727429 | LYUMJEV 100 unités/mL, solution injectable en flacon | Solution injectable | Non renseignée | Active |
-| 66817088 | LYUMJEV 100 unités/mL, solution injectable en cartouche | Solution injectable | Non renseignée | Active |
-| 66537912 | HUMALOG 100 unités/ml JUNIOR KWIKPEN, stylo prérempli | Solution injectable | Non renseignée | Active |
-| 67759549 | HUMALOG 200 UI/ml KWIKPEN, stylo prérempli | Solution injectable | Non renseignée | Active |
-| 62000441 | LYUMJEV 100 unités/mL, Junior KwikPen, stylo prérempli | Solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69727429 | LYUMJEV 100 unités/mL, solution injectable en flacon | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 66817088 | LYUMJEV 100 unités/mL, solution injectable en cartouche | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 66537912 | HUMALOG 100 unités/ml JUNIOR KWIKPEN solution injectable en stylo pré-rempli | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 67759549 | HUMALOG 200 UI/ml KWIKPEN, solution injectable en stylo prérempli | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 62000441 | LYUMJEV 100 unités/mL, Junior KwikPen solution injectable en stylo prérempli | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 66599764 | LYUMJEV 200 unités/mL, KwikPen solution injectable en stylo prérempli | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 61650831 | HUMALOG MIX50 100 UI/ml, suspension injectable en cartouche | Suspension injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 61872223 | HUMALOG MIX25 100 UI/ml KWIKPEN, suspension injectable | Suspension injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 64052173 | HUMALOG 100 UI/ml, solution injectable en cartouche | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 65132156 | HUMALOG 100 UI/ml KWIKPEN, solution injectable | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 65228400 | HUMALOG 100 UI/ml, solution injectable en flacon | Solution injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 66081056 | HUMALOG MIX50 100 UI/ml KWIKPEN, suspension injectable | Suspension injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 69304169 | HUMALOG MIX25 100 UI/ml, suspension injectable en cartouche | Suspension injectable | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les 13 AMM (HUMALOG, LYUMJEV) sont détenues par ELI LILLY NEDERLAND BV.
 

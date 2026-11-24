@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 555
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OLANZAPINE"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia"]
 description: "Olanzapine : nouvelle indication prédite, Benign paroxysmal torticollis of infancy (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -81,13 +81,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60841335 | ZYPREXA 10 mg, comprimé enrobé | Comprimé enrobé | Non renseignée (AMM active) |
-| 65000788 | ZYPADHERA 300 mg, poudre et solvant pour suspension injectable à libération prolongée | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
-| 62113318 | OLANZAPINE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60217108 | OLANZAPINE ARROW 5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 65448204 | OLANZAPINE SANDOZ 5 mg, comprimé orodispersible | Comprimé orodispersible | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65448204 | OLANZAPINE SANDOZ 5 mg, comprimé orodispersible | Comprimé orodispersible | SANDOZ | Active |
+| 61779406 | OLANZAPINE ARROW 20 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Active |
+| 65000788 | ZYPADHERA 300 mg, poudre et solvant pour suspension injectable à libération prolongée | Poudre et solvant pour suspension injectable à libération p… | CHEPLAPHARM REGISTRATION (ALLEMAGNE) | Active |
+| 61435661 | OLANZAPINE VIATRIS 15 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 62113318 | OLANZAPINE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 60217108 | OLANZAPINE ARROW 5 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 61410900 | OLANZAPINE ZYDUS 10 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 65539091 | OLANZAPINE TEVA 5 mg, comprimé orodispersible | Comprimé orodispersible | TEVA (PAYS-BAS) | Active |
+| 67673769 | OLANZAPINE ARROW 10 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 62851214 | OLANZAPINE EVOLUGEN 10 mg, comprimé orodispersible | Comprimé orodispersible | EVOLUPHARM | Active |
+| 64932120 | OLANZAPINE BIOGARAN 5 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 60898838 | OLANZAPINE VIATRIS 7,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 60845134 | OLANZAPINE BIOGARAN 10 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 64117856 | OLANZAPINE ZENTIVA 5 mg, comprimé orodispersible | Comprimé orodispersible | ZENTIVA FRANCE | Active |
+| 62705654 | OLANZAPINE EVOLUGEN 5 mg, comprimé orodispersible | Comprimé orodispersible | EVOLUPHARM | Active |
+| 65771677 | OLANZAPINE TEVA 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67398796 | OLANZAPINE CRISTERS 10 mg, comprimé orodispersible | Comprimé orodispersible | SUN PHARMA FRANCE | Active |
+| 60841335 | ZYPREXA 10 mg, comprimé enrobé | Comprimé enrobé | CHEPLAPHARM REGISTRATION (ALLEMAGNE) | Active |
+| 68268955 | OLANZAPINE ARROW 15 mg, comprimé orodispersible | Comprimé orodispersible | ARROW GENERIQUES | Active |
+| 66669650 | OLANZAPINE ZENTIVA LAB 5 mg, comprimé enrobé | Comprimé enrobé | ZENTIVA FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

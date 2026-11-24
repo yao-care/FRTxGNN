@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 213
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dantrolene"
 predicted_indications: ["moderate multiminicore disease with hand involvement", "King-Denborough syndrome", "congenital multicore myopathy with external ophthalmoplegia", "central core myopathy", "hypokalemic periodic paralysis", "thyrotoxic periodic paralysis", "myopathy, centronuclear"]
 description: "Dantrolene : nouvelle indication prédite, Moderate multiminicore disease with hand involvement (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -93,11 +93,17 @@ Le texte d'indication approuvée n'est pas disponible.
 
 <!-- review:end fr-lic-20261106-dantrolene-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65074386 | DANTRIUM INTRAVEINEUX | Lyophilisat pour préparation injectable | Non disponible |
-| 60385682 | DANTRIUM 100 mg | Gélule | Non disponible |
-| 67807645 | DANTRIUM 25 mg | Gélule | Non disponible |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65074386 | DANTRIUM INTRAVEINEUX, lyophilisat pour préparation injectable | Lyophilisat pour préparation injectable | NORGINE (PAYS-BAS) | Active |
+| 60385682 | DANTRIUM 100 mg, gélule | Gélule | NORGINE | Active |
+| 67807645 | DANTRIUM 25 mg, gélule | Gélule | NORGINE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

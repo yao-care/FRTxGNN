@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "belimumab"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "severe nonproliferative diabetic retinopathy", "autosomal dominant macrothrombocytopenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Belimumab : nouvelle indication prédite, Trouble de la libération plaquettaire primaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
 ---
 
@@ -72,11 +72,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65592934 | BENLYSTA 120 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 60205159 | BENLYSTA 200 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée |
-| 65600733 | BENLYSTA 400 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65592934 | BENLYSTA 120 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | GLAXOSMITHKLINE (IRELAND) | Active |
+| 60205159 | BENLYSTA 200 mg, solution injectable en stylo prérempli | Solution injectable | GLAXOSMITHKLINE (IRELAND) | Active |
+| 65600733 | BENLYSTA 400 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | GLAXOSMITHKLINE (IRELAND) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

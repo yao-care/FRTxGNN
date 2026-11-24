@@ -72,30 +72,35 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Rabeprazole
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 64710550 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 62880365 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 66787677 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 64397778 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 61212982 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 64546663 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 63449026 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 61305034 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 66035518 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 66387117 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Annulée |
-| 65031278 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 62909137 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 61438974 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 62134839 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 64238676 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 61805185 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 64718440 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 67263364 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
-| 68832021 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Annulée |
-| 63965740 | RABÉPRAZOLE SODIQUE | comprimé gastro-résistant(e) | Active |
+<!-- licenses:begin -->
 
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64710550 | RABEPRAZOLE KRKA 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | KRKA (SLOVENIE) | Active |
+| 62880365 | RABEPRAZOLE EVOLUGEN 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | EVOLUPHARM | Active |
+| 66787677 | RABEPRAZOLE VIATRIS 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | VIATRIS SANTE | Active |
+| 64397778 | RABEPRAZOLE ALMUS 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ALMUS FRANCE | Active |
+| 61212982 | RABEPRAZOLE CRISTERS PHARMA 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | SUN PHARMA FRANCE | Active |
+| 64546663 | RABEPRAZOLE KRKA 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | KRKA (SLOVENIE) | Active |
+| 63449026 | RABEPRAZOLE ZYDUS 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ZYDUS FRANCE | Active |
+| 61305034 | RABEPRAZOLE CRISTERS PHARMA 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | SUN PHARMA FRANCE | Active |
+| 66035518 | PARIET 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | JANSSEN CILAG | Active |
+| 65031278 | RABEPRAZOLE ZENTIVA 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ZENTIVA FRANCE | Active |
+| 62909137 | PARIET 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | JANSSEN CILAG | Active |
+| 61438974 | RABEPRAZOLE ZENTIVA 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ZENTIVA FRANCE | Active |
+| 62134839 | RABEPRAZOLE BIOGARAN 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | BIOGARAN | Active |
+| 64238676 | RABEPRAZOLE EVOLUGEN 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | EVOLUPHARM | Active |
+| 61805185 | RABEPRAZOLE TEVA 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | TEVA SANTE | Active |
+| 64718440 | RABEPRAZOLE SANDOZ 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | SANDOZ | Active |
+| 67263364 | RABEPRAZOLE ZYDUS 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ZYDUS FRANCE | Active |
+| 63965740 | RABEPRAZOLE ARROW GENERIQUES 10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | ARROW GENERIQUES | Active |
+| 66387117 | RABEPRAZOLE BIOGARAN 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | BIOGARAN | Archivée |
+| 68832021 | RABEPRAZOLE CRISTERS 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | CRISTERS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 461
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LOPINAVIR"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Lopinavir : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -94,13 +94,19 @@ Aucune publication n'est disponible pour l'indication principale (syndrome d'imm
 
 Le texte d'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69831794 | Lopinavir/Ritonavir Viatris 100 mg/25 mg | Comprimé pelliculé | Active |
-| 61708715 | Lopinavir/Ritonavir Viatris 200 mg/50 mg | Comprimé pelliculé | Active |
-| 69474926 | Kaletra (80 mg + 20 mg)/ml | Solution buvable | Active |
-| 67969992 | Kaletra 200 mg/50 mg | Comprimé pelliculé | Active |
-| 64629002 | Kaletra 100 mg/25 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69831794 | LOPINAVIR/RITONAVIR VIATRIS 100 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 61708715 | LOPINAVIR/RITONAVIR VIATRIS 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 69474926 | KALETRA (80 mg + 20 mg)/ml, solution buvable | Solution buvable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 67969992 | KALETRA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 64629002 | KALETRA 100 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

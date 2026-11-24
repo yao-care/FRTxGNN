@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 237
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "diclofenac"
 predicted_indications: ["hypotrichosis simplex of the scalp", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "brachyolmia", "brachyolmia-amelogenesis imperfecta syndrome", "congenital hypotrichosis milia", "myosclerosis", "diffuse alopecia areata", "juvenile idiopathic arthritis", "WHIM syndrome"]
 description: "Diclofenac : nouvelle indication prédite, Hypotrichosis simplex of the scalp (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -95,13 +95,35 @@ Les autres publications recensées (nabumétone, naproxène, série de cas d'AJI
 
 Le texte d'indication approuvée n'est pas renseigné dans les données.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66091940 | Diclofenac Teva Conseil 1 %, emplâtre médicamenteux | Emplâtre médicamenteux | Non renseignée |
-| 60158147 | Diclofenac Viatris 1 %, gel | Gel | Non renseignée |
-| 61609959 | Voltarenactigo 2 % Intense, gel | Gel | Non renseignée |
-| 66691390 | Voltarène 100 mg, suppositoire | Suppositoire | Non renseignée |
-| 60980979 | Voltarène L.P. 75 mg | Comprimé enrobé à libération prolongée | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66091940 | DICLOFENAC TEVA CONSEIL 1 %, emplâtre médicamenteux | Emplâtre médicamenteux(se) | RATIOPHARM (ALLEMAGNE) | Active |
+| 60158147 | DICLOFENAC VIATRIS 1 %, gel | Gel | VIATRIS SANTE | Active |
+| 61609959 | VOLTARENACTIGO 2 % INTENSE, gel | Gel | HALEON FRANCE | Active |
+| 66691390 | VOLTARENE 100 mg, suppositoire | Suppositoire | NOVARTIS PHARMA | Active |
+| 60980979 | VOLTARENE L.P. 75 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | NOVARTIS PHARMA | Active |
+| 65004263 | DICLOFENAC TEVA CONSEIL 1 %, gel | Gel | TEVA SANTE | Active |
+| 64147835 | DICLOFENAC EG 1 %, gel en flacon pressurisé | Gel | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68828126 | DICLOFENAC CHEMINEAU 1 %, gel | Gel | CHEMINEAU | Active |
+| 62734983 | DICLOFENAC VIATRIS 1 %, gel en flacon pressurisé | Gel | CHEMINEAU | Active |
+| 67436923 | DICLOFENAC TEVA 50 mg, comprimé enrobé gastro-résistant | Comprimé enrobé gastro-résistant(e) | TEVA SANTE | Active |
+| 63502571 | VOLTARENPLAST 1 %, emplâtre médicamenteux | Emplâtre médicamenteux(se) | HALEON FRANCE | Active |
+| 69386789 | DICLOFENAC CHEMINEAU 1 %, gel en flacon pressurisé | Gel | CHEMINEAU | Active |
+| 63201536 | DICLOFENAC CRISTERS 1 %, gel | Gel | CRISTERS | Active |
+| 64944934 | DICLOFENAC URGO 1 %, gel | Gel | LABORATOIRES URGO HEALTHCARE | Active |
+| 69206885 | ENTALGINE 1 %, gel | Gel | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 67096488 | DICLOFENAC BGR CONSEIL 2 %, gel | Gel | BIOGARAN | Active |
+| 65460224 | DICLOFENAC ARROW 1 %, gel en flacon pressurisé | Gel | ARROW GENERIQUES | Active |
+| 69494708 | SOLARAZE 3 %, gel | Gel | ALMIRALL (ESPAGNE) | Active |
+| 68584939 | VOLTARENACTIGO 140 mg, emplâtre médicamenteux | Emplâtre médicamenteux(se) | HALEON FRANCE | Active |
+| 60603444 | DICLOFENAC TEVA SANTE CONSEIL 1 %, gel | Gel | TEVA (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

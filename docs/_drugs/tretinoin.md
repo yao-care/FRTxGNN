@@ -80,13 +80,22 @@ Aucune littérature associée disponible actuellement pour la nodulose rhumatoï
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67020138 | EFFEDERM 0,05 %, crème | Crème | Non renseignée (AMM active) |
-| 68553865 | RETACNYL 0,05 %, crème | Crème | Non renseignée (AMM active) |
-| 60552619 | KETREL 0,050 %, crème | Crème | Non renseignée (AMM active) |
-| 62373038 | RETACNYL 0,025 %, crème | Crème | Non renseignée (AMM active) |
-| 65540866 | VESANOID 10 mg, capsule molle | Capsule molle | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67020138 | EFFEDERM 0,05 %, crème | Crème | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 68553865 | RETACNYL 0,05 %, crème | Crème | GALDERMA INTERNATIONAL | Active |
+| 60552619 | KETREL 0,050 %, crème | Crème | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 62373038 | RETACNYL 0,025 %, crème | Crème | GALDERMA INTERNATIONAL | Active |
+| 65540866 | VESANOID 10 mg, capsule molle | Capsule molle | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 61381765 | ERYLIK, gel pour application cutanée | Gel pour application | LABORATOIRES BAILLEUL (LUXEMBOURG) | Active |
+| 66109897 | ZANEA 10 mg/0,25 mg par g, gel | Gel | VIATRIS MEDICAL | Active |
+| 62178757 | EFFEDERM, solution pour application cutanée | Solution pour application | LABORATOIRES BAILLEUL (LUXEMBOURG) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

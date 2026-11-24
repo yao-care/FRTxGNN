@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 346
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "formoterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
 description: "Formoterol : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -83,13 +83,35 @@ Les neuf publications retrouvées concernent l'asthme, la BPCO, une atteinte des
 
 Le formotérol est commercialisé en France. Les données compilées recensent 20 AMM valides ; la liste peut être partielle. Le texte d'indication n'est pas renseigné dans ces enregistrements.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64463420 | FORMOTEROL ZENTIVA 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM active) |
-| 67122869 | ASMELOR NOVOLIZER 12 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM active) |
-| 61018059 | FORMOTEROL EG 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM active) |
-| 61963153 | FORMOAIR 12 microgrammes/dose | Solution pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
-| 66732677 | FORADIL 12 microgrammes | Poudre pour inhalation en gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64463420 | FORMOTEROL ZENTIVA 12 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | ZENTIVA FRANCE | Active |
+| 67122869 | ASMELOR NOVOLIZER 12 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | VIATRIS MEDICAL | Active |
+| 61018059 | FORMOTEROL EG 12 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61963153 | FORMOAIR 12 microgrammes/dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | CHIESI FARMACEUTICI | Active |
+| 63378141 | FORMOTEROL VIATRIS 12 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | VIATRIS SANTE | Active |
+| 67997721 | FORMOTEROL BIOGARAN 12 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | BIOGARAN | Active |
+| 66732677 | FORADIL 12 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | SANDOZ | Active |
+| 66508241 | BECLOMETASONE/FORMOTEROL BIOGARAN 100/6 microgrammes/dose, solution pour inhalation en fl… | Solution pour inhalation | BIOGARAN | Active |
+| 67827270 | DUORESP SPIROMAX 160 microgrammes/4,5 microgrammes, poudre pour inhalation | Poudre pour inhalation | TEVA PHARMA (PAYS-BAS) | Active |
+| 61046628 | FLUTIFORM 125 microgrammes/5 microgrammes par dose, suspension pour inhalation en flacon… | Suspension pour inhalation | MUNDIPHARMA | Active |
+| 68984844 | GIBITER EASYHALER, 80 microgrammes/4,5 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 64896432 | BECLOMETASONE/FORMOTEROL VIATRIS 100/6 microgrammes/dose, solution pour inhalation en fla… | Solution pour inhalation | VIATRIS SANTE | Active |
+| 67916395 | SYMBICORT TURBUHALER 100 microgrammes/6 microgrammes par dose, poudre pour inhalation | Poudre pour inhalation | ASTRAZENECA | Active |
+| 63389629 | FORMODUAL NEXTHALER 100 microgrammes/6 microgrammes par inhalation, poudre pour inhalation | Poudre pour inhalation | CHIESI | Active |
+| 60241874 | INNOVAIR 200/6 microgrammes par dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | CHIESI | Active |
+| 68340034 | FORMODUAL 200/6 microgrammes par dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | CHIESI | Active |
+| 69962879 | BECLOMETASONE/FORMOTEROL EG 200/6 microgrammes/dose, solution pour inhalation en flacon p… | Solution pour inhalation | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65441590 | GIBITER EASYHALER, 320 microgrammes/9 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 60311408 | BECLOMETASONE/FORMOTEROL BIOGARAN 200/6 microgrammes/dose, solution pour inhalation en fl… | Solution pour inhalation | BIOGARAN | Active |
+| 66057945 | SYMBICORT RAPIHALER 200/6 microgrammes par dose, suspension pour inhalation en flacon pre… | Suspension pour inhalation | ASTRAZENECA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

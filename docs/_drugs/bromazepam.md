@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 119
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bromazepam : nouvelle indication prédite, Migraine (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "bromazepam"
 predicted_indications: ["migraine disorder"]
@@ -89,13 +89,24 @@ Les 5 premières sont listées ci-dessous.
 
 <!-- review:end fr-lic-20261106-bromazepam-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 64416164 | Bromazepam Viatris 6 mg | Comprimé quadrisécable | Active |
-| 68528958 | Bromazepam Zentiva 6 mg | Comprimé quadrisécable | Active |
-| 63721729 | Bromazepam Teva 6 mg | Comprimé quadrisécable | Active |
-| 68876142 | Bromazepam Arrow 6 mg | Comprimé quadrisécable | Active |
-| 67851467 | Bromazepam EG 6 mg | Comprimé quadrisécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64416164 | BROMAZEPAM VIATRIS 6 mg, comprimé quadrisécable | Comprimé quadrisécable | VIATRIS SANTE | Active |
+| 68528958 | BROMAZEPAM ZENTIVA 6 mg, comprimé quadrisécable | Comprimé quadrisécable | ZENTIVA FRANCE | Active |
+| 63721729 | BROMAZEPAM TEVA 6 mg, comprimé quadrisécable | Comprimé quadrisécable | TEVA SANTE | Active |
+| 68876142 | BROMAZEPAM ARROW 6 mg, comprimé quadrisécable | Comprimé quadrisécable | ARROW GENERIQUES | Active |
+| 67851467 | BROMAZEPAM EG 6 mg, comprimé quadrisécable | Comprimé quadrisécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69174003 | BROMAZEPAM ZYDUS 6 mg, comprimé quadrisécable | Comprimé quadrisécable | ZYDUS FRANCE | Active |
+| 66796142 | LEXOMIL 6 mg, comprimé quadrisécable | Comprimé quadrisécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 61746541 | BROMAZEPAM CRISTERS 6 mg, comprimé quadrisécable | Comprimé quadrisécable | CRISTERS | Active |
+| 62270942 | BROMAZEPAM BIOGARAN 6 mg, comprimé quadrisécable | Comprimé quadrisécable | BIOGARAN | Active |
+| 61084408 | BROMAZEPAM ARROW 1,5 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte de l'indication approuvée n'est pas disponible pour ces AMM.
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "albutrepenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Albutrepenonacog Alfa : nouvelle indication prédite, Maladie de von Willebrand de type plaquettaire (pseudo-von Willebrand disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans l…"
 ---
 
@@ -63,13 +63,19 @@ Le score élevé du modèle (0,9994) reflète une prédiction fondée sur les re
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63369480 | IDELVION 3500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée |
-| 63102506 | IDELVION 1000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée |
-| 60216127 | IDELVION 2000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée |
-| 61645574 | IDELVION 250 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée |
-| 65247870 | IDELVION 500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63369480 | IDELVION 3500 UI poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 63102506 | IDELVION 1000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 60216127 | IDELVION 2000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 61645574 | IDELVION 250 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+| 65247870 | IDELVION 500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | CSL BEHRING (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

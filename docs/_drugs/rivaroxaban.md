@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 675
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Rivaroxaban : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "RIVAROXABAN"
 predicted_indications: ["rheumatoid arthritis", "gout", "HIV infectious disease", "brachydactyly-syndactyly syndrome"]
@@ -86,13 +86,35 @@ Aucun texte d'indication n'est disponible. Les 5 premières sont listées ci-des
 
 <!-- review:end fr-lic-20261106-rivaroxaban-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60474483 | RIVAROXABAN EVOLUGEN 20 mg | Comprimé pelliculé | Non renseignée |
-| 68216702 | RIVAROXABAN ACCORD 15 mg | Comprimé pelliculé | Non renseignée |
-| 61711184 | RIVAROXABAN VIATRIS 15 mg + 20 mg | Comprimé pelliculé | Non renseignée |
-| 64290203 | RIVAROXABAN VIATRIS 15 mg | Comprimé pelliculé | Non renseignée |
-| 67071218 | XARELTO 20 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60474483 | RIVAROXABAN EVOLUGEN 20 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 68216702 | RIVAROXABAN ACCORD 15 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61711184 | RIVAROXABAN VIATRIS 15 mg + 20 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 64290203 | RIVAROXABAN VIATRIS 15 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 67071218 | XARELTO 20 mg, comprimé pelliculé | Comprimé pelliculé | BAYER AG (ALLEMAGNE) | Active |
+| 64206365 | RIVAROXABAN ACCORD 20 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63456736 | RIVAROXABAN EVOLUGEN 15 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 60393661 | XARELTO 15 mg + 20 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | BAYER AG (ALLEMAGNE) | Active |
+| 66482647 | RIVAROXABAN SANDOZ 15 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66050790 | RIVAROXABAN ZYDUS 20 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 68316841 | RIVAROXABAN CRISTERS 15 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 60654442 | RIVAROXABAN EG 15 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67336111 | RIVAROXABAN ARROW 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 66371376 | RIVAROXABAN ARROW 15 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64140958 | RIVAROXABAN TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (ALLEMAGNE) | Active |
+| 63787298 | RIVAROXABAN TEVA 20 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (ALLEMAGNE) | Active |
+| 68525086 | RIVAROXABAN KRKA 15 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 60378887 | RIVAROXABAN ZENTIVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66086174 | RIVAROXABAN KRKA 20 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 62533076 | RIVAROXABAN VIATRIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

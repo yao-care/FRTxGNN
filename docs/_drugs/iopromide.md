@@ -72,12 +72,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68373358 | Ultravist 300 (300 mg d'iode/mL) | Solution injectable | Non renseignée |
-| 62729413 | Ultravist 370 (370 mg d'iode/mL) | Solution injectable | Non renseignée |
-| 65027575 | Ultravist 370 (370 mg d'iode/mL), seringue préremplie pour injecteur automatique | Solution injectable | Non renseignée |
-| 60385522 | Ultravist 300 (300 mg d'iode/mL), seringue préremplie pour injecteur automatique | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68373358 | ULTRAVIST 300 (300 mg d'Iode/mL), solution injectable | Solution injectable | BAYER HEALTHCARE | Active |
+| 62729413 | ULTRAVIST 370 (370 mg d'Iode/mL), solution injectable | Solution injectable | BAYER HEALTHCARE | Active |
+| 65027575 | ULTRAVIST 370 (370 mg d'Iode/mL), solution injectable en seringue préremplie pour injecte… | Solution injectable | BAYER HEALTHCARE | Active |
+| 60385522 | ULTRAVIST 300 (300 mg d'Iode/mL), solution injectable en seringue préremplie pour injecte… | Solution injectable | BAYER HEALTHCARE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les quatre AMM, détenues par Bayer Healthcare, sont valides et concernent le médicament seul.
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 552
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "octreotide"
 predicted_indications: ["vulvar inverted follicular keratosis", "seborrheic keratosis"]
 description: "Octreotide : nouvelle indication prédite, Kératose inverse folliculaire vulvaire (vulvar inverted follicular keratosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données l…"
@@ -73,13 +73,32 @@ Aucune littérature associée disponible actuellement.
 
 Cinq exemples :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69161760 | OCTREOTIDE HOSPIRA 100 microgrammes/1 mL | Solution injectable | Non renseignée |
-| 61707595 | SANDOSTATINE 500 microgrammes/1 mL | Solution injectable ou pour perfusion | Non renseignée |
-| 61881699 | SANDOSTATINE L.P. 30 mg | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée |
-| 65490897 | SIROCTID 0,05 mg/ml | Solution injectable ou à diluer pour perfusion en seringue préremplie | Non renseignée |
-| 68949551 | SANDOSTATINE 50 microgrammes/1 mL | Solution injectable ou pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69161760 | OCTREOTIDE HOSPIRA 100 microgrammes/1 mL, solution injectable | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 61707595 | SANDOSTATINE 500 microgrammes/1 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | NOVARTIS PHARMA | Active |
+| 61881699 | SANDOSTATINE L.P. 30 mg, poudre et solvant pour suspension injectable | Poudre et solvant pour suspension injectable à libération p… | NOVARTIS PHARMA | Active |
+| 65490897 | SIROCTID 0,05 mg/ml, solution injectable ou solution à diluer pour perfusion en seringue… | Solution injectable ou pour perfusion | CHEMI (ITALIE) | Active |
+| 68949551 | SANDOSTATINE 50 microgrammes/1 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | NOVARTIS PHARMA | Active |
+| 62287824 | OCTREOTIDE HOSPIRA 50 microgrammes/1 mL, solution injectable | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 66004031 | SANDOSTATINE 100 microgrammes/1 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | NOVARTIS PHARMA | Active |
+| 61426655 | SIROCTID 0,1 mg/ml, solution injectable ou solution à diluer pour perfusion en seringue p… | Solution injectable ou pour perfusion | CHEMI (ITALIE) | Active |
+| 64369088 | OCTREOTIDE TEVA LP 30 mg, poudre et solvant pour suspension injectable à libération prolo… | Poudre et solvant pour suspension injectable à libération p… | TEVA (PAYS-BAS) | Active |
+| 69869122 | SANDOSTATINE L.P. 20 mg, poudre et solvant pour suspension injectable | Poudre et solvant pour suspension injectable à libération p… | NOVARTIS PHARMA | Active |
+| 66306542 | OCTREOTIDE ARROW 500 microgrammes/1 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 66565153 | SIROCTID 0,5 mg/ml, solution injectable ou solution à diluer pour perfusion en seringue p… | Solution injectable ou pour perfusion | CHEMI (ITALIE) | Active |
+| 65432189 | OCTREOTIDE TEVA LP 20 mg, poudre et solvant pour suspension injectable à libération prolo… | Poudre et solvant pour suspension injectable à libération p… | TEVA (PAYS-BAS) | Active |
+| 65742661 | OCTREOTIDE ARROW 50 microgrammes/1 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 65245613 | OCTREOTIDE ARROW 100 microgrammes/1 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 65356777 | OCTREOTIDE TEVA LP 10 mg, poudre et solvant pour suspension injectable à libération prolo… | Poudre et solvant pour suspension injectable à libération p… | TEVA (PAYS-BAS) | Active |
+| 63127541 | OCTREOTIDE HOSPIRA 500 microgrammes/1 mL, solution injectable | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 64494476 | SANDOSTATINE L.P. 10 mg, poudre et solvant pour suspension injectable | Poudre et solvant pour suspension injectable à libération p… | NOVARTIS PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 298
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eslicarbazepine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "insomnia (disease)", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Eslicarbazepine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L2). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -87,10 +87,16 @@ Aucune publication ne porte directement sur l'eslicarbazépine dans la migraine.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63927729 | ESLICARBAZEPINE ARROW 800 mg, comprimé sécable (ARROW GÉNÉRIQUES) | Comprimé sécable | Non renseignée (AMM active) |
-| 68829121 | ZEBINIX 800 mg, comprimé (BIAL - PORTELA & CA) | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63927729 | ESLICARBAZEPINE ARROW 800 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 68829121 | ZEBINIX 800 mg, comprimé | Comprimé | BIAL - PORTELA & CA (PORTUGAL) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

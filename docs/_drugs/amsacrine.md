@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMSACRINE"
 predicted_indications: ["hyperthyroidism", "plasma cell myeloma", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "bronchitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amsacrine : nouvelle indication prédite, Hyperthyroïdie (hyperthyroidism) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 drugbank_id: DB00276
 ---
@@ -73,9 +73,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67581349 | AMSALYO 75 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67581349 | AMSALYO 75 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | EUROCEPT INTERNATIONAL (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Voie : autre (perfusion).
 

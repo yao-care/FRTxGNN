@@ -78,13 +78,24 @@ Le riluzole est commercialisé en France. Les données compilées recensent 10 A
 
 <!-- review:end fr-lic-20261112-riluzole-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69481874 | EMYLIF 50 mg | Film orodispersible | Active |
-| 68413596 | TEGLUTIK 5 mg/ml | Suspension buvable | Active |
-| 63943758 | RILUZOLE EG 50 mg | Comprimé pelliculé | Active |
-| 66292199 | RILUTEK 50 mg | Comprimé pelliculé | Active |
-| 69597074 | RILUZOLE BIOGARAN 50 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69481874 | EMYLIF 50 mg, film orodispersible | Film orodispersible | ZAMBON (ITALIE) | Active |
+| 68413596 | TEGLUTIK 5 mg/ml, suspension buvable | Suspension buvable | ITALFARMACO (ESPAGNE) | Active |
+| 63943758 | RILUZOLE EG 50 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66292199 | RILUTEK 50 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 69597074 | RILUZOLE BIOGARAN 50 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60951632 | RILUZOLE ARROW 50 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64189866 | RILUZOLE VIATRIS 50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 69319897 | RILUZOLE SANDOZ 50 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66879143 | RILUZOLE TEVA 50 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 62414855 | RILUZOLE ZENTIVA 50 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

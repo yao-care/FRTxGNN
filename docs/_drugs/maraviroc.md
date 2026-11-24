@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 474
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MARAVIROC"
 predicted_indications: ["multiple endocrine neoplasia", "acne (disease)", "primary cutaneous T-cell lymphoma", "pediatric systemic lupus erythematosus", "primary cutaneous T-cell non-Hodgkin lymphoma", "primary cutaneous B-cell lymphoma", "candidiasis", "complement component 4a deficiency", "cytomegalovirus infection", "HER2 positive breast carcinoma"]
 description: "Maraviroc : nouvelle indication prédite, Néoplasie endocrinienne multiple (multiple endocrine neoplasia) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -104,13 +104,21 @@ Pour information, des publications existent pour d'autres candidats, sans preuve
 
 Le médicament est commercialisé : 7 AMM valides sur 7. Les textes d'indication ne sont pas disponibles.
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 61182724 | CELSENTRI 300 mg | Comprimé pelliculé | Non renseignée |
-| 60992262 | CELSENTRI 25 mg | Comprimé pelliculé | Non renseignée |
-| 64830457 | MARAVIROC WAYMADE 300 mg | Comprimé pelliculé | Non renseignée |
-| 64813486 | MARAVIROC WAYMADE 150 mg | Comprimé pelliculé | Non renseignée |
-| 65936214 | CELSENTRI 20 mg/ml | Solution buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61182724 | CELSENTRI 300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 60992262 | CELSENTRI 25 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 64830457 | MARAVIROC WAYMADE 300 mg, comprimé pelliculé | Comprimé pelliculé | WAYMADE (PAYS-BAS) | Active |
+| 64813486 | MARAVIROC WAYMADE 150 mg, comprimé pelliculé | Comprimé pelliculé | WAYMADE (PAYS-BAS) | Active |
+| 65936214 | CELSENTRI 20 mg/ml, solution buvable | Solution buvable | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 64933044 | CELSENTRI 75 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 62094362 | CELSENTRI 150 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

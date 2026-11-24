@@ -97,13 +97,28 @@ Le docétaxel est commercialisé en France. Les données compilées recensent 14
 
 <!-- review:end fr-lic-20261112-docetaxel-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60385433 | TAXOTERE 20 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 60509781 | TAXOTERE 160 mg/8 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 68257752 | TAXOTERE 80 mg/4 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 61038713 | DOCETAXEL KABI 20 mg/1 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 68408115 | DOCETAXEL ACCORD 160 mg/8 ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60385433 | TAXOTERE 20 mg/1 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 60509781 | TAXOTERE 160 mg/8 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 61038713 | DOCETAXEL KABI 20 mg/1 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 68408115 | DOCETAXEL ACCORD 160 mg/8 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE (ROYAUME UNI) | Active |
+| 63380548 | DOCETAXEL KABI 160 mg/8 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 65894174 | DOCETAXEL ACCORD 20 mg/1 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE (ROYAUME UNI) | Active |
+| 68257752 | TAXOTERE 80 mg/4 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 61117819 | DOCETAXEL ACCORD 80 mg/4 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE (ROYAUME UNI) | Active |
+| 65471263 | DOCETAXEL ARROW 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 60726678 | DOCETAXEL KABI 80 mg/4 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 61488831 | DOCETAXEL HIKMA 80 mg/4 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69552435 | DOCETAXEL HIKMA 160 mg/8 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69707280 | DOCETAXEL HIKMA 20 mg/1 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69659914 | DOCETAXEL HOSPIRA 10 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | PFIZER HOLDING FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

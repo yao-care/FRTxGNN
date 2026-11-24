@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "IODIXANOL"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Iodixanol : nouvelle indication prédite, Arthrose (niveau de preuve L5). Indication d'origine : Non renseignée dans les textes d'AMM compilés"
 ---
 
@@ -91,10 +91,16 @@ Aucune de ces publications n'évalue l'iodixanol comme traitement de l'arthrose 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60960777 | VISIPAQUE 270 mg d'I/mL, solution injectable | Solution injectable | Non renseignée |
-| 60567418 | VISIPAQUE 320 mg d'I/mL, solution injectable | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60960777 | VISIPAQUE 270 mg d'I/mL, solution injectable | Solution injectable | GE HEALTHCARE | Active |
+| 60567418 | VISIPAQUE 320 mg d'I/mL, solution injectable | Solution injectable | GE HEALTHCARE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux AMM (GE Healthcare) sont valides et concernent le médicament à substance unique.
 

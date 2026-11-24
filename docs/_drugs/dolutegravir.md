@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 253
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dolutegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Dolutegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseigné…"
@@ -103,13 +103,22 @@ Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 <!-- review:end fr-lic-20261106-dolutegravir-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 64510425 | TIVICAY 10 mg | Comprimé pelliculé | Active |
-| 64955133 | TIVICAY 5 mg | Comprimé dispersible | Active |
-| 63679504 | TIVICAY 25 mg | Comprimé pelliculé | Active |
-| 62685155 | TIVICAY 50 mg | Comprimé pelliculé | Active |
-| 63504750 | JULUCA 50 mg/25 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64510425 | TIVICAY 10 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 64955133 | TIVICAY 5 mg, comprimé dispersible | Comprimé dispersible | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 63679504 | TIVICAY 25 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 62685155 | TIVICAY 50 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 63504750 | JULUCA 50 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 67301231 | DOVATO 50 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 64287253 | TRIUMEQ 50 mg/600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 63892609 | TRIUMEQ 5 mg/60 mg/30 mg, comprimé dispersible | Comprimé dispersible | VIIV HEALTHCARE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

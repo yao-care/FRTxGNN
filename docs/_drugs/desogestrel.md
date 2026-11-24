@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 227
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "desogestrel"
 predicted_indications: ["amenorrhea (disease)", "apocrine adenosis of breast", "blunt duct adenosis of breast", "acne (disease)", "fat necrosis of breast", "breast abscess", "lactation disease", "breast adenosis", "primary ovarian failure", "symptomatic form of fragile X syndrome in female carrier"]
 description: "Desogestrel : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -95,13 +95,35 @@ Il faut toutefois être prudent : le désogestrel intervient ici surtout comme t
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62223483 | DESOGESTREL CRISTERS 75 microgrammes | Comprimé pelliculé | Non précisée (AMM active) |
-| 67203730 | OPTIMIZETTE 75 microgrammes | Comprimé pelliculé | Non précisée (AMM active) |
-| 61452187 | CERAZETTE 0,075 mg | Comprimé pelliculé | Non précisée (AMM active) |
-| 61106705 | DESOGESTREL SANDOZ 75 microgrammes | Comprimé pelliculé | Non précisée (AMM active) |
-| 66428489 | DESOGESTREL BIOGARAN 75 microgrammes | Comprimé pelliculé | Non précisée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62223483 | DESOGESTREL CRISTERS 75 microgrammes, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 67203730 | OPTIMIZETTE 75 microgrammes, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES MAJORELLE | Active |
+| 61452187 | CERAZETTE 0,075 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON FRANCE | Active |
+| 61106705 | DESOGESTREL SANDOZ 75 microgrammes, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66428489 | DESOGESTREL BIOGARAN 75 microgrammes, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64126499 | ELFASETTE 75 microgrammes, comprimé | Comprimé | EXELTIS SANTE | Active |
+| 64520387 | ANTIGONE 75 microgrammes, comprimé pelliculé | Comprimé pelliculé | BESINS HEALTHCARE FRANCE | Active |
+| 62079905 | DESOGESTREL/ETHINYLESTRADIOL BIOGARAN 150 microgrammes/20 microgrammes, comprimé enrobé | Comprimé enrobé | BIOGARAN | Active |
+| 61419568 | DESOGESTREL/ETHINYLESTRADIOL BIOGARAN 150 microgrammes/30 microgrammes, comprimé enrobé | Comprimé enrobé | BIOGARAN | Active |
+| 68502753 | DESOGESTREL/ETHINYLESTRADIOL EG 150 microgrammes/30 microgrammes, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67780949 | DESOBEL 150 microgrammes/30 microgrammes, comprimé | Comprimé | EFFIK | Active |
+| 60239802 | DESOGESTREL/ETHINYLESTRADIOL EG 150 microgrammes/20 microgrammes, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69797801 | VARNOLINE CONTINU, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | ORGANON FRANCE | Active |
+| 62022046 | DESOGESTREL/ETHINYLESTRADIOL BIOGARANCONTINU 150 microgrammes/30 microgrammes, comprimé p… | Comprimé pelliculé et comprimé pelliculé | BIOGARAN | Active |
+| 68123988 | DESOGESTREL/ETHINYLESTRADIOL VIATRIS 150 microgrammes/30 microgrammes, comprimé | Comprimé | EXELTIS SANTE | Active |
+| 69374160 | MERCILON, comprimé | Comprimé | ORGANON FRANCE | Active |
+| 67476946 | DESOGESTREL/ETHINYLESTRADIOL VIATRIS 150 microgrammes/20 microgrammes, comprimé | Comprimé | EXELTIS SANTE | Active |
+| 66613840 | DESOPOP 75 microgrammes, comprimé pelliculé | Comprimé pelliculé | EFFIK | Archivée |
+| 63226258 | DESOGESTREL/ETHINYLESTRADIOL CRISTERS 150 microgrammes/20 microgrammes, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+| 68540501 | DESOGESTREL/ETHINYLESTRADIOL CRISTERS 150 microgrammes/30 microgrammes, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

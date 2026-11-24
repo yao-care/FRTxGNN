@@ -72,13 +72,33 @@ Le médicament est commercialisé. Les 5 principales sont listées ci-dessous (l
 
 <!-- review:end fr-lic-20261112-diosmin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60056815 | DIOSMINE SUN 600 mg | Comprimé pelliculé | Active |
-| 63280081 | VENACLAR 600 mg | Comprimé pelliculé | Annulée |
-| 60445204 | DIOVENOR 600 mg | Poudre pour suspension buvable en sachet-dose | Active |
-| 60711441 | MEDIVEINE 600 mg | Comprimé sécable | Active |
-| 69823317 | DIOSMINE EG LABO CONSEIL 600 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60056815 | DIOSMINE SUN 600 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Active |
+| 60445204 | DIOVENOR 600 mg, poudre pour suspension buvable en sachet-dose | Poudre pour suspension buvable | INNOTHERA | Active |
+| 60711441 | MEDIVEINE 600 mg, comprimé sécable | Comprimé sécable | ELERTE | Active |
+| 69823317 | DIOSMINE EG LABO CONSEIL 600 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68526925 | DIOSMINE VIATRIS CONSEIL 600 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 63063448 | DIOSMINE ARROW CONSEIL 600 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 66849292 | MEDIVEINE 300 mg, comprimé | Comprimé | ELERTE | Active |
+| 67899960 | DIOVENOR 600 mg, comprimé pelliculé | Comprimé pelliculé | INNOTECH INTERNATIONAL | Active |
+| 68938811 | DIOSMINE ARROW 600 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62941028 | DIOSMINE ZYDUS 600 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 66156605 | DIOSMINE SANDOZ CONSEIL 600 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69941714 | DIOSMINE BIOGARAN CONSEIL 600 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65892159 | XUVENIOL 500 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69840366 | FLAVONOIDES ZENTIVA CONSEIL 500 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66701450 | FLAVONOIDES ZENTIVA CONSEIL 1000 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63991087 | FLAVONOIDES ARROW CONSEIL 1000 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 65497735 | FLAVONOIDES ARROW CONSEIL 500 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 63280081 | VENACLAR 600 mg, comprimé pelliculé | Comprimé pelliculé | FORTE PHARMA | Archivée |
+| 68241207 | DIOSMINE TEVA CONSEIL 600 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

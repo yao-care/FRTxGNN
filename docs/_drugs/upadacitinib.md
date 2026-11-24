@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 797
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "upadacitinib"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome"]
 description: "Upadacitinib : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse avec dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia s… (niveau de preuve L5). Indication …"
@@ -73,11 +73,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66709721 | RINVOQ 45 mg, comprimé à libération prolongée | Comprimé à libération prolongée | Non renseignée (AMM active) |
-| 62457931 | RINVOQ 30 mg, comprimé à libération prolongée | Comprimé à libération prolongée | Non renseignée (AMM active) |
-| 65852428 | RINVOQ 15 mg, comprimé à libération prolongée | Comprimé à libération prolongée | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66709721 | RINVOQ 45 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 62457931 | RINVOQ 30 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 65852428 | RINVOQ 15 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le titulaire de ces AMM est ABBVIE DEUTSCHLAND (Allemagne).
 

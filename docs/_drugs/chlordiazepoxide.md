@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 161
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "chlordiazepoxide"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "obsolete neurogenic bladder (disease)", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "sleep disorder, initiating and maintaining sleep", "barbiturate abuse", "hallucinogen abuse", "antidepressant type abuse", "myofascial pain syndrome"]
 description: "Chlordiazepoxide : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -77,10 +77,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67627992 | LIBRAX, comprimé enrobé (VIATRIS MEDICAL) | Comprimé enrobé | Non renseignée (AMM active) |
-| 66803576 | LIBRAX, comprimé enrobé (DIFARMED, Espagne) | Comprimé enrobé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67627992 | LIBRAX, comprimé enrobé | Comprimé enrobé | VIATRIS MEDICAL | Active |
+| 66803576 | LIBRAX, comprimé enrobé | Comprimé enrobé | DIFARMED (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

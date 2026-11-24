@@ -99,13 +99,34 @@ Les 5 premières sont listées ci-dessous ; le texte d'indication n'est pas rens
 
 <!-- review:end fr-lic-20261106-ofloxacin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63535151 | OFLOXACINE VIATRIS 1,5 mg/0,5 mL, solution auriculaire en récipient unidose | Solution | Non renseignée |
-| 65376801 | OFLOXACINE EVOLUGEN 200 mg | Comprimé pelliculé sécable | Non renseignée |
-| 62461303 | OFLOXACINE ALMUS 200 mg | Comprimé pelliculé sécable | Non renseignée |
-| 63286593 | OFLOXACINE CRISTERS 200 mg | Comprimé pelliculé sécable | Non renseignée |
-| 65021031 | OFLOXACINE SANDOZ 200 mg | Comprimé pelliculé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63535151 | OFLOXACINE VIATRIS 1,5 mg/0,5 mL, solution auriculaire en récipient unidose | Solution | VIATRIS SANTE | Active |
+| 65376801 | OFLOXACINE EVOLUGEN 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EVOLUPHARM | Active |
+| 62461303 | OFLOXACINE ALMUS 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 63286593 | OFLOXACINE CRISTERS 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 65021031 | OFLOXACINE SANDOZ 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 68399214 | OFLOCET 1,5 mg/0,5 ml, solution auriculaire en récipient unidose | Solution | TAMRISA ACCESS (FRANCE) | Active |
+| 61768203 | OFLOXACINE ZENTIVA 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 61118807 | QUINOFREE 1,5 mg/0,5 ml, collyre en récipient unidose | Collyre | THEA | Active |
+| 63222377 | MONOFLOCET 200 mg, comprimé pelliculé | Comprimé pelliculé | TAMRISA ACCESS (FRANCE) | Active |
+| 61875707 | OFLOXACINE VIATRIS 200 mg/40 ml, solution pour perfusion | Solution pour perfusion | VIATRIS SANTE | Active |
+| 65080478 | OFLOXACINE VIATRIS 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 69918249 | MONOOX 1,5 mg/0,5 ml, collyre en solution en récipient unidose | Collyre en solution | HORUS PHARMA | Active |
+| 68270924 | OFLOXACINE ARROW 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 62038794 | OFLOXACINE EG 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60151697 | OFLOXACINE BIOGARAN 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 66484819 | OFLOCET 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TAMRISA ACCESS (FRANCE) | Active |
+| 61932026 | OFLOXACINE TEVA 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 61784766 | EXOCINE 0,3 POUR CENT, collyre | Collyre en solution | ABBVIE | Active |
+| 66256370 | OFLOXACINE BIOGARAN 1,5 mg/0,5 ml, solution pour instillation auriculaire en récipient un… | Solution | BIOGARAN | Active |
+| 62485553 | OFLOXACINE SUN 200 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SUN PHARMA FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les autres formes recensées comprennent des solutions auriculaires, des collyres (par exemple QUINOFREE, MONOOX, EXOCINE), une solution pour perfusion et des comprimés (OFLOCET, MONOFLOCET).
 

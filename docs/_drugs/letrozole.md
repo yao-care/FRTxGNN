@@ -88,13 +88,35 @@ Le létrozole est commercialisé en France sous forme de comprimés pelliculés.
 
 <!-- review:end fr-lic-20261112-letrozole-1 -->
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 64492112 | FEMARA 2,5 mg, comprimé pelliculé (Novartis Pharma) | Comprimé pelliculé | Non renseignée |
-| 64722435 | FEMARA 2,5 mg, comprimé pelliculé (BB Farma) | Comprimé pelliculé | Non renseignée |
-| 69489312 | LETROZOLE ACCORD HEALTHCARE 2,5 mg | Comprimé pelliculé | Non renseignée |
-| 66935695 | LETROZOLE BIOGARAN 2,5 mg | Comprimé pelliculé | Non renseignée |
-| 65224722 | LETROZOLE SANDOZ 2,5 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64492112 | FEMARA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS PHARMA | Active |
+| 64722435 | FEMARA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BB FARMA (ITALIE) | Active |
+| 69489312 | LETROZOLE ACCORD HEALTHCARE 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 63831823 | LETROZOLE CRISTERS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 67399300 | LETROZOLE ALMUS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 65543531 | LETROZOLE BLUEFISH 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BLUEFISH PHARMACEUTICALS (SUEDE) | Active |
+| 66935695 | LETROZOLE BIOGARAN 2,5 mg, comprimé peliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60791099 | LETROZOLE EG 2,5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65224722 | LETROZOLE SANDOZ 2.5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69034542 | LETROZOLE ZENTIVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 60293216 | LETROZOLE ARROW LAB 2,5 mg, comprimé pelliculé | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 66801276 | LETROZOLE VIATRIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65478037 | LETROZOLE TEVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 65035967 | LETROZOLE CRISTERS PHARMA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 64849151 | LETROZOLE EVOLUGEN 2,5 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 64721664 | FEMARA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BB FARMA (ITALIE) | Active |
+| 63255320 | LETROZOLE ZYDUS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 68432511 | FEMARA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | DIFARMED (ESPAGNE) | Active |
+| 66107736 | LETROZOLE ARROW 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Archivée |
+| 62883226 | LETROZOLE ALTER 2,5 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES ALTER | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

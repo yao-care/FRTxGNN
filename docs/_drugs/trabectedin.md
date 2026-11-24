@@ -87,13 +87,26 @@ Les résultats chiffrés d'efficacité des études de phase 2 ne figurent pas da
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68850090 | TRABECTEDINE EG 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 67470847 | TRABECTEDINE EVER PHARMA 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 66547080 | TRABECTEDINE TEVA 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 69228351 | TRABECTEDINE SUN 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 66602114 | YONDELIS 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68850090 | TRABECTEDINE EG 1 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67470847 | TRABECTEDINE EVER PHARMA 1 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | EVER VALINJECT (AUTRICHE) | Active |
+| 66547080 | TRABECTEDINE TEVA 0,25 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | TEVA (PAYS-BAS) | Active |
+| 69228351 | TRABECTEDINE SUN 1 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SUN PHARMA FRANCE | Active |
+| 66602114 | YONDELIS 0,25 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PHARMA MAR | Active |
+| 60457338 | YONDELIS 1 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PHARMA MAR | Active |
+| 68093114 | TRABECTEDINE TEVA 1 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | TEVA (PAYS-BAS) | Active |
+| 68539189 | TRABECTEDINE SUN 0,25 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SUN PHARMA FRANCE | Active |
+| 67036014 | TRABECTEDINE EG 0,25 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63055444 | TRABECTEDINE EVER PHARMA 0,25 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | EVER VALINJECT (AUTRICHE) | Active |
+| 65721788 | TRABECTEDINE ACCORD 1 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 68057335 | TRABECTEDINE ACCORD 0.25 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 12 AMM sont recensées.
 

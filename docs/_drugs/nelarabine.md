@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 530
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nelarabine"
 predicted_indications: ["relapsing-remitting multiple sclerosis"]
 description: "Nelarabine : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les donn…"
@@ -72,9 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66034512 | ATRIANCE 5 mg/ml, solution pour perfusion (SANDOZ PHARMACEUTICALS) | Solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66034512 | ATRIANCE 5 mg/ml, solution pour perfusion | Solution pour perfusion | SANDOZ PHARMACEUTICALS (SLOVENIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

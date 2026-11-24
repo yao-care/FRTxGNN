@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 768
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tobramycin"
 predicted_indications: ["exposure keratitis", "non-human animal disease", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "epidemic keratoconjunctivitis"]
 description: "Tobramycin : nouvelle indication prédite, Kératite d'exposition (exposure keratitis) (niveau de preuve L4). En France, AMM dans la BDPM : 12 (valides : 12)"
@@ -100,13 +100,26 @@ Les 12 AMM de la tobramycine sont valides (12 sur 12) et le médicament est comm
 
 <!-- review:end fr-lic-20261106-tobramycin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 61621356 | TOBREX 0,3 %, pommade ophtalmique | Pommade | Active |
-| 67299307 | TOBREX 0,3 %, collyre en solution | Collyre en solution | Active |
-| 69240211 | TOBRABACT 0,3 %, collyre en solution | Collyre en solution | Active |
-| 66302120 | TOBRADEX, collyre en suspension | Collyre en suspension | Active |
-| 66581684 | TODEXAL 3 mg/1 mg par ml, collyre en suspension | Collyre en suspension | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61621356 | TOBREX 0,3 %, pommade ophtalmique | Pommade | NOVARTIS PHARMA | Active |
+| 67923265 | NEBCINE 25 mg, solution injectable | Solution injectable | LABORATOIRE XO | Active |
+| 69472455 | TOBRAMYCINE ZENTIVA 300 mg/5 mL, solution pour inhalation par nébuliseur | Solution pour inhalation par nébuliseur | ZENTIVA FRANCE | Active |
+| 65832685 | TOBI 300 mg/5 ml, solution pour inhalation par nébuliseur | Solution pour inhalation par nébuliseur | VIATRIS MEDICAL | Active |
+| 66613299 | NEBCINE 100 mg, solution injectable | Solution injectable | LABORATOIRE XO | Active |
+| 65584058 | TOBRAMYCINE SUN 300 mg/5 mL, solution pour inhalation par nébuliseur | Solution pour inhalation par nébuliseur | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 69240211 | TOBRABACT 0,3 %, collyre en solution | Collyre en solution | MEDICOM HEALTHCARE IRELAND (IRLANDE) | Active |
+| 60565723 | TOBI PODHALER 28 mg, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | VIATRIS HEALTHCARE (IRLANDE) | Active |
+| 65533512 | NEBCINE 75 mg, solution injectable | Solution injectable | LABORATOIRE XO | Active |
+| 67299307 | TOBREX 0,3 %, collyre en solution | Collyre en solution | NOVARTIS PHARMA | Active |
+| 66302120 | TOBRADEX, collyre en suspension | Collyre en suspension | NOVARTIS PHARMA | Active |
+| 66581684 | TODEXAL 3 mg/1 mg par ml, collyre en suspension | Collyre en suspension | LABORATOIRES DOLIAGE DEVELOPPEMENT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

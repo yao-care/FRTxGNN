@@ -82,19 +82,28 @@ Aucune littérature soutenant l'indication principale (maladie rénale hypertens
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60095526 | Fosinopril Zentiva 10 mg | Comprimé sécable | Non renseignée (AMM abrogée) |
-| 62518708 | Fosinopril Biogaran 10 mg | Comprimé sécable | Non renseignée (AMM active) |
-| 61520873 | Fosinopril Arrow Lab 10 mg | Comprimé sécable | Non renseignée (AMM active) |
-| 61248124 | Fosinopril Biogaran 20 mg | Comprimé | Non renseignée (AMM active) |
-| 60736761 | Fosinopril Arrow Lab 20 mg | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-fosinopril-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62518708 | FOSINOPRIL BIOGARAN 10 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 61520873 | FOSINOPRIL ARROW LAB 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 61248124 | FOSINOPRIL BIOGARAN 20 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 60736761 | FOSINOPRIL ARROW LAB 20 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 67836853 | FOSINOPRIL TEVA 20 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 63383793 | FOSINOPRIL/HYDROCHLOROTHIAZIDE VIATRIS 20 mg /12,5 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 64622680 | FOSINOPRIL/HYDROCHLOROTHIAZIDE BIOGARAN 20 mg/12,5 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 60095526 | FOSINOPRIL ZENTIVA 10 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Abrogée |
+| 64292364 | FOSINOPRIL ARROW GENERIQUES 20 mg, comprimé | Comprimé | ARROW GENERIQUES | Archivée |
+| 67017829 | FOSINOPRIL HYDROCHLOROTHIAZIDE ARROW 20 mg/12,5 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Archivée |
+| 66903345 | FOSINOPRIL TEVA 10 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Abrogée |
+| 67633778 | FOSINOPRIL ARROW GENERIQUES 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Abrogée |
+| 68147971 | FOSINOPRIL ZENTIVA 20 mg, comprimé | Comprimé | ZENTIVA FRANCE | Abrogée |
+| 66934180 | FOSINOPRIL HYDROCHLOROTHIAZIDE ZENTIVA 20 mg/12,5 mg, comprimé | Comprimé | ZENTIVA FRANCE | Abrogée |
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Fosinopril Zentiva 10 mg / Comprimé sécable / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg, comprimé sécable) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM) – fiche 60095526](https://base-donnees-publique.medicaments.gouv.fr/medicament/60095526/extrait).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-fosinopril-1 -->
+<!-- licenses:end -->
 
 Au total, 14 AMM figurent dans la base.
 
@@ -141,7 +150,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-24 | Supprimé : « toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg) » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-06 | Supprimé : « Une évaluation de la faisabilité réglementaire, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-24 | Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60095526](https://base-donnees-publique.medicaments.gouv.fr/medicament/60095526/extrait) |
+| 2026-11-24 | Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 60095526](https://base-donnees-publique.medicaments.gouv.fr/medicament/60095526/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35) |
 
 <!-- review:end log -->

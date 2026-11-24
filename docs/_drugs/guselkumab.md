@@ -134,10 +134,19 @@ Aucune littérature associée n'est disponible actuellement pour l'ostéoporose 
 
 ## Informations de Marche en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68372441 | TREMFYA 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 67296108 | TREMFYA 100 mg ONEPRESS, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68372441 | TREMFYA 100 mg, solution injectable en seringue préremplie | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 67296108 | TREMFYA 100 mg ONEPRESS, solution injectable en stylo prérempli | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 61942337 | TREMFYA 200 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 63347637 | TREMFYA 200 mg, solution injectable en stylo prérempli | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 63571286 | TREMFYA 100 mg PUSHPEN, solution injectable en stylo prérempli | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les 5 AMM (TREMFYA) sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont valides (5 AMM valides sur 5). Le produit est commercialisé en France. Les essais enregistrés mentionnent une autorisation de mise sur le marché en France en 2018 pour le psoriasis en plaques.
 

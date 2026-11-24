@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 366
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GLUCAGON"
 predicted_indications: ["irritable bowel syndrome"]
 description: "Glucagon : nouvelle indication prédite, Syndrome de l'intestin irritable (irritable bowel syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -81,9 +81,15 @@ Le score élevé du modèle (0,9924) est une prédiction computationnelle. Il ne
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67972497 | BAQSIMI 3 mg, poudre nasale en récipient unidose (active) | Poudre | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67972497 | BAQSIMI 3 mg, poudre nasale en récipient unidose | Poudre | AMPHASTAR FRANCE PHARMACEUTICALS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le glucagon est commercialisé en France ; l'AMM recensée est valide.
 

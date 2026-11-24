@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 285
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Entecavir : nouvelle indication prédite, Infection chronique par le virus de l'hépatite C (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite B"
 monitor_inn: "entecavir"
 predicted_indications: ["chronic hepatitis C virus infection", "HIV infectious disease", "hepatitis C virus infection", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "hepatitis, viral, animal", "hepatitis E virus infection", "hepatitis A virus infection"]
@@ -101,13 +101,35 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 
 <!-- review:end fr-lic-20261106-entecavir-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69469719 | BARACLUDE 0,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 62809635 | ENTECAVIR ZYDUS 0,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 62432383 | ENTECAVIR TEVA 0,5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 65228610 | ENTECAVIR VIATRIS 1 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 61115501 | ENTECAVIR EVOLUGEN 1 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69469719 | BARACLUDE 0,5 mg, comprimé pelliculé | Comprimé pelliculé | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 62809635 | ENTECAVIR ZYDUS 0,5 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 62432383 | ENTECAVIR TEVA 0,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 65228610 | ENTECAVIR VIATRIS 1 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 61115501 | ENTECAVIR EVOLUGEN 1 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 68789399 | ENTECAVIR SANDOZ 1 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63520701 | ENTECAVIR ARROW 0,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 63121086 | ENTECAVIR ARROW 1 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64379794 | ENTECAVIR CRISTERS 0,5 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 63031062 | ENTECAVIR ZENTIVA K.S. 0,5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61894006 | ENTECAVIR EG 0,5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63490553 | ENTECAVIR ZENTIVA K.S. 1 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 60110896 | ENTECAVIR ACCORD 0,5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 62048799 | BARACLUDE 1 mg, comprimé pelliculé | Comprimé pelliculé | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 68094554 | ENTECAVIR BIOGARAN 0,5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62066808 | BARACLUDE 0,05 mg/ml, solution buvable | Solution buvable | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 65471822 | ENTECAVIR BIOGARAN 1 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68915360 | ENTECAVIR EG 1 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69644015 | ENTECAVIR ACCORD 1 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 60313672 | ENTECAVIR VIATRIS 0,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Une présentation en solution buvable (BARACLUDE 0,05 mg/ml) est également autorisée (AMM active dans la BDPM).
 

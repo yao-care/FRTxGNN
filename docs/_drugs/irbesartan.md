@@ -87,21 +87,35 @@ Ces travaux concernent l'hypoxie cardiaque ou systémique chez l'animal, et non 
 
 ## Informations de Marché en France
 
-Principales AMM (5 sur 20) :
+<!-- licenses:begin -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67229700 | IRBESARTAN EVOLUGEN 150 mg | comprimé pelliculé | Non disponible (active) |
-| 64933635 | APROVEL 75 mg | comprimé pelliculé | Non disponible (active) |
-| 66542998 | IFIRMASTA 75 mg | comprimé pelliculé | Non disponible (active) |
-| 69985835 | IRBESARTAN CRISTERS 75 mg | comprimé pelliculé | Non disponible (archivée) |
-| 61200414 | IRBESARTAN ARROW 75 mg | comprimé | Non disponible (active) |
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67229700 | IRBESARTAN EVOLUGEN 150 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 64933635 | APROVEL 75 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 66542998 | IFIRMASTA 75 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 61200414 | IRBESARTAN ARROW 75 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 62872607 | IRBESARTAN SANDOZ 75 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 68789755 | IRBESARTAN VIATRIS 300 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 61496529 | IRBESARTAN TEVA 150 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 66842294 | IRBESARTAN SANDOZ 150 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 64860048 | IRBESARTAN TEVA 300 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 64522751 | APROVEL 300 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 68420651 | IRBESARTAN VIATRIS 75 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 64439316 | IRBESARTAN ZENTIVA 75 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI-AVENTIS GROUPE | Active |
+| 68596553 | IRBESARTAN TEVA 75 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 60938446 | IRBESARTAN CRISTERS PHARMA 300 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Active |
+| 66173953 | IRBESARTAN ZENTIVA 150 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI-AVENTIS GROUPE | Active |
+| 61259277 | IRBESARTAN ZENTIVA 300 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI-AVENTIS GROUPE | Active |
+| 69985835 | IRBESARTAN CRISTERS 75 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+| 66799793 | IRBESARTAN ACCORD 300 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 61605035 | IRBESARTAN ACCORD 150 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 61904639 | IRBESARTAN ACCORD 75 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
 
-<!-- review:begin fr-row-20261112-irbesartan-1 -->
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « IRBESARTAN CRISTERS 75 mg / comprimé pelliculé / Non disponible (active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg, comprimé pelliculé) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 69985835](https://base-donnees-publique.medicaments.gouv.fr/medicament/69985835/extrait).
-
-<!-- review:end fr-row-20261112-irbesartan-1 -->
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 
@@ -131,7 +145,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 69985835](https://base-donnees-publique.medicaments.gouv.fr/medicament/69985835/extrait) |
+| 2026-11-24 | Tableau : l’AMM 69985835 (IRBESARTAN CRISTERS 75 mg) est archivée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 69985835](https://base-donnees-publique.medicaments.gouv.fr/medicament/69985835/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Avapro (irbesartan) prescribing information, Sanofi-Aventis U.S. LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7885b2a8-be4e-48ab-8113-4e6ab791eb98) |
 
 <!-- review:end log -->

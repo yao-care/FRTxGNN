@@ -86,13 +86,32 @@ Sélection des publications les plus pertinentes pour l'ictère obstructif :
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68014679 | LAXARON 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM annulée) |
-| 62729121 | DUPHALAC 66,5 POUR CENT, solution buvable en flacon | Solution buvable | Non renseignée (AMM active) |
-| 60155329 | DUPHALAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM active) |
-| 62608575 | LACTULOSE BIOGARAN 66,5 %, solution buvable | Solution buvable | Non renseignée (AMM active) |
-| 64834085 | LAEVOLAC 10 g/15 ml, solution buvable en sachet | Solution buvable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62729121 | DUPHALAC 66,5 POUR CENT, solution buvable en flacon | Solution buvable | COOPER CONSUMER NETHERLANDS (PAYS-BAS) | Active |
+| 60155329 | DUPHALAC 10 g/15 ml, solution buvable en sachet | Solution buvable | COOPER CONSUMER NETHERLANDS (PAYS-BAS) | Active |
+| 62608575 | LACTULOSE BIOGARAN 66,5 %, solution buvable | Solution buvable | BIOGARAN | Active |
+| 64834085 | LAEVOLAC 10 g/15 ml, solution buvable en sachet | Solution buvable | FRESENIUS KABI AUSTRIA (AUTRICHE) | Active |
+| 65512799 | LACTULOSE ZENTIVA 10 g, solution buvable en sachet-dose | Solution buvable | ZENTIVA FRANCE | Active |
+| 63925817 | LACTULOSE VIATRIS SANTE 10 g, solution buvable en sachet-dose | Solution buvable | VIATRIS SANTE | Active |
+| 69429411 | MELAXOSE, pâte orale en pot | Pâte | BIOCODEX | Active |
+| 61564058 | MELAXIB 3,50 g/4,29 g/2,14 g pour 10 g, pâte orale en sachet | Pâte | BIOCODEX | Active |
+| 68158028 | TRANSULOSE, gelée orale en pot | Gelée | BIOCODEX | Active |
+| 61118159 | FLORALAC 10 g/15 ml, solution buvable en sachet | Solution buvable | FRESENIUS KABI AUSTRIA (AUTRICHE) | Active |
+| 61208902 | LACTULOSE SANDOZ 10 g, solution buvable en sachet-dose | Solution buvable | SANDOZ | Active |
+| 64405125 | LACTULOSE BIOGARAN 10 g/15 ml, solution buvable en sachet | Solution buvable | BIOGARAN | Active |
+| 65533971 | LACTULOSE VIATRIS 10 g/15 ml, solution buvable en sachet | Solution buvable | VIATRIS SANTE | Active |
+| 66952196 | LACTULOSE COOPER 66,5 %, solution buvable | Solution buvable | COOPER CONSUMER NETHERLANDS (PAYS-BAS) | Active |
+| 67423559 | LAEVOLAC AROME PRUNE 10 g/15 ml, solution buvable en sachet | Solution buvable | FRESENIUS KABI AUSTRIA (AUTRICHE) | Active |
+| 67432348 | LACTULOSE ARROW 10 g/15 ml, solution buvable en sachet-dose | Solution buvable | ARROW GENERIQUES | Active |
+| 69828759 | LACTULOSE FRESENIUS 670 mg/ml, solution buvable en flacon | Solution buvable | FRESENIUS KABI AUSTRIA (AUTRICHE) | Active |
+| 68014679 | LAXARON 10 g/15 ml, solution buvable en sachet | Solution buvable | P&G HEALTH FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

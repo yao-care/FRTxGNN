@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "thiamine"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "primary hereditary glaucoma", "open-angle glaucoma"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Thiamine : nouvelle indication prédite, Résistance aux hormones thyroïdiennes due à une mutation du récepteur bêta des hormones thyroïdiennes (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM"
 ---
 
@@ -76,9 +76,15 @@ Aucune littérature associée disponible actuellement.
 
 La thiamine est commercialisée en France. Une seule AMM valide a été identifiée (médicament à substance unique).
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66824638 | PRINCI B, comprimé pelliculé (SERP) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66824638 | PRINCI B, comprimé pelliculé | Comprimé pelliculé | SERP | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -80,12 +80,35 @@ Aucune de ces publications ne teste la morphine dans le syndrome myofascial doul
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60576901 | MOSCONTIN 60 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
-| 60874417 | MOSCONTIN 100 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
-| 66828412 | MOSCONTIN 10 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
-| 66799334 | MOSCONTIN 30 mg | Comprimé enrobé à libération prolongée | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60576901 | MOSCONTIN 60 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | MUNDIPHARMA | Active |
+| 60874417 | MOSCONTIN 100 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | MUNDIPHARMA | Active |
+| 66828412 | MOSCONTIN 10 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | MUNDIPHARMA | Active |
+| 66799334 | MOSCONTIN 30 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | MUNDIPHARMA | Active |
+| 60328261 | ACTISKENAN 5 mg, comprimé orodispersible | Comprimé orodispersible | ETHYPHARM | Active |
+| 60651453 | MORPHINE (SULFATE) LAVOISIER 1 mg/ml, solution injectable | Solution injectable | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 60696651 | SKENAN L.P. 200 mg, microgranules à libération prolongée en gélule | Microgranule à libération prolongée en gélule | ETHYPHARM | Active |
+| 60765898 | ACTISKENAN 2,5 mg, comprimé orodispersible | Comprimé orodispersible | ETHYPHARM | Active |
+| 60907447 | SEVREDOL 10 mg, comprimé pelliculé | Comprimé pelliculé | MUNDIPHARMA | Active |
+| 61227030 | SKENAN L.P. 10 mg, microgranules à libération prolongée en gélule | Microgranule à libération prolongée en gélule | ETHYPHARM | Active |
+| 61454213 | MORPHINE (SULFATE) LAVOISIER 50 mg/ml, solution injectable | Solution injectable | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 62417470 | ACTISKENAN 5 mg, gélule | Gélule | ETHYPHARM | Active |
+| 62469549 | ACTISKENAN 1 mg, comprimé orodispersible | Comprimé orodispersible | ETHYPHARM | Active |
+| 62820286 | ACTISKENAN 30 mg, gélule | Gélule | ETHYPHARM | Active |
+| 63175461 | SKENAN L.P. 60 mg, microgranules à libération prolongée en gélule | Microgranule à libération prolongée en gélule | ETHYPHARM | Active |
+| 63454500 | ACTISKENAN 10 mg, comprimé orodispersible | Comprimé orodispersible | ETHYPHARM | Active |
+| 63594630 | ACTISKENAN 20 mg, comprimé orodispersible | Comprimé orodispersible | ETHYPHARM | Active |
+| 64288864 | ACTISKENAN 10 mg, gélule | Gélule | ETHYPHARM | Active |
+| 64373026 | ACTISKENAN 30 mg, comprimé orodispersible | Comprimé orodispersible | ETHYPHARM | Active |
+| 65036909 | ORAMORPH 10 mg/5 ml, solution buvable en récipient unidose | Solution buvable | MOLTENI & ALITTI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

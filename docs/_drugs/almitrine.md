@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 1
 monitor_inn: "ALMITRINE"
 predicted_indications: ["bronchitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Almitrine : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L3). En France, AMM dans la BDPM : 1 (valides : 0)"
 ---
 
@@ -82,9 +82,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60047143 | VECTARION INJECTABLE, lyophilisat et solution pour préparation injectable | Lyophilisat et solution pour préparation injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60047143 | VECTARION INJECTABLE, lyophilisat et solution pour préparation injectable | Lyophilisat et solution pour préparation injectable | LES LABORATOIRES SERVIER | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 L'unique autorisation enregistrée (laboratoires Servier) est annulée : aucun produit à base d'almitrine n'est actuellement valide dans les données locales.
 

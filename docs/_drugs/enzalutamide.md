@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 286
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ENZALUTAMIDE"
 predicted_indications: ["prostate leiomyoma", "Brenner tumor", "fibroma of prostate", "benign reproductive system neoplasm", "benign prostate phyllodes tumor"]
 description: "Enzalutamide : nouvelle indication prédite, Prostate leiomyoma (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -101,9 +101,15 @@ Pour la catégorie « tumeur bénigne de l'appareil reproducteur » (rang 5), ci
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64093355 | XTANDI 40 mg, comprimé pelliculé (Astellas Pharma Europe, Pays-Bas) | Comprimé pelliculé | Non renseignée — AMM active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64093355 | XTANDI 40 mg, comprimé pelliculé | Comprimé pelliculé | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

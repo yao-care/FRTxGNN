@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 707
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lung PEComa", "vulva sarcoma"]
 description: "Sirolimus : nouvelle indication prédite, Liposarcome (liposarcoma) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -79,12 +79,18 @@ Cette hypothèse reste toutefois indirecte. Les travaux disponibles sont des rev
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61752409 | RAPAMUNE 1 mg/ml | Solution buvable | Non renseignée (AMM active) |
-| 64597615 | RAPAMUNE 1 mg | Comprimé enrobé | Non renseignée (AMM active) |
-| 65164182 | RAPAMUNE 2 mg | Comprimé enrobé | Non renseignée (AMM active) |
-| 69171174 | RAPAMUNE 0,5 mg | Comprimé enrobé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61752409 | RAPAMUNE 1 mg/ml, solution buvable | Solution buvable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 64597615 | RAPAMUNE 1 mg, comprimé enrobé | Comprimé enrobé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 65164182 | RAPAMUNE 2 mg, comprimé enrobé | Comprimé enrobé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 69171174 | RAPAMUNE 0,5 mg, comprimé enrobé | Comprimé enrobé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le sirolimus est commercialisé en France ; les quatre AMM sont valides.
 

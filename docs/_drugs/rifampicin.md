@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 666
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "rifampicin"
 predicted_indications: ["conjunctivitis", "multiple endocrine neoplasia", "acne (disease)", "conjunctivitis (disease)", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acute contagious conjunctivitis", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome"]
 description: "Rifampicin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -95,13 +95,20 @@ Le médicament est commercialisé : les 6 AMM associées sont valides (6 sur 6) 
 
 <!-- review:end fr-lic-20261106-rifampicin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63096551 | RIFADINE IV 600 mg | Poudre et solvant pour solution pour perfusion | Non renseignée (AMM active) |
-| 66404004 | RIMACTAN 300 mg | Gélule | Non renseignée (AMM active) |
-| 67876901 | RIFADINE 300 mg | Gélule | Non renseignée (AMM active) |
-| 64085981 | RIFADINE 2 POUR CENT | Suspension buvable | Non renseignée (AMM active) |
-| 63898512 | RIFINAH 300 mg/150 mg | Comprimé enrobé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63096551 | RIFADINE IV 600 mg, poudre et solvant pour solution pour perfusion | Poudre et solvant pour solution pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 66404004 | RIMACTAN 300 mg, gélule | Gélule | SANDOZ | Active |
+| 67876901 | RIFADINE 300 mg, gélule | Gélule | SANOFI WINTHROP INDUSTRIE | Active |
+| 64085981 | RIFADINE 2 POUR CENT, suspension buvable | Suspension buvable | SANOFI WINTHROP INDUSTRIE | Active |
+| 63898512 | RIFINAH 300 mg/150 mg, comprimé enrobé | Comprimé enrobé | SANOFI WINTHROP INDUSTRIE | Active |
+| 64208131 | RIFATER, comprimé enrobé | Comprimé enrobé | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

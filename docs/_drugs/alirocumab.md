@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ALIROCUMAB"
 predicted_indications: ["ichthyosis, X-linked, without steroid sulfatase deficiency", "disorder of other vitamins and cofactors metabolism and transport", "xanthomatosis (disease)", "46,XY disorder of sexual development due to dihydrotestosterone backdoor pathway biosynthesis defect", "cholesterol catabolic process disease", "46,XY disorder of sex development due to a cholesterol synthesis defect", "dappled diaphyseal dysplasia", "neutral lipid storage disease", "3-hydroxyacyl-CoA dehydrogenase deficiency", "spastic paraplegia-optic atrophy-neuropathy and spastic paraplegia-optic atrophy-neuropathy-related disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alirocumab : nouvelle indication prédite, Ichtyose liée à l'X, sans déficit en stéroïde sulfatase (ichthyosis, X-linked, without steroid sulfatase deficiency) (niveau de preuve L5). Indication d'orig…"
 ---
 
@@ -70,11 +70,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64363384 | PRALUENT 300 mg, solution injectable en stylo pré-rempli | Solution injectable | Non renseignée |
-| 60570108 | PRALUENT 75 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée |
-| 68788824 | PRALUENT 150 mg, solution injectable en stylo prérempli | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64363384 | PRALUENT 300 mg, solution injectable en stylo pré-rempli | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 60570108 | PRALUENT 75 mg, solution injectable en stylo prérempli | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 68788824 | PRALUENT 150 mg, solution injectable en stylo prérempli | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

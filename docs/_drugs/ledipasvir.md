@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 440
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ledipasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L2). Indication d'origine : Infection chronique par le virus de l'hépatite C (le texte de l'indic…"
 monitor_inn: "ledipasvir"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "Kyasanur forest disease", "chronic hepatitis B virus infection", "HIV infectious disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection"]
@@ -86,15 +86,15 @@ Une étude de phase 2 chez des patients monoinfectés par le VHB (publication de
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | Texte de l'indication non renseigné |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-ledipasvir-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 64426906 (abrogée) » Selon la BDPM (données du 2026-11-09), l’AMM 64426906 (HARVONI 90 mg/400 mg, comprimé pelliculé) a le statut « Autorisation active » ; la mention « abrogée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-ledipasvir-1 -->
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 
@@ -141,7 +141,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le produit n'a plus d'AMM active en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « puisque l'unique AMM est abrogée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 64426906 (HARVONI 90 mg/400 mg) est active, non abrogée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 64426906 (HARVONI 90 mg/400 mg) est active, non abrogée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL2374220 (ledipasvir): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL2374220) |
 
 <!-- review:end log -->

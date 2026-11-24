@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 525
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "naproxen"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome"]
 description: "Naproxen : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
@@ -92,13 +92,26 @@ Le texte des indications approuvées n'est pas renseigné. Les 5 premières sont
 
 <!-- review:end fr-lic-20261106-naproxen-1 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 61990606 | Naproxène sodique Arrow 550 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 62237910 | Alevetabs 220 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69378155 | Naprosyne 250 mg | Comprimé | Non renseignée (AMM active) |
-| 67849644 | Apranax 275 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63738842 | Apranax 550 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61990606 | NAPROXENE SODIQUE ARROW 550 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 62237910 | ALEVETABS 220 mg, comprimé pelliculé | Comprimé pelliculé | BAYER HEALTHCARE | Active |
+| 69378155 | NAPROSYNE 250 mg, comprimé | Comprimé | LABORATOIRES GRUNENTHAL | Active |
+| 67849644 | APRANAX 275 mg, comprimé pelliculé | Comprimé pelliculé | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 63738842 | APRANAX 550 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 62047793 | NAPROXENE SODIQUE EG 550 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69488210 | ANTALNOX 550 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SUBSTIPHARM | Active |
+| 67565882 | APRANAX 750 mg, comprimé | Comprimé | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 67183480 | NAPROSYNE 500 mg, comprimé | Comprimé | LABORATOIRES GRUNENTHAL | Active |
+| 60752908 | NAPROSYNE 1000 mg, comprimé | Comprimé | LABORATOIRES GRUNENTHAL | Active |
+| 60947025 | NAPROXENE SODIQUE TEVA 550 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 67435682 | NOMANESIT 85 mg/500 mg comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

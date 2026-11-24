@@ -76,13 +76,30 @@ Les données locales recensent 16 AMM pour des spécialités à base de brivarac
 
 <!-- review:end fr-lic-20261124-brivaracetam-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 64065772 | BRIVIACT 10 mg, comprimé pelliculé | comprimé pelliculé |
-| 67429003 | BRIVIACT 10 mg/ml, solution buvable | solution buvable |
-| 63546596 | BRIVIACT 100 mg, comprimé pelliculé | comprimé pelliculé |
-| 64872342 | BRIVIACT 25 mg, comprimé pelliculé | comprimé pelliculé |
-| 60579228 | BRIVIACT 10 mg/ml, solution injectable/pour perfusion | solution injectable ou pour perfusion |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64065772 | BRIVIACT 10 mg, comprimé pelliculé | Comprimé pelliculé | UCB PHARMA BELGIQUE | Active |
+| 67429003 | BRIVIACT 10 mg/ml, solution buvable | Solution buvable | UCB PHARMA BELGIQUE | Active |
+| 63546596 | BRIVIACT 100 mg, comprimé pelliculé | Comprimé pelliculé | UCB PHARMA BELGIQUE | Active |
+| 64872342 | BRIVIACT 25 mg, comprimé pelliculé | Comprimé pelliculé | UCB PHARMA BELGIQUE | Active |
+| 60579228 | BRIVIACT 10 mg/ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | UCB PHARMA BELGIQUE | Active |
+| 64002423 | BRIVIACT 50 mg, comprimé pelliculé | Comprimé pelliculé | UCB PHARMA BELGIQUE | Active |
+| 65519142 | BRIVIACT 75 mg, comprimé pelliculé | Comprimé pelliculé | UCB PHARMA BELGIQUE | Active |
+| 60632830 | BRIVARACETAM ZENTIVA 75 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61677497 | BRIVARACETAM TEVA 50 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 63167856 | BRIVARACETAM ZENTIVA 100 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63607323 | BRIVARACETAM TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 63887786 | BRIVARACETAM ZENTIVA 50 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 64323258 | BRIVARACETAM TEVA 25 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 65528013 | BRIVARACETAM TEVA 100 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67062087 | BRIVARACETAM TEVA 75 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67759008 | BRIVARACETAM ZENTIVA 25 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

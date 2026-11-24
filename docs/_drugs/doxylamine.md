@@ -81,12 +81,30 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62382724 | DONORMYL 15 mg, comprimé pelliculé sécable (UPSA) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 67103299 | DONORMYL 15 mg, comprimé effervescent sécable (UPSA) | Comprimé effervescent sécable | Non renseignée (AMM active) |
-| 64881366 | LIDENE 15 mg, comprimé pelliculé sécable (COOPER) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 61447165 | CARIBAN 10 mg/10 mg, gélule à libération modifiée (EFFIK) | Gélule à libération modifiée | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62382724 | DONORMYL 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | UPSA | Active |
+| 67103299 | DONORMYL 15 mg, comprimé effervescent sécable | Comprimé effervescent(e) sécable | UPSA | Active |
+| 64881366 | LIDENE 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 61447165 | CARIBAN 10 mg/10 mg, gélule à libération modifiée | Gélule à libération modifiée | EFFIK | Active |
+| 60019329 | DOXYLAMINE CRISTERS 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 64741955 | DOXYLAMINE ARROW CONSEIL 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 65330992 | DOXYLAMINE BIOGARAN CONSEIL 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 66011467 | DOXYLAMINE SANDOZ CONSEIL 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 66335825 | DOXYLAMINE VIATRIS CONSEIL 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 67453787 | DOXYLAMINE ZENTIVA CONSEIL 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 67657117 | DOXYLAMINE TEVA CONSEIL 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 67698929 | DOXYLAMINE KRKA 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | KRKA (SLOVENIE) | Active |
+| 68781121 | DOXYLAMINE EG LABO 15 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63374431 | XONVEA 10 mg/10 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | EXELTIS SANTE | Active |
+| 66800021 | XONVEA 20 mg/20 mg, comprimé à libération modifiée | Comprimé à libération modifiée | EXELTIS SANTE | Active |
+| 60028495 | DOLIRHUMEPRO PARACETAMOL, PSEUDOEPHEDRINE ET DOXYLAMINE, comprimé | Comprimé et comprimé | OPELLA HEALTHCARE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

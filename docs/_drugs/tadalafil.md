@@ -85,13 +85,35 @@ Le texte des indications approuvees n'est pas renseigne. Les cinq premieres sont
 
 <!-- review:end fr-lic-20261106-tadalafil-1 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63324624 | TADALAFIL BIOGARAN 10 mg | Comprime pelllicule | Active |
-| 65834394 | CIALIS 10 mg | Comprime pelllicule | Active |
-| 64194023 | TADALAFIL ALMUS 20 mg | Comprime pelllicule | Active |
-| 64615675 | TADALAFIL EG LABO 20 mg | Comprime pelllicule secable | Active |
-| 65869623 | TADALAFIL ALMUS 5 mg | Comprime pelllicule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63324624 | TADALAFIL BIOGARAN 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65834394 | CIALIS 10 mg, comprimé pelliculé | Comprimé pelliculé | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 64194023 | TADALAFIL ALMUS 20 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 64615675 | TADALAFIL EG LABO 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65869623 | TADALAFIL ALMUS 5 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 61541141 | TADALAFIL LA COLINA 5 mg, comprimé pelliculé | Comprimé pelliculé | LA COLINA (FRANCE) | Active |
+| 63677161 | TADALAFIL CRISTERS PHARMA 20 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 64328650 | TADALAFIL ACCORD 20 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 65332662 | TADALAFIL LILLY 20 mg, comprimé pelliculé | Comprimé pelliculé | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 67717137 | TADALAFIL LILLY 5 mg, comprimé pelliculé | Comprimé pelliculé | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 65597714 | TALMANCO 20 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 64959427 | TADALAFIL EG LABO 5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69032573 | TADALAFIL SANDOZ 10 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66982990 | TADALAFIL KRKA 10 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 68436246 | TADALAFIL LILLY 10 mg, comprimé pelliculé | Comprimé pelliculé | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 60433344 | TADALAFIL TEVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 68893921 | TADALAFIL ZYDUS 20 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 61394054 | TADALAFIL LA COLINA 20 mg, comprimé pelliculé | Comprimé pelliculé | LA COLINA (FRANCE) | Active |
+| 69081339 | TADALAFIL CRISTERS 5 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+| 66704005 | TADALAFIL CRISTERS LAB 10 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

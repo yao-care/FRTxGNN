@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 215
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Daptomycin : nouvelle indication prédite, Arthrose (osteoarthritis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (les textes d'indicat…"
 monitor_inn: "daptomycin"
 predicted_indications: ["osteoarthritis", "rheumatoid arthritis", "gout", "pseudoachondroplasia", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome"]
@@ -108,13 +108,35 @@ Le texte d'indication approuvée n'est pas renseigné. Les 5 premières sont lis
 
 <!-- review:end fr-lic-20261106-daptomycin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66921973 | Daptomycine Medac 500 mg | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 69064891 | Daptomycine Accordpharma 350 mg | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 65858420 | Daptomycine Accordpharma 500 mg | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 65568538 | Daptomycine Hikma Pharma 350 mg | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 69024555 | Daptomycine Medac 350 mg | Poudre pour solution injectable ou pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66921973 | DAPTOMYCINE MEDAC 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | MEDAC | Active |
+| 69064891 | DAPTOMYCINE ACCORDPHARMA 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 65858420 | DAPTOMYCINE ACCORDPHARMA 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 65568538 | DAPTOMYCINE HIKMA PHARMA 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69024555 | DAPTOMYCINE MEDAC 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | MEDAC | Active |
+| 67823902 | DAPTOMYCINE REDDY PHARMA 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | REDDY PHARMA | Active |
+| 64369031 | DAPTOMYCINE REDDY PHARMA 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | REDDY PHARMA | Active |
+| 68298553 | DAPTOMYCINE HOSPIRA 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 61183947 | DAPTOMYCINE ACCORD 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 62442395 | CUBICIN 500 mg, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 60618229 | DAPTOMYCINE XELLIA 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | XELLIA HARMACEUTICALS (DANEMARK) | Active |
+| 69119067 | DAPTOMYCINE TILLOMED 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 67604335 | DAPTOMYCINE HIKMA PHARMA 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 62523160 | DAPTOMYCINE HIKMA 350 mg, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69082149 | DAPTOMYCINE ACCORD 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 69811090 | CUBICIN 350 mg, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 62594905 | DAPTOMYCINE XELLIA 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | XELLIA HARMACEUTICALS (DANEMARK) | Active |
+| 61118764 | DAPTOMYCINE NORIDEM 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | NORIDEM ENTREPRISES LIMITED (CHYPRE) | Active |
+| 62815606 | DAPTOMYCINE TILLOMED 350 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 68583470 | DAPTOMYCINE HOSPIRA 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

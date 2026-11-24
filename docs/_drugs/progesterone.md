@@ -91,13 +91,33 @@ La progestérone est commercialisée en France. Les données locales recensent 1
 
 <!-- review:end fr-lic-20261124-progesterone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60880975 | AMELGEN 400 mg, ovule | Ovule | Non renseignée |
-| 63157698 | UTROGESTAN 200 mg, capsule molle orale ou vaginale | Capsule molle | Non renseignée |
-| 64358280 | UTROGESTAN 400 mg, capsule molle vaginale | Capsule molle | Non renseignée |
-| 65015968 | CRINONE 80 mg/g, gel vaginal | Gel | Non renseignée |
-| 62684797 | PROGIRON 25 mg, solution injectable | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60880975 | AMELGEN 400 mg, ovule | Ovule | GEDEON RICHTER | Active |
+| 67407099 | PROGESTOGEL 1 POUR CENT, gel pour application locale | Gel pour application | BESINS HEALTHCARE FRANCE | Active |
+| 63157698 | UTROGESTAN 200 mg, capsule molle orale ou vaginale | Capsule molle ou | BESINS HEALTHCARE FRANCE | Active |
+| 64358280 | UTROGESTAN 400 mg, capsule molle vaginale | Capsule molle | BESINS HEALTHCARE FRANCE | Active |
+| 68025857 | PROGESTAN 200 mg, capsule molle ou capsule molle vaginale | Capsule molle | BESINS HEALTHCARE FRANCE | Active |
+| 60211678 | PROGESTERONUM LEHNING, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 65015968 | CRINONE 80 mg/g, gel vaginal | Gel | MERCK SANTE | Active |
+| 66426680 | PROGESTERONE BIOGARAN 200 mg, capsule molle ou capsule molle vaginale | Capsule molle | BIOGARAN | Active |
+| 61673424 | UTROGESTAN 100 mg, capsule molle orale ou vaginale | Capsule molle ou | BESINS HEALTHCARE FRANCE | Active |
+| 61497143 | ESTIMA 200 mg, capsule molle ou capsule molle vaginale | Capsule molle | EFFIK | Active |
+| 66156975 | PROGESTERONE VIATRIS 100 mg, capsule molle ou capsule molle vaginale | Capsule molle | EXELTIS SANTE | Active |
+| 64018267 | ESTIMA 100 mg, capsule molle orale ou vaginale | Capsule molle ou | EFFIK | Active |
+| 63393104 | PROGESTAN 100 mg, capsule molle ou capsule molle vaginale | Capsule molle | BESINS HEALTHCARE FRANCE | Active |
+| 62684797 | PROGIRON 25 mg, soluton injectable | Solution injectable | IBSA PHARMA SAS | Active |
+| 62075038 | PROGESTERONE BIOGARAN 100 mg, capsule molle ou capsule molle vaginale | Capsule molle | BIOGARAN | Active |
+| 60114485 | PROGESTERONUM BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 68371204 | PROGIRON 25 mg, solution injectable en seringue préremplie | Solution injectable | IBSA PHARMA SAS | Active |
+| 66155948 | TROPHIGIL, gélule vaginale | Gélule | BESINS HEALTHCARE FRANCE | Active |
+| 67487622 | FLORGYNAL, gélule vaginale | Gélule | BIOSE INDUSTRIE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

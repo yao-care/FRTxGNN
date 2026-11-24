@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 687
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ruxolitinib"
 predicted_indications: ["uterine corpus perivascular epithelioid cell tumor", "benign PEComa", "lymphangiomyoma", "lymphangioleiomyomatosis", "liposarcoma", "familial rhabdoid tumor", "lung PEComa", "ovarian myxoid liposarcoma", "acquired hemophagocytic lymphohistiocytosis associated with malignant disease", "hemophagocytic syndrome associated with an infection"]
 description: "Ruxolitinib : nouvelle indication prédite, Uterine corpus perivascular epithelioid cell tumor (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -96,13 +96,20 @@ Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 
 <!-- review:end fr-lic-20261106-ruxolitinib-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 65291824 | JAKAVI 5 mg, comprimé | Comprimé | Novartis Europharm (Irlande) |
-| 66180136 | JAKAVI 20 mg, comprimé | Comprimé | Novartis Europharm (Irlande) |
-| 60672974 | JAKAVI 15 mg, comprimé | Comprimé | Novartis Europharm (Irlande) |
-| 68379069 | JAKAVI 5 mg/mL, solution buvable | Solution buvable | Novartis Europharm (Irlande) |
-| 68279528 | OPZELURA 15 mg/g, crème | Crème | Incyte Biosciences Distribution (Pays-Bas) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65291824 | JAKAVI 5 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 66180136 | JAKAVI 20 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 60672974 | JAKAVI 15 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 68379069 | JAKAVI 5 mg/mL, solution buvable | Solution buvable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 68279528 | OPZELURA 15 mg/g, crème | Crème | INCYTE BIOSCIENCES DISTRIBUTION (PAYS-BAS) | Active |
+| 65584250 | JAKAVI 10 mg, comprimé | Comprimé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

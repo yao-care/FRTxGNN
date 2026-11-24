@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 413
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "isavuconazonium"
 predicted_indications: ["pneumocystosis", "mycetoma"]
 description: "Isavuconazonium : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -88,10 +88,16 @@ Pour la prédiction secondaire (mycétome) :
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 69181040 | CRESEMBA 100 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 60184590 | CRESEMBA 200 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69181040 | CRESEMBA 100 mg, gélule | Gélule | BASILEA PHARMACEUTICA DEUTSCHLAND (ALLEMAGNE) | Active |
+| 60184590 | CRESEMBA 200 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | BASILEA PHARMACEUTICA DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

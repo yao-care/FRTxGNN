@@ -85,9 +85,23 @@ Les publications ci-dessous concernent la migraine en général ou ses formes me
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67586588 | NARAMIG 2,5 mg, comprimé pelliculé (GlaxoSmithKline) — active | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67586588 | NARAMIG 2,5 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE | Active |
+| 64876127 | NARATRIPTAN VIATRIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65017150 | NARATRIPTAN ZENTIVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66793438 | NARATRIPTAN BIOGARAN 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 67482194 | NARATRIPTAN SANDOZ 2,5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 68686698 | NARATRIPTAN EG 2,5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69298093 | NARATRIPTAN TEVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 69645626 | NARATRIPTAN ZYDUS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 69871575 | NARATRIPTAN ARROW 2,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

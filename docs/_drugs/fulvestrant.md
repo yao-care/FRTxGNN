@@ -81,13 +81,25 @@ Aucun essai clinique associé n'est enregistré actuellement pour l'infection pa
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60446306 | Fulvestrant EG 250 mg | Solution injectable | Non renseignée |
-| 66475706 | Fulvestrant Arrow 250 mg | Solution injectable | Non renseignée |
-| 69289895 | Fulvestrant Mylan 250 mg | Solution injectable | Non renseignée |
-| 63545028 | Faslodex 250 mg | Solution injectable | Non renseignée |
-| 62062457 | Fulvestrant Sandoz 250 mg | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60446306 | FULVESTRANT EG 250 mg, solution injectable en seringue préremplie | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66475706 | FULVESTRANT ARROW 250 mg, solution injectable en seringue pré-remplie | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 69289895 | FULVESTRANT MYLAN 250 mg, solution injectable en seringue préremplie | Solution injectable | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 63545028 | FASLODEX 250 mg, solution injectable | Solution injectable | ASTRAZENECA AB | Active |
+| 62062457 | FULVESTRANT SANDOZ 250 mg, solution injectable en seringue pré-remplie | Solution injectable | SANDOZ | Active |
+| 66855936 | FULVESTRANT ACCORD 250 mg, solution injectable en seringue pré-remplie | Solution injectable | ACCORD HEALTHCARE FRANCE | Active |
+| 68787149 | FULVESTRANT HIKMA 250 mg, solution injectable en seringue pré-remplie | Solution injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 64519965 | FULVESTRANT BIOGARAN 250 mg, solution injectable en seringue préremplie | Solution injectable | BIOGARAN | Active |
+| 63572534 | FULVESTRANT ZENTIVA 250 mg, solution injectable en seringue préremplie | Solution injectable | ZENTIVA FRANCE | Active |
+| 63053767 | FULVESTRANT TEVA 250 mg, solution injectable en seringue préremplie | Solution injectable | TEVA SANTE | Active |
+| 65606558 | FULVESTRANT EG LABO 250 mg, solution injectable en seringue préremplie | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

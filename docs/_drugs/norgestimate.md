@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 548
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NORGESTIMATE"
 predicted_indications: ["zinc, elevated plasma"]
 description: "Norgestimate : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -85,13 +85,21 @@ Le texte d'indication approuvée n'est pas renseigné.
 
 <!-- review:end fr-lic-20261106-norgestimate-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65464991 | NARAVELA 250 µg/35 µg, comprimé | Comprimé | Active |
-| 67592737 | TRINARA CONTINU, comprimé pelliculé | Comprimé | Active |
-| 68322762 | TRIAFEMI, comprimé | Comprimé (3 types) | Active |
-| 69274060 | TRINARA, comprimé pelliculé | Comprimé pelliculé (3 types) | Active |
-| 66449857 | OPTIKINZY 250 µg/35 µg, comprimé | Comprimé (2 types) | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65464991 | NARAVELA 250 microgrammes/35 microgrammes, comprimé | Comprimé | EXELTIS HEALTHCARE (ESPAGNE) | Active |
+| 67592737 | TRINARA CONTINU, comprimé pelliculé | Comprimé(s) | EXELTIS HEALTHCARE (ESPAGNE) | Active |
+| 68322762 | TRIAFEMI, comprimé | Comprimé et comprimé et comprimé | EFFIK | Active |
+| 69274060 | TRINARA, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé et comprimé pellic… | EXELTIS HEALTHCARE (ESPAGNE) | Active |
+| 66449857 | OPTIKINZY 250 microgrammes/35 microgrammes, comprimé | Comprimé et comprimé | LABORATOIRES MAJORELLE | Active |
+| 69090320 | TRIAFEMI CONTINU, comprimé | Comprimé(s) | EFFIK | Active |
+| 69140061 | FEMI, comprimé | Comprimé | EFFIK | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

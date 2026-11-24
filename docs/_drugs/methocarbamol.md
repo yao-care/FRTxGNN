@@ -70,10 +70,18 @@ Aucune littérature associée disponible actuellement pour le syndrome de la que
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60665015 | METHOCARBAMOL ARROW 500 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non précisée |
-| 67212035 | LUMIRELAX 500 mg, comprimé (statut : active) | Comprimé | Non précisée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60665015 | METHOCARBAMOL ARROW 500 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67212035 | LUMIRELAX 500 mg, comprimé | Comprimé | LABORATOIRES JUVISE PHARMACEUTICALS | Active |
+| 63342106 | METHOCARBAMOL BIOGARAN 500 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 60845223 | LUMIRELAX 10 %, crème | Crème | LABORATOIRES JUVISE PHARMACEUTICALS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

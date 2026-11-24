@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "cemiplimab"
 predicted_indications: ["gallbladder adenosquamous carcinoma", "rectal cloacogenic carcinoma", "adenosquamous prostate carcinoma", "urethral verrucous carcinoma", "pancreatic adenosquamous carcinoma"]
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 description: "Cemiplimab : nouvelle indication prédite, Carcinome adénosquameux de la vésicule biliaire (gallbladder adenosquamous carcinoma) (niveau de preuve L5)."
 ---
 
@@ -72,9 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 Le cémiplimab est commercialisé en France. Une AMM valide est recensée.
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 61660291 | LIBTAYO 350 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61660291 | LIBTAYO 350 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | REGENERON IRELAND DESIGNATED ACTIVITY COMPANY (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

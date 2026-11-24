@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CALCITRIOL"
 predicted_indications: ["obsolete vitamin D deficiency", "renal tubular acidosis", "acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "hereditary hypophosphatemic rickets"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Calcitriol : nouvelle indication prédite, Carence en vitamine D obsolète (obsolete vitamin D deficiency) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 Les données compilées pour ce rapport recensent deux autorisations de mise sur le marché pour des produits à base de calcitriol seul, sans texte d'indication enregistré :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 61847953 | ROCALTROL 0,25 microgramme, capsule molle | Capsule molle |
-| 62597239 | SILKIS 3 microgrammes/g, pommade | Pommade |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61847953 | ROCALTROL 0,25 microgramme, capsule molle | Capsule molle | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 62597239 | SILKIS 3 microgrammes/g, pommade | Pommade | GALDERMA INTERNATIONAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

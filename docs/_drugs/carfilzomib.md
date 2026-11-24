@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "CARFILZOMIB"
 predicted_indications: ["CMM7", "pediatric leptomeningeal melanoma", "epithelioid cell uveal melanoma", "vulvar melanoma (disease)", "melanoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carfilzomib : nouvelle indication prédite, CMM7 (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
@@ -72,11 +72,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69270884 | KYPROLIS 30 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée |
-| 62529551 | KYPROLIS 10 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée |
-| 64296925 | KYPROLIS 60 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69270884 | KYPROLIS 30 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | AMGEN EUROPE | Active |
+| 62529551 | KYPROLIS 10 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | AMGEN EUROPE | Active |
+| 64296925 | KYPROLIS 60 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | AMGEN EUROPE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

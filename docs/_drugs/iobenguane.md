@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 405
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "IOBENGUANE"
 predicted_indications: ["hypotensive disorder", "multiple system atrophy", "variably protease-sensitive prionopathy", "postural orthostatic tachycardia syndrome"]
 description: "Iobenguane : nouvelle indication prédite, Trouble hypotensif (hypotensive disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -75,9 +75,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 64886840 | MIBG [123 I] 74 MBq/mL solution injectable (CURIUM NETHERLANDS, Pays-Bas) — statut : active | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64886840 | MIBG [123 I] 74 MBq/mL solution injectable | Solution injectable | CURIUM NETHERLANDS (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

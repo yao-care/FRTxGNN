@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CIPROFIBRATE"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "fibroma of prostate"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciprofibrate : nouvelle indication prédite, Déficience en protéine de transfert des esters de cholestérol (cholesterol-ester transfer protein deficiency) (niveau de preuve L5). Indication d'origine :…"
 ---
 
@@ -76,11 +76,17 @@ Aucun essai clinique associé enregistré actuellement.
 
 Le ciprofibrate est commercialisé en France. Les trois AMM sont des spécialités à substance unique, valides. Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66475325 | LIPANOR 100 mg, gélule (Sanofi Winthrop Industrie) | Gélule | Non renseignée |
-| 66866758 | CIPROFIBRATE BIOGARAN 100 mg, gélule | Gélule | Non renseignée |
-| 62938313 | CIPROFIBRATE ARROW 100 mg, gélule (Arrow Génériques) | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66475325 | LIPANOR 100 mg, gélule | Gélule | SANOFI WINTHROP INDUSTRIE | Active |
+| 66866758 | CIPROFIBRATE BIOGARAN 100 mg, gélule | Gélule | BIOGARAN | Active |
+| 62938313 | CIPROFIBRATE ARROW 100 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

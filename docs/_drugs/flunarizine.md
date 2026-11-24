@@ -3,7 +3,7 @@ layout: default
 title: Flunarizine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 336
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Flunarizine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,15 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 61247136 | FLUNARIZINE (DICHLORHYDRATE DE) | comprimé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61247136 | SIBELIUM 10 mg, comprimé sécable | Comprimé sécable | JANSSEN CILAG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

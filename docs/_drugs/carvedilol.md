@@ -74,13 +74,35 @@ Aucune littérature associée disponible actuellement.
 
 Les données compilées font état de 20 AMM, la liste étant partielle. Les 5 premières sont présentées ci-dessous ; le texte d'indication approuvée n'est pas renseigné dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 63608400 | CARVEDILOL ARROW 25 mg, comprimé pelliculé sécable | comprimé pelliculé sécable |
-| 63812043 | CARVEDILOL VIATRIS 12,5 mg, comprimé pelliculé sécable | comprimé pelliculé sécable |
-| 64203045 | CARVEDILOL EG 12,5 mg, comprimé pelliculé sécable | comprimé pelliculé sécable |
-| 64233832 | KREDEX 6,25 mg, comprimé sécable | comprimé sécable |
-| 68474364 | CARVEDILOL TEVA 6,25 mg, comprimé sécable | comprimé sécable |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63608400 | CARVEDILOL ARROW 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 63812043 | CARVEDILOL VIATRIS 12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 64203045 | CARVEDILOL EG 12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64233832 | KREDEX 6,25 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 68474364 | CARVEDILOL TEVA 6,25 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 61271735 | KREDEX 12,5 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64109927 | CARVEDILOL BIOGARAN 12,5 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 61639048 | CARVEDILOL ARROW 12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 62997144 | CARVEDILOL EG 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63476315 | CARVEDILOL VIATRIS 6,25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 66334926 | CARVEDILOL EG 6,25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60016308 | CARVEDILOL VIATRIS 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 69855425 | CARVEDILOL TEVA 12,5 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 66512407 | CARVEDILOL TEVA 25 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 62753777 | CARVEDILOL ARROW 6,25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68296050 | KREDEX 25 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64363338 | CARVEDILOL BIOGARAN 25 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 61045978 | CARVEDILOL BIOGARAN 6,25 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 68375366 | CARVECORAL 25 mg/5 mg, comprimé pelliculé | Comprimé pelliculé | LES LABORATOIRES SERVIER | Abrogée |
+| 67162792 | CARVECORAL 12,5 mg/7,5 mg, comprimé pelliculé | Comprimé pelliculé | LES LABORATOIRES SERVIER | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

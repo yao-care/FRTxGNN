@@ -72,9 +72,24 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69445593 (annulée) | OPTRUMA 60 mg, comprimé pelliculé (ELI LILLY NEDERLAND BV, Pays-Bas) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61192704 | RALOXIFENE EG 60 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61542325 | RALOXIFENE ARROW 60 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67050747 | RALOXIFENE TEVA 60 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67365141 | EVISTA 60 mg, comprimé pelliculé | Comprimé pelliculé | SUBSTIPHARM | Active |
+| 67392156 | RALOXIFENE ZENTIVA 60 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 67482059 | RALOXIFENE VIATRIS 60 mg, comprimé pelliculé | Comprimé pelliculé | EXELTIS SANTE | Active |
+| 67760715 | RALOXIFENE BIOGARAN 60 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68001016 | RALOXIFENE SANDOZ 60 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69243410 | RALOXIFENE CRISTERS 60 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 69445593 | OPTRUMA 60 mg, comprimé pelliculé | Comprimé pelliculé | ELI LILLY NEDERLAND BV (PAY-BAS) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

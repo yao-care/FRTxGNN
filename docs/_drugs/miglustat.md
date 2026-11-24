@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 500
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIGLUSTAT"
 predicted_indications: ["autosomal ichthyosis syndrome with fatal disease course", "cholesteryl ester storage disease", "Krabbe disease", "metachromatic leukodystrophy", "Wolman disease with hypolipoproteinemia and acanthocytosis", "encephalopathy due to prosaposin deficiency", "Tay-Sachs disease", "benign neoplasm of adrenal gland", "recessive X-linked ichthyosis", "fatty acid hydroxylase-associated neurodegeneration"]
 description: "Miglustat : nouvelle indication prédite, Autosomal ichthyosis syndrome with fatal disease course (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -95,13 +95,21 @@ Les données disponibles tempèrent toutefois cet espoir. Une étude de cas de d
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65793983 | ZAVESCA 100 mg | Gélule | Non renseignée (AMM active) |
-| 61255179 | MIGLUSTAT GEN.ORPH 100 mg | Gélule | Non renseignée (AMM active) |
-| 64394668 | MIGLUSTAT BLUEFISH 100 mg | Gélule | Non renseignée (AMM active) |
-| 62931799 | MIGLUSTAT DIPHARMA 100 mg | Gélule | Non renseignée (AMM active) |
-| 66036869 | MIGLUSTAT ACCORD 100 mg | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61255179 | MIGLUSTAT GEN.ORPH 100 mg, gélule | Gélule | GEN.ORPH | Active |
+| 64394668 | MIGLUSTAT BLUEFISH 100 mg, gélule | Gélule | BLUEFISH PHARMACEUTICALS (SUEDE) | Active |
+| 62931799 | MIGLUSTAT DIPHARMA 100 mg, gélule | Gélule | DIPHARMA ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 66036869 | MIGLUSTAT ACCORD 100 mg, gélule | Gélule | ACCORD HEALTHCARE FRANCE | Active |
+| 65793983 | ZAVESCA 100 mg, gélule | Gélule | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 61479921 | OPFOLDA 65 mg, gélule | Gélule | AMICUS THERAPEUTICS EUROPE (IRLANDE) | Active |
+| 68836272 | YARGESA 100 mg, gélule | Gélule | PIRAMAL CRITICAL CARE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

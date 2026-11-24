@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 382
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "hydroxocobalamin"
 predicted_indications: ["esophageal varices without bleeding", "esophageal varices with bleeding"]
 description: "Hydroxocobalamin : nouvelle indication prédite, Esophageal varices without bleeding (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -71,10 +71,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60232334 | CYANOKIT 5 g, poudre pour solution pour perfusion (SERB) | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 62597431 | DODECAVIT 0,5 mg/ml, solution injectable IM (SERB) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60232334 | CYANOKIT 5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SERB (BELGIQUE) | Active |
+| 62597431 | DODECAVIT 0,5 mg/ml, solution injectable IM | Solution injectable | SERB | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

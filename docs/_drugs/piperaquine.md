@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 607
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "piperaquine"
 predicted_indications: ["cystic echinococcosis", "echinococcus granulosus infectious disease"]
 description: "Piperaquine : nouvelle indication prédite, Cystic echinococcosis (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -98,9 +98,15 @@ Parmi les 19 essais recensés, voici les 10 plus pertinents (priorité aux essai
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62434676 | EURARTESIM 320 mg/40 mg, comprimé pelliculé (ALFASIGMA, Italie) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62434676 | EURARTESIM 320 mg/40 mg, comprimé pelliculé | Comprimé pelliculé | ALFASIGMA (ITALIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

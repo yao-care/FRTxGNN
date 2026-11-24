@@ -82,13 +82,20 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66845924 | NEXPLANON 68 mg, implant pour usage sous-cutané | Implant | Non renseignée |
-| 63713522 | ÉTHINYLESTRADIOL/ÉTONOGESTREL BIOGARAN 15 µg/120 µg/24 heures | Système de diffusion vaginal | Non renseignée |
-| 67294185 | ÉTHINYLESTRADIOL/ÉTONOGESTREL ZENTIVA 15 µg/120 µg/24 heures | Système de diffusion vaginal | Non renseignée |
-| 62148867 | NUVARING 15 µg/120 µg/24 heures | Système de diffusion vaginal | Non renseignée |
-| 69356486 | ETORING 15 µg/120 µg/24 heures | Système de diffusion vaginal | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66845924 | NEXPLANON 68 mg, implant pour usage sous-cutané | Implant | ORGANON FRANCE | Active |
+| 63713522 | ETHINYLESTRADIOL/ETONOGESTREL BIOGARAN 15 microgrammes/120 microgrammes/24 heures, systèm… | Système de diffusion | BIOGARAN | Active |
+| 62148867 | NUVARING 15 microgrammes/120 microgrammes/24 heures, système de diffusion vaginal | Système de diffusion | ORGANON FRANCE | Active |
+| 69356486 | ETORING 15 microgrammes/120 microgrammes/24 heures, système de diffusion vaginal | Système de diffusion | LABORATOIRES MAJORELLE | Active |
+| 64231450 | ETONOGESTREL/ETHINYLESTRADIOL VIATRIS 120 microgrammes/15 microgrammes/24 heures, système… | Système de diffusion | VIATRIS SANTE | Active |
+| 67294185 | ETHINYLESTRADIOL/ETONOGESTREL ZENTIVA 15 microgrammes/120 microgrammes/ 24 heures, systèm… | Système de diffusion | ZENTIVA FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

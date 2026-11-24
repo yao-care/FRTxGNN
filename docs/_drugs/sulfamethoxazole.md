@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 720
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sulfamethoxazole"
 predicted_indications: ["acute contagious conjunctivitis"]
 description: "Sulfamethoxazole : nouvelle indication prédite, Conjonctivite aiguë contagieuse (acute contagious conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -74,15 +74,20 @@ Cette étude décrit les profils de sensibilité aux antibiotiques ; le résumé
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69464049 | BACTRIM 40 mg/mL + 8 mg/mL, suspension buvable | Suspension buvable | Non renseignée |
-| 67891013 | COTRIMOXAZOLE TEVA 800 mg/160 mg, comprimé | Comprimé | Non renseignée |
-| 69233327 | BACTRIM, solution injectable pour perfusion | Solution injectable pour perfusion | Non renseignée |
-| 64121235 | BACTRIM FORTE, comprimé sécable | Comprimé sécable | Non renseignée |
-| 65880598 | BACTRIM, suspension buvable | Suspension buvable | Non renseignée |
+<!-- licenses:begin -->
 
-Seules 5 sont listées ci-dessus (limite du format).
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69464049 | BACTRIM 40 mg/mL + 8 mg/mL, suspension buvable | Suspension buvable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 67891013 | COTRIMOXAZOLE TEVA 800 mg/160 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 69233327 | BACTRIM, solution injectable pour perfusion | Solution injectable pour perfusion | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 64121235 | BACTRIM FORTE, comprimé sécable | Comprimé sécable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 65880598 | BACTRIM, suspension buvable | Suspension buvable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 65181349 | BACTRIM, comprimé sécable | Comprimé sécable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

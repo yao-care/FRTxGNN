@@ -74,6 +74,36 @@ Cette publication n'étudie pas l'effet de la buprénorphine sur la maladie ; el
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62157859 | BUVIDAL 64 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 65489051 | BUVIDAL 96 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 61617482 | BUVIDAL 24 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 65870700 | BUVIDAL 128 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 62299972 | TEMGESIC 0,3 mg/ml, solution injectable | Solution injectable | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 61900982 | BUVIDAL 32 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 60549391 | TEMGESIC 0,2 mg, comprimé sublingual | Comprimé | EUMEDICA PHARMACEUTICALS (ALLEMAGNE) | Active |
+| 66242591 | BUVIDAL 16 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 69443642 | BUVIDAL 8 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 68821142 | BUVIDAL 160 mg, solution injectable à libération prolongée | Solution injectable à libération prolongée | CAMURUS (SUEDE) | Active |
+| 60204573 | BUPRENORPHINE ARROW 6 mg, comprimé sublingual | Comprimé | ARROW GENERIQUES | Active |
+| 60489193 | BUPRENORPHINE BIOGARAN 1 mg, comprimé sublingual | Comprimé | BIOGARAN | Active |
+| 60590630 | BUPRENORPHINE SANDOZ 6 mg, comprimé sublingual | Comprimé | SANDOZ | Active |
+| 60714918 | BUPRENORPHINE VIATRIS 4 mg, comprimé sublingual | Comprimé | VIATRIS SANTE | Active |
+| 61001138 | BUPRENORPHINE VIATRIS 2 mg, comprimé sublingual | Comprimé | VIATRIS SANTE | Active |
+| 61429847 | BUPENSAN 4 mg, comprimé sublingual | Comprimé | G.L. PHARMA (AUTRICHE) | Active |
+| 61688718 | BUPRENORPHINE VIATRIS 0,4 mg, comprimé sublingual | Comprimé | VIATRIS SANTE | Active |
+| 61872472 | BUPRENORPHINE TEVA 8 mg, comprimé sublingual | Comprimé | TEVA SANTE | Active |
+| 62189294 | BUPRENORPHINE SANDOZ 4 mg, comprimé sublingual | Comprimé | SANDOZ | Active |
+| 61849961 | BUPRENORPHINE EG 8 mg, comprimé sublingual | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
+
 La buprénorphine est commercialisée en France. Les données locales recensent de nombreuses autorisations (au moins 19 valides), dont BUVIDAL (plusieurs dosages, solution injectable à libération prolongée, Camurus) et TEMGESIC (solution injectable et comprimé sublingual, Eumedica). Le texte d'indication n'est pas renseigné dans ces enregistrements.
 
 <!-- review:begin fr-lic-20261124-buprenorphine-1 -->

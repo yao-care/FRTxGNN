@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 173
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ciprofloxacin"
 predicted_indications: ["diffuse scleroderma", "hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "punctate epithelial keratoconjunctivitis", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Ciprofloxacin : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
@@ -77,13 +77,24 @@ Aucun essai clinique associé enregistré actuellement.
 
 La ciprofloxacine est commercialisée en France. Les dix autorisations recensées sont des spécialités à base de ciprofloxacine seule, toutes valides.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69264461 | CIPROFLOXACINE AGUETTANT 400 mg/200 ml | Solution pour perfusion | Active |
-| 66255471 | CIPROFLOXACINE PANPHARMA 400 mg/200 mL | Solution pour perfusion | Active |
-| 64728922 | CIFLOX 500 mg/5 ml (Bayer Healthcare) | Granulés et solvant pour suspension buvable | Active |
-| 65126598 | CIFLOX 200 mg/100 mL (Bayer Healthcare) | Solution pour perfusion (IV) | Active |
-| 61904596 | CIPROFLOXACINE KABI 400 mg/200 ml | Solution pour perfusion en poche | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69264461 | CIPROFLOXACINE AGUETTANT 400 mg/200 ml, solution pour perfusion | Solution pour perfusion | AGUETTANT | Active |
+| 66255471 | CIPROFLOXACINE PANPHARMA 400 mg/200 mL, solution pour perfusion | Solution pour perfusion | PANPHARMA | Active |
+| 64728922 | CIFLOX 500 mg/5 ml, granulés et solvant pour suspension buvable | Granulés et solvant pour suspension buvable | BAYER HEALTHCARE | Active |
+| 65126598 | CIFLOX 200 mg/100 mL, solution pour perfusion (IV) | Solution pour perfusion | BAYER HEALTHCARE | Active |
+| 61904596 | CIPROFLOXACINE KABI 400 mg/200 ml, solution pour perfusion en poche | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 62124275 | CIPROFLOXACINE VIATRIS 200 mg/100 ml, solution pour perfusion | Solution pour perfusion | VIATRIS SANTE | Active |
+| 60703576 | CIPROFLOXACINE VIATRIS 400 mg/200 ml, solution pour perfusion | Solution pour perfusion | VIATRIS SANTE | Active |
+| 60921386 | CIPROFLOXACINE PANPHARMA 200 mg/100 mL, solution pour perfusion | Solution pour perfusion | PANPHARMA | Active |
+| 65466309 | CIPROFLOXACINE AGUETTANT 200 mg/100 ml, solution pour perfusion | Solution pour perfusion | AGUETTANT | Active |
+| 61085944 | CIPROFLOXACINE KABI 200 mg/100 ml, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

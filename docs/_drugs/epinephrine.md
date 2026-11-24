@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 287
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "epinephrine"
 predicted_indications: ["obstructive lung disease", "Rienhoff syndrome", "respiratory malformation"]
 description: "Epinephrine : nouvelle indication prédite, Maladie pulmonaire obstructive (obstructive lung disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -94,15 +94,37 @@ Les autres essais compilés sont des études pharmacocinétiques chez des volont
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné. Voici les 5 premières :
+Le texte d'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61846627 | EPIPEN 0,15 mg/0,3 ml, stylo pré-rempli | Solution injectable | Non renseignée |
-| 69549631 | EMERADE 300 microgrammes, stylo prérempli | Solution injectable | Non renseignée |
-| 61072758 | ADRENALINE AGUETTANT 1 mg/ml, ampoule | Solution injectable | Non renseignée |
-| 69556177 | ADRENALINE RENAUDIN 0,50 mg/mL | Solution injectable | Non renseignée |
-| 66305127 | ADRENALINUM BOIRON (2CH à 30CH ou 4DH à 60DH) | Comprimé, solution, granules, poudre et pommade | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61846627 | EPIPEN 0,15 mg/0,3 ml, solution injectable en stylo pré-rempli | Solution injectable | VIATRIS MEDICAL | Active |
+| 69549631 | EMERADE 300 microgrammes, solution injectable en stylo prérempli | Solution injectable | BAUSCH HEALTH IRELAND (IRLANDE) | Active |
+| 61072758 | ADRENALINE AGUETTANT 1 mg/ml, solution injectable en ampoule | Solution injectable | AGUETTANT | Active |
+| 69556177 | ADRENALINE RENAUDIN 0,50 mg/mL, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 66305127 | ADRENALINUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 68391203 | JEXT 150 microgrammes, solution injectable en stylo prérempli | Solution injectable | ALK ABELLO (DANEMARK) | Active |
+| 66800110 | ADRENALINUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 66223317 | ANAPEN 500 microgrammes/0,3 ml, solution injectable en seringue préremplie | Solution injectable | BIOPROJET | Active |
+| 69553494 | ADRENALINE RENAUDIN 1 mg/mL, solution injectable en ampoule | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 62538162 | ANAPEN 300 microgrammes/0,3 ml, solution injectable en seringue préremplie | Solution injectable | BIOPROJET | Active |
+| 62024136 | ADRENALINE AGUETTANT 0,1 mg/mL sans sulfite, solution injectable en seringue pré-remplie | Solution injectable | AGUETTANT | Active |
+| 61912155 | ADRENALINE AGUETTANT 1 mg/mL sans sulfite, solution injectable en seringue pré-remplie | Solution injectable | AGUETTANT | Active |
+| 69150358 | ADRENALINE AGUETTANT 1 mg/mL SANS SULFITE, solution injectable | Solution injectable | AGUETTANT | Active |
+| 66693676 | JEXT 300 microgrammes, solution injectable en stylo prérempli | Solution injectable | ALK ABELLO (DANEMARK) | Active |
+| 69325747 | ADRENALINE RENAUDIN 0,25 mg/mL, solution injectable en ampoule | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 68293517 | EPIPEN 0,30 mg/0,3 ml, solution injectable en stylo pré-rempli | Solution injectable | VIATRIS MEDICAL | Active |
+| 67644301 | EMERADE 500 microgrammes, solution injectable en stylo prérempli | Solution injectable | BAUSCH HEALTH IRELAND (IRLANDE) | Active |
+| 62031508 | ANAPEN 150 microgrammes/0,3 ml, solution injectable en seringue préremplie | Solution injectable | BIOPROJET | Active |
+| 68649778 | XYLOCAINE 10 mg/ml ADRENALINE 0,005 mg/ml, solution injectable | Solution injectable | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 62227058 | LIDOCAÏNE 10 mg/ml ADRENALINE 0,005 mg/ml AGUETTANT, solution injectable | Solution injectable | AGUETTANT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

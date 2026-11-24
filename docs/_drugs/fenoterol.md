@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 322
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fenoterol : nouvelle indication prédite, Atrophie multisystématisée (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (usage connu : bronchodilatateu…"
 monitor_inn: "fenoterol"
 predicted_indications: ["multiple system atrophy", "postural orthostatic tachycardia syndrome", "variably protease-sensitive prionopathy", "open-angle glaucoma", "Raynaud disease", "primary hereditary glaucoma", "sinoatrial block", "sinoatrial node disease"]
@@ -70,9 +70,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62652340 | BRONCHODUAL 50 microgrammes/20 microgrammes/dose, solution pour inhalation en flacon pressurisé (Boehringer Ingelheim France) | Solution pour inhalation | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62652340 | BRONCHODUAL 50 microgrammes/20 microgrammes/dose, solution pour inhalation en flacon pres… | Solution pour inhalation | BOEHRINGER INGELHEIM FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

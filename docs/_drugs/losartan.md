@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 467
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "losartan"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "Prinzmetal angina", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies"]
 description: "Losartan : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
@@ -75,13 +75,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68896312 | LOSARTAN RANBAXY 50 mg | Comprimé pelliculé | Non disponible (AMM active) |
-| 66928996 | COZAAR 100 mg | Comprimé pelliculé | Non disponible (AMM active) |
-| 68656210 | LOSARTAN EG 50 mg | Comprimé pelliculé sécable | Non disponible (AMM active) |
-| 66042644 | LOSARTAN EVOLUGEN 100 mg | Comprimé pelliculé | Non disponible (AMM active) |
-| 68768818 | LOSARTAN ACCORD 50 mg | Comprimé pelliculé sécable | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68896312 | LOSARTAN RANBAXY 50 mg, comprimé pelliculé | Comprimé pelliculé | RANBAXY PHARMACIE GENERIQUES | Active |
+| 66928996 | COZAAR 100 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON FRANCE | Active |
+| 68656210 | LOSARTAN EG 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66042644 | LOSARTAN EVOLUGEN 100 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 68768818 | LOSARTAN ACCORD 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ACCORD HEALTHCARE FRANCE | Active |
+| 67953657 | LOSARTAN VIATRIS 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64201553 | LOSARTAN ACCORD 100 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 63732483 | LOSARTAN TEVA 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 62270675 | LOSARTAN KRKA 50 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 64892601 | LOSARTAN ZENTIVA LAB 100 mg, comprimé pelliculé sécable | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 64448518 | LOSARTAN ZYDUS 100 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 60443477 | LOSARTAN ZYDUS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 65029882 | LOSARTAN EG 100 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65638748 | LOSARTAN TEVA 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 67771569 | LOSARTAN EG LABO 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62744785 | LOSARTAN ZENTIVA LAB 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 66659784 | LOSARTAN BIOGARAN 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 65657232 | LOSARTAN VIATRIS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 61133378 | LOSARTAN ARROW LAB 100 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67645691 | LOSARTAN ARROW LAB 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 813
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "vinblastine"
 predicted_indications: ["rhabdomyosarcoma (disease)", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "embryonal extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "liver sarcoma", "monocytic leukemia", "neuroblastoma", "ganglioneuroblastoma (disease)"]
 description: "Vinblastine : nouvelle indication prédite, Rhabdomyosarcoma (disease) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -81,9 +81,15 @@ Pour les sous-types predits suivants, la litterature est tres limitee : le rhabd
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 68875332 | VELBE 10 mg, poudre pour solution injectable I.V. (EG LABO - Laboratoires Eurogenerics) | Poudre pour solution injectable | Non renseignee (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68875332 | VELBE 10 mg, poudre pour solution injectable I.V. | Poudre pour solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicite
 

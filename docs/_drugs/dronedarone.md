@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 261
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dronedarone"
 predicted_indications: ["stroke disorder", "ABri amyloidosis", "cerebrovascular disorder", "brain stem infarction", "sick sinus syndrome 2, autosomal dominant", "duodenal obstruction", "cerebral artery occlusion", "sarcoglycanopathy", "Wildervanck syndrome"]
 description: "Dronedarone : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -87,9 +87,15 @@ Aucune de ces publications n'est un essai dédié à la prévention de l'AVC par
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69213011 | MULTAQ 400 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69213011 | MULTAQ 400 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

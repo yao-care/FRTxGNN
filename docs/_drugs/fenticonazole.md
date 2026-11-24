@@ -83,11 +83,19 @@ Le fenticonazole est commercialisé en France. 4 des 5 AMM recensées sont valid
 
 <!-- review:end fr-lic-20261124-fenticonazole-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60010967 | TERLOMEXIN 200 mg, capsule molle vaginale | Capsule molle | Non renseignée (AMM active) |
-| 69960586 | LOMEXIN 600 mg, capsule molle vaginale | Capsule molle | Non renseignée (AMM active) |
-| 63987103 | LOMEXIN 2 %, crème | Crème | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60010967 | TERLOMEXIN 200 mg, capsule molle vaginale | Capsule molle | EFFIK | Active |
+| 69960586 | LOMEXIN 600 mg, capsule molle vaginale | Capsule molle | EFFIK | Active |
+| 63987103 | LOMEXIN 2 %, crème | Crème | EFFIK | Active |
+| 64636228 | FENTICONAZOLE SUBSTIPHARM 600 mg, capsule molle vaginale | Capsule molle | SUBSTIPHARM | Active |
+| 63703784 | FENTICONAZOLE BAILLEUL 2 %, crème | Crème | LABORATOIRES BAILLEUL (LUXEMBOURG) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 811
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VESTRONIDASE ALFA"
 predicted_indications: ["Scheie syndrome", "Hurler syndrome", "Sanfilippo syndrome", "camptodactyly, myopia, and fibrosis of the medial rectus muscle of eye", "ptosis-vocal cord paralysis syndrome", "ptosis-strabismus-ectopic pupils syndrome", "ptosis-upper ocular movement limitation-absence of lacrimal punctum syndrome", "congenital Horner syndrome (disease)"]
 description: "Vestronidase Alfa : nouvelle indication prédite, Syndrome de Scheie (Scheie syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -71,9 +71,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 61759695 | MEPSEVII 2 mg/ml, solution a diluer pour perfusion | Solution a diluer pour perfusion | Non renseignee |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61759695 | MEPSEVII 2 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ULTRAGENYX GERMANY (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La vestronidase alfa est commercialisée en France ; l'unique AMM recensée (laboratoire ULTRAGENYX GERMANY, Allemagne) est valide.
 

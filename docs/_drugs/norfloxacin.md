@@ -71,13 +71,20 @@ Aucune littérature associée disponible actuellement pour l'hyperamylasémie.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65616470 | NORFLOXACINE CRISTERS 400 mg | Comprimé pelliculé | Annulée |
-| 68557867 | NORFLOXACINE EG 400 mg | Comprimé pelliculé | Active |
-| 69563150 | NORFLOXACINE ZENTIVA 400 mg | Comprimé pelliculé | Active |
-| 61062600 | CHIBROXINE 0,3 POUR CENT | Collyre en solution | Active |
-| 62866052 | NORFLOXACINE BIOGARAN 400 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68557867 | NORFLOXACINE EG 400 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69563150 | NORFLOXACINE ZENTIVA 400 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61062600 | CHIBROXINE 0,3 POUR CENT, collyre en solution | Collyre en solution | THEA | Active |
+| 62866052 | NORFLOXACINE BIOGARAN 400 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65616470 | NORFLOXACINE CRISTERS 400 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+| 69894392 | NORFLOXACINE ARROW 400 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

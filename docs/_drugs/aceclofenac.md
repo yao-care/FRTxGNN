@@ -70,13 +70,19 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66300735 | CARTREX 100 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 63092688 | ACECLOFENAC VIATRIS 100 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 68600724 | ACECLOFENAC ACCORD 100 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 64130871 | ACECLOFENAC BIOGARAN 100 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 64937530 | ACECLOFENAC EG LABO 100 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66300735 | CARTREX 100 mg, comprimé pelliculé | Comprimé pelliculé | ALMIRALL | Active |
+| 63092688 | ACECLOFENAC VIATRIS 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64130871 | ACECLOFENAC BIOGARAN 100 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64937530 | ACECLOFENAC EG LABO 100 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68600724 | ACECLOFENAC ACCORD 100 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

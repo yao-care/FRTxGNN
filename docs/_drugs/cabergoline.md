@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "CABERGOLINE"
 predicted_indications: ["progeria-short stature-pigmented nevi syndrome", "pituitary cancer", "cerebral palsy, spastic quadriplegic", "glaucoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabergoline : nouvelle indication prédite, Syndrome de progéria, petite taille et nævus pigmentés (progeria-short stature-pigmented nevi syndrome) (niveau de preuve L5). Indication d'origine : Non re…"
 ---
 
@@ -74,13 +74,20 @@ Aucune littérature associée disponible actuellement.
 
 La cabergoline est commercialisée en France. Les dossiers d'AMM disponibles ne comportent pas de texte d'indication.
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 69671845 | DOSTINEX 0,5 mg, comprimé | Comprimé | Non renseignée dans les données locales |
-| 63313930 | DOSTINEX 0,5 mg, comprimé | Comprimé | Non renseignée dans les données locales |
-| 66386969 | CABERGOLINE BIOGARAN 0,5 mg, comprimé sécable | Comprimé sécable | Non renseignée dans les données locales |
-| 69823057 | CABERGOLINE ARROW 0,5 mg, comprimé sécable | Comprimé sécable | Non renseignée dans les données locales |
-| 65266671 | CABERGOLINE ZENTIVA 0,5 mg, comprimé sécable | Comprimé sécable | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69671845 | DOSTINEX 0,5 mg, comprimé | Comprimé | PFIZER HOLDING FRANCE | Active |
+| 63313930 | DOSTINEX 0,5 mg, comprimé | Comprimé | DIFARMED (ESPAGNE) | Active |
+| 66386969 | CABERGOLINE BIOGARAN 0,5 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 69823057 | CABERGOLINE ARROW 0,5 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 65266671 | CABERGOLINE ZENTIVA 0,5 mg, comprimé sécable | Comprimé sécable | RENATA PHARMACEUTICALS (IRELAND) (IRLANDE) | Active |
+| 64986919 | CABERGOLINE TEVA 0,5 mg, comprimé | Comprimé | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

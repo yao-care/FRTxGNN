@@ -78,13 +78,31 @@ Les 17 AMM recensées sont valides. Principales présentations :
 
 <!-- review:end fr-lic-20261124-methylprednisolone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64085814 | DEPO-MEDROL 40 mg/1 mL | Suspension injectable | Non renseignée |
-| 69424357 | SOLUMEDROL 1 g | Poudre et solvant pour solution injectable | Non renseignée |
-| 60626197 | SOLUMEDROL 500 mg | Poudre pour solution injectable | Non renseignée |
-| 69774343 | SOLUMEDROL 120 mg/2 mL | Lyophilisat et solution pour usage parentéral | Non renseignée |
-| 60988157 | MEDROL 4 mg | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64085814 | DEPO-MEDROL 40 mg/1 mL, suspension injectable en flacon | Suspension injectable | PFIZER HOLDING FRANCE | Active |
+| 69424357 | SOLUMEDROL 1 g, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | PFIZER HOLDING FRANCE | Active |
+| 60626197 | SOLUMEDROL 500 mg, poudre pour solution injectable | Poudre pour solution injectable | PFIZER HOLDING FRANCE | Active |
+| 69774343 | SOLUMEDROL 120 mg/2 mL, lyophilisat et solution pour usage parentéral | Lyophilisat et solution pour usage parentéral | PFIZER HOLDING FRANCE | Active |
+| 60988157 | MEDROL 4 mg, comprimé | Comprimé | PFIZER HOLDING FRANCE | Active |
+| 62190115 | METHYLPREDNISOLONE HIKMA 500 mg, poudre pour solution injectable | Poudre pour solution injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 65195181 | METHYLPREDNISOLONE HIKMA 40 mg, poudre pour solution injectable | Poudre pour solution injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 60224316 | MEDROL 100 mg, comprimé | Comprimé | PFIZER HOLDING FRANCE | Active |
+| 64639548 | MEDROL 16 mg, comprimé | Comprimé | PFIZER HOLDING FRANCE | Active |
+| 66207074 | METHYLPREDNISOLONE HIKMA 1 g, poudre pour solution injectable | Poudre pour solution injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69618515 | SOLUMEDROL 40 mg, poudre pour solution injectable | Poudre pour solution injectable | PFIZER HOLDING FRANCE | Active |
+| 60466860 | SOLU-MEDROL 40 mg/1 mL, poudre et solvant pour solution injectable | Poudre et solvant injectable injectable pour solution injec… | PFIZER HOLDING FRANCE | Active |
+| 61569781 | METHYLPREDNISOLONE VIATRIS 120 mg, poudre pour solution injectable (IM-IV) | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 62628873 | METHYLPREDNISOLONE VIATRIS 500 mg, poudre pour solution injectable | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 63341221 | METHYLPREDNISOLONE VIATRIS 1 g, poudre pour solution injectable (I.V.) | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 64834509 | METHYLPREDNISOLONE VIATRIS 20 mg, poudre pour solution injectable (IM-IV) | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 67672560 | METHYLPREDNISOLONE VIATRIS 40 mg, poudre pour solution injectable (IM-IV) | Poudre pour solution injectable | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

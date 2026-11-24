@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 46
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alprazolam : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Trouble anxieux, anxiété…"
 monitor_inn: "ALPRAZOLAM"
 predicted_indications: ["insomnia (disease)", "benign paroxysmal torticollis of infancy"]
@@ -92,13 +92,35 @@ Aucune publication ne teste directement l'alprazolam contre l'insomnie dans un e
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60647049 | XANAX 0,50 mg | comprimé sécable | Non renseignée (AMM active) |
-| 69847791 | XANAX 0,25 mg | comprimé sécable | Non renseignée (AMM active) |
-| 61736700 | ALPRAZOLAM BIOGARAN 0,25 mg | comprimé sécable | Non renseignée (AMM active) |
-| 63143645 | ALPRAZOLAM ZENTIVA 0,25 mg | comprimé sécable | Non renseignée (AMM active) |
-| 61200859 | ALPRAZOLAM VIATRIS 0,50 mg | comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61736700 | ALPRAZOLAM BIOGARAN 0,25 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 63143645 | ALPRAZOLAM ZENTIVA 0,25 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 66925605 | ALPRAZOLAM ARROW LAB 0,50 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 64275767 | ALPRAZOLAM ARROW 0,50 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 61200859 | ALPRAZOLAM VIATRIS 0,50 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 67446077 | ALPRAZOLAM VIATRIS 0,25 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 60994320 | ALPRAZOLAM EVOLUGEN PHARMA 0,25 mg, comprimé | Comprimé | EVOLUPHARM | Active |
+| 65868763 | ALPRAZOLAM CRISTERS 0,50 mg, comprimé sécable | Comprimé sécable | CRISTERS | Active |
+| 63372551 | ALPRAZOLAM ARROW LAB 0,25 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 66184743 | ALPRAZOLAM SANDOZ 0,25 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 63113171 | ALPRAZOLAM TEVA 0,25 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 68318486 | ALPRAZOLAM HCS 0,5 mg, comprimé | Comprimé | HCS (BELGIQUE) | Active |
+| 68461089 | ALPRAZOLAM EG 0,25 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60647049 | XANAX 0,50 mg, comprimé sécable | Comprimé sécable | VIATRIS UP | Active |
+| 65589692 | ALPRAZOLAM BIOGARAN 0,50 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 69666086 | ALPRAZOLAM ZYDUS FRANCE 0,5 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 65317895 | ALPRAZOLAM ARROW 0,25 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 69847791 | XANAX 0,25 mg, comprimé sécable | Comprimé sécable | VIATRIS UP | Active |
+| 68425029 | ALPRAZOLAM TEVA 0,50 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 67904496 | ALPRAZOLAM ZENTIVA 0,50 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Au total, 20 AMM valides sont recensées.
 

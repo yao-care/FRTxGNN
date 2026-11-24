@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 438
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "larotrectinib"
 predicted_indications: ["multiple endocrine neoplasia", "HER2 positive breast carcinoma"]
 description: "Larotrectinib : nouvelle indication prédite, Néoplasie endocrinienne multiple (multiple endocrine neoplasia) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -85,11 +85,17 @@ Deux pistes de pertinence restent plausibles mais limitées : (a) de rares tumeu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64373909 | VITRAKVI 100 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 67022406 | VITRAKVI 25 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 65942815 | VITRAKVI 20 mg/mL, solution buvable | Solution buvable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64373909 | VITRAKVI 100 mg, gélule | Gélule | BAYER AG (ALLEMAGNE) | Active |
+| 67022406 | VITRAKVI 25 mg, gélule | Gélule | BAYER AG (ALLEMAGNE) | Active |
+| 65942815 | VITRAKVI 20 mg/mL, solution buvable | Solution buvable | BAYER AG (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

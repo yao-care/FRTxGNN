@@ -71,10 +71,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | Active |
-| 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | PIRAMAL CRITICAL CARE (PAYS-BAS) | Active |
+| 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | PIRAMAL CRITICAL CARE (PAYS-BAS) | Active |
+| 69024085 | ALFENTANIL KALCEKS 0,5 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte des indications approuvées n'est pas renseigné pour ces AMM. Le titulaire est Piramal Critical Care (Pays-Bas).
 

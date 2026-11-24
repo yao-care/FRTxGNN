@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 378
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Hesperidin : nouvelle indication prédite, Néoplasie myéloproliférative (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées"
 monitor_inn: "hesperidin"
 predicted_indications: ["myeloproliferative neoplasm", "monocytic leukemia", "spermatocytic seminoma", "tubular variant testicular seminoma", "gestational trophoblastic neoplasm"]
@@ -89,10 +89,16 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69840366 | FLAVONOIDES ZENTIVA CONSEIL 500 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
-| 66701450 | FLAVONOIDES ZENTIVA CONSEIL 1000 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69840366 | FLAVONOIDES ZENTIVA CONSEIL 500 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 66701450 | FLAVONOIDES ZENTIVA CONSEIL 1000 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 793
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TROPICAMIDE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "irritable bowel syndrome"]
 description: "Tropicamide : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -73,12 +73,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 62915154 | MYDRIATICUM 0,5 POUR CENT, collyre (THEA) | Collyre | Non renseignée (AMM active) |
-| 64029712 | MYDRIATICUM 2 mg/0,4 ml, collyre en récipient unidose (THEA) | Collyre | Non renseignée (AMM active) |
-| 67423452 | MYDRIASERT, insert ophtalmique (THEA) | Insert ophtalmique | Non renseignée (AMM active) |
-| 65082408 | MYDRANE 0,2 mg/ml + 3,1 mg/ml + 10 mg/ml, solution injectable (THEA) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62915154 | MYDRIATICUM 0,5 POUR CENT, collyre | Collyre | THEA | Active |
+| 64029712 | MYDRIATICUM 2 mg/0,4 ml, collyre en récipient unidose | Collyre | THEA | Active |
+| 67423452 | MYDRIASERT, insert ophtalmique | Insert | THEA | Active |
+| 65082408 | MYDRANE 0,2 mg/ml + 3,1 mg/ml + 10 mg/ml, solution injectable | Solution injectable | THEA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

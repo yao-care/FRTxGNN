@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 640
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "pseudoephedrine"
 predicted_indications: ["nasal cavity disease", "allergic urticaria"]
 description: "Pseudoephedrine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -89,15 +89,15 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69445376 | RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE | Comprimé enrobé | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-pseudoephedrine-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69445376 | RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE, comprimé enrobé | Comprimé enrobé | HALEON FRANCE | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 69445376 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 69445376 (RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE, comprimé enrobé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-pseudoephedrine-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -145,7 +145,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'unique AMM française est annulée, et le profil de sécurité (nombreuses contre-indications cardiovasculaires) impose la prudence » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 69445376 (RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 69445376 (RHINADVIL RHUME IBUPROFENE/PSEUDOEPHEDRINE) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

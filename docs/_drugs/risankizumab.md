@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 671
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RISANKIZUMAB"
 predicted_indications: ["dermatitis", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acrodermatitis chronica atrophicans", "acne keloid", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "pityriasis lichenoides", "acute lichenoid pityriasis"]
 description: "Risankizumab : nouvelle indication prédite, Dermatite (dermatitis) (niveau de preuve L2). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -96,13 +96,19 @@ Le score TxGNN très élevé (0,9998) est une prédiction computationnelle et ne
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 69949390 | SKYRIZI 150 mg, seringue préremplie | Solution injectable | Non renseignée | Active |
-| 66047342 | SKYRIZI 150 mg, stylo prérempli | Solution injectable | Non renseignée | Active |
-| 61512595 | SKYRIZI 360 mg, cartouche | Solution injectable | Non renseignée | Active |
-| 64900681 | SKYRIZI 600 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée | Active |
-| 67060271 | SKYRIZI 75 mg, seringue préremplie | Solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69949390 | SKYRIZI 150 mg, solution injectable en seringue préremplie | Solution injectable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 66047342 | SKYRIZI 150 mg, solution injectable en stylo prérempli | Solution injectable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 61512595 | SKYRIZI 360 mg, solution injectable en cartouche | Solution injectable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 64900681 | SKYRIZI 600 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 67060271 | SKYRIZI 75 mg, solution injectable en seringue préremplie | Solution injectable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les 5 AMM (titulaire : AbbVie Deutschland, Allemagne) sont valides ; le médicament est commercialisé.
 

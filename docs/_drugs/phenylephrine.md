@@ -78,10 +78,27 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67554633 | NEOSYNEPHRINE 5 % FAURE, collyre en solution (EUROPHTA) | Collyre en solution | Non renseignée (AMM active) |
-| 67313123 | NEOSYNEPHRINE 10 POUR CENT FAURE, collyre en récipient unidose (EUROPHTA) | Collyre en solution | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67554633 | NEOSYNEPHRINE 5 % FAURE, collyre en solution | Collyre en solution | EUROPHTA | Active |
+| 67313123 | NEOSYNEPHRINE 10 POUR CENT FAURE, collyre en récipient unidose | Collyre en solution | EUROPHTA | Active |
+| 60958210 | PHENYLEPHRINE UNIMEDIC 0,05 mg/mL, solution injectable | Solution injectable | UNIMEDIC PHARMA (SUEDE) | Active |
+| 61111570 | PHENYLEPHRINE RENAUDIN 100 microgrammes/ml, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 61146920 | NEOSYNEPHRINE 2,5 % FAURE, collyre en solution en récipient unidose | Collyre en solution | EUROPHTA | Active |
+| 63811361 | PHENYLEPHRINE UNIMEDIC 0,1 mg/mL, solution injectable | Solution injectable | UNIMEDIC PHARMA (SUEDE) | Active |
+| 65403440 | NEOSYNEPHRINE 10 % FAURE, collyre en solution | Collyre en solution | EUROPHTA | Active |
+| 65514145 | PHENYLEPHRINE AGUETTANT 100 microgrammes/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AGUETTANT | Active |
+| 66769558 | PHENYLEPHRINE RENAUDIN 50 microgrammes/ml, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 68856759 | PHENYLEPHRINE AGUETTANT, 50 microgrammes/mL, solution injectable | Solution injectable | AGUETTANT | Active |
+| 69858332 | PHENYLEPHRINE AGUETTANT, 50 microgrammes/mL, solution injectable en seringue préremplie | Solution injectable | AGUETTANT | Active |
+| 67423452 | MYDRIASERT, insert ophtalmique | Insert | THEA | Active |
+| 65082408 | MYDRANE 0,2 mg/ml + 3,1 mg/ml + 10 mg/ml, solution injectable | Solution injectable | THEA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

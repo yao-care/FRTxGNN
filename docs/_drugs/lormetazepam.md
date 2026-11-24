@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 466
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "lormetazepam"
 predicted_indications: ["alcohol withdrawal delirium", "hallucinogen abuse", "barbiturate abuse", "antidepressant type abuse", "anxiety", "cauda equina syndrome", "anxiety disorder", "benign paroxysmal torticollis of infancy"]
 description: "Lormetazepam : nouvelle indication prédite, Délire de sevrage alcoolique (alcohol withdrawal delirium) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -74,10 +74,16 @@ Aucune littérature associée disponible actuellement.
 
 Le lormétazépam est commercialisé en France : les deux AMM recensées sont valides.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64821401 | LORMETAZEPAM ARROW 1 mg, comprimé sécable (ARROW GÉNÉRIQUES) — active | Comprimé sécable | Non renseignée |
-| 60186584 | LORMETAZEPAM ARROW 2 mg, comprimé sécable (ARROW GÉNÉRIQUES) — active | Comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64821401 | LORMETAZEPAM ARROW 1 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 60186584 | LORMETAZEPAM ARROW 2 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

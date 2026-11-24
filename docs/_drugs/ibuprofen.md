@@ -88,13 +88,35 @@ Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas rense
 
 <!-- review:end fr-lic-20261106-ibuprofen-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65573720 | BRUFEN 400 mg | Comprimé pelliculé | Non renseignée |
-| 61138457 | IBUPROFENE TEVA CONSEIL 400 mg | Comprimé pelliculé | Non renseignée |
-| 60830246 | NUROFENTABS 200 mg | Comprimé orodispersible | Non renseignée |
-| 60961886 | IBUPROFENE SANDOZ CONSEIL 200 mg | Comprimé enrobé | Non renseignée |
-| 64019682 | IBUPROFENE ZENTIVA 400 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61138457 | IBUPROFENE TEVA CONSEIL 400 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 60830246 | NUROFENTABS 200 mg, comprimé orodispersible | Comprimé orodispersible | RECKITT BENCKISER HEALTHCARE FRANCE | Active |
+| 60961886 | IBUPROFENE SANDOZ CONSEIL 200 mg, comprimé enrobé | Comprimé enrobé | SANDOZ | Active |
+| 64019682 | IBUPROFENE ZENTIVA 400 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69291896 | ANTARENE 200 mg, comprimé pelliculé | Comprimé pelliculé | ELERTE | Active |
+| 68634000 | ADVIL 200 mg, comprimé enrobé | Comprimé enrobé | HALEON FRANCE | Active |
+| 66303681 | ANTARENE 100 mg, comprimé pelliculé | Comprimé pelliculé | ELERTE | Active |
+| 66281427 | SPIFEN 400 mg, comprimé pelliculé | Comprimé pelliculé | ZAMBON FRANCE | Active |
+| 69932537 | IBUPROFENE ZENTIVA CONSEIL 200 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 68527443 | IBUPROFENE VIATRIS 200 mg, comprimé enrobé | Comprimé enrobé | VIATRIS SANTE | Active |
+| 60569860 | IBUPROFENE CHEMINEAU 5 %, solution pour application cutanée | Solution pour application | CHEMINEAU | Active |
+| 61022698 | SPIFEN 400 mg, granulés pour solution buvable en sachet-dose | Granulés pour solution buvable | ZAMBON FRANCE | Active |
+| 61848560 | IBUPROFENE ARROW CONSEIL 400 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 63646874 | ADVIL 400 mg, comprimé enrobé | Comprimé enrobé | HALEON FRANCE | Active |
+| 68774041 | IBUPROFENE EVOLUGEN 400 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 60776617 | SPEDIFEN 400 mg, granulés pour solution buvable en sachet-dose | Granulés pour solution buvable | ZAMBON FRANCE | Active |
+| 60282846 | SPEDIFEN 200 mg, comprimé | Comprimé | ZAMBON FRANCE | Active |
+| 61959735 | ADVILCAPS 400 mg, capsule molle | Capsule molle | HALEON FRANCE | Active |
+| 61032190 | IBUPROFENE BIOGARAN CONSEIL 400 mg, capsule molle | Capsule molle | BIOGARAN | Active |
+| 65573720 | BRUFEN 400 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS MEDICAL | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les autres AMM concernent notamment ANTARENE, ADVIL, SPIFEN, SPEDIFEN, ADVILCAPS ainsi que des génériques. Une présentation en solution pour application cutanée (IBUPROFENE CHEMINEAU 5 %) figure aussi parmi elles.
 

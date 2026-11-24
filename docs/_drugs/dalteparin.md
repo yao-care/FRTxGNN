@@ -82,13 +82,23 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61540502 | FRAGMINE 10 000 U.I. anti Xa/1 mL | Solution injectable (seringue préremplie) | Non renseignée |
-| 60521926 | FRAGMINE 18 000 U.I. anti-Xa/0,72 mL | Solution injectable (seringue préremplie) | Non renseignée |
-| 66032251 | FRAGMINE 5 000 U.I. anti Xa/0,2 mL | Solution injectable (seringue préremplie) | Non renseignée |
-| 67591667 | FRAGMINE 10 000 U.I. anti-Xa/0,4 mL | Solution injectable (seringue préremplie) | Non renseignée |
-| 62114270 | FRAGMINE 12 500 U.I. anti-Xa/0,5 mL | Solution injectable (seringue préremplie) | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60521926 | FRAGMINE 18 000 U.I. anti-Xa/0,72 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 66032251 | FRAGMINE 5 000 U.I. anti Xa/0,2 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 67591667 | FRAGMINE 10 000 U.I. anti-Xa/0,4 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 62114270 | FRAGMINE 12 500 U.I. anti-Xa/0,5 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 63272202 | FRAGMINE 2 500 U.I. anti Xa/0,2 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 67562982 | FRAGMINE 15 000 U.I. anti-Xa/0,6 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 63398286 | FRAGMINE 7 500 U.I. anti-Xa/0,3 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 61540502 | FRAGMINE 10 000 U.I. anti Xa/1 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Archivée |
+| 64905664 | FRAGMINE 7 500 U.I. anti Xa/0,75 mL, solution injectable en seringue pré-remplie | Solution injectable | PFIZER HOLDING FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

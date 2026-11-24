@@ -3,7 +3,7 @@ layout: default
 title: Tazobactam
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 733
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tazobactam : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,28 +71,34 @@ Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour Tazobactam. Tous 
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 66252571 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 67909536 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 63803382 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 64554051 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 65844666 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 69320440 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 61249272 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 62405443 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 63012514 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 67726780 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 61008378 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 60445784 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 65166404 | SULFATE DE CEFTOLOZANE; TAZOBACTAM SODIQUE | poudre pour solution à diluer pour perfu | Active |
-| 67101191 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 60606515 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 62380285 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 67873780 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 63455004 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 66739814 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
-| 64130978 | PIPÉRACILLINE SODIQUE; TAZOBACTAM SODIQUE | poudre pour solution pour perfusion | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66252571 | PIPERACILLINE TAZOBACTAM VIATRIS 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 67909536 | PIPERACILLINE/TAZOBACTAM SANDOZ 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SANDOZ | Active |
+| 63803382 | PIPERACILLINE/TAZOBACTAM PANPHARMA 2 g/250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PANPHARMA | Active |
+| 64554051 | PIPERACILLINE/TAZOBACTAM KABI 2 g/250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 65844666 | PIPERACILLINE/TAZOBACTAM QILU 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | QILU PHARMA SPAIN (ESPAGNE) | Active |
+| 69320440 | PIPERACILLINE/TAZOBACTAM REIG JOFRE 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 61249272 | PIPERACILLINE/TAZOBACTAM TILLOMED 4 g/0,5 g poudre pour solution pour perfusion | Poudre pour solution pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 62405443 | PIPERACILLINE/TAZOBACTAM KALCEKS 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 63012514 | PIPERACILLINE/TAZOBACTAM PANPHARMA 4 g/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PANPHARMA | Active |
+| 67726780 | PIPERACILLINE/TAZOBACTAM KALCEKS 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 61008378 | PIPERACILLINE TAZOBACTAM VIATRIS 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 60445784 | TAZOCILLINE 4 g/0,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 65166404 | ZERBAXA 1 g/0,5 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 67101191 | PIPERACILLINE/TAZOBACTAM SANDOZ 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SANDOZ | Active |
+| 60606515 | PIPERACILLINE/TAZOBACTAM REIG JOFRE 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 62380285 | PIPERACILLINE/TAZOBACTAM ARROW 4 g/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 67873780 | TAZOCILLINE 2 g/0,25 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 63455004 | PIPERACILLINE/TAZOBACTAM KABI 4 g/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 66739814 | PIPERACILLINE/TAZOBACTAM ARROW 2 g/250 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 64130978 | PIPERACILLINE/TAZOBACTAM EG 4 g/500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

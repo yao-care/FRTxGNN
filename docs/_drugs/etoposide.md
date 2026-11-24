@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 308
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "etoposide"
 predicted_indications: ["well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "Ewing sarcoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma"]
 description: "Etoposide : nouvelle indication prédite, Well-differentiated fetal adenocarcinoma of the lung (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
@@ -102,13 +102,22 @@ Sélection parmi les 33 essais associés au sarcome d'Ewing (principaux essais d
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66338465 | ETOPOSIDE HIKMA 20 mg/mL | Solution à diluer pour perfusion | Active |
-| 61683518 | ETOPOSIDE TEVA 100 mg/5 ml | Solution pour perfusion | Active |
-| 61425560 | ETOPOSIDE TEVA 20 mg/ml | Solution à diluer pour perfusion | Active |
-| 60155667 | ETOPOSIDE TEVA 200 mg/10 ml | Solution injectable pour perfusion | Active |
-| 67802057 | CELLTOP 50 mg | Capsule molle (voie orale) | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66338465 | ETOPOSIDE HIKMA 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 61683518 | ETOPOSIDE TEVA 100 mg/5 ml, solution injectable pour perfusion | Solution pour perfusion | TEVA SANTE | Active |
+| 61425560 | ETOPOSIDE TEVA 20 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | TEVA SANTE | Active |
+| 60155667 | ETOPOSIDE TEVA 200 mg/10 ml, solution injectable pour perfusion | Solution injectable pour perfusion | TEVA SANTE | Active |
+| 67802057 | CELLTOP 50 mg, capsule molle | Capsule molle | BAXTER | Active |
+| 60815657 | ETOPOSIDE ACCORD 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 65619363 | ETOPOPHOS 100 mg, lyophilisat pour usage parentéral | Poudre pour solution injectable pour perfusion | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 69599043 | ETOPOSIDE VIATRIS 20 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

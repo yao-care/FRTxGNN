@@ -94,13 +94,32 @@ Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 18
 
 <!-- review:end fr-lic-20261124-pirfenidone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66527665 | ESBRIET 267 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 66673182 | ESBRIET 801 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 60967273 | PIRFENIDONE ARROW 801 mg, comprimé | Comprimé | Non renseignée |
-| 61045540 | PIRFÉNIDONE VIATRIS 801 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 69144469 | PIRFENIDONE EG 801 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66527665 | ESBRIET 267 mg, comprimé pelliculé | Comprimé pelliculé | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 60967273 | PIRFENIDONE ARROW 801 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 61045540 | PIRFÉNIDONE VIATRIS 801 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 69144469 | PIRFENIDONE EG 801 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66704133 | PIRFÉNIDONE VIATRIS 267 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 68989318 | PIRFENIDONE ARROW 267 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 61936373 | PIRFENIDONE EG 267 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60788605 | PIRFENIDONE SANDOZ 267 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61138813 | PIRFENIDONE TEVA 801 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 65255066 | PIRFENIDONE BIOGARAN 267 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 66869448 | PIRFENIDONE TEVA 267 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 66169136 | PIRFENIDONE ZENTIVA 801 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 62694738 | PIRFENIDONE BIOGARAN 801 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 66673182 | ESBRIET 801 mg, comprimé pelliculé | Comprimé pelliculé | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 66551883 | PIRFENIDONE SANDOZ 801 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 64950346 | PIRFENIDONE ACCORD 267 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 68404622 | PIRFENIDONE ZENTIVA 267 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61477906 | PIRFENIDONE ACCORD 801 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

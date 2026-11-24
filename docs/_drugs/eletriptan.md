@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 275
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eletriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis", "sciatic neuropathy"]
 description: "Eletriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
@@ -104,13 +104,30 @@ Aucune indication approuvée n'est renseignée dans les données compilées. Pri
 
 <!-- review:end fr-lic-20261106-eletriptan-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69046879 | ELETRIPTAN BGR 40 mg (Biogaran) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63100697 | ELETRIPTAN EG 40 mg (EG Labo) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61579850 | ELETRIPTAN QUIVER LAB 40 mg (Arrow Génériques) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 63476564 | RELPAX 40 mg (Viatris) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64350636 | RELPAX 20 mg (Viatris) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69046879 | ELETRIPTAN BGR 40 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 63100697 | ELETRIPTAN EG 40 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61579850 | ELETRIPTAN QUIVER LAB 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 69514954 | ELETRIPTAN ZYDUS 40 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 62018514 | ELETRIPTAN ARROW 20 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 66373181 | ELETRIPTAN VIATRIS 40 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS UP | Active |
+| 63476564 | RELPAX 40 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS UP | Active |
+| 65563402 | ELETRIPTAN EG 20 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62482233 | ELETRIPTAN QUIVER LAB 20 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64516435 | ELETRIPTAN QUIVER 40 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 60715272 | ELETRIPTAN BGR 20 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68379126 | ELETRIPTAN QUIVER 20 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64350636 | RELPAX 20 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS UP | Active |
+| 65376908 | ELETRIPTAN ZENTIVA 20 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 65559973 | ELETRIPTAN ARROW 40 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62080918 | ELETRIPTAN ZENTIVA 40 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

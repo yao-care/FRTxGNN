@@ -93,13 +93,31 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 
 <!-- review:end fr-lic-20261106-midazolam-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63020895 | MIDAZOLAM AGUETTANT 5 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM active) |
-| 60703989 | MIDAZOLAM KALCEKS 1 mg/mL | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
-| 66231933 | MIDAZOLAM AGUETTANT 1 mg/ml | Solution injectable pour perfusion | Non renseignée (AMM active) |
-| 63680638 | MIDAZOLAM PANPHARMA 1 mg/ml | Solution injectable | Non renseignée (AMM active) |
-| 63736019 | MIDAZOLAM VIATRIS 5 mg/ml | Solution injectable pour perfusion ou rectale | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63020895 | MIDAZOLAM AGUETTANT 5 mg/ml, solution injectable | Solution injectable pour perfusion ou | AGUETTANT | Active |
+| 60703989 | MIDAZOLAM KALCEKS 1 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 66231933 | MIDAZOLAM AGUETTANT 1 mg/ml, solution injectable | Solution injectable pour perfusion ou | AGUETTANT | Active |
+| 63680638 | MIDAZOLAM PANPHARMA 1 mg/ml, solution injectable | Solution injectable | PANPHARMA | Active |
+| 63736019 | MIDAZOLAM VIATRIS 5 mg/ml, solution injectable ou rectale | Solution injectable pour perfusion ou | VIATRIS SANTE | Active |
+| 67824655 | MIDAZOLAM VIATRIS 1 mg/ml, solution injectable ou rectale | Solution injectable pour perfusion ou | VIATRIS SANTE | Active |
+| 62149015 | OZALIN 2 mg/mL, solution buvable en récipient unidose | Solution buvable | ISTITUTO GENTILI (ITALIE) | Active |
+| 61324091 | MIDAZOLAM PANPHARMA 5 mg/ml, solution injectable | Solution injectable | PANPHARMA | Active |
+| 60034085 | BUCCOLAM 10 mg, solution buccale | Solution | NEURAXPHARM PHARMACEUTICALS (ESPAGNE) | Active |
+| 60673389 | BUCCOLAM 2,5 mg, solution buccale | Solution | NEURAXPHARM PHARMACEUTICALS (ESPAGNE) | Active |
+| 61623065 | BUCCOLAM 7,5 mg, solution buccale | Solution | NEURAXPHARM PHARMACEUTICALS (ESPAGNE) | Active |
+| 65629845 | BUCCOLAM 5 mg, solution buccale | Solution | NEURAXPHARM PHARMACEUTICALS (ESPAGNE) | Active |
+| 67386324 | MIDAZOLAM KALCEKS 5 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 68341392 | MIDAZOLAM ACCORD 1 mg/ml, solution injectable | Solution injectable pour perfusion ou | ACCORD HEALTHCARE FRANCE | Active |
+| 68529120 | MIDAZOLAM ACCORD 5 mg/ml, solution injectable | Solution injectable pour perfusion ou | ACCORD HEALTHCARE FRANCE | Active |
+| 68235916 | MIDAZOLAM SUN 1 mg/mL, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Abrogée |
+| 68648893 | MIDAZOLAM SUN 2 mg/mL, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

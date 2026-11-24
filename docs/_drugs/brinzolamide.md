@@ -3,7 +3,7 @@ layout: default
 title: Brinzolamide
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 115
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Brinzolamide : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,21 +71,27 @@ Les candidats proposés par le modèle TxGNN pour Brinzolamide correspondent tou
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 60868670 | BRINZOLAMIDE | collyre en suspension | Active |
-| 68305211 | BRINZOLAMIDE | collyre en suspension | Active |
-| 66126291 | BRINZOLAMIDE | collyre en suspension | Active |
-| 64907754 | BRINZOLAMIDE | collyre en suspension | Active |
-| 62196488 | BRINZOLAMIDE | collyre en suspension | Active |
-| 67780625 | BRINZOLAMIDE | collyre en suspension | Active |
-| 67701396 | BRINZOLAMIDE | collyre en suspension | Active |
-| 68162770 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
-| 65711858 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
-| 65506814 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
-| 69889737 | BRINZOLAMIDE; TARTRATE DE BRIMONIDINE | collyre en suspension | Active |
-| 64880296 | BRINZOLAMIDE; TARTRATE DE BRIMONIDINE | collyre en suspension | Active |
-| 65832913 | MALÉATE DE TIMOLOL; BRINZOLAMIDE | collyre en suspension | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60868670 | AZOPT 10 mg/ml, collyre en suspension | Collyre en suspension | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 68305211 | BRINZOLAMIDE ARROW 10 mg/mL, collyre en suspension | Collyre en suspension | ARROW GENERIQUES | Active |
+| 66126291 | BRINZOLAMIDE EG 10 mg/ml, collyre en suspension | Collyre en suspension | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64907754 | BRINZOLAMIDE SANDOZ 10 mg/mL, collyre en suspension | Collyre en suspension | SANDOZ | Active |
+| 62196488 | BRINZOLAMIDE CRISTERS 10 mg/ml, collyre en suspension | Collyre en suspension | CRISTERS | Active |
+| 67780625 | BRINZOLAMIDE VIATRIS 10 mg/ml, collyre en suspension | Collyre en suspension | VIATRIS SANTE | Active |
+| 67701396 | BRINZOLAMIDE BIOGARAN 10 mg/mL, collyre en suspension | Collyre en suspension | BIOGARAN | Active |
+| 68162770 | BRINZOLAMIDE/TIMOLOL EG 10 mg/5 mg par mL, collyre en suspension | Collyre en suspension | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65711858 | AZARGA 10 mg/ml + 5 mg/ml, collyre en suspension | Collyre en suspension | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 65506814 | BRINZOLAMIDE/TIMOLOL VIATRIS 10 mg/5 mg par mL, collyre en suspension | Collyre en suspension | VIATRIS SANTE | Active |
+| 69889737 | BRINZOLAMIDE/BRIMONIDINE ZENTIVA 10 mg/2 mg par mL, collyre en suspension | Collyre en suspension | ZENTIVA FRANCE | Active |
+| 64880296 | SIMBRINZA 10 mg/ml + 2 mg/ml, collyre en suspension | Collyre en suspension | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 65832913 | BRINZOLAMIDE/TIMOLOL BIOGARAN 10 mg/mL + 5 mg/mL, collyre en suspension | Collyre en suspension | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

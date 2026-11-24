@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 562
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "oxacillin"
 predicted_indications: ["epiglottitis", "laryngitis", "bacterial arthritis", "urinary tract infection (disease)"]
 description: "Oxacillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement pour l'épiglottite.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 64323500 | OXACILLINE PANPHARMA 1 g, poudre pour solution injectable (IV) | Poudre pour solution injectable | Active |
-| 69443560 | ISTOPEN 1 g/5 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64323500 | OXACILLINE PANPHARMA 1 g, poudre pour solution injectable (IV) | Poudre pour solution injectable | PANPHARMA | Active |
+| 69443560 | ISTOPEN 1 g/5 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | LABORATOIRES DELBERT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces deux AMM.
 

@@ -89,13 +89,24 @@ Aucun essai clinique associé enregistré actuellement.
 
 <!-- review:end fr-lic-20261124-micafungin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62470487 | MICAFUNGINE HIKMA 100 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 62450342 | MYCAMINE 100 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 60754631 | MICAFUNGINE VIATRIS 50 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 63197760 | MYCAMINE 50 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 69105377 | MICAFUNGINE REIG JOFRE 50 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62470487 | MICAFUNGINE HIKMA 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 62450342 | MYCAMINE 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SANDOZ PHARMACEUTICALS (SLOVENIE) | Active |
+| 60754631 | MICAFUNGINE VIATRIS 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 63197760 | MYCAMINE 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SANDOZ PHARMACEUTICALS (SLOVENIE) | Active |
+| 69105377 | MICAFUNGINE REIG JOFRE 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 62635145 | MICAFUNGINE VIATRIS 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 62262657 | MICAFUNGINE REIG JOFRE 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 63461174 | MICAFUNGINE HIKMA 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 61841758 | MICAFUNGINE STRAGEN 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | STRAGEN-FRANCE | Abrogée |
+| 64022529 | MICAFUNGINE STRAGEN 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | STRAGEN-FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

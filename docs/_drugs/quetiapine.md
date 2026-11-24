@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 642
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Quetiapine : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (niveau de preuve L5). Indication d'origine : Troubles bipolaires, trouble affectif majeur, mani…"
 monitor_inn: "quetiapine"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "hydranencephaly (disease)", "distal 17p13.3 microdeletion syndrome", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "trichotillomania", "syndromic myopia", "myopia 26, X-linked, female-limited"]
@@ -89,13 +89,35 @@ Les cinq premières sont listées ci-dessous (toutes en comprimé à libération
 
 <!-- review:end fr-lic-20261106-quetiapine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67357301 | QUETIAPINE VIATRIS LP 400 mg | Comprimé à libération prolongée | Active |
-| 68967396 | QUETIAPINE SANDOZ LP 400 mg | Comprimé à libération prolongée | Active |
-| 67701122 | QUETIAPINE KRKA LP 50 mg | Comprimé à libération prolongée | Active |
-| 62650834 | QUETIAPINE ACCORD HEALTHCARE LP 300 mg | Comprimé à libération prolongée | Active |
-| 67567399 | QUETIAPINE SUN LP 300 mg | Comprimé à libération prolongée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67357301 | QUETIAPINE VIATRIS LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | VIATRIS SANTE | Active |
+| 68967396 | QUETIAPINE SANDOZ LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SANDOZ | Active |
+| 67701122 | QUETIAPINE KRKA LP 50 mg, comprimé à libération prolongée | Comprimé à libération prolongée | KRKA (SLOVENIE) | Active |
+| 62650834 | QUETIAPINE ACCORD HEALTHCARE LP 300 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ACCORD HEALTHCARE FRANCE | Active |
+| 67567399 | QUETIAPINE SUN LP 300 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SUN PHARMA FRANCE | Active |
+| 62895812 | QUETIAPINE ZENTIVA LP 300 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ZENTIVA FRANCE | Active |
+| 62181041 | XEROQUEL LP 300 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BB FARMA (ITALIE) | Active |
+| 66086110 | QUETIAPINE ARROW LP 300 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ARROW GENERIQUES | Active |
+| 60490893 | QUETIAPINE EG LP 50 mg, comprimé à libération prolongée | Comprimé à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68541172 | QUETIAPINE ZENTIVA LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ZENTIVA FRANCE | Active |
+| 60649235 | QUETIAPINE CRISTERS LP 300 mg, comprimé à libération prolongée | Comprimé à libération prolongée | CRISTERS | Active |
+| 65983662 | QUETIAPINE TEVA LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | TEVA SANTE | Active |
+| 62137575 | QUETIAPINE SUN LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SUN PHARMA FRANCE | Active |
+| 69054687 | QUETIAPINE VIATRIS LP 50 mg, comprimé à libération prolongée | Comprimé à libération prolongée | VIATRIS SANTE | Active |
+| 61489673 | XEROQUEL LP 50 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BB FARMA (ITALIE) | Active |
+| 65820455 | QUETIAPINE BIOGARAN LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BIOGARAN | Active |
+| 64296341 | XEROQUEL LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 63373571 | QUETIAPINE ARROW LAB LP 300 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ARROW GENERIQUES | Active |
+| 69612658 | QUETIAPINE KRKA LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | KRKA (SLOVENIE) | Active |
+| 68436082 | QUETIAPINE ARROW LAB LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

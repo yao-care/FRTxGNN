@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 678
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ROMIPLOSTIM"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "fetal and neonatal alloimmune thrombocytopenia", "Scott syndrome", "hemorrhagic disorder due to a constitutional thrombocytopenia", "bleeding diathesis due to a collagen receptor defect", "platelet-type bleeding disorder", "autosomal dominant macrothrombocytopenia", "Ehlers-Danlos syndrome, fibronectinemic type"]
 description: "Romiplostim : nouvelle indication prédite, Trouble de libération plaquettaire primaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -73,11 +73,17 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64313253 | NPLATE 250 microgrammes, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
-| 66384249 | NPLATE 125 microgrammes, poudre pour solution injectable | Poudre pour solution injectable | Non renseignée (AMM active) |
-| 68638461 | NPLATE 500 microgrammes, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64313253 | NPLATE 250 microgrammes, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | AMGEN EUROPE | Active |
+| 66384249 | NPLATE 125 microgrammes, poudre pour solution injectable | Poudre pour solution injectable | AMGEN EUROPE | Active |
+| 68638461 | NPLATE 500 microgrammes, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | AMGEN EUROPE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

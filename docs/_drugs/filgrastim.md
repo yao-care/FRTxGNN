@@ -99,13 +99,32 @@ Les 18 AMM sont valides (18 sur 18). Le texte d'indication approuvée n'est pas 
 
 <!-- review:end fr-lic-20261124-filgrastim-3 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 60670037 | ZARZIO 30 MU/0,5 mL, seringue préremplie | Solution injectable ou pour perfusion | Sandoz (Autriche) |
-| 66749096 | NEUPOGEN 48 MU/0,5 mL, seringue préremplie | Solution injectable | Amgen Europe |
-| 69287684 | NIVESTIM 30 MU/0,5 mL | Solution injectable ou pour perfusion | Pfizer Europe MA EEIG (Belgique) |
-| 69225686 | NEUPOGEN 30 MU (0,3 mg/mL) | Solution injectable | Amgen Europe |
-| 65313021 | TEVAGRASTIM 48 MUI/0,8 mL | Solution injectable ou pour perfusion | Teva (Allemagne) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60670037 | ZARZIO 30 MU/0,5 mL, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | SANDOZ (AUTRICHE) | Active |
+| 66749096 | NEUPOGEN 48 MU/0,5 mL (0,96 mg/mL), solution injectable en seringue préremplie | Solution injectable | AMGEN EUROPE | Active |
+| 69287684 | NIVESTIM 30 MU/0,5 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 69225686 | NEUPOGEN 30 MU (0,3 mg/mL), solution injectable | Solution injectable | AMGEN EUROPE | Active |
+| 65313021 | TEVAGRASTIM 48 MUI/0,8 ml, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | TEVA (ALLEMAGNE) | Active |
+| 60514839 | ZARZIO 48 MU/0,5 mL, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | SANDOZ (AUTRICHE) | Active |
+| 69908842 | NIVESTIM 48 MU/0,5 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 65387858 | NIVESTIM 12 MU/0,2 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 63909873 | ACCOFIL 70 MU/0,73 ml, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 60812344 | ACCOFIL 48 MU/0,5 ml, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61823354 | ACCOFIL 12 MU/0,2 ml, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 66663761 | NEUPOGEN 30 MU/0,5 mL (0,6 mg/mL), solution injectable en seringue préremplie | Solution injectable | AMGEN EUROPE | Active |
+| 62542883 | RATIOGRASTIM 30 MUI/0,5 ml, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | RATIOPHARM (ALLEMAGNE) | Active |
+| 63213271 | RATIOGRASTIM 48 MUI/0,8 ml, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | RATIOPHARM (ALLEMAGNE) | Active |
+| 60583187 | TEVAGRASTIM 30 MUI/0,5 ml, solution injectable ou pour perfusion | Solution injectable ou pour perfusion | TEVA (ALLEMAGNE) | Active |
+| 68056062 | ACCOFIL 30 MU/0,5 ml, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 60612685 | ZEFYLTI 48 MU/0,5 mL, solution injectable/pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | CURATEQ BIOLOGICS (MALTE) | Active |
+| 66491564 | ZEFYLTI 30 MU/0,5 mL, solution injectable/pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | CURATEQ BIOLOGICS (MALTE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

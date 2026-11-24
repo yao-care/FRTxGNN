@@ -3,7 +3,7 @@ layout: default
 title: Dexchlorpheniramine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 230
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Dexchlorpheniramine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -72,10 +72,16 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour Dexchlorphenir
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 65570749 | MALÉATE DE DEXCHLORPHÉNIRAMINE | comprimé sécable | Active |
-| 65227405 | MALÉATE DE DEXCHLORPHÉNIRAMINE | solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65570749 | POLARAMINE 2 mg, comprimé sécable | Comprimé sécable | BAYER HEALTHCARE | Active |
+| 65227405 | POLARAMINE 5 mg/1 ml, solution injectable | Solution injectable | LABORATORIOS FARMACEUTICOS ROVI (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

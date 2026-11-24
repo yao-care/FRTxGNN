@@ -96,13 +96,26 @@ Sélection des publications les plus pertinentes parmi celles recensées (aucune
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64762878 | CYTARABINE SANDOZ 100 mg/ml | Solution injectable | Non renseignée |
-| 69737206 | ARACYTINE 500 mg | Poudre pour solution pour perfusion | Non renseignée |
-| 63625385 | CYTARABINE ACCORD 20 mg/mL | Solution injectable ou pour perfusion | Non renseignée |
-| 61517592 | ARACYTINE 100 mg | Poudre et solvant pour solution injectable | Non renseignée |
-| 60375001 | ARACYTINE 1 g | Poudre pour solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64762878 | CYTARABINE SANDOZ 100 mg/ml, solution injectable | Solution injectable | SANDOZ | Active |
+| 69737206 | ARACYTINE 500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 63625385 | CYTARABINE ACCORD 20 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 61517592 | ARACYTINE 100 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | PFIZER HOLDING FRANCE | Active |
+| 60375001 | ARACYTINE 1 g, poudre pour solution pour perfusion (I.V.) | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 66523859 | ARACYTINE 2 g, poudre pour solution pour perfusion (I.V.) | Poudre pour solution pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 63318475 | CYTARABINE ACCORD 100 mg/ml, solution injectable ou pour perfusion | Solution pour préparation injectable ou pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 67938406 | CYTARABINE SANDOZ 20 mg/ml, solution injectable | Solution injectable | SANDOZ | Active |
+| 69140809 | CYTARABINE SANDOZ 50 mg/ml, solution injectable | Solution injectable | SANDOZ | Active |
+| 63280448 | VYXEOS LIPOSOMAL 44 mg/100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | JAZZ PHARMACEUTICALS IRELAND LIMITED (IRLANDE) | Active |
+| 69333402 | CYTARABINE KABI 100 mg/ml, solution injectable ou pour perfusion | Solution pour injection ou pour perfusion | FRESENIUS KABI FRANCE | Archivée |
+| 60369984 | CYTARABINE EG 50 mg/ml, solution injectable | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

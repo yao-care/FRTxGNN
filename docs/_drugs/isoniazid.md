@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 416
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "isoniazid"
 predicted_indications: ["conjunctivitis"]
 description: "Isoniazid : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -80,13 +80,19 @@ Le texte d'indication approuvée n'est pas renseigné dans les données compilé
 
 <!-- review:end fr-lic-20261106-isoniazid-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63644987 | RIMIFON 50 mg, comprimé | Comprimé | Active |
-| 69515643 | RIMIFON 500 mg/5 ml | Solution injectable ou pour perfusion | Active |
-| 69568222 | RIMIFON 150 mg, comprimé | Comprimé | Active |
-| 63898512 | RIFINAH 300 mg/150 mg | Comprimé enrobé | Active |
-| 64208131 | RIFATER | Comprimé enrobé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63644987 | RIMIFON 50 mg, comprimé | Comprimé | PHARMHOLDING (LUXEMBOURG) | Active |
+| 69515643 | RIMIFON 500 mg/5 ml, solution injectable/pour perfusion | Solution injectable ou pour perfusion | PHARMHOLDING (LUXEMBOURG) | Active |
+| 69568222 | RIMIFON 150 mg, comprimé | Comprimé | PHARMHOLDING (LUXEMBOURG) | Active |
+| 63898512 | RIFINAH 300 mg/150 mg, comprimé enrobé | Comprimé enrobé | SANOFI WINTHROP INDUSTRIE | Active |
+| 64208131 | RIFATER, comprimé enrobé | Comprimé enrobé | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

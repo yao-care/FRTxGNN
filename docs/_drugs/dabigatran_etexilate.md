@@ -75,15 +75,35 @@ Aucun essai clinique associé n'est enregistré actuellement pour la cholangite 
 
 20 AMM valides en France, médicament commercialisé. Le texte d'indication n'est pas renseigné dans les données.
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 62186316 | PRADAXA 110 mg, granulés enrobés | Granulés enrobés | Non renseignée |
-| 68370173 | DABIGATRAN ETEXILATE BIOGARAN 75 mg | Gélule | Non renseignée |
-| 65570603 | PRADAXA 110 mg | Gélule | Non renseignée |
-| 68185986 | DABIGATRAN ETEXILATE ZENTIVA K.S. 75 mg | Gélule | Non renseignée |
-| 63793251 | DABIGATRAN ETEXILATE VIATRIS SANTE 110 mg | Gélule | Non renseignée |
+<!-- licenses:begin -->
 
-*Cinq AMM sont présentées sur un total de 20.*
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68370173 | DABIGATRAN ETEXILATE BIOGARAN 75 mg, gélule | Gélule | BIOGARAN | Active |
+| 65570603 | PRADAXA 110 mg, gélule | Gélule | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 68185986 | DABIGATRAN ETEXILATE ZENTIVA K.S. 75 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 63793251 | DABIGATRAN ETEXILATE VIATRIS SANTE 110 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 63484283 | PRADAXA 150 mg, gélule | Gélule | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 65693901 | PRADAXA 75 mg, gélule | Gélule | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 61511205 | DABIGATRAN ETEXILATE ZENTIVA K.S. 150 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 66449914 | DABIGATRAN ETEXILATE VIATRIS SANTE 150 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 68417210 | DABIGATRAN ETEXILATE BIOGARAN 150 mg, gélule | Gélule | BIOGARAN | Active |
+| 66272549 | DABIGATRAN ETEXILATE ZENTIVA K.S. 110 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 68570512 | DABIGATRAN ETEXILATE EG LABO 75 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60292648 | DABIGATRAN ETEXILATE BIOGARAN 110 mg, gélule | Gélule | BIOGARAN | Active |
+| 62154642 | DABIGATRAN ETEXILATE EG LABO 150 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61492018 | DABIGATRAN ETEXILATE EG LABO 110 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62186316 | PRADAXA 110 mg, granulés enrobés | Granulés enrobé | BOEHRINGER INGELHEIM INTERNATIONAL | Archivée |
+| 66196286 | PRADAXA 40 mg, granulés enrobés | Granulés enrobé | BOEHRINGER INGELHEIM INTERNATIONAL | Archivée |
+| 65548471 | PRADAXA 150 mg, granulés enrobés | Granulés enrobé | BOEHRINGER INGELHEIM INTERNATIONAL | Archivée |
+| 63752596 | PRADAXA 50 mg, granulés enrobés | Granulés enrobé | BOEHRINGER INGELHEIM INTERNATIONAL | Archivée |
+| 61714127 | PRADAXA 30 mg, granulés enrobés | Granulés enrobé | BOEHRINGER INGELHEIM INTERNATIONAL | Archivée |
+| 65070765 | PRADAXA 20 mg, granulés enrobés | Granulés enrobé | BOEHRINGER INGELHEIM INTERNATIONAL | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

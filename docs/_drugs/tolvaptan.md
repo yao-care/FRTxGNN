@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 772
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOLVAPTAN"
 predicted_indications: ["renal-hepatic-pancreatic dysplasia", "karyomegalic interstitial nephritis", "thoracic malformation", "Joubert syndrome with renal defect", "adult familial nephronophthisis-spastic quadriparesia syndrome", "Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
 description: "Tolvaptan : nouvelle indication prédite, Renal-hepatic-pancreatic dysplasia (niveau de preuve L5). En France, AMM dans la BDPM : 17 (valides : 17)"
@@ -89,13 +89,31 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Fabricant |
-|---------|------|------|-----------|
-| 60108831 | Tolvaptan Sandoz 15 mg + 45 mg | Comprimé | Sandoz |
-| 64599993 | Tolvaptan Teva 30 mg + 60 mg | Comprimé | Teva (Pays-Bas) |
-| 66056341 | Jinarc 30 mg | Comprimé | Otsuka Pharmaceutical Netherlands |
-| 68174566 | Jinarc 30 mg + 60 mg | Comprimé | Otsuka Pharmaceutical Netherlands |
-| 68053529 | Tolvaptan Sandoz 30 mg + 90 mg | Comprimé | Sandoz |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60108831 | TOLVAPTAN SANDOZ 15 mg, comprimé + TOLVAPTAN SANDOZ 45 mg, comprimé | Comprimé et comprimé | SANDOZ | Active |
+| 64599993 | TOLVAPTAN TEVA 30 mg, comprimé + TOLVAPTAN TEVA 60 mg, comprimé | Comprimé et comprimé | TEVA (PAYS-BAS) | Active |
+| 66056341 | JINARC 30 mg, comprimé | Comprimé | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 68174566 | JINARC 30 mg, comprimé + JINARC 60 mg, comprimé | Comprimé et comprimé | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 68053529 | TOLVAPTAN SANDOZ 30 mg, comprimé + TOLVAPTAN SANDOZ 90 mg, comprimé | Comprimé et comprimé | SANDOZ | Active |
+| 63026453 | JINARC 30 mg, comprimé + JINARC 90 mg, comprimé | Comprimé et comprimé | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 66055638 | TOLVAPTAN BIOGARAN 30 mg, comprimé + TOLVAPTAN BIOGARAN 60 mg, comprimé | Comprimé et comprimé | BIOGARAN | Active |
+| 67126700 | TOLVAPTAN TEVA 15 mg, comprimé + TOLVAPTAN TEVA 45 mg, comprimé | Comprimé et comprimé | TEVA (PAYS-BAS) | Active |
+| 61666369 | JINARC 15 mg, comprimé | Comprimé | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 62302589 | TOLVAPTAN SANDOZ 30 mg, comprimé + TOLVAPTAN SANDOZ 60 mg, comprimé | Comprimé et comprimé | SANDOZ | Active |
+| 64887903 | TOLVAPTAN ZENTIVA 15 mg, comprimé + TOLVAPTAN ZENTIVA 45 mg, comprimé | Comprimé et comprimé | ZENTIVA FRANCE | Active |
+| 69512405 | TOLVAPTAN BIOGARAN 15 mg, comprimé + TOLVAPTAN BIOGARAN 45 mg, comprimé | Comprimé et comprimé | BIOGARAN | Active |
+| 63235257 | TOLVAPTAN TEVA 30 mg, comprimé + TOLVAPTAN TEVA 90 mg, comprimé | Comprimé et comprimé | TEVA (PAYS-BAS) | Active |
+| 65920174 | TOLVAPTAN ZENTIVA 30 mg, comprimé + TOLVAPTAN ZENTIVA 90 mg, comprimé | Comprimé et comprimé | ZENTIVA FRANCE | Active |
+| 69411993 | TOLVAPTAN ZENTIVA 30 mg, comprimé + TOLVAPTAN ZENTIVA 60 mg, comprimé | Comprimé et comprimé | ZENTIVA FRANCE | Active |
+| 64598514 | JINARC 15 mg, comprimé + JINARC 45 mg, comprimé | Comprimé et comprimé | OTSUKA PHARMACEUTICAL NETHERLANDS (PAYS BAS) | Active |
+| 60544558 | TOLVAPTAN BIOGARAN 30 mg, comprimé + TOLVAPTAN BIOGARAN 90 mg, comprimé | Comprimé et comprimé | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

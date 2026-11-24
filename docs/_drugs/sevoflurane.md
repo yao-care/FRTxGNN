@@ -83,9 +83,17 @@ Aucune littérature associée n'est disponible actuellement pour l'angor de Prin
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 67329056 | SEVOFLURANE BAXTER 1 ml/ml, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67329056 | SEVOFLURANE BAXTER 1 ml/ml, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | BAXTER | Active |
+| 60654271 | SOJOURN 100%, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | PIRAMAL CRITICAL CARE (PAYS-BAS) | Active |
+| 66282739 | SEVORANE, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | ABBVIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -104,9 +104,35 @@ Aucune littérature associée disponible actuellement pour le torticolis paroxys
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61179297 | MIANSERINE VIATRIS 10 mg, comprimé pelliculé (VIATRIS SANTE) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61179297 | MIANSERINE VIATRIS 10 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 60854845 | MIANSERINE ARROW 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 61207871 | MIANSERINE SANDOZ 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 61290963 | MIANSERINE ZENTIVA 60 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 61668199 | MIANSERINE TEVA 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 62667488 | MIANSERINE ARROW 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62766454 | MIANSERINE ARROW 60 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 63211473 | MIANSERINE BIOGARAN 30 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 63896696 | MIANSERINE EG 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64930226 | MIANSERINE SANDOZ 60 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 65168309 | MIANSERINE TEVA 60 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 65525152 | MIANSERINE VIATRIS 30 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 66268344 | MIANSERINE EG 10 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66556019 | MIANSERINE CRISTERS 60 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 66711708 | MIANSERINE CRISTERS 10 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 67450809 | MIANSERINE ZENTIVA 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 67579330 | MIANSERINE CRISTERS 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 67788604 | MIANSERINE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 68313699 | MIANSERINE VIATRIS 60 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 68494783 | MIANSERINE BIOGARAN 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

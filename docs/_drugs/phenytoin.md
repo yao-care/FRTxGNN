@@ -87,10 +87,17 @@ Aucune de ces publications ne soutient directement l'indication prédite.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62436200 | DILANTIN 250 mg/5 ml, solution injectable (ESTEVE PHARMACEUTICALS) | Solution injectable | Non renseignée (AMM active) |
-| 66303560 | DI-HYDAN 100 mg, comprimé sécable (EFISCIENS) | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62436200 | DILANTIN 250 mg/5 ml, solution injectable | Solution injectable | ESTEVE PHARMACEUTICALS | Active |
+| 66303560 | DI-HYDAN 100 mg, comprimé sécable | Comprimé sécable | EFISCIENS (MALTE) | Active |
+| 63715217 | DIPHANTE 100 mg, comprimé quadrisécable | Comprimé quadrisécable | KELA PHARMA (BELGIQUE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 2 AMM sur 3 sont valides : la phénytoïne est commercialisée dans ce pays.
 

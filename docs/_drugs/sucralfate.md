@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 717
 evidence_level: L3
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SUCRALFATE"
 predicted_indications: ["duodenogastric reflux", "duodenal obstruction"]
 description: "Sucralfate : nouvelle indication prédite, Reflux duodéno-gastrique (duodenogastric reflux) (niveau de preuve L3). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -91,12 +91,18 @@ Les résultats chiffrés des deux essais randomisés ne figurent pas dans les ex
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69428971 | KEAL 1 g, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 64577534 | ULCAR 1 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM active) |
-| 60602431 | KEAL 2 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM active) |
-| 68928009 | KEAL 1 g, suspension buvable en sachet | Suspension buvable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69428971 | KEAL 1 g, comprimé sécable | Comprimé sécable | EXOD | Active |
+| 64577534 | ULCAR 1 g, suspension buvable en sachet | Suspension buvable | SANOFI WINTHROP INDUSTRIE | Active |
+| 60602431 | KEAL 2 g, suspension buvable en sachet | Suspension buvable | EXOD | Active |
+| 68928009 | KEAL 1 g, suspension buvable en sachet | Suspension buvable | EXOD | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

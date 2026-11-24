@@ -99,9 +99,25 @@ Ces travaux décrivent une relation **causale indésirable** (neurotoxicité) et
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61200510 | TETRACAINE 1 POUR CENT THEA, collyre en solution en récipient unidose (active) | Collyre en solution | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61200510 | TETRACAINE 1 POUR CENT THEA, collyre en solution en récipient unidose | Collyre en solution | THEA | Active |
+| 60539301 | DRILL MIEL ROSAT, pastille à sucer | Pastille | PIERRE FABRE MEDICAMENT | Active |
+| 60665912 | DRILL SANS SUCRE ANIS MENTHE, pastille édulcorée à l'isomalt et à l'acésulfame de potassi… | Pastille | PIERRE FABRE MEDICAMENT | Active |
+| 64626892 | DRILL SANS SUCRE, pastille édulcorée à l'aspartam et à l'isomalt | Pastille | PIERRE FABRE MEDICAMENT | Active |
+| 67546088 | DRILL MIEL CITRON SANS SUCRE, pastille édulcorée à l'isomalt et à l'acésulfame potassique | Pastille | PIERRE FABRE MEDICAMENT | Active |
+| 69635009 | DRILL, pastille à sucer | Pastille | PIERRE FABRE MEDICAMENT | Active |
+| 60406856 | CANTALENE, comprimé à sucer | Comprimé à sucer | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 63599951 | OTYLOL, solution pour instillation auriculaire | Solution pour instillation | BRIDOUX | Active |
+| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch(s) | SMARTPRACTICE DENMARK (DANEMARK) | Active |
+| 63130270 | ELUDRIL, collutoire | Collutoire | PIERRE FABRE MEDICAMENT | Abrogée |
+| 65558483 | DRILL CITRON MENTHE, pastille | Pastille | PIERRE FABRE MEDICAMENT | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

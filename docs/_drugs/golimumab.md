@@ -91,12 +91,22 @@ Ce raisonnement reste toutefois théorique. Les données disponibles concernent 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67700426 | SIMPONI 100 mg, solution injectable en seringue préremplie | Solution injectable | Active |
-| 60035714 | SIMPONI 50 mg, solution injectable en seringue préremplie | Solution injectable | Active |
-| 62534114 | SIMPONI 100 mg, solution injectable en stylo prérempli | Solution injectable | Active |
-| 62222050 | SIMPONI 50 mg, solution injectable en stylo pré-rempli | Solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67700426 | SIMPONI 100 mg, solution injectable en seringue préremplie | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 60035714 | SIMPONI 50 mg, solution injectable en seringue préremplie | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 62534114 | SIMPONI 100 mg, solution injectable en stylo prérempli | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 62222050 | SIMPONI 50 mg, solution injectable en stylo pré-rempli | Solution injectable | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 62464897 | GOBIVAZ 100 mg, solution injectable en seringue préremplie | Solution injectable | ADVANZ PHARMA LIMITED | Active |
+| 63851320 | GOBIVAZ 50 mg, solution injectable en stylo prérempli | Solution injectable | ADVANZ PHARMA LIMITED | Active |
+| 65332908 | GOBIVAZ 50 mg, solution injectable en seringue préremplie | Solution injectable | ADVANZ PHARMA LIMITED | Active |
+| 68655966 | GOBIVAZ 100 mg, solution injectable en stylo prérempli | Solution injectable | ADVANZ PHARMA LIMITED | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

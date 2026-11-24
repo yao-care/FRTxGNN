@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 541
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "NITRENDIPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "pulmonary hypertension"]
 description: "Nitrendipine : nouvelle indication prédite, Trouble migraineux (migraine disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -79,10 +79,16 @@ Les publications retrouvées ne testent pas la nitrendipine dans la migraine. El
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68126062 | NITRENDIPINE VIATRIS 20 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 67688899 | NITRENDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68126062 | NITRENDIPINE VIATRIS 20 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 67688899 | NITRENDIPINE VIATRIS 10 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La nitrendipine est commercialisée en France ; les deux autorisations listées sont valides.
 

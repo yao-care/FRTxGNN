@@ -88,19 +88,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62822230 | Lamivudine Sandoz 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM abrogée) |
-| 68440383 | Lamivudine Arrow 150 mg | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 68427877 | Zeffix 5 mg/ml | Solution buvable | Non renseignée (AMM active) |
-| 63439683 | Zeffix 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 62715513 | Epivir 150 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-lamivudine-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68440383 | LAMIVUDINE ARROW 150 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68427877 | ZEFFIX 5 mg/ml, solution buvable | Solution buvable | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 65213035 | LAMIVUDINE ARROW 100 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 63439683 | ZEFFIX 100 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 63179965 | LAMIVUDINE TEVA PHARMA B.V. 150 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 62715513 | EPIVIR 150 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 68934841 | LAMIVUDINE SANDOZ 300 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 67356046 | LAMIVUDINE VIATRIS 300 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68036070 | EPIVIR 10 mg/ml, solution buvable | Solution buvable | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 61785366 | LAMIVUDINE TEVA PHARMA B.V. 300 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 64777862 | EPIVIR 300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE UK (ROYAUME-UNI) | Active |
+| 61482173 | LAMIVUDINE VIATRIS 150 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 62983657 | LAMIVUDINE ARROW 300 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62828870 | ABACAVIR/LAMIVUDINE ARROW 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62170486 | ABACAVIR/LAMIVUDINE VIATRIS GENERIQUES 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65521773 | COMBIVIR 150 mg/300 mg, comprimé pelliculé | Comprimé pelliculé sécable | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 67567004 | ABACAVIR/LAMIVUDINE VIATRIS 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 67301231 | DOVATO 50 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 62822230 | LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Abrogée |
+| 62202005 | ABACAVIR/LAMIVUDINE ZENTIVA 600 mg/300 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Abrogée |
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Lamivudine Sandoz 150 mg / Comprimé pelliculé sécable / Non renseignée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg, comprimé pelliculé sécable) a le statut « Autorisation abrogée ». Source: [Base de données publique des médicaments (BDPM) – fiche 62822230](https://base-donnees-publique.medicaments.gouv.fr/medicament/62822230/extrait).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
 
-<!-- review:end fr-row-20261112-lamivudine-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -139,7 +155,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 62822230](https://base-donnees-publique.medicaments.gouv.fr/medicament/62822230/extrait) |
+| 2026-11-24 | Tableau : l’AMM 62822230 (LAMIVUDINE SANDOZ 150 mg) est abrogée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 62822230](https://base-donnees-publique.medicaments.gouv.fr/medicament/62822230/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Epivir (lamivudine) prescribing information, ViiV Healthcare Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=89226149-47fa-4f7d-bb1f-1aa7034486b8) |
 
 <!-- review:end log -->

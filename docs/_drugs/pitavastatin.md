@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "pitavastatin"
 predicted_indications: ["cholesterol-ester transfer protein deficiency", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "feline acquired immunodeficiency syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pitavastatin : nouvelle indication prédite, Déficience en protéine de transfert des esters de cholestérol (niveau de preuve L5). Indication d'origine : Hyperlipidémie combinée familiale"
 ---
 
@@ -74,13 +74,20 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69233925 | LIPPIZA 2 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 64164770 | TROLISE 2 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 65203831 | TROLISE 4 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 62771736 | TROLISE 1 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 64358832 | LIPPIZA 1 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69233925 | LIPPIZA 2 mg, comprimé pelliculé | Comprimé pelliculé | KOWA PHARMACEUTICAL EUROPE (ALLEMAGNE) | Active |
+| 64164770 | TROLISE 2 mg, comprimé pelliculé | Comprimé pelliculé | KOWA PHARMACEUTICAL EUROPE (ALLEMAGNE) | Active |
+| 65203831 | TROLISE 4 mg, comprimé pelliculé | Comprimé pelliculé | KOWA PHARMACEUTICAL EUROPE (ALLEMAGNE) | Active |
+| 62771736 | TROLISE 1 mg, comprimé pelliculé | Comprimé pelliculé | KOWA PHARMACEUTICAL EUROPE (ALLEMAGNE) | Active |
+| 64358832 | LIPPIZA 1 mg, comprimé pelliculé | Comprimé pelliculé | KOWA PHARMACEUTICAL EUROPE (ALLEMAGNE) | Active |
+| 63270518 | LIPPIZA 4 mg, comprimé pelliculé | Comprimé pelliculé | KOWA PHARMACEUTICAL EUROPE (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Une 6e AMM (LIPPIZA 4 mg, n° 63270518) existe également. Toutes sont détenues par KOWA Pharmaceutical Europe.
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 272
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eftrenonacog alfa"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia"]
 description: "Eftrenonacog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (pseudo-von Willebrand disease) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -89,13 +89,19 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66430312 | ALPROLIX 500 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 68071018 | ALPROLIX 1000 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 64611260 | ALPROLIX 250 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 60256036 | ALPROLIX 3000 UI | Poudre et solvant pour solution injectable | Non renseignée |
-| 64832013 | ALPROLIX 2000 UI | Poudre et solvant pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66430312 | ALPROLIX 500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM (SUEDE) | Active |
+| 68071018 | ALPROLIX 1000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM (SUEDE) | Active |
+| 64611260 | ALPROLIX 250 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM (SUEDE) | Active |
+| 60256036 | ALPROLIX 3000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM (SUEDE) | Active |
+| 64832013 | ALPROLIX 2000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM (SUEDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

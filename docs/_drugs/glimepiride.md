@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 365
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "glimepiride"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 description: "Glimepiride : nouvelle indication prédite, Syndrome de la personne raide classique (classic stiff person syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
@@ -77,13 +77,35 @@ Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée 
 
 <!-- review:end fr-lic-20261106-glimepiride-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67054585 | Glimépiride Arrow Génériques 2 mg | Comprimé sécable | Active |
-| 67447122 | Glimépiride Evolugen 3 mg | Comprimé | Active |
-| 63422748 | Glimépiride Arrow Génériques 3 mg | Comprimé sécable | Active |
-| 65604468 | Glimépiride Zentiva 2 mg | Comprimé | Active |
-| 66017203 | Glimépiride EG 2 mg | Comprimé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67054585 | GLIMEPIRIDE ARROW GENERIQUES 2 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 67447122 | GLIMEPIRIDE EVOLUGEN 3 mg, comprimé | Comprimé | EVOLUPHARM | Active |
+| 63422748 | GLIMEPIRIDE ARROW GENERIQUES 3 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 65604468 | GLIMEPIRIDE ZENTIVA 2 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 66017203 | GLIMEPIRIDE EG 2 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65546901 | GLIMEPIRIDE ZENTIVA 3 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 61788049 | GLIMEPIRIDE ACCORD HEALTHCARE 3 mg, comprimé | Comprimé | ACCORD HEALTHCARE FRANCE | Active |
+| 64816831 | GLIMEPIRIDE EG 3 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65527662 | GLIMEPIRIDE TEVA SANTE 4 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 60355600 | GLIMEPIRIDE VIATRIS 4 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 61179767 | GLIMEPIRIDE CRISTERS 1 mg, comprimé | Comprimé | CRISTERS | Active |
+| 69977393 | GLIMEPIRIDE VIATRIS 3 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 68427382 | GLIMEPIRIDE BGR 3 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 65620522 | GLIMEPIRIDE ZENTIVA 1 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 63141402 | GLIMEPIRIDE ZYDUS 2 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 65660794 | GLIMEPIRIDE TEVA SANTE 3 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 65132804 | GLIMEPIRIDE ZENTIVA 4 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 66791145 | GLIMEPIRIDE BGR 1 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 66252856 | GLIMEPIRIDE TEVA SANTE 2 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 60648158 | GLIMEPIRIDE EG 4 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

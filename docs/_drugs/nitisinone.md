@@ -83,13 +83,26 @@ Aucune littérature associée disponible actuellement pour l'acidose tubulaire r
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66880925 | ORFADIN 4 mg/ml | Suspension buvable | Active |
-| 60459499 | ORFADIN 5 mg | Gélule | Active |
-| 64147632 | ORFADIN 10 mg | Gélule | Active |
-| 62524376 | NITISINONE DIPHARMA 5 mg | Gélule | Active |
-| 67123316 | NITISINONE DIPHARMA 2 mg | Gélule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66880925 | ORFADIN 4 mg/ml, suspension buvable | Suspension buvable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 60459499 | ORFADIN 5 mg, gélule | Gélule | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 64147632 | ORFADIN 10 mg, gélule | Gélule | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 62524376 | NITISINONE DIPHARMA 5 mg, gélule | Gélule | DIPHARMA ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 67123316 | NITISINONE DIPHARMA 2 mg, gélule | Gélule | DIPHARMA ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64748145 | ORFADIN 2 mg, gélule | Gélule | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 66595463 | NITISINONE DIPHARMA 10 mg, gélule | Gélule | DIPHARMA ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 60069307 | NITISINONE DIPHARMA 20 mg, gélule | Gélule | DIPHARMA ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64861673 | ORFADIN 20 mg, gélule | Gélule | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 60513598 | NITISINONE MDK 2 mg, gélule | Gélule | MENDELIKABS EUROPE (IRLANDE) | Abrogée |
+| 63259799 | NITISINONE MDK 10 mg, gélule | Gélule | MENDELIKABS EUROPE (IRLANDE) | Abrogée |
+| 64487446 | NITISINONE MDK 5 mg, gélule | Gélule | MENDELIKABS EUROPE (IRLANDE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 9 AMM sont recensées, dont 9 valides. Le médicament est commercialisé. Le texte des indications approuvées n'est pas renseigné.
 

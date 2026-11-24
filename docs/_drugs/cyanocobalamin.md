@@ -73,19 +73,24 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65647512 | VITAMINE B12 GERDA 1000 µg/4 ml, solution injectable (IM) et buvable | Solution injectable et buvable | Non précisée (AMM active) |
-| 61247741 | VITAMINE B12 GERDA 250 microgrammes, comprimé sécable | Comprimé sécable | Non précisée (AMM active) |
-| 60941894 | VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.) | Solution injectable | Non précisée (AMM archivée) |
-| 66166745 | VITAMINE B12 CHAUVIN 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
-| 64452203 | VITAMINE B12 HORUS PHARMA 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | Non précisée (AMM active) |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-cyanocobalamin-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65647512 | VITAMINE B12 GERDA 1000 µg/4 ml, solution injectable (IM) et buvable | Solution injectable et buvable | SUBSTIPHARM | Active |
+| 61247741 | VITAMINE B12 GERDA 250 microgrammes, comprimé sécable | Comprimé sécable | SUBSTIPHARM | Active |
+| 66166745 | VITAMINE B12 CHAUVIN 0,2 mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 64452203 | VITAMINE B12 HORUS PHARMA 0,2mg/0,4 ml, collyre en solution en récipient unidose | Collyre en solution | HORUS PHARMA | Active |
+| 65247265 | VITAMINE B12 THEA 0,05 POUR CENT (0,2 mg/0,4 ml), collyre en récipient unidose | Collyre en solution | THEA | Active |
+| 63438318 | VITAMINE B 12 HORUS PHARMA 0,5 POUR MILLE, collyre en solution | Collyre en solution | HORUS PHARMA | Active |
+| 60423791 | VITAMINE B12 DELAGRANGE 1000 microgrammes/2 ml, solution injectable (IM) et buvable | Solution injectable et buvable | ZENTIVA FRANCE | Active |
+| 67312509 | SOLUVIT, lyophilisat pour usage parentéral | Lyophilisat pour usage parentéral | FRESENIUS KABI FRANCE | Active |
+| 61001031 | CERNEVIT, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | BAXTER | Active |
+| 60941894 | VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.) | Solution injectable | LABORATOIRES CHAIX ET DU MARAIS | Archivée |
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Solution injectable / Non précisée (AMM active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml, solution injectable (I.M.)) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 60941894](https://base-donnees-publique.medicaments.gouv.fr/medicament/60941894/extrait).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-cyanocobalamin-1 -->
+<!-- licenses:end -->
 
 Seules 5 des 10 AMM sont listées.
 
@@ -134,7 +139,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 10 AMM sont valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « De plus, toutes les AMM françaises de la cyanocobalamine sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-24 | Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60941894](https://base-donnees-publique.medicaments.gouv.fr/medicament/60941894/extrait) |
+| 2026-11-24 | Tableau : l’AMM 60941894 (VITAMINE B12 LAVOISIER 1000 microgrammes/1 ml) est archivée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 60941894](https://base-donnees-publique.medicaments.gouv.fr/medicament/60941894/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: cyanocobalamin prescribing information, SOLA Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e559c6c8-2973-77fb-e053-2995a90af43d) |
 
 <!-- review:end log -->

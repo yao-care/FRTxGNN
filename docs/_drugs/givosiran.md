@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 362
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "givosiran"
 predicted_indications: ["hepatoportal sclerosis", "idiopathic copper-associated cirrhosis", "early-onset familial noncirrhotic portal hypertension", "primitive portal vein thrombosis", "hepatopulmonary syndrome", "chronic hepatitis C virus infection", "glycogen storage disease due to hepatic glycogen synthase deficiency", "chronic hepatitis B virus infection", "disorder of phenylalanine metabolism"]
 description: "Givosiran : nouvelle indication prédite, Hepatoportal sclerosis (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -85,9 +85,15 @@ Les essais de phase 3 portent surtout sur la porphyrie aiguë intermittente. La 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68318874 | GIVLAARI 189 mg/mL, solution injectable (ALNYLAM NETHERLANDS, Pays-Bas) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68318874 | GIVLAARI 189 mg/mL, solution injectable | Solution injectable | ALNYLAM NETHERLANDS (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

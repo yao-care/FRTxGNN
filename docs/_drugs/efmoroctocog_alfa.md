@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 271
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Efmoroctocog Alfa : nouvelle indication prédite, Pseudo-maladie de von Willebrand (niveau de preuve L5). Indication d'origine : Hémophilie (forme symptomatique de l'hémophilie chez les porteuses)"
 monitor_inn: "EFMOROCTOCOG ALFA"
 predicted_indications: ["pseudo-von Willebrand disease", "primary release disorder of platelets", "Glanzmann thrombasthenia", "Scott syndrome", "acquired coagulation factor deficiency", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "thrombotic thrombocytopenic purpura"]
@@ -103,13 +103,22 @@ Les 8 autorisations, toutes détenues par Swedish Orphan Biovitrum International
 
 <!-- review:end fr-lic-20261106-efmoroctocog_alfa-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69349794 | ELOCTA 1500 UI | Poudre et solvant pour solution injectable | Active |
-| 60602449 | ELOCTA 750 UI | Poudre et solvant pour solution injectable | Active |
-| 68853909 | ELOCTA 2000 UI | Poudre et solvant pour solution injectable | Active |
-| 69009069 | ELOCTA 1000 UI | Poudre et solvant pour solution injectable | Active |
-| 64440763 | ELOCTA 250 UI | Poudre et solvant pour solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69349794 | ELOCTA 1500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 60602449 | ELOCTA 750 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 68853909 | ELOCTA 2000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 69009069 | ELOCTA 1000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 64440763 | ELOCTA 250 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 63964656 | ELOCTA 500 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 66735584 | ELOCTA 3000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+| 63314092 | ELOCTA 4000 UI, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ASFOTASE ALFA"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies", "Steel syndrome", "exocrine pancreatic insufficiency", "Scheie syndrome", "Hurler syndrome", "lysosomal storage disease with skeletal involvement", "familial apolipoprotein C-II deficiency", "esophageal varices with bleeding", "esophageal varices without bleeding", "cystinosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Asfotase Alfa : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative p… (niveau de preuve L5). Indication…"
 ---
 
@@ -69,10 +69,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64450234 | STRENSIQ 40 mg/ml, solution injectable | Solution injectable | Non renseignée |
-| 69258437 | STRENSIQ 100 mg/ml, solution injectable | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64450234 | STRENSIQ 40 mg/ml, solution injectable | Solution injectable | ALEXION EUROPE | Active |
+| 69258437 | STRENSIQ 100 mg/ml, solution injectable | Solution injectable | ALEXION EUROPE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 L'asfotase alfa est commercialisée en France (laboratoire ALEXION EUROPE).
 

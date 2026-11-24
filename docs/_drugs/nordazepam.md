@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 543
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "nordazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium", "hallucinogen abuse", "antidepressant type abuse", "barbiturate abuse", "sleep disorder, initiating and maintaining sleep"]
 description: "Nordazepam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 0)"
@@ -74,10 +74,16 @@ Aucune littérature associée disponible actuellement.
 
 Le nordazépam dispose de 2 autorisations de mise sur le marché (AMM) dans les données locales, toutes deux annulées. Aucune n'est valide actuellement.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67581406 | NORDAZ 7,5 mg, comprimé sécable (annulée) | Comprimé sécable | Non renseignée |
-| 61056483 | NORDAZ 15 mg, comprimé quadrisécable (annulée) | Comprimé quadrisécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67581406 | NORDAZ 7,5 mg, comprimé sécable | Comprimé sécable | BOUCHARA-RECORDATI | Archivée |
+| 61056483 | NORDAZ 15 mg, comprimé quadrisécable | Comprimé quadrisécable | BOUCHARA-RECORDATI | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

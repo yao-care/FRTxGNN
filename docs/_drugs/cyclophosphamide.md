@@ -78,11 +78,22 @@ Le cyclophosphamide est commercialisé en France. Les 8 AMM recensées sont vali
 
 <!-- review:end fr-lic-20261124-cyclophosphamide-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62554177 | ENDOXAN 50 mg, comprimé enrobé (active) | Comprimé enrobé | Non renseignée |
-| 64635418 | ENDOXAN 500 mg, poudre pour solution injectable (active) | Poudre et solvant pour solution injectable | Non renseignée |
-| 69586327 | ENDOXAN 1000 mg, poudre pour solution injectable (active) | Poudre pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62554177 | ENDOXAN 50 mg, comprimé enrobé | Comprimé enrobé | BAXTER | Active |
+| 64635418 | ENDOXAN 500 mg, poudre pour solution injectable | Poudre et solvant pour solution injectable | BAXTER | Active |
+| 69586327 | ENDOXAN 1000 mg, poudre pour solution injectable | Poudre pour solution injectable | BAXTER | Active |
+| 60853152 | CYCLOPHOSPHAMIDE REDDY PHARMA 1000 mg/2 mL, solution à diluer pour solution injectable/po… | Solution à diluer pour solution injectable ou pour perfusion | REDDY PHARMA | Active |
+| 68564413 | CYCLOPHOSPHAMIDE SANDOZ 500 mg, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | SANDOZ | Active |
+| 68633610 | CYCLOPHOSPHAMIDE REDDY PHARMA 500 mg/1 mL, solution à diluer pour solution injectable/pou… | Solution à diluer pour solution injectable ou pour perfusion | REDDY PHARMA | Active |
+| 69025828 | CYCLOPHOSPHAMIDE REDDY PHARMA 2000 mg/4 mL, solution à diluer pour solution injectable/po… | Solution à diluer pour solution injectable ou pour perfusion | REDDY PHARMA | Active |
+| 69116135 | CYCLOPHOSPHAMIDE SANDOZ 1000 mg, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

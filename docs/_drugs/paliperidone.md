@@ -94,13 +94,35 @@ Le texte des indications approuvées n'est pas renseigné. Principales AMM :
 
 <!-- review:end fr-lic-20261106-paliperidone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69642982 | TREVICTA 263 mg | Suspension injectable à libération prolongée | Non renseignée |
-| 60713079 | XEPLION 75 mg | Suspension injectable à libération prolongée | Non renseignée |
-| 66614262 | XEPLION 100 mg | Suspension injectable à libération prolongée | Non renseignée |
-| 64582563 | PALIPERIDONE TEVA 75 mg | Suspension injectable à libération prolongée | Non renseignée |
-| 68716209 | XEPLION 25 mg | Suspension injectable à libération prolongée | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69642982 | TREVICTA 263 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 60713079 | XEPLION 75 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 66614262 | XEPLION 100 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 64582563 | PALIPERIDONE TEVA 75 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | TEVA (PAYS-BAS) | Active |
+| 68716209 | XEPLION 25 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 65907383 | PALIPERIDONE BIOGARAN 150 mg, suspension injectable à libération prolongée en seringue pr… | Suspension injectable à libération prolongée | BIOGARAN | Active |
+| 67203082 | PALIPERIDONE TEVA 100 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | TEVA (PAYS-BAS) | Active |
+| 60249796 | TREVICTA 350 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 61444322 | TREVICTA 525 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 65363113 | PALIPERIDONE BIOGARAN 75 mg, suspension injectable à libération prolongée en seringue pré… | Suspension injectable à libération prolongée | BIOGARAN | Active |
+| 68924929 | TREVICTA 175 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 65554816 | XEPLION 50 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 68516735 | PALIPERIDONE TEVA 150 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | TEVA (PAYS-BAS) | Active |
+| 65593826 | PALIPERIDONE BIOGARAN 50 mg, suspension injectable à libération prolongée en seringue pré… | Suspension injectable à libération prolongée | BIOGARAN | Active |
+| 64760254 | XEPLION 150 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 62620200 | PALIPERIDONE BIOGARAN 25 mg, suspension injectable à libération prolongée en seringue pré… | Suspension injectable à libération prolongée | BIOGARAN | Active |
+| 62262276 | PALIPERIDONE BIOGARAN 100 mg, suspension injectable à libération prolongée en seringue pr… | Suspension injectable à libération prolongée | BIOGARAN | Active |
+| 60007565 | PALIPERIDONE ZENTIVA 25 mg, suspension injectable à libération prolongée en seringue prér… | Suspension injectable à libération prolongée | ZENTIVA FRANCE | Active |
+| 60150969 | PALIPERIDONE ZENTIVA 50 mg, suspension injectable à libération prolongée en seringue prér… | Suspension injectable à libération prolongée | ZENTIVA FRANCE | Active |
+| 60587424 | PALIPERIDONE ZENTIVA 150 mg, suspension injectable à libération prolongée en seringue pré… | Suspension injectable à libération prolongée | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "Ammonium chloride"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ammonium Chloride : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Pharyngite, rhume, rhinopharyngite"
 ---
 
@@ -73,12 +73,18 @@ Aucune littérature associée disponible actuellement.
 
 Les quatre AMM compilées sont des produits à substance unique, valides, sous forme de solutions pour perfusion. Aucun texte d'indication approuvée n'est disponible pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63262521 | Solution injectable d'oligo-éléments Aguettant enfants et nourrissons | Solution injectable pour perfusion | Non renseignée |
-| 68575185 | Pediaven AP-HP G15 | Solution pour perfusion | Non renseignée |
-| 67678175 | Pediaven AP-HP G20 | Solution pour perfusion | Non renseignée |
-| 62083608 | Pediaven AP-HP G25 | Solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63262521 | SOLUTION INJECTABLE D'OLIGO-ELEMENTS AGUETTANT ENFANTS ET NOURRISSONS, solution injectabl… | Solution injectable pour perfusion | AGUETTANT | Active |
+| 68575185 | PEDIAVEN AP-HP G15, solution pour perfusion | Solution et solution pour perfusion | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 67678175 | PEDIAVEN AP-HP G20, solution pour perfusion | Solution et solution pour perfusion | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 62083608 | PEDIAVEN AP-HP G25, solution pour perfusion | Solution et solution pour perfusion | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Ces produits sont des formes pour perfusion et ne correspondent pas à un usage nasal ou respiratoire.
 

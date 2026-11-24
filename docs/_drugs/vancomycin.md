@@ -84,9 +84,26 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64022454 | VANCOMYCINE SANDOZ 500 mg, poudre pour solution à diluer pour perfusion ou pour solution buvable (SANDOZ) – AMM active | Poudre pour solution à diluer pour perfusion ou buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64022454 | VANCOMYCINE SANDOZ 500 mg, poudre pour solution à diluer pour perfusion ou pour solution… | Poudre pour solution à diluer pour perfusion ou buvable | SANDOZ | Active |
+| 60033510 | VANCOMYCINE VIATRIS 125 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 60900335 | VANCOMYCINE SANDOZ 125 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SANDOZ | Active |
+| 61113361 | VANCOMYCINE HIKMA 500 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 62747735 | VANCOMYCINE VIATRIS 250 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 64048709 | VANCOMYCINE SANDOZ 250 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SANDOZ | Active |
+| 65005479 | VANCOMYCINE MIP 1000 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | MIP PHARMA (ALLEMAGNE) | Active |
+| 66193112 | VANCOMYCINE SANDOZ 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SANDOZ | Active |
+| 68624821 | VANCOMYCINE MIP 500 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | MIP PHARMA (ALLEMAGNE) | Active |
+| 68678566 | VANCOMYCINE HIKMA 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69031610 | VANCOMYCINE VIATRIS 500 mg, poudre pour solution à diluer pour perfusion ou pour solution… | Poudre pour solution à diluer pour perfusion ou buvable | VIATRIS SANTE | Active |
+| 69553715 | VANCOMYCINE VIATRIS 1000 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

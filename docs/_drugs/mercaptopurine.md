@@ -90,9 +90,17 @@ Dans la leucémie myéloïde, les données portent surtout sur la mercaptopurine
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63377491 | PURINETHOL 50 mg, comprimé | Comprimé | Non renseignée (AMM active, laboratoire ASPEN PHARMA TRADING, Irlande) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63377491 | PURINETHOL 50 mg, comprimé | Comprimé | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 63798857 | XALUPRINE 20 mg/ml, suspension orale | Suspension | LIPOMED (ALLEMAGNE) | Active |
+| 67750468 | PURINETHOL 50 mg, comprimé | Comprimé | PHARMA LAB | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La mercaptopurine est commercialisée en France : une AMM valide est enregistrée (titulaire : Aspen Pharma Trading, Irlande).
 

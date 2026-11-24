@@ -110,13 +110,32 @@ Les 18 AMM recensées sont des comprimés : 16 génériques et la spécialité d
 
 <!-- review:end fr-lic-20261106-manidipine-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67985231 | MANIDIPINE ZYDUS 20 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 60165857 | MANIDIPINE BIOGARAN 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 63426700 | MANIDIPINE ZENTIVA 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 67302931 | MANIDIPINE ARROW 10 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
-| 66582900 | MANIDIPINE VIATRIS 10 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67985231 | MANIDIPINE ZYDUS 20 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 60165857 | MANIDIPINE BIOGARAN 10 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 63426700 | MANIDIPINE ZENTIVA 10 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 67302931 | MANIDIPINE ARROW 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 66582900 | MANIDIPINE VIATRIS 10 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 69437714 | MANIDIPINE ZENTIVA 20 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 67828244 | MANIDIPINE EG 20 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62027794 | MANIDIPINE ZYDUS 10 mg, comprimé | Comprimé | ZYDUS FRANCE | Active |
+| 61976243 | MANIDIPINE BIOGARAN 20 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 67699283 | MANIDIPINE EG 10 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66192569 | MANIDIPINE TEVA 10 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 61752722 | MANIDIPINE TEVA 20 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 63011444 | MANIDIPINE ARROW 20 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 67120494 | MANIDIPINE SANDOZ 20 mg, comprimé | Comprimé | SANDOZ | Active |
+| 62444243 | MANIDIPINE SANDOZ 10 mg, comprimé | Comprimé | SANDOZ | Active |
+| 60876845 | MANIDIPINE VIATRIS 20 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 60456948 | IPERTEN 10 mg, comprimé | Comprimé | CHIESI | Active |
+| 65728537 | IPERTEN 20 mg, comprimé | Comprimé | CHIESI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

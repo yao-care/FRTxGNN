@@ -85,12 +85,20 @@ Le prasugrel est commercialisé en France. Les 6 autorisations recensées sont v
 
 <!-- review:end fr-lic-20261124-prasugrel-1 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 63610757 | PRASUGREL KRKA 10 mg (active) | Comprime pellicule | Non renseignee |
-| 67461428 | PRASUGREL EG 10 mg (active) | Comprime pellicule | Non renseignee |
-| 64503651 | PRASUGREL BGR 10 mg (active) | Comprime pellicule | Non renseignee |
-| 65916489 | EFIENT 10 mg (active) | Comprime pellicule | Non renseignee |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63610757 | PRASUGREL KRKA 10 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 67461428 | PRASUGREL EG 10 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64503651 | PRASUGREL BGR 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65916489 | EFIENT 10 mg, comprimé pelliculé | Comprimé pelliculé | SUBSTIPHARM | Active |
+| 60330636 | PRASUGREL EG LABO 10 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63324371 | PRASUGREL ZENTIVA 10 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

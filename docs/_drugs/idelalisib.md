@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 388
 evidence_level: L3
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "idelalisib"
 predicted_indications: ["mantle cell lymphoma", "Hodgkins lymphoma", "myeloid leukemia", "chronic myelogenous leukemia, BCR-ABL1 positive", "small intestinal Burkitt lymphoma", "colon adenocarcinoma"]
 description: "Idelalisib : nouvelle indication prédite, Lymphome à cellules du manteau (mantle cell lymphoma) (niveau de preuve L3). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -100,10 +100,16 @@ Aucun essai randomisé contrôlé n'figure parmi les publications associées à 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68093737 | ZYDELIG 150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69111017 | ZYDELIG 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68093737 | ZYDELIG 150 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 69111017 | ZYDELIG 100 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

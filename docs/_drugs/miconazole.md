@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 498
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MICONAZOLE"
 predicted_indications: ["acne (disease)"]
 description: "Miconazole : nouvelle indication prédite, acné (acne (disease)) (niveau de preuve L4). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -77,10 +77,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69184289 | DAKTARIN 2 %, gel buccal (KENVUE FRANCE) | Gel | Non renseignée (AMM active) |
-| 69980852 | LORAMYC 50 mg, comprimé buccogingival muco-adhésif (VECTANS PHARMA) | Comprimé muco-adhésif | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69184289 | DAKTARIN 2 %, gel buccal | Gel | KENVUE FRANCE | Active |
+| 69980852 | LORAMYC 50 mg, comprimé buccogingival muco-adhésif | Comprimé muco-adhésif | VECTANS PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux autorisations sont valides et concernent des spécialités à base de miconazole seul.
 

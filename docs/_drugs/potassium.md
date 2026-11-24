@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 618
 evidence_level: L1
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Potassium : nouvelle indication prédite, Trouble hypertensif (hypertension artérielle) (niveau de preuve L1). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "POTASSIUM"
 predicted_indications: ["hypertensive disorder", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "malignant renovascular hypertension"]
@@ -103,13 +103,33 @@ Aucune n'a de texte d'indication renseigné. Les cinq premières sont listées c
 
 <!-- review:end fr-lic-20261106-potassium-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63010506 | NATI-K 500 mg | Comprimé gastro-résistant | Non renseignée (AMM active) |
-| 61334096 | Chlorure de potassium Lavoisier 20 % | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 63382862 | Kaleorid LP 1000 mg | Comprimé pelliculé à libération prolongée | Non renseignée (AMM active) |
-| 68081197 | Chlorure de potassium Lavoisier 7,46 % | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 68050732 | Potassium H2 Pharma 25 mg/mL | Sirop | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63010506 | NATI-K 500 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | DB PHARMA | Active |
+| 61334096 | CHLORURE DE POTASSIUM LAVOISIER 20 % (0,20 g/ml) , solution à diluer pour perfusion | Solution à diluer pour perfusion | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 63382862 | KALEORID LP 1000 mg, comprimé à libération prolongée | Comprimé pelliculé à libération prolongée | KARO PHARMA (SUEDE) | Active |
+| 68081197 | CHLORURE DE POTASSIUM LAVOISIER 7,46 % (0,0746 g/ml) , solution à diluer pour perfusion | Solution à diluer pour perfusion | LABORATOIRES CHAIX ET DU MARAIS | Active |
+| 68050732 | POTASSIUM H2 PHARMA 25 mg/mL, sirop | Sirop | LIBERTY PHARMA (LUXEMBOURG) | Active |
+| 68393396 | POTASSIUM LIBERTY PHARMA 3 %, sirop | Sirop | LIBERTY PHARMA (LUXEMBOURG) | Active |
+| 63084015 | LEVMENTIN 2 g/200 mg ADULTES, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LABORATOIRES DELBERT | Active |
+| 67557120 | CLAVENTIN 5 g/200 mg, poudre pour solution injectable (I.V.) | Poudre pour solution injectable | LABORATOIRES DELBERT | Active |
+| 67951898 | CLAVENTIN 3 g/200 mg, poudre pour solution injectable (I.V.) | Poudre pour solution injectable | LABORATOIRES DELBERT | Active |
+| 63571101 | POLYIONIQUE G 10 AGUETTANT, solution pour perfusion | Solution pour perfusion | AGUETTANT | Active |
+| 68377958 | POLYIONIQUE G 5 AGUETTANT, solution pour perfusion | Solution pour perfusion | AGUETTANT | Active |
+| 64413588 | BIONOLYTE G5, solution injectable pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 67181796 | BIONOLYTE G5, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 63122811 | GLUCIDION G 10, solution pour perfusion | Solution pour perfusion | B BRAUN MEDICAL | Active |
+| 68209693 | GLUCIDION G 5, solution pour perfusion | Solution pour perfusion | B BRAUN MEDICAL | Active |
+| 66027553 | MACROGOL 3350 NORGINE ENFANTS 6,563g, poudre pour solution buvable en sachet-dose | Poudre pour solution buvable | NORGINE HEALTHCARE (PAYS-BAS) | Active |
+| 62206181 | PLEGISOL, solution cardioplégique pour voie intracoronaire en poche | Solution cardioplégique | PFIZER HOLDING FRANCE | Active |
+| 66148284 | RINGER LACTATE FRESENIUS KABI FRANCE, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 67563080 | ARTISIAL, solution pour pulvérisation endo-buccale | Solution pour pulvérisation endo-buccal(e) | BIOCODEX | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

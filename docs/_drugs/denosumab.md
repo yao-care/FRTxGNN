@@ -81,15 +81,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69058988 | JUBEREQ 120 mg, solution injectable | Solution injectable | Non renseignée |
-| 63575523 | OSENVELT 120 mg, solution injectable | Solution injectable | Non renseignée |
-| 62960231 | OSVYRTI 60 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée |
-| 69747403 | JUBBONTI 60 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée |
-| 65243459 | XGEVA 120 mg, solution injectable | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69058988 | JUBEREQ 120 mg, solution injectable | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63575523 | OSENVELT 120 mg, solution injectable | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 62960231 | OSVYRTI 60 mg, solution injectable en seringue préremplie | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69747403 | JUBBONTI 60 mg, solution injectable en seringue préremplie | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 65243459 | XGEVA 120 mg, solution injectable | Solution injectable | AMGEN EUROPE | Active |
+| 65678041 | XBRYK 120 mg, solution injectable | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 64972200 | CONEXXENCE 60 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 65397514 | STOBOCLO 60 mg, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 62119584 | WYOST 120 mg, solution injectable | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 65105419 | XGEVA 120 mg, solution injectable en seringue préremplie | Solution injectable | AMGEN EUROPE | Active |
+| 64912025 | BOMYNTRA 120 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 65238348 | OBODENCE 60 mg, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 64256891 | PROLIA 60 mg, solution injectable en seringue préremplie | Solution injectable | AMGEN EUROPE | Active |
+| 60203521 | ENWYLMA 120 mg, solution injectable | Solution injectable | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 60292274 | KEFDENSIS 60 mg, solution injectable en seringue préremplie | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 60365651 | ACVYBRA 60 mg, solution injectable en seringue préremplie | Solution injectable | REDDY HOLDING (ALLEMAGNE) | Active |
+| 61439115 | DENBRAYCE 120 mg, solution injectable | Solution injectable | MABXIENCE RESEARCH (ESPAGNE) | Active |
+| 62647820 | IZAMBY 60 mg, solution injectable en seringue préremplie | Solution injectable | MABXIENCE RESEARCH (ESPAGNE) | Active |
+| 62877426 | ZADENVI 60 mg, solution injectable en seringue préremplie | Solution injectable | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 64626839 | PONLIMSI 60 mg, solution injectable en seringue préremplie | Solution injectable | TEVA (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

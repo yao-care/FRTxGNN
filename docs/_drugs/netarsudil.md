@@ -3,7 +3,7 @@ layout: default
 title: Netarsudil
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 532
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Netarsudil : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,15 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 64224662 | LATANOPROST; MÉSYLATE DE NÉTARSUDIL | collyre en solution | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64224662 | ROCLANDA 50 microgrammes/mL + 200 microgrammes/mL, collyre en solution | Collyre en solution | SANTEN OY | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

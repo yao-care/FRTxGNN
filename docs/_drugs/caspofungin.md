@@ -80,13 +80,30 @@ Les données compilées recensent 16 autorisations de mise sur le marché (12 va
 
 <!-- review:end fr-lic-20261124-caspofungin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63197689 | CASPOFUNGINE STRAGEN 70 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 66400785 | CASPOFUNGINE LORIEN 70 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 64566502 | CASPOFUNGINE LORIEN 50 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 63609267 | CASPOFUNGINE TILLOMED 70 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 67108093 | CASPOFUNGINE SUN 70 mg | Poudre pour solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63197689 | CASPOFUNGINE STRAGEN 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | STRAGEN-FRANCE | Active |
+| 66400785 | CASPOFUNGINE LORIEN 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | LABORATORIOS LORIEN (ESPAGNE) | Active |
+| 64566502 | CASPOFUNGINE LORIEN 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | LABORATORIOS LORIEN (ESPAGNE) | Active |
+| 63609267 | CASPOFUNGINE TILLOMED 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 67108093 | CASPOFUNGINE SUN 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 60140010 | CASPOFUNGINE STRAGEN 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | STRAGEN-FRANCE | Active |
+| 65358970 | CASPOFUNGINE HIKMA 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 64960760 | CASPOFUNGINE HIKMA 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69919835 | CASPOFUNGINE VIATRIS 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 67987353 | CASPOFUNGINE TILLOMED 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 61215042 | CASPOFUNGINE VIATRIS 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 66869238 | CASPOFUNGINE SUN 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 62080334 | CASPOFUNGINE TEVA SANTE 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | TEVA SANTE | Abrogée |
+| 62517531 | CASPOFUNGINE FRESENIUS KABI 50 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | FRESENIUS KABI FRANCE | Abrogée |
+| 68718338 | CASPOFUNGINE FRESENIUS KABI 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | FRESENIUS KABI FRANCE | Abrogée |
+| 69061411 | CASPOFUNGINE TEVA SANTE 70 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | TEVA SANTE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

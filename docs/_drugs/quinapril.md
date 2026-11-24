@@ -87,22 +87,20 @@ Seule l'hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62206135 | ACUITEL 5 mg, comprimé enrobé sécable (archivée) | Comprimé enrobé sécable | Non précisée |
-| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable (archivée) | Comprimé enrobé sécable | Non précisée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-quinapril-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61168571 | QUINAPRIL BIOGARAN 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 60455586 | QUINAPRIL HYDROCHLOROTHIAZIDE EG 20 mg/12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69777040 | QUINAPRIL/HYDROCHLOROTHIAZIDE ARROW LAB 20 mg/12,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 62206135 | ACUITEL 5 mg, comprimé enrobé sécable | Comprimé enrobé sécable | PFIZER HOLDING FRANCE | Archivée |
+| 62927128 | ACUITEL 20 mg, comprimé enrobé sécable | Comprimé enrobé sécable | PFIZER HOLDING FRANCE | Archivée |
+| 68337593 | ACUILIX 20 mg/12,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | PFIZER HOLDING FRANCE | Archivée |
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « ACUITEL 5 mg, comprimé enrobé sécable (active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 62206135 (ACUITEL 5 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 62206135](https://base-donnees-publique.medicaments.gouv.fr/medicament/62206135/extrait).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-quinapril-1 -->
-
-<!-- review:begin fr-row-20261112-quinapril-2 -->
-
-> **Correction de vérification (2026-11-24)**: Texte initial : « ACUITEL 20 mg, comprimé enrobé sécable (active) » Selon la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l’AMM 62927128 (ACUITEL 20 mg, comprimé enrobé sécable) a le statut « Autorisation archivée ». Source: [Base de données publique des médicaments (BDPM) – fiche 62927128](https://base-donnees-publique.medicaments.gouv.fr/medicament/62927128/extrait).
-
-<!-- review:end fr-row-20261112-quinapril-2 -->
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 
@@ -152,8 +150,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « puisque seules des AMM annulées sont recensées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-24 | Tableau : l’AMM 62206135 (ACUITEL 5 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 62206135](https://base-donnees-publique.medicaments.gouv.fr/medicament/62206135/extrait) |
-| 2026-11-24 | Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 62927128](https://base-donnees-publique.medicaments.gouv.fr/medicament/62927128/extrait) |
+| 2026-11-24 | Tableau : l’AMM 62206135 (ACUITEL 5 mg) est archivée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 62206135](https://base-donnees-publique.medicaments.gouv.fr/medicament/62206135/extrait) |
+| 2026-11-24 | Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – fiche 62927128](https://base-donnees-publique.medicaments.gouv.fr/medicament/62927128/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
 | 2026-11-24 | Autres AMM de quinapril actives dans la BDPM | Vérification retirée (2026-11-24 : QUINAPRIL BIOGARAN 61168571 et les associations quinapril/hydrochlorothiazide font désormais partie des données compilées (complément par code de substance BDPM, 2026-11-24) ; la note n'est plus nécessaire ; auparavant : Note ajoutée) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 

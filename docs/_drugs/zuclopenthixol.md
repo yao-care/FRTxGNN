@@ -72,13 +72,21 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 68072846 | Clopixol Action Prolongée 200 mg/1 ml (BB Farma, Italie) | Solution injectable | Active |
-| 62788550 | Clopixol Action Prolongée 200 mg/1 ml (Lundbeck SAS) | Solution injectable | Active |
-| 61323662 | Clopixol 10 mg (Lundbeck SAS) | Comprimé pelliculé | Active |
-| 63744998 | Clopixol A Action Semi-Prolongée 50 mg/ml (Lundbeck SAS) | Solution injectable | Active |
-| 69974746 | Clopixol 25 mg (Lundbeck SAS) | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68072846 | CLOPIXOL ACTION PROLONGEE 200 mg/1 ml, solution injectable I.M. | Solution injectable | BB FARMA (ITALIE) | Active |
+| 62788550 | CLOPIXOL ACTION PROLONGEE 200 mg/1 ml, solution injectable I.M. | Solution injectable | LUNDBECK SAS | Active |
+| 61323662 | CLOPIXOL 10 mg, comprimé pelliculé | Comprimé pelliculé | LUNDBECK SAS | Active |
+| 63744998 | CLOPIXOL A ACTION SEMI-PROLONGEE 50 mg/ml, solution injectable I.M. | Solution injectable | LUNDBECK SAS | Active |
+| 69974746 | CLOPIXOL 25 mg, comprimé pelliculé | Comprimé pelliculé | LUNDBECK SAS | Active |
+| 69902540 | CLOPIXOL ACTION PROLONGEE 200 mg/1 ml, solution injectable I.M. | Solution injectable | DIFARMED (ESPAGNE) | Active |
+| 60209937 | CLOPIXOL 2 POUR CENT, solution buvable en gouttes | Solution buvable gouttes | LUNDBECK SAS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte d'indication approuvée n'est pas renseigné pour ces AMM.
 

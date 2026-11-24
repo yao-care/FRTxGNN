@@ -3,7 +3,7 @@ layout: default
 title: Olaparib
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 556
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Olaparib : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,11 +71,17 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour Olaparib corr
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 64748533 | OLAPARIB | comprimé pelliculé | Active |
-| 65789903 | OLAPARIB | gélule | Annulée |
-| 60058620 | OLAPARIB | comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64748533 | LYNPARZA 100 mg, comprimé pelliculé | Comprimé pelliculé | ASTRAZENECA AB | Active |
+| 60058620 | LYNPARZA 150 mg, comprimé pelliculé | Comprimé pelliculé | ASTRAZENECA AB | Active |
+| 65789903 | LYNPARZA 50 mg, gélule | Gélule | ASTRAZENECA AB | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

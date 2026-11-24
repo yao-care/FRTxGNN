@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 477
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "meloxicam"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "rheumatoid nodulosis", "WHIM syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
 description: "Meloxicam : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée…"
@@ -81,15 +81,28 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné dans les données compilées. Les 5 premières AMM sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas renseigné dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63922803 | MELOXICAM TEVA 15 mg, comprimé sécable | Comprimé sécable | Active |
-| 64115225 | MELOXICAM ZENTIVA 15 mg, comprimé sécable | Comprimé sécable | Active |
-| 65855762 | MELOXICAM ZENTIVA 7,5 mg, comprimé | Comprimé | Active |
-| 67044235 | MOBIC 7,5 mg, comprimé | Comprimé | Active |
-| 60330522 | MELOXICAM BIOGARAN 15 mg, comprimé sécable | Comprimé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63922803 | MELOXICAM TEVA 15 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 64115225 | MELOXICAM ZENTIVA 15 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 65855762 | MELOXICAM ZENTIVA 7,5 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 67044235 | MOBIC 7,5 mg, comprimé | Comprimé | BOEHRINGER INGELHEIM FRANCE | Active |
+| 60330522 | MELOXICAM BIOGARAN 15 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 65217119 | MOBIC 15 mg, comprimé sécable | Comprimé sécable | BOEHRINGER INGELHEIM FRANCE | Active |
+| 68015560 | MELOXICAM EG 7,5 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66852413 | MELOXICAM TEVA 7,5 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 66904340 | MELOXICAM BIOGARAN 7,5 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 69805237 | MELOXICAM EG 15 mg, comprimé sécable | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60821012 | MOBIC 15 mg/1,5 ml, solution injectable | Solution injectable | BOEHRINGER INGELHEIM FRANCE | Active |
+| 65274084 | MELOXICAM SANDOZ 15 mg, comprimé sécable | Comprimé sécable | SANDOZ | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

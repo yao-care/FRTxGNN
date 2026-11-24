@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 810
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "verteporfin"
 predicted_indications: ["mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies"]
 description: "Verteporfin : nouvelle indication prédite, Trouble de la phosphorylation oxydative mitochondriale dû à des anomalies de l'ADN nucléaire (mitochondrial oxidative p… (niveau de preuve L5). Indication d…"
@@ -71,9 +71,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64637807 | VISUDYNE 15 mg, poudre pour solution pour perfusion (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64637807 | VISUDYNE 15 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

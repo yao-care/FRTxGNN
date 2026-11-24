@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 524
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Naphazoline : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM (usage connu : rougeur oculaire…"
 monitor_inn: "naphazoline"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "primary hereditary glaucoma", "hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "open-angle glaucoma", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature"]
@@ -81,11 +81,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 67338728 | COLLYRE BLEU LAITER, flacon | Collyre | Non renseignée | Active |
-| 62545178 | XYLOCAINE 5 POUR CENT A LA NAPHAZOLINE, solution pour application muqueuse | Solution pour application | Non renseignée | Active |
-| 69345098 | DERINOX, solution pour pulvérisation nasale | Solution pour pulvérisation | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67338728 | COLLYRE BLEU LAITER, flacon | Collyre | LABORATOIRES FRILAB | Active |
+| 62545178 | XYLOCAINE 5 POUR CENT A LA NAPHAZOLINE, solution pour application muqueuse | Solution pour application | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 69345098 | DERINOX, solution pour pulvérisation nasale | Solution pour pulvérisation | DESMA PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -90,11 +90,18 @@ Pour le contexte de la thrombophilie, une revue récente à citer : [39233011](h
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63245753 | COUMADINE 5 mg, comprimé sécable (TEOFARMA) | Comprimé sécable | Non renseignée (AMM active) |
-| 64631925 | COUMADINE 2 mg, comprimé sécable (TEOFARMA) | Comprimé sécable | Non renseignée (AMM active) |
-| 68364117 | COUMADINE 5 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63245753 | COUMADINE 5 mg, comprimé sécable | Comprimé sécable | TEOFARMA | Active |
+| 64631925 | COUMADINE 2 mg, comprimé sécable | Comprimé sécable | TEOFARMA | Active |
+| 68364117 | COUMADINE 5 mg, comprimé sécable | Comprimé sécable | DIFARMED (ESPAGNE) | Active |
+| 65647836 | COUMADINE 5 mg, comprimé sécable | Comprimé sécable | BB FARMA (ITALIE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

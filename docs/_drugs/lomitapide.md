@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 456
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lomitapide"
 predicted_indications: ["marcothrombocytopenia with mitral valve insufficiency", "hereditary thrombocytopenia with normal platelets", "dense granule disease", "transient neonatal thrombocytopenia", "thrombocytopenia", "primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "platelet storage pool deficiency"]
 description: "Lomitapide : nouvelle indication prédite, Marcothrombocytopenia with mitral valve insufficiency (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -84,11 +84,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69243759 | LOJUXTA 10 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM active) |
-| 69565055 | LOJUXTA 20 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM active) |
-| 69851117 | LOJUXTA 5 mg, gélule (CHIESI FARMACEUTICI) | Gélule | Non précisée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69243759 | LOJUXTA 10 mg, gélule | Gélule | CHIESI FARMACEUTICI | Active |
+| 69565055 | LOJUXTA 20 mg, gélule | Gélule | CHIESI FARMACEUTICI | Active |
+| 69851117 | LOJUXTA 5 mg, gélule | Gélule | CHIESI FARMACEUTICI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La disponibilité réelle du produit en France doit donc être vérifiée.
 

@@ -90,9 +90,20 @@ Aucun essai clinique associé enregistré actuellement.
 
 La fluvoxamine est commercialisée en France.
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 65470567 | FLOXYFRAL 50 mg, comprime pellicule secable | Comprime pellicule | Non renseignee |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65470567 | FLOXYFRAL 50 mg, comprimé pelliculé sécable | Comprimé pelliculé | VIATRIS MEDICAL | Active |
+| 60439525 | FLOXYFRAL 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS MEDICAL | Active |
+| 62991472 | FLUVOXAMINE ARROW 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 63927049 | FLUVOXAMINE VIATRIS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 68288712 | FLUVOXAMINE ARROW 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68766984 | FLUVOXAMINE VIATRIS 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

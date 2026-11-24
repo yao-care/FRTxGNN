@@ -70,9 +70,21 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66845027 | DICETEL 100 mg, comprimé pelliculé (VIATRIS MEDICAL) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66845027 | DICETEL 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS MEDICAL | Active |
+| 61818407 | PINAVERIUM ARROW 100 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64172183 | DICETEL 50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS MEDICAL | Active |
+| 65466316 | PINAVERIUM VIATRIS 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 67771462 | PINAVERIUM EG 100 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67803141 | PINAVERIUM BIOGARAN 100 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 67907108 | PINAVERIUM TEVA SANTE 100 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

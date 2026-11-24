@@ -77,11 +77,18 @@ Aucune de ces publications n'étudie l'acide benzoïque dans la bronchite.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69376909 | BENZOICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | comprimé et solution(s) et granules et poudre et pommade | Non renseignée |
-| 67434502 | BENZOICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | comprimé et solution(s) et granules et poudre et pommade | Non renseignée |
-| 69736225 | RHUS TOXICODENDRON COMPOSE | granules et solution | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69376909 | BENZOICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 67434502 | BENZOICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 69736225 | RHUS TOXICODENDRON COMPOSE | Granules et solution | BOIRON | Active |
+| 67013695 | LEDUM COMPLEXE N°81, solution buvable en gouttes | Solution buvable en gouttes | LEHNING | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

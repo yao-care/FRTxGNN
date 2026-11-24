@@ -78,6 +78,39 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60468103 | DONEPEZIL SANDOZ 10 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 60502559 | DONEPEZIL ZYDUS 5 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 60618161 | DONEPEZIL BIOGARAN 5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 60715308 | DONEPEZIL VIATRIS 10 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 60876140 | DONEPEZIL TEVA 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 61094391 | DONEPEZIL ARROW 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 61842034 | DONEPEZIL ZENTIVA 5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61869049 | DONEPEZIL BIOGARAN 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62262995 | ARICEPT 5 mg, comprimé orodispersible | Comprimé orodispersible | EISAI SAS | Active |
+| 62410369 | DONEPEZIL VIATRIS 5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62650485 | ARICEPT 10 mg, comprimé pelliculé | Comprimé pelliculé | EISAI SAS | Active |
+| 62705768 | DONEPEZIL TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 64267973 | DONEPEZIL SANDOZ 5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 64282911 | DONEPEZIL KRKA 5 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 64312190 | DONEPEZIL KRKA 10 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 64813949 | DONEPEZIL ARROW 5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 65651044 | DONEPEZIL ZYDUS 10 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 68369527 | DONEPEZIL ZENTIVA 10 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69050347 | ARICEPT 10 mg, comprimé orodispersible | Comprimé orodispersible | EISAI SAS | Active |
+| 69972923 | ARICEPT 5 mg, comprimé pelliculé | Comprimé pelliculé | EISAI SAS | Active |
+| 61400781 | DONEPEZIL TEVA 10 mg, comprimé orodispersible | Comprimé orodispersible | TEVA SANTE | Abrogée |
+| 62258064 | DONEPEZIL CRISTERS10 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+| 63688528 | DONEPEZIL TEVA 5 mg, comprimé orodispersible | Comprimé orodispersible | TEVA SANTE | Abrogée |
+| 66317873 | DONEPEZIL ALTER 10 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES ALTER | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
 Le donépézil dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).
 
 <!-- review:begin fr-lic-20261031-donepezil-1 -->

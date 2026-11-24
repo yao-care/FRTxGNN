@@ -75,13 +75,30 @@ Pour information, les publications retrouvées pour les indications de rang inf�
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69181930 | VERAPAMIL EG L.P. 240 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée (AMM active) |
-| 69865024 | ISOPTINE 40 mg | Comprimé enrobé | Non renseignée (AMM active) |
-| 63803877 | ISOPTINE L.P. 240 mg | Comprimé pelliculé sécable à libération prolongée | Non renseignée (AMM active) |
-| 60614889 | ISOPTINE 5 mg/2 ml | Solution injectable | Non renseignée (AMM active) |
-| 66814925 | ISOPTINE 120 mg | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69181930 | VERAPAMIL EG L.P. 240 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69865024 | ISOPTINE 40 mg, comprimé enrobé | Comprimé enrobé | VIATRIS MEDICAL | Active |
+| 63803877 | ISOPTINE L.P. 240 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | VIATRIS MEDICAL | Active |
+| 60614889 | ISOPTINE 5 mg/2 ml, solution injectable | Solution injectable | VIATRIS MEDICAL | Active |
+| 66814925 | ISOPTINE 120 mg, gélule | Gélule | VIATRIS MEDICAL | Active |
+| 60628554 | VERAPAMIL BIOGARAN L.P. 240 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 62607039 | VERAPAMIL TEVA 40 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 62901254 | VERAPAMIL TEVA 120 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 67429380 | VERAPAMIL SANDOZ 120 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 68325609 | VERAPAMIL VIATRIS 120 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 69166273 | VERAPAMIL VIATRIS LP 240 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | VIATRIS SANTE | Active |
+| 69548383 | VERAPAMIL TEVA L. P. 240 mg, gélule à liberation prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 60516982 | TARKA LP 240 mg/4 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | VIATRIS MEDICAL | Active |
+| 62404028 | TARKA LP 180 mg/2 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | VIATRIS MEDICAL | Active |
+| 64603331 | TARKA LP 240 mg/2 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | VIATRIS MEDICAL | Active |
+| 61377350 | VERAPAMIL MYLAN L.P. 240 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | MYLAN SAS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

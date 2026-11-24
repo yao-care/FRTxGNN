@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 712
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sotatercept : nouvelle indication prédite, Leucémie lymphoblastique aiguë (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "SOTATERCEPT"
 predicted_indications: ["acute lymphoblastic leukemia (disease)", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "drug-induced osteoporosis", "diabetic cataract", "HER2 positive breast carcinoma", "transitional cell carcinoma", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma", "infiltrating bladder urothelial carcinoma sarcomatoid variant"]
@@ -81,10 +81,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61615894 | WINREVAIR 45 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
-| 61402622 | WINREVAIR 60 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61615894 | WINREVAIR 45 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 61402622 | WINREVAIR 60 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Titulaire : Merck Sharp & Dohme (Pays-Bas).
 

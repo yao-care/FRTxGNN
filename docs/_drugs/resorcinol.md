@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 662
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "resorcinol"
 predicted_indications: ["acne keloid", "amyopathic dermatomyositis", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial"]
 description: "Resorcinol : nouvelle indication prédite, Acné chéloïdienne (acne keloid) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 62223316 | SYNTHOL, gel | Gel | Non renseignée | Active |
-| 67679220 | SYNTHOL, solution pour application cutanée | Solution pour application | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62223316 | SYNTHOL, gel | Gel | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67679220 | SYNTHOL, solution pour application cutanée | Solution pour application | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

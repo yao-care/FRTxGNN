@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 151
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "cefuroxime"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "Peptostreptococcus infectious disease", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy"]
 description: "Cefuroxime : nouvelle indication prédite, Hyperamylasemia (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -94,13 +94,35 @@ Les autres publications retrouvées sont surtout des études de sensibilité ou 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63992335 | CEFUROXIME ZENTIVA 250 mg | Comprimé pelliculé | Non renseignée |
-| 61068069 | ZINNAT 125 mg/5 ml enfants et nourrissons | Granulés pour suspension buvable | Non renseignée |
-| 64731103 | CEFUROXIME SANDOZ 500 mg | Comprimé enrobé | Non renseignée |
-| 67104586 | CEFUROXIME VIATRIS 250 mg | Comprimé enrobé | Non renseignée |
-| 64292072 | ZINNAT 1,5 g | Poudre pour solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63992335 | CEFUROXIME ZENTIVA 250 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61068069 | ZINNAT 125 mg/5 ml ENFANTS ET NOURRISSONS, granulés pour suspension buvable en flacon | Granulés pour suspension buvable | SANDOZ | Active |
+| 64731103 | CEFUROXIME SANDOZ 500 mg, comprimé enrobé | Comprimé enrobé | SANDOZ | Active |
+| 67104586 | CEFUROXIME VIATRIS 250 mg, comprimé enrobé | Comprimé enrobé | VIATRIS SANTE | Active |
+| 62818698 | CEFUROXIME CRISTERS 250 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 64744218 | CEFUROXIME VIATRIS 750 mg, poudre pour solution injectable (IV) et suspension injectable… | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 64292072 | ZINNAT 1,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SANDOZ | Active |
+| 65694469 | CEFUROXIME ARROW 250 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 69501597 | CEFUROXIME PANPHARMA 1,5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | PANPHARMA | Active |
+| 67941295 | CEFUROXIME PANPHARMA 750 mg, poudre pour solution injectable (IM-IV) | Poudre pour solution injectable | PANPHARMA | Active |
+| 66147392 | CEFUROXIME BIOGARAN 250 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 67082734 | CEFUROXIME ARROW 50 mg, poudre pour solution injectable | Poudre pour solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 69166063 | CEFUROXIME BIOGARAN 500 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 63424838 | ZINNAT 125 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66169467 | CEFUROXIME SANDOZ 250 mg, comprimé enrobé | Comprimé enrobé | SANDOZ | Active |
+| 68297693 | CEFUROXIME ARROW 500 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68943502 | ZINNAT 250 mg, poudre pour solution injectable (I.M., I.V.) | Poudre pour solution injectable | SANDOZ | Active |
+| 62562672 | ZINNAT 750 mg, poudre pour solution injectable (I.M., I.V.) | Poudre pour solution injectable | SANDOZ | Active |
+| 69634836 | ZINNAT 250 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 60378168 | APROKAM 50 mg, poudre pour solution injectable | Poudre pour solution injectable | THEA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

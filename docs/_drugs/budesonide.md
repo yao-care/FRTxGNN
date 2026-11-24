@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "budesonide"
 predicted_indications: ["atopic eczema", "bronchitis", "dermatitis, atopic", "polyp of vocal cord", "polyp of middle ear", "epulis", "fibroepithelial polyp", "uterine polyp", "polyp of frontal sinus", "polyp of external auditory canal"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Budesonide : nouvelle indication prédite, Eczéma atopique (atopic eczema) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -71,6 +71,36 @@ Aucun essai clinique associé enregistré actuellement.
 Aucune littérature associée disponible actuellement pour l'eczéma atopique (atopic eczema) en tant que tel.
 
 ## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65648500 | BUDESONIDE TEVA 1 mg/2 mL, suspension pour inhalation par nébuliseur en récipient unidose | Suspension pour inhalation par nébuliseur | TEVA SANTE | Active |
+| 60468092 | NOVOPULMON NOVOLIZER 200 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | VIATRIS MEDICAL | Active |
+| 69152302 | ACORSPRAY 200 microgrammes par inhalation, solution pour inhalation en flacon pressurisé | Solution pour inhalation | CHIESI | Active |
+| 66664532 | PULMICORT 1 mg/2 ml, suspension pour inhalation par nébuliseur en récipient unidose | Suspension pour inhalation par nébuliseur | ASTRAZENECA | Active |
+| 65036357 | PULMICORT TURBUHALER 200 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | ASTRAZENECA | Active |
+| 64716254 | BUDESONIDE ZENTIVA 1 mg/2 ml, suspension pour inhalation par nébuliseur en récipient unid… | Suspension pour inhalation par nébuliseur | ZENTIVA FRANCE | Active |
+| 65773258 | PULMICORT 0,50 mg/2 ml, suspension pour inhalation par nébuliseur en récipient unidose | Suspension pour inhalation par nébuliseur | ASTRAZENECA | Active |
+| 69304094 | JORVEZA 1 mg, comprimé orodispersible | Comprimé orodispersible | FALK PHARMA | Active |
+| 60512521 | BUDESONIDE ZENTIVA 0,5 mg/2 ml, suspension pour inhalation par nébuliseur en récipient un… | Suspension pour inhalation par nébuliseur | ZENTIVA FRANCE | Active |
+| 63036604 | BUDESONIDE SANDOZ 0,5 mg/2 ml, suspension pour inhalation par nébuliseur en récipient uni… | Suspension pour inhalation par nébuliseur | SANDOZ | Active |
+| 61635181 | BUDESONIDE CRISTERS 0,5 mg/2 ml, suspension pour inhalation par nébuliseur en récipient u… | Suspension pour inhalation par nébuliseur | CRISTERS | Active |
+| 61741918 | RHINOCORT 64 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | KENVUE FRANCE | Active |
+| 61065315 | ENTOCORT 3 mg, microgranules gastro-résistants en gélule | Microgranule gastro-résistant(e) en gélule | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+| 61900434 | BUDESONIDE TEVA SANTE 3 mg, gélule à libération modifiée | Gélule à libération modifiée | TEVA (PAYS-BAS) | Active |
+| 65100781 | MIFLONIL BREEZHALER 400 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS PHARMA | Active |
+| 60505950 | BUDESONIDE ARROW 0,5 mg/2 ml, suspension pour inhalation par nébuliseur en récipient unid… | Suspension pour inhalation par nébuliseur | ARROW GENERIQUES | Active |
+| 67802737 | BUDESONIDE TEVA 0,5 mg/2 mL, suspension pour inhalation par nébuliseur en récipient unido… | Suspension pour inhalation par nébuliseur | TEVA SANTE | Active |
+| 68441909 | PULMICORT TURBUHALER 100 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | ASTRAZENECA | Active |
+| 65306016 | BUDESONIDE EVOLUGEN 0,5 mg/2 mL, suspension pour inhalation par nébuliseur en récipient u… | Suspension pour inhalation par nébuliseur | EVOLUPHARM | Active |
+| 64380476 | CORTIMENT 9 mg, comprimé à libération prolongée | Comprimé à libération prolongée | FERRING (FRANCE) | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les données compilées signalent un statut de marché « commercialisé ». Les autorisations de mise sur le marché recensées sont des spécialités à base de budésonide seule, sous plusieurs formes : suspension pour nébuliseur, poudre pour inhalation, solution pour inhalation, spray nasal, comprimé orodispersible, gélules gastro-résistantes ou à libération modifiée et comprimé à libération prolongée. La liste fournie est partielle et ne mentionne pas de formulation cutanée.
 

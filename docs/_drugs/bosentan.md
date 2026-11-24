@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "bosentan"
 predicted_indications: ["rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "pseudoxanthoma elasticum, forme fruste", "kyphoscoliotic heart disease", "elastoma", "gout", "hypertrichosis (disease)"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bosentan : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 13 (valides : 13)"
 ---
 
@@ -79,6 +79,28 @@ Aucun essai clinique associé enregistré actuellement.
 | [20054770](https://pubmed.ncbi.nlm.nih.gov/20054770/) | 2009 | Cas clinique | Kardiologia Polska | Fillette sous bosentan pour un syndrome d'Eisenmenger, chez qui une arthrite juvénile a été diagnostiquée ensuite ; pas d'effet démontré sur l'arthrite |
 
 ## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65100183 | TRACLEER 62,5 mg, comprimé pelliculé | Comprimé pelliculé | ACTELION REGISTRATION | Active |
+| 64664996 | BOSENTAN SUN 125 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 68353583 | BOSENTAN STRAGEN 125 mg, comprimé pelliculé | Comprimé pelliculé | STRAGEN-FRANCE | Active |
+| 64043587 | BOSENTAN ACCORD 125 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 67407786 | BOSENTAN ARROW 125 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 62497388 | BOSENTAN ARROW 62,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 66311429 | BOSENTAN STRAGEN 62,5 mg, comprimé pelliculé | Comprimé pelliculé | STRAGEN-FRANCE | Active |
+| 61868584 | BOSENTAN ACCORD 62,5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 69176399 | BOSENTAN VIATRIS 125 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64186770 | TRACLEER 32 mg, comprimé dispersible | Comprimé dispersible | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 65599067 | BOSENTAN SUN 62,5 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 61855918 | TRACLEER 125 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 69545056 | BOSENTAN VIATRIS 62,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les données compilées indiquent 13 AMM pour des spécialités à base de bosentan (Tracleer, Bosentan Sun, Stragen, Accord, Arrow, Viatris), sous forme de comprimés pelliculés, pelliculés sécables et dispersibles. Les textes d'indication ne sont pas renseignés dans les données locales. Les données de statut disponibles sont incohérentes entre les champs; le statut de chaque AMM doit donc être vérifié auprès de l'ANSM.
 

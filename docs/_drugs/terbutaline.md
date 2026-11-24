@@ -83,9 +83,20 @@ Les publications retrouvées portent surtout sur d'autres sujets (asthme, bronch
 
 ## Informations de Marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 60961427 | BRICANYL TURBUHALER 500 microgrammes/dose, poudre pour inhalation (AstraZeneca) | Poudre pour inhalation | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60961427 | BRICANYL TURBUHALER 500 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | ASTRAZENECA | Active |
+| 62600742 | BRICANYL 0,5 mg/1 ml, solution injectable en ampoule | Solution injectable | ASTRAZENECA | Active |
+| 63274566 | TERBUTALINE VIATRIS 5 mg/2 mL, solution pour inhalation par nébuliseur en récipient unido… | Solution pour inhalation par nébuliseur | VIATRIS SANTE | Active |
+| 65523475 | TERBUTALINE BIOGARAN 5 mg/2 ml, solution pour inhalation par nébuliseur en récipient unid… | Solution pour inhalation par nébuliseur | BIOGARAN | Active |
+| 65683309 | TERBUTALINE ARROW 5 mg/2 mL, solution pour inhalation par nébuliseur en récipient unidose | Solution pour inhalation par nébuliseur | ARROW GENERIQUES | Active |
+| 68242177 | BRICANYL 5 mg/2 mL, solution pour inhalation par nébuliseur en récipient unidose | Solution pour inhalation | ASTRAZENECA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La terbutaline est commercialisée en France ; la licence recensée est valide.
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 718
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sulbactam"
 predicted_indications: ["bacterial arthritis"]
 description: "Sulbactam : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 1)"
@@ -83,10 +83,16 @@ Les autres publications identifiées (cas cliniques d'arthrites à germes rares,
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69057530 | UNACIM INJECTABLE 0,5 g/1 g (active) | Poudre pour usage parentéral | Non renseignée |
-| 64892672 | UNACIM INJECTABLE 1 g (annulée) | Poudre et solution pour usage parentéral | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69057530 | UNACIM INJECTABLE 0,5 g/1 g, poudre pour usage parentéral | Poudre pour usage parentéral | PFIZER HOLDING FRANCE | Active |
+| 64892672 | UNACIM INJECTABLE 1 g, poudre et solution pour usage parentéral | Poudre et solution pour usage parentéral | PFIZER HOLDING FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

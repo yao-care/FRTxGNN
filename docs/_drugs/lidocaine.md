@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "lidocaine"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "papillary conjunctivitis", "rosacea conjunctivitis", "exposure keratitis", "atopic conjunctivitis", "conjunctival disorder", "nephrotic syndrome", "non-human animal disease", "tinea corporis", "sporadic idiopathic steroid-resistant nephrotic syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lidocaine : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (niveau de preuve L5). Indication d'origine : Le texte d'indication des AMM n'est pas renseigné dans les données co…"
 ---
 
@@ -89,13 +89,35 @@ Aucune littérature disponible pour la kératoconjonctivite épithéliale ponctu
 
 La liste ci-dessous est partielle (au moins 20 AMM). Les textes d'indication ne sont pas renseignés dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63572616 | MESOCAÏNE 50 mg/5 ml | Solution injectable | Non renseignée |
-| 66290522 | LIDOCAINE AGUETTANT 20 mg/ml sans conservateur | Solution injectable | Non renseignée |
-| 65191044 | XYLOCONTACT | Crème pour usage dentaire | Non renseignée |
-| 65538840 | VERSATIS 700 mg | Emplâtre médicamenteux | Non renseignée |
-| 61164434 | LIDOCAÏNE KABI 20 mg/ml | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63572616 | MESOCAÏNE 50 mg/5 ml, solution injectable | Solution injectable | LABORATOIRES ETHYPHARM | Active |
+| 66290522 | LIDOCAINE AGUETTANT 20 mg/ml SANS CONSERVATEUR, solution injectable | Solution injectable | AGUETTANT | Active |
+| 65191044 | XYLOCONTACT, crème pour usage dentaire | Crème pour usage dentaire | PRODUITS DENTAIRES PIERRE ROLLAND | Active |
+| 65538840 | VERSATIS 700 mg, emplâtre médicamenteux | Emplâtre médicamenteux(se) | LABORATOIRES GRUNENTHAL | Active |
+| 61164434 | LIDOCAÏNE KABI 20 mg/ml, solution injectable | Solution injectable | FRESENIUS KABI FRANCE | Active |
+| 68001023 | LIDOCAINE AGUETTANT 10 mg/ml SANS CONSERVATEUR, solution injectable | Solution injectable | AGUETTANT | Active |
+| 65528593 | XYLOCARD 20 mg/ml INTRAVEINEUX, solution injectable | Solution injectable | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 69452417 | LIDOCAINE CHLORHYDRATE RENAUDIN 20 mg/mL, solution pour injection/perfusion | Solution pour injection ou pour perfusion | LABORATOIRE RENAUDIN | Active |
+| 62793992 | LIDOCAÏNE KABI 10 mg/mL, solution injectable | Solution injectable | FRESENIUS KABI FRANCE | Active |
+| 68563133 | RYLIGENCY 20 mg/mL, solution injectable en seringue préremplie | Solution injectable | AGUETTANT | Active |
+| 69937299 | LIDOCAINE AGUETTANT 5 mg/ml SANS CONSERVATEUR, solution injectable | Solution injectable | AGUETTANT | Active |
+| 63794766 | ANESDERM 5 %, crème | Crème | PIERRE FABRE MEDICAMENT | Active |
+| 63085761 | LIDOCAINE/PRILOCAINE AGUETTANT 5 %, crème | Crème | AGUETTANT | Active |
+| 64746219 | LIDOCAINE/PRILOCAINE ZENTIVA 5 %, crème | Crème | ZENTIVA FRANCE | Active |
+| 62227058 | LIDOCAÏNE 10 mg/ml ADRENALINE 0,005 mg/ml AGUETTANT, solution injectable | Solution injectable | AGUETTANT | Active |
+| 68687526 | XOGEL 50 mg/1,5 mg par g, gel gingival | Gel | SEPTODONT | Active |
+| 60832521 | XYLONOR, 50 mg/1,5 mg par mL, solution dentaire | Solution | SEPTODONT | Active |
+| 65934455 | LIDOCAINE/PRILOCAINE ZENTIVA 5 %, pansement adhésif cutané | Pansement adhésif(ve) | ZENTIVA FRANCE | Active |
+| 62631549 | LIDOCAINE ARROW 10 mg/ml SANS CONSERVATEUR, solution injectable | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Archivée |
+| 62471742 | LIDOCAINE ARROW 20 mg/ml SANS CONSERVATEUR, solution injectable | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

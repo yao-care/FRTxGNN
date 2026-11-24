@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 803
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "VALSARTAN"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "Prinzmetal angina"]
 description: "Valsartan : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données local…"
@@ -85,15 +85,37 @@ Aucun essai clinique associé n'est enregistré actuellement pour la maladie ré
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas disponible pour ces AMM. Voici les cinq premières :
+Le texte d'indication approuvée n'est pas disponible pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 67519721 | VALSARTAN EG 160 mg | Comprimé pelliculé sécable |
-| 62518793 | TAREG 3 mg/ml | Solution buvable |
-| 62435881 | VALSARTAN SANDOZ 80 mg | Comprimé pelliculé |
-| 65471256 | VALSARTAN BIOGARAN 80 mg | Comprimé pelliculé sécable |
-| 62582582 | VALSARTAN TEVA 160 mg | Comprimé pelliculé sécable |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67519721 | VALSARTAN EG 160 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62518793 | TAREG 3 mg/ml, solution buvable | Solution buvable | NOVARTIS PHARMA | Active |
+| 62435881 | VALSARTAN SANDOZ 80 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65471256 | VALSARTAN BIOGARAN 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 62582582 | VALSARTAN TEVA 160 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 69593873 | VALSARTAN ARROW LAB 160 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 67357066 | VALSARTAN SANDOZ 160 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66599839 | VALSARTAN VIATRIS 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 66334381 | VALSARTAN EVOLUGEN 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EVOLUPHARM | Active |
+| 68065816 | VALSARTAN VIATRIS 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 62118322 | VALSARTAN KRKA 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | KRKA (SLOVENIE) | Active |
+| 61823653 | TAREG 160 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS PHARMA | Active |
+| 68598472 | VALSARTAN ARROW LAB 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68615199 | VALSARTAN CRISTERS 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 65621357 | VALSARTAN ZENTIVA 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 66248854 | VALSARTAN ZYDUS 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 68751498 | VALSARTAN EG 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69557432 | TAREG 80 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS PHARMA | Active |
+| 68410194 | VALSARTAN ZYDUS 80 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 62925789 | VALSARTAN ZENTIVA 80 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

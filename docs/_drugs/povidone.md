@@ -80,13 +80,22 @@ Certaines AMM ci-dessous sont valides (6 sur 8 ; les 2 autres sont archivées). 
 
 <!-- review:end fr-lic-20261112-povidone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69449741 | NUTRIVISC 5 POUR CENT, collyre en solution (Laboratoires Alcon) | Collyre en solution | Active |
-| 68403812 | DULCILARMES 1,5 %, collyre en solution en récipient unidose (Horus Pharma) | Collyre en solution | Active |
-| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en récipient unidose (Laboratoires Alcon) | Collyre en solution | Annulée |
-| 65367581 | UNIFLUID 6 mg/0,4 ml, collyre en récipient unidose (Théa) | Collyre en solution | Annulée |
-| 63734630 | DULCILARMES 1,5 %, collyre en solution (Horus Pharma) | Collyre en solution | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69449741 | NUTRIVISC 5 POUR CENT, collyre en solution | Collyre en solution | LABORATOIRES ALCON | Active |
+| 68403812 | DULCILARMES 1,5 %, collyre en solution en récipient unidose | Collyre en solution | HORUS PHARMA | Active |
+| 63734630 | DULCILARMES 1,5 %, collyre en solution | Collyre en solution | HORUS PHARMA | Active |
+| 68597477 | FLUIDABAK 1,5 %, collyre en solution | Collyre en solution | THEA | Active |
+| 61389541 | REFRESH, collyre en récipient unidose | Collyre en solution | ABBVIE | Active |
+| 64563011 | POLY-KARAYA, granulé | Granulés | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64035359 | NUTRIVISC 5 POUR CENT (20 mg/0,4 ml), collyre en solution en récipient unidose | Collyre en solution | LABORATOIRES ALCON | Archivée |
+| 65367581 | UNIFLUID 6 mg/ 0,4 ml, collyre en solution en récipient unidose | Collyre en solution | THEA | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Deux autres AMM actives (FLUIDABAK 1,5 % et REFRESH) figurent également dans les données compilées.
 

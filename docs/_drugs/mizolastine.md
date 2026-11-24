@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 508
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIZOLASTINE"
 predicted_indications: ["acute intermittent porphyria", "psychogenic movement disorders", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "benign shuddering attacks", "extrapyramidal and movement disease", "primary orthostatic tremor", "tremor-nystagmus-duodenal ulcer syndrome", "benign paroxysmal tonic upgaze of childhood with ataxia", "carbamoyl phosphate synthetase I deficiency disease"]
 description: "Mizolastine : nouvelle indication prédite, Porphyrie aiguë intermittente (acute intermittent porphyria) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -71,10 +71,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 64991179 | MIZOLLEN 10 mg, comprimé à libération modifiée (DESMA PHARMA) | Comprimé pelliculé à libération modifiée | Non renseignée | Active |
-| 65120823 | MIZOCLER 10 mg, comprimé pelliculé à libération modifiée (DESMA PHARMA) | Comprimé pelliculé à libération modifiée | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64991179 | MIZOLLEN 10 mg, comprimé à libération modifiée | Comprimé pelliculé à libération modifiée | DESMA PHARMA | Active |
+| 65120823 | MIZOCLER 10 mg, comprimé pelliculé à libération modifiée | Comprimé pelliculé à libération modifiée | DESMA PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

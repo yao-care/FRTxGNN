@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 478
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MELPHALAN"
 predicted_indications: ["female breast carcinoma", "rectum mucinous adenocarcinoma", "colon mucinous adenocarcinoma", "gallbladder mucinous adenocarcinoma", "cervical mucinous adenocarcinoma", "endometrial mucinous adenocarcinoma"]
 description: "Melphalan : nouvelle indication prédite, Female breast carcinoma (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -82,10 +82,16 @@ Des schémas de chimiothérapie à haute dose contenant du melphalan, suivis d'u
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68262525 | ALKERAN 2 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
-| 68708664 | ALKERAN 50 mg/10 ml, lyophilisat et solution pour usage parentéral (I.V.) (active) | Lyophilisat et solution pour usage parentéral | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68262525 | ALKERAN 2 mg, comprimé pelliculé | Comprimé pelliculé | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 68708664 | ALKERAN 50 mg/10 ml, lyophilisat et solution pour usage parentéral (I.V.) | Lyophilisat et solution pour usage parentéral | ASPEN PHARMA TRADING (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

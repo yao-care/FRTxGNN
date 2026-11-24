@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 668
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RILPIVIRINE"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Rilpivirine : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée…"
@@ -87,10 +87,16 @@ Aucun essai clinique associé enregistré actuellement pour l'infection par le V
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60150638 | REKAMBYS 900 mg, suspension injectable à libération prolongée (AMM active) | Suspension injectable à libération prolongée | Non renseignée |
-| 63578537 | EVIPLERA 200 mg/25 mg/245 mg, comprimé pelliculé (AMM active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60150638 | REKAMBYS 900 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 63578537 | EVIPLERA 200 mg/25 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

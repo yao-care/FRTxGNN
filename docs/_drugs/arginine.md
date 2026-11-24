@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "ARGININE"
 predicted_indications: ["gastroparesis (disease)"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Arginine : nouvelle indication prédite, Gastroparésie (gastroparesis (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -86,13 +86,35 @@ Aucune de ces publications ne démontre un effet de l'arginine chez des patients
 
 L'arginine est commercialisée en France. Selon les données disponibles, 19 AMM sont valides et 1 est annulée, pour un total d'au moins 20 AMM ; la liste peut être partielle. Les textes d'indication ne sont pas renseignés dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64556465 | SARGENOR 1 g/5 ml, solution buvable | Solution buvable | Non renseignée |
-| 62999615 | SARGENOR A LA VITAMINE C | Comprimé effervescent | Non renseignée |
-| 61960303 | AMINOVEN 10 POUR CENT | Solution pour perfusion | Non renseignée |
-| 69667989 | AMINOVEN 5 POUR CENT | Solution pour perfusion | Non renseignée |
-| 63183821 | AMINOPLASMAL 8 | Solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64556465 | SARGENOR 1 g/5 ml, solution buvable | Solution buvable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 62999615 | SARGENOR A LA VITAMINE C, comprimé effervescent | Comprimé effervescent(e) | MEDA PHARMA | Active |
+| 61960303 | AMINOVEN 10 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 69667989 | AMINOVEN 5 POUR CENT, solution pour perfusion | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 63183821 | AMINOPLASMAL 8, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67972077 | AMINOPLASMAL 12, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 62947013 | AMINOPLASMAL 25, solution pour perfusion | Solution pour perfusion | B BRAUN MELSUNGEN | Active |
+| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 60274212 | REANUTRIFLEX, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 65461618 | NUTRINEAL PD4 A 1,1 % D'ACIDES AMINES, solution pour dialyse péritonéale | Solution pour dialyse péritonéale | VANTIVE | Active |
+| 62932118 | REANUTRIFLEX OMEGA, émulsion pour perfusion | Émulsion pour perfusion | B BRAUN MELSUNGEN | Active |
+| 67592324 | OLIMEL N12, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 69063120 | OLIMEL N9, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61983743 | OLIMEL N7, émulsion pour perfusion | Émulsion pour perfusion | BAXTER | Active |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 63740918 | SMOFKABIVEN, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61117445 | CLINIMIX N9 G15 E, solution pour perfusion en poche bicompartiment | Solution et solution pour perfusion | BAXTER | Active |
+| 60715870 | SMOFKABIVEN PROTEINE, émulsion pour perfusion | Émulsion pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61786735 | AMINOMIX 500, solution pour perfusion | Solution et solution pour perfusion | FRESENIUS KABI FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

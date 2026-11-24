@@ -83,13 +83,21 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66819541 | TUSSIDANE 1,5 mg/ml SANS SUCRE, solution buvable | Solution buvable | Active |
-| 60940109 | TUSSIDANE 1,5 mg/ml, sirop | Sirop | Active |
-| 65799705 | DEXTROMETHORPHANE BIOGARAN 1,5 mg/mL SANS SUCRE | Solution buvable | Active |
-| 66078868 | PULMODEXANE 30 mg, comprimé pelliculé | Comprimé pelliculé | Active |
-| 66367100 | PULMODEXANE 300 mg/100 ml SANS SUCRE | Solution buvable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66819541 | TUSSIDANE 1,5 mg/ml SANS SUCRE, solution buvable édulcorée au maltitol liquide et à la sa… | Solution buvable | ELERTE | Active |
+| 60940109 | TUSSIDANE 1,5 mg/ml, sirop | Sirop | ELERTE | Active |
+| 65799705 | DEXTROMETHORPHANE BIOGARAN 1,5 mg/mL SANS SUCRE, solution buvable édulcorée au maltitol l… | Solution buvable | BIOGARAN | Active |
+| 66078868 | PULMODEXANE 30 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRE BAILLY CREAT | Active |
+| 66367100 | PULMODEXANE 300 mg/100 ml SANS SUCRE, solution buvable édulcorée au maltitol liquide et à… | Solution buvable | LABORATOIRE BAILLY CREAT | Active |
+| 60133432 | TUSSIDANE 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ELERTE | Active |
+| 68948990 | NODEX ADULTES, sirop en récipient unidose | Sirop | BROTHIER | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le texte des indications approuvées n'est pas renseigné.
 

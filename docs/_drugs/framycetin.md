@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 350
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Framycetin : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "framycetin"
 predicted_indications: ["sclerosing cholangitis", "urinary tract infection (disease)", "congenital prothrombin deficiency", "Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis"]
@@ -86,12 +86,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67644148 | SEPTOMIXINE, pâte pour usage dentaire | Pâte pour usage dentaire | Non renseignée (AMM annulée) |
-| 65164218 | FRAKIDEX, pommade ophtalmique | Pommade | Non renseignée (AMM active) |
-| 60814943 | FRAKIDEX, collyre en solution | Collyre en solution | Non renseignée (AMM active) |
-| 66586731 | FRAMYXONE, solution pour instillation auriculaire | Solution pour instillation | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65164218 | FRAKIDEX, pommade ophtalmique | Pommade | LABORATOIRE CHAUVIN | Active |
+| 60814943 | FRAKIDEX, Collyre en solution | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 66586731 | FRAMYXONE, solution pour instillation auriculaire | Solution pour instillation | CILFA DEVELOPPEMENT | Active |
+| 67644148 | SEPTOMIXINE, pâte pour usage dentaire | Pâte pour usage dentaire | SEPTODONT | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

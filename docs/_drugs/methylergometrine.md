@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 489
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Methylergometrine : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (usage utérotonique s…"
 monitor_inn: "methylergometrine"
 predicted_indications: ["hypertrichosis (disease)", "pulmonary hypertension", "migraine disorder", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "kyphoscoliotic heart disease", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -78,15 +78,15 @@ Aucune littérature disponible pour l'hypertrichose. Pour la migraine (prédicti
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66417119 | METHERGIN 0,20 mg/1 ml, solution injectable, ampoule | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-methylergometrine-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66417119 | METHERGIN 0,20 mg/1 ml, solution injectable, ampoule | Solution injectable | ESSENTIAL PHARMA (M) (MALTE) | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 66417119 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 66417119 (METHERGIN 0,20 mg/1 ml, solution injectable, ampoule) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-methylergometrine-1 -->
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 
@@ -124,7 +124,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Le profil de sécurité vasculaire de la classe et la seule AMM française annulée renforcent la recommandation de ne pas poursuivre » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 66417119 (METHERGIN 0) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 66417119 (METHERGIN 0) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

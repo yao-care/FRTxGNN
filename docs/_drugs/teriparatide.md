@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 745
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "teriparatide"
 predicted_indications: ["duodenal ulcer (disease)", "non-syndromic esophageal malformation", "duodenal obstruction", "duodenogastric reflux", "esophageal disease", "Worth syndrome", "autosomal dominant neovascular inflammatory vitreoretinopathy", "succinyl-CoA:3-ketoacid CoA transferase deficiency", "amenorrhea (disease)"]
 description: "Teriparatide : nouvelle indication prédite, Ulcère duodénal (duodenal ulcer (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
@@ -79,13 +79,22 @@ Le texte de l'indication approuvée n'est pas renseigné pour ces autorisations.
 
 <!-- review:end fr-lic-20261106-teriparatide-1 -->
 
+<!-- licenses:begin -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
-|---------|------|------|------|------|
-| 68877066 | Teriparatide Teva 20 µg/80 µL, stylo prérempli | Solution injectable | Teva (Pays-Bas) | Active |
-| 67114096 | Movymia 20 µg/80 µL | Solution injectable | Stada Arzneimittel AG | Active |
-| 66987514 | Teriparatide Biogaran 20 µg/80 µL, stylo prérempli | Solution injectable | Biogaran | Active |
-| 68681263 | Terrosa 20 µg/80 µL | Solution injectable | Gedeon Richter | Active |
-| 64408915 | Sondelbay 20 µg/80 µL, stylo prérempli | Solution injectable | Accord Healthcare (Espagne) | Active |
+|------|------|------|------|------|
+| 68877066 | TERIPARATIDE TEVA 20 microgrammes/80 microlitres, solution injectable en stylo prérempli | Solution injectable | TEVA (PAYS-BAS) | Active |
+| 67114096 | MOVYMIA 20 microgrammes/80 microlitres, solution injectable | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 66987514 | TERIPARATIDE BIOGARAN 20 microgrammes/80 microlitres, solution injectable en stylo prérem… | Solution injectable | BIOGARAN | Active |
+| 68681263 | TERROSA 20 microgrammes/80 microlitres, solution injectable | Solution injectable | GEDEON RICHTER | Active |
+| 64408915 | SONDELBAY 20 microgrammes/80 microlitres, solution injectable en stylo prérempli | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61122200 | FORSTEO 20 microgrammes/80 microlitres, solution injectable en stylo prérempli | Solution injectable | ELI LILLY (PAYS BAS) | Active |
+| 65852307 | LIVOGIVA 20 microgrammesg/80 microlitres, solution injectable en stylo prérempli | Solution injectable | THERAMEX IRELAND (IRLANDE) | Active |
+| 65578240 | TERROSA 20 microgrammes/80 microlitres, solution injectable en stylo prérempli | Solution injectable | GEDEON RICHTER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

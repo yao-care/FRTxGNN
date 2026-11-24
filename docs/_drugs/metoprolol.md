@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "metoprolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease", "trichotillomania"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metoprolol : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données loca…"
 ---
 
@@ -81,15 +81,30 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le métoprolol (substance seule) est commercialisé en France. Les données compilées recensent 14 AMM valides, toutes pour des produits à base de métoprolol seul, sans texte d'indication approuvée renseigné. Les 5 premières sont listées ci-dessous.
+Le métoprolol (substance seule) est commercialisé en France. Les données compilées recensent 14 AMM valides, toutes pour des produits à base de métoprolol seul, sans texte d'indication approuvée renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65340488 | SELOZOK LP 95 mg | Comprimé pelliculé à libération prolongée | Non renseignée dans les données compilées |
-| 64930518 | METOPROLOL SANDOZ 50 mg | Comprimé | Non renseignée dans les données compilées |
-| 66459997 | METOPROLOL VIATRIS 100 mg | Comprimé sécable | Non renseignée dans les données compilées |
-| 68679426 | SELOKEN L P 200 mg | Comprimé à libération prolongée | Non renseignée dans les données compilées |
-| 69376930 | LOPRESSOR L.P. 200 mg | Comprimé sécable à libération prolongée | Non renseignée dans les données compilées |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65340488 | SELOZOK LP 95 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | RECORDATI INDUSTRIA CHIMICA E FARMACEUTICA (ITALIE) | Active |
+| 64930518 | METOPROLOL SANDOZ 50 mg, comprimé | Comprimé | SANDOZ | Active |
+| 66459997 | METOPROLOL VIATRIS 100 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 68679426 | SELOKEN L P 200 mg, comprimé à libération prolongée | Comprimé à libération prolongée | RECORDATI INDUSTRIA CHIMICA E FARMACEUTICA (ITALIE) | Active |
+| 69376930 | LOPRESSOR L.P. 200 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | FARMACEUTICO SIT | Active |
+| 67211976 | LOPRESSOR 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | FARMACEUTICO SIT | Active |
+| 62837759 | METOPROLOL SANDOZ 100 mg, comprimé | Comprimé | SANDOZ | Active |
+| 69532710 | METOPROLOL ARROW LAB 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68179830 | SELOKEN 100 mg, comprimé sécable | Comprimé sécable | RECORDATI INDUSTRIA CHIMICA E FARMACEUTICA (ITALIE) | Active |
+| 62679309 | METOPROLOL ARROW LAB 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68428420 | SELOZOK LP 190 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | RECORDATI INDUSTRIA CHIMICA E FARMACEUTICA (ITALIE) | Active |
+| 64354570 | SELOZOK LP 23,75 mg, comprimé pelliculé sécable à libération prolongée | Comprimé pelliculé sécable à libération prolongée | RECORDATI INDUSTRIA CHIMICA E FARMACEUTICA (ITALIE) | Active |
+| 68743715 | METOPROLOL ACCORD 100 mg, comprimé sécable | Comprimé sécable | ACCORD HEALTHCARE FRANCE | Active |
+| 61950444 | LOGIMAX 5 mg/47,5 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | RECORDATI INDUSTRIA CHIMICA E FARMACEUTICA (ITALIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

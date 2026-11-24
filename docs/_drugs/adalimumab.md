@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "ADALIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Adalimumab : nouvelle indication prédite, Hypermobilité du coccyx (hypermobility of coccyx) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -72,15 +72,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-L'adalimumab est commercialisé en France sous forme de solution injectable (seringue préremplie ou stylo prérempli), sous plusieurs noms de marque. Cette liste est probablement partielle.
+L'adalimumab est commercialisé en France sous forme de solution injectable (seringue préremplie ou stylo prérempli), sous plusieurs noms de marque.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 68619482 | AMGEVITA 20 mg, seringue préremplie (0,2 mL) | Solution injectable |
-| 62042376 | HULIO 40 mg, seringue préremplie | Solution injectable |
-| 61192750 | IMRALDI 40 mg, seringue préremplie | Solution injectable |
-| 65075488 | YUFLYMA 20 mg, seringue préremplie | Solution injectable |
-| 69835440 | HUMIRA 80 mg, seringue préremplie | Solution injectable |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68619482 | AMGEVITA 20 mg, solution injectable en seringue préremplie (0,2 mL) | Solution injectable | AMGEN EUROPE | Active |
+| 62042376 | HULIO 40 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 61192750 | IMRALDI 40 mg, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 65075488 | YUFLYMA 20 mg, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 65973337 | LIBMYRIS 40 mg, solution injectable en seringue préremplie | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 63098253 | LIBMYRIS 40 mg, solution injectable en stylo prérempli | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 64974404 | HYRIMOZ 20 mg, solution injectable en seringue préremplie (0,2 mL) | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 65837903 | IDACIO 40 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 66146931 | AMSPARITY 40 mg, solution injectable en stylo prérempli | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 66906448 | AMGEVITA 40 mg, solution injectable en seringue préremplie | Solution injectable | AMGEN EUROPE | Active |
+| 67356797 | HYRIMOZ 80 mg, solution injectable en stylo prérempli | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 69567729 | IMRALDI 40 mg, solution injectable en stylo prérempli | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 67755508 | AMGEVITA 40 mg, solution injectable en stylo prérempli (0,4 mL) | Solution injectable | AMGEN EUROPE | Active |
+| 64680655 | LIBMYRIS 80 mg, solution injectable en seringue préremplie | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 61010977 | HUKYNDRA 80 mg, solution injectable en stylo prérempli | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 64158422 | HULIO 20 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 63568112 | IMRALDI 40 mg, solution injectable en stylo prérempli (0,4 mL) | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 67478840 | YUFLYMA 40 mg, solution injectable en stylo prérempli | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 67088865 | AMGEVITA 80 mg, solution injectable en seringue préremplie (0,8 mL) | Solution injectable | AMGEN EUROPE | Active |
+| 69835440 | HUMIRA 80 mg, solution injectable en seringue préremplie | Solution injectable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

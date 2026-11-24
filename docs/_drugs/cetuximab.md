@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 159
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "cetuximab"
 predicted_indications: ["bronchial adenomas/carcinoids childhood", "chondroid hamartoma", "ductal or ductular proliferation", "non-seminomatous lesion", "tumor of testis and paratestis", "odontogenic cyst", "thyroglossal duct cyst", "cystic neoplasm", "epiglottis neoplasm", "pre-malignant neoplasm"]
 description: "Cetuximab : nouvelle indication prédite, Bronchial adenomas/carcinoids childhood (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -104,9 +104,15 @@ Aucune littérature associée n'est disponible actuellement pour la nouvelle ind
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66843357 | ERBITUX 5 mg/ml, solution pour perfusion (MERCK KGAA, Allemagne) | Solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66843357 | ERBITUX 5 mg/ml, solution pour perfusion | Solution pour perfusion | MERCK KGAA (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

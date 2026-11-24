@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 310
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "etravirine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "fibroma of prostate", "Brenner tumor", "benign reproductive system neoplasm", "benign prostate phyllodes tumor", "obsolete familial combined hyperlipidemia"]
 description: "Etravirine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
@@ -73,11 +73,17 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66595716 | INTELENCE 25 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 63514730 | INTELENCE 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 64044237 | INTELENCE 200 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66595716 | INTELENCE 25 mg, comprimé | Comprimé | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 63514730 | INTELENCE 100 mg, comprimé | Comprimé | JANSSEN CILAG INTERNATIONAL NV | Active |
+| 64044237 | INTELENCE 200 mg, comprimé | Comprimé | JANSSEN CILAG INTERNATIONAL NV | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

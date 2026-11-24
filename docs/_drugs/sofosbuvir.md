@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 708
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sofosbuvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L3). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "SOFOSBUVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis, viral, animal", "hepatitis A virus infection", "Omsk hemorrhagic fever", "chronic hepatitis B virus infection", "Kyasanur forest disease", "HIV infectious disease"]
@@ -101,13 +101,21 @@ Les autres essais compilés (programmes de dépistage et de traitement du VHC, p
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61206641 | SOVALDI 400 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (active) |
-| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (active) |
-| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (active) |
-| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobés | Non précisée (active) |
-| 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | Non précisée (active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61206641 | SOVALDI 400 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 60348342 | EPCLUSA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 60704272 | EPCLUSA 150 mg/37,5 mg, granulés enrobés en sachet | Granulés enrobé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 68425495 | EPCLUSA 200 mg/50 mg, granulés enrobés en sachet | Granulés enrobé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 64426906 | HARVONI 90 mg/400 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 63434686 | EPCLUSA 400 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 61932485 | VOSEVI 400 mg/100 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 7 AMM sont enregistrées. Les deux autres sont EPCLUSA 400 mg/100 mg (63434686) et VOSEVI 400 mg/100 mg/100 mg (61932485).
 

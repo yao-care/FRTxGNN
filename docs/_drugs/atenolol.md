@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "atenolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atenolol : nouvelle indication prédite, Néphropathie hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -73,13 +73,35 @@ Aucune littérature associée disponible actuellement.
 
 Les données compilées recensent au moins 20 autorisations, toutes valides ; la liste peut être partielle. Les textes d'indication ne sont pas renseignés dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62022861 | ATENOLOL VIATRIS 100 mg | Comprimé pelliculé sécable | Non renseignée |
-| 65634625 | ATENOLOL BIOGARAN 100 mg | Comprimé sécable | Non renseignée |
-| 65366472 | TENORMINE 50 mg | Comprimé pelliculé sécable | Non renseignée |
-| 62215045 | ATENOLOL SANDOZ 100 mg | Comprimé pelliculé sécable | Non renseignée |
-| 61436304 | TENORMINE 5 mg/10 ml | Solution injectable IV | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62022861 | ATENOLOL VIATRIS 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 65634625 | ATENOLOL BIOGARAN 100 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 65366472 | TENORMINE 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 62215045 | ATENOLOL SANDOZ 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 64900101 | ATENOLOL ARROW 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 67206630 | ATENOLOL ZENTIVA 50 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 61945162 | ATENOLOL ZYDUS 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 60699494 | ATENOLOL ZYDUS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 69104909 | ATENOLOL EVOLUGEN 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EVOLUPHARM | Active |
+| 60277920 | ATENOLOL EVOLUGEN PHARMA 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EVOLUPHARM | Active |
+| 67713249 | ATENOLOL ACCORD HEALTHCARE 100 mg, comprimé sécable | Comprimé sécable | ACCORD HEALTHCARE FRANCE | Active |
+| 61383702 | ATENOLOL ACCORD HEALTHCARE 50 mg, comprimé sécable | Comprimé sécable | ACCORD HEALTHCARE FRANCE | Active |
+| 66739636 | TENORMINE 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 69807042 | ATENOLOL SFDB 100 mg, comprimé sécable | Comprimé sécable | SUBSTIPHARM | Active |
+| 69490275 | ATENOLOL TEVA 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 66717134 | ATENOLOL ARROW 100 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 67951179 | ATENOLOL EG 100 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63815000 | ATENOLOL TEVA 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 61436304 | TENORMINE 5 mg/10 ml, solution injectable IV en ampoule | Solution injectable | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 67005951 | ATENOLOL VIATRIS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 274
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Elbasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (niveau de preuve L4). Indication d'origine : Infection chronique par le virus de l'hépatite C"
 monitor_inn: "ELBASVIR"
 predicted_indications: ["hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "HIV infectious disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
@@ -97,9 +97,15 @@ Aucune publication retenue ne teste elbasvir contre le virus de l'hépatite B. V
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

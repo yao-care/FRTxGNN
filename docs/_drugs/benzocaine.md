@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "benzocaine"
 predicted_indications: ["papillary conjunctivitis"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Benzocaine : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
@@ -72,11 +72,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66400454 | SEDORRHOIDE CRISE HEMORROIDAIRE, crème rectale | Crème | Non renseignée |
-| 66426495 | SEDORRHOIDE CRISE HEMORROIDAIRE, suppositoire | Suppositoire | Non renseignée |
-| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66400454 | SEDORRHOIDE CRISE HEMORROIDAIRE, crème rectale | Crème | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 66426495 | SEDORRHOIDE CRISE HEMORROIDAIRE, suppositoire | Suppositoire | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch(s) | SMARTPRACTICE DENMARK (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

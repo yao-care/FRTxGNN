@@ -97,13 +97,26 @@ Les 12 AMM sur 12 sont valides ; le médicament est commercialisé en France. Le
 
 <!-- review:end fr-lic-20261124-oxazepam-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69891695 | OXAZEPAM BIOGARAN 10 mg, comprimé | Comprimé | Active |
-| 64895095 | OXAZEPAM SUBSTIPHARM 10 mg, comprimé | Comprimé | Active |
-| 68431270 | OXAZEPAM ARROW 25 mg, comprimé sécable | Comprimé sécable | Active |
-| 60351986 | SERESTA 50 mg, comprimé sécable | Comprimé sécable | Active |
-| 60809355 | OXAZEPAM ARROW 10 mg, comprimé sécable | Comprimé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69891695 | OXAZEPAM BIOGARAN 10 mg, comprimé | Comprimé | NEURAXPHARM FRANCE | Active |
+| 64895095 | OXAZEPAM SUBSTIPHARM 10 mg, comprimé | Comprimé | SUBSTIPHARM | Active |
+| 68431270 | OXAZEPAM ARROW 25 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 60351986 | SERESTA 50 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 60809355 | OXAZEPAM ARROW 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 69296733 | OXAZEPAM ARROW 50 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 64266138 | OXAZEPAM BIOGARAN 50 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 68269975 | SERESTA 10 mg, comprimé | Comprimé | NEURAXPHARM FRANCE | Active |
+| 62668647 | OXAZEPAM SUBSTIPHARM 50 mg, comprimé sécable | Comprimé sécable | SUBSTIPHARM | Active |
+| 64958243 | OXAZEPAM ARROW 5 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 60735990 | OXAZEPAM VIATRIS 10 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 63851270 | OXAZEPAM VIATRIS 50 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

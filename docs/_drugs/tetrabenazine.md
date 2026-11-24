@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 748
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tetrabenazine"
 predicted_indications: ["polycystic kidney disease 3 with or without polycystic liver disease", "renal-hepatic-pancreatic dysplasia", "Joubert syndrome with renal defect", "karyomegalic interstitial nephritis", "thoracic malformation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "acute intermittent porphyria", "adult familial nephronophthisis-spastic quadriparesia syndrome", "atypical glycine encephalopathy", "congenital disorder of glycosylation with defective fucosylation"]
 description: "Tetrabenazine : nouvelle indication prédite, Polycystic kidney disease 3 with or without polycystic liver disease (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 64487229 | TETMODIS 25 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
-| 62463044 | XENAZINE 25 mg, comprimé sécable | Comprimé sécable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64487229 | TETMODIS 25 mg, comprimé sécable | Comprimé sécable | WALTER RITTER (ALLEMAGNE) | Active |
+| 62463044 | XENAZINE 25 mg, comprimé sécable | Comprimé sécable | BAUSCH HEALTH IRELAND (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

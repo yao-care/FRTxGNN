@@ -100,13 +100,35 @@ La littérature disponible est composée essentiellement de revues narratives ; 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60019813 | LENALIDOMIDE ARROW 2,5 mg | Gélule | Non disponible (AMM active) |
-| 63841924 | REVLIMID 7,5 mg | Gélule | Non disponible (AMM active) |
-| 69470867 | REVLIMID 20 mg | Gélule | Non disponible (AMM active) |
-| 66205899 | LENALIDOMIDE STRAGEN 10 mg | Gélule | Non disponible (AMM active) |
-| 65275154 | LENALIDOMIDE ACCORD 20 mg | Gélule | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60019813 | LENALIDOMIDE ARROW 2,5 mg, gélule | Gélule | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 66205899 | LENALIDOMIDE STRAGEN 10 mg, gélule | Gélule | STRAGEN-FRANCE | Active |
+| 63841924 | REVLIMID 7,5 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 64899528 | LENALIDOMIDE STRAGEN 25 mg, gélule | Gélule | STRAGEN-FRANCE | Active |
+| 63412501 | LENALIDOMIDE EG 25 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67131252 | LENALIDOMIDE EG 10 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67762538 | LENALIDOMIDE MYLAN 7,5 mg, gélule | Gélule | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 65275154 | LENALIDOMIDE ACCORD 20 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69470867 | REVLIMID 20 mg, gélule | Gélule | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 66155179 | LENALIDOMIDE ARROW 20 mg, gélule | Gélule | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 60535915 | LENALIDOMIDE MYLAN 20 mg, gélule | Gélule | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 65228012 | LENALIDOMIDE ARROW 25 mg, gélule | Gélule | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 64354392 | LENALIDOMIDE ARROW 15 mg, gélule | Gélule | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 62893964 | LENALIDOMIDE STRAGEN 5 mg, gélule | Gélule | STRAGEN-FRANCE | Active |
+| 64002373 | LENALIDOMIDE ACCORD 5 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67764717 | LENALIDOMIDE STRAGEN 7,5 mg, gélule | Gélule | STRAGEN-FRANCE | Active |
+| 69256226 | LENALIDOMIDE MYLAN 25 mg, gélule | Gélule | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 64194888 | LENALIDOMIDE ACCORD 15 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 68999650 | LENALIDOMIDE ZENTIVA 10 mg, gélule | Gélule | ZENTIVA FRANCE | Abrogée |
+| 68001614 | LENALIDOMIDE REDDY PHARMA 10 mg, gélule | Gélule | REDDY PHARMA | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Sur un total de 20 AMM (toutes pour des spécialités à substance unique), les 5 premières sont listées ici.
 

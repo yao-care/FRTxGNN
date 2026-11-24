@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ceftriaxone"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "chronic otitis media"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ceftriaxone : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome) (niveau de preuve L5)."
 ---
 
@@ -73,13 +73,35 @@ Aucune littérature associée disponible actuellement.
 
 La ceftriaxone est commercialisée en France. Les données compilées recensent au moins 20 autorisations de mise sur le marché, toutes valides ; cette liste peut être partielle. Les textes d'indication ne figurent pas dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67389167 | CEFTRIAXONE ZENTIVA 1 g/3,5 ml (IM) | Poudre et solvant pour solution injectable | Non renseignée |
-| 61493159 | CEFTRIAXONE VIATRIS 1 g/10 ml (IV) | Poudre et solvant pour solution injectable | Non renseignée |
-| 68829580 | CEFTRIAXONE TAMRISA 2 g | Poudre pour solution injectable | Non renseignée |
-| 63841034 | CEFTRIAXONE EG 1 g/10 ml (IV) | Poudre et solvant pour solution injectable | Non renseignée |
-| 67011139 | CEFTRIAXONE TEVA SANTE 1 g/3,5 ml (IM) | Poudre et solvant pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67389167 | CEFTRIAXONE ZENTIVA 1 g/3,5 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | ZENTIVA FRANCE | Active |
+| 61493159 | CEFTRIAXONE VIATRIS 1 g/10 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | VIATRIS SANTE | Active |
+| 68829580 | CEFTRIAXONE TAMRISA 2 g, poudre pour solution injectable | Poudre pour solution injectable | TAMRISA ACCESS (FRANCE) | Active |
+| 63841034 | CEFTRIAXONE EG 1 g/10 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67011139 | CEFTRIAXONE TEVA SANTE 1 g/3,5 mL, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | TEVA SANTE | Active |
+| 64018712 | CEFTRIAXONE EG 1 g/3,5 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60617052 | CEFTRIAXONE EVOLUGEN 1 g/3,5 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | EVOLUPHARM | Active |
+| 68646885 | CEFTRIAXONE VIATRIS 250 mg, poudre pour solution injectable | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 66151241 | CEFTRIAXONE PANPHARMA 1 g/3,5 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | PANPHARMA | Active |
+| 62791557 | CEFTRIAXONE ZENTIVA 500 mg/2 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | ZENTIVA FRANCE | Active |
+| 67225972 | CEFTRIAXONE VIATRIS 2 g, poudre pour solution injectable IV | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 68300285 | CEFTRIAXONE VIATRIS 500 mg/2 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | VIATRIS SANTE | Active |
+| 62884513 | CEFTRIAXONE VIATRIS 1 g, poudre pour solution injectable | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 66127233 | CEFTRIAXONE ZYDUS 1 g/3,5 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | ZYDUS FRANCE | Active |
+| 65440620 | CEFTRIAXONE VIATRIS 1 g/3,5 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | VIATRIS SANTE | Active |
+| 60235330 | CEFTRIAXONE VIATRIS 500 mg/5 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | VIATRIS SANTE | Active |
+| 67828333 | TRIACEFAN 1 g/3,5 ml, poudre et solvant pour solution injectable (IM) | Poudre et solvant pour solution injectable | TAMRISA ACCESS (FRANCE) | Active |
+| 63009087 | CEFTRIAXONE TAMRISA 1 g/10 ml, poudre et solvant pour solution injectable (IV) | Poudre et solvant pour solution injectable | TAMRISA ACCESS (FRANCE) | Active |
+| 64915021 | CEFTRIAXONE TAMRISA 1 g, poudre pour solution injectable | Poudre pour solution injectable | TAMRISA ACCESS (FRANCE) | Active |
+| 68619920 | CEFTRIAXONE QILU 2 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | QILU PHARMA SPAIN (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

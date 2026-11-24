@@ -78,10 +78,28 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63803884 | VOTRIENT 400 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non précisée |
-| 62894653 | VOTRIENT 200 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non précisée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63803884 | VOTRIENT 400 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 62894653 | VOTRIENT 200 mg, comprimé pelliculé | Comprimé pelliculé | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 62086522 | PAZOPANIB ZENTIVA 400 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 62690234 | PAZOPANIB BIOGARAN 400 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 63232033 | PAZOPANIB TEVA 400 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63644453 | PAZOPANIB TEVA 200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63934264 | PAZOPANIB ACCORD 200 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 65056235 | PAZOPANIB VIATRIS 400 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65342208 | PAZOPANIB BIOGARAN 200 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 67841156 | PAZOPANIB ZENTIVA 200 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 68112963 | PAZOPANIB VIATRIS 200 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68681726 | PAZOPANIB EG 200 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68803824 | PAZOPANIB ACCORD 400 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 69775438 | PAZOPANIB EG 400 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

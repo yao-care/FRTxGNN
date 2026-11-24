@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 593
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "PERTUZUMAB"
 predicted_indications: ["ectomesenchymoma", "malignant cutaneous granular cell skin tumor", "human herpesvirus 8-related tumor", "middle ear neuroendocrine tumor", "prostatic urethra urothelial carcinoma", "kidney pelvis sarcomatoid transitional cell carcinoma"]
 description: "Pertuzumab : nouvelle indication prédite, Ectomesenchymoma (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -95,11 +95,17 @@ Garde-fou : le bénéfice est limité à la maladie HER2 positive. Les tumeurs P
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60912227 | PERJETA 420 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 63806777 | PHESGO 600 mg/600 mg, solution injectable | Solution injectable | Non renseignée (AMM active) |
-| 67178992 | PHESGO 1200 mg/600 mg, solution injectable | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60912227 | PERJETA 420 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ROCHE REGISTRATION | Active |
+| 63806777 | PHESGO 600 mg/600 mg, solution injectable | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 67178992 | PHESGO 1200 mg/600 mg, solution injectable | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

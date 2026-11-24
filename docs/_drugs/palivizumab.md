@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 573
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PALIVIZUMAB"
 predicted_indications: ["benign neoplasm of tongue", "epiglottis neoplasm", "cervical neuroblastoma", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "tumor of testis and paratestis", "cystic neoplasm", "schwannoma of jugular foramen", "mesenchymoma", "thyroglossal duct cyst"]
 description: "Palivizumab : nouvelle indication prédite, Benign neoplasm of tongue (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -81,10 +81,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67810869 | SYNAGIS 100 mg/ml, solution injectable | Solution injectable | Active |
-| 68932534 | SYNAGIS 50 mg/0,5 ml, solution injectable | Solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67810869 | SYNAGIS 100 mg/ml, solution injectable | Solution injectable | ASTRAZENECA AB | Active |
+| 68932534 | SYNAGIS 50 mg/0,5 ml, solution injectable | Solution injectable | ASTRAZENECA AB | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux AMM sont détenues par ASTRAZENECA AB. Le texte des indications approuvées n'est pas renseigné dans les données compilées.
 

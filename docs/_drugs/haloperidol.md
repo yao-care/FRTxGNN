@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 375
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "haloperidol"
 predicted_indications: ["congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "syndromic myopia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "atypical glycine encephalopathy"]
 description: "Haloperidol : nouvelle indication prédite, Congenital disorder of glycosylation with defective fucosylation (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -80,13 +80,19 @@ Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 <!-- review:end fr-lic-20261106-haloperidol-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 61490049 | HALDOL 1 mg, comprimé | Comprimé | Active |
-| 61697400 | HALDOL 5 mg, comprimé | Comprimé | Active |
-| 61505095 | HALDOL DECANOAS 50 mg/ml, solution injectable | Solution injectable | Active |
-| 62237643 | HALDOL 2 mg/ml, solution buvable | Solution buvable | Active |
-| 65374654 | HALDOL 5 mg/ml, solution injectable en ampoule | Solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61490049 | HALDOL 1 mg, comprimé | Comprimé | ESSENTIAL PHARMA (M) (MALTE) | Active |
+| 61697400 | HALDOL 5 mg, comprimé | Comprimé | ESSENTIAL PHARMA (M) (MALTE) | Active |
+| 61505095 | HALDOL DECANOAS 50 mg/ml, solution injectable | Solution injectable | ESSENTIAL PHARMA (M) (MALTE) | Active |
+| 62237643 | HALDOL 2 mg/ml, solution buvable | Solution buvable | ESSENTIAL PHARMA (M) (MALTE) | Active |
+| 65374654 | HALDOL 5 mg/ml, solution injectable en ampoule | Solution injectable | ESSENTIAL PHARMA (M) (MALTE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

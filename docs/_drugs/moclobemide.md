@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 509
 evidence_level: L2
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "moclobemide"
 predicted_indications: ["agoraphobia", "benign paroxysmal torticollis of infancy"]
 description: "Moclobemide : nouvelle indication prédite, Agoraphobie (agoraphobia) (niveau de preuve L2). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -83,9 +83,15 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62439997 | MOCLAMINE 150 mg, comprimé pelliculé sécable (BIOCODEX) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62439997 | MOCLAMINE 150 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOCODEX | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

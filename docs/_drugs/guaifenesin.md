@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 373
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "guaifenesin"
 predicted_indications: ["nasal cavity disease", "faucial diphtheria", "cervical disc degenerative disorder", "papillary conjunctivitis"]
 description: "Guaifenesin : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -75,11 +75,17 @@ Aucun essai clinique associé enregistré actuellement.
 
 La guaifénésine est commercialisée en France. Les trois autorisations de mise sur le marché recensées sont valides.
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 63320939 | VICKS EXPECTORANT GUAIFENESINE 1,33 % ADULTES MIEL, sirop (active) | Sirop | Non renseignée |
-| 64378475 | PHOLCONES BISMUTH ADULTES, suppositoire (active) | Suppositoire | Non renseignée |
-| 64482812 | PULMOFLUIDE SIMPLE, solution buvable (active) | Solution buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63320939 | VICKS EXPECTORANT GUAIFENESINE 1,33 % ADULTES MIEL, sirop | Sirop | LABORATOIRE VICKS | Active |
+| 64378475 | PHOLCONES BISMUTH ADULTES, suppositoire | Suppositoire | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 64482812 | PULMOFLUIDE SIMPLE, solution buvable | Solution buvable | ETHYX PHARMACEUTICALS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

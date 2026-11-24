@@ -73,15 +73,26 @@ Aucune littérature associée n'est disponible actuellement pour cette indicatio
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68943331 | ZINDACLINE 1 %, gel | Gel | Non renseignée (AMM active) |
-| 60978355 | DALACINE 900 mg, solution injectable | Solution injectable | Non renseignée (AMM active) |
-| 68147829 | CLINDAMYCINE KALCEKS 600 mg/4 mL | Solution injectable ou pour perfusion | Non renseignée (AMM active) |
-| 62286010 | DALACINE 75 mg | Gélule | Non renseignée (AMM active) |
-| 63185288 | CLINDAMYCINE KABI 600 mg/4 ml | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
 
-Seules les 5 premières sont listées ci-dessus.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68943331 | ZINDACLINE 1 %, gel | Gel | ASPIRE PHARMA (MALTA) (MALTE) | Active |
+| 60978355 | DALACINE 900 mg, solution injectable | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 68147829 | CLINDAMYCINE KALCEKS 600 mg/4 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 62286010 | DALACINE 75 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 63185288 | CLINDAMYCINE KABI 600 mg/4 ml, solution injectable | Solution injectable | FRESENIUS KABI FRANCE | Active |
+| 69913330 | DALACINE 600 mg, solution injectable | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 66109897 | ZANEA 10 mg/0,25 mg par g, gel | Gel | VIATRIS MEDICAL | Active |
+| 69905935 | ENCALLIK 10 mg/50 mg par g, gel | Gel | PIERRE FABRE MEDICAMENT | Active |
+| 60909099 | DALACINE 300 mg, gélule | Gélule | DIFARMED (ESPAGNE) | Active |
+| 60985976 | CLINDAMYCINE SUBSTIPHARM 300 mg, gélule | Gélule | SUBSTIPHARM | Active |
+| 64596029 | DALACINE 150 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+| 64829519 | DALACINE 300 mg, gélule | Gélule | PFIZER HOLDING FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 225
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DESLORATADINE"
 predicted_indications: ["nasal cavity disease", "recalcitrant atopic dermatitis", "IgE responsiveness, atopic", "rosacea conjunctivitis"]
 description: "Desloratadine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -83,15 +83,37 @@ Les deux essais sont de petite taille et classés en Phase 4, et non en Phase 3.
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné. Les 5 premières sont listées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63929363 | Desloratadine Sandoz 5 mg | Comprimé pelliculé | Non renseignée |
-| 65723604 | Desloratadine Zentiva 5 mg | Comprimé pelliculé | Non renseignée |
-| 63820969 | Desloratadine Krka 5 mg | Comprimé pelliculé | Non renseignée |
-| 61223605 | Desloratadine Biogaran 5 mg | Comprimé pelliculé | Non renseignée |
-| 61833327 | Aerius 5 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63929363 | DESLORATADINE SANDOZ 5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65723604 | DESLORATADINE ZENTIVA 5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63820969 | DESLORATADINE KRKA 5 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 61223605 | DESLORATADINE BIOGARAN 5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61833327 | AERIUS 5 mg, comprimé pelliculé | Comprimé pelliculé | ORGANON (HOLLANDE) | Active |
+| 67886888 | DESLORATADINE VIATRIS 0,5 mg/ml, solution buvable | Solution buvable | VIATRIS SANTE | Active |
+| 67643224 | DESLORATADINE CRISTERS 5 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 66503041 | DESLORATADINE ZENTIVA 0,5 mg/ml, solution buvable | Solution buvable | ZENTIVA FRANCE | Active |
+| 62676761 | DESLORATADINE BIOGARAN 0,5 mg/mL, solution buvable | Solution buvable | BIOGARAN | Active |
+| 69723039 | DESLORATADINE VIATRIS 5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64199376 | DESLORATADINE EVOLUGEN PHARMA 5 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 60764223 | DESLORATADINE ARROW LAB 5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 61665534 | DESLORATADINE ARROW 0,5 mg/ml, solution buvable | Solution buvable | ARROW GENERIQUES | Active |
+| 68165033 | DESLORATADINE ZYDUS 5 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 60604546 | DESLORATADINE ARROW CONSEIL 5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 69643760 | AERIUS 0,5 mg/ml, solution buvable | Solution buvable | ORGANON (HOLLANDE) | Active |
+| 68476319 | DESLORATADINE SANDOZ 0,5 mg/ml, solution buvable | Solution buvable | SANDOZ | Active |
+| 69018901 | DESLORATADINE EG 0,5 mg/ml, solution buvable | Solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60805549 | DESLORATADINE ALMUS 5 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 68344004 | DESLORATADINE TEVA SANTE 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les formes disponibles dans l'ensemble des AMM sont le comprimé pelliculé (5 mg) et la solution buvable (0,5 mg/ml).
 

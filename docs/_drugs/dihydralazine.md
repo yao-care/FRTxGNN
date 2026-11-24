@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 242
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "dihydralazine"
 predicted_indications: ["heart disease", "Pierre Robin syndrome associated with a chromosomal anomaly", "genetic syndromic Pierre Robin syndrome", "Laubry-Pezzi syndrome", "partial deletion of the long arm of chromosome 7", "orofacial clefting syndrome", "Jeune syndrome situs inversus", "disorder of fucoglycosan synthesis", "pulmonary valve disease", "partial deletion of the long arm of chromosome 22"]
 description: "Dihydralazine : nouvelle indication prédite, Maladie cardiaque (heart disease) (niveau de preuve L3). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -86,9 +86,15 @@ Il faut rester prudent : la littérature est ancienne, de petite taille, et une 
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67455336 | NEPRESSOL 25 mg/2 ml, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67455336 | NEPRESSOL 25 mg/2 ml, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | EFISCIENS (MALTE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La dihydralazine est commercialisée en France : l'unique AMM recensée est valide.
 

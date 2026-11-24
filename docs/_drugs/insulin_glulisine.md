@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 403
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin glulisine"
 predicted_indications: ["thiamine-responsive dysfunction syndrome", "opsismodysplasia", "classic stiff person syndrome", "focal stiff limb syndrome", "autoimmune oophoritis", "pancreatic agenesis", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
 description: "Insulin Glulisine : nouvelle indication prédite, Thiamine-responsive dysfunction syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -106,11 +106,17 @@ Les 10 essais les plus pertinents sont présentés ci-dessous (sur 28 essais rec
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 64684582 | APIDRA SOLOSTAR 100 unités/ml, stylo prérempli | Solution injectable | Non renseignée | Active |
-| 62679768 | APIDRA 100 Unités/ml, cartouche | Solution injectable | Non renseignée | Active |
-| 65554613 | APIDRA 100 Unités/ml, flacon | Solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64684582 | APIDRA SOLOSTAR 100 unités/ml, solution injectable en stylo prérempli | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 62679768 | APIDRA 100 Unités/ml, solution injectable en cartouche | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 65554613 | APIDRA 100 Unités/ml, solution injectable en flacon | Solution injectable | SANOFI AVENTIS (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les trois AMM sont détenues par SANOFI AVENTIS (Allemagne).
 

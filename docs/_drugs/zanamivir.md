@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 826
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "zanamivir"
 predicted_indications: ["pyelonephritis", "disorder of tyrosine metabolism"]
 description: "Zanamivir : nouvelle indication prédite, Pyélonéphrite (pyelonephritis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -73,9 +73,15 @@ Pour information, la deuxième prédiction du modèle (trouble du métabolisme d
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64427189 | DECTOVA 10 mg/1 mL, solution pour perfusion (GlaxoSmithKline Trading Services, Irlande) | Solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64427189 | DECTOVA 10 mg/1 mL, solution pour perfusion | Solution pour perfusion | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

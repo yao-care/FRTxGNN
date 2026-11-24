@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 377
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Heparin : nouvelle indication prédite, Thrombophilie par déficit en protéine C, autosomique récessive (niveau de preuve L5). Indication d'origine : Embolie pulmonaire, coagulation intravasculaire dis…"
 monitor_inn: "heparin"
 predicted_indications: ["thrombophilia due to protein C deficiency, autosomal recessive", "primary release disorder of platelets"]
@@ -74,13 +74,25 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65476933 | HEPARINE CHOAY 25 000 UI/5 mL | Solution injectable | Non renseignée (AMM active) |
-| 63018531 | CALCIPARINE SOUS CUTANEE 25 000 UI/1 ml | Solution injectable | Non renseignée (AMM active) |
-| 65822577 | HEPARINE CHOAY 5 000 UI/1 mL | Solution injectable | Non renseignée (AMM active) |
-| 60852495 | CALCIPARINE SOUS CUTANEE 20 000 UI/0,8 ml | Solution injectable | Non renseignée (AMM active) |
-| 64395923 | HEPARINE SODIQUE PANPHARMA 5 000 UI/ml (I.V.) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65476933 | HEPARINE CHOAY 25 000 UI/5 mL, solution injectable | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 63018531 | CALCIPARINE SOUS CUTANEE 25 000 UI/1 ml, solution injectable | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 65822577 | HEPARINE CHOAY 5 000 UI/1 mL, solution injectable | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 60852495 | CALCIPARINE SOUS CUTANEE 20 000 UI/0,8 ml, solution injectable | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 64395923 | HEPARINE SODIQUE PANPHARMA 5 000 UI/ml, solution injectable (I.V.) | Solution injectable | PANPHARMA | Active |
+| 66346693 | HEPARINE CALCIQUE PANPHARMA 25 000 UI/mL, solution injectable (S.C.) | Solution injectable | PANPHARMA | Active |
+| 64741268 | HEPARINE CALCIQUE PANPHARMA 25 000 UI/mL, solution injectable en seringue pré-remplie (S.… | Solution injectable | PANPHARMA | Active |
+| 69636132 | CALCIPARINE 5 000 UI/0,2 ml, solution injectable en seringue pré-remplie (sous cutanée) | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 62187140 | CALCIPARINE 7 500 UI/0,3 ml, solution injectable en seringue pré-remplie (sous cutanée) | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 66977349 | CALCIPARINE SOUS CUTANEE 12 500 UI/0,5 ml, solution injectable | Solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 60810368 | FLECTOR TISSUGEL HEPARINE 1 g/40 000 UI pour 100 g, emplâtre médicamenteux | Emplâtre médicamenteux(se) | IBSA PHARMA SAS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 11 AMM figurent dans les données, dont 11 valides.
 

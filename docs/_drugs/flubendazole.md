@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 330
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "FLUBENDAZOLE"
 predicted_indications: ["urinary bladder carcinoma", "urinary bladder neoplasm", "infiltrating bladder urothelial carcinoma", "non-invasive bladder urothelial carcinoma", "bladder urachal urothelial carcinoma", "bladder squamous papilloma", "bladder signet ring cell adenocarcinoma", "bladder colloid adenocarcinoma", "bladder mixed adenocarcinoma", "bladder colonic type adenocarcinoma"]
 description: "Flubendazole : nouvelle indication prédite, Carcinome de la vessie (urinary bladder carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -94,10 +94,16 @@ Aucune publication portant sur le flubendazole dans cette indication n'est dispo
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 68636624 | FLUVERMAL 2 POUR CENT, suspension buvable (KENVUE FRANCE) – active | Suspension buvable | Non renseignée |
-| 60968336 | FLUVERMAL, comprimé (KENVUE FRANCE) – active | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68636624 | FLUVERMAL 2 POUR CENT, suspension buvable | Suspension buvable | KENVUE FRANCE | Active |
+| 60968336 | FLUVERMAL, comprimé | Comprimé | KENVUE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 7
 monitor_inn: "betamethasone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Betamethasone : nouvelle indication prédite, Alopécie mucineuse (alopecia mucinosa) (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
 ---
 
@@ -76,13 +76,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 La bétaméthasone est commercialisée en France. Les données locales ne détaillent pas l'indication approuvée pour ces AMM. La liste ci-dessous présente 5 AMM parmi celles recensées et peut être partielle.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61750511 | BETNEVAL 0,1 %, crème | Crème | Non renseignée dans les données locales |
-| 67938491 | BETNEVAL 0,1 %, pommade | Pommade | Non renseignée dans les données locales |
-| 61938997 | DIPROSONE 0,05 %, crème | Crème | Non renseignée dans les données locales |
-| 60152607 | BETNESOL 4 mg/1 ml, solution injectable | Solution injectable | Non renseignée dans les données locales |
-| 65031328 | BETAMETHASONE ZENTIVA 2 mg, comprimé dispersible sécable | Comprimé dispersible sécable | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61750511 | BETNEVAL 0,1 %, crème | Crème | GLAXOSMITHKLINE | Active |
+| 67938491 | BETNEVAL 0,1 %, pommade | Pommade | GLAXOSMITHKLINE | Active |
+| 61938997 | DIPROSONE 0,05 %, crème | Crème | ORGANON FRANCE | Active |
+| 66322048 | BETNESOL 0,50 mg, comprimé effervescent | Comprimé effervescent(e) | ALFASIGMA (ITALIE) | Active |
+| 60152607 | BETNESOL 4 mg/1 ml, solution injectable | Solution injectable | ALFASIGMA (ITALIE) | Active |
+| 65031328 | BETAMETHASONE ZENTIVA 2 mg, comprimé dispersible sécable | Comprimé dispersible sécable | ZENTIVA FRANCE | Active |
+| 63094301 | CELESTENE 0,05 POUR CENT, solution buvable en gouttes | Solution buvable en gouttes | ORGANON FRANCE | Active |
+| 69337589 | DIPROLENE 0,05 %, pommade | Pommade | ORGANON FRANCE | Active |
+| 62157019 | BUCCOBET 0,1 mg, comprimé à sucer | Comprimé à sucer | SCA PHARMA | Active |
+| 65715931 | BETAMETHASONE ARROW 2 mg, comprimé dispersible sécable | Comprimé dispersible sécable | ARROW GENERIQUES | Active |
+| 63462194 | BETAMETHASONE BIOGARAN 0,05 %, solution buvable en gouttes | Solution buvable en gouttes | BIOGARAN | Active |
+| 63743330 | BETAMETHASONE BIOGARAN 2 mg, comprimé dispersible sécable | Comprimé dispersible sécable | BIOGARAN | Active |
+| 66171354 | CELESTENE 2 mg, comprimé dispersible sécable | Comprimé dispersible sécable | ORGANON FRANCE | Active |
+| 60805638 | BETNEVAL LOTION 0,1 %, émulsion pour application cutanée | Émulsion pour application | GLAXOSMITHKLINE | Active |
+| 62243639 | CELESTENE 4 mg/1 ml, solution injectable | Solution injectable | ORGANON FRANCE | Active |
+| 63566111 | BETAMETHASONE BIOGARAN 0,05 %, crème | Crème | BIOGARAN | Active |
+| 63923727 | DIPROSONE 0,05 %, lotion | Lotion | ORGANON FRANCE | Active |
+| 61674704 | BETAMETHASONE ZENTIVA 0,05 %, solution buvable en gouttes | Solution buvable en gouttes | ZENTIVA FRANCE | Active |
+| 61111556 | BETAMETHASONE ARROW 0,05 %, solution buvable en gouttes | Solution buvable en gouttes | ARROW GENERIQUES | Active |
+| 61773264 | BETAMETHASONE EG 0,05 POUR CENT, solution buvable en gouttes | Solution buvable en gouttes | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -98,22 +98,23 @@ Dix publications parmi les plus pertinentes (sur 20) sont présentées, avec pri
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64367525 | ADRIBLASTINE 50 mg | Poudre pour solution injectable | Non renseignée |
-| 65771499 | ADRIBLASTINE 10 mg | Poudre pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-doxorubicin-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64367525 | ADRIBLASTINE 50 mg, poudre pour solution injectable en flacon | Poudre pour solution injectable | PFIZER HOLDING FRANCE | Active |
+| 65771499 | ADRIBLASTINE 10 mg, poudre pour solution injectable en flacon | Poudre pour solution injectable | PFIZER HOLDING FRANCE | Active |
+| 62362369 | CAELYX PEGYLATED LIPOSOMAL 2 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | BAXTER HOLDING (PAYS-BAS) | Active |
+| 62783375 | DOXORUBICINE ACCORD 2 mg/ml, solution pour perfusion | Solution pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 63627532 | DOXORUBICINE TEVA 10 mg/5 ml, solution injectable | Solution injectable | TEVA SANTE | Active |
+| 64912833 | ZOLSKETIL PEGYLATED LIPOSOMAL 2 mg/mL, dispersion à diluer pour perfusion | Dispersion à diluer pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 66837710 | DOXORUBICINE ARROW 2 mg/mL, solution pour perfusion | Solution pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 69467732 | DOXORUBICINE TEVA 200 mg/100 mL, solution injectable | Solution injectable | TEVA SANTE | Active |
+| 69833133 | DOXORUBICINE TEVA 50 mg/25 mL, solution injectable | Solution injectable | TEVA SANTE | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 64367525 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 64367525 (ADRIBLASTINE 50 mg, poudre pour solution injectable en flacon) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-doxorubicin-1 -->
-
-<!-- review:begin fr-row-20261112-doxorubicin-2 -->
-
-> **Correction de vérification (2026-11-12)**: Texte initial : « 65771499 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 65771499 (ADRIBLASTINE 10 mg, poudre pour solution injectable en flacon) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
-
-<!-- review:end fr-row-20261112-doxorubicin-2 -->
+<!-- licenses:end -->
 
 Les deux autorisations du tableau ci-dessus (ADRIBLASTINE), détenues par PFIZER HOLDING FRANCE, sont valides ; au total, 9 AMM de doxorubicine sont valides. Neuf AMM valides sur neuf sont donc recensées dans les données compilées.
 
@@ -185,8 +186,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 64367525 (ADRIBLASTINE 50 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
-| 2026-11-12 | Tableau : l’AMM 65771499 (ADRIBLASTINE 10 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 64367525 (ADRIBLASTINE 50 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 65771499 (ADRIBLASTINE 10 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
 | 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |

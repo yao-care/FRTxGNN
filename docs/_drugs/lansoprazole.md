@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 436
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LANSOPRAZOLE"
 predicted_indications: ["duodenal obstruction"]
 description: "Lansoprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -84,15 +84,37 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les textes d'indication approuvée ne sont pas renseignés. Principales AMM (5 sur 20) :
+Les textes d'indication approuvée ne sont pas renseignés.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69499833 | Lansoprazole Cristers 15 mg | Gélule gastro-résistante | Non renseignée (active) |
-| 67240910 | Lansoprazole EG 30 mg | Comprimé orodispersible | Non renseignée (active) |
-| 62911490 | Lansoprazole Arrow Lab 30 mg | Gélule gastro-résistante | Non renseignée (active) |
-| 68088245 | Ogastoro 30 mg (Takeda France) | Comprimé orodispersible | Non renseignée (active) |
-| 61527857 | Ogast 15 mg (Takeda France) | Gélule gastro-résistante | Non renseignée (active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69499833 | LANSOPRAZOLE CRISTERS 15 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | CRISTERS | Active |
+| 67240910 | LANSOPRAZOLE EG 30 mg, comprimé orodispersible | Comprimé orodispersible | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62911490 | LANSOPRAZOLE ARROW LAB 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ARROW GENERIQUES | Active |
+| 68088245 | OGASTORO 30 mg, comprimé orodispersible | Comprimé orodispersible | TAKEDA FRANCE | Active |
+| 62159194 | LANSOPRAZOLE BGR 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | BIOGARAN | Active |
+| 66769501 | LANSOPRAZOLE BIOGARAN 15 mg, comprimé orodispersible | Comprimé orodispersible | BIOGARAN | Active |
+| 67610765 | LANSOPRAZOLE EVOLUGEN 15 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EVOLUPHARM | Active |
+| 60316818 | LANSOPRAZOLE ZYDUS FRANCE 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZYDUS FRANCE | Active |
+| 68266705 | LANSOPRAZOLE KRKA 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | KRKA (SLOVENIE) | Active |
+| 62367067 | LANSOPRAZOLE VIATRIS 30 mg, comprimé orodispersible | Comprimé orodispersible | VIATRIS SANTE | Active |
+| 64368132 | LANSOPRAZOLE EG 15 mg, comprimé orodispersible | Comprimé orodispersible | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68035506 | LANSOPRAZOLE ZYDUS 30 mg, comprimé orodispersible | Comprimé orodispersible | ZYDUS FRANCE | Active |
+| 66513612 | LANSOPRAZOLE ZYDUS 15 mg, comprimé orodispersible | Comprimé orodispersible | ZYDUS FRANCE | Active |
+| 61090941 | LANSOPRAZOLE EVOLUGEN 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EVOLUPHARM | Active |
+| 61671430 | LANSOPRAZOLE CRISTERS 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | CRISTERS | Active |
+| 64803410 | LANSOPRAZOLE SANDOZ 15 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SANDOZ | Active |
+| 62204134 | LANSOPRAZOLE VIATRIS 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | VIATRIS SANTE | Active |
+| 66086822 | LANSOPRAZOLE ARROW LAB 15 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ARROW GENERIQUES | Active |
+| 61527857 | OGAST 15 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | TAKEDA FRANCE | Active |
+| 62385791 | LANSOPRAZOLE SANDOZ 30 mg, comprimé orodispersible | Comprimé orodispersible | SANDOZ | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

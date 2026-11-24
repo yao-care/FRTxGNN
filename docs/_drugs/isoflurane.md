@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 414
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Isoflurane : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "ISOFLURANE"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "manic bipolar affective disorder", "trichotillomania", "dysthymic disorder", "nephrogenic syndrome of inappropriate antidiuresis", "migraine disorder"]
@@ -75,11 +75,17 @@ Aucune littérature associée disponible actuellement pour l'angor de Prinzmetal
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 61070419 | ISOFLURANE BELAMONT | Liquide pour inhalation par vapeur | Non renseignée | Active |
-| 63498500 | AERRANE | Liquide pour inhalation par vapeur | Non renseignée | Active |
-| 65849318 | CEDACONDA 100 % V/V | Liquide pour inhalation par vapeur | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61070419 | ISOFLURANE BELAMONT, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | PIRAMAL CRITICAL CARE (PAYS-BAS) | Active |
+| 63498500 | AERRANE, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | BAXTER | Active |
+| 65849318 | CEDACONDA 100 % V/V, liquide pour inhalation par vapeur | Liquide pour inhalation par vapeur | SEDANA MEDICAL (SUEDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

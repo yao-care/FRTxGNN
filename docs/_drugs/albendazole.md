@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 32
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ALBENDAZOLE"
 predicted_indications: ["coenurosis"]
 description: "Albendazole : nouvelle indication prédite, Cénurose (coenurosis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -80,11 +80,17 @@ Ces essais portent sur la neurocysticercose et sont donc indirects pour la cénu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69731801 | ZENTEL 0,4 g/10 mL, suspension buvable (active) | Suspension buvable | Non renseignée |
-| 65565944 | ZENTEL 400 mg, comprimé (active) | Comprimé | Non renseignée |
-| 68879708 | ESKAZOLE 400 mg, comprimé (active) | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69731801 | ZENTEL 0,4 g/10 mL, suspension buvable | Suspension buvable | GLAXOSMITHKLINE | Active |
+| 65565944 | ZENTEL 400 mg, comprimé | Comprimé | GLAXOSMITHKLINE | Active |
+| 68879708 | ESKAZOLE 400 mg, comprimé | Comprimé | GLAXOSMITHKLINE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 L'albendazole est commercialisé en France ; les 3 AMM listées sont valides.
 

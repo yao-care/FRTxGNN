@@ -72,9 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68009899 | EVRYSDI 0,75 mg/mL, poudre pour solution buvable (Roche Registration, Allemagne) – AMM active | Poudre pour solution buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68009899 | EVRYSDI 0,75 mg/mL, poudre pour solution buvable | Poudre pour solution buvable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 69544050 | EVRYSDI 5 mg, comprimé pelliculé | Comprimé pelliculé | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

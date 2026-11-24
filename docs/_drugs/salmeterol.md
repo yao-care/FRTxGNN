@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 692
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "salmeterol"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "atopic eczema"]
 description: "Salmeterol : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -80,13 +80,35 @@ Le score élevé du modèle (0,9991) est donc un signal à confirmer. Il ne cons
 
 Le salmétérol est commercialisé en France. Les AMM compilées sont toutes valides, mais la liste peut être partielle. Les AMM du salmétérol seul sont les suivantes. Aucun texte d'indication n'est enregistré dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69163238 | SEREVENT DISKUS 50 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM active) |
-| 67274478 | SEREVENT 25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
-| 67546191 | SERETIDE DISKUS 100/50 microgrammes/dose | Poudre pour inhalation | Non renseignée (AMM active) |
-| 69505268 | SERETIDE 125/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
-| 64587838 | SERETIDE 50/25 microgrammes/dose | Suspension pour inhalation en flacon pressurisé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69163238 | SEREVENT DISKUS 50 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | GLAXOSMITHKLINE | Active |
+| 67274478 | SEREVENT 25 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | GLAXOSMITHKLINE | Active |
+| 60781984 | PROPIONATE DE FLUTICASONE/SALMETEROL ARROW AIRMASTER 250 microgrammes/ 50 microgrammes/do… | Poudre pour inhalation | ARROW GENERIQUES | Active |
+| 69376535 | PROPIONATE DE FLUTICASONE/SALMETEROL SANDOZ 125 microgrammes/ 25 microgrammes/dose, suspe… | Suspension pour inhalation | SANDOZ | Active |
+| 65420621 | PROPIONATE DE FLUTICASONE/SALMETEROL BGR 125 microgrammes/25 microgrammes/dose, suspensio… | Suspension pour inhalation | BIOGARAN | Active |
+| 69518205 | PROPIONATE DE FLUTICASONE/SALMETEROL EG AIRMASTER 100 microgrammes/50 microgrammes/dose,… | Poudre pour inhalation | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61622974 | PROPIONATE DE FLUTICASONE/SALMETEROL TEVA RESPIHALER 500 microgrammes/50 microgrammes/dos… | Poudre pour inhalation | TEVA (PAYS-BAS) | Active |
+| 62811974 | PROPIONATE DE FLUTICASONE/SALMETEROL ZENTIVA 125 microgrammes/25 microgrammes/dose, suspe… | Suspension pour inhalation | ZENTIVA FRANCE | Active |
+| 64541342 | PROPIONATE DE FLUTICASONE/SALMETEROL VIATRIS 250 microgrammes/50 microgrammes/dose, poudr… | Poudre pour inhalation | VIATRIS SANTE | Active |
+| 68513632 | PROPIONATE DE FLUTICASONE/SALMETEROL TEVA 125 microgrammes/25 microgrammes/dose, suspensi… | Suspension pour inhalation | TEVA (PAYS-BAS) | Active |
+| 62347260 | PROPIONATE DE FLUTICASONE/SALMETEROL BIOGARAN AIRMASTER 250 microgrammes/ 50 microgrammes… | Poudre pour inhalation | BIOGARAN | Active |
+| 61388471 | PROPIONATE DE FLUTICASONE/SALMETEROL SANDOZ 250 microgrammes/ 25 microgrammes/dose, suspe… | Suspension pour inhalation | SANDOZ | Active |
+| 67419742 | PROPIONATE DE FLUTICASONE/SALMETEROL ZENTIVA 50 microgrammes/25 microgrammes/dose, suspen… | Suspension pour inhalation | ZENTIVA FRANCE | Active |
+| 64956064 | SERETIDE 50 microgrammes/25 microgrammes/dose, suspension pour inhalation en flacon press… | Suspension pour inhalation | DIFARMED (ESPAGNE) | Active |
+| 67546191 | SERETIDE DISKUS 100 microgrammes/50 microgrammes/dose, poudre pour inhalation en récipien… | Poudre pour inhalation | GLAXOSMITHKLINE | Active |
+| 61041232 | PROPIONATE DE FLUTICASONE/SALMETEROL ZENTIVA 250 microgrammes/50 microgrammes/dose, poudr… | Poudre pour inhalation | ZENTIVA FRANCE | Active |
+| 69505268 | SERETIDE 125 microgrammes/25 microgrammes/dose, suspension pour inhalation en flacon pres… | Suspension pour inhalation | GLAXOSMITHKLINE | Active |
+| 62788696 | PROPIONATE DE FLUTICASONE/SALMETEROL EG AIRMASTER 500 microgrammes/50 microgrammes/dose,… | Poudre pour inhalation | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66796758 | PROPIONATE DE FLUTICASONE/SALMETEROL BIOGARAN AIRMASTER 500 microgrammes/ 50 microgrammes… | Poudre pour inhalation | BIOGARAN | Active |
+| 64587838 | SERETIDE 50 microgrammes/25 microgrammes/dose, suspension pour inhalation en flacon press… | Suspension pour inhalation | GLAXOSMITHKLINE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les autres AMM concernent des associations fluticasone/salmétérol. Elles ne décrivent pas le statut du salmétérol seul et ne sont pas détaillées ici.
 

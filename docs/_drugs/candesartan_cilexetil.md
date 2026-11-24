@@ -72,13 +72,35 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64358070 | CANDESARTAN HCS 8 mg, comprimé | comprimé | Non renseignée dans les données locales |
-| 65969730 | ATACAND 4 mg, comprimé sécable | comprimé sécable | Non renseignée dans les données locales |
-| 65776902 | CANDESARTAN ARROW 4 mg, comprimé sécable | comprimé sécable | Non renseignée dans les données locales |
-| 66847149 | CANDESARTAN ARROW LAB 16 mg, comprimé sécable | comprimé sécable | Non renseignée dans les données locales |
-| 62910207 | ATACAND 32 mg, comprimé sécable | comprimé sécable | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64358070 | CANDESARTAN HCS 8 mg, comprimé | Comprimé | HCS (BELGIQUE) | Active |
+| 65969730 | ATACAND 4 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 66847149 | CANDESARTAN ARROW LAB 16 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 69233067 | CANDESARTAN EG 16 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66329046 | CANDESARTAN HCS 16 mg, comprimé | Comprimé | HCS (BELGIQUE) | Active |
+| 66740581 | CANDESARTAN ZENTIVA 4 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 64941386 | CANDESARTAN SANDOZ 4 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 66751688 | CANDESARTAN HCS 32 mg, comprimé | Comprimé | HCS (BELGIQUE) | Active |
+| 60323969 | KENZEN 4 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 68642132 | CANDESARTAN ARROW LAB 4 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 66775917 | CANDESARTAN CRISTERS 16 mg, comprimé sécable | Comprimé sécable | CRISTERS | Active |
+| 61642119 | CANDESARTAN CRISTERS PHARMA 16 mg, comprimé sécable | Comprimé sécable | CRISTERS | Active |
+| 62679533 | CANDESARTAN SANDOZ 16 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 69509672 | CANDESARTAN VIATRIS 4 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 63511759 | CANDESARTAN TEVA 32 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 61511543 | CANDESARTAN EVOLUGEN 16 mg, comprimé sécable | Comprimé sécable | EVOLUPHARM | Active |
+| 65776902 | CANDESARTAN ARROW 4 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Abrogée |
+| 62910207 | ATACAND 32 mg, comprimé sécable | Comprimé sécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Archivée |
+| 68630646 | CANDESARTAN ARROW 32 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Archivée |
+| 67856578 | CANDESARTAN ARROW 8 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 La liste ci-dessus est partielle : elle présente cinq des AMM recensées dans les données locales.
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 318
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FELBAMATE"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia"]
 description: "Felbamate : nouvelle indication prédite, Trigeminal nerve neoplasm (niveau de preuve L4). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -78,10 +78,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 60223278 | TALOXA 600 mg, comprimé (ORGANON FRANCE) | Comprimé | Non renseignée (AMM active) |
-| 62313468 | TALOXA 600 mg/5 ml, suspension buvable (ORGANON FRANCE) | Suspension buvable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60223278 | TALOXA 600 mg, comprimé | Comprimé | ORGANON FRANCE | Active |
+| 62313468 | TALOXA 600 mg/5 ml suspension buvable | Suspension buvable | ORGANON FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

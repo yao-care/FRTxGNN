@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 209
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dactinomycin"
 predicted_indications: ["relapsing-remitting multiple sclerosis", "liver sarcoma", "upper aerodigestive tract neoplasm", "head and neck cancer"]
 description: "Dactinomycin : nouvelle indication prédite, Sclérose en plaques récurrente-rémittente (relapsing-remitting multiple sclerosis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -88,9 +88,15 @@ Ces publications soutiennent l'usage de la dactinomycine dans les sarcomes pédi
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66507634 | COSMEGEN 0,5 mg, poudre pour solution injectable (RECORDATI RARE DISEASES) | Poudre pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66507634 | COSMEGEN 0,5 mg, poudre pour solution injectable | Poudre pour solution injectable | RECORDATI RARE DISEASES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

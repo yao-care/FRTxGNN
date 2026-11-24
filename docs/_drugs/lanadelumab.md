@@ -80,11 +80,18 @@ Lanadelumab est commercialisé en France. Les 4 AMM recensées sont valides.
 
 <!-- review:end fr-lic-20261124-lanadelumab-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63473155 | TAKHZYRO 300 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 61988861 | TAKHZYRO 300 mg, solution injectable | Solution injectable | Non renseignée (AMM active) |
-| 67650090 | TAKHZYRO 150 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63473155 | TAKHZYRO 300 mg, solution injectable en seringue préremplie | Solution injectable | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+| 61988861 | TAKHZYRO 300 mg, solution injectable | Solution injectable | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+| 67650090 | TAKHZYRO 150 mg, solution injectable en seringue préremplie | Solution injectable | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+| 61865798 | TAKHZYRO 300 mg, solution injectable en stylo prérempli | Solution injectable | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

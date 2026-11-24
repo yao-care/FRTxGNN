@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 156
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "certolizumab pegol"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
 description: "Certolizumab Pegol : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -82,10 +82,16 @@ Aucun essai clinique associé n'est actuellement enregistré pour la vascularite
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64386835 | CIMZIA 200 mg, solution injectable en stylo prérempli (UCB Pharma Belgique) | Solution injectable | Non renseignée (AMM active) |
-| 66661714 | CIMZIA 200 mg, solution pour injection en seringue préremplie (UCB Pharma Belgique) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64386835 | CIMZIA 200 mg, solution injectable en stylo prérempli | Solution injectable | UCB PHARMA BELGIQUE | Active |
+| 66661714 | CIMZIA 200 mg solution pour injection en seringue préremplie | Solution injectable | UCB PHARMA BELGIQUE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

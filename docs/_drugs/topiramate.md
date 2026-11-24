@@ -108,13 +108,35 @@ Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 21
 
 <!-- review:end fr-lic-20261124-topiramate-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68906660 | TOPIRAMATE VIATRIS 200 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64696702 | TOPIRAMATE ARROW LAB 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61913385 | EPITOMAX 100 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 68987922 | EPITOMAX 25 mg | Gélule | Non renseignée (AMM active) |
-| 63478939 | TOPIRAMATE BGR 50 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68906660 | TOPIRAMATE VIATRIS 200 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 64696702 | TOPIRAMATE ARROW LAB 100 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 61913385 | EPITOMAX 100 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG | Active |
+| 64137353 | TOPIRAMATE VIATRIS 50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 68987922 | EPITOMAX 25 mg, gélule | Gélule | JANSSEN CILAG | Active |
+| 63478939 | TOPIRAMATE BGR 50 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 64866909 | TOPIRAMATE BGR 200 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65109823 | EPITOMAX 200 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG | Active |
+| 65691302 | TOPIRAMATE ARROW LAB 200 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 69104026 | EPITOMAX 15 mg, gélule | Gélule | JANSSEN CILAG | Active |
+| 62430966 | TOPIRAMATE ARROW LAB 50 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 69946106 | EPITOMAX 50 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG | Active |
+| 64738083 | TOPIRAMATE SANDOZ 50 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61572507 | TOPIRAMATE BGR 100 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68353836 | TOPIRAMATE SANDOZ 100 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69710351 | EPITOMAX 50 mg, gélule | Gélule | JANSSEN CILAG | Active |
+| 66961409 | TOPIRAMATE VIATRIS 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61184700 | TOPIRAMATE ACCORD 25 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 66096713 | TOPIRAMATE ACCORD 50 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 67018272 | TOPIRAMATE ACCORD 200 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

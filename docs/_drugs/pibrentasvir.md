@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 602
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIBRENTASVIR"
 predicted_indications: ["hepatitis B virus infection", "HIV infectious disease", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Pibrentasvir : nouvelle indication prédite, Infection par le virus de l'hépatite B (hepatitis B virus infection) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -82,10 +82,16 @@ Aucune des publications retrouvées ne teste pibrentasvir contre le VHB. Les plu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet (active) | Granulés enrobés | Non renseignée |
-| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62685529 | MAVIRET 50 mg/20 mg, granulés enrobés en sachet | Granulés enrobé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 63052124 | MAVIRET 100 mg/40 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

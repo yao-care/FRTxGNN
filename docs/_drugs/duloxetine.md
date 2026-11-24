@@ -87,10 +87,35 @@ Il faut toutefois rester prudent : les preuves sont de petite taille et ne montr
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68263545 | CYMBALTA 60 mg, gélule gastro-résistante (active) | Gélule gastro-résistante | Non renseignée |
-| 66852477 | CYMBALTA 30 mg, gélule gastro-résistante (active) | Gélule gastro-résistante | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68263545 | CYMBALTA 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 66852477 | CYMBALTA 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 60287277 | DULOXETINE ZENTIVA 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 60299831 | DULOXETINE ALMUS 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ALMUS FRANCE | Active |
+| 60457719 | DULOXETINE ACCORD 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ACCORD HEALTHCARE FRANCE | Active |
+| 60890617 | DULOXETINE VIATRIS SANTE 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | VIATRIS SANTE | Active |
+| 61620521 | DULOXETINE ZYDUS 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZYDUS FRANCE | Active |
+| 62336456 | DULOXETINE SANDOZ 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SANDOZ | Active |
+| 62443668 | DULOXETINE EG 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63042240 | DULOXETINE VIATRIS SANTE 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | VIATRIS SANTE | Active |
+| 63606680 | DULOXETINE TEVA 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | TEVA (PAYS-BAS) | Active |
+| 63954135 | DULOXETINE EVOLUGEN 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EVOLUPHARM | Active |
+| 64381382 | DULOXETINE ACCORD 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ACCORD HEALTHCARE FRANCE | Active |
+| 64460239 | DULOXETINE ALMUS 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ALMUS FRANCE | Active |
+| 64468759 | DULOXETINE ARROW 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ARROW GENERIQUES | Active |
+| 65419882 | DULOXETINE BIOGARAN 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | BIOGARAN | Active |
+| 66334292 | DULOXETINE EG 60 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66982271 | DULOXETINE SANDOZ 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | SANDOZ | Active |
+| 67885003 | DULOXETINE ZENTIVA 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 65221726 | DULOXETINE ALTER 30 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | LABORATOIRES ALTER | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

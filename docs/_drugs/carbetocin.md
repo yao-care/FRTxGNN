@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "carbetocin"
 predicted_indications: ["isotretinoin-like syndrome", "Goodman syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbetocin : nouvelle indication prédite, Syndrome pseudo-isotrétinoïne (isotretinoin-like syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -74,10 +74,16 @@ Aucune littérature associée disponible actuellement.
 
 La carbétocine est commercialisée en France. Les données compilées recensent 2 AMM, présentées sous forme de solution injectable :
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 68795345 | CARBETOCINE AGUETTANT 100 microgrammes/ml, solution injectable en seringue pré-remplie | Solution injectable |
-| 62023123 | PABAL 100 microgrammes/ml, solution injectable | Solution injectable |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68795345 | CARBETOCINE AGUETTANT 100 microgrammes/ml, solution injectable en seringue pré-remplie | Solution injectable | AGUETTANT | Active |
+| 62023123 | PABAL 100 microgrammes/ml, solution injectable | Solution injectable | FERRING (FRANCE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -3,7 +3,7 @@ layout: default
 title: Obinutuzumab
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 550
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Obinutuzumab : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -72,9 +72,15 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 61042996 | OBINUTUZUMAB | solution à diluer pour perfusion | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61042996 | GAZYVARO 1000 mg, solution à diluer pour perfusion | Solution à diluer pour perfusion | ROCHE REGISTRATION | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

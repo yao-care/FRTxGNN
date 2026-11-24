@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 582
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pegaspargase"
 predicted_indications: ["pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "follicular lymphoma", "methylcobalamin deficiency type cblE", "lymphoid neoplasm", "Hodgkins lymphoma", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive"]
 description: "Pegaspargase : nouvelle indication prédite, Pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
@@ -94,9 +94,15 @@ Les 35 essais sont rattachés à cette prédiction ; les plus pertinents sont li
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61861579 | ONCASPAR 750 U/ml, poudre pour solution injectable/pour perfusion (Laboratoires Servier) | Poudre pour solution injectable ou pour perfusion | Non renseignée ; AMM active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61861579 | ONCASPAR 750 U/ml, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | LES LABORATOIRES SERVIER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

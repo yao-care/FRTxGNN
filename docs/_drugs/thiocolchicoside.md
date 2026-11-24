@@ -92,13 +92,24 @@ Le texte des indications approuvées n'est pas renseigné dans les données comp
 
 <!-- review:end fr-lic-20261106-thiocolchicoside-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69999429 | THIOCOLCHICOSIDE EG 4 mg | Comprimé sécable | Active |
-| 63646098 | THIOCOLCHICOSIDE ZENTIVA 4 mg | Comprimé | Active |
-| 68086109 | THIOCOLCHICOSIDE CRISTERS 4 mg | Comprimé | Active |
-| 65617572 | MIOREL 4 mg | Gélule | Active |
-| 66305209 | MIOREL 4 mg/2 ml | Solution injectable (IM) en ampoule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69999429 | THIOCOLCHICOSIDE EG 4 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63646098 | THIOCOLCHICOSIDE ZENTIVA 4 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 68086109 | THIOCOLCHICOSIDE CRISTERS 4 mg, comprimé | Comprimé | CRISTERS | Active |
+| 65617572 | MIOREL 4 mg, gélule | Gélule | FARMACEUTICO SIT | Active |
+| 67136662 | THIOCOLCHICOSIDE BIOGARAN 4 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 66305209 | MIOREL 4 mg/2 ml, solution injectable (IM) en ampoule | Solution injectable | FARMACEUTICO SIT | Active |
+| 64045168 | THIOCOLCHICOSIDE ARROW 4 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 68268147 | THIOCOLCHICOSIDE VIATRIS 4 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 67730031 | THIOCOLCHICOSIDE ALMUS 4 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 60855840 | THIOCOLCHICOSIDE ALTER 4 mg, comprimé | Comprimé | LABORATOIRES ALTER | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

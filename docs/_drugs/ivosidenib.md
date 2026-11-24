@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 421
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ivosidenib"
 predicted_indications: ["bulbar polio"]
 description: "Ivosidenib : nouvelle indication prédite, Poliomyélite bulbaire (bulbar polio) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -88,15 +88,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63239234 | TIBSOVO 250 mg, comprimé pelliculé (LES LABORATOIRES SERVIER) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-ivosidenib-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63239234 | TIBSOVO 250 mg, comprimé pelliculé | Comprimé pelliculé | LES LABORATOIRES SERVIER | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 63239234 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 63239234 (TIBSOVO 250 mg,  comprimé pelliculé) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-ivosidenib-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -164,7 +164,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est de plus annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 63239234 (TIBSOVO 250 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 63239234 (TIBSOVO 250 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tibsovo (ivosidenib) prescribing information, Servier Pharmaceutical LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=65d254c0-67ad-42c4-b972-ad463b755b2d) |
 
 <!-- review:end log -->

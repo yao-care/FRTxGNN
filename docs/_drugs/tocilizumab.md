@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 769
 evidence_level: L3
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOCILIZUMAB"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease"]
 description: "Tocilizumab : nouvelle indication prédite, Spondylarthrite ankylosante (ankylosing spondylitis) (niveau de preuve L3). En France, AMM dans la BDPM : 9 (valides : 9)"
@@ -96,13 +96,23 @@ Cette plausibilité biologique n'est cependant pas confirmée cliniquement. Les 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69107620 | ROACTEMRA 162 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
-| 67121308 | ROACTEMRA 162 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 69582503 | ROACTEMRA 20 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 66297328 | TYENNE 162 mg, stylo prérempli | Solution injectable | Non renseignée (AMM active) |
-| 62118347 | TYENNE 162 mg, seringue préremplie | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69107620 | ROACTEMRA 162 mg, solution injectable en seringue préremplie | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 67121308 | ROACTEMRA 162 mg, solution injectable en stylo prérempli | Solution injectable | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 66297328 | TYENNE 162 mg, solution injectable en stylo prérempli | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 69582503 | ROACTEMRA 20 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 65554606 | AVTOZMA 162 mg, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 62118347 | TYENNE 162 mg, solution injectable en seringue préremplie | Solution injectable | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 63322630 | TYENNE 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 60051070 | AVTOZMA 20 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 65881305 | AVTOZMA 162 mg, solution injectable en stylo prérempli | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 9 AMM sont recensées (ROACTEMRA, TYENNE, AVTOZMA), dont 9 valides sur 9.
 

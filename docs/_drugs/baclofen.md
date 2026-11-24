@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "baclofen"
 predicted_indications: ["attention deficit-hyperactivity disorder", "nicotine dependence"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Baclofen : nouvelle indication prédite, Trouble déficitaire de l'attention avec hyperactivité (attention deficit-hyperactivity disorder) (niveau de preuve L5). Indication d'origine : Non renseignée d…"
 ---
 
@@ -77,6 +77,35 @@ Aucune des publications recensées n'étudie directement le baclofène dans le T
 | [24496320](https://pubmed.ncbi.nlm.nih.gov/24496320/) | 2014 | Préclinique (animal) | Neuropsychopharmacology | Rôle du cortex cingulaire antérieur et de l'amygdale dans la décision coût/bénéfice chez le rongeur |
 
 ## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65672615 | BACLOFENE AGUETTANT 0,05 mg/ml, solution injectable pour voie intrathécale en ampoule | Solution injectable | AGUETTANT | Active |
+| 63914016 | BACLOFENE AGUETTANT 2 mg/ml, solution pour perfusion pour voie intrathécale en ampoule | Solution pour perfusion | AGUETTANT | Active |
+| 62857313 | SPACYR 2 mg/mL, solution injectable ou pour perfusion en seringue préremplie | Solution injectable ou pour perfusion | PIRAMAL CRITICAL CARE (PAYS-BAS) | Active |
+| 65317023 | LIORESAL 10 mg/5 ml, solution injectable pour perfusion par voie intrathécale en ampoule | Solution injectable | NOVARTIS PHARMA | Active |
+| 62311182 | LIORESAL 10 mg/20 ml, solution injectable pour perfusion par voie intrathécale en ampoule | Solution injectable | NOVARTIS PHARMA | Active |
+| 61835424 | BACLOFENE SUN 10 mg/5 ml, solution pour perfusion | Solution pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 66009893 | BACLOCUR 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ETHYPHARM | Active |
+| 60314354 | BACLOFENE ZYDUS 10 mg, comprimé sécable | Comprimé sécable | ZYDUS FRANCE | Active |
+| 69375846 | LIORESAL 0,05 mg/1 ml, solution injectable par voie intrathécale en ampoule | Solution injectable | NOVARTIS PHARMA | Active |
+| 68230207 | BACLOFENE AGUETTANT 0,5 mg/ml, solution pour perfusion pour voie intrathécale en ampoule | Solution pour perfusion | AGUETTANT | Active |
+| 61434805 | BACLOFENE SUN 10 mg/20 ml, solution pour perfusion | Solution pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 69650566 | BACLOCUR 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ETHYPHARM | Active |
+| 69038793 | BACLOCUR 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ETHYPHARM | Active |
+| 63011070 | BACLOFENE EG 10 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60304050 | LIORESAL 10 mg, comprimé sécable | Comprimé sécable | NOVARTIS PHARMA | Active |
+| 62173429 | BACLOFENE BIOGARAN 10 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 68677400 | BACLOCUR 30 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ETHYPHARM | Active |
+| 62472716 | BACLOFENE SUN 0,05 mg/ml, solution injectable | Solution injectable | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 64073783 | BACLOFENE ZENTIVA 10 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 65621371 | BACLOFENE VIATRIS 10 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les autorisations de mise sur le marché recensées concernent des spécialités à base de baclofène seul (comprimés et solutions injectables ou pour perfusion intrathécale, notamment Lioresal, Baclocur et Baclofène Aguettant). Aucun texte d'indication n'est enregistré dans les données locales.
 

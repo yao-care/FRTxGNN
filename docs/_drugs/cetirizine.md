@@ -87,11 +87,35 @@ La cétirizine est commercialisée en France. Les données compilées recensent 
 
 <!-- review:end fr-lic-20261124-cetirizine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64939766 | REACTINE 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée dans les données locales |
-| 62636293 | ZYRTECSET 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée dans les données locales |
-| 64949486 | ZYRTECSET 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64939766 | REACTINE 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | KENVUE FRANCE | Active |
+| 62636293 | ZYRTECSET 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BB FARMA (ITALIE) | Active |
+| 64949486 | ZYRTECSET 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | UCB PHARMA | Active |
+| 60807297 | CETIRIZINE EG 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61665908 | CETIRIZINE BIOGARAN 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 61788565 | CETIRIZINE SANDOZ 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 62005883 | CETIRIZINE ALMUS 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 62394630 | CETIRIZINE ZENTIVA 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 62437067 | CETIRIZINE VIATRIS CONSEIL 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 62475527 | CETIRIZINE SANDOZ CONSEIL 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 62564068 | DRILL ALLERGIE CETIRIZINE 10 mg, comprimé à sucer sécable | Comprimé à sucer sécable | PIERRE FABRE MEDICAMENT | Active |
+| 63148172 | CETIRIZINE BIOGARAN CONSEIL 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 63455641 | CETIRIZINE EVOLUGEN 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EVOLUPHARM | Active |
+| 64367347 | ALAIRGIX ALLERGIE CETIRIZINE 10 mg, comprimé à sucer sécable | Comprimé à sucer sécable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 64487688 | CETIRIZINE ARROW CONSEIL 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 64873825 | CETIRIZINE TEVA SANTE CONSEIL 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 64989281 | CETIRIZINE VIATRIS 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 65016707 | ZYRTEC 10 mg/ml, solution buvable en gouttes | Solution buvable en gouttes | UCB PHARMA | Active |
+| 65361703 | CETIRIZINE BIOGARAN 10 mg/ml, solution buvable en gouttes | Solution buvable en gouttes | BIOGARAN | Active |
+| 66255336 | CETIRIZINE ARROW 10 mg/mL, solution buvable en gouttes | Solution buvable en gouttes | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

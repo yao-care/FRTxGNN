@@ -76,9 +76,17 @@ Cette seule publication est un cas clinique isolé. Pour les autres indications 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60558554 | TRANDATE 5 mg/ml, solution injectable (ASPEN PHARMA TRADING, Irlande) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60558554 | TRANDATE 5 mg/ml, solution injectable | Solution injectable | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 61308023 | LABETALOL STRAGEN 5 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | S.A.L.F. - S.P.A. LABORATORIO FARMACOLOGICO (ITALIE) | Active |
+| 65193337 | TRANDATE 200 mg, comprimé pelliculé | Comprimé pelliculé | ASPEN PHARMA TRADING (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

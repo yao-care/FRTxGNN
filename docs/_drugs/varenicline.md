@@ -84,11 +84,19 @@ Le texte d'indication approuvee n'est pas renseigne.
 
 <!-- review:end fr-lic-20261106-varenicline-1 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 66287152 | CHAMPIX 0,5 mg et 1 mg, comprime pellicule | Comprime pellicule | Non renseignee |
-| 65586162 | CHAMPIX 0,5 mg, comprime pellicule | Comprime pellicule | Non renseignee |
-| 60442838 | CHAMPIX 1 mg, comprime pellicule | Comprime pellicule | Non renseignee |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66287152 | CHAMPIX 0,5 mg et 1 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 65586162 | CHAMPIX 0,5 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 60442838 | CHAMPIX 1 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 64912922 | VARENICLINE ARROW 0,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67607242 | VARENICLINE ARROW 1 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

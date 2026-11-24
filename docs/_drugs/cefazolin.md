@@ -83,13 +83,24 @@ La céfazoline est commercialisée en France. Les données compilées pour ce ra
 
 <!-- review:end fr-lic-20261124-cefazolin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67948546 | CEFAZOLINE VIATRIS 2 g | Poudre pour solution injectable | Non renseignée dans les données locales |
-| 67504598 | CEFAZOLINE QILU 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
-| 61876894 | CEFAZOLINE PANPHARMA 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
-| 69312237 | CEFAZOLINE QILU 2 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
-| 60461151 | CEFAZOLINE PANPHARMA 2 g | Poudre pour solution injectable ou pour perfusion | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67948546 | CEFAZOLINE VIATRIS 2 g, poudre pour solution injectable (IM-IV) | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 67504598 | CEFAZOLINE QILU 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | QILU PHARMA SPAIN (ESPAGNE) | Active |
+| 61876894 | CEFAZOLINE PANPHARMA 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | PANPHARMA | Active |
+| 69312237 | CEFAZOLINE QILU 2 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | QILU PHARMA SPAIN (ESPAGNE) | Active |
+| 60461151 | CEFAZOLINE PANPHARMA 2 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | PANPHARMA | Active |
+| 61242331 | CEFAZOLINE VIATRIS 1 g, poudre pour solution injectable (IM-IV) | Poudre pour solution injectable | VIATRIS SANTE | Active |
+| 69258056 | CEFAZOLINE PANPHARMA 1 g/5 ml, poudre et solution pour usage parentéral (IV) | Poudre et solution pour usage parentéral | PANPHARMA | Active |
+| 67089141 | CEFAZOLINE PANPHARMA 2 g/10 ml, poudre et solution pour usage parentéral (IV) | Poudre et solution pour usage parentéral | PANPHARMA | Active |
+| 60859237 | CEFAZOLINE BASI 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | BASI | Active |
+| 63051517 | CEFAZOLINE BASI 2 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | BASI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

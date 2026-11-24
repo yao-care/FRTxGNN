@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 802
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "VALPROMIDE"
 predicted_indications: ["insomnia (disease)"]
 description: "Valpromide : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -84,15 +84,15 @@ Cette publication porte sur l'agitation et les troubles du comportement dans la 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63737879 | DEPAMIDE 300 mg, comprimé pelliculé gastro-résistant (SANOFI WINTHROP INDUSTRIE) | Comprimé pelliculé gastro-résistant | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-valpromide-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63737879 | DEPAMIDE 300 mg, comprimé pelliculé gastro-résistant | Comprimé pelliculé gastro-résistant(e) | SANOFI WINTHROP INDUSTRIE | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 63737879 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 63737879 (DEPAMIDE 300 mg, comprimé pelliculé gastro-résistant) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-valpromide-1 -->
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 
@@ -128,7 +128,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (autorisation aujourd'hui annulée) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation de l'AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 63737879 (DEPAMIDE 300 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 63737879 (DEPAMIDE 300 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

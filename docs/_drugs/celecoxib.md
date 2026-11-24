@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "celecoxib"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "hypermobility of coccyx", "brachyolmia", "rheumatoid nodulosis", "WHIM syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Celecoxib : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée…"
 ---
 
@@ -73,13 +73,35 @@ Aucune littérature associée disponible actuellement.
 
 Les données compilées font état de 20 autorisations de mise sur le marché pour des spécialités à base de célécoxib en gélule (la liste peut être partielle). Parmi elles, des spécialités de marque (Celebrex) et plusieurs génériques. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66150367 | CELEBREX 200 mg | Gélule | Non renseignée |
-| 68952704 | CELEBREX 100 mg | Gélule | Non renseignée |
-| 62296517 | CELECOXIB HCS 100 mg | Gélule | Non renseignée |
-| 68840694 | CELECOXIB SANDOZ 100 mg | Gélule | Non renseignée |
-| 61517795 | CELECOXIB TEVA SANTE 200 mg | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62296517 | CELECOXIB HCS 100 mg, gélule | Gélule | HCS (BELGIQUE) | Active |
+| 64610055 | CELECOXIB EG 100 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68840694 | CELECOXIB SANDOZ 100 mg, gélule | Gélule | SANDOZ | Active |
+| 61517795 | CELECOXIB TEVA SANTE 200 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 62338400 | CELECOXIB BIOGARAN 100 mg, gélule | Gélule | BIOGARAN | Active |
+| 66150367 | CELEBREX 200 mg, gélule | Gélule | VIATRIS UP | Active |
+| 68765423 | CELECOXIB TEVA 100 mg, gélule | Gélule | TEVA SANTE | Active |
+| 66403692 | CELECOXIB SANDOZ 200 mg, gélule | Gélule | SANDOZ | Active |
+| 61174898 | CELECOXIB CRISTERS 200 mg, gélule | Gélule | CRISTERS | Active |
+| 68052288 | CELECOXIB VIATRIS 100 mg, gélule | Gélule | VIATRIS UP | Active |
+| 61667994 | CELECOXIB ZENTIVA 100 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 61685049 | CELECOXIB ZENTIVA 200 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 68172782 | CELECOXIB TEVA SANTE 100 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 68952704 | CELEBREX 100 mg, gélule | Gélule | VIATRIS UP | Active |
+| 60915522 | CELECOXIB HCS 200 mg, gélule | Gélule | HCS (BELGIQUE) | Active |
+| 64520316 | CELECOXIB ARROW LAB 100 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 68552795 | CELECOXIB VIATRIS 200 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 64938536 | CELECOXIB TEVA 200 mg, gélule | Gélule | TEVA SANTE | Active |
+| 64738350 | CELECOXIB EG 200 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65878362 | CELECOXIB ZYDUS 200 mg, gélule | Gélule | ZYDUS FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

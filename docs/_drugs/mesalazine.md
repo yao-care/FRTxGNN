@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 482
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "mesalazine"
 predicted_indications: ["congenital hypotrichosis with juvenile macular dystrophy", "osteoarthritis", "rheumatoid arthritis", "seborrheic keratosis", "vulvar inverted follicular keratosis", "pseudoachondroplasia"]
 description: "Mesalazine : nouvelle indication prédite, Hypotrichose congénitale avec dystrophie maculaire juvénile (congenital hypotrichosis with juvenile macular dystrophy) (niveau de preuve L5). Indication d'or…"
@@ -95,13 +95,33 @@ Le texte des indications approuvées n'est pas renseigné. Principales AMM :
 
 <!-- review:end fr-lic-20261106-mesalazine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62289729 | PENTASA 500 mg, comprimé | Comprimé | Non renseignée |
-| 63599339 | ROWASA 250 mg, comprimé enrobé gastro-résistant | Comprimé enrobé gastro-résistant | Non renseignée |
-| 60329160 | OSPERZO 3 g, granulés à libération prolongée | Granulés à libération prolongée | Non renseignée |
-| 69694541 | PENTASA 1 g, suppositoire | Suppositoire | Non renseignée |
-| 65855463 | FIVASA 1 g, suppositoire | Suppositoire | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62289729 | PENTASA 500 mg, comprimé | Comprimé | FERRING (FRANCE) | Active |
+| 63599339 | ROWASA 250 mg, comprimé enrobé gastro-résistant | Comprimé enrobé gastro-résistant(e) | TEOFARMA | Active |
+| 60329160 | OSPERZO 3 g, granulés à libération prolongée | Granulés à libération prolongée | FALK PHARMA | Active |
+| 69694541 | PENTASA 1 g, suppositoire | Suppositoire | FERRING (FRANCE) | Active |
+| 65855463 | FIVASA 1 g, suppositoire | Suppositoire | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+| 60080218 | FIVASA 500 mg, suppositoire | Suppositoire | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+| 61951546 | PENTASA 1 g/100 ml, suspension rectale | Suspension | FERRING (FRANCE) | Active |
+| 68407287 | ROWASA 500 mg, comprimé enrobé gastro-résistant | Comprimé enrobé gastro-résistant(e) | TEOFARMA | Active |
+| 63106903 | OSPERZO 1,5 g, granulés à libération prolongée | Granulés à libération prolongée | FALK PHARMA | Active |
+| 66154593 | PENTASA 1 g, granulés en sachet | Granulés | FERRING (FRANCE) | Active |
+| 62415619 | OSPERZO 1 g, suppositoire | Suppositoire | FALK PHARMA | Active |
+| 69542779 | FIVASA 800 mg, comprimé enrobé gastrorésistant | Comprimé enrobé gastro-résistant(e) | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+| 62217530 | PENTASA 2 g, granulés en sachet-dose | Granulés | FERRING (FRANCE) | Active |
+| 66845671 | OSPERZO 1000 mg, granulés à libération prolongée | Granulés à libération prolongée | FALK PHARMA | Active |
+| 65633046 | FIVASA 1600 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+| 65580615 | OSPERZO 500 mg, granulés à libération prolongée | Granulés à libération prolongée | FALK PHARMA | Active |
+| 64352822 | ROWASA 500 mg, suppositoire | Suppositoire | TEOFARMA | Active |
+| 68501338 | FIVASA 400 mg, comprimé enrobé gastrorésistant | Comprimé enrobé gastro-résistant(e) | TILLOTTS PHARMA (ALLEMAGNE) | Active |
+| 66357483 | PENTASA 1 g, comprimé | Comprimé | FERRING (FRANCE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

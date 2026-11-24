@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "DURVALUMAB"
 predicted_indications: ["uterine ligament adenocarcinoma", "endocervical carcinoma", "adenoid cystic carcinoma of the cervix uteri", "uterine ligament serous adenocarcinoma", "signet ring cell variant cervical mucinous adenocarcinoma", "intestinal variant cervical mucinous adenocarcinoma"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Durvalumab : nouvelle indication prédite, Adénocarcinome du ligament utérin (prédiction de rang 1) (niveau de preuve L5). Indication d'origine : Carcinome à cellules transitionnelles"
 ---
 
@@ -78,9 +78,15 @@ Cette justification reste une hypothèse : l'efficacité dans le carcinome endoc
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 63690956 | IMFINZI 50 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | Texte d'indication non renseigné dans les données compilées |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63690956 | IMFINZI 50 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ASTRAZENECA AB | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le durvalumab est commercialisé en France (1 AMM valide, titulaire : AstraZeneca AB).
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ciclesonide"
 predicted_indications: ["atopic eczema", "2-hydroxyethyl methacrylate sensitization", "dermatitis, atopic", "bronchitis", "contact dermatitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ciclesonide : nouvelle indication prédite, Eczéma atopique (atopic eczema) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63599556 | ALVESCO 80 microgrammes/dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | Non renseignée |
-| 66052179 | ALVESCO 160 microgrammes/dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63599556 | ALVESCO 80 microgrammes/dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | COVIS PHARMA EUROPE (PAYS-BAS) | Active |
+| 66052179 | ALVESCO 160 microgrammes/dose, solution pour inhalation en flacon pressurisé | Solution pour inhalation | COVIS PHARMA EUROPE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

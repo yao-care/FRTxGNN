@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 674
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RITONAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Ritonavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée d…"
@@ -85,13 +85,24 @@ Les données sont indirectes et proviennent de modèles animaux ou d'études in 
 
 Le texte des indications approuvées n'est pas disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65102533 | NORVIR 100 mg, poudre pour suspension buvable | Poudre pour suspension buvable | Active |
-| 62148415 | RITONAVIR ARROW 100 mg | Comprimé pelliculé | Active |
-| 67851855 | NORVIR 100 mg | Comprimé pelliculé | Active |
-| 61578339 | RITONAVIR VIATRIS 100 mg | Comprimé pelliculé | Active |
-| 65579730 | PAXLOVID 150 mg + 100 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65102533 | NORVIR 100 mg, poudre pour suspension buvable | Poudre pour suspension buvable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 62148415 | RITONAVIR ARROW 100 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67851855 | NORVIR 100 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 61578339 | RITONAVIR VIATRIS 100 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 69831794 | LOPINAVIR/RITONAVIR VIATRIS 100 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 65579730 | PAXLOVID 150 mg + 100 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 61708715 | LOPINAVIR/RITONAVIR VIATRIS 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 69474926 | KALETRA (80 mg + 20 mg)/ml, solution buvable | Solution buvable | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 67969992 | KALETRA 200 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+| 64629002 | KALETRA 100 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | ABBVIE DEUTSCHLAND (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

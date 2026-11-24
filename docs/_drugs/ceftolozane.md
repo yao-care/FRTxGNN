@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ceftolozane"
 predicted_indications: ["Ureaplasma urethritis", "gonococcal urethritis", "uterine inflammatory disease", "xanthogranulomatous pyelonephritis", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "urogenital tuberculosis", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Ceftolozane : nouvelle indication prédite, Urétrite à Ureaplasma (Ureaplasma urethritis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
 ---
 
@@ -74,9 +74,15 @@ Aucune littérature associée disponible actuellement.
 
 Une AMM figure dans les données locales : elle est valide et le ceftolozane est commercialisé en France.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65166404 | ZERBAXA 1 g/0,5 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65166404 | ZERBAXA 1 g/0,5 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

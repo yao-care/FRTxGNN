@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 180
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLIOQUINOL"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Clioquinol : nouvelle indication prédite, Ectothrix infectious disease (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -76,9 +76,15 @@ Pour une autre indication prédite, la mycose superficielle, une étude préclin
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64835493 | TRUE TEST 36, patch pour test épicutané | Patch(s) | SMARTPRACTICE DENMARK (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Ce produit est un patch de test épicutané (diagnostic allergologique) fabriqué par SmartPractice Denmark, et non un antifongique thérapeutique.
 

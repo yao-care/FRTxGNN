@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "theophylline"
 predicted_indications: ["thrombotic disease", "nasal cavity disease", "laryngotracheitis", "tracheal disease", "pharyngitis", "acute laryngopharyngitis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Theophylline : nouvelle indication prédite, Maladie thrombotique (niveau de preuve L5). Indication d'origine : Asthme"
 ---
 
@@ -83,14 +83,20 @@ Aucune de ces publications n'étudie directement la théophylline comme traiteme
 
 Les six AMM sont valides, correspondent à des spécialités à base de théophylline seule et sont détenues par SERP. Les textes d'indication autorisée ne sont pas renseignés dans les données compilées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 65265758 | DILATRANE 300 mg | Gélule à libération prolongée |
-| 68957644 | DILATRANE 50 mg | Gélule à libération prolongée |
-| 64447761 | DILATRANE 100 mg | Gélule à libération prolongée |
-| 63514285 | TEDRALAN 200 mg | Gélule à libération prolongée |
-| 61848891 | DILATRANE 1 POUR CENT | Sirop |
-| 62481804 | DILATRANE 200 mg | Gélule à libération prolongée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65265758 | DILATRANE 300 mg, gélule à libération prolongée | Gélule à libération prolongée | SERP | Active |
+| 68957644 | DILATRANE 50 mg, gélule à libération prolongée | Gélule à libération prolongée | SERP | Active |
+| 64447761 | DILATRANE 100 mg, gélule à libération prolongée | Gélule à libération prolongée | SERP | Active |
+| 63514285 | TEDRALAN 200 mg, gélule à libération prolongée | Gélule à libération prolongée | SERP | Active |
+| 61848891 | DILATRANE 1 POUR CENT, sirop | Sirop | SERP | Active |
+| 62481804 | DILATRANE 200 mg, gélule à libération prolongée | Gélule à libération prolongée | SERP | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

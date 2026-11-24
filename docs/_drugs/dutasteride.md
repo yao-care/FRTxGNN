@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 266
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dutasteride : nouvelle indication prédite, Hypertrichose universelle congénitale de type Ambras (niveau de preuve L5). Indication d'origine : Hyperplasie bénigne de la prostate"
 monitor_inn: "dutasteride"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "migraine with brainstem aura", "familial isolated trichomegaly"]
@@ -79,13 +79,35 @@ Aucun texte d'indication approuvée n'est disponible dans les données compilée
 
 <!-- review:end fr-lic-20261106-dutasteride-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 60051234 | AVODART 0,5 mg (GlaxoSmithKline) | Capsule molle | Active |
-| 60008724 | Dutasteride Viatris 0,5 mg | Capsule molle | Active |
-| 61398768 | Dutasteride Krka 0,5 mg | Capsule molle | Active |
-| 69552766 | Dutasteride/Tamsulosine Cristers 0,5 mg/0,4 mg | Gélule | Active |
-| 65218235 | Dutasteride/Tamsulosine Zentiva 0,5 mg/0,4 mg | Gélule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68610259 | DUTASTERIDE FAIRMED 0,5 mg, capsule molle | Capsule molle | FAIRMED HEALTHCARE (ALLEMAGNE) | Active |
+| 64399761 | DUTASTERIDE BIOGARAN 0.5 mg, capsule molle | Capsule molle | BIOGARAN | Active |
+| 62025626 | DUTASTERIDE SANDOZ 0,5 mg, capsule molle | Capsule molle | SANDOZ | Active |
+| 61653489 | DUTASTERIDE ARROW LAB 0,5 mg, capsule molle | Capsule molle | ARROW GENERIQUES | Active |
+| 67513654 | DUTASTERIDE ACCORD 0,5 mg, capsule molle | Capsule molle | ACCORD HEALTHCARE FRANCE | Active |
+| 61743794 | DUTASTERIDE TEVA 0,5 mg, capsule molle | Capsule molle | TEVA SANTE | Active |
+| 60429851 | AVODART 0,5 mg, capsule molle | Capsule molle | BB FARMA (ITALIE) | Active |
+| 63686819 | AVODART 0,5 mg, capsule molle | Capsule molle | CRISTERS | Active |
+| 61398768 | DUTASTERIDE KRKA 0,5 mg, capsule molle | Capsule molle | KRKA (SLOVENIE) | Active |
+| 68489829 | DUTASTERIDE EG 0,5 mg, capsule molle | Capsule molle | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65346644 | AVODART 0,5 mg, capsule molle | Capsule molle | DIFARMED (ESPAGNE) | Active |
+| 60008724 | DUTASTERIDE VIATRIS 0,5 mg, capsule molle | Capsule molle | VIATRIS SANTE | Active |
+| 65166500 | DUTASTERIDE CRISTERS 0,5 mg, capsule molle | Capsule molle | CRISTERS | Active |
+| 64108056 | AVODART 0,5 mg, capsule molle | Capsule molle | BB FARMA (ITALIE) | Active |
+| 64758851 | DUTASTERIDE ZENTIVA LAB 0,5 mg, capsule molle | Capsule molle | ZENTIVA FRANCE | Active |
+| 60051234 | AVODART 0,5 mg, capsule molle | Capsule molle | GLAXOSMITHKLINE | Active |
+| 62716818 | DUTASTERIDE EVOLUGEN 0,5 mg, capsule molle | Capsule molle | EVOLUPHARM | Active |
+| 69552766 | DUTASTERIDE/TAMSULOSINE CRISTERS 0,5 mg/0,4 mg, gélule | Gélule | CRISTERS | Active |
+| 69089389 | DUTASTERIDE/TAMSULOSINE SANDOZ 0,5 mg/0,4 mg, gélule | Gélule | SANDOZ | Active |
+| 65218235 | DUTASTERIDE/TAMSULOSINE ZENTIVA 0,5 mg/0,4 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

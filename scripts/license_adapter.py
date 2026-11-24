@@ -183,3 +183,22 @@ def update(rec, new):
         return False
     rec["status"] = new
     return True
+
+
+# 程式產生的許可證表（2026-11-24，用戶決定；scripts/sync_license_tables.py）：狀態有變或證據包有改的藥，表依新證據包重排。
+# 排程 3b 自我檢查只放行表格列；程式區塊裡會跟著變的非表格行（來源句、部分收錄句、沒有紀錄句、區塊標記）列在 PAGE_NOTE。
+PAGE_NOTE = (r"^(Source : Base de données publique des médicaments \(BDPM\), statut administratif de l'AMM ; AMM actives en premier\."
+             r"|Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète\."
+             r"|Aucune AMM de ce médicament ne figure dans les données BDPM utilisées pour ce rapport\."
+             r"|<!-- licenses:(begin|end) -->)$")
+
+
+def sync_tables(site_root, bundles):
+    """證據包有改的藥：程式許可證表依新證據包重排（回傳 [(頁, 欄位, 前值, 後值)]）"""
+    import importlib.util
+    p = Path(site_root) / "scripts" / "sync_license_tables.py"
+    s = importlib.util.spec_from_file_location("fr_sync_license_tables", p)
+    m = importlib.util.module_from_spec(s)
+    s.loader.exec_module(m)
+    stems = set(bundles) | {b.replace("_", "-") for b in bundles} | {b.replace("-", "_") for b in bundles}
+    return m.resync(stems)[0]

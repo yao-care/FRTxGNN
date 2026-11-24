@@ -96,11 +96,24 @@ Parmi les autres predictions, **l'agoraphobie** (niveau L2, etudes anciennes et 
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 69281119 | ANAFRANIL 25 mg/2 ml, solution injectable (ALFASIGMA FRANCE) | Solution injectable | Non renseignee (AMM active) |
-| 69273510 | ANAFRANIL 10 mg, comprime enrobe (ALFASIGMA FRANCE) | Comprime enrobe | Non renseignee (AMM active) |
-| 61426025 | ANAFRANIL 75 mg, comprime pelliculé secable (ALFASIGMA FRANCE) | Comprime pelliculé secable | Non renseignee (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69281119 | ANAFRANIL 25 mg/2 ml, solution injectable | Solution injectable | ALFASIGMA FRANCE | Active |
+| 69273510 | ANAFRANIL 10 mg, comprimé enrobé | Comprimé enrobé | ALFASIGMA FRANCE | Active |
+| 61426025 | ANAFRANIL 75 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ALFASIGMA FRANCE | Active |
+| 60528874 | CLOMIPRAMINE SANDOZ 75 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 60887980 | CLOMIPRAMINE SANDOZ 10 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 61649829 | CLOMIPRAMINE SANDOZ 25 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63066063 | CLOMIPRAMINE VIATRIS 75 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 68837972 | CLOMIPRAMINE VIATRIS 25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 69235342 | ANAFRANIL 25 mg, comprimé enrobé | Comprimé enrobé | ALFASIGMA FRANCE | Active |
+| 68990612 | CLOMIPRAMINE (CHLORHYDRATE) MYLAN 10 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN SAS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

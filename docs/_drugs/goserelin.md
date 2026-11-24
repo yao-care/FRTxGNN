@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 371
 evidence_level: L2
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "goserelin"
 predicted_indications: ["amenorrhea (disease)", "renal hypoplasia (disease)", "renal hypoplasia, bilateral"]
 description: "Goserelin : nouvelle indication prédite, Aménorrhée (amenorrhea (disease)) (niveau de preuve L2). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -95,10 +95,16 @@ Il faut en revanche noter que la goséréline ne traiterait pas les aménorrhée
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66669173 | ZOLADEX 10,8 mg, implant en seringue préremplie pour voie sous-cutanée (AstraZeneca) | Implant | Non renseignée (AMM active) |
-| 67037162 | ZOLADEX 3,6 mg, implant en seringue préremplie pour voie sous-cutanée (AstraZeneca) | Implant | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66669173 | ZOLADEX 10,8 mg, implant en seringue préremplie pour voie sous-cutanée | Implant | ASTRAZENECA | Active |
+| 67037162 | ZOLADEX 3,6 mg, implant en seringue préremplie pour voie sous-cutanée | Implant | ASTRAZENECA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

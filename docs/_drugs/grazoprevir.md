@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 372
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-04
+last_modified_at: 2026-11-24
 monitor_inn: "grazoprevir"
 predicted_indications: ["HIV infectious disease", "hepatitis B virus infection", "hepatitis E virus infection", "hepatitis A virus infection", "hepatitis, viral, animal", "Omsk hemorrhagic fever", "Kyasanur forest disease", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Grazoprevir : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -108,9 +108,15 @@ Ces publications traitent de l'hépatite C (y compris chez des personnes vivant 
 
 Le grazoprevir est commercialisé en France. Une AMM valide est enregistrée.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé (MERCK SHARP & DOHME, Pays-Bas) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66198173 | ZEPATIER 50 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

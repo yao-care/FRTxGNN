@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 495
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Metyrapone : nouvelle indication prédite, Hyperthermie maligne d'effort (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles (usage connu : test diagnosti…"
 monitor_inn: "metyrapone"
 predicted_indications: ["exercise-induced malignant hyperthermia", "King-Denborough syndrome", "central core myopathy", "moderate multiminicore disease with hand involvement", "congenital multicore myopathy with external ophthalmoplegia", "myopathy, centronuclear", "familial periodic paralysis", "renal tubular acidosis", "malignant hyperthermia of anesthesia"]
@@ -78,9 +78,15 @@ Cette publication est ancienne, porte sur un seul patient et n'étudie pas le m�
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68806037 | METYRAPONE ESTEVE 250 mg, capsule molle (ESTEVE PHARMACEUTICALS, Espagne) | Capsule molle | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68806037 | METYRAPONE ESTEVE 250 mg, capsule molle | Capsule molle | ESTEVE PHARMACEUTICALS (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

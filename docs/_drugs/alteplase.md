@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "alteplase"
 predicted_indications: ["heparin cofactor 2 deficiency", "congenital coronary artery anomaly", "factor 5 excess with spontaneous thrombosis", "antithrombin deficiency type 2", "thrombophilia", "coronary stenosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Alteplase : nouvelle indication prédite, Déficit en cofacteur II de l'héparine (heparin cofactor 2 deficiency) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 L'altéplase est commercialisée en France. Les autorisations de mise sur le marché recensées dans les données locales sont les suivantes. Le texte d'indication approuvée n'y est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 63617876 | ACTILYSE, poudre et solvant pour solution injectable et perfusion | Poudre et solvant pour solution injectable et pour perfusion |
-| 67177673 | ACTILYSE 2 mg, poudre pour solution injectable et perfusion | Poudre pour solution injectable ou pour perfusion |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63617876 | ACTILYSE, poudre et solvant pour solution injectable et perfusion | Poudre et solvant pour solution injectable et pour perfusion | BOEHRINGER INGELHEIM FRANCE | Active |
+| 67177673 | ACTILYSE 2 mg, poudre pour solution injectable et perfusion | Poudre pour solution injectable ou pour perfusion | BOEHRINGER INGELHEIM FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

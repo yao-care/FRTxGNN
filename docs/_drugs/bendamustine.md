@@ -93,10 +93,20 @@ Les essais les plus pertinents sont listés ci-dessous (sur 41 essais compilés)
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 64457346 | BENDAMUSTINE MEDAC 2,5 mg/mL | Poudre pour solution à diluer pour perfusion | Non renseignée |
-| 61826343 | BENDAMUSTINE ARROW 2,5 mg/mL | Poudre pour solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64457346 | BENDAMUSTINE MEDAC 2,5 mg/mL, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 61826343 | BENDAMUSTINE ARROW 2,5 mg/mL, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 63551287 | BENDAMUSTINE ACCORD 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 63775634 | BENDAMUSTINE HIKMA 2,5 mg/ml, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 67424650 | BENDAMUSTINE REDDY PHARMA 180 mg/4 ml, solution concentrée à diluer pour solution pour pe… | Solution concentré(e) à diluer pour solution pour perfusion | REDDY PHARMA | Active |
+| 60295427 | BENDAMUSTINE MYLAN 2,5 mg/ml, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | MYLAN SAS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicite
 

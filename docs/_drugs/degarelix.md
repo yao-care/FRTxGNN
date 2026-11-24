@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 222
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Degarelix : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "degarelix"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "malformation syndrome with odontal and/or periodontal component", "isolated genetic hair shaft abnormality", "allergic urticaria", "cold urticaria", "familial male-limited precocious puberty", "centra precocious puberty 1", "familial isolated trichomegaly"]
@@ -73,12 +73,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69784330 | FIRMAGON 120 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
-| 64199102 | DEGARELIX ACCORD 120 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
-| 65505947 | DEGARELIX ACCORD 80 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
-| 63329030 | FIRMAGON 80 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69784330 | FIRMAGON 120 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | FERRING PHARMACEUTICALS (DANEMARK) | Active |
+| 64199102 | DEGARELIX ACCORD 120 mg, poudre et solvant pour solution injectable | Poudre et solvant injectable injectable pour solution injec… | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 65505947 | DEGARELIX ACCORD 80 mg, poudre et solvant pour solution injectable | Poudre et solvant injectable injectable pour solution injec… | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 63329030 | FIRMAGON 80 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | FERRING PHARMACEUTICALS (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

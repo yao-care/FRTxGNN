@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 713
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SPIRONOLACTONE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
 description: "Spironolactone : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données lo…"
@@ -72,15 +72,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les textes d'indication approuvée ne sont pas renseignés. Principales AMM :
+Les textes d'indication approuvée ne sont pas renseignés.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69360552 | Spironolactone Zydus 25 mg | Comprimé pelliculé sécable | Non renseignée |
-| 65618628 | Spironolactone Pfizer 25 mg | Comprimé sécable | Non renseignée |
-| 67368301 | Aldactone 50 mg | Comprimé sécable | Non renseignée |
-| 64565845 | Aldactone 25 mg | Comprimé sécable | Non renseignée |
-| 68492540 | Aldactone 75 mg | Comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69360552 | SPIRONOLACTONE ZYDUS 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 65618628 | SPIRONOLACTONE PFIZER 25 mg, comprimé sécable | Comprimé sécable | PFIZER HOLDING FRANCE | Active |
+| 68800618 | SPIRONOLACTONE TEVA 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 60464076 | SPIRONOLACTONE VIATRIS 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 60337762 | SPIRONOLACTONE TEVA 75 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 60021127 | SPIRONOLACTONE VIATRIS 75 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65696662 | SPIRONOLACTONE CRISTERS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 68916754 | SPIRONOLACTONE CRISTERS 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 64431166 | SPIRONOLACTONE ZYDUS 50 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 64347259 | SPIRONOLACTONE EG 75 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67368301 | ALDACTONE 50 mg, comprimé sécable | Comprimé sécable | PFIZER HOLDING FRANCE | Active |
+| 63603104 | SPIRONOLACTONE ZENTIVA 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 64640867 | SPIRONOLACTONE BIOGARAN 75 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 60734372 | SPIRONOLACTONE SANDOZ 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 69006984 | SPIRONOLACTONE ZENTIVA 50 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 65687478 | SPIRONOLACTONE ZYDUS 75 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 61662029 | SPIRONOLACTONE EG 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64565845 | ALDACTONE 25 mg, comprimé sécable | Comprimé sécable | PFIZER HOLDING FRANCE | Active |
+| 68492540 | ALDACTONE 75 mg, comprimé sécable | Comprimé sécable | PFIZER HOLDING FRANCE | Active |
+| 63145849 | SPIRONOLACTONE ARROW 25 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

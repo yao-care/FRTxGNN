@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 638
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propylthiouracil : nouvelle indication prédite, Résistance aux hormones thyroïdiennes due à une mutation du récepteur bêta des hormones thyroïdiennes (niveau de preuve L4). Indication d'origine : Hyperthyroïdie, maladie de Basedow…"
 monitor_inn: "propylthiouracil"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
@@ -78,9 +78,15 @@ Aucune de ces publications n'évalue le PTU comme traitement de cette affection 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61397883 | PROPYLEX 50 mg, comprimé (AP-HP) | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61397883 | PROPYLEX 50 mg, comprimé | Comprimé | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

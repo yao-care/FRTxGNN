@@ -85,12 +85,19 @@ Les publications les plus pertinentes pour l'hypertension pulmonaire sont listé
 
 Le texte des indications approuvées n'est pas disponible.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69243168 | Acétate de terlipressine Ever Pharma 0,2 mg/ml | Solution injectable | Active |
-| 69541549 | Terlipressine SUN 1 mg/8,5 mL | Solution injectable | Active |
-| 61929560 | Glypressine 1 mg/5 mL (Ferring) | Poudre et solvant pour solution injectable (I.V.) | Active |
-| 68819052 | Terlipressine Altan 1 mg/8,5 mL | Solution injectable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69243168 | ACETATE DE TERLIPRESSINE EVER PHARMA 0,2 mg/ml, solution injectable | Solution injectable | EVER VALINJECT (AUTRICHE) | Active |
+| 69541549 | TERLIPRESSINE SUN 1 mg/8,5 mL, solution injectable | Solution injectable | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 61929560 | GLYPRESSINE 1 mg/5 mL, poudre et solvant pour solution injectable (I.V.) | Poudre et solvant pour solution injectable | FERRING (FRANCE) | Active |
+| 68819052 | TERLIPRESSINE ALTAN 1 mg/8,5 mL, solution injectable | Solution injectable | ALTAN PHARMACEUTICALS (ESPAGNE) | Active |
+| 66180816 | HAEMOPRESSIN 1 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | ALLIANCE PHARMA (IRLANDE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

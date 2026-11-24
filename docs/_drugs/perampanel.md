@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 591
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "perampanel"
 predicted_indications: ["beta-ketothiolase deficiency"]
 description: "Perampanel : nouvelle indication prédite, Beta-ketothiolase deficiency (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -98,13 +98,21 @@ Aucune publication ne traite spécifiquement de l'épilepsie visuelle. Les réf�
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 64387360 | FYCOMPA 6 mg | Comprimé pelliculé | Non renseignée | Active |
-| 68328199 | FYCOMPA 2 mg | Comprimé pelliculé | Non renseignée | Active |
-| 64189396 | FYCOMPA 0,5 mg/mL | Suspension buvable | Non renseignée | Active |
-| 69856153 | FYCOMPA 10 mg | Comprimé pelliculé | Non renseignée | Active |
-| 61849146 | FYCOMPA 12 mg | Comprimé pelliculé | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64387360 | FYCOMPA 6 mg, comprimé pelliculé | Comprimé pelliculé | EISAI (ROYAUME-UNI) | Active |
+| 68328199 | FYCOMPA 2 mg, comprimé pelliculé | Comprimé pelliculé | EISAI (ROYAUME-UNI) | Active |
+| 64189396 | FYCOMPA 0,5 mg/mL, suspension buvable | Suspension buvable | EISAI (ALLEMAGNE) | Active |
+| 69856153 | FYCOMPA 10 mg, comprimé pelliculé | Comprimé pelliculé | EISAI (ROYAUME-UNI) | Active |
+| 61849146 | FYCOMPA 12 mg, comprimé pelliculé | Comprimé pelliculé | EISAI (ROYAUME-UNI) | Active |
+| 65931110 | FYCOMPA 8 mg, comprimé pelliculé | Comprimé pelliculé | EISAI (ROYAUME-UNI) | Active |
+| 63602479 | FYCOMPA 4 mg, comprimé pelliculé | Comprimé pelliculé | EISAI (ROYAUME-UNI) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

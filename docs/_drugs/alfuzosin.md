@@ -71,9 +71,28 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64068708 | XATRAL 2,5 mg, comprimé pelliculé (SANOFI WINTHROP INDUSTRIE) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64068708 | XATRAL 2,5 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 60443609 | XATRAL LP 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SANOFI WINTHROP INDUSTRIE | Active |
+| 60513032 | ALFUZOSINE VIATRIS L.P. 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | VIATRIS SANTE | Active |
+| 61235810 | ALFUZOSINE ARROW LP 10 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ARROW GENERIQUES | Active |
+| 61609749 | ALFUZOSINE BIOGARAN L.P. 10 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | BIOGARAN | Active |
+| 61889938 | XATRAL LP 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | DIFARMED (ESPAGNE) | Active |
+| 62607587 | ALFUZOSINE ZENTIVA LP 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ZENTIVA FRANCE | Active |
+| 63143652 | ALFUZOSINE ZYDUS L.P. 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ZYDUS FRANCE | Active |
+| 63622510 | ALFUZOSINE SANDOZ L.P. 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SANDOZ | Active |
+| 64848430 | ALFUZOSINE EVOLUGEN L.P. 10 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | EVOLUPHARM | Active |
+| 66620532 | ALFUZOSINE EG L.P. 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67346714 | ALFUZOSINE TEVA SANTE L.P. 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | TEVA SANTE | Active |
+| 69490193 | ALFUZOSINE CRISTERS PHARMA LP 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SUN PHARMA FRANCE | Active |
+| 69898857 | ALFUZOSINE CRISTERS LP 10 mg, comprimé à libération prolongée | Comprimé à libération prolongée | CRISTERS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

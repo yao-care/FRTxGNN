@@ -77,15 +77,37 @@ Aucune de ces publications n'étudie l'allopurinol chez des patients atteints de
 
 ## Informations de Marché en France
 
-La liste ci-dessous peut être partielle. Le texte d'indication n'est pas renseigné dans les données locales.
+Le texte d'indication n'est pas renseigné dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63215258 | ALLOPURINOL SUN 300 mg, comprimé | comprimé | Non renseignée |
-| 61060033 | ALLOPURINOL ZENTIVA 100 mg, comprimé | comprimé | Non renseignée |
-| 66363543 | ALLOPURINOL SANDOZ 100 mg, comprimé | comprimé | Non renseignée |
-| 64661021 | ALLOPURINOL ARROW LAB 100 mg, comprimé | comprimé | Non renseignée |
-| 60470499 | ZYLORIC 300 mg, comprimé | comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61060033 | ALLOPURINOL ZENTIVA 100 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 66363543 | ALLOPURINOL SANDOZ 100 mg, comprimé | Comprimé | SANDOZ | Active |
+| 64661021 | ALLOPURINOL ARROW LAB 100 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 69235513 | ALLOPURINOL CRISTERS 100 mg, comprimé | Comprimé | CRISTERS | Active |
+| 65936584 | ALLOPURINOL ZENTIVA 300 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 65670322 | ALLOPURINOL SANDOZ 200 mg, comprimé | Comprimé | SANDOZ | Active |
+| 61473085 | ALLOPURINOL CRISTERS 300 mg, comprimé | Comprimé | CRISTERS | Active |
+| 60470499 | ZYLORIC 300 mg, comprimé | Comprimé | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 63056731 | ALLOPURINOL BIOGARAN 100 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 66603383 | ALLOPURINOL BIOGARAN 200 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 65481357 | ALLOPURINOL ARROW LAB 200 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 66000321 | ALLOPURINOL TEVA 300 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 60208251 | ALLOPURINOL EG 300 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67353961 | ALLOPURINOL CRISTERS 200 mg, comprimé | Comprimé | CRISTERS | Active |
+| 63026574 | ALLOPURINOL TEVA 200 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 69273791 | ALLOPURINOL ARROW LAB 300 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 68822550 | ALLOPURINOL ZENTIVA 200 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 62194918 | ALLOPURINOL SANDOZ 300 mg, comprimé | Comprimé | SANDOZ | Active |
+| 63215258 | ALLOPURINOL SUN 300 mg, comprimé | Comprimé | SUN PHARMA FRANCE | Abrogée |
+| 62674422 | ALLOPURINOL ARROW 200 mg, comprimé | Comprimé | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

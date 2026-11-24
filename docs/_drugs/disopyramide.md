@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 250
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Disopyramide : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (médicament antiaryth…"
 monitor_inn: "DISOPYRAMIDE"
 predicted_indications: ["Tourette syndrome", "attention deficit-hyperactivity disorder", "trichotillomania", "attention deficit hyperactivity disorder, inattentive type", "faciodigitogenital syndrome", "specific developmental disorder", "idiopathic neonatal atrial flutter", "chondromyxoid fibroma", "multifocal atrial tachycardia (disease)", "trigeminal nerve neoplasm"]
@@ -80,12 +80,18 @@ Aucune littérature associée disponible actuellement.
 
 Les 4 AMM sur 4 sont valides (médicament commercialisé) ; le texte d'indication n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66198796 | ISORYTHM L.P. 125 mg | Gélule à libération prolongée | Active |
-| 63063487 | RYTHMODAN 100 mg | Gélule | Active |
-| 66308461 | ISORYTHM L.P. 250 mg | Gélule à libération prolongée | Active |
-| 69235837 | RYTHMODAN 250 mg à libération prolongée | Comprimé enrobé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66198796 | ISORYTHM L.P. 125 mg, gélule à libération prolongée | Gélule à libération prolongée | SERP | Active |
+| 63063487 | RYTHMODAN 100 mg, gélule | Gélule | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 66308461 | ISORYTHM L.P. 250 mg, gélule à libération prolongée | Gélule à libération prolongée | SERP | Active |
+| 69235837 | RYTHMODAN 250 mg A LIBERATION PROLONGEE, comprimé enrobé | Comprimé enrobé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

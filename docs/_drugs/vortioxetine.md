@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 821
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "vortioxetine"
 predicted_indications: ["neurotic disorder", "benign paroxysmal torticollis of infancy"]
 description: "Vortioxetine : nouvelle indication prédite, Trouble névrotique (neurotic disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -74,12 +74,18 @@ Aucun essai clinique associé enregistré actuellement.
 
 La vortioxétine est commercialisée en France. Les données compilées recensent 4 AMM valides, toutes pour des formes de comprimé pelliculé (laboratoire Lundbeck, Danemark).
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60316362 | BRINTELLIX 20 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61439909 | BRINTELLIX 15 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 62792157 | BRINTELLIX 5 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 68562572 | BRINTELLIX 10 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60316362 | BRINTELLIX 20 mg, comprimé pelliculé | Comprimé pelliculé | LUNDBECK (DANEMARK) | Active |
+| 61439909 | BRINTELLIX 15 mg, comprimé pelliculé | Comprimé pelliculé | LUNDBECK (DANEMARK) | Active |
+| 62792157 | BRINTELLIX 5 mg, comprimé pelliculé | Comprimé pelliculé | LUNDBECK (DANEMARK) | Active |
+| 68562572 | BRINTELLIX 10 mg, comprimé pelliculé | Comprimé pelliculé | LUNDBECK (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 798
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Uric Acid : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L4). Indication d'origine : Non renseignée dans les autorisations françaises"
 monitor_inn: "uric acid"
 predicted_indications: ["rheumatoid arthritis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "bronchitis"]
@@ -94,10 +94,16 @@ Aucune de ces publications n'évalue l'acide urique comme traitement de la polya
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61517329 | URICUM ACIDUM LEHNING (dilutions 3CH à 30CH ou 6DH à 60DH), active | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
-| 61992596 | URICUM ACIDUM BOIRON (dilutions 4CH à 30CH ou 8DH à 60DH), active | Comprimé, solution(s), granules, poudre et pommade | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61517329 | URICUM ACIDUM LEHNING, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 61992596 | URICUM ACIDUM BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

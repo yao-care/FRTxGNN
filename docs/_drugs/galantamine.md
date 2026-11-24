@@ -100,13 +100,33 @@ Le texte d'indication approuvée n'est pas disponible dans les données compilé
 
 <!-- review:end fr-lic-20261106-galantamine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 62031593 | GALANTAMINE TEVA SANTE LP 8 mg | Gélule à libération prolongée | Active |
-| 63358402 | GALANTAMINE BIOGARAN LP 8 mg | Gélule à libération prolongée | Active |
-| 64679350 | GALANTAMINE KRKA LP 16 mg | Gélule à libération prolongée | Active |
-| 61601453 | REMINYL 4 mg/mL | Solution buvable | Active |
-| 61611472 | GALANTAMINE ZENTIVA LAB LP 24 mg | Gélule à libération prolongée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62031593 | GALANTAMINE TEVA SANTE LP 8 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 63358402 | GALANTAMINE BIOGARAN LP 8 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 64679350 | GALANTAMINE KRKA LP 16 mg, gélule à libération prolongée | Gélule à libération prolongée | KRKA (SLOVENIE) | Active |
+| 66820789 | GALANTAMINE BIOGARAN LP 24 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 61611472 | GALANTAMINE ZENTIVA LAB LP 24 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Active |
+| 61601453 | REMINYL 4 mg/mL, solution buvable | Solution buvable | JANSSEN CILAG | Active |
+| 65505954 | GALANTAMINE KRKA LP 24 mg, gélule à libération prolongée | Gélule à libération prolongée | KRKA (SLOVENIE) | Active |
+| 62574361 | GALANTAMINE TEVA SANTE LP 16 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 68333709 | GALANTAMINE KRKA LP 8 mg, gélule à libération prolongée | Gélule à libération prolongée | KRKA (SLOVENIE) | Active |
+| 60480212 | GALANTAMINE TEVA SANTE LP 24 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 63947710 | GALANTAMINE ARROW LAB LP 8 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Active |
+| 68673252 | GALANTAMINE BIOGARAN LP 16 mg, gélule à libération prolongée | Gélule à libération prolongée | BIOGARAN | Active |
+| 63386686 | GALANTAMINE ARROW LAB LP 16 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Active |
+| 67021350 | GALANTAMINE ARROW LAB LP 24 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Active |
+| 64398079 | GALANTAMINE ZENTIVA LAB LP 16 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Abrogée |
+| 66284291 | GALANTAMINE ZENTIVA LAB LP 8 mg, gélule à libération prolongée | Gélule à libération prolongée | ZENTIVA FRANCE | Abrogée |
+| 60064872 | GALANTAMINE ARROW LP 8 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Abrogée |
+| 60672497 | GALANTAMINE ARROW LP 16 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Abrogée |
+| 63415465 | GALANTAMINE ARROW LP 24 mg, gélule à libération prolongée | Gélule à libération prolongée | ARROW GENERIQUES | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

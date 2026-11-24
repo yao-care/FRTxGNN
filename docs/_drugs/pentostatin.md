@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 589
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pentostatin"
 predicted_indications: ["botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "extrahepatic bile duct rhabdomyosarcoma", "prostate embryonal rhabdomyosarcoma", "liver sarcoma"]
 description: "Pentostatin : nouvelle indication prédite, Rhabdomyosarcome embryonnaire de type botryoïde du vagin (botryoid-type embryonal rhabdomyosarcoma of the vagina) (niveau de preuve L5). Indication d'origin…"
@@ -79,9 +79,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67322542 | NIPENT 10 mg, poudre pour solution pour injection, poudre pour solution pour perfusion (Pfizer Holding France), statut : active | Poudre pour solution pour injection ou pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67322542 | NIPENT 10 mg, poudre pour solution pour injection, poudre pour solution pour perfusion | Poudre pour solution pour injection ou pour perfusion | PFIZER HOLDING FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

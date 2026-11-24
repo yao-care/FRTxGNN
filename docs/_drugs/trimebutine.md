@@ -93,13 +93,35 @@ Le texte des indications approuvées n'est pas renseigné. Cinq AMM sont présen
 
 <!-- review:end fr-lic-20261106-trimebutine-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68816348 | Trimébutine Cristers 200 mg | Comprimé | Non renseignée |
-| 66596686 | Trimébutine Pfizer 200 mg | Comprimé pelliculé | Non renseignée |
-| 60246750 | Débridat 100 mg | Comprimé pelliculé | Non renseignée |
-| 65869452 | Débridat 50 mg/5 ml | Solution injectable | Non renseignée |
-| 68901510 | Débridat | Granulés pour suspension buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68816348 | TRIMEBUTINE CRISTERS 200 mg, comprimé | Comprimé | CRISTERS | Active |
+| 66596686 | TRIMEBUTINE PFIZER 200 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER HOLDING FRANCE | Active |
+| 68650944 | TRIMEBUTINE ARROW GENERIQUES 100 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 60508697 | TRIMEBUTINE PFIZER 100 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER HOLDING FRANCE | Active |
+| 60246750 | DEBRIDAT 100 mg, comprimé pelliculé | Comprimé pelliculé | PFIZER HOLDING FRANCE | Active |
+| 65239699 | TRIMEBUTINE ZENTIVA 200 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 69814229 | TRIMEBUTINE ARROW 200 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 62867108 | TRIMEBUTINE BIOGARAN CONSEIL 100 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 65444540 | TRIMEBUTINE VIATRIS 100 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 60955940 | TRIMEBUTINE BIOGARAN 100 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 64929277 | TRIMEBUTINE ALMUS 200 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 64536295 | TRIMEBUTINE EG 100 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61653585 | TRIMEBUTINE TEVA SANTE 200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63480915 | TRIMEBUTINE SANDOZ 100 mg, comprimé | Comprimé | SANDOZ | Active |
+| 63683463 | TRIMEBUTINE EG 200 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66670503 | TRIMEBUTINE BIOGARAN 200 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 60588704 | DEBRIDAT ENFANT 4,8 mg/ml, granulés pour suspension buvable en flacon | Granulés pour suspension buvable | PFIZER HOLDING FRANCE | Archivée |
+| 68901510 | DEBRIDAT, granulés pour suspension buvable en sachet | Granulés pour suspension buvable | PFIZER HOLDING FRANCE | Archivée |
+| 65869452 | DEBRIDAT 50 mg/5 ml, solution injectable en ampoule | Solution injectable | PFIZER HOLDING FRANCE | Archivée |
+| 67705779 | DEBRIDAT, granulés pour suspension buvable en flacon | Granulés pour suspension buvable | PFIZER HOLDING FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

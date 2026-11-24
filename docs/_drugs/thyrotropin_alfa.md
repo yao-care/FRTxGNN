@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 757
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Thyrotropin Alfa : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "thyrotropin alfa"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Raynaud disease", "atrophoderma vermiculata", "ulerythema ophryogenesis", "pulmonary hypertension", "kyphoscoliotic heart disease", "postural orthostatic tachycardia syndrome", "hyperthyroidism"]
@@ -76,15 +76,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68937442 | THYROGEN 0,9 mg, poudre pour solution injectable | Poudre pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-thyrotropin_alfa-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68937442 | THYROGEN 0,9 mg, poudre pour solution injectable | Poudre pour solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 68937442 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 68937442 (THYROGEN 0,9 mg, poudre pour solution injectable) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-thyrotropin_alfa-1 -->
+<!-- licenses:end -->
 
 Titulaire : SANOFI WINTHROP INDUSTRIE.
 
@@ -134,7 +134,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice manquent, ce qui bloque le criblage de sécurité » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 68937442 (THYROGEN 0) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 68937442 (THYROGEN 0) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Thyrogen (thyrotropin alfa) prescribing information, Genzyme Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b52dfa36-f90b-4e19-9b5e-26db9d04df2b) |
 
 <!-- review:end log -->

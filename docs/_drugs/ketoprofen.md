@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 424
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ketoprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "pseudoachondroplasia", "WHIM syndrome", "juvenile arthritis due to defect in LACC1"]
 description: "Ketoprofen : nouvelle indication prédite, Acromesomelic dysplasia, Hunter-Thompson type (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -83,13 +83,35 @@ Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les 5 premi�
 
 <!-- review:end fr-lic-20261106-ketoprofen-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 64552068 | KETOPROFENE CRISTERS LP 100 mg | Comprimé sécable à libération prolongée | Active |
-| 67899241 | PROFEMIGR 150 mg | Comprimé sécable | Active |
-| 62473063 | KETOPROFENE SANDOZ LP 100 mg | Comprimé sécable à libération prolongée | Active |
-| 69159834 | KETUM 100 mg | Comprimé pelliculé | Active |
-| 66771790 | PROFENID 100 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64552068 | KETOPROFENE CRISTERS LP 100 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | CRISTERS | Active |
+| 67899241 | PROFEMIGR 150 mg, comprimé sécable | Comprimé sécable | PHOENIX LABS (IRLANDE) | Active |
+| 62473063 | KETOPROFENE SANDOZ LP 100 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | SANDOZ | Active |
+| 69159834 | KETUM 100 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI FRANCE | Active |
+| 66771790 | PROFENID 100 mg, comprimé pelliculé | Comprimé pelliculé | PHOENIX LABS (IRLANDE) | Active |
+| 68566033 | PROFENID 100 mg/2 ml, solution injectable (I.M.) | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 65012445 | KETOPROFENE PHARMY II 100 mg/2 ml, solution injectable intramusculaire (I.M.) | Solution injectable | LABORATOIRES ETHYPHARM | Active |
+| 65146412 | PROFENID 100 mg, suppositoire | Suppositoire | PHOENIX LABS (IRLANDE) | Active |
+| 67834521 | KETOPROFENE MEDISOL 100 mg/4 ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | MEDISOL | Active |
+| 61927417 | KETOPROFENE EG LP 100 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60494614 | KETOPROFENE ZENTIVA LP 100 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | ZENTIVA FRANCE | Active |
+| 61165486 | BI PROFENID LP 100 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | PHOENIX LABS (IRLANDE) | Active |
+| 63736058 | KETUM 2,5 POUR CENT, gel | Gel | MENARINI FRANCE | Active |
+| 68592067 | PROFENID L P 200 mg, gélule à libération prolongée | Gélule à libération prolongée | SANOFI WINTHROP INDUSTRIE | Active |
+| 67225100 | PROFENID 50 mg, gélule | Gélule | PHOENIX LABS (IRLANDE) | Active |
+| 62013467 | KETOPROFENE CRISTERS LP 200 mg, comprimé enrobé à libération prolongée | Comprimé enrobé à libération prolongée | CRISTERS | Active |
+| 64768525 | TOPREC 25 mg, comprimé | Comprimé | SANOFI WINTHROP INDUSTRIE | Active |
+| 60870244 | KETOPROFENE VIATRIS LP 100 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | VIATRIS SANTE | Active |
+| 61381943 | KETOPROFENE BIOGARAN 2,5 %, gel | Gel | BIOGARAN | Active |
+| 68267981 | KETOPROFENE ARROW LP 100 mg, comprimé sécable à libération prolongée | Comprimé sécable à libération prolongée | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Le kétoprofène existe aussi sous forme injectable, suppositoire, gélule, solution pour perfusion et gel topique.
 

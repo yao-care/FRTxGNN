@@ -97,9 +97,29 @@ Une réserve importante : les essais cliniques retrouvés ne testent pas le cita
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63303231 | CITALOPRAM EVOLUGEN 20 mg, comprimé pelliculé sécable (EVOLUPHARM) – active | Comprimé pelliculé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63303231 | CITALOPRAM EVOLUGEN 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EVOLUPHARM | Active |
+| 61874594 | CITALOPRAM SANDOZ 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SANDOZ | Active |
+| 61979766 | CITALOPRAM ARROW LAB 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 62071253 | CITALOPRAM VIATRIS 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 62705280 | CITALOPRAM EG 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62976285 | CITALOPRAM CRISTERS 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CRISTERS | Active |
+| 63587319 | CITALOPRAM ALMUS 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 66320467 | CITALOPRAM ZYDUS 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZYDUS FRANCE | Active |
+| 66956006 | CITALOPRAM ARROW 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 68491591 | CITALOPRAM BIOGARAN 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 69388669 | SEROPRAM 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | LUNDBECK SAS | Active |
+| 69440226 | CITALOPRAM TEVA SANTE 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | TEVA SANTE | Active |
+| 69771920 | CITALOPRAM ZENTIVA 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ZENTIVA FRANCE | Active |
+| 62845713 | CITALOPRAM ALTER 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | LABORATOIRES ALTER | Abrogée |
+| 68745118 | CITALOPRAM SUN 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | SUN PHARMA FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

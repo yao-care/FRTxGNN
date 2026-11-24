@@ -70,10 +70,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60543082 | VOCABRIA 30 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 67129301 | VOCABRIA 600 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60543082 | VOCABRIA 30 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 67129301 | VOCABRIA 600 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 62595850 | APRETUDE 600 mg, suspension injectable à libération prolongée | Suspension injectable à libération prolongée | VIIV HEALTHCARE (PAYS-BAS) | Active |
+| 67664503 | APRETUDE 30 mg, comprimé pelliculé | Comprimé pelliculé | VIIV HEALTHCARE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

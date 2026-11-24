@@ -92,13 +92,32 @@ Ce lien reste toutefois indirect : l'indication originale est cardiovasculaire e
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61767507 | CLOPIDOGREL KRKA 75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 63564053 | PLAVIX 75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 68519902 | CLOPIDOGREL ZENTIVA 75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60562855 | PLAVIX 300 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 61952274 | DUOPLAVIN 75 mg/75 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61767507 | CLOPIDOGREL KRKA 75 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 63564053 | PLAVIX 75 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 68519902 | CLOPIDOGREL ZENTIVA 75 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 60562855 | PLAVIX 300 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 61952274 | DUOPLAVIN 75 mg/75 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 60124999 | CLOPIDOGREL ZF 75 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 63356668 | CLOPIDOGREL TEVA 75 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 66324953 | CLOPIDOGREL ARROW 75 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 67036338 | CLOPIDOGREL SANDOZ 75 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 67233727 | CLOPIDOGREL EG LABO 75 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67971897 | CLOPIDOGREL ACCORD 75 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 68437921 | CLOPIDOGREL ALMUS PHARMA 75 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 62103929 | CLOPIDOGREL/ACIDE ACETYLSALICYLIQUE ZENTIVA 75 mg/75mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 62175120 | CLOPIDOGREL/ACIDE ACETYLSALICYLIQUE EG 75 mg/75 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63415515 | CLOPIDOGREL/ACIDE ACETYLSALICYLIQUE BIOGARAN 75 mg/75 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 65519167 | CLOPIDOGREL/ACIDE ACETYLSALICYLIQUE VIATRIS 75 mg/75 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 64132502 | CLOPIDOGREL TAW PHARMA 75 mg, comprimé pelliculé | Comprimé pelliculé | TAW PHARMA (IRLANDE) | Abrogée |
+| 65534176 | CLOPIDOGREL BGR 75 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

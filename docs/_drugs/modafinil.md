@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 510
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MODAFINIL"
 predicted_indications: ["insomnia (disease)"]
 description: "Modafinil : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
@@ -86,13 +86,22 @@ Aucune publication ne porte directement sur le modafinil dans l'insomnie. Les r�
 
 Le modafinil est commercialisé en France ; les 8 AMM enregistrées dans les données locales sont valides. Les produits sont des comprimés dosés à 100 mg.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69277042 | MODAFINIL ZENTIVA 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 66805883 | MODIODAL 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 61697585 | MODAFINIL BIOGARAN 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 63676077 | MODAFINIL ARROW 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 69346054 | MODAFINIL EG 100 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69277042 | MODAFINIL ZENTIVA 100 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 66805883 | MODIODAL 100 mg, comprimé | Comprimé | NEURAXPHARM PHARMACEUTICALS (ESPAGNE) | Active |
+| 61697585 | MODAFINIL BIOGARAN 100 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 63676077 | MODAFINIL ARROW 100 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 69346054 | MODAFINIL EG 100 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65534856 | MODAFINIL VIATRIS 100 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 68680058 | MODIODAL 100 mg, comprimé | Comprimé | BB FARMA (ITALIE) | Active |
+| 64841560 | MODIODAL 100 mg, comprimé | Comprimé | DIFARMED (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

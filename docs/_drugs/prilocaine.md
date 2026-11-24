@@ -103,13 +103,26 @@ Aucune publication n'est disponible pour la conjonctivite papillaire. Les réfé
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63794766 | ANESDERM 5 %, crème | Crème | Non renseignée (AMM active) |
-| 63396602 | EMLA 5 POUR CENT, crème | Crème | Non renseignée (AMM active) |
-| 67458460 | EMLAPATCH 5 POUR CENT, pansement adhésif cutané | Pansement adhésif | Non renseignée (AMM active) |
-| 60355340 | ORAQIX, gel périodontal | Gel | Non renseignée (AMM active) |
-| 67099299 | FORTACIN 150 mg/ml / 50 mg/ml, spray cutané, solution | Solution pour pulvérisation | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63794766 | ANESDERM 5 %, crème | Crème | PIERRE FABRE MEDICAMENT | Active |
+| 65151893 | LIDOCAINE/PRILOCAINE BIOGARAN 5 %, pansement adhésif cutané | Pansement adhésif(ve) | BOUCHARA-RECORDATI | Active |
+| 63085761 | LIDOCAINE/PRILOCAINE AGUETTANT 5 %, crème | Crème | AGUETTANT | Active |
+| 67458460 | EMLAPATCH 5 POUR CENT, pansement adhésif cutané | Pansement adhésif(ve) | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 63396602 | EMLA 5 POUR CENT, crème | Crème | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 65934455 | LIDOCAINE/PRILOCAINE ZENTIVA 5 %, pansement adhésif cutané | Pansement adhésif(ve) | ZENTIVA FRANCE | Active |
+| 60355340 | ORAQIX, gel périodontal | Gel | DENTSPLY SIRONA FRANCE | Active |
+| 64746219 | LIDOCAINE/PRILOCAINE ZENTIVA 5 %, crème | Crème | ZENTIVA FRANCE | Active |
+| 60647444 | LIDOCAINE/PRILOCAINE AGUETTANT 5 %, pansement adhésif cutané | Pansement adhésif(ve) | AGUETTANT | Active |
+| 64053510 | LIDOCAÏNE/PRILOCAÏNE BIOGARAN 5 %, crème | Crème | BOUCHARA-RECORDATI | Active |
+| 67099299 | FORTACIN 150 mg/ml / 50 mg/ml, spray cutané,solution | Solution pour pulvérisation | RECORDATI IRELAND | Active |
+| 67973040 | LIDOCAÏNE/PRILOCAÏNE TEVA 5 %, crème | Crème | TEVA (PAYS-BAS) | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 > Au total, 12 AMM sont recensées, dont 11 valides (génériques de lidocaïne/prilocaïne inclus).
 

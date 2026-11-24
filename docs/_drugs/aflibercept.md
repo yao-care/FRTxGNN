@@ -79,13 +79,33 @@ L'aflibercept est commercialisé en France. Les données compilées recensent 19
 
 <!-- review:end fr-lic-20261124-aflibercept-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 60089217 | ZALTRAP 25 mg/ml | Solution à diluer pour perfusion |
-| 67140625 | EYLEA 114,3 mg/mL, seringue préremplie | Solution injectable |
-| 69166985 | EYLEA 114,3 mg/mL | Solution injectable |
-| 61858889 | PAVBLU 40 mg/mL, seringue préremplie | Solution injectable |
-| 69613703 | EYLEA 40 mg/mL, seringue préremplie | Solution injectable |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60089217 | ZALTRAP 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 67140625 | EYLEA 114,3 mg/mL, solution injectable en seringue préremplie | Solution injectable | BAYER AG (ALLEMAGNE) | Active |
+| 69166985 | EYLEA 114,3 mg/mL, solution injectable | Solution injectable | BAYER AG (ALLEMAGNE) | Active |
+| 61858889 | PAVBLU 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 69613703 | EYLEA 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | BAYER AG (ALLEMAGNE) | Active |
+| 68795701 | EYLEA 40 mg/mL, solution injectable en flacon | Solution injectable | BAYER AG (ALLEMAGNE) | Active |
+| 64621151 | PAVBLU 40 mg/mL, solution injectable en flacon | Solution injectable | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 63409366 | AFQLIR 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 60174895 | OPUVIZ 40 mg/mL, solution injectable en flacon | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 62494424 | AHZANTIVE 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | FORMYCON (ALLEMAGNE) | Active |
+| 62969013 | BAIAMA 40 mg/ml, solution injectable en seringue préremplie | Solution injectable | FORMYCON (ALLEMAGNE) | Active |
+| 64127028 | EYDENZELT 40 mg/mL, solution injectable en flacon | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 65262071 | AFIVEG 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | STADA ARZNEIMITTEL AG | Active |
+| 65318552 | MYNZEPLI 40 mg/ml, solution injectable en flacon | Solution injectable | ADVANZ PHARMA LIMITED | Active |
+| 65865920 | YESAFILI 40 mg/ml, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 66742664 | YESAFILI 40 mg/mL, solution injectable en flacon | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 67516821 | EYDENZELT 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 68262660 | MYNZEPLI 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | ADVANZ PHARMA LIMITED | Active |
+| 68819732 | OPUVIZ 40 mg/mL, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

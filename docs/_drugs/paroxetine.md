@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 580
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "paroxetine"
 predicted_indications: ["Ohdo syndrome and variants"]
 description: "Paroxetine : nouvelle indication prédite, Syndrome d'Ohdo et ses variants (Ohdo syndrome and variants) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -72,9 +72,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68085224 | DIVARIUS 20 mg, comprimé pelliculé sécable (CHIESI) | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68085224 | DIVARIUS 20 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | CHIESI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

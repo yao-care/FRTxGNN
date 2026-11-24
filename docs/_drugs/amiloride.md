@@ -71,11 +71,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63371015 | MODAMIDE 5 mg, comprimé | comprimé | Non renseignée |
-| 63824615 | LOGIRENE, comprimé sécable | comprimé sécable | Non renseignée |
-| 64343809 | MODUCREN, comprimé | comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63371015 | MODAMIDE 5 mg, comprimé | Comprimé | SUBSTIPHARM | Active |
+| 63824615 | LOGIRENE, comprimé sécable | Comprimé sécable | LABORATOIRE XO | Active |
+| 64343809 | MODUCREN, comprimé | Comprimé | LABORATOIRES FRILAB | Active |
+| 68045361 | AMILORIDE HYDROCHLOROTHIAZIDE TEVA 5 mg/50 mg, comprimé | Comprimé | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

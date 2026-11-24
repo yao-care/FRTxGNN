@@ -86,11 +86,24 @@ Aucune littérature associée disponible actuellement pour la myopathie distale 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65667550 | Propranolol Teva L.P. 80 mg (active) | Gélule à libération prolongée | Non renseignée |
-| 66415335 | Propranolol EG 40 mg (active) | Comprimé | Non renseignée |
-| 63077978 | Propranolol Teva L.P. 160 mg (active) | Gélule à libération prolongée | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65667550 | PROPRANOLOL TEVA L P 80 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 66415335 | PROPRANOLOL EG 40 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63077978 | PROPRANOLOL TEVA L P 160 mg, gélule à libération prolongée | Gélule à libération prolongée | TEVA SANTE | Active |
+| 62403136 | PROPRANOLOL ACETLAB 5 mg/5 mL, solution injectable | Solution injectable | MITEM PHARMA | Active |
+| 62914611 | KARNODYL 5 mg/5 ml, solution injectable en ampoule | Solution injectable | EFISCIENS (MALTE) | Active |
+| 63003440 | PROPRANOLOL ARROW 40 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | ARROW GENERIQUES | Active |
+| 63558075 | HEMANGIOL 3,75 mg/ml, solution buvable | Solution buvable | PIERRE FABRE MEDICAMENT | Active |
+| 65135519 | PROPRANOLOL ACCORD 40 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 67122698 | PROPRANOLOL BIOGARAN 40 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 67954061 | PROPRANOLOL TEVA 40 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

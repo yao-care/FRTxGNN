@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 736
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Temsirolimus : nouvelle indication prédite, Liposarcome (niveau de preuve L5). Indication d'origine : Carcinome rénal à cellules claires…"
 monitor_inn: "TEMSIROLIMUS"
 predicted_indications: ["liposarcoma", "ovarian myxoid liposarcoma", "vulva sarcoma"]
@@ -89,15 +89,15 @@ Le score TxGNN élevé (0,9954) est cohérent avec ce lien au niveau de la voie,
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60443413 | TORISEL 30 mg, solution à diluer et solvant pour solution pour perfusion | Solution à diluer et solvant pour solution pour perfusion | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-temsirolimus-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60443413 | TORISEL 30 mg, solution à diluer et solvant pour solution pour perfusion | Solution à diluer et solvant pour solution pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 60443413 (abrogée) » Selon la BDPM (données du 2026-11-09), l’AMM 60443413 (TORISEL 30 mg, solution à diluer et solvant pour solution pour perfusion) a le statut « Autorisation active » ; la mention « abrogée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-temsirolimus-1 -->
+<!-- licenses:end -->
 
 ---
 
@@ -157,7 +157,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « a seule AMM française est abrogée et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 60443413 (TORISEL 30 mg) est active, non abrogée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 60443413 (TORISEL 30 mg) est active, non abrogée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: temsirolimus prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1c207bed-10e3-46f0-ad2c-69d5e5c97736) |
 
 <!-- review:end log -->

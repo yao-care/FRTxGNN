@@ -84,9 +84,17 @@ Aucune de ces publications n'étudie directement l'effet du tiotropium sur les m
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60363967 | SPIRIVA 18 microgrammes, poudre pour inhalation en gélule (statut : active) | Poudre pour inhalation en gélule | Texte de l'indication non renseigné |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60363967 | SPIRIVA 18 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 62828920 | SPIRIVA RESPIMAT 2,5 microgrammes/dose, solution à inhaler | Solution | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 63620349 | SPIOLTO RESPIMAT 2,5 microgrammes/2,5 microgrammes/ dose, solution à inhaler | Solution | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

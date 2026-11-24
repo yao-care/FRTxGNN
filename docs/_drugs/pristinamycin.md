@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 632
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "pristinamycin"
 predicted_indications: ["disease of retroperitoneum", "lumbar spinal stenosis", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "disease of uterine broad ligament", "lymph node palisaded myofibroblastoma", "sacrum chordoma", "urethral disease", "pudendal neuralgia"]
 description: "Pristinamycin : nouvelle indication prédite, Disease of retroperitoneum (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -68,10 +68,16 @@ Aucune littérature associée disponible actuellement pour cette indication.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69494932 | PYOSTACINE 250 mg, comprimé pelliculé | Comprimé pelliculé | Active |
-| 63728481 | PYOSTACINE 500 mg, comprimé pelliculé | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69494932 | PYOSTACINE 250 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+| 63728481 | PYOSTACINE 500 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux AMM sont détenues par SANOFI WINTHROP INDUSTRIE. Le texte des indications approuvées n'est pas renseigné.
 

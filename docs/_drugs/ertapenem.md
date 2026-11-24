@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 296
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ertapenem"
 predicted_indications: ["bacterial arthritis"]
 description: "Ertapenem : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -99,13 +99,20 @@ Aucun essai randomisé n'est disponible. Pour l'infection à *S. aureus*, la lit
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69931556 | ERTAPENEM PANPHARMA 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
-| 65077051 | INVANZ 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
-| 68956656 | ERTAPENEM HIKMA 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
-| 62637897 | ERTAPENEM SUN 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
-| 66810994 | ERTAPENEM ARROW 1 g | Poudre pour solution à diluer pour perfusion | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69931556 | ERTAPENEM PANPHARMA 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PANMEDICA | Active |
+| 65077051 | INVANZ 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 68956656 | ERTAPENEM HIKMA 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 62637897 | ERTAPENEM SUN 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 66810994 | ERTAPENEM ARROW 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 60926401 | ERTAPENEM QILU 1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | QILU PHARMA SPAIN (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

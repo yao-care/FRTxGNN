@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 597
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "phenoxymethylpenicillin"
 predicted_indications: ["epiglottitis", "laryngitis"]
 description: "Phenoxymethylpenicillin : nouvelle indication prédite, Épiglottite (epiglottitis) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -88,9 +88,15 @@ Pour la seconde indication prédite (laryngite, score de 0,9985), une seule publ
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67151899 | ORACILLINE 1 000 000 UI, comprimé sécable (TEOFARMA), statut : active | Comprimé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67151899 | ORACILLINE 1 000 000 UI, comprimé sécable | Comprimé sécable | TEOFARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

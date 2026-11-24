@@ -1740,7 +1740,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-cyclopentolate-1",
@@ -2360,7 +2363,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-dexketoprofen-1",
@@ -3000,7 +3006,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-row-20261112-doxorubicin-2",
@@ -3020,7 +3029,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-doxylamine-1",
@@ -3843,7 +3855,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-estriol-1",
@@ -5028,7 +5043,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-framycetin-1",
@@ -6592,7 +6610,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-ipratropium-1",
@@ -6873,7 +6894,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-ketamine-1",
@@ -7293,7 +7317,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-leflunomide-1",
@@ -7473,7 +7500,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-liothyronine-1",
@@ -8272,7 +8302,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261031-metoclopramide-1",
@@ -8616,7 +8649,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-mirtazapine-1",
@@ -10315,7 +10351,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-panobinostat-1",
@@ -11317,7 +11356,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-plerixafor-1",
@@ -11737,7 +11779,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-propofol-1",
@@ -11855,7 +11900,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-pyrazinamide-1",
@@ -11995,7 +12043,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-row-20261112-quinapril-2",
@@ -12035,7 +12086,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-quinidine-1",
@@ -12407,7 +12461,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-remimazolam-1",
@@ -13584,7 +13641,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-sotatercept-1",
@@ -13824,7 +13884,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-sulfamethoxazole-1",
@@ -14224,7 +14287,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-tenecteplase-1",
@@ -14667,7 +14733,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-tiapride-1",
@@ -14867,7 +14936,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-tipranavir-1",
@@ -15788,7 +15860,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-vancomycin-1",
@@ -16287,7 +16362,10 @@
     }
    ],
    "checked": "2026-11-12",
-   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）"
+   "method": "2026-11-12 人工查核（許可證表格列狀態對事實層與證據包原始狀態）",
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261106-voxilaprevir-1",
@@ -16806,7 +16884,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261112-fluvastatin-1",
@@ -17027,7 +17108,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-row-20261112-lamivudine-1",
@@ -17067,7 +17151,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-row-20261112-telmisartan-1",
@@ -17107,7 +17194,10 @@
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
     }
-   ]
+   ],
+   "status": "superseded",
+   "superseded_by": "Tableau d'AMM généré par programme (scripts/sync_license_tables.py, 2026-11-24, d'après la BDPM)",
+   "superseded_on": "2026-11-24"
   },
   {
    "id": "fr-lic-20261113-efavirenz-1",

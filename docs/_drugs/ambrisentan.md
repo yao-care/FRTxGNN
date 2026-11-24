@@ -73,13 +73,27 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62848645 | AMBRISENTAN VIATRIS 10 mg | Comprimé pelliculé | Non renseignée |
-| 61398654 | AMBRISENTAN VIATRIS 5 mg | Comprimé pelliculé | Non renseignée |
-| 68371574 | AMBRISENTAN TEVA 5 mg | Comprimé pelliculé | Non renseignée |
-| 64673002 | AMBRISENTAN TEVA 10 mg | Comprimé pelliculé | Non renseignée |
-| 68499606 | VOLIBRIS 5 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62848645 | AMBRISENTAN VIATRIS 10 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 61398654 | AMBRISENTAN VIATRIS 5 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 68371574 | AMBRISENTAN TEVA 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 64673002 | AMBRISENTAN TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 68499606 | VOLIBRIS 5 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE (IRELAND) | Active |
+| 60085553 | AMBRISENTAN STRAGEN 10 mg, comprimé pelliculé | Comprimé pelliculé | STRAGEN-FRANCE | Active |
+| 68721786 | AMBRISENTAN ACCORD 5 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 66848183 | VOLIBRIS 10 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE (IRELAND) | Active |
+| 61447763 | VOLIBRIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE (IRELAND) | Active |
+| 64414291 | AMBRISENTAN STRAGEN 5 mg, comprimé pelliculé | Comprimé pelliculé | STRAGEN-FRANCE | Active |
+| 67494588 | AMBRISENTAN ACCORD 10 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 65235590 | AMBRISENTAN EG 10 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Abrogée |
+| 66597770 | AMBRISENTAN EG 5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Seules cinq AMM sont listées ici ; la liste complète comprend 13 AMM (11 valides).
 

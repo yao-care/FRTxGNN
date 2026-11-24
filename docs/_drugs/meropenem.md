@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 481
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "meropenem"
 predicted_indications: ["bacterial arthritis", "epiglottitis", "laryngitis", "paratyphoid fever", "Lyme disease", "Ureaplasma urethritis", "gonococcal urethritis"]
 description: "Meropenem : nouvelle indication prédite, Arthrite bactérienne (bacterial arthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 18 (valides : 18)"
@@ -83,13 +83,32 @@ Les références les plus proches de l'indication sont listées ci-dessous ; auc
 
 Le méropénème est commercialisé en France. Les données compilées recensent 18 autorisations, toutes valides. Les textes d'indication ne sont pas renseignés dans les données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67039099 | MEROPENEM TAMRISA 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 66589688 | MEROPENEM ARROW 500 mg | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 60489738 | PONAXEM 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 68840751 | MEROPENEM ACS DOBFAR 1 g | Poudre pour solution injectable ou pour perfusion | Non renseignée |
-| 67353986 | MERONEM 1 g (Pfizer) | Poudre pour solution injectable ou pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67039099 | MEROPENEM TAMRISA 1 g, poudre pour solution injectable / pour perfusion | Poudre pour solution injectable ou pour perfusion | TAMRISA ACCESS (FRANCE) | Active |
+| 66589688 | MEROPENEM ARROW 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 60489738 | PONAXEM 1 g, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | LABORATOIRES GERDA | Active |
+| 68840751 | MEROPENEM ACS DOBFAR 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | ACS DOBFAR (ITALIE) | Active |
+| 64201464 | MEROPENEM HIKMA 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 65117396 | MEROPENEM BRADEX 1 g, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | BRADEX COMMERCIAL AND INDUSTRIAL PHARMACEUTICAL PRODUCTS (G… | Active |
+| 63857992 | MEROPENEM ARROW 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 65241522 | MEROPENEM ARROW LAB 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 61151376 | MEROPENEM HIKMA 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 61226028 | MEROPENEM KABI 1 g, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 61251960 | MEROPENEM ARROW LAB 500 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 60768175 | MEROPENEM QILU 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | QILU PHARMA SPAIN (ESPAGNE) | Active |
+| 69700834 | MEROPENEM KALCEKS 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 67710121 | MEROPENEM PANPHARMA 1 g, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | PANMEDICA | Active |
+| 60902083 | MEROPENEM VENUS PHARMA 1 g, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | VENUS PHARMA (ALLEMAGNE) | Active |
+| 61137907 | MEROPENEM TAMRISA 500 mg, poudre pour solution injectable / pour perfusion | Poudre pour solution injectable ou pour perfusion | TAMRISA ACCESS (FRANCE) | Active |
+| 67353986 | MERONEM 1 g, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | PFIZER HOLDING FRANCE | Active |
+| 60694593 | VABOREM 1 g/1 g, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

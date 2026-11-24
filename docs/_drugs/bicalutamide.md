@@ -7,7 +7,7 @@ evidence_level: L4
 indication_count: 10
 monitor_inn: "BICALUTAMIDE"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "leprosy", "multiple endocrine neoplasia", "pulmonary hypertension", "female breast carcinoma", "nephrogenic syndrome of inappropriate antidiuresis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bicalutamide : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L4). En France, AMM dans la BDPM : 14 (valides : 13)"
 ---
 
@@ -74,15 +74,30 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 61662634 | BICALUTAMIDE VIATRIS 50 mg | Comprimé pelliculé |
-| 62794254 | BICALUTAMIDE ZENTIVA 50 mg | Comprimé pelliculé |
-| 69193861 | BICALUTAMIDE TEVA 50 mg | Comprimé pelliculé |
-| 67949737 | CASODEX 50 mg | Comprimé enrobé |
-| 64069322 | BICALUTAMIDE EG 50 mg | Comprimé pelliculé |
+<!-- licenses:begin -->
 
-Le bicalutamide est commercialisé en France : 13 AMM sur 14 sont valides et 1 est annulée. Seules 5 AMM sont listées ici.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61662634 | BICALUTAMIDE VIATRIS 50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62794254 | BICALUTAMIDE ZENTIVA 50 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69193861 | BICALUTAMIDE TEVA 50 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 67949737 | CASODEX 50 mg, comprimé enrobé | Comprimé enrobé | LABORATOIRES JUVISE PHARMACEUTICALS | Active |
+| 64069322 | BICALUTAMIDE EG 50 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61599842 | BICALUTAMIDE BIOGARAN 50 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68700817 | BICALUTAMIDE ZYDUS 50 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 61924200 | BICALUTAMIDE CRISTERS PHARMA 50 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 65819809 | BICALUTAMIDE ACCORD 50 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 64270784 | BICALUTAMIDE EVOLUGEN 50 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 60156089 | BICALUTAMIDE ALMUS 50 mg, comprimé pelliculé | Comprimé pelliculé | ALMUS FRANCE | Active |
+| 62398529 | BICALUTAMIDE SANDOZ 50 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65149401 | BICALUTAMIDE ARROW LAB 50 mg, comprimé pelliculé | Comprimé pelliculé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 63140873 | BICALUTAMIDE CRISTERS 50 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
+Le bicalutamide est commercialisé en France : 13 AMM sur 14 sont valides et 1 est annulée.
 
 ## Cytotoxicité
 

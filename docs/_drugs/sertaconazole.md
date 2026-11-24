@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 701
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "sertaconazole"
 predicted_indications: ["ectothrix infectious disease", "endothrix infectious disease"]
 description: "Sertaconazole : nouvelle indication prédite, Ectothrix infectious disease (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -86,12 +86,18 @@ Ces études sont pour la plupart de petite taille, ouvertes ou régionales ; leu
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63090616 | CANDAZOL 300 mg, ovule (active) | Ovule | Non renseignée |
-| 66726382 | MONAZOL, ovule (active) | Ovule | Non renseignée |
-| 66910838 | MONAZOL 2 %, crème (active) | Crème | Non renseignée |
-| 65436593 | SERTACONAZOLE SUBSTIPHARM 300 mg, ovule (active) | Ovule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63090616 | CANDAZOL 300 mg, ovule | Ovule | BESINS HEALTHCARE FRANCE | Active |
+| 66726382 | MONAZOL, ovule | Ovule | FERRER INTERNACIONAL (ESPAGNE) | Active |
+| 66910838 | MONAZOL 2 %, crème | Crème | FERRER INTERNACIONAL (ESPAGNE) | Active |
+| 65436593 | SERTACONAZOLE SUBSTIPHARM 300 mg, ovule | Ovule | SUBSTIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Aucun produit n'est actuellement autorisé en France.
 

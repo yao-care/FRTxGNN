@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 199
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "cortisone"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "myelodysplastic syndrome", "lymphosarcoma", "candidiasis", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5"]
 description: "Cortisone : nouvelle indication prédite, Lymphome cutané primitif à cellules T (primary cutaneous T-cell lymphoma) (niveau de preuve L5)."
@@ -78,9 +78,15 @@ Aucun essai clinique associé à cette indication n'est enregistré actuellement
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67948172 | CORTISONE BOIRON, dilution entre 3CH et 30CH ou entre 6DH et 60DH (statut : active) | Comprimé, solution, granules, poudre et pommade | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67948172 | CORTISONE BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 La cortisone est commercialisée en France sous forme de produit homéopathique (laboratoire BOIRON). L'autorisation est valide.
 

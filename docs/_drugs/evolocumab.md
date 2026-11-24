@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 312
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "evolocumab"
 predicted_indications: ["symptomatic form of hemophilia in female carriers", "familial apolipoprotein C-II deficiency", "thrombocytopenic purpura", "factor XI deficiency", "hemophilia A with vascular abnormality", "disease of catalytic activity"]
 description: "Evolocumab : nouvelle indication prédite, Forme symptomatique de l'hémophilie chez les porteuses (symptomatic form of hemophilia in female carriers) (niveau de preuve L5). Indication d'origine : Non …"
@@ -81,9 +81,15 @@ Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60966449 | REPATHA 140 mg, solution injectable en stylo prérempli (AMGEN EUROPE) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60966449 | REPATHA 140 mg, solution injectable en stylo prérempli | Solution injectable | AMGEN EUROPE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

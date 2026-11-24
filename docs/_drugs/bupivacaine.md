@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 123
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bupivacaine : nouvelle indication prédite, Acrodermatite chronique atrophiante (niveau de preuve L5). Indication d'origine : Dermatite (selon la base de connaissances TxGNN"
 monitor_inn: "bupivacaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "amyopathic dermatomyositis"]
@@ -83,13 +83,20 @@ Aucune littérature associée disponible actuellement.
 
 Parmi les 6 AMM ci-dessous, 4 sont valides ; le médicament est commercialisé.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61578015 | BUPIVACAINE VIATRIS 20 mg/4 ml, voie intrarachidienne (ampoule) | Solution injectable | Non renseignée |
-| 66563273 | BUPIVACAINE AGUETTANT 2,5 mg/ml | Solution injectable | Non renseignée |
-| 62837780 | BUPIVACAINE POUR RACHIANESTHESIE AGUETTANT 5 mg/ml (voie intrarachidienne) | Solution injectable | Non renseignée |
-| 63699439 | BUPIVACAINE ACCORD 2,5 mg/mL | Solution injectable | Non renseignée |
-| 61201295 | BUPIVACAINE ACCORD 5 mg/mL | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61578015 | BUPIVACAINE VIATRIS 20 mg/4 ml, solution injectable pour voie intra rachidienne en ampoule | Solution injectable | VIATRIS SANTE | Active |
+| 66563273 | BUPIVACAINE AGUETTANT 2,5 mg/ml, solution injectable | Solution injectable | AGUETTANT | Active |
+| 62837780 | BUPIVACAINE POUR RACHIANESTHESIE AGUETTANT 5 mg/ml, solution injectable (voie intrarachid… | Solution injectable | AGUETTANT | Active |
+| 65603284 | BUPIVACAINE AGUETTANT 5 mg/ml, solution injectable | Solution injectable | AGUETTANT | Active |
+| 63699439 | BUPIVACAINE ACCORD 2,5 mg/mL, solution injectable | Solution injectable | ACCORD HEALTHCARE FRANCE | Archivée |
+| 61201295 | BUPIVACAINE ACCORD 5 mg/mL, solution injectable | Solution injectable | ACCORD HEALTHCARE FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

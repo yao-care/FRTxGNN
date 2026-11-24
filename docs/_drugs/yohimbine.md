@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 825
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Yohimbine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "YOHIMBINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "primary hereditary glaucoma", "headache disorder", "transient ischemic attack (disease)", "common cold", "open-angle glaucoma"]
@@ -101,9 +101,15 @@ Aucune étude ne teste la yohimbine dans la migraine. Il s'agit surtout de trava
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69816276 | YOCORAL 5 mg, comprimé (CHEPLAPHARM ARZNEIMITTEL, Allemagne) | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69816276 | YOCORAL 5 mg, comprimé | Comprimé | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

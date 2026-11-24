@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 226
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "desmopressin"
 predicted_indications: ["congenital prothrombin deficiency", "inherited thrombophilia", "Glanzmann thrombasthenia", "primary release disorder of platelets", "Scott syndrome", "flood factor deficiency"]
 description: "Desmopressin : nouvelle indication prédite, Déficit congénital en prothrombine (congenital prothrombin deficiency) (niveau de preuve L5)."
@@ -75,13 +75,35 @@ Aucun essai clinique associé enregistré actuellement.
 
 Au moins 20 AMM figurent dans les données compilées (la liste peut être partielle). La desmopressine est commercialisée en France ; toutes ces AMM sont valides.
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 69836880 | DESMOPRESSINE EG 60 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
-| 61596554 | DESMOPRESSINE SANDOZ 240 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
-| 64694815 | DESMOPRESSINE ZENTIVA 120 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
-| 62822682 | MINIRIN 0,1 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 68239932 | DESMOPRESSINE TEVA 120 microgrammes, comprimé sublingual | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69836880 | DESMOPRESSINE EG 60 microgrammes, comprimé sublingual | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61596554 | DESMOPRESSINE SANDOZ 240 microgrammes, comprimé sublingual | Comprimé | SANDOZ | Active |
+| 64694815 | DESMOPRESSINE ZENTIVA 120 microgrammes, comprimé sublingual | Comprimé | ZENTIVA FRANCE | Active |
+| 62822682 | MINIRIN 0,1 mg, comprimé | Comprimé | FERRING (FRANCE) | Active |
+| 68239932 | DESMOPRESSINE TEVA 120 microgrammes, comprimé sublingual | Comprimé | TEVA (PAYS-BAS) | Active |
+| 67310718 | DESMOPRESSINE EG 120 microgrammes, comprimé sublingual | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64727382 | DESMOPRESSINE BIOGARAN 240 microgrammes, comprimé sublingual | Comprimé | BIOGARAN | Active |
+| 68867442 | DESMOPRESSINE ZENTIVA 240 microgrammes, comprimé sublingual | Comprimé | ZENTIVA FRANCE | Active |
+| 68826207 | DESMOPRESSINE ZENTIVA 60 microgrammes, comprimé sublingual | Comprimé | ZENTIVA FRANCE | Active |
+| 64479727 | MINIRINMELT 60 microgrammes, lyophilisat oral | Lyophilisat | FERRING (FRANCE) | Active |
+| 68591296 | DESMOPRESSINE SANDOZ 60 microgrammes, comprimé sublingual | Comprimé | SANDOZ | Active |
+| 61396361 | OCTIM 150 microgrammes/dose, solution pour pulvérisation nasale | Solution pour pulvérisation | FERRING (FRANCE) | Active |
+| 64685392 | DESMOPRESSINE BIOGARAN 60 microgrammes, comprimé sublingual | Comprimé | BIOGARAN | Active |
+| 66842127 | MINIRINMELT 240 microgrammes, lyophilisat oral | Lyophilisat | FERRING (FRANCE) | Active |
+| 63040150 | DESMOPRESSINE TEVA 60 microgrammes, comprimé sublingual | Comprimé | TEVA (PAYS-BAS) | Active |
+| 67275313 | MINIRINMELT 120 microgrammes, lyophilisat oral | Lyophilisat | FERRING (FRANCE) | Active |
+| 63901314 | DESMOPRESSINE TEVA 240 microgrammes, comprimé sublingual | Comprimé | TEVA (PAYS-BAS) | Active |
+| 62263894 | MINIRIN SPRAY 10 microgrammes par dose, solution endonasale en flacon pulvérisateur | Solution | FERRING (FRANCE) | Active |
+| 68095745 | DESMOPRESSINE SANDOZ 120 microgrammes, comprimé sublingual | Comprimé | SANDOZ | Active |
+| 67576220 | MINIRIN 4 microgrammes/mL, solution injectable | Solution injectable | FERRING (FRANCE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

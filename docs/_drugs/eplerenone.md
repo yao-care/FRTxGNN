@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 289
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "eplerenone"
 predicted_indications: ["pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "Braddock syndrome"]
 description: "Eplerenone : nouvelle indication prédite, Pulmonary hypertension owing to lung disease and/or hypoxia (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -85,15 +85,37 @@ Les publications les plus pertinentes sont listées ci-dessous (priorité aux é
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné. Les cinq premières sont présentées ci-dessous.
+Le texte de l'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63022095 | EPLERENONE VIATRIS 25 mg | Comprimé pelliculé | Non renseignée |
-| 62295835 | EPLERENONE BIOGARAN 50 mg | Comprimé pelliculé | Non renseignée |
-| 60838150 | EPLERENONE SANDOZ 50 mg | Comprimé pelliculé | Non renseignée |
-| 69784800 | EPLERENONE ZYDUS 25 mg | Comprimé pelliculé | Non renseignée |
-| 66335558 | INSPRA 25 mg | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63022095 | EPLERENONE VIATRIS 25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62295835 | EPLERENONE BIOGARAN 50 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69784800 | EPLERENONE ZYDUS 25 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 66335558 | INSPRA 25 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS UP | Active |
+| 60296511 | EPLERENONE TEVA 50 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 61607602 | EPLERENONE CRISTERS 25 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 61124589 | EPLERENONE ACCORD 25 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 64859811 | EPLERENONE ZENTIVA 50 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 63286561 | EPLERENONE ARROW 50 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 60470015 | EPLERENONE ZENTIVA 25 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 69772883 | EPLERENONE KRKA 50 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 67627106 | EPLERENONE ARROW 25 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 66329690 | EPLERENONE VIATRIS 50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 65681906 | INSPRA 50 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS UP | Active |
+| 62090524 | EPLERENONE SANDOZ 25 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63319709 | EPLERENONE ACCORD 50 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 68024456 | EPLERENONE TEVA 25 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 62625119 | EPLERENONE EG 50 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68853567 | EPLERENONE KRKA 25 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 60838150 | EPLERENONE SANDOZ 50 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

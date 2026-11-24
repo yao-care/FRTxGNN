@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 710
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sorbitol : nouvelle indication prédite, Hyperthermie maligne induite par l'effort (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "SORBITOL"
 predicted_indications: ["exercise-induced malignant hyperthermia"]
@@ -72,11 +72,17 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67851645 | SORBITOL DELALANDE 5 g, poudre pour solution buvable en sachet-dose (ZENTIVA FRANCE) | Poudre pour solution buvable | Non renseignée |
-| 64714196 | SORBITOL H2 PHARMA 5 g, poudre pour solution buvable en sachet (H2 PHARMA) | Poudre pour solution buvable | Non renseignée |
-| 67939789 | HEPARGITOL, poudre orale en sachet bipoche (ELERTE) | Poudre et poudre | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67851645 | SORBITOL DELALANDE 5 g, poudre pour solution buvable en sachet-dose | Poudre pour solution buvable | ZENTIVA FRANCE | Active |
+| 64714196 | SORBITOL H2 PHARMA 5 g, poudre pour solution buvable en sachet | Poudre pour solution buvable | H2 PHARMA | Active |
+| 67939789 | HEPARGITOL, poudre orale en sachet bipoche | Poudre et poudre | ELERTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les trois AMM sont valides : 3 autorisations valides sur 3 sont actuellement recensées et le médicament est commercialisé.
 

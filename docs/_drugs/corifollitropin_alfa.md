@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 198
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Corifollitropin Alfa : nouvelle indication prédite, Gastroduodénite (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (texte d'indication vide po…"
 monitor_inn: "corifollitropin alfa"
 predicted_indications: ["gastroduodenitis", "migraine disorder", "peptic ulcer disease", "migraine with brainstem aura", "Raynaud disease", "pulmonary hypertension", "kyphoscoliotic heart disease"]
@@ -79,10 +79,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|------|
-| 64036190 | ELONVA 150 microgrammes, solution injectable | Solution injectable | Non renseignée | Active |
-| 66844562 | ELONVA 100 microgrammes, solution injectable | Solution injectable | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64036190 | ELONVA 150 microgrammes, solution injectable | Solution injectable | ORGANON (HOLLANDE) | Active |
+| 66844562 | ELONVA 100 microgrammes, solution injectable | Solution injectable | ORGANON (HOLLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Titulaire : ORGANON (Pays-Bas).
 

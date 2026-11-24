@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "BRIGATINIB"
 predicted_indications: ["fibromatosis, gingival", "fibroma of lung", "hamartoma of lung", "lung benign neoplasm", "inclusion body myopathy with early-onset Paget disease with or without frontotemporal dementia", "pulmonary sulcus neoplasm", "lung germ cell tumor", "junctional epidermolysis bullosa", "Leukomelanoderma-infantilism-intellectual disability-hypodontia-hypotrichosis syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Brigatinib : nouvelle indication prédite, Fibromatose gingivale (fibromatosis, gingival) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
 ---
 
@@ -71,12 +71,18 @@ Aucune littérature associée disponible actuellement.
 
 Les données compilées recensent 4 AMM pour des présentations d'ALUNBRIG (comprimé pelliculé, Takeda Pharma, Danemark). Le texte d'indication approuvée n'est pas renseigné dans ces enregistrements.
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée |
-|---------|------|------|-----------|
-| 60648770 | ALUNBRIG 90 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 66949061 | ALUNBRIG 180 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
-| 61066196 | ALUNBRIG 90 mg + 180 mg, comprimé pelliculé | comprimé pelliculé et comprimé pelliculé | Non renseignée |
-| 62626993 | ALUNBRIG 30 mg, comprimé pelliculé | comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60648770 | ALUNBRIG 90 mg, comprimé pelliculé | Comprimé pelliculé | TAKEDA PHARMA (DANEMARK) | Active |
+| 66949061 | ALUNBRIG 180 mg, comprimé pelliculé | Comprimé pelliculé | TAKEDA PHARMA (DANEMARK) | Active |
+| 61066196 | ALUNBRIG 90 mg + 180 mg, comprimé pelliculé | Comprimé pelliculé et comprimé pelliculé | TAKEDA PHARMA (DANEMARK) | Active |
+| 62626993 | ALUNBRIG 30 mg, comprimé pelliculé | Comprimé pelliculé | TAKEDA PHARMA (DANEMARK) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

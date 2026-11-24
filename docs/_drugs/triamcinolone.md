@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 786
 evidence_level: L4
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRIAMCINOLONE"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
 description: "Triamcinolone : nouvelle indication prédite, Alopécie mucineuse (alopecia mucinosa) (niveau de preuve L4). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -75,10 +75,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66108628 | PEVISONE, crème (active) | Crème | Non renseignée |
-| 65539860 | CIDERMEX, pommade ophtalmique (active) | Pommade | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66108628 | PEVISONE, crème | Crème | KARO PHARMA (SUEDE) | Active |
+| 65539860 | CIDERMEX, pommade ophtalmique | Pommade | PAD PHARMACEUTIQUE DESGROPPES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -90,13 +90,29 @@ Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée 
 
 <!-- review:end fr-lic-20261106-leflunomide-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 66218213 | ARAVA 100 mg | Comprimé pelliculé | Active |
-| 65739590 | ARAVA 20 mg | Comprimé pelliculé | Active |
-| 62780055 | ARAVA 10 mg | Comprimé pelliculé | Active |
-| 64486561 | Léflunomide Biogaran 20 mg | Comprimé pelliculé | Active |
-| 64198541 | Léflunomide Biogaran 10 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66218213 | ARAVA 100 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 69604750 | LEFLUNOMIDE RATIOPHARM 10 mg, comprimé pelliculé | Comprimé pelliculé | RATIOPHARM (ALLEMAGNE) | Active |
+| 64486561 | LEFLUNOMIDE BIOGARAN 20 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62348355 | LEFLUNOMIDE EG 20 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67516166 | LEFLUNOMIDE ZENTIVA 10 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 64198541 | LEFLUNOMIDE BIOGARAN 10 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61253089 | LEFLUNOMIDE ZENTIVA 20 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 65739590 | ARAVA 20 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 67829054 | LEFLUNOMIDE EG 10 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62403086 | LEFLUNOMIDE RATIOPHARM 20 mg, comprimé pelliculé | Comprimé pelliculé | RATIOPHARM (ALLEMAGNE) | Active |
+| 62780055 | ARAVA 10 mg, comprimé pelliculé | Comprimé pelliculé | SANOFI AVENTIS (ALLEMAGNE) | Active |
+| 67483990 | LEFLUNOMIDE VIATRIS 20 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 66092483 | LEFLUNOMIDE VIATRIS 10 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 62886076 | LEFLUNOMIDE ARROW 10 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68095478 | LEFLUNOMIDE ARROW 20 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

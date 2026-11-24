@@ -71,12 +71,20 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 67537114 | ADENOSINE HIKMA 6 mg/2 mL, solution injectable | solution injectable | Non renseignée dans les données locales |
-| 61855583 | ADENOSCAN 30 mg/10 mL, solution pour perfusion | solution pour perfusion | Non renseignée dans les données locales |
-| 60710318 | KRENOSIN 6 mg/2 ml, solution injectable | solution injectable | Non renseignée dans les données locales |
-| 63052537 | ADENOSINE MEDISOL 6 mg/2 ml, solution injectable | solution injectable | Non renseignée dans les données locales |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67537114 | ADENOSINE HIKMA 6 mg/2 mL, solution injectable | Solution injectable | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 61855583 | ADENOSCAN 30 mg/10 mL, solution pour perfusion | Solution pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 60710318 | KRENOSIN 6 mg/2 ml, solution injectable | Solution injectable | SANOFI WINTHROP INDUSTRIE | Active |
+| 63052537 | ADENOSINE MEDISOL 6 mg/2 ml, solution injectable | Solution injectable | MEDISOL | Active |
+| 62967603 | ADENOSINE ACCORD 30 mg/10 ml, solution pour perfusion | Solution pour perfusion | ACCORD HEALTHCARE FRANCE | Abrogée |
+| 68352264 | ADENOSINE ACCORD 6 mg/2 ml, solution injectable | Solution injectable | ACCORD HEALTHCARE FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

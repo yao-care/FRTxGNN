@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "ergocalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "renal tubular acidosis", "craniofacial conodysplasia", "renal osteodystrophy", "calcium-alkali syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ergocalciferol : nouvelle indication prédite, Dysplasie acromésomélique de type Campailla-Martinelli (acromesomelic dysplasia, Campailla Martinelli type) (niveau de preuve L5)."
 ---
 
@@ -72,11 +72,21 @@ Aucune littérature associée disponible actuellement.
 
 L'ergocalciférol est commercialisé en France. Les 7 AMM recensées sont valides ; aucune n'est annulée. Le texte d'indication n'est pas renseigné dans les données locales pour ces AMM.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69719090 | STEROGYL 15 "H" 600 000 UI/1,5 ml | Solution injectable (IM) | Texte non disponible |
-| 62457493 | STEROGYL 2 000 000 UI/100 ml | Solution buvable en gouttes | Texte non disponible |
-| 69443489 | STEROGYL 15 "A" 600 000 UI/1,5 ml | Solution buvable en ampoule | Texte non disponible |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69719090 | STEROGYL 15 "H" 600 000 UI/1,5 ml, solution injectable IM en ampoule | Solution injectable | DESMA PHARMA | Active |
+| 62457493 | STEROGYL 2 000 000 UI/100 ml, solution buvable en gouttes | Solution buvable en gouttes | DESMA PHARMA | Active |
+| 69443489 | STEROGYL 15 "A" 600 000 UI/1,5 ml, solution buvable en ampoule | Solution buvable | DESMA PHARMA | Active |
+| 64639110 | VITALIPIDE ADULTES, émulsion injectable pour perfusion | Émulsion injectable pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 64023481 | VITALIPIDE ENFANTS, émulsion injectable pour perfusion | Émulsion injectable pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 68202115 | UVESTEROL VITAMINE A.D.E.C., solution buvable | Solution buvable | CRINEX | Active |
+| 66705623 | HYDROSOL POLYVITAMINE PHARMA DEVELOPPEMENT, solution buvable en gouttes | Solution buvable en gouttes | PHARMA DEVELOPPEMENT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

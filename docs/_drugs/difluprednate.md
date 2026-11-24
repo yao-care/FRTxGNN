@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 240
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DIFLUPREDNATE"
 predicted_indications: ["familial adrenal hypoplasia with absent pituitary luteinizing hormone", "seborrheic keratosis", "PAGOD syndrome", "vulvar inverted follicular keratosis", "adrenocortical insufficiency", "seborrheic dermatitis", "46,XY disorder of sex development", "necrobiosis lipoidica", "nephrotic syndrome", "iris disease"]
 description: "Difluprednate : nouvelle indication prédite, Familial adrenal hypoplasia with absent pituitary luteinizing hormone (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
@@ -83,9 +83,15 @@ Cette publication concerne la maladie de l'iris (rang 10). Aucune littérature n
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63588061 | EPITOPIC 0,05 POUR CENT, crème (ETHYX PHARMACEUTICALS) | Crème | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63588061 | EPITOPIC 0,05 POUR CENT, crème | Crème | ETHYX PHARMACEUTICALS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

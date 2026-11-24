@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 750
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Tezacaftor : nouvelle indication prédite, Infection par le VIH (niveau de preuve L5). Indication d'origine : Mucoviscidose (fibrose kystique)"
 monitor_inn: "TEZACAFTOR"
 predicted_indications: ["HIV infectious disease", "leprosy", "multiple endocrine neoplasia"]
@@ -81,13 +81,20 @@ Les 6 autorisations ci-dessous sont au statut « valide ».
 
 <!-- review:end fr-lic-20261106-tezacaftor-1 -->
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 62984481 | SYMKEVI 50 mg/75 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 66848831 | SYMKEVI 100 mg/150 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 66594621 | KAFTRIO 75 mg/50 mg/100 mg, granulés en sachet | Granulés | Non renseignée |
-| 69275098 | KAFTRIO 37,5 mg/25 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 62104529 | KAFTRIO 60 mg/40 mg/80 mg, granulés en sachet | Granulés | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62984481 | SYMKEVI 50 mg/75 mg, comprimé pelliculé | Comprimé pelliculé | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 66848831 | SYMKEVI 100 mg/150 mg, comprimé pelliculé | Comprimé pelliculé | VERTEX PHARMACEUTICALS (EUROPE) ROYAUME-UNI) | Active |
+| 66594621 | KAFTRIO 75 mg/50 mg/100 mg, granulés en sachet | Granulés | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 69275098 | KAFTRIO 37,5 mg/25 mg/50 mg, comprimé pelliculé | Comprimé pelliculé | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 62104529 | KAFTRIO 60 mg/40 mg/80 mg, granulés en sachet | Granulés | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+| 67875361 | KAFTRIO 75 mg/50 mg/100 mg, comprimé pelliculé | Comprimé pelliculé | VERTEX PHARMACEUTICALS (IRELAND) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

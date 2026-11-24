@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 397
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "indomethacin"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "WHIM syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "brachyolmia", "myosclerosis", "juvenile idiopathic arthritis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis", "rheumatoid nodulosis"]
 description: "Indomethacin : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -97,13 +97,20 @@ Aucune littérature associée disponible actuellement pour le syndrome brachydac
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60921824 | INDOCOLLYRE 0,1 %, collyre en solution (active) | Collyre en solution | Non renseignée |
-| 68142440 | INDOCID 100 mg, suppositoire (active) | Suppositoire | Non renseignée |
-| 61914124 | INDOCOLLYRE 0,1 %, collyre unidose (active) | Collyre en solution | Non renseignée |
-| 66664685 | INDOCID 25 mg, gélule (active) | Gélule | Non renseignée |
-| 69829455 | CHRONO-INDOCID 75 mg, gélule (active) | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60921824 | INDOCOLLYRE 0,1 %, collyre en solution | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 68142440 | INDOCID 100 mg, suppositoire | Suppositoire | HAC PHARMA | Active |
+| 61914124 | INDOCOLLYRE 0,1%, collyre en solution en récipient unidose | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+| 66664685 | INDOCID 25 mg, gélule | Gélule | HAC PHARMA | Active |
+| 69829455 | CHRONO-INDOCID 75 mg, gélule | Gélule | HAC PHARMA | Active |
+| 69668450 | INDOBIOTIC, collyre en solution en récipient unidose | Collyre en solution | LABORATOIRE CHAUVIN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 187
 evidence_level: L3
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "clonazepam"
 predicted_indications: ["restless legs syndrome", "insomnia (disease)", "trigeminal nerve neoplasm"]
 description: "Clonazepam : nouvelle indication prédite, Syndrome des jambes sans repos (restless legs syndrome) (niveau de preuve L3). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -95,11 +95,17 @@ Sélection parmi les publications les plus pertinentes (la classification de per
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61496251 | RIVOTRIL 2,5 mg/ml, solution buvable en gouttes | Solution buvable gouttes | Non renseignée (AMM active) |
-| 68429141 | RIVOTRIL 2 mg, comprimé quadrisécable | Comprimé quadrisécable | Non renseignée (AMM active) |
-| 63523836 | RIVOTRIL 1 mg/1 ml, solution à diluer injectable en ampoules | Solution à diluer et solvant pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61496251 | RIVOTRIL 2,5 mg/ml, solution buvable en goutte | Solution buvable gouttes | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 68429141 | RIVOTRIL 2 mg, comprimé quadrisécable | Comprimé quadrisécable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+| 63523836 | RIVOTRIL 1 mg/1 ml, solution à diluer injectable en ampoules | Solution à diluer et solvant pour solution injectable | CHEPLAPHARM ARZNEIMITTEL (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 352
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "frovatriptan"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
 description: "Frovatriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -91,13 +91,19 @@ Le texte des indications approuvées n'est pas disponible.
 
 <!-- review:end fr-lic-20261106-frovatriptan-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65235238 | FROVATRIPTAN BIOGARAN 2,5 mg | Comprimé pelliculé | Active |
-| 69591915 | ISIMIG 2,5 mg | Comprimé pelliculé | Active |
-| 60435263 | TIGREAT 2,5 mg | Comprimé pelliculé | Active |
-| 64046761 | FROVATRIPTAN TEVA 2,5 mg | Comprimé pelliculé | Active |
-| 66901771 | FROVATRIPTAN VIATRIS 2,5 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65235238 | FROVATRIPTAN BIOGARAN 2,5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69591915 | ISIMIG 2,5 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 60435263 | TIGREAT 2,5 mg, comprimé pelliculé | Comprimé pelliculé | MENARINI INTERNATIONAL OPERATIONS LUXEMBOURG | Active |
+| 64046761 | FROVATRIPTAN TEVA 2,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 66901771 | FROVATRIPTAN VIATRIS 2,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

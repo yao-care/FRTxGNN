@@ -71,9 +71,17 @@ Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour la Tiagabine. Tou
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 61089729 | TIAGABINE (CHLORHYDRATE DE) MONOHYDRATÉ | comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61089729 | GABITRIL 15 mg, comprimé pelliculé | Comprimé pelliculé | TEVA PHARMA (PAYS-BAS) | Active |
+| 60058517 | GABITRIL 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA PHARMA (PAYS-BAS) | Active |
+| 67859994 | GABITRIL 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA PHARMA (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

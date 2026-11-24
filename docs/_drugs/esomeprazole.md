@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 299
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "esomeprazole"
 predicted_indications: ["duodenal obstruction"]
 description: "Esomeprazole : nouvelle indication prédite, Duodenal obstruction (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -91,13 +91,35 @@ Voici les 5 premières :
 
 <!-- review:end fr-lic-20261106-esomeprazole-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|------|
-| 62358997 | ESOMEPRAZOLE ARROW LAB 40 mg | Gélule gastro-résistante | Active |
-| 62824142 | INEXIUM 40 mg | Comprimé gastro-résistant | Active |
-| 67972216 | ESOMEPRAZOLE EG 40 mg | Gélule gastro-résistante | Active |
-| 66628995 | ESOMEPRAZOLE ZENTIVA 40 mg | Gélule gastro-résistante | Active |
-| 64359642 | ESOMEPRAZOLE ETHYPHARM 20 mg | Gélule gastro-résistante | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62358997 | ESOMEPRAZOLE ARROW LAB 40 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ARROW GENERIQUES | Active |
+| 62824142 | INEXIUM 40 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | LABORATOIRES GRUNENTHAL | Active |
+| 67972216 | ESOMEPRAZOLE EG 40 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66628995 | ESOMEPRAZOLE ZENTIVA 40 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZENTIVA FRANCE | Active |
+| 64359642 | ESOMEPRAZOLE ETHYPHARM 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ETHYPHARM | Active |
+| 65058282 | ESOMEPRAZOLE CRISTERS PHARMA 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | SUN PHARMA FRANCE | Active |
+| 65394112 | ESOMEPRAZOLE ZENTIVA 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ZENTIVA FRANCE | Active |
+| 66718567 | ESOMEPRAZOLE HCS 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | HCS (BELGIQUE) | Active |
+| 63064710 | ESOMEPRAZOLE ARROW LAB 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | ARROW GENERIQUES | Active |
+| 63451237 | INEXIUM 10 mg, granulés gastro-résistants pour suspension buvable en sachet | Granulés gastro-résistant(e) pour suspension buvable | LABORATOIRES GRUNENTHAL | Active |
+| 64160925 | ESOMEPRAZOLE TILLOMED 40 mg, poudre pour solution injectable/perfusion | Poudre pour solution injectable ou pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 65021832 | ESOMEPRAZOLE TEVA 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | TEVA SANTE | Active |
+| 64578892 | INEXIUM 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | LABORATOIRES GRUNENTHAL | Active |
+| 64328579 | ESOMEPRAZOLE EG 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67637812 | ESOMEPRAZOLE EG LABO 40 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66690776 | ESOMEPRAZOLE EVOLUGEN PHARMA 20 mg, gélule gastro-résistante | Gélule gastro-résistant(e) | EVOLUPHARM | Active |
+| 60920487 | ESOMEPRAZOLE SUN PHARMA 40 mg, poudre pour solution injectable/pour perfusion | Poudre pour solution injectable ou pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 62075255 | ESOMEPRAZOLE SUN 40 mg, poudre pour solution injectable ou pour perfusion | Poudre pour solution injectable ou pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 67791479 | ESOMEPRAZOLE EVOLUGEN 40 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | EVOLUPHARM | Archivée |
+| 63551390 | ESOMEPRAZOLE EVOLUGEN 20 mg, comprimé gastro-résistant | Comprimé gastro-résistant(e) | EVOLUPHARM | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les autres formes recensées sont les granulés pour suspension buvable (INEXIUM 10 mg) et la poudre pour solution injectable ou pour perfusion.
 

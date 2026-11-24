@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 655
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RAVULIZUMAB"
 predicted_indications: ["autosomal recessive severe congenital neutropenia due to G6PC3 deficiency", "cyclic hematopoiesis", "primary hyperoxaluria", "severe congenital neutropenia", "autosomal recessive severe congenital neutropenia due to CXCR2 deficiency", "primary immunodeficiency syndrome due to p14 deficiency", "pseudo-von Willebrand disease", "X-linked severe congenital neutropenia", "primary release disorder of platelets", "megaloblastic anemia (disease)"]
 description: "Ravulizumab : nouvelle indication prédite, Neutropénie congénitale sévère autosomique récessive par déficit en G6PC3 (autosomal recessive severe congenital neutro… (niveau de preuve L5). Indication d…"
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64265627 | ULTOMIRIS 1100 mg/11 mL (ALEXION EUROPE), statut : active | Solution à diluer pour perfusion | Non renseignée |
-| 61808523 | ULTOMIRIS 300 mg/3 mL (ALEXION EUROPE), statut : active | Solution à diluer pour perfusion | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64265627 | ULTOMIRIS 1100 mg/11 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ALEXION EUROPE | Active |
+| 61808523 | ULTOMIRIS 300 mg/3 mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ALEXION EUROPE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

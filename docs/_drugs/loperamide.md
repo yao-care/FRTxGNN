@@ -84,10 +84,35 @@ Aucune littérature associée disponible actuellement pour la conjonctivite cont
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 69522794 | IMODIUM 0,2 mg/ml ENFANTS | Solution buvable | Non renseignée |
-| 61203061 | IMODIUMCAPS 2 mg | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61203061 | IMODIUMCAPS 2 mg, gélule | Gélule | KENVUE FRANCE | Active |
+| 60095095 | IMODIUMLIQUICAPS 2 mg, capsule molle | Capsule molle | KENVUE FRANCE | Active |
+| 61257269 | LOPERAMIDE ALMUS 2 mg, gélule | Gélule | BIOGARAN | Active |
+| 61370480 | LOPERAMIDE BIOGARAN CONSEIL 2 mg, gélule | Gélule | BIOGARAN | Active |
+| 61450026 | LOPERAMIDE ARROW LAB 2 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 61651634 | IMODIUM 2 mg, gélule | Gélule | KENVUE FRANCE | Active |
+| 61710577 | LOPERAMIDE LYOC 2 mg, lyophilisat oral | Lyophilisat | TEVA SANTE | Active |
+| 62144356 | LOPERAMIDE ZENTIVA CONSEIL 2 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 62179122 | LOPERAMIDE TEVA 2 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 62821961 | LOPERAMIDE ZYDUS FRANCE 2 mg, gélule | Gélule | ZYDUS FRANCE | Active |
+| 63029111 | LOPERAMIDE BIOGARAN 2 mg, gélule | Gélule | BIOGARAN | Active |
+| 63178870 | LOPERAMIDE VIATRIS 2 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 63276510 | LOPERAMIDE ZYDUS 2 mg, gélule | Gélule | ZYDUS FRANCE | Active |
+| 64433231 | LOPERAMIDE VIATRIS CONSEIL 2 mg, lyophilisat oral | Lyophilisat | VIATRIS SANTE | Active |
+| 65181566 | LOPERAMIDE ZENTIVA 2 mg, gélule | Gélule | ZENTIVA FRANCE | Active |
+| 65272215 | IMODIUMLINGUAL 2 mg, lyophilisat oral | Lyophilisat | KENVUE FRANCE | Active |
+| 69522794 | IMODIUM 0,2 mg/ml ENFANTS, solution buvable | Solution buvable | JANSSEN CILAG | Archivée |
+| 61303791 | LOPERAMIDE ARROW 2 mg, gélule | Gélule | ARROW GENERIQUES | Abrogée |
+| 63088070 | LOPERAMIDE REF 2 mg, gélule | Gélule | BIOGARAN | Archivée |
+| 63672883 | INDIARAL 2 mg, gélule | Gélule | GIFRER BARBEZAT | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

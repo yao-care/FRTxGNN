@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 342
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fluticasone : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées (les textes d'indication des…"
 monitor_inn: "fluticasone"
 predicted_indications: ["migraine disorder", "Prinzmetal angina", "migraine with brainstem aura"]
@@ -94,13 +94,35 @@ Les textes d'indication ne sont pas renseignés. Les cinq premières sont listé
 
 <!-- review:end fr-lic-20261106-fluticasone-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61748649 | Flixonase 50 µg/dose, suspension nasale en flacon pulvérisateur avec pompe doseuse | Suspension | Non renseignée |
-| 62933355 | Flixotide 125 µg/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | Non renseignée |
-| 63872528 | Flixovate 0,005 %, pommade | Pommade | Non renseignée |
-| 65156075 | Flixotide Diskus 500 µg/dose, poudre pour inhalation en récipient unidose | Poudre pour inhalation | Non renseignée |
-| 60564219 | Fixorinox 50 µg/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61748649 | FLIXONASE 50 microgrammes/dose, suspension nasale en flacon pulvérisateur avec pompe dose… | Suspension | GLAXOSMITHKLINE | Active |
+| 62933355 | FLIXOTIDE 125 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | GLAXOSMITHKLINE | Active |
+| 63872528 | FLIXOVATE 0,005 %, pommade | Pommade | GLAXOSMITHKLINE | Active |
+| 65156075 | FLIXOTIDE DISKUS 500 microgrammes/dose, poudre pour inhalation en récipient unidose | Poudre pour inhalation | GLAXOSMITHKLINE | Active |
+| 60564219 | FIXORINOX 50 microgrammes/dose, suspension pour pulvérisation nasale | Suspension pour pulvérisation | THERABEL PHARMA (LUXEMBOURG) | Active |
+| 66545581 | FLIXOTIDE 250 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | GLAXOSMITHKLINE | Active |
+| 68652265 | FLIXOTIDE 50 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | GLAXOSMITHKLINE | Active |
+| 69713543 | PROPIONATE DE FLUTICASONE TEVA 125 microgrammes/dose, suspension pour inhalation en flaco… | Suspension pour inhalation | TEVA (PAYS-BAS) | Active |
+| 61856322 | FLIXOTIDE DISKUS 100 microgrammes/dose, poudre pour inhalation en récipient unidose | Poudre pour inhalation | GLAXOSMITHKLINE | Active |
+| 66160831 | FLUTICASONE FUROATE TEVA 27,5 microgrammes/pulvérisation, suspension pour pulvérisation n… | Suspension pour pulvérisation | TEVA (PAYS-BAS) | Active |
+| 65796011 | FLIXOVATE 0,05 %, crème | Crème | GLAXOSMITHKLINE | Active |
+| 64103073 | FLUTICASONE FUROATE SUBSTIPHARM 27,5 microgrammes/pulvérisation, suspension pour pulvéris… | Suspension pour pulvérisation | SUBSTIPHARM | Active |
+| 64115257 | FLIXOTIDE DISKUS 250 microgrammes/dose, poudre pour inhalation en récipient unidose | Poudre pour inhalation | GLAXOSMITHKLINE | Active |
+| 68250875 | PROPIONATE DE FLUTICASONE TEVA 250 microgrammes/dose, suspension pour inhalation en flaco… | Suspension pour inhalation | TEVA (PAYS-BAS) | Active |
+| 66921927 | AVAMYS 27,5 microgrammes/pulvérisation, suspension pour pulvérisation nasale | Suspension pour pulvérisation | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 60781984 | PROPIONATE DE FLUTICASONE/SALMETEROL ARROW AIRMASTER 250 microgrammes/ 50 microgrammes/do… | Poudre pour inhalation | ARROW GENERIQUES | Active |
+| 69376535 | PROPIONATE DE FLUTICASONE/SALMETEROL SANDOZ 125 microgrammes/ 25 microgrammes/dose, suspe… | Suspension pour inhalation | SANDOZ | Active |
+| 65420621 | PROPIONATE DE FLUTICASONE/SALMETEROL BGR 125 microgrammes/25 microgrammes/dose, suspensio… | Suspension pour inhalation | BIOGARAN | Active |
+| 68306249 | PROPIONATE DE FLUTICASONE/SALMETEROL ZENTIVA 500 microgrammes/50 microgrammes/dose, poudr… | Poudre pour inhalation | ZENTIVA FRANCE | Active |
+| 64050311 | REVINTY ELLIPTA 92 microgrammes/22 microgrammes, poudre pour inhalation en récipient unid… | Poudre et poudre pour inhalation | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "vincristine"
 predicted_indications: ["vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Vincristine : nouvelle indication prédite, Anomalies vertébrales avec dysfonction endocrinienne et lymphocytaire T variable (niveau de preuve L5). Indication d'origine : Non précisée dans les textes d'AMM disp…"
 ---
 
@@ -74,11 +74,17 @@ Aucune littérature associée disponible actuellement.
 
 La vincristine est commercialisée en France. Les 3 AMM listées sont valides et concernent des spécialités à base de vincristine seule (aucune association).
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Indication Approuvée |
-|---------|------|------|------|-----------|
-| 63115133 | VINCRISTINE TEVA 1 mg/ml | Solution injectable | TEVA SANTE | Texte d'indication non renseigné |
-| 60219803 | VINCRISTINE HOSPIRA 2 mg/2 ml | Solution injectable | PFIZER HOLDING FRANCE | Texte d'indication non renseigné |
-| 60368099 | ONCOVIN 1 mg | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Texte d'indication non renseigné |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63115133 | VINCRISTINE TEVA 1 mg/ml, solution injectable | Solution injectable | TEVA SANTE | Active |
+| 60219803 | VINCRISTINE HOSPIRA 2 mg/2 ml, solution injectable | Solution injectable | PFIZER HOLDING FRANCE | Active |
+| 60368099 | ONCOVIN 1 mg, solution injectable | Solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

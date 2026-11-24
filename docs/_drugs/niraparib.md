@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 538
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "niraparib"
 predicted_indications: ["epiglottis neoplasm", "cystic neoplasm", "benign neoplasm of hypopharynx", "benign neoplasm of tongue", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "tumor of testis and paratestis", "inner ear neoplasm", "pre-malignant neoplasm", "schwannoma of jugular foramen"]
 description: "Niraparib : nouvelle indication prédite, Epiglottis neoplasm (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -80,11 +80,17 @@ Le texte d'indication approuvée n'est pas renseigné pour ces autorisations.
 
 <!-- review:end fr-lic-20261106-niraparib-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61096104 | ZEJULA 100 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
-| 67707919 | ZEJULA 100 mg, gélule | Gélule | Non renseignée |
-| 69324990 | AKEEGA 100 mg/500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61096104 | ZEJULA 100 mg, comprimé pelliculé | Comprimé pelliculé | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 67707919 | ZEJULA 100 mg, gélule | Gélule | GLAXOSMITHKLINE TRADING SERVICES (IRLANDE) | Active |
+| 69324990 | AKEEGA 100 mg/500 mg, comprimé pelliculé | Comprimé pelliculé | JANSSEN CILAG INTERNATIONAL NV | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

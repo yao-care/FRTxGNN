@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 683
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ROXADUSTAT"
 predicted_indications: ["dry eye syndrome", "bone Paget disease", "dentinogenesis imperfecta", "squamous cell carcinoma"]
 description: "Roxadustat : nouvelle indication prédite, Syndrome de l'œil sec (dry eye syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
@@ -87,13 +87,19 @@ Le texte des indications approuvées n'est pas disponible.
 
 <!-- review:end fr-lic-20261106-roxadustat-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 69086973 | EVRENZO 70 mg | Comprimé pelliculé | Active |
-| 66917067 | EVRENZO 20 mg | Comprimé pelliculé | Active |
-| 65259762 | EVRENZO 50 mg | Comprimé pelliculé | Active |
-| 67935673 | EVRENZO 150 mg | Comprimé pelliculé | Active |
-| 63274908 | EVRENZO 100 mg | Comprimé pelliculé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69086973 | EVRENZO 70 mg, comprimé pelliculé | Comprimé pelliculé | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 66917067 | EVRENZO 20 mg, comprimé pelliculé | Comprimé pelliculé | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 65259762 | EVRENZO 50 mg, comprimé pelliculé | Comprimé pelliculé | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 67935673 | EVRENZO 150 mg, comprimé pelliculé | Comprimé pelliculé | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+| 63274908 | EVRENZO 100 mg, comprimé pelliculé | Comprimé pelliculé | ASTELLAS PHARMA EUROPE (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

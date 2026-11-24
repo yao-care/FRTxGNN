@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 177
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "clarithromycin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "punctate epithelial keratoconjunctivitis", "blood group incompatibility"]
 description: "Clarithromycin : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données …"
@@ -79,13 +79,35 @@ Le texte d'indication approuvée n'est pas renseigné pour ces AMM. Les cinq pre
 
 <!-- review:end fr-lic-20261106-clarithromycin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65880178 | CLARITHROMYCINE VIATRIS 25 mg/ml | Granulés pour suspension buvable | Non renseignée (AMM active) |
-| 69132627 | CLARITHROMYCINE SUN 500 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 65040811 | CLARITHROMYCINE ARROW 50 mg/mL | Granulés pour suspension buvable | Non renseignée (AMM active) |
-| 67997205 | ZECLAR 500 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 67197409 | CLARITHROMYCINE VIATRIS 250 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65880178 | CLARITHROMYCINE VIATRIS 25 mg/ml, granulés pour suspension buvable | Granulés pour suspension buvable | VIATRIS SANTE | Active |
+| 69132627 | CLARITHROMYCINE SUN 500 mg, comprimé pelliculé | Comprimé pelliculé | SUN PHARMA FRANCE | Active |
+| 65040811 | CLARITHROMYCINE ARROW 50 mg/mL, granulés pour suspension buvable | Granulés pour suspension buvable | ARROW GENERIQUES | Active |
+| 67997205 | ZECLAR 500 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS MEDICAL | Active |
+| 67197409 | CLARITHROMYCINE VIATRIS 250 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 61594165 | CLARITHROMYCINE VIATRIS 50 mg/ml, granulés pour suspension buvable | Granulés pour suspension buvable | VIATRIS SANTE | Active |
+| 60726518 | CLARITHROMYCINE ARROW 500 mg, comprimé pelliculé à libération modifiée | Comprimé pelliculé à libération modifiée | ARROW GENERIQUES | Active |
+| 69468962 | CLARITHROMYCINE SANDOZ 250 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 64712373 | CLARITHROMYCINE ZYDUS 500 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 65441220 | CLARITHROMYCINE BIOGARAN 500 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61394570 | CLARITHROMYCINE TEVA 250 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 64907971 | CLARITHROMYCINE EVOLUGEN 250 mg, comprimé pelliculé | Comprimé pelliculé | EVOLUPHARM | Active |
+| 69702372 | CLARITHROMYCINE HCS 500 mg, comprimé pelliculé | Comprimé pelliculé | HCS (BELGIQUE) | Active |
+| 61966605 | CLARITHROMYCINE EG 500 mg, comprimé pelliculé à libération modifiée | Comprimé pelliculé à libération modifiée | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62913185 | CLARITHROMYCINE ACCORD 500 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 68293225 | CLARITHROMYCINE ALMUS 500 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 61904023 | CLARITHROMYCINE VIATRIS 500 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 60814021 | CLARITHROMYCINE ARROW 500 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 64430025 | CLARITHROMYCINE ALMUS 250 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68356362 | CLARITHROMYCINE ACCORD 250 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

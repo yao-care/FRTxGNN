@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "CAPLACIZUMAB"
 predicted_indications: ["primary release disorder of platelets", "pseudo-von Willebrand disease", "Glanzmann thrombasthenia", "Scott syndrome", "bleeding diathesis due to a collagen receptor defect", "hemorrhagic disorder due to a constitutional thrombocytopenia", "fetal and neonatal alloimmune thrombocytopenia", "hemophilia", "platelet-type bleeding disorder"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Caplacizumab : nouvelle indication prédite, Trouble de la libération primaire des plaquettes (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée dans …"
 ---
 
@@ -71,9 +71,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64183564 | CABLIVI 10 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64183564 | CABLIVI 10 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | ABLYNX (BELGIQUE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les données locales font état d'une seule AMM, dont l'enregistrement est partiel ou non détaillé quant au texte d'indication.
 

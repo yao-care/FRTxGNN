@@ -85,10 +85,19 @@ Une revue de 2026 ([42748473](https://pubmed.ncbi.nlm.nih.gov/42748473/), *Europ
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61794949 | ALOXI 250 microgrammes, solution injectable (active) | Solution injectable | Non renseignée |
-| 67538668 | PALONOSETRON KALCEKS 250 microgrammes, solution injectable (active) | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61794949 | ALOXI 250 microgrammes, solution injectable | Solution injectable | HELSINN BIREX PHARMACEUTICALS | Active |
+| 67538668 | PALONOSETRON KALCEKS 250 microgrammes, solution injectable | Solution injectable | KALCEKS (LETTONIE) | Active |
+| 67044648 | PALONOSETRON REIG JOFRE 250 microgrammes, solution injectable | Solution injectable | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 67300396 | PALONOSETRON ACCORD 250 microgrammes, solution injectable | Solution injectable | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67693946 | AKYNZEO 300 mg/0,5 mg, gélules | Gélule | HELSINN BIREX PHARMACEUTICALS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

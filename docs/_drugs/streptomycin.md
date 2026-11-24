@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 714
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "streptomycin"
 predicted_indications: ["conjunctivitis", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "otitis externa", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "Lyme disease", "infectious otitis interna"]
 description: "Streptomycin : nouvelle indication prédite, Conjonctivite (conjunctivitis) (niveau de preuve L4). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -84,9 +84,15 @@ Sélection des publications les plus pertinentes (aucun ECR identifié) :
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68691827 | STREPTOMYCINUM BOIRON (dilution 4CH à 30CH ou 8DH à 60DH) | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68691827 | STREPTOMYCINUM BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Il s'agit d'une spécialité homéopathique, différente de la streptomycine antibiotique injectable.
 

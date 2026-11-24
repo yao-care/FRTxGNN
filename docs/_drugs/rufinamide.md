@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 685
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RUFINAMIDE"
 predicted_indications: ["perioral myoclonia with absences"]
 description: "Rufinamide : nouvelle indication prédite, Perioral myoclonia with absences (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -71,12 +71,18 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67454800 | INOVELON 100 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 65037644 | INOVELON 200 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM active) |
-| 62205873 | INOVELON 40 mg/ml, suspension buvable | Suspension buvable | Non renseignée (AMM active) |
-| 65869160 | INOVELON 400 mg, comprimé pelliculé | Comprimé pelliculé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67454800 | INOVELON 100 mg, comprimé pelliculé | Comprimé pelliculé sécable | EISAI (ROYAUME-UNI) | Active |
+| 65037644 | INOVELON 200 mg, comprimé pelliculé | Comprimé pelliculé sécable | EISAI (ROYAUME-UNI) | Active |
+| 62205873 | INOVELON 40 mg/ml, suspension buvable | Suspension buvable | EISAI (ROYAUME-UNI) | Active |
+| 65869160 | INOVELON 400 mg, comprimé pelliculé | Comprimé pelliculé sécable | EISAI (ROYAUME-UNI) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

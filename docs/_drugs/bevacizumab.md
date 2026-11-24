@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "bevacizumab"
 predicted_indications: ["epiglottis neoplasm", "benign neoplasm of tongue", "tumor of testis and paratestis", "benign neoplasm of hypopharynx", "benign neoplasm of floor of mouth", "cervical neuroblastoma", "cystic neoplasm", "nasal cavity inverting papilloma", "mesenchymoma", "schwannoma of jugular foramen"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Bevacizumab : nouvelle indication prédite, Tumeur de l'épiglotte (epiglottis neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
@@ -72,13 +72,22 @@ Aucune littérature associée disponible actuellement.
 
 Les données compilées recensent 8 AMM pour des spécialités contenant du bévacizumab seul (princeps et biosimilaires), toutes sous forme de solution à diluer pour perfusion. Le texte d'indication approuvée n'est pas renseigné dans ces données locales.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 65303582 | AYBINTIO 25 mg/ml | Solution à diluer pour perfusion |
-| 60391646 | AVASTIN 25 mg/ml | Solution à diluer pour perfusion |
-| 62051980 | VEGZELMA 25 mg/ml | Solution à diluer pour perfusion |
-| 61409314 | MVASI 25 mg/mL | Solution à diluer pour perfusion |
-| 64586704 | ALYMSYS 25 mg/mL | Solution à diluer pour perfusion |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65303582 | AYBINTIO 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 60391646 | AVASTIN 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ROCHE REGISTRATION (ALLEMAGNE) | Active |
+| 62051980 | VEGZELMA 25 mg/ml solution à diluer pour perfusion | Solution à diluer pour perfusion | CELLTRION HEALTHCARE HUNGARY (HONGRIE) | Active |
+| 61409314 | MVASI 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | AMGEN TECHNOLOGY (IRELAND) | Active |
+| 64586704 | ALYMSYS 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | MABXIENCE RESEARCH (ESPAGNE) | Active |
+| 64224872 | ZIRABEV 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 67397826 | ABEVMY 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 65261005 | OYAVAS 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | STADA ARZNEIMITTEL AG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

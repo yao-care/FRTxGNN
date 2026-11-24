@@ -70,9 +70,25 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
+<!-- licenses:begin -->
+
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
-|---------|------|------|------|------|
+|------|------|------|------|------|
 | 62580656 | ACUPAN 20 mg/2 mL, solution injectable | Solution injectable | BIOCODEX | Active |
+| 60325201 | NEFOPAM MEDISOL 20 mg/2 ml, solution injectable | Solution injectable | MEDISOL | Active |
+| 60601468 | NEFOPAM PANPHARMA 30 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRE CEVIDRA | Active |
+| 61120249 | NEFOPAM BIOGARAN 20 mg/2 mL, solution injectable | Solution injectable | BIOCODEX | Active |
+| 62227567 | NEFOPAM VIATRIS 20 mg/2 ml, solution injectable | Solution injectable | VIATRIS SANTE | Active |
+| 62781958 | NEFOPAM BIOGARAN 30 mg, comprimé pelliculé | Comprimé pelliculé | BIOCODEX | Active |
+| 65879902 | NEFOPAM PANPHARMA 20 mg/2 mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | PANMEDICA | Active |
+| 66446117 | NEFOPAM TEVA 20 mg/2 mL, solution injectable | Solution injectable | TEVA (PAYS-BAS) | Active |
+| 68701965 | NEFOPAM ARROW 20 mg/2 ml, solution injectable | Solution injectable | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 68943687 | ACUPAN, comprimé | Comprimé | BIOCODEX | Active |
+| 69707679 | NEFOPAM VENIPHARM 20 mg/2 mL, solution injectable | Solution injectable | VENIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

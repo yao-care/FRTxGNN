@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 731
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tamoxifen"
 predicted_indications: ["mammary Paget disease", "Ehrlich tumor carcinoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina"]
 description: "Tamoxifen : nouvelle indication prédite, Mammary Paget disease (niveau de preuve L5). En France, AMM dans la BDPM : 14 (valides : 14)"
@@ -108,13 +108,28 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 
 <!-- review:end fr-lic-20261106-tamoxifen-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61003801 | TAMOXIFENE SANDOZ 20 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69203907 | TAMOXIFENE BIOGARAN 10 mg | Comprimé | Non renseignée (AMM active) |
-| 61961476 | NOLVADEX 10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60328432 | NOLVADEX 20 mg | Comprimé enrobé | Non renseignée (AMM active) |
-| 69424909 | TAMOXIFENE SANDOZ 10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61003801 | TAMOXIFENE SANDOZ 20 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69203907 | TAMOXIFENE BIOGARAN 10 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 61961476 | NOLVADEX 10 mg, comprimé pelliculé | Comprimé pelliculé | ASTRAZENECA | Active |
+| 60328432 | NOLVADEX 20 mg, comprimé enrobé | Comprimé enrobé | ASTRAZENECA | Active |
+| 69424909 | TAMOXIFENE SANDOZ 10 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 60940205 | TAMOXIFENE VIATRIS 20 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 67631396 | TAMOXIFENE ZYDUS 20 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 60859059 | TAMOXIFENE EG 10 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60230550 | TAMOXIFENE BIOGARAN 20 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 61789941 | TAMOXIFENE VIATRIS 10 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 69392468 | TAMOXIFENE EG 20 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62147950 | TAMOXIFENE ARROW 20 mg, comprimé | Comprimé | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 63625168 | TAMOXIFENE TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 60745696 | TAMOXIFENE TEVA 20 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

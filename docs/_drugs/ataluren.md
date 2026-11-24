@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "ATALUREN"
 predicted_indications: ["benign recurrent intrahepatic cholestasis", "inborn disorder of bilirubin metabolism", "hereditary North American Indian childhood cirrhosis", "familial intrahepatic cholestasis", "severe nonproliferative diabetic retinopathy", "bilirubin metabolism disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ataluren : nouvelle indication prédite, Cholestase intrahépatique récurrente bénigne (benign recurrent intrahepatic cholestasis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
 ---
 
@@ -84,11 +84,17 @@ Aucune littérature associée disponible actuellement.
 
 Les données réglementaires locales recensent 3 AMM pour l'ataluren (spécialité TRANSLARNA, PTC Therapeutics International, Irlande), toutes annulées ; aucune n'est valide. Le médicament n'est donc actuellement pas couvert par une AMM valide en France.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 68469328 | TRANSLARNA 1000 mg | Granulés pour suspension buvable | Annulée |
-| 65945882 | TRANSLARNA 250 mg | Granulés pour suspension buvable | Annulée |
-| 67503464 | TRANSLARNA 125 mg | Granulés pour suspension buvable | Annulée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68469328 | TRANSLARNA 1000 mg, granulés pour suspension buvable | Granulés pour suspension buvable | PTC THERAPEUTICS INTERNATIONAL (IRLANDE) | Archivée |
+| 65945882 | TRANSLARNA 250 mg, granulés pour suspension buvable | Granulés pour suspension buvable | PTC THERAPEUTICS INTERNATIONAL (IRLANDE) | Archivée |
+| 67503464 | TRANSLARNA 125 mg, granulés pour suspension buvable | Granulés pour suspension buvable | PTC THERAPEUTICS INTERNATIONAL (IRLANDE) | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

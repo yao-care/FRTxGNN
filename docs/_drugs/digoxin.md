@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 241
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "digoxin"
 predicted_indications: ["Prinzmetal angina", "duodenal obstruction", "duodenal ulcer (disease)", "duodenogastric reflux", "hypoalphalipoproteinemia"]
 description: "Digoxin : nouvelle indication prédite, Angor de Prinzmetal (Prinzmetal angina) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -72,12 +72,18 @@ Aucune littérature associée disponible actuellement pour l'angor de Prinzmetal
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65458013 | DIGOXINE NATIVELLE ADULTES 0,50 mg/2 ml, solution injectable IV (active) | Solution injectable | Non renseignée |
-| 63593820 | HEMIGOXINE NATIVELLE 0,125 mg, comprimé (active) | Comprimé | Non renseignée |
-| 61917063 | DIGOXINE NATIVELLE 5 microgrammes/0,1 ml, solution buvable en gouttes (active) | Solution buvable en gouttes | Non renseignée |
-| 67681303 | DIGOXINE NATIVELLE 0,25 mg, comprimé (active) | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65458013 | DIGOXINE NATIVELLE ADULTES 0,50 mg/2 ml, solution injectable IV | Solution injectable | TEOFARMA | Active |
+| 63593820 | HEMIGOXINE NATIVELLE 0,125 mg, comprimé | Comprimé | TEOFARMA | Active |
+| 61917063 | DIGOXINE NATIVELLE 5 microgrammes/0,1 ml, solution buvable en gouttes | Solution buvable en gouttes | TEOFARMA | Active |
+| 67681303 | DIGOXINE NATIVELLE 0,25 mg, comprimé | Comprimé | TEOFARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les quatre AMM, détenues par TEOFARMA, sont valides ; le médicament est commercialisé.
 

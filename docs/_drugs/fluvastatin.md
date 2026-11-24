@@ -90,13 +90,29 @@ La fluvastatine est commercialisée en France. Les textes d'indication ne sont p
 
 <!-- review:end fr-lic-20261112-fluvastatin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60852004 | LESCOL L.P. 80 mg | Comprimé pelliculé à libération prolongée | Non renseignée |
-| 66946962 | FLUVASTATINE BIOGARAN 40 mg | Gélule | Non renseignée |
-| 66605982 | FLUVASTATINE CEVIDRA 20 mg | Gélule | Non renseignée |
-| 68067589 | FLUVASTATINE SANDOZ LP 80 mg | Comprimé pelliculé à libération prolongée | Non renseignée |
-| 62756595 | FLUVASTATINE SANDOZ 20 mg | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60852004 | LESCOL L.P. 80 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ETHYX PHARMACEUTICALS | Active |
+| 66946962 | FLUVASTATINE BIOGARAN 40 mg, gélule | Gélule | BIOGARAN | Active |
+| 66605982 | FLUVASTATINE CEVIDRA 20 mg, gélule | Gélule | DOUBLE-E PHARMA (IRLANDE) | Active |
+| 68067589 | FLUVASTATINE SANDOZ LP 80 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | SANDOZ | Active |
+| 62756595 | FLUVASTATINE SANDOZ 20 mg, gélule | Gélule | SANDOZ | Active |
+| 63897780 | FLUVASTATINE BIOGARAN 20 mg, gélule | Gélule | BIOGARAN | Active |
+| 62468632 | FLUVASTATINE VIATRIS 20 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 65550846 | FLUVASTATINE CEVIDRA 40 mg, gélule | Gélule | DOUBLE-E PHARMA (IRLANDE) | Active |
+| 60852253 | FLUVASTATINE VIATRIS 40 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 64300843 | FLUVASTATINE SANDOZ 40 mg, gélule | Gélule | SANDOZ | Active |
+| 61763366 | FLUVASTATINE ARROW 20 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 61940966 | FLUVASTATINE ARROW 40 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 62912304 | FLUVASTATINE ARROW L.P. 80 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ARROW GENERIQUES | Abrogée |
+| 60679068 | FLUVASTATINE ZENTIVA L.P. 80 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ZENTIVA FRANCE | Archivée |
+| 60958826 | FLUVASTATINE ACCORD LP 80 mg, comprimé pelliculé à libération prolongée | Comprimé pelliculé à libération prolongée | ACCORD HEALTHCARE FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

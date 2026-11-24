@@ -79,13 +79,32 @@ Les données compilées recensent 18 AMM, toutes de statut valide. Les 5 premiè
 
 <!-- review:end fr-lic-20261124-amoxicillin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 66918105 | AMOXICILLINE PANPHARMA 1 g, poudre pour solution injectable | Poudre pour solution injectable |
-| 69915160 | AMOXICILLINE PANPHARMA 1 g/5 ml, poudre et solution pour solution injectable (IM) | Poudre et solution pour solution injectable |
-| 69416855 | AMOXICILLINE PANPHARMA 2 g, poudre pour solution injectable | Poudre pour solution injectable |
-| 61645058 | XYLLOMAC 500 mg, poudre pour solution injectable/pour perfusion (IM-IV) | Poudre pour solution injectable ou pour perfusion |
-| 60271045 | XYLLOMAC 2 g, poudre pour solution injectable/pour perfusion (IV) | Poudre pour solution injectable ou pour perfusion |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66918105 | AMOXICILLINE PANPHARMA 1 g, poudre pour solution injectable | Poudre pour solution injectable | PANPHARMA | Active |
+| 69915160 | AMOXICILLINE PANPHARMA 1 g/5 ml, poudre et solution pour solution injectable (IM) | Poudre et solution pour solution injectable | PANPHARMA | Active |
+| 69416855 | AMOXICILLINE PANPHARMA 2 g, poudre pour solution injectable | Poudre pour solution injectable | PANPHARMA | Active |
+| 61645058 | XYLLOMAC 500 mg, poudre pour solution injectable/pour perfusion (IM-IV) | Poudre pour solution injectable ou pour perfusion | LABORATOIRES DELBERT | Active |
+| 60271045 | XYLLOMAC 2 g, poudre pour solution injectable/pour perfusion (IV) | Poudre pour solution injectable ou pour perfusion | LABORATOIRES DELBERT | Active |
+| 61801023 | XYLLOMAC 1 g, poudre pour solution injectable/pour perfusion (I.M.-I.V.) | Poudre pour solution injectable ou pour perfusion | LABORATOIRES DELBERT | Active |
+| 63084015 | LEVMENTIN 2 g/200 mg ADULTES, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LABORATOIRES DELBERT | Active |
+| 64473140 | AMOXICILLINE/ACIDE CLAVULANIQUE PANPHARMA 2 g/200 mg ADULTES, poudre pour solution inject… | Poudre pour solution injectable | PANPHARMA | Active |
+| 64582182 | LEVMENTIN 1 g/200 mg, poudre pour solution injectable/pour perfusion (IV) | Poudre pour solution injectable ou pour perfusion | LABORATOIRES DELBERT | Active |
+| 63327759 | AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ 2 g/200 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | SANDOZ | Active |
+| 65324007 | AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ 500 mg/50 mg, poudre pour solution injectable/pour… | Poudre pour solution injectable ou pour perfusion | SANDOZ | Active |
+| 69325964 | LEVMENTIN 500 mg/50 mg, poudre pour solution injectable/pour perfusion (IV) | Poudre pour solution injectable ou pour perfusion | LABORATOIRES DELBERT | Active |
+| 61119706 | AMOXICILLINE/ACIDE CLAVULANIQUE PANPHARMA 500 mg/50 mg nourrissons et enfants, poudre pou… | Poudre pour solution injectable | PANPHARMA | Active |
+| 69493182 | AMOXICILLINE/ACIDE CLAVULANIQUE PANPHARMA 1 g/200 mg ADULTES, poudre pour solution inject… | Poudre pour solution injectable | PANPHARMA | Active |
+| 62096413 | AMOXICILLINE/ACIDE CLAVULANIQUE SANDOZ 1 g/200 mg, poudre pour solution injectable/pour p… | Poudre pour solution injectable ou pour perfusion | SANDOZ | Active |
+| 68021727 | AMOXICILLINE PANPHARMA 500 mg, poudre pour solution injectable | Poudre pour solution injectable | PANPHARMA | Active |
+| 64160423 | AMOXICILLINE/ACIDE CLAVULANIQUE REIG JOFRE 1 g/200 mg, poudre pour solution injectable/po… | Poudre pour solution injectable ou pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+| 68592117 | AMOXICILLINE/ACIDE CLAVULANIQUE REIG JOFRE 2 g/200 mg, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | LABORATORIO REIG JOFRE (ESPAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

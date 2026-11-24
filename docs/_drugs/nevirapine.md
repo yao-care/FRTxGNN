@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 533
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nevirapine"
 predicted_indications: ["feline acquired immunodeficiency syndrome", "simian immunodeficiency virus infection", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Nevirapine : nouvelle indication prédite, Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les …"
@@ -84,13 +84,25 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée | Statut |
-|---------|------|------|-----------|-----|
-| 61512136 | NEVIRAPINE SANDOZ 200 mg | Comprimé | Non renseignée | Active |
-| 60433166 | NEVIRAPINE SANDOZ LP 400 mg | Comprimé à libération prolongée | Non renseignée | Active |
-| 69410368 | VIRAMUNE 400 mg | Comprimé à libération prolongée | Non renseignée | Active |
-| 63791738 | VIRAMUNE 200 mg | Comprimé | Non renseignée | Active |
-| 65256474 | NEVIRAPINE VIATRIS 200 mg | Comprimé | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61512136 | NEVIRAPINE SANDOZ 200 mg, comprimé | Comprimé | SANDOZ | Active |
+| 60433166 | NEVIRAPINE SANDOZ LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | SANDOZ | Active |
+| 69410368 | VIRAMUNE 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 60678735 | NEVIRAPINE VIATRIS L.P. 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | VIATRIS SANTE | Active |
+| 61823589 | NEVIRAPINE ACCORD LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ACCORD HEALTHCARE FRANCE | Active |
+| 68759947 | NEVIRAPINE CRISTERS LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | CRISTERS | Active |
+| 67334039 | NEVIRAPINE ARROW LAB 200 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 66890524 | NEVIRAPINE TEVA LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | TEVA SANTE | Active |
+| 69028781 | NEVIRAPINE ARROW LP 400 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ARROW GENERIQUES | Active |
+| 63791738 | VIRAMUNE 200 mg, comprimé | Comprimé | BOEHRINGER INGELHEIM INTERNATIONAL | Active |
+| 65256474 | NEVIRAPINE VIATRIS 200 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 11 AMM sont répertoriées; seules les 5 principales sont listées ci-dessus.
 

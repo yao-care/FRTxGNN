@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 449
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "levodopa"
 predicted_indications: ["Rasmussen subacute encephalitis"]
 description: "Levodopa : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -82,15 +82,37 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas disponible dans les données compilées. Les 5 premières AMM sont listées ci-dessous.
+Le texte d'indication approuvée n'est pas disponible dans les données compilées.
+
+<!-- licenses:begin -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
-|---------|------|------|------|------|
-| 69606865 | SINEMET 100 mg/10 mg | Comprimé | Organon France | Active |
-| 60660790 | Levodopa/Bensérazide Teva 200 mg/50 mg | Gélule | Teva Santé | Active |
-| 64793585 | Levodopa Carbidopa Teva LP 100 mg/25 mg | Comprimé à libération prolongée | Teva Santé | Active |
-| 61721132 | Levodopa Carbidopa Teva 250 mg/25 mg | Comprimé sécable | Teva Santé | Active |
-| 66818261 | SINEMET LP 100 mg/25 mg | Comprimé à libération prolongée | Organon France | Active |
+|------|------|------|------|------|
+| 69606865 | SINEMET 100 mg/10 mg, comprimé | Comprimé | ORGANON FRANCE | Active |
+| 60660790 | LEVODOPA/BENSERAZIDE TEVA 200 mg/50 mg, gélule | Gélule | TEVA SANTE | Active |
+| 64793585 | LEVODOPA CARBIDOPA TEVA LP 100 mg/25 mg, comprimé à libération prolongée | Comprimé à libération prolongée | TEVA SANTE | Active |
+| 61721132 | LEVODOPA CARBIDOPA TEVA 250 mg/25 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 66818261 | SINEMET LP 100 mg/25 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ORGANON FRANCE | Active |
+| 60092590 | SINEMET 250 mg/25 mg, comprimé sécable | Comprimé sécable | ORGANON FRANCE | Active |
+| 60485953 | MODOPAR 250 (200 mg/50 mg), gélule | Gélule | ROCHE | Active |
+| 64275824 | LEVODOPA CARBIDOPA TEVA 100 mg/10 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 64757532 | DUODOPA 20 mg/ml + 5 mg/ml, gel intestinal | Gel intestinal | ABBVIE | Active |
+| 64470678 | MODOPAR L.P. 125 (100 mg/25 mg), gélule à libération prolongée | Gélule à libération prolongée | ROCHE | Active |
+| 65122219 | MODOPAR 125 (100 mg/25 mg), gélule | Gélule | ROCHE | Active |
+| 65065736 | MODOPAR 62,5 (50 mg/12,5 mg), gélule | Gélule | ROCHE | Active |
+| 66384181 | MODOPAR 125 DISPERSIBLE (100 mg/25 mg), comprimé sécable pour suspension buvable | Comprimé sécable pour suspension buvable | ROCHE | Active |
+| 66749235 | SINEMET LP 200 mg/50 mg, comprimé à libération prolongée | Comprimé à libération prolongée | ORGANON FRANCE | Active |
+| 60914000 | LEVODOPA CARBIDOPA TEVA LP 200 mg/50 mg, comprimé à libération prolongée | Comprimé à libération prolongée | TEVA SANTE | Active |
+| 64786092 | LEVODOPA/BENSERAZIDE TEVA 50 mg/12,5 mg, gélule | Gélule | TEVA SANTE | Active |
+| 60793381 | LEVODOPA/BENSERAZIDE TEVA 100 mg/25 mg, gélule | Gélule | TEVA SANTE | Active |
+| 62892111 | STALEVO 50 mg/12,5 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | ORION CORPORATION | Active |
+| 60701582 | LEVODOPA/CARBIDOPA/ENTACAPONE TEVA 150 mg/37,5 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 66867148 | LEVODOPA/CARBIDOPA/ENTACAPONE BIOGARAN 75 mg/18,75 mg/200 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

@@ -95,9 +95,16 @@ Sélection des publications les plus pertinentes (toutes sont des revues ou des 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69700033 | LOXAPAC, solution buvable (CNX Therapeutics France) | Solution buvable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69700033 | LOXAPAC, solution buvable | Solution buvable | CNX THERAPEUTICS FRANCE | Active |
+| 69485940 | LOXAPAC 50 mg/2 ml, solution injectable en ampoule (IM) | Solution injectable | CNX THERAPEUTICS FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

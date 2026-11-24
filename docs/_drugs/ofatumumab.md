@@ -7,7 +7,7 @@ evidence_level: L2
 indication_count: 4
 monitor_inn: "OFATUMUMAB"
 predicted_indications: ["follicular lymphoma", "metastatic neoplasm", "malignant spiradenoma", "Langerhans cell histiocytosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ofatumumab : nouvelle indication prédite, Lymphome folliculaire (niveau de preuve L2). Indication d'origine : Leucémie lymphoblastique aiguë et syndrome de Richter"
 ---
 
@@ -103,9 +103,15 @@ Les données compilées ne contiennent pas d'essai randomisé de phase 3 achevé
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60690011 | KESIMPTA 20 mg, solution injectable en stylo prérempli (NOVARTIS EUROPHARM) | Solution injectable | Texte d'indication non renseigné dans les données compilées |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60690011 | KESIMPTA 20 mg, solution injectable en stylo prérempli | Solution injectable | NOVARTIS EUROPHARM (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 L'ofatumumab est commercialisé en France sous la forme d'un stylo prérempli injectable. Les données compilées ne permettent pas de confirmer la disponibilité d'une présentation adaptée au traitement des lymphomes, alors que les essais cités reposent sur des perfusions.
 

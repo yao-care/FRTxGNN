@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 784
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "treprostinil"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "malformation syndrome with odontal and/or periodontal component", "Ambras type hypertrichosis universalis congenita"]
 description: "Treprostinil : nouvelle indication prédite, Pulmonary arteriovenous malformation (disease) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
@@ -84,15 +84,32 @@ Sélection parmi les 20 publications retrouvées. Aucune n'est un ECR spécifiqu
 
 ## Informations de Marché en France
 
-Le texte de l'indication approuvée n'est pas renseigné. Principales AMM :
+Le texte de l'indication approuvée n'est pas renseigné.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68635974 | REMODULIN 1 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (active) |
-| 66923928 | REMODULIN 5 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (active) |
-| 65213010 | REMODULIN 10 mg/ml (Ferrer) | Solution pour perfusion | Non renseignée (active) |
-| 63853809 | TREPROSTINIL TILLOMED 2,5 mg/mL | Solution pour perfusion | Non renseignée (active) |
-| 65976536 | TREPROSTINIL REDDY PHARMA 10 mg/mL | Solution pour perfusion | Non renseignée (active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68635974 | REMODULIN 1 mg/ml, solution pour perfusion | Solution pour perfusion | FERRER INTERNACIONAL (ESPAGNE) | Active |
+| 66923928 | REMODULIN 5 mg/ml, solution pour perfusion | Solution pour perfusion | FERRER INTERNACIONAL (ESPAGNE) | Active |
+| 63853809 | TREPROSTINIL TILLOMED 2,5 mg/mL, solution pour perfusion | Solution pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 65976536 | TREPROSTINIL REDDY PHARMA 10 mg/mL, solution pour perfusion | Solution pour perfusion | REDDY PHARMA | Active |
+| 68615338 | TREPOSUVI 1 mg/ml, solution pour perfusion | Solution pour perfusion | ORPHA DEVEL HANDELS & VERTRIEBS | Active |
+| 60856579 | TREPOSUVI 2,5 mg/ml, solution pour perfusion | Solution pour perfusion | ORPHA DEVEL HANDELS & VERTRIEBS | Active |
+| 60860524 | TREPOSUVI 10 mg/ml, solution pour perfusion | Solution pour perfusion | ORPHA DEVEL HANDELS & VERTRIEBS | Active |
+| 65213010 | REMODULIN 10 mg/ml, solution pour perfusion | Solution pour perfusion | FERRER INTERNACIONAL (ESPAGNE) | Active |
+| 69782087 | TREPROSTINIL TILLOMED 10 mg/mL, solution pour perfusion | Solution pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 69946266 | TREPROSTINIL REDDY PHARMA 2,5 mg/mL, solution pour perfusion | Solution pour perfusion | REDDY PHARMA | Active |
+| 62997831 | TREPROSTINIL TILLOMED 5 mg/mL, solution pour perfusion | Solution pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 69287862 | TREPOSUVI 5 mg/ml, solution pour perfusion | Solution pour perfusion | ORPHA DEVEL HANDELS & VERTRIEBS | Active |
+| 68395529 | TREPROSTINIL TILLOMED 1 mg/mL, solution pour perfusion | Solution pour perfusion | TILLOMED PHARMA (ALLEMAGNE) | Active |
+| 64308797 | TREPROSTINIL REDDY PHARMA 5 mg/mL, solution pour perfusion | Solution pour perfusion | REDDY PHARMA | Active |
+| 60937287 | REMODULIN 2,5 mg/ml, solution pour perfusion | Solution pour perfusion | FERRER INTERNACIONAL (ESPAGNE) | Active |
+| 66055271 | TREPROSTINIL REDDY PHARMA 1 mg/mL, solution pour perfusion | Solution pour perfusion | REDDY PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 691
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "salicylic acid"
 predicted_indications: ["papillary conjunctivitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "rosacea conjunctivitis", "acromesomelic dysplasia, Hunter-Thompson type", "pseudoachondroplasia", "myosclerosis", "brachyolmia"]
 description: "Salicylic Acid : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -82,10 +82,16 @@ Aucune litterature associee disponible actuellement.
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 65711534 | SALICYLICUM ACIDUM BOIRON, degre de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH (BOIRON) | Comprime, solution, granules, poudre et pommade | Non renseignee (AMM active) |
-| 64614242 | BILLEROL, comprime a croquer (LEHNING) | Comprime a croquer | Non renseignee (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65711534 | SALICYLICUM ACIDUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60… | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 64614242 | BILLEROL, comprimé à croquer | Comprimé à croquer | LEHNING | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

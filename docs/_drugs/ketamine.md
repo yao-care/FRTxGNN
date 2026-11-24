@@ -92,10 +92,20 @@ Les autres publications retrouvées concernent surtout la dépression, l'abus d'
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62768665 | KETAMINE PANPHARMA 10 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | Non renseignée (AMM active) |
-| 69278297 | KETAMINE PANPHARMA 50 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62768665 | KETAMINE PANPHARMA 10 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | PANPHARMA | Active |
+| 69278297 | KETAMINE PANPHARMA 50 mg/mL, solution injectable (I.V.-I.M.) | Solution injectable | PANPHARMA | Active |
+| 63597509 | KETAMINE RENAUDIN 50 mg/mL, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 67132571 | KETAMINE RENAUDIN 10 mg/mL, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 63475544 | KETAMINE G.L. PHARMA 50 mg/mL, solution injectable | Solution injectable | G.L. PHARMA (AUTRICHE) | Abrogée |
+| 64613845 | KETAMINE G.L. PHARMA 10 mg/mL, solution injectable | Solution injectable | G.L. PHARMA (AUTRICHE) | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

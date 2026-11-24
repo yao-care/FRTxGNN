@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 205
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cysteine : nouvelle indication prédite, Syndrome de l'œil sec (dry eye syndrome) (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM (texte d'indication vide pour t…"
 monitor_inn: "cysteine"
 predicted_indications: ["dry eye syndrome", "closed-angle glaucoma", "nasal cavity disease", "acute laryngopharyngitis", "pharyngitis", "exercise-induced malignant hyperthermia", "angle-closure glaucoma"]
@@ -85,13 +85,22 @@ Les autres publications retrouvées concernent le syndrome de Sjögren (généti
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | Non renseignée (AMM active) |
-| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | Non renseignée (AMM active) |
-| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
-| 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
-| 60208447 | NP100 PREMATURES AP-HP, solution pour perfusion | Solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64743130 | AMINOSTAB, solution injectable pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 66743613 | VAMINOLACT, solution pour perfusion en flacon | Solution pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 62789435 | PRIMENE 10 %, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 69985493 | VINTENE, solution injectable pour perfusion | Solution pour perfusion | BAXTER | Active |
+| 60208447 | NP100 PREMATURES AP-HP, solution pour perfusion | Solution pour perfusion | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+| 66490117 | NUMETAH G13% E PREMATURES, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | BAXTER | Active |
+| 64875819 | NUMETAH G19%E, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | BAXTER | Active |
+| 69278991 | NUMETAH G16%E, émulsion pour perfusion | Solution et solution et émulsion pour perfusion | BAXTER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 8 AMM sont recensées. Les 3 autres sont les émulsions NUMETAH G13 % E PREMATURES, G16 % E et G19 % E (Baxter).
 

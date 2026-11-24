@@ -84,10 +84,19 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66807418 | GRANOCYTE 13 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM active) |
-| 65066667 | GRANOCYTE 34 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seringue préremplie | Poudre et solvant pour solution injectable pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66807418 | GRANOCYTE 13 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seri… | Poudre et solvant pour solution injectable pour perfusion | CHUGAI PHARMA FRANCE | Active |
+| 65066667 | GRANOCYTE 34 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seri… | Poudre et solvant pour solution injectable pour perfusion | CHUGAI PHARMA FRANCE | Active |
+| 63992157 | GRANOCYTE 34 Millions UI/ML, poudre et solvant pour solution injectable/perfusion en seri… | Poudre et solvant | DIFARMED (ESPAGNE) | Abrogée |
+| 68179481 | GRANOCYTE 34 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seri… | Poudre et solvant | BB FARMA (ITALIE) | Abrogée |
+| 69826879 | GRANOCYTE 34 Millions UI/ml, poudre et solvant pour solution injectable/perfusion en seri… | Poudre et solvant | PHARMA LAB | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

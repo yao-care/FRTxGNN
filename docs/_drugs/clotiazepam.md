@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 190
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Clotiazepam : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "clotiazepam"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -75,10 +75,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65558647 | VERATRAN 5 mg, comprimé | Comprimé | Non renseignée (AMM active) |
-| 68771419 | VERATRAN 10 mg, comprimé sécable | Comprimé sécable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65558647 | VERATRAN 5 mg, comprimé | Comprimé | AMDIPHARM | Active |
+| 68771419 | VERATRAN 10 mg, comprimé sécable | Comprimé sécable | AMDIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 761
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ticarcillin"
 predicted_indications: ["lymph node palisaded myofibroblastoma", "abdominal cystic lymphangioma", "celiac trunk compression syndrome", "abdominal ectopic pregnancy", "sacrum chordoma", "disease of retroperitoneum", "urethral disease", "disease of uterine broad ligament", "disease of peritoneum", "pelvic varices"]
 description: "Ticarcillin : nouvelle indication prédite, Lymph node palisaded myofibroblastoma (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -112,10 +112,16 @@ Le texte d'indication approuvée n'est pas renseigné.
 
 <!-- review:end fr-lic-20261106-ticarcillin-2 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 67951898 | CLAVENTIN 3 g/200 mg | Poudre pour solution injectable (I.V.) | Active |
-| 67557120 | CLAVENTIN 5 g/200 mg | Poudre pour solution injectable (I.V.) | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67951898 | CLAVENTIN 3 g/200 mg, poudre pour solution injectable (I.V.) | Poudre pour solution injectable | LABORATOIRES DELBERT | Active |
+| 67557120 | CLAVENTIN 5 g/200 mg, poudre pour solution injectable (I.V.) | Poudre pour solution injectable | LABORATOIRES DELBERT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Titulaire : Laboratoires Delbert.
 

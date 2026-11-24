@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 423
 evidence_level: L4
 indication_count: 1
-last_modified_at: 2026-11-15
+last_modified_at: 2026-11-24
 monitor_inn: "ketoconazole"
 predicted_indications: ["acne (disease)"]
 description: "Ketoconazole : nouvelle indication prédite, Acné (acne (disease)) (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
@@ -83,13 +83,35 @@ Aucun essai randomisé ni revue systématique évaluant directement le kétocona
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60557096 | KETODERM 2 %, crème | Crème | Non renseignée (AMM active) |
-| 60347710 | KETOCONAZOLE VIATRIS 2 %, crème | Crème | Non renseignée (AMM active) |
-| 61393881 | KETOCONAZOLE ZYDUS 2 %, gel en sachet-dose | Gel | Non renseignée (AMM active) |
-| 60502840 | KETOCONAZOLE EG 2 %, gel en récipient-unidose | Gel | Non renseignée (AMM active) |
-| 69406163 | KETOCONAZOLE ESTEVE 200 mg, comprimé | Comprimé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60557096 | KETODERM 2 %, crème | Crème | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60347710 | KETOCONAZOLE VIATRIS 2 %, crème | Crème | VIATRIS SANTE | Active |
+| 61393881 | KETOCONAZOLE ZYDUS 2 %, gel en sachet-dose | Gel | ZYDUS FRANCE | Active |
+| 60502840 | KETOCONAZOLE EG 2 %, gel en récipient-unidose | Gel | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61678930 | KETOCONAZOLE ZENTIVA 2 %, gel en sachet-dose | Gel | ZENTIVA FRANCE | Active |
+| 68880443 | KETOCONAZOLE VIATRIS 2 %, gel en sachet-dose | Gel | VIATRIS SANTE | Active |
+| 64825983 | KETOCONAZOLE CRISTERS 2 %, gel en sachet-dose | Gel | CRISTERS | Active |
+| 68638760 | KETOCONAZOLE BIOGARAN 2 %, crème | Crème | BIOGARAN | Active |
+| 69011860 | KETODERM 2%, crème | Crème | DIFARMED (ESPAGNE) | Active |
+| 69406163 | KETOCONAZOLE ESTEVE 200 mg, comprimé | Comprimé | ESTEVE PHARMACEUTICALS (ESPAGNE) | Active |
+| 66763498 | KETOCONAZOLE SANDOZ 2 %, gel en récipient-unidose | Gel | SANDOZ | Active |
+| 66534720 | KETOCONAZOLE EG 2 %, gel en sachet-dose | Gel | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60034936 | KETOCONAZOLE BIOGARAN 2 %, gel en sachet-dose | Gel | BIOGARAN | Active |
+| 69572441 | KETOCONAZOLE VIATRIS 2 %, gel en récipient unidose | Gel | VIATRIS SANTE | Active |
+| 62701346 | KETOCONAZOLE ARROW 2 %, gel en récipient-unidose | Gel | ARROW GENERIQUES | Active |
+| 62836372 | KETOCONAZOLE ZENTIVA 2 %, crème | Crème | ZENTIVA FRANCE | Active |
+| 66873350 | KETODERM 2 %, gel en sachet | Gel | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65478140 | KETOCONAZOLE TEVA 2 %, crème | Crème | TEVA (PAYS-BAS) | Active |
+| 67320057 | KETOCONAZOLE CRISTERS 2 %, gel en récipient-unidose | Gel | CRISTERS | Active |
+| 69323162 | KETOCONAZOLE BIOGARAN 2 %, gel en récipient unidose | Gel | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

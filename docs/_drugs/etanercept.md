@@ -99,13 +99,34 @@ La plupart de ces publications décrivent des vascularites **induites** par les 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63061721 | NEPEXTO 50 mg, seringue préremplie | Solution injectable | Non disponible (AMM active) |
-| 68672848 | ENBREL 50 mg, seringue préremplie | Solution injectable | Non disponible (AMM active) |
-| 63886766 | ENBREL 10 mg, usage pédiatrique | Poudre et solvant pour solution injectable | Non disponible (AMM active) |
-| 64784134 | ERELZI 50 mg, stylo prérempli | Solution injectable | Non disponible (AMM active) |
-| 64959320 | ENBREL 25 mg | Poudre et solvant pour solution injectable | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63061721 | NEPEXTO 50 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 68672848 | ENBREL 50 mg, solution injectable en seringue pré-remplie | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 63886766 | ENBREL 10 mg, poudre et solvant pour solution injectable pour usage pédiatrique | Poudre et solvant pour solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 64784134 | ERELZI 50 mg, solution injectable en stylo prérempli | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 64959320 | ENBREL 25 mg, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 61382671 | ERELZI 25 mg, solution injectable en seringue préremplie | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 69653644 | BENEPALI 50 mg, solution injectable en stylo prérempli | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 67599870 | ENBREL 50 mg, solution injectable en cartouche distributrice de dose | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 62130342 | BENEPALI 25 mg, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 66071293 | NEPEXTO 50 mg, solution injectable en stylo prérempli | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 64504550 | BENEPALI 50 mg, solution injectable en seringue préremplie | Solution injectable | SAMSUNG BIOEPIS NL (PAYS-BAS) | Active |
+| 61320748 | ENBREL 25 mg, solution injectable en cartouche distributrice de dose | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 67270711 | ERELZI 50 mg, solution injectable en seringue préremplie | Solution injectable | SANDOZ (AUTRICHE) | Active |
+| 68667580 | ENBREL 25 mg, solution injectable en seringue pré-remplie | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 60529218 | NEPEXTO 25 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 61187835 | ENBREL 25 mg, solution injectable en stylo pré-rempli | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 66393935 | ENBREL 50 mg, solution injectable en stylo pré-rempli | Solution injectable | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 62314125 | FUBELV 25 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 65073779 | FUBELV 50 mg, solution injectable en seringue préremplie | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+| 67347225 | FUBELV 50 mg, solution injectable en stylo prérempli | Solution injectable | BIOSIMILAR COLLABORATIONS IRELAND (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 20 AMM sont recensées.
 

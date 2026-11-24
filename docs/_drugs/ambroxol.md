@@ -80,9 +80,29 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61641907 | MUXOL, solution buvable | Solution buvable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61641907 | MUXOL, solution buvable | Solution buvable | LABORATOIRES FRILAB | Active |
+| 60035461 | LYSOPAÏNE MAUX DE GORGE AMBROXOL CITRON 20 mg SANS SUCRE, pastille édulcorée au sorbitol… | Pastille | OPELLA HEALTHCARE FRANCE | Active |
+| 61119492 | AMBROXOL VIATRIS CONSEIL 0,6 %, solution buvable | Solution buvable | VIATRIS SANTE | Active |
+| 61243903 | AMBROXOL EG LABO CONSEIL 30 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61380528 | AMBROXOL BIOGARAN CONSEIL 0,6 % SANS SUCRE, solution buvable édulcorée au sorbitol | Solution buvable | BIOGARAN | Active |
+| 61494243 | AMBROXOL EG LABO CONSEIL 0,6 %, solution buvable | Solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62129781 | AMBROXOL ARROW 30 mg, comprimé | Comprimé | ARROW GENERIQUES | Active |
+| 62239384 | LYSOPAÏNE MAUX DE GORGE AMBROXOL MENTHE 17,86 mg/ml SANS SUCRE, solution pour pulvérisati… | Solution pour pulvérisation | OPELLA HEALTHCARE FRANCE | Active |
+| 63628253 | SURBRONC EXPECTORANT AMBROXOL 30 mg, comprimé sécable | Comprimé sécable | OPELLA HEALTHCARE FRANCE | Active |
+| 64292987 | SURBRONC EXPECTORANT AMBROXOL SANS SUCRE, solution buvable édulcorée au sucralose | Solution buvable | OPELLA HEALTHCARE FRANCE | Active |
+| 68049089 | AMBROXOL BIOGARAN CONSEIL 30 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 69585360 | AMBROXOL TEVA CONSEIL 30 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 69795608 | LYSOPAÏNE MAUX DE GORGE AMBROXOL MENTHE 20 mg SANS SUCRE, pastille édulcorée au sorbitol… | Pastille | OPELLA HEALTHCARE FRANCE | Active |
+| 68809994 | AMBROXOL VIATRIS CONSEIL 30 mg, comprimé | Comprimé | VIATRIS SANTE | Archivée |
+| 69883296 | AMBROXOL EG LABO CONSEIL 0,3 POUR CENT SANS SUCRE, solution buvable édulcorée au cyclamat… | Solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

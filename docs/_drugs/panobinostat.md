@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 576
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "panobinostat"
 predicted_indications: ["myeloid leukemia"]
 description: "Panobinostat : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L2). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -104,11 +104,17 @@ D'autres essais complètent ce tableau : étude pédiatrique de phase 1 sur les 
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60937038 | FARYDAK 15 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 65638805 | FARYDAK 10 mg, gélule | Gélule | Non renseignée (AMM active) |
-| 62990388 | FARYDAK 20 mg, gélule | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60937038 | FARYDAK 15 mg, gélule | Gélule | PHARMAAND (AUTRICHE) | Active |
+| 65638805 | FARYDAK 10 mg, gélule | Gélule | PHARMAAND (AUTRICHE) | Active |
+| 62990388 | FARYDAK 20 mg, gélule | Gélule | PHARMAAND (AUTRICHE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

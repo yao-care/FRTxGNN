@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 523
 evidence_level: L2
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "NAFTIDROFURYL"
 predicted_indications: ["stroke disorder"]
 description: "Naftidrofuryl : nouvelle indication prédite, Accident vasculaire cérébral (stroke disorder) (niveau de preuve L2). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -85,10 +85,16 @@ Remarque : les études de 1978 à 1990 sont anciennes et de qualité méthodolog
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67195461 | NAFTIDROFURYL ZENTIVA 200 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
-| 61621776 | NAFTILUX 200 mg, gélule (active) | Gélule | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67195461 | NAFTIDROFURYL ZENTIVA 200 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 61621776 | NAFTILUX 200 mg, gélule | Gélule | THERABEL LUCIEN PHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

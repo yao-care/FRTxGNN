@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 639
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Prucalopride"
 predicted_indications: ["hypoalphalipoproteinemia", "homozygous familial hypercholesterolemia", "duodenal ulcer (disease)", "oral candidiasis", "obsolete familial combined hyperlipidemia", "amyloidosis (disease)", "strongyloidiasis", "HIV infectious disease", "primary amyloidosis", "acquired amyloid peripheral neuropathy"]
 description: "Prucalopride : nouvelle indication prédite, Hypoalphalipoprotéinémie (hypoalphalipoproteinemia) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -78,10 +78,16 @@ Aucune littérature associée disponible actuellement pour l'hypoalphalipoproté
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69471136 | RESOLOR 1 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
-| 63947653 | RESOLOR 2 mg, comprimé pelliculé (active) | Comprimé pelliculé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69471136 | RESOLOR 1 mg, comprimé pelliculé | Comprimé pelliculé | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+| 63947653 | RESOLOR 2 mg, comprimé pelliculé | Comprimé pelliculé | TAKEDA PHARMACEUTICALS INTERNATIONAL (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le médicament est commercialisé en France : les 2 AMM sont valides (2 sur 2).
 

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 234
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "diazepam"
 predicted_indications: ["insomnia (disease)", "cauda equina syndrome", "sleep disorder, initiating and maintaining sleep", "attention deficit hyperactivity disorder, inattentive type", "barbiturate abuse", "antidepressant type abuse", "hallucinogen abuse", "specific developmental disorder", "attention deficit-hyperactivity disorder", "obsolete neurogenic bladder (disease)"]
 description: "Diazepam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L2). En France, AMM dans la BDPM : 10 (valides : 10)"
@@ -79,15 +79,26 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63196256 | VALIUM 1 POUR CENT | Solution buvable en gouttes | Active |
-| 66106869 | DIAZEPAM TEVA 2 mg | Comprimé | Active |
-| 61437096 | DIAZEPAM ARROW 10 mg | Comprimé sécable | Active |
-| 67959261 | VALIUM 10 mg/2 ml | Solution injectable | Active |
-| 69998003 | DIAZEPAM ACCORD 10 mg | Comprimé | Active |
+<!-- licenses:begin -->
 
-Le diazépam est commercialisé en France ; les 10 AMM recensées sont valides. La liste ci-dessus présente les 5 premières.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63196256 | VALIUM 1 POUR CENT, solution buvable en gouttes | Solution buvable en gouttes | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 66106869 | DIAZEPAM TEVA 2 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 61437096 | DIAZEPAM ARROW 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 67959261 | VALIUM 10 mg/2 ml, solution injectable | Solution injectable | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 69998003 | DIAZEPAM ACCORD 10 mg, comprimé | Comprimé | ACCORD HEALTHCARE FRANCE | Active |
+| 68685952 | DIAZEPAM ACCORD 5 mg, comprimé | Comprimé | ACCORD HEALTHCARE FRANCE | Active |
+| 60290800 | VALIUM 10 mg, comprimé sécable | Comprimé sécable | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 61569856 | DIAZEPAM RENAUDIN 10 mg/2 ml, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 66023836 | DIAZEPAM TEVA 5 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 68176802 | DIAZEPAM TEVA 10 mg, comprimé | Comprimé | TEVA SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
+Le diazépam est commercialisé en France ; les 10 AMM recensées sont valides.
 
 ## Considérations de Sécurité
 

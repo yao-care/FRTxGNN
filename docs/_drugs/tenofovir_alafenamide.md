@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 738
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tenofovir alafenamide"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Tenofovir Alafenamide : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non …"
@@ -89,13 +89,20 @@ Toutes les publications sont précliniques (modèles animaux). Les résumés dis
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66325208 | DESCOVY 200 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 69342796 | DESCOVY 200 mg/10 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 62844771 | BIKTARVY 50 mg/200 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60246298 | BIKTARVY 30 mg/120 mg/15 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 64689693 | ODEFSEY 200 mg/25 mg/25 mg | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66325208 | DESCOVY 200 mg/25 mg, comprime pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 69342796 | DESCOVY 200 mg/10 mg, comprime pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 62844771 | BIKTARVY 50 mg/200 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 60246298 | BIKTARVY 30 mg/120 mg/15 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 64689693 | ODEFSEY 200 mg/25 mg/25 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 65453475 | GENVOYA 150 mg/150 mg/200 mg/10 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 196
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "COLCHICINE"
 predicted_indications: ["Plasmodium falciparum malaria", "dermatofibrosarcoma protuberans"]
 description: "Colchicine : nouvelle indication prédite, Plasmodium falciparum malaria (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -85,10 +85,16 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68066715 | COLCHICINE OPOCALCIUM 1 mg, comprimé sécable (active) | Comprimé sécable | Non renseignée |
-| 61331730 | COLCHIMAX, comprimé pelliculé sécable (active) | Comprimé pelliculé sécable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68066715 | COLCHICINE OPOCALCIUM 1 mg, comprimé sécable | Comprimé sécable | LABORATOIRES MAYOLY SPINDLER | Active |
+| 61331730 | COLCHIMAX, comprimé pelliculé sécable | Comprimé pelliculé sécable | LABORATOIRES MAYOLY SPINDLER | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

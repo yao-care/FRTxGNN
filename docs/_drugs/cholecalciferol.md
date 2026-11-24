@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 4
 monitor_inn: "cholecalciferol"
 predicted_indications: ["acromesomelic dysplasia, Campailla Martinelli type", "craniofacial conodysplasia", "renal osteodystrophy", "renal tubular acidosis"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cholecalciferol : nouvelle indication prédite, Dysplasie acromésomélique de type Campailla-Martinelli (niveau de preuve L5). Indication d'origine : Le texte d'indication n'est pas renseigné dans les …"
 ---
 
@@ -81,15 +81,37 @@ Aucune littérature associée n'est disponible actuellement.
 
 ## Informations de Marché en France
 
-Le cholécalciférol est commercialisé en France. Les données compilées recensent au moins 20 AMM de médicaments à base de cholécalciférol seul, et la liste peut être partielle. Le texte d'indication approuvée n'est pas renseigné dans ces données. Les 5 premières AMM sont présentées ci-dessous.
+Le cholécalciférol est commercialisé en France. Les données compilées recensent au moins 20 AMM de médicaments à base de cholécalciférol seul, et la liste peut être partielle. Le texte d'indication approuvée n'est pas renseigné dans ces données.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 62028825 | CHOLECALCIFEROL EG 100 000 UI | Solution buvable en ampoule | EG LABO |
-| 68992798 | KIPOS 100 000 UI | Capsule molle | SUBSTIPHARM |
-| 67075736 | CHOLECALCIFEROL SUBSTIPHARM 80 000 UI | Solution buvable en ampoule | SUBSTIPHARM |
-| 62176845 | CHOLECALCIFEROL EVOLUGEN 100 000 UI | Solution buvable en ampoule | EVOLUPHARM |
-| 63312942 | CHOLECALCIFEROL ZENTIVA 100 000 UI | Solution buvable en ampoule | ZENTIVA FRANCE |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62028825 | CHOLECALCIFEROL EG 100 000 UI, solution buvable en ampoule | Solution buvable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 68992798 | KIPOS 100 000 UI, capsule molle | Capsule molle | SUBSTIPHARM | Active |
+| 67075736 | CHOLECALCIFEROL SUBSTIPHARM 80 000 UI, solution buvable en ampoule | Solution buvable | SUBSTIPHARM | Active |
+| 62176845 | CHOLECALCIFEROL EVOLUGEN 100 000 UI, solution buvable en ampoule | Solution buvable | EVOLUPHARM | Active |
+| 63312942 | CHOLECALCIFEROL ZENTIVA 100 000 UI, solution buvable en ampoule | Solution buvable | ZENTIVA FRANCE | Active |
+| 61172819 | CHOLECALCIFEROL ARROW 100 000 UI, solution buvable en ampoule | Solution buvable | ARROW GENERIQUES | Active |
+| 63158750 | UVEDOSE 50 000 UI, capsule molle | Capsule molle | CRINEX | Active |
+| 60997163 | ZYMAD 80 000 UI, solution buvable en ampoule | Solution buvable | VIATRIS MEDICAL | Active |
+| 63902334 | ZYMAD 10 000 UI/ml, solution buvable en gouttes | Solution buvable en gouttes | VIATRIS MEDICAL | Active |
+| 64116590 | CHOLECALCIFEROL SUBSTIPHARM 50 000 UI, solution buvable en ampoule | Solution buvable | SUBSTIPHARM | Active |
+| 68852636 | CHOLECALCIFEROL VIATRIS 200 000 UI, solution buvable en ampoule | Solution buvable | VIATRIS SANTE | Active |
+| 60890357 | CHOLECALCIFEROL LABORATOIRE X.O 100 000 UI, solution buvable en ampoule | Solution buvable | LABORATOIRE XO | Active |
+| 64328821 | ZYMAD 200 000 UI, solution buvable en ampoule | Solution buvable | VIATRIS MEDICAL | Active |
+| 69441965 | ZYMAD 50 000 UI, solution buvable en ampoule | Solution buvable | VIATRIS MEDICAL | Active |
+| 66236866 | CHOLECALCIFEROL BIOGARAN 50 000 UI, solution buvable en ampoule | Solution buvable | BIOGARAN | Active |
+| 67444852 | CHOLECALCIFEROL BIOGARAN 80 000 UI, solution buvable en ampoule | Solution buvable | BIOGARAN | Active |
+| 66282810 | CHOLECALCIFEROL CRISTERS 100 000 UI, solution buvable en ampoule | Solution buvable | CRISTERS | Active |
+| 60722053 | CHOLECALCIFEROL BIOGARAN 200 000 UI, solution buvable en ampoule | Solution buvable | BIOGARAN | Active |
+| 65028570 | CHOLECALCIFEROL VIATRIS 100 000 UI, solution buvable en ampoule | Solution buvable | VIATRIS SANTE | Active |
+| 66597083 | VITAMINE D3 BON 200 000 U.I./1 ml, solution injectable IM en ampoule | Solution injectable | BOUCHARA-RECORDATI | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 Les autres présentations comprennent des gouttes buvables (ZYMAD 10 000 UI/ml) et une solution injectable intramusculaire (VITAMINE D3 BON 200 000 U.I./1 ml).
 

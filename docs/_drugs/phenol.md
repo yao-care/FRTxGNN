@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 596
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 monitor_inn: "phenol"
 predicted_indications: ["acrodermatitis chronica atrophicans", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "neonatal dermatomyositis", "amyopathic dermatomyositis", "acne keloid", "hydroa vacciniforme, familial", "severe nonproliferative diabetic retinopathy", "dry eye syndrome"]
 description: "Phenol : nouvelle indication prédite, Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
@@ -77,11 +77,17 @@ Aucune littérature associée disponible actuellement pour l'acrodermatite chron
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65026434 | DILUANT H.S.A. 0,03 POUR CENT DES STALLERGENES, solution injectable (active) | Solution injectable | Non renseignée |
-| 63599951 | OTYLOL, solution pour instillation auriculaire (active) | Solution pour instillation | Non renseignée |
-| 67066573 | BRULEX, pommade (active) | Pommade | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65026434 | DILUANT H.S.A. 0,03 POUR CENT DES STALLERGENES , solution injectable | Solution injectable | STALLERGENES | Active |
+| 63599951 | OTYLOL, solution pour instillation auriculaire | Solution pour instillation | BRIDOUX | Active |
+| 67066573 | BRULEX, pommade | Pommade | LABORATOIRE BAILLY CREAT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

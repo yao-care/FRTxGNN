@@ -87,13 +87,26 @@ L'usage reste cependant limité à un cadre surveillé (service d'urgences) en r
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63558577 | Propofol Baxter 10 mg/ml | Émulsion injectable pour perfusion | Non renseignée (AMM active) |
-| 62010414 | Diprivan 20 mg/mL (seringue préremplie) | Émulsion injectable | Non renseignée (AMM active) |
-| 66093051 | Propofol Baxter 20 mg/ml | Émulsion injectable pour perfusion | Non renseignée (AMM active) |
-| 66110981 | Propofol Kabi 10 mg/mL | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
-| 66701952 | Propofol Lipuro 2 % (20 mg/ml) | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63558577 | PROPOFOL BAXTER 10 mg/ml, émulsion injectable/pour perfusion | Émulsion injectable pour perfusion | BAXTER HOLDING (PAYS-BAS) | Active |
+| 62010414 | DIPRIVAN 20 mg/mL, émulsion injectable en seringue pré-remplie | Émulsion injectable | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 66093051 | PROPOFOL BAXTER 20 mg/ml, émulsion injectable/pour perfusion | Émulsion injectable pour perfusion | BAXTER HOLDING (PAYS-BAS) | Active |
+| 66110981 | PROPOFOL KABI 10 mg/mL, émulsion injectable/pour perfusion | Émulsion injectable ou pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 66701952 | PROPOFOL LIPURO 2 % (20 mg/ml), émulsion injectable ou pour perfusion | Émulsion injectable ou pour perfusion | B BRAUN MELSUNGEN | Active |
+| 65591412 | PROPOFOL KABI 20 mg/mL, émulsion injectable | Émulsion injectable ou pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 62286195 | PROPOFOL LIPURO 5 mg/ml, émulsion injectable ou pour perfusion | Émulsion injectable ou pour perfusion | B BRAUN MELSUNGEN | Active |
+| 62540042 | PROPOFOL LIPURO 1 % (10 mg/ml), émulsion injectable ou pour perfusion | Émulsion injectable ou pour perfusion | B BRAUN MELSUNGEN | Active |
+| 60616445 | DIPRIVAN 10 mg/mL, émulsion injectable en seringue pré-remplie | Émulsion injectable | ASPEN PHARMA TRADING (IRLANDE) | Active |
+| 68749814 | PROPOFOL KABI 20 mg/mL, émulsion injectable en seringue pré-remplie | Émulsion injectable | FRESENIUS KABI FRANCE | Active |
+| 60692610 | PROPOFOL KABI 10 mg/mL, émulsion injectable en seringue pré-remplie | Émulsion injectable | FRESENIUS KABI FRANCE | Active |
+| 66617123 | PROPOFOL MYLAN 20 mg/ml, émulsion injectable (IV) | Émulsion injectable | MYLAN SAS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 12 AMM sont recensées; seules les 5 premières sont listées ici.
 

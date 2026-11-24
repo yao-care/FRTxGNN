@@ -7,7 +7,7 @@ evidence_level: L3
 indication_count: 7
 monitor_inn: "ABATACEPT"
 predicted_indications: ["ankylosing spondylitis", "hypermobility of coccyx", "inflammatory spondylopathy", "Kummell disease", "vertebral disease", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-last_modified_at: 2026-10-30
+last_modified_at: 2026-11-24
 description: "Abatacept : nouvelle indication prédite, Spondylarthrite ankylosante (ankylosing spondylitis) (niveau de preuve L3). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
@@ -81,13 +81,19 @@ Sur le plan mecanistique, une implication des lymphocytes T dans les spondylarth
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 61927584 | ORENCIA 125 mg, solution injectable en stylo preremplie | Solution injectable | Non renseignee |
-| 60627865 | ORENCIA 250 mg, poudre pour solution a diluer pour perfusion | Poudre pour solution a diluer pour perfusion | Non renseignee |
-| 61070305 | ORENCIA 50 mg, solution injectable en seringue preremplie | Solution injectable | Non renseignee |
-| 63044647 | ORENCIA 87,5 mg, solution injectable en seringue preremplie | Solution injectable | Non renseignee |
-| 69256710 | ORENCIA 125 mg, solution injectable en seringue preremplie | Solution injectable | Non renseignee |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61927584 | ORENCIA 125 mg, solution injectable en stylo prérempli | Solution injectable | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 60627865 | ORENCIA 250 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 61070305 | ORENCIA 50 mg, solution injectable en seringue préremplie | Solution injectable | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 63044647 | ORENCIA 87,5 mg, solution injectable en seringue préremplie | Solution injectable | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+| 69256710 | ORENCIA 125 mg, solution injectable en seringue préremplie | Solution injectable | BRISTOL-MYERS SQUIBB PHARMA (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

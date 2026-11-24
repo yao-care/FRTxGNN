@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 819
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Volanesorsen : nouvelle indication prédite, Anémie mégaloblastique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "volanesorsen"
 predicted_indications: ["megaloblastic anemia (disease)", "sclerosing cholangitis", "sickle cell disease and related diseases", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin d disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "sickle cell-hemoglobin c disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "meningococcal infection", "paroxysmal nocturnal hemoglobinuria"]
@@ -82,15 +82,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65766872 | WAYLIVRA 285 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
 
-<!-- review:begin fr-row-20261112-volanesorsen-1 -->
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65766872 | WAYLIVRA 285 mg, solution injectable en seringue préremplie | Solution injectable | AKCEA THERAPEUTICS IRELAND (IRLANDE) | Active |
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « 65766872 (annulée) » Selon la BDPM (données du 2026-11-09), l’AMM 65766872 (WAYLIVRA 285 mg, solution injectable en seringue préremplie) a le statut « Autorisation active » ; la mention « annulée » a été retirée. Source: [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/).
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
 
-<!-- review:end fr-row-20261112-volanesorsen-1 -->
+<!-- licenses:end -->
 
 Titulaire : AKCEA THERAPEUTICS IRELAND (Irlande).
 
@@ -133,7 +133,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « 'AMM française est de plus annulée, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-12 | Tableau : l’AMM 65766872 (WAYLIVRA 285 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
+| 2026-11-12 | Tableau : l’AMM 65766872 (WAYLIVRA 285 mg) est active, non annulée | Remplacé par le tableau d'AMM généré par programme (auparavant : Corrigé) | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 66
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ANAKINRA"
 predicted_indications: ["extracutaneous mastocytoma", "hepatic infarction", "aggressive systemic mastocytosis", "hepatic veno-occlusive disease", "peliosis hepatis", "oligoarticular juvenile idiopathic arthritis with anti-nuclear antibodies", "oligoarticular juvenile idiopathic arthritis without anti-nuclear antibodies", "pyogenic autoinflammatory syndrome", "unclassified autoinflammatory syndrome"]
 description: "Anakinra : nouvelle indication prédite, mastocytome extracutané (extracutaneous mastocytoma) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -69,9 +69,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 60663231 | KINERET 100 mg/0,67 mL, solution injectable en seringue préremplie (statut : active) | Solution injectable | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60663231 | KINERET 100 mg/0,67 mL, solution injectable en seringue préremplie | Solution injectable | SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (SUEDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Une seule AMM figure dans les données locales. Elle est valide, et le titulaire est SWEDISH ORPHAN BIOVITRUM INTERNATIONAL (Suède).
 

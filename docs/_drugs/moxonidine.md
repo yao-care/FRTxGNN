@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 517
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MOXONIDINE"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "primary hereditary glaucoma"]
 description: "Moxonidine : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (hypotrichosis simplex of the scalp) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
@@ -77,13 +77,24 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose simple
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62425307 | MOXONIDINE TEVA SANTE 0,4 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 64771724 | MOXONIDINE BIOGARAN 0,2 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 62036633 | MOXONIDINE BIOGARAN 0,4 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 68782718 | PHYSIOTENS 0,4 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 63708322 | MOXONIDINE TEVA SANTE 0,2 mg | comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62425307 | MOXONIDINE TEVA SANTE 0,4 mg, comprimé pelliculé | Comprimé pelliculé | RATIOPHARM (ALLEMAGNE) | Active |
+| 64771724 | MOXONIDINE BIOGARAN 0,2 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 62036633 | MOXONIDINE BIOGARAN 0,4 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68782718 | PHYSIOTENS 0,4 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS MEDICAL | Active |
+| 63708322 | MOXONIDINE TEVA SANTE 0,2 mg, comprimé pelliculé | Comprimé pelliculé | RATIOPHARM (ALLEMAGNE) | Active |
+| 60993898 | PHYSIOTENS 0,2 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS MEDICAL | Active |
+| 64532770 | MOXONIDINE EG 0,2 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65243466 | MOXONIDINE EG 0,4 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 69307215 | MOXONIDINE VIATRIS 0,2 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+| 63500702 | MOXONIDINE VIATRIS 0,4 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Cinq AMM sur dix sont affichées ; les dix sont actives.
 

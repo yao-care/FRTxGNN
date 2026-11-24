@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 754
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "thiopental"
 predicted_indications: ["trichotillomania", "Prinzmetal angina", "migraine disorder", "Tourette syndrome", "migraine with brainstem aura", "obsolete bundle branch block", "substance abuse/dependence", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Thiopental : nouvelle indication prédite, Trichotillomanie (trichotillomania) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
@@ -80,12 +80,18 @@ Aucune littérature associée n'est disponible actuellement pour la trichotillom
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65708762 | THIOPENTAL VUAB 1 g | Poudre pour solution injectable | Non renseignée (AMM active) |
-| 65000261 | THIOPENTAL PANPHARMA 500 mg | Poudre pour solution injectable | Non renseignée (AMM active) |
-| 60010084 | THIOPENTAL VUAB 500 mg | Poudre pour solution injectable | Non renseignée (AMM active) |
-| 68942457 | THIOPENTAL PANPHARMA 1 g | Poudre pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65708762 | THIOPENTAL VUAB 1 g, poudre pour solution injectable | Poudre pour solution injectable | VUAB PHARMA | Active |
+| 65000261 | THIOPENTAL PANPHARMA 500 mg, poudre pour solution injectable | Poudre pour solution injectable | PANPHARMA | Active |
+| 60010084 | THIOPENTAL VUAB 500 mg, poudre pour solution injectable | Poudre pour solution injectable | VUAB PHARMA | Active |
+| 68942457 | THIOPENTAL PANPHARMA 1 g, poudre pour solution injectable | Poudre pour solution injectable | PANPHARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

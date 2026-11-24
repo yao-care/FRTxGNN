@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 700
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Serotonin : nouvelle indication prédite, Insomnie (niveau de preuve L4). Indication d'origine : Non renseignée (le texte d'indication de l'AMM est vide)"
 monitor_inn: "serotonin"
 predicted_indications: ["insomnia (disease)", "anxiety disorder", "migraine disorder", "anxiety", "agoraphobia", "migraine with brainstem aura", "benign paroxysmal torticollis of infancy", "manic bipolar affective disorder", "atrophoderma vermiculata"]
@@ -86,9 +86,15 @@ Aucune littérature associée disponible actuellement pour l'insomnie.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63553427 | SEROTONINUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Granules | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63553427 | SEROTONINUM BOIRON, degré de dilution compris entre 3CH et 30CH ou entre 6DH et 60DH | Granules | BOIRON | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

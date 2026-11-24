@@ -80,9 +80,16 @@ Ces publications portent sur la spondylarthrite ankylosante et la spondylopathie
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68645185 | LODINE 200 mg, comprimé pelliculé (Laboratoires Ethypharm) | Comprimé pelliculé | Non disponible (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68645185 | LODINE 200 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES ETHYPHARM | Active |
+| 68032346 | LODINE 300 mg, comprimé pelliculé | Comprimé pelliculé | LABORATOIRES ETHYPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -91,13 +91,30 @@ Il convient de noter que, pour les formes péritonéales, la chirurgie de cytor�
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67323808 | ALIMTA 500 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 67713231 | ALIMTA 100 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 66335088 | PEMETREXED FRESENIUS KABI 500 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 62103459 | PEMETREXED FRESENIUS KABI 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 61543078 | PEMETREXED VIATRIS 25 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66335088 | PEMETREXED FRESENIUS KABI 500 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 61543078 | PEMETREXED VIATRIS 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | VIATRIS SANTE | Active |
+| 62103459 | PEMETREXED FRESENIUS KABI 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 61483364 | PEMETREXED FRESENIUS KABI 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | FRESENIUS KABI DEUTSCHLAND (ALLEMAGNE) | Active |
+| 66053847 | PEMETREXED EVER PHARMA 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | EVER VALINJECT (AUTRICHE) | Active |
+| 61806426 | ARMISARTE 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACTAVIS GROUP PTC (ISLANDE) | Active |
+| 67323808 | ALIMTA 500 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 66752509 | PEMETREXED STRAGEN 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | STRAGEN-FRANCE | Active |
+| 67713231 | ALIMTA 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | ELI LILLY NEDERLAND BV (PAY-BAS) | Active |
+| 66050160 | PEMETREXED EG 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64840348 | PEMETREXED PFIZER 500 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 65662126 | PEMETREXED PFIZER 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 66929607 | PEMETREXED ACCORD 25 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 67768231 | PEMETREXED PFIZER 100 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 69681070 | PEMETREXED PFIZER 1000 mg, poudre pour solution à diluer pour perfusion | Poudre pour solution à diluer pour perfusion | PFIZER EUROPE MA EEIG (BELGIQUE) | Active |
+| 65319049 | PEMETREXED ZENTIVA 25 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ZENTIVA FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

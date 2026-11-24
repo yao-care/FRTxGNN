@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 162
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Chlorobutanol : nouvelle indication prédite, Dysfonction érectile (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM compilées (formes bain de bouche…"
 monitor_inn: "chlorobutanol"
 predicted_indications: ["erectile dysfunction (disease)", "migraine disorder", "migraine with brainstem aura", "Tourette syndrome", "trichotillomania", "attention deficit-hyperactivity disorder", "localized pagetoid reticulosis", "faciodigitogenital syndrome", "atrophoderma vermiculata"]
@@ -82,15 +82,29 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le médicament est commercialisé en France : les 13 AMM compilées sont valides (13 sur 13). Le texte d'indication approuvée n'est pas renseigné dans les données. Les 5 premières sont listées ci-dessous.
+Le médicament est commercialisé en France : les 13 AMM compilées sont valides (13 sur 13). Le texte d'indication approuvée n'est pas renseigné dans les données.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69564537 | Chlorhexidine/Chlorobutanol Liberty Pharma 0,5 ml/0,5 g pour 100 ml | Solution pour bain de bouche | Non précisée (active) |
-| 63231675 | Chlorhexidine/Chlorobutanol Arrow 0,5 mL/0,5 g pour 100 mL | Solution pour bain de bouche | Non précisée (active) |
-| 68783058 | Chlorhexidine/Chlorobutanol Teva 0,5 ml/0,5 g pour 100 ml | Solution pour bain de bouche | Non précisée (active) |
-| 65450408 | Chlorhexidine/Chlorobutanol EG 0,5 ml/0,5 g pour 100 ml | Solution pour bain de bouche | Non précisée (active) |
-| 66226772 | Eludrilpro | Solution pour bain de bouche | Non précisée (active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69564537 | CHLORHEXIDINE/CHLOROBUTANOL LIBERTY PHARMA 0,5 ml/0,5 g pour 100 ml, solution pour bain d… | Solution pour bain de bouche | H6 PHARMA | Active |
+| 63231675 | CHLORHEXIDINE/CHLOROBUTANOL ARROW 0,5 mL/0,5 g pour 100 mL, solution pour bain de bouche… | Solution pour bain de bouche | ARROW GENERIQUES | Active |
+| 68783058 | CHLORHEXIDINE/CHLOROBUTANOL TEVA 0,5 ml/0,5 g pour 100 ml, solution pour bain de bouche e… | Solution pour bain de bouche | TEVA SANTE | Active |
+| 65450408 | CHLORHEXIDINE/CHLOROBUTANOL EG 0,5 ml/0,5 g pour 100 ml, solution pour bain de bouche en… | Solution pour bain de bouche | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66226772 | ELUDRILPRO, solution pour bain de bouche | Solution pour bain de bouche | PIERRE FABRE MEDICAMENT | Active |
+| 68375131 | BALSAMORHINOL, solution pour instillation nasale | Solution pour instillation | PIERRE FABRE MEDICAMENT | Active |
+| 68574610 | CHLORHEXIDINE/CHLOROBUTANOL BIOGARAN 0,5 ml/0,5 g pour 100 ml, solution pour bain de bouc… | Solution pour bain de bouche | BIOGARAN | Active |
+| 65602182 | CHLORHEXIDINE/CHLOROBUTANOL VIATRIS 0,5 mL/0,5 g pour 100 mL, solution pour bain de bouch… | Solution pour bain de bouche | VIATRIS SANTE | Active |
+| 64397575 | ELUDRIL 0,5 ml/0,5 g pour 100 ml, solution pour bain de bouche | Solution pour bain de bouche | PIERRE FABRE MEDICAMENT | Active |
+| 61709240 | CHLORHEXIDINE/CHLOROBUTANOL BIOGARAN CONSEIL 0,5 ml/0,5 g pour 100 ml, solution pour bain… | Solution pour bain de bouche | BIOGARAN | Active |
+| 65294293 | CHLORHEXIDINE/CHLOROBUTANOL ZENTIVA 0,5 ml/0,5 g pour 100 ml, solution pour bain de bouch… | Solution pour bain de bouche | ZENTIVA FRANCE | Active |
+| 65572846 | ALODONT, solution pour bain de bouche | Solution pour bain de bouche | BOUCHARA-RECORDATI | Active |
+| 60529613 | CHLORHEXIDINE/CHLOROBUTANOL SANDOZ 0,5 ml/0,5 g pour 100 ml, solution pour bain de bouche… | Solution pour bain de bouche | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

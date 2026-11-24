@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 396
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "indacaterol"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis", "headache disorder", "trigeminal autonomic cephalalgia", "paratenonitis", "calcific tendinitis", "hypertrichosis (disease)", "bronchial disease", "myositis", "anaphylaxis", "Ambras type hypertrichosis universalis congenita"]
 description: "Indacaterol : nouvelle indication prédite, Nephrogenic syndrome of inappropriate antidiuresis (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -113,13 +113,21 @@ Aucune indication approuvée n'est renseignée dans les données compilées. Les
 
 <!-- review:end fr-lic-20261106-indacaterol-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 62036213 | ONBREZ BREEZHALER 300 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
-| 67084265 | ONBREZ BREEZHALER 150 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
-| 62553246 | ULTIBRO BREEZHALER 85 µg/43 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
-| 67100189 | ATECTURA BREEZHALER 125 µg/260 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
-| 64670426 | ATECTURA BREEZHALER 125 µg/127,5 µg | Poudre pour inhalation en gélule | Non renseignée (active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 62036213 | ONBREZ BREEZHALER 300 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 67084265 | ONBREZ BREEZHALER 150 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 62553246 | ULTIBRO BREEZHALER 85 microgrammes/43 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 67100189 | ATECTURA BREEZHALER 125 microgrammes/260 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 64670426 | ATECTURA BREEZHALER 125 microgrammes/127,5 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 65632154 | ATECTURA BREEZHALER 125 microgrammes/62,5 microgrammes, poudre pour inhalation en gélule | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+| 61300756 | ENERZAIR BREEZHALER 114 microgrammes/46 microgrammes/136 microgrammes, poudre pour inhala… | Poudre pour inhalation en gélule | NOVARTIS EUROPHARM (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

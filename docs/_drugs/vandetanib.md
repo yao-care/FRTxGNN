@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 805
 evidence_level: L3
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "vandetanib"
 predicted_indications: ["renal cell carcinoma (disease)", "renal cell carcinoma associated with neuroblastoma", "unclassified renal cell carcinoma", "renal cell carcinoma associated with Xp11.2 translocations/TFE3 gene fusions", "renal pelvis carcinoma", "clear cell renal carcinoma", "childhood kidney cell carcinoma", "renal carcinoma", "angiolipoma", "familial spontaneous pneumothorax"]
 description: "Vandetanib : nouvelle indication prédite, Carcinome à cellules rénales (renal cell carcinoma (disease)) (niveau de preuve L3). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -82,10 +82,16 @@ Ce raisonnement reste une extrapolation mécanistique. Aucun résultat d'efficac
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65808531 | CAPRELSA 100 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Texte d'indication non disponible |
-| 69269825 | CAPRELSA 300 mg, comprimé pelliculé (statut : active) | Comprimé pelliculé | Texte d'indication non disponible |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65808531 | CAPRELSA 100 mg, comprimé pelliculé | Comprimé pelliculé | GENZYME EUROPE (PAYS BAS) | Active |
+| 69269825 | CAPRELSA 300 mg, comprimé pelliculé | Comprimé pelliculé | GENZYME EUROPE (PAYS BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Le vandétanib est commercialisé en France ; les deux AMM listées sont valides.
 

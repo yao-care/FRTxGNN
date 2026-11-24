@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "pentoxyverine"
 predicted_indications: ["nasal cavity disease"]
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Pentoxyverine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L5). Indication d'origine : Relations enregistrées dans le graphe de connaissances : rhinite alle…"
 ---
 
@@ -80,10 +80,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67025669 | PENTOXYVERINE CLARIX 0,15 % ADULTES, sirop | Sirop | Texte d'indication non renseigné |
-| 67901144 | PENTOXYVERINE CLARIX 0,15 % ENFANTS, sirop | Sirop | Texte d'indication non renseigné |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67025669 | PENTOXYVERINE CLARIX 0,15 % ADULTES, sirop | Sirop | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 67901144 | PENTOXYVERINE CLARIX 0,15 % ENFANTS, sirop | Sirop | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les deux AMM sont valides et concernent des spécialités à base d'un seul principe actif, exploitées par COOPER.
 

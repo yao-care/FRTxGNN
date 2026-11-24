@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 739
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tenofovir disoproxil"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Tenofovir Disoproxil : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non r…"
@@ -103,13 +103,35 @@ Les 5 premières sont listées ci-dessous ; le texte d'indication approuvée n'e
 
 <!-- review:end fr-lic-20261106-tenofovir_disoproxil-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61425934 | Tenofovir disoproxil EG 245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 66169524 | Tenofovir disoproxil Accord 245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 60493359 | Viread 163 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 65675166 | Tenofovir disoproxil Arrow 245 mg | Comprimé pelliculé | Non renseignée (AMM active) |
-| 68718936 | Viread 33 mg/g | Granulés enrobés | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61425934 | TENOFOVIR DISOPROXIL EG 245 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66169524 | TENOFOVIR DISOPROXIL ACCORD 245 mg, comprimé pelliculé | Comprimé pelliculé | ACCORD HEALTHCARE FRANCE | Active |
+| 60493359 | VIREAD 163 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 65675166 | TENOFOVIR DISOPROXIL ARROW 245 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 66747729 | TENOFOVIR DISOPROXIL ZENTIVA 245 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 68718936 | VIREAD 33 mg/g, granulés | Granulés enrobé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 66633266 | TENOFOVIR DISOPROXIL ZENTIVA LAB 245 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 67540142 | TENOFOVIR DISOPROXIL SANDOZ 245 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 65124558 | TENOFOVIR DISOPROXIL TEVA 245 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 67279692 | VIREAD 245 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 64599178 | TENOFOVIR DISOPROXIL ZYDUS 245 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 64593008 | VIREAD 123 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 69841906 | VIREAD 204 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 63308730 | TENOFOVIR DISOPROXIL VIATRIS 245 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 64870843 | TENOFOVIR DISOPROXIL BIOGARAN 245 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69543888 | EMTRICITABINE/TENOFOVIR DISOPROXIL EG 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 62778588 | EMTRICITABINE/TENOFOVIR DISOPROXIL KRKA D.D. 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 69481664 | TRUVADA 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | GILEAD SCIENCES IRELAND UC (IRLANDE) | Active |
+| 65271985 | EMTRICITABINE TENOFOVIR DISOPROXIL MYLAN 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN PHARMACEUTICALS (IRLANDE) | Active |
+| 68486060 | EMTRICITABINE/TENOFOVIR DISOPROXIL SANDOZ 200 mg/245 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

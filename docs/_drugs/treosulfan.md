@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 783
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Treosulfan : nouvelle indication prédite, Cataracte diabétique (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées (usage connu : condit…"
 monitor_inn: "treosulfan"
 predicted_indications: ["diabetic cataract"]
@@ -70,10 +70,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 68966390 | TRECONDI 1 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
-| 69719293 | TRECONDI 5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 68966390 | TRECONDI 1 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 69719293 | TRECONDI 5 g, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

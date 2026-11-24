@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 315
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Famciclovir : nouvelle indication prédite, Névralgie post-infectieuse (niveau de preuve L5). Indication d'origine : Zona (herpès zoster)"
 monitor_inn: "FAMCICLOVIR"
 predicted_indications: ["post-infectious neuralgia", "sequela of COVID-19", "hepatitis C induced liver cirrhosis", "malignant pleural mesothelioma", "AIDS-related disorder", "malignant epithelioid mesothelioma", "chickenpox", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
@@ -69,10 +69,16 @@ Il faut souligner que le seul essai retrouvé teste l'oxycodone et non le famcic
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 69092403 | ORAVIR 125 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
-| 62801318 | ORAVIR 500 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69092403 | ORAVIR 125 mg, comprimé pelliculé | Comprimé pelliculé | PHOENIX LABS (IRLANDE) | Active |
+| 62801318 | ORAVIR 500 mg, comprimé pelliculé | Comprimé pelliculé | PHOENIX LABS (IRLANDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

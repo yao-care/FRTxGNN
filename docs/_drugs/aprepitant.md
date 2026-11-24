@@ -89,13 +89,35 @@ Aucun texte d'indication approuvée n'est disponible dans les données compilée
 
 <!-- review:end fr-lic-20261106-aprepitant-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 65314130 | Aprepitant Evolugen 125 mg et 80 mg | Gélule | Active |
-| 60574505 | Emend 125 mg | Gélule | Active |
-| 66256064 | Emend 80 mg | Gélule | Active |
-| 64986762 | Aprepitant Viatris 125 mg | Gélule | Annulée |
-| 65652406 | Aprepitant Arrow 125 mg | Gélule | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65314130 | APREPITANT EVOLUGEN 125 mg, gélule et APREPITANT EVOLUGEN 80 mg, gélule | Gélule et gélule | EVOLUPHARM | Active |
+| 60574505 | EMEND 125 mg, gélule | Gélule | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 65652406 | APREPITANT ARROW 125 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 66842981 | APREPITANT BIOGARAN 80 mg, gélule | Gélule | BIOGARAN | Active |
+| 69440571 | APREPITANT BIOGARAN 125 mg, gélule et APREPITANT BIOGARAN 80 mg, gélule | Gélule et gélule | BIOGARAN | Active |
+| 62977049 | APREPITANT TEVA 80 mg, gélule | Gélule | TEVA (PAYS-BAS) | Active |
+| 63439854 | APREPITANT ACCORD 125 mg et APREPITANT ACCORD 80 mg, gélule | Gélule et gélule | ACCORD HEALTHCARE FRANCE | Active |
+| 63703396 | APREPITANT ARROW 125 mg, gélule et APREPITANT ARROW 80 mg, gélule | Gélule et gélule | ARROW GENERIQUES | Active |
+| 61380670 | APREPITANT ACCORD 80 mg, gélule | Gélule | ACCORD HEALTHCARE FRANCE | Active |
+| 69320173 | APREPITANT ARROW 80 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 65232651 | APREPITANT CRISTERS 80 mg, gélule | Gélule | CRISTERS | Active |
+| 66503721 | APREPITANT TEVA 125 mg, gélule et APREPITANT TEVA 80 mg, gélule | Gélule et gélule | TEVA (PAYS-BAS) | Active |
+| 61070180 | APREPITANT EG 80 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 64803271 | APREPITANT ACCORD 125 mg, gélule | Gélule | ACCORD HEALTHCARE FRANCE | Active |
+| 66256064 | EMEND 80 mg, gélule | Gélule | MERCK SHARP & DOHME (PAYS-BAS) | Active |
+| 64982194 | APREPITANT ZENTIVA 125 mg, gélule et APREPITANT ZENTIVA 80 mg, gélule | Gélule et gélule | ZENTIVA FRANCE | Active |
+| 64021886 | APREPITANT EG 125 mg et APREPITANT EG 80 mg, gélule | Gélule et gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61633134 | APREPITANT SANDOZ 125 mg, gélule et APREPITANT SANDOZ 80 mg, gélule | Gélule et gélule | SANDOZ | Active |
+| 63669727 | APREPITANT VIATRIS 80 mg, gélule | Gélule | VIATRIS SANTE | Active |
+| 64986762 | APREPITANT VIATRIS 125 mg, gélule | Gélule | VIATRIS SANTE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

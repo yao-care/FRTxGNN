@@ -71,9 +71,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61423246 | PENTACARINAT 300 mg, poudre pour aérosol et pour usage parentéral (statut : active) | Poudre pour aérosol et pour usage parentéral | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61423246 | PENTACARINAT 300 mg, poudre pour aérosol et pour usage parentéral | Poudre pour aérosol et pour usage parentéral | TAMRISA ACCESS (FRANCE) | Active |
+| 61094142 | PENTAMIDINE TILLOMED 300 mg, poudre pour solution injectable/pour perfusion ou pour inhal… | Poudre pour solution injectable pour perfusion ou pour inha… | TILLOMED PHARMA (ALLEMAGNE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

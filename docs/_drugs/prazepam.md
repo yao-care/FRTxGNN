@@ -3,7 +3,7 @@ layout: default
 title: Prazepam
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 624
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Prazepam : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,14 +71,20 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 ## Informations de Marché en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 69434084 | PRAZÉPAM | comprimé sécable | Active |
-| 60534076 | PRAZÉPAM | solution buvable gouttes | Active |
-| 67086191 | PRAZÉPAM | comprimé | Active |
-| 62949690 | PRAZÉPAM | comprimé | Active |
-| 62193983 | PRAZÉPAM | comprimé sécable | Active |
-| 62113528 | PRAZÉPAM | comprimé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69434084 | LYSANXIA 40 mg, comprimé sécable | Comprimé sécable | ALFASIGMA (ITALIE) | Active |
+| 60534076 | LYSANXIA 15 mg/ml, solution buvable en gouttes | Solution buvable gouttes | ALFASIGMA (ITALIE) | Active |
+| 67086191 | PRAZEPAM BIOGARAN 10 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 62949690 | LYSANXIA 10 mg, comprimé | Comprimé | ALFASIGMA (ITALIE) | Active |
+| 62193983 | PRAZEPAM ARROW 10 mg, comprimé sécable | Comprimé sécable | ARROW GENERIQUES | Active |
+| 62113528 | PRAZEPAM EG 10 mg, comprimé | Comprimé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

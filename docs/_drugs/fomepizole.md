@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 345
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fomepizole : nouvelle indication prédite, Cholangite sclérosante (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM (texte d'indication vide)"
 monitor_inn: "fomepizole"
 predicted_indications: ["sclerosing cholangitis"]
@@ -81,9 +81,15 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63945150 | FOMEPIZOLE AP-HP 5 mg/mL, solution à diluer pour perfusion (AP-HP) | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63945150 | FOMEPIZOLE AP-HP 5 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ASSISTANCE PUBLIQUE - HOPITAUX DE PARIS - AP-HP | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

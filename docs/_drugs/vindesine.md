@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 815
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "vindesine"
 predicted_indications: ["ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "neuroblastoma", "retroperitoneal neoplasm"]
 description: "Vindesine : nouvelle indication prédite, Ganglioneuroblastome (ganglioneuroblastoma (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
@@ -100,9 +100,15 @@ Pour la **tumeur rétropéritonéale** (rang 4), seules deux observations de cas
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61886269 | ELDISINE 5 mg, poudre pour solution injectable (EG LABO - Laboratoires Eurogenerics) | Poudre pour solution injectable | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61886269 | ELDISINE 5 mg, poudre pour solution injectable | Poudre pour solution injectable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

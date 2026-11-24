@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 558
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Olsalazine : nouvelle indication prédite, Syndrome myélodysplasique (niveau de preuve L5). Indication d'origine : Non précisée dans les AMM (texte d'indication vide)"
 monitor_inn: "olsalazine"
 predicted_indications: ["myelodysplastic syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "alopecia", "diffuse alopecia areata", "partial deletion of the long arm of chromosome 5", "unclassified myelodysplastic syndrome", "refractory cytopenia of childhood", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts"]
@@ -81,10 +81,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de marché en France
 
-| Numéro d'AMM | Nom du produit | Forme pharmaceutique | Indication approuvée | Statut |
-|---------|------|------|-----------|------|
-| 64457645 | DIPENTUM 500 mg, comprimé | Comprimé | Non renseignée | Active |
-| 63634128 | DIPENTUM 250 mg, gélule | Gélule | Non renseignée | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64457645 | DIPENTUM 500 mg, comprimé | Comprimé | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+| 63634128 | DIPENTUM 250 mg, gélule | Gélule | ATNAHS PHARMA NETHERLANDS (PAYS-BAS) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Titulaire : ATNAHS PHARMA NETHERLANDS (Pays-Bas).
 

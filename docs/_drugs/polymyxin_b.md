@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 615
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "polymyxin b"
 predicted_indications: ["bronchitis", "laryngotracheitis"]
 description: "Polymyxin B : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L4). En France, AMM dans la BDPM : 9 (valides : 9)"
@@ -96,13 +96,23 @@ Les publications ci-dessous sont celles qui concernent la bronchite ou les attei
 
 Les 9 AMM sont radiées.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66085108 | POLYGYNAX, capsule vaginale | Capsule | Non renseignée |
-| 62067340 | MAXIDROL, pommade ophtalmique | Pommade | Non renseignée |
-| 66129490 | POLYDEXA, solution auriculaire, gouttes | Solution gouttes | Non renseignée |
-| 68739115 | POLYGYNAX VIRGO, capsule vaginale | Capsule | Non renseignée |
-| 60798567 | ANTIBIO SYNALAR, solution pour instillation auriculaire | Solution pour instillation | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66085108 | POLYGYNAX, capsule vaginale | Capsule | INNOTECH INTERNATIONAL | Active |
+| 62067340 | MAXIDROL, pommade ophtalmique | Pommade | NOVARTIS PHARMA | Active |
+| 66129490 | POLYDEXA, solution auriculaire, gouttes | Solution gouttes | BOUCHARA-RECORDATI | Active |
+| 68739115 | POLYGYNAX VIRGO, capsule vaginale | Capsule | INNOTECH INTERNATIONAL | Active |
+| 60798567 | ANTIBIO SYNALAR, solution pour instillation auriculaire | Solution pour instillation | JOLLY JATEL | Active |
+| 61605665 | MAXIDROL, collyre | Collyre | NOVARTIS PHARMA | Active |
+| 66586731 | FRAMYXONE, solution pour instillation auriculaire | Solution pour instillation | CILFA DEVELOPPEMENT | Active |
+| 68039248 | PANOTILE, solution pour instillation auriculaire | Solution pour instillation | ZAMBON FRANCE | Active |
+| 66592652 | AURICULARUM, poudre et solvant pour suspension pour instillation auriculaire | Poudre et solvant pour suspension pour instillation | GRIMBERG | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

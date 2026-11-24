@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 689
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "safinamide"
 predicted_indications: ["Rasmussen subacute encephalitis", "myelitis", "PLA2G6-associated neurodegeneration"]
 description: "Safinamide : nouvelle indication prédite, Encéphalite subaiguë de Rasmussen (Rasmussen subacute encephalitis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61882445 | XADAGO 50 mg, comprimé pelliculé (ZAMBON, Italie) | Comprimé pelliculé | Non renseignée (AMM active) |
-| 66932795 | XADAGO 100 mg, comprimé pelliculé (ZAMBON, Italie) | Comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61882445 | XADAGO 50 mg, comprimé pelliculé | Comprimé pelliculé | ZAMBON (ITALIE) | Active |
+| 66932795 | XADAGO 100 mg, comprimé pelliculé | Comprimé pelliculé | ZAMBON (ITALIE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

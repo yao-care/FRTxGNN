@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 627
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pregabalin"
 predicted_indications: ["tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "inclusion body myositis", "migraine disorder", "migraine with brainstem aura"]
 description: "Pregabalin : nouvelle indication prédite, Tendinitis (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
@@ -99,13 +99,35 @@ Le texte d'indication approuvée n'est pas renseigné. Cinq exemples :
 
 <!-- review:end fr-lic-20261106-pregabalin-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 66368704 | PREGABALINE EVOLUGEN PHARMA 50 mg | Gélule | Non renseignée (AMM active) |
-| 63595091 | PREGABALINE HCS 100 mg | Gélule | Non renseignée (AMM active) |
-| 67326252 | PREGABALINE SANDOZ 50 mg | Gélule | Non renseignée (AMM active) |
-| 63096099 | LYRICA 75 mg | Gélule | Non renseignée (AMM active) |
-| 62285549 | PREGABALINE BIOGARAN 75 mg | Gélule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 66368704 | PREGABALINE EVOLUGEN PHARMA 50 mg, gélule | Gélule | EVOLUPHARM | Active |
+| 63595091 | PREGABALINE HCS 100 mg, gélule | Gélule | HCS (BELGIQUE) | Active |
+| 67326252 | PREGABALINE SANDOZ 50 mg, gélule | Gélule | SANDOZ (AUTRICHE) | Active |
+| 64748031 | PREGABALINE EG LABO 25 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 61031964 | PREGABALINE ARROW 100 mg, gélule | Gélule | ARROW GENERIQUES | Active |
+| 62285549 | PREGABALINE BIOGARAN 75 mg, gélule | Gélule | BIOGARAN | Active |
+| 69208950 | PREGABALINE SANDOZ 150 mg, gélule | Gélule | SANDOZ (AUTRICHE) | Active |
+| 68374652 | PREGABALINE EG LABO 150 mg, gélule | Gélule | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 66862998 | PREGABALINE UPSA 150 mg, gélule | Gélule | UPSA | Active |
+| 69451945 | PREGABALINE UPSA 50 mg, gélule | Gélule | UPSA | Active |
+| 69967100 | PREGABALINE ZENTIVA 50 mg, gélule | Gélule | ZENTIVA (REPUBLIQUE TCHEQUE) | Active |
+| 66664062 | PREGABALINE VIATRIS PHARMA 300 mg, gélule | Gélule | VIATRIS HEALTHCARE (IRLANDE) | Active |
+| 63096099 | LYRICA 75 mg, gélule | Gélule | UPJOHN (PAYS-BAS) | Active |
+| 62303075 | PREGABALINE ACCORD 100 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 61236257 | PREGABALINE EVOLUGEN PHARMA 150 mg, gélule | Gélule | EVOLUPHARM | Active |
+| 63897481 | PREGABALINE BIOGARAN 25 mg, gélule | Gélule | BIOGARAN | Active |
+| 66220723 | PREGABALINE VIATRIS PHARMA 75 mg, gélule | Gélule | VIATRIS HEALTHCARE (IRLANDE) | Active |
+| 60165394 | PREGABALINE CRISTERS PHARMA 25 mg, gélule | Gélule | SUN PHARMA FRANCE | Active |
+| 60658330 | PREGABALINE ACCORD 300 mg, gélule | Gélule | ACCORD HEALTHCARE (ESPAGNE) | Active |
+| 69277601 | PREGABALINE CRISTERS PHARMA 200 mg, gélule | Gélule | SUN PHARMA FRANCE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
 
 ---
 

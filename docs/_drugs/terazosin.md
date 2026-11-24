@@ -79,10 +79,21 @@ Aucune littérature associée disponible actuellement pour l'hypotrichose simple
 
 ## Informations de Marche en France
 
-| Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
-|---------|------|------|-----------|
-| 60376815 | HYTRINE 1 mg, comprimé (AMDIPHARM), active | Comprimé | Non disponible |
-| 66297890 | HYTRINE 5 mg, comprimé (AMDIPHARM), active | Comprimé | Non disponible |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60376815 | HYTRINE 1 mg, comprimé | Comprimé | AMDIPHARM | Active |
+| 66297890 | HYTRINE 5 mg, comprimé | Comprimé | AMDIPHARM | Active |
+| 62446447 | DYSALFA 1 mg, comprimé | Comprimé | AMDIPHARM | Active |
+| 62866910 | TERAZOSINE BIOGARAN 5 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 64171583 | TERAZOSINE TEVA 5 mg, comprimé | Comprimé | TEVA SANTE | Active |
+| 66227027 | DYSALFA 5 mg, comprimé | Comprimé | AMDIPHARM | Active |
+| 65566430 | TERAZOSINE MYLAN 5 mg, comprimé | Comprimé | MYLAN SAS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 

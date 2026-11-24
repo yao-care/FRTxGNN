@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 564
 evidence_level: L2
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "oxaliplatin"
 predicted_indications: ["malignant pleural mesothelioma", "malignant epithelioid mesothelioma", "sarcomatoid mesothelioma", "malignant visceral pleura tumor"]
 description: "Oxaliplatin : nouvelle indication prédite, Mésothéliome pleural malin (malignant pleural mesothelioma) (niveau de preuve L2). En France, AMM dans la BDPM : 10 (valides : 9)"
@@ -87,13 +87,24 @@ Cependant, aucun essai de phase 3 ne confirme sa supériorité ou son équivalen
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67280335 | Oxaliplatine Hikma 5 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 64101179 | Oxaliplatine Hospira 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM annulée) |
-| 69201646 | Oxaliplatine Sun 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 69634537 | Oxaliplatine Teva 5 mg/mL | Solution à diluer pour perfusion | Non renseignée (AMM active) |
-| 61941057 | Eloxatine 5 mg/ml | Solution à diluer pour perfusion | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67280335 | OXALIPLATINE HIKMA 5 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 69201646 | OXALIPLATINE SUN 5 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SUN PHARMACEUTICAL INDUSTRIES EUROPE (PAYS BAS) | Active |
+| 69634537 | OXALIPLATINE TEVA 5 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | TEVA SANTE | Active |
+| 61941057 | ELOXATINE 5 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | SANOFI WINTHROP INDUSTRIE | Active |
+| 67200677 | OXALIPLATINE MEDAC 5 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 67127720 | OXALIPLATINE KABI 5 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 67228961 | OXALIPLATINE ACCORD 5 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 69962719 | OXALIPLATINE ARROW LAB 5 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 62345640 | OXALIPLATINE VIATRIS 5 mg/ml, poudre pour solution pour perfusion | Poudre pour solution pour perfusion | VIATRIS SANTE | Active |
+| 64101179 | OXALIPLATINE HOSPIRA 5 mg/ml, solution à diluer pour perfusion | Solution à diluer pour perfusion | PFIZER HOLDING FRANCE | Archivée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 10 AMM sont recensées; seules les 5 premières sont listées ici.
 

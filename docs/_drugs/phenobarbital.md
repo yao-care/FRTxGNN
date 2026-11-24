@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 595
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "phenobarbital"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
 description: "Phenobarbital : nouvelle indication prédite, Tumeur du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
@@ -96,13 +96,25 @@ Le médicament est commercialisé : 11 AMM valides sur 11 identifiées. Le texte
 
 <!-- review:end fr-lic-20261106-phenobarbital-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 63019074 | PHENOBARBITALUM BOIRON (dilutions 4CH–30CH / 8DH–60DH) | Comprimé, solution, granules, poudre, pommade | Active |
-| 63707416 | GARDENAL 10 mg | Comprimé | Active |
-| 64933585 | GARDENAL 40 mg/2 ml | Poudre et solvant pour solution injectable | Active |
-| 60323481 | PHENOBARBITAL RICHARD 100 mg | Comprimé sécable | Active |
-| 61475588 | GARDENAL 100 mg | Comprimé | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63019074 | PHENOBARBITALUM BOIRON, degré de dilution compris entre 4CH et 30CH ou entre 8DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 63707416 | GARDENAL 10 mg, comprimé | Comprimé | ATNAHS PHARMA FRANCE | Active |
+| 64933585 | GARDENAL 40 mg/2 ml, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | ATNAHS PHARMA FRANCE | Active |
+| 60323481 | PHENOBARBITAL RICHARD 100 mg, comprimé sécable | Comprimé sécable | RICHARD | Active |
+| 61475588 | GARDENAL 100 mg, comprimé | Comprimé | ATNAHS PHARMA FRANCE | Active |
+| 68473458 | GARDENAL 200 mg/4 ml, poudre et solvant pour solution injectable | Poudre et solvant pour solution injectable | ATNAHS PHARMA FRANCE | Active |
+| 65391080 | GARDENAL 50 mg, comprimé | Comprimé | ATNAHS PHARMA FRANCE | Active |
+| 60622868 | ALEPSAL 50 mg, comprimé | Comprimé | TEOFARMA | Active |
+| 66086808 | ALEPSAL 100 mg, comprimé | Comprimé | TEOFARMA | Active |
+| 63131269 | ALEPSAL 15 mg, comprimé | Comprimé | TEOFARMA | Active |
+| 66014762 | ALEPSAL 150 mg, comprimé | Comprimé | TEOFARMA | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

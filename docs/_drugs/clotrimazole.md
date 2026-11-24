@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 191
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOTRIMAZOLE"
 predicted_indications: ["acne (disease)", "postmenopausal atrophic vaginitis"]
 description: "Clotrimazole : nouvelle indication prédite, acné (acne (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
@@ -70,15 +70,22 @@ Le seul essai identifié teste une association fixe (bêclométasone + gentamici
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 67301480 | MYCOHYDRALIN 200 mg, comprimé vaginal | Comprimé | Non renseignée (AMM active) |
-| 62633525 | CLOTRIMAZOLE EG LABO CONSEIL 1 %, crème | Crème | Non renseignée (AMM active) |
-| 67933494 | MYCOHYDRALIN 500 mg, comprimé vaginal | Comprimé | Non renseignée (AMM active) |
-| 67777579 | MYCOHYDRALIN, crème | Crème | Non renseignée (AMM active) |
-| 60070359 | MYCOHYDRALIN 500 mg, capsule vaginale | Capsule | Non renseignée (AMM active) |
+<!-- licenses:begin -->
 
-Le clotrimazole est commercialisé en France ; les 6 AMM recensées sont valides. Le tableau ci-dessus présente les 5 premières.
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67301480 | MYCOHYDRALIN 200 mg, comprimé vaginal | Comprimé | BAYER HEALTHCARE | Active |
+| 62633525 | CLOTRIMAZOLE EG LABO CONSEIL 1%, crème | Crème | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 67933494 | MYCOHYDRALIN 500 mg, comprimé vaginal | Comprimé | BB FARMA (ITALIE) | Active |
+| 67777579 | MYCOHYDRALIN, crème | Crème | BAYER HEALTHCARE | Active |
+| 60070359 | MYCOHYDRALIN 500 mg, capsule vaginale | Capsule | BAYER HEALTHCARE | Active |
+| 68001621 | MYCOHYDRALIN 500 mg, comprimé vaginal | Comprimé | BAYER HEALTHCARE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
+Le clotrimazole est commercialisé en France ; les 6 AMM recensées sont valides.
 
 ## Considérations de Sécurité
 

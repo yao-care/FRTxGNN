@@ -89,13 +89,28 @@ La relation avec l'indication d'origine est donc surtout mécanistique : le mêm
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 63337924 | VINORELBINE ACCORD 20 mg | Capsule molle | Non renseignée (AMM active) |
-| 63396029 | VINORELBINE ACCORD 30 mg | Capsule molle | Non renseignée (AMM active) |
-| 69968704 | VINORELBINE MEDAC 20 mg | Capsule molle | Non renseignée (AMM active) |
-| 66621926 | VINORELBINE MEDAC 30 mg | Capsule molle | Non renseignée (AMM active) |
-| 69684369 | VINORELBINE SANDOZ 20 mg | Capsule molle | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63337924 | VINORELBINE ACCORD 20 mg, capsule molle | Capsule molle | ACCORD HEALTHCARE FRANCE | Active |
+| 66621926 | VINORELBINE MEDAC 30 mg, capsule molle | Capsule molle | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 69968704 | VINORELBINE MEDAC 20 mg, capsule molle | Capsule molle | MEDAC GESELLSCHAFT FUR KLINISCHE SPEZIALPRAPARATE (ALLEMAGN… | Active |
+| 63396029 | VINORELBINE ACCORD 30 mg, capsule molle | Capsule molle | ACCORD HEALTHCARE FRANCE | Active |
+| 69684369 | VINORELBINE SANDOZ 20 mg, capsule molle | Capsule molle | SANDOZ | Active |
+| 63313994 | VINORELBINE SANDOZ 30 mg, capsule molle | Capsule molle | SANDOZ | Active |
+| 62924833 | VINORELBINE ARROW 10 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | EUGIA PHARMA (MALTA) (MALTE) | Active |
+| 63457489 | VINORELBINE ACCORD 10 mg/mL, solution à diluer pour perfusion | Solution à diluer pour perfusion | ACCORD HEALTHCARE FRANCE | Active |
+| 60376637 | VINORELBINE PIERRE FABRE 20 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 61168991 | NAVELBINE 50 mg/5 ml, solution injectable en flacon | Solution injectable | PIERRE FABRE MEDICAMENT | Active |
+| 63413635 | NAVELBINE 30 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 64503288 | NAVELBINE 20 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 64859633 | VINORELBINE PIERRE FABRE 30 mg, capsule molle | Capsule molle | PIERRE FABRE MEDICAMENT | Active |
+| 68184425 | NAVELBINE 10 mg/1 ml, solution injectable en flacon | Solution injectable | PIERRE FABRE MEDICAMENT | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Cytotoxicité
 

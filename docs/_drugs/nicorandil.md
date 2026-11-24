@@ -83,13 +83,28 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 
 <!-- review:end fr-lic-20261106-nicorandil-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 64614712 | NICORANDIL EG 10 mg | Comprimé sécable | Active |
-| 66925249 | NICORANDIL ALMUS 10 mg | Comprimé sécable | Active |
-| 61503831 | NICORANDIL ZENTIVA 10 mg | Comprimé sécable | Active |
-| 61630825 | NICORANDIL SANDOZ 10 mg | Comprimé sécable | Active |
-| 61786176 | IKOREL 20 mg | Comprimé | Annulée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64614712 | NICORANDIL EG 10 mg, comprimé sécable | Comprimé sécable | DOUBLE-E PHARMA (IRLANDE) | Active |
+| 66925249 | NICORANDIL ALMUS 10 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 61503831 | NICORANDIL ZENTIVA 10 mg, comprimé sécable | Comprimé sécable | ZENTIVA FRANCE | Active |
+| 61630825 | NICORANDIL SANDOZ 10 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 61536799 | NICORANDIL ZENTIVA 20 mg, comprimé | Comprimé | ZENTIVA FRANCE | Active |
+| 66224312 | NICORANDIL BIOGARAN 10 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 67489185 | NICORANDIL VIATRIS 20 mg, comprimé | Comprimé | VIATRIS SANTE | Active |
+| 69989602 | NICORANDIL ALMUS 20 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 67566016 | NICORANDIL BIOGARAN 20 mg, comprimé | Comprimé | BIOGARAN | Active |
+| 62411713 | NICORANDIL VIATRIS 10 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 60789543 | NICORANDIL EG 20 mg, comprimé | Comprimé | DOUBLE-E PHARMA (IRLANDE) | Active |
+| 61350136 | NICORANDIL SANDOZ 20 mg, comprimé | Comprimé | SANDOZ | Active |
+| 61786176 | IKOREL 20 mg, comprimé | Comprimé | SANOFI WINTHROP INDUSTRIE | Abrogée |
+| 61613167 | IKOREL 10 mg, comprimé sécable | Comprimé sécable | SANOFI WINTHROP INDUSTRIE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Au total, 14 AMM figurent dans les données.
 

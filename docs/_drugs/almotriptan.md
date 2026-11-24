@@ -91,13 +91,23 @@ L'almotriptan est commercialisé en France sous forme de spécialités à base d
 
 <!-- review:end fr-lic-20261124-almotriptan-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
-|---------|------|------|-----------|
-| 65724460 | ALMOTRIPTAN EG 12,5 mg | Comprimé pelliculé | EG LABO - Laboratoires Eurogenerics |
-| 65959736 | ALMOTRIPTAN ZENTIVA 12,5 mg | Comprimé pelliculé | Zentiva France |
-| 65840148 | ALMOTRIPTAN SANDOZ 12,5 mg | Comprimé pelliculé | Sandoz |
-| 64165648 | ALMOTRIPTAN ARROW 12,5 mg | Comprimé pelliculé | Arrow Génériques |
-| 68877714 | ALMOTRIPTAN TEVA 12,5 mg | Comprimé pelliculé | Teva Santé |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65724460 | ALMOTRIPTAN EG 12,5 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65959736 | ALMOTRIPTAN ZENTIVA 12,5 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 65840148 | ALMOTRIPTAN SANDOZ 12,5 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 64165648 | ALMOTRIPTAN ARROW 12,5 mg, comprimé pelliculé | Comprimé pelliculé | ARROW GENERIQUES | Active |
+| 68877714 | ALMOTRIPTAN TEVA 12,5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 69051602 | ALMOTRIPTAN ZYDUS FRANCE 12,5 mg, comprimé pelliculé | Comprimé pelliculé | ZYDUS FRANCE | Active |
+| 63564808 | ALMOGRAN 12,5 mg, comprimé pelliculé | Comprimé pelliculé | ALMIRALL | Active |
+| 64099244 | ALMOTRIPTAN BIOGARAN 12,5 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68878773 | ALMOTRIPTAN VIATRIS 12,5 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS SANTE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

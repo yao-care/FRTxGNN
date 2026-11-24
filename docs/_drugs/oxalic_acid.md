@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 563
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Oxalic Acid : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM"
 monitor_inn: "oxalic acid"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "antithrombin deficiency type 2", "hemoglobinopathy", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "partial deletion of the short arm of chromosome 16", "beta-thalassemia with other manifestations", "hyperthyroidism"]
@@ -96,11 +96,17 @@ Pour les autres indications prédites, les publications retrouvées (études mé
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 64922966 | Oxalicum acidum Boiron, dilution 2CH à 30CH ou 4DH à 60DH | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM active) |
-| 62743726 | Oxalicum acidum Lehning, dilution 2CH à 30CH ou 4DH à 60DH | Comprimé, solution, granules, poudre et pommade | Non renseignée (AMM active) |
-| 62153864 | Berberis complexe n°83, solution buvable en gouttes | Solution buvable en gouttes | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 64922966 | OXALICUM ACIDUM BOIRON, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | BOIRON | Active |
+| 62743726 | OXALICUM ACIDUM LEHNING, degré de dilution compris entre 2CH et 30CH ou entre 4DH et 60DH | Comprimé et solution(s) et granules et poudre et pommade | LEHNING | Active |
+| 62153864 | BERBERIS COMPLEXE N°83, solution buvable en gouttes | Solution buvable en gouttes | LEHNING | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ---
 

@@ -83,13 +83,22 @@ Le texte d'indication approuvée n'est pas renseigné.
 
 <!-- review:end fr-lic-20261106-sulpiride-1 -->
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
-|---------|------|------|-----------|
-| 61055303 | SULPIRIDE TEVA 50 mg | Gélule | Active |
-| 64285722 | DOGMATIL 0,5 g/100 ml sans sucre | Solution buvable | Active |
-| 67208161 | DOGMATIL 200 mg | Comprimé sécable | Active |
-| 62344129 | DOGMATIL 50 mg | Gélule | Active |
-| 66241856 | SULPIRIDE TEVA 200 mg | Comprimé sécable | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61055303 | SULPIRIDE TEVA 50 mg, gélule | Gélule | TEVA SANTE | Active |
+| 64285722 | DOGMATIL 0,5 g/100 ml SANS SUCRE, solution buvable édulcorée au cyclamate de sodium | Solution buvable | NEURAXPHARM FRANCE | Active |
+| 67208161 | DOGMATIL 200 mg, comprimé sécable | Comprimé sécable | NEURAXPHARM FRANCE | Active |
+| 62344129 | DOGMATIL 50 mg, gélule | Gélule | NEURAXPHARM FRANCE | Active |
+| 66241856 | SULPIRIDE TEVA 200 mg, comprimé sécable | Comprimé sécable | TEVA SANTE | Active |
+| 62227318 | SULPIRIDE SANDOZ 50 mg, gélule | Gélule | SANDOZ | Archivée |
+| 67215405 | SULPIRIDE VIATRIS 200 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Abrogée |
+| 69649845 | SULPIRIDE VIATRIS 50 mg, gélule | Gélule | VIATRIS SANTE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 2
 monitor_inn: "CARBIMAZOLE"
 predicted_indications: ["resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "hyperthyroxinemia"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Carbimazole : nouvelle indication prédite, Résistance aux hormones thyroïdiennes due à une mutation du récepteur bêta des hormones thyroïdiennes (resistance to th… (niveau de preuve L5). Indication d…"
 ---
 
@@ -76,10 +76,16 @@ Cette publication décrit un cas de diagnostic différentiel et ne démontre pas
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 61451683 | NEO-MERCAZOLE 20 mg, comprimé | Comprimé | Non renseignée |
-| 63839179 | NEO-MERCAZOLE 5 mg, comprimé | Comprimé | Non renseignée |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61451683 | NEO-MERCAZOLE 20 mg, comprimé | Comprimé | AMDIPHARM | Active |
+| 63839179 | NEO-MERCAZOLE 5 mg, comprimé | Comprimé | AMDIPHARM | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

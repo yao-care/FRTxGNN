@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "agomelatine"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "neurotic disorder", "Ohdo syndrome and variants", "ligneous conjunctivitis", "blepharophimosis - intellectual disability syndrome, Ohdo type", "Keppen-Lubinsky syndrome"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Agomelatine : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les…"
 ---
 
@@ -72,10 +72,16 @@ Aucune littérature associée disponible actuellement.
 
 Deux AMM pour des spécialités à base d'agomélatine seule figurent dans les données locales : VALDOXAN 25 mg (Les Laboratoires Servier) et AGOMELATINE BIOGARAN 25 mg (Biogaran), toutes deux sous forme de comprimé pelliculé. L'agomélatine est commercialisée en France.
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
-|---------|------|------|
-| 67218369 | VALDOXAN 25 mg, comprimé pelliculé | Comprimé pelliculé |
-| 64798333 | AGOMELATINE BIOGARAN 25 mg, comprimé pelliculé | Comprimé pelliculé |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 67218369 | VALDOXAN 25 mg, comprimé pelliculé | Comprimé pelliculé | LES LABORATOIRES SERVIER | Active |
+| 64798333 | AGOMELATINE BIOGARAN 25 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de Sécurité
 

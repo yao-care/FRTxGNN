@@ -87,13 +87,32 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marché en France
 
-| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
-|---------|------|------|-----------|
-| 65199404 | DARUNAVIR BIOGARAN 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 68220711 | DARUNAVIR TEVA 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 67422090 | DARUNAVIR EG 400 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 63124787 | DARUNAVIR VIATRIS 600 mg | comprimé pelliculé | Non renseignée (AMM active) |
-| 65602549 | DARUNAVIR VIATRIS 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 65199404 | DARUNAVIR BIOGARAN 800 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 68220711 | DARUNAVIR TEVA 800 mg, comprimé pelliculé | Comprimé pelliculé | TEVA (PAYS-BAS) | Active |
+| 67422090 | DARUNAVIR EG 400 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 63124787 | DARUNAVIR VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 65602549 | DARUNAVIR VIATRIS 800 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 68493158 | DARUNAVIR EG 600 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65900346 | DARUNAVIR ZENTIVA 600 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 68205182 | DARUNAVIR KRKA 800 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 68175216 | DARUNAVIR SANDOZ 600 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 69977258 | DARUNAVIR VIATRIS 400 mg, comprimé pelliculé | Comprimé pelliculé | VIATRIS (IRLANDE) | Active |
+| 60803434 | DARUNAVIR ZENTIVA 400 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 60860061 | DARUNAVIR SANDOZ 400 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 66824474 | DARUNAVIR SANDOZ 800 mg, comprimé pelliculé | Comprimé pelliculé | SANDOZ | Active |
+| 63812730 | DARUNAVIR EG 800 mg, comprimé pelliculé | Comprimé pelliculé | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 65685993 | DARUNAVIR BIOGARAN 600 mg, comprimé pelliculé | Comprimé pelliculé | BIOGARAN | Active |
+| 69531462 | DARUNAVIR KRKA 600 mg, comprimé pelliculé | Comprimé pelliculé | KRKA (SLOVENIE) | Active |
+| 67774362 | DARUNAVIR ZENTIVA 800 mg, comprimé pelliculé | Comprimé pelliculé | ZENTIVA FRANCE | Active |
+| 62624693 | DARUNAVIR TEVA 600 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 Les 18 AMM recensées (17 valides) sont des génériques à base de darunavir seul.
 

@@ -3,7 +3,7 @@ layout: default
 title: Oxiconazole
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 567
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Oxiconazole : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -71,9 +71,15 @@ Les candidats proposés par le modèle TxGNN pour Oxiconazole correspondent tous
 
 ## Informations de Marche en France
 
-| AMM | Produit | Forme | Statut |
-|------|------|------|------|
-| 60797376 | OXICONAZOLE (NITRATE D') | crème | Active |
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60797376 | FONX 1 %, crème en tube | Crème | KARO PHARMA (SUEDE) | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considerations de Securite
 
