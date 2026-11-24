@@ -125,3 +125,10 @@ drug_mapping 只認得「RALOXIFÈNE (CHLORHYDRATE DE)」這種寫法，同一�
 - 待查清單 11-24 新增的 56 項全部標 resolved（附 record_ids 或理由：isoflurane、remimazolam、ritonavir 的更正文字沒有張數，只重發說明；benazepril、donepezil 的「dispose d'AMM actives」依事實層成立）。
 - 沒改：42 筆紀錄的說明是附資料日期的查證依據（「d'après la BDPM (données du 2026-11-13), les 16 AMM … sont actives」），照原樣保留；正文其他寫死張數的句子（寬偵測 285 句，多是「N AMM valides sur M」）由 B（rewrite_license_counts.py）維護或第一輪已判定。
 - 驗證：apply --check 0、gate exit 0、checker 全量 0（改前 0；中途 3 句 M3 已改寫）；last_modified_at 正文有變的頁為 2026-11-24。
+
+## 缺市場段落的公開頁補程式表（2026-11-24 第三輪）
+
+用戶 2026-11-24 決定（比照 JpTxGNN 第二輪 `add_section`）：公開頁（非 noindex、非轉址）整頁沒有市場段落、證據包卻有許可證紀錄的，
+`scripts/sync_license_tables.py` 的 `add_section` 在安全性段之前（沒有就結論、查核紀錄、免責聲明段之前）補「## Informations de Marché en France」與程式表；noindex 頁、證據包沒有紀錄的頁不補。
+gate（licenses.py 的 page_problems 第 5 項）擋「公開頁快照有程式表列卻沒有市場段落」；PAGE_NOTE 放行新標題行。
+2026-11-24 全量量測 4 頁（bisoprolol、metoclopramide、rocuronium、salbutamol），補上；正文沒有跟新表矛盾的句子，沒有新查核紀錄。checker 前後都是 0、gate exit 0。

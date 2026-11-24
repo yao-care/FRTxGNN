@@ -70,6 +70,38 @@ Aucun essai clinique associé enregistré actuellement.
 
 Aucune littérature associée disponible actuellement.
 
+## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 69455705 | BISOPROLOL BGR 7,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 65591063 | BISOPROLOL KRKA 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | KRKA (SLOVENIE) | Active |
+| 62969789 | BISOPROLOL TEVA 5 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 63162282 | CARDENSIEL 1,25 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SANTE | Active |
+| 60524826 | BISOPROLOL TEVA 10 mg, comprimé pelliculé | Comprimé pelliculé | TEVA SANTE | Active |
+| 60747455 | DETENSIEL 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | MERCK SANTE | Active |
+| 68512046 | BISOPROLOL BGR 5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Active |
+| 67345231 | BISOPROLOL ALMUS 10 mg, comprimé sécable | Comprimé sécable | BIOGARAN | Active |
+| 65118181 | LODOZ 10 mg/6,25 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SANTE | Active |
+| 67460027 | LODOZ 5 mg/6,25 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SANTE | Active |
+| 66845664 | LODOZ 2,5 mg/6,25 mg, comprimé pelliculé | Comprimé pelliculé | MERCK SANTE | Active |
+| 60077574 | CARDENSIEL 2,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | MERCK SANTE | Active |
+| 60598673 | BISOPROLOL CRISTERS 3,75 mg, comprimé | Comprimé | CRISTERS | Active |
+| 60663142 | BISOPROLOL EG 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60850633 | BISOPROLOL EG 5 mg, comprimé sécable | Comprimé sécable | EG LABO - LABORATOIRES EUROGENERICS | Active |
+| 60895361 | BISOPROLOL VIATRIS 7,5 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | VIATRIS SANTE | Active |
+| 61094975 | BISOPROLOL CRISTERS PHARMA 10 mg, comprimé pelliculé | Comprimé pelliculé | CRISTERS | Active |
+| 60942900 | BISOPROLOL BGR 10 mg, comprimé pelliculé sécable | Comprimé pelliculé sécable | BIOGARAN | Archivée |
+| 60789290 | BISOPROLOL SUN 1,25 mg, comprimé | Comprimé | SUN PHARMA FRANCE | Abrogée |
+| 60967985 | BISOCE 1,25 mg, comprimé pelliculé | Comprimé pelliculé | MYLAN SAS | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.
+
+<!-- licenses:end -->
+
 ## Considérations de Sécurité
 
 **Interactions médicamenteuses** : 100 interactions ont été recensées. Parmi les principales :

@@ -78,6 +78,26 @@ Pour la prédiction « céphalées » (rang 10), deux publications indirectes ex
 | [23812022](https://pubmed.ncbi.nlm.nih.gov/23812022/) | 2014 | Étude clinique | J ECT | Comparaison succinylcholine vs rocuronium-sugammadex sur les myalgies et céphalées après électroconvulsivothérapie : la céphalée y est un effet périprocédural, pas une cible thérapeutique. |
 | [24196089](https://pubmed.ncbi.nlm.nih.gov/24196089/) | 2013 | Cas clinique | Pediatr Emerg Care | Intubation en séquence rapide chez un enfant à risque d'aspiration avec pression intracrânienne élevée ; sans rapport avec un effet antimigraineux. |
 
+## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 63727550 | ROCURONIUM HIKMA 10 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | HIKMA FARMACEUTICA (PORTUGAL) | Active |
+| 64544979 | ROCURONIUM B.BRAUN 10 mg/ml, solution injectable | Solution injectable | B BRAUN MELSUNGEN | Active |
+| 64634775 | ROCURONIUM VIATRIS 10 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | VIATRIS SANTE | Active |
+| 65637913 | ROCURONIUM KABI 10 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | FRESENIUS KABI FRANCE | Active |
+| 67527248 | ROCURONIUM AGUETTANT 10 mg/mL, solution injectable en seringue pré-remplie | Solution injectable | AGUETTANT | Active |
+| 67801877 | ROCURONIUM NORIDEM 10 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | NORIDEM | Active |
+| 68522898 | ROCURONIUM KALCEKS 10 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | AS KALCEKS (LETTONIE) | Active |
+| 61475862 | ROCURONIUM HOSPIRA 10 mg/mL, solution injectable/pour perfusion | Solution injectable ou pour perfusion | PFIZER HOLDING FRANCE | Abrogée |
+| 68986795 | ESMERON 10 mg/mL, solution injectable | Solution injectable | MSD FRANCE | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
 ## Considérations de Sécurité
 
 - **Interactions médicamenteuses** : 73 interactions recensées. Parmi celles listées :

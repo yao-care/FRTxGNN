@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 690
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SALBUTAMOL"
 predicted_indications: ["papillary conjunctivitis", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "anaphylaxis", "common cold", "atopic conjunctivitis", "anorectal stricture"]
 description: "Salbutamol : nouvelle indication prédite, Conjonctivite papillaire (papillary conjunctivitis) (niveau de preuve L5). En France, AMM dans la BDPM : 26 (valides : 24)"
@@ -79,6 +79,43 @@ Aucun essai clinique associé enregistré actuellement.
 Aucune littérature associée disponible actuellement.
 
 ---
+
+## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 60928110 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | BB FARMA (ITALIE) | Active |
+| 61187493 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | DIFARMED (ESPAGNE) | Active |
+| 61754100 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | DIFARMED (ESPAGNE) | Active |
+| 63196690 | SALBUTAMOL TEVA 5 mg/2,5 mL, solution pour inhalation par nébuliseur en récipient unidose | Solution pour inhalation par nébuliseur | TEVA SANTE | Active |
+| 63266758 | SALBUTAMOL RENAUDIN 5 mg/5 ml, solution injectable | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 63744069 | SALBUMOL FORT 5 mg/5 ml, solution pour perfusion intraveineuse en ampoule | Solution pour perfusion | GLAXOSMITHKLINE | Active |
+| 63883282 | SALBUTAMOL TEVA 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | TEVA SANTE | Active |
+| 64245247 | VENTOLINE 5 mg/2,5 ml, solution pour inhalation par nébuliseur en récipient unidose | Solution pour inhalation par nébuliseur | GLAXOSMITHKLINE | Active |
+| 64532012 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | DIFARMED (ESPAGNE) | Active |
+| 64720167 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | GLAXOSMITHKLINE | Active |
+| 65376705 | VENTOLINE 2,5 mg/2,5 ml, solution pour inhalation par nébuliseur en récipient unidose | Solution pour inhalation par nébuliseur | GLAXOSMITHKLINE | Active |
+| 65740201 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | DIFARMED (ESPAGNE) | Active |
+| 65779001 | VENTILASTIN NOVOLIZER 100 microgrammes/dose, poudre pour inhalation | Poudre pour inhalation | VIATRIS MEDICAL | Active |
+| 65981280 | SALBUTAMOL ARROW 5 mg/2,5 mL, solution pour inhalation par nébuliseur en récipient unidose | Solution pour inhalation par nébuliseur | ARROW GENERIQUES | Active |
+| 66086181 | AIROMIR AUTOHALER 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | TEVA SANTE | Active |
+| 66231292 | SALBUTAMOL VIATRIS 5 mg/5 ml, solution pour perfusion | Solution pour perfusion | VIATRIS SANTE | Active |
+| 67359188 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | BB FARMA (ITALIE) | Active |
+| 67458236 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | DIFARMED (ESPAGNE) | Active |
+| 68036348 | SALBUTAMOL TEVA 2,5 mg/2,5 mL, solution pour inhalation par nébuliseur en récipient unido… | Solution pour inhalation par nébuliseur | TEVA SANTE | Active |
+| 68174071 | SALBUTAMOL VIATRIS 2,5 mg/2,5 ml, solution pour inhalation par nébuliseur en récipient un… | Solution pour inhalation par nébuliseur | VIATRIS SANTE | Active |
+| 68365226 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | BB FARMA (ITALIE) | Active |
+| 68563941 | SALBUTAMOL ARROW 2,5 mg/2,5 mL, solution pour inhalation par nébuliseur en récipient unid… | Solution pour inhalation par nébuliseur | ARROW GENERIQUES | Active |
+| 68886446 | SALBUTAMOL VIATRIS 5 mg/2,5 ml, solution pour inhalation par nébuliseur en récipient unid… | Solution pour inhalation par nébuliseur | VIATRIS SANTE | Active |
+| 69077942 | VENTOLINE 0,5 mg/1 ml, solution injectable par voie sous-cutanée en ampoule | Solution injectable | GLAXOSMITHKLINE | Active |
+| 65195719 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | PHARMA LAB | Abrogée |
+| 66179486 | VENTOLINE 100 microgrammes/dose, suspension pour inhalation en flacon pressurisé | Suspension pour inhalation | PHARMA LAB | Abrogée |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
 
 ## Considérations de sécurité
 

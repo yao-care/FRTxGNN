@@ -80,6 +80,24 @@ Aucune de ces publications ne teste la métoclopramide dans la gastroduodénite.
 | [5548563](https://pubmed.ncbi.nlm.nih.gov/5548563/) | 1971 | Étude animale | Gut | Contractions antrales et duodénales plus fortes et plus régulières chez le chien |
 | [18321441](https://pubmed.ncbi.nlm.nih.gov/18321441/) | 2008 | Revue | Curr Treat Options Gastroenterol | Prise en charge des nausées et vomissements |
 
+## Informations de Marché en France
+
+<!-- licenses:begin -->
+
+| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |
+|------|------|------|------|------|
+| 61729093 | PRIMPERAN 10 mg/2 ml, solution injectable en ampoule | Solution injectable | MEDIPHA SANTE | Active |
+| 61751232 | MIGPRIV, poudre pour solution buvable en sachet | Poudre pour solution buvable | COOPER (ABRÉGÉ DE COOPERATION PHARMACEUTIQUE FRANCAISE) | Active |
+| 63076709 | METOCLOPRAMIDE VIATRIS 10 mg, comprimé sécable | Comprimé sécable | VIATRIS SANTE | Active |
+| 63177843 | METOCLOPRAMIDE SANDOZ 10 mg, comprimé sécable | Comprimé sécable | SANDOZ | Active |
+| 63670380 | CHLORHYDRATE DE METOCLOPRAMIDE RENAUDIN 10 mg/2 mL, solution injectable en ampoule | Solution injectable | LABORATOIRE RENAUDIN | Active |
+| 63845762 | PROKINYL L.P. 15 mg, gélule à libération prolongée | Gélule à libération prolongée | TECHNI-PHARMA | Active |
+| 68968199 | PRIMPERAN 0,1 %, solution buvable édulcorée au cyclamate de sodium et à la saccharine sod… | Solution buvable | SANOFI WINTHROP INDUSTRIE | Active |
+
+Source : Base de données publique des médicaments (BDPM), statut administratif de l'AMM ; AMM actives en premier.
+
+<!-- licenses:end -->
+
 ## Considérations de Sécurité
 
 - **Interactions médicamenteuses** : 670 interactions sont recensées. Parmi les principales, des interactions de niveau majeur avec le **tramadol** et l'**amisulpride**, et de niveau modéré avec, entre autres, le fentanyl, la codéine, l'alprazolam, l'amitriptyline, l'éthanol, la cétirizine et l'amantadine.
