@@ -157,6 +157,19 @@ def validate(new, old):
     return p
 
 
+_VERIFY_MAP = {"valide": "Autorisation active", "archivée": "Autorisation archivée", "abrogée": "Autorisation abrogée",
+               "suspendue": "Autorisation suspendue", "retirée": "Autorisation retirée"}
+
+
+def verify(lid):
+    """反覆跳動防呆的線上查核（2026-11-24）：讀 BDPM 產品頁的「Statut de l'autorisation」，換成 CIS_bdpm 的寫法回傳；
+    讀不到、404 或不認得的寫法回 None（排程就保留現狀、列進 issue）"""
+    st = _page_status(lid)
+    if not st or st == "404":
+        return None
+    return _VERIFY_MAP.get(st.strip().lower())
+
+
 def status_index(new):
     return {r["cis"]: r["statut_amm"] for r in new}
 

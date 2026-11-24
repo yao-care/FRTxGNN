@@ -49,6 +49,7 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   Autorisation abrogée 仍有 Présentation active，所以不拿包裝狀態推定）。兩份檔都沒有、產品頁 404 的本站 CIS 由 preprocess 標
   `license_status: cancelled`＋`bdpm_not_listed`（第一次發現日；BDPM 連 abrogée／archivée 都收，整個不收＝已不是現行許可），又出現就取消；
   任一份檔下載失敗、兩份合計少於 15,000 個 CIS、或產品頁讀不到時不判定。`confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」，不算「查不到」。
+- 2026-11-24（用戶決定，反覆跳動防呆，見母 repo CLAUDE.md）：`verify(cis)` 讀 BDPM 產品頁的「Statut de l'autorisation」並換成 CIS_bdpm 的寫法（Valide→Autorisation active、Archivée→Autorisation archivée…）；排程遇到 28 天內翻回去的狀態變更時，產品頁確認新狀態才寫回，否則保留現狀、開 issue（11-13 那次的 10 張依產品頁都會擋下）。
 - 2026-11-17 排程：新資料涵蓋 100%（5,820 張），狀態變動 0、改頁 0。
 
 ## 依 BDPM 物質代碼補收同成分 AMM（2026-11-24）
