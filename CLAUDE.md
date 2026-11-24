@@ -15,7 +15,7 @@
 | 套用 | `scripts/apply_drug_reviews.py` | 套到 `docs/_drugs/*.md`：查核框 `<!-- review:begin id -->`、免責聲明前的查核紀錄表；可重複執行；`--check` 只檢查、`--touch` 連 last_modified_at 一起改 |
 | 頁首等級 | `src/frtxgnn/regulatory/page_format.py` | 頁首＝Quick Overview 等級格的**第一個**等級（主預測）；這是本站產線原本的行為（2026-11-12 實測，見 site_config 的 HEADER_RULE_NOTE），不照 Tw 整格取最高。頁首 N/A 且沒有預測的頁不重算 |
 | 撤回預測 | `src/frtxgnn/regulatory/withdrawn.py` | verdict=withdraw 的預測不進證據監測（`scripts/extract_drug_list.py`）、搜尋索引與 FHIR（母目錄 `.claude/rebuild_search_index.py`、`.claude/sync_fhir_levels.py` 會讀本站這支） |
-| 許可證 | `snapshots/fr_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/frtxgnn/regulatory/licenses.py` | 本站沒有程式產生的許可證表；gate 依快照驗市場段落表格的號碼屬於本藥、狀態列與張數列＝事實層、表格列狀態不跟事實相反 |
+| 許可證 | `scripts/sync_license_tables.py`（程式表前後有 `<!-- licenses:begin/end -->`，2026-11-24 起）、`snapshots/fr_licenses.json.gz`、`scripts/build_license_snapshot.py`、`src/frtxgnn/regulatory/licenses.py` | 快照存事實層、本藥號碼、程式表列；gate 依快照驗程式區塊、號碼屬於本藥、狀態列與張數列＝事實層、表格列狀態不跟事實相反 |
 | 刪改轉紀錄 | `scripts/reviews_from_edits.py` | 依 git 前後版本（或改寫前後目錄）把正文刪改轉成 correct 紀錄；site_config 的 COMMITS／REGEN_COMMITS 是 2026-10-31～11-06 的刪改與 AI 重產提交 |
 | 待查清單 | `docs/_data/drug_reviews_uncertain.json`、`scripts/check_original_indications.py` | 原適應症交叉驗證，只列待查、不改頁面 |
 | gate | `scripts/check_seo_docs.py` 第 17–20 項 | 紀錄都已套用、許可證＝快照、頁首＝主預測等級、撤回預測沒有對外發布 |
@@ -68,6 +68,23 @@ drug_mapping 只認得「RALOXIFÈNE (CHLORHYDRATE DE)」這種寫法，同一�
   rivastigmine 的 11-06 刪句紀錄改錨）。只講表上幾張的句子改成明講「tableau ci-dessus」並補總數；待辦條目（bendamustine「des deux AMM」等）照規則不改。寬偵測複查剩 38 句，都是改寫後張數一致或不是張數句。
   `fr-lic-20261124-raloxifene-1`、`quinapril-1`（同日加的「證據包只收到舊 AMM」加註）撤回。checker 全量 0、gate 通過。
 - `.github/workflows/license-refresh.yml` 在 license_refresh 前先跑這支（下載 CIS_bdpm.txt、CIS_COMPO_bdpm.txt），之後成分名寫法漏收或新註冊的同成分 AMM 會自動補進證據包；正文張數若因此矛盾，排程照常擋下該頁、要另寫紀錄。
+
+## 程式產生許可證表、正文張數自動改寫（2026-11-24）
+
+用戶 2026-11-24 決定（30 站「許可證張數與狀態不再每週過期」）：每週排程只改得到概覽表狀態列／張數列，市場段落的 AI 自由格式許可證表（號碼格夾「(annulée)」、適應症欄全是「Non renseignée」）與正文張數句每週過期、checker 擋頁。
+- A. `scripts/sync_license_tables.py`：「## Informations de Marché en France」段落的第一張表換成程式依證據包（tfda.records）產生的表
+  `| Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire | Statut |`：列＝證據包全部紀錄（最多 20 筆），Active 在前；狀態＝BDPM Statut administratif 原文簡寫（Active／Abrogée／Archivée／Suspendue），
+  bdpm_not_listed 的號碼寫「Ne figure plus dans la BDPM」；表後一句來源，證據包只收到部分 AMM 時加「Les données ne contiennent qu'une partie des autorisations ; la liste peut être incomplète.」；沒有紀錄時一句 NONE_LINE。
+  2026-11-24 換表 786 頁、段落原本沒有表的 14 頁補表；`--migrate` 時拿掉緊鄰舊表、只講「表上列了幾筆」的句子或子句（CAPTION／CAP_CLAUSE），`--captions` 另掃整個市場段落（39 頁）；
+  查核紀錄的更正文字所在的句子不動。錨在舊表列上的 30 筆 `fr-row-20261112-*` 標 `status: superseded`＋`superseded_by`（紀錄保留、頁面不顯示框）。
+  快照存 rows／total（build_license_snapshot.py 用 rows_of），gate（licenses.py program_block_problems）驗程式區塊＝重算結果、市場段落不准有非程式表；
+  `license_adapter.py` 的 `sync_tables` 讓每週排程對狀態有變的藥重排，`PAGE_NOTE` 放行程式區塊的非表格行；`build_license_snapshot.py` 結尾再全站重排一次（證據包補收、狀態沒變的藥也跟上）；
+  `sync_notes_to_docs.py` 整頁重寫時用 `carry_block` 移植舊頁的程式區塊。
+- B. `src/frtxgnn/regulatory/count_prose.py`、`scripts/rewrite_license_counts.py`（照 Kr／My 移植，法文句型）：「N AMM valides (sur M)」「N AMM sur M sont valides」「N des M AMM」「Au total, N AMM」「Les N AMM … sont valides」
+  依快照事實層改寫；有保留、講表上筆數、相對數、劑型或廠商或單方子集、partial 頁不動；0／1 張（單複數配合）、說全部有效而事實不符的不改、列待查。
+  `apply_drug_reviews.py`（非 --check）與 `build_license_snapshot.py` 結尾自動跑；gate 第 22 項擋「再跑一次會變」。2026-11-24 改寫 4 頁 4 句（estriol、lanreotide、micafungin、tretinoin 的「N AMM valides sur N」），判斷不了 1 句（bendamustine 待辦「des deux AMM」）列待查。
+- 待查清單另加 55 句仍講舊表筆數的句子（source：程式許可證表取代舊表後…；34 句是查核紀錄的更正文字，例 oxaliplatin「Au total, 10 AMM sont recensées; seules les 5 premières sont listées ici.」，要同 id 重發改寫）。
+- 驗證：checker 全量 0（改前 0）、gate exit 0；另寫的寬偵測（同句有 AMM 字樣、數字不在事實層任一讀法或程式表列數）全量掃，剩 31 句：講舊表筆數 21 句（已列待查）、partial 頁的「toutes valides」與前 20 筆一致 5 句、子集拆分張數正確 4 句、待辦 1 句。
 
 ## 作用機轉段的資料來源與查核機制（2026-11-19）
 
