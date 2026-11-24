@@ -134,13 +134,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle (ANSM) pour les mises en garde et contre-indications, indispensable avant tout dépistage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
-- Clarification du statut réglementaire : le médicament est commercialisé en France, avec au moins 19 AMM valides, donc vérifier la disponibilité de présentations valides
+- Clarification du statut réglementaire : le médicament est commercialisé en France, avec de nombreuses AMM valides, donc vérifier la disponibilité de présentations valides
 - Compatibilité des voies d'administration (orale, topique) pour l'indication visée
 - Protocole de surveillance de sécurité (tension, glycémie, croissance chez l'enfant) et stratégie d'épargne cortisonique
 
 <!-- review:begin fr-lic-20261124-prednisolone-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « avec 5 AMM valides sur 5, » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « avec 5 AMM valides sur 5, » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261124-prednisolone-1 -->
 
@@ -163,7 +163,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
-| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

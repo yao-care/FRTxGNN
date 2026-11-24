@@ -77,11 +77,11 @@ Les deux publications recensées ne portent pas directement sur l'ézétimibe da
 
 ## Informations de Marché en France
 
-L'ézétimibe est commercialisé en France. Les données compilées recensent au moins 20 AMM, dont 19 valides et 1 archivée (69062997) parmi les 20 compilées, et la liste peut être partielle. Les textes d'indication approuvée ne sont pas renseignés. Plusieurs produits listés sont des associations (par exemple avec la rosuvastatine) ; leurs AMM ne décrivent pas l'usage de l'ézétimibe seul.
+L'ézétimibe est commercialisé en France. Les données compilées recensent des AMM pour la plupart valides (69062997 est archivée), et la liste peut être partielle. Les textes d'indication approuvée ne sont pas renseignés. Plusieurs produits listés sont des associations (par exemple avec la rosuvastatine) ; leurs AMM ne décrivent pas l'usage de l'ézétimibe seul.
 
 <!-- review:begin fr-lic-20261112-ezetimibe-1 -->
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « recensent au moins 20 AMM, toutes valides, » D'après la BDPM (données du 2026-11-09), parmi les 20 AMM compilées pour ce rapport, 19 sont actives et 1 est archivée (69062997). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-12)**: Texte initial : « recensent au moins 20 AMM, toutes valides, » D'après la BDPM (données du 2026-11-09), parmi les 20 AMM compilées pour ce rapport, 19 sont actives et 1 est archivée (69062997). Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261112-ezetimibe-1 -->
 
@@ -143,7 +143,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | AMM compilées : 19 valides et 1 archivée, pas toutes valides | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | AMM compilées : 19 valides et 1 archivée, pas toutes valides | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: ezetimibe prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c37c695b-fb40-423c-9b73-d1aa58a34db9) |
 
 <!-- review:end log -->

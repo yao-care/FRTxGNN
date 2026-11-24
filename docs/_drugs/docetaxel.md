@@ -89,11 +89,11 @@ Dans le sarcome d'Ewing, le docétaxel est utilisé principalement en associatio
 
 ## Informations de Marché en France
 
-Le docétaxel est commercialisé en France. Les données compilées recensent 14 AMM (13 valides), sous forme de solution à diluer pour perfusion. Le texte d'indication n'est pas renseigné dans ces enregistrements.
+Le docétaxel est commercialisé en France. Les AMM recensées (tableau ci-dessous) sont sous forme de solution à diluer pour perfusion. Le texte d'indication n'est pas renseigné dans ces enregistrements.
 
 <!-- review:begin fr-lic-20261112-docetaxel-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion. » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion. » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261112-docetaxel-1 -->
 

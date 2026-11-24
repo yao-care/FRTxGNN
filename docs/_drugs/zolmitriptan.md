@@ -85,11 +85,11 @@ Aucune des publications ci-dessous n'étudie spécifiquement la migraine avec au
 
 ## Informations de Marché en France
 
-Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.
+Les AMM recensées figurent dans le tableau ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.
 
 <!-- review:begin fr-lic-20261106-zolmitriptan-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM compilées sont annulées. Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 20 AMM pour ce médicament, dont 20 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM compilées sont annulées. Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Le tableau des AMM de cette page est désormais généré à partir des données BDPM ; la mention du nombre d'AMM affichées dans l'ancien tableau et les nombres d'AMM écrits en dur sont retirés. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-zolmitriptan-1 -->
 
@@ -147,7 +147,7 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 <!-- review:begin fr-lic-20261106-zolmitriptan-2 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluer spécifiquement le risque vasculaire (vasoconstriction) dans ce sous-type, avec avis neurologique et cardiovasculaire / Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 20 AMM pour ce médicament, dont 20 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-06)**: Texte initial : « Évaluer spécifiquement le risque vasculaire (vasoconstriction) dans ce sous-type, avec avis neurologique et cardiovasculaire / Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-zolmitriptan-2 -->
 
@@ -161,8 +161,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « Les 20 AMM compilées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-06 | Supprimé : « Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Les 20 AMM compilées sont annulées » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Zolmiptriptan (zolmitriptan) prescribing information, Glenmark Pharmaceuticals Inc., USA](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a734b368-6008-441c-ab44-5634e46be9a4) |
 
 <!-- review:end log -->

@@ -72,11 +72,11 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-L'acide acétique est commercialisé en France. Les deux autorisations valides (tableau ci-dessus) sont des produits homéopathiques à une seule substance ; une troisième AMM, DIABENE (67698943), est abrogée.
+L'acide acétique est commercialisé en France. Les AMM valides (tableau ci-dessous) sont des produits homéopathiques à une seule substance ; la spécialité DIABENE (67698943) est abrogée.
 
 <!-- review:begin fr-lic-20261124-acetic_acid-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Les deux autorisations enregistrées sont des produits homéopathiques à une seule substance. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les deux autorisations enregistrées sont des produits homéopathiques à une seule substance. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Le tableau des AMM de cette page est désormais généré à partir des données BDPM ; la mention du nombre d'AMM affichées dans l'ancien tableau et les nombres d'AMM écrits en dur sont retirés. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261124-acetic_acid-1 -->
 
@@ -122,7 +122,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
-| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 491
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "metoclopramide"
 predicted_indications: ["gastroduodenitis", "peptic ulcer perforation"]
 description: "Metoclopramide : nouvelle indication prédite, Gastroduodénite (gastroduodenitis) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
@@ -106,7 +106,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-10-31 | Supprimé : « Le médicament n'est pas commercialisé en France (Not marketed) » | N'apparaît plus après la régénération du rapport (2026-11-12 : le rapport a été régénéré en novembre 2026 et ne contient plus cette affirmation ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-10-31 | Supprimé : « Le médicament n'est pas commercialisé en France (Not marketed) » | N'apparaît plus après la régénération du rapport (2026-11-12 : le rapport a été régénéré en novembre 2026 et ne contient plus cette affirmation ; auparavant : Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal)) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Reglan (metoclopramide hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de55c133-eb08-4a35-91a2-5dc093027397) |
 
 <!-- review:end log -->

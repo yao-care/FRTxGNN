@@ -94,7 +94,13 @@ Le mécanisme est donc plausible et les données cliniques le soutiennent. Les d
 
 ## Informations de Marché en France
 
-Les 5 premières AMM sont listées ci-dessous ; le texte des indications approuvées n'est pas disponible dans les données compilées. 20 AMM sont valides.
+Les AMM recensées figurent dans le tableau ci-dessous ; le texte des indications approuvées n'est pas disponible dans les données compilées. 20 AMM sont valides.
+
+<!-- review:begin fr-lic-20261124b-tacrolimus-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 5 premières AMM sont listées ci-dessous ; » Corrigé : le tableau des AMM de cette page est désormais généré à partir des données BDPM et liste toutes les AMM recensées ; la mention du nombre d'AMM affichées dans l'ancien tableau est retirée. Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124b-tacrolimus-1 -->
 
 <!-- licenses:begin -->
 
@@ -182,6 +188,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « Toutes les AMM françaises du tacrolimus sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Envarsus Xr (tacrolimus) prescribing information, Veloxis Pharmaceuticals, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=de2315b0-6344-43ac-9aea-3e3b68d828e7) |
+| 2026-11-24 | Mention du nombre d'AMM affichées dans l'ancien tableau retirée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

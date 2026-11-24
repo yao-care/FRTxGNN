@@ -130,7 +130,13 @@ Les données ne contiennent qu'une partie des autorisations ; la liste peut êtr
 
 <!-- licenses:end -->
 
-Sur un total de 20 AMM (toutes pour des spécialités à substance unique), les 5 premières sont listées ici.
+Les AMM recensées dans les données (toutes pour des spécialités à substance unique) figurent dans le tableau ci-dessus.
+
+<!-- review:begin fr-lic-20261124b-lenalidomide-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Sur un total de 20 AMM (toutes pour des spécialités à substance unique), les 5 premières sont listées ici. » Corrigé : le tableau des AMM de cette page est désormais généré à partir des données BDPM et liste toutes les AMM recensées ; la mention du nombre d'AMM affichées dans l'ancien tableau est retirée. Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124b-lenalidomide-1 -->
 
 ## Cytotoxicité
 
@@ -168,11 +174,12 @@ Les mises en garde et contre-indications officielles de la notice n'ont pas pu �
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Revlimid (lenalidomide) prescribing information, Celgene Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be) |
+| 2026-11-24 | Mention du nombre d'AMM affichées dans l'ancien tableau retirée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

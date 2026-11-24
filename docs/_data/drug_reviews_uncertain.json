@@ -1422,706 +1422,841 @@
    "source": "正文許可證張數程式改寫判斷不了的句子（scripts/rewrite_license_counts.py）",
    "drug": "bendamustine",
    "file": "bendamustine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "- Vérifier le statut réglementaire des deux AMM et leurs indications approuvées",
    "reason": "ambiguous",
    "added": "2026-11-24",
-   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、或 1 張與多張之間要改單複數配合），程式沒改；要改請寫查核紀錄"
+   "note": "正文許可證張數跟快照事實層可能不一致，但句型判斷不了要怎麼改（說「全部有效／全部單方」而事實不符、沒有限定詞而有效數≠總數、建立在 0 張前提上、或 1 張與多張之間要改單複數配合），程式沒改；要改請寫查核紀錄",
+   "resolved_on": "2026-11-24",
+   "record_ids": [
+    "fr-lic-20261124b-bendamustine-1"
+   ],
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "ambrisentan",
    "file": "ambrisentan.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Seules cinq AMM sont listées ici ;",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124-ambrisentan-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "amiodarone",
    "file": "amiodarone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "L'amiodarone est commercialisée en France : 12 AMM sur 14 sont valides, dont les 4 listées ci-dessus.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-amiodarone-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "azathioprine",
    "file": "azathioprine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Seules cinq AMM sur les neuf recensées sont présentées ici.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-azathioprine-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "betamethasone",
    "file": "betamethasone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "La liste ci-dessous présente 5 AMM parmi celles recensées et peut être partielle.",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124b-betamethasone-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "cyanocobalamin",
    "file": "cyanocobalamin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Seules 5 des 10 AMM sont listées.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-cyanocobalamin-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "cyclophosphamide",
    "file": "cyclophosphamide.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 8 AMM recensées sont valides : trois concernent la spécialité Endoxan du laboratoire Baxter (tableau ci-dessus), les autres sont des génériques (Reddy Pharma, Sandoz) ;",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-cyclophosphamide-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "dexamethasone",
    "file": "dexamethasone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "La liste ci-dessous est partielle : elle présente cinq AMM valides parmi les 20 enregistrées.",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124b-dexamethasone-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "doxorubicin",
    "file": "doxorubicin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les deux autorisations du tableau ci-dessus (ADRIBLASTINE), détenues par PFIZER HOLDING FRANCE, sont valides ;",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-doxorubicin-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "exemestane",
    "file": "exemestane.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Principales AMM (5 sur 19) :",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-exemestane-2"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "filgrastim",
    "file": "filgrastim.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières AMM sont listées ci-dessous (sur 18).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-filgrastim-3"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "lamotrigine",
    "file": "lamotrigine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Sur les 20 AMM recensées, 5 sont présentées ci-dessous.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-lamotrigine-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "lenalidomide",
    "file": "lenalidomide.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Sur un total de 20 AMM (toutes pour des spécialités à substance unique), les 5 premières sont listées ici.",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124b-lenalidomide-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "levothyroxine",
    "file": "levothyroxine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "La liste ci-dessous porte sur 5 des AMM de spécialités à base de lévothyroxine seule ;",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124b-levothyroxine-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "methionine",
    "file": "methionine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "La liste ci-dessous présente 5 des AMM compilées (au moins 20 au total ;",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124b-methionine-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "moxonidine",
    "file": "moxonidine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Cinq AMM sur dix sont affichées ;",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261112-moxonidine-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "pirfenidone",
    "file": "pirfenidone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Principales AMM (5 sur 18) :",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-pirfenidone-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "raltegravir",
    "file": "raltegravir.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "huit AMM sont valides au total, dont cinq sont listées ci-dessus.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-raltegravir-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "tacrolimus",
    "file": "tacrolimus.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières AMM sont listées ci-dessous ;",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124b-tacrolimus-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "topiramate",
    "file": "topiramate.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Principales AMM (5 sur 21) :",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-topiramate-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "trandolapril",
    "file": "trandolapril.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "(5 AMM affichées sur 11 ;",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124b-trandolapril-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "triptorelin",
    "file": "triptorelin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "La liste ci-dessus présente 5 des AMM recensées ;",
    "reason": "display",
    "added": "2026-11-24",
-   "record_ids": [],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。"
+   "record_ids": [
+    "fr-lic-20261124-triptorelin-1"
+   ],
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、5 sur 19、du tableau ci-dessus）；同一句另有張數或其他內容，程式不拆句。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪寫查核紀錄更正（不寫張數，指向程式表與概覽表）"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "amylmetacresol",
    "file": "amylmetacresol.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-amylmetacresol-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "benazepril",
    "file": "benazepril.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Le bénazépril dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261031-benazepril-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "更正文字沒有張數；本藥 BDPM 仍有有效 AMM（事實層 8 張中 7 張有效），句子成立"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "bromazepam",
    "file": "bromazepam.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-bromazepam-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "deferasirox",
    "file": "deferasirox.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas disponible.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-deferasirox-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "donepezil",
    "file": "donepezil.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Le donépézil dispose d'AMM actives en France (voir le tableau de synthèse ci-dessus).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261031-donepezil-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "更正文字沒有張數；本藥 BDPM 仍有有效 AMM（事實層 24 張中 20 張有效），句子成立"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "esomeprazole",
    "file": "esomeprazole.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Voici les 5 premières :",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-esomeprazole-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "fluconazole",
    "file": "fluconazole.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-fluconazole-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "glimepiride",
    "file": "glimepiride.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-glimepiride-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "ibuprofen",
    "file": "ibuprofen.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous (le texte d'indication n'est pas renseigné dans les données compilées).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-ibuprofen-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "isoflurane",
    "file": "isoflurane.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Le profil de sécurité soulève des signaux défavorables (vol coronarien, hypotension, interaction majeure avec l'épinéphrine), et l'usage d'un anesthésique général inhalé est peu réaliste pour un angor chronique.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-isoflurane-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "更正文字本身沒有張數或舊表筆數；說明裡寫死的張數已隨 site_config figures 樣板一併同 id 重發"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "isoleucine",
    "file": "isoleucine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-isoleucine-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "isotretinoin",
    "file": "isotretinoin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières listées dans les données compilées :",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-isotretinoin-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "lacosamide",
    "file": "lacosamide.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Au total, 20 AMM sont recensées; seules les 5 premières sont listées ici.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-lacosamide-2"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "leflunomide",
    "file": "leflunomide.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les cinq premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-leflunomide-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "lonoctocog_alfa",
    "file": "lonoctocog_alfa.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Seules les 5 premières sont listées ici.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-lonoctocog_alfa-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "mannitol",
    "file": "mannitol.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Au total, 9 AMM sont recensées; seules les 5 premières sont présentées ici.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-mannitol-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "mometasone",
    "file": "mometasone.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont présentées ci-dessous ; le texte d'indication n'est pas renseigné dans les données.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-mometasone-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "nevirapine",
    "file": "nevirapine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Au total, 11 AMM sont répertoriées; seules les 5 principales sont listées ci-dessus.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-nevirapine-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "ofloxacin",
    "file": "ofloxacin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous ; le texte d'indication n'est pas renseigné.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-ofloxacin-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "oxaliplatin",
    "file": "oxaliplatin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Au total, 10 AMM sont recensées; seules les 5 premières sont listées ici.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-oxaliplatin-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "phenylalanine",
    "file": "phenylalanine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Au total, 20 AMM sont recensées; seules les 5 premières sont listées ici.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-phenylalanine-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "piroxicam",
    "file": "piroxicam.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-piroxicam-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "propofol",
    "file": "propofol.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Au total, 12 AMM sont recensées; seules les 5 premières sont listées ici.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-propofol-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "quetiapine",
    "file": "quetiapine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les cinq premières sont listées ci-dessous (toutes en comprimé à libération prolongée, sans texte d'indication renseigné).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-quetiapine-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "rasagiline",
    "file": "rasagiline.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous (le texte d'indication approuvée n'est pas renseigné).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-rasagiline-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "remimazolam",
    "file": "remimazolam.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "La durée d'action ultra-courte ainsi que la voie exclusivement intraveineuse rendent l'usage dans l'insomnie peu réaliste.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-remimazolam-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "更正文字本身沒有張數或舊表筆數；說明裡寫死的張數已隨 site_config figures 樣板一併同 id 重發"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "ritonavir",
    "file": "ritonavir.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "- Définition d'une finalité réaliste (par exemple usage comme modèle de recherche préclinique) plutôt qu'un développement clinique humain",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-ritonavir-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "更正文字本身沒有張數或舊表筆數；說明裡寫死的張數已隨 site_config figures 樣板一併同 id 重發"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "roxithromycin",
    "file": "roxithromycin.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Au total, 10 AMM sont recensées; ce tableau en présente les 5 premières.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-roxithromycin-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "tenofovir_disoproxil",
    "file": "tenofovir_disoproxil.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont listées ci-dessous ; le texte d'indication approuvée n'est pas renseigné dans les données compilées.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-tenofovir_disoproxil-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "threonine",
    "file": "threonine.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 principales sont listées ci-dessous (le texte d'indication n'est pas renseigné).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-threonine-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "zolmitriptan",
    "file": "zolmitriptan.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les 5 premières sont présentées ci-dessous ; le texte de l'indication approuvée n'est pas renseigné dans les données.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261106-zolmitriptan-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "letrozole",
    "file": "letrozole.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Voici les 5 principales :",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261112-letrozole-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "acetic_acid",
    "file": "acetic_acid.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "Les deux autorisations valides (tableau ci-dessus) sont des produits homéopathiques à une seule substance ; une troisième AMM, DIABENE (67698943), est abrogée.",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-acetic_acid-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   },
   {
    "source": "程式許可證表取代舊表後仍講舊表筆數的句子（scripts/sync_license_tables.py，2026-11-24）",
    "drug": "ambrisentan",
    "file": "ambrisentan.md",
-   "status": "open",
+   "status": "resolved",
    "claim": "la liste complète comprend 13 AMM (11 valides).",
    "reason": "display",
    "added": "2026-11-24",
    "record_ids": [
     "fr-lic-20261124-ambrisentan-1"
    ],
-   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。"
+   "note": "市場段落的表已改成程式表（列出證據包全部 AMM），這句還講舊表列了幾筆（例：les 5 premières、du tableau ci-dessus）；句子是查核紀錄的更正文字，要同 id 重發改寫。張數本身由概覽表與程式表呈現。",
+   "resolved_on": "2026-11-24",
+   "resolution": "2026-11-24 第二輪同 id 重發查核紀錄，更正文字改成不寫張數、指向程式表與概覽表"
   }
  ]
 }

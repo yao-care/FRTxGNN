@@ -66,7 +66,7 @@ Le torticolis paroxystique bénin du nourrisson est un trouble pédiatrique de t
 
 <!-- review:begin fr-lic-20261106-mianserin-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente. De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nourrisson. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-06)**: Texte initial : « Le lien avec l'action de la mianserine sur ces récepteurs reste **spéculatif** : aucune donnée ne le documente. De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nourrisson. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-mianserin-1 -->
 
@@ -155,7 +155,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 <!-- review:begin fr-lic-20261106-mianserin-2 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « **Justification :** / La prédiction pour le torticolis paroxystique bénin du nourrisson repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, avec un lien mécanistique spéculatif, une population nourrisson sans données de sécurité et une AMM annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-06)**: Texte initial : « **Justification :** / La prédiction pour le torticolis paroxystique bénin du nourrisson repose uniquement sur le score du modèle (niveau L5), sans essai ni publication, avec un lien mécanistique spéculatif, une population nourrisson sans données de sécurité et une AMM annulée. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-mianserin-2 -->
 
@@ -167,7 +167,7 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 <!-- review:begin fr-lic-20261106-mianserin-3 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank). / Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 1 AMM pour ce médicament, dont 1 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-06)**: Texte initial : « Obtenir les données détaillées sur le mécanisme d'action (par exemple via DrugBank). / Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-mianserin-3 -->
 
@@ -179,9 +179,9 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nour » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-06 | Supprimé : « La prédiction pour le torticolis paroxystique bénin du nourrisson repose uniquement sur le score du modèle (niveau L5), sans essai ni public » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-06 | Supprimé : « Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « De plus, la mianserine n'est plus commercialisée en France sous la forme recensée et aucune donnée de sécurité n'est disponible chez le nour » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « La prédiction pour le torticolis paroxystique bénin du nourrisson repose uniquement sur le score du modèle (niveau L5), sans essai ni public » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->
 

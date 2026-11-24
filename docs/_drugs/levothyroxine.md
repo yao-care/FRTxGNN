@@ -71,7 +71,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-La liste ci-dessous porte sur 5 des AMM de spécialités à base de lévothyroxine seule ; la liste complète peut comporter davantage d'AMM. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
+La liste ci-dessous porte sur les AMM de spécialités à base de lévothyroxine seule recensées dans les données ; la liste complète peut comporter davantage d'AMM. Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
+
+<!-- review:begin fr-lic-20261124b-levothyroxine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « La liste ci-dessous porte sur 5 des AMM de spécialités à base de lévothyroxine seule ; » Corrigé : le tableau des AMM de cette page est désormais généré à partir des données BDPM et liste toutes les AMM recensées ; la mention du nombre d'AMM affichées dans l'ancien tableau est retirée. Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124b-levothyroxine-1 -->
 
 <!-- licenses:begin -->
 
@@ -127,11 +133,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Levoxyl (levothyroxine sodium) prescribing information, Pfizer Laboratories Div Pfizer Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=758588c3-c63e-491b-0aa2-4f50d80cb174) |
+| 2026-11-24 | Mention du nombre d'AMM affichées dans l'ancien tableau retirée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

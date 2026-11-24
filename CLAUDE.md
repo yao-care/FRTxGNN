@@ -115,3 +115,13 @@ drug_mapping 只認得「RALOXIFÈNE (CHLORHYDRATE DE)」這種寫法，同一�
 例：abatacept「Indication d'origine : Non renseignée dans les données locales」→「En France, AMM dans la BDPM : 5 (valides : 5)」；2026-11-19 改了 432 頁。
 由母目錄 `.claude/drug_meta_description.py --apply --site FRTxGNN` 產生（站上複本 `tools/txgnn/.claude/drug_meta_description.py --apply --root .`），改動記在 `docs/_data/description_local_log.json`（pages＝目前句尾與原字樣、entries＝每次改動前後整行，可還原）。快照數字變了重跑會換新數字；`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾會自動 --apply，`check_seo_docs.py` 跑 --check 擋「還是未記載句尾」或「數字跟快照不符」。只改 front matter，lastmod_fix 不算正文改動、last_modified_at 不動。
 同日修：`apply_drug_reviews.py`、`build_license_snapshot.py` 結尾重算 local_facts 的 atexit 掛鉤在結束時取不到 `__file__`（NameError，之前其實沒跑成），改成先算好路徑。
+
+## 第二輪：查核紀錄更正文字與說明裡的張數、舊表筆數（2026-11-24）
+
+用戶 2026-11-24 第二輪決定（程式許可證表與正文張數改由程式維護後，查核紀錄裡寫死的張數不會跟著更新）：
+- 張數樣板：`site_config.T["figures"]`（`reviews_from_edits.py` 寫紀錄說明時用）改成不寫數字（「Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché.」）；既有說明用這個樣板寫死張數的 709 筆同 id 重發（前版存 history，reason「程式許可證表／正文張數改由程式維護，2026-11-24 用戶決定」）。
+- 更正文字（replacement）寫死張數或講舊表筆數（「seules les 5 premières sont listées ici」「Principales AMM (5 sur 19)」「12 AMM sur 14 sont valides」「(7 AMM valides sur 7)」等）的 140 筆同 id 重發：改成指向程式表與概覽表（「Les AMM recensées figurent dans le tableau ci-dessous／ci-dessus」「statut des AMM : voir l'Aperçu rapide」），哪張註銷、哪個劑型、哪個廠商的事實照留；ambrisentan、moxonidine、triptorelin 的紀錄把 claim 擴成整句（undo_retired 先還原原句再套）；錨在被改寫文字上的 isotretinoin-2、rivastigmine-1（11-06）改錨。
+- 一般正文同類句子 17 句寫新紀錄 `fr-lic-20261124b-*`（待查清單 10 句＋另寫的寬偵測在市場段落掃出、第一輪待查清單沒列的 7 句：amoxicillin、carvedilol、diosmin、risperidone、progesterone、tadalafil 的「Les 5 premières／principales…」，cysteine、sofosbuvir 的「Les N autres sont…」）；bendamustine 待辦「des deux AMM」只拿掉錯的前提（BDPM 6 張）。
+- 待查清單 11-24 新增的 56 項全部標 resolved（附 record_ids 或理由：isoflurane、remimazolam、ritonavir 的更正文字沒有張數，只重發說明；benazepril、donepezil 的「dispose d'AMM actives」依事實層成立）。
+- 沒改：42 筆紀錄的說明是附資料日期的查證依據（「d'après la BDPM (données du 2026-11-13), les 16 AMM … sont actives」），照原樣保留；正文其他寫死張數的句子（寬偵測 285 句，多是「N AMM valides sur M」）由 B（rewrite_license_counts.py）維護或第一輪已判定。
+- 驗證：apply --check 0、gate exit 0、checker 全量 0（改前 0；中途 3 句 M3 已改寫）；last_modified_at 正文有變的頁為 2026-11-24。

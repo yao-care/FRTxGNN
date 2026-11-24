@@ -104,11 +104,11 @@ Les données ne contiennent qu'une partie des autorisations ; la liste peut êtr
 
 <!-- licenses:end -->
 
-Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma).
+Les AMM recensées (tableau ci-dessus) concernent Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma.
 
 <!-- review:begin fr-lic-20261106-ustekinumab-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma), toutes au statut annulé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 20 AMM sont enregistrées (Stelara et plusieurs biosimilaires : Wezenla, Otulfi, Uzpruvo, Pyzchiva, Imuldosa, Yesintek, Steqeyma), toutes au statut annulé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-ustekinumab-1 -->
 
@@ -152,7 +152,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM françaises sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-15 | « Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_bdpm.txt); [Base de données publique des médicaments (BDPM) – CIS_COMPO_bdpm](https://base-donnees-publique.medicaments.gouv.fr/download/file/CIS_COMPO_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Selarsdi (ustekinumab-aekn) prescribing information, Teva Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=87f75b59-e48b-47c7-a4c0-5fe5965660e7) |

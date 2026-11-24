@@ -121,7 +121,7 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 
 <!-- review:begin fr-lic-20261106-isavuconazonium-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction pour la pneumocystose repose uniquement sur le score du modèle (L5), sans essai ni publication, et son fondement biologique est faible (absence d'ergostérol chez *Pneumocystis*, traitement de référence différent). / En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 2 AMM pour ce médicament, dont 2 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-06)**: Texte initial : « La prédiction pour la pneumocystose repose uniquement sur le score du modèle (L5), sans essai ni publication, et son fondement biologique est faible (absence d'ergostérol chez *Pneumocystis*, traitement de référence différent). / En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sécurité. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-isavuconazonium-1 -->
 
@@ -139,7 +139,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « En outre, les deux AMM françaises sont annulées et les données de sécurité de la notice sont absentes, ce qui empêche toute évaluation de sé » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cresemba (isavuconazonium sulfate) prescribing information, Astellas Pharma US, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8f7f73b8-586a-4df0-935f-fecd4696c16c) |
 
 <!-- review:end log -->

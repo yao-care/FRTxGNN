@@ -104,11 +104,11 @@ Les données ne contiennent qu'une partie des autorisations ; la liste peut êtr
 
 <!-- licenses:end -->
 
-La buprénorphine est commercialisée en France. Les données locales recensent de nombreuses autorisations (au moins 19 valides), dont BUVIDAL (plusieurs dosages, solution injectable à libération prolongée, Camurus) et TEMGESIC (solution injectable et comprimé sublingual, Eumedica). Le texte d'indication n'est pas renseigné dans ces enregistrements.
+La buprénorphine est commercialisée en France. Les données locales recensent de nombreuses autorisations (tableau ci-dessus), dont BUVIDAL (plusieurs dosages, solution injectable à libération prolongée, Camurus) et TEMGESIC (solution injectable et comprimé sublingual, Eumedica). Le texte d'indication n'est pas renseigné dans ces enregistrements.
 
 <!-- review:begin fr-lic-20261124-buprenorphine-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Les données locales recensent 10 autorisations, toutes pour des produits à substance unique : BUVIDAL » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données locales recensent 10 autorisations, toutes pour des produits à substance unique : BUVIDAL » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261124-buprenorphine-1 -->
 
@@ -140,7 +140,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
-| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

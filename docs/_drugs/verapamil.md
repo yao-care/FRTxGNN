@@ -112,11 +112,11 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme est douteux (le bloc de branche est un trouble de conduction infranodal, et le terme est obsolète). Le vérapamil reste par ailleurs commercialisé en France (15 AMM valides sur 16).
+- La prédiction repose uniquement sur le modèle (L5), sans essai ni publication. Le mécanisme est douteux (le bloc de branche est un trouble de conduction infranodal, et le terme est obsolète). Le vérapamil reste par ailleurs commercialisé en France (statut des AMM : voir l'Aperçu rapide).
 
 <!-- review:begin fr-lic-20261106-verapamil-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Le vérapamil n'a par ailleurs plus d'AMM valide en France (5 AMM annulées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Le vérapamil n'a par ailleurs plus d'AMM valide en France (5 AMM annulées). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-verapamil-1 -->
 
@@ -125,11 +125,11 @@ Les mises en garde et contre-indications de la notice ne sont pas disponibles : 
 - Obtenir les données sur le mécanisme d'action (DrugBank)
 - Récupérer les mises en garde et contre-indications de la notice (site de l'ANSM), étape bloquante pour le dépistage de sécurité
 - Rechercher des études cliniques ou observationnelles spécifiques au vérapamil dans l'indication retenue
-- Clarifier le statut réglementaire : le médicament est commercialisé, avec 15 AMM valides sur 16
+- Clarifier le statut réglementaire : le médicament est commercialisé, avec des AMM valides (statut des AMM : voir l'Aperçu rapide)
 
 <!-- review:begin fr-lic-20261124-verapamil-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « avec 5 AMM valides sur 5 » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « avec 5 AMM valides sur 5 » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261124-verapamil-1 -->
 
@@ -143,7 +143,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-24 | Supprimé : « (5 AMM annulées) » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: verapamil hydrochloride prescribing information, Preferred Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c7a54ee0-80c0-4c7e-a6a3-cb60142f860c) |
-| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

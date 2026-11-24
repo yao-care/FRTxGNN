@@ -70,11 +70,11 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le riluzole est commercialisé en France. Les données compilées recensent 10 AMM, dont 9 valides et 1 abrogée (62414855) ; ce sont des spécialités à base de riluzole seul.
+Le riluzole est commercialisé en France. Les données compilées recensent des AMM pour la plupart valides (62414855 est abrogée) ; ce sont des spécialités à base de riluzole seul.
 
 <!-- review:begin fr-lic-20261112-riluzole-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « recensent 10 AMM, toutes valides ; » D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855). Source: [Base de données publique des médicaments (BDPM) – fiche 62414855](https://base-donnees-publique.medicaments.gouv.fr/medicament/62414855/extrait).
+> **Correction de vérification (2026-11-24)**: Texte initial : « recensent 10 AMM, toutes valides ; » D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 9 des 10 AMM de riluzole sont actives et 1 est abrogée (62414855). Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – fiche 62414855](https://base-donnees-publique.medicaments.gouv.fr/medicament/62414855/extrait).
 
 <!-- review:end fr-lic-20261112-riluzole-1 -->
 

@@ -70,11 +70,11 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Le cyclophosphamide est commercialisé en France. Les 8 AMM recensées sont valides : trois concernent la spécialité Endoxan du laboratoire Baxter (tableau ci-dessus), les autres sont des génériques (Reddy Pharma, Sandoz) ; le texte d'indication n'est pas renseigné dans les données locales.
+Le cyclophosphamide est commercialisé en France. Parmi les AMM recensées (tableau ci-dessous), trois concernent la spécialité Endoxan du laboratoire Baxter et les autres des génériques (Reddy Pharma, Sandoz) ; le texte d'indication n'est pas renseigné dans les données locales.
 
 <!-- review:begin fr-lic-20261124-cyclophosphamide-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Les trois autorisations recensées (toutes valides) concernent la spécialité Endoxan du laboratoire Baxter ; » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les trois autorisations recensées (toutes valides) concernent la spécialité Endoxan du laboratoire Baxter ; » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Le tableau des AMM de cette page est désormais généré à partir des données BDPM ; la mention du nombre d'AMM affichées dans l'ancien tableau et les nombres d'AMM écrits en dur sont retirés. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261124-cyclophosphamide-1 -->
 
@@ -135,7 +135,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Frindovyx (cyclophosphamide) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5ad8ea65-4c98-487a-9c8d-df778765ec5e) |
-| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -71,11 +71,11 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-L'aflibercept est commercialisé en France. Les données compilées recensent 19 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (notamment Zaltrap, Eylea, Pavblu, Afqlir). Le texte d'indication approuvée n'est pas renseigné dans ces enregistrements.
+L'aflibercept est commercialisé en France. Les AMM recensées (tableau ci-dessous) sont toutes des solutions injectables ou à diluer pour perfusion (notamment Zaltrap, Eylea, Pavblu, Afqlir). Le texte d'indication approuvée n'est pas renseigné dans ces enregistrements.
 
 <!-- review:begin fr-lic-20261124-aflibercept-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 8 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (Zaltrap, Eylea, Pavblu, Afqlir). » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 8 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (Zaltrap, Eylea, Pavblu, Afqlir). » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans l'Aperçu rapide. Les nombres d'AMM écrits en dur dans le texte corrigé sont retirés : le nombre et le statut à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché, générés à partir des données BDPM. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261124-aflibercept-1 -->
 
@@ -135,7 +135,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
-| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

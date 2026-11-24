@@ -29,8 +29,8 @@
     "i": "Lymphome à cellules du manteau",
     "lt": 6,
     "lv": 5,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Prémisse « deux AMM » retirée",
     "x": 0
    },
    {
@@ -271,8 +271,8 @@
     "i": "Leucémie myéloïde",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -425,8 +425,8 @@
     "i": "Dermatite séborrhéique",
     "lt": 0,
     "lv": 20,
-    "r": 3,
-    "rs": "« Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France…",
+    "r": 4,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -766,8 +766,8 @@
     "i": "hepatitis B virus infection",
     "lt": 7,
     "lv": 7,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulées) »",
+    "r": 4,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -865,8 +865,8 @@
     "i": "Alopécie mucineuse",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -898,8 +898,8 @@
     "i": "Syndrome de l'œil sec",
     "lt": 8,
     "lv": 8,
-    "r": 3,
-    "rs": "Supprimé : « les AMM étant toutes annulées et sans texte d'indication »",
+    "r": 4,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -1228,8 +1228,8 @@
     "i": "Maladie fibrokystique du sein",
     "lt": 19,
     "lv": 18,
-    "r": 2,
-    "rs": "Nombre d'AMM mis à jour",
+    "r": 3,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -1476,7 +1476,7 @@
   "with_current": 646,
   "none_current": 5,
   "without_data": 113,
-  "with_reviews": 628,
+  "with_reviews": 629,
   "rows": [
    {
     "t": "Salbutamol",
@@ -1892,8 +1892,8 @@
     "i": "renal hypodysplasia/aplasia",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -2035,8 +2035,8 @@
     "i": "Syndrome de paralysie du regard horizontal familial avec scoliose progressive",
     "lt": 0,
     "lv": 20,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -2222,8 +2222,8 @@
     "i": "Alopécie mucineuse",
     "lt": 0,
     "lv": 19,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -2420,8 +2420,8 @@
     "i": "acne (disease)",
     "lt": 0,
     "lv": 19,
-    "r": 0,
-    "rs": "",
+    "r": 1,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -2530,8 +2530,8 @@
     "i": "Hyperamylasémie",
     "lt": 18,
     "lv": 18,
-    "r": 2,
-    "rs": "Nombre d'AMM mis à jour",
+    "r": 3,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -2552,8 +2552,8 @@
     "i": "Maladie rénale hypertensive maligne",
     "lt": 0,
     "lv": 18,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -2717,8 +2717,8 @@
     "i": "Ambras type hypertrichosis universalis congenita",
     "lt": 0,
     "lv": 18,
-    "r": 2,
-    "rs": "Supprimé : « (toutes les AMM annulees) »",
+    "r": 3,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -2761,8 +2761,8 @@
     "i": "amenorrhea (disease)",
     "lt": 19,
     "lv": 17,
-    "r": 4,
-    "rs": "Nombre d'AMM mis à jour",
+    "r": 5,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {
@@ -3542,8 +3542,8 @@
     "i": "malignant hypertensive renal disease",
     "lt": 11,
     "lv": 11,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulées) »",
+    "r": 3,
+    "rs": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
     "x": 0
    },
    {

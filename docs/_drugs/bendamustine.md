@@ -135,18 +135,25 @@ Plusieurs essais de phase 3 randomisés terminés, dont BRIGHT et l'essai de pre
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer le texte de la notice de l'ANSM (mises en garde et contre-indications), actuellement manquant
 - Obtenir les données détaillées sur le mécanisme d'action
-- Vérifier le statut réglementaire des deux AMM et leurs indications approuvées
+- Vérifier le statut réglementaire des AMM et leurs indications approuvées
 - Définir un plan de surveillance hématologique, hépatique et rénale
+
+<!-- review:begin fr-lic-20261124b-bendamustine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Vérifier le statut réglementaire des deux AMM et leurs indications approuvées » Corrigé : l'étape s'appuyait sur l'existence de deux AMM ; la BDPM en recense davantage. Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124b-bendamustine-1 -->
 
 <!-- review:begin log -->
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Vivimusta (bendamustine hydrochloride) prescribing information, Azurity Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bf0e08b3-50ab-48e0-a52b-89c04787a75f) |
+| 2026-11-24 | Prémisse « deux AMM » retirée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -80,11 +80,11 @@ Aucune de ces publications n'évalue le létrozole dans le carcinome du mamelon.
 
 ## Informations de Marché en France
 
-Le létrozole est commercialisé en France sous forme de comprimés pelliculés. Voici les 5 principales :
+Le létrozole est commercialisé en France sous forme de comprimés pelliculés. Les AMM recensées figurent dans le tableau ci-dessous.
 
 <!-- review:begin fr-lic-20261112-letrozole-1 -->
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « Les 20 AMM enregistrées sont valides ; voici les 5 principales : » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 20 AMM pour ce médicament, dont 18 valides et 2 annulées ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-12)**: Texte initial : « Les 20 AMM enregistrées sont valides ; voici les 5 principales : » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 20 AMM pour ce médicament, dont 18 valides et 2 annulées ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Le tableau des AMM de cette page est désormais généré à partir des données BDPM ; la mention du nombre d'AMM affichées dans l'ancien tableau et les nombres d'AMM écrits en dur sont retirés (voir l'Aperçu rapide et le tableau). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261112-letrozole-1 -->
 
@@ -156,7 +156,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Supprimé : « Les 20 AMM enregistrées sont valides ; » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-12 | Supprimé : « Les 20 AMM enregistrées sont valides ; » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Femara (letrozole) prescribing information, Novartis Pharmaceuticals Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=82b77d74-085f-45ac-a7dd-1f5c038bf406) |
 
 <!-- review:end log -->

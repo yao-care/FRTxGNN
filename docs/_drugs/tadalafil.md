@@ -77,13 +77,19 @@ A titre d'information, pour une autre prediction (migraine avec aura du tronc ce
 
 ## Informations de Marche en France
 
-Le texte des indications approuvees n'est pas renseigne. Les cinq premieres sont listees ci-dessous.
+Le texte des indications approuvees n'est pas renseigne. Les AMM recensées dans les données figurent dans le tableau ci-dessous.
 
 <!-- review:begin fr-lic-20261106-tadalafil-1 -->
 
 > **Correction de vérification (2026-11-06)**: Texte initial : « Les 20 AMM recensees sont toutes annulees. Le texte des indications approuvees n'est pas renseigne. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-tadalafil-1 -->
+
+<!-- review:begin fr-lic-20261124b-tadalafil-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les cinq premieres sont listees ci-dessous. » Corrigé : le tableau des AMM de cette page est désormais généré à partir des données BDPM et liste toutes les AMM recensées ; la mention du nombre d'AMM affichées dans l'ancien tableau est retirée. Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124b-tadalafil-1 -->
 
 <!-- licenses:begin -->
 
@@ -151,6 +157,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 20 AMM recensees sont toutes annulees » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (toutes les AMM annulees) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Mention du nombre d'AMM affichées dans l'ancien tableau retirée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -21,12 +21,12 @@
   "items_current": 3484
  },
  "reviews": {
-  "records": 1602,
-  "pages": 757,
-  "public_pages_with_records": 755,
+  "records": 1618,
+  "pages": 758,
+  "public_pages_with_records": 756,
   "by_action": {
    "annotate": 2,
-   "correct": 940,
+   "correct": 956,
    "mechanism": 660
   }
  },
@@ -185,6 +185,15 @@
    "i": "malignant hypertensive renal disease"
   },
   {
+   "t": "Diosmin",
+   "u": "/drugs/diosmin/",
+   "l": "L5",
+   "lt": 19,
+   "lv": 17,
+   "r": 5,
+   "i": "amenorrhea (disease)"
+  },
+  {
    "t": "Filgrastim",
    "u": "/drugs/filgrastim/",
    "l": "L5",
@@ -210,15 +219,6 @@
    "lv": 9,
    "r": 5,
    "i": "Ulcère duodénal"
-  },
-  {
-   "t": "Ruxolitinib",
-   "u": "/drugs/ruxolitinib/",
-   "l": "L5",
-   "lt": 6,
-   "lv": 6,
-   "r": 5,
-   "i": "uterine corpus perivascular epithelioid cell tumor"
   }
  ],
  "example": {
@@ -232,6 +232,102 @@
  },
  "recent_reviews": [
   {
+   "t": "Trandolapril",
+   "u": "/drugs/trandolapril/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tadalafil",
+   "u": "/drugs/tadalafil/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Sofosbuvir",
+   "u": "/drugs/sofosbuvir/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Risperidone",
+   "u": "/drugs/risperidone/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Methionine",
+   "u": "/drugs/methionine/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Levothyroxine",
+   "u": "/drugs/levothyroxine/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Lenalidomide",
+   "u": "/drugs/lenalidomide/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Diosmin",
+   "u": "/drugs/diosmin/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Dexamethasone",
+   "u": "/drugs/dexamethasone/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Cysteine",
+   "u": "/drugs/cysteine/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Carvedilol",
+   "u": "/drugs/carvedilol/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Betamethasone",
+   "u": "/drugs/betamethasone/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Bendamustine",
+   "u": "/drugs/bendamustine/",
+   "s": "Prémisse « deux AMM » retirée",
+   "d": "2026-11-24"
+  },
+  {
+   "t": "Amoxicillin",
+   "u": "/drugs/amoxicillin/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
+   "d": "2026-11-24"
+  },
+  {
    "t": "Zuclopenthixol",
    "u": "/drugs/zuclopenthixol/",
    "s": "Nombre d'AMM mis à jour",
@@ -276,153 +372,57 @@
   {
    "t": "Ticagrelor",
    "u": "/drugs/ticagrelor/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Tiapride",
-   "u": "/drugs/tiapride/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Thiocolchicoside",
-   "u": "/drugs/thiocolchicoside/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Terazosin",
-   "u": "/drugs/terazosin/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Sotalol",
-   "u": "/drugs/sotalol/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Selpercatinib",
-   "u": "/drugs/selpercatinib/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Rotigotine",
-   "u": "/drugs/rotigotine/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Rivastigmine",
-   "u": "/drugs/rivastigmine/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Raltegravir",
-   "u": "/drugs/raltegravir/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Propranolol",
-   "u": "/drugs/propranolol/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Propofol",
-   "u": "/drugs/propofol/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Progesterone",
-   "u": "/drugs/progesterone/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Prednisolone",
-   "u": "/drugs/prednisolone/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Prasugrel",
-   "u": "/drugs/prasugrel/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Pramipexole",
-   "u": "/drugs/pramipexole/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Pirfenidone",
-   "u": "/drugs/pirfenidone/",
-   "s": "Nombre d'AMM mis à jour",
-   "d": "2026-11-24"
-  },
-  {
-   "t": "Phenytoin",
-   "u": "/drugs/phenytoin/",
    "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
   {
-   "t": "Zuclopenthixol",
-   "u": "/drugs/zuclopenthixol/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Trandolapril",
+   "u": "/drugs/trandolapril/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   },
   {
-   "t": "Verapamil",
-   "u": "/drugs/verapamil/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Tadalafil",
+   "u": "/drugs/tadalafil/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   },
   {
-   "t": "Triptorelin",
-   "u": "/drugs/triptorelin/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Tacrolimus",
+   "u": "/drugs/tacrolimus/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   },
   {
-   "t": "Trihexyphenidyl",
-   "u": "/drugs/trihexyphenidyl/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Sofosbuvir",
+   "u": "/drugs/sofosbuvir/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   },
   {
-   "t": "Trabectedin",
-   "u": "/drugs/trabectedin/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Risperidone",
+   "u": "/drugs/risperidone/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   },
   {
-   "t": "Topotecan",
-   "u": "/drugs/topotecan/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Progesterone",
+   "u": "/drugs/progesterone/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   },
   {
-   "t": "Topiramate",
-   "u": "/drugs/topiramate/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Methionine",
+   "u": "/drugs/methionine/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   },
   {
-   "t": "Ticagrelor",
-   "u": "/drugs/ticagrelor/",
-   "s": "Nombre d'AMM mis à jour",
+   "t": "Levothyroxine",
+   "u": "/drugs/levothyroxine/",
+   "s": "Mention du nombre d'AMM affichées dans l'ancien tableau retirée",
    "d": "2026-11-24"
   }
  ],

@@ -127,7 +127,7 @@ C = _json.loads(r"""{
   "intro": "Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.",
   "intro_header": "Voici le journal de vérification de cette page ; le niveau de preuve de l'en-tête suit l'aperçu rapide. Les prédictions du modèle, le tableau récapitulatif et les conclusions n'ont pas été réécrits.",
   "intro_rr": "Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base et le texte de la prédiction n'a pas été réécrit ; les niveaux de preuve et les décisions n'ont été modifiés que par un résultat de réévaluation (abaissement, relèvement ou retrait), les valeurs d'origine figurant ci-dessous.",
-  "figures": "Les données (Base de données publique des médicaments (BDPM)) recensent {total} AMM pour ce médicament, dont {valid} valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+  "figures": "Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché.",
   "data_as_of": "Base de données publique des médicaments (BDPM), au {date}",
   "notes": {
    "rewrite": "Corrigé : l'affirmation ne correspondait pas aux données d'AMM ({d}) et a été remplacée par le texte actuel.",

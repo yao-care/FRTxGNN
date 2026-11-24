@@ -74,7 +74,13 @@ Aucun essai clinique associé n'est enregistré actuellement.
 
 ## Informations de Marché en France
 
-La liste ci-dessous présente 5 des AMM compilées (au moins 20 au total ; la liste peut être partielle). Les textes d'indication ne sont pas renseignés dans les données compilées.
+La liste ci-dessous présente les AMM compilées (la liste peut être partielle). Les textes d'indication ne sont pas renseignés dans les données compilées.
+
+<!-- review:begin fr-lic-20261124b-methionine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « La liste ci-dessous présente 5 des AMM compilées (au moins 20 au total ; la liste peut être partielle). » Corrigé : le tableau des AMM de cette page est désormais généré à partir des données BDPM et liste toutes les AMM recensées ; la mention du nombre d'AMM affichées dans l'ancien tableau est retirée. Les nombres et statuts à jour des AMM figurent dans l'Aperçu rapide et dans le tableau des informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124b-methionine-1 -->
 
 <!-- licenses:begin -->
 
@@ -131,6 +137,19 @@ La prédiction repose uniquement sur le modèle, sans essai clinique ni étude t
 - Évaluer la compatibilité des voies d'administration (les produits actuels sont des perfusions)
 
 *Remarque : parmi les autres indications prédites, la cataracte diabétique est la piste la plus étayée indirectement (L4, statut « question de recherche » : biologie rédox de la méthionine, homocystéine), mais sans essai clinique ni étude testant la méthionine comme traitement.*
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Mention du nombre d'AMM affichées dans l'ancien tableau retirée | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+
+<!-- review:end log -->
+
 ## Avertissement
 
 Ce contenu est uniquement destiné à la recherche et ne constitue pas un avis médical.
