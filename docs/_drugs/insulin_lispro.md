@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 404
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "insulin lispro"
 predicted_indications: ["autoimmune oophoritis", "thiamine-responsive dysfunction syndrome", "classic stiff person syndrome", "focal stiff limb syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "pancreatic agenesis", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy"]
-description: "Insulin Lispro : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
+description: "Insulin Lispro : nouvelle indication prédite, Ovarite auto-immune (autoimmune oophoritis) (niveau de preuve L5). En France, AMM dans la BDPM : 13 (valides : 13)"
 ---
 
 # Insulin Lispro
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**ovarite auto-i
 | Nouvelle Indication Prédite | Ovarite auto-immune (autoimmune oophoritis) |
 | Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
-| Nombre d'AMM | 6 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -96,11 +96,11 @@ Pour information, une seule publication a été identifiée pour une autre préd
 | 67759549 | HUMALOG 200 UI/ml KWIKPEN, stylo prérempli | Solution injectable | Non renseignée | Active |
 | 62000441 | LYUMJEV 100 unités/mL, Junior KwikPen, stylo prérempli | Solution injectable | Non renseignée | Active |
 
-Les six AMM sont détenues par ELI LILLY NEDERLAND BV.
+Les 13 AMM (HUMALOG, LYUMJEV) sont détenues par ELI LILLY NEDERLAND BV.
 
 <!-- review:begin fr-lic-20261106-insulin_lispro-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée. Les six AMM sont détenues par ELI LILLY NEDERLAND BV. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée. Les six AMM sont détenues par ELI LILLY NEDERLAND BV. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-insulin_lispro-1 -->
 
@@ -121,7 +121,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 **Justification :**
 - Les prédictions reposent uniquement sur le modèle (niveau L5) : aucun essai clinique ni publication ne les soutient. Elles reflètent surtout des comorbidités avec le diabète ou des effets indésirables connus (lipodystrophie), et non un effet thérapeutique.
-- Les 6 AMM françaises sur 6 sont valides (médicament commercialisé), mais les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
+- Les 13 AMM françaises sur 13 sont valides (médicament commercialisé), mais les données de sécurité de la notice manquent, ce qui bloque l'évaluation de sécurité.
+
+<!-- review:begin fr-lic-20261124-insulin_lispro-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 6 AMM françaises sur 6 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-insulin_lispro-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Téléchargement et analyse des notices ANSM (mises en garde, contre-indications)
@@ -144,9 +150,10 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Admelog (insulin lispro) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=12ec9e3f-e2ac-43a1-b334-8b6538cf2bb0) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

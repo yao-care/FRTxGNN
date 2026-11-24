@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 6
 monitor_inn: "buprenorphine"
 predicted_indications: ["acute intermittent porphyria", "lingual-facial-buccal dyskinesia", "chronic tic disorder", "continuous spikes and waves during sleep", "benign shuddering attacks", "extrapyramidal and movement disease"]
-last_modified_at: 2026-11-20
-description: "Buprenorphine : nouvelle indication prédite, Porphyrie aiguë intermittente (acute intermittent porphyria) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
+last_modified_at: 2026-11-24
+description: "Buprenorphine : nouvelle indication prédite, Porphyrie aiguë intermittente (acute intermittent porphyria) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Buprenorphine
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré et **1 seule publication** (un rapport de
 | Nouvelle Indication Prédite | Porphyrie aiguë intermittente (acute intermittent porphyria) |
 | Score de Prédiction TxGNN | 0,9941 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,7 +74,13 @@ Cette publication n'étudie pas l'effet de la buprénorphine sur la maladie ; el
 
 ## Informations de Marché en France
 
-La buprénorphine est commercialisée en France. Les données locales recensent 10 autorisations, toutes pour des produits à substance unique : BUVIDAL (plusieurs dosages, solution injectable à libération prolongée, Camurus) et TEMGESIC (solution injectable et comprimé sublingual, Eumedica). Le texte d'indication n'est pas renseigné dans ces enregistrements.
+La buprénorphine est commercialisée en France. Les données locales recensent de nombreuses autorisations (au moins 19 valides), dont BUVIDAL (plusieurs dosages, solution injectable à libération prolongée, Camurus) et TEMGESIC (solution injectable et comprimé sublingual, Eumedica). Le texte d'indication n'est pas renseigné dans ces enregistrements.
+
+<!-- review:begin fr-lic-20261124-buprenorphine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données locales recensent 10 autorisations, toutes pour des produits à substance unique : BUVIDAL » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-buprenorphine-1 -->
 
 ## Considérations de Sécurité
 
@@ -99,11 +105,12 @@ Aucun essai clinique ni étude portant directement sur l'effet de la buprénorph
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sublocade (buprenorphine) prescribing information, Indivior Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=6189fb21-9432-45f8-8481-0bfaf3ccde95) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "caspofungin"
 predicted_indications: ["gastrin secretion abnormality"]
-last_modified_at: 2026-11-20
-description: "Caspofungin : nouvelle indication prédite, Anomalie de la sécrétion de gastrine (gastrin secretion abnormality) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
+last_modified_at: 2026-11-24
+description: "Caspofungin : nouvelle indication prédite, Anomalie de la sécrétion de gastrine (gastrin secretion abnormality) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 12)"
 ---
 
 # Caspofungin
@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 | Nouvelle Indication Prédite | Anomalie de la sécrétion de gastrine (gastrin secretion abnormality) |
 | Score de Prédiction TxGNN | 0,9944 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
-| Nombre d'AMM | 12 (valides : 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 16) |
+| Nombre d'AMM | 16 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,7 +72,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les données compilées recensent 12 autorisations de mise sur le marché pour des spécialités à base de caspofungine seule, toutes sous forme de poudre pour solution à diluer pour perfusion. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
+Les données compilées recensent 16 autorisations de mise sur le marché (12 valides) pour des spécialités à base de caspofungine seule, toutes sous forme de poudre pour solution à diluer pour perfusion. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
+
+<!-- review:begin fr-lic-20261124-caspofungin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 12 autorisations de mise sur le marché » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-caspofungin-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -108,11 +114,12 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5) :
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cancidas (caspofungin acetate) prescribing information, Merck Sharp & Dohme LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=3bad23a6-09a6-4194-9182-093ed61bc71c) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

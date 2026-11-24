@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 536
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NILOTINIB"
 predicted_indications: ["dermatofibrosarcoma protuberans"]
-description: "Nilotinib : nouvelle indication prédite, Dermatofibrosarcome protubérant (dermatofibrosarcoma protuberans) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
+description: "Nilotinib : nouvelle indication prédite, Dermatofibrosarcome protubérant (dermatofibrosarcoma protuberans) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 
 # Nilotinib
@@ -50,8 +50,8 @@ mais les preuves actuelles se limitent à **1 publication** de type revue géné
 | Nouvelle Indication Prédite | Dermatofibrosarcome protubérant (dermatofibrosarcoma protuberans) |
 | Score de Prédiction TxGNN | 0.9931 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
-| Nombre d'AMM | 5 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -104,7 +104,13 @@ Les mises en garde et contre-indications officielles de la notice ne sont pas di
 **Décision : Hold**
 
 **Justification :**
-- Le lien mécanistique via PDGFR est plausible, mais les preuves sont indirectes (niveau L4) : une seule revue générale et aucun essai clinique spécifique au nilotinib. L'imatinib reste la référence dans cette tumeur. De plus, le médicament est commercialisé en France (5 AMM valides sur 5) et le profil de sécurité (risque de QT long, nombreuses interactions) exige une évaluation approfondie.
+- Le lien mécanistique via PDGFR est plausible, mais les preuves sont indirectes (niveau L4) : une seule revue générale et aucun essai clinique spécifique au nilotinib. L'imatinib reste la référence dans cette tumeur. De plus, le médicament est commercialisé en France (7 AMM valides sur 7) et le profil de sécurité (risque de QT long, nombreuses interactions) exige une évaluation approfondie.
+
+<!-- review:begin fr-lic-20261124-nilotinib-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (5 AMM valides sur 5) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-nilotinib-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice officielle (ANSM), étape bloquante pour le criblage de sécurité
@@ -129,6 +135,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier la disponibilité réelle du produit en France, compte tenu des AMM annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cavhanza (nilotinib) prescribing information, Cycle Pharmaceuticals Ltd](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98b197ea-bca4-427e-8737-97f70a3262bc) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

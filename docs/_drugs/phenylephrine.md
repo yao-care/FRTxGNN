@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 600
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Phenylephrine : nouvelle indication prédite, Maladie de la cavité nasale (niveau de preuve L4). Indication d'origine : Non précisée dans les AMM"
 monitor_inn: "phenylephrine"
 predicted_indications: ["nasal cavity disease", "trigeminal autonomic cephalalgia"]
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré, et **5 publications** (essentiellement d
 | Nouvelle Indication Prédite | Maladie de la cavité nasale |
 | Score de Prédiction TxGNN | 0,9997 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
+| Nombre d'AMM | 13 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

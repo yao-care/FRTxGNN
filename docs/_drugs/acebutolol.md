@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "acebutolol"
 predicted_indications: ["malignant hypertensive renal disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Acebutolol : nouvelle indication prédite, Néphropathie hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données locale"
 ---
 
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **néphropathie hype
 | Nouvelle Indication Prédite | Néphropathie hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prédiction TxGNN | 0.9910 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

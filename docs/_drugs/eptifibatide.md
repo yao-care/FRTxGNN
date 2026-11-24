@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 290
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "EPTIFIBATIDE"
 predicted_indications: ["rheumatoid arthritis", "sickle cell-hemoglobin E disease syndrome", "sickle cell-hemoglobin c disease syndrome", "sickle cell-hemoglobin d disease syndrome", "hereditary persistence of fetal hemoglobin-sickle cell disease syndrome", "sickle cell-beta-thalassemia disease syndrome", "hemoglobinopathy", "female breast carcinoma", "beta-thalassemia with other manifestations", "partial deletion of the short arm of chromosome 16"]
-description: "Eptifibatide : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
+description: "Eptifibatide : nouvelle indication prédite, Polyarthrite rhumatoïde (rheumatoid arthritis) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 2)"
 ---
 
 # Eptifibatide
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **polyarthrite rh
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde (rheumatoid arthritis) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 4) |
+| Nombre d'AMM | 4 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -86,7 +86,13 @@ Aucune littérature associée disponible actuellement.
 | 67185951 | EPTIFIBATIDE ACCORD 2 mg/ml | Solution injectable | Active | Non renseignée |
 | 61707499 | EPTIFIBATIDE ACCORD 0,75 mg/ml | Solution pour perfusion | Active | Non renseignée |
 
-Les deux AMM appartiennent à ACCORD HEALTHCARE (Espagne) et concernent des spécialités à base d'eptifibatide seul.
+Des 4 AMM recensées, 2 sont valides (ACCORD HEALTHCARE, Espagne, spécialités à base d'eptifibatide seul) et 2 sont abrogées (INTEGRILIN, GlaxoSmithKline).
+
+<!-- review:begin fr-lic-20261124-eptifibatide-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les deux AMM appartiennent à ACCORD HEALTHCARE (Espagne) et concernent des spécialités à base d'eptifibatide seul. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-eptifibatide-1 -->
 
 ---
 
@@ -132,6 +138,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'eptifibatide n'a plus d'AMM valide en France, ce qui complique tout développement local » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: eptifibatide prescribing information, Avenacy, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c0781dae-3ef6-4cab-b084-01d2e45f3764) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

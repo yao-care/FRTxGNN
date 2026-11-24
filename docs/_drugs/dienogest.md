@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 238
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Dienogest : nouvelle indication prédite, Aménorrhée (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM françaises (texte d'indication vide)"
 monitor_inn: "dienogest"
 predicted_indications: ["amenorrhea (disease)", "primary ovarian failure", "breast fibrocystic disease", "isolated growth hormone deficiency", "symptomatic form of fragile X syndrome in female carrier", "blepharophimosis-epicanthus inversus-ptosis", "hypogonadotropic hypogonadism with or without anosmia", "partial trisomy/tetrasomy of the short arm of chromosome 5", "blepharophimosis-epicanthus inversus-ptosis due to 3q23 rearrangement syndrome", "partial trisomy/tetrasomy of the short arm of chromosome 18"]
@@ -50,8 +50,8 @@ La dienogest est un progestatif de synthèse (dérivé de la 19-nortestostérone
 | Nouvelle indication prédite | Aménorrhée |
 | Score de prédiction TxGNN | 0,9971 |
 | Niveau de preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision recommandée | Hold |
 
 ---
@@ -90,7 +90,13 @@ Les publications ci-dessous concernent surtout l'endométriose et la sécurité 
 
 ## Informations de marché en France
 
-Le médicament est commercialisé en France : 10 AMM valides sur 10. Les textes d'indication ne sont pas renseignés.
+Le médicament est commercialisé en France : 11 AMM valides sur 11. Les textes d'indication ne sont pas renseignés.
+
+<!-- review:begin fr-lic-20261124-dienogest-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « 10 AMM valides sur 10. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-dienogest-1 -->
 
 | Numéro d'AMM | Nom du produit | Forme pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -118,7 +124,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - La prédiction repose sur un effet pharmacologique connu (induction d'aménorrhée) et non sur un bénéfice thérapeutique ; il n'existe aucun essai clinique ni publication démontrant un intérêt dans cette indication (niveau L4).
-- Les données de sécurité officielles manquent ; les 10 AMM françaises sont toutes valides.
+- Les données de sécurité officielles manquent ; les 11 AMM françaises sont toutes valides.
+
+<!-- review:begin fr-lic-20261124-dienogest-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « les 10 AMM françaises sont toutes valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-dienogest-2 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Obtenir les mises en garde et contre-indications de la notice ANSM (bloquant pour le criblage de sécurité).
@@ -130,11 +142,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1201864 (dienogest): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1201864) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

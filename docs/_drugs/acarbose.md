@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "ACARBOSE"
 predicted_indications: ["classic stiff person syndrome", "focal stiff limb syndrome", "thiamine-responsive dysfunction syndrome", "opsismodysplasia", "drug-induced localized lipodystrophy", "centrifugal lipodystrophy", "pressure-induced localized lipoatrophy", "idiopathic localized lipodystrophy", "pancreatic agenesis"]
 last_modified_at: 2026-11-24
-description: "Acarbose : nouvelle indication prédite, Syndrome de la personne raide classique (classic stiff person syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 13 (valides : 12)"
+description: "Acarbose : nouvelle indication prédite, Syndrome de la personne raide classique (classic stiff person syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 12)"
 ---
 
 # Acarbose
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile pour le **syndrome de la per
 | Nouvelle Indication Prédite | Syndrome de la personne raide classique (classic stiff person syndrome) |
 | Score de Prédiction TxGNN | 0,9965 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 13) |
-| Nombre d'AMM | 13 (valides : 12) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 16) |
+| Nombre d'AMM | 16 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -71,7 +71,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les données compilées recensent 13 AMM d'acarbose (spécialités à substance unique, en comprimés ou comprimés sécables, dosés à 50 mg et 100 mg), commercialisées par des laboratoires tels que Viatris, EG Labo, Sandoz, Zentiva, Arrow et Biogaran. L'acarbose est commercialisée en France.
+Les données compilées recensent 16 AMM d'acarbose (12 valides) (spécialités à substance unique, en comprimés ou comprimés sécables, dosés à 50 mg et 100 mg), commercialisées par des laboratoires tels que Viatris, EG Labo, Sandoz, Zentiva, Arrow et Biogaran. L'acarbose est commercialisée en France.
+
+<!-- review:begin fr-lic-20261124-acarbose-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 13 AMM d'acarbose » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-acarbose-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -109,11 +115,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acarbose prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1ba7a072-03b0-41f2-be7a-101145bdef3a) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

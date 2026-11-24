@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 588
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pentosan polysulfate"
 predicted_indications: ["primary release disorder of platelets", "Glanzmann thrombasthenia", "pseudo-von Willebrand disease"]
 description: "Pentosan Polysulfate : nouvelle indication prédite, Trouble primaire de la libération plaquettaire (primary release disorder of platelets) (niveau de preuve L5). Indication d'origine : Non renseignée…"
@@ -52,8 +52,8 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 | Nouvelle Indication Prédite | Trouble primaire de la libération plaquettaire (primary release disorder of platelets) |
 | Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -88,7 +88,13 @@ Aucune littérature associée disponible actuellement.
 |---------|------|------|------|-----------|
 | 60027685 | ELMIRON 100 mg, gélule | Gélule | Active | Non renseignée |
 
-Le produit est fabriqué par BENE-ARZNEIMITTEL (Allemagne). Il est commercialisé, avec 1 AMM valide sur 1.
+Le produit est fabriqué par BENE-ARZNEIMITTEL (Allemagne). Il est commercialisé, avec 2 AMM valides sur 2.
+
+<!-- review:begin fr-lic-20261124-pentosan_polysulfate-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « avec 1 AMM valide sur 1. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-pentosan_polysulfate-1 -->
 
 ---
 
@@ -135,6 +141,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « L'AMM française est en outre annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Elmiron (pentosan polysulfate sodium) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f0ba651e-3d8a-11df-8fbe-119855d89593) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

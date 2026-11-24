@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 259
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DOXYCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "otitis externa", "postinfectious vasculitis", "post-bacterial disorder", "post-infectious syndrome", "infective urethral stricture", "Chagas cardiomyopathy", "infection-related hemolytic uremic syndrome", "exposure keratitis", "chronic gingivitis"]
 description: "Doxycycline : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5)."
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré et une seule publication (un rapport de d
 | Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) |
 | Score de Prédiction TxGNN | 0.9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 6) |
+| Nombre d'AMM | 6 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

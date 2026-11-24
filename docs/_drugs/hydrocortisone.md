@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 381
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROCORTISONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Hydrocortisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). En France, AMM dans la BDPM : 15 (valides : 15)"
+description: "Hydrocortisone : nouvelle indication prédite, Alopécie areata (alopecia areata) (niveau de preuve L2). En France, AMM dans la BDPM : 19 (valides : 19)"
 ---
 
 # Hydrocortisone
@@ -50,8 +50,8 @@ avec **1 essai clinique** (où l'hydrocortisone sert de comparateur) et plusieur
 | Nouvelle Indication Prédite | Alopécie areata (alopecia areata) |
 | Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
-| Nombre d'AMM | 15 (valides : 15) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
@@ -80,7 +80,13 @@ Il faut toutefois rester prudent : dans le seul essai randomisé disponible, l'h
 
 ## Informations de marché en France
 
-L'hydrocortisone est commercialisée en France ; les 15 AMM recensées sont valides. Les textes d'indication ne sont pas renseignés dans les données locales.
+L'hydrocortisone est commercialisée en France ; les 19 AMM recensées sont valides. Les textes d'indication ne sont pas renseignés dans les données locales.
+
+<!-- review:begin fr-lic-20261124-hydrocortisone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « les 15 AMM recensées sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-hydrocortisone-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -115,11 +121,12 @@ Un essai randomisé de phase 3 chez l'enfant, directement centré sur l'alopéci
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Alkindi Sprinkle (hydrocortisone) prescribing information, Eton Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=26c13a5f-7119-4c6a-bf10-fda4e07d7682) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

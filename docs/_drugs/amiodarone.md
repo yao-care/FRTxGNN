@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 58
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "AMIODARONE"
 predicted_indications: ["catecholaminergic polymorphic ventricular tachycardia", "incessant infant ventricular tachycardia", "obsolete bundle branch block", "rheumatoid arthritis", "brachydactyly-syndactyly syndrome", "heparin cofactor 2 deficiency", "trichotillomania", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "gout"]
 description: "Amiodarone : nouvelle indication prédite, Tachycardie ventriculaire polymorphe catécholaminergique (catecholaminergic polymorphic ventricular tachycardia) (niveau de preuve L5)."
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré et aucune étude ne teste l'amiodarone da
 | Nouvelle Indication Prédite | Tachycardie ventriculaire polymorphe catécholaminergique (catecholaminergic polymorphic ventricular tachycardia) |
 | Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 14) |
+| Nombre d'AMM | 14 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -91,7 +91,13 @@ Les publications ci-dessous portent sur la maladie prédite ou sur des sujets vo
 | 68973926 | CORDARONE 200 mg, comprimé sécable (BB FARMA, Italie) | Comprimé sécable | Non renseignée (AMM active) |
 | 60662396 | CORDARONE 200 mg, comprimé sécable (DIFARMED, Espagne) | Comprimé sécable | Non renseignée (AMM active) |
 
-L'amiodarone est commercialisée en France : les 4 AMM listées sont valides.
+L'amiodarone est commercialisée en France : 12 AMM sur 14 sont valides, dont les 4 listées ci-dessus.
+
+<!-- review:begin fr-lic-20261124-amiodarone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « les 4 AMM listées sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-amiodarone-1 -->
 
 ## Considérations de Sécurité
 
@@ -118,11 +124,12 @@ Aucun essai ni aucune étude ne teste l'amiodarone dans cette maladie, et la lit
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pacerone (amiodarone hydrochloride) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dcadce9c-d0a0-4235-8ff8-dd93c09e03b3) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

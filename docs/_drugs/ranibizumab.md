@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 651
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RANIBIZUMAB"
 predicted_indications: ["immature cataract", "mature cataract", "tetanic cataract", "craniostenosis cataract", "diabetes mellitus type 2 associated cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "hemorrhagic disease of newborn"]
-description: "Ranibizumab : nouvelle indication prédite, Immature cataract (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
+description: "Ranibizumab : nouvelle indication prédite, Immature cataract (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 7)"
 ---
 
 # Ranibizumab
@@ -49,8 +49,8 @@ avec **19 publications** soutenant actuellement cette direction, mais **aucun es
 | Nouvelle Indication Prédite | Immature cataract |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 (à confirmer, voir ci-dessous) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
-| Nombre d'AMM | 6 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

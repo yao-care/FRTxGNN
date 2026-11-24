@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 476
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "meclizine"
 predicted_indications: ["allergic urticaria", "common cold", "nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "cold urticaria"]
-description: "Meclizine : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Meclizine : nouvelle indication prédite, Urticaire allergique (allergic urticaria) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Meclizine
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**urticaire allergi
 | Nouvelle Indication Prédite | Urticaire allergique (allergic urticaria) |
 | Score de Prédiction TxGNN | 0.9967 |
 | Niveau de Preuve | L5 (argument mécanistique indirect lié à la classe pharmacologique ; aucune étude spécifique à la méclozine) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

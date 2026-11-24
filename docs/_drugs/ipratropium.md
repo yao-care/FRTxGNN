@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 411
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IPRATROPIUM"
 predicted_indications: ["nasal cavity disease", "pharyngitis", "acute laryngopharyngitis", "respiratory malformation", "papillary conjunctivitis", "Rienhoff syndrome", "tracheal disease", "anaphylaxis", "food-dependent exercise-induced anaphylaxis"]
-description: "Ipratropium : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Ipratropium : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Ipratropium
@@ -51,8 +51,8 @@ Cette indication recoupe toutefois largement les usages d'origine : il ne s'agit
 | Nouvelle Indication Prédite | Nasal cavity disease |
 | Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

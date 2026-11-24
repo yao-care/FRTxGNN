@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 767
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tixocortol : nouvelle indication prédite, Lymphome T cutané primitif (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées pour ce rapport"
 monitor_inn: "TIXOCORTOL"
 predicted_indications: ["primary cutaneous T-cell lymphoma", "acute lymphoblastic leukemia (disease)"]
@@ -50,8 +50,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **lymphome T cuta
 | Nouvelle Indication Prédite | Lymphome T cutané primitif |
 | Score de Prédiction TxGNN | 0,9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 9) |
+| Nombre d'AMM | 9 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

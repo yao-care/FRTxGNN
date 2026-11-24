@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 224
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "denosumab"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
 description: "Denosumab : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (severe nonproliferative diabetic retinopathy) (niveau de preuve L5). Indication d'origine : Non renseignée da…"
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie d
 | Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère (severe nonproliferative diabetic retinopathy) |
 | Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
-| Nombre d'AMM | 13 (valides : 13) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---
@@ -111,7 +111,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 **Décision : Hold**
 
 **Justification :**
-- Le score TxGNN est très élevé (0,9963), mais il n'existe ni essai clinique ni publication à l'appui, et le niveau de preuve est L5. De plus, le médicament est commercialisé en France (13 AMM valides sur 13) et les données de sécurité de la notice sont absentes, ce qui bloque la suite de l'évaluation.
+- Le score TxGNN est très élevé (0,9963), mais il n'existe ni essai clinique ni publication à l'appui, et le niveau de preuve est L5. De plus, le médicament est commercialisé en France (au moins 20 AMM valides) et les données de sécurité de la notice sont absentes, ce qui bloque la suite de l'évaluation.
+
+<!-- review:begin fr-lic-20261124-denosumab-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (13 AMM valides sur 13) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-denosumab-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications) pour mener le dépistage de sécurité.
@@ -123,11 +129,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Conexxence (denosumab) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=39a0a789-778f-4695-b3a9-61643e6396cd) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

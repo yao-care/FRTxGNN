@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 419
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ivabradine : nouvelle indication prédite, Hypertrichose (niveau de preuve L5). Indication d'origine : Non renseignée dans les données disponibles"
 monitor_inn: "IVABRADINE"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "nephrogenic syndrome of inappropriate antidiuresis"]
@@ -55,8 +55,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose**,
 | Nouvelle Indication Predite | Hypertrichose |
 | Score de Prediction TxGNN | 0,9979 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Nombre d'AMM | au moins 20 |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -98,7 +98,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique, sans publication et sans lien mécanistique plausible avec le blocage des canaux HCN.
-- Les 3 AMM françaises sont valides (3 sur 3, médicament commercialisé), mais les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- Au moins 18 AMM françaises sont valides (médicament commercialisé), mais les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+
+<!-- review:begin fr-lic-20261124-ivabradine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 3 AMM françaises sont valides (3 sur 3, médicament commercialisé) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-ivabradine-1 -->
 
 **Pour avancer, les elements suivants sont necessaires :**
 - Récupérer la notice ANSM (mises en garde et contre-indications) afin de lever le blocage de sécurité.
@@ -117,6 +123,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (les trois AMM françaises recensées sont toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Corlanor (ivabradine) prescribing information, Amgen Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=92018a65-38f6-45f7-91d4-a34921b81d0d) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

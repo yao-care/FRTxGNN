@@ -3,7 +3,7 @@ layout: default
 title: Teriflunomide
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 744
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Teriflunomide : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -44,8 +44,8 @@ Le modèle d'apprentissage profond TxGNN (score ≥ 0,99) a produit des candidat
 
 | Élément | Contenu |
 |------|------|
-| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
-| Nombre d'AMM | 13 (valides : 13) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
+| Nombre d'AMM | 14 (valides : 14) |
 | Usages connus parmi les candidats du modèle | 1 |
 | Statut commercial en France | Commercialisé (autorisations valides : 13 sur 13) |
 

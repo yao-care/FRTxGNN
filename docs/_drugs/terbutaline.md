@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 743
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TERBUTALINE"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome"]
-description: "Terbutaline : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Terbutaline : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Terbutaline
@@ -50,8 +50,8 @@ Aucune étude ne porte directement sur cette maladie : **1 essai clinique** gén
 | Nouvelle Indication Prédite | Malformation respiratoire (respiratory malformation) |
 | Score de Prédiction TxGNN | 0.9952 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

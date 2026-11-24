@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 711
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SOTALOL"
 predicted_indications: ["sick sinus syndrome 2, autosomal dominant", "Wildervanck syndrome", "sarcoglycanopathy", "stroke disorder", "manic bipolar affective disorder", "macrocephaly, dysmorphic facies, and psychomotor retardation"]
 description: "Sotalol : nouvelle indication prédite, Syndrome du sinus malade, forme autosomique dominante 2 (sick sinus syndrome 2, autosomal dominant) (niveau de preuve L5). Indication d'origine : Non renseignée…"
@@ -52,8 +52,8 @@ Les données compilées indiquent même que ce score provient du modèle TxGNN (
 | Nouvelle Indication Prédite | Syndrome du sinus malade, forme autosomique dominante 2 (sick sinus syndrome 2, autosomal dominant) |
 | Score de Prédiction TxGNN | 0.9976 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 17) |
+| Nombre d'AMM | 17 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---
@@ -112,7 +112,13 @@ Les données issues de la notice n'étant pas disponibles, les éléments ci-des
 
 **Justification :**
 - La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, et le mécanisme du sotalol va à l'encontre de l'objectif thérapeutique, le syndrome du sinus malade étant une contre-indication connue.
-- Par ailleurs, le médicament est commercialisé en France (3 AMM valides sur 3), mais le dépistage de sécurité ne peut pas avancer faute de données de notice.
+- Par ailleurs, le médicament est commercialisé en France (16 AMM valides sur 17), mais le dépistage de sécurité ne peut pas avancer faute de données de notice.
+
+<!-- review:begin fr-lic-20261124-sotalol-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (3 AMM valides sur 3) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-sotalol-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle (mises en garde et contre-indications) sur le site de l'ANSM.
@@ -124,11 +130,12 @@ Les données issues de la notice n'étant pas disponibles, les éléments ci-des
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Betapace (sotalol hydrochloride) prescribing information, Legacy Pharma USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a6a7702f-36c9-45db-b640-453dc324baee) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

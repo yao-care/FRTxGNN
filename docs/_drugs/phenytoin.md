@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 601
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "phenytoin"
 predicted_indications: ["trigeminal nerve neoplasm", "trigeminal neuralgia", "beta-ketothiolase deficiency"]
-description: "Phenytoin : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
+description: "Phenytoin : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 
 # Phenytoin
@@ -52,8 +52,8 @@ Le score élevé provient du modèle TxGNN (apprentissage profond) et peut refl�
 | Nouvelle Indication Prédite | Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 3) |
+| Nombre d'AMM | 3 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -92,7 +92,13 @@ Aucune de ces publications ne soutient directement l'indication prédite.
 | 62436200 | DILANTIN 250 mg/5 ml, solution injectable (ESTEVE PHARMACEUTICALS) | Solution injectable | Non renseignée (AMM active) |
 | 66303560 | DI-HYDAN 100 mg, comprimé sécable (EFISCIENS) | Comprimé sécable | Non renseignée (AMM active) |
 
-Les 2 AMM sur 2 sont valides : la phénytoïne est commercialisée dans ce pays.
+2 AMM sur 3 sont valides : la phénytoïne est commercialisée dans ce pays.
+
+<!-- review:begin fr-lic-20261124-phenytoin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 2 AMM sur 2 sont valides : » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-phenytoin-1 -->
 
 ---
 
@@ -136,6 +142,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Extended Phenytoin Sodium (phenytoin sodium) prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=363cd347-d25e-42b9-9ce7-30642f3cb353) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

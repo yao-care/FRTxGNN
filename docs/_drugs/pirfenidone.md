@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 609
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pirfenidone"
 predicted_indications: ["extracutaneous mastocytoma", "dermatofibrosarcoma protuberans", "aggressive systemic mastocytosis", "heart fibrosarcoma", "conventional fibrosarcoma", "autosomal recessive familial Mediterranean fever", "kidney fibrosarcoma", "hepatic infarction", "fibroblastic neoplasm", "low grade fibromyxoid sarcoma"]
-description: "Pirfenidone : nouvelle indication prédite, Extracutaneous mastocytoma (niveau de preuve L5). En France, AMM dans la BDPM : 17 (valides : 17)"
+description: "Pirfenidone : nouvelle indication prédite, Extracutaneous mastocytoma (niveau de preuve L5). En France, AMM dans la BDPM : 18 (valides : 18)"
 ---
 
 # Pirfenidone
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **néoplasie fi
 | Nouvelle Indication Prédite | Extracutaneous mastocytoma |
 | Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
-| Nombre d'AMM | 17 (valides : 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold (question de recherche, pas de développement à ce stade) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -80,13 +80,19 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
+Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 18) :
 
 <!-- review:begin fr-lic-20261106-pirfenidone-1 -->
 
 > **Correction de vérification (2026-11-06)**: Texte initial : « Les 17 AMM sont au statut **annulé**. Le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-pirfenidone-1 -->
+
+<!-- review:begin fr-lic-20261124-pirfenidone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Principales AMM (5 sur 17) : » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-pirfenidone-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -135,6 +141,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « Les 17 AMM sont au statut **annulé** » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (raisons de l'annulation des 17 AMM) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Esbriet (pirfenidone) prescribing information, Genentech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2e8c3537-36d7-4de5-9b5c-7a624b9a9e6e) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

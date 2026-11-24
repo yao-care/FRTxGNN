@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 702
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Sevoflurane : nouvelle indication prédite, Angor de Prinzmetal (niveau de preuve L5). Indication d'origine : Non renseignée dans l'AMM (anesthésie générale par inhalation d'après…"
 monitor_inn: "sevoflurane"
 predicted_indications: ["Prinzmetal angina", "Tourette syndrome", "fibromyalgia", "tendinitis", "myositis fibrosa", "idiopathic granulomatous myositis", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "migraine disorder", "inclusion body myositis"]
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**angor de Prinzme
 | Nouvelle Indication Prédite | Angor de Prinzmetal |
 | Score de Prédiction TxGNN | 0,9978 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---

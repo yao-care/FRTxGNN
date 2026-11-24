@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 464
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lorazepam"
 predicted_indications: ["trigeminal nerve neoplasm"]
-description: "Lorazepam : nouvelle indication prédite, Tumeur du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
+description: "Lorazepam : nouvelle indication prédite, Tumeur du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
 # Lorazepam
@@ -51,8 +51,8 @@ Le modèle TxGNN (apprentissage profond) prédit en rang 1 qu'il pourrait être 
 | Nouvelle indication prédite | Tumeur du nerf trijumeau (trigeminal nerve neoplasm) |
 | Score de prédiction TxGNN | 0.9987 |
 | Niveau de preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
-| Nombre d'AMM | 5 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision recommandée | Hold |
 
 ---
@@ -101,7 +101,13 @@ Les autres publications retrouvées pour l'insomnie sont indirectes (prescriptio
 | 66720276 | LORAZEPAM XILMAC 4 mg/mL (active) | Solution injectable | Non renseignée |
 | 63159891 | LORAZEPAM VIATRIS 2,5 mg (active) | Comprimé pelliculé sécable | Non renseignée |
 
-Les 5 AMM sur 5 sont valides : le médicament est commercialisé.
+Les 8 AMM sur 8 sont valides : le médicament est commercialisé.
+
+<!-- review:begin fr-lic-20261124-lorazepam-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 5 AMM sur 5 sont valides : » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-lorazepam-1 -->
 
 ---
 
@@ -152,6 +158,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « (AMM annulées, raisons et possibilités de réactivation) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Loreev Xr (lorazepam) prescribing information, Almatica Pharma LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=227734c1-bf01-9607-73ea-5a1f38a89bd9) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

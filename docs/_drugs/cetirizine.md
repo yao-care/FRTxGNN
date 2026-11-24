@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 3
 monitor_inn: "cetirizine"
 predicted_indications: ["nasal cavity disease", "rosacea conjunctivitis", "recalcitrant atopic dermatitis"]
-last_modified_at: 2026-11-20
-description: "Cetirizine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
+last_modified_at: 2026-11-24
+description: "Cetirizine : nouvelle indication prédite, Maladie de la cavité nasale (nasal cavity disease) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Cetirizine
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **maladie de la ca
 | Nouvelle Indication Prédite | Maladie de la cavité nasale (nasal cavity disease) |
 | Score de Prédiction TxGNN | 0,9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -79,7 +79,13 @@ Aucune de ces publications n'étudie directement la cétirizine dans la maladie 
 
 ## Informations de Marché en France
 
-La cétirizine est commercialisée en France. Les données compilées recensent 3 AMM pour des spécialités à base de cétirizine seule, sans texte d'indication renseigné.
+La cétirizine est commercialisée en France. Les données compilées recensent au moins 20 AMM valides pour des spécialités à base de cétirizine seule, sans texte d'indication renseigné.
+
+<!-- review:begin fr-lic-20261124-cetirizine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 3 AMM pour des spécialités à base de cétirizine seule, » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-cetirizine-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -110,11 +116,12 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Quzyttir (cetirizine hydrochloride) prescribing information, ESTEVE PHARMACEUTICALS, S.A.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=573770f6-b76e-f6ba-e063-6294a90aa54d) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

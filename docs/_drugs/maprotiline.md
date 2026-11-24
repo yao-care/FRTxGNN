@@ -7,7 +7,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 473
 evidence_level: L5
 indication_count: 0
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 predicted_indications: []
 ---
 
@@ -52,8 +52,8 @@ et les lacunes importantes dans les données disponibles ne permettent pas de me
 | Nouvelle Indication Prédite | Aucune prédiction TxGNN disponible |
 | Score de Prédiction TxGNN | N/A |
 | Niveau de Preuve | L5 — Données insuffisantes pour évaluation |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---
@@ -70,7 +70,13 @@ En l'absence de prédictions TxGNN et de données de mécanisme d'action formali
 
 ## Informations de Marché en France
 
-Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour la Maprotiline en France selon les données disponibles.
+Deux autorisations de mise sur le marché (AMM) valides sont enregistrées pour la Maprotiline en France (comprimés pelliculés, AMDIPHARM).
+
+<!-- review:begin fr-lic-20261124-maprotiline-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour la Maprotiline en France selon les données disponibles. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-maprotiline-1 -->
 
 > Une vérification auprès de la base de données publique de l'ANSM est recommandée pour confirmer le statut réglementaire actuel.
 
@@ -93,7 +99,13 @@ Veuillez consulter la notice officielle pour les informations de sécurité comp
 **Décision : Hold**
 
 **Justification :**
-L'absence totale de prédictions TxGNN combinée aux lacunes critiques dans les données (mécanisme d'action non documenté, avertissements de sécurité manquants, aucune AMM française enregistrée) rend toute analyse de repositionnement impossible à ce stade ; les conditions minimales d'évaluation ne sont pas réunies.
+L'absence totale de prédictions TxGNN combinée aux lacunes critiques dans les données (mécanisme d'action non documenté, avertissements de sécurité manquants, deux AMM françaises enregistrées sans texte d'indication) rend toute analyse de repositionnement impossible à ce stade ; les conditions minimales d'évaluation ne sont pas réunies.
+
+<!-- review:begin fr-lic-20261124-maprotiline-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « aucune AMM française enregistrée » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-maprotiline-2 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 
@@ -119,6 +131,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « **Note :** Des AMM historiques ont pu exister et avoir été retirées ou expirées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « /TFDA (AMM potentiellement retirées ou expirées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

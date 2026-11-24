@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 587
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "PENTAMIDINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "neurotrophic keratopathy", "exposure keratitis", "non-human animal disease", "congenital analbuminemia"]
 description: "Pentamidine : nouvelle indication prédite, Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **kératoconjonct
 | Nouvelle Indication Prédite | Kératoconjonctivite ponctuée épithéliale (punctate epithelial keratoconjunctivitis) |
 | Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

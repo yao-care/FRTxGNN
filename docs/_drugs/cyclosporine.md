@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 204
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "cyclosporine"
 predicted_indications: ["granulomatous disease, chronic, autosomal recessive", "brain aneurysm", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congenital ichthyosiform erythroderma", "fetal erythroblastosis", "brachydactyly-syndactyly syndrome", "prolapse of lacrimal gland"]
 description: "Cyclosporine : nouvelle indication prédite, Granulomatose septique chronique, autosomique récessive (granulomatous disease, chronic, autosomal recessive) (niveau de preuve L4). Indication d'origine :…"
@@ -50,8 +50,8 @@ mais cette prédiction ne repose que sur **1 publication** (une cohorte sur la g
 | Nouvelle Indication Prédite | Granulomatose septique chronique, autosomique récessive (granulomatous disease, chronic, autosomal recessive) |
 | Score de Prédiction TxGNN | 0.9968 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 13) |
+| Nombre d'AMM | 13 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -74,7 +74,13 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Dix AMM valides sur dix ; le texte des indications approuvées n'est pas disponible dans les données compilées.
+Onze AMM valides sur treize ; le texte des indications approuvées n'est pas disponible dans les données compilées.
+
+<!-- review:begin fr-lic-20261124-cyclosporine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Dix AMM valides sur dix ; » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-cyclosporine-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -101,7 +107,13 @@ Le contexte de la granulomatose septique chronique (risque infectieux déjà él
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score élevé du modèle TxGNN (deep learning), qui peut refléter des similarités apprises entre maladies apparentées et non une preuve biologique, sans aucun essai clinique et avec une seule publication sans lien direct avec la ciclosporine ; le risque infectieux lié à l'immunosuppression est un frein majeur. Le médicament est commercialisé en France (10 AMM valides sur 10).
+- La prédiction repose sur un score élevé du modèle TxGNN (deep learning), qui peut refléter des similarités apprises entre maladies apparentées et non une preuve biologique, sans aucun essai clinique et avec une seule publication sans lien direct avec la ciclosporine ; le risque infectieux lié à l'immunosuppression est un frein majeur. Le médicament est commercialisé en France (11 AMM valides sur 13).
+
+<!-- review:begin fr-lic-20261124-cyclosporine-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (10 AMM valides sur 10) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-cyclosporine-2 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec la granulomatose septique chronique
@@ -131,6 +143,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM toutes annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cyclosporine, Modfied (cyclosporine) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=5baaf78c-90f6-abcf-52c8-814490f3cf9f) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

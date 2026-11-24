@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 324
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-24
 monitor_inn: "fenticonazole"
 predicted_indications: ["trichomonal vulvovaginitis", "postmenopausal atrophic vaginitis", "vulvitis", "herpetic vulvovaginitis"]
-description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à trichomonas (trichomonal vulvovaginitis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
+description: "Fenticonazole : nouvelle indication prédite, Vulvovaginite à trichomonas (trichomonal vulvovaginitis) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 4)"
 ---
 
 # Fenticonazole
@@ -50,8 +50,8 @@ Cette piste ne repose actuellement sur **aucun essai clinique enregistré** et s
 | Nouvelle indication prédite | Vulvovaginite à trichomonas (trichomonal vulvovaginitis) |
 | Score de prédiction TxGNN | 0.9950 |
 | Niveau de preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle plus fragile qu'il n'y paraît ?
@@ -75,7 +75,13 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de marché en France
 
-Le fenticonazole est commercialisé en France. Les 3 AMM recensées sont valides. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
+Le fenticonazole est commercialisé en France. 4 des 5 AMM recensées sont valides. Le texte d'indication approuvée n'est pas renseigné dans les données locales.
+
+<!-- review:begin fr-lic-20261124-fenticonazole-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 3 AMM recensées sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-fenticonazole-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -99,6 +105,18 @@ Aucune étude citée n'évalue directement l'efficacité du fenticonazole contre
 - Des données cliniques isolant les patientes atteintes de trichomonase, par exemple une analyse en sous-groupe de l'essai pilote existant ou un nouvel essai comparatif avec un 5-nitroimidazole.
 - Les données de sécurité issues de la notice (mises en garde, contre-indications, interactions).
 - Des données détaillées sur le mécanisme d'action.
+
+<!-- review:begin log -->
+
+## Journal de vérification
+
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+
+| Date de vérification | Élément | Action | Source |
+|------|------|------|------|
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+
+<!-- review:end log -->
 
 ## Avertissement
 

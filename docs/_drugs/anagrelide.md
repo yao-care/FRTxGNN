@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 65
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Anagrelide : nouvelle indication prédite, Thrombocytose réactive (niveau de preuve L5). Indication d'origine : Thrombocythémie…"
 monitor_inn: "anagrelide"
 predicted_indications: ["reactive thrombocytosis", "inverse Klippel-Trenaunay syndrome"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **thrombocytose r
 | Nouvelle Indication Prédite | Thrombocytose réactive |
 | Score de Prédiction TxGNN | 0,9983 |
 | Niveau de Preuve | L5 (prédiction du modèle uniquement, aucun essai clinique ni étude directe sur cette indication) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

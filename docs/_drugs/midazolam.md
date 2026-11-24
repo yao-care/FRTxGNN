@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 499
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MIDAZOLAM"
 predicted_indications: ["insomnia (disease)"]
-description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). En France, AMM dans la BDPM : 8 (valides : 8)"
+description: "Midazolam : nouvelle indication prédite, Insomnie (insomnia (disease)) (niveau de preuve L3). En France, AMM dans la BDPM : 17 (valides : 15)"
 ---
 
 # Midazolam
@@ -50,8 +50,8 @@ avec **2 essais cliniques** (tous deux indirects) et **10 publications** (dont 2
 | Nouvelle Indication Prédite | Insomnie (insomnia (disease)) |
 | Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
-| Nombre d'AMM | 8 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 17) |
+| Nombre d'AMM | 17 (valides : 15) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -116,7 +116,13 @@ Le texte de l'indication approuvée n'est pas renseigné dans les données compi
 
 **Justification :**
 - Le mécanisme est plausible et le score du modèle est très élevé. Cependant, les preuves directes sont anciennes (1981-1990), et les essais cliniques enregistrés sont indirects.
-- Le médicament est commercialisé en France : 8 AMM valides sur 8. Les données de sécurité de la notice sont absentes, ce qui bloque le dépistage de sécurité. Le profil de risque de la classe (dépendance, tolérance, insomnie de rebond, altération diurne) et les nombreuses interactions limitent l'intérêt pratique.
+- Le médicament est commercialisé en France : 15 AMM valides sur 17. Les données de sécurité de la notice sont absentes, ce qui bloque le dépistage de sécurité. Le profil de risque de la classe (dépendance, tolérance, insomnie de rebond, altération diurne) et les nombreuses interactions limitent l'intérêt pratique.
+
+<!-- review:begin fr-lic-20261124-midazolam-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « 8 AMM valides sur 8. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-midazolam-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications.
@@ -149,6 +155,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « Les 8 AMM sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « les AMM annulées étant essentiellement injectables » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Midazolam In Sodium Chloride (midazolam) prescribing information, WG Critical Care, LLC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f051776f-94c5-4e34-80ed-f45b9c36881e) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 611
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PIROXICAM"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "WHIM syndrome", "rheumatoid nodulosis", "juvenile idiopathic arthritis"]
 description: "Piroxicam : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndro… (niveau de preuve L5). Indication d'o…"
@@ -50,8 +50,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome de
 | Nouvelle Indication Prédite | Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 13) |
-| Nombre d'AMM | 13 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 14) |
+| Nombre d'AMM | 14 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

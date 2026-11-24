@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 206
 evidence_level: L4
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CYTARABINE"
 predicted_indications: ["small cell lung carcinoma", "primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "pulmonary blastoma", "upper aerodigestive tract neoplasm", "ganglioneuroblastoma (disease)", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "neuroblastoma"]
-description: "Cytarabine : nouvelle indication prédite, Small cell lung carcinoma (niveau de preuve L4). En France, AMM dans la BDPM : 11 (valides : 10)"
+description: "Cytarabine : nouvelle indication prédite, Small cell lung carcinoma (niveau de preuve L4). En France, AMM dans la BDPM : 12 (valides : 10)"
 ---
 
 # Cytarabine
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **carcinome pul
 | Nouvelle Indication Prédite | Small cell lung carcinoma |
 | Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 11) |
-| Nombre d'AMM | 11 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 12) |
+| Nombre d'AMM | 12 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ---

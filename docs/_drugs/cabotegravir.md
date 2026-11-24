@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 128
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Cabotegravir : nouvelle indication prédite, Polyarthrite rhumatoïde (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "cabotegravir"
 predicted_indications: ["rheumatoid arthritis", "sclerosing cholangitis", "bronchitis", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "severe nonproliferative diabetic retinopathy"]
@@ -48,8 +48,8 @@ Le cabotégravir est un inhibiteur de l'intégrase du VIH-1, connu en France sou
 | Nouvelle Indication Prédite | Polyarthrite rhumatoïde |
 | Score de Prédiction TxGNN | 0,9945 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

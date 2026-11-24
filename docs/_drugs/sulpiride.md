@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 723
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SULPIRIDE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "syndromic myopia", "atypical glycine encephalopathy"]
 description: "Sulpiride : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication d'orig…"
@@ -50,8 +50,8 @@ mais **aucun essai clinique** n'est enregistré et seules **2 publications préc
 | Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) |
 | Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 6) |
-| Nombre d'AMM | 6 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 8) |
+| Nombre d'AMM | 8 (valides : 5) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

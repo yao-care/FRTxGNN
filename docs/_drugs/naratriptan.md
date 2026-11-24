@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 526
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NARATRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-description: "Naratriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Naratriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
 # Naratriptan
@@ -48,8 +48,8 @@ Naratriptan est un triptan (agoniste sélectif des récepteurs 5-HT1B/1D), initi
 | Nouvelle Indication Prédite | Atrophoderma vermiculata |
 | Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 Le niveau L4 correspond à celui attribué dans les données compilées ; il repose sur le raisonnement mécanistique, aucune étude réelle sur ce sous-type n'étant disponible.*

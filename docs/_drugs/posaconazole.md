@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 617
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "POSACONAZOLE"
 predicted_indications: ["pneumocystosis"]
-description: "Posaconazole : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
+description: "Posaconazole : nouvelle indication prédite, Pneumocystose (pneumocystosis) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 10)"
 ---
 
 # Posaconazole
@@ -49,8 +49,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **pneumocysto
 | Nouvelle Indication Prédite | Pneumocystose (pneumocystosis) |
 | Score de Prédiction TxGNN | 0.9977 |
 | Niveau de Preuve | L5 (prédiction du modèle sans étude directe ; les données compilées indiquent L4) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 12) |
+| Nombre d'AMM | 12 (valides : 10) |
 | Décision Recommandée | Hold |
 
 *Note : le texte d'indication des AMM n'est pas renseigné.*

@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 620
 evidence_level: L4
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PRAMIPEXOLE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "specific developmental disorder", "chondromyxoid fibroma", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "schizophrenia", "atypical glycine encephalopathy"]
-description: "Pramipexole : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L4). En France, AMM dans la BDPM : 9 (valides : 9)"
+description: "Pramipexole : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L4). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Pramipexole
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble défici
 | Nouvelle Indication Prédite | Attention deficit-hyperactivity disorder |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
-| Nombre d'AMM | 9 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---
@@ -118,7 +118,13 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- Pour le TDAH, aucun essai n'est enregistré et aucune donnée d'efficacité directe n'existe ; le niveau de preuve est L4 malgré un score TxGNN très élevé (1.0000). Par ailleurs, les 9 AMM françaises sont toutes valides et le médicament est commercialisé.
+- Pour le TDAH, aucun essai n'est enregistré et aucune donnée d'efficacité directe n'existe ; le niveau de preuve est L4 malgré un score TxGNN très élevé (1.0000). Par ailleurs, au moins 20 AMM françaises sont valides et le médicament est commercialisé.
+
+<!-- review:begin fr-lic-20261124-pramipexole-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « les 9 AMM françaises sont toutes valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-pramipexole-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action
@@ -143,6 +149,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: pramipexole dihydrochloride prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=29b639e3-25a5-4c2f-b4ea-a119db79fe0c) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

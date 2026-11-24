@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 306
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "etodolac"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
-description: "Etodolac : nouvelle indication prédite, Acromesomelic dysplasia, Hunter-Thompson type (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Etodolac : nouvelle indication prédite, Acromesomelic dysplasia, Hunter-Thompson type (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Etodolac
@@ -49,8 +49,8 @@ Les données compilées font état de **0 essai clinique** enregistré et de **8
 | Nouvelle Indication Prédite | Acromesomelic dysplasia, Hunter-Thompson type |
 | Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 (spondylarthrite ankylosante) ; L5 pour la plupart des autres candidates |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold (maintien en attente) ; question de recherche pour la spondylarthrite ankylosante |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

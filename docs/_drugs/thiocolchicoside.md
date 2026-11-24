@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 753
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Thiocolchicoside : nouvelle indication prédite, Insomnie (niveau de preuve L5). Indication d'origine : Non précisée dans les données compilées"
 monitor_inn: "THIOCOLCHICOSIDE"
 predicted_indications: ["insomnia (disease)", "alcohol withdrawal delirium"]
@@ -52,8 +52,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 | Nouvelle Indication Prédite | Insomnie |
 | Score de Prédiction TxGNN | 0,9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
-| Nombre d'AMM | 9 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---
@@ -116,7 +116,13 @@ Veuillez consulter la notice pour les informations de sécurité.
 
 **Justification :**
 - Les deux prédictions reposent uniquement sur le modèle (niveau L5), sans essai clinique ni publication. Le mécanisme connu (antagonisme GABA-A) contredit l'effet recherché dans l'insomnie et suggère un risque dans le delirium de sevrage alcoolique.
-- Les 9 AMM françaises sur 9 sont valides, et les données de sécurité issues de la notice font défaut.
+- 9 AMM françaises sur 10 sont valides, et les données de sécurité issues de la notice font défaut.
+
+<!-- review:begin fr-lic-20261124-thiocolchicoside-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 9 AMM françaises sur 9 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-thiocolchicoside-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse des notices ANSM (mises en garde et contre-indications), étape bloquante pour tout criblage de sécurité
@@ -140,6 +146,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 9 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Clarification de l'indication d'origine et des raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

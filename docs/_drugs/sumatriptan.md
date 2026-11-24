@@ -3,7 +3,7 @@ layout: default
 title: Sumatriptan
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 725
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Sumatriptan : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -44,8 +44,8 @@ Les candidats produits par le modèle TxGNN (score ≥ 0,99) pour le Sumatriptan
 
 | Élément | Contenu |
 |------|------|
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Usages connus parmi les candidats du modèle | 1 |
 | Statut commercial en France | Commercialisé (autorisations valides : 3 sur 3) |
 

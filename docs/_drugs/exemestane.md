@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 313
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Exemestane : nouvelle indication prédite, Déficience en antithrombine de type 2 (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "exemestane"
 predicted_indications: ["antithrombin deficiency type 2", "amenorrhea (disease)", "factor 5 excess with spontaneous thrombosis", "heparin cofactor 2 deficiency", "thrombophilia", "migraine disorder", "migraine with brainstem aura"]
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **déficience en 
 | Nouvelle Indication Prédite | Déficience en antithrombine de type 2 |
 | Score de Prédiction TxGNN | 0,9983 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
-| Nombre d'AMM | 16 (valides : 16) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 19) |
+| Nombre d'AMM | 19 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ---
@@ -100,7 +100,19 @@ Aucune littérature associée disponible actuellement pour la déficience en ant
 
 ## Informations de Marché en France
 
-Les 16 AMM sur 16 sont valides. Le texte d'indication n'est pas renseigné dans les données compilées. Principales AMM (5 sur 16) :
+18 AMM sur 19 sont valides. Le texte d'indication n'est pas renseigné dans les données compilées. Principales AMM (5 sur 19) :
+
+<!-- review:begin fr-lic-20261124-exemestane-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 16 AMM sur 16 sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-exemestane-1 -->
+
+<!-- review:begin fr-lic-20261124-exemestane-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Principales AMM (5 sur 16) : » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-exemestane-2 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -163,6 +175,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les AMM françaises sont toutes annulées, et le profil de risque thromboembolique des inhibiteurs de l'aromatase va à l'encontre d'un usage d » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Aromasin (exemestane) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=cf066b7a-032a-416c-8d40-15ba581423e3) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

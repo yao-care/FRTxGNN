@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 774
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "topotecan"
 predicted_indications: ["female breast carcinoma", "adult germ cell tumor"]
-description: "Topotecan : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Topotecan : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Topotecan
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du se
 | Nouvelle Indication Prédite | Carcinome du sein féminin (female breast carcinoma) |
 | Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -116,7 +116,13 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 
 **Justification :**
 - Le niveau de preuve pour le cancer du sein est L3 : les essais sont de phase précoce, terminés prématurément ou sans résultats d'efficacité, et aucune donnée randomisée ne confirme un bénéfice. La seule étude de phase 2 de perfusion continue n'a pas montré d'efficacité accrue.
-- Les 4 AMM françaises sont valides (médicament commercialisé), mais les informations de sécurité issues de la notice sont manquantes, ce qui empêche de passer l'étape de criblage de sécurité.
+- Les 5 AMM françaises sont valides (médicament commercialisé), mais les informations de sécurité issues de la notice sont manquantes, ce qui empêche de passer l'étape de criblage de sécurité.
+
+<!-- review:begin fr-lic-20261124-topotecan-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 4 AMM françaises sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-topotecan-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle de l'ANSM (mises en garde et contre-indications) ; cette lacune est bloquante.
@@ -143,6 +149,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Hycamtin (topotecan) prescribing information, Sandoz Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b23b46f5-c276-47f5-8bbd-940680b3f579) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

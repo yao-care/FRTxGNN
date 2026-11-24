@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 430
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Lactic Acid : nouvelle indication prédite, Coarctation atypique de l'aorte (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM (texte d'indication vide)"
 monitor_inn: "lactic acid"
 predicted_indications: ["atypical coarctation of aorta", "aortic malformation", "non-syndromic esophageal malformation", "amenorrhea (disease)", "dry eye syndrome"]
@@ -55,8 +55,8 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 | Nouvelle Indication Prédite | Coarctation atypique de l'aorte |
 | Score de Prédiction TxGNN | 0,9959 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 3) |
+| Nombre d'AMM | 3 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 460
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "loperamide"
 predicted_indications: ["acute contagious conjunctivitis", "amebic dysentery", "conjunctivitis", "gastroduodenitis", "pseudomembranous conjunctivitis", "chronic follicular conjunctivitis", "conjunctival folliculosis", "serous conjunctivitis except viral", "parasitic conjunctivitis", "Angelucci syndrome"]
-description: "Loperamide : nouvelle indication prédite, Acute contagious conjunctivitis (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 1)"
+description: "Loperamide : nouvelle indication prédite, Acute contagious conjunctivitis (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Loperamide
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **conjonctivite c
 | Nouvelle Indication Predite | Acute contagious conjunctivitis |
 | Score de Prediction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 2) |
-| Nombre d'AMM | 2 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 16) |
+| Nombre d'AMM | au moins 20 |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -102,7 +102,13 @@ Les mises en garde détaillées de la notice ne sont pas disponibles ; veuillez 
 **Décision : Hold**
 
 **Justification :**
-La prédiction pour la conjonctivite aiguë contagieuse repose uniquement sur le score du modèle (niveau L5), sans mécanisme plausible, essai ni publication. Les autres indications prédites sont également non étayées, et la piste la plus proche (dysenterie amibienne) soulève plutôt une alerte de sécurité. De plus, le médicament est commercialisé en France, avec 1 AMM valide sur 2.
+La prédiction pour la conjonctivite aiguë contagieuse repose uniquement sur le score du modèle (niveau L5), sans mécanisme plausible, essai ni publication. Les autres indications prédites sont également non étayées, et la piste la plus proche (dysenterie amibienne) soulève plutôt une alerte de sécurité. De plus, le médicament est commercialisé en France, avec au moins 16 AMM valides.
+
+<!-- review:begin fr-lic-20261124-loperamide-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « avec 1 AMM valide sur 2. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-loperamide-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde et contre-indications), actuellement bloquante pour le criblage de sécurité
@@ -121,6 +127,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les deux AMM sont annulées : aucune présentation n'est actuellement commercialisée sous ces autorisations » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: loperamide hydrochloride prescribing information, Cardinal Health 107, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=74b9893a-18c3-4117-85c2-edab8e7b3b3b) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

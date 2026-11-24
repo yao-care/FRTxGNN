@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 471
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Manidipine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L5). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "MANIDIPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "pulmonary hypertension", "Prinzmetal angina", "kyphoscoliotic heart disease", "benign prostatic hyperplasia (disease)", "atrophoderma vermiculata"]
@@ -59,8 +59,8 @@ La prédiction repose donc uniquement sur le modèle (niveau de preuve L5).
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
 | Score de Prédiction TxGNN | 0,9980 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
-| Nombre d'AMM | 16 (valides : 16) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ---
@@ -102,11 +102,11 @@ Aucune littérature associée à la migraine disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 16 AMM recensées sont des génériques sous forme de comprimés. Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous.
+Les 18 AMM recensées sont des comprimés : 16 génériques et la spécialité de référence IPERTEN (10 et 20 mg). Aucun texte d'indication approuvée n'est disponible. Les cinq premières sont listées ci-dessous.
 
 <!-- review:begin fr-lic-20261106-manidipine-2 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Les 16 AMM recensées sont des génériques sous forme de comprimés, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 16 AMM recensées sont des génériques sous forme de comprimés, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-manidipine-2 -->
 
@@ -133,7 +133,13 @@ Pour les mises en garde, contre-indications et interactions médicamenteuses, ve
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la migraine repose uniquement sur le modèle (L5), sans essai ni publication. Les 16 AMM françaises sur 16 sont valides, mais les données de sécurité sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+- La prédiction pour la migraine repose uniquement sur le modèle (L5), sans essai ni publication. Les 18 AMM françaises sur 18 sont valides, mais les données de sécurité sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité.
+
+<!-- review:begin fr-lic-20261124-manidipine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 16 AMM françaises sur 16 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-manidipine-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice (mises en garde et contre-indications) sur le site de l'ANSM, élément bloquant
@@ -156,8 +162,9 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (les AMM françaises sont toutes annulées et sans texte d'indication) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
-| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « toutes annulées » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM françaises et l'indication d'origine » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

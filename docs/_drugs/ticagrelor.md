@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 760
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ticagrelor"
 predicted_indications: ["intracranial arteriosclerosis", "Monckeberg arteriosclerosis", "priapism", "ischemic disease", "May-Thurner syndrome", "livedo reticularis", "vascular ectasia", "angiodysplasia", "venous thromboembolism"]
-description: "Ticagrelor : nouvelle indication prédite, Artériosclérose intracrânienne (intracranial arteriosclerosis) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
+description: "Ticagrelor : nouvelle indication prédite, Artériosclérose intracrânienne (intracranial arteriosclerosis) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Ticagrelor
@@ -50,8 +50,8 @@ avec **2 essais cliniques** (dont un essai de Phase 3 toujours en cours) et **2 
 | Nouvelle Indication Prédite | Artériosclérose intracrânienne (intracranial arteriosclerosis) |
 | Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
-| Nombre d'AMM | 11 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Proceed with Guardrails |
 
 > Remarque : le niveau L2 est celui attribué dans les données compilées pour ce rapport. Il reste fragile : l'essai de Phase 3 (CAPTIVA) est en cours, sans résultats, et le ticagrélor n'y est pas le seul bras expérimental.
@@ -80,7 +80,13 @@ Des données indirectes vont dans le même sens : l'essai CHANCE-2 (PMID 3470899
 
 ## Informations de Marché en France
 
-Le médicament est commercialisé : 11 AMM valides sur 11. Le texte des indications approuvées n'est pas renseigné.
+Le médicament est commercialisé : 12 AMM valides sur 12. Le texte des indications approuvées n'est pas renseigné.
+
+<!-- review:begin fr-lic-20261124-ticagrelor-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « 11 AMM valides sur 11. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-ticagrelor-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -132,6 +138,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (toutes AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Brilinta (ticagrelor) prescribing information, AstraZeneca Pharmaceuticals LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f7b3f443-e83d-4bf2-0e96-023448fed9a8) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

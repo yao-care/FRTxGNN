@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 680
 evidence_level: L3
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ropivacaine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L3). Indication d'origine : Non disponible (le texte de l'indication de l'AMM est vide)"
 monitor_inn: "ropivacaine"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "nephrogenic syndrome of inappropriate antidiuresis", "dysthymic disorder"]
@@ -50,8 +50,8 @@ avec **2 essais cliniques** et **3 publications** soutenant actuellement cette d
 | Nouvelle Indication Prédite | Migraine (migraine disorder) |
 | Score de Prédiction TxGNN | 0,9965 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 16) |
+| Nombre d'AMM | 16 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 353
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FULVESTRANT"
 predicted_indications: ["HIV infectious disease", "multiple endocrine neoplasia", "simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "rheumatoid arthritis", "acne (disease)", "brachydactyly-syndactyly syndrome", "hemoglobinopathy", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-description: "Fulvestrant : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
+description: "Fulvestrant : nouvelle indication prédite, Infection par le VIH (HIV infectious disease) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
 ---
 
 # Fulvestrant
@@ -50,8 +50,8 @@ mais aucun essai clinique n'est enregistré et seules **2 publications** précli
 | Nouvelle Indication Prédite | Infection par le VIH (HIV infectious disease) |
 | Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -111,7 +111,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle et sur une étude in vitro, sans essai clinique. Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité. Les 10 AMM françaises sur 10 sont valides et le médicament est commercialisé.
+La prédiction repose uniquement sur le modèle et sur une étude in vitro, sans essai clinique. Les données de sécurité de la notice sont absentes, ce qui bloque le passage à l'étape de criblage de sécurité. Les 11 AMM françaises sur 11 sont valides et le médicament est commercialisé.
+
+<!-- review:begin fr-lic-20261124-fulvestrant-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 10 AMM françaises sur 10 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-fulvestrant-1 -->
 
 Les autres indications prédites ne sont pas plus solides :
 - **Neoplasie endocrinienne multiple** : les 13 essais retrouvés portent sur le cancer du sein HR+/HER2-, et non sur cette maladie. L'association vient probablement d'un mot-clé ou d'un appariement trop large.
@@ -141,6 +147,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « Les 10 AMM sont au statut « annulée » » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « Indications approuvées des AMM, et clarification de la situation réglementaire des produits annulés » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cligavyx (fulvestrant) prescribing information, AVYXA Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e20d8ca3-8837-4003-8b01-1ebec342062a) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

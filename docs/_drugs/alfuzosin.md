@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 36
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "alfuzosin"
 predicted_indications: ["Ambras type hypertrichosis universalis congenita", "hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "familial isolated trichomegaly", "allergic urticaria", "persistent fetal circulation syndrome", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia"]
-description: "Alfuzosin : nouvelle indication prédite, Ambras type hypertrichosis universalis congenita (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Alfuzosin : nouvelle indication prédite, Ambras type hypertrichosis universalis congenita (niveau de preuve L5). En France, AMM dans la BDPM : 14 (valides : 13)"
 ---
 
 # Alfuzosin
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertrichose co
 | Nouvelle Indication Prédite | Ambras type hypertrichosis universalis congenita |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 14) |
+| Nombre d'AMM | 14 (valides : 13) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

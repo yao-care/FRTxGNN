@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome d'immu
 | Nouvelle Indication Prédite | Syndrome d'immunodéficience acquise féline (feline acquired immunodeficiency syndrome) |
 | Score de Prédiction TxGNN | 0.9980 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 13) |
-| Nombre d'AMM | 13 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 19) |
+| Nombre d'AMM | 19 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -101,7 +101,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 **Décision : Hold**
 
 **Justification :**
-- Les preuves se limitent à une étude préclinique in vitro pour une indication vétérinaire, sans essai clinique. Le score TxGNN élevé reflète probablement la proximité avec le mécanisme anti-VIH plutôt qu'une efficacité réelle contre le FIV, et le médicament ne dispose plus d'AMM valide en France.
+- Les preuves se limitent à une étude préclinique in vitro pour une indication vétérinaire, sans essai clinique. Le score TxGNN élevé reflète probablement la proximité avec le mécanisme anti-VIH plutôt qu'une efficacité réelle contre le FIV, et le médicament reste commercialisé en France (12 AMM valides sur 19).
+
+<!-- review:begin fr-lic-20261124-efavirenz-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « , et le médicament ne dispose plus d'AMM valide en France. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-efavirenz-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données sur le mécanisme d'action (MOA) et analyse du lien mécanistique avec le FIV
@@ -119,6 +125,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-13 | Supprimé : « (AMM annulées) » | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 3 des 13 AMM d'éfavirenz sont suspendues (67491478, 65198334, 61814540) ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: efavirenz prescribing information, Macleods Pharmaceuticals Limited](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=13ca3456-e5bf-4bb1-af95-b1378658a358) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

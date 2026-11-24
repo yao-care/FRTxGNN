@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 164
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CHLORPROMAZINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "congenital disorder of glycosylation with defective fucosylation", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "myopia 26, X-linked, female-limited", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Chlorpromazine : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5)."
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **dystrophie réti
 | Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extraoculaires (retinal dystrophy with or without extraocular anomalies) |
 | Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -78,7 +78,13 @@ Aucune étude ne teste la chlorpromazine dans la dystrophie rétinienne.
 | 62184888 | LARGACTIL 25 mg/5 ml, solution injectable en ampoule (active) | Solution injectable | Non renseignée |
 | 68513504 | LARGACTIL 4 POUR CENT, solution buvable en gouttes (active) | Solution buvable en gouttes | Non renseignée |
 
-Les deux AMM sont valides. La chlorpromazine est commercialisée en France (titulaire : NEURAXPHARM FRANCE).
+Les 4 AMM recensées sont valides. La chlorpromazine est commercialisée en France (titulaire : NEURAXPHARM FRANCE).
+
+<!-- review:begin fr-lic-20261124-chlorpromazine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les deux AMM sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-chlorpromazine-1 -->
 
 ## Cytotoxicité
 
@@ -113,11 +119,12 @@ La prédiction repose uniquement sur le modèle (niveau de preuve L5). Aucun ess
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: chlorpromazine prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=bd02d051-2a34-4cd3-a137-b965c0381267) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

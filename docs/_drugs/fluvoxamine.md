@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 344
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "FLUVOXAMINE"
 predicted_indications: ["schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)", "paranoid personality disorder", "anxiety disorder", "agoraphobia", "benign paroxysmal torticollis of infancy", "dependent personality disorder", "narcissistic personality disorder"]
 description: "Fluvoxamine : nouvelle indication prédite, Trouble de la personnalité schizotypique (schizotypal personality disorder) (niveau de preuve L5)."
@@ -52,8 +52,8 @@ Aucun essai clinique n'est enregistré pour cette maladie et **5 publications** 
 | Nouvelle Indication Prédite | Trouble de la personnalité schizotypique (schizotypal personality disorder) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ---

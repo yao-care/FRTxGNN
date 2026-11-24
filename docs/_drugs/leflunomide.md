@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 441
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "leflunomide"
 predicted_indications: ["brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome"]
-description: "Leflunomide : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 13 (valides : 13)"
+description: "Leflunomide : nouvelle indication prédite, Brachydactyly-syndactyly syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 15 (valides : 15)"
 ---
 
 # Leflunomide
@@ -52,8 +52,8 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 | Nouvelle Indication Prédite | Brachydactyly-syndactyly syndrome |
 | Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 13) |
-| Nombre d'AMM | 13 (valides : 13) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
+| Nombre d'AMM | 15 (valides : 15) |
 | Décision Recommandée | Hold |
 
 ---

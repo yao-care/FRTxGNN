@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 175
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CITALOPRAM"
 predicted_indications: ["obsessive-compulsive disorder", "paranoid personality disorder", "schizotypal personality disorder", "schizoid personality disorder", "histrionic personality disorder (disease)"]
-description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (obsessive-compulsive disorder) (niveau de preuve L2). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Citalopram : nouvelle indication prédite, Trouble obsessionnel-compulsif (obsessive-compulsive disorder) (niveau de preuve L2). En France, AMM dans la BDPM : 15 (valides : 13)"
 ---
 
 # Citalopram
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble obsessi
 | Nouvelle Indication Prédite | Trouble obsessionnel-compulsif (obsessive-compulsive disorder) |
 | Score de Prédiction TxGNN | 0.9974 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 15) |
+| Nombre d'AMM | 15 (valides : 13) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

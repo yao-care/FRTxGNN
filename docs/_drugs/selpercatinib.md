@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 697
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Selpercatinib : nouvelle indication prédite, Hypertension pulmonaire (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (texte d'indication vide po…"
 monitor_inn: "SELPERCATINIB"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura"]
@@ -54,8 +54,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension pul
 | Nouvelle Indication Prédite | Hypertension pulmonaire |
 | Score de Prédiction TxGNN | 0,9918 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -114,7 +114,13 @@ Les mises en garde et contre-indications de la notice n'ont pas pu être obtenue
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication sur l'hypertension pulmonaire, et sans lien mécanistique identifié. Un risque d'effet inverse (aggravation) ne peut pas être exclu. Le médicament est commercialisé en France (3 AMM valides sur 3).
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication sur l'hypertension pulmonaire, et sans lien mécanistique identifié. Un risque d'effet inverse (aggravation) ne peut pas être exclu. Le médicament est commercialisé en France (4 AMM valides sur 4).
+
+<!-- review:begin fr-lic-20261124-selpercatinib-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (3 AMM valides sur 3) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-selpercatinib-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Mises en garde et contre-indications de la notice ANSM (lacune bloquante pour le criblage de sécurité)
@@ -133,6 +139,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisations françaises (RETSEVMO) sont aujourd'hui toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Retevmo (selpercatinib) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7fa848ba-a59c-4144-9f52-64d090f4d828) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 804
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "vancomycin"
 predicted_indications: ["diffuse scleroderma", "paratyphoid fever", "salmonellosis", "congenital analbuminemia", "polyclonal hyperviscosity syndrome", "hyperamylasemia", "typhoid fever", "blood group incompatibility", "streptococcal pneumonia", "premalignant hematological system disease"]
-description: "Vancomycin : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Vancomycin : nouvelle indication prédite, Sclérodermie diffuse (diffuse scleroderma) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Vancomycin
@@ -52,8 +52,8 @@ Cette prédiction relève très probablement de similarités apprises par le mod
 | Nouvelle Indication Prédite | Sclérodermie diffuse (diffuse scleroderma) |
 | Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ---

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "AFLIBERCEPT"
 predicted_indications: ["esotropia"]
-last_modified_at: 2026-11-20
-description: "Aflibercept : nouvelle indication prédite, Ésotropie (esotropia) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
+last_modified_at: 2026-11-24
+description: "Aflibercept : nouvelle indication prédite, Ésotropie (esotropia) (niveau de preuve L5). En France, AMM dans la BDPM : 19 (valides : 19)"
 ---
 
 # Aflibercept
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**Ésotropie (esot
 | Nouvelle Indication Prédite | Ésotropie (esotropia) |
 | Score de Prédiction TxGNN | 0.9938 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
-| Nombre d'AMM | 8 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -71,7 +71,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-L'aflibercept est commercialisé en France. Les données compilées recensent 8 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (Zaltrap, Eylea, Pavblu, Afqlir). Le texte d'indication approuvée n'est pas renseigné dans ces enregistrements.
+L'aflibercept est commercialisé en France. Les données compilées recensent 19 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (notamment Zaltrap, Eylea, Pavblu, Afqlir). Le texte d'indication approuvée n'est pas renseigné dans ces enregistrements.
+
+<!-- review:begin fr-lic-20261124-aflibercept-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 8 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (Zaltrap, Eylea, Pavblu, Afqlir). » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-aflibercept-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -104,11 +110,12 @@ La prédiction repose uniquement sur le score du modèle (0.9938), sans essai cl
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Pavblu (aflibercept-ayyh) prescribing information, Amgen, Inc](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c61062f3-80ec-4a20-8c28-46e468592a06) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

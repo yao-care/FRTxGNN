@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 333
 evidence_level: L2
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Fludarabine : nouvelle indication prédite, Myélome multiple (plasmocytome) (niveau de preuve L2). Indication d'origine : Non précisée dans les données d'AMM compilées"
 monitor_inn: "fludarabine"
 predicted_indications: ["plasma cell myeloma", "hyperthyroidism", "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "indolent plasma cell myeloma", "resistance to thyroid hormone due to a mutation in thyroid hormone receptor beta", "brain small vessel disease 1 with or without ocular anomalies", "myelodysplastic syndrome", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "diabetic nephropathy"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans le **myélome multipl
 | Nouvelle Indication Prédite | Myélome multiple (plasmocytome) |
 | Score de Prédiction TxGNN | 0,9982 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 4) |
+| Nombre d'AMM | 4 (valides : 3) |
 | Décision Recommandée | Proceed with Guardrails |
 
 > Remarque : le titre mentionne la leucémie lymphoïde chronique à titre de contexte pharmacologique connu de la fludarabine. Cette indication n'apparaît pas dans les textes d'AMM compilés, qui sont vides.
@@ -130,14 +130,26 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - De nombreux essais et études soutiennent l'utilisation de la fludarabine dans le myélome, mais uniquement comme composante de schémas de conditionnement ou de lymphodéplétion, pas comme traitement antimyélome autonome. Les essais en cause sont principalement de petite taille ou de phase 1/2, ou testent un autre agent.
-- Les 3 AMM françaises sur 3 sont valides et le médicament est commercialisé ; les informations de sécurité officielles ne sont pas disponibles, ce qui impose des garde-fous stricts.
+- 3 AMM françaises sur 4 sont valides et le médicament est commercialisé ; les informations de sécurité officielles ne sont pas disponibles, ce qui impose des garde-fous stricts.
+
+<!-- review:begin fr-lic-20261124-fludarabine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 3 AMM françaises sur 3 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-fludarabine-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération de la notice (mises en garde et contre-indications) auprès de l'ANSM, élément bloquant pour l'évaluation de sécurité
 - Données détaillées sur le mécanisme d'action
-- Clarification du statut réglementaire, puisque les 3 AMM sur 3 sont valides et que le médicament est commercialisé
+- Clarification du statut réglementaire, puisque 3 AMM sur 4 sont valides et que le médicament est commercialisé
 - Essais comparatifs spécifiques au myélome pour isoler la contribution de la fludarabine
 - Plan de surveillance de la toxicité (myélosuppression, neurotoxicité, fonction rénale)
+
+<!-- review:begin fr-lic-20261124-fludarabine-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « puisque les 3 AMM sur 3 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-fludarabine-2 -->
 
 **Autres indications prédites (pour information) :**
 - Le myélome indolent et le syndrome myélodysplasique présentent aussi un niveau L2, avec la même réserve : la fludarabine y est une composante de conditionnement avant allogreffe. Le syndrome myélodysplasique non classé est au niveau L3 (question de recherche).
@@ -147,11 +159,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: fludarabine phosphate prescribing information, Hisun Pharmaceuticals USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=291f6ee2-f5d2-ae6c-e063-6294a90a5951) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

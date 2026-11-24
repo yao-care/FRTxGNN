@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 682
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ROTIGOTINE"
 predicted_indications: ["attention deficit-hyperactivity disorder", "schizophrenia", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "faciodigitogenital syndrome", "congenital disorder of glycosylation with defective fucosylation", "retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "atypical glycine encephalopathy", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited"]
-description: "Rotigotine : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Rotigotine : nouvelle indication prédite, Attention deficit-hyperactivity disorder (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
 # Rotigotine
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **trouble du déf
 | Nouvelle Indication Prédite | Attention deficit-hyperactivity disorder |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 (prédiction du modèle, aucune étude clinique ; la littérature disponible est de nature mécanistique ou de revue) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -95,7 +95,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et une littérature limitée à des revues et à de la pharmacologie mécanistique. Les 4 AMM françaises sont valides (4 sur 4), mais les données de sécurité de la notice manquent, ce qui bloque le dépistage de sécurité.
+- La prédiction repose uniquement sur le modèle (L5) : aucun essai clinique, et une littérature limitée à des revues et à de la pharmacologie mécanistique. Les 8 AMM françaises sont valides (8 sur 8), mais les données de sécurité de la notice manquent, ce qui bloque le dépistage de sécurité.
+
+<!-- review:begin fr-lic-20261124-rotigotine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 4 AMM françaises sont valides (4 sur 4) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-rotigotine-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)
@@ -109,11 +115,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Neupro (rotigotine) prescribing information, UCB, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=939e28c5-f3a9-42c0-9a2d-8d471d82a6e0) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

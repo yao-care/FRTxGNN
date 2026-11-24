@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 186
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "CLOMIPRAMINE"
 predicted_indications: ["anxiety disorder", "benign paroxysmal torticollis of infancy", "histrionic personality disorder (disease)", "schizoid personality disorder", "paranoid personality disorder", "schizotypal personality disorder", "agoraphobia", "attention deficit-hyperactivity disorder"]
-description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L1). En France, AMM dans la BDPM : 3 (valides : 3)"
+description: "Clomipramine : nouvelle indication prédite, Trouble anxieux (anxiety disorder) (niveau de preuve L1). En France, AMM dans la BDPM : 10 (valides : 9)"
 ---
 
 # Clomipramine
@@ -50,8 +50,8 @@ avec **8 essais cliniques** et **20 publications** retenus dans les donnees comp
 | Nouvelle Indication Predite | Trouble anxieux (anxiety disorder) |
 | Score de Prediction TxGNN | 0.9993 |
 | Niveau de Preuve | L1 (selon l'evaluation des donnees compilees ; a nuancer, voir ci-dessous) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Decision Recommandee | Proceed with Guardrails |
 
 **Nuance sur le niveau de preuve :** le niveau L1 est attribue dans les donnees compilees, mais les essais listes sont majoritairement centres sur le TOC, et la plupart ne sont pas des essais directs dans les troubles anxieux. Le soutien le plus solide provient de meta-analyses et de recommandations portant sur le trouble panique. Une lecture prudente situerait la preuve directe entre L2 et L3.

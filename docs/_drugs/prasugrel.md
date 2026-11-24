@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 622
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PRASUGREL"
 predicted_indications: ["pulmonary hypertension", "migraine disorder", "migraine with brainstem aura", "kyphoscoliotic heart disease", "rheumatoid arthritis", "homozygous familial hypercholesterolemia", "hypoalphalipoproteinemia", "brachydactyly-syndactyly syndrome", "leprosy"]
-description: "Prasugrel : nouvelle indication prédite, Hypertension pulmonaire (pulmonary hypertension) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Prasugrel : nouvelle indication prédite, Hypertension pulmonaire (pulmonary hypertension) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
 ---
 
 # Prasugrel
@@ -50,8 +50,8 @@ Cette prédiction repose uniquement sur le modèle : **aucun essai clinique** et
 | Nouvelle Indication Prédite | Hypertension pulmonaire (pulmonary hypertension) |
 | Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
+| Nombre d'AMM | 6 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -77,7 +77,13 @@ Les deux publications retrouvées ne portent pas sur l'hypertension pulmonaire e
 
 ## Informations de Marché en France
 
-Le prasugrel est commercialisé en France. Les 4 autorisations recensées sont valides.
+Le prasugrel est commercialisé en France. Les 6 autorisations recensées sont valides.
+
+<!-- review:begin fr-lic-20261124-prasugrel-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 4 autorisations recensées sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-prasugrel-1 -->
 
 | Numero d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvee |
 |---------|------|------|-----------|
@@ -111,11 +117,12 @@ La prédiction pour l'hypertension pulmonaire repose uniquement sur le score du 
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Effient (prasugrel hydrochloride) prescribing information, Cosette Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69ea2d58-5353-4222-b61f-cab976fa7e5e) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

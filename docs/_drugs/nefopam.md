@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 529
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "nefopam"
 predicted_indications: ["craniostenosis cataract", "immature cataract", "mature cataract", "diabetes mellitus type 2 associated cataract", "tetanic cataract", "nuclear senile cataract", "cortical cataract", "senile cataract", "diabetic cataract", "lumbar spinal stenosis"]
 description: "Nefopam : nouvelle indication prédite, Craniostenosis cataract (niveau de preuve L5)."
@@ -48,8 +48,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **cataracte avec 
 | Nouvelle Indication Prédite | Craniostenosis cataract |
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
+| Nombre d'AMM | 11 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

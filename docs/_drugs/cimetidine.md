@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 170
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "cimetidine"
 predicted_indications: ["peptic ulcer perforation", "duodenal obstruction", "acne (disease)", "abnormality of glucagon secretion"]
-description: "Cimetidine : nouvelle indication prédite, Peptic ulcer perforation (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Cimetidine : nouvelle indication prédite, Peptic ulcer perforation (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 1)"
 ---
 
 # Cimetidine
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile dans la **mastocytose syst
 | Nouvelle Indication Prédite | Peptic ulcer perforation |
 | Score de Prédiction TxGNN | 0.9977 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 2) |
+| Nombre d'AMM | 2 (valides : 1) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

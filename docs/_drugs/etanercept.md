@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 303
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "etanercept"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease", "vertebral disease"]
-description: "Etanercept : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). En France, AMM dans la BDPM : 17 (valides : 17)"
+description: "Etanercept : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). En France, AMM dans la BDPM : 20 (valides : 20)"
 ---
 
 # Etanercept
@@ -54,8 +54,8 @@ Cette prédiction repose sur **1 essai clinique** (sans lien direct avec l'indic
 | Nouvelle Indication Prédite | Hypermobility of coccyx |
 | Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
-| Nombre d'AMM | 17 (valides : 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
+| Nombre d'AMM | 20 (valides : 20) |
 | Décision Recommandée | Hold |
 
 ---
@@ -107,11 +107,11 @@ La plupart de ces publications décrivent des vascularites **induites** par les 
 | 64784134 | ERELZI 50 mg, stylo prérempli | Solution injectable | Non disponible (AMM active) |
 | 64959320 | ENBREL 25 mg | Poudre et solvant pour solution injectable | Non disponible (AMM active) |
 
-Au total, 17 AMM sont recensées.
+Au total, 20 AMM sont recensées.
 
 <!-- review:begin fr-lic-20261106-etanercept-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 17 AMM sont recensées, toutes annulées (Enbrel, Benepali, Erelzi, Nepexto). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Au total, 17 AMM sont recensées, toutes annulées (Enbrel, Benepali, Erelzi, Nepexto). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-etanercept-1 -->
 
@@ -155,7 +155,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « toutes annulées (Enbrel, Benepali, Erelzi, Nepexto) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « toutes annulées (Enbrel, Benepali, Erelzi, Nepexto) » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Enbrel (etanercept) prescribing information, Immunex Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a002b40c-097d-47a5-957f-7a7b1807af7f) |
 
 <!-- review:end log -->

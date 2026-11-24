@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 260
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "doxylamine"
 predicted_indications: ["nasal cavity disease"]
-description: "Doxylamine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Doxylamine : nouvelle indication prédite, Nasal cavity disease (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
 ---
 
 # Doxylamine
@@ -51,8 +51,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 | Nouvelle Indication Prédite | Nasal cavity disease |
 | Score de Prédiction TxGNN | 0.9936 |
 | Niveau de Preuve | L5 (aucune étude réelle disponible ; la classification de l'analyse initiale était L4) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---

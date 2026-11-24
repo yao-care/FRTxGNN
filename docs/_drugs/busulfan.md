@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 125
 evidence_level: L1
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Busulfan : nouvelle indication prédite, Syndrome myélodysplasique (niveau de preuve L1). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "BUSULFAN"
 predicted_indications: ["myelodysplastic syndrome", "refractory cytopenia of childhood", "unclassified myelodysplastic syndrome", "partial deletion of the long arm of chromosome 5", "aregenerative anemia", "severe congenital hypochromic anemia with ringed sideroblasts", "HIV infectious disease", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "seborrheic keratosis", "simian immunodeficiency virus infection"]
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **Syndrome Myélo
 | Nouvelle Indication Prédite | Syndrome myélodysplasique |
 | Score de Prédiction TxGNN | 0,9962 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

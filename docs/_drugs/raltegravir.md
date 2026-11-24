@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 647
 evidence_level: L4
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "raltegravir"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter"]
 description: "Raltegravir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4)."
@@ -50,8 +50,8 @@ avec **0 essai clinique** et **15 publications** précliniques, essentiellement 
 | Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
 | Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
-| Nombre d'AMM | 6 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -93,7 +93,13 @@ Toutes les publications retenues sont précliniques (macaques, cultures cellulai
 | 69260153 | ISENTRESS 100 mg, granulés pour suspension buvable | Granulés pour suspension buvable | Non disponible (AMM active) |
 | 64912032 | RALTEGRAVIR VIATRIS 600 mg, comprimé pelliculé | Comprimé pelliculé | Non disponible (AMM active) |
 
-Le raltégravir est commercialisé en France ; six AMM sont valides au total, dont cinq sont listées ci-dessus.
+Le raltégravir est commercialisé en France ; huit AMM sont valides au total, dont cinq sont listées ci-dessus.
+
+<!-- review:begin fr-lic-20261124-raltegravir-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « six AMM sont valides au total, dont cinq sont listées ci-dessus. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-raltegravir-1 -->
 
 ## Considérations de Sécurité
 
@@ -121,11 +127,12 @@ Les preuves se limitent à des études précliniques chez le macaque et in vitro
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Isentress (raltegravir) prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7e659505-c902-4906-9461-1cc83e2236d2) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

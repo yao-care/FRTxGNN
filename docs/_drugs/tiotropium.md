@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 765
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TIOTROPIUM"
 predicted_indications: ["respiratory malformation", "Rienhoff syndrome", "hyperlucent lung", "tracheal stenosis"]
-description: "Tiotropium : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Tiotropium : nouvelle indication prédite, Malformation respiratoire (respiratory malformation) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Tiotropium
@@ -50,8 +50,8 @@ Les **3 essais cliniques** et **5 publications** compilés pour ce rapport ne po
 | Nouvelle Indication Prédite | Malformation respiratoire (respiratory malformation) |
 | Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

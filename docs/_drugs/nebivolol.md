@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 528
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "nebivolol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
 description: "Nebivolol : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 | Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prédiction TxGNN | 0.9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMBRISENTAN"
 predicted_indications: ["pulmonary arteriovenous malformation (disease)", "malformation syndrome with odontal and/or periodontal component", "hypotrichosis simplex of the scalp", "hypertrichosis (disease)", "syndrome with a Dandy-Walker malformation as major feature"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ambrisentan : nouvelle indication prédite, Malformation artério-veineuse pulmonaire (pulmonary arteriovenous malformation (disease)) (niveau de preuve L5). Indication d'origine : Non renseignée dans …"
 ---
 
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **malformation ar
 | Nouvelle Indication Prédite | Malformation artério-veineuse pulmonaire (pulmonary arteriovenous malformation (disease)) |
 | Score de Prédiction TxGNN | 0,9941 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
-| Nombre d'AMM | 11 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 13) |
+| Nombre d'AMM | 13 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -81,7 +81,13 @@ Aucun essai clinique associé enregistré actuellement.
 | 64673002 | AMBRISENTAN TEVA 10 mg | Comprimé pelliculé | Non renseignée |
 | 68499606 | VOLIBRIS 5 mg | Comprimé pelliculé | Non renseignée |
 
-Seules cinq AMM sont listées ici ; la liste complète comprend 11 AMM.
+Seules cinq AMM sont listées ici ; la liste complète comprend 13 AMM (11 valides).
+
+<!-- review:begin fr-lic-20261124-ambrisentan-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « la liste complète comprend 11 AMM. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-ambrisentan-1 -->
 
 ## Considérations de Sécurité
 
@@ -109,11 +115,12 @@ Aucune étude publiée ne porte directement sur l'efficacité de l'ambrisentan d
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Letairis (ambrisentan) prescribing information, Gilead Sciences, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=725d4e73-6c83-477a-adc6-0ae4a133a844) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "ATOSIBAN"
 predicted_indications: ["primary hereditary glaucoma", "open-angle glaucoma", "congenital hypotrichosis milia", "alopecia", "hypotrichosis simplex of the scalp", "vascular disease", "diffuse alopecia areata", "arterial thoracic outlet syndrome", "venous thoracic outlet syndrome", "visceral calciphylaxis"]
-last_modified_at: 2026-11-20
-description: "Atosiban : nouvelle indication prédite, Glaucome héréditaire primitif (primary hereditary glaucoma) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
+last_modified_at: 2026-11-24
+description: "Atosiban : nouvelle indication prédite, Glaucome héréditaire primitif (primary hereditary glaucoma) (niveau de preuve L5). En France, AMM dans la BDPM : 13 (valides : 9)"
 ---
 
 # Atosiban
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Glaucome héréditaire primitif (primary hereditary glaucoma) |
 | Score de Prédiction TxGNN | 0,9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 13) |
+| Nombre d'AMM | 13 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

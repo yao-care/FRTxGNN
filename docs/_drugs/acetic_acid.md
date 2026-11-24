@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 9
 monitor_inn: "acetic acid"
 predicted_indications: ["post-bacterial disorder", "postinfectious vasculitis", "post-infectious syndrome", "Chagas cardiomyopathy", "infective urethral stricture", "infection-related hemolytic uremic syndrome", "drug-induced osteoporosis", "pityriasis simplex", "tinea corporis"]
-last_modified_at: 2026-11-20
-description: "Acetic Acid : nouvelle indication prédite, Trouble post-bactérien (post-bacterial disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
+last_modified_at: 2026-11-24
+description: "Acetic Acid : nouvelle indication prédite, Trouble post-bactérien (post-bacterial disorder) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 
 # Acetic Acid
@@ -50,8 +50,8 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 | Nouvelle Indication Prédite | Trouble post-bactérien (post-bacterial disorder) |
 | Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 3) |
+| Nombre d'AMM | 3 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,7 +72,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-L'acide acétique est commercialisé en France. Les deux autorisations enregistrées sont des produits homéopathiques à une seule substance.
+L'acide acétique est commercialisé en France. Les deux autorisations valides (tableau ci-dessus) sont des produits homéopathiques à une seule substance ; une troisième AMM, DIABENE (67698943), est abrogée.
+
+<!-- review:begin fr-lic-20261124-acetic_acid-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les deux autorisations enregistrées sont des produits homéopathiques à une seule substance. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-acetic_acid-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -104,11 +110,12 @@ Le score TxGNN est très élevé (0,9998), mais il repose uniquement sur le calc
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: acetic acid prescribing information, A-S Medication Solutions](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1c28375-9b03-4590-9d39-ab28403da93d) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

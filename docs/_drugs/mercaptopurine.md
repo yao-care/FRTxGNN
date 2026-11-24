@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 480
 evidence_level: L3
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MERCAPTOPURINE"
 predicted_indications: ["myeloid leukemia", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pulmonary blastoma", "Hodgkins lymphoma", "primary pulmonary lymphoma", "small cell lung carcinoma", "well-differentiated fetal adenocarcinoma of the lung"]
-description: "Mercaptopurine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L3). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Mercaptopurine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L3). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 
 # Mercaptopurine
@@ -48,8 +48,8 @@ La mercaptopurine est un antimétabolite purique utilisé en oncohématologie. L
 | Nouvelle indication prédite | Leucémie myéloïde (myeloid leukemia) |
 | Score de prédiction TxGNN | 0.9994 |
 | Niveau de preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 3) |
+| Nombre d'AMM | 3 (valides : 2) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?

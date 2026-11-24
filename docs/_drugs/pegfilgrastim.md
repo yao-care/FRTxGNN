@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 583
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Pegfilgrastim : nouvelle indication prédite, Rétinopathie diabétique non proliférante sévère (seconde prédiction :… (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM…"
 monitor_inn: "PEGFILGRASTIM"
 predicted_indications: ["severe nonproliferative diabetic retinopathy", "diabetic retinopathy"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **rétinopathie d
 | Nouvelle Indication Prédite | Rétinopathie diabétique non proliférante sévère (seconde prédiction : rétinopathie diabétique, terme plus général) |
 | Score de Prédiction TxGNN | 0,9989 (rétinopathie diabétique : 0,9973) |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -99,7 +99,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications, qui 
 
 **Justification :**
 - La prédiction repose uniquement sur le score du modèle (niveau L5), sans essai clinique ni publication. Le sens de l'effet est incertain, avec un risque théorique d'aggravation de la pathologie rétinienne.
-- Les 10 AMM françaises sont valides (10 sur 10) et le médicament est commercialisé, mais les données de sécurité issues de la notice font défaut, ce qui bloque l'évaluation de sécurité.
+- Les 12 AMM françaises sont valides (12 sur 12) et le médicament est commercialisé, mais les données de sécurité issues de la notice font défaut, ce qui bloque l'évaluation de sécurité.
+
+<!-- review:begin fr-lic-20261124-pegfilgrastim-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 10 AMM françaises sont valides (10 sur 10) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-pegfilgrastim-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice de l'ANSM (mises en garde, contre-indications, indications approuvées)
@@ -118,6 +124,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 10 AMM recensées sont annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Armlupeg (pegfilgrastim-unne) prescribing information, Lupin Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c48fe1a7-63d7-4dce-bb53-a913cb0ade83) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -50,8 +50,8 @@ Actuellement, **aucun essai clinique** et **aucune publication** ne soutiennent 
 | Nouvelle Indication Prédite | Aménorrhée |
 | Score de Prédiction TxGNN | 0,9942 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 16) |
-| Nombre d'AMM | 16 (valides : 15) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 19) |
+| Nombre d'AMM | 19 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,7 +89,13 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune interac
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, les données de sécurité issues de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité, bien que les 16 AMM françaises soient valides.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication. De plus, les données de sécurité issues de la notice sont absentes, ce qui bloque l'étape de criblage de sécurité, bien que 17 des 19 AMM françaises soient valides.
+
+<!-- review:begin fr-lic-20261124-diosmin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « bien que les 16 AMM françaises soient valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-diosmin-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice ANSM (téléchargement et analyse du document)
@@ -114,6 +120,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « Clarifier les raisons de l'annulation des AMM et l'indication originale approuvée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Supprimé : « Les 16 AMM recensées sont toutes valides ; » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL231884 (diosmin): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL231884) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

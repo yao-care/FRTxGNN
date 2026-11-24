@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 773
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TOPIRAMATE"
 predicted_indications: ["trigeminal nerve neoplasm"]
-description: "Topiramate : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 17 (valides : 17)"
+description: "Topiramate : nouvelle indication prédite, Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Topiramate
@@ -52,8 +52,8 @@ Les autres prédictions du classement sont surtout des **épilepsies réflexes**
 | Nouvelle Indication Prédite | Néoplasme du nerf trijumeau (trigeminal nerve neoplasm) |
 | Score de Prédiction TxGNN | 0.9970 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
-| Nombre d'AMM | 17 (valides : 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 17) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---
@@ -94,13 +94,19 @@ Ces publications soutiennent l'efficacité générale du topiramate dans l'épil
 
 ## Informations de Marché en France
 
-Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 17) :
+Le texte d'indication approuvée n'est pas renseigné. Principales AMM (5 sur 21) :
 
 <!-- review:begin fr-lic-20261106-topiramate-1 -->
 
 > **Correction de vérification (2026-11-06)**: Texte initial : « Les 17 AMM recensées sont toutes annulées ; le texte d'indication approuvée n'est pas renseigné. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-topiramate-1 -->
+
+<!-- review:begin fr-lic-20261124-topiramate-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Principales AMM (5 sur 17) : » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-topiramate-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -147,6 +153,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es 17 AMM recensées sont toutes annulées ; l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Trokendi Xr (topiramate) prescribing information, Supernus Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=2dc7957e-a3e5-46bb-aa66-f3250f872f5e) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

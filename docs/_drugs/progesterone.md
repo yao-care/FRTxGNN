@@ -5,10 +5,10 @@ parent: Preuves modérées (L3-L4)
 nav_order: 634
 evidence_level: L4
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "progesterone"
 predicted_indications: ["breast fibrocystic disease", "benign mammary dysplasia", "renal hypoplasia, bilateral", "renal hypoplasia (disease)", "blunt duct adenosis of breast", "apocrine adenosis of breast"]
-description: "Progesterone : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L4). En France, AMM dans la BDPM : 18 (valides : 18)"
+description: "Progesterone : nouvelle indication prédite, Maladie fibrokystique du sein (breast fibrocystic disease) (niveau de preuve L4). En France, AMM dans la BDPM : 19 (valides : 18)"
 ---
 
 # Progesterone
@@ -50,8 +50,8 @@ mais aucun essai clinique n'est enregistré et les **20 publications** recensée
 | Nouvelle Indication Prédite | Maladie fibrokystique du sein (breast fibrocystic disease) |
 | Score de Prédiction TxGNN | 0.9998 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
-| Nombre d'AMM | 18 (valides : 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 19) |
+| Nombre d'AMM | 19 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -83,7 +83,13 @@ Aucune de ces publications n'évalue la progestérone comme traitement de la mal
 
 ## Informations de Marché en France
 
-La progestérone est commercialisée en France. Les données locales recensent 18 AMM, toutes valides. Les 5 principales sont :
+La progestérone est commercialisée en France. Les données locales recensent 19 AMM, dont 18 valides. Les 5 principales sont :
+
+<!-- review:begin fr-lic-20261124-progesterone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données locales recensent 18 AMM, toutes valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-progesterone-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -117,11 +123,12 @@ La prédiction repose sur une hypothèse hormonale plausible, mais aucun essai c
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Progesterone Vaginal Insert (progesterone) prescribing information, XIROMED, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=473ab609-5b9e-3cb8-68d5-4a459a2ea6c1) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 749
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "tetracaine"
 predicted_indications: ["acrodermatitis chronica atrophicans", "neonatal dermatomyositis", "bronchitis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease", "acne keloid", "hydroa vacciniforme, familial", "amyopathic dermatomyositis", "cauda equina syndrome", "irritable bowel syndrome"]
 description: "Tetracaine : nouvelle indication prédite, Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
@@ -55,8 +55,8 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour l'**acrodermatit
 | Nouvelle Indication Prédite | Acrodermatite chronique atrophiante (acrodermatitis chronica atrophicans) |
 | Score de Prédiction TxGNN | 0.9993 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 11) |
+| Nombre d'AMM | 11 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

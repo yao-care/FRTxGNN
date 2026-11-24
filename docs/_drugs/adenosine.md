@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adenosine"
 predicted_indications: ["obsolete bundle branch block"]
-last_modified_at: 2026-11-20
-description: "Adenosine : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+last_modified_at: 2026-11-24
+description: "Adenosine : nouvelle indication prédite, Bloc de branche (obsolete bundle branch block) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 4)"
 ---
 
 # Adenosine
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **bloc de branc
 | Nouvelle Indication Prédite | Bloc de branche (obsolete bundle branch block) |
 | Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 6) |
+| Nombre d'AMM | 6 (valides : 4) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -8,7 +8,7 @@
   },
   "with_current": 40,
   "none_current": 0,
-  "without_data": 11,
+  "without_data": 12,
   "with_reviews": 41,
   "rows": [
    {
@@ -27,8 +27,8 @@
     "u": "/drugs/bendamustine/",
     "l": "L1",
     "i": "Lymphome à cellules du manteau",
-    "lt": 2,
-    "lv": 2,
+    "lt": 6,
+    "lv": 5,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
@@ -38,7 +38,7 @@
     "u": "/drugs/busulfan/",
     "l": "L1",
     "i": "myelodysplastic syndrome",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 3,
     "rs": "Supprimé : « (AMM annulées) »",
@@ -49,7 +49,7 @@
     "u": "/drugs/clofarabine/",
     "l": "L1",
     "i": "Leucémie myéloïde",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
@@ -60,8 +60,8 @@
     "u": "/drugs/clomipramine/",
     "l": "L1",
     "i": "Trouble anxieux",
-    "lt": 3,
-    "lv": 3,
+    "lt": 10,
+    "lv": 9,
     "r": 2,
     "rs": "Supprimé : « toutes les AMM etant annulees, y compris la voie d'acces possible »",
     "x": 0
@@ -82,10 +82,10 @@
     "u": "/drugs/doxorubicin/",
     "l": "L1",
     "i": "Sarcome d'Ewing",
-    "lt": 2,
-    "lv": 2,
-    "r": 5,
-    "rs": "Tableau : l’AMM 65771499 (ADRIBLASTINE 10 mg) est active, non annulée",
+    "lt": 9,
+    "lv": 9,
+    "r": 7,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -93,8 +93,8 @@
     "u": "/drugs/ketamine/",
     "l": "L1",
     "i": "Céphalée",
-    "lt": 2,
-    "lv": 2,
+    "lt": 6,
+    "lv": 4,
     "r": 3,
     "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
@@ -126,7 +126,7 @@
     "u": "/drugs/atorvastatin/",
     "l": "L2",
     "i": "Infection par le VIH",
-    "lt": 13,
+    "lt": 18,
     "lv": 13,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
@@ -137,8 +137,8 @@
     "u": "/drugs/citalopram/",
     "l": "L2",
     "i": "Trouble obsessionnel-compulsif",
-    "lt": 1,
-    "lv": 1,
+    "lt": 15,
+    "lv": 13,
     "r": 3,
     "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
@@ -181,8 +181,8 @@
     "u": "/drugs/docetaxel/",
     "l": "L2",
     "i": "Sarcome d'Ewing",
-    "lt": 11,
-    "lv": 10,
+    "lt": 14,
+    "lv": 13,
     "r": 2,
     "rs": "Supprimé : « valides »",
     "x": 0
@@ -225,10 +225,10 @@
     "u": "/drugs/fludarabine/",
     "l": "L2",
     "i": "plasma cell myeloma",
-    "lt": 3,
+    "lt": 4,
     "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -247,10 +247,10 @@
     "u": "/drugs/hydrocortisone/",
     "l": "L2",
     "i": "Alopécie areata",
-    "lt": 15,
-    "lv": 15,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "lt": 19,
+    "lv": 19,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -357,10 +357,10 @@
     "u": "/drugs/prednisolone/",
     "l": "L2",
     "i": "Pelade",
-    "lt": 5,
-    "lv": 5,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "lt": 0,
+    "lv": 19,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -368,10 +368,10 @@
     "u": "/drugs/propofol/",
     "l": "L2",
     "i": "migraine disorder",
-    "lt": 11,
+    "lt": 12,
     "lv": 11,
-    "r": 2,
-    "rs": "Supprimé : « toutes annulées »",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -456,8 +456,8 @@
     "u": "/drugs/vinorelbine/",
     "l": "L2",
     "i": "Ewing sarcoma",
-    "lt": 8,
-    "lv": 8,
+    "lt": 14,
+    "lv": 14,
     "r": 4,
     "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
@@ -481,7 +481,7 @@
   },
   "with_current": 87,
   "none_current": 1,
-  "without_data": 14,
+  "without_data": 16,
   "with_reviews": 85,
   "rows": [
    {
@@ -555,7 +555,7 @@
     "u": "/drugs/clobetasol/",
     "l": "L3",
     "i": "primary cutaneous T-cell lymphoma",
-    "lt": 9,
+    "lt": 10,
     "lv": 8,
     "r": 3,
     "rs": "Supprimé : « Statut réglementaire : médicament commercialisé, avec 9 AMM valides sur 9 ; vérifier la…",
@@ -599,7 +599,7 @@
     "u": "/drugs/estriol/",
     "l": "L3",
     "i": "amenorrhea (disease)",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
     "r": 3,
     "rs": "Supprimé : « et les raisons de l'annulation des AMM »",
@@ -643,8 +643,8 @@
     "u": "/drugs/mercaptopurine/",
     "l": "L3",
     "i": "Leucémie myéloïde",
-    "lt": 1,
-    "lv": 1,
+    "lt": 3,
+    "lv": 2,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
@@ -654,10 +654,10 @@
     "u": "/drugs/micafungin/",
     "l": "L3",
     "i": "urinary tract infection (disease)",
-    "lt": 8,
+    "lt": 10,
     "lv": 8,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulées, indications non renseignées) »",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -665,10 +665,10 @@
     "u": "/drugs/midazolam/",
     "l": "L3",
     "i": "Insomnie",
-    "lt": 8,
-    "lv": 8,
-    "r": 4,
-    "rs": "Supprimé : « les AMM annulées étant essentiellement injectables »",
+    "lt": 17,
+    "lv": 15,
+    "r": 5,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -687,10 +687,10 @@
     "u": "/drugs/oxazepam/",
     "l": "L3",
     "i": "insomnia (disease)",
-    "lt": 10,
-    "lv": 10,
-    "r": 2,
-    "rs": "Supprimé : « Clarifier la raison de l'annulation des AMM et le statut réglementaire actuel »",
+    "lt": 12,
+    "lv": 12,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -709,8 +709,8 @@
     "u": "/drugs/pazopanib/",
     "l": "L3",
     "i": "liposarcoma",
-    "lt": 2,
-    "lv": 2,
+    "lt": 14,
+    "lv": 14,
     "r": 3,
     "rs": "Supprimé : « (AMM annulées, génériques éventuels) »",
     "x": 0
@@ -742,8 +742,8 @@
     "u": "/drugs/ropinirole/",
     "l": "L3",
     "i": "attention deficit-hyperactivity disorder",
-    "lt": 1,
-    "lv": 1,
+    "lt": 0,
+    "lv": 20,
     "r": 3,
     "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
@@ -753,8 +753,8 @@
     "u": "/drugs/ropivacaine/",
     "l": "L3",
     "i": "Migraine",
-    "lt": 1,
-    "lv": 1,
+    "lt": 16,
+    "lv": 13,
     "r": 2,
     "rs": "Supprimé : « De plus, la seule AMM française est annulée et les données de sécurité de la notice sont…",
     "x": 0
@@ -786,10 +786,10 @@
     "u": "/drugs/tiapride/",
     "l": "L3",
     "i": "migraine disorder",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "Supprimé : « et les raisons de l'annulation des AMM »",
+    "lt": 5,
+    "lv": 5,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -852,8 +852,8 @@
     "u": "/drugs/atropine/",
     "l": "L4",
     "i": "Migraine",
-    "lt": 7,
-    "lv": 7,
+    "lt": 18,
+    "lv": 18,
     "r": 3,
     "rs": "Supprimé : « es AMM françaises sont toutes annulées et l »",
     "x": 0
@@ -885,10 +885,10 @@
     "u": "/drugs/cyclosporine/",
     "l": "L4",
     "i": "autosomique récessive",
-    "lt": 10,
-    "lv": 10,
-    "r": 2,
-    "rs": "Supprimé : « (AMM toutes annulées) »",
+    "lt": 13,
+    "lv": 11,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -907,7 +907,7 @@
     "u": "/drugs/cytarabine/",
     "l": "L4",
     "i": "small cell lung carcinoma",
-    "lt": 11,
+    "lt": 12,
     "lv": 10,
     "r": 2,
     "rs": "Supprimé : « Ces 5 AMM sont annulées, comme les 6 autres (11 au total, y compris VYXEOS LIPOSOMAL, CYTARABINE…",
@@ -918,7 +918,7 @@
     "u": "/drugs/darunavir/",
     "l": "L4",
     "i": "Infection par le virus de l'immunodéficience simienne",
-    "lt": 17,
+    "lt": 18,
     "lv": 17,
     "r": 2,
     "rs": "Supprimé : « toutes au statut annulé »",
@@ -1083,10 +1083,10 @@
     "u": "/drugs/methadone/",
     "l": "L4",
     "i": "Tourette syndrome",
-    "lt": 2,
-    "lv": 2,
-    "r": 3,
-    "rs": "Supprimé : « es deux AMM françaises sont annulées, et l »",
+    "lt": 19,
+    "lv": 19,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -1149,8 +1149,8 @@
     "u": "/drugs/palonosetron/",
     "l": "L4",
     "i": "migraine disorder",
-    "lt": 2,
-    "lv": 2,
+    "lt": 5,
+    "lv": 5,
     "r": 3,
     "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
@@ -1182,8 +1182,8 @@
     "u": "/drugs/phenylephrine/",
     "l": "L4",
     "i": "nasal cavity disease",
-    "lt": 2,
-    "lv": 2,
+    "lt": 13,
+    "lv": 13,
     "r": 2,
     "rs": "Supprimé : « et les deux AMM françaises sont annulées »",
     "x": 0
@@ -1204,10 +1204,10 @@
     "u": "/drugs/pramipexole/",
     "l": "L4",
     "i": "attention deficit-hyperactivity disorder",
-    "lt": 9,
-    "lv": 9,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulées) »",
+    "lt": 0,
+    "lv": 20,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -1226,10 +1226,10 @@
     "u": "/drugs/progesterone/",
     "l": "L4",
     "i": "Maladie fibrokystique du sein",
-    "lt": 18,
+    "lt": 19,
     "lv": 18,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -1248,10 +1248,10 @@
     "u": "/drugs/raltegravir/",
     "l": "L4",
     "i": "Infection par le virus de l'immunodéficience simienne",
-    "lt": 6,
-    "lv": 6,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "lt": 8,
+    "lv": 8,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -1473,10 +1473,10 @@
   "by_level": {
    "L5": 660
   },
-  "with_current": 644,
-  "none_current": 7,
-  "without_data": 91,
-  "with_reviews": 627,
+  "with_current": 646,
+  "none_current": 5,
+  "without_data": 113,
+  "with_reviews": 628,
   "rows": [
    {
     "t": "Salbutamol",
@@ -1538,7 +1538,7 @@
     "u": "/drugs/axitinib/",
     "l": "L5",
     "i": "Liposarcome",
-    "lt": 20,
+    "lt": 0,
     "lv": 20,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
@@ -1600,6 +1600,17 @@
     "x": 0
    },
    {
+    "t": "Cetirizine",
+    "u": "/drugs/cetirizine/",
+    "l": "L5",
+    "i": "Maladie de la cavité nasale",
+    "lt": 0,
+    "lv": 20,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Cholecalciferol",
     "u": "/drugs/cholecalciferol/",
     "l": "L5",
@@ -1630,6 +1641,17 @@
     "lv": 20,
     "r": 2,
     "rs": "Supprimé : « es 20 AMM recensées sont toutes annulées ; l »",
+    "x": 0
+   },
+   {
+    "t": "Denosumab",
+    "u": "/drugs/denosumab/",
+    "l": "L5",
+    "i": "Rétinopathie diabétique non proliférante sévère",
+    "lt": 0,
+    "lv": 20,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -1740,6 +1762,17 @@
     "lv": 20,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Etanercept",
+    "u": "/drugs/etanercept/",
+    "l": "L5",
+    "i": "hypermobility of coccyx",
+    "lt": 20,
+    "lv": 20,
+    "r": 2,
+    "rs": "Supprimé : « toutes annulées (Enbrel, Benepali, Erelzi, Nepexto) »",
     "x": 0
    },
    {
@@ -1864,6 +1897,17 @@
     "x": 0
    },
    {
+    "t": "Metformin",
+    "u": "/drugs/metformin/",
+    "l": "L5",
+    "i": "focal stiff limb syndrome",
+    "lt": 0,
+    "lv": 20,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
     "t": "Methotrexate",
     "u": "/drugs/methotrexate/",
     "l": "L5",
@@ -1886,6 +1930,28 @@
     "x": 0
    },
    {
+    "t": "Mianserin",
+    "u": "/drugs/mianserin/",
+    "l": "L5",
+    "i": "Torticolis paroxystique bénin du nourrisson",
+    "lt": 0,
+    "lv": 20,
+    "r": 3,
+    "rs": "Supprimé : « Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel »",
+    "x": 0
+   },
+   {
+    "t": "Morphine",
+    "u": "/drugs/morphine/",
+    "l": "L5",
+    "i": "Syndrome myofascial douloureux",
+    "lt": 0,
+    "lv": 20,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
     "t": "Olmesartan",
     "u": "/drugs/olmesartan/",
     "l": "L5",
@@ -1894,6 +1960,17 @@
     "lv": 20,
     "r": 1,
     "rs": "Supprimé : « (raisons de l'annulation des AMM et disponibilité éventuelle de génériques) »",
+    "x": 0
+   },
+   {
+    "t": "Paliperidone",
+    "u": "/drugs/paliperidone/",
+    "l": "L5",
+    "i": "Dystrophie rétinienne avec ou sans anomalies extra-oculaires",
+    "lt": 0,
+    "lv": 20,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2044,10 +2121,21 @@
     "u": "/drugs/zolmitriptan/",
     "l": "L5",
     "i": "atrophoderma vermiculata",
-    "lt": 20,
+    "lt": 0,
     "lv": 20,
     "r": 3,
     "rs": "Supprimé : « Clarifier les motifs de l'annulation des AMM et la disponibilité réelle du produit en France »",
+    "x": 0
+   },
+   {
+    "t": "Aflibercept",
+    "u": "/drugs/aflibercept/",
+    "l": "L5",
+    "i": "Ésotropie",
+    "lt": 19,
+    "lv": 19,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2095,6 +2183,17 @@
     "x": 0
    },
    {
+    "t": "Buprenorphine",
+    "u": "/drugs/buprenorphine/",
+    "l": "L5",
+    "i": "Porphyrie aiguë intermittente",
+    "lt": 0,
+    "lv": 19,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Capecitabine",
     "u": "/drugs/capecitabine/",
     "l": "L5",
@@ -2125,6 +2224,17 @@
     "lv": 19,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Duloxetine",
+    "u": "/drugs/duloxetine/",
+    "l": "L5",
+    "i": "benign paroxysmal torticollis of infancy",
+    "lt": 0,
+    "lv": 19,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
    },
    {
@@ -2176,7 +2286,7 @@
     "u": "/drugs/fosfomycin/",
     "l": "L5",
     "i": "uterine inflammatory disease",
-    "lt": 19,
+    "lt": 0,
     "lv": 19,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
@@ -2213,6 +2323,28 @@
     "lv": 19,
     "r": 3,
     "rs": "« Éclaircissement du statut réglementaire (AMM annul » → « Éclaircissement du statut réglementaire (la plupar…",
+    "x": 0
+   },
+   {
+    "t": "Imatinib",
+    "u": "/drugs/imatinib/",
+    "l": "L5",
+    "i": "Fibrosarcome cardiaque",
+    "lt": 0,
+    "lv": 19,
+    "r": 3,
+    "rs": "Supprimé : « et clarification du statut des AMM annulées »",
+    "x": 0
+   },
+   {
+    "t": "Ipratropium",
+    "u": "/drugs/ipratropium/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 0,
+    "lv": 19,
+    "r": 2,
+    "rs": "Supprimé : « Clarifier les raisons de l'annulation des AMM et le statut de commercialisation actuel en France…",
     "x": 0
    },
    {
@@ -2297,7 +2429,7 @@
     "u": "/drugs/ofloxacin/",
     "l": "L5",
     "i": "Syndrome d'hyperviscosité polyclonale",
-    "lt": 19,
+    "lt": 20,
     "lv": 19,
     "r": 2,
     "rs": "Supprimé : « Les 19 AMM recensées sont annulées »",
@@ -2337,6 +2469,17 @@
     "x": 0
    },
    {
+    "t": "Tramadol",
+    "u": "/drugs/tramadol/",
+    "l": "L5",
+    "i": "Dysplasie acromésomélique de type Hunter-Thompson",
+    "lt": 0,
+    "lv": 19,
+    "r": 2,
+    "rs": "Supprimé : « et la seule AMM française est annulée »",
+    "x": 0
+   },
+   {
     "t": "Travoprost",
     "u": "/drugs/travoprost/",
     "l": "L5",
@@ -2359,6 +2502,17 @@
     "x": 0
    },
    {
+    "t": "Acebutolol",
+    "u": "/drugs/acebutolol/",
+    "l": "L5",
+    "i": "Néphropathie hypertensive maligne",
+    "lt": 0,
+    "lv": 18,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
     "t": "Allopurinol",
     "u": "/drugs/allopurinol/",
     "l": "L5",
@@ -2367,6 +2521,17 @@
     "lv": 18,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Amoxicillin",
+    "u": "/drugs/amoxicillin/",
+    "l": "L5",
+    "i": "Hyperamylasémie",
+    "lt": 18,
+    "lv": 18,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2414,6 +2579,39 @@
     "x": 0
    },
    {
+    "t": "Exemestane",
+    "u": "/drugs/exemestane/",
+    "l": "L5",
+    "i": "antithrombin deficiency type 2",
+    "lt": 19,
+    "lv": 18,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Filgrastim",
+    "u": "/drugs/filgrastim/",
+    "l": "L5",
+    "i": "primary release disorder of platelets",
+    "lt": 18,
+    "lv": 18,
+    "r": 5,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Ivabradine",
+    "u": "/drugs/ivabradine/",
+    "l": "L5",
+    "i": "hypertrichosis (disease)",
+    "lt": 0,
+    "lv": 18,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Lamivudine",
     "u": "/drugs/lamivudine/",
     "l": "L5",
@@ -2429,7 +2627,7 @@
     "u": "/drugs/letrozole/",
     "l": "L5",
     "i": "Carcinome du mamelon",
-    "lt": 20,
+    "lt": 0,
     "lv": 18,
     "r": 2,
     "rs": "Supprimé : « Les 20 AMM enregistrées sont valides ; »",
@@ -2447,6 +2645,17 @@
     "x": 0
    },
    {
+    "t": "Manidipine",
+    "u": "/drugs/manidipine/",
+    "l": "L5",
+    "i": "Migraine",
+    "lt": 18,
+    "lv": 18,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Meropenem",
     "u": "/drugs/meropenem/",
     "l": "L5",
@@ -2455,6 +2664,17 @@
     "lv": 18,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Nebivolol",
+    "u": "/drugs/nebivolol/",
+    "l": "L5",
+    "i": "Maladie rénale hypertensive maligne",
+    "lt": 0,
+    "lv": 18,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulée, absence de produit valide) »",
     "x": 0
    },
    {
@@ -2480,6 +2700,17 @@
     "x": 0
    },
    {
+    "t": "Pirfenidone",
+    "u": "/drugs/pirfenidone/",
+    "l": "L5",
+    "i": "extracutaneous mastocytoma",
+    "lt": 18,
+    "lv": 18,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Tadalafil",
     "u": "/drugs/tadalafil/",
     "l": "L5",
@@ -2495,10 +2726,21 @@
     "u": "/drugs/vildagliptin/",
     "l": "L5",
     "i": "Syndrome de la personne raide classique",
-    "lt": 18,
+    "lt": 19,
     "lv": 18,
     "r": 3,
     "rs": "Supprimé : « Le médicament n'a plus d'AMM valide en France, ce qui limite aussi sa disponibilité pratique »",
+    "x": 0
+   },
+   {
+    "t": "Bisoprolol",
+    "u": "/drugs/bisoprolol/",
+    "l": "L5",
+    "i": "Néphropathie hypertensive maligne",
+    "lt": 0,
+    "lv": 17,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -2513,14 +2755,14 @@
     "x": 0
    },
    {
-    "t": "Etanercept",
-    "u": "/drugs/etanercept/",
+    "t": "Diosmin",
+    "u": "/drugs/diosmin/",
     "l": "L5",
-    "i": "hypermobility of coccyx",
-    "lt": 17,
+    "i": "amenorrhea (disease)",
+    "lt": 19,
     "lv": 17,
-    "r": 2,
-    "rs": "Supprimé : « toutes annulées (Enbrel, Benepali, Erelzi, Nepexto) »",
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2535,36 +2777,36 @@
     "x": 0
    },
    {
+    "t": "Lactulose",
+    "u": "/drugs/lactulose/",
+    "l": "L5",
+    "i": "acute urate nephropathy",
+    "lt": 18,
+    "lv": 17,
+    "r": 2,
+    "rs": "« Clarifier le statut réglementaire (AMM annulées) » → « Clarifier le statut réglementaire (la plupart des »",
+    "x": 0
+   },
+   {
+    "t": "Methylprednisolone",
+    "u": "/drugs/methylprednisolone/",
+    "l": "L5",
+    "i": "Alopécie mucineuse",
+    "lt": 17,
+    "lv": 17,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Mometasone",
     "u": "/drugs/mometasone/",
     "l": "L5",
     "i": "primary cutaneous T-cell lymphoma",
-    "lt": 17,
-    "lv": 17,
-    "r": 2,
-    "rs": "Supprimé : « Les 17 AMM compilées sont toutes annulées »",
-    "x": 0
-   },
-   {
-    "t": "Paliperidone",
-    "u": "/drugs/paliperidone/",
-    "l": "L5",
-    "i": "Dystrophie rétinienne avec ou sans anomalies extra-oculaires",
-    "lt": 17,
-    "lv": 17,
-    "r": 2,
-    "rs": "Supprimé : « Les 17 AMM recensées sont toutes annulées »",
-    "x": 0
-   },
-   {
-    "t": "Pirfenidone",
-    "u": "/drugs/pirfenidone/",
-    "l": "L5",
-    "i": "extracutaneous mastocytoma",
-    "lt": 17,
+    "lt": 18,
     "lv": 17,
     "r": 3,
-    "rs": "Supprimé : « (raisons de l'annulation des 17 AMM) »",
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2594,10 +2836,10 @@
     "u": "/drugs/topiramate/",
     "l": "L5",
     "i": "Néoplasme du nerf trijumeau",
-    "lt": 17,
+    "lt": 0,
     "lv": 17,
-    "r": 2,
-    "rs": "Supprimé : « es 17 AMM recensées sont toutes annulées ; l »",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2627,10 +2869,21 @@
     "u": "/drugs/anastrozole/",
     "l": "L5",
     "i": "Neuroblastome",
-    "lt": 18,
+    "lt": 20,
     "lv": 16,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Brivaracetam",
+    "u": "/drugs/brivaracetam/",
+    "l": "L5",
+    "i": "Déficit en bêta-cétothiolase",
+    "lt": 16,
+    "lv": 16,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2645,6 +2898,28 @@
     "x": 0
    },
    {
+    "t": "Clopidogrel",
+    "u": "/drugs/clopidogrel/",
+    "l": "L5",
+    "i": "migraine with brainstem aura",
+    "lt": 18,
+    "lv": 16,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Doxylamine",
+    "u": "/drugs/doxylamine/",
+    "l": "L5",
+    "i": "nasal cavity disease",
+    "lt": 16,
+    "lv": 16,
+    "r": 2,
+    "rs": "Supprimé : « et la faisabilité réglementaire, compte tenu du statut « annulé » des AMM »",
+    "x": 0
+   },
+   {
     "t": "Eletriptan",
     "u": "/drugs/eletriptan/",
     "l": "L5",
@@ -2653,28 +2928,6 @@
     "lv": 16,
     "r": 3,
     "rs": "Supprimé : « Clarifier les raisons de l'annulation des AMM françaises et la disponibilité réelle du produit »",
-    "x": 0
-   },
-   {
-    "t": "Exemestane",
-    "u": "/drugs/exemestane/",
-    "l": "L5",
-    "i": "antithrombin deficiency type 2",
-    "lt": 16,
-    "lv": 16,
-    "r": 2,
-    "rs": "Supprimé : « Les AMM françaises sont toutes annulées, et le profil de risque thromboembolique des inhibiteurs…",
-    "x": 0
-   },
-   {
-    "t": "Filgrastim",
-    "u": "/drugs/filgrastim/",
-    "l": "L5",
-    "i": "primary release disorder of platelets",
-    "lt": 16,
-    "lv": 16,
-    "r": 2,
-    "rs": "Supprimé : « (statut des AMM annulées, voies d'administration) »",
     "x": 0
    },
    {
@@ -2689,14 +2942,36 @@
     "x": 0
    },
    {
-    "t": "Manidipine",
-    "u": "/drugs/manidipine/",
+    "t": "Loperamide",
+    "u": "/drugs/loperamide/",
     "l": "L5",
-    "i": "Migraine",
-    "lt": 16,
+    "i": "acute contagious conjunctivitis",
+    "lt": 0,
     "lv": 16,
     "r": 3,
-    "rs": "Supprimé : « Clarifier les raisons de l'annulation des AMM françaises et l'indication d'origine »",
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Rivastigmine",
+    "u": "/drugs/rivastigmine/",
+    "l": "L5",
+    "i": "Glaucome",
+    "lt": 16,
+    "lv": 16,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Sotalol",
+    "u": "/drugs/sotalol/",
+    "l": "L5",
+    "i": "forme autosomique dominante 2",
+    "lt": 17,
+    "lv": 16,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2722,25 +2997,25 @@
     "x": 0
    },
    {
-    "t": "Amoxicillin",
-    "u": "/drugs/amoxicillin/",
+    "t": "Amlodipine",
+    "u": "/drugs/amlodipine/",
     "l": "L5",
-    "i": "Hyperamylasémie",
-    "lt": 15,
+    "i": "Infarctus du tronc cérébral",
+    "lt": 0,
     "lv": 15,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Supprimé : « Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois…",
     "x": 0
    },
    {
-    "t": "Diosmin",
-    "u": "/drugs/diosmin/",
+    "t": "Atazanavir",
+    "u": "/drugs/atazanavir/",
     "l": "L5",
-    "i": "amenorrhea (disease)",
-    "lt": 16,
+    "i": "Syndrome d'immunodéficience acquise féline",
+    "lt": 18,
     "lv": 15,
-    "r": 3,
-    "rs": "Supprimé : « Les 16 AMM recensées sont toutes valides ; »",
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -2755,6 +3030,17 @@
     "x": 0
    },
    {
+    "t": "Leflunomide",
+    "u": "/drugs/leflunomide/",
+    "l": "L5",
+    "i": "brachydactyly-syndactyly syndrome",
+    "lt": 15,
+    "lv": 15,
+    "r": 2,
+    "rs": "Supprimé : « Les 13 AMM recensées sont toutes annulées »",
+    "x": 0
+   },
+   {
     "t": "Mirtazapine",
     "u": "/drugs/mirtazapine/",
     "l": "L5",
@@ -2763,6 +3049,39 @@
     "lv": 15,
     "r": 4,
     "rs": "Supprimé : « (AMM annulées) »",
+    "x": 0
+   },
+   {
+    "t": "Pemetrexed",
+    "u": "/drugs/pemetrexed/",
+    "l": "L5",
+    "i": "pleural adenomatoid tumor",
+    "lt": 16,
+    "lv": 15,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulées) »",
+    "x": 0
+   },
+   {
+    "t": "Verapamil",
+    "u": "/drugs/verapamil/",
+    "l": "L5",
+    "i": "Bloc de branche",
+    "lt": 16,
+    "lv": 15,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Abacavir",
+    "u": "/drugs/abacavir/",
+    "l": "L5",
+    "i": "Infection par le virus de l'immunodéficience simienne",
+    "lt": 16,
+    "lv": 14,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -2792,7 +3111,7 @@
     "u": "/drugs/galantamine/",
     "l": "L5",
     "i": "Troubles du mouvement psychogènes",
-    "lt": 16,
+    "lt": 19,
     "lv": 14,
     "r": 4,
     "rs": "Supprimé : « (16 AMM valides sur 16) »",
@@ -2836,10 +3155,32 @@
     "u": "/drugs/triptorelin/",
     "l": "L5",
     "i": "hypertrichose",
-    "lt": 15,
+    "lt": 18,
     "lv": 14,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Alfuzosin",
+    "u": "/drugs/alfuzosin/",
+    "l": "L5",
+    "i": "Ambras type hypertrichosis universalis congenita",
+    "lt": 14,
+    "lv": 13,
     "r": 2,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "rs": "Supprimé : « Le produit n'est en outre plus commercialisé en France (AMM annulée) »",
+    "x": 0
+   },
+   {
+    "t": "Ambroxol",
+    "u": "/drugs/ambroxol/",
+    "l": "L5",
+    "i": "Maladie de la cavité nasale",
+    "lt": 15,
+    "lv": 13,
+    "r": 1,
+    "rs": "Supprimé : « Les données compilées pour ce rapport comptent une seule AMM, enregistrée comme annulée »",
     "x": 0
    },
    {
@@ -2876,25 +3217,25 @@
     "x": 0
    },
    {
-    "t": "Denosumab",
-    "u": "/drugs/denosumab/",
-    "l": "L5",
-    "i": "Rétinopathie diabétique non proliférante sévère",
-    "lt": 13,
-    "lv": 13,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Dexpanthenol",
     "u": "/drugs/dexpanthenol/",
     "l": "L5",
     "i": "anorectal stricture",
-    "lt": 14,
+    "lt": 15,
     "lv": 13,
     "r": 2,
     "rs": "Supprimé : « Examiner la signification des 14 AMM annulées (raisons commerciales ou réglementaires) »",
+    "x": 0
+   },
+   {
+    "t": "Insulin Lispro",
+    "u": "/drugs/insulin-lispro/",
+    "l": "L5",
+    "i": "Ovarite auto-immune",
+    "lt": 13,
+    "lv": 13,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2909,25 +3250,36 @@
     "x": 0
    },
    {
-    "t": "Leflunomide",
-    "u": "/drugs/leflunomide/",
-    "l": "L5",
-    "i": "brachydactyly-syndactyly syndrome",
-    "lt": 13,
-    "lv": 13,
-    "r": 2,
-    "rs": "Supprimé : « Les 13 AMM recensées sont toutes annulées »",
-    "x": 0
-   },
-   {
     "t": "Acarbose",
     "u": "/drugs/acarbose/",
     "l": "L5",
     "i": "Syndrome de la personne raide classique",
-    "lt": 13,
+    "lt": 16,
     "lv": 12,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Adapalene",
+    "u": "/drugs/adapalene/",
+    "l": "L5",
+    "i": "Zinc plasmatique élevé",
+    "lt": 12,
+    "lv": 12,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Amiodarone",
+    "u": "/drugs/amiodarone/",
+    "l": "L5",
+    "i": "Tachycardie ventriculaire polymorphe catécholaminergique",
+    "lt": 14,
+    "lv": 12,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2935,10 +3287,32 @@
     "u": "/drugs/caspofungin/",
     "l": "L5",
     "i": "Anomalie de la sécrétion de gastrine",
+    "lt": 16,
+    "lv": 12,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Clindamycin",
+    "u": "/drugs/clindamycin/",
+    "l": "L5",
+    "i": "Kératoconjonctivite épithéliale ponctuée",
     "lt": 12,
     "lv": 12,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Efavirenz",
+    "u": "/drugs/efavirenz/",
+    "l": "L5",
+    "i": "Syndrome d'immunodéficience acquise féline",
+    "lt": 19,
+    "lv": 12,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2964,25 +3338,102 @@
     "x": 0
    },
    {
+    "t": "Omalizumab",
+    "u": "/drugs/omalizumab/",
+    "l": "L5",
+    "i": "Bronchite",
+    "lt": 12,
+    "lv": 12,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Pegfilgrastim",
+    "u": "/drugs/pegfilgrastim/",
+    "l": "L5",
+    "i": "severe nonproliferative diabetic retinopathy",
+    "lt": 12,
+    "lv": 12,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Ticagrelor",
+    "u": "/drugs/ticagrelor/",
+    "l": "L5",
+    "i": "Artériosclérose intracrânienne",
+    "lt": 12,
+    "lv": 12,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Trabectedin",
+    "u": "/drugs/trabectedin/",
+    "l": "L5",
+    "i": "Carcinome du sein féminin",
+    "lt": 12,
+    "lv": 12,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Vancomycin",
+    "u": "/drugs/vancomycin/",
+    "l": "L5",
+    "i": "Sclérodermie diffuse",
+    "lt": 12,
+    "lv": 12,
+    "r": 2,
+    "rs": "Supprimé : « 'AMM française est annulée, et l »",
+    "x": 0
+   },
+   {
     "t": "Ambrisentan",
     "u": "/drugs/ambrisentan/",
     "l": "L5",
     "i": "Malformation artério-veineuse pulmonaire",
-    "lt": 11,
+    "lt": 13,
     "lv": 11,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
-    "t": "Bisoprolol",
-    "u": "/drugs/bisoprolol/",
+    "t": "Dienogest",
+    "u": "/drugs/dienogest/",
     "l": "L5",
-    "i": "Néphropathie hypertensive maligne",
-    "lt": 12,
+    "i": "amenorrhea (disease)",
+    "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Erythromycin",
+    "u": "/drugs/erythromycin/",
+    "l": "L5",
+    "i": "Kératoconjonctivite épithéliale ponctuée",
+    "lt": 11,
+    "lv": 11,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Fulvestrant",
+    "u": "/drugs/fulvestrant/",
+    "l": "L5",
+    "i": "Infection par le VIH",
+    "lt": 11,
+    "lv": 11,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -2994,6 +3445,17 @@
     "lv": 11,
     "r": 2,
     "rs": "Supprimé : « les AMM étant toutes annulées »",
+    "x": 0
+   },
+   {
+    "t": "Hydroxyzine",
+    "u": "/drugs/hydroxyzine/",
+    "l": "L5",
+    "i": "rosacea conjunctivitis",
+    "lt": 12,
+    "lv": 11,
+    "r": 2,
+    "rs": "Supprimé : « es deux AMM françaises sont annulées et l »",
     "x": 0
    },
    {
@@ -3019,14 +3481,14 @@
     "x": 0
    },
    {
-    "t": "Methylprednisolone",
-    "u": "/drugs/methylprednisolone/",
+    "t": "Nefopam",
+    "u": "/drugs/nefopam/",
     "l": "L5",
-    "i": "Alopécie mucineuse",
+    "i": "craniostenosis cataract",
     "lt": 11,
     "lv": 11,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Supprimé : « et clarifier le statut réglementaire de l'AMM abrogée »",
     "x": 0
    },
    {
@@ -3074,28 +3536,6 @@
     "x": 0
    },
    {
-    "t": "Rivastigmine",
-    "u": "/drugs/rivastigmine/",
-    "l": "L5",
-    "i": "Glaucome",
-    "lt": 11,
-    "lv": 11,
-    "r": 2,
-    "rs": "Supprimé : « (5 AMM présentées sur 11, toutes annulées.) »",
-    "x": 0
-   },
-   {
-    "t": "Ticagrelor",
-    "u": "/drugs/ticagrelor/",
-    "l": "L5",
-    "i": "Artériosclérose intracrânienne",
-    "lt": 11,
-    "lv": 11,
-    "r": 2,
-    "rs": "Supprimé : « (toutes AMM annulées) »",
-    "x": 0
-   },
-   {
     "t": "Trandolapril",
     "u": "/drugs/trandolapril/",
     "l": "L5",
@@ -3140,14 +3580,14 @@
     "x": 0
    },
    {
-    "t": "Buprenorphine",
-    "u": "/drugs/buprenorphine/",
+    "t": "Cefazolin",
+    "u": "/drugs/cefazolin/",
     "l": "L5",
-    "i": "Porphyrie aiguë intermittente",
+    "i": "Otite moyenne infectieuse",
     "lt": 10,
     "lv": 10,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3173,47 +3613,14 @@
     "x": 0
    },
    {
-    "t": "Dienogest",
-    "u": "/drugs/dienogest/",
-    "l": "L5",
-    "i": "amenorrhea (disease)",
-    "lt": 10,
-    "lv": 10,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Domperidone",
     "u": "/drugs/domperidone/",
     "l": "L5",
     "i": "nephrogenic syndrome of inappropriate antidiuresis",
-    "lt": 12,
-    "lv": 10,
-    "r": 2,
-    "rs": "Supprimé : « es 12 AMM recensées sont toutes annulées ; l »",
-    "x": 0
-   },
-   {
-    "t": "Efavirenz",
-    "u": "/drugs/efavirenz/",
-    "l": "L5",
-    "i": "Syndrome d'immunodéficience acquise féline",
     "lt": 13,
     "lv": 10,
     "r": 2,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Fulvestrant",
-    "u": "/drugs/fulvestrant/",
-    "l": "L5",
-    "i": "Infection par le VIH",
-    "lt": 10,
-    "lv": 10,
-    "r": 3,
-    "rs": "Supprimé : « Indications approuvées des AMM, et clarification de la situation réglementaire des produits…",
+    "rs": "Supprimé : « es 12 AMM recensées sont toutes annulées ; l »",
     "x": 0
    },
    {
@@ -3228,44 +3635,11 @@
     "x": 0
    },
    {
-    "t": "Omalizumab",
-    "u": "/drugs/omalizumab/",
-    "l": "L5",
-    "i": "Bronchite",
-    "lt": 10,
-    "lv": 10,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Pegfilgrastim",
-    "u": "/drugs/pegfilgrastim/",
-    "l": "L5",
-    "i": "severe nonproliferative diabetic retinopathy",
-    "lt": 10,
-    "lv": 10,
-    "r": 2,
-    "rs": "Supprimé : « Les 10 AMM recensées sont annulées »",
-    "x": 0
-   },
-   {
-    "t": "Pemetrexed",
-    "u": "/drugs/pemetrexed/",
-    "l": "L5",
-    "i": "pleural adenomatoid tumor",
-    "lt": 10,
-    "lv": 10,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulées) »",
-    "x": 0
-   },
-   {
     "t": "Piroxicam",
     "u": "/drugs/piroxicam/",
     "l": "L5",
     "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
-    "lt": 13,
+    "lt": 14,
     "lv": 10,
     "r": 3,
     "rs": "Supprimé : « Clarification du statut réglementaire, puisqu'aucune AMM n'est en vigueur en France »",
@@ -3276,10 +3650,21 @@
     "u": "/drugs/posaconazole/",
     "l": "L5",
     "i": "Pneumocystose",
-    "lt": 10,
+    "lt": 12,
     "lv": 10,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Propranolol",
+    "u": "/drugs/propranolol/",
+    "l": "L5",
+    "i": "Myopathie distale de type Tateyama",
+    "lt": 10,
+    "lv": 10,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3294,36 +3679,36 @@
     "x": 0
    },
    {
-    "t": "Trabectedin",
-    "u": "/drugs/trabectedin/",
+    "t": "Almotriptan",
+    "u": "/drugs/almotriptan/",
     "l": "L5",
-    "i": "Carcinome du sein féminin",
-    "lt": 10,
-    "lv": 10,
-    "r": 3,
-    "rs": "Supprimé : « Vérifier la raison de l'annulation des AMM et le statut commercial réel en France »",
+    "i": "atrophoderma vermiculata",
+    "lt": 9,
+    "lv": 9,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
-    "t": "Abacavir",
-    "u": "/drugs/abacavir/",
+    "t": "Atosiban",
+    "u": "/drugs/atosiban/",
     "l": "L5",
-    "i": "Infection par le virus de l'immunodéficience simienne",
-    "lt": 9,
+    "i": "Glaucome héréditaire primitif",
+    "lt": 13,
     "lv": 9,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
-    "t": "Adapalene",
-    "u": "/drugs/adapalene/",
+    "t": "Azathioprine",
+    "u": "/drugs/azathioprine/",
     "l": "L5",
-    "i": "Zinc plasmatique élevé",
+    "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3342,7 +3727,7 @@
     "u": "/drugs/droperidol/",
     "l": "L5",
     "i": "Syndrome de Gilles de la Tourette",
-    "lt": 10,
+    "lt": 12,
     "lv": 9,
     "r": 2,
     "rs": "Supprimé : « Les 10 AMM identifiées sont toutes annulées »",
@@ -3360,17 +3745,6 @@
     "x": 0
    },
    {
-    "t": "Lactulose",
-    "u": "/drugs/lactulose/",
-    "l": "L5",
-    "i": "acute urate nephropathy",
-    "lt": 10,
-    "lv": 9,
-    "r": 2,
-    "rs": "« Clarifier le statut réglementaire (AMM annulées) » → « Clarifier le statut réglementaire (la plupart des »",
-    "x": 0
-   },
-   {
     "t": "Mannitol",
     "u": "/drugs/mannitol/",
     "l": "L5",
@@ -3382,14 +3756,14 @@
     "x": 0
    },
    {
-    "t": "Metformin",
-    "u": "/drugs/metformin/",
+    "t": "Naratriptan",
+    "u": "/drugs/naratriptan/",
     "l": "L5",
-    "i": "focal stiff limb syndrome",
+    "i": "atrophoderma vermiculata",
     "lt": 9,
     "lv": 9,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 3,
+    "rs": "Supprimé : « l'AMM étant annulée »",
     "x": 0
    },
    {
@@ -3397,7 +3771,7 @@
     "u": "/drugs/nitisinone/",
     "l": "L5",
     "i": "Acidose tubulaire rénale",
-    "lt": 9,
+    "lt": 12,
     "lv": 9,
     "r": 3,
     "rs": "Supprimé : « (AMM annulées) »",
@@ -3415,6 +3789,17 @@
     "x": 0
    },
    {
+    "t": "Raloxifene",
+    "u": "/drugs/raloxifene/",
+    "l": "L5",
+    "i": "Ulcère duodénal",
+    "lt": 10,
+    "lv": 9,
+    "r": 5,
+    "rs": "Supprimé : « l'AMM étant annulée »",
+    "x": 0
+   },
+   {
     "t": "Riluzole",
     "u": "/drugs/riluzole/",
     "l": "L5",
@@ -3426,36 +3811,36 @@
     "x": 0
    },
    {
+    "t": "Tetracaine",
+    "u": "/drugs/tetracaine/",
+    "l": "L5",
+    "i": "Acrodermatite chronique atrophiante",
+    "lt": 11,
+    "lv": 9,
+    "r": 3,
+    "rs": "Supprimé : « a seule AMM française est annulée, et l »",
+    "x": 0
+   },
+   {
     "t": "Thiocolchicoside",
     "u": "/drugs/thiocolchicoside/",
     "l": "L5",
     "i": "insomnia (disease)",
-    "lt": 9,
+    "lt": 10,
     "lv": 9,
-    "r": 2,
-    "rs": "Supprimé : « Clarification de l'indication d'origine et des raisons de l'annulation des AMM »",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
-    "t": "Aflibercept",
-    "u": "/drugs/aflibercept/",
+    "t": "Anagrelide",
+    "u": "/drugs/anagrelide/",
     "l": "L5",
-    "i": "Ésotropie",
+    "i": "reactive thrombocytosis",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Azathioprine",
-    "u": "/drugs/azathioprine/",
-    "l": "L5",
-    "i": "colobomatous microphthalmia-rhizomelic dysplasia syndrome",
-    "lt": 8,
-    "lv": 8,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -3492,25 +3877,14 @@
     "x": 0
    },
    {
-    "t": "Cefazolin",
-    "u": "/drugs/cefazolin/",
+    "t": "Cyclophosphamide",
+    "u": "/drugs/cyclophosphamide/",
     "l": "L5",
-    "i": "Otite moyenne infectieuse",
+    "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
     "lt": 8,
     "lv": 8,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Clindamycin",
-    "u": "/drugs/clindamycin/",
-    "l": "L5",
-    "i": "Kératoconjonctivite épithéliale ponctuée",
-    "lt": 8,
-    "lv": 8,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3525,17 +3899,6 @@
     "x": 0
    },
    {
-    "t": "Erythromycin",
-    "u": "/drugs/erythromycin/",
-    "l": "L5",
-    "i": "Kératoconjonctivite épithéliale ponctuée",
-    "lt": 8,
-    "lv": 8,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Etoposide",
     "u": "/drugs/etoposide/",
     "l": "L5",
@@ -3544,6 +3907,17 @@
     "lv": 8,
     "r": 3,
     "rs": "Supprimé : « Clarifier le statut réglementaire : les 8 AMM sont annulées, il faut vérifier la disponibilité…",
+    "x": 0
+   },
+   {
+    "t": "Golimumab",
+    "u": "/drugs/golimumab/",
+    "l": "L5",
+    "i": "hypermobility of coccyx",
+    "lt": 8,
+    "lv": 8,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
    },
    {
@@ -3558,6 +3932,17 @@
     "x": 0
    },
    {
+    "t": "Lorazepam",
+    "u": "/drugs/lorazepam/",
+    "l": "L5",
+    "i": "Tumeur du nerf trijumeau",
+    "lt": 8,
+    "lv": 8,
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Modafinil",
     "u": "/drugs/modafinil/",
     "l": "L5",
@@ -3566,6 +3951,17 @@
     "lv": 8,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Rotigotine",
+    "u": "/drugs/rotigotine/",
+    "l": "L5",
+    "i": "attention deficit-hyperactivity disorder",
+    "lt": 8,
+    "lv": 8,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3591,6 +3987,17 @@
     "x": 0
    },
    {
+    "t": "Tixocortol",
+    "u": "/drugs/tixocortol/",
+    "l": "L5",
+    "i": "primary cutaneous T-cell lymphoma",
+    "lt": 9,
+    "lv": 8,
+    "r": 2,
+    "rs": "Supprimé : « Justification de l'intérêt d'un médicament dont les AMM sont annulées par rapport aux…",
+    "x": 2
+   },
+   {
     "t": "Zidovudine",
     "u": "/drugs/zidovudine/",
     "l": "L5",
@@ -3613,6 +4020,17 @@
     "x": 0
    },
    {
+    "t": "Amikacin",
+    "u": "/drugs/amikacin/",
+    "l": "L5",
+    "i": "Fièvre paratyphoïde",
+    "lt": 7,
+    "lv": 7,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
     "t": "Benazepril",
     "u": "/drugs/benazepril/",
     "l": "L5",
@@ -3624,17 +4042,6 @@
     "x": 0
    },
    {
-    "t": "Brivaracetam",
-    "u": "/drugs/brivaracetam/",
-    "l": "L5",
-    "i": "Déficit en bêta-cétothiolase",
-    "lt": 7,
-    "lv": 7,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Dalteparin",
     "u": "/drugs/dalteparin/",
     "l": "L5",
@@ -3643,6 +4050,17 @@
     "lv": 7,
     "r": 3,
     "rs": "Supprimé : « (9 AMM valides sur 9) »",
+    "x": 0
+   },
+   {
+    "t": "Epirubicin",
+    "u": "/drugs/epirubicin/",
+    "l": "L5",
+    "i": "Lymphome pulmonaire primitif",
+    "lt": 8,
+    "lv": 7,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3661,7 +4079,7 @@
     "u": "/drugs/flurbiprofen/",
     "l": "L5",
     "i": "Dysplasie acromésomélique de type Hunter-Thompson",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
     "r": 4,
     "rs": "Supprimé : « es AMM françaises sont toutes annulées, et l »",
@@ -3672,7 +4090,7 @@
     "u": "/drugs/fosinopril/",
     "l": "L5",
     "i": "Maladie rénale hypertensive maligne",
-    "lt": 10,
+    "lt": 14,
     "lv": 7,
     "r": 4,
     "rs": "Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active",
@@ -3749,7 +4167,7 @@
     "u": "/drugs/molsidomine/",
     "l": "L5",
     "i": "alopecia",
-    "lt": 8,
+    "lt": 9,
     "lv": 7,
     "r": 3,
     "rs": "Tableau : l’AMM 60740076 (MOLSIDOMINE ARROW 2 mg) est archivée, non active",
@@ -3764,6 +4182,17 @@
     "lv": 7,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Nilotinib",
+    "u": "/drugs/nilotinib/",
+    "l": "L5",
+    "i": "Dermatofibrosarcome protubérant",
+    "lt": 7,
+    "lv": 7,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3789,6 +4218,17 @@
     "x": 0
    },
    {
+    "t": "Pinaverium",
+    "u": "/drugs/pinaverium/",
+    "l": "L5",
+    "i": "benign prostatic hyperplasia (disease)",
+    "lt": 7,
+    "lv": 7,
+    "r": 2,
+    "rs": "Supprimé : « (AMM annulée) »",
+    "x": 0
+   },
+   {
     "t": "Plerixafor",
     "u": "/drugs/plerixafor/",
     "l": "L5",
@@ -3797,6 +4237,17 @@
     "lv": 7,
     "r": 2,
     "rs": "Supprimé : « (AMM annulées) »",
+    "x": 0
+   },
+   {
+    "t": "Ranibizumab",
+    "u": "/drugs/ranibizumab/",
+    "l": "L5",
+    "i": "immature cataract",
+    "lt": 7,
+    "lv": 7,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulées ; autres procédures éventuelles) »",
     "x": 0
    },
    {
@@ -3815,10 +4266,21 @@
     "u": "/drugs/tretinoin/",
     "l": "L5",
     "i": "Nodulose rhumatoïde",
-    "lt": 7,
+    "lt": 8,
     "lv": 7,
     "r": 2,
     "rs": "Supprimé : « Deux autres AMM annulées existent (ERYLIK, gel ; ZANEA 10 mg/0,25 mg par g, gel), pour un total…",
+    "x": 0
+   },
+   {
+    "t": "Trihexyphenidyl",
+    "u": "/drugs/trihexyphenidyl/",
+    "l": "L5",
+    "i": "Trouble déficitaire de l'attention avec hyperactivité",
+    "lt": 7,
+    "lv": 7,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3833,14 +4295,14 @@
     "x": 0
    },
    {
-    "t": "Amikacin",
-    "u": "/drugs/amikacin/",
+    "t": "Zuclopenthixol",
+    "u": "/drugs/zuclopenthixol/",
     "l": "L5",
-    "i": "Fièvre paratyphoïde",
-    "lt": 6,
-    "lv": 6,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "i": "Dystrophie rétinienne avec ou sans anomalies extra-oculaires",
+    "lt": 7,
+    "lv": 7,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -3910,11 +4372,22 @@
     "x": 0
    },
    {
+    "t": "Fluvoxamine",
+    "u": "/drugs/fluvoxamine/",
+    "l": "L5",
+    "i": "Trouble de la personnalité schizotypique",
+    "lt": 6,
+    "lv": 6,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
     "t": "Gefitinib",
     "u": "/drugs/gefitinib/",
     "l": "L5",
     "i": "Fibromatose gingivale",
-    "lt": 8,
+    "lt": 10,
     "lv": 6,
     "r": 3,
     "rs": "Supprimé : « Trois autres AMM annulées existent (IRESSA 250 mg, GEFITINIB BIOGARAN 250 mg, GEFITINIB ARROW…",
@@ -3943,24 +4416,24 @@
     "x": 0
    },
    {
-    "t": "Insulin Lispro",
-    "u": "/drugs/insulin-lispro/",
-    "l": "L5",
-    "i": "Ovarite auto-immune",
-    "lt": 6,
-    "lv": 6,
-    "r": 3,
-    "rs": "Supprimé : « (raisons de l'annulation des AMM) »",
-    "x": 0
-   },
-   {
     "t": "Lanreotide",
     "u": "/drugs/lanreotide/",
     "l": "L5",
     "i": "Hypertrichose",
-    "lt": 6,
+    "lt": 7,
     "lv": 6,
     "r": 2,
+    "rs": "Supprimé : « (AMM annulées) »",
+    "x": 0
+   },
+   {
+    "t": "Letermovir",
+    "u": "/drugs/letermovir/",
+    "l": "L5",
+    "i": "Candidose vulvovaginale",
+    "lt": 6,
+    "lv": 6,
+    "r": 3,
     "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
    },
@@ -3976,14 +4449,25 @@
     "x": 0
    },
    {
-    "t": "Ranibizumab",
-    "u": "/drugs/ranibizumab/",
+    "t": "Povidone",
+    "u": "/drugs/povidone/",
     "l": "L5",
-    "i": "immature cataract",
+    "i": "Érythrodermie ichtyosiforme congénitale",
+    "lt": 8,
+    "lv": 6,
+    "r": 2,
+    "rs": "AMM valides : 6 → 5 sur 7",
+    "x": 0
+   },
+   {
+    "t": "Prasugrel",
+    "u": "/drugs/prasugrel/",
+    "l": "L5",
+    "i": "Hypertension pulmonaire",
     "lt": 6,
     "lv": 6,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulées ; autres procédures éventuelles) »",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -4006,6 +4490,28 @@
     "lv": 6,
     "r": 2,
     "rs": "Supprimé : « Clarifier la pertinence d'une évaluation, compte tenu de l'indication déjà existante et du…",
+    "x": 0
+   },
+   {
+    "t": "Terazosin",
+    "u": "/drugs/terazosin/",
+    "l": "L5",
+    "i": "hypotrichosis simplex of the scalp",
+    "lt": 7,
+    "lv": 6,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Terbutaline",
+    "u": "/drugs/terbutaline/",
+    "l": "L5",
+    "i": "Malformation respiratoire",
+    "lt": 6,
+    "lv": 6,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -4042,32 +4548,10 @@
     "x": 0
    },
    {
-    "t": "Zuclopenthixol",
-    "u": "/drugs/zuclopenthixol/",
-    "l": "L5",
-    "i": "Dystrophie rétinienne avec ou sans anomalies extra-oculaires",
-    "lt": 6,
-    "lv": 6,
-    "r": 1,
-    "rs": "Supprimé : « Une sixième AMM annulée existe (n° 69902540, Clopixol Action Prolongée 200 mg/1 ml, Difarmed…",
-    "x": 0
-   },
-   {
     "t": "Albutrepenonacog Alfa",
     "u": "/drugs/albutrepenonacog-alfa/",
     "l": "L5",
     "i": "Maladie de von Willebrand de type plaquettaire",
-    "lt": 5,
-    "lv": 5,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Almotriptan",
-    "u": "/drugs/almotriptan/",
-    "l": "L5",
-    "i": "atrophoderma vermiculata",
     "lt": 5,
     "lv": 5,
     "r": 1,
@@ -4090,21 +4574,10 @@
     "u": "/drugs/cabazitaxel/",
     "l": "L5",
     "i": "Carcinome du sein chez la femme",
-    "lt": 6,
+    "lt": 7,
     "lv": 5,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Clopidogrel",
-    "u": "/drugs/clopidogrel/",
-    "l": "L5",
-    "i": "migraine with brainstem aura",
-    "lt": 5,
-    "lv": 5,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
    },
    {
@@ -4112,10 +4585,21 @@
     "u": "/drugs/dexketoprofen/",
     "l": "L5",
     "i": "tendinitis",
-    "lt": 5,
+    "lt": 6,
     "lv": 5,
     "r": 4,
     "rs": "Supprimé : « Vérifier la raison de l'annulation des AMM et la disponibilité actuelle du produit en France »",
+    "x": 0
+   },
+   {
+    "t": "Doxycycline",
+    "u": "/drugs/doxycycline/",
+    "l": "L5",
+    "i": "Kératoconjonctivite épithéliale ponctuée",
+    "lt": 6,
+    "lv": 5,
+    "r": 1,
+    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -4174,6 +4658,17 @@
     "x": 0
    },
    {
+    "t": "Guselkumab",
+    "u": "/drugs/guselkumab/",
+    "l": "L5",
+    "i": "drug-induced osteoporosis",
+    "lt": 5,
+    "lv": 5,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Haloperidol",
     "u": "/drugs/haloperidol/",
     "l": "L5",
@@ -4218,17 +4713,6 @@
     "x": 0
    },
    {
-    "t": "Lorazepam",
-    "u": "/drugs/lorazepam/",
-    "l": "L5",
-    "i": "Tumeur du nerf trijumeau",
-    "lt": 5,
-    "lv": 5,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulées, raisons et possibilités de réactivation) »",
-    "x": 0
-   },
-   {
     "t": "Lumacaftor",
     "u": "/drugs/lumacaftor/",
     "l": "L5",
@@ -4262,14 +4746,14 @@
     "x": 0
    },
    {
-    "t": "Nilotinib",
-    "u": "/drugs/nilotinib/",
+    "t": "Nicardipine",
+    "u": "/drugs/nicardipine/",
     "l": "L5",
-    "i": "Dermatofibrosarcome protubérant",
+    "i": "pulmonary hypertension with unclear multifactorial mechanism",
     "lt": 5,
     "lv": 5,
     "r": 2,
-    "rs": "Supprimé : « Clarifier la disponibilité réelle du produit en France, compte tenu des AMM annulées »",
+    "rs": "Supprimé : « es AMM françaises sont toutes annulées et l »",
     "x": 0
    },
    {
@@ -4281,17 +4765,6 @@
     "lv": 5,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Povidone",
-    "u": "/drugs/povidone/",
-    "l": "L5",
-    "i": "Érythrodermie ichtyosiforme congénitale",
-    "lt": 7,
-    "lv": 5,
-    "r": 2,
-    "rs": "AMM valides : 6 → 5 sur 7",
     "x": 0
    },
    {
@@ -4310,21 +4783,32 @@
     "u": "/drugs/sulpiride/",
     "l": "L5",
     "i": "Dystrophie rétinienne avec ou sans anomalies extraoculaires",
-    "lt": 6,
+    "lt": 8,
     "lv": 5,
     "r": 2,
     "rs": "Supprimé : « es six AMM sont annulées ; l »",
     "x": 0
    },
    {
-    "t": "Verapamil",
-    "u": "/drugs/verapamil/",
+    "t": "Topotecan",
+    "u": "/drugs/topotecan/",
     "l": "L5",
-    "i": "Bloc de branche",
+    "i": "Carcinome du sein féminin",
     "lt": 5,
     "lv": 5,
-    "r": 2,
-    "rs": "Supprimé : « (5 AMM annulées) »",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Varenicline",
+    "u": "/drugs/varenicline/",
+    "l": "L5",
+    "i": "Trouble migraineux",
+    "lt": 5,
+    "lv": 5,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulees) »",
     "x": 0
    },
    {
@@ -4343,7 +4827,7 @@
     "u": "/drugs/adenosine/",
     "l": "L5",
     "i": "Bloc de branche",
-    "lt": 4,
+    "lt": 6,
     "lv": 4,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
@@ -4361,25 +4845,14 @@
     "x": 0
    },
    {
-    "t": "Amiodarone",
-    "u": "/drugs/amiodarone/",
+    "t": "Amiloride",
+    "u": "/drugs/amiloride/",
     "l": "L5",
-    "i": "Tachycardie ventriculaire polymorphe catécholaminergique",
+    "i": "Maladie rénale hypertensive maligne",
     "lt": 4,
     "lv": 4,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Amlodipine",
-    "u": "/drugs/amlodipine/",
-    "l": "L5",
-    "i": "Infarctus du tronc cérébral",
-    "lt": 6,
-    "lv": 4,
-    "r": 2,
-    "rs": "Supprimé : « Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois…",
     "x": 0
    },
    {
@@ -4427,6 +4900,17 @@
     "x": 0
    },
    {
+    "t": "Cabotegravir",
+    "u": "/drugs/cabotegravir/",
+    "l": "L5",
+    "i": "rheumatoid arthritis",
+    "lt": 4,
+    "lv": 4,
+    "r": 2,
+    "rs": "Supprimé : « Les deux AMM françaises sont par ailleurs annulées »",
+    "x": 0
+   },
+   {
     "t": "Calcifediol",
     "u": "/drugs/calcifediol/",
     "l": "L5",
@@ -4446,6 +4930,17 @@
     "lv": 4,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "x": 0
+   },
+   {
+    "t": "Chlorpromazine",
+    "u": "/drugs/chlorpromazine/",
+    "l": "L5",
+    "i": "Dystrophie rétinienne avec ou sans anomalies extraoculaires",
+    "lt": 4,
+    "lv": 4,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -4504,17 +4999,6 @@
     "x": 0
    },
    {
-    "t": "Doxylamine",
-    "u": "/drugs/doxylamine/",
-    "l": "L5",
-    "i": "nasal cavity disease",
-    "lt": 4,
-    "lv": 4,
-    "r": 2,
-    "rs": "Supprimé : « et la faisabilité réglementaire, compte tenu du statut « annulé » des AMM »",
-    "x": 0
-   },
-   {
     "t": "Empagliflozin",
     "u": "/drugs/empagliflozin/",
     "l": "L5",
@@ -4537,6 +5021,17 @@
     "x": 0
    },
    {
+    "t": "Fenticonazole",
+    "u": "/drugs/fenticonazole/",
+    "l": "L5",
+    "i": "Vulvovaginite à trichomonas",
+    "lt": 5,
+    "lv": 4,
+    "r": 1,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Ganirelix",
     "u": "/drugs/ganirelix/",
     "l": "L5",
@@ -4552,17 +5047,6 @@
     "u": "/drugs/glatiramer/",
     "l": "L5",
     "i": "hemoglobinopathy",
-    "lt": 4,
-    "lv": 4,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulées) »",
-    "x": 0
-   },
-   {
-    "t": "Golimumab",
-    "u": "/drugs/golimumab/",
-    "l": "L5",
-    "i": "hypermobility of coccyx",
     "lt": 4,
     "lv": 4,
     "r": 3,
@@ -4592,25 +5076,14 @@
     "x": 0
    },
    {
-    "t": "Ipratropium",
-    "u": "/drugs/ipratropium/",
+    "t": "Lanadelumab",
+    "u": "/drugs/lanadelumab/",
     "l": "L5",
-    "i": "nasal cavity disease",
+    "i": "Serpinopathie avec polymérisation toxique des serpines",
     "lt": 4,
     "lv": 4,
     "r": 2,
-    "rs": "Supprimé : « Clarifier les raisons de l'annulation des AMM et le statut de commercialisation actuel en France…",
-    "x": 0
-   },
-   {
-    "t": "Letermovir",
-    "u": "/drugs/letermovir/",
-    "l": "L5",
-    "i": "Candidose vulvovaginale",
-    "lt": 4,
-    "lv": 4,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulées) »",
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -4629,7 +5102,7 @@
     "u": "/drugs/milrinone/",
     "l": "L5",
     "i": "alopecia",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 2,
     "rs": "Supprimé : « toutes annulées en France »",
@@ -4647,47 +5120,14 @@
     "x": 0
    },
    {
-    "t": "Morphine",
-    "u": "/drugs/morphine/",
-    "l": "L5",
-    "i": "Syndrome myofascial douloureux",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Norfloxacin",
     "u": "/drugs/norfloxacin/",
     "l": "L5",
     "i": "Hyperamylasémie",
-    "lt": 5,
+    "lt": 6,
     "lv": 4,
     "r": 2,
     "rs": "Supprimé : « De plus, toutes les AMM françaises de la norfloxacine sont annulées, et le profil de sécurité…",
-    "x": 0
-   },
-   {
-    "t": "Prasugrel",
-    "u": "/drugs/prasugrel/",
-    "l": "L5",
-    "i": "Hypertension pulmonaire",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Rotigotine",
-    "u": "/drugs/rotigotine/",
-    "l": "L5",
-    "i": "attention deficit-hyperactivity disorder",
-    "lt": 4,
-    "lv": 4,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -4699,6 +5139,17 @@
     "lv": 4,
     "r": 2,
     "rs": "Supprimé : « Clarifier les raisons de l'annulation des AMM et les voies d'accès actuelles au médicament en…",
+    "x": 0
+   },
+   {
+    "t": "Selpercatinib",
+    "u": "/drugs/selpercatinib/",
+    "l": "L5",
+    "i": "pulmonary hypertension",
+    "lt": 4,
+    "lv": 4,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -4728,7 +5179,7 @@
     "u": "/drugs/terlipressin/",
     "l": "L5",
     "i": "open-angle glaucoma",
-    "lt": 4,
+    "lt": 5,
     "lv": 4,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
@@ -4743,17 +5194,6 @@
     "lv": 4,
     "r": 1,
     "rs": "Supprimé : « Vérifier la disponibilité réelle du produit en France, compte tenu de l'annulation de toutes les…",
-    "x": 0
-   },
-   {
-    "t": "Topotecan",
-    "u": "/drugs/topotecan/",
-    "l": "L5",
-    "i": "Carcinome du sein féminin",
-    "lt": 4,
-    "lv": 4,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
    },
    {
@@ -4801,6 +5241,17 @@
     "x": 0
    },
    {
+    "t": "Alfentanil",
+    "u": "/drugs/alfentanil/",
+    "l": "L5",
+    "i": "nephrogenic syndrome of inappropriate antidiuresis",
+    "lt": 3,
+    "lv": 3,
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Alirocumab",
     "u": "/drugs/alirocumab/",
     "l": "L5",
@@ -4827,28 +5278,6 @@
     "u": "/drugs/amifampridine/",
     "l": "L5",
     "i": "Glaucome",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Amiloride",
-    "u": "/drugs/amiloride/",
-    "l": "L5",
-    "i": "Maladie rénale hypertensive maligne",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Atazanavir",
-    "u": "/drugs/atazanavir/",
-    "l": "L5",
-    "i": "Syndrome d'immunodéficience acquise féline",
     "lt": 3,
     "lv": 3,
     "r": 1,
@@ -4904,7 +5333,7 @@
     "u": "/drugs/benzoic-acid/",
     "l": "L5",
     "i": "Bronchite",
-    "lt": 3,
+    "lt": 4,
     "lv": 3,
     "r": 0,
     "rs": "",
@@ -4955,17 +5384,6 @@
     "x": 0
    },
    {
-    "t": "Cetirizine",
-    "u": "/drugs/cetirizine/",
-    "l": "L5",
-    "i": "Maladie de la cavité nasale",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Ciprofibrate",
     "u": "/drugs/ciprofibrate/",
     "l": "L5",
@@ -4981,17 +5399,6 @@
     "u": "/drugs/cladribine/",
     "l": "L5",
     "i": "parameningeal embryonal rhabdomyosarcoma",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Cyclophosphamide",
-    "u": "/drugs/cyclophosphamide/",
-    "l": "L5",
-    "i": "vertebral anomalies and variable endocrine and T-cell dysfunction",
     "lt": 3,
     "lv": 3,
     "r": 1,
@@ -5032,17 +5439,6 @@
     "x": 0
    },
    {
-    "t": "Epirubicin",
-    "u": "/drugs/epirubicin/",
-    "l": "L5",
-    "i": "Lymphome pulmonaire primitif",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Erdafitinib",
     "u": "/drugs/erdafitinib/",
     "l": "L5",
@@ -5062,17 +5458,6 @@
     "lv": 3,
     "r": 2,
     "rs": "Supprimé : « Les AMM françaises sont toutes annulées »",
-    "x": 0
-   },
-   {
-    "t": "Fenticonazole",
-    "u": "/drugs/fenticonazole/",
-    "l": "L5",
-    "i": "Vulvovaginite à trichomonas",
-    "lt": 3,
-    "lv": 3,
-    "r": 0,
-    "rs": "",
     "x": 0
    },
    {
@@ -5175,25 +5560,14 @@
     "x": 0
    },
    {
-    "t": "Ivabradine",
-    "u": "/drugs/ivabradine/",
+    "t": "Labetalol",
+    "u": "/drugs/labetalol/",
     "l": "L5",
-    "i": "hypertrichosis (disease)",
+    "i": "malignant hypertensive renal disease",
     "lt": 3,
     "lv": 3,
-    "r": 2,
-    "rs": "Supprimé : « (les trois AMM françaises recensées sont toutes annulées) »",
-    "x": 0
-   },
-   {
-    "t": "Lanadelumab",
-    "u": "/drugs/lanadelumab/",
-    "l": "L5",
-    "i": "Serpinopathie avec polymérisation toxique des serpines",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 3,
+    "rs": "Supprimé : « l'AMM étant annulée »",
     "x": 0
    },
    {
@@ -5216,6 +5590,17 @@
     "lv": 3,
     "r": 3,
     "rs": "Supprimé : « La confirmation de la disponibilité réelle du produit en France, compte tenu de l'annulation des…",
+    "x": 0
+   },
+   {
+    "t": "Methocarbamol",
+    "u": "/drugs/methocarbamol/",
+    "l": "L5",
+    "i": "cauda equina syndrome",
+    "lt": 4,
+    "lv": 3,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -5263,14 +5648,14 @@
     "x": 0
    },
    {
-    "t": "Nicardipine",
-    "u": "/drugs/nicardipine/",
+    "t": "Nimodipine",
+    "u": "/drugs/nimodipine/",
     "l": "L5",
-    "i": "pulmonary hypertension with unclear multifactorial mechanism",
+    "i": "Hypercholestérolémie familiale homozygote",
     "lt": 3,
     "lv": 3,
-    "r": 2,
-    "rs": "Supprimé : « es AMM françaises sont toutes annulées et l »",
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
    },
    {
@@ -5340,14 +5725,25 @@
     "x": 0
    },
    {
-    "t": "Propranolol",
-    "u": "/drugs/propranolol/",
+    "t": "Propafenone",
+    "u": "/drugs/propafenone/",
     "l": "L5",
-    "i": "Myopathie distale de type Tateyama",
+    "i": "manic bipolar affective disorder",
     "lt": 3,
     "lv": 3,
-    "r": 2,
-    "rs": "Supprimé : « puisque seules des AMM annulées sont recensées »",
+    "r": 4,
+    "rs": "Tableau : l’AMM 66843923 (RYTHMOL 300 mg) est active, non annulée",
+    "x": 0
+   },
+   {
+    "t": "Quinapril",
+    "u": "/drugs/quinapril/",
+    "l": "L5",
+    "i": "malignant hypertensive renal disease",
+    "lt": 6,
+    "lv": 3,
+    "r": 6,
+    "rs": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
     "x": 0
    },
    {
@@ -5362,14 +5758,14 @@
     "x": 0
    },
    {
-    "t": "Selpercatinib",
-    "u": "/drugs/selpercatinib/",
+    "t": "Sevoflurane",
+    "u": "/drugs/sevoflurane/",
     "l": "L5",
-    "i": "pulmonary hypertension",
+    "i": "Prinzmetal angina",
     "lt": 3,
     "lv": 3,
-    "r": 2,
-    "rs": "Supprimé : « Selpercatinib est un inhibiteur sélectif de la kinase RET, dont les autorisations françaises…",
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -5381,17 +5777,6 @@
     "lv": 3,
     "r": 0,
     "rs": "",
-    "x": 0
-   },
-   {
-    "t": "Sotalol",
-    "u": "/drugs/sotalol/",
-    "l": "L5",
-    "i": "forme autosomique dominante 2",
-    "lt": 3,
-    "lv": 3,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -5417,10 +5802,10 @@
     "x": 0
    },
    {
-    "t": "Trihexyphenidyl",
-    "u": "/drugs/trihexyphenidyl/",
+    "t": "Tiotropium",
+    "u": "/drugs/tiotropium/",
     "l": "L5",
-    "i": "Trouble déficitaire de l'attention avec hyperactivité",
+    "i": "Malformation respiratoire",
     "lt": 3,
     "lv": 3,
     "r": 1,
@@ -5436,17 +5821,6 @@
     "lv": 3,
     "r": 2,
     "rs": "Supprimé : « (AMM annulées) »",
-    "x": 0
-   },
-   {
-    "t": "Varenicline",
-    "u": "/drugs/varenicline/",
-    "l": "L5",
-    "i": "Trouble migraineux",
-    "lt": 3,
-    "lv": 3,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulees) »",
     "x": 0
    },
    {
@@ -5476,7 +5850,7 @@
     "u": "/drugs/warfarin/",
     "l": "L5",
     "i": "Déficit en cofacteur II de l'héparine",
-    "lt": 3,
+    "lt": 4,
     "lv": 3,
     "r": 2,
     "rs": "Supprimé : « Toutes les AMM françaises de la warfarine (Coumadine) sont annulées, et l »",
@@ -5509,10 +5883,10 @@
     "u": "/drugs/acetic-acid/",
     "l": "L5",
     "i": "Trouble post-bactérien",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
+    "r": 2,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -5524,17 +5898,6 @@
     "lv": 2,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Alfentanil",
-    "u": "/drugs/alfentanil/",
-    "l": "L5",
-    "i": "nephrogenic syndrome of inappropriate antidiuresis",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "Supprimé : « es AMM françaises sont toutes annulées et l »",
     "x": 0
    },
    {
@@ -5597,17 +5960,6 @@
     "u": "/drugs/asfotase-alfa/",
     "l": "L5",
     "i": "mitochondrial oxidative phosphorylation disorder due to nuclear DNA anomalies",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Atosiban",
-    "u": "/drugs/atosiban/",
-    "l": "L5",
-    "i": "Glaucome héréditaire primitif",
     "lt": 2,
     "lv": 2,
     "r": 1,
@@ -5692,17 +6044,6 @@
     "x": 0
    },
    {
-    "t": "Cabotegravir",
-    "u": "/drugs/cabotegravir/",
-    "l": "L5",
-    "i": "rheumatoid arthritis",
-    "lt": 2,
-    "lv": 2,
-    "r": 2,
-    "rs": "Supprimé : « Les deux AMM françaises sont par ailleurs annulées »",
-    "x": 0
-   },
-   {
     "t": "Calcitriol",
     "u": "/drugs/calcitriol/",
     "l": "L5",
@@ -5769,17 +6110,6 @@
     "x": 0
    },
    {
-    "t": "Chlorpromazine",
-    "u": "/drugs/chlorpromazine/",
-    "l": "L5",
-    "i": "Dystrophie rétinienne avec ou sans anomalies extraoculaires",
-    "lt": 2,
-    "lv": 2,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Ciclesonide",
     "u": "/drugs/ciclesonide/",
     "l": "L5",
@@ -5821,6 +6151,17 @@
     "lv": 2,
     "r": 2,
     "rs": "Supprimé : « et les AMM françaises sont toutes annulées »",
+    "x": 0
+   },
+   {
+    "t": "Clonidine",
+    "u": "/drugs/clonidine/",
+    "l": "L5",
+    "i": "faciodigitogenital syndrome",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Supprimé : « la seule AMM recensée étant une solution injectable annulée »",
     "x": 0
    },
    {
@@ -5934,6 +6275,17 @@
     "x": 0
    },
    {
+    "t": "Docusate",
+    "u": "/drugs/docusate/",
+    "l": "L5",
+    "i": "Syndrome de Plummer-Vinson",
+    "lt": 2,
+    "lv": 2,
+    "r": 2,
+    "rs": "Supprimé : « De plus, la seule AMM française est annulée, ce qui limite toute voie de développement pratique »",
+    "x": 0
+   },
+   {
     "t": "Doravirine",
     "u": "/drugs/doravirine/",
     "l": "L5",
@@ -5942,17 +6294,6 @@
     "lv": 2,
     "r": 2,
     "rs": "Supprimé : « et le médicament n'a plus d'AMM valide en France »",
-    "x": 0
-   },
-   {
-    "t": "Duloxetine",
-    "u": "/drugs/duloxetine/",
-    "l": "L5",
-    "i": "benign paroxysmal torticollis of infancy",
-    "lt": 2,
-    "lv": 2,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulées) »",
     "x": 0
    },
    {
@@ -5982,10 +6323,21 @@
     "u": "/drugs/eptifibatide/",
     "l": "L5",
     "i": "Polyarthrite rhumatoïde",
+    "lt": 4,
+    "lv": 2,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
+    "t": "Etodolac",
+    "u": "/drugs/etodolac/",
+    "l": "L5",
+    "i": "acromesomelic dysplasia, Hunter-Thompson type",
     "lt": 2,
     "lv": 2,
     "r": 2,
-    "rs": "Supprimé : « L'eptifibatide n'a plus d'AMM valide en France, ce qui complique tout développement local »",
+    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -6055,17 +6407,6 @@
     "x": 0
    },
    {
-    "t": "Guselkumab",
-    "u": "/drugs/guselkumab/",
-    "l": "L5",
-    "i": "drug-induced osteoporosis",
-    "lt": 2,
-    "lv": 2,
-    "r": 2,
-    "rs": "Supprimé : « les AMM disponibles étant toutes annulées »",
-    "x": 0
-   },
-   {
     "t": "Hesperidin",
     "u": "/drugs/hesperidin/",
     "l": "L5",
@@ -6088,17 +6429,6 @@
     "x": 0
    },
    {
-    "t": "Hydroxyzine",
-    "u": "/drugs/hydroxyzine/",
-    "l": "L5",
-    "i": "rosacea conjunctivitis",
-    "lt": 2,
-    "lv": 2,
-    "r": 2,
-    "rs": "Supprimé : « es deux AMM françaises sont annulées et l »",
-    "x": 0
-   },
-   {
     "t": "Ifosfamide",
     "u": "/drugs/ifosfamide/",
     "l": "L5",
@@ -6110,22 +6440,11 @@
     "x": 0
    },
    {
-    "t": "Imatinib",
-    "u": "/drugs/imatinib/",
-    "l": "L5",
-    "i": "Fibrosarcome cardiaque",
-    "lt": 2,
-    "lv": 2,
-    "r": 3,
-    "rs": "Supprimé : « et clarification du statut des AMM annulées »",
-    "x": 0
-   },
-   {
     "t": "Imiquimod",
     "u": "/drugs/imiquimod/",
     "l": "L5",
     "i": "Néoplasme prémalin",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 2,
     "rs": "Supprimé : « Les deux AMM françaises sont annulées : aucune spécialité n'est actuellement commercialisée en…",
@@ -6169,7 +6488,7 @@
     "u": "/drugs/lactic-acid/",
     "l": "L5",
     "i": "atypical coarctation of aorta",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 3,
     "rs": "Supprimé : « Les deux AMM françaises sont annulées »",
@@ -6180,10 +6499,21 @@
     "u": "/drugs/lenograstim/",
     "l": "L5",
     "i": "Trouble de libération plaquettaire primaire",
-    "lt": 2,
+    "lt": 5,
     "lv": 2,
     "r": 3,
     "rs": "Supprimé : « (AMM annulées) »",
+    "x": 0
+   },
+   {
+    "t": "Levocarnitine",
+    "u": "/drugs/levocarnitine/",
+    "l": "L5",
+    "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Tableau : l’AMM 60016589 (LEVOCARNIL 1 g/5 ml) est active, non annulée",
     "x": 0
    },
    {
@@ -6231,6 +6561,28 @@
     "x": 0
    },
    {
+    "t": "Loxapine",
+    "u": "/drugs/loxapine/",
+    "l": "L5",
+    "i": "retinal dystrophy with or without extraocular anomalies",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulée) »",
+    "x": 0
+   },
+   {
+    "t": "Meclizine",
+    "u": "/drugs/meclizine/",
+    "l": "L5",
+    "i": "Urticaire allergique",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Supprimé : « (AMM annulée) »",
+    "x": 0
+   },
+   {
     "t": "Melphalan",
     "u": "/drugs/melphalan/",
     "l": "L5",
@@ -6242,14 +6594,14 @@
     "x": 0
    },
    {
-    "t": "Methocarbamol",
-    "u": "/drugs/methocarbamol/",
+    "t": "Minocycline",
+    "u": "/drugs/minocycline/",
     "l": "L5",
-    "i": "cauda equina syndrome",
+    "i": "Kératoconjonctivite épithéliale ponctuée",
     "lt": 2,
     "lv": 2,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulées) »",
+    "r": 4,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -6275,14 +6627,14 @@
     "x": 0
    },
    {
-    "t": "Nimodipine",
-    "u": "/drugs/nimodipine/",
+    "t": "Neostigmine",
+    "u": "/drugs/neostigmine/",
     "l": "L5",
-    "i": "Hypercholestérolémie familiale homozygote",
+    "i": "autoimmune disease of peripheral nervous system",
     "lt": 2,
     "lv": 2,
     "r": 3,
-    "rs": "Supprimé : « (AMM annulées) »",
+    "rs": "Supprimé : « (AMM annulée, disponibilité d'autres présentations) »",
     "x": 0
    },
    {
@@ -6363,6 +6715,28 @@
     "x": 0
    },
    {
+    "t": "Pentamidine",
+    "u": "/drugs/pentamidine/",
+    "l": "L5",
+    "i": "Kératoconjonctivite ponctuée épithéliale",
+    "lt": 2,
+    "lv": 2,
+    "r": 1,
+    "rs": "Supprimé : « la seule AMM française est annulée »",
+    "x": 0
+   },
+   {
+    "t": "Pentosan Polysulfate",
+    "u": "/drugs/pentosan-polysulfate/",
+    "l": "L5",
+    "i": "Trouble primaire de la libération plaquettaire",
+    "lt": 2,
+    "lv": 2,
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
+    "x": 0
+   },
+   {
     "t": "Pentoxyverine",
     "u": "/drugs/pentoxyverine/",
     "l": "L5",
@@ -6378,10 +6752,10 @@
     "u": "/drugs/phenytoin/",
     "l": "L5",
     "i": "Néoplasme du nerf trijumeau",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
-    "r": 2,
-    "rs": "Supprimé : « es AMM françaises sont toutes annulées et l »",
+    "r": 3,
+    "rs": "Nombre d'AMM mis à jour",
     "x": 0
    },
    {
@@ -6462,6 +6836,17 @@
     "x": 0
    },
    {
+    "t": "Risdiplam",
+    "u": "/drugs/risdiplam/",
+    "l": "L5",
+    "i": "acne (disease)",
+    "lt": 2,
+    "lv": 2,
+    "r": 2,
+    "rs": "Supprimé : « 'AMM française est annulée, et l »",
+    "x": 0
+   },
+   {
     "t": "Safinamide",
     "u": "/drugs/safinamide/",
     "l": "L5",
@@ -6488,7 +6873,7 @@
     "u": "/drugs/scopolamine/",
     "l": "L5",
     "i": "Syndrome de la queue de cheval",
-    "lt": 2,
+    "lt": 3,
     "lv": 2,
     "r": 2,
     "rs": "Supprimé : « es AMM françaises sont toutes annulées, et l »",
@@ -6539,17 +6924,6 @@
     "x": 0
    },
    {
-    "t": "Terazosin",
-    "u": "/drugs/terazosin/",
-    "l": "L5",
-    "i": "hypotrichosis simplex of the scalp",
-    "lt": 2,
-    "lv": 2,
-    "r": 2,
-    "rs": "Supprimé : « Les produits français sont en outre tous annulés »",
-    "x": 0
-   },
-   {
     "t": "Tetrabenazine",
     "u": "/drugs/tetrabenazine/",
     "l": "L5",
@@ -6583,17 +6957,6 @@
     "x": 0
    },
    {
-    "t": "Tixocortol",
-    "u": "/drugs/tixocortol/",
-    "l": "L5",
-    "i": "primary cutaneous T-cell lymphoma",
-    "lt": 2,
-    "lv": 2,
-    "r": 2,
-    "rs": "Supprimé : « Justification de l'intérêt d'un médicament dont les AMM sont annulées par rapport aux…",
-    "x": 2
-   },
-   {
     "t": "Treosulfan",
     "u": "/drugs/treosulfan/",
     "l": "L5",
@@ -6613,28 +6976,6 @@
     "lv": 2,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Acebutolol",
-    "u": "/drugs/acebutolol/",
-    "l": "L5",
-    "i": "Néphropathie hypertensive maligne",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Alfuzosin",
-    "u": "/drugs/alfuzosin/",
-    "l": "L5",
-    "i": "Ambras type hypertrichosis universalis congenita",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « Le produit n'est en outre plus commercialisé en France (AMM annulée) »",
     "x": 0
    },
    {
@@ -6660,17 +7001,6 @@
     "x": 0
    },
    {
-    "t": "Ambroxol",
-    "u": "/drugs/ambroxol/",
-    "l": "L5",
-    "i": "Maladie de la cavité nasale",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Supprimé : « Les données compilées pour ce rapport comptent une seule AMM, enregistrée comme annulée »",
-    "x": 0
-   },
-   {
     "t": "Amsacrine",
     "u": "/drugs/amsacrine/",
     "l": "L5",
@@ -6679,17 +7009,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « Le statut de cette AMM est indiqué comme annulé dans la fiche de la licence, alors que le statut…",
-    "x": 0
-   },
-   {
-    "t": "Anagrelide",
-    "u": "/drugs/anagrelide/",
-    "l": "L5",
-    "i": "reactive thrombocytosis",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -6895,7 +7214,7 @@
     "u": "/drugs/cimetidine/",
     "l": "L5",
     "i": "peptic ulcer perforation",
-    "lt": 1,
+    "lt": 2,
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « De plus, la cimétidine n'a plus qu'une AMM annulée en France »",
@@ -6921,17 +7240,6 @@
     "lv": 1,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Clonidine",
-    "u": "/drugs/clonidine/",
-    "l": "L5",
-    "i": "faciodigitogenital syndrome",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « la seule AMM recensée étant une solution injectable annulée »",
     "x": 0
    },
    {
@@ -7078,28 +7386,6 @@
     "x": 0
    },
    {
-    "t": "Docusate",
-    "u": "/drugs/docusate/",
-    "l": "L5",
-    "i": "Syndrome de Plummer-Vinson",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « De plus, la seule AMM française est annulée, ce qui limite toute voie de développement pratique »",
-    "x": 0
-   },
-   {
-    "t": "Doxycycline",
-    "u": "/drugs/doxycycline/",
-    "l": "L5",
-    "i": "Kératoconjonctivite épithéliale ponctuée",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
     "t": "Durvalumab",
     "u": "/drugs/durvalumab/",
     "l": "L5",
@@ -7163,17 +7449,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « 'unique AMM française est annulée, et l »",
-    "x": 0
-   },
-   {
-    "t": "Etodolac",
-    "u": "/drugs/etodolac/",
-    "l": "L5",
-    "i": "acromesomelic dysplasia, Hunter-Thompson type",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -7251,17 +7526,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « et la faisabilité de la formulation, au vu de l'AMM annulée »",
-    "x": 0
-   },
-   {
-    "t": "Fluvoxamine",
-    "u": "/drugs/fluvoxamine/",
-    "l": "L5",
-    "i": "Trouble de la personnalité schizotypique",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -7463,17 +7727,6 @@
     "x": 0
    },
    {
-    "t": "Labetalol",
-    "u": "/drugs/labetalol/",
-    "l": "L5",
-    "i": "malignant hypertensive renal disease",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « l'AMM étant annulée »",
-    "x": 0
-   },
-   {
     "t": "Laronidase",
     "u": "/drugs/laronidase/",
     "l": "L5",
@@ -7482,17 +7735,6 @@
     "lv": 1,
     "r": 1,
     "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Levocarnitine",
-    "u": "/drugs/levocarnitine/",
-    "l": "L5",
-    "i": "autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Tableau : l’AMM 60016589 (LEVOCARNIL 1 g/5 ml) est active, non annulée",
     "x": 0
    },
    {
@@ -7518,39 +7760,6 @@
     "x": 0
    },
    {
-    "t": "Loperamide",
-    "u": "/drugs/loperamide/",
-    "l": "L5",
-    "i": "acute contagious conjunctivitis",
-    "lt": 2,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « Les deux AMM sont annulées : aucune présentation n'est actuellement commercialisée sous ces…",
-    "x": 0
-   },
-   {
-    "t": "Loxapine",
-    "u": "/drugs/loxapine/",
-    "l": "L5",
-    "i": "retinal dystrophy with or without extraocular anomalies",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulée) »",
-    "x": 0
-   },
-   {
-    "t": "Meclizine",
-    "u": "/drugs/meclizine/",
-    "l": "L5",
-    "i": "Urticaire allergique",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulée) »",
-    "x": 0
-   },
-   {
     "t": "Methylergometrine",
     "u": "/drugs/methylergometrine/",
     "l": "L5",
@@ -7570,28 +7779,6 @@
     "lv": 1,
     "r": 3,
     "rs": "Supprimé : « (AMM annulée) »",
-    "x": 0
-   },
-   {
-    "t": "Mianserin",
-    "u": "/drugs/mianserin/",
-    "l": "L5",
-    "i": "Torticolis paroxystique bénin du nourrisson",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « Vérifier les raisons de l'annulation de l'AMM et le statut de commercialisation actuel »",
-    "x": 0
-   },
-   {
-    "t": "Minocycline",
-    "u": "/drugs/minocycline/",
-    "l": "L5",
-    "i": "Kératoconjonctivite épithéliale ponctuée",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Tableau : l’AMM 60929447 (MYNOCINE 100 mg) est active, non annulée",
     "x": 0
    },
    {
@@ -7628,39 +7815,6 @@
     "x": 0
    },
    {
-    "t": "Naratriptan",
-    "u": "/drugs/naratriptan/",
-    "l": "L5",
-    "i": "atrophoderma vermiculata",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « l'AMM étant annulée »",
-    "x": 0
-   },
-   {
-    "t": "Nebivolol",
-    "u": "/drugs/nebivolol/",
-    "l": "L5",
-    "i": "Maladie rénale hypertensive maligne",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulée, absence de produit valide) »",
-    "x": 0
-   },
-   {
-    "t": "Nefopam",
-    "u": "/drugs/nefopam/",
-    "l": "L5",
-    "i": "craniostenosis cataract",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « et clarifier le statut réglementaire de l'AMM abrogée »",
-    "x": 0
-   },
-   {
     "t": "Nelarabine",
     "u": "/drugs/nelarabine/",
     "l": "L5",
@@ -7669,17 +7823,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « et l'AMM française est annulée »",
-    "x": 0
-   },
-   {
-    "t": "Neostigmine",
-    "u": "/drugs/neostigmine/",
-    "l": "L5",
-    "i": "autoimmune disease of peripheral nervous system",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulée, disponibilité d'autres présentations) »",
     "x": 0
    },
    {
@@ -7782,28 +7925,6 @@
     "x": 0
    },
    {
-    "t": "Pentamidine",
-    "u": "/drugs/pentamidine/",
-    "l": "L5",
-    "i": "Kératoconjonctivite ponctuée épithéliale",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Supprimé : « la seule AMM française est annulée »",
-    "x": 0
-   },
-   {
-    "t": "Pentosan Polysulfate",
-    "u": "/drugs/pentosan-polysulfate/",
-    "l": "L5",
-    "i": "Trouble primaire de la libération plaquettaire",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « L'AMM française est en outre annulée »",
-    "x": 0
-   },
-   {
     "t": "Pentostatin",
     "u": "/drugs/pentostatin/",
     "l": "L5",
@@ -7823,17 +7944,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « 'AMM française est abrogée et l »",
-    "x": 0
-   },
-   {
-    "t": "Pinaverium",
-    "u": "/drugs/pinaverium/",
-    "l": "L5",
-    "i": "benign prostatic hyperplasia (disease)",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -7933,17 +8043,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « et l'AMM française est annulée »",
-    "x": 0
-   },
-   {
-    "t": "Propafenone",
-    "u": "/drugs/propafenone/",
-    "l": "L5",
-    "i": "manic bipolar affective disorder",
-    "lt": 1,
-    "lv": 1,
-    "r": 4,
-    "rs": "Tableau : l’AMM 66843923 (RYTHMOL 300 mg) est active, non annulée",
     "x": 0
    },
    {
@@ -8079,17 +8178,6 @@
     "x": 0
    },
    {
-    "t": "Risdiplam",
-    "u": "/drugs/risdiplam/",
-    "l": "L5",
-    "i": "acne (disease)",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « 'AMM française est annulée, et l »",
-    "x": 0
-   },
-   {
     "t": "Rutin",
     "u": "/drugs/rutin/",
     "l": "L5",
@@ -8153,17 +8241,6 @@
     "lv": 1,
     "r": 2,
     "rs": "Supprimé : « (AMM annulée uniquement) »",
-    "x": 0
-   },
-   {
-    "t": "Sevoflurane",
-    "u": "/drugs/sevoflurane/",
-    "l": "L5",
-    "i": "Prinzmetal angina",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « (AMM annulée) »",
     "x": 0
    },
    {
@@ -8299,28 +8376,6 @@
     "x": 0
    },
    {
-    "t": "Terbutaline",
-    "u": "/drugs/terbutaline/",
-    "l": "L5",
-    "i": "Malformation respiratoire",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
-    "x": 0
-   },
-   {
-    "t": "Tetracaine",
-    "u": "/drugs/tetracaine/",
-    "l": "L5",
-    "i": "Acrodermatite chronique atrophiante",
-    "lt": 1,
-    "lv": 1,
-    "r": 3,
-    "rs": "Supprimé : « a seule AMM française est annulée, et l »",
-    "x": 0
-   },
-   {
     "t": "Thiamine",
     "u": "/drugs/thiamine/",
     "l": "L5",
@@ -8351,17 +8406,6 @@
     "lv": 1,
     "r": 4,
     "rs": "Tableau : l’AMM 66090799 (FASIGYNE 500 mg) est active, non annulée",
-    "x": 0
-   },
-   {
-    "t": "Tiotropium",
-    "u": "/drugs/tiotropium/",
-    "l": "L5",
-    "i": "Malformation respiratoire",
-    "lt": 1,
-    "lv": 1,
-    "r": 1,
-    "rs": "Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage…",
     "x": 0
    },
    {
@@ -8409,17 +8453,6 @@
     "x": 0
    },
    {
-    "t": "Tramadol",
-    "u": "/drugs/tramadol/",
-    "l": "L5",
-    "i": "Dysplasie acromésomélique de type Hunter-Thompson",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « et la seule AMM française est annulée »",
-    "x": 0
-   },
-   {
     "t": "Trastuzumab Deruxtecan",
     "u": "/drugs/trastuzumab-deruxtecan/",
     "l": "L5",
@@ -8461,17 +8494,6 @@
     "lv": 1,
     "r": 3,
     "rs": "Tableau : l’AMM 63737879 (DEPAMIDE 300 mg) est active, non annulée",
-    "x": 0
-   },
-   {
-    "t": "Vancomycin",
-    "u": "/drugs/vancomycin/",
-    "l": "L5",
-    "i": "Sclérodermie diffuse",
-    "lt": 1,
-    "lv": 1,
-    "r": 2,
-    "rs": "Supprimé : « 'AMM française est annulée, et l »",
     "x": 0
    },
    {
@@ -8684,28 +8706,6 @@
     "x": 0
    },
    {
-    "t": "Quinapril",
-    "u": "/drugs/quinapril/",
-    "l": "L5",
-    "i": "malignant hypertensive renal disease",
-    "lt": 2,
-    "lv": 0,
-    "r": 6,
-    "rs": "Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active",
-    "x": 0
-   },
-   {
-    "t": "Raloxifene",
-    "u": "/drugs/raloxifene/",
-    "l": "L5",
-    "i": "Ulcère duodénal",
-    "lt": 1,
-    "lv": 0,
-    "r": 5,
-    "rs": "Autres AMM de raloxifène actives dans la BDPM",
-    "x": 0
-   },
-   {
     "t": "Talc",
     "u": "/drugs/talc/",
     "l": "L5",
@@ -8755,14 +8755,6 @@
    {
     "t": "Pixantrone",
     "u": "/drugs/pixantrone/"
-   },
-   {
-    "t": "Quinapril",
-    "u": "/drugs/quinapril/"
-   },
-   {
-    "t": "Raloxifene",
-    "u": "/drugs/raloxifene/"
    },
    {
     "t": "Talc",

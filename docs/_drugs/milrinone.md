@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 501
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Milrinone : nouvelle indication prédite, Alopécie (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM (les textes d'indication sont v…"
 monitor_inn: "MILRINONE"
 predicted_indications: ["alopecia", "hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "headache disorder", "migraine disorder", "migraine with brainstem aura", "trigeminal autonomic cephalalgia", "acute pulmonary heart disease"]
@@ -50,8 +50,8 @@ Parmi les autres prédictions, seules l'**insuffisance cardiaque congestive** et
 | Nouvelle indication prédite | Alopécie |
 | Score de prédiction TxGNN | 0,9991 |
 | Niveau de preuve | L5 (prédiction du modèle uniquement) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?

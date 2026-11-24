@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 258
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "doxorubicin"
 predicted_indications: ["Ewing sarcoma", "well-differentiated fetal adenocarcinoma of the lung", "primary pulmonary lymphoma", "pulmonary blastoma", "monocytic leukemia", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "parameningeal embryonal rhabdomyosarcoma", "rhabdomyosarcoma (disease)"]
-description: "Doxorubicin : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L1). En France, AMM dans la BDPM : 2 (valides : 2)"
+description: "Doxorubicin : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L1). En France, AMM dans la BDPM : 9 (valides : 9)"
 ---
 
 # Doxorubicin
@@ -50,8 +50,8 @@ avec **26 essais cliniques** et **20 publications** soutenant actuellement cette
 | Nouvelle Indication Prédite | Sarcome d'Ewing (Ewing sarcoma) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -115,7 +115,19 @@ Dix publications parmi les plus pertinentes (sur 20) sont présentées, avec pri
 
 <!-- review:end fr-row-20261112-doxorubicin-2 -->
 
-Les deux autorisations, détenues par PFIZER HOLDING FRANCE, sont valides. Deux AMM valides sur deux sont donc recensées dans les données compilées.
+Les deux autorisations du tableau ci-dessus (ADRIBLASTINE), détenues par PFIZER HOLDING FRANCE, sont valides ; au total, 9 AMM de doxorubicine sont valides. Neuf AMM valides sur neuf sont donc recensées dans les données compilées.
+
+<!-- review:begin fr-lic-20261124-doxorubicin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les deux autorisations, détenues par PFIZER HOLDING FRANCE, sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-doxorubicin-1 -->
+
+<!-- review:begin fr-lic-20261124-doxorubicin-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Deux AMM valides sur deux sont donc recensées dans les données compilées. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-doxorubicin-2 -->
 
 ## Cytotoxicité
 
@@ -176,6 +188,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-12 | Tableau : l’AMM 64367525 (ADRIBLASTINE 50 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-12 | Tableau : l’AMM 65771499 (ADRIBLASTINE 10 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Oxderys (doxorubicin hydrochloride) prescribing information, Avyxa Pharma, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f280fb2e-5070-46e1-a4ed-ba191359cedd) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

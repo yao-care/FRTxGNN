@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 252
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "Docusate"
 predicted_indications: ["Plummer-Vinson syndrome", "vitamin B12- and folate-independent constitutional megaloblastic anemia"]
-description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (Plummer-Vinson syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Docusate : nouvelle indication prédite, Syndrome de Plummer-Vinson (Plummer-Vinson syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Docusate
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de Plu
 | Nouvelle Indication Prédite | Syndrome de Plummer-Vinson (Plummer-Vinson syndrome) |
 | Score de Prédiction TxGNN | 0.9918 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---

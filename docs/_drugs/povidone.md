@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Érythrodermie ichtyosiforme congénitale (congenital ichthyosiform erythroderma) |
 | Score de Prédiction TxGNN | 0.9911 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 7) |
-| Nombre d'AMM | 7 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 8) |
+| Nombre d'AMM | 8 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,11 +72,11 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Certaines AMM ci-dessous sont valides (5 sur 7 ; les 2 autres sont archivées). Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
+Certaines AMM ci-dessous sont valides (6 sur 8 ; les 2 autres sont archivées). Les textes d'indication approuvée ne sont pas renseignés dans les données compilées.
 
 <!-- review:begin fr-lic-20261112-povidone-1 -->
 
-> **Correction de vérification (2026-11-24)**: Texte initial : « (6 sur 7) » D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581). Source: [Base de données publique des médicaments (BDPM) – fiche 65367581](https://base-donnees-publique.medicaments.gouv.fr/medicament/65367581/extrait); [Base de données publique des médicaments (BDPM) – fiche 64035359](https://base-donnees-publique.medicaments.gouv.fr/medicament/64035359/extrait).
+> **Correction de vérification (2026-11-24)**: Texte initial : « (6 sur 7) » D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581). Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261112-povidone-1 -->
 
@@ -123,7 +123,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-24 | AMM valides : 6 → 5 sur 7 | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 65367581](https://base-donnees-publique.medicaments.gouv.fr/medicament/65367581/extrait); [Base de données publique des médicaments (BDPM) – fiche 64035359](https://base-donnees-publique.medicaments.gouv.fr/medicament/64035359/extrait) |
+| 2026-11-24 | AMM valides : 6 → 5 sur 7 | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-13 | FLUIDABAK 1,5 % et REFRESH : annulées → actives | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 
 <!-- review:end log -->

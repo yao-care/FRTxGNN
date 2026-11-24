@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 605
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Pinaverium : nouvelle indication prédite, Hyperplasie bénigne de la prostate (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées pour ce rapport"
 monitor_inn: "pinaverium"
 predicted_indications: ["benign prostatic hyperplasia (disease)"]
@@ -48,8 +48,8 @@ Pinaverium (DICETEL 100 mg) est généralement décrit comme un antispasmodique 
 | Nouvelle Indication Prédite | Hyperplasie bénigne de la prostate |
 | Score de Prédiction TxGNN | 0,9922 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

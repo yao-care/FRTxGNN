@@ -169,19 +169,37 @@
    "file": "amlodipine.md",
    "action": "correct",
    "claim": "Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés. Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des autorisations marquées comme annulées, sans que le détail puisse être confirmé ici.",
-   "replacement": "Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Les données locales recensent de nombreuses AMM pour des spécialités à base d'amlodipine (au moins 15 valides ; gélules et comprimé à libération modifiée parmi celles détaillées), mais les textes d'indication ne sont pas renseignés.",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des a »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-amsacrine-1",
@@ -2051,19 +2069,37 @@
    "file": "darunavir.md",
    "action": "correct",
    "claim": "Les 17 AMM recensées sont des génériques à base de darunavir seul, toutes au statut annulé.",
-   "replacement": "Les 17 AMM recensées sont des génériques à base de darunavir seul.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Les 18 AMM recensées (17 valides) sont des génériques à base de darunavir seul.",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « toutes au statut annulé »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Les 17 AMM recensées sont des génériques à base de darunavir seul.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-dasatinib-1",
@@ -3856,19 +3892,37 @@
    "file": "etanercept.md",
    "action": "correct",
    "claim": "Au total, 17 AMM sont recensées, toutes annulées (Enbrel, Benepali, Erelzi, Nepexto).",
-   "replacement": "Au total, 17 AMM sont recensées.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Au total, 20 AMM sont recensées.",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « toutes annulées (Enbrel, Benepali, Erelzi, Nepexto) »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Au total, 17 AMM sont recensées.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-ethosuximide-1",
@@ -4884,19 +4938,37 @@
    "file": "fosinopril.md",
    "action": "correct",
    "claim": "Au total, 10 AMM figurent dans la base, toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg).",
-   "replacement": "Au total, 10 AMM figurent dans la base.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Au total, 14 AMM figurent dans la base.",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg) »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Au total, 10 AMM figurent dans la base.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-fosinopril-2",
@@ -6389,19 +6461,37 @@
    "file": "insulin_lispro.md",
    "action": "correct",
    "claim": "Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée. Les six AMM sont détenues par ELI LILLY NEDERLAND BV.",
-   "replacement": "Les six AMM sont détenues par ELI LILLY NEDERLAND BV.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Les 13 AMM (HUMALOG, LYUMJEV) sont détenues par ELI LILLY NEDERLAND BV.",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « Une sixième AMM (66599764, LYUMJEV 200 unités/mL KwikPen) est également annulée »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Les six AMM sont détenues par ELI LILLY NEDERLAND BV.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 6 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-insulin_lispro-2",
@@ -7772,19 +7862,37 @@
    "file": "manidipine.md",
    "action": "correct",
    "claim": "Les 16 AMM recensées sont des génériques sous forme de comprimés, toutes annulées.",
-   "replacement": "Les 16 AMM recensées sont des génériques sous forme de comprimés.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Les 18 AMM recensées sont des comprimés : 16 génériques et la spécialité de référence IPERTEN (10 et 20 mg).",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « toutes annulées »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Les 16 AMM recensées sont des génériques sous forme de comprimés.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 16 AMM pour ce médicament, dont 16 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-manidipine-3",
@@ -11637,19 +11745,37 @@
    "file": "propofol.md",
    "action": "correct",
    "claim": "Au total, 11 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici.",
-   "replacement": "Au total, 11 AMM sont recensées; seules les 5 premières sont listées ici.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Au total, 12 AMM sont recensées; seules les 5 premières sont listées ici.",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « toutes annulées »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Au total, 11 AMM sont recensées; seules les 5 premières sont listées ici.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-propranolol-1",
@@ -12583,7 +12709,15 @@
    "checked": "2026-11-06",
    "summary": "Supprimé : « (5 AMM présentées sur 11, toutes annulées.) »",
    "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
-   "anchor": "Les 11 AMM listées sur 11 sont valides ; le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM."
+   "anchor": "Les 16 AMM recensées sont valides ; le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.",
+   "history": [
+    {
+     "anchor": "Les 11 AMM listées sur 11 sont valides ; le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.",
+     "retired": "2026-11-24",
+     "reason": "錨點句被 fr-lic-20261124-rivastigmine-1 改寫（11→16 張），改錨到新句",
+     "reanchored": true
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-romiplostim-1",
@@ -14983,19 +15117,37 @@
    "file": "trabectedin.md",
    "action": "correct",
    "claim": "Au total, 10 AMM sont recensées, toutes annulées.",
-   "replacement": "Au total, 10 AMM sont recensées.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Au total, 12 AMM sont recensées.",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « toutes annulées »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Au total, 10 AMM sont recensées.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-trabectedin-2",
@@ -15804,19 +15956,37 @@
    "file": "verapamil.md",
    "action": "correct",
    "claim": "Le vérapamil n'a par ailleurs plus d'AMM valide en France (5 AMM annulées).",
-   "replacement": "Le vérapamil n'a par ailleurs plus d'AMM valide en France.",
-   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
-   "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+   "replacement": "Le vérapamil reste par ailleurs commercialisé en France (15 AMM valides sur 16).",
+   "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-06"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-06",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « (5 AMM annulées) »",
-   "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Le vérapamil n'a par ailleurs plus d'AMM valide en France.",
+     "note": "Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 5 AMM pour ce médicament, dont 5 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché.",
+     "finding": "依成分重建許可證後，正文跟新事實矛盾的子句由刪句工具刪除（分類：cancel）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-06"
+      }
+     ],
+     "checked": "2026-11-06",
+     "method": "2026-11-12 由 git 提交前後的頁面轉入查核紀錄（scripts/reviews_from_edits.py）；原本的刪改：a38eef41（2026-11-06）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261106-verteporfin-1",
@@ -16506,19 +16676,37 @@
    "file": "docetaxel.md",
    "action": "correct",
    "claim": "Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion.",
-   "replacement": "Les données compilées recensent 11 AMM, sous forme de solution à diluer pour perfusion.",
-   "note": "Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide.",
-   "finding": "2026-11-09 每週許可證排程後 BDPM 有 1 張註銷（共 11、有效 10），正文仍說全部有效（checker M3c）；只刪矛盾的張數／全部有效子句（句首改大寫除外，其餘原文不動）",
+   "replacement": "Les données compilées recensent 14 AMM (13 valides), sous forme de solution à diluer pour perfusion.",
+   "note": "Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
-     "accessed": "2026-11-09"
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
     }
    ],
-   "checked": "2026-11-12",
+   "checked": "2026-11-24",
    "summary": "Supprimé : « valides »",
-   "method": "2026-11-12 依 checker M3（排程 2026-11-09 後的新事實）人工核對，只刪矛盾子句"
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
+   "history": [
+    {
+     "replacement": "Les données compilées recensent 11 AMM, sous forme de solution à diluer pour perfusion.",
+     "note": "Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide.",
+     "finding": "2026-11-09 每週許可證排程後 BDPM 有 1 張註銷（共 11、有效 10），正文仍說全部有效（checker M3c）；只刪矛盾的張數／全部有效子句（句首改大寫除外，其餘原文不動）",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt",
+       "accessed": "2026-11-09"
+      }
+     ],
+     "checked": "2026-11-12",
+     "method": "2026-11-12 依 checker M3（排程 2026-11-09 後的新事實）人工核對，只刪矛盾子句",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
+    }
+   ]
   },
   {
    "id": "fr-lic-20261112-letrozole-1",
@@ -16646,24 +16834,19 @@
    "file": "povidone.md",
    "action": "correct",
    "claim": "(6 sur 7)",
-   "replacement": "(5 sur 7 ; les 2 autres sont archivées)",
+   "replacement": "(6 sur 8 ; les 2 autres sont archivées)",
    "summary": "AMM valides : 6 → 5 sur 7",
-   "note": "D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581).",
-   "finding": "正文寫 7 張中 6 張有效；證據包 BDPM：active 5、archivée 2",
+   "note": "D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581). Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
    "sources": [
     {
-     "title": "Base de données publique des médicaments (BDPM) – fiche 65367581",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65367581/extrait",
-     "accessed": "2026-11-24"
-    },
-    {
-     "title": "Base de données publique des médicaments (BDPM) – fiche 64035359",
-     "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64035359/extrait",
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
      "accessed": "2026-11-24"
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）",
    "history": [
     {
      "note": "D'après la BDPM (données du 2026-11-09), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581).",
@@ -16682,6 +16865,27 @@
      "withdrawn_finding": "2026-11-13 每週排程：BDPM 把這些許可證由 archivée／abrogée 改回 Autorisation active，原句照新事實成立，撤回這筆更正並還原原句",
      "retired": "2026-11-24",
      "reason": "2026-11-13 的撤回有誤：BDPM 產品頁（2026-11-24 查，Dernière mise à jour le 03/11/2026）與 2026-11-23 每週排程資料都是 archivée／abrogée，恢復更正"
+    },
+    {
+     "replacement": "(5 sur 7 ; les 2 autres sont archivées)",
+     "note": "D'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 5 des 7 AMM sont actives ; 2 sont archivées (64035359, 65367581).",
+     "finding": "正文寫 7 張中 6 張有效；證據包 BDPM：active 5、archivée 2",
+     "sources": [
+      {
+       "title": "Base de données publique des médicaments (BDPM) – fiche 65367581",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/65367581/extrait",
+       "accessed": "2026-11-24"
+      },
+      {
+       "title": "Base de données publique des médicaments (BDPM) – fiche 64035359",
+       "url": "https://base-donnees-publique.medicaments.gouv.fr/medicament/64035359/extrait",
+       "accessed": "2026-11-24"
+      }
+     ],
+     "checked": "2026-11-24",
+     "method": "2026-11-24 人工查核（每週許可證排程 issue #808 擋下的頁；逐張讀 BDPM 產品頁確認 Statut de l'autorisation）",
+     "retired": "2026-11-24",
+     "reason": "證據包依 BDPM 物質代碼補收後張數改變"
     }
    ]
   },
@@ -35892,7 +36096,11 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週排程 issue #808「狀態列變成全部註銷、要對全量來源依成分確認」）"
+   "method": "2026-11-24 人工查核（每週排程 issue #808「狀態列變成全部註銷、要對全量來源依成分確認」）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "les 9 AMM actives de raloxifène (dont EVISTA 67365141) font désormais partie des données compilées (complément par code de substance BDPM, 2026-11-24) ; la note n'est plus nécessaire",
+   "withdrawn_finding": "同日依成分補收後證據包已含這些現行 AMM，狀態列改為上市中，加註不再需要"
   },
   {
    "id": "fr-lic-20261124-quinapril-1",
@@ -35912,7 +36120,1811 @@
     }
    ],
    "checked": "2026-11-24",
-   "method": "2026-11-24 人工查核（每週排程 issue #808「狀態列變成全部註銷、要對全量來源依成分確認」）"
+   "method": "2026-11-24 人工查核（每週排程 issue #808「狀態列變成全部註銷、要對全量來源依成分確認」）",
+   "status": "withdrawn",
+   "withdrawn_on": "2026-11-24",
+   "withdrawn_note": "QUINAPRIL BIOGARAN 61168571 et les associations quinapril/hydrochlorothiazide font désormais partie des données compilées (complément par code de substance BDPM, 2026-11-24) ; la note n'est plus nécessaire",
+   "withdrawn_finding": "同日依成分補收後證據包已含這些現行 AMM，狀態列改為上市中，加註不再需要"
+  },
+  {
+   "id": "fr-lic-20261124-acetic_acid-1",
+   "drug": "acetic_acid",
+   "file": "acetic_acid.md",
+   "action": "correct",
+   "claim": "Les deux autorisations enregistrées sont des produits homéopathiques à une seule substance.",
+   "replacement": "Les deux autorisations valides (tableau ci-dessus) sont des produits homéopathiques à une seule substance ; une troisième AMM, DIABENE (67698943), est abrogée.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-almotriptan-1",
+   "drug": "almotriptan",
+   "file": "almotriptan.md",
+   "action": "correct",
+   "claim": "(5 AMM valides, toutes génériques)",
+   "replacement": "(9 AMM valides : 8 génériques et la spécialité de référence ALMOGRAN)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-amiodarone-1",
+   "drug": "amiodarone",
+   "file": "amiodarone.md",
+   "action": "correct",
+   "claim": "les 4 AMM listées sont valides.",
+   "replacement": "12 AMM sur 14 sont valides, dont les 4 listées ci-dessus.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-chlorpromazine-1",
+   "drug": "chlorpromazine",
+   "file": "chlorpromazine.md",
+   "action": "correct",
+   "claim": "Les deux AMM sont valides.",
+   "replacement": "Les 4 AMM recensées sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-clindamycin-1",
+   "drug": "clindamycin",
+   "file": "clindamycin.md",
+   "action": "correct",
+   "claim": "(8 AMM valides sur 8)",
+   "replacement": "(12 AMM valides sur 12)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-clopidogrel-1",
+   "drug": "clopidogrel",
+   "file": "clopidogrel.md",
+   "action": "correct",
+   "claim": "les 5 AMM françaises sur 5 sont valides",
+   "replacement": "16 AMM françaises sur 18 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-cyclophosphamide-1",
+   "drug": "cyclophosphamide",
+   "file": "cyclophosphamide.md",
+   "action": "correct",
+   "claim": "Les trois autorisations recensées (toutes valides) concernent la spécialité Endoxan du laboratoire Baxter ;",
+   "replacement": "Les 8 AMM recensées sont valides : trois concernent la spécialité Endoxan du laboratoire Baxter (tableau ci-dessus), les autres sont des génériques (Reddy Pharma, Sandoz) ;",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-cyclosporine-1",
+   "drug": "cyclosporine",
+   "file": "cyclosporine.md",
+   "action": "correct",
+   "claim": "Dix AMM valides sur dix ;",
+   "replacement": "Onze AMM valides sur treize ;",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-cyclosporine-2",
+   "drug": "cyclosporine",
+   "file": "cyclosporine.md",
+   "action": "correct",
+   "claim": "(10 AMM valides sur 10)",
+   "replacement": "(11 AMM valides sur 13)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-dienogest-1",
+   "drug": "dienogest",
+   "file": "dienogest.md",
+   "action": "correct",
+   "claim": "10 AMM valides sur 10.",
+   "replacement": "11 AMM valides sur 11.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-dienogest-2",
+   "drug": "dienogest",
+   "file": "dienogest.md",
+   "action": "correct",
+   "claim": "les 10 AMM françaises sont toutes valides.",
+   "replacement": "les 11 AMM françaises sont toutes valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-diosmin-1",
+   "drug": "diosmin",
+   "file": "diosmin.md",
+   "action": "correct",
+   "claim": "bien que les 16 AMM françaises soient valides.",
+   "replacement": "bien que 17 des 19 AMM françaises soient valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-doxorubicin-1",
+   "drug": "doxorubicin",
+   "file": "doxorubicin.md",
+   "action": "correct",
+   "claim": "Les deux autorisations, détenues par PFIZER HOLDING FRANCE, sont valides.",
+   "replacement": "Les deux autorisations du tableau ci-dessus (ADRIBLASTINE), détenues par PFIZER HOLDING FRANCE, sont valides ; au total, 9 AMM de doxorubicine sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-doxorubicin-2",
+   "drug": "doxorubicin",
+   "file": "doxorubicin.md",
+   "action": "correct",
+   "claim": "Deux AMM valides sur deux sont donc recensées dans les données compilées.",
+   "replacement": "Neuf AMM valides sur neuf sont donc recensées dans les données compilées.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-epirubicin-1",
+   "drug": "epirubicin",
+   "file": "epirubicin.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 3 AMM valides,",
+   "replacement": "Les données compilées recensent 7 AMM valides (sur 8),",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-eptifibatide-1",
+   "drug": "eptifibatide",
+   "file": "eptifibatide.md",
+   "action": "correct",
+   "claim": "Les deux AMM appartiennent à ACCORD HEALTHCARE (Espagne) et concernent des spécialités à base d'eptifibatide seul.",
+   "replacement": "Des 4 AMM recensées, 2 sont valides (ACCORD HEALTHCARE, Espagne, spécialités à base d'eptifibatide seul) et 2 sont abrogées (INTEGRILIN, GlaxoSmithKline).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-erythromycin-1",
+   "drug": "erythromycin",
+   "file": "erythromycin.md",
+   "action": "correct",
+   "claim": "Les 8 AMM recensées sont valides.",
+   "replacement": "Les 11 AMM recensées sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-exemestane-1",
+   "drug": "exemestane",
+   "file": "exemestane.md",
+   "action": "correct",
+   "claim": "Les 16 AMM sur 16 sont valides.",
+   "replacement": "18 AMM sur 19 sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-fenticonazole-1",
+   "drug": "fenticonazole",
+   "file": "fenticonazole.md",
+   "action": "correct",
+   "claim": "Les 3 AMM recensées sont valides.",
+   "replacement": "4 des 5 AMM recensées sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-filgrastim-1",
+   "drug": "filgrastim",
+   "file": "filgrastim.md",
+   "action": "correct",
+   "claim": "Les 16 AMM sont valides (16 sur 16).",
+   "replacement": "Les 18 AMM sont valides (18 sur 18).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-filgrastim-2",
+   "drug": "filgrastim",
+   "file": "filgrastim.md",
+   "action": "correct",
+   "claim": "les 16 AMM françaises sont valides (16 sur 16)",
+   "replacement": "les 18 AMM françaises sont valides (18 sur 18)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-fludarabine-1",
+   "drug": "fludarabine",
+   "file": "fludarabine.md",
+   "action": "correct",
+   "claim": "- Les 3 AMM françaises sur 3 sont valides",
+   "replacement": "- 3 AMM françaises sur 4 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-fludarabine-2",
+   "drug": "fludarabine",
+   "file": "fludarabine.md",
+   "action": "correct",
+   "claim": "puisque les 3 AMM sur 3 sont valides",
+   "replacement": "puisque 3 AMM sur 4 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-fulvestrant-1",
+   "drug": "fulvestrant",
+   "file": "fulvestrant.md",
+   "action": "correct",
+   "claim": "Les 10 AMM françaises sur 10 sont valides",
+   "replacement": "Les 11 AMM françaises sur 11 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-guselkumab-1",
+   "drug": "guselkumab",
+   "file": "guselkumab.md",
+   "action": "correct",
+   "claim": "Les deux AMM sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont valides (2 AMM valides sur 2).",
+   "replacement": "Les 5 AMM (TREMFYA) sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont valides (5 AMM valides sur 5).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-hydrocortisone-1",
+   "drug": "hydrocortisone",
+   "file": "hydrocortisone.md",
+   "action": "correct",
+   "claim": "les 15 AMM recensées sont valides.",
+   "replacement": "les 19 AMM recensées sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-insulin_lispro-1",
+   "drug": "insulin_lispro",
+   "file": "insulin_lispro.md",
+   "action": "correct",
+   "claim": "- Les 6 AMM françaises sur 6 sont valides",
+   "replacement": "- Les 13 AMM françaises sur 13 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-lanadelumab-1",
+   "drug": "lanadelumab",
+   "file": "lanadelumab.md",
+   "action": "correct",
+   "claim": "Les trois AMM recensées sont valides.",
+   "replacement": "Les 4 AMM recensées sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-lorazepam-1",
+   "drug": "lorazepam",
+   "file": "lorazepam.md",
+   "action": "correct",
+   "claim": "Les 5 AMM sur 5 sont valides :",
+   "replacement": "Les 8 AMM sur 8 sont valides :",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-manidipine-1",
+   "drug": "manidipine",
+   "file": "manidipine.md",
+   "action": "correct",
+   "claim": "Les 16 AMM françaises sur 16 sont valides",
+   "replacement": "Les 18 AMM françaises sur 18 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-methadone-1",
+   "drug": "methadone",
+   "file": "methadone.md",
+   "action": "correct",
+   "claim": "2 AMM valides sur 2 existant actuellement pour ces présentations commercialisées",
+   "replacement": "19 AMM valides sur 19 existant actuellement",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-methocarbamol-1",
+   "drug": "methocarbamol",
+   "file": "methocarbamol.md",
+   "action": "correct",
+   "claim": "avec 2 AMM valides sur 2,",
+   "replacement": "avec 3 AMM valides sur 4,",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-methylprednisolone-1",
+   "drug": "methylprednisolone",
+   "file": "methylprednisolone.md",
+   "action": "correct",
+   "claim": "Les 11 AMM recensées sont valides.",
+   "replacement": "Les 17 AMM recensées sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-midazolam-1",
+   "drug": "midazolam",
+   "file": "midazolam.md",
+   "action": "correct",
+   "claim": "8 AMM valides sur 8.",
+   "replacement": "15 AMM valides sur 17.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-mometasone-1",
+   "drug": "mometasone",
+   "file": "mometasone.md",
+   "action": "correct",
+   "claim": "les 17 AMM françaises sur 17 sont valides",
+   "replacement": "17 AMM françaises sur 18 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-nilotinib-1",
+   "drug": "nilotinib",
+   "file": "nilotinib.md",
+   "action": "correct",
+   "claim": "(5 AMM valides sur 5)",
+   "replacement": "(7 AMM valides sur 7)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-oxazepam-1",
+   "drug": "oxazepam",
+   "file": "oxazepam.md",
+   "action": "correct",
+   "claim": "Les 10 AMM sur 10 sont valides ;",
+   "replacement": "Les 12 AMM sur 12 sont valides ;",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-oxazepam-2",
+   "drug": "oxazepam",
+   "file": "oxazepam.md",
+   "action": "correct",
+   "claim": "(10 AMM valides sur 10)",
+   "replacement": "(12 AMM valides sur 12)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-pegfilgrastim-1",
+   "drug": "pegfilgrastim",
+   "file": "pegfilgrastim.md",
+   "action": "correct",
+   "claim": "- Les 10 AMM françaises sont valides (10 sur 10)",
+   "replacement": "- Les 12 AMM françaises sont valides (12 sur 12)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-phenytoin-1",
+   "drug": "phenytoin",
+   "file": "phenytoin.md",
+   "action": "correct",
+   "claim": "Les 2 AMM sur 2 sont valides :",
+   "replacement": "2 AMM sur 3 sont valides :",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-prasugrel-1",
+   "drug": "prasugrel",
+   "file": "prasugrel.md",
+   "action": "correct",
+   "claim": "Les 4 autorisations recensées sont valides.",
+   "replacement": "Les 6 autorisations recensées sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-propofol-1",
+   "drug": "propofol",
+   "file": "propofol.md",
+   "action": "correct",
+   "claim": "- Les 11 AMM françaises sur 11 sont valides",
+   "replacement": "- 11 AMM françaises sur 12 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-propranolol-1",
+   "drug": "propranolol",
+   "file": "propranolol.md",
+   "action": "correct",
+   "claim": "avec 3 AMM valides sur 3.",
+   "replacement": "avec 10 AMM valides sur 10.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-raltegravir-1",
+   "drug": "raltegravir",
+   "file": "raltegravir.md",
+   "action": "correct",
+   "claim": "six AMM sont valides au total, dont cinq sont listées ci-dessus.",
+   "replacement": "huit AMM sont valides au total, dont cinq sont listées ci-dessus.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-rivastigmine-1",
+   "drug": "rivastigmine",
+   "file": "rivastigmine.md",
+   "action": "correct",
+   "claim": "Les 11 AMM listées sur 11 sont valides ;",
+   "replacement": "Les 16 AMM recensées sont valides ;",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-rivastigmine-2",
+   "drug": "rivastigmine",
+   "file": "rivastigmine.md",
+   "action": "correct",
+   "claim": "les 11 AMM françaises sur 11 sont valides.",
+   "replacement": "les 16 AMM françaises sur 16 sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-rotigotine-1",
+   "drug": "rotigotine",
+   "file": "rotigotine.md",
+   "action": "correct",
+   "claim": "Les 4 AMM françaises sont valides (4 sur 4)",
+   "replacement": "Les 8 AMM françaises sont valides (8 sur 8)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-selpercatinib-1",
+   "drug": "selpercatinib",
+   "file": "selpercatinib.md",
+   "action": "correct",
+   "claim": "(3 AMM valides sur 3)",
+   "replacement": "(4 AMM valides sur 4)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-sotalol-1",
+   "drug": "sotalol",
+   "file": "sotalol.md",
+   "action": "correct",
+   "claim": "(3 AMM valides sur 3)",
+   "replacement": "(16 AMM valides sur 17)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-terazosin-1",
+   "drug": "terazosin",
+   "file": "terazosin.md",
+   "action": "correct",
+   "claim": "puisque les 2 AMM françaises sur 2 sont valides",
+   "replacement": "puisque 6 AMM françaises sur 7 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-thiocolchicoside-1",
+   "drug": "thiocolchicoside",
+   "file": "thiocolchicoside.md",
+   "action": "correct",
+   "claim": "- Les 9 AMM françaises sur 9 sont valides",
+   "replacement": "- 9 AMM françaises sur 10 sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-tiapride-1",
+   "drug": "tiapride",
+   "file": "tiapride.md",
+   "action": "correct",
+   "claim": "(4 AMM valides sur 4)",
+   "replacement": "(5 AMM valides sur 5)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-ticagrelor-1",
+   "drug": "ticagrelor",
+   "file": "ticagrelor.md",
+   "action": "correct",
+   "claim": "11 AMM valides sur 11.",
+   "replacement": "12 AMM valides sur 12.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-topotecan-1",
+   "drug": "topotecan",
+   "file": "topotecan.md",
+   "action": "correct",
+   "claim": "- Les 4 AMM françaises sont valides",
+   "replacement": "- Les 5 AMM françaises sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-trabectedin-1",
+   "drug": "trabectedin",
+   "file": "trabectedin.md",
+   "action": "correct",
+   "claim": "Les 10 AMM françaises sont valides",
+   "replacement": "Les 12 AMM françaises sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-trihexyphenidyl-1",
+   "drug": "trihexyphenidyl",
+   "file": "trihexyphenidyl.md",
+   "action": "correct",
+   "claim": "- Les 3 AMM françaises sont valides (3 sur 3)",
+   "replacement": "- Les 7 AMM françaises sont valides (7 sur 7)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-verapamil-1",
+   "drug": "verapamil",
+   "file": "verapamil.md",
+   "action": "correct",
+   "claim": "avec 5 AMM valides sur 5",
+   "replacement": "avec 15 AMM valides sur 16",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-zuclopenthixol-1",
+   "drug": "zuclopenthixol",
+   "file": "zuclopenthixol.md",
+   "action": "correct",
+   "claim": "(6 AMM valides sur 6)",
+   "replacement": "(7 AMM valides sur 7)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-acarbose-1",
+   "drug": "acarbose",
+   "file": "acarbose.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 13 AMM d'acarbose",
+   "replacement": "Les données compilées recensent 16 AMM d'acarbose (12 valides)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-adapalene-1",
+   "drug": "adapalene",
+   "file": "adapalene.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 9 AMM pour des spécialités contenant de l'adapalène",
+   "replacement": "Les données compilées recensent 12 AMM pour des spécialités contenant de l'adapalène",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-aflibercept-1",
+   "drug": "aflibercept",
+   "file": "aflibercept.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 8 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (Zaltrap, Eylea, Pavblu, Afqlir).",
+   "replacement": "Les données compilées recensent 19 autorisations, toutes pour des solutions injectables ou à diluer pour perfusion (notamment Zaltrap, Eylea, Pavblu, Afqlir).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-alfentanil-1",
+   "drug": "alfentanil",
+   "file": "alfentanil.md",
+   "action": "correct",
+   "claim": "pour ces deux AMM.",
+   "replacement": "pour ces AMM.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-ambrisentan-1",
+   "drug": "ambrisentan",
+   "file": "ambrisentan.md",
+   "action": "correct",
+   "claim": "la liste complète comprend 11 AMM.",
+   "replacement": "la liste complète comprend 13 AMM (11 valides).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-amoxicillin-1",
+   "drug": "amoxicillin",
+   "file": "amoxicillin.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 15 AMM, toutes de statut valide.",
+   "replacement": "Les données compilées recensent 18 AMM, toutes de statut valide.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-anastrozole-1",
+   "drug": "anastrozole",
+   "file": "anastrozole.md",
+   "action": "correct",
+   "claim": "recensent 18 AMM pour des spécialités d'anastrozole",
+   "replacement": "recensent 20 AMM (16 valides) pour des spécialités d'anastrozole",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-azathioprine-1",
+   "drug": "azathioprine",
+   "file": "azathioprine.md",
+   "action": "correct",
+   "claim": "Seules cinq AMM sur les huit recensées sont présentées ici.",
+   "replacement": "Seules cinq AMM sur les neuf recensées sont présentées ici.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-brivaracetam-1",
+   "drug": "brivaracetam",
+   "file": "brivaracetam.md",
+   "action": "correct",
+   "claim": "Les données locales recensent 7 AMM pour des spécialités à base de brivaracétam (Briviact), toutes à substance unique, exploitées par UCB Pharma Belgique.",
+   "replacement": "Les données locales recensent 16 AMM pour des spécialités à base de brivaracétam, toutes à substance unique : 7 BRIVIACT exploitées par UCB Pharma Belgique et 9 génériques (Teva, Zentiva).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-buprenorphine-1",
+   "drug": "buprenorphine",
+   "file": "buprenorphine.md",
+   "action": "correct",
+   "claim": "Les données locales recensent 10 autorisations, toutes pour des produits à substance unique : BUVIDAL",
+   "replacement": "Les données locales recensent de nombreuses autorisations (au moins 19 valides), dont BUVIDAL",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-caspofungin-1",
+   "drug": "caspofungin",
+   "file": "caspofungin.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 12 autorisations de mise sur le marché",
+   "replacement": "Les données compilées recensent 16 autorisations de mise sur le marché (12 valides)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-cefazolin-1",
+   "drug": "cefazolin",
+   "file": "cefazolin.md",
+   "action": "correct",
+   "claim": "recensent 8 autorisations de mise sur le marché",
+   "replacement": "recensent 10 autorisations de mise sur le marché",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-cetirizine-1",
+   "drug": "cetirizine",
+   "file": "cetirizine.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 3 AMM pour des spécialités à base de cétirizine seule,",
+   "replacement": "Les données compilées recensent au moins 20 AMM valides pour des spécialités à base de cétirizine seule,",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-denosumab-1",
+   "drug": "denosumab",
+   "file": "denosumab.md",
+   "action": "correct",
+   "claim": "(13 AMM valides sur 13)",
+   "replacement": "(au moins 20 AMM valides)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-efavirenz-1",
+   "drug": "efavirenz",
+   "file": "efavirenz.md",
+   "action": "correct",
+   "claim": ", et le médicament ne dispose plus d'AMM valide en France.",
+   "replacement": ", et le médicament reste commercialisé en France (12 AMM valides sur 19).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-exemestane-2",
+   "drug": "exemestane",
+   "file": "exemestane.md",
+   "action": "correct",
+   "claim": "Principales AMM (5 sur 16) :",
+   "replacement": "Principales AMM (5 sur 19) :",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-filgrastim-3",
+   "drug": "filgrastim",
+   "file": "filgrastim.md",
+   "action": "correct",
+   "claim": "Les 5 premières AMM sont listées ci-dessous (sur 16).",
+   "replacement": "Les 5 premières AMM sont listées ci-dessous (sur 18).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-ivabradine-1",
+   "drug": "ivabradine",
+   "file": "ivabradine.md",
+   "action": "correct",
+   "claim": "- Les 3 AMM françaises sont valides (3 sur 3, médicament commercialisé)",
+   "replacement": "- Au moins 18 AMM françaises sont valides (médicament commercialisé)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-loperamide-1",
+   "drug": "loperamide",
+   "file": "loperamide.md",
+   "action": "correct",
+   "claim": "avec 1 AMM valide sur 2.",
+   "replacement": "avec au moins 16 AMM valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-maprotiline-1",
+   "drug": "maprotiline",
+   "file": "maprotiline.md",
+   "action": "correct",
+   "claim": "Aucune autorisation de mise sur le marché (AMM) n'est enregistrée pour la Maprotiline en France selon les données disponibles.",
+   "replacement": "Deux autorisations de mise sur le marché (AMM) valides sont enregistrées pour la Maprotiline en France (comprimés pelliculés, AMDIPHARM).",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-maprotiline-2",
+   "drug": "maprotiline",
+   "file": "maprotiline.md",
+   "action": "correct",
+   "claim": "aucune AMM française enregistrée",
+   "replacement": "deux AMM françaises enregistrées sans texte d'indication",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-micafungin-1",
+   "drug": "micafungin",
+   "file": "micafungin.md",
+   "action": "correct",
+   "claim": "Les 8 AMM ci-dessous sont toutes valides ;",
+   "replacement": "8 des 10 AMM recensées sont valides ;",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-minocycline-1",
+   "drug": "minocycline",
+   "file": "minocycline.md",
+   "action": "correct",
+   "claim": "sa seule AMM est valide (1 AMM valide sur 1)",
+   "replacement": "ses 2 AMM sont valides (2 AMM valides sur 2)",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-omalizumab-1",
+   "drug": "omalizumab",
+   "file": "omalizumab.md",
+   "action": "correct",
+   "claim": "Les données compilées recensent 10 autorisations,",
+   "replacement": "Les données compilées recensent 12 autorisations,",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-paliperidone-1",
+   "drug": "paliperidone",
+   "file": "paliperidone.md",
+   "action": "correct",
+   "claim": "17 AMM valides sur 17.",
+   "replacement": "au moins 20 AMM valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-pentosan_polysulfate-1",
+   "drug": "pentosan_polysulfate",
+   "file": "pentosan_polysulfate.md",
+   "action": "correct",
+   "claim": "avec 1 AMM valide sur 1.",
+   "replacement": "avec 2 AMM valides sur 2.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-pirfenidone-1",
+   "drug": "pirfenidone",
+   "file": "pirfenidone.md",
+   "action": "correct",
+   "claim": "Principales AMM (5 sur 17) :",
+   "replacement": "Principales AMM (5 sur 18) :",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-pramipexole-1",
+   "drug": "pramipexole",
+   "file": "pramipexole.md",
+   "action": "correct",
+   "claim": "les 9 AMM françaises sont toutes valides",
+   "replacement": "au moins 20 AMM françaises sont valides",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-prednisolone-1",
+   "drug": "prednisolone",
+   "file": "prednisolone.md",
+   "action": "correct",
+   "claim": "avec 5 AMM valides sur 5,",
+   "replacement": "avec au moins 19 AMM valides,",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-progesterone-1",
+   "drug": "progesterone",
+   "file": "progesterone.md",
+   "action": "correct",
+   "claim": "Les données locales recensent 18 AMM, toutes valides.",
+   "replacement": "Les données locales recensent 19 AMM, dont 18 valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-topiramate-1",
+   "drug": "topiramate",
+   "file": "topiramate.md",
+   "action": "correct",
+   "claim": "Principales AMM (5 sur 17) :",
+   "replacement": "Principales AMM (5 sur 21) :",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
+  },
+  {
+   "id": "fr-lic-20261124-triptorelin-1",
+   "drug": "triptorelin",
+   "file": "triptorelin.md",
+   "action": "correct",
+   "claim": "14 AMM sont valides et 1 est annulée.",
+   "replacement": "14 AMM sur 18 sont valides.",
+   "summary": "Nombre d'AMM mis à jour",
+   "note": "Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide.",
+   "finding": "2026-11-24 證據包依 BDPM 物質代碼補收（scripts/add_current_amm.py，用戶決定「全站但排除離子類」），正文依舊證據包寫的張數／狀態跟新事實層不符，照事實層改寫",
+   "sources": [
+    {
+     "title": "Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt",
+     "url": "https://base-donnees-publique.medicaments.gouv.fr/telechargement",
+     "accessed": "2026-11-24"
+    }
+   ],
+   "checked": "2026-11-24",
+   "method": "2026-11-24 人工查核（依成分補收後正文張數；checker M3 與另寫的寬偵測全量掃出的句子逐句改寫）"
   }
  ]
 }

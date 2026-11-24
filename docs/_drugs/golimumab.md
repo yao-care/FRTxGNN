@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 370
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "GOLIMUMAB"
 predicted_indications: ["hypermobility of coccyx", "Kummell disease"]
-description: "Golimumab : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Golimumab : nouvelle indication prédite, Hypermobility of coccyx (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
 ---
 
 # Golimumab
@@ -52,8 +52,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace dans la **vascularite rhu
 | Nouvelle Indication Prédite | Hypermobility of coccyx |
 | Score de Prédiction TxGNN | 0.9967 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
+| Nombre d'AMM | 8 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ---

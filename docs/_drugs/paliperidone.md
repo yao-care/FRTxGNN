@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 572
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "paliperidone"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "myopia X-linked", "syndromic myopia", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "atypical glycine encephalopathy"]
 description: "Paliperidone : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication d'…"
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **dystrophie r�
 | Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) |
 | Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
-| Nombre d'AMM | 17 (valides : 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -115,7 +115,13 @@ Les mises en garde et contre-indications issues de la notice ANSM n'ont pas pu �
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la dystrophie rétinienne repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible. Par ailleurs, le médicament est commercialisé en France : 17 AMM valides sur 17.
+- La prédiction pour la dystrophie rétinienne repose uniquement sur le modèle (niveau L5), sans essai, sans publication ni mécanisme plausible. Par ailleurs, le médicament est commercialisé en France : au moins 20 AMM valides.
+
+<!-- review:begin fr-lic-20261124-paliperidone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « 17 AMM valides sur 17. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-paliperidone-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Données détaillées sur le mécanisme d'action (DrugBank)
@@ -134,6 +140,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 17 AMM recensées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Invega (paliperidone) prescribing information, Janssen Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=7b8e5b26-b9e4-4704-921b-3c3c0d159916) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

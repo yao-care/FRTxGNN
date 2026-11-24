@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 341
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "flurbiprofen"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "hypermobility of coccyx"]
 description: "Flurbiprofen : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5)."
@@ -52,8 +52,8 @@ Aucun essai clinique ni aucune publication ne soutient actuellement cette prédi
 | Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
-| Nombre d'AMM | 7 (valides : 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 8) |
+| Nombre d'AMM | 8 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ---

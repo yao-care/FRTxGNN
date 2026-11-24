@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 10
 monitor_inn: "benzoic acid"
 predicted_indications: ["bronchitis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "dry eye syndrome", "palmar fibromatosis", "Ledderhose disease", "infantile digital fibromatosis", "hereditary angioedema with C1Inh deficiency", "posterior leukoencephalopathy syndrome", "C1 inhibitor deficiency"]
-last_modified_at: 2026-10-28
-description: "Benzoic Acid : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
+last_modified_at: 2026-11-24
+description: "Benzoic Acid : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 3)"
 ---
 
 # Benzoic Acid
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication pertinente** ne soutiennen
 | Nouvelle Indication Prédite | Bronchite (bronchitis) |
 | Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 4) |
+| Nombre d'AMM | 4 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

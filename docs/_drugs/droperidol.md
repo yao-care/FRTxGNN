@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 262
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "droperidol"
 predicted_indications: ["Tourette syndrome", "trichotillomania", "manic bipolar affective disorder", "attention deficit hyperactivity disorder, inattentive type", "nephrogenic syndrome of inappropriate antidiuresis", "attention deficit-hyperactivity disorder", "headache disorder", "common cold", "hypertrichosis (disease)", "specific developmental disorder"]
-description: "Droperidol : nouvelle indication prédite, Syndrome de Gilles de la Tourette (Tourette syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 9)"
+description: "Droperidol : nouvelle indication prédite, Syndrome de Gilles de la Tourette (Tourette syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 9)"
 ---
 
 # Droperidol
@@ -52,8 +52,8 @@ Parmi les autres prédictions, la **céphalée/migraine** (1 essai terminé pré
 | Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette (Tourette syndrome) |
 | Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
-| Nombre d'AMM | 10 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 12) |
+| Nombre d'AMM | 12 (valides : 9) |
 | Décision Recommandée | Hold |
 
 > **Note :** la prédiction classée n°1 par TxGNN n'est pas la mieux soutenue par les données. Les prédictions n°7 (céphalée) et n°3 (manie) sont étayées par la littérature ; elles sont présentées dans la section « Autres prédictions notables ».

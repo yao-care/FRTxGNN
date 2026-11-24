@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 554
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ofloxacin"
 predicted_indications: ["polyclonal hyperviscosity syndrome", "hyperamylasemia", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague", "congenital hematological disorder", "punctate epithelial keratoconjunctivitis"]
 description: "Ofloxacin : nouvelle indication prédite, Syndrome d'hyperviscosité polyclonale (polyclonal hyperviscosity syndrome) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
@@ -52,8 +52,8 @@ Le modèle TxGNN lui attribue un score très élevé pour plusieurs nouvelles in
 | Nouvelle Indication Retenue pour l'analyse | Polyclonal hyperviscosity syndrome |
 | Score de Prédiction TxGNN | 0.9991 |
 | Niveau de Preuve | L5 pour le rang 1 ; L4 pour la peste septicémique |
-| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
-| Nombre d'AMM | 19 (valides : 19) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 20) |
+| Nombre d'AMM | 20 (valides : 19) |
 | Décision Recommandée | Hold (rang 1) ; question de recherche pour la peste septicémique |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

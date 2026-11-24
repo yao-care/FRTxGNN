@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 497
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Micafungin : nouvelle indication prédite, Infection des voies urinaires (urinary tract infection) (niveau de preuve L3). Indication d'origine : Candidose œsophagienne, candidémie…"
 monitor_inn: "micafungin"
 predicted_indications: ["urinary tract infection (disease)"]
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**infection des 
 | Nouvelle Indication Prédite | Infection des voies urinaires (urinary tract infection) |
 | Score de Prédiction TxGNN | 0,9903 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
-| Nombre d'AMM | 8 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 10) |
+| Nombre d'AMM | 10 (valides : 8) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -81,7 +81,13 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 8 AMM ci-dessous sont toutes valides ; les textes d'indication ne sont pas renseignés.
+8 des 10 AMM recensées sont valides ; les textes d'indication ne sont pas renseignés.
+
+<!-- review:begin fr-lic-20261124-micafungin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 8 AMM ci-dessous sont toutes valides ; » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-micafungin-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -128,6 +134,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées, indications non renseignées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Micafungin (micafungin sodium) prescribing information, Sagent Pharmaceuticals](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=33e579c1-b315-44cb-a690-e2dd2cdf44ee) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

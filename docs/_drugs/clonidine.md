@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 188
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLONIDINE"
 predicted_indications: ["faciodigitogenital syndrome", "specific developmental disorder", "chondromyxoid fibroma", "trichotillomania", "Tourette syndrome", "obesity disorder", "hypervitaminosis", "proximal 16p11.2 microdeletion syndrome", "migraine disorder", "manic bipolar affective disorder"]
-description: "Clonidine : nouvelle indication prédite, Faciodigitogenital syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Clonidine : nouvelle indication prédite, Faciodigitogenital syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Clonidine
@@ -52,8 +52,8 @@ Cette indication correspond toutefois davantage à un usage déjà établi dans 
 | Nouvelle Indication Prédite | Faciodigitogenital syndrome |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 > Remarque : les prédictions classées aux rangs 1 à 4 (syndrome facio-digito-génital, trouble spécifique du développement, fibrome chondromyxoïde, trichotillomanie) ont des scores TxGNN plus élevés mais des preuves nulles ou très faibles (L4-L5). Le syndrome de Gilles de la Tourette, bien que classé 5e par score, est la prédiction la mieux étayée par les données ; il a donc été retenu comme indication principale de ce rapport.

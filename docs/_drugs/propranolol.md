@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 637
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PROPRANOLOL"
 predicted_indications: ["distal myopathy, Tateyama type", "congenital myopathy with excess of thin filaments", "chondroma", "cirrhotic cardiomyopathy"]
-description: "Propranolol : nouvelle indication prédite, Myopathie distale de type Tateyama (distal myopathy, Tateyama type) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
+description: "Propranolol : nouvelle indication prédite, Myopathie distale de type Tateyama (distal myopathy, Tateyama type) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
 ---
 
 # Propranolol
@@ -50,8 +50,8 @@ Les indications suivantes du classement disposent de peu de données : la **card
 | Nouvelle Indication Prédite | Myopathie distale de type Tateyama (distal myopathy, Tateyama type) |
 | Score de Prédiction TxGNN | 0.9940 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -107,7 +107,13 @@ Les mises en garde et contre-indications issues de la notice officielle ne sont 
 **Décision : Hold**
 
 **Justification :**
-- La prédiction pour la myopathie distale de type Tateyama repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans lien mécanistique plausible, et avec des maladies musculaires signalées parmi les contre-indications du propranolol. Le médicament est commercialisé en France, avec 3 AMM valides sur 3.
+- La prédiction pour la myopathie distale de type Tateyama repose uniquement sur le modèle (niveau L5), sans essai ni publication, sans lien mécanistique plausible, et avec des maladies musculaires signalées parmi les contre-indications du propranolol. Le médicament est commercialisé en France, avec 10 AMM valides sur 10.
+
+<!-- review:begin fr-lic-20261124-propranolol-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « avec 3 AMM valides sur 3. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-propranolol-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Les données de sécurité de la notice officielle (ANSM), actuellement bloquantes pour le dépistage de sécurité.
@@ -132,6 +138,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « puisque seules des AMM annulées sont recensées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Inderal Xl (propranolol hydrochloride) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=ac196ff5-9215-402b-bc57-69aa87f8bade) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 816
 evidence_level: L2
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Vinorelbine : nouvelle indication prédite, Sarcome d'Ewing (niveau de preuve L2). Indication d'origine : Cancer bronchique non à petites cellules"
 monitor_inn: "vinorelbine"
 predicted_indications: ["Ewing sarcoma", "fibromatosis, gingival", "fibroma of lung", "pulmonary sulcus neoplasm", "lung germ cell tumor", "hamartoma of lung", "lung benign neoplasm", "pulmonary blastoma"]
@@ -50,8 +50,8 @@ avec **3 essais cliniques** (dont un essai de phase 2 directement pertinent) et 
 | Nouvelle Indication Prédite | Sarcome d'Ewing |
 | Score de Prédiction TxGNN | 1,0000 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
-| Nombre d'AMM | 8 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 14) |
+| Nombre d'AMM | 14 (valides : 14) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 383
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "HYDROXYZINE"
 predicted_indications: ["rosacea conjunctivitis"]
-description: "Hydroxyzine : nouvelle indication prédite, Rosacea conjunctivitis (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
+description: "Hydroxyzine : nouvelle indication prédite, Rosacea conjunctivitis (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 11)"
 ---
 
 # Hydroxyzine
@@ -49,8 +49,8 @@ Aucun essai clinique n'est enregistré pour cette indication ; **19 publications
 | Nouvelle Indication Prédite | Rosacea conjunctivitis |
 | Score de Prédiction TxGNN | 0.9970 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
+| Nombre d'AMM | 12 (valides : 11) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 537
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NIMODIPINE"
 predicted_indications: ["homozygous familial hypercholesterolemia", "nephrogenic syndrome of inappropriate antidiuresis"]
 description: "Nimodipine : nouvelle indication prédite, Hypercholestérolémie familiale homozygote (homozygous familial hypercholesterolemia) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypercholestéro
 | Nouvelle Indication Prédite | Hypercholestérolémie familiale homozygote (homozygous familial hypercholesterolemia) |
 | Score de Prédiction TxGNN | 0.9929 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ---

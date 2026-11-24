@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 468
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LOXAPINE"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "myopia X-linked", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia 26, X-linked, female-limited", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "atypical glycine encephalopathy"]
-description: "Loxapine : nouvelle indication prédite, Retinal dystrophy with or without extraocular anomalies (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Loxapine : nouvelle indication prédite, Retinal dystrophy with or without extraocular anomalies (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Loxapine
@@ -52,8 +52,8 @@ Il s'agit toutefois d'une indication proche de l'indication d'origine, et non d'
 | Nouvelle Indication Prédite | Retinal dystrophy with or without extraocular anomalies |
 | Score de Prédiction TxGNN | 0.9995 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

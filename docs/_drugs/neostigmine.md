@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 531
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "neostigmine"
 predicted_indications: ["autoimmune disease of peripheral nervous system", "disease of receptor activity", "hypersplenism (disease)", "atypical hemolytic-uremic syndrome with B factor anomaly", "bronchitis", "fetal akinesia deformation sequence", "myasthenia, congenital, refractory to acetylcholinesterase inhibitors"]
-description: "Neostigmine : nouvelle indication prédite, Autoimmune disease of peripheral nervous system (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Neostigmine : nouvelle indication prédite, Autoimmune disease of peripheral nervous system (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
 ---
 
 # Neostigmine
@@ -52,8 +52,8 @@ Il s'agit donc d'une prédiction fondée uniquement sur le modèle, plus proche 
 | Nouvelle Indication Prédite | Autoimmune disease of peripheral nervous system |
 | Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ---

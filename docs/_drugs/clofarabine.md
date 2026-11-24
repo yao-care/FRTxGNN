@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 183
 evidence_level: L1
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "CLOFARABINE"
 predicted_indications: ["myeloid leukemia", "ganglioneuroblastoma (disease)", "neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "retroperitoneal neoplasm", "blast phase chronic myelogenous leukemia, BCR-ABL1 positive", "chronic lymphocytic leukemia/small lymphocytic lymphoma with immunoglobulin heavy chain variable-region gene somatic hypermutation", "pregerminal center chronic lymphocytic leukemia/small lymphocytic lymphoma"]
-description: "Clofarabine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Clofarabine : nouvelle indication prédite, Leucémie myéloïde (myeloid leukemia) (niveau de preuve L1). En France, AMM dans la BDPM : 5 (valides : 4)"
 ---
 
 # Clofarabine
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **leucémie myél
 | Nouvelle Indication Prédite | Leucémie myéloïde (myeloid leukemia) |
 | Score de Prédiction TxGNN | 0.9988 |
 | Niveau de Preuve | L1 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

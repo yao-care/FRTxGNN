@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-24
 monitor_inn: "galantamine"
 predicted_indications: ["psychogenic movement disorders", "chronic tic disorder", "primary orthostatic tremor", "benign shuddering attacks", "extrapyramidal and movement disease", "tremor-nystagmus-duodenal ulcer syndrome", "lingual-facial-buccal dyskinesia", "benign paroxysmal tonic upgaze of childhood with ataxia", "acute intermittent porphyria"]
-description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 14)"
+description: "Galantamine : nouvelle indication prédite, Troubles du mouvement psychogènes (psychogenic movement disorders) (niveau de preuve L5). En France, AMM dans la BDPM : 19 (valides : 14)"
 ---
 
 # Galantamine
@@ -51,8 +51,8 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour les **troubles d
 | Nouvelle Indication Prédite | Troubles du mouvement psychogènes (psychogenic movement disorders) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 16) |
-| Nombre d'AMM | 16 (valides : 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 19) |
+| Nombre d'AMM | 19 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ---

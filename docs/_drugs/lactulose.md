@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 431
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "LACTULOSE"
 predicted_indications: ["acute urate nephropathy", "nephrolithiasis", "obstructive jaundice", "bile duct disease", "biliary tract disease", "hyperphosphatemia (disease)", "exercise-induced malignant hyperthermia", "bile duct neoplasm"]
-description: "Lactulose : nouvelle indication prédite, Acute urate nephropathy (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 9)"
+description: "Lactulose : nouvelle indication prédite, Acute urate nephropathy (niveau de preuve L5). En France, AMM dans la BDPM : 18 (valides : 17)"
 ---
 
 # Lactulose
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**ictère obstruct
 | Nouvelle Indication Prédite | Acute urate nephropathy |
 | Score de Prédiction TxGNN | 0.9989 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
-| Nombre d'AMM | 10 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 18) |
+| Nombre d'AMM | 18 (valides : 17) |
 | Décision Recommandée | Hold |
 
 > Remarque : les prédictions de rang 1 et 2 (néphropathie urique aiguë, score 0,9989 ; néphrolithiase, 0,9978) sont de niveau L5, sans essai ni publication. L'ictère obstructif a été retenu car c'est la première prédiction accompagnée de preuves réelles.

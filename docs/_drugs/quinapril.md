@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-24
 monitor_inn: "QUINAPRIL"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "Braddock syndrome"]
-description: "Quinapril : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 0)"
+description: "Quinapril : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 3)"
 ---
 
 # Quinapril
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**hypertension ré
 | Nouvelle Indication Prédite | Malignant hypertensive renal disease |
 | Score de Prédiction TxGNN | 0.9986 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé (autorisations annulées : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 6) |
+| Nombre d'AMM | 6 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -104,12 +104,6 @@ Seule l'hypertension pulmonaire liée à une maladie pulmonaire ou à l'hypoxie 
 
 <!-- review:end fr-row-20261112-quinapril-2 -->
 
-<!-- review:begin fr-lic-20261124-quinapril-1 -->
-
-> **Note de vérification (2026-11-24)**: Les données compilées pour ce rapport ne contiennent que les deux AMM ACUITEL (62206135, 62927128), archivées le 27-04-2025 ; le statut « Non commercialisé » du Résumé rapide ne porte que sur ces deux AMM. D’après la BDPM (fichiers complets consultés le 2026-11-24), QUINAPRIL BIOGARAN 20 mg (61168571) a le statut « Autorisation active », ainsi que deux associations quinapril/hydrochlorothiazide 20 mg/12,5 mg (EG 60455586, ARROW LAB 69777040). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
-
-<!-- review:end fr-lic-20261124-quinapril-1 -->
-
 ## Considérations de Sécurité
 
 - **Contre-indications issues du graphe de connaissances** (et non du texte de la notice) : angiœdème (y compris héréditaire, acquis et induit par les bloqueurs du système rénine-angiotensine-aldostérone), insuffisance rénale, anurie, maladie hépatique, encéphalopathie hépatique, pancréatite, maladie de la vésicule biliaire, lupus érythémateux systémique, maladies du tissu conjonctif, diabète et acidocétose diabétique, carence en potassium, goutte, neutropénie, agranulocytose, hypotension, hyperparathyroïdie, ainsi que l'ictère néonatal.
@@ -161,7 +155,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-24 | Tableau : l’AMM 62206135 (ACUITEL 5 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 62206135](https://base-donnees-publique.medicaments.gouv.fr/medicament/62206135/extrait) |
 | 2026-11-24 | Tableau : l’AMM 62927128 (ACUITEL 20 mg) est archivée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 62927128](https://base-donnees-publique.medicaments.gouv.fr/medicament/62927128/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: quinapril prescribing information, Proficient Rx LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=f33dbbb1-1a4a-42b0-a5c5-3ac905823206) |
-| 2026-11-24 | Autres AMM de quinapril actives dans la BDPM | Note ajoutée | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Autres AMM de quinapril actives dans la BDPM | Vérification retirée (2026-11-24 : QUINAPRIL BIOGARAN 61168571 et les associations quinapril/hydrochlorothiazide font désormais partie des données compilées (complément par code de substance BDPM, 2026-11-24) ; la note n'est plus nécessaire ; auparavant : Note ajoutée) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 776
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "trabectedin"
 predicted_indications: ["female breast carcinoma"]
-description: "Trabectedin : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
+description: "Trabectedin : nouvelle indication prédite, Carcinome du sein féminin (female breast carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Trabectedin
@@ -50,8 +50,8 @@ avec **1 essai clinique** (non démonstratif d'efficacité) et **20 publications
 | Nouvelle Indication Prédite | Carcinome du sein féminin (female breast carcinoma) |
 | Score de Prédiction TxGNN | 0.9973 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -95,11 +95,11 @@ Les résultats chiffrés d'efficacité des études de phase 2 ne figurent pas da
 | 69228351 | TRABECTEDINE SUN 1 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 | 66602114 | YONDELIS 0,25 mg | Poudre pour solution à diluer pour perfusion | Non renseignée (AMM active) |
 
-Au total, 10 AMM sont recensées.
+Au total, 12 AMM sont recensées.
 
 <!-- review:begin fr-lic-20261106-trabectedin-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 10 AMM sont recensées, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Au total, 10 AMM sont recensées, toutes annulées. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 10 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-trabectedin-1 -->
 
@@ -126,7 +126,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications.
 **Décision : Hold**
 
 **Justification :**
-- Le rationnel mécanistique (déficit de réparation de l'ADN, microenvironnement tumoral) est plausible et des études de phase 2 existent dans le cancer du sein, mais le seul essai enregistré n'évalue pas l'efficacité et les données de preuve restent de niveau L3. Les 10 AMM françaises sont valides (médicament commercialisé), mais les mises en garde de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité.
+- Le rationnel mécanistique (déficit de réparation de l'ADN, microenvironnement tumoral) est plausible et des études de phase 2 existent dans le cancer du sein, mais le seul essai enregistré n'évalue pas l'efficacité et les données de preuve restent de niveau L3. Les 12 AMM françaises sont valides (médicament commercialisé), mais les mises en garde de la notice sont indisponibles, ce qui bloque l'évaluation de sécurité.
+
+<!-- review:begin fr-lic-20261124-trabectedin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 10 AMM françaises sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-trabectedin-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), lacune bloquante
@@ -149,9 +155,10 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « toutes annulées » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-06 | Supprimé : « Vérifier la raison de l'annulation des AMM et le statut commercial réel en France » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Evdi (trabectedin) prescribing information, Apotex Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=c1d50f5c-4202-27f3-4798-a9708114ddea) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

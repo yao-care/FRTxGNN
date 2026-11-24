@@ -3,7 +3,7 @@ layout: default
 title: Tiagabine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 758
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Tiagabine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -44,8 +44,8 @@ Le modèle TxGNN (score ≥ 0,99) a produit des candidats pour la Tiagabine. Tou
 
 | Élément | Contenu |
 |------|------|
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Usages connus parmi les candidats du modèle | 0 |
 | Statut commercial en France | Commercialisé (autorisations valides : 1 sur 1) |
 

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 428
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "labetalol"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism"]
-description: "Labetalol : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 1)"
+description: "Labetalol : nouvelle indication prédite, Malignant hypertensive renal disease (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
 ---
 
 # Labetalol
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **une seule publication** (un cas clinique) sou
 | Nouvelle Indication Prédite | Malignant hypertensive renal disease |
 | Score de Prédiction TxGNN | 0.9908 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

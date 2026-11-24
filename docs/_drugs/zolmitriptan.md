@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 830
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "ZOLMITRIPTAN"
 predicted_indications: ["atrophoderma vermiculata", "ulerythema ophryogenesis"]
-description: "Zolmitriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). En France, AMM dans la BDPM : 20 (valides : 20)"
+description: "Zolmitriptan : nouvelle indication prédite, Atrophoderma vermiculata (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Zolmitriptan
@@ -48,8 +48,8 @@ Zolmitriptan est un agoniste des récepteurs 5-HT1B/1D (famille des triptans), i
 | Nouvelle Indication Prédite | Atrophoderma vermiculata |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 20 sur 20) |
-| Nombre d'AMM | 20 (valides : 20) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 Remarque : le texte d'indication approuvée n'est pas renseigné dans les AMM compilées.

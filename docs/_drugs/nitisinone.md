@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 539
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NITISINONE"
 predicted_indications: ["renal tubular acidosis", "galactosemia", "serpinopathy with toxic serpin polymerization", "C1 inhibitor deficiency", "glycogen storage disease", "adult polyglucosan body disease", "glycogen storage disease due to glucose-6-phosphatase deficiency", "Griscelli syndrome", "granulomatous disease, chronic, X-linked", "ermine phenotype"]
-description: "Nitisinone : nouvelle indication prédite, Acidose tubulaire rénale (renal tubular acidosis) (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
+description: "Nitisinone : nouvelle indication prédite, Acidose tubulaire rénale (renal tubular acidosis) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 9)"
 ---
 
 # Nitisinone
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**acidose tubulair
 | Nouvelle Indication Prédite | Acidose tubulaire rénale (renal tubular acidosis) |
 | Score de Prédiction TxGNN | 0.9996 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
-| Nombre d'AMM | 9 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 12) |
+| Nombre d'AMM | 12 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ---

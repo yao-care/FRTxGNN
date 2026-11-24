@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-24
 monitor_inn: "letrozole"
 predicted_indications: ["nipple carcinoma", "Ehrlich tumor carcinoma", "breast fibrocystic disease", "benign mammary dysplasia"]
-description: "Letrozole : nouvelle indication prédite, Carcinome du mamelon (nipple carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : 20 (valides : 18)"
+description: "Letrozole : nouvelle indication prédite, Carcinome du mamelon (nipple carcinoma) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Letrozole
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **carcinome du ma
 | Nouvelle Indication Prédite | Carcinome du mamelon (nipple carcinoma) |
 | Score de Prédiction TxGNN | 0.9976 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 20) |
-| Nombre d'AMM | 20 (valides : 18) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 18) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

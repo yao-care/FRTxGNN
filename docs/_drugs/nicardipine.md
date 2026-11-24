@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 534
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "NICARDIPINE"
 predicted_indications: ["pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "malignant hypertensive renal disease", "Braddock syndrome"]
-description: "Nicardipine : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
+description: "Nicardipine : nouvelle indication prédite, Pulmonary hypertension with unclear multifactorial mechanism (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
 ---
 
 # Nicardipine
@@ -50,8 +50,8 @@ mais **aucun essai clinique** n'est enregistré et seules **quelques publication
 | Nouvelle Indication Prédite | Pulmonary hypertension with unclear multifactorial mechanism |
 | Score de Prédiction TxGNN | 0.9926 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 *Remarque : la prédiction classée en tête (hypertension pulmonaire de mécanisme multifactoriel mal défini) a le même score mais ne repose sur aucune preuve (niveau L5). Nous avons retenu la deuxième, qui dispose de quelques éléments de preuve indirects (niveau L4).*

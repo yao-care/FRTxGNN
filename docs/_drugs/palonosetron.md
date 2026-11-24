@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 574
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Palonosetron : nouvelle indication prédite, Migraine (« migraine disorder ») (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM compilées"
 monitor_inn: "palonosetron"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "atrophoderma vermiculata", "ulerythema ophryogenesis"]
@@ -51,8 +51,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour la **migraine** 
 | Nouvelle Indication Prédite | Migraine (« migraine disorder ») |
 | Score de Prédiction TxGNN | 0,9974 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ---

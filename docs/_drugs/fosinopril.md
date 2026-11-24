@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prédiction TxGNN | 0.9987 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 10) |
-| Nombre d'AMM | 10 (valides : 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 14) |
+| Nombre d'AMM | 14 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -96,11 +96,11 @@ Aucune littérature soutenant l'indication principale (maladie rénale hypertens
 
 <!-- review:end fr-row-20261112-fosinopril-1 -->
 
-Au total, 10 AMM figurent dans la base.
+Au total, 14 AMM figurent dans la base.
 
 <!-- review:begin fr-lic-20261106-fosinopril-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 10 AMM figurent dans la base, toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Au total, 10 AMM figurent dans la base, toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg). » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 10 AMM pour ce médicament, dont 7 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-fosinopril-1 -->
 
@@ -139,7 +139,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « toutes annulées (dont 3 associations avec l'hydrochlorothiazide 20 mg/12,5 mg) » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-06 | Supprimé : « Une évaluation de la faisabilité réglementaire, compte tenu de l'annulation de toutes les AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-24 | Tableau : l’AMM 60095526 (FOSINOPRIL ZENTIVA 10 mg) est abrogée, non active | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – fiche 60095526](https://base-donnees-publique.medicaments.gouv.fr/medicament/60095526/extrait) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Fosinopril Sodium (fosinopril) prescribing information, Bryant Ranch Prepack](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fc38f1bb-f175-4a81-8ed9-c8701efdea35) |

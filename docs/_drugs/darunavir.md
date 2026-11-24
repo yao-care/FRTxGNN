@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 217
 evidence_level: L4
 indication_count: 4
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "DARUNAVIR"
 predicted_indications: ["simian immunodeficiency virus infection", "feline acquired immunodeficiency syndrome", "neurodevelopmental disorder with ataxic gait, absent speech, and decreased cortical white matter", "obsolete familial combined hyperlipidemia"]
 description: "Darunavir : nouvelle indication prédite, Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) (niveau de preuve L4). Indication d'origine : Non renseignée d…"
@@ -52,8 +52,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**infection par le
 | Nouvelle Indication Prédite | Infection par le virus de l'immunodéficience simienne (simian immunodeficiency virus infection) |
 | Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
-| Nombre d'AMM | 17 (valides : 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 18) |
+| Nombre d'AMM | 18 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ---
@@ -95,11 +95,11 @@ Aucun essai clinique associé n'est enregistré actuellement.
 | 63124787 | DARUNAVIR VIATRIS 600 mg | comprimé pelliculé | Non renseignée (AMM active) |
 | 65602549 | DARUNAVIR VIATRIS 800 mg | comprimé pelliculé | Non renseignée (AMM active) |
 
-Les 17 AMM recensées sont des génériques à base de darunavir seul.
+Les 18 AMM recensées (17 valides) sont des génériques à base de darunavir seul.
 
 <!-- review:begin fr-lic-20261106-darunavir-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Les 17 AMM recensées sont des génériques à base de darunavir seul, toutes au statut annulé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 17 AMM recensées sont des génériques à base de darunavir seul, toutes au statut annulé. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 17 AMM pour ce médicament, dont 17 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-darunavir-1 -->
 
@@ -137,7 +137,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « toutes au statut annulé » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « toutes au statut annulé » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Prezista (darunavir) prescribing information, Janssen Products LP](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=814301f9-c990-46a5-b481-2879a521a16f) |
 
 <!-- review:end log -->

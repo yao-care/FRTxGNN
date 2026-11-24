@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 777
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "TRAMADOL"
 predicted_indications: ["acromesomelic dysplasia, Hunter-Thompson type", "brachyolmia-amelogenesis imperfecta syndrome", "myosclerosis", "brachyolmia", "pseudoachondroplasia", "juvenile idiopathic arthritis", "juvenile arthritis due to defect in LACC1", "rheumatoid nodulosis", "rheumatoid factor-positive polyarticular juvenile idiopathic arthritis"]
 description: "Tramadol : nouvelle indication prédite, Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) (niveau de preuve L5). Indication d'origine : Non renseignée …"
@@ -50,8 +50,8 @@ Aucun essai clinique et aucune publication ne soutiennent actuellement cette dir
 | Nouvelle Indication Prédite | Dysplasie acromésomélique de type Hunter-Thompson (acromesomelic dysplasia, Hunter-Thompson type) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

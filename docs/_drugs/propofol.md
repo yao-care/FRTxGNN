@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 636
 evidence_level: L2
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Propofol : nouvelle indication prédite, Migraine (« migraine disorder ») (niveau de preuve L2). Indication d'origine : Non renseignée dans les données d'AMM compilées (usage anesthésique c…"
 monitor_inn: "PROPOFOL"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura", "Prinzmetal angina", "nephrogenic syndrome of inappropriate antidiuresis", "Tourette syndrome"]
@@ -50,8 +50,8 @@ avec **3 essais cliniques** et **19 publications** soutenant actuellement cette 
 | Nouvelle Indication Prédite | Migraine (« migraine disorder ») |
 | Score de Prédiction TxGNN | 0,9969 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
-| Nombre d'AMM | 11 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 12) |
+| Nombre d'AMM | 12 (valides : 11) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -95,11 +95,11 @@ L'usage reste cependant limité à un cadre surveillé (service d'urgences) en r
 | 66110981 | Propofol Kabi 10 mg/mL | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
 | 66701952 | Propofol Lipuro 2 % (20 mg/ml) | Émulsion injectable ou pour perfusion | Non renseignée (AMM active) |
 
-Au total, 11 AMM sont recensées; seules les 5 premières sont listées ici.
+Au total, 12 AMM sont recensées; seules les 5 premières sont listées ici.
 
 <!-- review:begin fr-lic-20261106-propofol-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Au total, 11 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Au total, 11 AMM sont recensées, toutes annulées ; seules les 5 premières sont listées ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-propofol-1 -->
 
@@ -117,7 +117,13 @@ Pour les mises en garde et contre-indications officielles, veuillez consulter la
 
 **Justification :**
 - Un essai de Phase 2/3 terminé et plusieurs ECR dans la migraine soutiennent la prédiction (niveau L2), mais aucun ECR de Phase 3 confirmatoire n'est disponible.
-- Les 11 AMM françaises sur 11 sont valides (médicament commercialisé), mais les données de sécurité de la notice manquent, d'où la nécessité de garde-fous (usage hospitalier surveillé uniquement).
+- 11 AMM françaises sur 12 sont valides (médicament commercialisé), mais les données de sécurité de la notice manquent, d'où la nécessité de garde-fous (usage hospitalier surveillé uniquement).
+
+<!-- review:begin fr-lic-20261124-propofol-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 11 AMM françaises sur 11 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-propofol-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications officielles de la notice (ANSM)
@@ -140,8 +146,9 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « toutes annulées » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Diprivan (propofol) prescribing information, Fresenius Kabi USA, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=e3105799-a4b6-f3f4-e6e2-b2b29bbdb538) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 513
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Mometasone : nouvelle indication prédite, Lymphome cutané primitif à cellules T (niveau de preuve L5). Indication d'origine : Non précisée dans les AMM compilées (usage connu : asthme…"
 monitor_inn: "mometasone"
 predicted_indications: ["primary cutaneous T-cell lymphoma"]
@@ -52,8 +52,8 @@ Aucun essai clinique n'est enregistré et seules **2 publications** (deux cas cl
 | Nouvelle Indication Prédite | Lymphome cutané primitif à cellules T |
 | Score de Prédiction TxGNN | 0,9936 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
-| Nombre d'AMM | 17 (valides : 17) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 18) |
+| Nombre d'AMM | 18 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ---
@@ -118,7 +118,13 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, et seulement deux cas cliniques non probants. De plus, les 17 AMM françaises sur 17 sont valides (médicament commercialisé), mais les données de sécurité issues de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5) : aucun essai clinique, et seulement deux cas cliniques non probants. De plus, 17 AMM françaises sur 18 sont valides (médicament commercialisé), mais les données de sécurité issues de la notice manquent, ce qui bloque l'étape de criblage de sécurité.
+
+<!-- review:begin fr-lic-20261124-mometasone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « les 17 AMM françaises sur 17 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-mometasone-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice de l'ANSM (mises en garde et contre-indications)
@@ -137,6 +143,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les 17 AMM compilées sont toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Asmanex Hfa (mometasone furoate) prescribing information, Organon LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0c6d63da-41bc-4894-bead-198e66c848ac) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

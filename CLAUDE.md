@@ -51,6 +51,23 @@ python3 scripts/check_seo_docs.py              # 必須 exit 0
   任一份檔下載失敗、兩份合計少於 15,000 個 CIS、或產品頁讀不到時不判定。`confirmed_absent()` 讓排程把這些列成「主管機關現行清單確認已不列」，不算「查不到」。
 - 2026-11-17 排程：新資料涵蓋 100%（5,820 張），狀態變動 0、改頁 0。
 
+## 依 BDPM 物質代碼補收同成分 AMM（2026-11-24）
+
+用戶 2026-11-24 決定「依成分補進證據包」「全站但排除離子類」：raloxifene、quinapril 的證據包只收到已廢止的舊 AMM，BDPM 另有現行 AMM。原因是 collectors/frfda.py 依 data/processed/drug_mapping.csv 的成分名對 DrugBank ID，
+drug_mapping 只認得「RALOXIFÈNE (CHLORHYDRATE DE)」這種寫法，同一成分寫成「CHLORHYDRATE DE RALOXIFÈNE」（BDPM 物質代碼同為 79270）就收不到；不是新註冊的 AMM。
+- `scripts/add_current_amm.py --cis CIS_bdpm.txt --compo CIS_COMPO_bdpm.txt [--dry-run] [--report out.tsv]`：本藥的物質代碼＝證據包既有 CIS 的 SA 列中、成分名跟 drug_mapping 對到本藥 DrugBank ID 的成分名完全相同的列（不去鹽類，避免 FLUORURE DE SODIUM→sodium）；
+  現行 CIS_COMPO 有這些代碼、不在證據包的 CIS 照原規則補收（複方照收，只收 CIS_bdpm 有的 CIS，status＝CIS_bdpm 第 5 欄），欄位照 10-31 補入的格式並記 source（物質代碼、檔案日期）與 added；
+  records 照原收集器最多 20 筆（單方優先），其餘記在 bdpm_not_stored 並算進 total_matches。只加不刪、可重複執行。
+- 不擴充的離子／抗衡離子證據包（EXCLUDE，drug_mapping 本來就把鹽類成分名對到裸離子 DrugBank ID）：sodium（試跑會收 153 張：氯化鈉輸液、DURAPHAT 氟化鈉、fusidate de sodium）、potassium（65 張補鉀劑）、
+  calcium（62 張，多是 FOLINATE DE CALCIUM）、zinc（16 張鋅鹽）、aluminium（10 張 MAALOX 等制酸劑）、ammonium（0 張）、magnesium、chloride（本站目前沒有這兩個證據包）。
+- 2026-11-24 第一次跑（BDPM 全量檔 2026-11-24）：333 個證據包補 5,237 筆（存進 records 1,101 筆、超過上限只算張數 4,136 筆；其中 182 個證據包有原規則因成分名寫法漏收的 1,365 張，其餘是原規則對得到、只因 20 筆上限沒存的）；
+  raloxifene 補 9 張現行（含 EVISTA 67365141）、quinapril 補 QUINAPRIL BIOGARAN 61168571 與 3 張複方。196 頁概覽表狀態列／張數列由程式同步。
+- 正文依舊證據包寫的張數與「全部有效／沒有有效 AMM」：checker M3 抓到 61 句，另寫一支更寬的偵測（同句有 AMM／autorisation 字樣、數字不等於事實層總數／有效數／非有效數，或有否定與全稱字樣）全量掃 196 頁，
+  再找到 40 句（checker 漏抓的例：verapamil「n'a plus d'AMM valide」、maprotiline「Aucune AMM n'est enregistrée」）；101 句改寫成事實層張數（90 筆新的 `fr-lic-20261124-*`、11 筆 11-06 紀錄同 id 重發，前版存 history；
+  rivastigmine 的 11-06 刪句紀錄改錨）。只講表上幾張的句子改成明講「tableau ci-dessus」並補總數；待辦條目（bendamustine「des deux AMM」等）照規則不改。寬偵測複查剩 38 句，都是改寫後張數一致或不是張數句。
+  `fr-lic-20261124-raloxifene-1`、`quinapril-1`（同日加的「證據包只收到舊 AMM」加註）撤回。checker 全量 0、gate 通過。
+- `.github/workflows/license-refresh.yml` 在 license_refresh 前先跑這支（下載 CIS_bdpm.txt、CIS_COMPO_bdpm.txt），之後成分名寫法漏收或新註冊的同成分 AMM 會自動補進證據包；正文張數若因此矛盾，排程照常擋下該頁、要另寫紀錄。
+
 ## 作用機轉段的資料來源與查核機制（2026-11-19）
 
 用戶 2026-11-19 決定把 NZTxGNN 同日的作法推到各站（seo-ops 轉交：搜「<藥名> mechanism of action」落在藥物頁排名 30–99，因為頁面寫「作用機轉資料不可得」）。

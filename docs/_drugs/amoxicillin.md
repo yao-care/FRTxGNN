@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "amoxicillin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "premalignant hematological system disease", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-last_modified_at: 2026-11-20
-description: "Amoxicillin : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). En France, AMM dans la BDPM : 15 (valides : 15)"
+last_modified_at: 2026-11-24
+description: "Amoxicillin : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). En France, AMM dans la BDPM : 18 (valides : 18)"
 ---
 
 # Amoxicillin
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hyperamylasémie 
 | Nouvelle Indication Prédite | Hyperamylasémie (hyperamylasemia) |
 | Score de Prédiction TxGNN | 0,9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 15) |
-| Nombre d'AMM | 15 (valides : 15) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -71,7 +71,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les données compilées recensent 15 AMM, toutes de statut valide. Les 5 premières sont listées ci-dessous (les textes d'indication ne sont pas renseignés).
+Les données compilées recensent 18 AMM, toutes de statut valide. Les 5 premières sont listées ci-dessous (les textes d'indication ne sont pas renseignés).
+
+<!-- review:begin fr-lic-20261124-amoxicillin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 15 AMM, toutes de statut valide. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-amoxicillin-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique |
 |---------|------|------|
@@ -106,11 +112,12 @@ Pour les mises en garde et contre-indications, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: amoxicillin prescribing information, PD-Rx Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=98e9274c-c02e-44d9-8cc5-17536ef03a77) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 35
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Alfentanil : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (SNAI) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données d'AMM disponibles"
 monitor_inn: "ALFENTANIL"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -49,8 +49,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour le **syndrome n�
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée (SNAI) |
 | Score de Prédiction TxGNN | 0,9951 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
+| Nombre d'AMM | 3 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -76,7 +76,13 @@ Aucune littérature associée disponible actuellement.
 | 68622560 | RAPIFEN 1 mg (0,5 mg/ml), solution injectable | Solution injectable | Active |
 | 63670722 | RAPIFEN 5 mg (0,5 mg/ml), solution injectable | Solution injectable | Active |
 
-Le texte des indications approuvées n'est pas renseigné pour ces deux AMM. Le titulaire est Piramal Critical Care (Pays-Bas).
+Le texte des indications approuvées n'est pas renseigné pour ces AMM. Le titulaire est Piramal Critical Care (Pays-Bas).
+
+<!-- review:begin fr-lic-20261124-alfentanil-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « pour ces deux AMM. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-alfentanil-1 -->
 
 ## Considérations de Sécurité
 
@@ -116,6 +122,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « es AMM françaises sont toutes annulées et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

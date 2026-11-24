@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 496
 evidence_level: L5
 indication_count: 4
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "mianserin"
 predicted_indications: ["benign paroxysmal torticollis of infancy", "agoraphobia", "Ohdo syndrome and variants", "neurotic disorder"]
 description: "Mianserin : nouvelle indication prédite, Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) (niveau de preuve L5). Indication d'origine : Non renseignée dans les d…"
@@ -52,8 +52,8 @@ Pour des indications voisines de l'indication d'origine (dysthymie, mélancolie,
 | Nouvelle Indication Prédite | Torticolis paroxystique bénin du nourrisson (benign paroxysmal torticollis of infancy) |
 | Score de Prédiction TxGNN | 0.9949 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ---

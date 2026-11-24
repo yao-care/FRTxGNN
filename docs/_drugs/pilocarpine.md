@@ -3,7 +3,7 @@ layout: default
 title: Pilocarpine
 parent: Usages connus uniquement (aucune nouvelle prédiction)
 nav_order: 603
-last_modified_at: 2026-10-28
+last_modified_at: 2026-11-24
 description: "Pilocarpine : usages connus et statut commercial en France ; actuellement aucune nouvelle indication candidate"
 predicted_indications: []
 indication_count: 0
@@ -44,8 +44,8 @@ Les candidats proposés par le modèle TxGNN (score ≥ 0,99) pour la Pilocarpin
 
 | Élément | Contenu |
 |------|------|
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Usages connus parmi les candidats du modèle | 1 |
 | Statut commercial en France | Commercialisé (autorisations valides : 1 sur 1) |
 

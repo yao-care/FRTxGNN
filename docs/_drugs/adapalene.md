@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 1
 monitor_inn: "adapalene"
 predicted_indications: ["zinc, elevated plasma"]
-last_modified_at: 2026-11-20
-description: "Adapalene : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
+last_modified_at: 2026-11-24
+description: "Adapalene : nouvelle indication prédite, Zinc plasmatique élevé (zinc, elevated plasma) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Adapalene
@@ -50,8 +50,8 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 | Nouvelle Indication Prédite | Zinc plasmatique élevé (zinc, elevated plasma) |
 | Score de Prédiction TxGNN | 0,9951 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
-| Nombre d'AMM | 9 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,7 +72,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les données compilées recensent 9 AMM pour des spécialités contenant de l'adapalène (crème et gel), commercialisées notamment par Zentiva, Teva Santé, Galderma International et Laboratoires Medgen. Les dossiers de ces AMM ne contiennent pas de texte d'indication. Le détail de ces autorisations est fourni par le programme du site.
+Les données compilées recensent 12 AMM pour des spécialités contenant de l'adapalène (crème et gel), commercialisées notamment par Zentiva, Teva Santé, Galderma International et Laboratoires Medgen. Les dossiers de ces AMM ne contiennent pas de texte d'indication. Le détail de ces autorisations est fourni par le programme du site.
+
+<!-- review:begin fr-lic-20261124-adapalene-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 9 AMM pour des spécialités contenant de l'adapalène » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-adapalene-1 -->
 
 ## Considérations de Sécurité
 
@@ -98,11 +104,12 @@ La prédiction repose uniquement sur le score du modèle (niveau de preuve L5), 
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Differin (adapalene) prescribing information, Galderma Laboratories, L.P.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=a0031324-92a6-4c11-90e2-c2818f7278ec) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

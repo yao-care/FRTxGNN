@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 395
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "IMIQUIMOD"
 predicted_indications: ["pre-malignant neoplasm", "benign neoplasm of buccal mucosa", "cervical neuroblastoma", "odontogenic cyst", "benign neoplasm of tongue", "nasopharyngeal teratoma", "cystic neoplasm", "inner ear neoplasm", "neoplasm of major salivary gland", "schwannoma of jugular foramen"]
-description: "Imiquimod : nouvelle indication prédite, Néoplasme prémalin (pre-malignant neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
+description: "Imiquimod : nouvelle indication prédite, Néoplasme prémalin (pre-malignant neoplasm) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 
 # Imiquimod
@@ -52,8 +52,8 @@ Cette prédiction recoupe en grande partie l'indication déjà connue de la kér
 | Nouvelle Indication Prédite | Néoplasme prémalin (pre-malignant neoplasm) |
 | Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 (selon le classement des données compilées ; voir la réserve dans la conclusion) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 3) |
+| Nombre d'AMM | 3 (valides : 2) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ---

@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 502
 evidence_level: L5
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "MINOCYCLINE"
 predicted_indications: ["punctate epithelial keratoconjunctivitis", "exposure keratitis"]
 description: "Minocycline : nouvelle indication prédite, Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) (niveau de preuve L5). Indication d'origine : Non renseignée dans les do…"
@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 | Nouvelle Indication Prédite | Kératoconjonctivite épithéliale ponctuée (punctate epithelial keratoconjunctivitis) |
 | Score de Prédiction TxGNN | 0.9963 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -82,7 +82,13 @@ Aucune littérature associée disponible actuellement.
 
 <!-- review:end fr-row-20261112-minocycline-1 -->
 
-Le médicament est commercialisé et sa seule AMM est valide (1 AMM valide sur 1) dans les données compilées. En revanche, la forme disponible est une gélule orale : la compatibilité avec une voie d'administration oculaire n'a pas été évaluée.
+Le médicament est commercialisé et ses 2 AMM sont valides (2 AMM valides sur 2) dans les données compilées. En revanche, la forme disponible est une gélule orale : la compatibilité avec une voie d'administration oculaire n'a pas été évaluée.
+
+<!-- review:begin fr-lic-20261124-minocycline-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « sa seule AMM est valide (1 AMM valide sur 1) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-minocycline-1 -->
 
 ## Considérations de Sécurité
 
@@ -126,6 +132,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « et la seule AMM française est annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-12 | Tableau : l’AMM 60929447 (MYNOCINE 100 mg) est active, non annulée | Corrigé | [Base de données publique des médicaments (BDPM)](https://base-donnees-publique.medicaments.gouv.fr/) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Arestin (minocycline hydrochloride) prescribing information, OraPharma, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8515df41-1936-4f3b-86ba-d2bb2a8441fb) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

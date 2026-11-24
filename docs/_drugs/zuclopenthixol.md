@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 833
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "ZUCLOPENTHIXOL"
 predicted_indications: ["retinal dystrophy with or without extraocular anomalies", "hydranencephaly (disease)", "congenital disorder of glycosylation with defective fucosylation", "Charcot-Marie-Tooth disease, demyelinating, type 1G", "myopia X-linked", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "syndromic myopia", "myopia 26, X-linked, female-limited", "atypical glycine encephalopathy"]
 description: "Zuclopenthixol : nouvelle indication prédite, Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) (niveau de preuve L5). Indication …"
@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 | Nouvelle Indication Prédite | Dystrophie rétinienne avec ou sans anomalies extra-oculaires (retinal dystrophy with or without extraocular anomalies) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
-| Nombre d'AMM | 6 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -99,7 +99,13 @@ Aucune interaction médicamenteuse n'a été retrouvée dans les données compil
 **Décision : Hold**
 
 **Justification :**
-La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non étayé. Le médicament est commercialisé en France (6 AMM valides sur 6), mais les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
+La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique ni publication, avec un lien mécanistique non étayé. Le médicament est commercialisé en France (7 AMM valides sur 7), mais les données de sécurité de la notice sont manquantes, ce qui bloque l'étape de criblage de sécurité.
+
+<!-- review:begin fr-lic-20261124-zuclopenthixol-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (6 AMM valides sur 6) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-zuclopenthixol-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice ANSM (mises en garde, contre-indications), élément bloquant
@@ -117,6 +123,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Une sixième AMM annulée existe (n° 69902540, Clopixol Action Prolongée 200 mg/1 ml, Difarmed, Espagne) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

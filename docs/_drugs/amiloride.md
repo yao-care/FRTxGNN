@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 5
 monitor_inn: "AMILORIDE"
 predicted_indications: ["malignant hypertensive renal disease", "pulmonary hypertension with unclear multifactorial mechanism", "pulmonary hypertension owing to lung disease and/or hypoxia", "Braddock syndrome", "chronic pulmonary heart disease"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Amiloride : nouvelle indication prédite, Maladie rénale hypertensive maligne (malignant hypertensive renal disease) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données local…"
 ---
 
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans la **maladie rénale hy
 | Nouvelle Indication Prédite | Maladie rénale hypertensive maligne (malignant hypertensive renal disease) |
 | Score de Prédiction TxGNN | 0,9982 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
+| Nombre d'AMM | 4 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

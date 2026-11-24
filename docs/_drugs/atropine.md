@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 81
 evidence_level: L4
 indication_count: 2
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Atropine : nouvelle indication prédite, Migraine (migraine disorder) (niveau de preuve L4). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "ATROPINE"
 predicted_indications: ["migraine disorder", "migraine with brainstem aura"]
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (*
 | Nouvelle Indication Prédite | Migraine (*migraine disorder*) |
 | Score de Prédiction TxGNN | 0,9956 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
-| Nombre d'AMM | 7 (valides : 7) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 18 sur 18) |
+| Nombre d'AMM | 18 (valides : 18) |
 | Décision Recommandée | Hold |
 
 ---

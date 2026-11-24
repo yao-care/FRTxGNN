@@ -5,10 +5,10 @@ parent: Preuves élevées (L1-L2)
 nav_order: 625
 evidence_level: L2
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "PREDNISOLONE"
 predicted_indications: ["alopecia areata", "alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia antibody deficiency", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "prolapse of lacrimal gland"]
-description: "Prednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L2). En France, AMM dans la BDPM : 5 (valides : 5)"
+description: "Prednisolone : nouvelle indication prédite, Pelade (alopecia areata) (niveau de preuve L2). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Prednisolone
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré, mais **20 publications** soutiennent act
 | Nouvelle Indication Prédite | Pelade (alopecia areata) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
-| Nombre d'AMM | 5 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 19) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -112,9 +112,15 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Notice officielle (ANSM) pour les mises en garde et contre-indications, indispensable avant tout dépistage de sécurité
 - Données détaillées sur le mécanisme d'action (DrugBank)
-- Clarification du statut réglementaire : le médicament est commercialisé en France, avec 5 AMM valides sur 5, donc vérifier la disponibilité de présentations valides
+- Clarification du statut réglementaire : le médicament est commercialisé en France, avec au moins 19 AMM valides, donc vérifier la disponibilité de présentations valides
 - Compatibilité des voies d'administration (orale, topique) pour l'indication visée
 - Protocole de surveillance de sécurité (tension, glycémie, croissance chez l'enfant) et stratégie d'épargne cortisonique
+
+<!-- review:begin fr-lic-20261124-prednisolone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « avec 5 AMM valides sur 5, » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-prednisolone-1 -->
 
 ## Autres indications prédites (pour information)
 
@@ -130,11 +136,12 @@ Le syndrome néphrotique corticosensible présente le niveau de preuve le plus �
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Orapred Odt (prednisolone sodium phosphate) prescribing information, Advanz Pharma (US) Corp.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e379543-c4cf-4e72-953b-db15b7f0c2a1) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

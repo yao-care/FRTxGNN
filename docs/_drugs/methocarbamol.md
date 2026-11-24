@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 486
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methocarbamol : nouvelle indication prédite, Syndrome de la queue de cheval (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM compilées (texte d'indication vid…"
 monitor_inn: "methocarbamol"
 predicted_indications: ["cauda equina syndrome", "irritable bowel syndrome", "panuveitis (disease)", "anaphylaxis", "iris disease", "uveitis", "ventricular tachycardia", "food-dependent exercise-induced anaphylaxis", "conjunctivitis", "obsolete bundle branch block"]
@@ -48,8 +48,8 @@ Le méthocarbamol est un myorelaxant à action centrale, utilisé classiquement 
 | Nouvelle Indication Prédite | Syndrome de la queue de cheval |
 | Score de Prédiction TxGNN | 0,9998 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 4) |
+| Nombre d'AMM | 4 (valides : 3) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -87,7 +87,13 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme plausible très faible. Par ailleurs, le médicament est commercialisé en France, avec 2 AMM valides sur 2, et la notice de sécurité est manquante, ce qui bloque l'étape de criblage de sécurité.
+- La prédiction repose uniquement sur le modèle (niveau L5), sans essai ni publication, avec un mécanisme plausible très faible. Par ailleurs, le médicament est commercialisé en France, avec 3 AMM valides sur 4, et la notice de sécurité est manquante, ce qui bloque l'étape de criblage de sécurité.
+
+<!-- review:begin fr-lic-20261124-methocarbamol-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « avec 2 AMM valides sur 2, » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-methocarbamol-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupération et analyse de la notice officielle (ANSM) : mises en garde et contre-indications
@@ -112,6 +118,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « (AMM annulées) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Methocarbamol Tablets, Usp, 500 Mg (methocarbamol) prescribing information, Marlex Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d2e38ac9-1cf3-14ca-e053-2a95a90a8522) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

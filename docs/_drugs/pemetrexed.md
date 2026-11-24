@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 585
 evidence_level: L5
 indication_count: 3
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "pemetrexed"
 predicted_indications: ["pleural adenomatoid tumor", "pericardium cancer", "iminoglycinuria"]
-description: "Pemetrexed : nouvelle indication prédite, Pleural adenomatoid tumor (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
+description: "Pemetrexed : nouvelle indication prédite, Pleural adenomatoid tumor (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 15)"
 ---
 
 # Pemetrexed
@@ -50,8 +50,8 @@ avec **7 essais cliniques** et **20 publications** compilés dans les données d
 | Nouvelle Indication Prédite | Pleural adenomatoid tumor |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 15 sur 16) |
+| Nombre d'AMM | 16 (valides : 15) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 676
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "RIVASTIGMINE"
 predicted_indications: ["glaucoma"]
-description: "Rivastigmine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
+description: "Rivastigmine : nouvelle indication prédite, Glaucome (glaucoma) (niveau de preuve L5). En France, AMM dans la BDPM : 16 (valides : 16)"
 ---
 
 # Rivastigmine
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour le **glaucome**, m
 | Nouvelle Indication Prédite | Glaucome (glaucoma) |
 | Score de Prédiction TxGNN | 0.9927 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
-| Nombre d'AMM | 11 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 16) |
+| Nombre d'AMM | 16 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ---
@@ -85,13 +85,19 @@ Aucun essai clinique associé enregistré actuellement.
 
 ## Informations de Marché en France
 
-Les 11 AMM listées sur 11 sont valides ; le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
+Les 16 AMM recensées sont valides ; le médicament est commercialisé. Le texte de l'indication approuvée n'est pas renseigné pour ces AMM.
 
 <!-- review:begin fr-lic-20261106-rivastigmine-1 -->
 
 > **Correction de vérification (2026-11-06)**: Texte initial : « (5 AMM présentées sur 11, toutes annulées.) » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 11 AMM pour ce médicament, dont 11 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
 
 <!-- review:end fr-lic-20261106-rivastigmine-1 -->
+
+<!-- review:begin fr-lic-20261124-rivastigmine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 11 AMM listées sur 11 sont valides ; » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-rivastigmine-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Titulaire |
 |---------|------|------|-----------|
@@ -119,7 +125,13 @@ Les mises en garde et contre-indications issues de la notice française n'ont pa
 **Décision : Hold**
 
 **Justification :**
-- La prédiction repose sur un score élevé du modèle TxGNN (deep learning) et une seule étude animale (lapin), sans aucune donnée humaine dans le glaucome (niveau L4). De plus, le dépôt de sécurité issu de la notice est manquant ; les 11 AMM françaises sur 11 sont valides.
+- La prédiction repose sur un score élevé du modèle TxGNN (deep learning) et une seule étude animale (lapin), sans aucune donnée humaine dans le glaucome (niveau L4). De plus, le dépôt de sécurité issu de la notice est manquant ; les 16 AMM françaises sur 16 sont valides.
+
+<!-- review:begin fr-lic-20261124-rivastigmine-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « les 11 AMM françaises sur 11 sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-rivastigmine-2 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (ANSM) pour les mises en garde et contre-indications, étape bloquante pour le criblage de sécurité
@@ -136,8 +148,10 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « (5 AMM présentées sur 11, toutes annulées.) » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-06 | Supprimé : « (5 AMM présentées sur 11, toutes annulées.) » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: rivastigmine tartrate prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=52781229-ee82-43f9-a113-4419a611978d) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

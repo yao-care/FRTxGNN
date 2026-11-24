@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 742
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Terazosin : nouvelle indication prédite, Hypotrichose simple du cuir chevelu (niveau de preuve L5). Indication d'origine : Hypertension artérielle…"
 monitor_inn: "terazosin"
 predicted_indications: ["hypotrichosis simplex of the scalp", "congenital hypotrichosis milia", "diffuse alopecia areata", "alopecia", "migraine disorder", "migraine with brainstem aura", "Raynaud disease", "Ambras type hypertrichosis universalis congenita", "manic bipolar affective disorder", "kyphoscoliotic heart disease"]
@@ -50,8 +50,8 @@ Parmi les autres pistes prédites, la **maladie de Raynaud** est la mieux docume
 | Nouvelle Indication Predite | Hypotrichose simple du cuir chevelu |
 | Score de Prediction TxGNN | 0,9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 7) |
+| Nombre d'AMM | 7 (valides : 6) |
 | Decision Recommandee | Hold |
 
 ## Pourquoi Cette Prediction est-elle Raisonnable ?
@@ -112,7 +112,13 @@ Veuillez consulter la notice pour les mises en garde détaillées, qui ne sont p
 - Pour la maladie de Raynaud : vérifier la conception et l'effectif de l'étude de 1997 et rechercher des essais contrôlés plus récents
 - Pour la migraine : des données contrôlées modernes avant toute considération au-delà de la génération d'hypothèses
 - Une étude préclinique ou mécanistique sur les follicules pileux avant d'envisager une indication capillaire
-- Une clarification du statut réglementaire, puisque les 2 AMM françaises sur 2 sont valides
+- Une clarification du statut réglementaire, puisque 6 AMM françaises sur 7 sont valides
+
+<!-- review:begin fr-lic-20261124-terazosin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « puisque les 2 AMM françaises sur 2 sont valides » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-terazosin-1 -->
 
 <!-- review:begin log -->
 
@@ -124,6 +130,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Les produits français sont en outre tous annulés » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tezruly (terazosin) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=69582e0c-6569-490c-8c14-999f3750336f) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

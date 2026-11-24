@@ -12,21 +12,21 @@
  "public_pages": 813,
  "licence_snapshot": "fr_licenses.json.gz",
  "licence": {
-  "drugs_with_data": 695,
-  "drugs_with_current": 687,
-  "drugs_none_current": 8,
-  "drugs_without_data": 118,
+  "drugs_with_data": 669,
+  "drugs_with_current": 663,
+  "drugs_none_current": 6,
+  "drugs_without_data": 144,
   "drugs_partial": 0,
-  "items_total": 3270,
-  "items_current": 3173
+  "items_total": 3703,
+  "items_current": 3484
  },
  "reviews": {
-  "records": 1512,
-  "pages": 756,
-  "public_pages_with_records": 754,
+  "records": 1602,
+  "pages": 757,
+  "public_pages_with_records": 755,
   "by_action": {
    "annotate": 2,
-   "correct": 850,
+   "correct": 940,
    "mechanism": 660
   }
  },
@@ -45,15 +45,6 @@
    "i": "Conjonctivite papillaire"
   },
   {
-   "t": "Axitinib",
-   "u": "/drugs/axitinib/",
-   "l": "L5",
-   "lt": 20,
-   "lv": 20,
-   "r": 1,
-   "i": "Liposarcome"
-  },
-  {
    "t": "Baclofen",
    "u": "/drugs/baclofen/",
    "l": "L5",
@@ -70,6 +61,15 @@
    "lv": 20,
    "r": 2,
    "i": "psychogenic movement disorders"
+  },
+  {
+   "t": "Etanercept",
+   "u": "/drugs/etanercept/",
+   "l": "L5",
+   "lt": 20,
+   "lv": 20,
+   "r": 2,
+   "i": "hypermobility of coccyx"
   },
   {
    "t": "Olmesartan",
@@ -99,13 +99,13 @@
    "i": ""
   },
   {
-   "t": "Zolmitriptan",
-   "u": "/drugs/zolmitriptan/",
+   "t": "Aflibercept",
+   "u": "/drugs/aflibercept/",
    "l": "L5",
-   "lt": 20,
-   "lv": 20,
-   "r": 3,
-   "i": "atrophoderma vermiculata"
+   "lt": 19,
+   "lv": 19,
+   "r": 2,
+   "i": "Ésotropie"
   }
  ],
  "no_current": [
@@ -155,24 +155,6 @@
    "i": "diabetic cataract"
   },
   {
-   "t": "Quinapril",
-   "u": "/drugs/quinapril/",
-   "l": "L5",
-   "lt": 2,
-   "lv": 0,
-   "r": 6,
-   "i": "malignant hypertensive renal disease"
-  },
-  {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
-   "l": "L5",
-   "lt": 1,
-   "lv": 0,
-   "r": 5,
-   "i": "Ulcère duodénal"
-  },
-  {
    "t": "Talc",
    "u": "/drugs/talc/",
    "l": "L5",
@@ -185,29 +167,47 @@
  "no_current_more": 0,
  "most_reviewed": [
   {
+   "t": "Doxorubicin",
+   "u": "/drugs/doxorubicin/",
+   "l": "L1",
+   "lt": 9,
+   "lv": 9,
+   "r": 7,
+   "i": "Sarcome d'Ewing"
+  },
+  {
    "t": "Quinapril",
    "u": "/drugs/quinapril/",
    "l": "L5",
-   "lt": 2,
-   "lv": 0,
+   "lt": 6,
+   "lv": 3,
    "r": 6,
    "i": "malignant hypertensive renal disease"
   },
   {
-   "t": "Doxorubicin",
-   "u": "/drugs/doxorubicin/",
-   "l": "L1",
-   "lt": 2,
-   "lv": 2,
+   "t": "Filgrastim",
+   "u": "/drugs/filgrastim/",
+   "l": "L5",
+   "lt": 18,
+   "lv": 18,
    "r": 5,
-   "i": "Sarcome d'Ewing"
+   "i": "primary release disorder of platelets"
+  },
+  {
+   "t": "Midazolam",
+   "u": "/drugs/midazolam/",
+   "l": "L3",
+   "lt": 17,
+   "lv": 15,
+   "r": 5,
+   "i": "Insomnie"
   },
   {
    "t": "Raloxifene",
    "u": "/drugs/raloxifene/",
    "l": "L5",
-   "lt": 1,
-   "lv": 0,
+   "lt": 10,
+   "lv": 9,
    "r": 5,
    "i": "Ulcère duodénal"
   },
@@ -219,24 +219,6 @@
    "lv": 6,
    "r": 5,
    "i": "uterine corpus perivascular epithelioid cell tumor"
-  },
-  {
-   "t": "Cilastatin",
-   "u": "/drugs/cilastatin/",
-   "l": "L3",
-   "lt": 9,
-   "lv": 9,
-   "r": 4,
-   "i": "Infection à Staphylococcus aureus"
-  },
-  {
-   "t": "Cyanocobalamin",
-   "u": "/drugs/cyanocobalamin/",
-   "l": "L5",
-   "lt": 10,
-   "lv": 9,
-   "r": 4,
-   "i": "biotin metabolic disease"
   }
  ],
  "example": {
@@ -304,94 +286,94 @@
    "d": "2026-11-24"
   },
   {
-   "t": "Raloxifene",
-   "u": "/drugs/raloxifene/",
-   "s": "Autres AMM de raloxifène actives dans la BDPM",
+   "t": "Zuclopenthixol",
+   "u": "/drugs/zuclopenthixol/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Riluzole",
-   "u": "/drugs/riluzole/",
-   "s": "AMM valides : 10 → 9 (1 abrogée)",
+   "t": "Verapamil",
+   "u": "/drugs/verapamil/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Povidone",
-   "u": "/drugs/povidone/",
-   "s": "AMM valides : 6 → 5 sur 7",
+   "t": "Triptorelin",
+   "u": "/drugs/triptorelin/",
+   "s": "Nombre d'AMM mis à jour",
    "d": "2026-11-24"
   },
   {
-   "t": "Valsartan",
-   "u": "/drugs/valsartan/",
-   "s": "« Clarifier la situation réglementaire en France (AM » → « Clarifier la situation réglementaire en France (la…",
-   "d": "2026-11-15"
+   "t": "Trihexyphenidyl",
+   "u": "/drugs/trihexyphenidyl/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ustekinumab",
-   "u": "/drugs/ustekinumab/",
-   "s": "« Clarification du statut réglementaire actuel en Fr » → « Clarification du statut réglementaire actuel en Fr…",
-   "d": "2026-11-15"
+   "t": "Trabectedin",
+   "u": "/drugs/trabectedin/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Tacrolimus",
-   "u": "/drugs/tacrolimus/",
-   "s": "« Clarifier le statut réglementaire actuel en France » → « Clarifier le statut réglementaire actuel en France…",
-   "d": "2026-11-15"
+   "t": "Topotecan",
+   "u": "/drugs/topotecan/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Pravastatin",
-   "u": "/drugs/pravastatin/",
-   "s": "« Clarification du statut réglementaire en France (A » → « Clarification du statut réglementaire en France (l…",
-   "d": "2026-11-15"
+   "t": "Topiramate",
+   "u": "/drugs/topiramate/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Piperacillin",
-   "u": "/drugs/piperacillin/",
-   "s": "« Clarification du statut réglementaire (AMM annulée » → « Clarification du statut réglementaire (la plupart »",
-   "d": "2026-11-15"
+   "t": "Ticagrelor",
+   "u": "/drugs/ticagrelor/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Omeprazole",
-   "u": "/drugs/omeprazole/",
-   "s": "« (AMM annulées vs produits réellement disponibles) » → « (AMM actives ou abrogées vs produits réellement co »",
-   "d": "2026-11-15"
+   "t": "Tiapride",
+   "u": "/drugs/tiapride/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Methotrexate",
-   "u": "/drugs/methotrexate/",
-   "s": "« Clarifier le statut réglementaire en France (AMM a » → « Clarifier le statut réglementaire en France (la pl…",
-   "d": "2026-11-15"
+   "t": "Thiocolchicoside",
+   "u": "/drugs/thiocolchicoside/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Levodopa",
-   "u": "/drugs/levodopa/",
-   "s": "« clarifier la situation réglementaire (AMM annulées » → « clarifier la situation réglementaire »",
-   "d": "2026-11-15"
+   "t": "Terazosin",
+   "u": "/drugs/terazosin/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Lactulose",
-   "u": "/drugs/lactulose/",
-   "s": "« Clarifier le statut réglementaire (AMM annulées) » → « Clarifier le statut réglementaire (la plupart des »",
-   "d": "2026-11-15"
+   "t": "Sotalol",
+   "u": "/drugs/sotalol/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ketoprofen",
-   "u": "/drugs/ketoprofen/",
-   "s": "« solution pour perfusion et gel topique (AMM annulé » → « solution pour perfusion et gel topique. »",
-   "d": "2026-11-15"
+   "t": "Selpercatinib",
+   "u": "/drugs/selpercatinib/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ketoconazole",
-   "u": "/drugs/ketoconazole/",
-   "s": "« commercialisée en France, compte tenu des AMM annu » → « commercialisée en France »",
-   "d": "2026-11-15"
+   "t": "Rotigotine",
+   "u": "/drugs/rotigotine/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   },
   {
-   "t": "Ibuprofen",
-   "u": "/drugs/ibuprofen/",
-   "s": "« Éclaircissement du statut réglementaire (AMM annul » → « Éclaircissement du statut réglementaire (la plupar…",
-   "d": "2026-11-15"
+   "t": "Rivastigmine",
+   "u": "/drugs/rivastigmine/",
+   "s": "Nombre d'AMM mis à jour",
+   "d": "2026-11-24"
   }
  ],
  "recent_licence_reviews": [
@@ -467,7 +449,7 @@
   },
   "L5": {
    "n": 660,
-   "current": 644
+   "current": 646
   }
  },
  "cross": {

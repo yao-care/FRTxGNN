@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 565
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Oxazepam : nouvelle indication prédite, Insomnie (niveau de preuve L3). Indication d'origine : Anxiété"
 monitor_inn: "oxazepam"
 predicted_indications: ["insomnia (disease)"]
@@ -51,8 +51,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour l'**insomnie**, mais
 | Nouvelle Indication Prédite | Insomnie |
 | Score de Prédiction TxGNN | 0,9986 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision Recommandée | Hold |
 
 ---
@@ -89,7 +89,13 @@ Seules les publications pertinentes sont listées ; plusieurs références sont 
 
 ## Informations de Marché en France
 
-Les 10 AMM sur 10 sont valides ; le médicament est commercialisé en France. Le texte des indications approuvées n'est pas renseigné.
+Les 12 AMM sur 12 sont valides ; le médicament est commercialisé en France. Le texte des indications approuvées n'est pas renseigné.
+
+<!-- review:begin fr-lic-20261124-oxazepam-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 10 AMM sur 10 sont valides ; » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-oxazepam-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Statut |
 |---------|------|------|-----------|
@@ -116,8 +122,14 @@ Les mises en garde et contre-indications de la notice officielle n'ont pas pu ê
 **Décision : Hold**
 
 **Justification :**
-- Le score de prédiction est très élevé, et deux études comparatives anciennes ou de petite taille vont dans le sens d'un effet sur le sommeil, mais aucun essai clinique n'est enregistré. Le médicament est commercialisé en France (10 AMM valides sur 10), et les données de sécurité issues de la notice sont absentes (lacune bloquante pour le criblage de sécurité).
+- Le score de prédiction est très élevé, et deux études comparatives anciennes ou de petite taille vont dans le sens d'un effet sur le sommeil, mais aucun essai clinique n'est enregistré. Le médicament est commercialisé en France (12 AMM valides sur 12), et les données de sécurité issues de la notice sont absentes (lacune bloquante pour le criblage de sécurité).
 - La classe des benzodiazépines est déjà largement utilisée dans l'insomnie ; l'intérêt d'un repositionnement de l'oxazépam reste donc à démontrer par rapport aux options existantes, compte tenu des risques de dépendance, de sevrage et de dépression respiratoire.
+
+<!-- review:begin fr-lic-20261124-oxazepam-2 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (10 AMM valides sur 10) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-oxazepam-2 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer et analyser la notice officielle (mises en garde, contre-indications) auprès de l'ANSM
@@ -141,6 +153,8 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « Clarifier la raison de l'annulation des AMM et le statut réglementaire actuel » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL568 (oxazepam): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL568) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

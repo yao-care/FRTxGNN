@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 288
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "epirubicin"
 predicted_indications: ["primary pulmonary lymphoma", "well-differentiated fetal adenocarcinoma of the lung", "small cell lung carcinoma", "pulmonary blastoma", "lung mixed small cell and squamous cell carcinoma", "myeloid leukemia", "upper aerodigestive tract neoplasm"]
-description: "Epirubicin : nouvelle indication prédite, Lymphome pulmonaire primitif (primary pulmonary lymphoma) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 3)"
+description: "Epirubicin : nouvelle indication prédite, Lymphome pulmonaire primitif (primary pulmonary lymphoma) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 7)"
 ---
 
 # Epirubicin
@@ -50,8 +50,8 @@ Aucun essai clinique n'est enregistré et aucune étude ne teste l'épirubicine 
 | Nouvelle Indication Prédite | Lymphome pulmonaire primitif (primary pulmonary lymphoma) |
 | Score de Prédiction TxGNN | 0.9971 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 8) |
+| Nombre d'AMM | 8 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -81,7 +81,13 @@ Aucune de ces publications n'étudie l'épirubicine dans le lymphome pulmonaire 
 
 ## Informations de Marché en France
 
-L'épirubicine est commercialisée en France. Les données compilées recensent 3 AMM valides, dont le texte d'indication n'est pas renseigné.
+L'épirubicine est commercialisée en France. Les données compilées recensent 7 AMM valides (sur 8), dont le texte d'indication n'est pas renseigné.
+
+<!-- review:begin fr-lic-20261124-epirubicin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 3 AMM valides, » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-epirubicin-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -124,11 +130,12 @@ Pour les mises en garde détaillées, veuillez consulter la notice.
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Ellence (epirubicin hydrochloride) prescribing information, Pharmacia & Upjohn Company LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0a03c798-a652-4895-b29c-3b521a89ba42) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

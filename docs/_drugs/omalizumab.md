@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 559
 evidence_level: L5
 indication_count: 9
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "OMALIZUMAB"
 predicted_indications: ["bronchitis", "atopic eczema", "dermatitis", "bronchial neoplasm (disease)", "acne keloid", "acrodermatitis chronica atrophicans", "hydroa vacciniforme, familial", "neonatal dermatomyositis", "secondary interstitial lung disease specific to childhood associated with a connective tissue disease"]
-description: "Omalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
+description: "Omalizumab : nouvelle indication prédite, Bronchite (bronchitis) (niveau de preuve L5). En France, AMM dans la BDPM : 12 (valides : 12)"
 ---
 
 # Omalizumab
@@ -48,8 +48,8 @@ L'omalizumab est un anticorps monoclonal qui neutralise les IgE libres. Le modè
 | Nouvelle indication prédite | Bronchite (bronchitis) |
 | Score de prédiction TxGNN | 1.0000 |
 | Niveau de preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
-| Nombre d'AMM | 10 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 12 sur 12) |
+| Nombre d'AMM | 12 (valides : 12) |
 | Décision recommandée | Hold |
 
 ## Pourquoi cette prédiction est-elle raisonnable ?
@@ -81,7 +81,13 @@ Aucune de ces publications n'étudie l'omalizumab dans le traitement de la bronc
 
 ## Informations de marché en France
 
-L'omalizumab est commercialisé en France. Les données compilées recensent 10 autorisations, toutes sous forme de solution injectable (seringue préremplie ou stylo prérempli), sans texte d'indication renseigné.
+L'omalizumab est commercialisé en France. Les données compilées recensent 12 autorisations, toutes sous forme de solution injectable (seringue préremplie ou stylo prérempli), sans texte d'indication renseigné.
+
+<!-- review:begin fr-lic-20261124-omalizumab-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 10 autorisations, » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-omalizumab-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -113,11 +119,12 @@ Aucune étude publiée ne démontre l'intérêt de l'omalizumab dans la bronchit
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Omlyclo (omalizumab-igec) prescribing information, CELLTRION USA, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=dbd8709f-1636-45d9-ba94-5a3bc5f22f84) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

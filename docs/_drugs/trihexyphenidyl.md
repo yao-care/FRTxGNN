@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 789
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "trihexyphenidyl"
 predicted_indications: ["attention deficit-hyperactivity disorder", "faciodigitogenital syndrome", "attention deficit hyperactivity disorder, inattentive type", "Rasmussen subacute encephalitis", "PLA2G6-associated neurodegeneration", "congenital disorder of glycosylation with defective fucosylation", "polymicrogyria, perisylvian, with cerebellar hypoplasia and arthrogryposis", "retinal dystrophy with or without extraocular anomalies", "myelitis", "Charcot-Marie-Tooth disease, demyelinating, type 1G"]
 description: "Trihexyphenidyl : nouvelle indication prédite, Trouble déficitaire de l'attention avec hyperactivité (attention deficit-hyperactivity disorder) (niveau de preuve L5). Indication d'origine : Non rense…"
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **une seule publication indirecte** (une série
 | Nouvelle Indication Prédite | Trouble déficitaire de l'attention avec hyperactivité (attention deficit-hyperactivity disorder) |
 | Score de Prédiction TxGNN | 0.9992 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 3 sur 3) |
-| Nombre d'AMM | 3 (valides : 3) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 7 sur 7) |
+| Nombre d'AMM | 7 (valides : 7) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -96,7 +96,13 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 **Justification :**
 - Aucune preuve clinique directe : zéro essai et une seule publication indirecte. La prédiction repose uniquement sur le modèle, et le profil cognitif des anticholinergiques va plutôt à l'encontre d'un bénéfice dans le TDAH.
-- Les 3 AMM françaises sont valides (3 sur 3), et les données de sécurité officielles sont manquantes (blocage pour le criblage de sécurité).
+- Les 7 AMM françaises sont valides (7 sur 7), et les données de sécurité officielles sont manquantes (blocage pour le criblage de sécurité).
+
+<!-- review:begin fr-lic-20261124-trihexyphenidyl-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 3 AMM françaises sont valides (3 sur 3) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-trihexyphenidyl-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer la notice officielle de l'ANSM (mises en garde et contre-indications).
@@ -110,11 +116,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications offic
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: trihexyphenidyl hydrochloride prescribing information, REMEDYREPACK INC.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b60ef86c-b8b6-4530-baaf-d4671ce961af) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

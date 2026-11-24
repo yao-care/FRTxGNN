@@ -8,7 +8,7 @@ indication_count: 9
 monitor_inn: "AMLODIPINE"
 predicted_indications: ["brain stem infarction", "pulmonary hypertension owing to lung disease and/or hypoxia", "pulmonary hypertension with unclear multifactorial mechanism", "malignant hypertensive renal disease", "cerebral artery occlusion", "Braddock syndrome", "MRI defined brain infarct", "ABri amyloidosis", "intracerebral hemorrhage"]
 last_modified_at: 2026-11-24
-description: "Amlodipine : nouvelle indication prédite, Infarctus du tronc cérébral (brain stem infarction) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 4)"
+description: "Amlodipine : nouvelle indication prédite, Infarctus du tronc cérébral (brain stem infarction) (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Amlodipine
@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** n'est actuellement assoc
 | Nouvelle Indication Prédite | Infarctus du tronc cérébral (brain stem infarction) |
 | Score de Prédiction TxGNN | 0,9994 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 6) |
-| Nombre d'AMM | 6 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 15) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -70,11 +70,11 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés.
+Les données locales recensent de nombreuses AMM pour des spécialités à base d'amlodipine (au moins 15 valides ; gélules et comprimé à libération modifiée parmi celles détaillées), mais les textes d'indication ne sont pas renseignés.
 
 <!-- review:begin fr-lic-20261106-amlodipine-1 -->
 
-> **Correction de vérification (2026-11-06)**: Texte initial : « Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés. Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des autorisations marquées comme annulées, sans que le détail puisse être confirmé ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données locales recensent 6 AMM pour des spécialités à base d'amlodipine seule (gélules et comprimé à libération modifiée), mais les textes d'indication ne sont pas renseignés. Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des autorisations marquées comme annulées, sans que le détail puisse être confirmé ici. » Supprimé : l'affirmation selon laquelle les AMM seraient abrogées, annulées ou non valides ne correspondait pas aux données d'AMM (Base de données publique des médicaments (BDPM), au 2026-11-06). Les données (Base de données publique des médicaments (BDPM)) recensent 6 AMM pour ce médicament, dont 4 valides ; les chiffres à jour figurent dans l'aperçu rapide et dans les informations de marché. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261106-amlodipine-1 -->
 
@@ -113,7 +113,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-06 | Supprimé : « Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des a » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « Les données de statut sont à interpréter avec prudence : les enregistrements indiquent à la fois un statut global « commercialisé » et des a » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Sdamlo (amlodipine) prescribing information, Pangea Pharmaceuticals, LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=886a7f97-60a4-4206-a6c7-5206069ed487) |
 
 <!-- review:end log -->

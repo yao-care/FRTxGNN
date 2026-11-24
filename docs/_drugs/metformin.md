@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 483
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "metformin"
 predicted_indications: ["focal stiff limb syndrome", "classic stiff person syndrome", "opsismodysplasia", "thiamine-responsive dysfunction syndrome", "drug-induced localized lipodystrophy"]
-description: "Metformin : nouvelle indication prédite, Focal stiff limb syndrome (niveau de preuve L5). En France, AMM dans la BDPM : 9 (valides : 9)"
+description: "Metformin : nouvelle indication prédite, Focal stiff limb syndrome (niveau de preuve L5). En France, AMM dans la BDPM : au moins 20"
 ---
 
 # Metformin
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Focal stiff limb syndrome |
 | Score de Prédiction TxGNN | 0.9945 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
-| Nombre d'AMM | 9 (valides : 9) |
+| Statut de Marché en France | Commercialisé (autorisations valides : au moins 20) |
+| Nombre d'AMM | au moins 20 |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

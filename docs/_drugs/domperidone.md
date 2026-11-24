@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 254
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Domperidone : nouvelle indication prédite, Syndrome néphrogénique d'antidiurèse inappropriée (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM (usage clinique connu : …"
 monitor_inn: "domperidone"
 predicted_indications: ["nephrogenic syndrome of inappropriate antidiuresis"]
@@ -50,8 +50,8 @@ mais **aucun essai clinique ni aucune publication** ne soutient actuellement cet
 | Nouvelle Indication Prédite | Syndrome néphrogénique d'antidiurèse inappropriée |
 | Score de Prédiction TxGNN | 0,9908 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 12) |
-| Nombre d'AMM | 12 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 13) |
+| Nombre d'AMM | 13 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

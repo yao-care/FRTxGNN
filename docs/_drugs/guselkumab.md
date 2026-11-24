@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 374
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Guselkumab : nouvelle indication prédite, Ostéoporose médicamenteuse (première prédiction) (niveau de preuve L5). Indication d'origine : Non renseignée dans les données compilées (textes d'indication…"
 monitor_inn: "GUSELKUMAB"
 predicted_indications: ["drug-induced osteoporosis", "severe nonproliferative diabetic retinopathy", "diabetic retinopathy", "renal osteodystrophy", "congenital hypotrichosis with juvenile macular dystrophy", "primary release disorder of platelets", "Glanzmann thrombasthenia", "non-renal secondary hyperparathyroidism"]
@@ -51,8 +51,8 @@ Le modèle TxGNN place en tête de ses prédictions l'**ostéoporose médicament
 | Nouvelle Indication Predite | Ostéoporose médicamenteuse (première prédiction) |
 | Score de Prediction TxGNN | 0,9984 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 **Prédictions secondaires disposant de preuves (à vérifier avant d'y voir un repositionnement) :**
@@ -139,7 +139,13 @@ Aucune littérature associée n'est disponible actuellement pour l'ostéoporose 
 | 68372441 | TREMFYA 100 mg, solution injectable en seringue préremplie | Solution injectable | Non renseignée (AMM active) |
 | 67296108 | TREMFYA 100 mg ONEPRESS, solution injectable en stylo prérempli | Solution injectable | Non renseignée (AMM active) |
 
-Les deux AMM sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont valides (2 AMM valides sur 2). Le produit est commercialisé en France. Les essais enregistrés mentionnent une autorisation de mise sur le marché en France en 2018 pour le psoriasis en plaques.
+Les 5 AMM (TREMFYA) sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont valides (5 AMM valides sur 5). Le produit est commercialisé en France. Les essais enregistrés mentionnent une autorisation de mise sur le marché en France en 2018 pour le psoriasis en plaques.
+
+<!-- review:begin fr-lic-20261124-guselkumab-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les deux AMM sont détenues par JANSSEN CILAG INTERNATIONAL NV et sont valides (2 AMM valides sur 2). » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-guselkumab-1 -->
 
 ---
 
@@ -187,6 +193,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « les AMM disponibles étant toutes annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Tremfya (guselkumab) prescribing information, Janssen Biotech, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=1e6dc9ae-1c4c-42d9-87aa-c315ecc51b56) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

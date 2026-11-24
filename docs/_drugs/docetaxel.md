@@ -8,7 +8,7 @@ indication_count: 7
 last_modified_at: 2026-11-24
 monitor_inn: "docetaxel"
 predicted_indications: ["Ewing sarcoma", "primary pulmonary lymphoma", "botryoid-type embryonal rhabdomyosarcoma of the vagina", "pulmonary blastoma", "rhabdomyosarcoma (disease)", "embryonal extrahepatic bile duct rhabdomyosarcoma", "parameningeal embryonal rhabdomyosarcoma"]
-description: "Docetaxel : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : 11 (valides : 10)"
+description: "Docetaxel : nouvelle indication prédite, Sarcome d'Ewing (Ewing sarcoma) (niveau de preuve L2). En France, AMM dans la BDPM : 14 (valides : 13)"
 ---
 
 # Docetaxel
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être utile dans le **Sarcome d'Ewing (E
 | Nouvelle Indication Prédite | Sarcome d'Ewing (Ewing sarcoma) |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L2 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 11) |
-| Nombre d'AMM | 11 (valides : 10) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 13 sur 14) |
+| Nombre d'AMM | 14 (valides : 13) |
 | Décision Recommandée | Proceed with Guardrails |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -89,11 +89,11 @@ Dans le sarcome d'Ewing, le docétaxel est utilisé principalement en associatio
 
 ## Informations de Marché en France
 
-Le docétaxel est commercialisé en France. Les données compilées recensent 11 AMM, sous forme de solution à diluer pour perfusion. Le texte d'indication n'est pas renseigné dans ces enregistrements.
+Le docétaxel est commercialisé en France. Les données compilées recensent 14 AMM (13 valides), sous forme de solution à diluer pour perfusion. Le texte d'indication n'est pas renseigné dans ces enregistrements.
 
 <!-- review:begin fr-lic-20261112-docetaxel-1 -->
 
-> **Correction de vérification (2026-11-12)**: Texte initial : « Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion. » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt).
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les données compilées recensent 11 AMM valides, sous forme de solution à diluer pour perfusion. » Supprimé : depuis la mise à jour hebdomadaire des AMM du 2026-11-09, la BDPM recense 11 AMM pour ce médicament, dont 10 valides et 1 annulée ; l'affirmation que toutes les AMM sont valides ne correspond plus aux données. Les chiffres à jour figurent dans l'aperçu rapide. Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
 
 <!-- review:end fr-lic-20261112-docetaxel-1 -->
 
@@ -142,7 +142,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
-| 2026-11-12 | Supprimé : « valides » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Supprimé : « valides » | Corrigé (révisé le 2026-11-24 ; version antérieure conservée dans le journal) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Beizray (docetaxel) prescribing information, Zydus Pharmaceuticals USA Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=8fb7d980-d6c7-468b-a9f0-adff16101a4b) |
 
 <!-- review:end log -->

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 746
 evidence_level: L5
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "terlipressin"
 predicted_indications: ["open-angle glaucoma", "primary hereditary glaucoma", "pulmonary hypertension", "kyphoscoliotic heart disease", "esotropia", "glaucoma 1, open angle", "headache disorder"]
-description: "Terlipressin : nouvelle indication prédite, Open-angle glaucoma (niveau de preuve L5). En France, AMM dans la BDPM : 4 (valides : 4)"
+description: "Terlipressin : nouvelle indication prédite, Open-angle glaucoma (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 4)"
 ---
 
 # Terlipressin
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être utile pour l'**hypertension pulm
 | Nouvelle Indication Prédite | Open-angle glaucoma |
 | Score de Prédiction TxGNN | 0.9978 |
 | Niveau de Preuve | L5 (hypertension pulmonaire) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
+| Nombre d'AMM | 5 (valides : 4) |
 | Décision Recommandée | Hold (question de recherche) |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

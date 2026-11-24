@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 484
 evidence_level: L4
 indication_count: 7
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Methadone : nouvelle indication prédite, Syndrome de Gilles de la Tourette (niveau de preuve L4). Indication d'origine : Non renseignée dans les données d'AMM"
 monitor_inn: "methadone"
 predicted_indications: ["Tourette syndrome", "nephrogenic syndrome of inappropriate antidiuresis", "trichotillomania", "headache disorder", "manic bipolar affective disorder", "trigeminal autonomic cephalalgia", "common cold"]
@@ -55,8 +55,8 @@ Le modèle TxGNN la prédit comme potentiellement efficace pour le **Syndrome de
 | Nouvelle Indication Prédite | Syndrome de Gilles de la Tourette |
 | Score de Prédiction TxGNN | 0,9976 |
 | Niveau de Preuve | L4 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 19 sur 19) |
+| Nombre d'AMM | 19 (valides : 19) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -110,7 +110,13 @@ Aucun essai clinique associé enregistré actuellement.
 - Récupérer et analyser la notice de l'ANSM (mises en garde, contre-indications), étape bloquante pour le criblage de sécurité
 - Obtenir les données détaillées sur le mécanisme d'action (DrugBank)
 - Réaliser une revue systématique de la littérature sur les opioïdes dans le syndrome de Gilles de la Tourette, puis, si elle est favorable, un essai exploratoire avec surveillance de l'ECG (QT)
-- Clarifier le statut réglementaire, 2 AMM valides sur 2 existant actuellement pour ces présentations commercialisées
+- Clarifier le statut réglementaire, 19 AMM valides sur 19 existant actuellement
+
+<!-- review:begin fr-lic-20261124-methadone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « 2 AMM valides sur 2 existant actuellement pour ces présentations commercialisées » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-methadone-1 -->
 
 **Remarque sur les autres indications prédites :** le trouble bipolaire maniaque (L3, étude de 1982 sur de petits effectifs, non confirmatoire) reste une question de recherche. Les céphalées (L4), l'autre candidat céphalalgique (céphalée trigémino-autonomique, L4, signal de **risque** d'aggravation) et le rhume banal (L5, sans lien) sont à mettre en attente. Le syndrome néphrogénique d'antidiurèse inappropriée et la trichotillomanie (L5, aucune donnée, mécanisme opposé à celui des antagonistes opioïdes) ne sont soutenus par aucune preuve.
 
@@ -125,6 +131,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « et les deux AMM sont aujourd'hui annulées » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-06 | Supprimé : « es deux AMM françaises sont annulées, et l » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Methadose Dispersible (methadone hydrochloride) prescribing information, SpecGx LLC](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=544483e6-6f9d-4371-9e93-313e54e0ea05) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

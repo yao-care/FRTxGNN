@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 693
 evidence_level: L5
 indication_count: 6
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "SCOPOLAMINE"
 predicted_indications: ["cauda equina syndrome", "obsolete neurogenic bladder (disease)", "papillary conjunctivitis", "atopic conjunctivitis", "rosacea conjunctivitis", "vernal conjunctivitis"]
-description: "Scopolamine : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 2 (valides : 2)"
+description: "Scopolamine : nouvelle indication prédite, Syndrome de la queue de cheval (cauda equina syndrome) (niveau de preuve L5). En France, AMM dans la BDPM : 3 (valides : 2)"
 ---
 
 # Scopolamine
@@ -50,8 +50,8 @@ mais **aucun essai clinique** ni **aucune publication** ne soutient actuellement
 | Nouvelle Indication Prédite | Syndrome de la queue de cheval (cauda equina syndrome) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 3) |
+| Nombre d'AMM | 3 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

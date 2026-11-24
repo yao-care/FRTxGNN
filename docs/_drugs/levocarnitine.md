@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 448
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 monitor_inn: "levocarnitine"
 predicted_indications: ["autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome", "brain small vessel disease 1 with or without ocular anomalies", "diabetic nephropathy", "rheumatoid arthritis", "sclerosing cholangitis", "gout", "brachydactyly-syndactyly syndrome", "colobomatous microphthalmia-rhizomelic dysplasia syndrome", "congestive heart failure", "hypoalphalipoproteinemia"]
 description: "Levocarnitine : nouvelle indication prédite, Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome (niveau de preuve L5). Indication d'origine : Non renseignée dan…"
@@ -51,8 +51,8 @@ Le premier résultat du classement TxGNN (syndrome familial autosomique dominant
 | Nouvelle Indication Predite (rang 1 TxGNN) | Autosomal dominant familial hematuria-retinal arteriolar tortuosity-contractures syndrome |
 | Score de Prédiction TxGNN (rang 1) | 0.9994 |
 | Niveau de Preuve (rang 1) | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée (rang 1) | Hold |
 | Indication la mieux étayée | Syndrome d'hématurie familiale autosomique dominante-tortuosité artériolaire rétinienne-contractures |
 

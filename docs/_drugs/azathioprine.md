@@ -7,7 +7,7 @@ evidence_level: L5
 indication_count: 7
 monitor_inn: "AZATHIOPRINE"
 predicted_indications: ["colobomatous microphthalmia-rhizomelic dysplasia syndrome", "brachydactyly-syndactyly syndrome", "WHIM syndrome", "granulomatous disease, chronic, autosomal recessive, 5", "osteoarthritis", "granulomatous disease with defect in neutrophil chemotaxis", "acromesomelic dysplasia, Hunter-Thompson type"]
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Azathioprine : nouvelle indication prédite, Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndro… (niveau de preuve L5). Indication …"
 ---
 
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour le **syndrome de mic
 | Nouvelle Indication Prédite | Syndrome de microphtalmie colobomateuse-dysplasie rhizomélique (colobomatous microphthalmia-rhizomelic dysplasia syndrome) |
 | Score de Prédiction TxGNN | 1,0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
-| Nombre d'AMM | 8 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 9) |
+| Nombre d'AMM | 9 (valides : 9) |
 | Décision Recommandée | Hold |
 
 > Note : le score brut est de 0,99999428 ; arrondi à quatre décimales, il s'affiche 1,0000.
@@ -81,7 +81,13 @@ Aucune littérature associée disponible actuellement.
 | 66685747 | IMUREL 50 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
 | 64841852 | IMUREL 25 mg, comprimé pelliculé | Comprimé pelliculé | Non renseignée |
 
-Seules cinq AMM sur les huit recensées sont présentées ici.
+Seules cinq AMM sur les neuf recensées sont présentées ici.
+
+<!-- review:begin fr-lic-20261124-azathioprine-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Seules cinq AMM sur les huit recensées sont présentées ici. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-azathioprine-1 -->
 
 ## Considérations de Sécurité
 
@@ -106,11 +112,12 @@ Les mises en garde et contre-indications issues de la notice ne sont pas disponi
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé (révisé le 2026-11-20 ; version antérieure conservée dans le journal) | [ChEMBL CHEMBL1542 (azathioprine): drug mechanism](https://www.ebi.ac.uk/chembl/explore/compound/CHEMBL1542) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

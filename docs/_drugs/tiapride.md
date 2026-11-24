@@ -5,7 +5,7 @@ parent: Preuves modérées (L3-L4)
 nav_order: 759
 evidence_level: L3
 indication_count: 1
-last_modified_at: 2026-11-12
+last_modified_at: 2026-11-24
 description: "Tiapride : nouvelle indication prédite, Migraine (niveau de preuve L3). Indication d'origine : Non disponible (texte d'indication vide dans les AMM)"
 monitor_inn: "TIAPRIDE"
 predicted_indications: ["migraine disorder"]
@@ -50,8 +50,8 @@ Le modèle TxGNN prédit qu'il pourrait être efficace pour la **migraine**, ave
 | Nouvelle Indication Prédite | Migraine |
 | Score de Prédiction TxGNN | 0,9918 |
 | Niveau de Preuve | L3 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 4) |
-| Nombre d'AMM | 4 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
+| Nombre d'AMM | 5 (valides : 5) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -97,7 +97,13 @@ Veuillez consulter la notice pour les informations de sécurité. Aucune mise en
 **Décision : Hold**
 
 **Justification :**
-Les preuves en faveur de la migraine sont de niveau L3 : un seul essai randomisé récent (pilote), le reste étant constitué d'études anciennes (1979-1984) de qualité méthodologique limitée. Le médicament est commercialisé en France (4 AMM valides sur 4) et les données de sécurité sont absentes, ce qui empêche le passage à l'étape d'évaluation de la sécurité.
+Les preuves en faveur de la migraine sont de niveau L3 : un seul essai randomisé récent (pilote), le reste étant constitué d'études anciennes (1979-1984) de qualité méthodologique limitée. Le médicament est commercialisé en France (5 AMM valides sur 5) et les données de sécurité sont absentes, ce qui empêche le passage à l'étape d'évaluation de la sécurité.
+
+<!-- review:begin fr-lic-20261124-tiapride-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « (4 AMM valides sur 4) » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-tiapride-1 -->
 
 **Pour avancer, les éléments suivants sont nécessaires :**
 - Récupérer les mises en garde et contre-indications de la notice officielle (site de l'ANSM), point bloquant actuel
@@ -122,6 +128,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-06 | Supprimé : « et les raisons de l'annulation des AMM » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

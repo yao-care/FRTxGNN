@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 231
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "dexketoprofen"
 predicted_indications: ["tendinitis", "fibromyalgia", "myositis fibrosa", "idiopathic granulomatous myositis", "rheumatoid arthritis", "migraine disorder", "headache disorder", "migraine with brainstem aura", "exostosis", "congenital hypotrichosis milia"]
-description: "Dexketoprofen : nouvelle indication prédite, Tendinitis (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 5)"
+description: "Dexketoprofen : nouvelle indication prédite, Tendinitis (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 5)"
 ---
 
 # Dexketoprofen
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour la **migraine** (r
 | Nouvelle Indication Prédite | Tendinitis |
 | Score de Prédiction TxGNN | 0.9990 |
 | Niveau de Preuve | L5 (selon le classement des données ; voir réserves ci-dessous) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 5) |
-| Nombre d'AMM | 5 (valides : 5) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 5 sur 6) |
+| Nombre d'AMM | 6 (valides : 5) |
 | Décision Recommandée | Proceed with Guardrails |
 
 **Remarque sur la sélection :** la première prédiction du classement (tendinite, score 0,9990) ne repose que sur une étude de douleur musculo-squelettique non spécifique à la tendinite (niveau L4, Hold). La migraine est retenue ici car c'est l'indication prédite la mieux documentée.

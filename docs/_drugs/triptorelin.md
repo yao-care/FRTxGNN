@@ -8,7 +8,7 @@ indication_count: 9
 last_modified_at: 2026-11-24
 monitor_inn: "triptorelin"
 predicted_indications: ["hypertrichosis (disease)", "Ambras type hypertrichosis universalis congenita", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "allergic urticaria", "familial male-limited precocious puberty", "familial isolated trichomegaly", "aromatase excess syndrome"]
-description: "Triptorelin : nouvelle indication prédite, hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 15 (valides : 14)"
+description: "Triptorelin : nouvelle indication prédite, hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 18 (valides : 14)"
 ---
 
 # Triptorelin
@@ -50,8 +50,8 @@ Le niveau de preuve est donc **L5** : prédiction du modèle uniquement.
 | Nouvelle Indication Prédite | hypertrichose (hypertrichosis (disease)) |
 | Score de Prédiction TxGNN | 1.0000 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 15) |
-| Nombre d'AMM | 15 (valides : 14) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 14 sur 18) |
+| Nombre d'AMM | 18 (valides : 14) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -80,7 +80,13 @@ Aucun essai clinique associé enregistré actuellement.
 | 65459503 | DECAPEPTYL LP 22,5 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 | 69847994 | SALVACYL L.P. 11,25 mg (IPSEN PHARMA) | Poudre et solvant pour suspension injectable à libération prolongée | Non renseignée (AMM active) |
 
-La liste ci-dessus présente 5 des AMM recensées ; 14 AMM sont valides et 1 est annulée.
+La liste ci-dessus présente 5 des AMM recensées ; 14 AMM sur 18 sont valides.
+
+<!-- review:begin fr-lic-20261124-triptorelin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « 14 AMM sont valides et 1 est annulée. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-triptorelin-1 -->
 
 ## Considérations de Sécurité
 
@@ -111,6 +117,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 |------|------|------|------|
 | 2026-11-13 | AMM valides : 14 → 15 (aucune annulée) | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), 1 des 15 AMM de triptoréline est abrogée (60928199) ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Trelstar (triptorelin pamoate) prescribing information, Verity Pharmaceuticals Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=b1b84d62-a369-a4b7-5c41-dd1f553a18f3) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

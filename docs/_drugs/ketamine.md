@@ -5,7 +5,7 @@ parent: Preuves élevées (L1-L2)
 nav_order: 422
 evidence_level: L1
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Ketamine : nouvelle indication prédite, Céphalée (headache disorder) (niveau de preuve L1). Indication d'origine : Non renseignée dans les AMM disponibles"
 monitor_inn: "ketamine"
 predicted_indications: ["headache disorder"]
@@ -50,8 +50,8 @@ avec **8 essais cliniques** et **20 publications** associés, dont une partie se
 | Nouvelle Indication Prédite | Céphalée (headache disorder) |
 | Score de Prédiction TxGNN | 0,9933 |
 | Niveau de Preuve | L1 (selon les règles du modèle : un seul essai de Phase 3 terminé, THINK, et un essai de Phase 3 encore en recrutement ; niveau à interpréter avec prudence) |
-| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
-| Nombre d'AMM | 2 (valides : 2) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 6) |
+| Nombre d'AMM | 6 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

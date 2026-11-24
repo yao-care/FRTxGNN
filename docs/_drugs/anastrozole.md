@@ -8,7 +8,7 @@ indication_count: 5
 monitor_inn: "ANASTROZOLE"
 predicted_indications: ["neuroblastoma", "vertebral anomalies and variable endocrine and T-cell dysfunction", "ganglioneuroblastoma (disease)", "retroperitoneal neoplasm", "monocytic leukemia"]
 last_modified_at: 2026-11-24
-description: "Anastrozole : nouvelle indication prédite, Neuroblastome (neuroblastoma) (niveau de preuve L5). En France, AMM dans la BDPM : 18 (valides : 16)"
+description: "Anastrozole : nouvelle indication prédite, Neuroblastome (neuroblastoma) (niveau de preuve L5). En France, AMM dans la BDPM : 20 (valides : 16)"
 ---
 
 # Anastrozole
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Neuroblastome (neuroblastoma) |
 | Score de Prédiction TxGNN | 0,9953 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 18) |
-| Nombre d'AMM | 18 (valides : 16) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 16 sur 20) |
+| Nombre d'AMM | 20 (valides : 16) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -72,7 +72,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les données compilées pour ce rapport recensent 18 AMM pour des spécialités d'anastrozole à un seul principe actif (comprimé pelliculé). Il s'agit pour l'essentiel de génériques ainsi que de deux présentations d'Arimidex. Aucun texte d'indication n'est renseigné dans les données locales.
+Les données compilées pour ce rapport recensent 20 AMM (16 valides) pour des spécialités d'anastrozole à un seul principe actif (comprimé pelliculé). Il s'agit pour l'essentiel de génériques ainsi que de deux présentations d'Arimidex. Aucun texte d'indication n'est renseigné dans les données locales.
+
+<!-- review:begin fr-lic-20261124-anastrozole-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « recensent 18 AMM pour des spécialités d'anastrozole » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-anastrozole-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -106,11 +112,12 @@ La prédiction repose uniquement sur le modèle (niveau L5), sans essai clinique
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Arimidex (anastrozole) prescribing information, ANI Pharmaceuticals, Inc.](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=acbfaaa9-503c-4691-9828-76a7146ed6de) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

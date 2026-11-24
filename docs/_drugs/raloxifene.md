@@ -8,7 +8,7 @@ indication_count: 4
 last_modified_at: 2026-11-24
 monitor_inn: "raloxifene"
 predicted_indications: ["duodenal ulcer (disease)", "hypoalphalipoproteinemia", "duodenal obstruction", "duodenogastric reflux"]
-description: "Raloxifene : nouvelle indication prédite, Ulcère duodénal (duodenal ulcer (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 1 (valides : 0)"
+description: "Raloxifene : nouvelle indication prédite, Ulcère duodénal (duodenal ulcer (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 9)"
 ---
 
 # Raloxifene
@@ -50,8 +50,8 @@ mais **aucun essai clinique** et **aucune publication** ne soutiennent actuellem
 | Nouvelle Indication Prédite | Ulcère duodénal (duodenal ulcer (disease)) |
 | Score de Prédiction TxGNN | 0.9972 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Non commercialisé (autorisations annulées : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 0) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 9 sur 10) |
+| Nombre d'AMM | 10 (valides : 9) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,12 +75,6 @@ Aucune littérature associée disponible actuellement.
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
 | 69445593 (annulée) | OPTRUMA 60 mg, comprimé pelliculé (ELI LILLY NEDERLAND BV, Pays-Bas) | Comprimé pelliculé | Non renseignée |
-
-<!-- review:begin fr-lic-20261124-raloxifene-1 -->
-
-> **Note de vérification (2026-11-24)**: Les données compilées pour ce rapport ne contiennent que l’AMM OPTRUMA 60 mg (69445593), abrogée le 15-10-2026 ; le statut « Non commercialisé » du Résumé rapide ne porte que sur cette AMM. D’après la BDPM (fichiers complets consultés le 2026-11-24), 9 autres spécialités à base de raloxifène 60 mg ont le statut « Autorisation active » : EVISTA (67365141), RALOXIFENE EG (61192704), ARROW (61542325), TEVA (67050747), ZENTIVA (67392156), VIATRIS (67482059), BIOGARAN (67760715), SANDOZ (68001016) et CRISTERS (69243410). Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
-
-<!-- review:end fr-lic-20261124-raloxifene-1 -->
 
 ## Considérations de Sécurité
 
@@ -127,7 +121,7 @@ Voici le journal de vérification de cette page : affirmations contrôlées à p
 | 2026-11-06 | Supprimé : « l'AMM étant annulée » | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-13 | Tableau : l'AMM 69445593 (OPTRUMA) est active, non annulée | Vérification retirée (2026-11-24 : d'après la BDPM (données du 2026-11-23 ; fiche produit consultée le 2026-11-24), l'AMM 69445593 (OPTRUMA 60 mg) est abrogée depuis le 15-10-2026 ; le texte d'origine est donc exact et la correction est retirée ; auparavant : Corrigé) | [Base de données publique des médicaments (BDPM) – CIS_bdpm](https://base-donnees-publique.medicaments.gouv.fr/index.php/download/file/CIS_bdpm.txt) |
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Evista (raloxifene hydrochloride) prescribing information, Eli Lilly and Company](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=fcaaa6dc-74e8-4fb8-800c-5574bf0f8de9) |
-| 2026-11-24 | Autres AMM de raloxifène actives dans la BDPM | Note ajoutée | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
+| 2026-11-24 | Autres AMM de raloxifène actives dans la BDPM | Vérification retirée (2026-11-24 : les 9 AMM actives de raloxifène (dont EVISTA 67365141) font désormais partie des données compilées (complément par code de substance BDPM, 2026-11-24) ; la note n'est plus nécessaire ; auparavant : Note ajoutée) | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

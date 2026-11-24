@@ -5,7 +5,7 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 672
 evidence_level: L5
 indication_count: 1
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 description: "Risdiplam : nouvelle indication prédite, Acné (niveau de preuve L5). Indication d'origine : Non précisée dans les données d'AMM compilées (le texte d'indication…"
 monitor_inn: "RISDIPLAM"
 predicted_indications: ["acne (disease)"]
@@ -50,8 +50,8 @@ Le modèle TxGNN le prédit comme potentiellement efficace pour l'**acné**, mai
 | Nouvelle Indication Prédite | Acné |
 | Score de Prédiction TxGNN | 0,9945 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 1 sur 1) |
-| Nombre d'AMM | 1 (valides : 1) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 2 sur 2) |
+| Nombre d'AMM | 2 (valides : 2) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

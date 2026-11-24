@@ -51,6 +51,17 @@ jobs:
       - name: Restore data from Release
         run: bash scripts/restore_data.sh
 
+      # 2026-11-24（用戶決定「依成分補進證據包、全站但排除離子類」）：drug_mapping 的成分名寫法對不到的同成分 AMM，
+      # 依 BDPM 物質代碼補收（scripts/add_current_amm.py，不放寬成分比對、全程不用 AI），再跑 license_refresh
+      - name: Add current AMMs (BDPM)
+        run: |
+          set -euo pipefail
+          for f in CIS_bdpm.txt CIS_COMPO_bdpm.txt; do
+            curl -fsSL --retry 3 -o "$RUNNER_TEMP/$f" "https://base-donnees-publique.medicaments.gouv.fr/download/file/$f"
+          done
+          out=$("$GITHUB_WORKSPACE/.venv/bin/python" scripts/add_current_amm.py --cis "$RUNNER_TEMP/CIS_bdpm.txt" --compo "$RUNNER_TEMP/CIS_COMPO_bdpm.txt")
+          echo "$out"; echo "$out" >> "$GITHUB_STEP_SUMMARY"
+
       - name: Refresh licenses
         id: refresh
         env:

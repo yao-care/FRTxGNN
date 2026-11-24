@@ -7,8 +7,8 @@ evidence_level: L5
 indication_count: 8
 monitor_inn: "cefazolin"
 predicted_indications: ["infectious otitis media", "bronchitis", "middle ear disease", "chronic otitis media", "suppurative otitis media", "otosalpingitis", "non-suppurative otitis media", "allergic otitis media"]
-last_modified_at: 2026-11-20
-description: "Cefazolin : nouvelle indication prédite, Otite moyenne infectieuse (infectious otitis media) (niveau de preuve L5). En France, AMM dans la BDPM : 8 (valides : 8)"
+last_modified_at: 2026-11-24
+description: "Cefazolin : nouvelle indication prédite, Otite moyenne infectieuse (infectious otitis media) (niveau de preuve L5). En France, AMM dans la BDPM : 10 (valides : 10)"
 ---
 
 # Cefazolin
@@ -50,8 +50,8 @@ mais aucun essai clinique n'est enregistré et les **2 publications** retrouvée
 | Nouvelle Indication Prédite | Otite moyenne infectieuse (infectious otitis media) |
 | Score de Prédiction TxGNN | 0,9944 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 8 sur 8) |
-| Nombre d'AMM | 8 (valides : 8) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 10 sur 10) |
+| Nombre d'AMM | 10 (valides : 10) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -75,7 +75,13 @@ Aucune de ces publications n'étudie directement la céfazoline comme traitement
 
 ## Informations de Marché en France
 
-La céfazoline est commercialisée en France. Les données compilées pour ce rapport recensent 8 autorisations de mise sur le marché pour des produits à base de céfazoline seule, sous forme de poudre pour solution injectable ou pour perfusion (voies IM/IV).
+La céfazoline est commercialisée en France. Les données compilées pour ce rapport recensent 10 autorisations de mise sur le marché pour des produits à base de céfazoline seule, sous forme de poudre pour solution injectable ou pour perfusion (voies IM/IV).
+
+<!-- review:begin fr-lic-20261124-cefazolin-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « recensent 8 autorisations de mise sur le marché » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-cefazolin-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -108,11 +114,12 @@ Aucun essai clinique n'est enregistré et aucune publication n'étudie directeme
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: Cefazolin (cefazolin sodium) prescribing information, Baxter Healthcare Corporation](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=d91a8d13-99a0-4d87-88dc-71cbd37922b4) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 

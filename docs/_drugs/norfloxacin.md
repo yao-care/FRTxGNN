@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 547
 evidence_level: L5
 indication_count: 10
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "norfloxacin"
 predicted_indications: ["hyperamylasemia", "polyclonal hyperviscosity syndrome", "congenital analbuminemia", "blood group incompatibility", "punctate epithelial keratoconjunctivitis", "premalignant hematological system disease", "diffuse scleroderma", "monoclonal gammopathy", "hematological disease associated with an acquired peripheral neuropathy", "septicemic plague"]
-description: "Norfloxacin : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). En France, AMM dans la BDPM : 5 (valides : 4)"
+description: "Norfloxacin : nouvelle indication prédite, Hyperamylasémie (hyperamylasemia) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 4)"
 ---
 
 # Norfloxacin
@@ -49,8 +49,8 @@ La norfloxacine est une fluoroquinolone antibactérienne, utilisée à l'origine
 | Nouvelle Indication Prédite | Hyperamylasémie (hyperamylasemia) |
 | Score de Prédiction TxGNN | 0.9970 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 5) |
-| Nombre d'AMM | 5 (valides : 4) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 4 sur 6) |
+| Nombre d'AMM | 6 (valides : 4) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 435
 evidence_level: L5
 indication_count: 5
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "lanreotide"
 predicted_indications: ["hypertrichosis (disease)", "malformation syndrome with odontal and/or periodontal component", "syndrome with a Dandy-Walker malformation as major feature", "isolated genetic hair shaft abnormality", "Ambras type hypertrichosis universalis congenita"]
-description: "Lanreotide : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 6 (valides : 6)"
+description: "Lanreotide : nouvelle indication prédite, Hypertrichose (hypertrichosis (disease)) (niveau de preuve L5). En France, AMM dans la BDPM : 7 (valides : 6)"
 ---
 
 # Lanreotide
@@ -49,8 +49,8 @@ Le modèle TxGNN prédit qu'elle pourrait être efficace pour l'**hypertrichose*
 | Nouvelle Indication Prédite | Hypertrichose (hypertrichosis (disease)) |
 | Score de Prédiction TxGNN | 0.9997 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 6) |
-| Nombre d'AMM | 6 (valides : 6) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 6 sur 7) |
+| Nombre d'AMM | 7 (valides : 6) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?

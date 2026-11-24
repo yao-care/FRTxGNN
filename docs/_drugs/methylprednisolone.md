@@ -5,10 +5,10 @@ parent: Prédiction du modèle uniquement (L5)
 nav_order: 490
 evidence_level: L5
 indication_count: 8
-last_modified_at: 2026-11-20
+last_modified_at: 2026-11-24
 monitor_inn: "methylprednisolone"
 predicted_indications: ["alopecia mucinosa", "telogen effluvium", "Quinquaud's folliculitis decalvans", "alopecia antibody deficiency", "hereditary hypotrichosis with recurrent skin vesicles", "alopecia-intellectual disability-hypergonadotropic hypogonadism syndrome", "atrichia with papular lesions", "alopecia universalis onychodystrophy vitiligo"]
-description: "Methylprednisolone : nouvelle indication prédite, Alopécie mucineuse (alopecia mucinosa) (niveau de preuve L5). En France, AMM dans la BDPM : 11 (valides : 11)"
+description: "Methylprednisolone : nouvelle indication prédite, Alopécie mucineuse (alopecia mucinosa) (niveau de preuve L5). En France, AMM dans la BDPM : 17 (valides : 17)"
 ---
 
 # Methylprednisolone
@@ -50,8 +50,8 @@ mais **aucun essai clinique et aucune publication** ne soutiennent actuellement 
 | Nouvelle Indication Prédite | Alopécie mucineuse (alopecia mucinosa) |
 | Score de Prédiction TxGNN | 0.9999 |
 | Niveau de Preuve | L5 |
-| Statut de Marché en France | Commercialisé (autorisations valides : 11 sur 11) |
-| Nombre d'AMM | 11 (valides : 11) |
+| Statut de Marché en France | Commercialisé (autorisations valides : 17 sur 17) |
+| Nombre d'AMM | 17 (valides : 17) |
 | Décision Recommandée | Hold |
 
 ## Pourquoi Cette Prédiction est-elle Raisonnable ?
@@ -70,7 +70,13 @@ Aucune littérature associée disponible actuellement.
 
 ## Informations de Marché en France
 
-Les 11 AMM recensées sont valides. Principales présentations :
+Les 17 AMM recensées sont valides. Principales présentations :
+
+<!-- review:begin fr-lic-20261124-methylprednisolone-1 -->
+
+> **Correction de vérification (2026-11-24)**: Texte initial : « Les 11 AMM recensées sont valides. » Corrigé d'après la BDPM (fichiers complets du 2026-11-24) : les AMM de ce médicament ont été complétées par code de substance BDPM (certaines n'étaient pas reprises dans les données compilées) ; les chiffres actuels figurent dans le Résumé rapide. Source: [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement).
+
+<!-- review:end fr-lic-20261124-methylprednisolone-1 -->
 
 | Numéro d'AMM | Nom du Produit | Forme Pharmaceutique | Indication Approuvée |
 |---------|------|------|-----------|
@@ -103,11 +109,12 @@ Veuillez consulter la notice pour les mises en garde et contre-indications déta
 
 ## Journal de vérification
 
-Ci-dessous le journal de vérification de cette page. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle) ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits.
+Voici le journal de vérification de cette page : affirmations contrôlées à partir des données officielles d'AMM (Base de données publique des médicaments (BDPM)). Les corrections se limitent aux faits de base ; les prédictions du modèle, les niveaux de preuve et les conclusions n'ont pas été réécrits. La phrase indiquant que les données sur le mécanisme d'action n'étaient pas disponibles a été remplacée par un extrait des informations de prescription officielles citées (avec traduction non officielle).
 
 | Date de vérification | Élément | Action | Source |
 |------|------|------|------|
 | 2026-11-19 | Phrase « données sur le mécanisme d'action non disponibles » remplacée par un extrait de l'étiquetage américain | Phrase indiquant l'absence de données sur le mécanisme d'action remplacée par un extrait sourcé | [DailyMed: methylprednisolone prescribing information, American Health Packaging](https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=97256c7e-5694-4148-926f-594b9d5c34f4) |
+| 2026-11-24 | Nombre d'AMM mis à jour | Corrigé | [Base de données publique des médicaments (BDPM) – CIS_bdpm.txt et CIS_COMPO_bdpm.txt](https://base-donnees-publique.medicaments.gouv.fr/telechargement) |
 
 <!-- review:end log -->
 
